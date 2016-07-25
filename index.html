@@ -1,99 +1,124 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
-    <script src="https://use.fontawesome.com/25d1bf2429.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="AzerothCore, the open source MMORPG server application">
+    <meta name="author" content="ShinDarth">
+    <link rel="icon" href="images/favicon.ico">
 
+    <title>AzerothCore</title>
+
+    <link href="stylesheets/bootstrap.min.css" rel="stylesheet">
+    <link href="stylesheets/font-awesome.min.css" rel="stylesheet">
+    <link href="stylesheets/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-    <title>Azerothcore Community</title>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
   </head>
 
   <body>
-    <header>
-      <div class="inner">
-        <h1>Azerothcore</h1>
-        <h2></h2>
-        <a href="https://github.com/azerothcore/azerothcore" class="button"><small>View project on</small> GitHub</a>
-      </div>
-    </header>
 
-    <div id="content-wrapper">
-      <div class="inner clearfix">
-         <aside id="sidebar">
-          <a href="https://github.com/azerothcore/azerothcore/releases" class="button">
-            <small>Download</small>
-            Latest
+    <nav class="navbar navbar-inverse navbar-fixed-top" id="main-navbar">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+            <img src="images/logo-small.png" alt="AzerothCore logo small"> AzerothCore
           </a>
-          <br>        
-                    
-          <p><a href="https://gitter.im/azerothcore/azerothcore"><h2><i class="fa fa-comments-o" aria-hidden="true"></i> Chat</h2></a> for IRC follow istruction: <a href="https://irc.gitter.im/">https://irc.gitter.im/</a> </p>
-          
-          <p><a href="http://azerothcore.altervista.org/forum"><h2><i class="fa fa-newspaper-o" aria-hidden="true"></i> Forum</h2></a> Topics , News & Resources about AzerothCore</p>
-          
-          <p><a href="https://github.com/azerothcore/azerothcore/wiki"><h2><i class="fa fa-wikipedia-w" aria-hidden="true"></i> Wiki</h2></a> Documentation</p>
-          
-          <p><a href="https://github.com/azerothcore/azerothcore/issues"><h2><i class="fa fa-bug" aria-hidden="true"></i> Issue Tracker</h2></a> Bugs & Reports</p>
-
-        </aside>
-        
-        <section id="main-content">
-                <p><b>AzerothCore</b> is a project based on a framework for MMO Applications that's built using C++ and MySQL for the DB content.</p> 
-                <p>It's derived chronologically from Mangos -> TrinityCore -> Sunwell Core</p>
-                <p>Currently compatible with World of Warcraft 3.3.5a as an educational project</p>
-                <br>
-                <p>Our goals are very simple:</p>
-                <ul>
-                  <li>
-                    <p>
-                    <strong>Offer a FULLY WORKING game experience!</strong>
-                    </p>
-                    <p>
-                      Before <strong>code optimization</strong> and other server features not related to game
-                    </p>
-                  </li>
-                  <li>    
-                    <p>
-                    <strong>Doing Software Development Right!</strong>
-                    </p>
-                    <p>
-                      We want to create a real development life cycle! Creating stable and fully working versions ( stable branches with support for only bug, security and crash fixes ) with all game contents playable.
-                      Followed by <strong>in developments</strong> versions where implementing new server features and optimizing code. These development branches will become stable themseves then.
-                    </p>
-                  </li>
-                  <li>    
-                    <p>
-                    <strong>Be Modular!</strong>
-                    </p>
-                    <p>
-                      Using submodules ,CMAKE dynamic inclusions and improving our scripting system. You will be able to use our framework to build your own MMO Project and easily extending it with your custom scripts.
-                    </p>
-                  </li>
-                </ul>
-
-        <p>AzerothCore is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; version 2 of the License.</p>
-        </p>  
-        
-        <hr>
-        <p>This project is <strong>no-profit and fully powered by github</strong>!</p>
-        <p>So you can use just your github account to join our development platforms!</p>
-        <br>
-        <p>
-          If you want contributing to develop this site, please fork it, edit and send a <strong>pull request</strong> <a href="https://github.com/azerothcore/azerothcore.github.io">HERE</a>
-        </p>
-        <hr>
-        </section>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="https://github.com/AzerothCore/azerothcore-wotlk">Repository</a></li>
+            <li><a href="https://gitter.im/azerothcore/azerothcore">Chat</a></li>
+            <li><a href="http://azerothcore.altervista.org/forum">Forum</a></li>
+            <li><a href="https://github.com/azerothcore/azerothcore/wiki">Wiki</a></li>
+            <li><a href="https://github.com/azerothcore/azerothcore/issues">Issue tracker</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
       </div>
+    </nav>
+
+    <div class="header">
+      <div class="container">
+        <img class="logo" src="images/logo.png" alt="AzerothCore logo">
+        <h1>AzerothCore</h1>
+        <p class="lead">The open source MMORPG server application</p>
+
+        <a href="https://github.com/AzerothCore/azerothcore-wotlk/wiki/Installation">
+          <button class="btn btn-lg btn-danger btn-installation">Installation instructions <i class="fa fa-angle-right" aria-hidden="true"></i></button>
+        </a>
+
+        <div class="github-buttons">
+          <iframe src="https://ghbtns.com/github-btn.html?user=azerothcore&repo=azerothcore-wotlk&type=star&count=true" frameborder="0" scrolling="0" width="100px" height="20px"></iframe>
+          <iframe src="https://ghbtns.com/github-btn.html?user=azerothcore&repo=azerothcore-wotlk&type=fork&count=true" frameborder="0" scrolling="0" width="100px" height="20px"></iframe>
+        </div>
+      </div><!-- /.container -->
     </div>
 
-  
+    <div class="features">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-sm-6">
+            <div class="feature">
+              <h3><i class="fa fa-cubes"></i> Solid base</h3>
+              <p>AzerothCore has a strong and solid base, coming from years of development: it is based on MaNGOS, TrinityCore and SunwellCore.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="feature">
+              <h3><i class="fa fa-gamepad"></i> Playable</h3>
+              <p>Our main goal is to provide a fully working and playable game server application. Instead of following strict development patterns like our predecessors, we focus mainly on the final user experience.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="feature">
+              <h3><i class="fa fa-github"></i> Open Source</h3>
+              <p>AzerothCore modules are released under <a href="https://www.gnu.org/licenses/agpl-3.0.en.html">GNU AGPL 3.0</a> and <a href="https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html">GNU GPL 2.0</a>, both those liceses are totally free and open source. We believe in <a href="https://www.gnu.org/philosophy/free-sw.en.html">the free software</a>, we love cooperation.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="feature">
+              <h3><i class="fa fa-check-circle" aria-hidden="true"></i> Tested, realiable, updated</h3>
+              <p>SunwellCore, the father of AzerothCore, had been running with thousands of players for years. The goal of AzerothCore is to keep this game application updated, continuing its development.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="feature">
+              <h3><i class="fa fa-users"></i> Community-driven</h3>
+              <p>The main strenght of AzerothCore is its community. Users can help us by improving our code base or simply by submitting any bug report. If you want to <a href="https://github.com/AzerothCore/azerothcore-wotlk/wiki/Contribute">contribute</a>, we'd love it!</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="feature">
+              <h3><i class="fa fa-cogs"></i> Modular</h3>
+              <p>We try to make our software as <a href="https://en.wikipedia.org/wiki/Modular_programming">modular</a> as possible, because modular software is much easier to be developed.</p>
+            </div>
+          </div>
+        </div>
+      </div><!-- /.container -->
+    </div>
+
+    <div class="footer">
+      <div class="container">
+        <p>&copy; AzerothCore <script>document.write(new Date().getFullYear())</script> &#9679; Brought to you with <i class="fa fa-heart" aria-hidden="true"></i> and C++</p>
+        <p>Website created by <a href="http://github.com/ShinDarth">ShinDarth</a></p>
+      </div><!-- /.container -->
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="javascripts/bootstrap.min.js"></script>
+    <script src="javascripts/main.js"></script>
   </body>
 </html>
