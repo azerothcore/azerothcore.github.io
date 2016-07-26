@@ -6,13 +6,14 @@
 $(function() {
 
   // Sticky navbar
-  if( $(window).scrollTop() > 4 ) {
+  var threshold = 50;
+  if( $(window).scrollTop() > threshold ) {
     $('#main-navbar').addClass('navbar-position-scroll');
   } else {
     $('#main-navbar').addClass('navbar-position-top');
   }
   document.onscroll = function() {
-    if( $(window).scrollTop() > 4 ) {
+    if( $(window).scrollTop() > threshold ) {
       $('#main-navbar').addClass('navbar-position-scroll');
       $('#main-navbar').removeClass('navbar-position-top');
     } else {
