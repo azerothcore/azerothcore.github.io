@@ -17,17 +17,25 @@
   color: #ffc2b3;
 }
 
+@media(min-width: 768px) {
+  #main-navbar #navbar ul > li > a {
+    padding-left: 13px;
+    padding-right: 13px;
+    font-size: 13px;
+  }
+}
+
 @media(min-width: 992px) {
-  #main-navbar #navbar ul li a {
-    padding-left: 24px;
-    padding-right: 24px;
+  #main-navbar #navbar ul > li > a {
+    padding-left: 17px;
+    padding-right: 17px;
   }
 }
 
 @media(min-width: 1200px) {
-  #main-navbar #navbar ul li a {
-    padding-left: 30px;
-    padding-right: 30px;
+  #main-navbar #navbar ul > li > a {
+    padding-left: 24px;
+    padding-right: 24px;
   }
 }
 
@@ -86,12 +94,6 @@
 
 .header .github-buttons {
   margin-top: 14px;
-  /*
-  position: absolute;
-  bottom: 10px;
-  left: 50%;
-  transform: translateX(-50%);
-  */
 }
 
 .features {
@@ -119,3 +121,44 @@
 .footer a {
   color: #d90000;
 }
+
+
+
+.btn-container-lg {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  line-height: 20px;
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+}
+.btn-container-md {
+  position: absolute;
+  bottom: 10px;
+  right: 50%;
+  transform: translateX(50%);
+}
+.btn-social {
+  color: #fff;
+  background-color: #AC0101;
+  background-color: #CA0000;
+  border-radius: 2em;
+  padding: 4px;
+}
+.btn-social:hover,
+.btn-social:active,
+.btn-social:focus {
+  color: #fff !important;
+}
+.btn-container-lg .btn-social {
+  width: 30px;
+  height: 30px;
+}
+.btn-container-md .btn-social {
+  width: 36px;
+  height: 36px;
+  margin-right: 1px;
+  margin-left: 1px;
+  padding: 7px;
+}
+
