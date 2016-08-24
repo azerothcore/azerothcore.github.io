@@ -21,4 +21,9 @@ $(function() {
       $('#main-navbar').removeClass('navbar-position-scroll');
     }
   };
+
+
+  $('#commits').githubInfoWidget(
+    { user: 'azerothcore', repo: 'azerothcore-wotlk', branch: 'master', last: 15, limitMessageTo: 60 });
+
 });
