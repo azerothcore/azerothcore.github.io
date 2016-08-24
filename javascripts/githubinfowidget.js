@@ -18,7 +18,6 @@
           user = widget.options.user,
           repo = widget.options.repo,
           branch = widget.options.branch,
-          avatarSize = widget.options.avatarSize || 20,
           last = void 0 === widget.options.last ? 0 : widget.options.last,
             limitMessage = void 0 === widget.options.limitMessageTo ? 0 : widget.options.limitMessageTo
             element.append("<p>Widget intitalization, please wait...</p>"), getCommits(user, repo, branch, function(data) {
@@ -26,8 +25,8 @@
                 return 0 === current ? 'class="first"' : current === totalCommits - 1 ? 'class="last"' : ""
               }
 
-              function avatar(hash, size) {
-                return '<img class="github-avatar" src="http://www.gravatar.com/avatar/' + hash + "?s=" + size + '"/>'
+              function avatar(user) {
+                return '<img class="github-avatar" src="'+user.avatar_url+'"/>'
               }
 
               function author(login) {
@@ -62,7 +61,7 @@
               element.empty();
               for (var list = $('<ul class="github-commits-list">').appendTo(element), c = 0; totalCommits > c; c++) {
                 var commit = commits[c];
-                list.append("<li " + itemClass(c, totalCommits) + " >" + " " + (null !== commit.author ? avatar(commit.author.gravatar_id, avatarSize) : "") + " " + (null !== commit.author ? author(commit.author.login) : commit.commit.committer.name) + " committed " + message(replaceHtmlTags(commit.commit.message), commit.sha) + " " + when(commit.commit.committer.date) + "</li>")
+                list.append("<li " + itemClass(c, totalCommits) + " >" + " " + (null !== commit.author ? avatar(commit.author) : "") + " " + (null !== commit.author ? author(commit.author.login) : commit.commit.committer.name) + " committed " + message(replaceHtmlTags(commit.commit.message), commit.sha) + " " + when(commit.commit.committer.date) + "</li>")
               }
               callback(element)
             })
