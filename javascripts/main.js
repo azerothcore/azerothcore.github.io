@@ -26,4 +26,12 @@ $(function() {
   $('#commits').githubInfoWidget(
     { user: 'azerothcore', repo: 'azerothcore-wotlk', branch: 'master', last: 15, limitMessageTo: 60 });
 
+	$('.chat_head').click(function(){
+		$('.chat_body').slideToggle('slow');
+	});
+	
+	$('.close').click(function(){
+		$('.msg_box').hide();
+	});
+
 });
