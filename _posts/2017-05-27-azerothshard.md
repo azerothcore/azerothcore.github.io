@@ -1,8 +1,11 @@
 ---
 title: AzerothShard
-homepage: https://azerothshard.org/
+url: https://azerothshard.org/
 author: Yehonal
-thumbnail: https://azerothshard.org/wp-content/uploads/2016/05/Forum_Banner.png
+image: https://azerothshard.org/wp-content/uploads/2016/05/Forum_Banner.png
+categories: wotlk
+tags: wotlk pve pvp rpg
+published: true
 ---
 
 
