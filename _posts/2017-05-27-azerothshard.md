@@ -1,7 +1,7 @@
 ---
 title: AzerothShard
 website: https://azerothshard.org/
-author: Yehonal
+author: AzerothShard
 image: https://azerothshard.org/wp-content/uploads/2016/05/Forum_Banner.png
 tags: wotlk pve pvp rpg
 published: true
