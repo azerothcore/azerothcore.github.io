@@ -9,3 +9,8 @@ published: true
 
 
 Italian PvE/PvP/RPG Community
+
+
+AzerothShard loves AzerothCore because its architecture allows our dev team to create separated modules to implement new features. Instead of Patching everything!
+
+Moreover it's focused on a working gameplay, something that gamers really love!
