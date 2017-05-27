@@ -2,6 +2,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    {% capture lchar %}{{page.url | slice: -1, 1}}{% endcapture %}
+    {% capture url %}{% if lchar == "/" %}{{page.url}}index.html{% else %}{{ page.url | default: 'index.html' }}{% endif %}{% endcapture %}
+    
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -117,7 +120,8 @@
           You can even edit this site sending a PR <a href="https://github.com/azerothcore/azerothcore.github.io">here</a>
         </p>
         <p>
-          WebSite <a href="https://github.com/azerothcore/azerothcore.github.io/graphs/contributors">Contributors</a>
+          WebSite <a href="https://github.com/azerothcore/azerothcore.github.io/graphs/contributors">Contributors</a> 
+          - <a target="_blank" href="{{ site.github.repository_url }}/{{{page.folder}}{{url | remove: '.html' | append: ''}}/_edit">Edit this page</a>
         </p>
       </div>
       <div class="chat_box">
