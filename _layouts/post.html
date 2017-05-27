@@ -4,7 +4,7 @@ layout: default
 
 <div class="header">
     <div class="container">
-    <img class="logo" src="images/logo.png" alt="AzerothCore logo">
+    <img class="logo" src="{{ '/images/logo.png' | relative_url }}" alt="AzerothCore logo">
     <h1>AzerothCore</h1>
     <p class="lead">The open source MMORPG server application</p>
     </div><!-- /.container -->
@@ -13,7 +13,7 @@ layout: default
 <div id="content" class="container">
     <main class="post">
     <section class="thumbnail-wrapper">
-        <img src="{{ page.thumbnail }}" class="thumbnail">
+        <img src="{{ page.image }}" class="thumbnail">
     </section>
     <section>
         <h1>{{ page.title }}</h1>
@@ -26,15 +26,15 @@ layout: default
         <nav>
         {% if page.homepage %}
         <a class="btn" href="{{ page.homepage }}">
-            <i class="glyphicon glyphicon-home"></i> Homepage
+            <i class="fa fa-home" aria-hidden="true"></i> Homepage
         </a>
         {% endif %}
         </nav>
     </section>
     <div class="chevrons">
-        <i class="glyphicon glyphicon-chevron-left"
+        <i class="fa fa-arrow-left" aria-hidden="true"
         onclick="previous('{{ page.title }}')"></i>
-        <i class="glyphicon glyphicon-chevron-right"
+        <i class="fa fa-arrow-right" aria-hidden="true"
         onclick="next('{{ page.title }}')"></i>
     </div>
     <hr />
