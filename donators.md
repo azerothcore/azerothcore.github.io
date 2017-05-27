@@ -1,6 +1,6 @@
 # Donators
 
-Support <a href="./wowgaming">WoWGaming</a> and its development by making a donation! You can donate any amount you wish using Paypal or credit card by pressing the button below.
+Support AzerothCore and its development by making a donation! You can donate any amount you wish using Paypal or credit card by pressing the button below.
 
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
     <input type="hidden" name="cmd" value="_s-xclick">
@@ -16,9 +16,11 @@ If you donate €10 or more, you may provide a website URL that your name in the
 
 <h2><strong>2017</strong></h2>
 
+2016-02-03 - [AzerothShard](https://www.azerothshard.org)   - (€25.00)
+
 <h2><strong>2016</strong></h2>
 
-2016-11-05 - [AzerothShard](https://www.azerothshard.org)   - (€50.00)
+2016-11-05 - [AzerothShard](https://www.azerothshard.org)   - (€25.00)
 
 &nbsp;
 
