@@ -7,7 +7,7 @@ SOON AVAILABLE
 
 ## AZEROTHCORE DEMO
 
-**address:** server1.azerothcore.org:60000
+**address:** server1.azerothcore.org
 
 
 
