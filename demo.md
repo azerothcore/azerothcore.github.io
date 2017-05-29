@@ -21,7 +21,7 @@ SOON AVAILABLE
 
 You can even use another compatible AzerothCore client connecting to following domain:
 
-**address:** server1.azerothcore.org
+**address:** server.azerothcore.org
 
 
 ---
@@ -32,7 +32,7 @@ You can even use another compatible AzerothCore client connecting to following d
 
 To compare AzerothCore features with TrinityCore one, you can use this address to connect to TC with your client and previous created demo account.
 
-**address:** server1.azerothcore.org:60001
+**address:** server.azerothcore.org:60001
 
 
 
