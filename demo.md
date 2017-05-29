@@ -1,6 +1,6 @@
 # Demo
 
-First of all, register a **temporary** account here: http://server.azerothcore.org/demo/
+First of all, register a **temporary** account [HERE](http://server.azerothcore.org/demo/)
 
 Then you can test azerothcore using one of following method: 
 
