@@ -16,7 +16,7 @@ You can test our demo webclient here (it's an alpha version)
 
 **[START WEBCLIENT DEMO](http://webclient.azerothcore.org/)**
 
-Steps to test webclient: [TOPIC](http://azerothcore.altervista.org/forum/viewtopic.php?f=6&t=275)
+Steps to test webclient: [READ](http://azerothcore.altervista.org/forum/viewtopic.php?f=6&t=275)
 
 
 **NOTE:** Currently you cannot create a character via webclient demo
