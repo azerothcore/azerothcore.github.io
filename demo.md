@@ -16,13 +16,13 @@ You can test our demo webclient here (it's an alpha version)
 
 **[START WEBCLIENT DEMO](http://webclient.azerothcore.org/)**
 
-How to test webclient: http://azerothcore.altervista.org/forum/viewtopic.php?f=6&t=275
+How to test webclient: [](http://azerothcore.altervista.org/forum/viewtopic.php?f=6&t=275)
 
 You can login and test the chat system!
 
 **NOTE:** Currently you cannot create a character via webclient demo
 
-Please help its development: https://github.com/azerothcore/democlient-app
+Please help its development: [](https://github.com/azerothcore/democlient-app)
 
 ---
 
