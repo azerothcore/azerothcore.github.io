@@ -10,7 +10,7 @@ Then you can test azerothcore using one of following method:
 
 ---
 
-#### WEB CLIENT DEMO
+#### 1. WEB CLIENT DEMO
 
 You can test our demo webclient here (it's an alpha version)
 
@@ -26,7 +26,7 @@ Please help its development: https://github.com/azerothcore/democlient-app
 
 <br>
 
-#### AZEROTHCORE DIRECT ACCESS
+#### 2. AZEROTHCORE DIRECT ACCESS
 
 You can even use another compatible AzerothCore client connecting to following domain:
 
@@ -37,7 +37,7 @@ You can even use another compatible AzerothCore client connecting to following d
 
 <br>
 
-#### TRINTIYCORE DEMO
+#### 3. TRINTIYCORE DEMO
 
 To compare AzerothCore features with TrinityCore one, you can use this address to connect to TC with your client and previous created demo account.
 
