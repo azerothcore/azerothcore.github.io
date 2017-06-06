@@ -1,6 +1,8 @@
 # Demo
 
-First of all, register a **temporary** account [HERE](http://server.azerothcore.org/demo/)
+First of all, register a **temporary** account here:
+
+**[REGISTER A DEMO ACCOUNT](http://server.azerothcore.org/demo/)**
 
 Then you can test azerothcore using one of following method: 
 
@@ -10,8 +12,15 @@ Then you can test azerothcore using one of following method:
 
 #### WEB CLIENT DEMO
 
-SOON AVAILABLE
+You can test our demo webclient here (it's an alpha version)
 
+**[START WEBCLIENT DEMO](http://webclient.azerothcore.org/)**
+
+You can login and test the chat system!
+
+**NOTE:** Currently you cannot create a character via webclient demo
+
+Please help its development: https://github.com/azerothcore/democlient-app
 
 ---
 
