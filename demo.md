@@ -40,7 +40,8 @@ You can even use another compatible AzerothCore client connecting to following d
 
 #### 3. TRINTIYCORE DEMO
 
-To compare AzerothCore features with TrinityCore one, you can use this address to connect to TC with your client and previous created demo account.
+To compare AzerothCore features with TrinityCore one, you can use this address to connect to TC with your client and previous created demo account. 
+NOTE: It's mostly offline to save resources, so if you want to test something on this server, please send a request on our discord channel and we will run it.
 
 **address:** server.azerothcore.org:60001
 
