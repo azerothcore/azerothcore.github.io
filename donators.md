@@ -17,6 +17,8 @@ If you donate €10 / $10 or more, you may provide a website URL that your name 
 
 <h2><strong>2017</strong></h2>
 
+2017-08-23 - [LanPy](http://www.lanpy.com/)
+
 2016-02-03 - [AzerothShard](https://www.azerothshard.org)
 
 <h2><strong>2016</strong></h2>
