@@ -7,6 +7,6 @@ tags: wotlk pve pvp rpg
 published: true
 ---
 
-"Wowmythic" is a Latin/Spanish server with progressive content. 
+Latin/Spanish server with progressive content. 
 
 Run now with "azerothcore" because we like the development that has achieved and the independence of the core whit an excellent performance.
