@@ -1,6 +1,6 @@
 ---
 title: WowMythic
-website: www.wowmythic.com
+website: http://www.wowmythic.com
 author: Kyrion
 image: http://www.wowmythic.com/application/images/misc/logo%20mythic%20200x97.png
 tags: wotlk pve pvp rpg
