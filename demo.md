@@ -1,5 +1,11 @@
 # Demo
 
+We offer the possibility to try AzerothCore before install using our web client or your own. 
+
+This server is often updated with master branch of AzerothCore repository
+
+#### 1 ACCOUNT REGISTRATION
+
 First of all, register a **temporary** account here:
 
 **[REGISTER A DEMO ACCOUNT](http://server.azerothcore.org/demo/)**
@@ -10,7 +16,7 @@ Then you can test azerothcore using one of following method:
 
 ---
 
-#### 1. WEB CLIENT DEMO
+#### 2 WEB CLIENT DEMO
 
 You can test our demo webclient here (it's an alpha version)
 
@@ -27,25 +33,11 @@ Please help its development: [REPOSITORY](https://github.com/azerothcore/democli
 
 <br>
 
-#### 2. AZEROTHCORE DIRECT ACCESS
+#### 3 AZEROTHCORE DIRECT ACCESS
 
 You can even use another compatible AzerothCore client connecting to following domain:
 
 **address:** server.azerothcore.org
-
-
----
-
-<br>
-
-#### 3. TRINTIYCORE DEMO
-
-To compare AzerothCore features with TrinityCore one, you can use this address to connect to TC with your client and previous created demo account. 
-NOTE: It's mostly offline to save resources, so if you want to test something on this server, please send a request on our discord channel and we will run it.
-
-**address:** server.azerothcore.org:60001
-
-
 
 
 ---
