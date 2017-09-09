@@ -4,6 +4,8 @@ We offer the possibility to try AzerothCore before install using our web client 
 
 This server is often updated with master branch of AzerothCore repository
 
+<br>
+
 #### 1 ACCOUNT REGISTRATION
 
 First of all, register a **temporary** account here:
