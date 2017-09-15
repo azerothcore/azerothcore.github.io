@@ -7,7 +7,7 @@ You can donate for AzerothShard in 2 ways:
 
 ### 1) Donation to keep online our infrastructure
 
-http://azerothcore.altervista.org/wp/donations/
+[GO TO DONATION PAGE](http://azerothcore.altervista.org/wp/donations/)
 
 NOTE: If you donate €10 / $10 or more, you may provide a website URL that your name in the list below should link to for a full year. Donate €25 / $25 or more and your link will stay forever!(edit this page adding your name/link and donation amount)
 
@@ -15,7 +15,7 @@ NOTE: If you donate €10 / $10 or more, you may provide a website URL that your
 
 Using bountysource platform you can ask the opensource to work on a specific issue motivating them with a donation.
 
-https://www.bountysource.com/teams/azerothcore/issues
+[GO TO BOUNTYSOURCE](https://www.bountysource.com/teams/azerothcore/issues)
 
 <a href="https://www.bountysource.com/teams/azerothcore/issues"><img class="alignleft size-medium" src="https://d2bbtvgnhux6eq.cloudfront.net/assets/Bountysource-green-f2f437ed727ee2cacaee3f559c1907cb.png" width="200" height="60" /></a>
 
