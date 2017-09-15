@@ -7,7 +7,7 @@ You can donate for AzerothShard in 2 ways:
 
 ### 1) Donation to keep online our infrastructure
 
-http://azerothcore.altervista.org/wp/donators/
+http://azerothcore.altervista.org/wp/donations/
 
 NOTE: If you donate €10 / $10 or more, you may provide a website URL that your name in the list below should link to for a full year. Donate €25 / $25 or more and your link will stay forever!(edit this page adding your name/link and donation amount)
 
