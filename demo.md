@@ -1,8 +1,8 @@
 # Demo
 
-We offer the possibility to try AzerothCore before install using our web client or your own. 
+We offer the possibility to try AzerothCore before install it, using our web client or your own. 
 
-This server is often updated with master branch of AzerothCore repository
+NOTE: This server is often updated with master branch of AzerothCore repository
 
 <br>
 
