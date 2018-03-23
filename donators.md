@@ -26,7 +26,7 @@ Using bountysource platform you can ask community to work on a specific issue ab
 
 <h2><strong>2018</strong></h2>
 
-2018-01-20 - [Middel](https://www.reunion-reborn.com)
+2018-01-20 - [Middel](http://www.project-syndicate.co.uk)
 
 <h2><strong>2017</strong></h2>
 
