@@ -7,4 +7,7 @@ tags: wotlk pve pvp Blizzlike 1x all and 5x xp
 published: true
 ---
 
-I tested a repack for the first time and saw that almost 100% of the important quests and quests go. And I compiled an Azeroth core hardly because I had some errors but I managed to get it off
+Welcome to Spidernet Romania! Gameplay Blizzlike.
+
+I chose AzerothCore to use all three bases
+MaNGOS, TrinityCore and SunwellCore. And I tested it and it seems to me the best.
