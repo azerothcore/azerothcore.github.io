@@ -3,7 +3,7 @@ title: MaNGOS Rumors
 website: http://mangosrumors.co.nf/
 author: MaNGOS Rumors
 image: http://mangosrumors.co.nf/wp-content/uploads/2019/07/mangos-rumors.png
-tags: bloghttps://github.com/MaNGOS-Rumors/azerothcore.github.io/tree/master/_posts
+tags: blog, wow-emulation
 published: true
 ---
 
