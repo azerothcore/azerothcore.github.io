@@ -7,4 +7,4 @@ tags: bloghttps://github.com/MaNGOS-Rumors/azerothcore.github.io/tree/master/_po
 published: true
 ---
 
-Testimonial text: We are a blog about World of Warcraft open source emulation. In some of our most successful articles we talk about AzerothCore and its great features. According to our statistics, most of the google searches in 2019 about WoW emulation contains the "AzerothCore" keyword.
+Testimonial text: We are a blog about World of Warcraft open source emulation. In some of our most successful articles we talk about AzerothCore and its great features. According to our statistics, most of the Google searches in 2019 about WoW emulation contains the "AzerothCore" keyword.
