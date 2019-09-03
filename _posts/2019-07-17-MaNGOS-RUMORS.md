@@ -1,6 +1,6 @@
 ---
 title: MaNGOS Rumors
-website: http://mangosrumors.co.nf/
+website: http://mangosrumors.org
 author: MaNGOS Rumors
 image: https://raw.githubusercontent.com/MaNGOS-Rumors/mangosrumors/master/mangos-rumors.png
 tags: blog, wow-emulation
