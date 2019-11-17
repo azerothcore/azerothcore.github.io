@@ -7,4 +7,4 @@ tags: wotlk  pvp highrate Startchar
 published: true
 ---
 
-Why we took azeroth core? Because after test it is one of the bug free cores that is currently available and very well!
+We choese AzerothCore because after testing it, we found out that it is one of the cores with less bug that is currently available!
