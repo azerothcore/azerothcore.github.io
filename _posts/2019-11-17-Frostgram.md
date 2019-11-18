@@ -2,7 +2,7 @@
 title: Frostgram Highrate Startchar
 website: https://frostgram.eu/
 author: Slife
-image: https://share-your-photo.com/img/4e97e9a5fe.jpg
+image: https://de.share-your-photo.com/img/1aac6dfe58.png
 tags: wotlk  pvp highrate Startchar
 published: true
 ---
