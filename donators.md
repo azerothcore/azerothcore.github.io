@@ -19,6 +19,8 @@ Using bountysource platform you can ask community to work on a specific issue ab
 
 <a href="https://www.bountysource.com/teams/azerothcore/issues"><img class="alignleft size-medium" src="https://d2bbtvgnhux6eq.cloudfront.net/assets/Bountysource-green-f2f437ed727ee2cacaee3f559c1907cb.png" width="200" height="60" /></a>
 
+Not sure to which issue you want to place your bounty? You can even donate to the [AzerothCore team on Bountysource](https://www.bountysource.com/teams/azerothcore/issues) and we will place bounties on issues that require extra attentions from the development community.
+
 
 &nbsp;
 
