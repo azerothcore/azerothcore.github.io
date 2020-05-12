@@ -1,21 +1,5 @@
-# Donators 
-<a target="_blank" href="https://github.com/azerothcore/azerothcore.github.io/edit/master/donators.md">[Edit this page]</a>
+## [GO TO DONATION PAGE](https://azerothcore.altervista.org/wp/donations/145/)
 
-Support AzerothCore and its development by making a donation! You can donate any amount you wish using Paypal or credit card following instructions below.
-
-You can donate for AzerothShard in 2 ways:
-
-### 1) Donations to keep online our infrastructure
-
-[GO TO DONATION PAGE](https://azerothcore.altervista.org/wp/donations/145/)
-
-### 2) Bounties to request issues solving
-
-[GO TO BOUNTYSOURCE](https://www.bountysource.com/teams/azerothcore)
-
-<a href="https://www.bountysource.com/teams/azerothcore/issues"><img class="alignleft size-medium" src="https://d2bbtvgnhux6eq.cloudfront.net/assets/Bountysource-green-f2f437ed727ee2cacaee3f559c1907cb.png" width="200" height="60" /></a>
-
-Not sure to which issue you want to place your bounty? You can even donate to the [AzerothCore team on Bountysource](https://www.bountysource.com/teams/azerothcore/issues) and we will place bounties on issues that require extra attentions from the development community.
 
 
 &nbsp;
