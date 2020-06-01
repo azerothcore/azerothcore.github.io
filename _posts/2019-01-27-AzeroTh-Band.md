@@ -7,4 +7,4 @@ tags: WotLK & BC & Classic for 80lvl (pve pvp fun rpg)
 published: true
 ---
 
-
+An exclusive creative project based on the Lichking 3.3.5a patch, which uses free access software products, based on Azeroht Core.
