@@ -1,7 +1,7 @@
 
 
 
-How to add your project to [showcase page](/showcase)  
+How to add your project to [testimonials page](/testimonials)  
 
 1) Add one of [this banner](https://drive.google.com/drive/folders/0B1fF5EIDoF1fMnpfdk82Q29VNDA) to your site in a clearly visible position of your homepage (and optionally other pages, i will thank you)  
 
