@@ -2,7 +2,7 @@
 title: Nordend WoW
 website: https://nordend-wow.com/
 author: Tyrelis
-image: url_of_your_banner (suggested dimensions width: 234px height: 60px )
+image: image: https://nordend-wow.com/template/style/images/misc/logos.png
 tags: WotLK, PvE, PvP.
 published: true
 ---
