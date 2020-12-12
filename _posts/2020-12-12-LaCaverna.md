@@ -9,5 +9,5 @@ published: true
 
 The reason why we choose AzerothCore is because of the active community, the focus on WotLK expansion and the easy to use module system, allowing us to add a lot of content without touching the core.
 
-We are very pleased with this election, thanks to this awesome community.
+We are very pleased with this choice, thanks to this awesome community.
 
