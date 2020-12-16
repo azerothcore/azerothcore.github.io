@@ -1,0 +1,348 @@
+---
+
+layout: default
+
+---
+<div class="row">
+    <div class="col">
+
+        <div id="searchForm">
+
+          <div class="row">
+            <div class="col-6">
+              <div class="search-bar">
+                  <h4>Search a item by name:</h4>
+                  <div class="input-group">
+                      <div class="input-group-prepend">
+                          <span class="input-group-text"><i class="fas fa-search"></i></span>
+                      </div>
+                      <input class="form-control" type="text" placeholder="Search a module/tools by name..." v-on:keyup.enter="searchModules" v-model="terms"/>
+                  </div>
+                  <p class="text-muted">Press Enter to submit</p>
+                  <a href="#" v-if="submitted" v-on:click="showAll"><i class="fas fa-plus-circle"></i> Show all the items...</a>
+              </div>
+            </div>
+            <div class="col-6">
+                <div class="col alert alert-info alert-submit">
+                    <p>Want to submit your <b>module</b>? Check the instructions <a href="{{ site.baseurl }}/module-submit.html">here</a></p>
+                    <p>Want to submit your <b>lua script</b>? Check the instructions <a href="{{ site.baseurl }}/script-submit.html">here</a></p>
+                </div>
+            </div>
+          </div>
+
+            <ul class="nav nav-tabs" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" id="modules-tab" data-toggle="tab" href="#modules" role="tab" aria-controls="modules" aria-selected="true">All Modules</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="premium-tab" data-toggle="tab" href="#premium" role="tab" aria-controls="premium" aria-selected="false">Premium Modules</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="tools-tab" data-toggle="tab" href="#tools" role="tab" aria-controls="tools" aria-selected="false">Tools</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="lua-tab" data-toggle="tab" href="#lua" role="tab" aria-controls="lua" aria-selected="false">Lua scripts</a>
+              </li>
+            </ul>
+            <div class="tab-content">
+              <div class="tab-pane fade show active" id="modules" role="tabpanel" aria-labelledby="modules-tab">
+
+                <ul class="list-unstyled mod-list" v-if="items">
+                    <li class="media" v-for="item of items">
+                        <template>
+                            <img class="mr-3 logo-small" :src="item.logo" alt="logo">
+                            <div class="media-body">
+                                <h4 class="mt-0 mb-1">
+                                    <a :href="'{{ site.baseurl }}/details.html?id=' + (( item.id ))">(( item.name ))</a>
+                                </h4>
+                                <p class="text-muted text-tiny"><i class="fas fa-star"></i> (( item.stargazers_count )) | Created (( item.created_at | created ))</p>
+                                <p>(( item.description ))</p>
+                            </div>
+                        </template>
+                    </li>
+                </ul>
+
+                <div class="pagination" v-if="pagesAmount > 1">
+                    <button type="button" v-on:click="previousPage">Previous</button>
+                    <span>Total results: ((resultsAmount)). Showing page ((currentPage)) of ((pagesAmount)).</span>
+                    <button type="button" v-on:click="nextPage">Next</button>
+                </div>
+
+              </div>
+              <div class="tab-pane fade" id="premium" role="tabpanel" aria-labelledby="premium-tab">
+
+                <ul class="list-unstyled mod-list" v-if="items_premium">
+                  <li class="media" v-for="item of items_premium">
+                      <template>
+                          <img class="mr-3 logo-small" :src="item.logo" alt="logo">
+                          <div class="media-body">
+                              <h4 class="mt-0 mb-1">
+                                  <a :href="'{{ site.baseurl }}/details.html?id=' + (( item.id ))">(( item.name ))</a>
+                              </h4>
+                              <p class="text-muted text-tiny"><i class="fas fa-star"></i> (( item.stargazers_count )) | Created (( item.created_at | created ))</p>
+                              <p>(( item.description ))</p>
+                          </div>
+                      </template>
+                  </li>
+              </ul>
+
+              <div class="pagination" v-if="pagesPremiumAmount > 1">
+                  <button type="button" v-on:click="previousPage">Previous</button>
+                  <span>Total results: ((resultsAmount)). Showing page ((currentPage)) of ((pagesPremiumAmount)).</span>
+                  <button type="button" v-on:click="nextPage(1)">Next</button>
+              </div>
+
+            </div>
+            <div class="tab-pane fade" id="tools" role="tabpanel" aria-labelledby="tools-tab">
+
+              <ul class="list-unstyled mod-list" v-if="items_tools">
+                <li class="media" v-for="item of items_tools">
+                    <template>
+                        <img class="mr-3 logo-small" :src="item.logo" alt="logo">
+                        <div class="media-body">
+                            <h4 class="mt-0 mb-1">
+                                <a :href="'{{ site.baseurl }}/details.html?id=' + (( item.id ))">(( item.name ))</a>
+                            </h4>
+                            <p class="text-muted text-tiny"><i class="fas fa-star"></i> (( item.stargazers_count )) | Created (( item.created_at | created ))</p>
+                            <p>(( item.description ))</p>
+                        </div>
+                    </template>
+                </li>
+              </ul>
+
+              <div class="pagination" v-if="pagesToolsAmount > 1">
+                <button type="button" v-on:click="previousPage">Previous</button>
+                <span>Total results: ((resultsToolsAmount)). Showing page ((currentPage)) of ((pagesToolsAmount)).</span>
+                <button type="button" v-on:click="nextPage(2)">Next</button>
+              </div>
+
+            </div>
+            <div class="tab-pane fade" id="lua" role="tabpanel" aria-labelledby="lua-tab">
+
+              <ul class="list-unstyled mod-list" v-if="items_lua">
+                <li class="media" v-for="item of items_lua">
+                    <template>
+                        <img class="mr-3 logo-small" :src="item.logo" alt="logo">
+                        <div class="media-body">
+                            <h4 class="mt-0 mb-1">
+                                <a :href="'{{ site.baseurl }}/details.html?id=' + (( item.id ))">(( item.name ))</a>
+                            </h4>
+                            <p class="text-muted text-tiny"><i class="fas fa-star"></i> (( item.stargazers_count )) | Created (( item.created_at | created ))</p>
+                            <p>(( item.description ))</p>
+                        </div>
+                    </template>
+                </li>
+              </ul>
+
+              <div class="pagination" v-if="pagesLuaAmount > 1">
+                <button type="button" v-on:click="previousPage">Previous</button>
+                <span>Total results: ((resultsLuaAmount)). Showing page ((currentPage)) of ((pagesLuaAmount)).</span>
+                <button type="button" v-on:click="nextPage(2)">Next</button>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+        <span id="loading_status" v-if="show"><i :class="icon"></i> (( message ))</span>
+
+    </div>
+</div>
+
+<br>
+
+<script type="text/javascript">
+
+
+let searchForm = new Vue({
+    el: '#searchForm',
+    delimiters: ['((', '))'],
+    data: {
+        terms: '',
+        items: [],
+        items_premium: [],
+        items_tools: [],
+        items_lua: [],
+        resultsAmount: 0,
+        resultsPremiumAmount: 0,
+        resultsToolsAmount: 0,
+        resultsLuaAmount: 0,
+        resultsPerPage: 20,
+        currentPage: 1,
+        pagesAmount: 1,
+        pagesPremiumAmount: 1,
+        pagesToolsAmount: 1,
+        pagesLuaAmount: 1,
+        submitted: false
+    },
+    methods: {
+        searchModules: function() {
+            searchStatus.showLoading();
+            let url  = `https://api.github.com/search/repositories?page=${this.currentPage}&per_page=${this.resultsPerPage}&q=org:azerothcore+fork:true+topic:core-module+sort:stars${((this.terms != '') ? '+'+this.terms : '')}`;
+            this.submitted = this.terms.length > 0;
+
+            $.getJSON(url, json => {
+                this.resultsAmount = json.total_count;
+                this.pagesAmount = Math.ceil(json.total_count / this.resultsPerPage);
+
+                if (json.items.length > 0) {
+                    this.loadItems(json.items);
+                    searchStatus.hideMessage();
+                } else {
+                    searchStatus.showError('No results found');
+                }
+            });
+
+            url  = `https://api.github.com/search/repositories?page=${this.currentPage}&per_page=${this.resultsPerPage}&q=org:azerothcore+fork:true+topic:core-module+ac-premium+sort:stars${((this.terms != '') ? '+'+this.terms : '')}`;
+            this.submitted = this.terms.length > 0;
+
+            $.getJSON(url, json => {
+                this.resultsPremiumAmount = json.total_count;
+                this.pagesPremiumAmount = Math.ceil(json.total_count / this.resultsPerPage);
+
+                if (json.items.length > 0) {
+                    this.loadItems(json.items, 1);
+                    searchStatus.hideMessage();
+                } else {
+                    searchStatus.showError('No results found');
+                }
+            });
+
+            url  = `https://api.github.com/search/repositories?page=${this.currentPage}&per_page=${this.resultsPerPage}&q=org:azerothcore+fork:true+topic:azerothcore-tools+sort:stars${((this.terms != '') ? '+'+this.terms : '')}`;
+            this.submitted = this.terms.length > 0;
+
+            $.getJSON(url, json => {
+                this.resultsToolsAmount = json.total_count;
+                this.pagesToolsAmount = Math.ceil(json.total_count / this.resultsPerPage);
+
+                if (json.items.length > 0) {
+                    this.loadItems(json.items, 2);
+                    searchStatus.hideMessage();
+                } else {
+                    searchStatus.showError('No results found');
+                }
+            });
+
+            url  = `https://api.github.com/search/repositories?page=${this.currentPage}&per_page=${this.resultsPerPage}&q=topic:azerothcore-lua+sort:stars${((this.terms != '') ? '+'+this.terms : '')}`;
+            this.submitted = this.terms.length > 0;
+
+            $.getJSON(url, json => {
+                this.resultsLuaAmount = json.total_count;
+                this.pagesLuaAmount = Math.ceil(json.total_count / this.resultsPerPage);
+
+                if (json.items.length > 0) {
+                    this.loadItems(json.items, 3);
+                    searchStatus.hideMessage();
+                } else {
+                    searchStatus.showError('No results found');
+                }
+            });
+
+        },
+        loadItems: function (_items, tab=0) {
+          if (tab == 0) {
+            this.items = _items;
+            this.items.forEach((item, idx) => {
+                item.logo = item.owner.avatar_url;
+                let iconUrl = `https://raw.githubusercontent.com/${item.full_name}/${item.default_branch}/icon.png`;
+                $.get(iconUrl, (res) => {
+                    item.logo = iconUrl;
+                    Vue.set(this.items, idx, item);
+                })
+                .fail(() => {});
+            });
+          }
+          else if (tab == 1) {
+            this.items_premium = _items;
+            this.items_premium.forEach((item, idx) => {
+                item.logo = item.owner.avatar_url;
+                let iconUrl = `https://raw.githubusercontent.com/${item.full_name}/${item.default_branch}/icon.png`;
+                $.get(iconUrl, (res) => {
+                    item.logo = iconUrl;
+                    Vue.set(this.items_premium, idx, item);
+                })
+                .fail(() => {});
+            });
+          }
+          else if (tab == 2) {
+            this.items_tools = _items;
+            this.items_tools.forEach((item, idx) => {
+                item.logo = item.owner.avatar_url;
+                let iconUrl = `https://raw.githubusercontent.com/${item.full_name}/${item.default_branch}/icon.png`;
+                $.get(iconUrl, (res) => {
+                    item.logo = iconUrl;
+                    Vue.set(this.items_tools, idx, item);
+                })
+                .fail(() => {});
+            });
+          }
+          else if (tab == 3) {
+            this.items_lua = _items;
+            this.items_lua.forEach((item, idx) => {
+                item.logo = item.owner.avatar_url;
+                let iconUrl = `https://raw.githubusercontent.com/${item.full_name}/${item.default_branch}/icon.png`;
+                $.get(iconUrl, (res) => {
+                    item.logo = iconUrl;
+                    Vue.set(this.items_lua, idx, item);
+                })
+                .fail(() => {});
+            });
+          }
+        },
+        previousPage: function() {
+            if (this.currentPage == 1) return;
+
+            this.currentPage--;
+            this.searchModules();
+        },
+        nextPage: function(tab=0) {
+            if (tab == 0 && this.currentPage >= this.pagesAmount) return;
+            if (tab == 1 && this.currentPage >= this.pagesPremiumAmount) return;
+            if (tab == 2 && this.currentPage >= this.pagesToolsAmount) return;
+            if (tab == 3 && this.currentPage >= this.pagesLuaAmount) return;
+
+            this.currentPage++;
+            this.searchModules();
+        },
+        showAll: function(event) {
+            event.preventDefault();
+            this.terms = '';
+            this.searchModules();
+        }
+    },
+    filters: {
+        created: function(date) {
+            return moment(date).fromNow();
+        }
+    }
+});
+
+let searchStatus = new Vue({
+    el: '#loading_status',
+    delimiters: ['((', '))'],
+    data: {
+        message: '',
+        icon: '',
+        show: false
+    },
+    methods: {
+        hideMessage: function() {
+            this.show = false;
+        },
+        showError: function(msg) {
+            this.message = msg;
+            this.icon = 'far fa-times-circle';
+            this.show = true;
+        },
+        showLoading: function() {
+            this.message = 'Searching for repositories...';
+            this.icon = 'fas fa-sync fa-spin';
+            this.show = true;
+            searchForm.loadItems([]);
+        }
+    }
+});
+
+$(document).ready(() => { searchForm.searchModules('') });
+</script>
