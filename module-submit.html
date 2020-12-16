@@ -1,0 +1,66 @@
+---
+
+layout: catalogue
+title: Submit a module
+
+---
+
+<div class="row">
+    <div class="col">
+        <h2 class="display-4">Steps</h2>
+        <br>
+
+        <ol>
+            <li>Fork <a href="https://github.com/azerothcore/catalogue">this site.</a></li>
+            <li>Create a new post in the _submissions/module directory, based on <a target="_blank" href="https://github.com/azerothcore/catalogue/blob/master/_submissions/example.md">example.md</a>, and fill out the relevant fields.</li>
+            <li>Push your changes up and open a pull request.</li>
+            <li>If valid your module will be forked on AzerothCore organization, entering in our catalogue, and you will be set as repository admin.</li>
+        </ol>
+        <div class="alert alert-info">Because we fork the repo to display it in our catalogue, we only accept project released as open-source in GitHub.</div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col">
+        <h2 class="display-4">Information requested</h2>
+        <br>
+
+        <h4>Module info</h4>
+        <ul>
+            <li><b>Name:</b> <i>name of your module.</i></li>
+            <li><b>Author:</b> <i>username of the original author (in case it's forked into an organization).</i></li>
+            <li><b>Repository:</b> <i>link to the GitHub repository.</i></li>
+            <li><b>Download:</b> <i>link to download the sources as .zip (take it from GitHub).</i></li>
+            <li><b>License:</b> <i>license used to release the code.</i></li>
+        </ul>
+
+        <h4>Module integration</h4>
+
+        <ul>
+            <li><b>AzerothCore hash/commit compliance:</b> <i>version (hash) of AzerothCore used to compile the module in testing stage.</i></li>
+            <li><b>Includes configuration?:</b> <i>specify if your module uses a configuration file (mymodule.conf.dist), and if the file is copied automatically by CMake or manually by the user. CMake is recommended.</i></li>
+            <li><b>Includes SQL patches?:</b> <i>specify if your module patches the databases. If yes, indicate which databases are affected and if the patches have to be applied manually by the user or are included in the <code>db_assembler</code>.</i></li>
+            <li><b>CMake hooks used:</b> <i>indicate <a href="https://github.com/azerothcore/azerothcore-wotlk/wiki/Hooks-Cmake">CMake hooks</a> used, if any.</i></li>
+            <li><b>Core hooks used:</b> <i>indicate any core hook used, identifying the script type. Example: <code>WorldScript: OnHookA, OnHookB, etc.</code></i></li>
+        </ul>
+
+        <h4>Description</h4>
+
+        <p>Give a complete description of what does the module and how it does it.</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+        <h2 class="display-4">Optional / Recommended</h2>
+        <br>
+
+        <ul>
+            <li>Add a <code>README.md</code> in the root folder with a complete description of your module. It will be shown in the details page of the catalogue.</li>
+            <li>Add an <code>icon.png</code> in the root folder. It will be shown in the module list and details page of the catalogue.</li>
+            <li>Use the <code>db_assembler</code> to include your SQL patches.</li>
+            <li>Follow best practices from the skeleton-module (.gitattributes, .gitkeep etc...)</li>
+            <li>Give the user the biggest amount of options for configuration possible. It reduces the need to modify the code because "something doesn't work as I would like to".</li>
+            <li>Use the GNU Affero General Public License v3.0.</li>
+        </ul>
+    </div>
+</div>

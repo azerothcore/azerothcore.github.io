@@ -1,0 +1,20 @@
+FROM ruby:2.7.0
+
+ENV LC_ALL=C.UTF-8=value
+
+ADD . /srv/jekyll
+
+RUN apt-get update
+RUN apt-get install -y npm
+
+RUN npm install -g mkcert
+
+WORKDIR /srv/jekyll
+
+RUN mkcert create-ca
+RUN mkdir -p certs
+RUN mkcert create-cert --key certs/key.pem --cert certs/cert.pem --domains localhost
+
+RUN bundle install --gemfile=.env-files/Gemfile.github
+
+EXPOSE 4000
