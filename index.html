@@ -19,6 +19,82 @@ layout: default
       </div><!-- /.container -->
     </div>
 
+<style>
+  .paper {
+      position: relative;
+      width: 90%;
+      max-width: auto;
+      min-width: 400px;
+      height: auto;
+      margin: 0 auto;
+      background: #f1edd7;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,.3);
+      overflow: hidden;
+  }
+  .paper:before {
+      content: '';
+      position: absolute;
+      top: 0; bottom: 0; left: 0;
+      width: 60px;
+      background: radial-gradient(#575450 6px, transparent 7px) repeat-y;
+      background-size: 30px 30px;
+      border-right: 3px solid #D44147;
+      box-sizing: border-box;
+  }
+
+  .paper-content {
+      height: max-content;
+      margin: 20px 77px 20px 77px;
+      /*position: absolute;*/
+      top: 30px; right: 0; bottom: 30px; left: 60px;
+      background: linear-gradient(transparent, transparent 28px, #91D1D3 31px);
+      background-size: 30px 30px;
+  }
+
+  .paper-content textarea {
+      width: 100%;
+      max-width: 100%;
+      height: 100%;
+      max-height: 100%;
+      line-height: 30px;
+      padding: 0 10px;
+      border: 0;
+      outline: 0;
+      background: transparent;
+      color: mediumblue;
+      font-family: 'Handlee', cursive;
+      font-weight: bold;
+      font-size: 18px;
+      box-sizing: border-box;
+      z-index: 1;
+  }
+</style>
+
+    <div class="features">
+      <div class="container paper">
+        <div class="row">
+          <div class="paper-content" style="text-align: center; font-family: Cursive, Times New Roman, Times, serif; font-style: italic; font-weight: bold;">
+            <p><h1 style="font-style: normal; color: red;">🎆🎊🎇 Happy New Year! 🎇🎊🎆</h1></p>
+            Dear AzerothCore community,
+            <br>
+            2020 has not been a good year for the world out there, but it definitely has been a great year for our project.
+            <br>
+            We are the biggest open-source WoW emulation community of 2020. During the year, we pushed improvements to the master branch every day. New contributors joined the project, and several old ones came back. We fixed plenty of game content and added new features. We introduced unit-testing. We made our application more stable by fixing some critical issues. We kept on updating our codebase by replacing legacy code with a modern and clean C++. We completed Keira3 (started in mid-2019) by providing the best WoW world-Database editor available in the market and tailored this application specifically for AzerothCore.
+            <br>
+            We improved our CI by adding many checks, which will prevent new PRs from breaking the build or adding new code warnings on all major platforms and compilers. I firmly believe that this, along with our dry-run and DB error check,  makes our CI the best you can find in WoW emulation. We improved the pathfinding mechanism. We added tons of translation strings to improve the gaming experience for non-English clients. We added plenty of modules and custom tools too because variety is the spice of life! We did many other improvements that are just too many to be mentioned here. Finally, we launched the child-project ChromieCraft - we basically aim to fix the game content from A to Z, and we've got very satisfying results so far. When I say "we", of course, I mean the entire AzerothCore community, as none of the above-mentioned outcomes would have been achieved without such a strong, friendly, and collaborative community.
+            <br>
+            So I want to thank all of you - whoever you are, wherever you come from, even if you contributed to AzerothCore just by testing one PR, reporting or confirming a small bug, changing one line of code, improving a small text on our wiki, creating some nice tool for AzerothCore, providing support to another user, etc.: THANK YOU! Your effort made this place better than it was.
+            <br>
+            I'm sure that 2021 will be another great year for our community and I'm looking forward to seeing it grow even more! Stay safe and have a marvelous new year <span style="font-style: normal;">🥳 🥳 🥳</span>
+            <br>
+            Yours sincerely, 
+            Shin aka Francesco
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="features">
       <div class="container">
         <div class="row">
@@ -76,11 +152,11 @@ layout: default
         <br>
         <hr>
         <div class="row text-center">
-          <div class="col-lg-4 col-sm-6">
+          <div class="col-lg-4 col-sm-12">
             <h2>Latest posts</h2>
             <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FAzerothCore&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId=235084510008200" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
           </div>
-          <div class="col-lg-8 col-sm-6">
+          <div class="col-lg-8 col-sm-12">
             <h2>Latest GitHub commits</h2>
             <div id="commits" class="text-left"></div>
             <p class="text-right"><a class="btn btn-default" href="https://github.com/azerothcore/azerothcore-wotlk/commits/master" role="button"> <i class="fab fa-github"></i> &nbsp;View details &raquo;</a></p>
