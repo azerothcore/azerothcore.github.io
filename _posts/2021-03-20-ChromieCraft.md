@@ -2,7 +2,7 @@
 title: ChromieCraft 
 website: https://www.chromiecraft.com/
 author: ChromieCraft 
-image: https://www.chromiecraft.com/wp-content/uploads/2021/03/chromiecraftlogo-e1615490770938.png
+image: https://i.postimg.cc/sxr4MsFd/CC.png
 tags: wotlk pve pvp rpg
 published: true
 ---
