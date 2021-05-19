@@ -14,6 +14,6 @@ Creators of AzerothCore - a former Italian PvE/PvP/RPG Community
 
 Moreover it's focused on a working gameplay, something that gamers really love!>>
 
-AzerothShard project closed in April 2018
+AzerothShard project closed in April 2018, the creators are now focussing on ChromieCraft
 
 
