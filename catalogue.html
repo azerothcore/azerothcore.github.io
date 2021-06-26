@@ -183,7 +183,7 @@ let searchForm = new Vue({
     methods: {
         searchModules: function() {
             searchStatus.showLoading();
-            let url  = `https://api.github.com/search/repositories?page=${this.currentPage}&per_page=${this.resultsPerPage}&q=org:azerothcore+fork:true+topic:core-module+sort:stars${((this.terms != '') ? '+'+this.terms : '')}`;
+            let url  = `https://api.github.com/search/repositories?page=${this.currentPage}&per_page=${this.resultsPerPage}&q=fork:true+topic:azerothcore-module+sort:stars${((this.terms != '') ? '+'+this.terms : '')}`;
             this.submitted = this.terms.length > 0;
 
             $.getJSON(url, json => {
@@ -198,7 +198,7 @@ let searchForm = new Vue({
                 }
             });
 
-            url  = `https://api.github.com/search/repositories?page=${this.currentPage}&per_page=${this.resultsPerPage}&q=org:azerothcore+fork:true+topic:core-module+ac-premium+sort:stars${((this.terms != '') ? '+'+this.terms : '')}`;
+            url  = `https://api.github.com/search/repositories?page=${this.currentPage}&per_page=${this.resultsPerPage}&q=fork:true+topic:azerothcore-module+ac-premium+sort:stars${((this.terms != '') ? '+'+this.terms : '')}`;
             this.submitted = this.terms.length > 0;
 
             $.getJSON(url, json => {
@@ -213,7 +213,7 @@ let searchForm = new Vue({
                 }
             });
 
-            url  = `https://api.github.com/search/repositories?page=${this.currentPage}&per_page=${this.resultsPerPage}&q=org:azerothcore+fork:true+topic:azerothcore-tools+sort:stars${((this.terms != '') ? '+'+this.terms : '')}`;
+            url  = `https://api.github.com/search/repositories?page=${this.currentPage}&per_page=${this.resultsPerPage}&q=fork:true+topic:azerothcore-tools+sort:stars${((this.terms != '') ? '+'+this.terms : '')}`;
             this.submitted = this.terms.length > 0;
 
             $.getJSON(url, json => {
@@ -228,7 +228,7 @@ let searchForm = new Vue({
                 }
             });
 
-            url  = `https://api.github.com/search/repositories?page=${this.currentPage}&per_page=${this.resultsPerPage}&q=topic:azerothcore-lua+sort:stars${((this.terms != '') ? '+'+this.terms : '')}`;
+            url  = `https://api.github.com/search/repositories?page=${this.currentPage}&per_page=${this.resultsPerPage}&q=fork:true+topic:azerothcore-lua+sort:stars${((this.terms != '') ? '+'+this.terms : '')}`;
             this.submitted = this.terms.length > 0;
 
             $.getJSON(url, json => {
