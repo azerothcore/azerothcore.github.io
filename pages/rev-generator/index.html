@@ -9,11 +9,23 @@
 <body onload="generate()">
     <div class="container pt-5">
         <div>
-            File name: <code id="file-name"></code>
+            <div class="form-group">
+                <label for="file-name">File name</label>
+                <input class="form-control" id="file-name">
+            </div>
+            <button class="btn btn-sm btn-success mt-2" onclick="copy('file-name')">Copy file name</button>
         </div>
+        <hr>
         <div>
-            SQL version code:
-            <code id="query"></code>
+            <div class="form-group">
+                <label for="file-name">SQL version code</label>
+                <input class="form-control" type="textarea" id="query">
+            </div>
+            <button class="btn btn-sm btn-success mt-2" onclick="copy('query')">Copy SQL version code</button>
+        </div>
+        <hr>
+        <div>
+            <button class="btn btn-primary mt-2" onclick="generate()">Generate new</button>
         </div>
     </div>
 </body>

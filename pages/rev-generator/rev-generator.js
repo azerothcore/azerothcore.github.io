@@ -16,7 +16,12 @@ function generate() {
     query = `INSERT INTO \`version_db_world\` (\`sql_rev\`) VALUES ('${rev}');`
     fileName = `rev_${rev}.sql`;
 
-    document.getElementById('file-name').innerHTML = fileName;
-    document.getElementById('query').innerHTML = query;
+    document.getElementById('file-name').value = fileName;
+    document.getElementById('query').value = query;
+}
+
+function copy(id) {
+    document.getElementById(id).select();
+    document.execCommand("copy");
 }
 
