@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>title</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="rev-generator.js"></script>
+</head>
+<body onload="generate()">
+    <div class="container pt-5">
+        <div>
+            <div class="form-group">
+                <label for="file-name">File name</label>
+                <input class="form-control" id="file-name">
+            </div>
+            <button class="btn btn-sm btn-success mt-2" onclick="copy('file-name')">Copy file name</button>
+        </div>
+        <hr>
+        <div>
+            <div class="form-group">
+                <label for="file-name">SQL version code</label>
+                <input class="form-control" type="textarea" id="query">
+            </div>
+            <button class="btn btn-sm btn-success mt-2" onclick="copy('query')">Copy SQL version code</button>
+        </div>
+        <hr>
+        <div>
+            <button class="btn btn-primary mt-2" onclick="generate()">Generate new</button>
+        </div>
+    </div>
+</body>
+</html>
