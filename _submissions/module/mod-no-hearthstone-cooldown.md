@@ -16,6 +16,7 @@
 - Core hooks used:
     + PlayerScript: OnLogin
     + PlayerScript: OnBeforeTeleport
+    + WorldScript: OnAfterConfigLoad
 
 # Description
-A module that simply disables the cooldown of the Hearthstone
+A module that simply skips the cooldown of the Hearthstone
