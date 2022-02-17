@@ -1225,27 +1225,21 @@
 
       var CatalogueService = /*#__PURE__*/function () {
         function CatalogueService(http) {
+          var _this2 = this;
+
           _classCallCheck(this, CatalogueService);
 
           this.http = http;
           this.items$ = {};
+          this.configURL = 'assets/default.json';
+          this.http.get(this.configURL).subscribe(function (config) {
+            _this2.CONF = config;
 
-          try {
-            this.CONF = __webpack_require__(!function webpackMissingModule() {
-              var e = new Error("Cannot find module 'src/assets/config.json'");
-              e.code = 'MODULE_NOT_FOUND';
-              throw e;
-            }());
-          } catch (_a) {
-            this.CONF = __webpack_require__(
-            /*! src/assets/default.json */
-            "wCLQ");
-          }
-
-          for (var _i = 0, _Object$keys = Object.keys(this.CONF.tabs); _i < _Object$keys.length; _i++) {
-            var k = _Object$keys[_i];
-            this.items$[k] = this.getLocalItems(this.CONF.tabs[k]);
-          }
+            for (var _i = 0, _Object$keys = Object.keys(_this2.CONF.tabs); _i < _Object$keys.length; _i++) {
+              var k = _Object$keys[_i];
+              _this2.items$[k] = _this2.getLocalItems(_this2.CONF.tabs[k]);
+            }
+          });
         }
 
         _createClass(CatalogueService, [{
@@ -1968,7 +1962,7 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "i");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](20, "name of your lua script.");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](20, "name of your script.");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -2056,7 +2050,7 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](47, "p");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](48, "Give a complete description of what does the lua script and how it does it.");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](48, "Give a complete description of what does the script and how it does it.");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -2078,7 +2072,7 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](56, " in the root folder with a complete description of your lua script. It will be shown in the details page of the catalogue. ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](56, " in the root folder with a complete description of your script. It will be shown in the details page of the catalogue. ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -2092,7 +2086,7 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](61, " in the root folder. It will be shown in the lua script list and details page of the catalogue.");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](61, " in the root folder. It will be shown in the script list and details page of the catalogue.");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -2112,7 +2106,7 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](67, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](68, "Follow best practices from the skeleton-lua (.gitattributes, .gitkeep etc...)");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](68, "Follow best practices from the skeleton (.gitattributes, .gitkeep etc...)");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -2294,20 +2288,6 @@
       })();
       /***/
 
-    },
-
-    /***/
-    "wCLQ":
-    /*!*********************************!*\
-      !*** ./src/assets/default.json ***!
-      \*********************************/
-
-    /*! exports provided: ORGANIZATION, page, perPage, pageSize, tabs, default */
-
-    /***/
-    function wCLQ(module) {
-      module.exports = JSON.parse("{\"ORGANIZATION\":\"\",\"page\":1,\"perPage\":500,\"pageSize\":8,\"tabs\":{\"All Modules\":\"core-module\",\"Premium Modules\":\"core-module+ac-premium\",\"Tools\":\"azerothcore-tools\",\"Lua scripts\":\"azerothcore-lua\"}}");
-      /***/
     },
 
     /***/

@@ -747,15 +747,13 @@ class CatalogueService {
     constructor(http) {
         this.http = http;
         this.items$ = {};
-        try {
-            this.CONF = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module 'src/assets/config.json'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
-        }
-        catch (_a) {
-            this.CONF = __webpack_require__(/*! src/assets/default.json */ "wCLQ");
-        }
-        for (const k of Object.keys(this.CONF.tabs)) {
-            this.items$[k] = this.getLocalItems(this.CONF.tabs[k]);
-        }
+        this.configURL = 'assets/default.json';
+        this.http.get(this.configURL).subscribe((config) => {
+            this.CONF = config;
+            for (const k of Object.keys(this.CONF.tabs)) {
+                this.items$[k] = this.getLocalItems(this.CONF.tabs[k]);
+            }
+        });
     }
     getLocalItems(githubTopic) {
         const key = `${this.CONF.page}-${this.CONF.perPage}-${this.CONF.ORGANIZATION}-${githubTopic}`;
@@ -1106,7 +1104,7 @@ HowtoComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCom
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, " \u00A0 ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](20, "name of your lua script.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](20, "name of your script.");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "li");
@@ -1150,7 +1148,7 @@ HowtoComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCom
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](46, "Description");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](47, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](48, "Give a complete description of what does the lua script and how it does it.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](48, "Give a complete description of what does the script and how it does it.");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](49, "h4");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](50, "Optional / Recommended");
@@ -1161,14 +1159,14 @@ HowtoComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCom
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](54, "code");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](55, "README.md");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](56, " in the root folder with a complete description of your lua script. It will be shown in the details page of the catalogue. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](56, " in the root folder with a complete description of your script. It will be shown in the details page of the catalogue. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](57, "li");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](58, "Add an ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](59, "code");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](60, "icon.png");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](61, " in the root folder. It will be shown in the lua script list and details page of the catalogue.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](61, " in the root folder. It will be shown in the script list and details page of the catalogue.");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](62, "li");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](63, "Use the ");
@@ -1178,7 +1176,7 @@ HowtoComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCom
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](66, " to include your SQL patches.");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](67, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](68, "Follow best practices from the skeleton-lua (.gitattributes, .gitkeep etc...)");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](68, "Follow best practices from the skeleton (.gitattributes, .gitkeep etc...)");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](69, "li");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](70, " Give the user the biggest amount of options for configuration possible. It reduces the need to modify the code because \"something doesn't work as I would like to\". ");
@@ -1255,17 +1253,6 @@ AppRoutingModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineI
             }]
     }], null, null); })();
 
-
-/***/ }),
-
-/***/ "wCLQ":
-/*!*********************************!*\
-  !*** ./src/assets/default.json ***!
-  \*********************************/
-/*! exports provided: ORGANIZATION, page, perPage, pageSize, tabs, default */
-/***/ (function(module) {
-
-module.exports = JSON.parse("{\"ORGANIZATION\":\"\",\"page\":1,\"perPage\":500,\"pageSize\":8,\"tabs\":{\"All Modules\":\"core-module\",\"Premium Modules\":\"core-module+ac-premium\",\"Tools\":\"azerothcore-tools\",\"Lua scripts\":\"azerothcore-lua\"}}");
 
 /***/ }),
 
