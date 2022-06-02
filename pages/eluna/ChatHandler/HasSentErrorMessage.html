@@ -3,10 +3,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="API documentation for the Player:GetGossipTextId method in the Eluna engine.">
+    <meta name="description" content="API documentation for the ChatHandler:HasSentErrorMessage method in the Eluna engine.">
     <meta name="keywords" content="eluna, lua, lua engine, trinitycore, trinity, mangos, cmangos, script, scripting, doc, docs, documentation">
 
-    <title>Player:GetGossipTextId - Eluna</title>
+    <title>ChatHandler:HasSentErrorMessage - Eluna</title>
 
     <link rel="stylesheet" type="text/css" href="../static/main.css">
 
@@ -25,11 +25,11 @@
     <a href='../index.html'><img src='../static/eluna-logo.png' alt='Eluna Logo' width='100'></a>
     <div class="block">
         
-    <h2>Player Methods</h2>
+    <h2>ChatHandler Methods</h2>
     <script src="sidebar.js"></script>
     <script>
       // Highlight current method by adding "current" class to it
-      var element = document.getElementById("Player:GetGossipTextId");
+      var element = document.getElementById("ChatHandler:HasSentErrorMessage");
       if (element) {
         var classname = "current";
         arr = element.className.split(" ");
@@ -56,7 +56,7 @@
 <section id='main' class="content mod">
     <h1 class='fqn'>
         Method
-    <a class="mod" href="../Player/index.html">Player</a>:<a class="fn" href="../Player/GetGossipTextId.html">GetGossipTextId</a>
+    <a class="mod" href="../ChatHandler/index.html">ChatHandler</a>:<a class="fn" href="../ChatHandler/HasSentErrorMessage.html">HasSentErrorMessage</a>
         <span class='out-of-band'>
             <span id='render-detail'>
                 <a id="collapse-all" href="#">[-]</a>
@@ -67,23 +67,20 @@
 
     
     <div class='docblock'>
-        <p>Returns the database textID of the <a class="mod" href="../WorldObject/index.html">WorldObject</a>'s gossip header text for the <a class="mod" href="../Player/index.html">Player</a></p>
+        <p>Returns <code>true</code> if other previously called <a class="mod" href="../ChatHandler/index.html">ChatHandler</a> methods sent an error</p>
 
         <h2 id="synopsis" class='section-header'>
             <a href="#synopsis">Synopsis</a>
         </h2>
         <p>
-            <code>textId = Player:GetGossipTextId( object )</code>
+            <code>sentErrorMessage = ChatHandler:HasSentErrorMessage()</code>
         </p>
 
         <h2 id="arguments" class='section-header'>
             <a href="#arguments">Arguments</a>
         </h2>
         <p>
-            <dl>
-                <dt><code><strong><a class="mod" href="../WorldObject/index.html">WorldObject</a></strong> object</code></dt>
-                <dd class="docblock"><em>See method description.</em></dd>
-            </dl>
+            None.
         </p>
 
         <h2 id="returns" class='section-header'>
@@ -91,8 +88,8 @@
         </h2>
         <p>
             <dl>
-                <dt><code><strong><a href="http://www.lua.org/pil/2.3.html">number</a></strong> textId</code></dt>
-                <dd class="docblock"><p>Key to npc_text database table. </p><p><em>Valid numbers</em>: integers from 0 to 4,294,967,295.</p></dd>
+                <dt><code><strong><a href="https://github.com/ElunaLuaEngine/ElunaTrinityWotlk/search?l=cpp&q=%22enum+bool%22&type=Code&utf8=%E2%9C%93">bool</a></strong> sentErrorMessage</code></dt>
+                <dd class="docblock"><em>See method description.</em></dd>
             </dl>
         </p>
     </div>

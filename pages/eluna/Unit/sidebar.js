@@ -98,6 +98,7 @@ document.write(`
   <a id="Unit:IsVendor" class="fn" href="../Unit/IsVendor.html">IsVendor</a>
   <a id="Unit:Kill" class="fn" href="../Unit/Kill.html">Kill</a>
   <a id="Unit:ModifyPower" class="fn" href="../Unit/ModifyPower.html">ModifyPower</a>
+  <a id="Unit:ModifyThreatPct" class="fn" href="../Unit/ModifyThreatPct.html">ModifyThreatPct</a>
   <a id="Unit:Mount" class="fn" href="../Unit/Mount.html">Mount</a>
   <a id="Unit:MoveChase" class="fn" href="../Unit/MoveChase.html">MoveChase</a>
   <a id="Unit:MoveClear" class="fn" href="../Unit/MoveClear.html">MoveClear</a>

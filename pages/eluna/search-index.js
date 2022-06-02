@@ -40,6 +40,25 @@ searchIndex["Aura"] = {
         [3, "GetWinner", "", "Returns the winning team of the specific <a class=\"mod\" href=\"BattleGround/index.html\">BattleGround</a>."],
     ],
     "paths": []
+};searchIndex["ChatHandler"] = {
+    "items": [
+        [0, "", "ChatHandler", ""],
+        [3, "GetPlayer", "", "Returns the <a class=\"mod\" href=\"Player/index.html\">Player</a> associated with the handler. Returns <code>nil</code> in the case of a console handler"],
+        [3, "GetSelectedCreature", "", "Returns the selected <a class=\"mod\" href=\"Creature/index.html\">Creature</a>"],
+        [3, "GetSelectedObject", "", "Returns the selected <a class=\"mod\" href=\"WorldObject/index.html\">WorldObject</a>"],
+        [3, "GetSelectedPlayer", "", "Returns the selected <a class=\"mod\" href=\"Player/index.html\">Player</a>"],
+        [3, "GetSelectedPlayerOrSelf", "", "Returns the selected <a class=\"mod\" href=\"Player/index.html\">Player</a> or the current <a class=\"mod\" href=\"Player/index.html\">Player</a> if nothing is targeted or the target is not a player"],
+        [3, "GetSelectedUnit", "", "Returns the selected <a class=\"mod\" href=\"Unit/index.html\">Unit</a>"],
+        [3, "HasLowerSecurity", "", "Checks if the current security level is lower than the specified <a class=\"mod\" href=\"Player/index.html\">Player</a>'s account"],
+        [3, "HasLowerSecurityAccount", "", "Checks if the current security level is lower than the specified <code>account</code>'s level"],
+        [3, "HasSentErrorMessage", "", "Returns <code>true</code> if other previously called <a class=\"mod\" href=\"ChatHandler/index.html\">ChatHandler</a> methods sent an error"],
+        [3, "IsAvailable", "", "Checks if the <code>securityLevel</code> is available"],
+        [3, "IsConsole", "", "Returns <code>true</code> if the <a class=\"mod\" href=\"ChatHandler/index.html\">ChatHandler</a> comes from the console, <code>false</code> if it comes from a player"],
+        [3, "SendGlobalGMSysMessage", "", "Sends a message to all connected Game Masters"],
+        [3, "SendGlobalSysMessage", "", "Sends a message to all connected players"],
+        [3, "SendSysMessage", "", "Sends text to the chat handler"],
+    ],
+    "paths": []
 };searchIndex["Corpse"] = {
     "items": [
         [0, "", "Corpse", "The remains of a <a class=\"mod\" href=\"Player/index.html\">Player</a> that has died."],
@@ -828,6 +847,7 @@ searchIndex["Aura"] = {
         [3, "IsVendor", "", "Returns true if the <a class=\"mod\" href=\"Unit/index.html\">Unit</a> is a vendor."],
         [3, "Kill", "", "Makes the <a class=\"mod\" href=\"Unit/index.html\">Unit</a> kill the target <a class=\"mod\" href=\"Unit/index.html\">Unit</a>"],
         [3, "ModifyPower", "", "modifies the <a class=\"mod\" href=\"Unit/index.html\">Unit</a>'s power amount for the given power type."],
+        [3, "ModifyThreatPct", "", "Modifies threat in pct to the <a class=\"mod\" href=\"Unit/index.html\">Unit</a> from the victim"],
         [3, "Mount", "", "Mounts the <a class=\"mod\" href=\"Unit/index.html\">Unit</a> on the given displayID/modelID."],
         [3, "MoveChase", "", "The <a class=\"mod\" href=\"Unit/index.html\">Unit</a> will chase the target"],
         [3, "MoveClear", "", "Clears the <a class=\"mod\" href=\"Unit/index.html\">Unit</a>'s movement"],
