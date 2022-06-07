@@ -451,6 +451,7 @@ searchIndex["Aura"] = {
         [3, "GetUInt64Value", "", "Returns the data at the specified index, casted to an unsigned 64-bit integer."],
         [3, "HasFlag", "", "Returns <code>true</code> if the specified flag is set, otherwise <code>false</code>."],
         [3, "IsInWorld", "", "Returns <code>true</code> if the <a class=\"mod\" href=\"Object/index.html\">Object</a> has been added to its <a class=\"mod\" href=\"Map/index.html\">Map</a>, otherwise <code>false</code>."],
+        [3, "IsPlayer", "", "Returns 'true' if the <a class=\"mod\" href=\"Object/index.html\">Object</a> is a player, 'false' otherwise."],
         [3, "RemoveFlag", "", "Removes a flag from the value at the specified index."],
         [3, "SetByteValue", "", "Sets the data at the specified index and offset to the given value, converted to an unsigned 8-bit integer."],
         [3, "SetFlag", "", "Sets the specified flag in the data value at the specified index."],

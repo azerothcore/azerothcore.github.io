@@ -12,6 +12,7 @@ document.write(`
   <a id="Object:GetUInt64Value" class="fn" href="../Object/GetUInt64Value.html">GetUInt64Value</a>
   <a id="Object:HasFlag" class="fn" href="../Object/HasFlag.html">HasFlag</a>
   <a id="Object:IsInWorld" class="fn" href="../Object/IsInWorld.html">IsInWorld</a>
+  <a id="Object:IsPlayer" class="fn" href="../Object/IsPlayer.html">IsPlayer</a>
   <a id="Object:RemoveFlag" class="fn" href="../Object/RemoveFlag.html">RemoveFlag</a>
   <a id="Object:SetByteValue" class="fn" href="../Object/SetByteValue.html">SetByteValue</a>
   <a id="Object:SetFlag" class="fn" href="../Object/SetFlag.html">SetFlag</a>
