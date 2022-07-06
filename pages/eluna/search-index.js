@@ -1,6 +1,12 @@
 var searchIndex = {};
 
-searchIndex["Aura"] = {
+searchIndex["Achievement"] = {
+    "items": [
+        [0, "", "Achievement", ""],
+        [3, "GetId", "", "Returns the <a class=\"mod\" href=\"Achievement/index.html\">Achievement</a>s ID"],
+    ],
+    "paths": []
+};searchIndex["Aura"] = {
     "items": [
         [0, "", "Aura", "The persistent effect of a <a class=\"mod\" href=\"Spell/index.html\">Spell</a> that remains on a <a class=\"mod\" href=\"Unit/index.html\">Unit</a> after the <a class=\"mod\" href=\"Spell/index.html\">Spell</a> has been cast."],
         [3, "GetAuraId", "", "Returns the ID of the <a class=\"mod\" href=\"Spell/index.html\">Spell</a> that caused this <a class=\"mod\" href=\"Aura/index.html\">Aura</a> to be applied."],
