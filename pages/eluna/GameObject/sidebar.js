@@ -1,4 +1,5 @@
 document.write(`
+  <a id="GameObject:AddLoot" class="fn" href="../GameObject/AddLoot.html">AddLoot</a>
   <a id="GameObject:Despawn" class="fn" href="../GameObject/Despawn.html">Despawn</a>
   <a id="GameObject:GetDBTableGUIDLow" class="fn" href="../GameObject/GetDBTableGUIDLow.html">GetDBTableGUIDLow</a>
   <a id="GameObject:GetDisplayId" class="fn" href="../GameObject/GetDisplayId.html">GetDisplayId</a>
