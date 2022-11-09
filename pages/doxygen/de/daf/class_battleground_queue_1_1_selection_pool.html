@@ -114,7 +114,7 @@ $(document).ready(function(){initNavTree('de/daf/class_battleground_queue_1_1_se
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d6/d65/_battleground_queue_8h_source.html">BattlegroundQueue.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">BattlegroundQueue.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -139,7 +139,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a0c08c47f68dbb45175efc524f4553e16"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/daf/class_battleground_queue_1_1_selection_pool.html#a0c08c47f68dbb45175efc524f4553e16">PlayerCount</a></td></tr>
 <tr class="separator:a0c08c47f68dbb45175efc524f4553e16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a9ddcca26fb3f4c635d7bcbb045542885" name="a9ddcca26fb3f4c635d7bcbb045542885"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9ddcca26fb3f4c635d7bcbb045542885">&#9670;&#160;</a></span>SelectionPool()</h2>
 
@@ -162,7 +163,9 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  114</span>: <a class="code hl_variable" href="../../de/daf/class_battleground_queue_1_1_selection_pool.html#a0c08c47f68dbb45175efc524f4553e16">PlayerCount</a>(0) {};</div>
+<div class="ttc" id="aclass_battleground_queue_1_1_selection_pool_html_a0c08c47f68dbb45175efc524f4553e16"><div class="ttname"><a href="../../de/daf/class_battleground_queue_1_1_selection_pool.html#a0c08c47f68dbb45175efc524f4553e16">BattlegroundQueue::SelectionPool::PlayerCount</a></div><div class="ttdeci">uint32 PlayerCount</div><div class="ttdef"><b>Definition:</b> BattlegroundQueue.h:122</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -191,7 +194,20 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  116</span>{</div>
+<div class="line"><span class="lineno">  117</span>    <span class="comment">// add if we don&#39;t exceed desiredCount</span></div>
+<div class="line"><span class="lineno">  118</span>    <span class="keywordflow">if</span> (!ginfo-&gt;<a class="code hl_variable" href="../../d2/d09/struct_group_queue_info.html#a0261df1066e01602f475e9a08e142883">IsInvitedToBGInstanceGUID</a> &amp;&amp; desiredCount &gt;= <a class="code hl_variable" href="../../de/daf/class_battleground_queue_1_1_selection_pool.html#a0c08c47f68dbb45175efc524f4553e16">PlayerCount</a> + ginfo-&gt;<a class="code hl_variable" href="../../d2/d09/struct_group_queue_info.html#ae5912a881a5ecaa761ea28c87e6c45ad">Players</a>.size())</div>
+<div class="line"><span class="lineno">  119</span>    {</div>
+<div class="line"><span class="lineno">  120</span>        <a class="code hl_variable" href="../../de/daf/class_battleground_queue_1_1_selection_pool.html#a4387ef77c341f90758d6c64c4ef2c475">SelectedGroups</a>.push_back(ginfo);</div>
+<div class="line"><span class="lineno">  121</span>        <a class="code hl_variable" href="../../de/daf/class_battleground_queue_1_1_selection_pool.html#a0c08c47f68dbb45175efc524f4553e16">PlayerCount</a> += ginfo-&gt;<a class="code hl_variable" href="../../d2/d09/struct_group_queue_info.html#ae5912a881a5ecaa761ea28c87e6c45ad">Players</a>.size();</div>
+<div class="line"><span class="lineno">  122</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  123</span>    }</div>
+<div class="line"><span class="lineno">  124</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/daf/class_battleground_queue_1_1_selection_pool.html#a0c08c47f68dbb45175efc524f4553e16">PlayerCount</a> &lt; desiredCount;</div>
+<div class="line"><span class="lineno">  125</span>}</div>
+<div class="ttc" id="aclass_battleground_queue_1_1_selection_pool_html_a4387ef77c341f90758d6c64c4ef2c475"><div class="ttname"><a href="../../de/daf/class_battleground_queue_1_1_selection_pool.html#a4387ef77c341f90758d6c64c4ef2c475">BattlegroundQueue::SelectionPool::SelectedGroups</a></div><div class="ttdeci">GroupsQueueType SelectedGroups</div><div class="ttdef"><b>Definition:</b> BattlegroundQueue.h:120</div></div>
+<div class="ttc" id="astruct_group_queue_info_html_a0261df1066e01602f475e9a08e142883"><div class="ttname"><a href="../../d2/d09/struct_group_queue_info.html#a0261df1066e01602f475e9a08e142883">GroupQueueInfo::IsInvitedToBGInstanceGUID</a></div><div class="ttdeci">uint32 IsInvitedToBGInstanceGUID</div><div class="ttdef"><b>Definition:</b> BattlegroundQueue.h:41</div></div>
+<div class="ttc" id="astruct_group_queue_info_html_ae5912a881a5ecaa761ea28c87e6c45ad"><div class="ttname"><a href="../../d2/d09/struct_group_queue_info.html#ae5912a881a5ecaa761ea28c87e6c45ad">GroupQueueInfo::Players</a></div><div class="ttdeci">GuidSet Players</div><div class="ttdef"><b>Definition:</b> BattlegroundQueue.h:32</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="af344a6e6bb42609887ee8a3022e9d8e5" name="af344a6e6bb42609887ee8a3022e9d8e5"></a>
@@ -216,7 +232,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  118</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/daf/class_battleground_queue_1_1_selection_pool.html#a0c08c47f68dbb45175efc524f4553e16">PlayerCount</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a84c3fe684033e8744ce6d6bc50526ee7" name="a84c3fe684033e8744ce6d6bc50526ee7"></a>
@@ -233,7 +250,11 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   76</span>{</div>
+<div class="line"><span class="lineno">   77</span>    <a class="code hl_variable" href="../../de/daf/class_battleground_queue_1_1_selection_pool.html#a4387ef77c341f90758d6c64c4ef2c475">SelectedGroups</a>.clear();</div>
+<div class="line"><span class="lineno">   78</span>    <a class="code hl_variable" href="../../de/daf/class_battleground_queue_1_1_selection_pool.html#a0c08c47f68dbb45175efc524f4553e16">PlayerCount</a> = 0;</div>
+<div class="line"><span class="lineno">   79</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a74fb708546a8612ca52b24b8472b71ef" name="a74fb708546a8612ca52b24b8472b71ef"></a>
@@ -251,7 +272,39 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   83</span>{</div>
+<div class="line"><span class="lineno">   84</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/daf/class_battleground_queue_1_1_selection_pool.html#a4387ef77c341f90758d6c64c4ef2c475">SelectedGroups</a>.empty())</div>
+<div class="line"><span class="lineno">   85</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   86</span> </div>
+<div class="line"><span class="lineno">   87</span>    <span class="comment">// find last group with proper size or largest</span></div>
+<div class="line"><span class="lineno">   88</span>    <span class="keywordtype">bool</span> foundProper = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   89</span>    <a class="code hl_struct" href="../../d2/d09/struct_group_queue_info.html">GroupQueueInfo</a>* groupToKick{ <a class="code hl_variable" href="../../de/daf/class_battleground_queue_1_1_selection_pool.html#a4387ef77c341f90758d6c64c4ef2c475">SelectedGroups</a>.front() };</div>
+<div class="line"><span class="lineno">   90</span> </div>
+<div class="line"><span class="lineno">   91</span>    <span class="keywordflow">for</span> (<span class="keyword">auto</span> <span class="keyword">const</span>&amp; gInfo : <a class="code hl_variable" href="../../de/daf/class_battleground_queue_1_1_selection_pool.html#a4387ef77c341f90758d6c64c4ef2c475">SelectedGroups</a>)</div>
+<div class="line"><span class="lineno">   92</span>    {</div>
+<div class="line"><span class="lineno">   93</span>        <span class="comment">// if proper size - overwrite to kick last one</span></div>
+<div class="line"><span class="lineno">   94</span>        <span class="keywordflow">if</span> (std::abs(<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>(gInfo-&gt;Players.size()) - (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>)size) &lt;= 1)</div>
+<div class="line"><span class="lineno">   95</span>        {</div>
+<div class="line"><span class="lineno">   96</span>            groupToKick = gInfo;</div>
+<div class="line"><span class="lineno">   97</span>            foundProper = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   98</span>        }</div>
+<div class="line"><span class="lineno">   99</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (!foundProper &amp;&amp; gInfo-&gt;Players.size() &gt;= groupToKick-&gt;Players.size())</div>
+<div class="line"><span class="lineno">  100</span>            groupToKick = gInfo;</div>
+<div class="line"><span class="lineno">  101</span>    }</div>
+<div class="line"><span class="lineno">  102</span> </div>
+<div class="line"><span class="lineno">  103</span>    <span class="comment">// remove selected from pool</span></div>
+<div class="line"><span class="lineno">  104</span>    <span class="keyword">auto</span> playersCountInGroup{ groupToKick-&gt;Players.size() };</div>
+<div class="line"><span class="lineno">  105</span>    <a class="code hl_variable" href="../../de/daf/class_battleground_queue_1_1_selection_pool.html#a0c08c47f68dbb45175efc524f4553e16">PlayerCount</a> -= playersCountInGroup;</div>
+<div class="line"><span class="lineno">  106</span>    std::erase(<a class="code hl_variable" href="../../de/daf/class_battleground_queue_1_1_selection_pool.html#a4387ef77c341f90758d6c64c4ef2c475">SelectedGroups</a>, groupToKick);</div>
+<div class="line"><span class="lineno">  107</span> </div>
+<div class="line"><span class="lineno">  108</span>    <span class="keywordflow">if</span> (foundProper)</div>
+<div class="line"><span class="lineno">  109</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  110</span> </div>
+<div class="line"><span class="lineno">  111</span>    <span class="keywordflow">return</span> playersCountInGroup &gt; size;</div>
+<div class="line"><span class="lineno">  112</span>}</div>
+<div class="ttc" id="a_define_8h_html_a0bf9964a3ce962c07ad3d8b5432bbbcd"><div class="ttname"><a href="../../db/d35/_define_8h.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a></div><div class="ttdeci">std::int32_t int32</div><div class="ttdef"><b>Definition:</b> Define.h:104</div></div>
+<div class="ttc" id="astruct_group_queue_info_html"><div class="ttname"><a href="../../d2/d09/struct_group_queue_info.html">GroupQueueInfo</a></div><div class="ttdef"><b>Definition:</b> BattlegroundQueue.h:31</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -292,8 +345,8 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Battlegrounds/<a class="el" href="../../d6/d65/_battleground_queue_8h_source.html">BattlegroundQueue.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/Battlegrounds/<a class="el" href="../../dd/dd8/_battleground_queue_8cpp.html">BattlegroundQueue.cpp</a></li>
+<li><a class="el" href="../../">BattlegroundQueue.h</a></li>
+<li><a class="el" href="../../">BattlegroundQueue.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -301,7 +354,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../de/d9f/class_battleground_queue.html">BattlegroundQueue</a></li><li class="navelem"><a class="el" href="../../de/daf/class_battleground_queue_1_1_selection_pool.html">SelectionPool</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:37 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:49 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

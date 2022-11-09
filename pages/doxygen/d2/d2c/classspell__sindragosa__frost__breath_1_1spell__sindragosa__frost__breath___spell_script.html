@@ -292,7 +292,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a55dcadcfeaa8f740d974576ee2a0f268" name="a55dcadcfeaa8f740d974576ee2a0f268"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a55dcadcfeaa8f740d974576ee2a0f268">&#9670;&#160;</a></span>HandleInfusion()</h2>
 
@@ -315,7 +316,47 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 2006</span>        {</div>
+<div class="line"><span class="lineno"> 2007</span>            <a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* target = <a class="code hl_function" href="../../dc/d62/class_spell_script.html#a175aa4408973ae49cfe237d6c9c5f12f">GetHitPlayer</a>();</div>
+<div class="line"><span class="lineno"> 2008</span>            <span class="keywordflow">if</span> (!target)</div>
+<div class="line"><span class="lineno"> 2009</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 2010</span> </div>
+<div class="line"><span class="lineno"> 2011</span>            <span class="comment">// Check difficulty and quest status</span></div>
+<div class="line"><span class="lineno"> 2012</span>            <span class="keywordflow">if</span> (!(target-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a0a8049df86707056ac7d376363e8a3da">GetRaidDifficulty</a>() &amp; <a class="code hl_define" href="../../dc/d6e/_d_b_c_enums_8h.html#a93eb25c516fdcc8f078bdd3d6cc8dffd">RAID_DIFFICULTY_MASK_25MAN</a>) || target-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#ab98c62b0161d702e4219c8277f8f5349">GetQuestStatus</a>(<a class="code hl_enumvalue" href="../../de/de5/boss__sindragosa_8cpp.html#aa95b79e156766fc09a64d3217691f0d2a1692d6bde9dc261e4640407e74939f34">QUEST_FROST_INFUSION</a>) != <a class="code hl_enumvalue" href="../../d2/dc8/_quest_def_8h.html#abfc87d39d69176ad25e800fb4aa6f0d8a9d062f65bead287785d9b540987bb484">QUEST_STATUS_INCOMPLETE</a>)</div>
+<div class="line"><span class="lineno"> 2013</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 2014</span> </div>
+<div class="line"><span class="lineno"> 2015</span>            <span class="comment">// Check if player has Shadow&#39;s Edge equipped and not ready for infusion</span></div>
+<div class="line"><span class="lineno"> 2016</span>            <span class="keywordflow">if</span> (!target-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a69c5ac45b65cf0dede6e0ee837361f61">HasAura</a>(<a class="code hl_enumvalue" href="../../d9/d6a/icecrown__citadel_8h.html#ae4513ae49ac93cd63ad275f12e160d09a2446f7b785b5111cf468a82daf14cf4f">SPELL_UNSATED_CRAVING</a>) || target-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a69c5ac45b65cf0dede6e0ee837361f61">HasAura</a>(<a class="code hl_enumvalue" href="../../de/de5/boss__sindragosa_8cpp.html#aa95b79e156766fc09a64d3217691f0d2aa66c1da9054c9537f93429076211aec9">SPELL_FROST_IMBUED_BLADE</a>))</div>
+<div class="line"><span class="lineno"> 2017</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 2018</span> </div>
+<div class="line"><span class="lineno"> 2019</span>            <a class="code hl_class" href="../../d2/dde/class_aura.html">Aura</a>* infusion = target-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a135e4d345c338da83450a60528f71222">GetAura</a>(<a class="code hl_enumvalue" href="../../de/de5/boss__sindragosa_8cpp.html#aa95b79e156766fc09a64d3217691f0d2a377cf238d0cce494a7f053ed39555384">SPELL_FROST_INFUSION</a>, target-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>());</div>
+<div class="line"><span class="lineno"> 2020</span>            <span class="keywordflow">if</span> (infusion &amp;&amp; infusion-&gt;<a class="code hl_function" href="../../d2/dde/class_aura.html#aae0b7e0da61a681e67a19b6d23c2cee6">GetStackAmount</a>() &gt;= 3)</div>
+<div class="line"><span class="lineno"> 2021</span>            {</div>
+<div class="line"><span class="lineno"> 2022</span>                target-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a1be09c524dfdd2c3538f2ae977c58399">RemoveAura</a>(infusion);</div>
+<div class="line"><span class="lineno"> 2023</span>                target-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(target, <a class="code hl_enumvalue" href="../../de/de5/boss__sindragosa_8cpp.html#aa95b79e156766fc09a64d3217691f0d2aa66c1da9054c9537f93429076211aec9">SPELL_FROST_IMBUED_BLADE</a>, <a class="code hl_enumvalue" href="../../d2/d6d/_spell_defines_8h.html#a9f3c49d8db7e142b86eba36bc8951967a10578b171eb74dc9851866cc6eb53f3a">TRIGGERED_FULL_MASK</a>);</div>
+<div class="line"><span class="lineno"> 2024</span>            }</div>
+<div class="line"><span class="lineno"> 2025</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 2026</span>                target-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(target, <a class="code hl_enumvalue" href="../../de/de5/boss__sindragosa_8cpp.html#aa95b79e156766fc09a64d3217691f0d2a377cf238d0cce494a7f053ed39555384">SPELL_FROST_INFUSION</a>, <a class="code hl_enumvalue" href="../../d2/d6d/_spell_defines_8h.html#a9f3c49d8db7e142b86eba36bc8951967a10578b171eb74dc9851866cc6eb53f3a">TRIGGERED_FULL_MASK</a>);</div>
+<div class="line"><span class="lineno"> 2027</span>        }</div>
+<div class="ttc" id="a_d_b_c_enums_8h_html_a93eb25c516fdcc8f078bdd3d6cc8dffd"><div class="ttname"><a href="../../dc/d6e/_d_b_c_enums_8h.html#a93eb25c516fdcc8f078bdd3d6cc8dffd">RAID_DIFFICULTY_MASK_25MAN</a></div><div class="ttdeci">#define RAID_DIFFICULTY_MASK_25MAN</div><div class="ttdef"><b>Definition:</b> DBCEnums.h:284</div></div>
+<div class="ttc" id="a_quest_def_8h_html_abfc87d39d69176ad25e800fb4aa6f0d8a9d062f65bead287785d9b540987bb484"><div class="ttname"><a href="../../d2/dc8/_quest_def_8h.html#abfc87d39d69176ad25e800fb4aa6f0d8a9d062f65bead287785d9b540987bb484">QUEST_STATUS_INCOMPLETE</a></div><div class="ttdeci">@ QUEST_STATUS_INCOMPLETE</div><div class="ttdef"><b>Definition:</b> QuestDef.h:103</div></div>
+<div class="ttc" id="a_spell_defines_8h_html_a9f3c49d8db7e142b86eba36bc8951967a10578b171eb74dc9851866cc6eb53f3a"><div class="ttname"><a href="../../d2/d6d/_spell_defines_8h.html#a9f3c49d8db7e142b86eba36bc8951967a10578b171eb74dc9851866cc6eb53f3a">TRIGGERED_FULL_MASK</a></div><div class="ttdeci">@ TRIGGERED_FULL_MASK</div><div class="ttdoc">Will return SPELL_FAILED_DONT_REPORT in CheckCast functions.</div><div class="ttdef"><b>Definition:</b> SpellDefines.h:148</div></div>
+<div class="ttc" id="aboss__sindragosa_8cpp_html_aa95b79e156766fc09a64d3217691f0d2a1692d6bde9dc261e4640407e74939f34"><div class="ttname"><a href="../../de/de5/boss__sindragosa_8cpp.html#aa95b79e156766fc09a64d3217691f0d2a1692d6bde9dc261e4640407e74939f34">QUEST_FROST_INFUSION</a></div><div class="ttdeci">@ QUEST_FROST_INFUSION</div><div class="ttdef"><b>Definition:</b> boss_sindragosa.cpp:93</div></div>
+<div class="ttc" id="aboss__sindragosa_8cpp_html_aa95b79e156766fc09a64d3217691f0d2a377cf238d0cce494a7f053ed39555384"><div class="ttname"><a href="../../de/de5/boss__sindragosa_8cpp.html#aa95b79e156766fc09a64d3217691f0d2a377cf238d0cce494a7f053ed39555384">SPELL_FROST_INFUSION</a></div><div class="ttdeci">@ SPELL_FROST_INFUSION</div><div class="ttdef"><b>Definition:</b> boss_sindragosa.cpp:96</div></div>
+<div class="ttc" id="aboss__sindragosa_8cpp_html_aa95b79e156766fc09a64d3217691f0d2aa66c1da9054c9537f93429076211aec9"><div class="ttname"><a href="../../de/de5/boss__sindragosa_8cpp.html#aa95b79e156766fc09a64d3217691f0d2aa66c1da9054c9537f93429076211aec9">SPELL_FROST_IMBUED_BLADE</a></div><div class="ttdeci">@ SPELL_FROST_IMBUED_BLADE</div><div class="ttdef"><b>Definition:</b> boss_sindragosa.cpp:95</div></div>
+<div class="ttc" id="aclass_aura_html"><div class="ttname"><a href="../../d2/dde/class_aura.html">Aura</a></div><div class="ttdef"><b>Definition:</b> SpellAuras.h:87</div></div>
+<div class="ttc" id="aclass_aura_html_aae0b7e0da61a681e67a19b6d23c2cee6"><div class="ttname"><a href="../../d2/dde/class_aura.html#aae0b7e0da61a681e67a19b6d23c2cee6">Aura::GetStackAmount</a></div><div class="ttdeci">uint8 GetStackAmount() const</div><div class="ttdef"><b>Definition:</b> SpellAuras.h:148</div></div>
+<div class="ttc" id="aclass_object_html_ad23b997e2442fa6a6228ba73a7ecc138"><div class="ttname"><a href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">Object::GetGUID</a></div><div class="ttdeci">static ObjectGuid GetGUID(Object const *o)</div><div class="ttdef"><b>Definition:</b> Object.h:106</div></div>
+<div class="ttc" id="aclass_player_html"><div class="ttname"><a href="../../d8/d53/class_player.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1046</div></div>
+<div class="ttc" id="aclass_player_html_a0a8049df86707056ac7d376363e8a3da"><div class="ttname"><a href="../../d8/d53/class_player.html#a0a8049df86707056ac7d376363e8a3da">Player::GetRaidDifficulty</a></div><div class="ttdeci">Difficulty GetRaidDifficulty() const</div><div class="ttdef"><b>Definition:</b> Player.h:1871</div></div>
+<div class="ttc" id="aclass_player_html_ab98c62b0161d702e4219c8277f8f5349"><div class="ttname"><a href="../../d8/d53/class_player.html#ab98c62b0161d702e4219c8277f8f5349">Player::GetQuestStatus</a></div><div class="ttdeci">QuestStatus GetQuestStatus(uint32 quest_id) const</div><div class="ttdef"><b>Definition:</b> PlayerQuest.cpp:1407</div></div>
+<div class="ttc" id="aclass_spell_script_html_a175aa4408973ae49cfe237d6c9c5f12f"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a175aa4408973ae49cfe237d6c9c5f12f">SpellScript::GetHitPlayer</a></div><div class="ttdeci">Player * GetHitPlayer()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:471</div></div>
+<div class="ttc" id="aclass_unit_html_a135e4d345c338da83450a60528f71222"><div class="ttname"><a href="../../da/db7/class_unit.html#a135e4d345c338da83450a60528f71222">Unit::GetAura</a></div><div class="ttdeci">Aura * GetAura(uint32 spellId, ObjectGuid casterGUID=ObjectGuid::Empty, ObjectGuid itemCasterGUID=ObjectGuid::Empty, uint8 reqEffMask=0) const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:5487</div></div>
+<div class="ttc" id="aclass_unit_html_a1be09c524dfdd2c3538f2ae977c58399"><div class="ttname"><a href="../../da/db7/class_unit.html#a1be09c524dfdd2c3538f2ae977c58399">Unit::RemoveAura</a></div><div class="ttdeci">void RemoveAura(AuraApplicationMap::iterator &amp;i, AuraRemoveMode mode=AURA_REMOVE_BY_DEFAULT)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:4696</div></div>
+<div class="ttc" id="aclass_unit_html_a69c5ac45b65cf0dede6e0ee837361f61"><div class="ttname"><a href="../../da/db7/class_unit.html#a69c5ac45b65cf0dede6e0ee837361f61">Unit::HasAura</a></div><div class="ttdeci">bool HasAura(uint32 spellId, ObjectGuid casterGUID=ObjectGuid::Empty, ObjectGuid itemCasterGUID=ObjectGuid::Empty, uint8 reqEffMask=0) const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:5598</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+<div class="ttc" id="aicecrown__citadel_8h_html_ae4513ae49ac93cd63ad275f12e160d09a2446f7b785b5111cf468a82daf14cf4f"><div class="ttname"><a href="../../d9/d6a/icecrown__citadel_8h.html#ae4513ae49ac93cd63ad275f12e160d09a2446f7b785b5111cf468a82daf14cf4f">SPELL_UNSATED_CRAVING</a></div><div class="ttdeci">@ SPELL_UNSATED_CRAVING</div><div class="ttdef"><b>Definition:</b> icecrown_citadel.h:67</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a972750817e3da3f32df03063f4efcbf4" name="a972750817e3da3f32df03063f4efcbf4"></a>
@@ -368,11 +409,17 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 2030</span>        {</div>
+<div class="line"><span class="lineno"> 2031</span>            <a class="code hl_variable" href="../../dc/d62/class_spell_script.html#a3362c737af695ae44f841bf3c94003af">AfterHit</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#ad33ae6ff74ef32eb5ec79707ff0ab5b1">SpellHitFn</a>(<a class="code hl_function" href="../../d2/d2c/classspell__sindragosa__frost__breath_1_1spell__sindragosa__frost__breath___spell_script.html#a55dcadcfeaa8f740d974576ee2a0f268">spell_sindragosa_frost_breath_SpellScript::HandleInfusion</a>);</div>
+<div class="line"><span class="lineno"> 2032</span>        }</div>
+<div class="ttc" id="a_spell_script_8h_html_ad33ae6ff74ef32eb5ec79707ff0ab5b1"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#ad33ae6ff74ef32eb5ec79707ff0ab5b1">SpellHitFn</a></div><div class="ttdeci">#define SpellHitFn(F)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:349</div></div>
+<div class="ttc" id="aclass_spell_script_html_a3362c737af695ae44f841bf3c94003af"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a3362c737af695ae44f841bf3c94003af">SpellScript::AfterHit</a></div><div class="ttdeci">HookList&lt; HitHandler &gt; AfterHit</div><div class="ttdef"><b>Definition:</b> SpellScript.h:347</div></div>
+<div class="ttc" id="aclassspell__sindragosa__frost__breath_1_1spell__sindragosa__frost__breath___spell_script_html_a55dcadcfeaa8f740d974576ee2a0f268"><div class="ttname"><a href="../../d2/d2c/classspell__sindragosa__frost__breath_1_1spell__sindragosa__frost__breath___spell_script.html#a55dcadcfeaa8f740d974576ee2a0f268">spell_sindragosa_frost_breath::spell_sindragosa_frost_breath_SpellScript::HandleInfusion</a></div><div class="ttdeci">void HandleInfusion()</div><div class="ttdef"><b>Definition:</b> boss_sindragosa.cpp:2005</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/IcecrownCitadel/<a class="el" href="../../de/de5/boss__sindragosa_8cpp.html">boss_sindragosa.cpp</a></li>
+<li><a class="el" href="../../">boss_sindragosa.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -380,7 +427,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d3/d2f/classspell__sindragosa__frost__breath.html">spell_sindragosa_frost_breath</a></li><li class="navelem"><a class="el" href="../../d2/d2c/classspell__sindragosa__frost__breath_1_1spell__sindragosa__frost__breath___spell_script.html">spell_sindragosa_frost_breath_SpellScript</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:08 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:25 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

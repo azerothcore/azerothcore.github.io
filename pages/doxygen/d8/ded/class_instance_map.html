@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('d8/ded/class_instance_map.html','../..
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d3/d63/_map_8h_source.html">Map.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">Map.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for InstanceMap:</div>
 <div class="dyncontent">
@@ -721,7 +721,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a1c566480d7d16685516e03072b9385bc inherit pro_attribs_class_map"><td class="memItemLeft" align="right" valign="top">TransportsContainer::iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d11/class_map.html#a1c566480d7d16685516e03072b9385bc">_transportsUpdateIter</a></td></tr>
 <tr class="separator:a1c566480d7d16685516e03072b9385bc inherit pro_attribs_class_map"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a9d50fedced3e052f133b6d34d894b0ef" name="a9d50fedced3e052f133b6d34d894b0ef"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9d50fedced3e052f133b6d34d894b0ef">&#9670;&#160;</a></span>InstanceMap()</h2>
 
@@ -759,7 +760,39 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 2805</span>    : <a class="code hl_class" href="../../dd/d11/class_map.html">Map</a>(<span class="keywordtype">id</span>, InstanceId, SpawnMode, _parent),</div>
+<div class="line"><span class="lineno"> 2806</span>      <a class="code hl_variable" href="../../d8/ded/class_instance_map.html#a0ef50638887402136d92fc045de2dfd6">m_resetAfterUnload</a>(<span class="keyword">false</span>), <a class="code hl_variable" href="../../d8/ded/class_instance_map.html#a2c97ba74253c4bc5612c6290597e8bf7">m_unloadWhenEmpty</a>(<span class="keyword">false</span>),</div>
+<div class="line"><span class="lineno"> 2807</span>      <a class="code hl_variable" href="../../d8/ded/class_instance_map.html#a5e72502fd1dc9361180a46928ab7f33d">instance_data</a>(<span class="keyword">nullptr</span>), <a class="code hl_variable" href="../../d8/ded/class_instance_map.html#ad86f85ab222182b0fe66a0fa19b916f6">i_script_id</a>(0)</div>
+<div class="line"><span class="lineno"> 2808</span>{</div>
+<div class="line"><span class="lineno"> 2809</span>    <span class="comment">//lets initialize visibility distance for dungeons</span></div>
+<div class="line"><span class="lineno"> 2810</span>    <a class="code hl_function" href="../../d8/ded/class_instance_map.html#a6d912f1d70072b29d1d8b20a8fe2d088">InstanceMap::InitVisibilityDistance</a>();</div>
+<div class="line"><span class="lineno"> 2811</span> </div>
+<div class="line"><span class="lineno"> 2812</span>    <span class="comment">// the timer is started by default, and stopped when the first player joins</span></div>
+<div class="line"><span class="lineno"> 2813</span>    <span class="comment">// this make sure it gets unloaded if for some reason no player joins</span></div>
+<div class="line"><span class="lineno"> 2814</span>    <a class="code hl_variable" href="../../dd/d11/class_map.html#a41e53a51784b9f424fe10ecafba8ccb5">m_unloadTimer</a> = std::max(<a class="code hl_define" href="../../df/d17/group__world.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;getIntConfig(<a class="code hl_enumvalue" href="../../d2/d80/_i_world_8h.html#a17aac4c166ebe43e3b8fdccf9e012e41acc7b5d56ec325b9a771489067a3a44f0">CONFIG_INSTANCE_UNLOAD_DELAY</a>), (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>)<a class="code hl_define" href="../../d3/d63/_map_8h.html#a092c3d2c90fd46d14455e6ff2413dabb">MIN_UNLOAD_DELAY</a>);</div>
+<div class="line"><span class="lineno"> 2815</span> </div>
+<div class="line"><span class="lineno"> 2816</span>    <span class="comment">// pussywizard:</span></div>
+<div class="line"><span class="lineno"> 2817</span>    <span class="keywordflow">if</span> (<a class="code hl_function" href="../../dd/d11/class_map.html#a556d2eafa563b4a5de4957de28e369b3">IsRaid</a>())</div>
+<div class="line"><span class="lineno"> 2818</span>        <span class="keywordflow">if</span> (time_t resetTime = <a class="code hl_define" href="../../d4/d01/_instance_save_mgr_8h.html#ae1d3c96dbd749e40f06799fa52eeb9a2">sInstanceSaveMgr</a>-&gt;GetResetTimeFor(<span class="keywordtype">id</span>, <a class="code hl_enumeration" href="../../dc/d6e/_d_b_c_enums_8h.html#a43efb0a2e61815a66134dfa5ccea0a83">Difficulty</a>(SpawnMode)))</div>
+<div class="line"><span class="lineno"> 2819</span>            <span class="keywordflow">if</span> (time_t extendedResetTime = <a class="code hl_define" href="../../d4/d01/_instance_save_mgr_8h.html#ae1d3c96dbd749e40f06799fa52eeb9a2">sInstanceSaveMgr</a>-&gt;GetExtendedResetTimeFor(<span class="keywordtype">id</span>, <a class="code hl_enumeration" href="../../dc/d6e/_d_b_c_enums_8h.html#a43efb0a2e61815a66134dfa5ccea0a83">Difficulty</a>(SpawnMode)))</div>
+<div class="line"><span class="lineno"> 2820</span>                <a class="code hl_variable" href="../../dd/d11/class_map.html#a96122e684358413e5aeddc387d164c47">_instanceResetPeriod</a> = extendedResetTime - resetTime;</div>
+<div class="line"><span class="lineno"> 2821</span>}</div>
+<div class="ttc" id="a_d_b_c_enums_8h_html_a43efb0a2e61815a66134dfa5ccea0a83"><div class="ttname"><a href="../../dc/d6e/_d_b_c_enums_8h.html#a43efb0a2e61815a66134dfa5ccea0a83">Difficulty</a></div><div class="ttdeci">Difficulty</div><div class="ttdef"><b>Definition:</b> DBCEnums.h:271</div></div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="a_i_world_8h_html_a17aac4c166ebe43e3b8fdccf9e012e41acc7b5d56ec325b9a771489067a3a44f0"><div class="ttname"><a href="../../d2/d80/_i_world_8h.html#a17aac4c166ebe43e3b8fdccf9e012e41acc7b5d56ec325b9a771489067a3a44f0">CONFIG_INSTANCE_UNLOAD_DELAY</a></div><div class="ttdeci">@ CONFIG_INSTANCE_UNLOAD_DELAY</div><div class="ttdef"><b>Definition:</b> IWorld.h:244</div></div>
+<div class="ttc" id="a_instance_save_mgr_8h_html_ae1d3c96dbd749e40f06799fa52eeb9a2"><div class="ttname"><a href="../../d4/d01/_instance_save_mgr_8h.html#ae1d3c96dbd749e40f06799fa52eeb9a2">sInstanceSaveMgr</a></div><div class="ttdeci">#define sInstanceSaveMgr</div><div class="ttdef"><b>Definition:</b> InstanceSaveMgr.h:202</div></div>
+<div class="ttc" id="a_map_8h_html_a092c3d2c90fd46d14455e6ff2413dabb"><div class="ttname"><a href="../../d3/d63/_map_8h.html#a092c3d2c90fd46d14455e6ff2413dabb">MIN_UNLOAD_DELAY</a></div><div class="ttdeci">#define MIN_UNLOAD_DELAY</div><div class="ttdef"><b>Definition:</b> Map.h:167</div></div>
+<div class="ttc" id="aclass_instance_map_html_a0ef50638887402136d92fc045de2dfd6"><div class="ttname"><a href="../../d8/ded/class_instance_map.html#a0ef50638887402136d92fc045de2dfd6">InstanceMap::m_resetAfterUnload</a></div><div class="ttdeci">bool m_resetAfterUnload</div><div class="ttdef"><b>Definition:</b> Map.h:840</div></div>
+<div class="ttc" id="aclass_instance_map_html_a2c97ba74253c4bc5612c6290597e8bf7"><div class="ttname"><a href="../../d8/ded/class_instance_map.html#a2c97ba74253c4bc5612c6290597e8bf7">InstanceMap::m_unloadWhenEmpty</a></div><div class="ttdeci">bool m_unloadWhenEmpty</div><div class="ttdef"><b>Definition:</b> Map.h:841</div></div>
+<div class="ttc" id="aclass_instance_map_html_a5e72502fd1dc9361180a46928ab7f33d"><div class="ttname"><a href="../../d8/ded/class_instance_map.html#a5e72502fd1dc9361180a46928ab7f33d">InstanceMap::instance_data</a></div><div class="ttdeci">InstanceScript * instance_data</div><div class="ttdef"><b>Definition:</b> Map.h:842</div></div>
+<div class="ttc" id="aclass_instance_map_html_a6d912f1d70072b29d1d8b20a8fe2d088"><div class="ttname"><a href="../../d8/ded/class_instance_map.html#a6d912f1d70072b29d1d8b20a8fe2d088">InstanceMap::InitVisibilityDistance</a></div><div class="ttdeci">void InitVisibilityDistance() override</div><div class="ttdef"><b>Definition:</b> Map.cpp:2830</div></div>
+<div class="ttc" id="aclass_instance_map_html_ad86f85ab222182b0fe66a0fa19b916f6"><div class="ttname"><a href="../../d8/ded/class_instance_map.html#ad86f85ab222182b0fe66a0fa19b916f6">InstanceMap::i_script_id</a></div><div class="ttdeci">uint32 i_script_id</div><div class="ttdef"><b>Definition:</b> Map.h:843</div></div>
+<div class="ttc" id="aclass_map_html"><div class="ttname"><a href="../../dd/d11/class_map.html">Map</a></div><div class="ttdef"><b>Definition:</b> Map.h:312</div></div>
+<div class="ttc" id="aclass_map_html_a41e53a51784b9f424fe10ecafba8ccb5"><div class="ttname"><a href="../../dd/d11/class_map.html#a41e53a51784b9f424fe10ecafba8ccb5">Map::m_unloadTimer</a></div><div class="ttdeci">uint32 m_unloadTimer</div><div class="ttdef"><b>Definition:</b> Map.h:705</div></div>
+<div class="ttc" id="aclass_map_html_a556d2eafa563b4a5de4957de28e369b3"><div class="ttname"><a href="../../dd/d11/class_map.html#a556d2eafa563b4a5de4957de28e369b3">Map::IsRaid</a></div><div class="ttdeci">bool IsRaid() const</div><div class="ttdef"><b>Definition:</b> Map.h:449</div></div>
+<div class="ttc" id="aclass_map_html_a96122e684358413e5aeddc387d164c47"><div class="ttname"><a href="../../dd/d11/class_map.html#a96122e684358413e5aeddc387d164c47">Map::_instanceResetPeriod</a></div><div class="ttdeci">time_t _instanceResetPeriod</div><div class="ttdef"><b>Definition:</b> Map.h:708</div></div>
+<div class="ttc" id="agroup__world_html_ga05dfb35c344e5b947a19e4284e7f5fa7"><div class="ttname"><a href="../../df/d17/group__world.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a></div><div class="ttdeci">#define sWorld</div><div class="ttdef"><b>Definition:</b> World.h:458</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aac59e76c4c67bffa05b8c5994f004a18" name="aac59e76c4c67bffa05b8c5994f004a18"></a>
@@ -784,7 +817,13 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 2824</span>{</div>
+<div class="line"><span class="lineno"> 2825</span>    <span class="keyword">delete</span> <a class="code hl_variable" href="../../d8/ded/class_instance_map.html#a5e72502fd1dc9361180a46928ab7f33d">instance_data</a>;</div>
+<div class="line"><span class="lineno"> 2826</span>    <a class="code hl_variable" href="../../d8/ded/class_instance_map.html#a5e72502fd1dc9361180a46928ab7f33d">instance_data</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno"> 2827</span>    <a class="code hl_define" href="../../d4/d01/_instance_save_mgr_8h.html#ae1d3c96dbd749e40f06799fa52eeb9a2">sInstanceSaveMgr</a>-&gt;DeleteInstanceSaveIfNeeded(<a class="code hl_function" href="../../dd/d11/class_map.html#ae0451da49ca7ce3b856f38870c451e44">GetInstanceId</a>(), <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno"> 2828</span>}</div>
+<div class="ttc" id="aclass_map_html_ae0451da49ca7ce3b856f38870c451e44"><div class="ttname"><a href="../../dd/d11/class_map.html#ae0451da49ca7ce3b856f38870c451e44">Map::GetInstanceId</a></div><div class="ttdeci">uint32 GetInstanceId() const</div><div class="ttdef"><b>Definition:</b> Map.h:418</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -813,7 +852,114 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d11/class_map.html#ade440126c32b98c4fe83a1ca6a0c1846">Map</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 2934</span>{</div>
+<div class="line"><span class="lineno"> 2935</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d8/ded/class_instance_map.html#a0ef50638887402136d92fc045de2dfd6">m_resetAfterUnload</a>) <span class="comment">// this instance has been reset, it&#39;s not meant to be used anymore</span></div>
+<div class="line"><span class="lineno"> 2936</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 2937</span> </div>
+<div class="line"><span class="lineno"> 2938</span>    <span class="keywordflow">if</span> (<a class="code hl_function" href="../../dd/d11/class_map.html#a0c80d50b012dc8d560e256201970f3b3">IsDungeon</a>())</div>
+<div class="line"><span class="lineno"> 2939</span>    {</div>
+<div class="line"><span class="lineno"> 2940</span>        <a class="code hl_class" href="../../da/d50/class_group.html">Group</a>* group = player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a99fc00f9ac903dbe9adcadc5f7415abb">GetGroup</a>();</div>
+<div class="line"><span class="lineno"> 2941</span> </div>
+<div class="line"><span class="lineno"> 2942</span>        <span class="comment">// get an instance save for the map</span></div>
+<div class="line"><span class="lineno"> 2943</span>        <a class="code hl_class" href="../../de/dfe/class_instance_save.html">InstanceSave</a>* mapSave = <a class="code hl_define" href="../../d4/d01/_instance_save_mgr_8h.html#ae1d3c96dbd749e40f06799fa52eeb9a2">sInstanceSaveMgr</a>-&gt;GetInstanceSave(<a class="code hl_function" href="../../dd/d11/class_map.html#ae0451da49ca7ce3b856f38870c451e44">GetInstanceId</a>());</div>
+<div class="line"><span class="lineno"> 2944</span>        <span class="keywordflow">if</span> (!mapSave)</div>
+<div class="line"><span class="lineno"> 2945</span>        {</div>
+<div class="line"><span class="lineno"> 2946</span>            <a class="code hl_define" href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;maps&quot;</span>, <span class="stringliteral">&quot;InstanceMap::Add: InstanceSave does not exist for map {} spawnmode {} with instance id {}&quot;</span>, <a class="code hl_function" href="../../dd/d11/class_map.html#abea8ed605071226978969647a0246e86">GetId</a>(), <a class="code hl_function" href="../../dd/d11/class_map.html#a43b5bdb50f8e3d9b9305475f62872d6c">GetSpawnMode</a>(), <a class="code hl_function" href="../../dd/d11/class_map.html#ae0451da49ca7ce3b856f38870c451e44">GetInstanceId</a>());</div>
+<div class="line"><span class="lineno"> 2947</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 2948</span>        }</div>
+<div class="line"><span class="lineno"> 2949</span> </div>
+<div class="line"><span class="lineno"> 2950</span>        <span class="comment">// check for existing instance binds</span></div>
+<div class="line"><span class="lineno"> 2951</span>        <a class="code hl_struct" href="../../de/df7/struct_instance_player_bind.html">InstancePlayerBind</a>* playerBind = <a class="code hl_define" href="../../d4/d01/_instance_save_mgr_8h.html#ae1d3c96dbd749e40f06799fa52eeb9a2">sInstanceSaveMgr</a>-&gt;PlayerGetBoundInstance(player-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>(), <a class="code hl_function" href="../../dd/d11/class_map.html#abea8ed605071226978969647a0246e86">GetId</a>(), <a class="code hl_enumeration" href="../../dc/d6e/_d_b_c_enums_8h.html#a43efb0a2e61815a66134dfa5ccea0a83">Difficulty</a>(<a class="code hl_function" href="../../dd/d11/class_map.html#a43b5bdb50f8e3d9b9305475f62872d6c">GetSpawnMode</a>()));</div>
+<div class="line"><span class="lineno"> 2952</span>        <span class="keywordflow">if</span> (playerBind &amp;&amp; playerBind-&gt;<a class="code hl_variable" href="../../de/df7/struct_instance_player_bind.html#ab35249eb791941b484ecc321b1102b24">perm</a>)</div>
+<div class="line"><span class="lineno"> 2953</span>        {</div>
+<div class="line"><span class="lineno"> 2954</span>            <span class="keywordflow">if</span> (playerBind-&gt;<a class="code hl_variable" href="../../de/df7/struct_instance_player_bind.html#a24ef1e0e0a38033a16b697c32e3d8234">save</a> != mapSave)</div>
+<div class="line"><span class="lineno"> 2955</span>            {</div>
+<div class="line"><span class="lineno"> 2956</span>                <a class="code hl_define" href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;maps&quot;</span>, <span class="stringliteral">&quot;InstanceMap::Add: player {} ({}) is permanently bound to instance {}, {}, {}, {} but he is being put into instance {}, {}, {}, {}&quot;</span>,</div>
+<div class="line"><span class="lineno"> 2957</span>                    player-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a7e67658eb5aa058bc7f46bf6b11a797c">GetName</a>(), player-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>().<a class="code hl_function" href="../../d8/d03/class_object_guid.html#a78f5fb47e3b35addf8984000c175125b">ToString</a>(), playerBind-&gt;<a class="code hl_variable" href="../../de/df7/struct_instance_player_bind.html#a24ef1e0e0a38033a16b697c32e3d8234">save</a>-&gt;<a class="code hl_function" href="../../de/dfe/class_instance_save.html#a92ce355e9be7f83d53307b6dcd354c5d">GetMapId</a>(), playerBind-&gt;<a class="code hl_variable" href="../../de/df7/struct_instance_player_bind.html#a24ef1e0e0a38033a16b697c32e3d8234">save</a>-&gt;<a class="code hl_function" href="../../de/dfe/class_instance_save.html#a7def734d9c4698457fa4f631e30fa9db">GetInstanceId</a>(), playerBind-&gt;<a class="code hl_variable" href="../../de/df7/struct_instance_player_bind.html#a24ef1e0e0a38033a16b697c32e3d8234">save</a>-&gt;<a class="code hl_function" href="../../de/dfe/class_instance_save.html#a94577295c43dc90262381beff84f5f91">GetDifficulty</a>(),</div>
+<div class="line"><span class="lineno"> 2958</span>                    playerBind-&gt;<a class="code hl_variable" href="../../de/df7/struct_instance_player_bind.html#a24ef1e0e0a38033a16b697c32e3d8234">save</a>-&gt;<a class="code hl_function" href="../../de/dfe/class_instance_save.html#aba8d512041c8485f49eef8c1fafce729">CanReset</a>(), mapSave-&gt;<a class="code hl_function" href="../../de/dfe/class_instance_save.html#a92ce355e9be7f83d53307b6dcd354c5d">GetMapId</a>(), mapSave-&gt;<a class="code hl_function" href="../../de/dfe/class_instance_save.html#a7def734d9c4698457fa4f631e30fa9db">GetInstanceId</a>(), mapSave-&gt;<a class="code hl_function" href="../../de/dfe/class_instance_save.html#a94577295c43dc90262381beff84f5f91">GetDifficulty</a>(), mapSave-&gt;<a class="code hl_function" href="../../de/dfe/class_instance_save.html#aba8d512041c8485f49eef8c1fafce729">CanReset</a>());</div>
+<div class="line"><span class="lineno"> 2959</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 2960</span>            }</div>
+<div class="line"><span class="lineno"> 2961</span>        }</div>
+<div class="line"><span class="lineno"> 2962</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a6ab11ca64cde7c5cde1f53998a6f7253">GetSession</a>()-&gt;<a class="code hl_function" href="../../d1/d47/class_world_session.html#a6518fa6d76b730689eb44f2256af3726">PlayerLoading</a>() &amp;&amp; playerBind &amp;&amp; playerBind-&gt;<a class="code hl_variable" href="../../de/df7/struct_instance_player_bind.html#a24ef1e0e0a38033a16b697c32e3d8234">save</a> != mapSave)</div>
+<div class="line"><span class="lineno"> 2963</span>        {</div>
+<div class="line"><span class="lineno"> 2964</span>            <span class="comment">// Prevent &quot;Convert to Raid&quot; exploit to reset instances</span></div>
+<div class="line"><span class="lineno"> 2965</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 2966</span>        }</div>
+<div class="line"><span class="lineno"> 2967</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 2968</span>        {</div>
+<div class="line"><span class="lineno"> 2969</span>            playerBind = <a class="code hl_define" href="../../d4/d01/_instance_save_mgr_8h.html#ae1d3c96dbd749e40f06799fa52eeb9a2">sInstanceSaveMgr</a>-&gt;PlayerBindToInstance(player-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>(), mapSave, <span class="keyword">false</span>, player);</div>
+<div class="line"><span class="lineno"> 2970</span>            <span class="comment">// pussywizard: bind lider also if not yet bound</span></div>
+<div class="line"><span class="lineno"> 2971</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/d50/class_group.html">Group</a>* g = player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a99fc00f9ac903dbe9adcadc5f7415abb">GetGroup</a>())</div>
+<div class="line"><span class="lineno"> 2972</span>                <span class="keywordflow">if</span> (g-&gt;GetLeaderGUID() != player-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>())</div>
+<div class="line"><span class="lineno"> 2973</span>                    <span class="keywordflow">if</span> (!<a class="code hl_define" href="../../d4/d01/_instance_save_mgr_8h.html#ae1d3c96dbd749e40f06799fa52eeb9a2">sInstanceSaveMgr</a>-&gt;PlayerGetBoundInstance(g-&gt;GetLeaderGUID(), mapSave-&gt;<a class="code hl_function" href="../../de/dfe/class_instance_save.html#a92ce355e9be7f83d53307b6dcd354c5d">GetMapId</a>(), mapSave-&gt;<a class="code hl_function" href="../../de/dfe/class_instance_save.html#a94577295c43dc90262381beff84f5f91">GetDifficulty</a>()))</div>
+<div class="line"><span class="lineno"> 2974</span>                    {</div>
+<div class="line"><span class="lineno"> 2975</span>                        <a class="code hl_define" href="../../d4/d01/_instance_save_mgr_8h.html#ae1d3c96dbd749e40f06799fa52eeb9a2">sInstanceSaveMgr</a>-&gt;PlayerCreateBoundInstancesMaps(g-&gt;GetLeaderGUID());</div>
+<div class="line"><span class="lineno"> 2976</span>                        <a class="code hl_define" href="../../d4/d01/_instance_save_mgr_8h.html#ae1d3c96dbd749e40f06799fa52eeb9a2">sInstanceSaveMgr</a>-&gt;PlayerBindToInstance(g-&gt;GetLeaderGUID(), mapSave, <span class="keyword">false</span>, <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#a354f7e7aaf4b12d6ad8fe8ef6291eaa0">ObjectAccessor::FindConnectedPlayer</a>(g-&gt;GetLeaderGUID()));</div>
+<div class="line"><span class="lineno"> 2977</span>                    }</div>
+<div class="line"><span class="lineno"> 2978</span>        }</div>
+<div class="line"><span class="lineno"> 2979</span> </div>
+<div class="line"><span class="lineno"> 2980</span>        <span class="comment">// increase current instances (hourly limit)</span></div>
+<div class="line"><span class="lineno"> 2981</span>        <span class="comment">// xinef: specific instances are still limited</span></div>
+<div class="line"><span class="lineno"> 2982</span>        <span class="keywordflow">if</span> (!group || !group-&gt;<a class="code hl_function" href="../../da/d50/class_group.html#a262e3bb23b71f40a2df56198f9921e9d">isLFGGroup</a>() || !group-&gt;<a class="code hl_function" href="../../da/d50/class_group.html#a3479c3a57ed504c713ddf41362702c4d">IsLfgRandomInstance</a>())</div>
+<div class="line"><span class="lineno"> 2983</span>            player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a4ff54d951e875293c2881952405b9583">AddInstanceEnterTime</a>(<a class="code hl_function" href="../../dd/d11/class_map.html#ae0451da49ca7ce3b856f38870c451e44">GetInstanceId</a>(), <a class="code hl_function" href="../../d4/d1c/namespace_game_time.html#adbe1785d1327dedf2ac403b7cc8e99c2">GameTime::GetGameTime</a>().count());</div>
+<div class="line"><span class="lineno"> 2984</span> </div>
+<div class="line"><span class="lineno"> 2985</span>        <span class="keywordflow">if</span> (!playerBind-&gt;<a class="code hl_variable" href="../../de/df7/struct_instance_player_bind.html#ab35249eb791941b484ecc321b1102b24">perm</a> &amp;&amp; !mapSave-&gt;<a class="code hl_function" href="../../de/dfe/class_instance_save.html#aba8d512041c8485f49eef8c1fafce729">CanReset</a>() &amp;&amp; group &amp;&amp; !group-&gt;<a class="code hl_function" href="../../da/d50/class_group.html#a262e3bb23b71f40a2df56198f9921e9d">isLFGGroup</a>() &amp;&amp; !group-&gt;<a class="code hl_function" href="../../da/d50/class_group.html#a3479c3a57ed504c713ddf41362702c4d">IsLfgRandomInstance</a>())</div>
+<div class="line"><span class="lineno"> 2986</span>        {</div>
+<div class="line"><span class="lineno"> 2987</span>            <a class="code hl_class" href="../../d6/d1a/class_world_packet.html">WorldPacket</a> data(<a class="code hl_enumvalue" href="../../d2/dec/group__u2w.html#gga1073b6abb3a749f18bf1633020879e9ba80eadb4944a8c4029036a84108e48903">SMSG_INSTANCE_LOCK_WARNING_QUERY</a>, 9);</div>
+<div class="line"><span class="lineno"> 2988</span>            data &lt;&lt; <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(60000);</div>
+<div class="line"><span class="lineno"> 2989</span>            data &lt;&lt; <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(<a class="code hl_variable" href="../../d8/ded/class_instance_map.html#a5e72502fd1dc9361180a46928ab7f33d">instance_data</a> ? <a class="code hl_variable" href="../../d8/ded/class_instance_map.html#a5e72502fd1dc9361180a46928ab7f33d">instance_data</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_instance_script.html#a037fd2be83cbf2da121b258bed4fa159">GetCompletedEncounterMask</a>() : 0);</div>
+<div class="line"><span class="lineno"> 2990</span>            data &lt;&lt; <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>(0);</div>
+<div class="line"><span class="lineno"> 2991</span>            player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a6ab11ca64cde7c5cde1f53998a6f7253">GetSession</a>()-&gt;<a class="code hl_function" href="../../d1/d47/class_world_session.html#a2c74b80ca9b81765049e315813b29269">SendPacket</a>(&amp;data);</div>
+<div class="line"><span class="lineno"> 2992</span>            player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a9fa0aff09f1be52dcbf6955df877a40f">SetPendingBind</a>(mapSave-&gt;<a class="code hl_function" href="../../de/dfe/class_instance_save.html#a7def734d9c4698457fa4f631e30fa9db">GetInstanceId</a>(), 60000);</div>
+<div class="line"><span class="lineno"> 2993</span>        }</div>
+<div class="line"><span class="lineno"> 2994</span>    }</div>
+<div class="line"><span class="lineno"> 2995</span> </div>
+<div class="line"><span class="lineno"> 2996</span>    <span class="comment">// initialize unload state</span></div>
+<div class="line"><span class="lineno"> 2997</span>    <a class="code hl_variable" href="../../dd/d11/class_map.html#a41e53a51784b9f424fe10ecafba8ccb5">m_unloadTimer</a> = 0;</div>
+<div class="line"><span class="lineno"> 2998</span>    <a class="code hl_variable" href="../../d8/ded/class_instance_map.html#a0ef50638887402136d92fc045de2dfd6">m_resetAfterUnload</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 2999</span>    <a class="code hl_variable" href="../../d8/ded/class_instance_map.html#a2c97ba74253c4bc5612c6290597e8bf7">m_unloadWhenEmpty</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 3000</span> </div>
+<div class="line"><span class="lineno"> 3001</span>    <span class="comment">// this will acquire the same mutex so it cannot be in the previous block</span></div>
+<div class="line"><span class="lineno"> 3002</span>    <a class="code hl_function" href="../../dd/d11/class_map.html#ade440126c32b98c4fe83a1ca6a0c1846">Map::AddPlayerToMap</a>(player);</div>
+<div class="line"><span class="lineno"> 3003</span> </div>
+<div class="line"><span class="lineno"> 3004</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d8/ded/class_instance_map.html#a5e72502fd1dc9361180a46928ab7f33d">instance_data</a>)</div>
+<div class="line"><span class="lineno"> 3005</span>        <a class="code hl_variable" href="../../d8/ded/class_instance_map.html#a5e72502fd1dc9361180a46928ab7f33d">instance_data</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_instance_script.html#ad87af1c183202b03307ff0694c8aa0e2">OnPlayerEnter</a>(player);</div>
+<div class="line"><span class="lineno"> 3006</span> </div>
+<div class="line"><span class="lineno"> 3007</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 3008</span>}</div>
+<div class="ttc" id="a_define_8h_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:110</div></div>
+<div class="ttc" id="a_log_8h_html_a43832e3fa8508deb4ce43e520005fcd9"><div class="ttname"><a href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a></div><div class="ttdeci">#define LOG_ERROR(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:159</div></div>
+<div class="ttc" id="aclass_group_html"><div class="ttname"><a href="../../da/d50/class_group.html">Group</a></div><div class="ttdef"><b>Definition:</b> Group.h:168</div></div>
+<div class="ttc" id="aclass_group_html_a262e3bb23b71f40a2df56198f9921e9d"><div class="ttname"><a href="../../da/d50/class_group.html#a262e3bb23b71f40a2df56198f9921e9d">Group::isLFGGroup</a></div><div class="ttdeci">bool isLFGGroup(bool restricted=false) const</div><div class="ttdef"><b>Definition:</b> Group.cpp:2205</div></div>
+<div class="ttc" id="aclass_group_html_a3479c3a57ed504c713ddf41362702c4d"><div class="ttname"><a href="../../da/d50/class_group.html#a3479c3a57ed504c713ddf41362702c4d">Group::IsLfgRandomInstance</a></div><div class="ttdeci">bool IsLfgRandomInstance() const</div><div class="ttdef"><b>Definition:</b> Group.h:311</div></div>
+<div class="ttc" id="aclass_instance_save_html"><div class="ttname"><a href="../../de/dfe/class_instance_save.html">InstanceSave</a></div><div class="ttdef"><b>Definition:</b> InstanceSaveMgr.h:56</div></div>
+<div class="ttc" id="aclass_instance_save_html_a7def734d9c4698457fa4f631e30fa9db"><div class="ttname"><a href="../../de/dfe/class_instance_save.html#a7def734d9c4698457fa4f631e30fa9db">InstanceSave::GetInstanceId</a></div><div class="ttdeci">uint32 GetInstanceId() const</div><div class="ttdef"><b>Definition:</b> InstanceSaveMgr.h:61</div></div>
+<div class="ttc" id="aclass_instance_save_html_a92ce355e9be7f83d53307b6dcd354c5d"><div class="ttname"><a href="../../de/dfe/class_instance_save.html#a92ce355e9be7f83d53307b6dcd354c5d">InstanceSave::GetMapId</a></div><div class="ttdeci">uint32 GetMapId() const</div><div class="ttdef"><b>Definition:</b> InstanceSaveMgr.h:62</div></div>
+<div class="ttc" id="aclass_instance_save_html_a94577295c43dc90262381beff84f5f91"><div class="ttname"><a href="../../de/dfe/class_instance_save.html#a94577295c43dc90262381beff84f5f91">InstanceSave::GetDifficulty</a></div><div class="ttdeci">Difficulty GetDifficulty() const</div><div class="ttdef"><b>Definition:</b> InstanceSaveMgr.h:63</div></div>
+<div class="ttc" id="aclass_instance_save_html_aba8d512041c8485f49eef8c1fafce729"><div class="ttname"><a href="../../de/dfe/class_instance_save.html#aba8d512041c8485f49eef8c1fafce729">InstanceSave::CanReset</a></div><div class="ttdeci">bool CanReset() const</div><div class="ttdef"><b>Definition:</b> InstanceSaveMgr.h:81</div></div>
+<div class="ttc" id="aclass_instance_script_html_a037fd2be83cbf2da121b258bed4fa159"><div class="ttname"><a href="../../d8/d83/class_instance_script.html#a037fd2be83cbf2da121b258bed4fa159">InstanceScript::GetCompletedEncounterMask</a></div><div class="ttdeci">uint32 GetCompletedEncounterMask() const</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:242</div></div>
+<div class="ttc" id="aclass_instance_script_html_ad87af1c183202b03307ff0694c8aa0e2"><div class="ttname"><a href="../../d8/d83/class_instance_script.html#ad87af1c183202b03307ff0694c8aa0e2">InstanceScript::OnPlayerEnter</a></div><div class="ttdeci">virtual void OnPlayerEnter(Player *)</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:183</div></div>
+<div class="ttc" id="aclass_map_html_a0c80d50b012dc8d560e256201970f3b3"><div class="ttname"><a href="../../dd/d11/class_map.html#a0c80d50b012dc8d560e256201970f3b3">Map::IsDungeon</a></div><div class="ttdeci">bool IsDungeon() const</div><div class="ttdef"><b>Definition:</b> Map.h:447</div></div>
+<div class="ttc" id="aclass_map_html_a43b5bdb50f8e3d9b9305475f62872d6c"><div class="ttname"><a href="../../dd/d11/class_map.html#a43b5bdb50f8e3d9b9305475f62872d6c">Map::GetSpawnMode</a></div><div class="ttdeci">uint8 GetSpawnMode() const</div><div class="ttdef"><b>Definition:</b> Map.h:419</div></div>
+<div class="ttc" id="aclass_map_html_abea8ed605071226978969647a0246e86"><div class="ttname"><a href="../../dd/d11/class_map.html#abea8ed605071226978969647a0246e86">Map::GetId</a></div><div class="ttdeci">uint32 GetId() const</div><div class="ttdef"><b>Definition:</b> Map.h:378</div></div>
+<div class="ttc" id="aclass_map_html_ade440126c32b98c4fe83a1ca6a0c1846"><div class="ttname"><a href="../../dd/d11/class_map.html#ade440126c32b98c4fe83a1ca6a0c1846">Map::AddPlayerToMap</a></div><div class="ttdeci">virtual bool AddPlayerToMap(Player *)</div><div class="ttdef"><b>Definition:</b> Map.cpp:506</div></div>
+<div class="ttc" id="aclass_object_guid_html_a78f5fb47e3b35addf8984000c175125b"><div class="ttname"><a href="../../d8/d03/class_object_guid.html#a78f5fb47e3b35addf8984000c175125b">ObjectGuid::ToString</a></div><div class="ttdeci">std::string ToString() const</div><div class="ttdef"><b>Definition:</b> ObjectGuid.cpp:47</div></div>
+<div class="ttc" id="aclass_object_html_ad23b997e2442fa6a6228ba73a7ecc138"><div class="ttname"><a href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">Object::GetGUID</a></div><div class="ttdeci">static ObjectGuid GetGUID(Object const *o)</div><div class="ttdef"><b>Definition:</b> Object.h:106</div></div>
+<div class="ttc" id="aclass_player_html_a4ff54d951e875293c2881952405b9583"><div class="ttname"><a href="../../d8/d53/class_player.html#a4ff54d951e875293c2881952405b9583">Player::AddInstanceEnterTime</a></div><div class="ttdeci">void AddInstanceEnterTime(uint32 instanceId, time_t enterTime)</div><div class="ttdef"><b>Definition:</b> Player.h:2399</div></div>
+<div class="ttc" id="aclass_player_html_a6ab11ca64cde7c5cde1f53998a6f7253"><div class="ttname"><a href="../../d8/d53/class_player.html#a6ab11ca64cde7c5cde1f53998a6f7253">Player::GetSession</a></div><div class="ttdeci">WorldSession * GetSession() const</div><div class="ttdef"><b>Definition:</b> Player.h:1947</div></div>
+<div class="ttc" id="aclass_player_html_a99fc00f9ac903dbe9adcadc5f7415abb"><div class="ttname"><a href="../../d8/d53/class_player.html#a99fc00f9ac903dbe9adcadc5f7415abb">Player::GetGroup</a></div><div class="ttdeci">Group * GetGroup()</div><div class="ttdef"><b>Definition:</b> Player.h:2417</div></div>
+<div class="ttc" id="aclass_player_html_a9fa0aff09f1be52dcbf6955df877a40f"><div class="ttname"><a href="../../d8/d53/class_player.html#a9fa0aff09f1be52dcbf6955df877a40f">Player::SetPendingBind</a></div><div class="ttdeci">void SetPendingBind(uint32 instanceId, uint32 bindTimer)</div><div class="ttdef"><b>Definition:</b> Player.h:2387</div></div>
+<div class="ttc" id="aclass_world_object_html_a7e67658eb5aa058bc7f46bf6b11a797c"><div class="ttname"><a href="../../db/df7/class_world_object.html#a7e67658eb5aa058bc7f46bf6b11a797c">WorldObject::GetName</a></div><div class="ttdeci">std::string const &amp; GetName() const</div><div class="ttdef"><b>Definition:</b> Object.h:446</div></div>
+<div class="ttc" id="aclass_world_packet_html"><div class="ttname"><a href="../../d6/d1a/class_world_packet.html">WorldPacket</a></div><div class="ttdef"><b>Definition:</b> WorldPacket.h:27</div></div>
+<div class="ttc" id="aclass_world_session_html_a2c74b80ca9b81765049e315813b29269"><div class="ttname"><a href="../../d1/d47/class_world_session.html#a2c74b80ca9b81765049e315813b29269">WorldSession::SendPacket</a></div><div class="ttdeci">void SendPacket(WorldPacket const *packet)</div><div class="ttdoc">Send a packet to the client.</div><div class="ttdef"><b>Definition:</b> WorldSession.cpp:208</div></div>
+<div class="ttc" id="aclass_world_session_html_a6518fa6d76b730689eb44f2256af3726"><div class="ttname"><a href="../../d1/d47/class_world_session.html#a6518fa6d76b730689eb44f2256af3726">WorldSession::PlayerLoading</a></div><div class="ttdeci">bool PlayerLoading() const</div><div class="ttdef"><b>Definition:</b> WorldSession.h:335</div></div>
+<div class="ttc" id="agroup__u2w_html_gga1073b6abb3a749f18bf1633020879e9ba80eadb4944a8c4029036a84108e48903"><div class="ttname"><a href="../../d2/dec/group__u2w.html#gga1073b6abb3a749f18bf1633020879e9ba80eadb4944a8c4029036a84108e48903">SMSG_INSTANCE_LOCK_WARNING_QUERY</a></div><div class="ttdeci">@ SMSG_INSTANCE_LOCK_WARNING_QUERY</div><div class="ttdef"><b>Definition:</b> Opcodes.h:357</div></div>
+<div class="ttc" id="anamespace_game_time_html_adbe1785d1327dedf2ac403b7cc8e99c2"><div class="ttname"><a href="../../d4/d1c/namespace_game_time.html#adbe1785d1327dedf2ac403b7cc8e99c2">GameTime::GetGameTime</a></div><div class="ttdeci">Seconds GetGameTime()</div><div class="ttdef"><b>Definition:</b> GameTime.cpp:38</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_a354f7e7aaf4b12d6ad8fe8ef6291eaa0"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#a354f7e7aaf4b12d6ad8fe8ef6291eaa0">ObjectAccessor::FindConnectedPlayer</a></div><div class="ttdeci">Player * FindConnectedPlayer(ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:262</div></div>
+<div class="ttc" id="astruct_instance_player_bind_html"><div class="ttname"><a href="../../de/df7/struct_instance_player_bind.html">InstancePlayerBind</a></div><div class="ttdef"><b>Definition:</b> InstanceSaveMgr.h:39</div></div>
+<div class="ttc" id="astruct_instance_player_bind_html_a24ef1e0e0a38033a16b697c32e3d8234"><div class="ttname"><a href="../../de/df7/struct_instance_player_bind.html#a24ef1e0e0a38033a16b697c32e3d8234">InstancePlayerBind::save</a></div><div class="ttdeci">InstanceSave * save</div><div class="ttdef"><b>Definition:</b> InstanceSaveMgr.h:40</div></div>
+<div class="ttc" id="astruct_instance_player_bind_html_ab35249eb791941b484ecc321b1102b24"><div class="ttname"><a href="../../de/df7/struct_instance_player_bind.html#ab35249eb791941b484ecc321b1102b24">InstancePlayerBind::perm</a></div><div class="ttdeci">bool perm</div><div class="ttdef"><b>Definition:</b> InstanceSaveMgr.h:41</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a73b2c530197b4061e3989d600be854d7" name="a73b2c530197b4061e3989d600be854d7"></a>
@@ -840,7 +986,14 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d11/class_map.html#a97f29654e5c2219b6f68f98b566e534e">Map</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 3029</span>{</div>
+<div class="line"><span class="lineno"> 3030</span>    <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../dd/d11/class_map.html#a41e53a51784b9f424fe10ecafba8ccb5">m_unloadTimer</a> &amp;&amp; !<a class="code hl_function" href="../../dd/d11/class_map.html#a67b09b18e444852a4a3e6365ea17b6d7">HavePlayers</a>())</div>
+<div class="line"><span class="lineno"> 3031</span>        <a class="code hl_variable" href="../../dd/d11/class_map.html#a41e53a51784b9f424fe10ecafba8ccb5">m_unloadTimer</a> = <a class="code hl_variable" href="../../d8/ded/class_instance_map.html#a2c97ba74253c4bc5612c6290597e8bf7">m_unloadWhenEmpty</a> ? <a class="code hl_define" href="../../d3/d63/_map_8h.html#a092c3d2c90fd46d14455e6ff2413dabb">MIN_UNLOAD_DELAY</a> : std::max(<a class="code hl_define" href="../../df/d17/group__world.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;getIntConfig(<a class="code hl_enumvalue" href="../../d2/d80/_i_world_8h.html#a17aac4c166ebe43e3b8fdccf9e012e41acc7b5d56ec325b9a771489067a3a44f0">CONFIG_INSTANCE_UNLOAD_DELAY</a>), (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>)<a class="code hl_define" href="../../d3/d63/_map_8h.html#a092c3d2c90fd46d14455e6ff2413dabb">MIN_UNLOAD_DELAY</a>);</div>
+<div class="line"><span class="lineno"> 3032</span>    <a class="code hl_function" href="../../dd/d11/class_map.html#a97f29654e5c2219b6f68f98b566e534e">Map::AfterPlayerUnlinkFromMap</a>();</div>
+<div class="line"><span class="lineno"> 3033</span>}</div>
+<div class="ttc" id="aclass_map_html_a67b09b18e444852a4a3e6365ea17b6d7"><div class="ttname"><a href="../../dd/d11/class_map.html#a67b09b18e444852a4a3e6365ea17b6d7">Map::HavePlayers</a></div><div class="ttdeci">bool HavePlayers() const</div><div class="ttdef"><b>Definition:</b> Map.h:475</div></div>
+<div class="ttc" id="aclass_map_html_a97f29654e5c2219b6f68f98b566e534e"><div class="ttname"><a href="../../dd/d11/class_map.html#a97f29654e5c2219b6f68f98b566e534e">Map::AfterPlayerUnlinkFromMap</a></div><div class="ttdeci">virtual void AfterPlayerUnlinkFromMap()</div><div class="ttdef"><b>Definition:</b> Map.cpp:937</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aa7191fa5eeb80404dde25802e64878cc" name="aa7191fa5eeb80404dde25802e64878cc"></a>
@@ -878,7 +1031,97 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d11/class_map.html#ab8010a1270f6c3a7735de8f17d6b02a7">Map</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 2864</span>{</div>
+<div class="line"><span class="lineno"> 2865</span>    <span class="keywordflow">if</span> (!loginCheck &amp;&amp; player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#abaa337edfa09dd0272c1c4b7d9e6079c">GetMapRef</a>().<a class="code hl_function" href="../../de/dd2/class_reference.html#a0c80169399d27b402ff3ad97305cd337">getTarget</a>() == <span class="keyword">this</span>)</div>
+<div class="line"><span class="lineno"> 2866</span>    {</div>
+<div class="line"><span class="lineno"> 2867</span>        <a class="code hl_define" href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;maps&quot;</span>, <span class="stringliteral">&quot;InstanceMap::CanEnter - player {} ({}) already in map {}, {}, {}!&quot;</span>,</div>
+<div class="line"><span class="lineno"> 2868</span>            player-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a7e67658eb5aa058bc7f46bf6b11a797c">GetName</a>(), player-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>().<a class="code hl_function" href="../../d8/d03/class_object_guid.html#a78f5fb47e3b35addf8984000c175125b">ToString</a>(), <a class="code hl_function" href="../../dd/d11/class_map.html#abea8ed605071226978969647a0246e86">GetId</a>(), <a class="code hl_function" href="../../dd/d11/class_map.html#ae0451da49ca7ce3b856f38870c451e44">GetInstanceId</a>(), <a class="code hl_function" href="../../dd/d11/class_map.html#a43b5bdb50f8e3d9b9305475f62872d6c">GetSpawnMode</a>());</div>
+<div class="line"><span class="lineno"> 2869</span> </div>
+<div class="line"><span class="lineno"> 2870</span>        <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../dd/d11/class_map.html#aec131b31a6f909132ff3be7d43d6c8cea62da4c8a55a47ad723449049aa0b8b61">CANNOT_ENTER_ALREADY_IN_MAP</a>;</div>
+<div class="line"><span class="lineno"> 2871</span>    }</div>
+<div class="line"><span class="lineno"> 2872</span> </div>
+<div class="line"><span class="lineno"> 2873</span>    <span class="comment">// allow GM&#39;s to enter</span></div>
+<div class="line"><span class="lineno"> 2874</span>    <span class="keywordflow">if</span> (player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a9f23cae8a3da0345a05c2a2bfedc2fe2">IsGameMaster</a>())</div>
+<div class="line"><span class="lineno"> 2875</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../dd/d11/class_map.html#ab8010a1270f6c3a7735de8f17d6b02a7">Map::CannotEnter</a>(player, loginCheck);</div>
+<div class="line"><span class="lineno"> 2876</span> </div>
+<div class="line"><span class="lineno"> 2877</span>    <span class="comment">// cannot enter if the instance is full (player cap), GMs don&#39;t count</span></div>
+<div class="line"><span class="lineno"> 2878</span>    <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> maxPlayers = <a class="code hl_function" href="../../d8/ded/class_instance_map.html#a67c441657f33f6567f6b398d824cc269">GetMaxPlayers</a>();</div>
+<div class="line"><span class="lineno"> 2879</span>    <span class="keywordflow">if</span> (<a class="code hl_function" href="../../dd/d11/class_map.html#abdac644dc3c8b30989d16efe624c8894">GetPlayersCountExceptGMs</a>() &gt;= (loginCheck ? maxPlayers + 1 : maxPlayers))</div>
+<div class="line"><span class="lineno"> 2880</span>    {</div>
+<div class="line"><span class="lineno"> 2881</span>        <a class="code hl_define" href="../../da/df4/_log_8h.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a>(<span class="stringliteral">&quot;maps&quot;</span>, <span class="stringliteral">&quot;MAP: Instance &#39;{}&#39; of map &#39;{}&#39; cannot have more than &#39;{}&#39; players. Player &#39;{}&#39; rejected&quot;</span>, <a class="code hl_function" href="../../dd/d11/class_map.html#ae0451da49ca7ce3b856f38870c451e44">GetInstanceId</a>(), <a class="code hl_function" href="../../dd/d11/class_map.html#ac6e125affc167d59afd4af38f4791b01">GetMapName</a>(), maxPlayers, player-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a7e67658eb5aa058bc7f46bf6b11a797c">GetName</a>());</div>
+<div class="line"><span class="lineno"> 2882</span>        player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#ad8c6429fc0c46f6e5e0303c08209b9cb">SendTransferAborted</a>(<a class="code hl_function" href="../../dd/d11/class_map.html#abea8ed605071226978969647a0246e86">GetId</a>(), <a class="code hl_enumvalue" href="../../d1/d39/_player_8h.html#a34b87c411e3511dc8bde293dc2b25210a568c3ebfc68db0f9c268c5d54ff6c05b">TRANSFER_ABORT_MAX_PLAYERS</a>);</div>
+<div class="line"><span class="lineno"> 2883</span>        <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../dd/d11/class_map.html#aec131b31a6f909132ff3be7d43d6c8cea4282aec785116c481be76dbab5993b2a">CANNOT_ENTER_MAX_PLAYERS</a>;</div>
+<div class="line"><span class="lineno"> 2884</span>    }</div>
+<div class="line"><span class="lineno"> 2885</span> </div>
+<div class="line"><span class="lineno"> 2886</span>    <span class="comment">// cannot enter while an encounter is in progress on raids</span></div>
+<div class="line"><span class="lineno"> 2887</span>    <span class="keywordtype">bool</span> checkProgress = (<a class="code hl_function" href="../../dd/d11/class_map.html#a556d2eafa563b4a5de4957de28e369b3">IsRaid</a>() || <a class="code hl_function" href="../../dd/d11/class_map.html#abea8ed605071226978969647a0246e86">GetId</a>() == 668 <span class="comment">/*HoR*/</span>);</div>
+<div class="line"><span class="lineno"> 2888</span>    <span class="keywordflow">if</span> (checkProgress &amp;&amp; <a class="code hl_function" href="../../d8/ded/class_instance_map.html#adb854ceb3abc3e768ad6b8ce66703314">GetInstanceScript</a>() &amp;&amp; <a class="code hl_function" href="../../d8/ded/class_instance_map.html#adb854ceb3abc3e768ad6b8ce66703314">GetInstanceScript</a>()-&gt;<a class="code hl_function" href="../../d8/d83/class_instance_script.html#a9753c3c71fef44fcbc33b89ff68350cd">IsEncounterInProgress</a>())</div>
+<div class="line"><span class="lineno"> 2889</span>    {</div>
+<div class="line"><span class="lineno"> 2890</span>        player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#ad8c6429fc0c46f6e5e0303c08209b9cb">SendTransferAborted</a>(<a class="code hl_function" href="../../dd/d11/class_map.html#abea8ed605071226978969647a0246e86">GetId</a>(), <a class="code hl_enumvalue" href="../../d1/d39/_player_8h.html#a34b87c411e3511dc8bde293dc2b25210a76584b704ef89518ee151826d5fbc268">TRANSFER_ABORT_ZONE_IN_COMBAT</a>);</div>
+<div class="line"><span class="lineno"> 2891</span>        <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../dd/d11/class_map.html#aec131b31a6f909132ff3be7d43d6c8cea56486a57d79f038db4ecdb488beade5d">CANNOT_ENTER_ZONE_IN_COMBAT</a>;</div>
+<div class="line"><span class="lineno"> 2892</span>    }</div>
+<div class="line"><span class="lineno"> 2893</span> </div>
+<div class="line"><span class="lineno"> 2894</span>    <span class="comment">// xinef: dont allow LFG Group to enter other instance that is selected</span></div>
+<div class="line"><span class="lineno"> 2895</span>    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/d50/class_group.html">Group</a>* group = player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a99fc00f9ac903dbe9adcadc5f7415abb">GetGroup</a>())</div>
+<div class="line"><span class="lineno"> 2896</span>        <span class="keywordflow">if</span> (group-&gt;isLFGGroup())</div>
+<div class="line"><span class="lineno"> 2897</span>            <span class="keywordflow">if</span> (!<a class="code hl_define" href="../../df/dfb/_l_f_g_mgr_8h.html#a9876016115774ddaf27fca5cc9adb96e">sLFGMgr</a>-&gt;inLfgDungeonMap(group-&gt;GetGUID(), <a class="code hl_function" href="../../dd/d11/class_map.html#abea8ed605071226978969647a0246e86">GetId</a>(), <a class="code hl_function" href="../../dd/d11/class_map.html#ace981bca7a407e53d8f3506b5eecb2da">GetDifficulty</a>()))</div>
+<div class="line"><span class="lineno"> 2898</span>            {</div>
+<div class="line"><span class="lineno"> 2899</span>                player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#ad8c6429fc0c46f6e5e0303c08209b9cb">SendTransferAborted</a>(<a class="code hl_function" href="../../dd/d11/class_map.html#abea8ed605071226978969647a0246e86">GetId</a>(), <a class="code hl_enumvalue" href="../../d1/d39/_player_8h.html#a34b87c411e3511dc8bde293dc2b25210a32a397e91b94257334d22593045af535">TRANSFER_ABORT_MAP_NOT_ALLOWED</a>);</div>
+<div class="line"><span class="lineno"> 2900</span>                <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../dd/d11/class_map.html#aec131b31a6f909132ff3be7d43d6c8cea7214058ec36782efb100e0a679f732e6">CANNOT_ENTER_UNSPECIFIED_REASON</a>;</div>
+<div class="line"><span class="lineno"> 2901</span>            }</div>
+<div class="line"><span class="lineno"> 2902</span> </div>
+<div class="line"><span class="lineno"> 2903</span>    <span class="comment">// cannot enter if instance is in use by another party/soloer that have a permanent save in the same instance id</span></div>
+<div class="line"><span class="lineno"> 2904</span>    <a class="code hl_typedef" href="../../dd/d11/class_map.html#a8cca171897a6372c1465759434e649c5">PlayerList</a> <span class="keyword">const</span>&amp; playerList = <a class="code hl_function" href="../../dd/d11/class_map.html#ae37764185b1adf2c6438025e4fa9091a">GetPlayers</a>();</div>
+<div class="line"><span class="lineno"> 2905</span>    <span class="keywordflow">if</span> (!playerList.IsEmpty())</div>
+<div class="line"><span class="lineno"> 2906</span>        <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d87/class_map_ref_mgr.html#a78bdb53e78488faa65effb2706140558">PlayerList::const_iterator</a> i = playerList.begin(); i != playerList.end(); ++i)</div>
+<div class="line"><span class="lineno"> 2907</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* iPlayer = i-&gt;GetSource())</div>
+<div class="line"><span class="lineno"> 2908</span>            {</div>
+<div class="line"><span class="lineno"> 2909</span>                <span class="keywordflow">if</span> (iPlayer == player) <span class="comment">// login case, player already added to map</span></div>
+<div class="line"><span class="lineno"> 2910</span>                    <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno"> 2911</span>                <span class="keywordflow">if</span> (iPlayer-&gt;IsGameMaster()) <span class="comment">// bypass GMs</span></div>
+<div class="line"><span class="lineno"> 2912</span>                    <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno"> 2913</span>                <span class="keywordflow">if</span> (!player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a99fc00f9ac903dbe9adcadc5f7415abb">GetGroup</a>()) <span class="comment">// player has not group and there is someone inside, deny entry</span></div>
+<div class="line"><span class="lineno"> 2914</span>                {</div>
+<div class="line"><span class="lineno"> 2915</span>                    player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#ad8c6429fc0c46f6e5e0303c08209b9cb">SendTransferAborted</a>(<a class="code hl_function" href="../../dd/d11/class_map.html#abea8ed605071226978969647a0246e86">GetId</a>(), <a class="code hl_enumvalue" href="../../d1/d39/_player_8h.html#a34b87c411e3511dc8bde293dc2b25210a568c3ebfc68db0f9c268c5d54ff6c05b">TRANSFER_ABORT_MAX_PLAYERS</a>);</div>
+<div class="line"><span class="lineno"> 2916</span>                    <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../dd/d11/class_map.html#aec131b31a6f909132ff3be7d43d6c8ceaa713ae5d9139144511c533847d7d80db">CANNOT_ENTER_INSTANCE_BIND_MISMATCH</a>;</div>
+<div class="line"><span class="lineno"> 2917</span>                }</div>
+<div class="line"><span class="lineno"> 2918</span>                <span class="comment">// player inside instance has no group or his groups is different to entering player&#39;s one, deny entry</span></div>
+<div class="line"><span class="lineno"> 2919</span>                <span class="keywordflow">if</span> (!iPlayer-&gt;GetGroup() || iPlayer-&gt;GetGroup() != player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a99fc00f9ac903dbe9adcadc5f7415abb">GetGroup</a>())</div>
+<div class="line"><span class="lineno"> 2920</span>                {</div>
+<div class="line"><span class="lineno"> 2921</span>                    player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#ad8c6429fc0c46f6e5e0303c08209b9cb">SendTransferAborted</a>(<a class="code hl_function" href="../../dd/d11/class_map.html#abea8ed605071226978969647a0246e86">GetId</a>(), <a class="code hl_enumvalue" href="../../d1/d39/_player_8h.html#a34b87c411e3511dc8bde293dc2b25210a568c3ebfc68db0f9c268c5d54ff6c05b">TRANSFER_ABORT_MAX_PLAYERS</a>);</div>
+<div class="line"><span class="lineno"> 2922</span>                    <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../dd/d11/class_map.html#aec131b31a6f909132ff3be7d43d6c8ceaa713ae5d9139144511c533847d7d80db">CANNOT_ENTER_INSTANCE_BIND_MISMATCH</a>;</div>
+<div class="line"><span class="lineno"> 2923</span>                }</div>
+<div class="line"><span class="lineno"> 2924</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 2925</span>            }</div>
+<div class="line"><span class="lineno"> 2926</span> </div>
+<div class="line"><span class="lineno"> 2927</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="../../dd/d11/class_map.html#ab8010a1270f6c3a7735de8f17d6b02a7">Map::CannotEnter</a>(player, loginCheck);</div>
+<div class="line"><span class="lineno"> 2928</span>}</div>
+<div class="ttc" id="a_l_f_g_mgr_8h_html_a9876016115774ddaf27fca5cc9adb96e"><div class="ttname"><a href="../../df/dfb/_l_f_g_mgr_8h.html#a9876016115774ddaf27fca5cc9adb96e">sLFGMgr</a></div><div class="ttdeci">#define sLFGMgr</div><div class="ttdef"><b>Definition:</b> LFGMgr.h:638</div></div>
+<div class="ttc" id="a_log_8h_html_a47ac782b14a7531c6232777165a1a161"><div class="ttname"><a href="../../da/df4/_log_8h.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a></div><div class="ttdeci">#define LOG_DEBUG(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:171</div></div>
+<div class="ttc" id="a_player_8h_html_a34b87c411e3511dc8bde293dc2b25210a32a397e91b94257334d22593045af535"><div class="ttname"><a href="../../d1/d39/_player_8h.html#a34b87c411e3511dc8bde293dc2b25210a32a397e91b94257334d22593045af535">TRANSFER_ABORT_MAP_NOT_ALLOWED</a></div><div class="ttdeci">@ TRANSFER_ABORT_MAP_NOT_ALLOWED</div><div class="ttdef"><b>Definition:</b> Player.h:791</div></div>
+<div class="ttc" id="a_player_8h_html_a34b87c411e3511dc8bde293dc2b25210a568c3ebfc68db0f9c268c5d54ff6c05b"><div class="ttname"><a href="../../d1/d39/_player_8h.html#a34b87c411e3511dc8bde293dc2b25210a568c3ebfc68db0f9c268c5d54ff6c05b">TRANSFER_ABORT_MAX_PLAYERS</a></div><div class="ttdeci">@ TRANSFER_ABORT_MAX_PLAYERS</div><div class="ttdef"><b>Definition:</b> Player.h:778</div></div>
+<div class="ttc" id="a_player_8h_html_a34b87c411e3511dc8bde293dc2b25210a76584b704ef89518ee151826d5fbc268"><div class="ttname"><a href="../../d1/d39/_player_8h.html#a34b87c411e3511dc8bde293dc2b25210a76584b704ef89518ee151826d5fbc268">TRANSFER_ABORT_ZONE_IN_COMBAT</a></div><div class="ttdeci">@ TRANSFER_ABORT_ZONE_IN_COMBAT</div><div class="ttdef"><b>Definition:</b> Player.h:781</div></div>
+<div class="ttc" id="aclass_instance_map_html_a67c441657f33f6567f6b398d824cc269"><div class="ttname"><a href="../../d8/ded/class_instance_map.html#a67c441657f33f6567f6b398d824cc269">InstanceMap::GetMaxPlayers</a></div><div class="ttdeci">uint32 GetMaxPlayers() const</div><div class="ttdef"><b>Definition:</b> Map.cpp:3190</div></div>
+<div class="ttc" id="aclass_instance_map_html_adb854ceb3abc3e768ad6b8ce66703314"><div class="ttname"><a href="../../d8/ded/class_instance_map.html#adb854ceb3abc3e768ad6b8ce66703314">InstanceMap::GetInstanceScript</a></div><div class="ttdeci">InstanceScript * GetInstanceScript()</div><div class="ttdef"><b>Definition:</b> Map.h:825</div></div>
+<div class="ttc" id="aclass_instance_script_html_a9753c3c71fef44fcbc33b89ff68350cd"><div class="ttname"><a href="../../d8/d83/class_instance_script.html#a9753c3c71fef44fcbc33b89ff68350cd">InstanceScript::IsEncounterInProgress</a></div><div class="ttdeci">virtual bool IsEncounterInProgress() const</div><div class="ttdef"><b>Definition:</b> InstanceScript.cpp:120</div></div>
+<div class="ttc" id="aclass_map_html_a8cca171897a6372c1465759434e649c5"><div class="ttname"><a href="../../dd/d11/class_map.html#a8cca171897a6372c1465759434e649c5">Map::PlayerList</a></div><div class="ttdeci">MapRefMgr PlayerList</div><div class="ttdef"><b>Definition:</b> Map.h:483</div></div>
+<div class="ttc" id="aclass_map_html_ab8010a1270f6c3a7735de8f17d6b02a7"><div class="ttname"><a href="../../dd/d11/class_map.html#ab8010a1270f6c3a7735de8f17d6b02a7">Map::CannotEnter</a></div><div class="ttdeci">virtual EnterState CannotEnter(Player *, bool)</div><div class="ttdef"><b>Definition:</b> Map.h:437</div></div>
+<div class="ttc" id="aclass_map_html_abdac644dc3c8b30989d16efe624c8894"><div class="ttname"><a href="../../dd/d11/class_map.html#abdac644dc3c8b30989d16efe624c8894">Map::GetPlayersCountExceptGMs</a></div><div class="ttdeci">uint32 GetPlayersCountExceptGMs() const</div><div class="ttdef"><b>Definition:</b> Map.cpp:2729</div></div>
+<div class="ttc" id="aclass_map_html_ac6e125affc167d59afd4af38f4791b01"><div class="ttname"><a href="../../dd/d11/class_map.html#ac6e125affc167d59afd4af38f4791b01">Map::GetMapName</a></div><div class="ttdeci">const char * GetMapName() const</div><div class="ttdef"><b>Definition:</b> Map.cpp:2519</div></div>
+<div class="ttc" id="aclass_map_html_ace981bca7a407e53d8f3506b5eecb2da"><div class="ttname"><a href="../../dd/d11/class_map.html#ace981bca7a407e53d8f3506b5eecb2da">Map::GetDifficulty</a></div><div class="ttdeci">Difficulty GetDifficulty() const</div><div class="ttdef"><b>Definition:</b> Map.h:442</div></div>
+<div class="ttc" id="aclass_map_html_ae37764185b1adf2c6438025e4fa9091a"><div class="ttname"><a href="../../dd/d11/class_map.html#ae37764185b1adf2c6438025e4fa9091a">Map::GetPlayers</a></div><div class="ttdeci">PlayerList const &amp; GetPlayers() const</div><div class="ttdef"><b>Definition:</b> Map.h:484</div></div>
+<div class="ttc" id="aclass_map_html_aec131b31a6f909132ff3be7d43d6c8cea4282aec785116c481be76dbab5993b2a"><div class="ttname"><a href="../../dd/d11/class_map.html#aec131b31a6f909132ff3be7d43d6c8cea4282aec785116c481be76dbab5993b2a">Map::CANNOT_ENTER_MAX_PLAYERS</a></div><div class="ttdeci">@ CANNOT_ENTER_MAX_PLAYERS</div><div class="ttdef"><b>Definition:</b> Map.h:432</div></div>
+<div class="ttc" id="aclass_map_html_aec131b31a6f909132ff3be7d43d6c8cea56486a57d79f038db4ecdb488beade5d"><div class="ttname"><a href="../../dd/d11/class_map.html#aec131b31a6f909132ff3be7d43d6c8cea56486a57d79f038db4ecdb488beade5d">Map::CANNOT_ENTER_ZONE_IN_COMBAT</a></div><div class="ttdeci">@ CANNOT_ENTER_ZONE_IN_COMBAT</div><div class="ttdef"><b>Definition:</b> Map.h:433</div></div>
+<div class="ttc" id="aclass_map_html_aec131b31a6f909132ff3be7d43d6c8cea62da4c8a55a47ad723449049aa0b8b61"><div class="ttname"><a href="../../dd/d11/class_map.html#aec131b31a6f909132ff3be7d43d6c8cea62da4c8a55a47ad723449049aa0b8b61">Map::CANNOT_ENTER_ALREADY_IN_MAP</a></div><div class="ttdeci">@ CANNOT_ENTER_ALREADY_IN_MAP</div><div class="ttdef"><b>Definition:</b> Map.h:424</div></div>
+<div class="ttc" id="aclass_map_html_aec131b31a6f909132ff3be7d43d6c8cea7214058ec36782efb100e0a679f732e6"><div class="ttname"><a href="../../dd/d11/class_map.html#aec131b31a6f909132ff3be7d43d6c8cea7214058ec36782efb100e0a679f732e6">Map::CANNOT_ENTER_UNSPECIFIED_REASON</a></div><div class="ttdeci">@ CANNOT_ENTER_UNSPECIFIED_REASON</div><div class="ttdef"><b>Definition:</b> Map.h:434</div></div>
+<div class="ttc" id="aclass_map_html_aec131b31a6f909132ff3be7d43d6c8ceaa713ae5d9139144511c533847d7d80db"><div class="ttname"><a href="../../dd/d11/class_map.html#aec131b31a6f909132ff3be7d43d6c8ceaa713ae5d9139144511c533847d7d80db">Map::CANNOT_ENTER_INSTANCE_BIND_MISMATCH</a></div><div class="ttdeci">@ CANNOT_ENTER_INSTANCE_BIND_MISMATCH</div><div class="ttdef"><b>Definition:</b> Map.h:430</div></div>
+<div class="ttc" id="aclass_map_ref_mgr_html_a78bdb53e78488faa65effb2706140558"><div class="ttname"><a href="../../db/d87/class_map_ref_mgr.html#a78bdb53e78488faa65effb2706140558">MapRefMgr::const_iterator</a></div><div class="ttdeci">LinkedListHead::Iterator&lt; MapReference const &gt; const_iterator</div><div class="ttdef"><b>Definition:</b> MapRefMgr.h:29</div></div>
+<div class="ttc" id="aclass_player_html"><div class="ttname"><a href="../../d8/d53/class_player.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1046</div></div>
+<div class="ttc" id="aclass_player_html_a9f23cae8a3da0345a05c2a2bfedc2fe2"><div class="ttname"><a href="../../d8/d53/class_player.html#a9f23cae8a3da0345a05c2a2bfedc2fe2">Player::IsGameMaster</a></div><div class="ttdeci">bool IsGameMaster() const</div><div class="ttdef"><b>Definition:</b> Player.h:1136</div></div>
+<div class="ttc" id="aclass_player_html_abaa337edfa09dd0272c1c4b7d9e6079c"><div class="ttname"><a href="../../d8/d53/class_player.html#abaa337edfa09dd0272c1c4b7d9e6079c">Player::GetMapRef</a></div><div class="ttdeci">MapReference &amp; GetMapRef()</div><div class="ttdef"><b>Definition:</b> Player.h:2440</div></div>
+<div class="ttc" id="aclass_player_html_ad8c6429fc0c46f6e5e0303c08209b9cb"><div class="ttname"><a href="../../d8/d53/class_player.html#ad8c6429fc0c46f6e5e0303c08209b9cb">Player::SendTransferAborted</a></div><div class="ttdeci">void SendTransferAborted(uint32 mapid, TransferAbortReason reason, uint8 arg=0)</div><div class="ttdef"><b>Definition:</b> Player.cpp:11428</div></div>
+<div class="ttc" id="aclass_reference_html_a0c80169399d27b402ff3ad97305cd337"><div class="ttname"><a href="../../de/dd2/class_reference.html#a0c80169399d27b402ff3ad97305cd337">Reference::getTarget</a></div><div class="ttdeci">TO * getTarget() const</div><div class="ttdef"><b>Definition:</b> Reference.h:95</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2711922eb268822f832ccf89740ff6cf" name="a2711922eb268822f832ccf89740ff6cf"></a>
@@ -912,7 +1155,55 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 3036</span>{</div>
+<div class="line"><span class="lineno"> 3037</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d8/ded/class_instance_map.html#a5e72502fd1dc9361180a46928ab7f33d">instance_data</a>)</div>
+<div class="line"><span class="lineno"> 3038</span>    {</div>
+<div class="line"><span class="lineno"> 3039</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 3040</span>    }</div>
+<div class="line"><span class="lineno"> 3041</span> </div>
+<div class="line"><span class="lineno"> 3042</span>    <span class="keywordtype">bool</span> isOtherAI = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 3043</span> </div>
+<div class="line"><span class="lineno"> 3044</span>    <a class="code hl_define" href="../../d0/d7d/_script_mgr_8h.html#ae8161e629869974bc49b1cbfc73c1087">sScriptMgr</a>-&gt;OnBeforeCreateInstanceScript(<span class="keyword">this</span>, <a class="code hl_variable" href="../../d8/ded/class_instance_map.html#a5e72502fd1dc9361180a46928ab7f33d">instance_data</a>, load, data, completedEncounterMask);</div>
+<div class="line"><span class="lineno"> 3045</span> </div>
+<div class="line"><span class="lineno"> 3046</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d8/ded/class_instance_map.html#a5e72502fd1dc9361180a46928ab7f33d">instance_data</a>)</div>
+<div class="line"><span class="lineno"> 3047</span>        isOtherAI = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 3048</span> </div>
+<div class="line"><span class="lineno"> 3049</span>    <span class="comment">// if Eluna AI was fetched succesfully we should not call CreateInstanceData nor set the unused scriptID</span></div>
+<div class="line"><span class="lineno"> 3050</span>    <span class="keywordflow">if</span> (!isOtherAI)</div>
+<div class="line"><span class="lineno"> 3051</span>    {</div>
+<div class="line"><span class="lineno"> 3052</span>        <a class="code hl_struct" href="../../d9/d87/struct_instance_template.html">InstanceTemplate</a> <span class="keyword">const</span>* mInstance = <a class="code hl_define" href="../../d9/d77/_object_mgr_8h.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetInstanceTemplate(<a class="code hl_function" href="../../dd/d11/class_map.html#abea8ed605071226978969647a0246e86">GetId</a>());</div>
+<div class="line"><span class="lineno"> 3053</span>        <span class="keywordflow">if</span> (mInstance)</div>
+<div class="line"><span class="lineno"> 3054</span>        {</div>
+<div class="line"><span class="lineno"> 3055</span>            <a class="code hl_variable" href="../../d8/ded/class_instance_map.html#ad86f85ab222182b0fe66a0fa19b916f6">i_script_id</a> = mInstance-&gt;<a class="code hl_variable" href="../../d9/d87/struct_instance_template.html#ac9cdaf7fc486bc89b5c5d95ac13146da">ScriptId</a>;</div>
+<div class="line"><span class="lineno"> 3056</span>            <a class="code hl_variable" href="../../d8/ded/class_instance_map.html#a5e72502fd1dc9361180a46928ab7f33d">instance_data</a> = <a class="code hl_define" href="../../d0/d7d/_script_mgr_8h.html#ae8161e629869974bc49b1cbfc73c1087">sScriptMgr</a>-&gt;CreateInstanceScript(<span class="keyword">this</span>);</div>
+<div class="line"><span class="lineno"> 3057</span>        }</div>
+<div class="line"><span class="lineno"> 3058</span>    }</div>
+<div class="line"><span class="lineno"> 3059</span> </div>
+<div class="line"><span class="lineno"> 3060</span>    <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d8/ded/class_instance_map.html#a5e72502fd1dc9361180a46928ab7f33d">instance_data</a>)</div>
+<div class="line"><span class="lineno"> 3061</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 3062</span> </div>
+<div class="line"><span class="lineno"> 3063</span>    <span class="comment">// use mangos behavior if we are dealing with Eluna AI</span></div>
+<div class="line"><span class="lineno"> 3064</span>    <span class="comment">// initialize should then be called only if load is false</span></div>
+<div class="line"><span class="lineno"> 3065</span>    <span class="keywordflow">if</span> (!isOtherAI || !load)</div>
+<div class="line"><span class="lineno"> 3066</span>    {</div>
+<div class="line"><span class="lineno"> 3067</span>        <a class="code hl_variable" href="../../d8/ded/class_instance_map.html#a5e72502fd1dc9361180a46928ab7f33d">instance_data</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_instance_script.html#ae28a789e519af133bb744c796902294c">Initialize</a>();</div>
+<div class="line"><span class="lineno"> 3068</span>    }</div>
+<div class="line"><span class="lineno"> 3069</span> </div>
+<div class="line"><span class="lineno"> 3070</span>    <span class="keywordflow">if</span> (load)</div>
+<div class="line"><span class="lineno"> 3071</span>    {</div>
+<div class="line"><span class="lineno"> 3072</span>        <a class="code hl_variable" href="../../d8/ded/class_instance_map.html#a5e72502fd1dc9361180a46928ab7f33d">instance_data</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_instance_script.html#aaca04997ea7db3a265ca8d8ee453c89f">SetCompletedEncountersMask</a>(completedEncounterMask, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno"> 3073</span>        <span class="keywordflow">if</span> (data != <span class="stringliteral">&quot;&quot;</span>)</div>
+<div class="line"><span class="lineno"> 3074</span>            <a class="code hl_variable" href="../../d8/ded/class_instance_map.html#a5e72502fd1dc9361180a46928ab7f33d">instance_data</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_instance_script.html#ad8be0d1c384b505f5b3fa1ab55eb1f61">Load</a>(data.c_str());</div>
+<div class="line"><span class="lineno"> 3075</span>    }</div>
+<div class="line"><span class="lineno"> 3076</span>}</div>
+<div class="ttc" id="a_object_mgr_8h_html_a736e30da2b5261060ac6cdbb5de3b787"><div class="ttname"><a href="../../d9/d77/_object_mgr_8h.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a></div><div class="ttdeci">#define sObjectMgr</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:1606</div></div>
+<div class="ttc" id="a_script_mgr_8h_html_ae8161e629869974bc49b1cbfc73c1087"><div class="ttname"><a href="../../d0/d7d/_script_mgr_8h.html#ae8161e629869974bc49b1cbfc73c1087">sScriptMgr</a></div><div class="ttdeci">#define sScriptMgr</div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:2690</div></div>
+<div class="ttc" id="aclass_instance_script_html_aaca04997ea7db3a265ca8d8ee453c89f"><div class="ttname"><a href="../../d8/d83/class_instance_script.html#aaca04997ea7db3a265ca8d8ee453c89f">InstanceScript::SetCompletedEncountersMask</a></div><div class="ttdeci">void SetCompletedEncountersMask(uint32 newMask, bool save)</div><div class="ttdef"><b>Definition:</b> InstanceScript.cpp:521</div></div>
+<div class="ttc" id="aclass_instance_script_html_ad8be0d1c384b505f5b3fa1ab55eb1f61"><div class="ttname"><a href="../../d8/d83/class_instance_script.html#ad8be0d1c384b505f5b3fa1ab55eb1f61">InstanceScript::Load</a></div><div class="ttdeci">virtual void Load(char const *data)</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:152</div></div>
+<div class="ttc" id="aclass_instance_script_html_ae28a789e519af133bb744c796902294c"><div class="ttname"><a href="../../d8/d83/class_instance_script.html#ae28a789e519af133bb744c796902294c">InstanceScript::Initialize</a></div><div class="ttdeci">virtual void Initialize()</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:149</div></div>
+<div class="ttc" id="astruct_instance_template_html"><div class="ttname"><a href="../../d9/d87/struct_instance_template.html">InstanceTemplate</a></div><div class="ttdef"><b>Definition:</b> Map.h:273</div></div>
+<div class="ttc" id="astruct_instance_template_html_ac9cdaf7fc486bc89b5c5d95ac13146da"><div class="ttname"><a href="../../d9/d87/struct_instance_template.html#ac9cdaf7fc486bc89b5c5d95ac13146da">InstanceTemplate::ScriptId</a></div><div class="ttdeci">uint32 ScriptId</div><div class="ttdef"><b>Definition:</b> Map.h:275</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aceb53450ca21e22bbf414f16d7923737" name="aceb53450ca21e22bbf414f16d7923737"></a>
@@ -939,7 +1230,17 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d11/class_map.html#a937ecbcdf1b70e81187a56bcacd3324c">Map</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 4035</span>{</div>
+<div class="line"><span class="lineno"> 4036</span>    std::stringstream sstr;</div>
+<div class="line"><span class="lineno"> 4037</span>    sstr &lt;&lt; <a class="code hl_function" href="../../dd/d11/class_map.html#a937ecbcdf1b70e81187a56bcacd3324c">Map::GetDebugInfo</a>() &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span></div>
+<div class="line"><span class="lineno"> 4038</span>        &lt;&lt; std::boolalpha</div>
+<div class="line"><span class="lineno"> 4039</span>        &lt;&lt; <span class="stringliteral">&quot;ScriptId: &quot;</span> &lt;&lt; <a class="code hl_function" href="../../d8/ded/class_instance_map.html#a6f3eccbe5d67aec9aeab45a11432b9da">GetScriptId</a>() &lt;&lt; <span class="stringliteral">&quot; ScriptName: &quot;</span> &lt;&lt; <a class="code hl_function" href="../../d8/ded/class_instance_map.html#ab8eaa34f2319d5a2d40900360756a5c9">GetScriptName</a>();</div>
+<div class="line"><span class="lineno"> 4040</span>    <span class="keywordflow">return</span> sstr.str();</div>
+<div class="line"><span class="lineno"> 4041</span>}</div>
+<div class="ttc" id="aclass_instance_map_html_a6f3eccbe5d67aec9aeab45a11432b9da"><div class="ttname"><a href="../../d8/ded/class_instance_map.html#a6f3eccbe5d67aec9aeab45a11432b9da">InstanceMap::GetScriptId</a></div><div class="ttdeci">uint32 GetScriptId() const</div><div class="ttdef"><b>Definition:</b> Map.h:823</div></div>
+<div class="ttc" id="aclass_instance_map_html_ab8eaa34f2319d5a2d40900360756a5c9"><div class="ttname"><a href="../../d8/ded/class_instance_map.html#ab8eaa34f2319d5a2d40900360756a5c9">InstanceMap::GetScriptName</a></div><div class="ttdeci">std::string const &amp; GetScriptName() const</div><div class="ttdef"><b>Definition:</b> Map.cpp:3123</div></div>
+<div class="ttc" id="aclass_map_html_a937ecbcdf1b70e81187a56bcacd3324c"><div class="ttname"><a href="../../dd/d11/class_map.html#a937ecbcdf1b70e81187a56bcacd3324c">Map::GetDebugInfo</a></div><div class="ttdeci">virtual std::string GetDebugInfo() const</div><div class="ttdef"><b>Definition:</b> Map.cpp:4025</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="adb854ceb3abc3e768ad6b8ce66703314" name="adb854ceb3abc3e768ad6b8ce66703314"></a>
@@ -964,7 +1265,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  825</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d8/ded/class_instance_map.html#a5e72502fd1dc9361180a46928ab7f33d">instance_data</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a190a114cdde8646edb34980afbe5920a" name="a190a114cdde8646edb34980afbe5920a"></a>
@@ -989,7 +1291,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  826</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d8/ded/class_instance_map.html#a5e72502fd1dc9361180a46928ab7f33d">instance_data</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a67c441657f33f6567f6b398d824cc269" name="a67c441657f33f6567f6b398d824cc269"></a>
@@ -1006,7 +1309,19 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 3191</span>{</div>
+<div class="line"><span class="lineno"> 3192</span>    <a class="code hl_struct" href="../../da/da3/struct_map_difficulty.html">MapDifficulty</a> <span class="keyword">const</span>* mapDiff = <a class="code hl_function" href="../../dd/d11/class_map.html#a466d8c86e43fa27805ef7133e0d1bdfa">GetMapDifficulty</a>();</div>
+<div class="line"><span class="lineno"> 3193</span>    <span class="keywordflow">if</span> (mapDiff &amp;&amp; mapDiff-&gt;<a class="code hl_variable" href="../../da/da3/struct_map_difficulty.html#af82ad844bc4ac9585cb9df1963697e1b">maxPlayers</a>)</div>
+<div class="line"><span class="lineno"> 3194</span>        <span class="keywordflow">return</span> mapDiff-&gt;<a class="code hl_variable" href="../../da/da3/struct_map_difficulty.html#af82ad844bc4ac9585cb9df1963697e1b">maxPlayers</a>;</div>
+<div class="line"><span class="lineno"> 3195</span> </div>
+<div class="line"><span class="lineno"> 3196</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="../../dd/d11/class_map.html#ab7d7a4e9fa4e69efa9b45691ffe7519e">GetEntry</a>()-&gt;<a class="code hl_variable" href="../../d2/d99/struct_map_entry.html#ac2769d42a8963e075b7637a2ab520237">maxPlayers</a>;</div>
+<div class="line"><span class="lineno"> 3197</span>}</div>
+<div class="ttc" id="aclass_map_html_a466d8c86e43fa27805ef7133e0d1bdfa"><div class="ttname"><a href="../../dd/d11/class_map.html#a466d8c86e43fa27805ef7133e0d1bdfa">Map::GetMapDifficulty</a></div><div class="ttdeci">MapDifficulty const * GetMapDifficulty() const</div><div class="ttdef"><b>Definition:</b> Map.cpp:3185</div></div>
+<div class="ttc" id="aclass_map_html_ab7d7a4e9fa4e69efa9b45691ffe7519e"><div class="ttname"><a href="../../dd/d11/class_map.html#ab7d7a4e9fa4e69efa9b45691ffe7519e">Map::GetEntry</a></div><div class="ttdeci">MapEntry const * GetEntry() const</div><div class="ttdef"><b>Definition:</b> Map.h:318</div></div>
+<div class="ttc" id="astruct_map_difficulty_html"><div class="ttname"><a href="../../da/da3/struct_map_difficulty.html">MapDifficulty</a></div><div class="ttdef"><b>Definition:</b> DBCStructure.h:2181</div></div>
+<div class="ttc" id="astruct_map_difficulty_html_af82ad844bc4ac9585cb9df1963697e1b"><div class="ttname"><a href="../../da/da3/struct_map_difficulty.html#af82ad844bc4ac9585cb9df1963697e1b">MapDifficulty::maxPlayers</a></div><div class="ttdeci">uint32 maxPlayers</div><div class="ttdef"><b>Definition:</b> DBCStructure.h:2186</div></div>
+<div class="ttc" id="astruct_map_entry_html_ac2769d42a8963e075b7637a2ab520237"><div class="ttname"><a href="../../d2/d99/struct_map_entry.html#ac2769d42a8963e075b7637a2ab520237">MapEntry::maxPlayers</a></div><div class="ttdeci">uint32 maxPlayers</div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1329</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a840632baf9432e7d29a03c3c73a54d01" name="a840632baf9432e7d29a03c3c73a54d01"></a>
@@ -1023,7 +1338,12 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 3200</span>{</div>
+<div class="line"><span class="lineno"> 3201</span>    <a class="code hl_struct" href="../../da/da3/struct_map_difficulty.html">MapDifficulty</a> <span class="keyword">const</span>* mapDiff = <a class="code hl_function" href="../../dd/d11/class_map.html#a466d8c86e43fa27805ef7133e0d1bdfa">GetMapDifficulty</a>();</div>
+<div class="line"><span class="lineno"> 3202</span>    <span class="keywordflow">return</span> mapDiff ? mapDiff-&gt;<a class="code hl_variable" href="../../da/da3/struct_map_difficulty.html#a7190131620b9eee0897ac7b4dd62949e">resetTime</a> : 0;</div>
+<div class="line"><span class="lineno"> 3203</span>}</div>
+<div class="ttc" id="astruct_map_difficulty_html_a7190131620b9eee0897ac7b4dd62949e"><div class="ttname"><a href="../../da/da3/struct_map_difficulty.html#a7190131620b9eee0897ac7b4dd62949e">MapDifficulty::resetTime</a></div><div class="ttdeci">uint32 resetTime</div><div class="ttdef"><b>Definition:</b> DBCStructure.h:2185</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a6f3eccbe5d67aec9aeab45a11432b9da" name="a6f3eccbe5d67aec9aeab45a11432b9da"></a>
@@ -1048,7 +1368,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  823</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d8/ded/class_instance_map.html#ad86f85ab222182b0fe66a0fa19b916f6">i_script_id</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ab8eaa34f2319d5a2d40900360756a5c9" name="ab8eaa34f2319d5a2d40900360756a5c9"></a>
@@ -1065,7 +1386,10 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 3124</span>{</div>
+<div class="line"><span class="lineno"> 3125</span>    <span class="keywordflow">return</span> <a class="code hl_define" href="../../d9/d77/_object_mgr_8h.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetScriptName(<a class="code hl_variable" href="../../d8/ded/class_instance_map.html#ad86f85ab222182b0fe66a0fa19b916f6">i_script_id</a>);</div>
+<div class="line"><span class="lineno"> 3126</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a6d912f1d70072b29d1d8b20a8fe2d088" name="a6d912f1d70072b29d1d8b20a8fe2d088"></a>
@@ -1092,7 +1416,37 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d11/class_map.html#adb9e3948d95e7c5cd964e7ea643e811f">Map</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 2831</span>{</div>
+<div class="line"><span class="lineno"> 2832</span>    <span class="comment">//init visibility distance for instances</span></div>
+<div class="line"><span class="lineno"> 2833</span>    <a class="code hl_variable" href="../../dd/d11/class_map.html#ac1dcad60fa21d983c548a38323775ee2">m_VisibleDistance</a> = <a class="code hl_function" href="../../d3/d21/class_world.html#a281c168df41130831d0fff25d9de1f31">World::GetMaxVisibleDistanceInInstances</a>();</div>
+<div class="line"><span class="lineno"> 2834</span> </div>
+<div class="line"><span class="lineno"> 2835</span>    <span class="comment">// pussywizard: this CAN NOT exceed MAX_VISIBILITY_DISTANCE</span></div>
+<div class="line"><span class="lineno"> 2836</span>    <span class="keywordflow">switch</span> (<a class="code hl_function" href="../../dd/d11/class_map.html#abea8ed605071226978969647a0246e86">GetId</a>())</div>
+<div class="line"><span class="lineno"> 2837</span>    {</div>
+<div class="line"><span class="lineno"> 2838</span>        <span class="keywordflow">case</span> 429: <span class="comment">// Dire Maul</span></div>
+<div class="line"><span class="lineno"> 2839</span>        <span class="keywordflow">case</span> 550: <span class="comment">// The Eye</span></div>
+<div class="line"><span class="lineno"> 2840</span>        <span class="keywordflow">case</span> 578: <span class="comment">// The Nexus: The Oculus</span></div>
+<div class="line"><span class="lineno"> 2841</span>            <a class="code hl_variable" href="../../dd/d11/class_map.html#ac1dcad60fa21d983c548a38323775ee2">m_VisibleDistance</a> = 175.0f;</div>
+<div class="line"><span class="lineno"> 2842</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 2843</span>        <span class="keywordflow">case</span> 649: <span class="comment">// Trial of the Crusader</span></div>
+<div class="line"><span class="lineno"> 2844</span>        <span class="keywordflow">case</span> 650: <span class="comment">// Trial of the Champion</span></div>
+<div class="line"><span class="lineno"> 2845</span>        <span class="keywordflow">case</span> 595: <span class="comment">// Culling of Startholme</span></div>
+<div class="line"><span class="lineno"> 2846</span>        <span class="keywordflow">case</span> 658: <span class="comment">// Pit of Saron</span></div>
+<div class="line"><span class="lineno"> 2847</span>            <a class="code hl_variable" href="../../dd/d11/class_map.html#ac1dcad60fa21d983c548a38323775ee2">m_VisibleDistance</a> = 150.0f;</div>
+<div class="line"><span class="lineno"> 2848</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 2849</span>        <span class="keywordflow">case</span> 615: <span class="comment">// Obsidian Sanctum</span></div>
+<div class="line"><span class="lineno"> 2850</span>        <span class="keywordflow">case</span> 616: <span class="comment">// Eye of Eternity</span></div>
+<div class="line"><span class="lineno"> 2851</span>        <span class="keywordflow">case</span> 603: <span class="comment">// Ulduar</span></div>
+<div class="line"><span class="lineno"> 2852</span>        <span class="keywordflow">case</span> 668: <span class="comment">// Halls of Reflection</span></div>
+<div class="line"><span class="lineno"> 2853</span>        <span class="keywordflow">case</span> 631: <span class="comment">// Icecrown Citadel</span></div>
+<div class="line"><span class="lineno"> 2854</span>        <span class="keywordflow">case</span> 724: <span class="comment">// Ruby Sanctum</span></div>
+<div class="line"><span class="lineno"> 2855</span>            <a class="code hl_variable" href="../../dd/d11/class_map.html#ac1dcad60fa21d983c548a38323775ee2">m_VisibleDistance</a> = 200.0f;</div>
+<div class="line"><span class="lineno"> 2856</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 2857</span>    }</div>
+<div class="line"><span class="lineno"> 2858</span>}</div>
+<div class="ttc" id="aclass_map_html_ac1dcad60fa21d983c548a38323775ee2"><div class="ttname"><a href="../../dd/d11/class_map.html#ac1dcad60fa21d983c548a38323775ee2">Map::m_VisibleDistance</a></div><div class="ttdeci">float m_VisibleDistance</div><div class="ttdef"><b>Definition:</b> Map.h:706</div></div>
+<div class="ttc" id="aclass_world_html_a281c168df41130831d0fff25d9de1f31"><div class="ttname"><a href="../../d3/d21/class_world.html#a281c168df41130831d0fff25d9de1f31">World::GetMaxVisibleDistanceInInstances</a></div><div class="ttdeci">static float GetMaxVisibleDistanceInInstances()</div><div class="ttdef"><b>Definition:</b> World.h:325</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a7995cf4ab6a86f01be96a59ec56d28c1" name="a7995cf4ab6a86f01be96a59ec56d28c1"></a>
@@ -1109,7 +1463,50 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 3129</span>{</div>
+<div class="line"><span class="lineno"> 3130</span>    <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../dd/d11/class_map.html#a0c80d50b012dc8d560e256201970f3b3">IsDungeon</a>())</div>
+<div class="line"><span class="lineno"> 3131</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 3132</span> </div>
+<div class="line"><span class="lineno"> 3133</span>    <a class="code hl_class" href="../../de/dfe/class_instance_save.html">InstanceSave</a>* save = <a class="code hl_define" href="../../d4/d01/_instance_save_mgr_8h.html#ae1d3c96dbd749e40f06799fa52eeb9a2">sInstanceSaveMgr</a>-&gt;GetInstanceSave(<a class="code hl_function" href="../../dd/d11/class_map.html#ae0451da49ca7ce3b856f38870c451e44">GetInstanceId</a>());</div>
+<div class="line"><span class="lineno"> 3134</span>    <span class="keywordflow">if</span> (!save)</div>
+<div class="line"><span class="lineno"> 3135</span>    {</div>
+<div class="line"><span class="lineno"> 3136</span>        <a class="code hl_define" href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;maps&quot;</span>, <span class="stringliteral">&quot;Cannot bind players because no instance save is available for instance map (Name: {}, Entry: {}, InstanceId: {})!&quot;</span>, <a class="code hl_function" href="../../dd/d11/class_map.html#ac6e125affc167d59afd4af38f4791b01">GetMapName</a>(), <a class="code hl_function" href="../../dd/d11/class_map.html#abea8ed605071226978969647a0246e86">GetId</a>(), <a class="code hl_function" href="../../dd/d11/class_map.html#ae0451da49ca7ce3b856f38870c451e44">GetInstanceId</a>());</div>
+<div class="line"><span class="lineno"> 3137</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 3138</span>    }</div>
+<div class="line"><span class="lineno"> 3139</span> </div>
+<div class="line"><span class="lineno"> 3140</span>    <a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* player;</div>
+<div class="line"><span class="lineno"> 3141</span>    <a class="code hl_class" href="../../da/d50/class_group.html">Group</a>* group;</div>
+<div class="line"><span class="lineno"> 3142</span>    <span class="comment">// group members outside the instance group don&#39;t get bound</span></div>
+<div class="line"><span class="lineno"> 3143</span>    <span class="keywordflow">for</span> (<a class="code hl_class" href="../../db/dfe/class_linked_list_head_1_1_iterator.html">MapRefMgr::iterator</a> itr = <a class="code hl_variable" href="../../dd/d11/class_map.html#a1acedf1441514a41ee86f73bba9d05d9">m_mapRefMgr</a>.<a class="code hl_function" href="../../db/d87/class_map_ref_mgr.html#a6774b551f0d64628e33594c7b486a872">begin</a>(); itr != <a class="code hl_variable" href="../../dd/d11/class_map.html#a1acedf1441514a41ee86f73bba9d05d9">m_mapRefMgr</a>.<a class="code hl_function" href="../../db/d87/class_map_ref_mgr.html#af488c0096775085791b5fbc89e5851a0">end</a>(); ++itr)</div>
+<div class="line"><span class="lineno"> 3144</span>    {</div>
+<div class="line"><span class="lineno"> 3145</span>        player = itr-&gt;GetSource();</div>
+<div class="line"><span class="lineno"> 3146</span>        group = player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a99fc00f9ac903dbe9adcadc5f7415abb">GetGroup</a>();</div>
+<div class="line"><span class="lineno"> 3147</span> </div>
+<div class="line"><span class="lineno"> 3148</span>        <span class="comment">// players inside an instance cannot be bound to other instances</span></div>
+<div class="line"><span class="lineno"> 3149</span>        <span class="comment">// some players may already be permanently bound, in this case nothing happens</span></div>
+<div class="line"><span class="lineno"> 3150</span>        <a class="code hl_struct" href="../../de/df7/struct_instance_player_bind.html">InstancePlayerBind</a>* bind = <a class="code hl_define" href="../../d4/d01/_instance_save_mgr_8h.html#ae1d3c96dbd749e40f06799fa52eeb9a2">sInstanceSaveMgr</a>-&gt;PlayerGetBoundInstance(player-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>(), save-&gt;<a class="code hl_function" href="../../de/dfe/class_instance_save.html#a92ce355e9be7f83d53307b6dcd354c5d">GetMapId</a>(), save-&gt;<a class="code hl_function" href="../../de/dfe/class_instance_save.html#a94577295c43dc90262381beff84f5f91">GetDifficulty</a>());</div>
+<div class="line"><span class="lineno"> 3151</span> </div>
+<div class="line"><span class="lineno"> 3152</span>        <span class="keywordflow">if</span> (!bind || !bind-&gt;<a class="code hl_variable" href="../../de/df7/struct_instance_player_bind.html#ab35249eb791941b484ecc321b1102b24">perm</a>)</div>
+<div class="line"><span class="lineno"> 3153</span>        {</div>
+<div class="line"><span class="lineno"> 3154</span>            <a class="code hl_class" href="../../d6/d1a/class_world_packet.html">WorldPacket</a> data(<a class="code hl_enumvalue" href="../../d2/dec/group__u2w.html#gga1073b6abb3a749f18bf1633020879e9baef8ddbd47ad90fe9a8f9a0ed56aefc81">SMSG_INSTANCE_SAVE_CREATED</a>, 4);</div>
+<div class="line"><span class="lineno"> 3155</span>            data &lt;&lt; <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(0);</div>
+<div class="line"><span class="lineno"> 3156</span>            player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a6ab11ca64cde7c5cde1f53998a6f7253">GetSession</a>()-&gt;<a class="code hl_function" href="../../d1/d47/class_world_session.html#a2c74b80ca9b81765049e315813b29269">SendPacket</a>(&amp;data);</div>
+<div class="line"><span class="lineno"> 3157</span>            <a class="code hl_define" href="../../d4/d01/_instance_save_mgr_8h.html#ae1d3c96dbd749e40f06799fa52eeb9a2">sInstanceSaveMgr</a>-&gt;PlayerBindToInstance(player-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>(), save, <span class="keyword">true</span>, player);</div>
+<div class="line"><span class="lineno"> 3158</span>        }</div>
+<div class="line"><span class="lineno"> 3159</span> </div>
+<div class="line"><span class="lineno"> 3160</span>        <span class="comment">// Xinef: Difficulty change prevention</span></div>
+<div class="line"><span class="lineno"> 3161</span>        <span class="keywordflow">if</span> (group)</div>
+<div class="line"><span class="lineno"> 3162</span>            group-&gt;<a class="code hl_function" href="../../da/d50/class_group.html#a5ba6e1d3574b1bcc473d4cf2c7574af2">SetDifficultyChangePrevention</a>(<a class="code hl_enumvalue" href="../../d7/dc4/_group_8h.html#ac137f3554eda30ca651f91eec6e2f1ffaf7daa8b9c866100c71f1ff356bca9d37">DIFFICULTY_PREVENTION_CHANGE_BOSS_KILLED</a>);</div>
+<div class="line"><span class="lineno"> 3163</span>    }</div>
+<div class="line"><span class="lineno"> 3164</span>}</div>
+<div class="ttc" id="a_group_8h_html_ac137f3554eda30ca651f91eec6e2f1ffaf7daa8b9c866100c71f1ff356bca9d37"><div class="ttname"><a href="../../d7/dc4/_group_8h.html#ac137f3554eda30ca651f91eec6e2f1ffaf7daa8b9c866100c71f1ff356bca9d37">DIFFICULTY_PREVENTION_CHANGE_BOSS_KILLED</a></div><div class="ttdeci">@ DIFFICULTY_PREVENTION_CHANGE_BOSS_KILLED</div><div class="ttdef"><b>Definition:</b> Group.h:134</div></div>
+<div class="ttc" id="aclass_group_html_a5ba6e1d3574b1bcc473d4cf2c7574af2"><div class="ttname"><a href="../../da/d50/class_group.html#a5ba6e1d3574b1bcc473d4cf2c7574af2">Group::SetDifficultyChangePrevention</a></div><div class="ttdeci">void SetDifficultyChangePrevention(DifficultyPreventionChangeType type)</div><div class="ttdef"><b>Definition:</b> Group.cpp:2472</div></div>
+<div class="ttc" id="aclass_linked_list_head_1_1_iterator_html"><div class="ttname"><a href="../../db/dfe/class_linked_list_head_1_1_iterator.html">LinkedListHead::Iterator&lt; MapReference &gt;</a></div></div>
+<div class="ttc" id="aclass_map_html_a1acedf1441514a41ee86f73bba9d05d9"><div class="ttname"><a href="../../dd/d11/class_map.html#a1acedf1441514a41ee86f73bba9d05d9">Map::m_mapRefMgr</a></div><div class="ttdeci">MapRefMgr m_mapRefMgr</div><div class="ttdef"><b>Definition:</b> Map.h:710</div></div>
+<div class="ttc" id="aclass_map_ref_mgr_html_a6774b551f0d64628e33594c7b486a872"><div class="ttname"><a href="../../db/d87/class_map_ref_mgr.html#a6774b551f0d64628e33594c7b486a872">MapRefMgr::begin</a></div><div class="ttdeci">iterator begin()</div><div class="ttdef"><b>Definition:</b> MapRefMgr.h:36</div></div>
+<div class="ttc" id="aclass_map_ref_mgr_html_af488c0096775085791b5fbc89e5851a0"><div class="ttname"><a href="../../db/d87/class_map_ref_mgr.html#af488c0096775085791b5fbc89e5851a0">MapRefMgr::end</a></div><div class="ttdeci">iterator end()</div><div class="ttdef"><b>Definition:</b> MapRefMgr.h:37</div></div>
+<div class="ttc" id="agroup__u2w_html_gga1073b6abb3a749f18bf1633020879e9baef8ddbd47ad90fe9a8f9a0ed56aefc81"><div class="ttname"><a href="../../d2/dec/group__u2w.html#gga1073b6abb3a749f18bf1633020879e9baef8ddbd47ad90fe9a8f9a0ed56aefc81">SMSG_INSTANCE_SAVE_CREATED</a></div><div class="ttdeci">@ SMSG_INSTANCE_SAVE_CREATED</div><div class="ttdef"><b>Definition:</b> Opcodes.h:745</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a789efee0e05598f2eafe8a89461d51d0" name="a789efee0e05598f2eafe8a89461d51d0"></a>
@@ -1147,7 +1544,15 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d11/class_map.html#a211a6e019d7b01955cf1321b156d341e">Map</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 3020</span>{</div>
+<div class="line"><span class="lineno"> 3021</span>    <span class="comment">// pussywizard: moved m_unloadTimer to InstanceMap::AfterPlayerUnlinkFromMap(), in this function if 2 players run out at the same time the instance won&#39;t close</span></div>
+<div class="line"><span class="lineno"> 3022</span>    <span class="comment">//if (!m_unloadTimer &amp;&amp; m_mapRefMgr.getSize() == 1)</span></div>
+<div class="line"><span class="lineno"> 3023</span>    <span class="comment">//    m_unloadTimer = m_unloadWhenEmpty ? MIN_UNLOAD_DELAY : std::max(sWorld-&gt;getIntConfig(CONFIG_INSTANCE_UNLOAD_DELAY), (uint32)MIN_UNLOAD_DELAY);</span></div>
+<div class="line"><span class="lineno"> 3024</span>    <a class="code hl_function" href="../../dd/d11/class_map.html#a211a6e019d7b01955cf1321b156d341e">Map::RemovePlayerFromMap</a>(player, remove);</div>
+<div class="line"><span class="lineno"> 3025</span>    player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a9fa0aff09f1be52dcbf6955df877a40f">SetPendingBind</a>(0, 0);</div>
+<div class="line"><span class="lineno"> 3026</span>}</div>
+<div class="ttc" id="aclass_map_html_a211a6e019d7b01955cf1321b156d341e"><div class="ttname"><a href="../../dd/d11/class_map.html#a211a6e019d7b01955cf1321b156d341e">Map::RemovePlayerFromMap</a></div><div class="ttdeci">virtual void RemovePlayerFromMap(Player *, bool)</div><div class="ttdef"><b>Definition:</b> Map.cpp:914</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad60b7ef4ef14f36245394fd7c929aad2" name="ad60b7ef4ef14f36245394fd7c929aad2"></a>
@@ -1175,7 +1580,51 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 3082</span>{</div>
+<div class="line"><span class="lineno"> 3083</span>    <span class="keywordflow">if</span> (method == <a class="code hl_enumvalue" href="../../d3/d63/_map_8h.html#a85895841def625e565ac3122a1267447a40c08a471edcbb547800e700e2341a8c">INSTANCE_RESET_GLOBAL</a>)</div>
+<div class="line"><span class="lineno"> 3084</span>    {</div>
+<div class="line"><span class="lineno"> 3085</span>        <span class="comment">// pussywizard: teleport out immediately</span></div>
+<div class="line"><span class="lineno"> 3086</span>        <span class="keywordflow">for</span> (<a class="code hl_class" href="../../db/dfe/class_linked_list_head_1_1_iterator.html">MapRefMgr::iterator</a> itr = <a class="code hl_variable" href="../../dd/d11/class_map.html#a1acedf1441514a41ee86f73bba9d05d9">m_mapRefMgr</a>.<a class="code hl_function" href="../../db/d87/class_map_ref_mgr.html#a6774b551f0d64628e33594c7b486a872">begin</a>(); itr != <a class="code hl_variable" href="../../dd/d11/class_map.html#a1acedf1441514a41ee86f73bba9d05d9">m_mapRefMgr</a>.<a class="code hl_function" href="../../db/d87/class_map_ref_mgr.html#af488c0096775085791b5fbc89e5851a0">end</a>(); ++itr)</div>
+<div class="line"><span class="lineno"> 3087</span>        {</div>
+<div class="line"><span class="lineno"> 3088</span>            <span class="comment">// teleport players that are no longer bound (can be still bound if extended id)</span></div>
+<div class="line"><span class="lineno"> 3089</span>            <span class="keywordflow">if</span> (!globalResetSkipList || std::find(globalResetSkipList-&gt;begin(), globalResetSkipList-&gt;end(), itr-&gt;GetSource()-&gt;GetGUID()) == globalResetSkipList-&gt;end())</div>
+<div class="line"><span class="lineno"> 3090</span>                itr-&gt;GetSource()-&gt;RepopAtGraveyard();</div>
+<div class="line"><span class="lineno"> 3091</span>        }</div>
+<div class="line"><span class="lineno"> 3092</span> </div>
+<div class="line"><span class="lineno"> 3093</span>        <span class="comment">// reset map only if noone is bound</span></div>
+<div class="line"><span class="lineno"> 3094</span>        <span class="keywordflow">if</span> (!globalResetSkipList || globalResetSkipList-&gt;empty())</div>
+<div class="line"><span class="lineno"> 3095</span>        {</div>
+<div class="line"><span class="lineno"> 3096</span>            <span class="comment">// pussywizard: setting both m_unloadWhenEmpty and m_unloadTimer intended, in case RepopAtGraveyard failed</span></div>
+<div class="line"><span class="lineno"> 3097</span>            <span class="keywordflow">if</span> (<a class="code hl_function" href="../../dd/d11/class_map.html#a67b09b18e444852a4a3e6365ea17b6d7">HavePlayers</a>())</div>
+<div class="line"><span class="lineno"> 3098</span>                <a class="code hl_variable" href="../../d8/ded/class_instance_map.html#a2c97ba74253c4bc5612c6290597e8bf7">m_unloadWhenEmpty</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 3099</span>            <a class="code hl_variable" href="../../dd/d11/class_map.html#a41e53a51784b9f424fe10ecafba8ccb5">m_unloadTimer</a> = <a class="code hl_define" href="../../d3/d63/_map_8h.html#a092c3d2c90fd46d14455e6ff2413dabb">MIN_UNLOAD_DELAY</a>;</div>
+<div class="line"><span class="lineno"> 3100</span>            <a class="code hl_variable" href="../../d8/ded/class_instance_map.html#a0ef50638887402136d92fc045de2dfd6">m_resetAfterUnload</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 3101</span>        }</div>
+<div class="line"><span class="lineno"> 3102</span> </div>
+<div class="line"><span class="lineno"> 3103</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dd/d11/class_map.html#a1acedf1441514a41ee86f73bba9d05d9">m_mapRefMgr</a>.<a class="code hl_function" href="../../db/d2f/class_linked_list_head.html#a5f450b83a615d010bedc7b0c6aa18d70">IsEmpty</a>();</div>
+<div class="line"><span class="lineno"> 3104</span>    }</div>
+<div class="line"><span class="lineno"> 3105</span> </div>
+<div class="line"><span class="lineno"> 3106</span>    <span class="keywordflow">if</span> (<a class="code hl_function" href="../../dd/d11/class_map.html#a67b09b18e444852a4a3e6365ea17b6d7">HavePlayers</a>())</div>
+<div class="line"><span class="lineno"> 3107</span>    {</div>
+<div class="line"><span class="lineno"> 3108</span>        <span class="keywordflow">if</span> (method == <a class="code hl_enumvalue" href="../../d3/d63/_map_8h.html#a85895841def625e565ac3122a1267447ab5ba7473d0bfac9d0f4dbc0e22a5a84d">INSTANCE_RESET_ALL</a> || method == <a class="code hl_enumvalue" href="../../d3/d63/_map_8h.html#a85895841def625e565ac3122a1267447a364d607eec219f808901d16aeec31a8d">INSTANCE_RESET_CHANGE_DIFFICULTY</a>)</div>
+<div class="line"><span class="lineno"> 3109</span>        {</div>
+<div class="line"><span class="lineno"> 3110</span>            <span class="keywordflow">for</span> (<a class="code hl_class" href="../../db/dfe/class_linked_list_head_1_1_iterator.html">MapRefMgr::iterator</a> itr = <a class="code hl_variable" href="../../dd/d11/class_map.html#a1acedf1441514a41ee86f73bba9d05d9">m_mapRefMgr</a>.<a class="code hl_function" href="../../db/d87/class_map_ref_mgr.html#a6774b551f0d64628e33594c7b486a872">begin</a>(); itr != <a class="code hl_variable" href="../../dd/d11/class_map.html#a1acedf1441514a41ee86f73bba9d05d9">m_mapRefMgr</a>.<a class="code hl_function" href="../../db/d87/class_map_ref_mgr.html#af488c0096775085791b5fbc89e5851a0">end</a>(); ++itr)</div>
+<div class="line"><span class="lineno"> 3111</span>                itr-&gt;GetSource()-&gt;SendResetFailedNotify(<a class="code hl_function" href="../../dd/d11/class_map.html#abea8ed605071226978969647a0246e86">GetId</a>());</div>
+<div class="line"><span class="lineno"> 3112</span>        }</div>
+<div class="line"><span class="lineno"> 3113</span>    }</div>
+<div class="line"><span class="lineno"> 3114</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 3115</span>    {</div>
+<div class="line"><span class="lineno"> 3116</span>        <a class="code hl_variable" href="../../dd/d11/class_map.html#a41e53a51784b9f424fe10ecafba8ccb5">m_unloadTimer</a> = <a class="code hl_define" href="../../d3/d63/_map_8h.html#a092c3d2c90fd46d14455e6ff2413dabb">MIN_UNLOAD_DELAY</a>;</div>
+<div class="line"><span class="lineno"> 3117</span>        <a class="code hl_variable" href="../../d8/ded/class_instance_map.html#a0ef50638887402136d92fc045de2dfd6">m_resetAfterUnload</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 3118</span>    }</div>
+<div class="line"><span class="lineno"> 3119</span> </div>
+<div class="line"><span class="lineno"> 3120</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dd/d11/class_map.html#a1acedf1441514a41ee86f73bba9d05d9">m_mapRefMgr</a>.<a class="code hl_function" href="../../db/d2f/class_linked_list_head.html#a5f450b83a615d010bedc7b0c6aa18d70">IsEmpty</a>();</div>
+<div class="line"><span class="lineno"> 3121</span>}</div>
+<div class="ttc" id="a_map_8h_html_a85895841def625e565ac3122a1267447a364d607eec219f808901d16aeec31a8d"><div class="ttname"><a href="../../d3/d63/_map_8h.html#a85895841def625e565ac3122a1267447a364d607eec219f808901d16aeec31a8d">INSTANCE_RESET_CHANGE_DIFFICULTY</a></div><div class="ttdeci">@ INSTANCE_RESET_CHANGE_DIFFICULTY</div><div class="ttdef"><b>Definition:</b> Map.h:806</div></div>
+<div class="ttc" id="a_map_8h_html_a85895841def625e565ac3122a1267447a40c08a471edcbb547800e700e2341a8c"><div class="ttname"><a href="../../d3/d63/_map_8h.html#a85895841def625e565ac3122a1267447a40c08a471edcbb547800e700e2341a8c">INSTANCE_RESET_GLOBAL</a></div><div class="ttdeci">@ INSTANCE_RESET_GLOBAL</div><div class="ttdef"><b>Definition:</b> Map.h:807</div></div>
+<div class="ttc" id="a_map_8h_html_a85895841def625e565ac3122a1267447ab5ba7473d0bfac9d0f4dbc0e22a5a84d"><div class="ttname"><a href="../../d3/d63/_map_8h.html#a85895841def625e565ac3122a1267447ab5ba7473d0bfac9d0f4dbc0e22a5a84d">INSTANCE_RESET_ALL</a></div><div class="ttdeci">@ INSTANCE_RESET_ALL</div><div class="ttdef"><b>Definition:</b> Map.h:805</div></div>
+<div class="ttc" id="aclass_linked_list_head_html_a5f450b83a615d010bedc7b0c6aa18d70"><div class="ttname"><a href="../../db/d2f/class_linked_list_head.html#a5f450b83a615d010bedc7b0c6aa18d70">LinkedListHead::IsEmpty</a></div><div class="ttdeci">bool IsEmpty() const</div><div class="ttdef"><b>Definition:</b> LinkedList.h:97</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a5d2ade5164c7886491d29fb527864df9" name="a5d2ade5164c7886491d29fb527864df9"></a>
@@ -1193,7 +1642,11 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 3180</span>{</div>
+<div class="line"><span class="lineno"> 3181</span>    <span class="keywordflow">for</span> (<a class="code hl_class" href="../../db/dfe/class_linked_list_head_1_1_iterator.html">MapRefMgr::const_iterator</a> itr = <a class="code hl_variable" href="../../dd/d11/class_map.html#a1acedf1441514a41ee86f73bba9d05d9">m_mapRefMgr</a>.<a class="code hl_function" href="../../db/d87/class_map_ref_mgr.html#a6774b551f0d64628e33594c7b486a872">begin</a>(); itr != <a class="code hl_variable" href="../../dd/d11/class_map.html#a1acedf1441514a41ee86f73bba9d05d9">m_mapRefMgr</a>.<a class="code hl_function" href="../../db/d87/class_map_ref_mgr.html#af488c0096775085791b5fbc89e5851a0">end</a>(); ++itr)</div>
+<div class="line"><span class="lineno"> 3182</span>        itr-&gt;GetSource()-&gt;SendInstanceResetWarning(<a class="code hl_function" href="../../dd/d11/class_map.html#abea8ed605071226978969647a0246e86">GetId</a>(), itr-&gt;GetSource()-&gt;GetDifficulty(<a class="code hl_function" href="../../dd/d11/class_map.html#a556d2eafa563b4a5de4957de28e369b3">IsRaid</a>()), timeLeft, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno"> 3183</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aabfd4a995353adcd4ab0bd64b8e59b7e" name="aabfd4a995353adcd4ab0bd64b8e59b7e"></a>
@@ -1220,7 +1673,22 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d11/class_map.html#a58340824b6724c3127220d733487456b">Map</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 3167</span>{</div>
+<div class="line"><span class="lineno"> 3168</span>    <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(!<a class="code hl_function" href="../../dd/d11/class_map.html#a67b09b18e444852a4a3e6365ea17b6d7">HavePlayers</a>());</div>
+<div class="line"><span class="lineno"> 3169</span> </div>
+<div class="line"><span class="lineno"> 3170</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d8/ded/class_instance_map.html#a0ef50638887402136d92fc045de2dfd6">m_resetAfterUnload</a>)</div>
+<div class="line"><span class="lineno"> 3171</span>    {</div>
+<div class="line"><span class="lineno"> 3172</span>        <a class="code hl_function" href="../../dd/d11/class_map.html#a3c53406860b450e74535f20ee223bef6">DeleteRespawnTimes</a>();</div>
+<div class="line"><span class="lineno"> 3173</span>        <a class="code hl_function" href="../../dd/d11/class_map.html#a3842cb810c4741e6d05501ada3976d86">DeleteCorpseData</a>();</div>
+<div class="line"><span class="lineno"> 3174</span>    }</div>
+<div class="line"><span class="lineno"> 3175</span> </div>
+<div class="line"><span class="lineno"> 3176</span>    <a class="code hl_function" href="../../dd/d11/class_map.html#a58340824b6724c3127220d733487456b">Map::UnloadAll</a>();</div>
+<div class="line"><span class="lineno"> 3177</span>}</div>
+<div class="ttc" id="a_errors_8h_html_af343b20373ba49a92fce523e948f2ab3"><div class="ttname"><a href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a></div><div class="ttdeci">#define ASSERT</div><div class="ttdef"><b>Definition:</b> Errors.h:68</div></div>
+<div class="ttc" id="aclass_map_html_a3842cb810c4741e6d05501ada3976d86"><div class="ttname"><a href="../../dd/d11/class_map.html#a3842cb810c4741e6d05501ada3976d86">Map::DeleteCorpseData</a></div><div class="ttdeci">void DeleteCorpseData()</div><div class="ttdef"><b>Definition:</b> Map.cpp:4016</div></div>
+<div class="ttc" id="aclass_map_html_a3c53406860b450e74535f20ee223bef6"><div class="ttname"><a href="../../dd/d11/class_map.html#a3c53406860b450e74535f20ee223bef6">Map::DeleteRespawnTimes</a></div><div class="ttdeci">void DeleteRespawnTimes()</div><div class="ttdef"><b>Definition:</b> Map.cpp:3426</div></div>
+<div class="ttc" id="aclass_map_html_a58340824b6724c3127220d733487456b"><div class="ttname"><a href="../../dd/d11/class_map.html#a58340824b6724c3127220d733487456b">Map::UnloadAll</a></div><div class="ttdeci">virtual void UnloadAll()</div><div class="ttdef"><b>Definition:</b> Map.cpp:1278</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aabae71377e431f1690fa3934b1bd2a5c" name="aabae71377e431f1690fa3934b1bd2a5c"></a>
@@ -1264,7 +1732,16 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d11/class_map.html#a82b23cb8410250818f16fc840067df50">Map</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 3011</span>{</div>
+<div class="line"><span class="lineno"> 3012</span>    <a class="code hl_function" href="../../dd/d11/class_map.html#a82b23cb8410250818f16fc840067df50">Map::Update</a>(t_diff, s_diff);</div>
+<div class="line"><span class="lineno"> 3013</span> </div>
+<div class="line"><span class="lineno"> 3014</span>    <span class="keywordflow">if</span> (t_diff)</div>
+<div class="line"><span class="lineno"> 3015</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d8/ded/class_instance_map.html#a5e72502fd1dc9361180a46928ab7f33d">instance_data</a>)</div>
+<div class="line"><span class="lineno"> 3016</span>            <a class="code hl_variable" href="../../d8/ded/class_instance_map.html#a5e72502fd1dc9361180a46928ab7f33d">instance_data</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_instance_script.html#ae8797bd504b9ad481dd491f4e2ee77e2">Update</a>(t_diff);</div>
+<div class="line"><span class="lineno"> 3017</span>}</div>
+<div class="ttc" id="aclass_instance_script_html_ae8797bd504b9ad481dd491f4e2ee77e2"><div class="ttname"><a href="../../d8/d83/class_instance_script.html#ae8797bd504b9ad481dd491f4e2ee77e2">InstanceScript::Update</a></div><div class="ttdeci">virtual void Update(uint32)</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:162</div></div>
+<div class="ttc" id="aclass_map_html_a82b23cb8410250818f16fc840067df50"><div class="ttname"><a href="../../dd/d11/class_map.html#a82b23cb8410250818f16fc840067df50">Map::Update</a></div><div class="ttdeci">virtual void Update(const uint32, const uint32, bool thread=true)</div><div class="ttdef"><b>Definition:</b> Map.cpp:741</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -1357,8 +1834,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Maps/<a class="el" href="../../d3/d63/_map_8h_source.html">Map.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/Maps/<a class="el" href="../../db/df4/_map_8cpp.html">Map.cpp</a></li>
+<li><a class="el" href="../../">Map.h</a></li>
+<li><a class="el" href="../../">Map.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -1366,7 +1843,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d8/ded/class_instance_map.html">InstanceMap</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:46 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:01 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

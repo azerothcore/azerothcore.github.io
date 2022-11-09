@@ -384,7 +384,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a5e982f5f41433f43a7a0e1d18e009b7b" name="a5e982f5f41433f43a7a0e1d18e009b7b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5e982f5f41433f43a7a0e1d18e009b7b">&#9670;&#160;</a></span>boss_freya_iron_rootAI()</h2>
 
@@ -408,7 +409,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  961</span>: <a class="code hl_class" href="../../d6/df7/class_null_creature_a_i.html">NullCreatureAI</a>(pCreature) { }</div>
+<div class="ttc" id="aclass_null_creature_a_i_html"><div class="ttname"><a href="../../d6/df7/class_null_creature_a_i.html">NullCreatureAI</a></div><div class="ttdef"><b>Definition:</b> PassiveAI.h:53</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -437,11 +440,35 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d2/d68/class_creature_a_i.html#a8c0eee7b55a8cf3cd5f99cf6fa41b00b">CreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  964</span>        {</div>
+<div class="line"><span class="lineno">  965</span>            <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a9534e161f94312c5ee5c81fd75cc16ee">IsSummon</a>())</div>
+<div class="line"><span class="lineno">  966</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  967</span> </div>
+<div class="line"><span class="lineno">  968</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#a02c2dfb59db7d7e2501dcc9a4f9baf07">ObjectAccessor::GetUnit</a>(*<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>, <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a6649e9ba10948d634bc0ac9c4a5800e5">ToTempSummon</a>()-&gt;<a class="code hl_function" href="../../d2/d6e/class_temp_summon.html#a4f1c054b1e80b1ae0b44e6f38951082e">GetSummonerGUID</a>()))</div>
+<div class="line"><span class="lineno">  969</span>            {</div>
+<div class="line"><span class="lineno">  970</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>() == <a class="code hl_enumvalue" href="../../df/d87/boss__freya_8cpp.html#aa06139b580815350880d7e3e9fa5184dacf784c8ccd699892a823f1ced8b97f3d">NPC_IRON_ROOT_TRIGGER</a>) <span class="comment">// Iron Branch spell</span></div>
+<div class="line"><span class="lineno">  971</span>                    target-&gt;RemoveAura(target-&gt;GetMap()-&gt;Is25ManRaid() ? <a class="code hl_enumvalue" href="../../df/d87/boss__freya_8cpp.html#ab11cf06593f4e436af59534b8b96644fa4705fae31b43738ff35bbe733c3340da">SPELL_IRON_ROOTS_DAMAGE_25</a> : <a class="code hl_enumvalue" href="../../df/d87/boss__freya_8cpp.html#ab11cf06593f4e436af59534b8b96644fa686812debba41a4ad97942c1b4010047">SPELL_IRON_ROOTS_DAMAGE_10</a>);</div>
+<div class="line"><span class="lineno">  972</span>                <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  973</span>                    target-&gt;RemoveAura(target-&gt;GetMap()-&gt;Is25ManRaid() ? <a class="code hl_enumvalue" href="../../df/d87/boss__freya_8cpp.html#ab11cf06593f4e436af59534b8b96644faa625e1b94e7d96c17551c96dd8d18103">SPELL_IRON_ROOTS_FREYA_DAMAGE_25</a> : <a class="code hl_enumvalue" href="../../df/d87/boss__freya_8cpp.html#ab11cf06593f4e436af59534b8b96644fa17a98c986509a6aa87a24d9282e599fb">SPELL_IRON_ROOTS_FREYA_DAMAGE_10</a>);</div>
+<div class="line"><span class="lineno">  974</span>            }</div>
+<div class="line"><span class="lineno">  975</span>        }</div>
+<div class="ttc" id="aboss__freya_8cpp_html_aa06139b580815350880d7e3e9fa5184dacf784c8ccd699892a823f1ced8b97f3d"><div class="ttname"><a href="../../df/d87/boss__freya_8cpp.html#aa06139b580815350880d7e3e9fa5184dacf784c8ccd699892a823f1ced8b97f3d">NPC_IRON_ROOT_TRIGGER</a></div><div class="ttdeci">@ NPC_IRON_ROOT_TRIGGER</div><div class="ttdef"><b>Definition:</b> boss_freya.cpp:211</div></div>
+<div class="ttc" id="aboss__freya_8cpp_html_ab11cf06593f4e436af59534b8b96644fa17a98c986509a6aa87a24d9282e599fb"><div class="ttname"><a href="../../df/d87/boss__freya_8cpp.html#ab11cf06593f4e436af59534b8b96644fa17a98c986509a6aa87a24d9282e599fb">SPELL_IRON_ROOTS_FREYA_DAMAGE_10</a></div><div class="ttdeci">@ SPELL_IRON_ROOTS_FREYA_DAMAGE_10</div><div class="ttdef"><b>Definition:</b> boss_freya.cpp:52</div></div>
+<div class="ttc" id="aboss__freya_8cpp_html_ab11cf06593f4e436af59534b8b96644fa4705fae31b43738ff35bbe733c3340da"><div class="ttname"><a href="../../df/d87/boss__freya_8cpp.html#ab11cf06593f4e436af59534b8b96644fa4705fae31b43738ff35bbe733c3340da">SPELL_IRON_ROOTS_DAMAGE_25</a></div><div class="ttdeci">@ SPELL_IRON_ROOTS_DAMAGE_25</div><div class="ttdef"><b>Definition:</b> boss_freya.cpp:79</div></div>
+<div class="ttc" id="aboss__freya_8cpp_html_ab11cf06593f4e436af59534b8b96644fa686812debba41a4ad97942c1b4010047"><div class="ttname"><a href="../../df/d87/boss__freya_8cpp.html#ab11cf06593f4e436af59534b8b96644fa686812debba41a4ad97942c1b4010047">SPELL_IRON_ROOTS_DAMAGE_10</a></div><div class="ttdeci">@ SPELL_IRON_ROOTS_DAMAGE_10</div><div class="ttdef"><b>Definition:</b> boss_freya.cpp:78</div></div>
+<div class="ttc" id="aboss__freya_8cpp_html_ab11cf06593f4e436af59534b8b96644faa625e1b94e7d96c17551c96dd8d18103"><div class="ttname"><a href="../../df/d87/boss__freya_8cpp.html#ab11cf06593f4e436af59534b8b96644faa625e1b94e7d96c17551c96dd8d18103">SPELL_IRON_ROOTS_FREYA_DAMAGE_25</a></div><div class="ttdeci">@ SPELL_IRON_ROOTS_FREYA_DAMAGE_25</div><div class="ttdef"><b>Definition:</b> boss_freya.cpp:53</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_aee5bf3d421199445de241a34798ae819"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">CreatureAI::me</a></div><div class="ttdeci">Creature *const me</div><div class="ttdef"><b>Definition:</b> CreatureAI.h:72</div></div>
+<div class="ttc" id="aclass_object_html_aa627fe2967ed0e0ed1d8aeeb4365a961"><div class="ttname"><a href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">Object::GetEntry</a></div><div class="ttdeci">uint32 GetEntry() const</div><div class="ttdef"><b>Definition:</b> Object.h:109</div></div>
+<div class="ttc" id="aclass_temp_summon_html_a4f1c054b1e80b1ae0b44e6f38951082e"><div class="ttname"><a href="../../d2/d6e/class_temp_summon.html#a4f1c054b1e80b1ae0b44e6f38951082e">TempSummon::GetSummonerGUID</a></div><div class="ttdeci">ObjectGuid GetSummonerGUID() const</div><div class="ttdef"><b>Definition:</b> TemporarySummon.h:55</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_a6649e9ba10948d634bc0ac9c4a5800e5"><div class="ttname"><a href="../../da/db7/class_unit.html#a6649e9ba10948d634bc0ac9c4a5800e5">Unit::ToTempSummon</a></div><div class="ttdeci">TempSummon * ToTempSummon()</div><div class="ttdef"><b>Definition:</b> Unit.h:2395</div></div>
+<div class="ttc" id="aclass_unit_html_a9534e161f94312c5ee5c81fd75cc16ee"><div class="ttname"><a href="../../da/db7/class_unit.html#a9534e161f94312c5ee5c81fd75cc16ee">Unit::IsSummon</a></div><div class="ttdeci">bool IsSummon() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1410</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_a02c2dfb59db7d7e2501dcc9a4f9baf07"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#a02c2dfb59db7d7e2501dcc9a4f9baf07">ObjectAccessor::GetUnit</a></div><div class="ttdeci">Unit * GetUnit(WorldObject const &amp;, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:204</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/Ulduar/Ulduar/<a class="el" href="../../df/d87/boss__freya_8cpp.html">boss_freya.cpp</a></li>
+<li><a class="el" href="../../">boss_freya.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -449,7 +476,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/d90/classboss__freya__iron__root.html">boss_freya_iron_root</a></li><li class="navelem"><a class="el" href="../../d2/d16/structboss__freya__iron__root_1_1boss__freya__iron__root_a_i.html">boss_freya_iron_rootAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:39 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:51 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

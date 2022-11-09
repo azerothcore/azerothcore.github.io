@@ -327,7 +327,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a5ab9bd10ed8736a816bfaf12c39bde59 inherit pro_methods_class_instance_script"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d83/class_instance_script.html#a5ab9bd10ed8736a816bfaf12c39bde59">GetBossSaveData</a> ()</td></tr>
 <tr class="separator:a5ab9bd10ed8736a816bfaf12c39bde59 inherit pro_methods_class_instance_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a4c6594eb7fa1f7213c89ea5af6c70ae0" name="a4c6594eb7fa1f7213c89ea5af6c70ae0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4c6594eb7fa1f7213c89ea5af6c70ae0">&#9670;&#160;</a></span>instance_arcatraz_InstanceMapScript()</h2>
 
@@ -351,7 +352,17 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   36</span>                                                      : <a class="code hl_class" href="../../d8/d83/class_instance_script.html">InstanceScript</a>(map)</div>
+<div class="line"><span class="lineno">   37</span>        {</div>
+<div class="line"><span class="lineno">   38</span>            <a class="code hl_function" href="../../d8/d83/class_instance_script.html#a046e1b0124a2a0df9bc9557133365343">SetBossNumber</a>(<a class="code hl_enumvalue" href="../../d2/d25/arcatraz_8h.html#afb6eb4f28419b652027fad41104a6d22ae75b1c5d30f242906f8a0ad78ca2d58a">MAX_ENCOUTER</a>);</div>
+<div class="line"><span class="lineno">   39</span>            <a class="code hl_function" href="../../d8/d83/class_instance_script.html#aba8f8a639bedcd7014d0502f9df05557">LoadDoorData</a>(<a class="code hl_variable" href="../../d5/d99/instance__arcatraz_8cpp.html#a69c4a0ca4694d5ed1d42f0373dd5d80c">doorData</a>);</div>
+<div class="line"><span class="lineno">   40</span>        }</div>
+<div class="ttc" id="aarcatraz_8h_html_afb6eb4f28419b652027fad41104a6d22ae75b1c5d30f242906f8a0ad78ca2d58a"><div class="ttname"><a href="../../d2/d25/arcatraz_8h.html#afb6eb4f28419b652027fad41104a6d22ae75b1c5d30f242906f8a0ad78ca2d58a">MAX_ENCOUTER</a></div><div class="ttdeci">@ MAX_ENCOUTER</div><div class="ttdef"><b>Definition:</b> arcatraz.h:35</div></div>
+<div class="ttc" id="aclass_instance_script_html"><div class="ttname"><a href="../../d8/d83/class_instance_script.html">InstanceScript</a></div><div class="ttdef"><b>Definition:</b> InstanceScript.h:140</div></div>
+<div class="ttc" id="aclass_instance_script_html_a046e1b0124a2a0df9bc9557133365343"><div class="ttname"><a href="../../d8/d83/class_instance_script.html#a046e1b0124a2a0df9bc9557133365343">InstanceScript::SetBossNumber</a></div><div class="ttdeci">void SetBossNumber(uint32 number)</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:258</div></div>
+<div class="ttc" id="aclass_instance_script_html_aba8f8a639bedcd7014d0502f9df05557"><div class="ttname"><a href="../../d8/d83/class_instance_script.html#aba8f8a639bedcd7014d0502f9df05557">InstanceScript::LoadDoorData</a></div><div class="ttdeci">void LoadDoorData(DoorData const *data)</div><div class="ttdef"><b>Definition:</b> InstanceScript.cpp:148</div></div>
+<div class="ttc" id="ainstance__arcatraz_8cpp_html_a69c4a0ca4694d5ed1d42f0373dd5d80c"><div class="ttname"><a href="../../d5/d99/instance__arcatraz_8cpp.html#a69c4a0ca4694d5ed1d42f0373dd5d80c">doorData</a></div><div class="ttdeci">DoorData const doorData[]</div><div class="ttdef"><b>Definition:</b> instance_arcatraz.cpp:22</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -380,7 +391,10 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../df/dad/class_zone_script.html#a8997612fdbdacbf5e28e4de60d03e805">ZoneScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  120</span>        {</div>
+<div class="line"><span class="lineno">  121</span>            <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">  122</span>        }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aa4bedf168359eaf5332476a6de99c830" name="aa4bedf168359eaf5332476a6de99c830"></a>
@@ -408,7 +422,27 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d8/d83/class_instance_script.html#a3be7f24ca31c9433aca546e1087109b4">InstanceScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  125</span>        {</div>
+<div class="line"><span class="lineno">  126</span>            <span class="keywordflow">switch</span> (data)</div>
+<div class="line"><span class="lineno">  127</span>            {</div>
+<div class="line"><span class="lineno">  128</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d2/d25/arcatraz_8h.html#afb6eb4f28419b652027fad41104a6d22adbd0a40329f226f8d3ee0a053e193480">DATA_DALLIAH</a>:</div>
+<div class="line"><span class="lineno">  129</span>                    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d7/d5e/structinstance__arcatraz_1_1instance__arcatraz___instance_map_script.html#a69c3e171c676e19e6638b74334b324ae">DalliahGUID</a>;</div>
+<div class="line"><span class="lineno">  130</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d2/d25/arcatraz_8h.html#afb6eb4f28419b652027fad41104a6d22a1d1e8bdbaa39601512fa7602f3b22d64">DATA_SOCCOTHRATES</a>:</div>
+<div class="line"><span class="lineno">  131</span>                    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d7/d5e/structinstance__arcatraz_1_1instance__arcatraz___instance_map_script.html#a78d371ead03b1f52e388ed7b6c1e0fa7">SoccothratesGUID</a>;</div>
+<div class="line"><span class="lineno">  132</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d2/d25/arcatraz_8h.html#afb6eb4f28419b652027fad41104a6d22a0a6038acaf381c6febda650915f9eaa0">DATA_WARDENS_SHIELD</a>:</div>
+<div class="line"><span class="lineno">  133</span>                    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d7/d5e/structinstance__arcatraz_1_1instance__arcatraz___instance_map_script.html#a3cbff5742e05f6cf0544807bce64b1d0">WardensShieldGUID</a>;</div>
+<div class="line"><span class="lineno">  134</span>            }</div>
+<div class="line"><span class="lineno">  135</span> </div>
+<div class="line"><span class="lineno">  136</span>            <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d8/d03/class_object_guid.html#a14039d3f3df79203693f713495503165">ObjectGuid::Empty</a>;</div>
+<div class="line"><span class="lineno">  137</span>        }</div>
+<div class="ttc" id="aarcatraz_8h_html_afb6eb4f28419b652027fad41104a6d22a0a6038acaf381c6febda650915f9eaa0"><div class="ttname"><a href="../../d2/d25/arcatraz_8h.html#afb6eb4f28419b652027fad41104a6d22a0a6038acaf381c6febda650915f9eaa0">DATA_WARDENS_SHIELD</a></div><div class="ttdeci">@ DATA_WARDENS_SHIELD</div><div class="ttdef"><b>Definition:</b> arcatraz.h:43</div></div>
+<div class="ttc" id="aarcatraz_8h_html_afb6eb4f28419b652027fad41104a6d22a1d1e8bdbaa39601512fa7602f3b22d64"><div class="ttname"><a href="../../d2/d25/arcatraz_8h.html#afb6eb4f28419b652027fad41104a6d22a1d1e8bdbaa39601512fa7602f3b22d64">DATA_SOCCOTHRATES</a></div><div class="ttdeci">@ DATA_SOCCOTHRATES</div><div class="ttdef"><b>Definition:</b> arcatraz.h:33</div></div>
+<div class="ttc" id="aarcatraz_8h_html_afb6eb4f28419b652027fad41104a6d22adbd0a40329f226f8d3ee0a053e193480"><div class="ttname"><a href="../../d2/d25/arcatraz_8h.html#afb6eb4f28419b652027fad41104a6d22adbd0a40329f226f8d3ee0a053e193480">DATA_DALLIAH</a></div><div class="ttdeci">@ DATA_DALLIAH</div><div class="ttdef"><b>Definition:</b> arcatraz.h:32</div></div>
+<div class="ttc" id="aclass_object_guid_html_a14039d3f3df79203693f713495503165"><div class="ttname"><a href="../../d8/d03/class_object_guid.html#a14039d3f3df79203693f713495503165">ObjectGuid::Empty</a></div><div class="ttdeci">static ObjectGuid const Empty</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:122</div></div>
+<div class="ttc" id="astructinstance__arcatraz_1_1instance__arcatraz___instance_map_script_html_a3cbff5742e05f6cf0544807bce64b1d0"><div class="ttname"><a href="../../d7/d5e/structinstance__arcatraz_1_1instance__arcatraz___instance_map_script.html#a3cbff5742e05f6cf0544807bce64b1d0">instance_arcatraz::instance_arcatraz_InstanceMapScript::WardensShieldGUID</a></div><div class="ttdeci">ObjectGuid WardensShieldGUID</div><div class="ttdef"><b>Definition:</b> instance_arcatraz.cpp:205</div></div>
+<div class="ttc" id="astructinstance__arcatraz_1_1instance__arcatraz___instance_map_script_html_a69c3e171c676e19e6638b74334b324ae"><div class="ttname"><a href="../../d7/d5e/structinstance__arcatraz_1_1instance__arcatraz___instance_map_script.html#a69c3e171c676e19e6638b74334b324ae">instance_arcatraz::instance_arcatraz_InstanceMapScript::DalliahGUID</a></div><div class="ttdeci">ObjectGuid DalliahGUID</div><div class="ttdef"><b>Definition:</b> instance_arcatraz.cpp:201</div></div>
+<div class="ttc" id="astructinstance__arcatraz_1_1instance__arcatraz___instance_map_script_html_a78d371ead03b1f52e388ed7b6c1e0fa7"><div class="ttname"><a href="../../d7/d5e/structinstance__arcatraz_1_1instance__arcatraz___instance_map_script.html#a78d371ead03b1f52e388ed7b6c1e0fa7">instance_arcatraz::instance_arcatraz_InstanceMapScript::SoccothratesGUID</a></div><div class="ttdeci">ObjectGuid SoccothratesGUID</div><div class="ttdef"><b>Definition:</b> instance_arcatraz.cpp:202</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a0274998b381fb0086e556de64e774c7b" name="a0274998b381fb0086e556de64e774c7b"></a>
@@ -435,7 +469,19 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d8/d83/class_instance_script.html#aa0e2d9bf4d757aad09d4773259ad8583">InstanceScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  158</span>        {</div>
+<div class="line"><span class="lineno">  159</span>            <a class="code hl_define" href="../../da/d42/_instance_script_8h.html#a65ed3183971093dcebed99d1ec6d6d63">OUT_SAVE_INST_DATA</a>;</div>
+<div class="line"><span class="lineno">  160</span> </div>
+<div class="line"><span class="lineno">  161</span>            std::ostringstream saveStream;</div>
+<div class="line"><span class="lineno">  162</span>            saveStream &lt;&lt; <span class="stringliteral">&quot;A Z &quot;</span> &lt;&lt; <a class="code hl_function" href="../../d8/d83/class_instance_script.html#a5ab9bd10ed8736a816bfaf12c39bde59">GetBossSaveData</a>();</div>
+<div class="line"><span class="lineno">  163</span> </div>
+<div class="line"><span class="lineno">  164</span>            <a class="code hl_define" href="../../da/d42/_instance_script_8h.html#a3a93295e3500f757163145c03e90db3d">OUT_SAVE_INST_DATA_COMPLETE</a>;</div>
+<div class="line"><span class="lineno">  165</span>            <span class="keywordflow">return</span> saveStream.str();</div>
+<div class="line"><span class="lineno">  166</span>        }</div>
+<div class="ttc" id="a_instance_script_8h_html_a3a93295e3500f757163145c03e90db3d"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a3a93295e3500f757163145c03e90db3d">OUT_SAVE_INST_DATA_COMPLETE</a></div><div class="ttdeci">#define OUT_SAVE_INST_DATA_COMPLETE</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:28</div></div>
+<div class="ttc" id="a_instance_script_8h_html_a65ed3183971093dcebed99d1ec6d6d63"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a65ed3183971093dcebed99d1ec6d6d63">OUT_SAVE_INST_DATA</a></div><div class="ttdeci">#define OUT_SAVE_INST_DATA</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:27</div></div>
+<div class="ttc" id="aclass_instance_script_html_a5ab9bd10ed8736a816bfaf12c39bde59"><div class="ttname"><a href="../../d8/d83/class_instance_script.html#a5ab9bd10ed8736a816bfaf12c39bde59">InstanceScript::GetBossSaveData</a></div><div class="ttdeci">std::string GetBossSaveData()</div><div class="ttdef"><b>Definition:</b> InstanceScript.cpp:357</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ab86be2536eb07b276c7a70183ce3b314" name="ab86be2536eb07b276c7a70183ce3b314"></a>
@@ -463,7 +509,46 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d8/d83/class_instance_script.html#ad8be0d1c384b505f5b3fa1ab55eb1f61">InstanceScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  169</span>        {</div>
+<div class="line"><span class="lineno">  170</span>            <span class="keywordflow">if</span> (!str)</div>
+<div class="line"><span class="lineno">  171</span>            {</div>
+<div class="line"><span class="lineno">  172</span>                <a class="code hl_define" href="../../da/d42/_instance_script_8h.html#a141fd6fe34ebbd5c3ad507db42f41b4a">OUT_LOAD_INST_DATA_FAIL</a>;</div>
+<div class="line"><span class="lineno">  173</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  174</span>            }</div>
+<div class="line"><span class="lineno">  175</span> </div>
+<div class="line"><span class="lineno">  176</span>            <a class="code hl_define" href="../../da/d42/_instance_script_8h.html#aafbf0073420e9a897ec0f243f4793a0f">OUT_LOAD_INST_DATA</a>(str);</div>
+<div class="line"><span class="lineno">  177</span> </div>
+<div class="line"><span class="lineno">  178</span>            <span class="keywordtype">char</span> dataHead1, dataHead2;</div>
+<div class="line"><span class="lineno">  179</span> </div>
+<div class="line"><span class="lineno">  180</span>            std::istringstream loadStream(str);</div>
+<div class="line"><span class="lineno">  181</span>            loadStream &gt;&gt; dataHead1 &gt;&gt; dataHead2;</div>
+<div class="line"><span class="lineno">  182</span> </div>
+<div class="line"><span class="lineno">  183</span>            <span class="keywordflow">if</span> (dataHead1 == <span class="charliteral">&#39;A&#39;</span> &amp;&amp; dataHead2 == <span class="charliteral">&#39;Z&#39;</span>)</div>
+<div class="line"><span class="lineno">  184</span>            {</div>
+<div class="line"><span class="lineno">  185</span>                <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> i = 0; i &lt; <a class="code hl_enumvalue" href="../../d2/d25/arcatraz_8h.html#afb6eb4f28419b652027fad41104a6d22ae75b1c5d30f242906f8a0ad78ca2d58a">MAX_ENCOUTER</a>; ++i)</div>
+<div class="line"><span class="lineno">  186</span>                {</div>
+<div class="line"><span class="lineno">  187</span>                    <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> tmpState;</div>
+<div class="line"><span class="lineno">  188</span>                    loadStream &gt;&gt; tmpState;</div>
+<div class="line"><span class="lineno">  189</span>                    <span class="keywordflow">if</span> (tmpState == <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012">IN_PROGRESS</a> || tmpState &gt; <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694aaa5259d84d06214a7b0503d636790465">SPECIAL</a>)</div>
+<div class="line"><span class="lineno">  190</span>                        tmpState = <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694ae7d82dfe80ea0bd4feea8ee49ea2eab5">NOT_STARTED</a>;</div>
+<div class="line"><span class="lineno">  191</span>                    <a class="code hl_function" href="../../d7/d5e/structinstance__arcatraz_1_1instance__arcatraz___instance_map_script.html#a2937e4ea47af542a476bd3399ecc7233">SetBossState</a>(i, <a class="code hl_enumeration" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694">EncounterState</a>(tmpState));</div>
+<div class="line"><span class="lineno">  192</span>                }</div>
+<div class="line"><span class="lineno">  193</span>            }</div>
+<div class="line"><span class="lineno">  194</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  195</span>                <a class="code hl_define" href="../../da/d42/_instance_script_8h.html#a141fd6fe34ebbd5c3ad507db42f41b4a">OUT_LOAD_INST_DATA_FAIL</a>;</div>
+<div class="line"><span class="lineno">  196</span> </div>
+<div class="line"><span class="lineno">  197</span>            <a class="code hl_define" href="../../da/d42/_instance_script_8h.html#a490e19560f068912b0e3dbd61c689b44">OUT_LOAD_INST_DATA_COMPLETE</a>;</div>
+<div class="line"><span class="lineno">  198</span>        }</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="a_instance_script_8h_html_a141fd6fe34ebbd5c3ad507db42f41b4a"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a141fd6fe34ebbd5c3ad507db42f41b4a">OUT_LOAD_INST_DATA_FAIL</a></div><div class="ttdeci">#define OUT_LOAD_INST_DATA_FAIL</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:31</div></div>
+<div class="ttc" id="a_instance_script_8h_html_a1c28341208eeb4bdc8237e8ceac88694"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694">EncounterState</a></div><div class="ttdeci">EncounterState</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:55</div></div>
+<div class="ttc" id="a_instance_script_8h_html_a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012">IN_PROGRESS</a></div><div class="ttdeci">@ IN_PROGRESS</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:57</div></div>
+<div class="ttc" id="a_instance_script_8h_html_a1c28341208eeb4bdc8237e8ceac88694aaa5259d84d06214a7b0503d636790465"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694aaa5259d84d06214a7b0503d636790465">SPECIAL</a></div><div class="ttdeci">@ SPECIAL</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:60</div></div>
+<div class="ttc" id="a_instance_script_8h_html_a1c28341208eeb4bdc8237e8ceac88694ae7d82dfe80ea0bd4feea8ee49ea2eab5"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694ae7d82dfe80ea0bd4feea8ee49ea2eab5">NOT_STARTED</a></div><div class="ttdeci">@ NOT_STARTED</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:56</div></div>
+<div class="ttc" id="a_instance_script_8h_html_a490e19560f068912b0e3dbd61c689b44"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a490e19560f068912b0e3dbd61c689b44">OUT_LOAD_INST_DATA_COMPLETE</a></div><div class="ttdeci">#define OUT_LOAD_INST_DATA_COMPLETE</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:30</div></div>
+<div class="ttc" id="a_instance_script_8h_html_aafbf0073420e9a897ec0f243f4793a0f"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#aafbf0073420e9a897ec0f243f4793a0f">OUT_LOAD_INST_DATA</a></div><div class="ttdeci">#define OUT_LOAD_INST_DATA(a)</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:29</div></div>
+<div class="ttc" id="astructinstance__arcatraz_1_1instance__arcatraz___instance_map_script_html_a2937e4ea47af542a476bd3399ecc7233"><div class="ttname"><a href="../../d7/d5e/structinstance__arcatraz_1_1instance__arcatraz___instance_map_script.html#a2937e4ea47af542a476bd3399ecc7233">instance_arcatraz::instance_arcatraz_InstanceMapScript::SetBossState</a></div><div class="ttdeci">bool SetBossState(uint32 type, EncounterState state) override</div><div class="ttdef"><b>Definition:</b> instance_arcatraz.cpp:139</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a223807888f1bc15f55ad78257e5a090e" name="a223807888f1bc15f55ad78257e5a090e"></a>
@@ -491,7 +576,27 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d8/d83/class_instance_script.html#a07b3c70e8153dfd74edb86656bf2b254">InstanceScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   43</span>        {</div>
+<div class="line"><span class="lineno">   44</span>            <span class="keywordflow">switch</span> (creature-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>())</div>
+<div class="line"><span class="lineno">   45</span>            {</div>
+<div class="line"><span class="lineno">   46</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d2/d25/arcatraz_8h.html#a92f6fd626e1834a4cc509efc1186963ead0239db327bb65717babe37e72db715f">NPC_DALLIAH</a>:</div>
+<div class="line"><span class="lineno">   47</span>                    <a class="code hl_variable" href="../../d7/d5e/structinstance__arcatraz_1_1instance__arcatraz___instance_map_script.html#a69c3e171c676e19e6638b74334b324ae">DalliahGUID</a> = creature-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>();</div>
+<div class="line"><span class="lineno">   48</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   49</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d2/d25/arcatraz_8h.html#a92f6fd626e1834a4cc509efc1186963eaf06b0fc8adf0ea91c3588ada2b129834">NPC_SOCCOTHRATES</a>:</div>
+<div class="line"><span class="lineno">   50</span>                    <a class="code hl_variable" href="../../d7/d5e/structinstance__arcatraz_1_1instance__arcatraz___instance_map_script.html#a78d371ead03b1f52e388ed7b6c1e0fa7">SoccothratesGUID</a> = creature-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>();</div>
+<div class="line"><span class="lineno">   51</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   52</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d2/d25/arcatraz_8h.html#a92f6fd626e1834a4cc509efc1186963eac8187001ea51aaa0d362087fe99e80d9">NPC_MELLICHAR</a>:</div>
+<div class="line"><span class="lineno">   53</span>                    <a class="code hl_variable" href="../../d7/d5e/structinstance__arcatraz_1_1instance__arcatraz___instance_map_script.html#a17eec7e7693b188fbbb03a14698aad0c">MellicharGUID</a> = creature-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>();</div>
+<div class="line"><span class="lineno">   54</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   55</span>            }</div>
+<div class="line"><span class="lineno">   56</span>        }</div>
+<div class="ttc" id="aarcatraz_8h_html_a92f6fd626e1834a4cc509efc1186963eac8187001ea51aaa0d362087fe99e80d9"><div class="ttname"><a href="../../d2/d25/arcatraz_8h.html#a92f6fd626e1834a4cc509efc1186963eac8187001ea51aaa0d362087fe99e80d9">NPC_MELLICHAR</a></div><div class="ttdeci">@ NPC_MELLICHAR</div><div class="ttdef"><b>Definition:</b> arcatraz.h:50</div></div>
+<div class="ttc" id="aarcatraz_8h_html_a92f6fd626e1834a4cc509efc1186963ead0239db327bb65717babe37e72db715f"><div class="ttname"><a href="../../d2/d25/arcatraz_8h.html#a92f6fd626e1834a4cc509efc1186963ead0239db327bb65717babe37e72db715f">NPC_DALLIAH</a></div><div class="ttdeci">@ NPC_DALLIAH</div><div class="ttdef"><b>Definition:</b> arcatraz.h:48</div></div>
+<div class="ttc" id="aarcatraz_8h_html_a92f6fd626e1834a4cc509efc1186963eaf06b0fc8adf0ea91c3588ada2b129834"><div class="ttname"><a href="../../d2/d25/arcatraz_8h.html#a92f6fd626e1834a4cc509efc1186963eaf06b0fc8adf0ea91c3588ada2b129834">NPC_SOCCOTHRATES</a></div><div class="ttdeci">@ NPC_SOCCOTHRATES</div><div class="ttdef"><b>Definition:</b> arcatraz.h:49</div></div>
+<div class="ttc" id="aclass_object_html_aa627fe2967ed0e0ed1d8aeeb4365a961"><div class="ttname"><a href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">Object::GetEntry</a></div><div class="ttdeci">uint32 GetEntry() const</div><div class="ttdef"><b>Definition:</b> Object.h:109</div></div>
+<div class="ttc" id="aclass_object_html_ad23b997e2442fa6a6228ba73a7ecc138"><div class="ttname"><a href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">Object::GetGUID</a></div><div class="ttdeci">static ObjectGuid GetGUID(Object const *o)</div><div class="ttdef"><b>Definition:</b> Object.h:106</div></div>
+<div class="ttc" id="astructinstance__arcatraz_1_1instance__arcatraz___instance_map_script_html_a17eec7e7693b188fbbb03a14698aad0c"><div class="ttname"><a href="../../d7/d5e/structinstance__arcatraz_1_1instance__arcatraz___instance_map_script.html#a17eec7e7693b188fbbb03a14698aad0c">instance_arcatraz::instance_arcatraz_InstanceMapScript::MellicharGUID</a></div><div class="ttdeci">ObjectGuid MellicharGUID</div><div class="ttdef"><b>Definition:</b> instance_arcatraz.cpp:204</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad8c84d90b85db5717b6a37fc2343e0aa" name="ad8c84d90b85db5717b6a37fc2343e0aa"></a>
@@ -519,7 +624,46 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d8/d83/class_instance_script.html#a95f23d1bff59799247babdd0d077bb7c">InstanceScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   59</span>        {</div>
+<div class="line"><span class="lineno">   60</span>            <span class="keywordflow">switch</span> (go-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>())</div>
+<div class="line"><span class="lineno">   61</span>            {</div>
+<div class="line"><span class="lineno">   62</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d2/d25/arcatraz_8h.html#a57d2d4154291532e405ab880a40a999fa0c95ddbc88fcd9b2e563ff7ed23c44a8">GO_CONTAINMENT_CORE_SECURITY_FIELD_ALPHA</a>:</div>
+<div class="line"><span class="lineno">   63</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d2/d25/arcatraz_8h.html#a57d2d4154291532e405ab880a40a999faa9a573639992c5177652ffddd2466e97">GO_CONTAINMENT_CORE_SECURITY_FIELD_BETA</a>:</div>
+<div class="line"><span class="lineno">   64</span>                    <a class="code hl_function" href="../../d8/d83/class_instance_script.html#aa9effddbb569265e4f627ff1535ca0f4">AddDoor</a>(go, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">   65</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   66</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d2/d25/arcatraz_8h.html#a57d2d4154291532e405ab880a40a999fa70df1095d0d6c77b1319b8e736c30ee6">GO_STASIS_POD_ALPHA</a>:</div>
+<div class="line"><span class="lineno">   67</span>                    <a class="code hl_variable" href="../../d7/d5e/structinstance__arcatraz_1_1instance__arcatraz___instance_map_script.html#a1fb9824baee2d8d83e030da307f21fc3">StasisPodGUIDs</a>[0] = go-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>();</div>
+<div class="line"><span class="lineno">   68</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   69</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d2/d25/arcatraz_8h.html#a57d2d4154291532e405ab880a40a999fa8017abd9a122264870cc629ad5dcca3a">GO_STASIS_POD_BETA</a>:</div>
+<div class="line"><span class="lineno">   70</span>                    <a class="code hl_variable" href="../../d7/d5e/structinstance__arcatraz_1_1instance__arcatraz___instance_map_script.html#a1fb9824baee2d8d83e030da307f21fc3">StasisPodGUIDs</a>[1] = go-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>();</div>
+<div class="line"><span class="lineno">   71</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   72</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d2/d25/arcatraz_8h.html#a57d2d4154291532e405ab880a40a999fae0d29f314101dbc7ebae78c71acdbd3b">GO_STASIS_POD_DELTA</a>:</div>
+<div class="line"><span class="lineno">   73</span>                    <a class="code hl_variable" href="../../d7/d5e/structinstance__arcatraz_1_1instance__arcatraz___instance_map_script.html#a1fb9824baee2d8d83e030da307f21fc3">StasisPodGUIDs</a>[2] = go-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>();</div>
+<div class="line"><span class="lineno">   74</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   75</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d2/d25/arcatraz_8h.html#a57d2d4154291532e405ab880a40a999fa762fc4712832789d7785d560437e179b">GO_STASIS_POD_GAMMA</a>:</div>
+<div class="line"><span class="lineno">   76</span>                    <a class="code hl_variable" href="../../d7/d5e/structinstance__arcatraz_1_1instance__arcatraz___instance_map_script.html#a1fb9824baee2d8d83e030da307f21fc3">StasisPodGUIDs</a>[3] = go-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>();</div>
+<div class="line"><span class="lineno">   77</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   78</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d2/d25/arcatraz_8h.html#a57d2d4154291532e405ab880a40a999fa2f261d39734bd8bbdd0d2ebc5d36d497">GO_STASIS_POD_OMEGA</a>:</div>
+<div class="line"><span class="lineno">   79</span>                    <a class="code hl_variable" href="../../d7/d5e/structinstance__arcatraz_1_1instance__arcatraz___instance_map_script.html#a1fb9824baee2d8d83e030da307f21fc3">StasisPodGUIDs</a>[4] = go-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>();</div>
+<div class="line"><span class="lineno">   80</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   81</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d2/d25/arcatraz_8h.html#a57d2d4154291532e405ab880a40a999fa14ef942a9e83dcfe0a6529f12da04ac8">GO_WARDENS_SHIELD</a>:</div>
+<div class="line"><span class="lineno">   82</span>                    <a class="code hl_variable" href="../../d7/d5e/structinstance__arcatraz_1_1instance__arcatraz___instance_map_script.html#a3cbff5742e05f6cf0544807bce64b1d0">WardensShieldGUID</a> = go-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>();</div>
+<div class="line"><span class="lineno">   83</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   84</span>                <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">   85</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   86</span>            }</div>
+<div class="line"><span class="lineno">   87</span>        }</div>
+<div class="ttc" id="aarcatraz_8h_html_a57d2d4154291532e405ab880a40a999fa0c95ddbc88fcd9b2e563ff7ed23c44a8"><div class="ttname"><a href="../../d2/d25/arcatraz_8h.html#a57d2d4154291532e405ab880a40a999fa0c95ddbc88fcd9b2e563ff7ed23c44a8">GO_CONTAINMENT_CORE_SECURITY_FIELD_ALPHA</a></div><div class="ttdeci">@ GO_CONTAINMENT_CORE_SECURITY_FIELD_ALPHA</div><div class="ttdef"><b>Definition:</b> arcatraz.h:57</div></div>
+<div class="ttc" id="aarcatraz_8h_html_a57d2d4154291532e405ab880a40a999fa14ef942a9e83dcfe0a6529f12da04ac8"><div class="ttname"><a href="../../d2/d25/arcatraz_8h.html#a57d2d4154291532e405ab880a40a999fa14ef942a9e83dcfe0a6529f12da04ac8">GO_WARDENS_SHIELD</a></div><div class="ttdeci">@ GO_WARDENS_SHIELD</div><div class="ttdef"><b>Definition:</b> arcatraz.h:64</div></div>
+<div class="ttc" id="aarcatraz_8h_html_a57d2d4154291532e405ab880a40a999fa2f261d39734bd8bbdd0d2ebc5d36d497"><div class="ttname"><a href="../../d2/d25/arcatraz_8h.html#a57d2d4154291532e405ab880a40a999fa2f261d39734bd8bbdd0d2ebc5d36d497">GO_STASIS_POD_OMEGA</a></div><div class="ttdeci">@ GO_STASIS_POD_OMEGA</div><div class="ttdef"><b>Definition:</b> arcatraz.h:63</div></div>
+<div class="ttc" id="aarcatraz_8h_html_a57d2d4154291532e405ab880a40a999fa70df1095d0d6c77b1319b8e736c30ee6"><div class="ttname"><a href="../../d2/d25/arcatraz_8h.html#a57d2d4154291532e405ab880a40a999fa70df1095d0d6c77b1319b8e736c30ee6">GO_STASIS_POD_ALPHA</a></div><div class="ttdeci">@ GO_STASIS_POD_ALPHA</div><div class="ttdef"><b>Definition:</b> arcatraz.h:59</div></div>
+<div class="ttc" id="aarcatraz_8h_html_a57d2d4154291532e405ab880a40a999fa762fc4712832789d7785d560437e179b"><div class="ttname"><a href="../../d2/d25/arcatraz_8h.html#a57d2d4154291532e405ab880a40a999fa762fc4712832789d7785d560437e179b">GO_STASIS_POD_GAMMA</a></div><div class="ttdeci">@ GO_STASIS_POD_GAMMA</div><div class="ttdef"><b>Definition:</b> arcatraz.h:62</div></div>
+<div class="ttc" id="aarcatraz_8h_html_a57d2d4154291532e405ab880a40a999fa8017abd9a122264870cc629ad5dcca3a"><div class="ttname"><a href="../../d2/d25/arcatraz_8h.html#a57d2d4154291532e405ab880a40a999fa8017abd9a122264870cc629ad5dcca3a">GO_STASIS_POD_BETA</a></div><div class="ttdeci">@ GO_STASIS_POD_BETA</div><div class="ttdef"><b>Definition:</b> arcatraz.h:60</div></div>
+<div class="ttc" id="aarcatraz_8h_html_a57d2d4154291532e405ab880a40a999faa9a573639992c5177652ffddd2466e97"><div class="ttname"><a href="../../d2/d25/arcatraz_8h.html#a57d2d4154291532e405ab880a40a999faa9a573639992c5177652ffddd2466e97">GO_CONTAINMENT_CORE_SECURITY_FIELD_BETA</a></div><div class="ttdeci">@ GO_CONTAINMENT_CORE_SECURITY_FIELD_BETA</div><div class="ttdef"><b>Definition:</b> arcatraz.h:58</div></div>
+<div class="ttc" id="aarcatraz_8h_html_a57d2d4154291532e405ab880a40a999fae0d29f314101dbc7ebae78c71acdbd3b"><div class="ttname"><a href="../../d2/d25/arcatraz_8h.html#a57d2d4154291532e405ab880a40a999fae0d29f314101dbc7ebae78c71acdbd3b">GO_STASIS_POD_DELTA</a></div><div class="ttdeci">@ GO_STASIS_POD_DELTA</div><div class="ttdef"><b>Definition:</b> arcatraz.h:61</div></div>
+<div class="ttc" id="aclass_instance_script_html_aa9effddbb569265e4f627ff1535ca0f4"><div class="ttname"><a href="../../d8/d83/class_instance_script.html#aa9effddbb569265e4f627ff1535ca0f4">InstanceScript::AddDoor</a></div><div class="ttdeci">void AddDoor(GameObject *door, bool add)</div><div class="ttdef"><b>Definition:</b> InstanceScript.cpp:271</div></div>
+<div class="ttc" id="astructinstance__arcatraz_1_1instance__arcatraz___instance_map_script_html_a1fb9824baee2d8d83e030da307f21fc3"><div class="ttname"><a href="../../d7/d5e/structinstance__arcatraz_1_1instance__arcatraz___instance_map_script.html#a1fb9824baee2d8d83e030da307f21fc3">instance_arcatraz::instance_arcatraz_InstanceMapScript::StasisPodGUIDs</a></div><div class="ttdeci">ObjectGuid StasisPodGUIDs[5]</div><div class="ttdef"><b>Definition:</b> instance_arcatraz.cpp:203</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad6e8a3f3bc82ed8fb937634da58023fb" name="ad6e8a3f3bc82ed8fb937634da58023fb"></a>
@@ -547,7 +691,18 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d8/d83/class_instance_script.html#a49bc0fc9937e6e57464f74fb34e21c2e">InstanceScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   90</span>        {</div>
+<div class="line"><span class="lineno">   91</span>            <span class="keywordflow">switch</span> (go-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>())</div>
+<div class="line"><span class="lineno">   92</span>            {</div>
+<div class="line"><span class="lineno">   93</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d2/d25/arcatraz_8h.html#a57d2d4154291532e405ab880a40a999fa0c95ddbc88fcd9b2e563ff7ed23c44a8">GO_CONTAINMENT_CORE_SECURITY_FIELD_ALPHA</a>:</div>
+<div class="line"><span class="lineno">   94</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d2/d25/arcatraz_8h.html#a57d2d4154291532e405ab880a40a999faa9a573639992c5177652ffddd2466e97">GO_CONTAINMENT_CORE_SECURITY_FIELD_BETA</a>:</div>
+<div class="line"><span class="lineno">   95</span>                    <a class="code hl_function" href="../../d8/d83/class_instance_script.html#aa9effddbb569265e4f627ff1535ca0f4">AddDoor</a>(go, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">   96</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   97</span>                <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">   98</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   99</span>            }</div>
+<div class="line"><span class="lineno">  100</span>        }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2937e4ea47af542a476bd3399ecc7233" name="a2937e4ea47af542a476bd3399ecc7233"></a>
@@ -585,7 +740,32 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d8/d83/class_instance_script.html#a04fbee37682f3a3e08a9ad726eb0223c">InstanceScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  140</span>        {</div>
+<div class="line"><span class="lineno">  141</span>            <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d8/d83/class_instance_script.html#a04fbee37682f3a3e08a9ad726eb0223c">InstanceScript::SetBossState</a>(type, state))</div>
+<div class="line"><span class="lineno">  142</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  143</span> </div>
+<div class="line"><span class="lineno">  144</span>            <span class="keywordflow">if</span> (type == <a class="code hl_enumvalue" href="../../d2/d25/arcatraz_8h.html#afb6eb4f28419b652027fad41104a6d22a911a8592d6bfbe0caf9a80bdd70d66bf">DATA_WARDEN_MELLICHAR</a> &amp;&amp; state == <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694ae7d82dfe80ea0bd4feea8ee49ea2eab5">NOT_STARTED</a>)</div>
+<div class="line"><span class="lineno">  145</span>            {</div>
+<div class="line"><span class="lineno">  146</span>                <a class="code hl_function" href="../../d7/d5e/structinstance__arcatraz_1_1instance__arcatraz___instance_map_script.html#aca09d4856d5c3e1831ea8753a50a3b71">SetData</a>(<a class="code hl_enumvalue" href="../../d2/d25/arcatraz_8h.html#afb6eb4f28419b652027fad41104a6d22adc7f50a62cbace9f99ff0073088bedc8">DATA_WARDEN_1</a>, <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694ae7d82dfe80ea0bd4feea8ee49ea2eab5">NOT_STARTED</a>);</div>
+<div class="line"><span class="lineno">  147</span>                <a class="code hl_function" href="../../d7/d5e/structinstance__arcatraz_1_1instance__arcatraz___instance_map_script.html#aca09d4856d5c3e1831ea8753a50a3b71">SetData</a>(<a class="code hl_enumvalue" href="../../d2/d25/arcatraz_8h.html#afb6eb4f28419b652027fad41104a6d22a6917b296ecf755e5fccd8449dad68280">DATA_WARDEN_2</a>, <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694ae7d82dfe80ea0bd4feea8ee49ea2eab5">NOT_STARTED</a>);</div>
+<div class="line"><span class="lineno">  148</span>                <a class="code hl_function" href="../../d7/d5e/structinstance__arcatraz_1_1instance__arcatraz___instance_map_script.html#aca09d4856d5c3e1831ea8753a50a3b71">SetData</a>(<a class="code hl_enumvalue" href="../../d2/d25/arcatraz_8h.html#afb6eb4f28419b652027fad41104a6d22aa924abb5dff6d9305931a70a395d88ca">DATA_WARDEN_3</a>, <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694ae7d82dfe80ea0bd4feea8ee49ea2eab5">NOT_STARTED</a>);</div>
+<div class="line"><span class="lineno">  149</span>                <a class="code hl_function" href="../../d7/d5e/structinstance__arcatraz_1_1instance__arcatraz___instance_map_script.html#aca09d4856d5c3e1831ea8753a50a3b71">SetData</a>(<a class="code hl_enumvalue" href="../../d2/d25/arcatraz_8h.html#afb6eb4f28419b652027fad41104a6d22a0786aeb15c6757cb2e5fea88ced6b8e9">DATA_WARDEN_4</a>, <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694ae7d82dfe80ea0bd4feea8ee49ea2eab5">NOT_STARTED</a>);</div>
+<div class="line"><span class="lineno">  150</span>                <a class="code hl_function" href="../../d7/d5e/structinstance__arcatraz_1_1instance__arcatraz___instance_map_script.html#aca09d4856d5c3e1831ea8753a50a3b71">SetData</a>(<a class="code hl_enumvalue" href="../../d2/d25/arcatraz_8h.html#afb6eb4f28419b652027fad41104a6d22af025cce7252ec301e015bc566fabf6ce">DATA_WARDEN_5</a>, <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694ae7d82dfe80ea0bd4feea8ee49ea2eab5">NOT_STARTED</a>);</div>
+<div class="line"><span class="lineno">  151</span>                <a class="code hl_function" href="../../d8/d83/class_instance_script.html#a1961c04a44bb8d0fc3e5c6dc0c39790f">HandleGameObject</a>(<a class="code hl_variable" href="../../d7/d5e/structinstance__arcatraz_1_1instance__arcatraz___instance_map_script.html#a3cbff5742e05f6cf0544807bce64b1d0">WardensShieldGUID</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  152</span>            }</div>
+<div class="line"><span class="lineno">  153</span> </div>
+<div class="line"><span class="lineno">  154</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  155</span>        }</div>
+<div class="ttc" id="aarcatraz_8h_html_afb6eb4f28419b652027fad41104a6d22a0786aeb15c6757cb2e5fea88ced6b8e9"><div class="ttname"><a href="../../d2/d25/arcatraz_8h.html#afb6eb4f28419b652027fad41104a6d22a0786aeb15c6757cb2e5fea88ced6b8e9">DATA_WARDEN_4</a></div><div class="ttdeci">@ DATA_WARDEN_4</div><div class="ttdef"><b>Definition:</b> arcatraz.h:41</div></div>
+<div class="ttc" id="aarcatraz_8h_html_afb6eb4f28419b652027fad41104a6d22a6917b296ecf755e5fccd8449dad68280"><div class="ttname"><a href="../../d2/d25/arcatraz_8h.html#afb6eb4f28419b652027fad41104a6d22a6917b296ecf755e5fccd8449dad68280">DATA_WARDEN_2</a></div><div class="ttdeci">@ DATA_WARDEN_2</div><div class="ttdef"><b>Definition:</b> arcatraz.h:39</div></div>
+<div class="ttc" id="aarcatraz_8h_html_afb6eb4f28419b652027fad41104a6d22a911a8592d6bfbe0caf9a80bdd70d66bf"><div class="ttname"><a href="../../d2/d25/arcatraz_8h.html#afb6eb4f28419b652027fad41104a6d22a911a8592d6bfbe0caf9a80bdd70d66bf">DATA_WARDEN_MELLICHAR</a></div><div class="ttdeci">@ DATA_WARDEN_MELLICHAR</div><div class="ttdef"><b>Definition:</b> arcatraz.h:34</div></div>
+<div class="ttc" id="aarcatraz_8h_html_afb6eb4f28419b652027fad41104a6d22aa924abb5dff6d9305931a70a395d88ca"><div class="ttname"><a href="../../d2/d25/arcatraz_8h.html#afb6eb4f28419b652027fad41104a6d22aa924abb5dff6d9305931a70a395d88ca">DATA_WARDEN_3</a></div><div class="ttdeci">@ DATA_WARDEN_3</div><div class="ttdef"><b>Definition:</b> arcatraz.h:40</div></div>
+<div class="ttc" id="aarcatraz_8h_html_afb6eb4f28419b652027fad41104a6d22adc7f50a62cbace9f99ff0073088bedc8"><div class="ttname"><a href="../../d2/d25/arcatraz_8h.html#afb6eb4f28419b652027fad41104a6d22adc7f50a62cbace9f99ff0073088bedc8">DATA_WARDEN_1</a></div><div class="ttdeci">@ DATA_WARDEN_1</div><div class="ttdef"><b>Definition:</b> arcatraz.h:38</div></div>
+<div class="ttc" id="aarcatraz_8h_html_afb6eb4f28419b652027fad41104a6d22af025cce7252ec301e015bc566fabf6ce"><div class="ttname"><a href="../../d2/d25/arcatraz_8h.html#afb6eb4f28419b652027fad41104a6d22af025cce7252ec301e015bc566fabf6ce">DATA_WARDEN_5</a></div><div class="ttdeci">@ DATA_WARDEN_5</div><div class="ttdef"><b>Definition:</b> arcatraz.h:42</div></div>
+<div class="ttc" id="aclass_instance_script_html_a04fbee37682f3a3e08a9ad726eb0223c"><div class="ttname"><a href="../../d8/d83/class_instance_script.html#a04fbee37682f3a3e08a9ad726eb0223c">InstanceScript::SetBossState</a></div><div class="ttdeci">virtual bool SetBossState(uint32 id, EncounterState state)</div><div class="ttdef"><b>Definition:</b> InstanceScript.cpp:305</div></div>
+<div class="ttc" id="aclass_instance_script_html_a1961c04a44bb8d0fc3e5c6dc0c39790f"><div class="ttname"><a href="../../d8/d83/class_instance_script.html#a1961c04a44bb8d0fc3e5c6dc0c39790f">InstanceScript::HandleGameObject</a></div><div class="ttdeci">void HandleGameObject(ObjectGuid guid, bool open, GameObject *go=nullptr)</div><div class="ttdef"><b>Definition:</b> InstanceScript.cpp:108</div></div>
+<div class="ttc" id="astructinstance__arcatraz_1_1instance__arcatraz___instance_map_script_html_aca09d4856d5c3e1831ea8753a50a3b71"><div class="ttname"><a href="../../d7/d5e/structinstance__arcatraz_1_1instance__arcatraz___instance_map_script.html#aca09d4856d5c3e1831ea8753a50a3b71">instance_arcatraz::instance_arcatraz_InstanceMapScript::SetData</a></div><div class="ttdeci">void SetData(uint32 type, uint32 data) override</div><div class="ttdef"><b>Definition:</b> instance_arcatraz.cpp:102</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aca09d4856d5c3e1831ea8753a50a3b71" name="aca09d4856d5c3e1831ea8753a50a3b71"></a>
@@ -623,7 +803,26 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../df/dad/class_zone_script.html#a949e67ea24c7e4b70a20806952735576">ZoneScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  103</span>        {</div>
+<div class="line"><span class="lineno">  104</span>            <span class="keywordflow">switch</span> (type)</div>
+<div class="line"><span class="lineno">  105</span>            {</div>
+<div class="line"><span class="lineno">  106</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d2/d25/arcatraz_8h.html#afb6eb4f28419b652027fad41104a6d22adc7f50a62cbace9f99ff0073088bedc8">DATA_WARDEN_1</a>:</div>
+<div class="line"><span class="lineno">  107</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d2/d25/arcatraz_8h.html#afb6eb4f28419b652027fad41104a6d22a6917b296ecf755e5fccd8449dad68280">DATA_WARDEN_2</a>:</div>
+<div class="line"><span class="lineno">  108</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d2/d25/arcatraz_8h.html#afb6eb4f28419b652027fad41104a6d22aa924abb5dff6d9305931a70a395d88ca">DATA_WARDEN_3</a>:</div>
+<div class="line"><span class="lineno">  109</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d2/d25/arcatraz_8h.html#afb6eb4f28419b652027fad41104a6d22a0786aeb15c6757cb2e5fea88ced6b8e9">DATA_WARDEN_4</a>:</div>
+<div class="line"><span class="lineno">  110</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d2/d25/arcatraz_8h.html#afb6eb4f28419b652027fad41104a6d22af025cce7252ec301e015bc566fabf6ce">DATA_WARDEN_5</a>:</div>
+<div class="line"><span class="lineno">  111</span>                    <span class="keywordflow">if</span> (data &lt; <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a936c4a5547a9360243178f726f6b2715">FAIL</a>)</div>
+<div class="line"><span class="lineno">  112</span>                        <a class="code hl_function" href="../../d8/d83/class_instance_script.html#a1961c04a44bb8d0fc3e5c6dc0c39790f">HandleGameObject</a>(<a class="code hl_variable" href="../../d7/d5e/structinstance__arcatraz_1_1instance__arcatraz___instance_map_script.html#a1fb9824baee2d8d83e030da307f21fc3">StasisPodGUIDs</a>[type - <a class="code hl_enumvalue" href="../../d2/d25/arcatraz_8h.html#afb6eb4f28419b652027fad41104a6d22adc7f50a62cbace9f99ff0073088bedc8">DATA_WARDEN_1</a>], data == <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012">IN_PROGRESS</a>);</div>
+<div class="line"><span class="lineno">  113</span>                    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* warden = <a class="code hl_variable" href="../../d8/d83/class_instance_script.html#a4b84b9635742380ce5dc6e2f8d76e30b">instance</a>-&gt;<a class="code hl_function" href="../../dd/d11/class_map.html#a9c20f696cb8109183fbd81b13848b050">GetCreature</a>(<a class="code hl_variable" href="../../d7/d5e/structinstance__arcatraz_1_1instance__arcatraz___instance_map_script.html#a17eec7e7693b188fbbb03a14698aad0c">MellicharGUID</a>))</div>
+<div class="line"><span class="lineno">  114</span>                        warden-&gt;AI()-&gt;SetData(type, data);</div>
+<div class="line"><span class="lineno">  115</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  116</span>            }</div>
+<div class="line"><span class="lineno">  117</span>        }</div>
+<div class="ttc" id="a_instance_script_8h_html_a1c28341208eeb4bdc8237e8ceac88694a936c4a5547a9360243178f726f6b2715"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a936c4a5547a9360243178f726f6b2715">FAIL</a></div><div class="ttdeci">@ FAIL</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:58</div></div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_instance_script_html_a4b84b9635742380ce5dc6e2f8d76e30b"><div class="ttname"><a href="../../d8/d83/class_instance_script.html#a4b84b9635742380ce5dc6e2f8d76e30b">InstanceScript::instance</a></div><div class="ttdeci">Map * instance</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:146</div></div>
+<div class="ttc" id="aclass_map_html_a9c20f696cb8109183fbd81b13848b050"><div class="ttname"><a href="../../dd/d11/class_map.html#a9c20f696cb8109183fbd81b13848b050">Map::GetCreature</a></div><div class="ttdeci">Creature * GetCreature(ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> Map.cpp:3290</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -738,7 +937,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Outland/TempestKeep/arcatraz/<a class="el" href="../../d5/d99/instance__arcatraz_8cpp.html">instance_arcatraz.cpp</a></li>
+<li><a class="el" href="../../">instance_arcatraz.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -746,7 +945,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../df/d3c/classinstance__arcatraz.html">instance_arcatraz</a></li><li class="navelem"><a class="el" href="../../d7/d5e/structinstance__arcatraz_1_1instance__arcatraz___instance_map_script.html">instance_arcatraz_InstanceMapScript</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:46 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:00 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

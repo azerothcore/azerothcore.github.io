@@ -114,7 +114,7 @@ $(document).ready(function(){initNavTree('de/d10/class_combat_a_i.html','../../'
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../dc/db7/_combat_a_i_8h_source.html">CombatAI.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">CombatAI.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for CombatAI:</div>
 <div class="dyncontent">
@@ -400,7 +400,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a7cd0b6bf7ee616d4d4e98045f7b808c0 inherit pro_methods_class_creature_a_i"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d68/class_creature_a_i.html#a7cd0b6bf7ee616d4d4e98045f7b808c0">_EnterEvadeMode</a> (<a class="el" href="../../d2/d68/class_creature_a_i.html#a48b996440be01f98686cd088857a5dbb">EvadeReason</a> why=<a class="el" href="../../d2/d68/class_creature_a_i.html#a48b996440be01f98686cd088857a5dbba0a93738d4e35efeb13a3ce07963de027">EVADE_REASON_OTHER</a>)</td></tr>
 <tr class="separator:a7cd0b6bf7ee616d4d4e98045f7b808c0 inherit pro_methods_class_creature_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a32e63efb85155ac3deeb818a9a1ba18a" name="a32e63efb85155ac3deeb818a9a1ba18a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a32e63efb85155ac3deeb818a9a1ba18a">&#9670;&#160;</a></span>CombatAI()</h2>
 
@@ -424,7 +425,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   42</span>: <a class="code hl_class" href="../../d2/d68/class_creature_a_i.html">CreatureAI</a>(c) {}</div>
+<div class="ttc" id="aclass_creature_a_i_html"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html">CreatureAI</a></div><div class="ttdef"><b>Definition:</b> CreatureAI.h:70</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -455,7 +458,23 @@ Additional Inherited Members</h2></td></tr>
 <p>Reimplemented from <a class="el" href="../../d2/d68/class_creature_a_i.html#a66bdb1b993788a4851e527d6df68a48d">CreatureAI</a>.</p>
 
 <p>Reimplemented in <a class="el" href="../../de/d47/class_caster_a_i.html#a851b66503fb574c20999435f3758e92f">CasterAI</a>, <a class="el" href="../../d6/d6c/structnpc__crusade__persuaded_1_1npc__crusade__persuaded_a_i.html#adf8f594be854b35799996978d3edf123">npc_crusade_persuaded::npc_crusade_persuadedAI</a>, and <a class="el" href="../../d9/d25/structnpc__boss__gothik__minion_1_1npc__boss__gothik__minion_a_i.html#a2a64f078707fab0affc17a9c769b9291">npc_boss_gothik_minion::npc_boss_gothik_minionAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   72</span>{</div>
+<div class="line"><span class="lineno">   73</span>    <span class="keywordflow">for</span> (SpellVct::iterator i = <a class="code hl_enumeration" href="../../df/dab/boss__krystallus_8cpp.html#abdbd89eacbc02a7997082886574e8ec2">spells</a>.begin(); i != <a class="code hl_enumeration" href="../../df/dab/boss__krystallus_8cpp.html#abdbd89eacbc02a7997082886574e8ec2">spells</a>.end(); ++i)</div>
+<div class="line"><span class="lineno">   74</span>    {</div>
+<div class="line"><span class="lineno">   75</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dd/d9c/class_unit_a_i.html#adaf99f0a5a2d4993e5408eec175f5e24">AISpellInfo</a>[*i].condition == <a class="code hl_enumvalue" href="../../d3/d01/_creature_a_i_impl_8h.html#ac43b18581ae7a7b66984b1003502d5afac41d9d90387a55a0b5be34e13683f9c8">AICOND_AGGRO</a>)</div>
+<div class="line"><span class="lineno">   76</span>            <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(who, *i, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">   77</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dd/d9c/class_unit_a_i.html#adaf99f0a5a2d4993e5408eec175f5e24">AISpellInfo</a>[*i].condition == <a class="code hl_enumvalue" href="../../d3/d01/_creature_a_i_impl_8h.html#ac43b18581ae7a7b66984b1003502d5afa6be0faa08bd4f7bb7891ce5e2b7e4642">AICOND_COMBAT</a>)</div>
+<div class="line"><span class="lineno">   78</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(*i, <a class="code hl_variable" href="../../dd/d9c/class_unit_a_i.html#adaf99f0a5a2d4993e5408eec175f5e24">AISpellInfo</a>[*i].cooldown + rand() % <a class="code hl_variable" href="../../dd/d9c/class_unit_a_i.html#adaf99f0a5a2d4993e5408eec175f5e24">AISpellInfo</a>[*i].cooldown);</div>
+<div class="line"><span class="lineno">   79</span>    }</div>
+<div class="line"><span class="lineno">   80</span>}</div>
+<div class="ttc" id="a_creature_a_i_impl_8h_html_ac43b18581ae7a7b66984b1003502d5afa6be0faa08bd4f7bb7891ce5e2b7e4642"><div class="ttname"><a href="../../d3/d01/_creature_a_i_impl_8h.html#ac43b18581ae7a7b66984b1003502d5afa6be0faa08bd4f7bb7891ce5e2b7e4642">AICOND_COMBAT</a></div><div class="ttdeci">@ AICOND_COMBAT</div><div class="ttdef"><b>Definition:</b> CreatureAIImpl.h:49</div></div>
+<div class="ttc" id="a_creature_a_i_impl_8h_html_ac43b18581ae7a7b66984b1003502d5afac41d9d90387a55a0b5be34e13683f9c8"><div class="ttname"><a href="../../d3/d01/_creature_a_i_impl_8h.html#ac43b18581ae7a7b66984b1003502d5afac41d9d90387a55a0b5be34e13683f9c8">AICOND_AGGRO</a></div><div class="ttdeci">@ AICOND_AGGRO</div><div class="ttdef"><b>Definition:</b> CreatureAIImpl.h:48</div></div>
+<div class="ttc" id="aboss__krystallus_8cpp_html_abdbd89eacbc02a7997082886574e8ec2"><div class="ttname"><a href="../../df/dab/boss__krystallus_8cpp.html#abdbd89eacbc02a7997082886574e8ec2">spells</a></div><div class="ttdeci">spells</div><div class="ttdef"><b>Definition:</b> boss_krystallus.cpp:25</div></div>
+<div class="ttc" id="aboss__sartura_8cpp_html_ad29858f6d8ab73f2970f41cb21a76b84"><div class="ttname"><a href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a></div><div class="ttdeci">events</div><div class="ttdef"><b>Definition:</b> boss_sartura.cpp:43</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_aee5bf3d421199445de241a34798ae819"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">CreatureAI::me</a></div><div class="ttdeci">Creature *const me</div><div class="ttdef"><b>Definition:</b> CreatureAI.h:72</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_adaf99f0a5a2d4993e5408eec175f5e24"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#adaf99f0a5a2d4993e5408eec175f5e24">UnitAI::AISpellInfo</a></div><div class="ttdeci">static AISpellInfoType * AISpellInfo</div><div class="ttdef"><b>Definition:</b> UnitAI.h:335</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a70caf22165251220365d03873b3d3f17" name="a70caf22165251220365d03873b3d3f17"></a>
@@ -484,7 +503,19 @@ Additional Inherited Members</h2></td></tr>
 <p>Reimplemented from <a class="el" href="../../dd/d9c/class_unit_a_i.html#aa88ecdf57b44fb013c3fed4ff59aec0d">UnitAI</a>.</p>
 
 <p>Reimplemented in <a class="el" href="../../de/d47/class_caster_a_i.html#a2a24cdc24b665c52363dae587572fc4d">CasterAI</a>, <a class="el" href="../../d8/d3d/structnpc__pet__dk__army__of__the__dead_1_1npc__pet__dk__army__of__the__dead_a_i.html#af3ecec126ed3d902acd4bfe979382307">npc_pet_dk_army_of_the_dead::npc_pet_dk_army_of_the_deadAI</a>, and <a class="el" href="../../d2/de1/structnpc__pet__mage__mirror__image.html#a66d513908aa88504d0cbe4ce9bf222be">npc_pet_mage_mirror_image</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   51</span>{</div>
+<div class="line"><span class="lineno">   52</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> i = 0; i &lt; <a class="code hl_variable" href="../../d5/d32/_unit_8h.html#ac6af0816f1cdb55cd57c5975ff99ad18">MAX_CREATURE_SPELLS</a>; ++i)</div>
+<div class="line"><span class="lineno">   53</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_variable" href="../../d1/dac/class_creature.html#a38727e1fc7443d11afa6e37598e932ea">m_spells</a>[i] &amp;&amp; <a class="code hl_define" href="../../d3/d75/_spell_mgr_8h.html#aa21e14d8e1145507b746a69b5487109d">sSpellMgr</a>-&gt;GetSpellInfo(<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_variable" href="../../d1/dac/class_creature.html#a38727e1fc7443d11afa6e37598e932ea">m_spells</a>[i]))</div>
+<div class="line"><span class="lineno">   54</span>            <a class="code hl_enumeration" href="../../df/dab/boss__krystallus_8cpp.html#abdbd89eacbc02a7997082886574e8ec2">spells</a>.push_back(<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_variable" href="../../d1/dac/class_creature.html#a38727e1fc7443d11afa6e37598e932ea">m_spells</a>[i]);</div>
+<div class="line"><span class="lineno">   55</span> </div>
+<div class="line"><span class="lineno">   56</span>    <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aa88ecdf57b44fb013c3fed4ff59aec0d">CreatureAI::InitializeAI</a>();</div>
+<div class="line"><span class="lineno">   57</span>}</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="a_spell_mgr_8h_html_aa21e14d8e1145507b746a69b5487109d"><div class="ttname"><a href="../../d3/d75/_spell_mgr_8h.html#aa21e14d8e1145507b746a69b5487109d">sSpellMgr</a></div><div class="ttdeci">#define sSpellMgr</div><div class="ttdef"><b>Definition:</b> SpellMgr.h:803</div></div>
+<div class="ttc" id="a_unit_8h_html_ac6af0816f1cdb55cd57c5975ff99ad18"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#ac6af0816f1cdb55cd57c5975ff99ad18">MAX_CREATURE_SPELLS</a></div><div class="ttdeci">static constexpr uint32 MAX_CREATURE_SPELLS</div><div class="ttdef"><b>Definition:</b> Unit.h:153</div></div>
+<div class="ttc" id="aclass_creature_html_a38727e1fc7443d11afa6e37598e932ea"><div class="ttname"><a href="../../d1/dac/class_creature.html#a38727e1fc7443d11afa6e37598e932ea">Creature::m_spells</a></div><div class="ttdeci">uint32 m_spells[MAX_CREATURE_SPELLS]</div><div class="ttdef"><b>Definition:</b> Creature.h:241</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_aa88ecdf57b44fb013c3fed4ff59aec0d"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#aa88ecdf57b44fb013c3fed4ff59aec0d">UnitAI::InitializeAI</a></div><div class="ttdeci">virtual void InitializeAI()</div><div class="ttdef"><b>Definition:</b> UnitAI.h:188</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a9176b9b9c7a5e13fb05dae636c7ef2d4" name="a9176b9b9c7a5e13fb05dae636c7ef2d4"></a>
@@ -514,7 +545,13 @@ Additional Inherited Members</h2></td></tr>
 <p>Reimplemented from <a class="el" href="../../d2/d68/class_creature_a_i.html#a8c0eee7b55a8cf3cd5f99cf6fa41b00b">CreatureAI</a>.</p>
 
 <p>Reimplemented in <a class="el" href="../../d9/d25/structnpc__boss__gothik__minion_1_1npc__boss__gothik__minion_a_i.html#a752b6eab9cf1b016962c6f535586b59d">npc_boss_gothik_minion::npc_boss_gothik_minionAI</a>, and <a class="el" href="../../d6/dfe/structnpc__pet__dk__ghoul_1_1npc__pet__dk__ghoul_a_i.html#a7d964fafeb0a7746a7749a9e0eb93080">npc_pet_dk_ghoul::npc_pet_dk_ghoulAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   65</span>{</div>
+<div class="line"><span class="lineno">   66</span>    <span class="keywordflow">for</span> (SpellVct::iterator i = <a class="code hl_enumeration" href="../../df/dab/boss__krystallus_8cpp.html#abdbd89eacbc02a7997082886574e8ec2">spells</a>.begin(); i != <a class="code hl_enumeration" href="../../df/dab/boss__krystallus_8cpp.html#abdbd89eacbc02a7997082886574e8ec2">spells</a>.end(); ++i)</div>
+<div class="line"><span class="lineno">   67</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dd/d9c/class_unit_a_i.html#adaf99f0a5a2d4993e5408eec175f5e24">AISpellInfo</a>[*i].condition == <a class="code hl_enumvalue" href="../../d3/d01/_creature_a_i_impl_8h.html#ac43b18581ae7a7b66984b1003502d5afaeda5ad2d2df79acf7c72e4785011cf6e">AICOND_DIE</a>)</div>
+<div class="line"><span class="lineno">   68</span>            <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(killer, *i, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">   69</span>}</div>
+<div class="ttc" id="a_creature_a_i_impl_8h_html_ac43b18581ae7a7b66984b1003502d5afaeda5ad2d2df79acf7c72e4785011cf6e"><div class="ttname"><a href="../../d3/d01/_creature_a_i_impl_8h.html#ac43b18581ae7a7b66984b1003502d5afaeda5ad2d2df79acf7c72e4785011cf6e">AICOND_DIE</a></div><div class="ttdeci">@ AICOND_DIE</div><div class="ttdef"><b>Definition:</b> CreatureAIImpl.h:50</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aaf52e2cbeb1ea9a816b5e8d914c03edb" name="aaf52e2cbeb1ea9a816b5e8d914c03edb"></a>
@@ -540,7 +577,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   50</span>{ <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d7/d43/_creature_a_i_8h.html#adf806592547de59418c6070d69c5efb9a3ea8686bf6c00259f435df8f34da17c0">PERMIT_BASE_NO</a>; }</div>
+<div class="ttc" id="a_creature_a_i_8h_html_adf806592547de59418c6070d69c5efb9a3ea8686bf6c00259f435df8f34da17c0"><div class="ttname"><a href="../../d7/d43/_creature_a_i_8h.html#adf806592547de59418c6070d69c5efb9a3ea8686bf6c00259f435df8f34da17c0">PERMIT_BASE_NO</a></div><div class="ttdeci">@ PERMIT_BASE_NO</div><div class="ttdef"><b>Definition:</b> CreatureAI.h:230</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a7a39daea9b9bd09572472ae0d8689edd" name="a7a39daea9b9bd09572472ae0d8689edd"></a>
@@ -569,7 +608,10 @@ Additional Inherited Members</h2></td></tr>
 <p>Reimplemented from <a class="el" href="../../dd/d9c/class_unit_a_i.html#a43eb9ef68b977d98f6618d69a0d62115">UnitAI</a>.</p>
 
 <p>Reimplemented in <a class="el" href="../../d7/d0e/structnpc__death__knight__initiate_1_1npc__death__knight__initiate_a_i.html#ad152856d614c8f4c900f77749ac55dd9">npc_death_knight_initiate::npc_death_knight_initiateAI</a>, <a class="el" href="../../d6/d6c/structnpc__crusade__persuaded_1_1npc__crusade__persuaded_a_i.html#a127c36f01e2ddfeb26f3192a1db8ffaf">npc_crusade_persuaded::npc_crusade_persuadedAI</a>, <a class="el" href="../../d9/d25/structnpc__boss__gothik__minion_1_1npc__boss__gothik__minion_a_i.html#a309401236c254cd850759a0cbb4004e0">npc_boss_gothik_minion::npc_boss_gothik_minionAI</a>, <a class="el" href="../../d3/d22/structnpc__heated__battle_1_1npc__heated__battle_a_i.html#a11a4f3270ff260e30da89017dad38433">npc_heated_battle::npc_heated_battleAI</a>, <a class="el" href="../../d6/d3c/structnpc__llod__generic_1_1npc__llod__generic_a_i.html#a15bd7442fef36a551cc8797f7919f57c">npc_llod_generic::npc_llod_genericAI</a>, and <a class="el" href="../../d2/de1/structnpc__pet__mage__mirror__image.html#a79a8c153ab61c619d928ec5535e67077">npc_pet_mage_mirror_image</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   60</span>{</div>
+<div class="line"><span class="lineno">   61</span>    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.Reset();</div>
+<div class="line"><span class="lineno">   62</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="af12583d15ccd183f6236c1889d539b9b" name="af12583d15ccd183f6236c1889d539b9b"></a>
@@ -599,7 +641,29 @@ Additional Inherited Members</h2></td></tr>
 <p>Implements <a class="el" href="../../dd/d9c/class_unit_a_i.html#a7288294b38c6161ab1218d75fe622fc0">UnitAI</a>.</p>
 
 <p>Reimplemented in <a class="el" href="../../de/d47/class_caster_a_i.html#a0fa50ac9bd99ff0c2c7e78f03a737090">CasterAI</a>, <a class="el" href="../../d7/d0e/structnpc__death__knight__initiate_1_1npc__death__knight__initiate_a_i.html#a6e67cda0b83578818a5e3b34ed9517cf">npc_death_knight_initiate::npc_death_knight_initiateAI</a>, <a class="el" href="../../d6/d6c/structnpc__crusade__persuaded_1_1npc__crusade__persuaded_a_i.html#a078facb2a0e5ba27f44999e7bb1e55f7">npc_crusade_persuaded::npc_crusade_persuadedAI</a>, <a class="el" href="../../d9/d25/structnpc__boss__gothik__minion_1_1npc__boss__gothik__minion_a_i.html#a43744e96be00d8bc0afc34a570e79947">npc_boss_gothik_minion::npc_boss_gothik_minionAI</a>, <a class="el" href="../../db/d78/structnpc__ravenous__worg_1_1npc__ravenous__worg_a_i.html#aeb64d5bde5ef9d8c2a62662bb72d3049">npc_ravenous_worg::npc_ravenous_worgAI</a>, <a class="el" href="../../d6/d3c/structnpc__llod__generic_1_1npc__llod__generic_a_i.html#aa7dce553fb699127f63281b2c47a2f02">npc_llod_generic::npc_llod_genericAI</a>, and <a class="el" href="../../d2/de1/structnpc__pet__mage__mirror__image.html#aa219b3adc38b625c6885089895b941b4">npc_pet_mage_mirror_image</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   83</span>{</div>
+<div class="line"><span class="lineno">   84</span>    <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">UpdateVictim</a>())</div>
+<div class="line"><span class="lineno">   85</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   86</span> </div>
+<div class="line"><span class="lineno">   87</span>    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.Update(diff);</div>
+<div class="line"><span class="lineno">   88</span> </div>
+<div class="line"><span class="lineno">   89</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ab78147cd520d2dac6be709b4c80a7de3">HasUnitState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54">UNIT_STATE_CASTING</a>))</div>
+<div class="line"><span class="lineno">   90</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   91</span> </div>
+<div class="line"><span class="lineno">   92</span>    <span class="keywordflow">if</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> spellId = <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ExecuteEvent())</div>
+<div class="line"><span class="lineno">   93</span>    {</div>
+<div class="line"><span class="lineno">   94</span>        <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(spellId);</div>
+<div class="line"><span class="lineno">   95</span>        <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(spellId, <a class="code hl_variable" href="../../dd/d9c/class_unit_a_i.html#adaf99f0a5a2d4993e5408eec175f5e24">AISpellInfo</a>[spellId].cooldown + rand() % <a class="code hl_variable" href="../../dd/d9c/class_unit_a_i.html#adaf99f0a5a2d4993e5408eec175f5e24">AISpellInfo</a>[spellId].cooldown);</div>
+<div class="line"><span class="lineno">   96</span>    }</div>
+<div class="line"><span class="lineno">   97</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">   98</span>        <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">DoMeleeAttackIfReady</a>();</div>
+<div class="line"><span class="lineno">   99</span>}</div>
+<div class="ttc" id="a_unit_8h_html_ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54">UNIT_STATE_CASTING</a></div><div class="ttdeci">@ UNIT_STATE_CASTING</div><div class="ttdef"><b>Definition:</b> Unit.h:340</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_ae03ccfe1e27501ed9ccbfecdbd3c4e39"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">CreatureAI::UpdateVictim</a></div><div class="ttdeci">bool UpdateVictim()</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:268</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a348a472089a9be6210b58aace8fafa9f"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">UnitAI::DoMeleeAttackIfReady</a></div><div class="ttdeci">void DoMeleeAttackIfReady()</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:40</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_aeebcad9b6effa45145c50f06af60b23d"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">UnitAI::DoCast</a></div><div class="ttdeci">SpellCastResult DoCast(uint32 spellId)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:178</div></div>
+<div class="ttc" id="aclass_unit_html_ab78147cd520d2dac6be709b4c80a7de3"><div class="ttname"><a href="../../da/db7/class_unit.html#ab78147cd520d2dac6be709b4c80a7de3">Unit::HasUnitState</a></div><div class="ttdeci">bool HasUnitState(const uint32 f) const</div><div class="ttdef"><b>Definition:</b> Unit.h:1398</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -648,8 +712,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/AI/CoreAI/<a class="el" href="../../dc/db7/_combat_a_i_8h_source.html">CombatAI.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/AI/CoreAI/<a class="el" href="../../dd/d32/_combat_a_i_8cpp.html">CombatAI.cpp</a></li>
+<li><a class="el" href="../../">CombatAI.h</a></li>
+<li><a class="el" href="../../">CombatAI.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -657,7 +721,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../de/d10/class_combat_a_i.html">CombatAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:44 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:57 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

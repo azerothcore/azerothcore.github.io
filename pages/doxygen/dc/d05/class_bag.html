@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('dc/d05/class_bag.html','../../'); init
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d9/d34/_bag_8h_source.html">Bag.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">Bag.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for Bag:</div>
 <div class="dyncontent">
@@ -613,7 +613,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a4c613745685559316e2eb38a3c84391a inherit pro_methods_class_object"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d83/class_object.html#a4c613745685559316e2eb38a3c84391a">AddToObjectUpdateIfNeeded</a> ()</td></tr>
 <tr class="separator:a4c613745685559316e2eb38a3c84391a inherit pro_methods_class_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ae0593c22c7dd8b32cab469af92fb200c" name="ae0593c22c7dd8b32cab469af92fb200c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae0593c22c7dd8b32cab469af92fb200c">&#9670;&#160;</a></span>Bag()</h2>
 
@@ -628,7 +629,26 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   25</span>        : <a class="code hl_function" href="../../dc/d32/class_item.html#a297720c02984eab37332ae795d22189d">Item</a>()</div>
+<div class="line"><span class="lineno">   26</span>{</div>
+<div class="line"><span class="lineno">   27</span>    <a class="code hl_variable" href="../../d8/d83/class_object.html#a139043a10260048589bb9c61292df815">m_objectType</a> |= <a class="code hl_enumvalue" href="../../d9/d83/_object_guid_8h.html#acfe503ba26d8a881f16958aaafd431e1a8898075ddeb644fdaa32c88c818958dd">TYPEMASK_CONTAINER</a>;</div>
+<div class="line"><span class="lineno">   28</span>    <a class="code hl_variable" href="../../d8/d83/class_object.html#aef58391bc14177dc481a25fae109988c">m_objectTypeId</a> = <a class="code hl_enumvalue" href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2afebf490e56b6f11276b1523008afa107">TYPEID_CONTAINER</a>;</div>
+<div class="line"><span class="lineno">   29</span> </div>
+<div class="line"><span class="lineno">   30</span>    <a class="code hl_variable" href="../../d8/d83/class_object.html#a742999a5b0741f84b7dbd594dfba693a">m_valuesCount</a> = <a class="code hl_enumvalue" href="../../dd/d65/_update_fields_8h.html#a2e55ed49514b6fd17b1ad512520530d6a5158b6530610a49af557fdd00c66118e">CONTAINER_END</a>;</div>
+<div class="line"><span class="lineno">   31</span> </div>
+<div class="line"><span class="lineno">   32</span>    memset(<a class="code hl_variable" href="../../dc/d05/class_bag.html#ad2fdcedba1dec947bfddfcd55a4d92a0">m_bagslot</a>, 0, <span class="keyword">sizeof</span>(<a class="code hl_class" href="../../dc/d32/class_item.html">Item</a>*) * <a class="code hl_define" href="../../d9/d34/_bag_8h.html#a60a065b8fab298fb24dfd8f22f657d77">MAX_BAG_SIZE</a>);</div>
+<div class="line"><span class="lineno">   33</span>}</div>
+<div class="ttc" id="a_bag_8h_html_a60a065b8fab298fb24dfd8f22f657d77"><div class="ttname"><a href="../../d9/d34/_bag_8h.html#a60a065b8fab298fb24dfd8f22f657d77">MAX_BAG_SIZE</a></div><div class="ttdeci">#define MAX_BAG_SIZE</div><div class="ttdef"><b>Definition:</b> Bag.h:22</div></div>
+<div class="ttc" id="a_object_guid_8h_html_a183c40b2ba67065929d70b3987da4cc2afebf490e56b6f11276b1523008afa107"><div class="ttname"><a href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2afebf490e56b6f11276b1523008afa107">TYPEID_CONTAINER</a></div><div class="ttdeci">@ TYPEID_CONTAINER</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:36</div></div>
+<div class="ttc" id="a_object_guid_8h_html_acfe503ba26d8a881f16958aaafd431e1a8898075ddeb644fdaa32c88c818958dd"><div class="ttname"><a href="../../d9/d83/_object_guid_8h.html#acfe503ba26d8a881f16958aaafd431e1a8898075ddeb644fdaa32c88c818958dd">TYPEMASK_CONTAINER</a></div><div class="ttdeci">@ TYPEMASK_CONTAINER</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:50</div></div>
+<div class="ttc" id="a_update_fields_8h_html_a2e55ed49514b6fd17b1ad512520530d6a5158b6530610a49af557fdd00c66118e"><div class="ttname"><a href="../../dd/d65/_update_fields_8h.html#a2e55ed49514b6fd17b1ad512520530d6a5158b6530610a49af557fdd00c66118e">CONTAINER_END</a></div><div class="ttdeci">@ CONTAINER_END</div><div class="ttdef"><b>Definition:</b> UpdateFields.h:81</div></div>
+<div class="ttc" id="aclass_bag_html_ad2fdcedba1dec947bfddfcd55a4d92a0"><div class="ttname"><a href="../../dc/d05/class_bag.html#ad2fdcedba1dec947bfddfcd55a4d92a0">Bag::m_bagslot</a></div><div class="ttdeci">Item * m_bagslot[MAX_BAG_SIZE]</div><div class="ttdef"><b>Definition:</b> Bag.h:64</div></div>
+<div class="ttc" id="aclass_item_html"><div class="ttname"><a href="../../dc/d32/class_item.html">Item</a></div><div class="ttdef"><b>Definition:</b> Item.h:214</div></div>
+<div class="ttc" id="aclass_item_html_a297720c02984eab37332ae795d22189d"><div class="ttname"><a href="../../dc/d32/class_item.html#a297720c02984eab37332ae795d22189d">Item::Item</a></div><div class="ttdeci">Item()</div><div class="ttdef"><b>Definition:</b> Item.cpp:263</div></div>
+<div class="ttc" id="aclass_object_html_a139043a10260048589bb9c61292df815"><div class="ttname"><a href="../../d8/d83/class_object.html#a139043a10260048589bb9c61292df815">Object::m_objectType</a></div><div class="ttdeci">uint16 m_objectType</div><div class="ttdef"><b>Definition:</b> Object.h:228</div></div>
+<div class="ttc" id="aclass_object_html_a742999a5b0741f84b7dbd594dfba693a"><div class="ttname"><a href="../../d8/d83/class_object.html#a742999a5b0741f84b7dbd594dfba693a">Object::m_valuesCount</a></div><div class="ttdeci">uint16 m_valuesCount</div><div class="ttdef"><b>Definition:</b> Object.h:242</div></div>
+<div class="ttc" id="aclass_object_html_aef58391bc14177dc481a25fae109988c"><div class="ttname"><a href="../../d8/d83/class_object.html#aef58391bc14177dc481a25fae109988c">Object::m_objectTypeId</a></div><div class="ttdeci">TypeID m_objectTypeId</div><div class="ttdef"><b>Definition:</b> Object.h:230</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aac5b94be9c36a9fca542bca3e32260c1" name="aac5b94be9c36a9fca542bca3e32260c1"></a>
@@ -653,7 +673,27 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   36</span>{</div>
+<div class="line"><span class="lineno">   37</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> i = 0; i &lt; <a class="code hl_define" href="../../d9/d34/_bag_8h.html#a60a065b8fab298fb24dfd8f22f657d77">MAX_BAG_SIZE</a>; ++i)</div>
+<div class="line"><span class="lineno">   38</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../dc/d32/class_item.html">Item</a>* item = <a class="code hl_variable" href="../../dc/d05/class_bag.html#ad2fdcedba1dec947bfddfcd55a4d92a0">m_bagslot</a>[i])</div>
+<div class="line"><span class="lineno">   39</span>        {</div>
+<div class="line"><span class="lineno">   40</span>            <span class="keywordflow">if</span> (item-&gt;IsInWorld())</div>
+<div class="line"><span class="lineno">   41</span>            {</div>
+<div class="line"><span class="lineno">   42</span>                <a class="code hl_define" href="../../da/df4/_log_8h.html#a0e09b50c268dc6897a1c70aa46de936e">LOG_FATAL</a>(<span class="stringliteral">&quot;entities.item&quot;</span>, <span class="stringliteral">&quot;Item {} (slot {}, bag slot {}) in bag {} (slot {}, bag slot {}, m_bagslot {}) is to be deleted but is still in world.&quot;</span>,</div>
+<div class="line"><span class="lineno">   43</span>                               item-&gt;GetEntry(), (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>)item-&gt;GetSlot(), (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>)item-&gt;GetBagSlot(),</div>
+<div class="line"><span class="lineno">   44</span>                               <a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>(), (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>)<a class="code hl_function" href="../../dc/d32/class_item.html#a04019a011a5f4df849f39b413df68295">GetSlot</a>(), (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>)<a class="code hl_function" href="../../dc/d32/class_item.html#adfcfd40507681d503b6115ac3fc11a79">GetBagSlot</a>(), (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>)i);</div>
+<div class="line"><span class="lineno">   45</span>                item-&gt;RemoveFromWorld();</div>
+<div class="line"><span class="lineno">   46</span>            }</div>
+<div class="line"><span class="lineno">   47</span>            <span class="keyword">delete</span> <a class="code hl_variable" href="../../dc/d05/class_bag.html#ad2fdcedba1dec947bfddfcd55a4d92a0">m_bagslot</a>[i];</div>
+<div class="line"><span class="lineno">   48</span>        }</div>
+<div class="line"><span class="lineno">   49</span>}</div>
+<div class="ttc" id="a_define_8h_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:110</div></div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="a_log_8h_html_a0e09b50c268dc6897a1c70aa46de936e"><div class="ttname"><a href="../../da/df4/_log_8h.html#a0e09b50c268dc6897a1c70aa46de936e">LOG_FATAL</a></div><div class="ttdeci">#define LOG_FATAL(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:155</div></div>
+<div class="ttc" id="aclass_item_html_a04019a011a5f4df849f39b413df68295"><div class="ttname"><a href="../../dc/d32/class_item.html#a04019a011a5f4df849f39b413df68295">Item::GetSlot</a></div><div class="ttdeci">uint8 GetSlot() const</div><div class="ttdef"><b>Definition:</b> Item.h:272</div></div>
+<div class="ttc" id="aclass_item_html_adfcfd40507681d503b6115ac3fc11a79"><div class="ttname"><a href="../../dc/d32/class_item.html#adfcfd40507681d503b6115ac3fc11a79">Item::GetBagSlot</a></div><div class="ttdeci">uint8 GetBagSlot() const</div><div class="ttdef"><b>Definition:</b> Item.cpp:786</div></div>
+<div class="ttc" id="aclass_object_html_aa627fe2967ed0e0ed1d8aeeb4365a961"><div class="ttname"><a href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">Object::GetEntry</a></div><div class="ttdeci">uint32 GetEntry() const</div><div class="ttdef"><b>Definition:</b> Object.h:109</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -681,7 +721,16 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d8/d83/class_object.html#acd880d19bc0c5c1ee3e6139bdb0cb07a">Object</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   52</span>{</div>
+<div class="line"><span class="lineno">   53</span>    <a class="code hl_function" href="../../d8/d83/class_object.html#acd880d19bc0c5c1ee3e6139bdb0cb07a">Item::AddToWorld</a>();</div>
+<div class="line"><span class="lineno">   54</span> </div>
+<div class="line"><span class="lineno">   55</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> i = 0; i &lt; <a class="code hl_function" href="../../dc/d05/class_bag.html#a0888242c34d30adde36a583c7352a339">GetBagSize</a>(); ++i)</div>
+<div class="line"><span class="lineno">   56</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dc/d05/class_bag.html#ad2fdcedba1dec947bfddfcd55a4d92a0">m_bagslot</a>[i])</div>
+<div class="line"><span class="lineno">   57</span>            <a class="code hl_variable" href="../../dc/d05/class_bag.html#ad2fdcedba1dec947bfddfcd55a4d92a0">m_bagslot</a>[i]-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#acd880d19bc0c5c1ee3e6139bdb0cb07a">AddToWorld</a>();</div>
+<div class="line"><span class="lineno">   58</span>}</div>
+<div class="ttc" id="aclass_bag_html_a0888242c34d30adde36a583c7352a339"><div class="ttname"><a href="../../dc/d05/class_bag.html#a0888242c34d30adde36a583c7352a339">Bag::GetBagSize</a></div><div class="ttdeci">uint32 GetBagSize() const</div><div class="ttdef"><b>Definition:</b> Bag.h:48</div></div>
+<div class="ttc" id="aclass_object_html_acd880d19bc0c5c1ee3e6139bdb0cb07a"><div class="ttname"><a href="../../d8/d83/class_object.html#acd880d19bc0c5c1ee3e6139bdb0cb07a">Object::AddToWorld</a></div><div class="ttdeci">virtual void AddToWorld()</div><div class="ttdef"><b>Definition:</b> Object.cpp:152</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a5b3395c7431153d8fd69bdfc4674d779" name="a5b3395c7431153d8fd69bdfc4674d779"></a>
@@ -719,7 +768,15 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d8/d83/class_object.html#a679880881a212915277221770ee9bcb3">Object</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  170</span>{</div>
+<div class="line"><span class="lineno">  171</span>    <a class="code hl_function" href="../../d8/d83/class_object.html#a679880881a212915277221770ee9bcb3">Item::BuildCreateUpdateBlockForPlayer</a>(data, target);</div>
+<div class="line"><span class="lineno">  172</span> </div>
+<div class="line"><span class="lineno">  173</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> i = 0; i &lt; <a class="code hl_function" href="../../dc/d05/class_bag.html#a0888242c34d30adde36a583c7352a339">GetBagSize</a>(); ++i)</div>
+<div class="line"><span class="lineno">  174</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dc/d05/class_bag.html#ad2fdcedba1dec947bfddfcd55a4d92a0">m_bagslot</a>[i])</div>
+<div class="line"><span class="lineno">  175</span>            <a class="code hl_variable" href="../../dc/d05/class_bag.html#ad2fdcedba1dec947bfddfcd55a4d92a0">m_bagslot</a>[i]-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a679880881a212915277221770ee9bcb3">BuildCreateUpdateBlockForPlayer</a>(data, target);</div>
+<div class="line"><span class="lineno">  176</span>}</div>
+<div class="ttc" id="aclass_object_html_a679880881a212915277221770ee9bcb3"><div class="ttname"><a href="../../d8/d83/class_object.html#a679880881a212915277221770ee9bcb3">Object::BuildCreateUpdateBlockForPlayer</a></div><div class="ttdeci">virtual void BuildCreateUpdateBlockForPlayer(UpdateData *data, Player *target) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:189</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a644dbcae3484ba9065f0081457d5084f" name="a644dbcae3484ba9065f0081457d5084f"></a>
@@ -763,7 +820,54 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dc/d32/class_item.html#a15c567d306251f609ec3ac287fd97082">Item</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   70</span>{</div>
+<div class="line"><span class="lineno">   71</span>    <a class="code hl_struct" href="../../da/d61/struct_item_template.html">ItemTemplate</a> <span class="keyword">const</span>* itemProto = <a class="code hl_define" href="../../d9/d77/_object_mgr_8h.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetItemTemplate(itemid);</div>
+<div class="line"><span class="lineno">   72</span> </div>
+<div class="line"><span class="lineno">   73</span>    <span class="keywordflow">if</span> (!itemProto || itemProto-&gt;<a class="code hl_variable" href="../../da/d61/struct_item_template.html#a9cddb1335c30a77f6b04aba62874fd50">ContainerSlots</a> &gt; <a class="code hl_define" href="../../d9/d34/_bag_8h.html#a60a065b8fab298fb24dfd8f22f657d77">MAX_BAG_SIZE</a>)</div>
+<div class="line"><span class="lineno">   74</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   75</span> </div>
+<div class="line"><span class="lineno">   76</span>    <a class="code hl_function" href="../../d8/d83/class_object.html#a02f45620b97c509309194bc7f340dc22">Object::_Create</a>(guidlow, 0, HighGuid::Item);</div>
+<div class="line"><span class="lineno">   77</span> </div>
+<div class="line"><span class="lineno">   78</span>    <a class="code hl_function" href="../../d8/d83/class_object.html#ad5ba4799de88341246bc5ff7dd4b2d36">SetEntry</a>(itemid);</div>
+<div class="line"><span class="lineno">   79</span>    <a class="code hl_function" href="../../d8/d83/class_object.html#ad951343e568f25e4db54e64d19c964dd">SetObjectScale</a>(1.0f);</div>
+<div class="line"><span class="lineno">   80</span> </div>
+<div class="line"><span class="lineno">   81</span>    <a class="code hl_function" href="../../d8/d83/class_object.html#a8ba71e40469281133c4e06d5f2de5d03">SetGuidValue</a>(<a class="code hl_enumvalue" href="../../dd/d65/_update_fields_8h.html#a529e4bfaaee7e3c2dc52aaa447287cfba881d0b16fa30b247b069fc55a19795a4">ITEM_FIELD_OWNER</a>, owner ? owner-&gt;GetGUID() : <a class="code hl_variable" href="../../d8/d03/class_object_guid.html#a14039d3f3df79203693f713495503165">ObjectGuid::Empty</a>);</div>
+<div class="line"><span class="lineno">   82</span>    <a class="code hl_function" href="../../d8/d83/class_object.html#a8ba71e40469281133c4e06d5f2de5d03">SetGuidValue</a>(<a class="code hl_enumvalue" href="../../dd/d65/_update_fields_8h.html#a529e4bfaaee7e3c2dc52aaa447287cfbad33f08fc535881147ce66f205ec1490d">ITEM_FIELD_CONTAINED</a>, owner ? owner-&gt;GetGUID() : <a class="code hl_variable" href="../../d8/d03/class_object_guid.html#a14039d3f3df79203693f713495503165">ObjectGuid::Empty</a>);</div>
+<div class="line"><span class="lineno">   83</span> </div>
+<div class="line"><span class="lineno">   84</span>    <a class="code hl_function" href="../../d8/d83/class_object.html#adc7e9b205f35f9894ec9a4f0ec0871f9">SetUInt32Value</a>(<a class="code hl_enumvalue" href="../../dd/d65/_update_fields_8h.html#a529e4bfaaee7e3c2dc52aaa447287cfba45e45b0ef2020e20e1e90e7e370b0d1e">ITEM_FIELD_MAXDURABILITY</a>, itemProto-&gt;<a class="code hl_variable" href="../../da/d61/struct_item_template.html#ac138a63183bdbdbbf1597a26c8b56e26">MaxDurability</a>);</div>
+<div class="line"><span class="lineno">   85</span>    <a class="code hl_function" href="../../d8/d83/class_object.html#adc7e9b205f35f9894ec9a4f0ec0871f9">SetUInt32Value</a>(<a class="code hl_enumvalue" href="../../dd/d65/_update_fields_8h.html#a529e4bfaaee7e3c2dc52aaa447287cfba01756cb48653301f602165e8293d59e9">ITEM_FIELD_DURABILITY</a>, itemProto-&gt;<a class="code hl_variable" href="../../da/d61/struct_item_template.html#ac138a63183bdbdbbf1597a26c8b56e26">MaxDurability</a>);</div>
+<div class="line"><span class="lineno">   86</span>    <a class="code hl_function" href="../../d8/d83/class_object.html#adc7e9b205f35f9894ec9a4f0ec0871f9">SetUInt32Value</a>(<a class="code hl_enumvalue" href="../../dd/d65/_update_fields_8h.html#a529e4bfaaee7e3c2dc52aaa447287cfba12bd222a96c12e682a62496e90dbbda5">ITEM_FIELD_STACK_COUNT</a>, 1);</div>
+<div class="line"><span class="lineno">   87</span> </div>
+<div class="line"><span class="lineno">   88</span>    <span class="comment">// Setting the number of Slots the Container has</span></div>
+<div class="line"><span class="lineno">   89</span>    <a class="code hl_function" href="../../d8/d83/class_object.html#adc7e9b205f35f9894ec9a4f0ec0871f9">SetUInt32Value</a>(<a class="code hl_enumvalue" href="../../dd/d65/_update_fields_8h.html#a2e55ed49514b6fd17b1ad512520530d6ab22a162a4fc69fc7a93caeb130dc9ff0">CONTAINER_FIELD_NUM_SLOTS</a>, itemProto-&gt;<a class="code hl_variable" href="../../da/d61/struct_item_template.html#a9cddb1335c30a77f6b04aba62874fd50">ContainerSlots</a>);</div>
+<div class="line"><span class="lineno">   90</span> </div>
+<div class="line"><span class="lineno">   91</span>    <span class="comment">// Cleaning 20 slots</span></div>
+<div class="line"><span class="lineno">   92</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> i = 0; i &lt; <a class="code hl_define" href="../../d9/d34/_bag_8h.html#a60a065b8fab298fb24dfd8f22f657d77">MAX_BAG_SIZE</a>; ++i)</div>
+<div class="line"><span class="lineno">   93</span>    {</div>
+<div class="line"><span class="lineno">   94</span>        <a class="code hl_function" href="../../d8/d83/class_object.html#a8ba71e40469281133c4e06d5f2de5d03">SetGuidValue</a>(<a class="code hl_enumvalue" href="../../dd/d65/_update_fields_8h.html#a2e55ed49514b6fd17b1ad512520530d6a4dd6adc0aafad2233adde864e8b85650">CONTAINER_FIELD_SLOT_1</a> + (i * 2), <a class="code hl_variable" href="../../d8/d03/class_object_guid.html#a14039d3f3df79203693f713495503165">ObjectGuid::Empty</a>);</div>
+<div class="line"><span class="lineno">   95</span>        <a class="code hl_variable" href="../../dc/d05/class_bag.html#ad2fdcedba1dec947bfddfcd55a4d92a0">m_bagslot</a>[i] = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">   96</span>    }</div>
+<div class="line"><span class="lineno">   97</span> </div>
+<div class="line"><span class="lineno">   98</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   99</span>}</div>
+<div class="ttc" id="a_object_mgr_8h_html_a736e30da2b5261060ac6cdbb5de3b787"><div class="ttname"><a href="../../d9/d77/_object_mgr_8h.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a></div><div class="ttdeci">#define sObjectMgr</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:1606</div></div>
+<div class="ttc" id="a_update_fields_8h_html_a2e55ed49514b6fd17b1ad512520530d6a4dd6adc0aafad2233adde864e8b85650"><div class="ttname"><a href="../../dd/d65/_update_fields_8h.html#a2e55ed49514b6fd17b1ad512520530d6a4dd6adc0aafad2233adde864e8b85650">CONTAINER_FIELD_SLOT_1</a></div><div class="ttdeci">@ CONTAINER_FIELD_SLOT_1</div><div class="ttdef"><b>Definition:</b> UpdateFields.h:80</div></div>
+<div class="ttc" id="a_update_fields_8h_html_a2e55ed49514b6fd17b1ad512520530d6ab22a162a4fc69fc7a93caeb130dc9ff0"><div class="ttname"><a href="../../dd/d65/_update_fields_8h.html#a2e55ed49514b6fd17b1ad512520530d6ab22a162a4fc69fc7a93caeb130dc9ff0">CONTAINER_FIELD_NUM_SLOTS</a></div><div class="ttdeci">@ CONTAINER_FIELD_NUM_SLOTS</div><div class="ttdef"><b>Definition:</b> UpdateFields.h:78</div></div>
+<div class="ttc" id="a_update_fields_8h_html_a529e4bfaaee7e3c2dc52aaa447287cfba01756cb48653301f602165e8293d59e9"><div class="ttname"><a href="../../dd/d65/_update_fields_8h.html#a529e4bfaaee7e3c2dc52aaa447287cfba01756cb48653301f602165e8293d59e9">ITEM_FIELD_DURABILITY</a></div><div class="ttdeci">@ ITEM_FIELD_DURABILITY</div><div class="ttdef"><b>Definition:</b> UpdateFields.h:69</div></div>
+<div class="ttc" id="a_update_fields_8h_html_a529e4bfaaee7e3c2dc52aaa447287cfba12bd222a96c12e682a62496e90dbbda5"><div class="ttname"><a href="../../dd/d65/_update_fields_8h.html#a529e4bfaaee7e3c2dc52aaa447287cfba12bd222a96c12e682a62496e90dbbda5">ITEM_FIELD_STACK_COUNT</a></div><div class="ttdeci">@ ITEM_FIELD_STACK_COUNT</div><div class="ttdef"><b>Definition:</b> UpdateFields.h:39</div></div>
+<div class="ttc" id="a_update_fields_8h_html_a529e4bfaaee7e3c2dc52aaa447287cfba45e45b0ef2020e20e1e90e7e370b0d1e"><div class="ttname"><a href="../../dd/d65/_update_fields_8h.html#a529e4bfaaee7e3c2dc52aaa447287cfba45e45b0ef2020e20e1e90e7e370b0d1e">ITEM_FIELD_MAXDURABILITY</a></div><div class="ttdeci">@ ITEM_FIELD_MAXDURABILITY</div><div class="ttdef"><b>Definition:</b> UpdateFields.h:70</div></div>
+<div class="ttc" id="a_update_fields_8h_html_a529e4bfaaee7e3c2dc52aaa447287cfba881d0b16fa30b247b069fc55a19795a4"><div class="ttname"><a href="../../dd/d65/_update_fields_8h.html#a529e4bfaaee7e3c2dc52aaa447287cfba881d0b16fa30b247b069fc55a19795a4">ITEM_FIELD_OWNER</a></div><div class="ttdeci">@ ITEM_FIELD_OWNER</div><div class="ttdef"><b>Definition:</b> UpdateFields.h:35</div></div>
+<div class="ttc" id="a_update_fields_8h_html_a529e4bfaaee7e3c2dc52aaa447287cfbad33f08fc535881147ce66f205ec1490d"><div class="ttname"><a href="../../dd/d65/_update_fields_8h.html#a529e4bfaaee7e3c2dc52aaa447287cfbad33f08fc535881147ce66f205ec1490d">ITEM_FIELD_CONTAINED</a></div><div class="ttdeci">@ ITEM_FIELD_CONTAINED</div><div class="ttdef"><b>Definition:</b> UpdateFields.h:36</div></div>
+<div class="ttc" id="aclass_object_guid_html_a14039d3f3df79203693f713495503165"><div class="ttname"><a href="../../d8/d03/class_object_guid.html#a14039d3f3df79203693f713495503165">ObjectGuid::Empty</a></div><div class="ttdeci">static ObjectGuid const Empty</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:122</div></div>
+<div class="ttc" id="aclass_object_html_a02f45620b97c509309194bc7f340dc22"><div class="ttname"><a href="../../d8/d83/class_object.html#a02f45620b97c509309194bc7f340dc22">Object::_Create</a></div><div class="ttdeci">void _Create(ObjectGuid::LowType guidlow, uint32 entry, HighGuid guidhigh)</div><div class="ttdef"><b>Definition:</b> Object.cpp:134</div></div>
+<div class="ttc" id="aclass_object_html_a8ba71e40469281133c4e06d5f2de5d03"><div class="ttname"><a href="../../d8/d83/class_object.html#a8ba71e40469281133c4e06d5f2de5d03">Object::SetGuidValue</a></div><div class="ttdeci">void SetGuidValue(uint16 index, ObjectGuid value)</div><div class="ttdef"><b>Definition:</b> Object.cpp:723</div></div>
+<div class="ttc" id="aclass_object_html_ad5ba4799de88341246bc5ff7dd4b2d36"><div class="ttname"><a href="../../d8/d83/class_object.html#ad5ba4799de88341246bc5ff7dd4b2d36">Object::SetEntry</a></div><div class="ttdeci">void SetEntry(uint32 entry)</div><div class="ttdef"><b>Definition:</b> Object.h:110</div></div>
+<div class="ttc" id="aclass_object_html_ad951343e568f25e4db54e64d19c964dd"><div class="ttname"><a href="../../d8/d83/class_object.html#ad951343e568f25e4db54e64d19c964dd">Object::SetObjectScale</a></div><div class="ttdeci">virtual void SetObjectScale(float scale)</div><div class="ttdef"><b>Definition:</b> Object.h:113</div></div>
+<div class="ttc" id="aclass_object_html_adc7e9b205f35f9894ec9a4f0ec0871f9"><div class="ttname"><a href="../../d8/d83/class_object.html#adc7e9b205f35f9894ec9a4f0ec0871f9">Object::SetUInt32Value</a></div><div class="ttdeci">void SetUInt32Value(uint16 index, uint32 value)</div><div class="ttdef"><b>Definition:</b> Object.cpp:650</div></div>
+<div class="ttc" id="astruct_item_template_html"><div class="ttname"><a href="../../da/d61/struct_item_template.html">ItemTemplate</a></div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:628</div></div>
+<div class="ttc" id="astruct_item_template_html_a9cddb1335c30a77f6b04aba62874fd50"><div class="ttname"><a href="../../da/d61/struct_item_template.html#a9cddb1335c30a77f6b04aba62874fd50">ItemTemplate::ContainerSlots</a></div><div class="ttdeci">uint32 ContainerSlots</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:655</div></div>
+<div class="ttc" id="astruct_item_template_html_ac138a63183bdbdbbf1597a26c8b56e26"><div class="ttname"><a href="../../da/d61/struct_item_template.html#ac138a63183bdbdbbf1597a26c8b56e26">ItemTemplate::MaxDurability</a></div><div class="ttdeci">uint32 MaxDurability</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:685</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac1f55a19c69604914ab2f7576d3be016" name="ac1f55a19c69604914ab2f7576d3be016"></a>
@@ -791,7 +895,15 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dc/d32/class_item.html#ac1ae47bd87e325fdff53679a1abcc27b">Item</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  125</span>{</div>
+<div class="line"><span class="lineno">  126</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> i = 0; i &lt; <a class="code hl_define" href="../../d9/d34/_bag_8h.html#a60a065b8fab298fb24dfd8f22f657d77">MAX_BAG_SIZE</a>; ++i)</div>
+<div class="line"><span class="lineno">  127</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dc/d05/class_bag.html#ad2fdcedba1dec947bfddfcd55a4d92a0">m_bagslot</a>[i])</div>
+<div class="line"><span class="lineno">  128</span>            <a class="code hl_variable" href="../../dc/d05/class_bag.html#ad2fdcedba1dec947bfddfcd55a4d92a0">m_bagslot</a>[i]-&gt;<a class="code hl_function" href="../../dc/d32/class_item.html#aea822c812c8c9b031dc1992156e46994">DeleteFromDB</a>(trans);</div>
+<div class="line"><span class="lineno">  129</span> </div>
+<div class="line"><span class="lineno">  130</span>    <a class="code hl_function" href="../../dc/d32/class_item.html#aea822c812c8c9b031dc1992156e46994">Item::DeleteFromDB</a>(trans);</div>
+<div class="line"><span class="lineno">  131</span>}</div>
+<div class="ttc" id="aclass_item_html_aea822c812c8c9b031dc1992156e46994"><div class="ttname"><a href="../../dc/d32/class_item.html#aea822c812c8c9b031dc1992156e46994">Item::DeleteFromDB</a></div><div class="ttdeci">static void DeleteFromDB(CharacterDatabaseTransaction trans, ObjectGuid::LowType itemGuid)</div><div class="ttdef"><b>Definition:</b> Item.cpp:520</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a0888242c34d30adde36a583c7352a339" name="a0888242c34d30adde36a583c7352a339"></a>
@@ -816,7 +928,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   48</span>{ <span class="keywordflow">return</span> <a class="code hl_function" href="../../d8/d83/class_object.html#a3264388b9f92da9de7641477b3dc77f9">GetUInt32Value</a>(<a class="code hl_enumvalue" href="../../dd/d65/_update_fields_8h.html#a2e55ed49514b6fd17b1ad512520530d6ab22a162a4fc69fc7a93caeb130dc9ff0">CONTAINER_FIELD_NUM_SLOTS</a>); }</div>
+<div class="ttc" id="aclass_object_html_a3264388b9f92da9de7641477b3dc77f9"><div class="ttname"><a href="../../d8/d83/class_object.html#a3264388b9f92da9de7641477b3dc77f9">Object::GetUInt32Value</a></div><div class="ttdeci">uint32 GetUInt32Value(uint16 index) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:305</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a88bd93c16e7b35f299b8b013835d646e" name="a88bd93c16e7b35f299b8b013835d646e"></a>
@@ -843,7 +957,13 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d8/d83/class_object.html#ab5a53b6804f45deaa3b5c000b2b7447c">Object</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  244</span>{</div>
+<div class="line"><span class="lineno">  245</span>    std::stringstream sstr;</div>
+<div class="line"><span class="lineno">  246</span>    sstr &lt;&lt; <a class="code hl_function" href="../../dc/d32/class_item.html#a008f150f4a76e5ee6be4021527b2f468">Item::GetDebugInfo</a>();</div>
+<div class="line"><span class="lineno">  247</span>    <span class="keywordflow">return</span> sstr.str();</div>
+<div class="line"><span class="lineno">  248</span>}</div>
+<div class="ttc" id="aclass_item_html_a008f150f4a76e5ee6be4021527b2f468"><div class="ttname"><a href="../../dc/d32/class_item.html#a008f150f4a76e5ee6be4021527b2f468">Item::GetDebugInfo</a></div><div class="ttdeci">std::string GetDebugInfo() const override</div><div class="ttdef"><b>Definition:</b> Item.cpp:1291</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad5f4da5a3bc645d29c15651190a41d5e" name="ad5f4da5a3bc645d29c15651190a41d5e"></a>
@@ -860,7 +980,15 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  134</span>{</div>
+<div class="line"><span class="lineno">  135</span>    <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> slots = 0;</div>
+<div class="line"><span class="lineno">  136</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> i = 0; i &lt; <a class="code hl_function" href="../../dc/d05/class_bag.html#a0888242c34d30adde36a583c7352a339">GetBagSize</a>(); ++i)</div>
+<div class="line"><span class="lineno">  137</span>        <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../dc/d05/class_bag.html#ad2fdcedba1dec947bfddfcd55a4d92a0">m_bagslot</a>[i])</div>
+<div class="line"><span class="lineno">  138</span>            ++slots;</div>
+<div class="line"><span class="lineno">  139</span> </div>
+<div class="line"><span class="lineno">  140</span>    <span class="keywordflow">return</span> slots;</div>
+<div class="line"><span class="lineno">  141</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a80149f0d19426c9f8502713bce59af7e" name="a80149f0d19426c9f8502713bce59af7e"></a>
@@ -878,7 +1006,13 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  236</span>{</div>
+<div class="line"><span class="lineno">  237</span>    <span class="keywordflow">if</span> (slot &lt; <a class="code hl_function" href="../../dc/d05/class_bag.html#a0888242c34d30adde36a583c7352a339">GetBagSize</a>())</div>
+<div class="line"><span class="lineno">  238</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d05/class_bag.html#ad2fdcedba1dec947bfddfcd55a4d92a0">m_bagslot</a>[slot];</div>
+<div class="line"><span class="lineno">  239</span> </div>
+<div class="line"><span class="lineno">  240</span>    <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  241</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ab4967fad85ab0291fef6bda19a0e7a67" name="ab4967fad85ab0291fef6bda19a0e7a67"></a>
@@ -906,7 +1040,35 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  189</span>{</div>
+<div class="line"><span class="lineno">  190</span>    <a class="code hl_class" href="../../dc/d32/class_item.html">Item</a>* pItem;</div>
+<div class="line"><span class="lineno">  191</span>    <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> count = 0;</div>
+<div class="line"><span class="lineno">  192</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> i = 0; i &lt; <a class="code hl_function" href="../../dc/d05/class_bag.html#a0888242c34d30adde36a583c7352a339">GetBagSize</a>(); ++i)</div>
+<div class="line"><span class="lineno">  193</span>    {</div>
+<div class="line"><span class="lineno">  194</span>        pItem = <a class="code hl_variable" href="../../dc/d05/class_bag.html#ad2fdcedba1dec947bfddfcd55a4d92a0">m_bagslot</a>[i];</div>
+<div class="line"><span class="lineno">  195</span>        <span class="keywordflow">if</span> (pItem &amp;&amp; pItem != eItem &amp;&amp; pItem-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>() == item)</div>
+<div class="line"><span class="lineno">  196</span>            count += pItem-&gt;<a class="code hl_function" href="../../dc/d32/class_item.html#acfce1d883f464dc73696f17c62d5ba5c">GetCount</a>();</div>
+<div class="line"><span class="lineno">  197</span>    }</div>
+<div class="line"><span class="lineno">  198</span> </div>
+<div class="line"><span class="lineno">  199</span>    <span class="keywordflow">if</span> (eItem &amp;&amp; eItem-&gt;<a class="code hl_function" href="../../dc/d32/class_item.html#a55223032f2942a6f46b10053afe8c73c">GetTemplate</a>()-&gt;<a class="code hl_variable" href="../../da/d61/struct_item_template.html#a8205130d4320827af785f5d35af4f0f5">GemProperties</a>)</div>
+<div class="line"><span class="lineno">  200</span>    {</div>
+<div class="line"><span class="lineno">  201</span>        <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> i = 0; i &lt; <a class="code hl_function" href="../../dc/d05/class_bag.html#a0888242c34d30adde36a583c7352a339">GetBagSize</a>(); ++i)</div>
+<div class="line"><span class="lineno">  202</span>        {</div>
+<div class="line"><span class="lineno">  203</span>            pItem = <a class="code hl_variable" href="../../dc/d05/class_bag.html#ad2fdcedba1dec947bfddfcd55a4d92a0">m_bagslot</a>[i];</div>
+<div class="line"><span class="lineno">  204</span>            <span class="keywordflow">if</span> (pItem &amp;&amp; pItem != eItem &amp;&amp; pItem-&gt;<a class="code hl_function" href="../../dc/d32/class_item.html#a55223032f2942a6f46b10053afe8c73c">GetTemplate</a>()-&gt;<a class="code hl_variable" href="../../da/d61/struct_item_template.html#af71369f348138999d8706c3372f7357d">Socket</a>[0].<a class="code hl_variable" href="../../d5/dd4/struct___socket.html#ad6232c851b72ce04d2dcfa00596fc1df">Color</a>)</div>
+<div class="line"><span class="lineno">  205</span>                count += pItem-&gt;<a class="code hl_function" href="../../dc/d32/class_item.html#a3be08c327fae639c12214f12e13fe316">GetGemCountWithID</a>(item);</div>
+<div class="line"><span class="lineno">  206</span>        }</div>
+<div class="line"><span class="lineno">  207</span>    }</div>
+<div class="line"><span class="lineno">  208</span> </div>
+<div class="line"><span class="lineno">  209</span>    <span class="keywordflow">return</span> count;</div>
+<div class="line"><span class="lineno">  210</span>}</div>
+<div class="ttc" id="aclass_item_html_a3be08c327fae639c12214f12e13fe316"><div class="ttname"><a href="../../dc/d32/class_item.html#a3be08c327fae639c12214f12e13fe316">Item::GetGemCountWithID</a></div><div class="ttdeci">uint8 GetGemCountWithID(uint32 GemID) const</div><div class="ttdef"><b>Definition:</b> Item.cpp:1016</div></div>
+<div class="ttc" id="aclass_item_html_a55223032f2942a6f46b10053afe8c73c"><div class="ttname"><a href="../../dc/d32/class_item.html#a55223032f2942a6f46b10053afe8c73c">Item::GetTemplate</a></div><div class="ttdeci">ItemTemplate const * GetTemplate() const</div><div class="ttdef"><b>Definition:</b> Item.cpp:546</div></div>
+<div class="ttc" id="aclass_item_html_acfce1d883f464dc73696f17c62d5ba5c"><div class="ttname"><a href="../../dc/d32/class_item.html#acfce1d883f464dc73696f17c62d5ba5c">Item::GetCount</a></div><div class="ttdeci">uint32 GetCount() const</div><div class="ttdef"><b>Definition:</b> Item.h:263</div></div>
+<div class="ttc" id="astruct___socket_html_ad6232c851b72ce04d2dcfa00596fc1df"><div class="ttname"><a href="../../d5/dd4/struct___socket.html#ad6232c851b72ce04d2dcfa00596fc1df">_Socket::Color</a></div><div class="ttdeci">uint32 Color</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:611</div></div>
+<div class="ttc" id="astruct_item_template_html_a8205130d4320827af785f5d35af4f0f5"><div class="ttname"><a href="../../da/d61/struct_item_template.html#a8205130d4320827af785f5d35af4f0f5">ItemTemplate::GemProperties</a></div><div class="ttdeci">uint32 GemProperties</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:692</div></div>
+<div class="ttc" id="astruct_item_template_html_af71369f348138999d8706c3372f7357d"><div class="ttname"><a href="../../da/d61/struct_item_template.html#af71369f348138999d8706c3372f7357d">ItemTemplate::Socket</a></div><div class="ttdeci">_Socket Socket[MAX_ITEM_PROTO_SOCKETS]</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:690</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ae6e6f304dbac50eb9ee6a0628c7cb391" name="ae6e6f304dbac50eb9ee6a0628c7cb391"></a>
@@ -934,7 +1096,18 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  213</span>{</div>
+<div class="line"><span class="lineno">  214</span>    <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> count = 0;</div>
+<div class="line"><span class="lineno">  215</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> i = 0; i &lt; <a class="code hl_function" href="../../dc/d05/class_bag.html#a0888242c34d30adde36a583c7352a339">GetBagSize</a>(); ++i)</div>
+<div class="line"><span class="lineno">  216</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../dc/d32/class_item.html">Item</a>* pItem = <a class="code hl_variable" href="../../dc/d05/class_bag.html#ad2fdcedba1dec947bfddfcd55a4d92a0">m_bagslot</a>[i])</div>
+<div class="line"><span class="lineno">  217</span>            <span class="keywordflow">if</span> (pItem != skipItem)</div>
+<div class="line"><span class="lineno">  218</span>                <span class="keywordflow">if</span> (<a class="code hl_struct" href="../../da/d61/struct_item_template.html">ItemTemplate</a> <span class="keyword">const</span>* pProto = pItem-&gt;GetTemplate())</div>
+<div class="line"><span class="lineno">  219</span>                    <span class="keywordflow">if</span> (pProto-&gt;ItemLimitCategory == limitCategory)</div>
+<div class="line"><span class="lineno">  220</span>                        count += <a class="code hl_variable" href="../../dc/d05/class_bag.html#ad2fdcedba1dec947bfddfcd55a4d92a0">m_bagslot</a>[i]-&gt;<a class="code hl_function" href="../../dc/d32/class_item.html#acfce1d883f464dc73696f17c62d5ba5c">GetCount</a>();</div>
+<div class="line"><span class="lineno">  221</span> </div>
+<div class="line"><span class="lineno">  222</span>    <span class="keywordflow">return</span> count;</div>
+<div class="line"><span class="lineno">  223</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad8c47ab6e44c8dd8713d4af4b07a5df4" name="ad8c47ab6e44c8dd8713d4af4b07a5df4"></a>
@@ -952,7 +1125,17 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  226</span>{</div>
+<div class="line"><span class="lineno">  227</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> i = 0; i &lt; <a class="code hl_function" href="../../dc/d05/class_bag.html#a0888242c34d30adde36a583c7352a339">GetBagSize</a>(); ++i)</div>
+<div class="line"><span class="lineno">  228</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dc/d05/class_bag.html#ad2fdcedba1dec947bfddfcd55a4d92a0">m_bagslot</a>[i] != 0)</div>
+<div class="line"><span class="lineno">  229</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dc/d05/class_bag.html#ad2fdcedba1dec947bfddfcd55a4d92a0">m_bagslot</a>[i]-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ae65fbd7720a9aa448516f6cf494bda67">GetGUID</a>() == guid)</div>
+<div class="line"><span class="lineno">  230</span>                <span class="keywordflow">return</span> i;</div>
+<div class="line"><span class="lineno">  231</span> </div>
+<div class="line"><span class="lineno">  232</span>    <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#aadcc1e3338f8cbbe511ad060db42dfb5aeb5cbd7990d2f5e679ec4ecc65e83130">NULL_SLOT</a>;</div>
+<div class="line"><span class="lineno">  233</span>}</div>
+<div class="ttc" id="a_unit_8h_html_aadcc1e3338f8cbbe511ad060db42dfb5aeb5cbd7990d2f5e679ec4ecc65e83130"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#aadcc1e3338f8cbbe511ad060db42dfb5aeb5cbd7990d2f5e679ec4ecc65e83130">NULL_SLOT</a></div><div class="ttdeci">@ NULL_SLOT</div><div class="ttdef"><b>Definition:</b> Unit.h:211</div></div>
+<div class="ttc" id="aclass_object_html_ae65fbd7720a9aa448516f6cf494bda67"><div class="ttname"><a href="../../d8/d83/class_object.html#ae65fbd7720a9aa448516f6cf494bda67">Object::GetGUID</a></div><div class="ttdeci">ObjectGuid GetGUID() const</div><div class="ttdef"><b>Definition:</b> Object.h:107</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a37797a614a3504571c15047fc9df131d" name="a37797a614a3504571c15047fc9df131d"></a>
@@ -969,7 +1152,14 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  180</span>{</div>
+<div class="line"><span class="lineno">  181</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> i = 0; i &lt; <a class="code hl_function" href="../../dc/d05/class_bag.html#a0888242c34d30adde36a583c7352a339">GetBagSize</a>(); ++i)</div>
+<div class="line"><span class="lineno">  182</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dc/d05/class_bag.html#ad2fdcedba1dec947bfddfcd55a4d92a0">m_bagslot</a>[i])</div>
+<div class="line"><span class="lineno">  183</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  184</span> </div>
+<div class="line"><span class="lineno">  185</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  186</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ae34ce4a4d974410aca8880ee0db1cf18" name="ae34ce4a4d974410aca8880ee0db1cf18"></a>
@@ -1019,7 +1209,24 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dc/d32/class_item.html#a1cff18f16e42238b2d161716ee98cefd">Item</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  107</span>{</div>
+<div class="line"><span class="lineno">  108</span>    <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../dc/d32/class_item.html#a1cff18f16e42238b2d161716ee98cefd">Item::LoadFromDB</a>(guid, owner_guid, fields, entry))</div>
+<div class="line"><span class="lineno">  109</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  110</span> </div>
+<div class="line"><span class="lineno">  111</span>    <a class="code hl_struct" href="../../da/d61/struct_item_template.html">ItemTemplate</a> <span class="keyword">const</span>* itemProto = <a class="code hl_function" href="../../dc/d32/class_item.html#a55223032f2942a6f46b10053afe8c73c">GetTemplate</a>(); <span class="comment">// checked in Item::LoadFromDB</span></div>
+<div class="line"><span class="lineno">  112</span>    <a class="code hl_function" href="../../d8/d83/class_object.html#adc7e9b205f35f9894ec9a4f0ec0871f9">SetUInt32Value</a>(<a class="code hl_enumvalue" href="../../dd/d65/_update_fields_8h.html#a2e55ed49514b6fd17b1ad512520530d6ab22a162a4fc69fc7a93caeb130dc9ff0">CONTAINER_FIELD_NUM_SLOTS</a>, itemProto-&gt;<a class="code hl_variable" href="../../da/d61/struct_item_template.html#a9cddb1335c30a77f6b04aba62874fd50">ContainerSlots</a>);</div>
+<div class="line"><span class="lineno">  113</span>    <span class="comment">// cleanup bag content related item value fields (its will be filled correctly from `character_inventory`)</span></div>
+<div class="line"><span class="lineno">  114</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> i = 0; i &lt; <a class="code hl_define" href="../../d9/d34/_bag_8h.html#a60a065b8fab298fb24dfd8f22f657d77">MAX_BAG_SIZE</a>; ++i)</div>
+<div class="line"><span class="lineno">  115</span>    {</div>
+<div class="line"><span class="lineno">  116</span>        <a class="code hl_function" href="../../d8/d83/class_object.html#a8ba71e40469281133c4e06d5f2de5d03">SetGuidValue</a>(<a class="code hl_enumvalue" href="../../dd/d65/_update_fields_8h.html#a2e55ed49514b6fd17b1ad512520530d6a4dd6adc0aafad2233adde864e8b85650">CONTAINER_FIELD_SLOT_1</a> + (i * 2), <a class="code hl_variable" href="../../d8/d03/class_object_guid.html#a14039d3f3df79203693f713495503165">ObjectGuid::Empty</a>);</div>
+<div class="line"><span class="lineno">  117</span>        <span class="keyword">delete</span> <a class="code hl_variable" href="../../dc/d05/class_bag.html#ad2fdcedba1dec947bfddfcd55a4d92a0">m_bagslot</a>[i];</div>
+<div class="line"><span class="lineno">  118</span>        <a class="code hl_variable" href="../../dc/d05/class_bag.html#ad2fdcedba1dec947bfddfcd55a4d92a0">m_bagslot</a>[i] = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  119</span>    }</div>
+<div class="line"><span class="lineno">  120</span> </div>
+<div class="line"><span class="lineno">  121</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  122</span>}</div>
+<div class="ttc" id="aclass_item_html_a1cff18f16e42238b2d161716ee98cefd"><div class="ttname"><a href="../../dc/d32/class_item.html#a1cff18f16e42238b2d161716ee98cefd">Item::LoadFromDB</a></div><div class="ttdeci">virtual bool LoadFromDB(ObjectGuid::LowType guid, ObjectGuid owner_guid, Field *fields, uint32 entry)</div><div class="ttdef"><b>Definition:</b> Item.cpp:421</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2cf52acefeda5787376ae93d4679d6e9" name="a2cf52acefeda5787376ae93d4679d6e9"></a>
@@ -1046,7 +1253,15 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d8/d83/class_object.html#ad1cde7f4f2084e40ba5606653afc8cf4">Object</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   61</span>{</div>
+<div class="line"><span class="lineno">   62</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> i = 0; i &lt; <a class="code hl_function" href="../../dc/d05/class_bag.html#a0888242c34d30adde36a583c7352a339">GetBagSize</a>(); ++i)</div>
+<div class="line"><span class="lineno">   63</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dc/d05/class_bag.html#ad2fdcedba1dec947bfddfcd55a4d92a0">m_bagslot</a>[i])</div>
+<div class="line"><span class="lineno">   64</span>            <a class="code hl_variable" href="../../dc/d05/class_bag.html#ad2fdcedba1dec947bfddfcd55a4d92a0">m_bagslot</a>[i]-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad1cde7f4f2084e40ba5606653afc8cf4">RemoveFromWorld</a>();</div>
+<div class="line"><span class="lineno">   65</span> </div>
+<div class="line"><span class="lineno">   66</span>    <a class="code hl_function" href="../../d8/d83/class_object.html#ad1cde7f4f2084e40ba5606653afc8cf4">Item::RemoveFromWorld</a>();</div>
+<div class="line"><span class="lineno">   67</span>}</div>
+<div class="ttc" id="aclass_object_html_ad1cde7f4f2084e40ba5606653afc8cf4"><div class="ttname"><a href="../../d8/d83/class_object.html#ad1cde7f4f2084e40ba5606653afc8cf4">Object::RemoveFromWorld</a></div><div class="ttdeci">virtual void RemoveFromWorld()</div><div class="ttdef"><b>Definition:</b> Object.cpp:166</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="abc8317240a86c65cc2e7152681e9a5e1" name="abc8317240a86c65cc2e7152681e9a5e1"></a>
@@ -1074,7 +1289,18 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  144</span>{</div>
+<div class="line"><span class="lineno">  145</span>    <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(slot &lt; <a class="code hl_define" href="../../d9/d34/_bag_8h.html#a60a065b8fab298fb24dfd8f22f657d77">MAX_BAG_SIZE</a>);</div>
+<div class="line"><span class="lineno">  146</span> </div>
+<div class="line"><span class="lineno">  147</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dc/d05/class_bag.html#ad2fdcedba1dec947bfddfcd55a4d92a0">m_bagslot</a>[slot])</div>
+<div class="line"><span class="lineno">  148</span>        <a class="code hl_variable" href="../../dc/d05/class_bag.html#ad2fdcedba1dec947bfddfcd55a4d92a0">m_bagslot</a>[slot]-&gt;<a class="code hl_function" href="../../dc/d32/class_item.html#ad6f61fb4a3f2ff490d87ed32b23159e9">SetContainer</a>(<span class="keyword">nullptr</span>);</div>
+<div class="line"><span class="lineno">  149</span> </div>
+<div class="line"><span class="lineno">  150</span>    <a class="code hl_variable" href="../../dc/d05/class_bag.html#ad2fdcedba1dec947bfddfcd55a4d92a0">m_bagslot</a>[slot] = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  151</span>    <a class="code hl_function" href="../../d8/d83/class_object.html#a8ba71e40469281133c4e06d5f2de5d03">SetGuidValue</a>(<a class="code hl_enumvalue" href="../../dd/d65/_update_fields_8h.html#a2e55ed49514b6fd17b1ad512520530d6a4dd6adc0aafad2233adde864e8b85650">CONTAINER_FIELD_SLOT_1</a> + (slot * 2), <a class="code hl_variable" href="../../d8/d03/class_object_guid.html#a14039d3f3df79203693f713495503165">ObjectGuid::Empty</a>);</div>
+<div class="line"><span class="lineno">  152</span>}</div>
+<div class="ttc" id="a_errors_8h_html_af343b20373ba49a92fce523e948f2ab3"><div class="ttname"><a href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a></div><div class="ttdeci">#define ASSERT</div><div class="ttdef"><b>Definition:</b> Errors.h:68</div></div>
+<div class="ttc" id="aclass_item_html_ad6f61fb4a3f2ff490d87ed32b23159e9"><div class="ttname"><a href="../../dc/d32/class_item.html#ad6f61fb4a3f2ff490d87ed32b23159e9">Item::SetContainer</a></div><div class="ttdeci">void SetContainer(Bag *container)</div><div class="ttdef"><b>Definition:</b> Item.h:277</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a3e7264c06a4249594fbf23d43707f635" name="a3e7264c06a4249594fbf23d43707f635"></a>
@@ -1102,7 +1328,11 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dc/d32/class_item.html#a228268ddaea4ae10da6fc0ddb2748f53">Item</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  102</span>{</div>
+<div class="line"><span class="lineno">  103</span>    <a class="code hl_function" href="../../dc/d32/class_item.html#a228268ddaea4ae10da6fc0ddb2748f53">Item::SaveToDB</a>(trans);</div>
+<div class="line"><span class="lineno">  104</span>}</div>
+<div class="ttc" id="aclass_item_html_a228268ddaea4ae10da6fc0ddb2748f53"><div class="ttname"><a href="../../dc/d32/class_item.html#a228268ddaea4ae10da6fc0ddb2748f53">Item::SaveToDB</a></div><div class="ttdeci">virtual void SaveToDB(CharacterDatabaseTransaction trans)</div><div class="ttdef"><b>Definition:</b> Item.cpp:338</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a1765d07e4de76b9b1cf6eccb125143a1" name="a1765d07e4de76b9b1cf6eccb125143a1"></a>
@@ -1136,7 +1366,23 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  155</span>{</div>
+<div class="line"><span class="lineno">  156</span>    <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(slot &lt; <a class="code hl_define" href="../../d9/d34/_bag_8h.html#a60a065b8fab298fb24dfd8f22f657d77">MAX_BAG_SIZE</a>);</div>
+<div class="line"><span class="lineno">  157</span> </div>
+<div class="line"><span class="lineno">  158</span>    <span class="keywordflow">if</span> (pItem &amp;&amp; pItem-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>() != this-&gt;GetGUID())</div>
+<div class="line"><span class="lineno">  159</span>    {</div>
+<div class="line"><span class="lineno">  160</span>        <a class="code hl_variable" href="../../dc/d05/class_bag.html#ad2fdcedba1dec947bfddfcd55a4d92a0">m_bagslot</a>[slot] = pItem;</div>
+<div class="line"><span class="lineno">  161</span>        <a class="code hl_function" href="../../d8/d83/class_object.html#a8ba71e40469281133c4e06d5f2de5d03">SetGuidValue</a>(<a class="code hl_enumvalue" href="../../dd/d65/_update_fields_8h.html#a2e55ed49514b6fd17b1ad512520530d6a4dd6adc0aafad2233adde864e8b85650">CONTAINER_FIELD_SLOT_1</a> + (slot * 2), pItem-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>());</div>
+<div class="line"><span class="lineno">  162</span>        pItem-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a8ba71e40469281133c4e06d5f2de5d03">SetGuidValue</a>(<a class="code hl_enumvalue" href="../../dd/d65/_update_fields_8h.html#a529e4bfaaee7e3c2dc52aaa447287cfbad33f08fc535881147ce66f205ec1490d">ITEM_FIELD_CONTAINED</a>, <a class="code hl_function" href="../../d8/d83/class_object.html#ae65fbd7720a9aa448516f6cf494bda67">GetGUID</a>());</div>
+<div class="line"><span class="lineno">  163</span>        pItem-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a8ba71e40469281133c4e06d5f2de5d03">SetGuidValue</a>(<a class="code hl_enumvalue" href="../../dd/d65/_update_fields_8h.html#a529e4bfaaee7e3c2dc52aaa447287cfba881d0b16fa30b247b069fc55a19795a4">ITEM_FIELD_OWNER</a>, <a class="code hl_function" href="../../dc/d32/class_item.html#a884d2b63022a7b93f3bd27947c9222af">GetOwnerGUID</a>());</div>
+<div class="line"><span class="lineno">  164</span>        pItem-&gt;<a class="code hl_function" href="../../dc/d32/class_item.html#ad6f61fb4a3f2ff490d87ed32b23159e9">SetContainer</a>(<span class="keyword">this</span>);</div>
+<div class="line"><span class="lineno">  165</span>        pItem-&gt;<a class="code hl_function" href="../../dc/d32/class_item.html#acc5cbbe17bede859ab7b1ebc51205b32">SetSlot</a>(slot);</div>
+<div class="line"><span class="lineno">  166</span>    }</div>
+<div class="line"><span class="lineno">  167</span>}</div>
+<div class="ttc" id="aclass_item_html_a884d2b63022a7b93f3bd27947c9222af"><div class="ttname"><a href="../../dc/d32/class_item.html#a884d2b63022a7b93f3bd27947c9222af">Item::GetOwnerGUID</a></div><div class="ttdeci">ObjectGuid GetOwnerGUID() const</div><div class="ttdef"><b>Definition:</b> Item.h:225</div></div>
+<div class="ttc" id="aclass_item_html_acc5cbbe17bede859ab7b1ebc51205b32"><div class="ttname"><a href="../../dc/d32/class_item.html#acc5cbbe17bede859ab7b1ebc51205b32">Item::SetSlot</a></div><div class="ttdeci">void SetSlot(uint8 slot)</div><div class="ttdef"><b>Definition:</b> Item.h:275</div></div>
+<div class="ttc" id="aclass_object_html_ad23b997e2442fa6a6228ba73a7ecc138"><div class="ttname"><a href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">Object::GetGUID</a></div><div class="ttdeci">static ObjectGuid GetGUID(Object const *o)</div><div class="ttdef"><b>Definition:</b> Object.h:106</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -1163,8 +1409,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Entities/Item/Container/<a class="el" href="../../d9/d34/_bag_8h_source.html">Bag.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/Entities/Item/Container/<a class="el" href="../../d6/d5d/_bag_8cpp.html">Bag.cpp</a></li>
+<li><a class="el" href="../../">Bag.h</a></li>
+<li><a class="el" href="../../">Bag.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -1172,7 +1418,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/d05/class_bag.html">Bag</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:37 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:49 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

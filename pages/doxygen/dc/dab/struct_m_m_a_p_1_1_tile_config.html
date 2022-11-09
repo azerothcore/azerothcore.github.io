@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('dc/dab/struct_m_m_a_p_1_1_tile_config.
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d2/dbb/_map_builder_8h_source.html">MapBuilder.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">MapBuilder.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -131,7 +131,8 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ae3443f89a8a698823c91096abe51a6a9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dab/struct_m_m_a_p_1_1_tile_config.html#ae3443f89a8a698823c91096abe51a6a9">TILES_PER_MAP</a></td></tr>
 <tr class="separator:ae3443f89a8a698823c91096abe51a6a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a67b10c747fb0d2bc2a263e5009d42e1b" name="a67b10c747fb0d2bc2a263e5009d42e1b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a67b10c747fb0d2bc2a263e5009d42e1b">&#9670;&#160;</a></span>TileConfig()</h2>
 
@@ -155,7 +156,23 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   79</span>        {</div>
+<div class="line"><span class="lineno">   80</span>            <span class="comment">// these are WORLD UNIT based metrics</span></div>
+<div class="line"><span class="lineno">   81</span>            <span class="comment">// this are basic unit dimentions</span></div>
+<div class="line"><span class="lineno">   82</span>            <span class="comment">// value have to divide GRID_SIZE(533.3333f) ( aka: 0.5333, 0.2666, 0.3333, 0.1333, etc )</span></div>
+<div class="line"><span class="lineno">   83</span>            <a class="code hl_variable" href="../../dc/dab/struct_m_m_a_p_1_1_tile_config.html#a5a882b0595456ab3fcca85c80af3b6f8">BASE_UNIT_DIM</a> = bigBaseUnit ? 0.5333333f : 0.2666666f;</div>
+<div class="line"><span class="lineno">   84</span> </div>
+<div class="line"><span class="lineno">   85</span>            <span class="comment">// All are in UNIT metrics!</span></div>
+<div class="line"><span class="lineno">   86</span>            <a class="code hl_variable" href="../../dc/dab/struct_m_m_a_p_1_1_tile_config.html#a46640a80428b1ab93d65d593c03d13ed">VERTEX_PER_MAP</a> = int(<a class="code hl_variable" href="../../db/def/namespace_m_m_a_p.html#a16e4fdf7de4239156a5a8eb83dcc9e8c">GRID_SIZE</a> / <a class="code hl_variable" href="../../dc/dab/struct_m_m_a_p_1_1_tile_config.html#a5a882b0595456ab3fcca85c80af3b6f8">BASE_UNIT_DIM</a> + 0.5f);</div>
+<div class="line"><span class="lineno">   87</span>            <a class="code hl_variable" href="../../dc/dab/struct_m_m_a_p_1_1_tile_config.html#ae0331739074e5546818e13527a76524a">VERTEX_PER_TILE</a> = bigBaseUnit ? 40 : 80; <span class="comment">// must divide VERTEX_PER_MAP</span></div>
+<div class="line"><span class="lineno">   88</span>            <a class="code hl_variable" href="../../dc/dab/struct_m_m_a_p_1_1_tile_config.html#ae3443f89a8a698823c91096abe51a6a9">TILES_PER_MAP</a> = <a class="code hl_variable" href="../../dc/dab/struct_m_m_a_p_1_1_tile_config.html#a46640a80428b1ab93d65d593c03d13ed">VERTEX_PER_MAP</a> / <a class="code hl_variable" href="../../dc/dab/struct_m_m_a_p_1_1_tile_config.html#ae0331739074e5546818e13527a76524a">VERTEX_PER_TILE</a>;</div>
+<div class="line"><span class="lineno">   89</span>        }</div>
+<div class="ttc" id="anamespace_m_m_a_p_html_a16e4fdf7de4239156a5a8eb83dcc9e8c"><div class="ttname"><a href="../../db/def/namespace_m_m_a_p.html#a16e4fdf7de4239156a5a8eb83dcc9e8c">MMAP::GRID_SIZE</a></div><div class="ttdeci">static const float GRID_SIZE</div><div class="ttdef"><b>Definition:</b> TerrainBuilder.h:49</div></div>
+<div class="ttc" id="astruct_m_m_a_p_1_1_tile_config_html_a46640a80428b1ab93d65d593c03d13ed"><div class="ttname"><a href="../../dc/dab/struct_m_m_a_p_1_1_tile_config.html#a46640a80428b1ab93d65d593c03d13ed">MMAP::TileConfig::VERTEX_PER_MAP</a></div><div class="ttdeci">int VERTEX_PER_MAP</div><div class="ttdef"><b>Definition:</b> MapBuilder.h:92</div></div>
+<div class="ttc" id="astruct_m_m_a_p_1_1_tile_config_html_a5a882b0595456ab3fcca85c80af3b6f8"><div class="ttname"><a href="../../dc/dab/struct_m_m_a_p_1_1_tile_config.html#a5a882b0595456ab3fcca85c80af3b6f8">MMAP::TileConfig::BASE_UNIT_DIM</a></div><div class="ttdeci">float BASE_UNIT_DIM</div><div class="ttdef"><b>Definition:</b> MapBuilder.h:91</div></div>
+<div class="ttc" id="astruct_m_m_a_p_1_1_tile_config_html_ae0331739074e5546818e13527a76524a"><div class="ttname"><a href="../../dc/dab/struct_m_m_a_p_1_1_tile_config.html#ae0331739074e5546818e13527a76524a">MMAP::TileConfig::VERTEX_PER_TILE</a></div><div class="ttdeci">int VERTEX_PER_TILE</div><div class="ttdef"><b>Definition:</b> MapBuilder.h:93</div></div>
+<div class="ttc" id="astruct_m_m_a_p_1_1_tile_config_html_ae3443f89a8a698823c91096abe51a6a9"><div class="ttname"><a href="../../dc/dab/struct_m_m_a_p_1_1_tile_config.html#ae3443f89a8a698823c91096abe51a6a9">MMAP::TileConfig::TILES_PER_MAP</a></div><div class="ttdeci">int TILES_PER_MAP</div><div class="ttdef"><b>Definition:</b> MapBuilder.h:94</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -216,7 +233,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/tools/mmaps_generator/<a class="el" href="../../d2/dbb/_map_builder_8h_source.html">MapBuilder.h</a></li>
+<li><a class="el" href="../../">MapBuilder.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -224,7 +241,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../db/def/namespace_m_m_a_p.html">MMAP</a></li><li class="navelem"><a class="el" href="../../dc/dab/struct_m_m_a_p_1_1_tile_config.html">TileConfig</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:14 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:32 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

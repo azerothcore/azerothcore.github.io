@@ -116,7 +116,7 @@ $(document).ready(function(){initNavTree('de/d07/class_acore_1_1_signal_handler.
 <p>Handle termination signals.  
  <a href="../../de/d07/class_acore_1_1_signal_handler.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../dc/da5/_signal_handler_8h_source.html">SignalHandler.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">SignalHandler.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -157,7 +157,14 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   50</span>        {</div>
+<div class="line"><span class="lineno">   51</span>            <span class="keywordflow">for</span> (<span class="keyword">auto</span> <span class="keyword">const</span>&amp; sig : <a class="code hl_variable" href="../../de/d07/class_acore_1_1_signal_handler.html#a21b208a696ed4a320a7cf312006a787f">_handled</a>)</div>
+<div class="line"><span class="lineno">   52</span>            {</div>
+<div class="line"><span class="lineno">   53</span>                signal(sig, <span class="keyword">nullptr</span>);</div>
+<div class="line"><span class="lineno">   54</span>            }</div>
+<div class="line"><span class="lineno">   55</span>        }</div>
+<div class="ttc" id="aclass_acore_1_1_signal_handler_html_a21b208a696ed4a320a7cf312006a787f"><div class="ttname"><a href="../../de/d07/class_acore_1_1_signal_handler.html#a21b208a696ed4a320a7cf312006a787f">Acore::SignalHandler::_handled</a></div><div class="ttdeci">std::unordered_set&lt; int &gt; _handled</div><div class="ttdef"><b>Definition:</b> SignalHandler.h:31</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -194,7 +201,20 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   36</span>        {</div>
+<div class="line"><span class="lineno">   37</span>            std::lock_guard lock(<a class="code hl_variable" href="../../de/d07/class_acore_1_1_signal_handler.html#a0c4d6ba642dd3877c3333b067db22db6">_mutex</a>);</div>
+<div class="line"><span class="lineno">   38</span> </div>
+<div class="line"><span class="lineno">   39</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d07/class_acore_1_1_signal_handler.html#a21b208a696ed4a320a7cf312006a787f">_handled</a>.find(sig) != <a class="code hl_variable" href="../../de/d07/class_acore_1_1_signal_handler.html#a21b208a696ed4a320a7cf312006a787f">_handled</a>.end())</div>
+<div class="line"><span class="lineno">   40</span>            {</div>
+<div class="line"><span class="lineno">   41</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   42</span>            }</div>
+<div class="line"><span class="lineno">   43</span> </div>
+<div class="line"><span class="lineno">   44</span>            <a class="code hl_variable" href="../../de/d07/class_acore_1_1_signal_handler.html#a21b208a696ed4a320a7cf312006a787f">_handled</a>.insert(sig);</div>
+<div class="line"><span class="lineno">   45</span>            signal(sig, func);</div>
+<div class="line"><span class="lineno">   46</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   47</span>        }</div>
+<div class="ttc" id="aclass_acore_1_1_signal_handler_html_a0c4d6ba642dd3877c3333b067db22db6"><div class="ttname"><a href="../../de/d07/class_acore_1_1_signal_handler.html#a0c4d6ba642dd3877c3333b067db22db6">Acore::SignalHandler::_mutex</a></div><div class="ttdeci">std::mutex _mutex</div><div class="ttdef"><b>Definition:</b> SignalHandler.h:32</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -243,7 +263,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/common/Utilities/<a class="el" href="../../dc/da5/_signal_handler_8h_source.html">SignalHandler.h</a></li>
+<li><a class="el" href="../../">SignalHandler.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -251,7 +271,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d7d/namespace_acore.html">Acore</a></li><li class="navelem"><a class="el" href="../../de/d07/class_acore_1_1_signal_handler.html">SignalHandler</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:13 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:31 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

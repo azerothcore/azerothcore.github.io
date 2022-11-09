@@ -534,7 +534,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a3a85b2a6e958a965e52a9fde87c08177" name="a3a85b2a6e958a965e52a9fde87c08177"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3a85b2a6e958a965e52a9fde87c08177">&#9670;&#160;</a></span>boss_baron_geddonAI()</h2>
 
@@ -558,7 +559,14 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   52</span>                                                : <a class="code hl_class" href="../../d4/d0e/class_boss_a_i.html">BossAI</a>(creature, <a class="code hl_enumvalue" href="../../d0/dad/molten__core_8h.html#a7c5374c5c88b8d5b5f91cf4ba0b06cfea8ef9b5eb7b8b68e899a377360c8bcf6d">DATA_GEDDON</a>),</div>
+<div class="line"><span class="lineno">   53</span>            <a class="code hl_variable" href="../../dc/dd7/structboss__baron__geddon_1_1boss__baron__geddon_a_i.html#a1a034601a7dda94becbf1801bda63d55">armageddonCasted</a>(<span class="keyword">false</span>)</div>
+<div class="line"><span class="lineno">   54</span>        {</div>
+<div class="line"><span class="lineno">   55</span>        }</div>
+<div class="ttc" id="aclass_boss_a_i_html"><div class="ttname"><a href="../../d4/d0e/class_boss_a_i.html">BossAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:424</div></div>
+<div class="ttc" id="amolten__core_8h_html_a7c5374c5c88b8d5b5f91cf4ba0b06cfea8ef9b5eb7b8b68e899a377360c8bcf6d"><div class="ttname"><a href="../../d0/dad/molten__core_8h.html#a7c5374c5c88b8d5b5f91cf4ba0b06cfea8ef9b5eb7b8b68e899a377360c8bcf6d">DATA_GEDDON</a></div><div class="ttdeci">@ DATA_GEDDON</div><div class="ttdef"><b>Definition:</b> molten_core.h:35</div></div>
+<div class="ttc" id="astructboss__baron__geddon_1_1boss__baron__geddon_a_i_html_a1a034601a7dda94becbf1801bda63d55"><div class="ttname"><a href="../../dc/dd7/structboss__baron__geddon_1_1boss__baron__geddon_a_i.html#a1a034601a7dda94becbf1801bda63d55">boss_baron_geddon::boss_baron_geddonAI::armageddonCasted</a></div><div class="ttdeci">bool armageddonCasted</div><div class="ttdef"><b>Definition:</b> boss_baron_geddon.cpp:120</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -609,7 +617,31 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a0d572a234f887646543620c847bd61cd">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   72</span>        {</div>
+<div class="line"><span class="lineno">   73</span>            <span class="comment">// If boss is below 2% hp - cast Armageddon</span></div>
+<div class="line"><span class="lineno">   74</span>            <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../dc/dd7/structboss__baron__geddon_1_1boss__baron__geddon_a_i.html#a1a034601a7dda94becbf1801bda63d55">armageddonCasted</a> &amp;&amp; damage &lt; me-&gt;GetHealth() &amp;&amp; <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ad08665e79b8df4fd5339b05ae1538dd9">HealthBelowPctDamaged</a>(2, damage))</div>
+<div class="line"><span class="lineno">   75</span>            {</div>
+<div class="line"><span class="lineno">   76</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aac612f06e84142d92dcfc432b5feb4ac">RemoveAurasDueToSpell</a>(<a class="code hl_enumvalue" href="../../da/d0a/boss__baron__geddon_8cpp.html#a5bd342133be8c2137b831460acc9298caef3e4861ce90f1b77eab500dddb31880">SPELL_INFERNO</a>);</div>
+<div class="line"><span class="lineno">   77</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a61edf6ab694fa8f7ed6ef194fd4dd103">StopMoving</a>();</div>
+<div class="line"><span class="lineno">   78</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_enumvalue" href="../../da/d0a/boss__baron__geddon_8cpp.html#a5bd342133be8c2137b831460acc9298ca5e072139138a1aa0f4820669940855a2">SPELL_ARMAGEDDON</a>, <a class="code hl_enumvalue" href="../../d2/d6d/_spell_defines_8h.html#a9f3c49d8db7e142b86eba36bc8951967a10578b171eb74dc9851866cc6eb53f3a">TRIGGERED_FULL_MASK</a>) == <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#ade9b4e913a84079f5311c2817e3de9daadb56426fd2113c3ff3ff3d1815d79fa6">SPELL_CAST_OK</a>)</div>
+<div class="line"><span class="lineno">   79</span>                {</div>
+<div class="line"><span class="lineno">   80</span>                    <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../da/d0a/boss__baron__geddon_8cpp.html#a2d0a63150f7988db8ff39124dc1cb21aa5163e38d154f523096097f5146ea2fed">EMOTE_SERVICE</a>);</div>
+<div class="line"><span class="lineno">   81</span>                    <a class="code hl_variable" href="../../dc/dd7/structboss__baron__geddon_1_1boss__baron__geddon_a_i.html#a1a034601a7dda94becbf1801bda63d55">armageddonCasted</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   82</span>                }</div>
+<div class="line"><span class="lineno">   83</span>            }</div>
+<div class="line"><span class="lineno">   84</span>        }</div>
+<div class="ttc" id="a_shared_defines_8h_html_ade9b4e913a84079f5311c2817e3de9daadb56426fd2113c3ff3ff3d1815d79fa6"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#ade9b4e913a84079f5311c2817e3de9daadb56426fd2113c3ff3ff3d1815d79fa6">SPELL_CAST_OK</a></div><div class="ttdeci">@ SPELL_CAST_OK</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1110</div></div>
+<div class="ttc" id="a_spell_defines_8h_html_a9f3c49d8db7e142b86eba36bc8951967a10578b171eb74dc9851866cc6eb53f3a"><div class="ttname"><a href="../../d2/d6d/_spell_defines_8h.html#a9f3c49d8db7e142b86eba36bc8951967a10578b171eb74dc9851866cc6eb53f3a">TRIGGERED_FULL_MASK</a></div><div class="ttdeci">@ TRIGGERED_FULL_MASK</div><div class="ttdoc">Will return SPELL_FAILED_DONT_REPORT in CheckCast functions.</div><div class="ttdef"><b>Definition:</b> SpellDefines.h:148</div></div>
+<div class="ttc" id="aboss__baron__geddon_8cpp_html_a2d0a63150f7988db8ff39124dc1cb21aa5163e38d154f523096097f5146ea2fed"><div class="ttname"><a href="../../da/d0a/boss__baron__geddon_8cpp.html#a2d0a63150f7988db8ff39124dc1cb21aa5163e38d154f523096097f5146ea2fed">EMOTE_SERVICE</a></div><div class="ttdeci">@ EMOTE_SERVICE</div><div class="ttdef"><b>Definition:</b> boss_baron_geddon.cpp:26</div></div>
+<div class="ttc" id="aboss__baron__geddon_8cpp_html_a5bd342133be8c2137b831460acc9298ca5e072139138a1aa0f4820669940855a2"><div class="ttname"><a href="../../da/d0a/boss__baron__geddon_8cpp.html#a5bd342133be8c2137b831460acc9298ca5e072139138a1aa0f4820669940855a2">SPELL_ARMAGEDDON</a></div><div class="ttdeci">@ SPELL_ARMAGEDDON</div><div class="ttdef"><b>Definition:</b> boss_baron_geddon.cpp:35</div></div>
+<div class="ttc" id="aboss__baron__geddon_8cpp_html_a5bd342133be8c2137b831460acc9298caef3e4861ce90f1b77eab500dddb31880"><div class="ttname"><a href="../../da/d0a/boss__baron__geddon_8cpp.html#a5bd342133be8c2137b831460acc9298caef3e4861ce90f1b77eab500dddb31880">SPELL_INFERNO</a></div><div class="ttdeci">@ SPELL_INFERNO</div><div class="ttdef"><b>Definition:</b> boss_baron_geddon.cpp:31</div></div>
+<div class="ttc" id="aboss__fathomlord__karathress_8cpp_html_a747a224b6b3195f9a33c56ddc6c7e268"><div class="ttname"><a href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a></div><div class="ttdeci">Talk</div><div class="ttdef"><b>Definition:</b> boss_fathomlord_karathress.cpp:23</div></div>
+<div class="ttc" id="aclass_unit_html_a61edf6ab694fa8f7ed6ef194fd4dd103"><div class="ttname"><a href="../../da/db7/class_unit.html#a61edf6ab694fa8f7ed6ef194fd4dd103">Unit::StopMoving</a></div><div class="ttdeci">void StopMoving()</div><div class="ttdef"><b>Definition:</b> Unit.cpp:16736</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+<div class="ttc" id="aclass_unit_html_aac612f06e84142d92dcfc432b5feb4ac"><div class="ttname"><a href="../../da/db7/class_unit.html#aac612f06e84142d92dcfc432b5feb4ac">Unit::RemoveAurasDueToSpell</a></div><div class="ttdeci">void RemoveAurasDueToSpell(uint32 spellId, ObjectGuid casterGUID=ObjectGuid::Empty, uint8 reqEffMask=0, AuraRemoveMode removeMode=AURA_REMOVE_BY_DEFAULT)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:4823</div></div>
+<div class="ttc" id="aclass_unit_html_ad08665e79b8df4fd5339b05ae1538dd9"><div class="ttname"><a href="../../da/db7/class_unit.html#ad08665e79b8df4fd5339b05ae1538dd9">Unit::HealthBelowPctDamaged</a></div><div class="ttdeci">bool HealthBelowPctDamaged(int32 pct, uint32 damage) const</div><div class="ttdef"><b>Definition:</b> Unit.h:1443</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a3b9bc809cb2f1927f20bd5233e886f13" name="a3b9bc809cb2f1927f20bd5233e886f13"></a>
@@ -637,7 +669,19 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d4/d0e/class_boss_a_i.html#a2f3d2c15114cff26b92dedd45dff0905">BossAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   64</span>        {</div>
+<div class="line"><span class="lineno">   65</span>            <a class="code hl_function" href="../../d4/d0e/class_boss_a_i.html#adbdded8bea1d5cf779f2aed9bc2a4821">_EnterCombat</a>();</div>
+<div class="line"><span class="lineno">   66</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../da/d0a/boss__baron__geddon_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a1657ad56db1046e9ccbdcfcb6e20d844">EVENT_INFERNO</a>, <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(13000, 15000));</div>
+<div class="line"><span class="lineno">   67</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../da/d0a/boss__baron__geddon_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a2211798be62b95fa9bdde736f3cacdd1">EVENT_IGNITE_MANA</a>, <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(7000, 19000));</div>
+<div class="line"><span class="lineno">   68</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../da/d0a/boss__baron__geddon_8cpp.html#af60e00b78607064c5be6aa9397ea49c1aa214943ff0c852409ba9986b13d8390e">EVENT_LIVING_BOMB</a>, <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(11000, 16000));</div>
+<div class="line"><span class="lineno">   69</span>        }</div>
+<div class="ttc" id="a_random_8cpp_html_ab17def34ccbbd868dc87a16bf35acdbd"><div class="ttname"><a href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a></div><div class="ttdeci">uint32 urand(uint32 min, uint32 max)</div><div class="ttdef"><b>Definition:</b> Random.cpp:44</div></div>
+<div class="ttc" id="aboss__baron__geddon_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a1657ad56db1046e9ccbdcfcb6e20d844"><div class="ttname"><a href="../../da/d0a/boss__baron__geddon_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a1657ad56db1046e9ccbdcfcb6e20d844">EVENT_INFERNO</a></div><div class="ttdeci">@ EVENT_INFERNO</div><div class="ttdef"><b>Definition:</b> boss_baron_geddon.cpp:40</div></div>
+<div class="ttc" id="aboss__baron__geddon_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a2211798be62b95fa9bdde736f3cacdd1"><div class="ttname"><a href="../../da/d0a/boss__baron__geddon_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a2211798be62b95fa9bdde736f3cacdd1">EVENT_IGNITE_MANA</a></div><div class="ttdeci">@ EVENT_IGNITE_MANA</div><div class="ttdef"><b>Definition:</b> boss_baron_geddon.cpp:41</div></div>
+<div class="ttc" id="aboss__baron__geddon_8cpp_html_af60e00b78607064c5be6aa9397ea49c1aa214943ff0c852409ba9986b13d8390e"><div class="ttname"><a href="../../da/d0a/boss__baron__geddon_8cpp.html#af60e00b78607064c5be6aa9397ea49c1aa214943ff0c852409ba9986b13d8390e">EVENT_LIVING_BOMB</a></div><div class="ttdeci">@ EVENT_LIVING_BOMB</div><div class="ttdef"><b>Definition:</b> boss_baron_geddon.cpp:42</div></div>
+<div class="ttc" id="aboss__sartura_8cpp_html_ad29858f6d8ab73f2970f41cb21a76b84"><div class="ttname"><a href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a></div><div class="ttdeci">events</div><div class="ttdef"><b>Definition:</b> boss_sartura.cpp:43</div></div>
+<div class="ttc" id="aclass_boss_a_i_html_adbdded8bea1d5cf779f2aed9bc2a4821"><div class="ttname"><a href="../../d4/d0e/class_boss_a_i.html#adbdded8bea1d5cf779f2aed9bc2a4821">BossAI::_EnterCombat</a></div><div class="ttdeci">void _EnterCombat()</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.cpp:562</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2c3ed57dd0336ce8ac1a85c957da9e4a" name="a2c3ed57dd0336ce8ac1a85c957da9e4a"></a>
@@ -665,7 +709,44 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d4/d0e/class_boss_a_i.html#a8bf8914221409d5403cf3522f70d28d6">BossAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   87</span>        {</div>
+<div class="line"><span class="lineno">   88</span>            <span class="keywordflow">switch</span> (eventId)</div>
+<div class="line"><span class="lineno">   89</span>            {</div>
+<div class="line"><span class="lineno">   90</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../da/d0a/boss__baron__geddon_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a1657ad56db1046e9ccbdcfcb6e20d844">EVENT_INFERNO</a>:</div>
+<div class="line"><span class="lineno">   91</span>                {</div>
+<div class="line"><span class="lineno">   92</span>                    <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a1e37cbb75f91c247b04131afc7ce35f5">DoCastAOE</a>(<a class="code hl_enumvalue" href="../../da/d0a/boss__baron__geddon_8cpp.html#a5bd342133be8c2137b831460acc9298caef3e4861ce90f1b77eab500dddb31880">SPELL_INFERNO</a>);</div>
+<div class="line"><span class="lineno">   93</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.RepeatEvent(<a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(21000, 26000));</div>
+<div class="line"><span class="lineno">   94</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   95</span>                }</div>
+<div class="line"><span class="lineno">   96</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../da/d0a/boss__baron__geddon_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a2211798be62b95fa9bdde736f3cacdd1">EVENT_IGNITE_MANA</a>:</div>
+<div class="line"><span class="lineno">   97</span>                {</div>
+<div class="line"><span class="lineno">   98</span>                    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target = <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6daed910a7666394bcbf8abd2f20096e">SelectTarget</a>(SelectTargetMethod::Random, 0, 0.0f, <span class="keyword">true</span>, -<a class="code hl_enumvalue" href="../../da/d0a/boss__baron__geddon_8cpp.html#a5bd342133be8c2137b831460acc9298ca9f3eaef76d90f9f4efa2721af5b500ca">SPELL_IGNITE_MANA</a>))</div>
+<div class="line"><span class="lineno">   99</span>                    {</div>
+<div class="line"><span class="lineno">  100</span>                        <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(target, <a class="code hl_enumvalue" href="../../da/d0a/boss__baron__geddon_8cpp.html#a5bd342133be8c2137b831460acc9298ca9f3eaef76d90f9f4efa2721af5b500ca">SPELL_IGNITE_MANA</a>);</div>
+<div class="line"><span class="lineno">  101</span>                    }</div>
+<div class="line"><span class="lineno">  102</span> </div>
+<div class="line"><span class="lineno">  103</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.RepeatEvent(<a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(27000, 32000));</div>
+<div class="line"><span class="lineno">  104</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  105</span>                }</div>
+<div class="line"><span class="lineno">  106</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../da/d0a/boss__baron__geddon_8cpp.html#af60e00b78607064c5be6aa9397ea49c1aa214943ff0c852409ba9986b13d8390e">EVENT_LIVING_BOMB</a>:</div>
+<div class="line"><span class="lineno">  107</span>                {</div>
+<div class="line"><span class="lineno">  108</span>                    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target = <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6daed910a7666394bcbf8abd2f20096e">SelectTarget</a>(SelectTargetMethod::Random, 0, 0.0f, <span class="keyword">true</span>))</div>
+<div class="line"><span class="lineno">  109</span>                    {</div>
+<div class="line"><span class="lineno">  110</span>                        <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(target, <a class="code hl_enumvalue" href="../../da/d0a/boss__baron__geddon_8cpp.html#a5bd342133be8c2137b831460acc9298ca8ba35a20d685bfead078cebfceb73ab1">SPELL_LIVING_BOMB</a>);</div>
+<div class="line"><span class="lineno">  111</span>                    }</div>
+<div class="line"><span class="lineno">  112</span> </div>
+<div class="line"><span class="lineno">  113</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.RepeatEvent(<a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(11000, 16000));</div>
+<div class="line"><span class="lineno">  114</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  115</span>                }</div>
+<div class="line"><span class="lineno">  116</span>            }</div>
+<div class="line"><span class="lineno">  117</span>        }</div>
+<div class="ttc" id="aboss__baron__geddon_8cpp_html_a5bd342133be8c2137b831460acc9298ca8ba35a20d685bfead078cebfceb73ab1"><div class="ttname"><a href="../../da/d0a/boss__baron__geddon_8cpp.html#a5bd342133be8c2137b831460acc9298ca8ba35a20d685bfead078cebfceb73ab1">SPELL_LIVING_BOMB</a></div><div class="ttdeci">@ SPELL_LIVING_BOMB</div><div class="ttdef"><b>Definition:</b> boss_baron_geddon.cpp:34</div></div>
+<div class="ttc" id="aboss__baron__geddon_8cpp_html_a5bd342133be8c2137b831460acc9298ca9f3eaef76d90f9f4efa2721af5b500ca"><div class="ttname"><a href="../../da/d0a/boss__baron__geddon_8cpp.html#a5bd342133be8c2137b831460acc9298ca9f3eaef76d90f9f4efa2721af5b500ca">SPELL_IGNITE_MANA</a></div><div class="ttdeci">@ SPELL_IGNITE_MANA</div><div class="ttdef"><b>Definition:</b> boss_baron_geddon.cpp:33</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a1e37cbb75f91c247b04131afc7ce35f5"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a1e37cbb75f91c247b04131afc7ce35f5">UnitAI::DoCastAOE</a></div><div class="ttdeci">SpellCastResult DoCastAOE(uint32 spellId, bool triggered=false)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:249</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a6daed910a7666394bcbf8abd2f20096e"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a6daed910a7666394bcbf8abd2f20096e">UnitAI::SelectTarget</a></div><div class="ttdeci">Unit * SelectTarget(SelectTargetMethod targetType, uint32 position=0, float dist=0.0f, bool playerOnly=false, int32 aura=0)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:111</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_aeebcad9b6effa45145c50f06af60b23d"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">UnitAI::DoCast</a></div><div class="ttdeci">SpellCastResult DoCast(uint32 spellId)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:178</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aaf47fc993e672877f51b5095f682906c" name="aaf47fc993e672877f51b5095f682906c"></a>
@@ -692,7 +773,12 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d4/d0e/class_boss_a_i.html#abe75353ec3f0c86502696b8ccb059cb7">BossAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   58</span>        {</div>
+<div class="line"><span class="lineno">   59</span>            <a class="code hl_function" href="../../d4/d0e/class_boss_a_i.html#acdc89a1df0e62952becf83d9e1bd6299">_Reset</a>();</div>
+<div class="line"><span class="lineno">   60</span>            <a class="code hl_variable" href="../../dc/dd7/structboss__baron__geddon_1_1boss__baron__geddon_a_i.html#a1a034601a7dda94becbf1801bda63d55">armageddonCasted</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   61</span>        }</div>
+<div class="ttc" id="aclass_boss_a_i_html_acdc89a1df0e62952becf83d9e1bd6299"><div class="ttname"><a href="../../d4/d0e/class_boss_a_i.html#acdc89a1df0e62952becf83d9e1bd6299">BossAI::_Reset</a></div><div class="ttdeci">void _Reset()</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.cpp:539</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -719,7 +805,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/EasternKingdoms/BlackrockMountain/MoltenCore/<a class="el" href="../../da/d0a/boss__baron__geddon_8cpp.html">boss_baron_geddon.cpp</a></li>
+<li><a class="el" href="../../">boss_baron_geddon.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -727,7 +813,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d9/de9/classboss__baron__geddon.html">boss_baron_geddon</a></li><li class="navelem"><a class="el" href="../../dc/dd7/structboss__baron__geddon_1_1boss__baron__geddon_a_i.html">boss_baron_geddonAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:38 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:50 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -114,7 +114,7 @@ $(document).ready(function(){initNavTree('dc/d74/class_assist_delay_event.html',
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d8/d93/_creature_8h_source.html">Creature.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">Creature.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for AssistDelayEvent:</div>
 <div class="dyncontent">
@@ -161,7 +161,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:aabcce364c8009e8172b9d090059ce48c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/dac/class_creature.html">Creature</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d74/class_assist_delay_event.html#aabcce364c8009e8172b9d090059ce48c">m_owner</a></td></tr>
 <tr class="separator:aabcce364c8009e8172b9d090059ce48c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a022b9cf38b8e059df2dceca38e366b7d" name="a022b9cf38b8e059df2dceca38e366b7d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a022b9cf38b8e059df2dceca38e366b7d">&#9670;&#160;</a></span>AssistDelayEvent() <span class="overload">[1/2]</span></h2>
 
@@ -195,7 +196,11 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  478</span>: <a class="code hl_function" href="../../d0/df3/class_basic_event.html#a9c3cd17edab7fc410f88bb680d756975">BasicEvent</a>(), <a class="code hl_variable" href="../../dc/d74/class_assist_delay_event.html#a47aff9ce39f5fec3718d6564e53b799e">m_victim</a>(victim), <a class="code hl_variable" href="../../dc/d74/class_assist_delay_event.html#aabcce364c8009e8172b9d090059ce48c">m_owner</a>(owner) { }</div>
+<div class="ttc" id="aclass_assist_delay_event_html_a47aff9ce39f5fec3718d6564e53b799e"><div class="ttname"><a href="../../dc/d74/class_assist_delay_event.html#a47aff9ce39f5fec3718d6564e53b799e">AssistDelayEvent::m_victim</a></div><div class="ttdeci">ObjectGuid m_victim</div><div class="ttdef"><b>Definition:</b> Creature.h:486</div></div>
+<div class="ttc" id="aclass_assist_delay_event_html_aabcce364c8009e8172b9d090059ce48c"><div class="ttname"><a href="../../dc/d74/class_assist_delay_event.html#aabcce364c8009e8172b9d090059ce48c">AssistDelayEvent::m_owner</a></div><div class="ttdeci">Creature * m_owner</div><div class="ttdef"><b>Definition:</b> Creature.h:488</div></div>
+<div class="ttc" id="aclass_basic_event_html_a9c3cd17edab7fc410f88bb680d756975"><div class="ttname"><a href="../../d0/df3/class_basic_event.html#a9c3cd17edab7fc410f88bb680d756975">BasicEvent::BasicEvent</a></div><div class="ttdeci">BasicEvent()=default</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a5371fc2a2f9334b821058b96d0c6bc13" name="a5371fc2a2f9334b821058b96d0c6bc13"></a>
@@ -247,7 +252,9 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  481</span>{ <a class="code hl_variable" href="../../dc/d74/class_assist_delay_event.html#ac6de6befda582bd38f92afda01204e94">m_assistants</a>.push_back(guid); }</div>
+<div class="ttc" id="aclass_assist_delay_event_html_ac6de6befda582bd38f92afda01204e94"><div class="ttname"><a href="../../dc/d74/class_assist_delay_event.html#ac6de6befda582bd38f92afda01204e94">AssistDelayEvent::m_assistants</a></div><div class="ttdeci">GuidList m_assistants</div><div class="ttdef"><b>Definition:</b> Creature.h:487</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a5afd295abeb1295e43f48b8951b24c35" name="a5afd295abeb1295e43f48b8951b24c35"></a>
@@ -285,7 +292,46 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d0/df3/class_basic_event.html#a89297a10b64d01895332655122ed8ccb">BasicEvent</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  168</span>{</div>
+<div class="line"><span class="lineno">  169</span>    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* victim = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#a02c2dfb59db7d7e2501dcc9a4f9baf07">ObjectAccessor::GetUnit</a>(*<a class="code hl_variable" href="../../dc/d74/class_assist_delay_event.html#aabcce364c8009e8172b9d090059ce48c">m_owner</a>, <a class="code hl_variable" href="../../dc/d74/class_assist_delay_event.html#a47aff9ce39f5fec3718d6564e53b799e">m_victim</a>))</div>
+<div class="line"><span class="lineno">  170</span>    {</div>
+<div class="line"><span class="lineno">  171</span>        <span class="comment">// Initialize last damage timer if it doesn&#39;t exist</span></div>
+<div class="line"><span class="lineno">  172</span>        <a class="code hl_variable" href="../../dc/d74/class_assist_delay_event.html#aabcce364c8009e8172b9d090059ce48c">m_owner</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a43f2256b50fcca165dd1469a33a08d36">SetLastDamagedTime</a>(<a class="code hl_function" href="../../d4/d1c/namespace_game_time.html#adbe1785d1327dedf2ac403b7cc8e99c2">GameTime::GetGameTime</a>().count() + <a class="code hl_define" href="../../dd/de2/_creature_data_8h.html#a8e7138fa4d60c160a41804cb93cd171b">MAX_AGGRO_RESET_TIME</a>);</div>
+<div class="line"><span class="lineno">  173</span> </div>
+<div class="line"><span class="lineno">  174</span>        <span class="keywordflow">while</span> (!<a class="code hl_variable" href="../../dc/d74/class_assist_delay_event.html#ac6de6befda582bd38f92afda01204e94">m_assistants</a>.empty())</div>
+<div class="line"><span class="lineno">  175</span>        {</div>
+<div class="line"><span class="lineno">  176</span>            <a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* assistant = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a>(*<a class="code hl_variable" href="../../dc/d74/class_assist_delay_event.html#aabcce364c8009e8172b9d090059ce48c">m_owner</a>, *<a class="code hl_variable" href="../../dc/d74/class_assist_delay_event.html#ac6de6befda582bd38f92afda01204e94">m_assistants</a>.begin());</div>
+<div class="line"><span class="lineno">  177</span>            <a class="code hl_variable" href="../../dc/d74/class_assist_delay_event.html#ac6de6befda582bd38f92afda01204e94">m_assistants</a>.pop_front();</div>
+<div class="line"><span class="lineno">  178</span> </div>
+<div class="line"><span class="lineno">  179</span>            <span class="keywordflow">if</span> (assistant &amp;&amp; assistant-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#ab6b53aeb869c6542525bddfad563098a">CanAssistTo</a>(<a class="code hl_variable" href="../../dc/d74/class_assist_delay_event.html#aabcce364c8009e8172b9d090059ce48c">m_owner</a>, victim))</div>
+<div class="line"><span class="lineno">  180</span>            {</div>
+<div class="line"><span class="lineno">  181</span>                assistant-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#ae0de152b2fd7b000237f2e6f8d7bfc6e">SetNoCallAssistance</a>(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  182</span>                assistant-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a582e569d125ef994b2a36faa0a4502c7">CombatStart</a>(victim);</div>
+<div class="line"><span class="lineno">  183</span>                <span class="keywordflow">if</span> (assistant-&gt;<a class="code hl_variable" href="../../da/db7/class_unit.html#ab395fef0b407c0af40ba6274c32730a6">IsAIEnabled</a>)</div>
+<div class="line"><span class="lineno">  184</span>                    assistant-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">AI</a>()-&gt;<a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#ae120634c255d365f1567e341e2cf1feb">AttackStart</a>(victim);</div>
+<div class="line"><span class="lineno">  185</span> </div>
+<div class="line"><span class="lineno">  186</span>                assistant-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a6ec21a7a636f4f5613694a483d0f7a8a">SetLastDamagedTimePtr</a>(<a class="code hl_variable" href="../../dc/d74/class_assist_delay_event.html#aabcce364c8009e8172b9d090059ce48c">m_owner</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#ac11204d58c76c6ed5d61f3690875bd17">GetLastDamagedTimePtr</a>());</div>
+<div class="line"><span class="lineno">  187</span>            }</div>
+<div class="line"><span class="lineno">  188</span>        }</div>
+<div class="line"><span class="lineno">  189</span>    }</div>
+<div class="line"><span class="lineno">  190</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  191</span>}</div>
+<div class="ttc" id="a_creature_data_8h_html_a8e7138fa4d60c160a41804cb93cd171b"><div class="ttname"><a href="../../dd/de2/_creature_data_8h.html#a8e7138fa4d60c160a41804cb93cd171b">MAX_AGGRO_RESET_TIME</a></div><div class="ttdeci">#define MAX_AGGRO_RESET_TIME</div><div class="ttdef"><b>Definition:</b> CreatureData.h:32</div></div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_creature_html_a43f2256b50fcca165dd1469a33a08d36"><div class="ttname"><a href="../../d1/dac/class_creature.html#a43f2256b50fcca165dd1469a33a08d36">Creature::SetLastDamagedTime</a></div><div class="ttdeci">void SetLastDamagedTime(time_t val)</div><div class="ttdef"><b>Definition:</b> Creature.cpp:3550</div></div>
+<div class="ttc" id="aclass_creature_html_a6ec21a7a636f4f5613694a483d0f7a8a"><div class="ttname"><a href="../../d1/dac/class_creature.html#a6ec21a7a636f4f5613694a483d0f7a8a">Creature::SetLastDamagedTimePtr</a></div><div class="ttdeci">void SetLastDamagedTimePtr(std::shared_ptr&lt; time_t &gt; const &amp;val)</div><div class="ttdef"><b>Definition:</b> Creature.cpp:3563</div></div>
+<div class="ttc" id="aclass_creature_html_ab6b53aeb869c6542525bddfad563098a"><div class="ttname"><a href="../../d1/dac/class_creature.html#ab6b53aeb869c6542525bddfad563098a">Creature::CanAssistTo</a></div><div class="ttdeci">bool CanAssistTo(Unit const *u, Unit const *enemy, bool checkfaction=true) const</div><div class="ttdef"><b>Definition:</b> Creature.cpp:2397</div></div>
+<div class="ttc" id="aclass_creature_html_ac11204d58c76c6ed5d61f3690875bd17"><div class="ttname"><a href="../../d1/dac/class_creature.html#ac11204d58c76c6ed5d61f3690875bd17">Creature::GetLastDamagedTimePtr</a></div><div class="ttdeci">std::shared_ptr&lt; time_t &gt; const &amp; GetLastDamagedTimePtr() const</div><div class="ttdef"><b>Definition:</b> Creature.cpp:3545</div></div>
+<div class="ttc" id="aclass_creature_html_ae0de152b2fd7b000237f2e6f8d7bfc6e"><div class="ttname"><a href="../../d1/dac/class_creature.html#ae0de152b2fd7b000237f2e6f8d7bfc6e">Creature::SetNoCallAssistance</a></div><div class="ttdeci">void SetNoCallAssistance(bool val)</div><div class="ttdef"><b>Definition:</b> Creature.h:258</div></div>
+<div class="ttc" id="aclass_creature_html_af2188eef9620b5af52ef2d3ac142db67"><div class="ttname"><a href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">Creature::AI</a></div><div class="ttdeci">CreatureAI * AI() const</div><div class="ttdef"><b>Definition:</b> Creature.h:134</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_ae120634c255d365f1567e341e2cf1feb"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#ae120634c255d365f1567e341e2cf1feb">UnitAI::AttackStart</a></div><div class="ttdeci">virtual void AttackStart(Unit *)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:28</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_a582e569d125ef994b2a36faa0a4502c7"><div class="ttname"><a href="../../da/db7/class_unit.html#a582e569d125ef994b2a36faa0a4502c7">Unit::CombatStart</a></div><div class="ttdeci">void CombatStart(Unit *target, bool initialAggro=true)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:13529</div></div>
+<div class="ttc" id="aclass_unit_html_ab395fef0b407c0af40ba6274c32730a6"><div class="ttname"><a href="../../da/db7/class_unit.html#ab395fef0b407c0af40ba6274c32730a6">Unit::IsAIEnabled</a></div><div class="ttdeci">bool IsAIEnabled</div><div class="ttdef"><b>Definition:</b> Unit.h:2345</div></div>
+<div class="ttc" id="anamespace_game_time_html_adbe1785d1327dedf2ac403b7cc8e99c2"><div class="ttname"><a href="../../d4/d1c/namespace_game_time.html#adbe1785d1327dedf2ac403b7cc8e99c2">GameTime::GetGameTime</a></div><div class="ttdeci">Seconds GetGameTime()</div><div class="ttdef"><b>Definition:</b> GameTime.cpp:38</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_a02c2dfb59db7d7e2501dcc9a4f9baf07"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#a02c2dfb59db7d7e2501dcc9a4f9baf07">ObjectAccessor::GetUnit</a></div><div class="ttdeci">Unit * GetUnit(WorldObject const &amp;, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:204</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_ae42e503fe79bbeaea1aaa665418c43f8"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a></div><div class="ttdeci">Creature * GetCreature(WorldObject const &amp;u, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:215</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -356,8 +402,8 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Entities/Creature/<a class="el" href="../../d8/d93/_creature_8h_source.html">Creature.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/Entities/Creature/<a class="el" href="../../d3/d9d/_creature_8cpp.html">Creature.cpp</a></li>
+<li><a class="el" href="../../">Creature.h</a></li>
+<li><a class="el" href="../../">Creature.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -365,7 +411,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/d74/class_assist_delay_event.html">AssistDelayEvent</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:37 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:48 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

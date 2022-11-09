@@ -184,7 +184,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a22a51a980875ccae8a285d7804967747 inherit pro_attribs_class_game_object_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/dd1/class_game_object.html">GameObject</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db8/class_game_object_a_i.html#a22a51a980875ccae8a285d7804967747">me</a></td></tr>
 <tr class="separator:a22a51a980875ccae8a285d7804967747 inherit pro_attribs_class_game_object_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a603641bc52d26521d64afaaeed3abc4d" name="a603641bc52d26521d64afaaeed3abc4d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a603641bc52d26521d64afaaeed3abc4d">&#9670;&#160;</a></span>go_loosely_turned_soilAI()</h2>
 
@@ -208,7 +209,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1403</span>: <a class="code hl_class" href="../../d7/db8/class_game_object_a_i.html">GameObjectAI</a>(gameObject) { }</div>
+<div class="ttc" id="aclass_game_object_a_i_html"><div class="ttname"><a href="../../d7/db8/class_game_object_a_i.html">GameObjectAI</a></div><div class="ttdef"><b>Definition:</b> GameObjectAI.h:33</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -237,11 +240,24 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d7/db8/class_game_object_a_i.html#afc78344df8960b50913bc434fd01351f">GameObjectAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1406</span>        {</div>
+<div class="line"><span class="lineno"> 1407</span>            <span class="keywordflow">if</span> (player-&gt;IsGameMaster())</div>
+<div class="line"><span class="lineno"> 1408</span>            {</div>
+<div class="line"><span class="lineno"> 1409</span>                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 1410</span>            }</div>
+<div class="line"><span class="lineno"> 1411</span> </div>
+<div class="line"><span class="lineno"> 1412</span>            <a class="code hl_class" href="../../da/d50/class_group.html">Group</a> <span class="keyword">const</span>* group = player-&gt;GetGroup();</div>
+<div class="line"><span class="lineno"> 1413</span>            <span class="keywordflow">return</span> group &amp;&amp; <a class="code hl_define" href="../../df/dfb/_l_f_g_mgr_8h.html#a9876016115774ddaf27fca5cc9adb96e">sLFGMgr</a>-&gt;GetDungeon(group-&gt;<a class="code hl_function" href="../../da/d50/class_group.html#a68c38a89619391cc85eeac2bf2b96ac4">GetGUID</a>()) == <a class="code hl_enumvalue" href="../../de/d72/namespacelfg.html#a7a9bf5071b96b3fc85b1c3c7a4d6a06da3b710e1f7409dcce1369d24da8d0e27c">lfg::LFG_DUNGEON_HEADLESS_HORSEMAN</a>;</div>
+<div class="line"><span class="lineno"> 1414</span>        }</div>
+<div class="ttc" id="a_l_f_g_mgr_8h_html_a9876016115774ddaf27fca5cc9adb96e"><div class="ttname"><a href="../../df/dfb/_l_f_g_mgr_8h.html#a9876016115774ddaf27fca5cc9adb96e">sLFGMgr</a></div><div class="ttdeci">#define sLFGMgr</div><div class="ttdef"><b>Definition:</b> LFGMgr.h:638</div></div>
+<div class="ttc" id="aclass_group_html"><div class="ttname"><a href="../../da/d50/class_group.html">Group</a></div><div class="ttdef"><b>Definition:</b> Group.h:168</div></div>
+<div class="ttc" id="aclass_group_html_a68c38a89619391cc85eeac2bf2b96ac4"><div class="ttname"><a href="../../da/d50/class_group.html#a68c38a89619391cc85eeac2bf2b96ac4">Group::GetGUID</a></div><div class="ttdeci">ObjectGuid GetGUID() const</div><div class="ttdef"><b>Definition:</b> Group.cpp:2241</div></div>
+<div class="ttc" id="anamespacelfg_html_a7a9bf5071b96b3fc85b1c3c7a4d6a06da3b710e1f7409dcce1369d24da8d0e27c"><div class="ttname"><a href="../../de/d72/namespacelfg.html#a7a9bf5071b96b3fc85b1c3c7a4d6a06da3b710e1f7409dcce1369d24da8d0e27c">lfg::LFG_DUNGEON_HEADLESS_HORSEMAN</a></div><div class="ttdeci">@ LFG_DUNGEON_HEADLESS_HORSEMAN</div><div class="ttdef"><b>Definition:</b> LFGMgr.h:148</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Events/<a class="el" href="../../d3/dec/hallows__end_8cpp.html">hallows_end.cpp</a></li>
+<li><a class="el" href="../../">hallows_end.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -249,7 +265,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dd/db6/classgo__loosely__turned__soil.html">go_loosely_turned_soil</a></li><li class="navelem"><a class="el" href="../../d7/dbf/structgo__loosely__turned__soil_1_1go__loosely__turned__soil_a_i.html">go_loosely_turned_soilAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:45 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:59 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

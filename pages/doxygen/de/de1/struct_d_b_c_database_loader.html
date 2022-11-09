@@ -114,7 +114,7 @@ $(document).ready(function(){initNavTree('de/de1/struct_d_b_c_database_loader.ht
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d2/d7b/_d_b_c_database_loader_8h_source.html">DBCDatabaseLoader.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">DBCDatabaseLoader.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -145,7 +145,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a52b5b86f0efb8ad0716bc0171a3aa740"><td class="memItemLeft" align="right" valign="top">std::vector&lt; char * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/de1/struct_d_b_c_database_loader.html#a52b5b86f0efb8ad0716bc0171a3aa740">_stringPool</a></td></tr>
 <tr class="separator:a52b5b86f0efb8ad0716bc0171a3aa740"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a2efbbd3799e5f72fecaeaf9365579482" name="a2efbbd3799e5f72fecaeaf9365579482"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2efbbd3799e5f72fecaeaf9365579482">&#9670;&#160;</a></span>DBCDatabaseLoader() <span class="overload">[1/2]</span></h2>
 
@@ -177,7 +178,27 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   24</span>    : <a class="code hl_variable" href="../../de/de1/struct_d_b_c_database_loader.html#ab6590071edf5311ccf484d48e4fd125e">_sqlTableName</a>(tableName),</div>
+<div class="line"><span class="lineno">   25</span>      <a class="code hl_variable" href="../../de/de1/struct_d_b_c_database_loader.html#aa749118514d0b784ac6df295bd820d8e">_dbcFormat</a>(dbcFormatString),</div>
+<div class="line"><span class="lineno">   26</span>      <a class="code hl_variable" href="../../de/de1/struct_d_b_c_database_loader.html#ac1b5b191615d3e3121ea70965b0d495a">_sqlIndexPos</a>(0),</div>
+<div class="line"><span class="lineno">   27</span>      <a class="code hl_variable" href="../../de/de1/struct_d_b_c_database_loader.html#a6721538ebbcfe020fb195d44b3bdbd11">_recordSize</a>(0),</div>
+<div class="line"><span class="lineno">   28</span>      <a class="code hl_variable" href="../../de/de1/struct_d_b_c_database_loader.html#a52b5b86f0efb8ad0716bc0171a3aa740">_stringPool</a>(stringPool)</div>
+<div class="line"><span class="lineno">   29</span>{</div>
+<div class="line"><span class="lineno">   30</span>    <span class="comment">// Get sql index position</span></div>
+<div class="line"><span class="lineno">   31</span>    <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> indexPos = -1;</div>
+<div class="line"><span class="lineno">   32</span>    <a class="code hl_variable" href="../../de/de1/struct_d_b_c_database_loader.html#a6721538ebbcfe020fb195d44b3bdbd11">_recordSize</a> = <a class="code hl_function" href="../../da/d44/class_d_b_c_file_loader.html#a990308cf88d2772db090c37a66e9f9e5">DBCFileLoader::GetFormatRecordSize</a>(<a class="code hl_variable" href="../../de/de1/struct_d_b_c_database_loader.html#aa749118514d0b784ac6df295bd820d8e">_dbcFormat</a>, &amp;indexPos);</div>
+<div class="line"><span class="lineno">   33</span> </div>
+<div class="line"><span class="lineno">   34</span>    <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(<a class="code hl_variable" href="../../de/de1/struct_d_b_c_database_loader.html#a6721538ebbcfe020fb195d44b3bdbd11">_recordSize</a>);</div>
+<div class="line"><span class="lineno">   35</span>}</div>
+<div class="ttc" id="a_define_8h_html_a0bf9964a3ce962c07ad3d8b5432bbbcd"><div class="ttname"><a href="../../db/d35/_define_8h.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a></div><div class="ttdeci">std::int32_t int32</div><div class="ttdef"><b>Definition:</b> Define.h:104</div></div>
+<div class="ttc" id="a_errors_8h_html_af343b20373ba49a92fce523e948f2ab3"><div class="ttname"><a href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a></div><div class="ttdeci">#define ASSERT</div><div class="ttdef"><b>Definition:</b> Errors.h:68</div></div>
+<div class="ttc" id="aclass_d_b_c_file_loader_html_a990308cf88d2772db090c37a66e9f9e5"><div class="ttname"><a href="../../da/d44/class_d_b_c_file_loader.html#a990308cf88d2772db090c37a66e9f9e5">DBCFileLoader::GetFormatRecordSize</a></div><div class="ttdeci">static uint32 GetFormatRecordSize(const char *format, int32 *index_pos=nullptr)</div><div class="ttdef"><b>Definition:</b> DBCFileLoader.cpp:129</div></div>
+<div class="ttc" id="astruct_d_b_c_database_loader_html_a52b5b86f0efb8ad0716bc0171a3aa740"><div class="ttname"><a href="../../de/de1/struct_d_b_c_database_loader.html#a52b5b86f0efb8ad0716bc0171a3aa740">DBCDatabaseLoader::_stringPool</a></div><div class="ttdeci">std::vector&lt; char * &gt; &amp; _stringPool</div><div class="ttdef"><b>Definition:</b> DBCDatabaseLoader.h:36</div></div>
+<div class="ttc" id="astruct_d_b_c_database_loader_html_a6721538ebbcfe020fb195d44b3bdbd11"><div class="ttname"><a href="../../de/de1/struct_d_b_c_database_loader.html#a6721538ebbcfe020fb195d44b3bdbd11">DBCDatabaseLoader::_recordSize</a></div><div class="ttdeci">uint32 _recordSize</div><div class="ttdef"><b>Definition:</b> DBCDatabaseLoader.h:35</div></div>
+<div class="ttc" id="astruct_d_b_c_database_loader_html_aa749118514d0b784ac6df295bd820d8e"><div class="ttname"><a href="../../de/de1/struct_d_b_c_database_loader.html#aa749118514d0b784ac6df295bd820d8e">DBCDatabaseLoader::_dbcFormat</a></div><div class="ttdeci">char const  * _dbcFormat</div><div class="ttdef"><b>Definition:</b> DBCDatabaseLoader.h:33</div></div>
+<div class="ttc" id="astruct_d_b_c_database_loader_html_ab6590071edf5311ccf484d48e4fd125e"><div class="ttname"><a href="../../de/de1/struct_d_b_c_database_loader.html#ab6590071edf5311ccf484d48e4fd125e">DBCDatabaseLoader::_sqlTableName</a></div><div class="ttdeci">char const  * _sqlTableName</div><div class="ttdef"><b>Definition:</b> DBCDatabaseLoader.h:32</div></div>
+<div class="ttc" id="astruct_d_b_c_database_loader_html_ac1b5b191615d3e3121ea70965b0d495a"><div class="ttname"><a href="../../de/de1/struct_d_b_c_database_loader.html#ac1b5b191615d3e3121ea70965b0d495a">DBCDatabaseLoader::_sqlIndexPos</a></div><div class="ttdeci">int32 _sqlIndexPos</div><div class="ttdef"><b>Definition:</b> DBCDatabaseLoader.h:34</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a7d93e6d37796f341edcf25062743c5b5" name="a7d93e6d37796f341edcf25062743c5b5"></a>
@@ -230,7 +251,13 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  133</span>{</div>
+<div class="line"><span class="lineno">  134</span>    <span class="keywordtype">char</span>* buf = <span class="keyword">new</span> <span class="keywordtype">char</span>[str.size() + 1];</div>
+<div class="line"><span class="lineno">  135</span>    memcpy(buf, str.c_str(), str.size() + 1);</div>
+<div class="line"><span class="lineno">  136</span>    <a class="code hl_variable" href="../../de/de1/struct_d_b_c_database_loader.html#a52b5b86f0efb8ad0716bc0171a3aa740">_stringPool</a>.push_back(buf);</div>
+<div class="line"><span class="lineno">  137</span>    <span class="keywordflow">return</span> buf;</div>
+<div class="line"><span class="lineno">  138</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a1b116dca8b01e0462a2e6c08245a49a3" name="a1b116dca8b01e0462a2e6c08245a49a3"></a>
@@ -258,7 +285,116 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   38</span>{</div>
+<div class="line"><span class="lineno">   39</span>    std::string query = <a class="code hl_function" href="../../d1/d7d/namespace_acore.html#a20cdbbf36d71c2c01f75fd0e706a7b10">Acore::StringFormat</a>(<span class="stringliteral">&quot;SELECT * FROM `%s` ORDER BY `ID` DESC&quot;</span>, <a class="code hl_variable" href="../../de/de1/struct_d_b_c_database_loader.html#ab6590071edf5311ccf484d48e4fd125e">_sqlTableName</a>);</div>
+<div class="line"><span class="lineno">   40</span> </div>
+<div class="line"><span class="lineno">   41</span>    <span class="comment">// no error if empty set</span></div>
+<div class="line"><span class="lineno">   42</span>    <a class="code hl_typedef" href="../../db/d04/_database_env_fwd_8h.html#ab0c9feeec448a181290fcb39565b8253">QueryResult</a> result = <a class="code hl_variable" href="../../d6/d2e/_database_env_8cpp.html#afa9a6509f9913c9c7dd3081523badd7c">WorldDatabase</a>.Query(query.c_str());</div>
+<div class="line"><span class="lineno">   43</span>    <span class="keywordflow">if</span> (!result)</div>
+<div class="line"><span class="lineno">   44</span>        <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">   45</span> </div>
+<div class="line"><span class="lineno">   46</span>    <span class="comment">// Check if sql index pos is valid</span></div>
+<div class="line"><span class="lineno">   47</span>    <span class="keywordflow">if</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>(result-&gt;GetFieldCount() - 1) &lt; <a class="code hl_variable" href="../../de/de1/struct_d_b_c_database_loader.html#ac1b5b191615d3e3121ea70965b0d495a">_sqlIndexPos</a>)</div>
+<div class="line"><span class="lineno">   48</span>    {</div>
+<div class="line"><span class="lineno">   49</span>        <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(<span class="keyword">false</span>, <span class="stringliteral">&quot;Invalid index pos for dbc: &#39;{}&#39;&quot;</span>, <a class="code hl_variable" href="../../de/de1/struct_d_b_c_database_loader.html#ab6590071edf5311ccf484d48e4fd125e">_sqlTableName</a>);</div>
+<div class="line"><span class="lineno">   50</span>        <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">   51</span>    }</div>
+<div class="line"><span class="lineno">   52</span> </div>
+<div class="line"><span class="lineno">   53</span>    <span class="comment">// Resize index table</span></div>
+<div class="line"><span class="lineno">   54</span>    <span class="comment">// database query *MUST* contain ORDER BY `index_field` DESC clause</span></div>
+<div class="line"><span class="lineno">   55</span>    <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> indexTableSize = std::max(records, (*result)[<a class="code hl_variable" href="../../de/de1/struct_d_b_c_database_loader.html#ac1b5b191615d3e3121ea70965b0d495a">_sqlIndexPos</a>].Get&lt;uint32&gt;() + 1);</div>
+<div class="line"><span class="lineno">   56</span>    <span class="keywordflow">if</span> (indexTableSize &gt; records)</div>
+<div class="line"><span class="lineno">   57</span>    {</div>
+<div class="line"><span class="lineno">   58</span>        <span class="keywordtype">char</span>** tmpIdxTable = <span class="keyword">new</span> <span class="keywordtype">char</span>* [indexTableSize];</div>
+<div class="line"><span class="lineno">   59</span>        memset(tmpIdxTable, 0, indexTableSize * <span class="keyword">sizeof</span>(<span class="keywordtype">char</span>*));</div>
+<div class="line"><span class="lineno">   60</span>        memcpy(tmpIdxTable, indexTable, records * <span class="keyword">sizeof</span>(<span class="keywordtype">char</span>*));</div>
+<div class="line"><span class="lineno">   61</span>        <span class="keyword">delete</span>[] indexTable;</div>
+<div class="line"><span class="lineno">   62</span>        indexTable = tmpIdxTable;</div>
+<div class="line"><span class="lineno">   63</span>    }</div>
+<div class="line"><span class="lineno">   64</span> </div>
+<div class="line"><span class="lineno">   65</span>    std::unique_ptr&lt;char[]&gt; dataTable = std::make_unique&lt;char[]&gt;(result-&gt;GetRowCount() * <a class="code hl_variable" href="../../de/de1/struct_d_b_c_database_loader.html#a6721538ebbcfe020fb195d44b3bdbd11">_recordSize</a>);</div>
+<div class="line"><span class="lineno">   66</span>    std::unique_ptr&lt;uint32[]&gt; newIndexes = std::make_unique&lt;uint32[]&gt;(result-&gt;GetRowCount());</div>
+<div class="line"><span class="lineno">   67</span>    <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> newRecords = 0;</div>
+<div class="line"><span class="lineno">   68</span> </div>
+<div class="line"><span class="lineno">   69</span>    <span class="comment">// Insert sql data into the data array</span></div>
+<div class="line"><span class="lineno">   70</span>    <span class="keywordflow">do</span></div>
+<div class="line"><span class="lineno">   71</span>    {</div>
+<div class="line"><span class="lineno">   72</span>        <a class="code hl_class" href="../../dc/d67/class_field.html">Field</a>* fields = result-&gt;Fetch();</div>
+<div class="line"><span class="lineno">   73</span>        <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> indexValue = fields[<a class="code hl_variable" href="../../de/de1/struct_d_b_c_database_loader.html#ac1b5b191615d3e3121ea70965b0d495a">_sqlIndexPos</a>].<a class="code hl_function" href="../../dc/d67/class_field.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&gt;();</div>
+<div class="line"><span class="lineno">   74</span>        <span class="keywordtype">char</span>* dataValue = indexTable[indexValue];</div>
+<div class="line"><span class="lineno">   75</span> </div>
+<div class="line"><span class="lineno">   76</span>        <span class="comment">// If exist in DBC file override from DB</span></div>
+<div class="line"><span class="lineno">   77</span>        newIndexes[newRecords] = indexValue;</div>
+<div class="line"><span class="lineno">   78</span>        dataValue = &amp;dataTable[newRecords++ * <a class="code hl_variable" href="../../de/de1/struct_d_b_c_database_loader.html#a6721538ebbcfe020fb195d44b3bdbd11">_recordSize</a>];</div>
+<div class="line"><span class="lineno">   79</span> </div>
+<div class="line"><span class="lineno">   80</span>        <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> dataOffset = 0;</div>
+<div class="line"><span class="lineno">   81</span>        <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> sqlColumnNumber = 0;</div>
+<div class="line"><span class="lineno">   82</span>        <span class="keywordtype">char</span> <span class="keyword">const</span>* dbcFormat = <a class="code hl_variable" href="../../de/de1/struct_d_b_c_database_loader.html#aa749118514d0b784ac6df295bd820d8e">_dbcFormat</a>;</div>
+<div class="line"><span class="lineno">   83</span> </div>
+<div class="line"><span class="lineno">   84</span>        <span class="keywordflow">for</span> (; (*dbcFormat); ++dbcFormat)</div>
+<div class="line"><span class="lineno">   85</span>        {</div>
+<div class="line"><span class="lineno">   86</span>            <span class="keywordflow">switch</span> (*dbcFormat)</div>
+<div class="line"><span class="lineno">   87</span>            {</div>
+<div class="line"><span class="lineno">   88</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../de/d50/_d_b_c_file_loader_8h.html#a969264ba91452f632e809db524c68960a1091cfb22d5ff81a81948a92b96f8e9a">FT_FLOAT</a>:</div>
+<div class="line"><span class="lineno">   89</span>                    *<span class="keyword">reinterpret_cast&lt;</span><span class="keywordtype">float</span>*<span class="keyword">&gt;</span>(&amp;dataValue[dataOffset]) = fields[sqlColumnNumber].Get&lt;float&gt;();</div>
+<div class="line"><span class="lineno">   90</span>                    dataOffset += <span class="keyword">sizeof</span>(float);</div>
+<div class="line"><span class="lineno">   91</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   92</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../de/d50/_d_b_c_file_loader_8h.html#a969264ba91452f632e809db524c68960a0e7ef1f172d0c33a975fbda2be046036">FT_IND</a>:</div>
+<div class="line"><span class="lineno">   93</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../de/d50/_d_b_c_file_loader_8h.html#a969264ba91452f632e809db524c68960a9d5724546fec2b9d79741da7d3a8030a">FT_INT</a>:</div>
+<div class="line"><span class="lineno">   94</span>                    *<span class="keyword">reinterpret_cast&lt;</span><a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>*<span class="keyword">&gt;</span>(&amp;dataValue[dataOffset]) = fields[sqlColumnNumber].Get&lt;uint32&gt;();</div>
+<div class="line"><span class="lineno">   95</span>                    dataOffset += <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>);</div>
+<div class="line"><span class="lineno">   96</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   97</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../de/d50/_d_b_c_file_loader_8h.html#a969264ba91452f632e809db524c68960ae268574ec5607a27ec940656742b2095">FT_BYTE</a>:</div>
+<div class="line"><span class="lineno">   98</span>                    *<span class="keyword">reinterpret_cast&lt;</span><a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>*<span class="keyword">&gt;</span>(&amp;dataValue[dataOffset]) = fields[sqlColumnNumber].Get&lt;uint8&gt;();</div>
+<div class="line"><span class="lineno">   99</span>                    dataOffset += <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>);</div>
+<div class="line"><span class="lineno">  100</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  101</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../de/d50/_d_b_c_file_loader_8h.html#a969264ba91452f632e809db524c68960a424189c585691c2ce732ea69a88f4f29">FT_STRING</a>:</div>
+<div class="line"><span class="lineno">  102</span>                    *<span class="keyword">reinterpret_cast&lt;</span><span class="keywordtype">char</span>**<span class="keyword">&gt;</span>(&amp;dataValue[dataOffset]) = <a class="code hl_function" href="../../de/de1/struct_d_b_c_database_loader.html#a68e5ae50c980aa81b051d0622575bb2d">CloneStringToPool</a>(fields[sqlColumnNumber].Get&lt;std::string&gt;());</div>
+<div class="line"><span class="lineno">  103</span>                    dataOffset += <span class="keyword">sizeof</span>(<span class="keywordtype">char</span>*);</div>
+<div class="line"><span class="lineno">  104</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  105</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../de/d50/_d_b_c_file_loader_8h.html#a969264ba91452f632e809db524c68960a496dcb8cfc6d702d15b9a603b242a642">FT_SORT</a>:</div>
+<div class="line"><span class="lineno">  106</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../de/d50/_d_b_c_file_loader_8h.html#a969264ba91452f632e809db524c68960a0f8a37a34dd644e8432e79266f8e2f8c">FT_NA</a>:</div>
+<div class="line"><span class="lineno">  107</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../de/d50/_d_b_c_file_loader_8h.html#a969264ba91452f632e809db524c68960a974d335432036bc88ad76f044e8fca0c">FT_NA_BYTE</a>:</div>
+<div class="line"><span class="lineno">  108</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  109</span>                <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  110</span>                    <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(<span class="keyword">false</span>, <span class="stringliteral">&quot;Unsupported data type &#39;{}&#39; in table &#39;{}&#39;&quot;</span>, *dbcFormat, <a class="code hl_variable" href="../../de/de1/struct_d_b_c_database_loader.html#ab6590071edf5311ccf484d48e4fd125e">_sqlTableName</a>);</div>
+<div class="line"><span class="lineno">  111</span>                    <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  112</span>            }</div>
+<div class="line"><span class="lineno">  113</span> </div>
+<div class="line"><span class="lineno">  114</span>            ++sqlColumnNumber;</div>
+<div class="line"><span class="lineno">  115</span>        }</div>
+<div class="line"><span class="lineno">  116</span> </div>
+<div class="line"><span class="lineno">  117</span>        <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(sqlColumnNumber == result-&gt;GetFieldCount(), <span class="stringliteral">&quot;SQL format string does not match database for table: &#39;{}&#39;&quot;</span>, <a class="code hl_variable" href="../../de/de1/struct_d_b_c_database_loader.html#ab6590071edf5311ccf484d48e4fd125e">_sqlTableName</a>);</div>
+<div class="line"><span class="lineno">  118</span>        <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(dataOffset == <a class="code hl_variable" href="../../de/de1/struct_d_b_c_database_loader.html#a6721538ebbcfe020fb195d44b3bdbd11">_recordSize</a>);</div>
+<div class="line"><span class="lineno">  119</span>    } <span class="keywordflow">while</span> (result-&gt;NextRow());</div>
+<div class="line"><span class="lineno">  120</span> </div>
+<div class="line"><span class="lineno">  121</span>    <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(newRecords == result-&gt;GetRowCount());</div>
+<div class="line"><span class="lineno">  122</span> </div>
+<div class="line"><span class="lineno">  123</span>    <span class="comment">// insert new records to index table</span></div>
+<div class="line"><span class="lineno">  124</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> i = 0; i &lt; newRecords; ++i)</div>
+<div class="line"><span class="lineno">  125</span>        indexTable[newIndexes[i]] = &amp;dataTable[i * <a class="code hl_variable" href="../../de/de1/struct_d_b_c_database_loader.html#a6721538ebbcfe020fb195d44b3bdbd11">_recordSize</a>];</div>
+<div class="line"><span class="lineno">  126</span> </div>
+<div class="line"><span class="lineno">  127</span>    records = indexTableSize;</div>
+<div class="line"><span class="lineno">  128</span> </div>
+<div class="line"><span class="lineno">  129</span>    <span class="keywordflow">return</span> dataTable.release();</div>
+<div class="line"><span class="lineno">  130</span>}</div>
+<div class="ttc" id="a_d_b_c_file_loader_8h_html_a969264ba91452f632e809db524c68960a0e7ef1f172d0c33a975fbda2be046036"><div class="ttname"><a href="../../de/d50/_d_b_c_file_loader_8h.html#a969264ba91452f632e809db524c68960a0e7ef1f172d0c33a975fbda2be046036">FT_IND</a></div><div class="ttdeci">@ FT_IND</div><div class="ttdef"><b>Definition:</b> DBCFileLoader.h:34</div></div>
+<div class="ttc" id="a_d_b_c_file_loader_8h_html_a969264ba91452f632e809db524c68960a0f8a37a34dd644e8432e79266f8e2f8c"><div class="ttname"><a href="../../de/d50/_d_b_c_file_loader_8h.html#a969264ba91452f632e809db524c68960a0f8a37a34dd644e8432e79266f8e2f8c">FT_NA</a></div><div class="ttdeci">@ FT_NA</div><div class="ttdef"><b>Definition:</b> DBCFileLoader.h:27</div></div>
+<div class="ttc" id="a_d_b_c_file_loader_8h_html_a969264ba91452f632e809db524c68960a1091cfb22d5ff81a81948a92b96f8e9a"><div class="ttname"><a href="../../de/d50/_d_b_c_file_loader_8h.html#a969264ba91452f632e809db524c68960a1091cfb22d5ff81a81948a92b96f8e9a">FT_FLOAT</a></div><div class="ttdeci">@ FT_FLOAT</div><div class="ttdef"><b>Definition:</b> DBCFileLoader.h:30</div></div>
+<div class="ttc" id="a_d_b_c_file_loader_8h_html_a969264ba91452f632e809db524c68960a424189c585691c2ce732ea69a88f4f29"><div class="ttname"><a href="../../de/d50/_d_b_c_file_loader_8h.html#a969264ba91452f632e809db524c68960a424189c585691c2ce732ea69a88f4f29">FT_STRING</a></div><div class="ttdeci">@ FT_STRING</div><div class="ttdef"><b>Definition:</b> DBCFileLoader.h:29</div></div>
+<div class="ttc" id="a_d_b_c_file_loader_8h_html_a969264ba91452f632e809db524c68960a496dcb8cfc6d702d15b9a603b242a642"><div class="ttname"><a href="../../de/d50/_d_b_c_file_loader_8h.html#a969264ba91452f632e809db524c68960a496dcb8cfc6d702d15b9a603b242a642">FT_SORT</a></div><div class="ttdeci">@ FT_SORT</div><div class="ttdef"><b>Definition:</b> DBCFileLoader.h:33</div></div>
+<div class="ttc" id="a_d_b_c_file_loader_8h_html_a969264ba91452f632e809db524c68960a974d335432036bc88ad76f044e8fca0c"><div class="ttname"><a href="../../de/d50/_d_b_c_file_loader_8h.html#a969264ba91452f632e809db524c68960a974d335432036bc88ad76f044e8fca0c">FT_NA_BYTE</a></div><div class="ttdeci">@ FT_NA_BYTE</div><div class="ttdef"><b>Definition:</b> DBCFileLoader.h:28</div></div>
+<div class="ttc" id="a_d_b_c_file_loader_8h_html_a969264ba91452f632e809db524c68960a9d5724546fec2b9d79741da7d3a8030a"><div class="ttname"><a href="../../de/d50/_d_b_c_file_loader_8h.html#a969264ba91452f632e809db524c68960a9d5724546fec2b9d79741da7d3a8030a">FT_INT</a></div><div class="ttdeci">@ FT_INT</div><div class="ttdef"><b>Definition:</b> DBCFileLoader.h:31</div></div>
+<div class="ttc" id="a_d_b_c_file_loader_8h_html_a969264ba91452f632e809db524c68960ae268574ec5607a27ec940656742b2095"><div class="ttname"><a href="../../de/d50/_d_b_c_file_loader_8h.html#a969264ba91452f632e809db524c68960ae268574ec5607a27ec940656742b2095">FT_BYTE</a></div><div class="ttdeci">@ FT_BYTE</div><div class="ttdef"><b>Definition:</b> DBCFileLoader.h:32</div></div>
+<div class="ttc" id="a_database_env_8cpp_html_afa9a6509f9913c9c7dd3081523badd7c"><div class="ttname"><a href="../../d6/d2e/_database_env_8cpp.html#afa9a6509f9913c9c7dd3081523badd7c">WorldDatabase</a></div><div class="ttdeci">DatabaseWorkerPool&lt; WorldDatabaseConnection &gt; WorldDatabase</div><div class="ttdoc">Accessor to the world database.</div><div class="ttdef"><b>Definition:</b> DatabaseEnv.cpp:20</div></div>
+<div class="ttc" id="a_database_env_fwd_8h_html_ab0c9feeec448a181290fcb39565b8253"><div class="ttname"><a href="../../db/d04/_database_env_fwd_8h.html#ab0c9feeec448a181290fcb39565b8253">QueryResult</a></div><div class="ttdeci">std::shared_ptr&lt; ResultSet &gt; QueryResult</div><div class="ttdef"><b>Definition:</b> DatabaseEnvFwd.h:28</div></div>
+<div class="ttc" id="a_define_8h_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:110</div></div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="aclass_field_html"><div class="ttname"><a href="../../dc/d67/class_field.html">Field</a></div><div class="ttdoc">Class used to access individual fields of database query result.</div><div class="ttdef"><b>Definition:</b> Field.h:99</div></div>
+<div class="ttc" id="aclass_field_html_aae507d21d3570ffdaf1643ba02946f01"><div class="ttname"><a href="../../dc/d67/class_field.html#aae507d21d3570ffdaf1643ba02946f01">Field::Get</a></div><div class="ttdeci">std::enable_if_t&lt; std::is_arithmetic_v&lt; T &gt;, T &gt; Get() const</div><div class="ttdef"><b>Definition:</b> Field.h:113</div></div>
+<div class="ttc" id="anamespace_acore_html_a20cdbbf36d71c2c01f75fd0e706a7b10"><div class="ttname"><a href="../../d1/d7d/namespace_acore.html#a20cdbbf36d71c2c01f75fd0e706a7b10">Acore::StringFormat</a></div><div class="ttdeci">std::string StringFormat(Format &amp;&amp;fmt, Args &amp;&amp;... args)</div><div class="ttdoc">Default AC string format function.</div><div class="ttdef"><b>Definition:</b> StringFormat.h:29</div></div>
+<div class="ttc" id="astruct_d_b_c_database_loader_html_a68e5ae50c980aa81b051d0622575bb2d"><div class="ttname"><a href="../../de/de1/struct_d_b_c_database_loader.html#a68e5ae50c980aa81b051d0622575bb2d">DBCDatabaseLoader::CloneStringToPool</a></div><div class="ttdeci">char * CloneStringToPool(std::string const &amp;str)</div><div class="ttdef"><b>Definition:</b> DBCDatabaseLoader.cpp:132</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a46f7d5670840892f7a8714ce0b6cde13" name="a46f7d5670840892f7a8714ce0b6cde13"></a>
@@ -399,8 +535,8 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/shared/DataStores/<a class="el" href="../../d2/d7b/_d_b_c_database_loader_8h_source.html">DBCDatabaseLoader.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/shared/DataStores/<a class="el" href="../../de/d4a/_d_b_c_database_loader_8cpp.html">DBCDatabaseLoader.cpp</a></li>
+<li><a class="el" href="../../">DBCDatabaseLoader.h</a></li>
+<li><a class="el" href="../../">DBCDatabaseLoader.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -408,7 +544,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../de/de1/struct_d_b_c_database_loader.html">DBCDatabaseLoader</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:44 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:58 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

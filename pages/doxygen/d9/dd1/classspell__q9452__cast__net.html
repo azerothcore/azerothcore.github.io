@@ -298,7 +298,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="ae99a2b4b582c8a2c8921b8921400ffbe" name="ae99a2b4b582c8a2c8921b8921400ffbe"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae99a2b4b582c8a2c8921b8921400ffbe">&#9670;&#160;</a></span>CheckCast()</h2>
 
@@ -321,7 +322,21 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1665</span>    {</div>
+<div class="line"><span class="lineno"> 1666</span>        <a class="code hl_class" href="../../d0/dd1/class_game_object.html">GameObject</a>* go = <a class="code hl_function" href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>()-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a178c5ef685f97dc9bbd486dd6cabfb63">FindNearestGameObject</a>(<a class="code hl_enumvalue" href="../../db/dfb/spell__quest_8cpp.html#a703c1e617e401e25564e6e131b706ec6a0091adfedb78948eb88146dd2577f56f">GO_SCHOOL_OF_RED_SNAPPER</a>, 3.0f);</div>
+<div class="line"><span class="lineno"> 1667</span>        <span class="keywordflow">if</span> (!go || go-&gt;<a class="code hl_function" href="../../d0/dd1/class_game_object.html#a5eb9fa78fedbe3404f08e0f8e7cad8c2">GetRespawnTime</a>())</div>
+<div class="line"><span class="lineno"> 1668</span>            <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#ade9b4e913a84079f5311c2817e3de9daaf43ad3199e8e395f348d768f4f11b39c">SPELL_FAILED_REQUIRES_SPELL_FOCUS</a>;</div>
+<div class="line"><span class="lineno"> 1669</span> </div>
+<div class="line"><span class="lineno"> 1670</span>        <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#ade9b4e913a84079f5311c2817e3de9daadb56426fd2113c3ff3ff3d1815d79fa6">SPELL_CAST_OK</a>;</div>
+<div class="line"><span class="lineno"> 1671</span>    }</div>
+<div class="ttc" id="a_shared_defines_8h_html_ade9b4e913a84079f5311c2817e3de9daadb56426fd2113c3ff3ff3d1815d79fa6"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#ade9b4e913a84079f5311c2817e3de9daadb56426fd2113c3ff3ff3d1815d79fa6">SPELL_CAST_OK</a></div><div class="ttdeci">@ SPELL_CAST_OK</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1110</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_ade9b4e913a84079f5311c2817e3de9daaf43ad3199e8e395f348d768f4f11b39c"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#ade9b4e913a84079f5311c2817e3de9daaf43ad3199e8e395f348d768f4f11b39c">SPELL_FAILED_REQUIRES_SPELL_FOCUS</a></div><div class="ttdeci">@ SPELL_FAILED_REQUIRES_SPELL_FOCUS</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1023</div></div>
+<div class="ttc" id="aclass_game_object_html"><div class="ttname"><a href="../../d0/dd1/class_game_object.html">GameObject</a></div><div class="ttdef"><b>Definition:</b> GameObject.h:813</div></div>
+<div class="ttc" id="aclass_game_object_html_a5eb9fa78fedbe3404f08e0f8e7cad8c2"><div class="ttname"><a href="../../d0/dd1/class_game_object.html#a5eb9fa78fedbe3404f08e0f8e7cad8c2">GameObject::GetRespawnTime</a></div><div class="ttdeci">time_t GetRespawnTime() const</div><div class="ttdef"><b>Definition:</b> GameObject.h:876</div></div>
+<div class="ttc" id="aclass_spell_script_html_ae630e2d388177707e28cecd5fa5a2b48"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">SpellScript::GetCaster</a></div><div class="ttdeci">Unit * GetCaster()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:401</div></div>
+<div class="ttc" id="aclass_world_object_html_a178c5ef685f97dc9bbd486dd6cabfb63"><div class="ttname"><a href="../../db/df7/class_world_object.html#a178c5ef685f97dc9bbd486dd6cabfb63">WorldObject::FindNearestGameObject</a></div><div class="ttdeci">GameObject * FindNearestGameObject(uint32 entry, float range, bool onlySpawned=false) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:2401</div></div>
+<div class="ttc" id="aspell__quest_8cpp_html_a703c1e617e401e25564e6e131b706ec6a0091adfedb78948eb88146dd2577f56f"><div class="ttname"><a href="../../db/dfb/spell__quest_8cpp.html#a703c1e617e401e25564e6e131b706ec6a0091adfedb78948eb88146dd2577f56f">GO_SCHOOL_OF_RED_SNAPPER</a></div><div class="ttdeci">@ GO_SCHOOL_OF_RED_SNAPPER</div><div class="ttdef"><b>Definition:</b> spell_quest.cpp:1652</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a79a51387f0a515ed07fcc1ac9e428290" name="a79a51387f0a515ed07fcc1ac9e428290"></a>
@@ -347,7 +362,21 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1683</span>    {</div>
+<div class="line"><span class="lineno"> 1684</span>        <a class="code hl_function" href="../../dc/d62/class_spell_script.html#a56ed3ad5cf4ebc848946a9d8f1c35d5f">PreventHitDefaultEffect</a>(effIndex);</div>
+<div class="line"><span class="lineno"> 1685</span>        <a class="code hl_function" href="../../dc/d62/class_spell_script.html#a96ba2eed3fb3e3c62b3d68f3676a7062">GetHitGObj</a>()-&gt;<a class="code hl_function" href="../../d0/dd1/class_game_object.html#a75c7d2fb3387f66bdcee4b8e1267d6ef">SetRespawnTime</a>(<a class="code hl_function" href="../../d0/d80/_random_8h.html#a50320d4edff86db31b25138ae72161ad">roll_chance_i</a>(50) ? 2 * <a class="code hl_variable" href="../../db/d1f/_common_8h.html#afacf27522adfacf698390ddafc53fa30">MINUTE</a> : 3 * <a class="code hl_variable" href="../../db/d1f/_common_8h.html#afacf27522adfacf698390ddafc53fa30">MINUTE</a>);</div>
+<div class="line"><span class="lineno"> 1686</span>        <a class="code hl_function" href="../../dc/d62/class_spell_script.html#a96ba2eed3fb3e3c62b3d68f3676a7062">GetHitGObj</a>()-&gt;<a class="code hl_function" href="../../d0/dd1/class_game_object.html#abb3cd2ea4845cd0adaa3e9dd6cca57bf">Use</a>(<a class="code hl_function" href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>());</div>
+<div class="line"><span class="lineno"> 1687</span>        <a class="code hl_function" href="../../dc/d62/class_spell_script.html#a96ba2eed3fb3e3c62b3d68f3676a7062">GetHitGObj</a>()-&gt;<a class="code hl_function" href="../../d0/dd1/class_game_object.html#a643b94ed112dc4e4fd2e335ecfbfe92d">SetLootState</a>(<a class="code hl_enumvalue" href="../../df/d91/_game_object_8h.html#a08733f20cea1f77cc9f1a549f8ce9f07af69d13b3580b3c24d26f66bcf0db43d5">GO_JUST_DEACTIVATED</a>);</div>
+<div class="line"><span class="lineno"> 1688</span>    }</div>
+<div class="ttc" id="a_common_8h_html_afacf27522adfacf698390ddafc53fa30"><div class="ttname"><a href="../../db/d1f/_common_8h.html#afacf27522adfacf698390ddafc53fa30">MINUTE</a></div><div class="ttdeci">constexpr auto MINUTE</div><div class="ttdef"><b>Definition:</b> Common.h:56</div></div>
+<div class="ttc" id="a_game_object_8h_html_a08733f20cea1f77cc9f1a549f8ce9f07af69d13b3580b3c24d26f66bcf0db43d5"><div class="ttname"><a href="../../df/d91/_game_object_8h.html#a08733f20cea1f77cc9f1a549f8ce9f07af69d13b3580b3c24d26f66bcf0db43d5">GO_JUST_DEACTIVATED</a></div><div class="ttdeci">@ GO_JUST_DEACTIVATED</div><div class="ttdef"><b>Definition:</b> GameObject.h:803</div></div>
+<div class="ttc" id="a_random_8h_html_a50320d4edff86db31b25138ae72161ad"><div class="ttname"><a href="../../d0/d80/_random_8h.html#a50320d4edff86db31b25138ae72161ad">roll_chance_i</a></div><div class="ttdeci">bool roll_chance_i(int chance)</div><div class="ttdef"><b>Definition:</b> Random.h:59</div></div>
+<div class="ttc" id="aclass_game_object_html_a643b94ed112dc4e4fd2e335ecfbfe92d"><div class="ttname"><a href="../../d0/dd1/class_game_object.html#a643b94ed112dc4e4fd2e335ecfbfe92d">GameObject::SetLootState</a></div><div class="ttdeci">void SetLootState(LootState s, Unit *unit=nullptr)</div><div class="ttdef"><b>Definition:</b> GameObject.cpp:2413</div></div>
+<div class="ttc" id="aclass_game_object_html_a75c7d2fb3387f66bdcee4b8e1267d6ef"><div class="ttname"><a href="../../d0/dd1/class_game_object.html#a75c7d2fb3387f66bdcee4b8e1267d6ef">GameObject::SetRespawnTime</a></div><div class="ttdeci">void SetRespawnTime(int32 respawn)</div><div class="ttdef"><b>Definition:</b> GameObject.cpp:1274</div></div>
+<div class="ttc" id="aclass_game_object_html_abb3cd2ea4845cd0adaa3e9dd6cca57bf"><div class="ttname"><a href="../../d0/dd1/class_game_object.html#abb3cd2ea4845cd0adaa3e9dd6cca57bf">GameObject::Use</a></div><div class="ttdeci">void Use(Unit *user)</div><div class="ttdef"><b>Definition:</b> GameObject.cpp:1450</div></div>
+<div class="ttc" id="aclass_spell_script_html_a56ed3ad5cf4ebc848946a9d8f1c35d5f"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a56ed3ad5cf4ebc848946a9d8f1c35d5f">SpellScript::PreventHitDefaultEffect</a></div><div class="ttdeci">void PreventHitDefaultEffect(SpellEffIndex effIndex)</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:590</div></div>
+<div class="ttc" id="aclass_spell_script_html_a96ba2eed3fb3e3c62b3d68f3676a7062"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a96ba2eed3fb3e3c62b3d68f3676a7062">SpellScript::GetHitGObj</a></div><div class="ttdeci">GameObject * GetHitGObj()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:494</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a39dd06ae92d04060ee41897318a701fd" name="a39dd06ae92d04060ee41897318a701fd"></a>
@@ -373,7 +402,20 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1674</span>    {</div>
+<div class="line"><span class="lineno"> 1675</span>        <a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* caster = <a class="code hl_function" href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>()-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a328d5f752cc33ed398b3d9861ef6929d">ToPlayer</a>();</div>
+<div class="line"><span class="lineno"> 1676</span>        <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d0/d80/_random_8h.html#a50320d4edff86db31b25138ae72161ad">roll_chance_i</a>(66))</div>
+<div class="line"><span class="lineno"> 1677</span>            caster-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a14a4c0bd0215f10b44ef739083e4f577">AddItem</a>(<a class="code hl_enumvalue" href="../../db/dfb/spell__quest_8cpp.html#a703c1e617e401e25564e6e131b706ec6ab8acd96ba4c5e67a34168b28522fd93b">ITEM_RED_SNAPPER</a>, 1);</div>
+<div class="line"><span class="lineno"> 1678</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 1679</span>            caster-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(caster, <a class="code hl_enumvalue" href="../../db/dfb/spell__quest_8cpp.html#a703c1e617e401e25564e6e131b706ec6a95f7842bca464d6daf000030ebccb449">SPELL_NEW_SUMMON_TEST</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno"> 1680</span>    }</div>
+<div class="ttc" id="aclass_object_html_a328d5f752cc33ed398b3d9861ef6929d"><div class="ttname"><a href="../../d8/d83/class_object.html#a328d5f752cc33ed398b3d9861ef6929d">Object::ToPlayer</a></div><div class="ttdeci">Player * ToPlayer()</div><div class="ttdef"><b>Definition:</b> Object.h:195</div></div>
+<div class="ttc" id="aclass_player_html"><div class="ttname"><a href="../../d8/d53/class_player.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1046</div></div>
+<div class="ttc" id="aclass_player_html_a14a4c0bd0215f10b44ef739083e4f577"><div class="ttname"><a href="../../d8/d53/class_player.html#a14a4c0bd0215f10b44ef739083e4f577">Player::AddItem</a></div><div class="ttdeci">bool AddItem(uint32 itemId, uint32 count)</div><div class="ttdef"><b>Definition:</b> Player.cpp:15249</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+<div class="ttc" id="aspell__quest_8cpp_html_a703c1e617e401e25564e6e131b706ec6a95f7842bca464d6daf000030ebccb449"><div class="ttname"><a href="../../db/dfb/spell__quest_8cpp.html#a703c1e617e401e25564e6e131b706ec6a95f7842bca464d6daf000030ebccb449">SPELL_NEW_SUMMON_TEST</a></div><div class="ttdeci">@ SPELL_NEW_SUMMON_TEST</div><div class="ttdef"><b>Definition:</b> spell_quest.cpp:1650</div></div>
+<div class="ttc" id="aspell__quest_8cpp_html_a703c1e617e401e25564e6e131b706ec6ab8acd96ba4c5e67a34168b28522fd93b"><div class="ttname"><a href="../../db/dfb/spell__quest_8cpp.html#a703c1e617e401e25564e6e131b706ec6ab8acd96ba4c5e67a34168b28522fd93b">ITEM_RED_SNAPPER</a></div><div class="ttdeci">@ ITEM_RED_SNAPPER</div><div class="ttdef"><b>Definition:</b> spell_quest.cpp:1647</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a76fff3a9d20f48e4814ee0f258be07b8" name="a76fff3a9d20f48e4814ee0f258be07b8"></a>
@@ -400,7 +442,12 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d7/d13/class___spell_script.html#ad3b8fb5dd2bc5ca4dd34da5a98a76443">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1660</span>    {</div>
+<div class="line"><span class="lineno"> 1661</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>()-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">GetTypeId</a>() == <a class="code hl_enumvalue" href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a>;</div>
+<div class="line"><span class="lineno"> 1662</span>    }</div>
+<div class="ttc" id="a_object_guid_8h_html_a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c"><div class="ttname"><a href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a></div><div class="ttdeci">@ TYPEID_PLAYER</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:38</div></div>
+<div class="ttc" id="aclass_object_html_a621a345fc34deed6d3a4e1e498a652da"><div class="ttname"><a href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">Object::GetTypeId</a></div><div class="ttdeci">TypeID GetTypeId() const</div><div class="ttdef"><b>Definition:</b> Object.h:121</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a016e480d7b2267c9bf824c9cb029f134" name="a016e480d7b2267c9bf824c9cb029f134"></a>
@@ -453,11 +500,28 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1691</span>    {</div>
+<div class="line"><span class="lineno"> 1692</span>        <a class="code hl_variable" href="../../dc/d62/class_spell_script.html#a1212a7fd9c9b531c13d5781f60b05590">OnCheckCast</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a44cc78b7e05a8f3b83e430f5115a2183">SpellCheckCastFn</a>(<a class="code hl_function" href="../../d9/dd1/classspell__q9452__cast__net.html#ae99a2b4b582c8a2c8921b8921400ffbe">spell_q9452_cast_net::CheckCast</a>);</div>
+<div class="line"><span class="lineno"> 1693</span>        <a class="code hl_variable" href="../../dc/d62/class_spell_script.html#a55b352390f66a1d2314566de232343f9">OnEffectHit</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a551b0adb8eaf82985a7e55cef0695dcb">SpellEffectFn</a>(<a class="code hl_function" href="../../d9/dd1/classspell__q9452__cast__net.html#a39dd06ae92d04060ee41897318a701fd">spell_q9452_cast_net::HandleDummy</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97a027bcdf3b42e90e7374802fe61fd776d">SPELL_EFFECT_DUMMY</a>);</div>
+<div class="line"><span class="lineno"> 1694</span>        <a class="code hl_variable" href="../../dc/d62/class_spell_script.html#a6f11356f7a28793e6053bfbc4e2dacf3">OnEffectHitTarget</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a551b0adb8eaf82985a7e55cef0695dcb">SpellEffectFn</a>(<a class="code hl_function" href="../../d9/dd1/classspell__q9452__cast__net.html#a79a51387f0a515ed07fcc1ac9e428290">spell_q9452_cast_net::HandleActiveObject</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77a8ad5debef66c8aadbaf13f97f522e791">EFFECT_1</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97a75ebdb5aa699b7818da5fcbb8685225e">SPELL_EFFECT_ACTIVATE_OBJECT</a>);</div>
+<div class="line"><span class="lineno"> 1695</span>    }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77a8ad5debef66c8aadbaf13f97f522e791"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77a8ad5debef66c8aadbaf13f97f522e791">EFFECT_1</a></div><div class="ttdeci">@ EFFECT_1</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:31</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a></div><div class="ttdeci">@ EFFECT_0</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:30</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a292c893150c454dd75628b719db1fe97a027bcdf3b42e90e7374802fe61fd776d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97a027bcdf3b42e90e7374802fe61fd776d">SPELL_EFFECT_DUMMY</a></div><div class="ttdeci">@ SPELL_EFFECT_DUMMY</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:753</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a292c893150c454dd75628b719db1fe97a75ebdb5aa699b7818da5fcbb8685225e"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97a75ebdb5aa699b7818da5fcbb8685225e">SPELL_EFFECT_ACTIVATE_OBJECT</a></div><div class="ttdeci">@ SPELL_EFFECT_ACTIVATE_OBJECT</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:836</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a44cc78b7e05a8f3b83e430f5115a2183"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a44cc78b7e05a8f3b83e430f5115a2183">SpellCheckCastFn</a></div><div class="ttdeci">#define SpellCheckCastFn(F)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:329</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a551b0adb8eaf82985a7e55cef0695dcb"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a551b0adb8eaf82985a7e55cef0695dcb">SpellEffectFn</a></div><div class="ttdeci">#define SpellEffectFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:337</div></div>
+<div class="ttc" id="aclass_spell_script_html_a1212a7fd9c9b531c13d5781f60b05590"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a1212a7fd9c9b531c13d5781f60b05590">SpellScript::OnCheckCast</a></div><div class="ttdeci">HookList&lt; CheckCastHandler &gt; OnCheckCast</div><div class="ttdef"><b>Definition:</b> SpellScript.h:328</div></div>
+<div class="ttc" id="aclass_spell_script_html_a55b352390f66a1d2314566de232343f9"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a55b352390f66a1d2314566de232343f9">SpellScript::OnEffectHit</a></div><div class="ttdeci">HookList&lt; EffectHandler &gt; OnEffectHit</div><div class="ttdef"><b>Definition:</b> SpellScript.h:335</div></div>
+<div class="ttc" id="aclass_spell_script_html_a6f11356f7a28793e6053bfbc4e2dacf3"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a6f11356f7a28793e6053bfbc4e2dacf3">SpellScript::OnEffectHitTarget</a></div><div class="ttdeci">HookList&lt; EffectHandler &gt; OnEffectHitTarget</div><div class="ttdef"><b>Definition:</b> SpellScript.h:336</div></div>
+<div class="ttc" id="aclassspell__q9452__cast__net_html_a39dd06ae92d04060ee41897318a701fd"><div class="ttname"><a href="../../d9/dd1/classspell__q9452__cast__net.html#a39dd06ae92d04060ee41897318a701fd">spell_q9452_cast_net::HandleDummy</a></div><div class="ttdeci">void HandleDummy(SpellEffIndex)</div><div class="ttdef"><b>Definition:</b> spell_quest.cpp:1673</div></div>
+<div class="ttc" id="aclassspell__q9452__cast__net_html_a79a51387f0a515ed07fcc1ac9e428290"><div class="ttname"><a href="../../d9/dd1/classspell__q9452__cast__net.html#a79a51387f0a515ed07fcc1ac9e428290">spell_q9452_cast_net::HandleActiveObject</a></div><div class="ttdeci">void HandleActiveObject(SpellEffIndex effIndex)</div><div class="ttdef"><b>Definition:</b> spell_quest.cpp:1682</div></div>
+<div class="ttc" id="aclassspell__q9452__cast__net_html_ae99a2b4b582c8a2c8921b8921400ffbe"><div class="ttname"><a href="../../d9/dd1/classspell__q9452__cast__net.html#ae99a2b4b582c8a2c8921b8921400ffbe">spell_q9452_cast_net::CheckCast</a></div><div class="ttdeci">SpellCastResult CheckCast()</div><div class="ttdef"><b>Definition:</b> spell_quest.cpp:1664</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Spells/<a class="el" href="../../db/dfb/spell__quest_8cpp.html">spell_quest.cpp</a></li>
+<li><a class="el" href="../../">spell_quest.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -465,7 +529,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d9/dd1/classspell__q9452__cast__net.html">spell_q9452_cast_net</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:07 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:24 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

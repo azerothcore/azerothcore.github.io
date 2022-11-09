@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('d9/d00/class_v_m_a_p_1_1_model_instanc
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../de/db2/_model_instance_8h_source.html">ModelInstance.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">ModelInstance.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for VMAP::ModelInstance:</div>
 <div class="dyncontent">
@@ -182,7 +182,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a66e19a4a28f8fc0c537f1315d9bddcfb inherit pub_attribs_class_v_m_a_p_1_1_model_spawn"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dcf/class_v_m_a_p_1_1_model_spawn.html#a66e19a4a28f8fc0c537f1315d9bddcfb">name</a></td></tr>
 <tr class="separator:a66e19a4a28f8fc0c537f1315d9bddcfb inherit pub_attribs_class_v_m_a_p_1_1_model_spawn"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a7a4efa321915b77801e9fc87924df572" name="a7a4efa321915b77801e9fc87924df572"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7a4efa321915b77801e9fc87924df572">&#9670;&#160;</a></span>ModelInstance() <span class="overload">[1/2]</span></h2>
 
@@ -205,7 +206,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   65</span>{ }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a1d29459f4f79da938ae969509246fcf1" name="a1d29459f4f79da938ae969509246fcf1"></a>
@@ -233,7 +235,17 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   27</span>                                                                          : ModelSpawn(spawn), <a class="code hl_variable" href="../../d9/d00/class_v_m_a_p_1_1_model_instance.html#ac0b95c6fde838667e007781bde2f2917">iModel</a>(model)</div>
+<div class="line"><span class="lineno">   28</span>    {</div>
+<div class="line"><span class="lineno">   29</span>        <a class="code hl_variable" href="../../d9/d00/class_v_m_a_p_1_1_model_instance.html#a9ac1d8dbfc566a2b5e508cae92ef4019">iInvRot</a> = G3D::Matrix3::fromEulerAnglesZYX(G3D::pi() * <a class="code hl_variable" href="../../d6/dcf/class_v_m_a_p_1_1_model_spawn.html#a6d0b4f6bde1a20b246e4b22cc43e25af">iRot</a>.y / 180.f, G3D::pi() * <a class="code hl_variable" href="../../d6/dcf/class_v_m_a_p_1_1_model_spawn.html#a6d0b4f6bde1a20b246e4b22cc43e25af">iRot</a>.x / 180.f, G3D::pi() * <a class="code hl_variable" href="../../d6/dcf/class_v_m_a_p_1_1_model_spawn.html#a6d0b4f6bde1a20b246e4b22cc43e25af">iRot</a>.z / 180.f).inverse();</div>
+<div class="line"><span class="lineno">   30</span>        <a class="code hl_variable" href="../../d9/d00/class_v_m_a_p_1_1_model_instance.html#adc23d9c9a79ac7cfdb1f90b96485b089">iInvScale</a> = 1.f / <a class="code hl_variable" href="../../d6/dcf/class_v_m_a_p_1_1_model_spawn.html#aad355d0fb09ff0360ed19610bef92d8e">iScale</a>;</div>
+<div class="line"><span class="lineno">   31</span>    }</div>
+<div class="ttc" id="aclass_v_m_a_p_1_1_model_instance_html_a9ac1d8dbfc566a2b5e508cae92ef4019"><div class="ttname"><a href="../../d9/d00/class_v_m_a_p_1_1_model_instance.html#a9ac1d8dbfc566a2b5e508cae92ef4019">VMAP::ModelInstance::iInvRot</a></div><div class="ttdeci">G3D::Matrix3 iInvRot</div><div class="ttdef"><b>Definition:</b> ModelInstance.h:74</div></div>
+<div class="ttc" id="aclass_v_m_a_p_1_1_model_instance_html_ac0b95c6fde838667e007781bde2f2917"><div class="ttname"><a href="../../d9/d00/class_v_m_a_p_1_1_model_instance.html#ac0b95c6fde838667e007781bde2f2917">VMAP::ModelInstance::iModel</a></div><div class="ttdeci">WorldModel * iModel</div><div class="ttdef"><b>Definition:</b> ModelInstance.h:76</div></div>
+<div class="ttc" id="aclass_v_m_a_p_1_1_model_instance_html_adc23d9c9a79ac7cfdb1f90b96485b089"><div class="ttname"><a href="../../d9/d00/class_v_m_a_p_1_1_model_instance.html#adc23d9c9a79ac7cfdb1f90b96485b089">VMAP::ModelInstance::iInvScale</a></div><div class="ttdeci">float iInvScale</div><div class="ttdef"><b>Definition:</b> ModelInstance.h:75</div></div>
+<div class="ttc" id="aclass_v_m_a_p_1_1_model_spawn_html_a6d0b4f6bde1a20b246e4b22cc43e25af"><div class="ttname"><a href="../../d6/dcf/class_v_m_a_p_1_1_model_spawn.html#a6d0b4f6bde1a20b246e4b22cc43e25af">VMAP::ModelSpawn::iRot</a></div><div class="ttdeci">G3D::Vector3 iRot</div><div class="ttdef"><b>Definition:</b> ModelInstance.h:49</div></div>
+<div class="ttc" id="aclass_v_m_a_p_1_1_model_spawn_html_aad355d0fb09ff0360ed19610bef92d8e"><div class="ttname"><a href="../../d6/dcf/class_v_m_a_p_1_1_model_spawn.html#aad355d0fb09ff0360ed19610bef92d8e">VMAP::ModelSpawn::iScale</a></div><div class="ttdeci">float iScale</div><div class="ttdef"><b>Definition:</b> ModelInstance.h:50</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -268,7 +280,22 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  145</span>    {</div>
+<div class="line"><span class="lineno">  146</span>        <span class="comment">// child bounds are defined in object space:</span></div>
+<div class="line"><span class="lineno">  147</span>        Vector3 pModel = <a class="code hl_variable" href="../../d9/d00/class_v_m_a_p_1_1_model_instance.html#a9ac1d8dbfc566a2b5e508cae92ef4019">iInvRot</a> * (p - <a class="code hl_variable" href="../../d6/dcf/class_v_m_a_p_1_1_model_spawn.html#abb5966f87710bc6a1f5da766c99b3e12">iPos</a>) * <a class="code hl_variable" href="../../d9/d00/class_v_m_a_p_1_1_model_instance.html#adc23d9c9a79ac7cfdb1f90b96485b089">iInvScale</a>;</div>
+<div class="line"><span class="lineno">  148</span>        <span class="comment">//Vector3 zDirModel = iInvRot * Vector3(0.f, 0.f, -1.f);</span></div>
+<div class="line"><span class="lineno">  149</span>        <span class="keywordtype">float</span> zDist;</div>
+<div class="line"><span class="lineno">  150</span>        <span class="keywordflow">if</span> (info.hitModel-&gt;GetLiquidLevel(pModel, zDist))</div>
+<div class="line"><span class="lineno">  151</span>        {</div>
+<div class="line"><span class="lineno">  152</span>            <span class="comment">// calculate world height (zDist in model coords):</span></div>
+<div class="line"><span class="lineno">  153</span>            <span class="comment">// assume WMO not tilted (wouldn&#39;t make much sense anyway)</span></div>
+<div class="line"><span class="lineno">  154</span>            liqHeight = zDist * <a class="code hl_variable" href="../../d6/dcf/class_v_m_a_p_1_1_model_spawn.html#aad355d0fb09ff0360ed19610bef92d8e">iScale</a> + <a class="code hl_variable" href="../../d6/dcf/class_v_m_a_p_1_1_model_spawn.html#abb5966f87710bc6a1f5da766c99b3e12">iPos</a>.z;</div>
+<div class="line"><span class="lineno">  155</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  156</span>        }</div>
+<div class="line"><span class="lineno">  157</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  158</span>    }</div>
+<div class="ttc" id="aclass_v_m_a_p_1_1_model_spawn_html_abb5966f87710bc6a1f5da766c99b3e12"><div class="ttname"><a href="../../d6/dcf/class_v_m_a_p_1_1_model_spawn.html#abb5966f87710bc6a1f5da766c99b3e12">VMAP::ModelSpawn::iPos</a></div><div class="ttdeci">G3D::Vector3 iPos</div><div class="ttdef"><b>Definition:</b> ModelInstance.h:48</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2e756866245d8131d5fc040489a563e3" name="a2e756866245d8131d5fc040489a563e3"></a>
@@ -296,7 +323,49 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  105</span>    {</div>
+<div class="line"><span class="lineno">  106</span>        <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d9/d00/class_v_m_a_p_1_1_model_instance.html#ac0b95c6fde838667e007781bde2f2917">iModel</a>)</div>
+<div class="line"><span class="lineno">  107</span>        {</div>
+<div class="line"><span class="lineno">  108</span><span class="preprocessor">#ifdef VMAP_DEBUG</span></div>
+<div class="line"><span class="lineno">  109</span>            std::cout &lt;&lt; <span class="stringliteral">&quot;&lt;object not loaded&gt;\n&quot;</span>;</div>
+<div class="line"><span class="lineno">  110</span><span class="preprocessor">#endif</span></div>
+<div class="line"><span class="lineno">  111</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  112</span>        }</div>
+<div class="line"><span class="lineno">  113</span> </div>
+<div class="line"><span class="lineno">  114</span>        <span class="comment">// M2 files don&#39;t contain area info, only WMO files</span></div>
+<div class="line"><span class="lineno">  115</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d6/dcf/class_v_m_a_p_1_1_model_spawn.html#acfc7a76db09013abfad8e42aaae59f52">flags</a> &amp; <a class="code hl_enumvalue" href="../../d6/d39/namespace_v_m_a_p.html#ac540ff16efadcc07eeb9d8511b94ccceadfad2b6f6278e720b00314cd5117b673">MOD_M2</a>)</div>
+<div class="line"><span class="lineno">  116</span>        {</div>
+<div class="line"><span class="lineno">  117</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  118</span>        }</div>
+<div class="line"><span class="lineno">  119</span>        <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d6/dcf/class_v_m_a_p_1_1_model_spawn.html#ae1dac1aa360c4d49b61a0cd8af92399c">iBound</a>.contains(p))</div>
+<div class="line"><span class="lineno">  120</span>        {</div>
+<div class="line"><span class="lineno">  121</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  122</span>        }</div>
+<div class="line"><span class="lineno">  123</span>        <span class="comment">// child bounds are defined in object space:</span></div>
+<div class="line"><span class="lineno">  124</span>        Vector3 pModel = <a class="code hl_variable" href="../../d9/d00/class_v_m_a_p_1_1_model_instance.html#a9ac1d8dbfc566a2b5e508cae92ef4019">iInvRot</a> * (p - <a class="code hl_variable" href="../../d6/dcf/class_v_m_a_p_1_1_model_spawn.html#abb5966f87710bc6a1f5da766c99b3e12">iPos</a>) * <a class="code hl_variable" href="../../d9/d00/class_v_m_a_p_1_1_model_instance.html#adc23d9c9a79ac7cfdb1f90b96485b089">iInvScale</a>;</div>
+<div class="line"><span class="lineno">  125</span>        Vector3 zDirModel = <a class="code hl_variable" href="../../d9/d00/class_v_m_a_p_1_1_model_instance.html#a9ac1d8dbfc566a2b5e508cae92ef4019">iInvRot</a> * Vector3(0.f, 0.f, -1.f);</div>
+<div class="line"><span class="lineno">  126</span>        <span class="keywordtype">float</span> zDist;</div>
+<div class="line"><span class="lineno">  127</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d9/d00/class_v_m_a_p_1_1_model_instance.html#ac0b95c6fde838667e007781bde2f2917">iModel</a>-&gt;<a class="code hl_function" href="../../d4/d1a/class_v_m_a_p_1_1_world_model.html#a3a198d0cbd607e574cb53a08d6b7457a">GetLocationInfo</a>(pModel, zDirModel, zDist, info))</div>
+<div class="line"><span class="lineno">  128</span>        {</div>
+<div class="line"><span class="lineno">  129</span>            Vector3 modelGround = pModel + zDist * zDirModel;</div>
+<div class="line"><span class="lineno">  130</span>            <span class="comment">// Transform back to world space. Note that:</span></div>
+<div class="line"><span class="lineno">  131</span>            <span class="comment">// Mat * vec == vec * Mat.transpose()</span></div>
+<div class="line"><span class="lineno">  132</span>            <span class="comment">// and for rotation matrices: Mat.inverse() == Mat.transpose()</span></div>
+<div class="line"><span class="lineno">  133</span>            <span class="keywordtype">float</span> world_Z = ((modelGround * <a class="code hl_variable" href="../../d9/d00/class_v_m_a_p_1_1_model_instance.html#a9ac1d8dbfc566a2b5e508cae92ef4019">iInvRot</a>) * <a class="code hl_variable" href="../../d6/dcf/class_v_m_a_p_1_1_model_spawn.html#aad355d0fb09ff0360ed19610bef92d8e">iScale</a> + <a class="code hl_variable" href="../../d6/dcf/class_v_m_a_p_1_1_model_spawn.html#abb5966f87710bc6a1f5da766c99b3e12">iPos</a>).z;</div>
+<div class="line"><span class="lineno">  134</span>            <span class="keywordflow">if</span> (info.ground_Z &lt; world_Z) <span class="comment">// hm...could it be handled automatically with zDist at intersection?</span></div>
+<div class="line"><span class="lineno">  135</span>            {</div>
+<div class="line"><span class="lineno">  136</span>                info.ground_Z = world_Z;</div>
+<div class="line"><span class="lineno">  137</span>                info.hitInstance = <span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">  138</span>                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  139</span>            }</div>
+<div class="line"><span class="lineno">  140</span>        }</div>
+<div class="line"><span class="lineno">  141</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  142</span>    }</div>
+<div class="ttc" id="aclass_v_m_a_p_1_1_model_spawn_html_acfc7a76db09013abfad8e42aaae59f52"><div class="ttname"><a href="../../d6/dcf/class_v_m_a_p_1_1_model_spawn.html#acfc7a76db09013abfad8e42aaae59f52">VMAP::ModelSpawn::flags</a></div><div class="ttdeci">uint32 flags</div><div class="ttdef"><b>Definition:</b> ModelInstance.h:45</div></div>
+<div class="ttc" id="aclass_v_m_a_p_1_1_model_spawn_html_ae1dac1aa360c4d49b61a0cd8af92399c"><div class="ttname"><a href="../../d6/dcf/class_v_m_a_p_1_1_model_spawn.html#ae1dac1aa360c4d49b61a0cd8af92399c">VMAP::ModelSpawn::iBound</a></div><div class="ttdeci">G3D::AABox iBound</div><div class="ttdef"><b>Definition:</b> ModelInstance.h:51</div></div>
+<div class="ttc" id="aclass_v_m_a_p_1_1_world_model_html_a3a198d0cbd607e574cb53a08d6b7457a"><div class="ttname"><a href="../../d4/d1a/class_v_m_a_p_1_1_world_model.html#a3a198d0cbd607e574cb53a08d6b7457a">VMAP::WorldModel::GetLocationInfo</a></div><div class="ttdeci">bool GetLocationInfo(const G3D::Vector3 &amp;p, const G3D::Vector3 &amp;down, float &amp;dist, LocationInfo &amp;info) const</div><div class="ttdef"><b>Definition:</b> WorldModel.cpp:600</div></div>
+<div class="ttc" id="anamespace_v_m_a_p_html_ac540ff16efadcc07eeb9d8511b94ccceadfad2b6f6278e720b00314cd5117b673"><div class="ttname"><a href="../../d6/d39/namespace_v_m_a_p.html#ac540ff16efadcc07eeb9d8511b94ccceadfad2b6f6278e720b00314cd5117b673">VMAP::MOD_M2</a></div><div class="ttdeci">@ MOD_M2</div><div class="ttdef"><b>Definition:</b> ModelInstance.h:36</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a464922875649215b0b60aafc1ff70c3c" name="a464922875649215b0b60aafc1ff70c3c"></a>
@@ -321,7 +390,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   72</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d9/d00/class_v_m_a_p_1_1_model_instance.html#ac0b95c6fde838667e007781bde2f2917">iModel</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a991622da72fe08d812f49f20f0a2df17" name="a991622da72fe08d812f49f20f0a2df17"></a>
@@ -349,7 +419,45 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   67</span>    {</div>
+<div class="line"><span class="lineno">   68</span>        <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d9/d00/class_v_m_a_p_1_1_model_instance.html#ac0b95c6fde838667e007781bde2f2917">iModel</a>)</div>
+<div class="line"><span class="lineno">   69</span>        {</div>
+<div class="line"><span class="lineno">   70</span><span class="preprocessor">#ifdef VMAP_DEBUG</span></div>
+<div class="line"><span class="lineno">   71</span>            std::cout &lt;&lt; <span class="stringliteral">&quot;&lt;object not loaded&gt;\n&quot;</span>;</div>
+<div class="line"><span class="lineno">   72</span><span class="preprocessor">#endif</span></div>
+<div class="line"><span class="lineno">   73</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   74</span>        }</div>
+<div class="line"><span class="lineno">   75</span> </div>
+<div class="line"><span class="lineno">   76</span>        <span class="comment">// M2 files don&#39;t contain area info, only WMO files</span></div>
+<div class="line"><span class="lineno">   77</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d6/dcf/class_v_m_a_p_1_1_model_spawn.html#acfc7a76db09013abfad8e42aaae59f52">flags</a> &amp; <a class="code hl_enumvalue" href="../../d6/d39/namespace_v_m_a_p.html#ac540ff16efadcc07eeb9d8511b94ccceadfad2b6f6278e720b00314cd5117b673">MOD_M2</a>)</div>
+<div class="line"><span class="lineno">   78</span>        {</div>
+<div class="line"><span class="lineno">   79</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   80</span>        }</div>
+<div class="line"><span class="lineno">   81</span>        <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d6/dcf/class_v_m_a_p_1_1_model_spawn.html#ae1dac1aa360c4d49b61a0cd8af92399c">iBound</a>.contains(p))</div>
+<div class="line"><span class="lineno">   82</span>        {</div>
+<div class="line"><span class="lineno">   83</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   84</span>        }</div>
+<div class="line"><span class="lineno">   85</span>        <span class="comment">// child bounds are defined in object space:</span></div>
+<div class="line"><span class="lineno">   86</span>        Vector3 pModel = <a class="code hl_variable" href="../../d9/d00/class_v_m_a_p_1_1_model_instance.html#a9ac1d8dbfc566a2b5e508cae92ef4019">iInvRot</a> * (p - <a class="code hl_variable" href="../../d6/dcf/class_v_m_a_p_1_1_model_spawn.html#abb5966f87710bc6a1f5da766c99b3e12">iPos</a>) * <a class="code hl_variable" href="../../d9/d00/class_v_m_a_p_1_1_model_instance.html#adc23d9c9a79ac7cfdb1f90b96485b089">iInvScale</a>;</div>
+<div class="line"><span class="lineno">   87</span>        Vector3 zDirModel = <a class="code hl_variable" href="../../d9/d00/class_v_m_a_p_1_1_model_instance.html#a9ac1d8dbfc566a2b5e508cae92ef4019">iInvRot</a> * Vector3(0.f, 0.f, -1.f);</div>
+<div class="line"><span class="lineno">   88</span>        <span class="keywordtype">float</span> zDist;</div>
+<div class="line"><span class="lineno">   89</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d9/d00/class_v_m_a_p_1_1_model_instance.html#ac0b95c6fde838667e007781bde2f2917">iModel</a>-&gt;<a class="code hl_function" href="../../d4/d1a/class_v_m_a_p_1_1_world_model.html#ab049f44af8c65d8c41309157473a8b01">IntersectPoint</a>(pModel, zDirModel, zDist, info))</div>
+<div class="line"><span class="lineno">   90</span>        {</div>
+<div class="line"><span class="lineno">   91</span>            Vector3 modelGround = pModel + zDist * zDirModel;</div>
+<div class="line"><span class="lineno">   92</span>            <span class="comment">// Transform back to world space. Note that:</span></div>
+<div class="line"><span class="lineno">   93</span>            <span class="comment">// Mat * vec == vec * Mat.transpose()</span></div>
+<div class="line"><span class="lineno">   94</span>            <span class="comment">// and for rotation matrices: Mat.inverse() == Mat.transpose()</span></div>
+<div class="line"><span class="lineno">   95</span>            <span class="keywordtype">float</span> world_Z = ((modelGround * <a class="code hl_variable" href="../../d9/d00/class_v_m_a_p_1_1_model_instance.html#a9ac1d8dbfc566a2b5e508cae92ef4019">iInvRot</a>) * <a class="code hl_variable" href="../../d6/dcf/class_v_m_a_p_1_1_model_spawn.html#aad355d0fb09ff0360ed19610bef92d8e">iScale</a> + <a class="code hl_variable" href="../../d6/dcf/class_v_m_a_p_1_1_model_spawn.html#abb5966f87710bc6a1f5da766c99b3e12">iPos</a>).z;</div>
+<div class="line"><span class="lineno">   96</span>            <span class="keywordflow">if</span> (info.ground_Z &lt; world_Z)</div>
+<div class="line"><span class="lineno">   97</span>            {</div>
+<div class="line"><span class="lineno">   98</span>                info.ground_Z = world_Z;</div>
+<div class="line"><span class="lineno">   99</span>                info.adtId = <a class="code hl_variable" href="../../d6/dcf/class_v_m_a_p_1_1_model_spawn.html#a4ebcfe8326eff028e722c9972a16200b">adtId</a>;</div>
+<div class="line"><span class="lineno">  100</span>            }</div>
+<div class="line"><span class="lineno">  101</span>        }</div>
+<div class="line"><span class="lineno">  102</span>    }</div>
+<div class="ttc" id="aclass_v_m_a_p_1_1_model_spawn_html_a4ebcfe8326eff028e722c9972a16200b"><div class="ttname"><a href="../../d6/dcf/class_v_m_a_p_1_1_model_spawn.html#a4ebcfe8326eff028e722c9972a16200b">VMAP::ModelSpawn::adtId</a></div><div class="ttdeci">uint16 adtId</div><div class="ttdef"><b>Definition:</b> ModelInstance.h:46</div></div>
+<div class="ttc" id="aclass_v_m_a_p_1_1_world_model_html_ab049f44af8c65d8c41309157473a8b01"><div class="ttname"><a href="../../d4/d1a/class_v_m_a_p_1_1_world_model.html#ab049f44af8c65d8c41309157473a8b01">VMAP::WorldModel::IntersectPoint</a></div><div class="ttdeci">bool IntersectPoint(const G3D::Vector3 &amp;p, const G3D::Vector3 &amp;down, float &amp;dist, AreaInfo &amp;info) const</div><div class="ttdef"><b>Definition:</b> WorldModel.cpp:579</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aca8a2a07911eba5ec362080e2790453c" name="aca8a2a07911eba5ec362080e2790453c"></a>
@@ -389,7 +497,39 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   34</span>    {</div>
+<div class="line"><span class="lineno">   35</span>        <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d9/d00/class_v_m_a_p_1_1_model_instance.html#ac0b95c6fde838667e007781bde2f2917">iModel</a>)</div>
+<div class="line"><span class="lineno">   36</span>        {</div>
+<div class="line"><span class="lineno">   37</span>            <span class="comment">//std::cout &lt;&lt; &quot;&lt;object not loaded&gt;\n&quot;;</span></div>
+<div class="line"><span class="lineno">   38</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   39</span>        }</div>
+<div class="line"><span class="lineno">   40</span>        <span class="keywordtype">float</span> time = pRay.intersectionTime(<a class="code hl_variable" href="../../d6/dcf/class_v_m_a_p_1_1_model_spawn.html#ae1dac1aa360c4d49b61a0cd8af92399c">iBound</a>);</div>
+<div class="line"><span class="lineno">   41</span>        <span class="keywordflow">if</span> (time == G3D::inf())</div>
+<div class="line"><span class="lineno">   42</span>        {</div>
+<div class="line"><span class="lineno">   43</span>            <span class="comment">//            std::cout &lt;&lt; &quot;Ray does not hit &#39;&quot; &lt;&lt; name &lt;&lt; &quot;&#39;\n&quot;;</span></div>
+<div class="line"><span class="lineno">   44</span> </div>
+<div class="line"><span class="lineno">   45</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   46</span>        }</div>
+<div class="line"><span class="lineno">   47</span>        <span class="comment">//        std::cout &lt;&lt; &quot;Ray crosses bound of &#39;&quot; &lt;&lt; name &lt;&lt; &quot;&#39;\n&quot;;</span></div>
+<div class="line"><span class="lineno">   48</span>        <span class="comment">/*        std::cout &lt;&lt; &quot;ray from:&quot; &lt;&lt; pRay.origin().x &lt;&lt; &quot;, &quot; &lt;&lt; pRay.origin().y &lt;&lt; &quot;, &quot; &lt;&lt; pRay.origin().z</span></div>
+<div class="line"><span class="lineno">   49</span><span class="comment">                          &lt;&lt; &quot; dir:&quot; &lt;&lt; pRay.direction().x &lt;&lt; &quot;, &quot; &lt;&lt; pRay.direction().y &lt;&lt; &quot;, &quot; &lt;&lt; pRay.direction().z</span></div>
+<div class="line"><span class="lineno">   50</span><span class="comment">                          &lt;&lt; &quot; t/tmax:&quot; &lt;&lt; time &lt;&lt; &#39;/&#39; &lt;&lt; pMaxDist;</span></div>
+<div class="line"><span class="lineno">   51</span><span class="comment">                std::cout &lt;&lt; &quot;\nBound lo:&quot; &lt;&lt; iBound.low().x &lt;&lt; &quot;, &quot; &lt;&lt; iBound.low().y &lt;&lt; &quot;, &quot; &lt;&lt; iBound.low().z &lt;&lt; &quot; hi: &quot;</span></div>
+<div class="line"><span class="lineno">   52</span><span class="comment">                          &lt;&lt; iBound.high().x &lt;&lt; &quot;, &quot; &lt;&lt; iBound.high().y &lt;&lt; &quot;, &quot; &lt;&lt; iBound.high().z &lt;&lt; std::endl; */</span></div>
+<div class="line"><span class="lineno">   53</span>        <span class="comment">// child bounds are defined in object space:</span></div>
+<div class="line"><span class="lineno">   54</span>        Vector3 p = <a class="code hl_variable" href="../../d9/d00/class_v_m_a_p_1_1_model_instance.html#a9ac1d8dbfc566a2b5e508cae92ef4019">iInvRot</a> * (pRay.origin() - <a class="code hl_variable" href="../../d6/dcf/class_v_m_a_p_1_1_model_spawn.html#abb5966f87710bc6a1f5da766c99b3e12">iPos</a>) * <a class="code hl_variable" href="../../d9/d00/class_v_m_a_p_1_1_model_instance.html#adc23d9c9a79ac7cfdb1f90b96485b089">iInvScale</a>;</div>
+<div class="line"><span class="lineno">   55</span>        Ray modRay(p, <a class="code hl_variable" href="../../d9/d00/class_v_m_a_p_1_1_model_instance.html#a9ac1d8dbfc566a2b5e508cae92ef4019">iInvRot</a> * pRay.direction());</div>
+<div class="line"><span class="lineno">   56</span>        <span class="keywordtype">float</span> distance = pMaxDist * <a class="code hl_variable" href="../../d9/d00/class_v_m_a_p_1_1_model_instance.html#adc23d9c9a79ac7cfdb1f90b96485b089">iInvScale</a>;</div>
+<div class="line"><span class="lineno">   57</span>        <span class="keywordtype">bool</span> hit = <a class="code hl_variable" href="../../d9/d00/class_v_m_a_p_1_1_model_instance.html#ac0b95c6fde838667e007781bde2f2917">iModel</a>-&gt;<a class="code hl_function" href="../../d4/d1a/class_v_m_a_p_1_1_world_model.html#a63c3d4e85d0924d6c46d8b6c6f70a593">IntersectRay</a>(modRay, distance, StopAtFirstHit, ignoreFlags);</div>
+<div class="line"><span class="lineno">   58</span>        <span class="keywordflow">if</span> (hit)</div>
+<div class="line"><span class="lineno">   59</span>        {</div>
+<div class="line"><span class="lineno">   60</span>            distance *= <a class="code hl_variable" href="../../d6/dcf/class_v_m_a_p_1_1_model_spawn.html#aad355d0fb09ff0360ed19610bef92d8e">iScale</a>;</div>
+<div class="line"><span class="lineno">   61</span>            pMaxDist = distance;</div>
+<div class="line"><span class="lineno">   62</span>        }</div>
+<div class="line"><span class="lineno">   63</span>        <span class="keywordflow">return</span> hit;</div>
+<div class="line"><span class="lineno">   64</span>    }</div>
+<div class="ttc" id="aclass_v_m_a_p_1_1_world_model_html_a63c3d4e85d0924d6c46d8b6c6f70a593"><div class="ttname"><a href="../../d4/d1a/class_v_m_a_p_1_1_world_model.html#a63c3d4e85d0924d6c46d8b6c6f70a593">VMAP::WorldModel::IntersectRay</a></div><div class="ttdeci">bool IntersectRay(const G3D::Ray &amp;ray, float &amp;distance, bool stopAtFirstHit, ModelIgnoreFlags ignoreFlags) const</div><div class="ttdef"><b>Definition:</b> WorldModel.cpp:517</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a1797ec305f365e58cd92c8cd3f3094ba" name="a1797ec305f365e58cd92c8cd3f3094ba"></a>
@@ -414,7 +554,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   67</span>{ <a class="code hl_variable" href="../../d9/d00/class_v_m_a_p_1_1_model_instance.html#ac0b95c6fde838667e007781bde2f2917">iModel</a> = <span class="keyword">nullptr</span>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -485,8 +626,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/common/Collision/Models/<a class="el" href="../../de/db2/_model_instance_8h_source.html">ModelInstance.h</a></li>
-<li>D:/azerothcore-wotlk/src/common/Collision/Models/<a class="el" href="../../d1/d73/_model_instance_8cpp.html">ModelInstance.cpp</a></li>
+<li><a class="el" href="../../">ModelInstance.h</a></li>
+<li><a class="el" href="../../">ModelInstance.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -494,7 +635,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d6/d39/namespace_v_m_a_p.html">VMAP</a></li><li class="navelem"><a class="el" href="../../d9/d00/class_v_m_a_p_1_1_model_instance.html">ModelInstance</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:14 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:32 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

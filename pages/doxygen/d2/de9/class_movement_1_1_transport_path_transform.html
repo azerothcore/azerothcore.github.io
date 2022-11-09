@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('d2/de9/class_movement_1_1_transport_pa
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../dd/d9c/_move_spline_init_8h_source.html">MoveSplineInit.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">MoveSplineInit.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -129,7 +129,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:afad44bc388b7d224f7a87aed7ba2e120"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/de9/class_movement_1_1_transport_path_transform.html#afad44bc388b7d224f7a87aed7ba2e120">_transformForTransport</a></td></tr>
 <tr class="separator:afad44bc388b7d224f7a87aed7ba2e120"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="af73e0369a2f0e4c2aabfde5b47b7520d" name="af73e0369a2f0e4c2aabfde5b47b7520d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af73e0369a2f0e4c2aabfde5b47b7520d">&#9670;&#160;</a></span>TransportPathTransform()</h2>
 
@@ -163,7 +164,10 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   45</span>            : <a class="code hl_variable" href="../../d2/de9/class_movement_1_1_transport_path_transform.html#a15428c0b9a8b11f7f63845a7d65620e8">_owner</a>(owner), <a class="code hl_variable" href="../../d2/de9/class_movement_1_1_transport_path_transform.html#afad44bc388b7d224f7a87aed7ba2e120">_transformForTransport</a>(transformForTransport) { }</div>
+<div class="ttc" id="aclass_movement_1_1_transport_path_transform_html_a15428c0b9a8b11f7f63845a7d65620e8"><div class="ttname"><a href="../../d2/de9/class_movement_1_1_transport_path_transform.html#a15428c0b9a8b11f7f63845a7d65620e8">Movement::TransportPathTransform::_owner</a></div><div class="ttdeci">Unit * _owner</div><div class="ttdef"><b>Definition:</b> MoveSplineInit.h:49</div></div>
+<div class="ttc" id="aclass_movement_1_1_transport_path_transform_html_afad44bc388b7d224f7a87aed7ba2e120"><div class="ttname"><a href="../../d2/de9/class_movement_1_1_transport_path_transform.html#afad44bc388b7d224f7a87aed7ba2e120">Movement::TransportPathTransform::_transformForTransport</a></div><div class="ttdeci">bool _transformForTransport</div><div class="ttdef"><b>Definition:</b> MoveSplineInit.h:50</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -182,7 +186,16 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  237</span>    {</div>
+<div class="line"><span class="lineno">  238</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d2/de9/class_movement_1_1_transport_path_transform.html#afad44bc388b7d224f7a87aed7ba2e120">_transformForTransport</a>)</div>
+<div class="line"><span class="lineno">  239</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/dd1/class_transport_base.html">TransportBase</a>* transport = <a class="code hl_variable" href="../../d2/de9/class_movement_1_1_transport_path_transform.html#a15428c0b9a8b11f7f63845a7d65620e8">_owner</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a959879d9a8051fcc60f824c15d6308a2">GetDirectTransport</a>())</div>
+<div class="line"><span class="lineno">  240</span>                transport-&gt;CalculatePassengerOffset(input.x, input.y, input.z);</div>
+<div class="line"><span class="lineno">  241</span> </div>
+<div class="line"><span class="lineno">  242</span>        <span class="keywordflow">return</span> input;</div>
+<div class="line"><span class="lineno">  243</span>    }</div>
+<div class="ttc" id="aclass_transport_base_html"><div class="ttname"><a href="../../d8/dd1/class_transport_base.html">TransportBase</a></div><div class="ttdef"><b>Definition:</b> VehicleDefines.h:107</div></div>
+<div class="ttc" id="aclass_unit_html_a959879d9a8051fcc60f824c15d6308a2"><div class="ttname"><a href="../../da/db7/class_unit.html#a959879d9a8051fcc60f824c15d6308a2">Unit::GetDirectTransport</a></div><div class="ttdeci">TransportBase * GetDirectTransport() const</div><div class="ttdoc">Returns the transport this unit is on directly (if on vehicle and transport, return vehicle)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:18799</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -231,8 +244,8 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Movement/Spline/<a class="el" href="../../dd/d9c/_move_spline_init_8h_source.html">MoveSplineInit.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/Movement/Spline/<a class="el" href="../../db/d19/_move_spline_init_8cpp.html">MoveSplineInit.cpp</a></li>
+<li><a class="el" href="../../">MoveSplineInit.h</a></li>
+<li><a class="el" href="../../">MoveSplineInit.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -240,7 +253,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/dc5/namespace_movement.html">Movement</a></li><li class="navelem"><a class="el" href="../../d2/de9/class_movement_1_1_transport_path_transform.html">TransportPathTransform</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:14 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:32 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

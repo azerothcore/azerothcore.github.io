@@ -181,7 +181,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a2d6cf85d1eb98438b5022804296eff11 inherit pro_methods_class_updatable_script"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dff/class_updatable_script.html#a2d6cf85d1eb98438b5022804296eff11">UpdatableScript</a> ()=default</td></tr>
 <tr class="separator:a2d6cf85d1eb98438b5022804296eff11 inherit pro_methods_class_updatable_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a28c9312de97a822e34f05c7358b42df4" name="a28c9312de97a822e34f05c7358b42df4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a28c9312de97a822e34f05c7358b42df4">&#9670;&#160;</a></span>go_jotunheim_cage()</h2>
 
@@ -204,7 +205,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1321</span>: <a class="code hl_class" href="../../d9/dc2/class_game_object_script.html">GameObjectScript</a>(<span class="stringliteral">&quot;go_jotunheim_cage&quot;</span>) { }</div>
+<div class="ttc" id="aclass_game_object_script_html"><div class="ttname"><a href="../../d9/dc2/class_game_object_script.html">GameObjectScript</a></div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:758</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -243,11 +246,62 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d9/dc2/class_game_object_script.html#a58b56fc92ae87aea0530eceba1f3088d">GameObjectScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1324</span>    {</div>
+<div class="line"><span class="lineno"> 1325</span>        go-&gt;<a class="code hl_function" href="../../d0/dd1/class_game_object.html#a12000cdd8344e082611a6dafc6d283fa">UseDoorOrButton</a>();</div>
+<div class="line"><span class="lineno"> 1326</span>        <a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* pPrisoner = go-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#aa7cc61d571dbc39ca8ac6ac10ffd18ab">FindNearestCreature</a>(<a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#a0ff7af590f3037be7611d256e9099e7bacbb78d20aba3f8d9378ed932aa9b4516">NPC_EBON_BLADE_PRISONER_HUMAN</a>, 5.0f, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno"> 1327</span>        <span class="keywordflow">if</span> (!pPrisoner)</div>
+<div class="line"><span class="lineno"> 1328</span>        {</div>
+<div class="line"><span class="lineno"> 1329</span>            pPrisoner = go-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#aa7cc61d571dbc39ca8ac6ac10ffd18ab">FindNearestCreature</a>(<a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#a0ff7af590f3037be7611d256e9099e7ba08baf99dc1bf69a95e924ac226cac019">NPC_EBON_BLADE_PRISONER_TROLL</a>, 5.0f, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno"> 1330</span>            <span class="keywordflow">if</span> (!pPrisoner)</div>
+<div class="line"><span class="lineno"> 1331</span>            {</div>
+<div class="line"><span class="lineno"> 1332</span>                pPrisoner = go-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#aa7cc61d571dbc39ca8ac6ac10ffd18ab">FindNearestCreature</a>(<a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#a0ff7af590f3037be7611d256e9099e7ba9c354aa5df1a8b9bf4d8f599dd0cb1f1">NPC_EBON_BLADE_PRISONER_ORC</a>, 5.0f, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno"> 1333</span>                <span class="keywordflow">if</span> (!pPrisoner)</div>
+<div class="line"><span class="lineno"> 1334</span>                    pPrisoner = go-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#aa7cc61d571dbc39ca8ac6ac10ffd18ab">FindNearestCreature</a>(<a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#a0ff7af590f3037be7611d256e9099e7ba6a9a7936e2b74aed43db7777b5ea3ceb">NPC_EBON_BLADE_PRISONER_NE</a>, 5.0f, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno"> 1335</span>            }</div>
+<div class="line"><span class="lineno"> 1336</span>        }</div>
+<div class="line"><span class="lineno"> 1337</span>        <span class="keywordflow">if</span> (!pPrisoner || !pPrisoner-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a5ea3f54af571493f7889220724667189">IsAlive</a>())</div>
+<div class="line"><span class="lineno"> 1338</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1339</span> </div>
+<div class="line"><span class="lineno"> 1340</span>        pPrisoner-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#abce66404f36b926cf403555911bcb9f7">DespawnOrUnsummon</a>();</div>
+<div class="line"><span class="lineno"> 1341</span>        player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a05924f5e9df8d5f06ba422e159a4fd8a">KilledMonsterCredit</a>(<a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#a0ff7af590f3037be7611d256e9099e7bacbb78d20aba3f8d9378ed932aa9b4516">NPC_EBON_BLADE_PRISONER_HUMAN</a>);</div>
+<div class="line"><span class="lineno"> 1342</span>        <span class="keywordflow">switch</span> (pPrisoner-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>())</div>
+<div class="line"><span class="lineno"> 1343</span>        {</div>
+<div class="line"><span class="lineno"> 1344</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#a0ff7af590f3037be7611d256e9099e7bacbb78d20aba3f8d9378ed932aa9b4516">NPC_EBON_BLADE_PRISONER_HUMAN</a>:</div>
+<div class="line"><span class="lineno"> 1345</span>                player-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(player, <a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#a0ff7af590f3037be7611d256e9099e7ba8b480ab412fc2497f0faea4e83dbf849">SPELL_SUMMON_BLADE_KNIGHT_H</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno"> 1346</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1347</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#a0ff7af590f3037be7611d256e9099e7ba6a9a7936e2b74aed43db7777b5ea3ceb">NPC_EBON_BLADE_PRISONER_NE</a>:</div>
+<div class="line"><span class="lineno"> 1348</span>                player-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(player, <a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#a0ff7af590f3037be7611d256e9099e7ba0d3ea38b4e032b371b8dd2f76c6cdc14">SPELL_SUMMON_BLADE_KNIGHT_NE</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno"> 1349</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1350</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#a0ff7af590f3037be7611d256e9099e7ba08baf99dc1bf69a95e924ac226cac019">NPC_EBON_BLADE_PRISONER_TROLL</a>:</div>
+<div class="line"><span class="lineno"> 1351</span>                player-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(player, <a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#a0ff7af590f3037be7611d256e9099e7bad0b17cb3e545d3ecef964b3e92c0bcfa">SPELL_SUMMON_BLADE_KNIGHT_TROLL</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno"> 1352</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1353</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#a0ff7af590f3037be7611d256e9099e7ba9c354aa5df1a8b9bf4d8f599dd0cb1f1">NPC_EBON_BLADE_PRISONER_ORC</a>:</div>
+<div class="line"><span class="lineno"> 1354</span>                player-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(player, <a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#a0ff7af590f3037be7611d256e9099e7ba90772d660ff6278d2d18be3a427a7c8f">SPELL_SUMMON_BLADE_KNIGHT_ORC</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno"> 1355</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1356</span>        }</div>
+<div class="line"><span class="lineno"> 1357</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 1358</span>    }</div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_creature_html_abce66404f36b926cf403555911bcb9f7"><div class="ttname"><a href="../../d1/dac/class_creature.html#abce66404f36b926cf403555911bcb9f7">Creature::DespawnOrUnsummon</a></div><div class="ttdeci">void DespawnOrUnsummon(Milliseconds msTimeToDespawn, Seconds forcedRespawnTimer)</div><div class="ttdef"><b>Definition:</b> Creature.cpp:2092</div></div>
+<div class="ttc" id="aclass_game_object_html_a12000cdd8344e082611a6dafc6d283fa"><div class="ttname"><a href="../../d0/dd1/class_game_object.html#a12000cdd8344e082611a6dafc6d283fa">GameObject::UseDoorOrButton</a></div><div class="ttdeci">void UseDoorOrButton(uint32 time_to_restore=0, bool alternative=false, Unit *user=nullptr)</div><div class="ttdef"><b>Definition:</b> GameObject.cpp:1400</div></div>
+<div class="ttc" id="aclass_object_html_aa627fe2967ed0e0ed1d8aeeb4365a961"><div class="ttname"><a href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">Object::GetEntry</a></div><div class="ttdeci">uint32 GetEntry() const</div><div class="ttdef"><b>Definition:</b> Object.h:109</div></div>
+<div class="ttc" id="aclass_player_html_a05924f5e9df8d5f06ba422e159a4fd8a"><div class="ttname"><a href="../../d8/d53/class_player.html#a05924f5e9df8d5f06ba422e159a4fd8a">Player::KilledMonsterCredit</a></div><div class="ttdeci">void KilledMonsterCredit(uint32 entry, ObjectGuid guid=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> PlayerQuest.cpp:1904</div></div>
+<div class="ttc" id="aclass_unit_html_a5ea3f54af571493f7889220724667189"><div class="ttname"><a href="../../da/db7/class_unit.html#a5ea3f54af571493f7889220724667189">Unit::IsAlive</a></div><div class="ttdeci">bool IsAlive() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1805</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+<div class="ttc" id="aclass_world_object_html_aa7cc61d571dbc39ca8ac6ac10ffd18ab"><div class="ttname"><a href="../../db/df7/class_world_object.html#aa7cc61d571dbc39ca8ac6ac10ffd18ab">WorldObject::FindNearestCreature</a></div><div class="ttdeci">Creature * FindNearestCreature(uint32 entry, float range, bool alive=true) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:2392</div></div>
+<div class="ttc" id="ago__scripts_8cpp_html_a0ff7af590f3037be7611d256e9099e7ba08baf99dc1bf69a95e924ac226cac019"><div class="ttname"><a href="../../d6/d0c/go__scripts_8cpp.html#a0ff7af590f3037be7611d256e9099e7ba08baf99dc1bf69a95e924ac226cac019">NPC_EBON_BLADE_PRISONER_TROLL</a></div><div class="ttdeci">@ NPC_EBON_BLADE_PRISONER_TROLL</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1309</div></div>
+<div class="ttc" id="ago__scripts_8cpp_html_a0ff7af590f3037be7611d256e9099e7ba0d3ea38b4e032b371b8dd2f76c6cdc14"><div class="ttname"><a href="../../d6/d0c/go__scripts_8cpp.html#a0ff7af590f3037be7611d256e9099e7ba0d3ea38b4e032b371b8dd2f76c6cdc14">SPELL_SUMMON_BLADE_KNIGHT_NE</a></div><div class="ttdeci">@ SPELL_SUMMON_BLADE_KNIGHT_NE</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1313</div></div>
+<div class="ttc" id="ago__scripts_8cpp_html_a0ff7af590f3037be7611d256e9099e7ba6a9a7936e2b74aed43db7777b5ea3ceb"><div class="ttname"><a href="../../d6/d0c/go__scripts_8cpp.html#a0ff7af590f3037be7611d256e9099e7ba6a9a7936e2b74aed43db7777b5ea3ceb">NPC_EBON_BLADE_PRISONER_NE</a></div><div class="ttdeci">@ NPC_EBON_BLADE_PRISONER_NE</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1308</div></div>
+<div class="ttc" id="ago__scripts_8cpp_html_a0ff7af590f3037be7611d256e9099e7ba8b480ab412fc2497f0faea4e83dbf849"><div class="ttname"><a href="../../d6/d0c/go__scripts_8cpp.html#a0ff7af590f3037be7611d256e9099e7ba8b480ab412fc2497f0faea4e83dbf849">SPELL_SUMMON_BLADE_KNIGHT_H</a></div><div class="ttdeci">@ SPELL_SUMMON_BLADE_KNIGHT_H</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1312</div></div>
+<div class="ttc" id="ago__scripts_8cpp_html_a0ff7af590f3037be7611d256e9099e7ba90772d660ff6278d2d18be3a427a7c8f"><div class="ttname"><a href="../../d6/d0c/go__scripts_8cpp.html#a0ff7af590f3037be7611d256e9099e7ba90772d660ff6278d2d18be3a427a7c8f">SPELL_SUMMON_BLADE_KNIGHT_ORC</a></div><div class="ttdeci">@ SPELL_SUMMON_BLADE_KNIGHT_ORC</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1314</div></div>
+<div class="ttc" id="ago__scripts_8cpp_html_a0ff7af590f3037be7611d256e9099e7ba9c354aa5df1a8b9bf4d8f599dd0cb1f1"><div class="ttname"><a href="../../d6/d0c/go__scripts_8cpp.html#a0ff7af590f3037be7611d256e9099e7ba9c354aa5df1a8b9bf4d8f599dd0cb1f1">NPC_EBON_BLADE_PRISONER_ORC</a></div><div class="ttdeci">@ NPC_EBON_BLADE_PRISONER_ORC</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1310</div></div>
+<div class="ttc" id="ago__scripts_8cpp_html_a0ff7af590f3037be7611d256e9099e7bacbb78d20aba3f8d9378ed932aa9b4516"><div class="ttname"><a href="../../d6/d0c/go__scripts_8cpp.html#a0ff7af590f3037be7611d256e9099e7bacbb78d20aba3f8d9378ed932aa9b4516">NPC_EBON_BLADE_PRISONER_HUMAN</a></div><div class="ttdeci">@ NPC_EBON_BLADE_PRISONER_HUMAN</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1307</div></div>
+<div class="ttc" id="ago__scripts_8cpp_html_a0ff7af590f3037be7611d256e9099e7bad0b17cb3e545d3ecef964b3e92c0bcfa"><div class="ttname"><a href="../../d6/d0c/go__scripts_8cpp.html#a0ff7af590f3037be7611d256e9099e7bad0b17cb3e545d3ecef964b3e92c0bcfa">SPELL_SUMMON_BLADE_KNIGHT_TROLL</a></div><div class="ttdeci">@ SPELL_SUMMON_BLADE_KNIGHT_TROLL</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1315</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/World/<a class="el" href="../../d6/d0c/go__scripts_8cpp.html">go_scripts.cpp</a></li>
+<li><a class="el" href="../../">go_scripts.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -255,7 +309,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d8/d79/classgo__jotunheim__cage.html">go_jotunheim_cage</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:45 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:59 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

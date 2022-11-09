@@ -292,7 +292,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="ac5f5d82e34a924524bdb8f1b2d9f2e07" name="ac5f5d82e34a924524bdb8f1b2d9f2e07"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac5f5d82e34a924524bdb8f1b2d9f2e07">&#9670;&#160;</a></span>HandleScript()</h2>
 
@@ -316,7 +317,43 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  196</span>            {</div>
+<div class="line"><span class="lineno">  197</span>                <a class="code hl_function" href="../../dc/d62/class_spell_script.html#a56ed3ad5cf4ebc848946a9d8f1c35d5f">PreventHitDefaultEffect</a>(effIndex);</div>
+<div class="line"><span class="lineno">  198</span> </div>
+<div class="line"><span class="lineno">  199</span>                <a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* caster = <a class="code hl_function" href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>();</div>
+<div class="line"><span class="lineno">  200</span>                <a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target = <a class="code hl_function" href="../../dc/d62/class_spell_script.html#a8435df1d0677fa5124515002da8e0860">GetHitUnit</a>();</div>
+<div class="line"><span class="lineno">  201</span> </div>
+<div class="line"><span class="lineno">  202</span>                <span class="keywordflow">if</span> (!caster || !target)</div>
+<div class="line"><span class="lineno">  203</span>                {</div>
+<div class="line"><span class="lineno">  204</span>                    <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  205</span>                }</div>
+<div class="line"><span class="lineno">  206</span> </div>
+<div class="line"><span class="lineno">  207</span>                <a class="code hl_class" href="../../dd/d11/class_map.html">Map</a>* map = caster-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a1013c27be4347a1b1a4a986a07456deb">GetMap</a>();</div>
+<div class="line"><span class="lineno">  208</span>                <span class="keywordflow">if</span> (!map)</div>
+<div class="line"><span class="lineno">  209</span>                {</div>
+<div class="line"><span class="lineno">  210</span>                    <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  211</span>                }</div>
+<div class="line"><span class="lineno">  212</span> </div>
+<div class="line"><span class="lineno">  213</span>                caster-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(target, <a class="code hl_enumvalue" href="../../dc/d41/boss__archavon_8cpp.html#a73a22ae082f1ae211db2530bf259e3c9ac5948e58c536267987e0a82dcfba1ea7">SPELL_ROCK_SHARDS_LEFT_HAND_VISUAL</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  214</span>                caster-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(target, <a class="code hl_enumvalue" href="../../dc/d41/boss__archavon_8cpp.html#a73a22ae082f1ae211db2530bf259e3c9a55fb04232a8d205929af47e45598694b">SPELL_ROCK_SHARDS_RIGHT_HAND_VISUAL</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  215</span> </div>
+<div class="line"><span class="lineno">  216</span>                <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> spellId = map-&gt;<a class="code hl_function" href="../../dd/d11/class_map.html#a594813fab209738971cc54b69fff4aa1">Is25ManRaid</a>() ? <a class="code hl_enumvalue" href="../../dc/d41/boss__archavon_8cpp.html#a73a22ae082f1ae211db2530bf259e3c9af1861518bf62b7830a159108cf310f07">SPELL_ROCK_SHARDS_DAMAGE_25</a> : <a class="code hl_enumvalue" href="../../dc/d41/boss__archavon_8cpp.html#a73a22ae082f1ae211db2530bf259e3c9a86e22653a6b84c4dcfc1df2dfd52133a">SPELL_ROCK_SHARDS_DAMAGE_10</a>;</div>
+<div class="line"><span class="lineno">  217</span>                caster-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(target, spellId, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  218</span>            }</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="aboss__archavon_8cpp_html_a73a22ae082f1ae211db2530bf259e3c9a55fb04232a8d205929af47e45598694b"><div class="ttname"><a href="../../dc/d41/boss__archavon_8cpp.html#a73a22ae082f1ae211db2530bf259e3c9a55fb04232a8d205929af47e45598694b">SPELL_ROCK_SHARDS_RIGHT_HAND_VISUAL</a></div><div class="ttdeci">@ SPELL_ROCK_SHARDS_RIGHT_HAND_VISUAL</div><div class="ttdef"><b>Definition:</b> boss_archavon.cpp:28</div></div>
+<div class="ttc" id="aboss__archavon_8cpp_html_a73a22ae082f1ae211db2530bf259e3c9a86e22653a6b84c4dcfc1df2dfd52133a"><div class="ttname"><a href="../../dc/d41/boss__archavon_8cpp.html#a73a22ae082f1ae211db2530bf259e3c9a86e22653a6b84c4dcfc1df2dfd52133a">SPELL_ROCK_SHARDS_DAMAGE_10</a></div><div class="ttdeci">@ SPELL_ROCK_SHARDS_DAMAGE_10</div><div class="ttdef"><b>Definition:</b> boss_archavon.cpp:29</div></div>
+<div class="ttc" id="aboss__archavon_8cpp_html_a73a22ae082f1ae211db2530bf259e3c9ac5948e58c536267987e0a82dcfba1ea7"><div class="ttname"><a href="../../dc/d41/boss__archavon_8cpp.html#a73a22ae082f1ae211db2530bf259e3c9ac5948e58c536267987e0a82dcfba1ea7">SPELL_ROCK_SHARDS_LEFT_HAND_VISUAL</a></div><div class="ttdeci">@ SPELL_ROCK_SHARDS_LEFT_HAND_VISUAL</div><div class="ttdef"><b>Definition:</b> boss_archavon.cpp:27</div></div>
+<div class="ttc" id="aboss__archavon_8cpp_html_a73a22ae082f1ae211db2530bf259e3c9af1861518bf62b7830a159108cf310f07"><div class="ttname"><a href="../../dc/d41/boss__archavon_8cpp.html#a73a22ae082f1ae211db2530bf259e3c9af1861518bf62b7830a159108cf310f07">SPELL_ROCK_SHARDS_DAMAGE_25</a></div><div class="ttdeci">@ SPELL_ROCK_SHARDS_DAMAGE_25</div><div class="ttdef"><b>Definition:</b> boss_archavon.cpp:30</div></div>
+<div class="ttc" id="aclass_map_html"><div class="ttname"><a href="../../dd/d11/class_map.html">Map</a></div><div class="ttdef"><b>Definition:</b> Map.h:312</div></div>
+<div class="ttc" id="aclass_map_html_a594813fab209738971cc54b69fff4aa1"><div class="ttname"><a href="../../dd/d11/class_map.html#a594813fab209738971cc54b69fff4aa1">Map::Is25ManRaid</a></div><div class="ttdeci">bool Is25ManRaid() const</div><div class="ttdef"><b>Definition:</b> Map.h:452</div></div>
+<div class="ttc" id="aclass_spell_script_html_a56ed3ad5cf4ebc848946a9d8f1c35d5f"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a56ed3ad5cf4ebc848946a9d8f1c35d5f">SpellScript::PreventHitDefaultEffect</a></div><div class="ttdeci">void PreventHitDefaultEffect(SpellEffIndex effIndex)</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:590</div></div>
+<div class="ttc" id="aclass_spell_script_html_a8435df1d0677fa5124515002da8e0860"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a8435df1d0677fa5124515002da8e0860">SpellScript::GetHitUnit</a></div><div class="ttdeci">Unit * GetHitUnit()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:448</div></div>
+<div class="ttc" id="aclass_spell_script_html_ae630e2d388177707e28cecd5fa5a2b48"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">SpellScript::GetCaster</a></div><div class="ttdeci">Unit * GetCaster()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:401</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+<div class="ttc" id="aclass_world_object_html_a1013c27be4347a1b1a4a986a07456deb"><div class="ttname"><a href="../../db/df7/class_world_object.html#a1013c27be4347a1b1a4a986a07456deb">WorldObject::GetMap</a></div><div class="ttdeci">Map * GetMap() const</div><div class="ttdef"><b>Definition:</b> Object.h:517</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aad2f4314b8baba8efe18db46d81cd676" name="aad2f4314b8baba8efe18db46d81cd676"></a>
@@ -369,11 +406,19 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  221</span>            {</div>
+<div class="line"><span class="lineno">  222</span>                <a class="code hl_variable" href="../../dc/d62/class_spell_script.html#a6f11356f7a28793e6053bfbc4e2dacf3">OnEffectHitTarget</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a551b0adb8eaf82985a7e55cef0695dcb">SpellEffectFn</a>(<a class="code hl_function" href="../../d5/dba/classspell__archavon__rock__shards_1_1spell__archavon__rock__shards___spell_script.html#ac5f5d82e34a924524bdb8f1b2d9f2e07">spell_archavon_rock_shards_SpellScript::HandleScript</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97a078f855df3793531cf8efdef80967cba">SPELL_EFFECT_SCRIPT_EFFECT</a>);</div>
+<div class="line"><span class="lineno">  223</span>            }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a></div><div class="ttdeci">@ EFFECT_0</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:30</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a292c893150c454dd75628b719db1fe97a078f855df3793531cf8efdef80967cba"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97a078f855df3793531cf8efdef80967cba">SPELL_EFFECT_SCRIPT_EFFECT</a></div><div class="ttdeci">@ SPELL_EFFECT_SCRIPT_EFFECT</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:827</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a551b0adb8eaf82985a7e55cef0695dcb"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a551b0adb8eaf82985a7e55cef0695dcb">SpellEffectFn</a></div><div class="ttdeci">#define SpellEffectFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:337</div></div>
+<div class="ttc" id="aclass_spell_script_html_a6f11356f7a28793e6053bfbc4e2dacf3"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a6f11356f7a28793e6053bfbc4e2dacf3">SpellScript::OnEffectHitTarget</a></div><div class="ttdeci">HookList&lt; EffectHandler &gt; OnEffectHitTarget</div><div class="ttdef"><b>Definition:</b> SpellScript.h:336</div></div>
+<div class="ttc" id="aclassspell__archavon__rock__shards_1_1spell__archavon__rock__shards___spell_script_html_ac5f5d82e34a924524bdb8f1b2d9f2e07"><div class="ttname"><a href="../../d5/dba/classspell__archavon__rock__shards_1_1spell__archavon__rock__shards___spell_script.html#ac5f5d82e34a924524bdb8f1b2d9f2e07">spell_archavon_rock_shards::spell_archavon_rock_shards_SpellScript::HandleScript</a></div><div class="ttdeci">void HandleScript(SpellEffIndex effIndex)</div><div class="ttdef"><b>Definition:</b> boss_archavon.cpp:195</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/VaultOfArchavon/<a class="el" href="../../dc/d41/boss__archavon_8cpp.html">boss_archavon.cpp</a></li>
+<li><a class="el" href="../../">boss_archavon.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -381,7 +426,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d8/dea/classspell__archavon__rock__shards.html">spell_archavon_rock_shards</a></li><li class="navelem"><a class="el" href="../../d5/dba/classspell__archavon__rock__shards_1_1spell__archavon__rock__shards___spell_script.html">spell_archavon_rock_shards_SpellScript</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:58 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:15 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

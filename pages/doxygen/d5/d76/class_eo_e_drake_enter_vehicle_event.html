@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('d5/d76/class_eo_e_drake_enter_vehicle_
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../db/d95/eye__of__eternity_8h_source.html">eye_of_eternity.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">eye_of_eternity.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for EoEDrakeEnterVehicleEvent:</div>
 <div class="dyncontent">
@@ -151,7 +151,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:add56bff0695453e01f300e0434a39ec8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/d03/class_object_guid.html">ObjectGuid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d76/class_eo_e_drake_enter_vehicle_event.html#add56bff0695453e01f300e0434a39ec8">_playerGUID</a></td></tr>
 <tr class="separator:add56bff0695453e01f300e0434a39ec8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="afc529efe07da017e529dc6d5ebc6e7dc" name="afc529efe07da017e529dc6d5ebc6e7dc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afc529efe07da017e529dc6d5ebc6e7dc">&#9670;&#160;</a></span>EoEDrakeEnterVehicleEvent()</h2>
 
@@ -185,7 +186,10 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  112</span>: <a class="code hl_variable" href="../../d5/d76/class_eo_e_drake_enter_vehicle_event.html#ab48302fdff800afddfeec2c0d756873c">_owner</a>(owner), <a class="code hl_variable" href="../../d5/d76/class_eo_e_drake_enter_vehicle_event.html#add56bff0695453e01f300e0434a39ec8">_playerGUID</a>(playerGUID) { }</div>
+<div class="ttc" id="aclass_eo_e_drake_enter_vehicle_event_html_ab48302fdff800afddfeec2c0d756873c"><div class="ttname"><a href="../../d5/d76/class_eo_e_drake_enter_vehicle_event.html#ab48302fdff800afddfeec2c0d756873c">EoEDrakeEnterVehicleEvent::_owner</a></div><div class="ttdeci">Creature &amp; _owner</div><div class="ttdef"><b>Definition:</b> eye_of_eternity.h:115</div></div>
+<div class="ttc" id="aclass_eo_e_drake_enter_vehicle_event_html_add56bff0695453e01f300e0434a39ec8"><div class="ttname"><a href="../../d5/d76/class_eo_e_drake_enter_vehicle_event.html#add56bff0695453e01f300e0434a39ec8">EoEDrakeEnterVehicleEvent::_playerGUID</a></div><div class="ttdeci">ObjectGuid _playerGUID</div><div class="ttdef"><b>Definition:</b> eye_of_eternity.h:116</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -224,7 +228,22 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d0/df3/class_basic_event.html#a89297a10b64d01895332655122ed8ccb">BasicEvent</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   25</span>{</div>
+<div class="line"><span class="lineno">   26</span>    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* p = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#aeb3657e7ad09335b9a9ffa50473aa216">ObjectAccessor::GetPlayer</a>(<a class="code hl_variable" href="../../d5/d76/class_eo_e_drake_enter_vehicle_event.html#ab48302fdff800afddfeec2c0d756873c">_owner</a>, <a class="code hl_variable" href="../../d5/d76/class_eo_e_drake_enter_vehicle_event.html#add56bff0695453e01f300e0434a39ec8">_playerGUID</a>))</div>
+<div class="line"><span class="lineno">   27</span>        <span class="keywordflow">if</span> (p-&gt;IsInWorld() &amp;&amp; !p-&gt;IsDuringRemoveFromWorld() &amp;&amp; !p-&gt;isBeingLoaded() &amp;&amp; p-&gt;FindMap() == <a class="code hl_variable" href="../../d5/d76/class_eo_e_drake_enter_vehicle_event.html#ab48302fdff800afddfeec2c0d756873c">_owner</a>.<a class="code hl_function" href="../../db/df7/class_world_object.html#a1e43fee59e696ae47ed06191ae3b1b82">FindMap</a>())</div>
+<div class="line"><span class="lineno">   28</span>        {</div>
+<div class="line"><span class="lineno">   29</span>            p-&gt;CastCustomSpell(60683, <a class="code hl_enumvalue" href="../../d2/d6d/_spell_defines_8h.html#a4ad87b8c967acbbcb154a32bc123371bae5c19f392b2ebda372a39538fa9b592a">SPELLVALUE_BASE_POINT0</a>, 1, &amp;<a class="code hl_variable" href="../../d5/d76/class_eo_e_drake_enter_vehicle_event.html#ab48302fdff800afddfeec2c0d756873c">_owner</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">   30</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   31</span>        }</div>
+<div class="line"><span class="lineno">   32</span>    <a class="code hl_variable" href="../../d5/d76/class_eo_e_drake_enter_vehicle_event.html#ab48302fdff800afddfeec2c0d756873c">_owner</a>.<a class="code hl_function" href="../../d1/dac/class_creature.html#abce66404f36b926cf403555911bcb9f7">DespawnOrUnsummon</a>(1);</div>
+<div class="line"><span class="lineno">   33</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   34</span>}</div>
+<div class="ttc" id="a_spell_defines_8h_html_a4ad87b8c967acbbcb154a32bc123371bae5c19f392b2ebda372a39538fa9b592a"><div class="ttname"><a href="../../d2/d6d/_spell_defines_8h.html#a4ad87b8c967acbbcb154a32bc123371bae5c19f392b2ebda372a39538fa9b592a">SPELLVALUE_BASE_POINT0</a></div><div class="ttdeci">@ SPELLVALUE_BASE_POINT0</div><div class="ttdef"><b>Definition:</b> SpellDefines.h:114</div></div>
+<div class="ttc" id="aclass_creature_html_abce66404f36b926cf403555911bcb9f7"><div class="ttname"><a href="../../d1/dac/class_creature.html#abce66404f36b926cf403555911bcb9f7">Creature::DespawnOrUnsummon</a></div><div class="ttdeci">void DespawnOrUnsummon(Milliseconds msTimeToDespawn, Seconds forcedRespawnTimer)</div><div class="ttdef"><b>Definition:</b> Creature.cpp:2092</div></div>
+<div class="ttc" id="aclass_player_html"><div class="ttname"><a href="../../d8/d53/class_player.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1046</div></div>
+<div class="ttc" id="aclass_world_object_html_a1e43fee59e696ae47ed06191ae3b1b82"><div class="ttname"><a href="../../db/df7/class_world_object.html#a1e43fee59e696ae47ed06191ae3b1b82">WorldObject::FindMap</a></div><div class="ttdeci">Map * FindMap() const</div><div class="ttdef"><b>Definition:</b> Object.h:518</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_aeb3657e7ad09335b9a9ffa50473aa216"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#aeb3657e7ad09335b9a9ffa50473aa216">ObjectAccessor::GetPlayer</a></div><div class="ttdeci">Player * GetPlayer(Map const *, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:225</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -273,8 +292,8 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/Nexus/EyeOfEternity/<a class="el" href="../../db/d95/eye__of__eternity_8h_source.html">eye_of_eternity.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/Nexus/EyeOfEternity/<a class="el" href="../../d0/dc5/instance__eye__of__eternity_8cpp.html">instance_eye_of_eternity.cpp</a></li>
+<li><a class="el" href="../../">eye_of_eternity.h</a></li>
+<li><a class="el" href="../../">instance_eye_of_eternity.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -282,7 +301,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d5/d76/class_eo_e_drake_enter_vehicle_event.html">EoEDrakeEnterVehicleEvent</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:45 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:58 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

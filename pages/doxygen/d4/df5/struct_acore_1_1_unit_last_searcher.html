@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('d4/df5/struct_acore_1_1_unit_last_sear
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d0/dc9/_grid_notifiers_8h_source.html">GridNotifiers.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">GridNotifiers.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -136,7 +136,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a6cf23e7ed9198798da03e6ec3526ee97"><td class="memItemLeft" align="right" valign="top">Check &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/df5/struct_acore_1_1_unit_last_searcher.html#a6cf23e7ed9198798da03e6ec3526ee97">i_check</a></td></tr>
 <tr class="separator:a6cf23e7ed9198798da03e6ec3526ee97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;class Check&gt;<br />
+struct Acore::UnitLastSearcher&lt; Check &gt;</div></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a7924240df139cf0814282eaff8a898b6" name="a7924240df139cf0814282eaff8a898b6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7924240df139cf0814282eaff8a898b6">&#9670;&#160;</a></span>UnitLastSearcher()</h2>
 
@@ -178,7 +180,11 @@ template&lt;class Check &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  409</span>            : <a class="code hl_variable" href="../../d4/df5/struct_acore_1_1_unit_last_searcher.html#aee39e2b567813e1e7420de07b3fe9b08">i_phaseMask</a>(searcher-&gt;GetPhaseMask()), <a class="code hl_variable" href="../../d4/df5/struct_acore_1_1_unit_last_searcher.html#a7bd2407800c461de70b217a4b48f9921">i_object</a>(result), <a class="code hl_variable" href="../../d4/df5/struct_acore_1_1_unit_last_searcher.html#a6cf23e7ed9198798da03e6ec3526ee97">i_check</a>(check) {}</div>
+<div class="ttc" id="astruct_acore_1_1_unit_last_searcher_html_a6cf23e7ed9198798da03e6ec3526ee97"><div class="ttname"><a href="../../d4/df5/struct_acore_1_1_unit_last_searcher.html#a6cf23e7ed9198798da03e6ec3526ee97">Acore::UnitLastSearcher::i_check</a></div><div class="ttdeci">Check &amp; i_check</div><div class="ttdef"><b>Definition:</b> GridNotifiers.h:406</div></div>
+<div class="ttc" id="astruct_acore_1_1_unit_last_searcher_html_a7bd2407800c461de70b217a4b48f9921"><div class="ttname"><a href="../../d4/df5/struct_acore_1_1_unit_last_searcher.html#a7bd2407800c461de70b217a4b48f9921">Acore::UnitLastSearcher::i_object</a></div><div class="ttdeci">Unit *&amp; i_object</div><div class="ttdef"><b>Definition:</b> GridNotifiers.h:405</div></div>
+<div class="ttc" id="astruct_acore_1_1_unit_last_searcher_html_aee39e2b567813e1e7420de07b3fe9b08"><div class="ttname"><a href="../../d4/df5/struct_acore_1_1_unit_last_searcher.html#aee39e2b567813e1e7420de07b3fe9b08">Acore::UnitLastSearcher::i_phaseMask</a></div><div class="ttdeci">uint32 i_phaseMask</div><div class="ttdef"><b>Definition:</b> GridNotifiers.h:404</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -199,7 +205,20 @@ template&lt;class Check &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  391</span>{</div>
+<div class="line"><span class="lineno">  392</span>    <span class="keywordflow">for</span> (<a class="code hl_class" href="../../db/dfe/class_linked_list_head_1_1_iterator.html">CreatureMapType::iterator</a> itr = m.<a class="code hl_function" href="../../d6/d85/class_grid_ref_mgr.html#a1e4e67ba11ac8da077942a6581647bf3">begin</a>(); itr != m.<a class="code hl_function" href="../../d6/d85/class_grid_ref_mgr.html#a266acb421cfc6ccc56dc2acff3202971">end</a>(); ++itr)</div>
+<div class="line"><span class="lineno">  393</span>    {</div>
+<div class="line"><span class="lineno">  394</span>        <span class="keywordflow">if</span> (!itr-&gt;GetSource()-&gt;InSamePhase(<a class="code hl_variable" href="../../d4/df5/struct_acore_1_1_unit_last_searcher.html#aee39e2b567813e1e7420de07b3fe9b08">i_phaseMask</a>))</div>
+<div class="line"><span class="lineno">  395</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  396</span> </div>
+<div class="line"><span class="lineno">  397</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d4/df5/struct_acore_1_1_unit_last_searcher.html#a6cf23e7ed9198798da03e6ec3526ee97">i_check</a>(itr-&gt;GetSource()))</div>
+<div class="line"><span class="lineno">  398</span>            <a class="code hl_variable" href="../../d4/df5/struct_acore_1_1_unit_last_searcher.html#a7bd2407800c461de70b217a4b48f9921">i_object</a> = itr-&gt;GetSource();</div>
+<div class="line"><span class="lineno">  399</span>    }</div>
+<div class="line"><span class="lineno">  400</span>}</div>
+<div class="ttc" id="aclass_grid_ref_mgr_html_a1e4e67ba11ac8da077942a6581647bf3"><div class="ttname"><a href="../../d6/d85/class_grid_ref_mgr.html#a1e4e67ba11ac8da077942a6581647bf3">GridRefMgr::begin</a></div><div class="ttdeci">iterator begin()</div><div class="ttdef"><b>Definition:</b> GridRefMgr.h:35</div></div>
+<div class="ttc" id="aclass_grid_ref_mgr_html_a266acb421cfc6ccc56dc2acff3202971"><div class="ttname"><a href="../../d6/d85/class_grid_ref_mgr.html#a266acb421cfc6ccc56dc2acff3202971">GridRefMgr::end</a></div><div class="ttdeci">iterator end()</div><div class="ttdef"><b>Definition:</b> GridRefMgr.h:36</div></div>
+<div class="ttc" id="aclass_linked_list_head_1_1_iterator_html"><div class="ttname"><a href="../../db/dfe/class_linked_list_head_1_1_iterator.html">LinkedListHead::Iterator</a></div><div class="ttdef"><b>Definition:</b> LinkedList.h:139</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ae9992afc09771d4f1e1517642075f17e" name="ae9992afc09771d4f1e1517642075f17e"></a>
@@ -229,7 +248,8 @@ template&lt;class NOT_INTERESTED &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  414</span>{}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aadfcfdd95a9f2b61cb9ff4c7db43a014" name="aadfcfdd95a9f2b61cb9ff4c7db43a014"></a>
@@ -249,7 +269,17 @@ template&lt;class Check &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  404</span>{</div>
+<div class="line"><span class="lineno">  405</span>    <span class="keywordflow">for</span> (<a class="code hl_class" href="../../db/dfe/class_linked_list_head_1_1_iterator.html">PlayerMapType::iterator</a> itr = m.<a class="code hl_function" href="../../d6/d85/class_grid_ref_mgr.html#a1e4e67ba11ac8da077942a6581647bf3">begin</a>(); itr != m.<a class="code hl_function" href="../../d6/d85/class_grid_ref_mgr.html#a266acb421cfc6ccc56dc2acff3202971">end</a>(); ++itr)</div>
+<div class="line"><span class="lineno">  406</span>    {</div>
+<div class="line"><span class="lineno">  407</span>        <span class="keywordflow">if</span> (!itr-&gt;GetSource()-&gt;InSamePhase(<a class="code hl_variable" href="../../d4/df5/struct_acore_1_1_unit_last_searcher.html#aee39e2b567813e1e7420de07b3fe9b08">i_phaseMask</a>))</div>
+<div class="line"><span class="lineno">  408</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  409</span> </div>
+<div class="line"><span class="lineno">  410</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d4/df5/struct_acore_1_1_unit_last_searcher.html#a6cf23e7ed9198798da03e6ec3526ee97">i_check</a>(itr-&gt;GetSource()))</div>
+<div class="line"><span class="lineno">  411</span>            <a class="code hl_variable" href="../../d4/df5/struct_acore_1_1_unit_last_searcher.html#a7bd2407800c461de70b217a4b48f9921">i_object</a> = itr-&gt;GetSource();</div>
+<div class="line"><span class="lineno">  412</span>    }</div>
+<div class="line"><span class="lineno">  413</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -302,8 +332,8 @@ template&lt;class Check &gt; </div>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Grids/Notifiers/<a class="el" href="../../d0/dc9/_grid_notifiers_8h_source.html">GridNotifiers.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/Grids/Notifiers/<a class="el" href="../../dd/df9/_grid_notifiers_impl_8h_source.html">GridNotifiersImpl.h</a></li>
+<li><a class="el" href="../../">GridNotifiers.h</a></li>
+<li><a class="el" href="../../">GridNotifiersImpl.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -311,7 +341,7 @@ template&lt;class Check &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d7d/namespace_acore.html">Acore</a></li><li class="navelem"><a class="el" href="../../d4/df5/struct_acore_1_1_unit_last_searcher.html">UnitLastSearcher</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:13 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:31 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

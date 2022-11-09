@@ -402,7 +402,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ac6c3b49cb07210783044c57116984d19" name="ac6c3b49cb07210783044c57116984d19"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac6c3b49cb07210783044c57116984d19">&#9670;&#160;</a></span>npc_creature_generator_akamaAI()</h2>
 
@@ -426,7 +427,16 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  452</span>                                                           : <a class="code hl_class" href="../../d6/df7/class_null_creature_a_i.html">NullCreatureAI</a>(creature), <a class="code hl_variable" href="../../d2/d63/structnpc__creature__generator__akama_1_1npc__creature__generator__akama_a_i.html#a8c58e7305b82eeca9c1f1a178d4ec10f">summons</a>(<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>)</div>
+<div class="line"><span class="lineno">  453</span>        {</div>
+<div class="line"><span class="lineno">  454</span>            <a class="code hl_variable" href="../../d2/d63/structnpc__creature__generator__akama_1_1npc__creature__generator__akama_a_i.html#a29cb0d0b586c27d9b9abf049d25fd639">instance</a> = creature-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">GetInstanceScript</a>();</div>
+<div class="line"><span class="lineno">  455</span>        }</div>
+<div class="ttc" id="aclass_creature_a_i_html_aee5bf3d421199445de241a34798ae819"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">CreatureAI::me</a></div><div class="ttdeci">Creature *const me</div><div class="ttdef"><b>Definition:</b> CreatureAI.h:72</div></div>
+<div class="ttc" id="aclass_null_creature_a_i_html"><div class="ttname"><a href="../../d6/df7/class_null_creature_a_i.html">NullCreatureAI</a></div><div class="ttdef"><b>Definition:</b> PassiveAI.h:53</div></div>
+<div class="ttc" id="aclass_world_object_html_a29762f86d0726e4d229df51281b9d710"><div class="ttname"><a href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">WorldObject::GetInstanceScript</a></div><div class="ttdeci">InstanceScript * GetInstanceScript() const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1192</div></div>
+<div class="ttc" id="astructnpc__creature__generator__akama_1_1npc__creature__generator__akama_a_i_html_a29cb0d0b586c27d9b9abf049d25fd639"><div class="ttname"><a href="../../d2/d63/structnpc__creature__generator__akama_1_1npc__creature__generator__akama_a_i.html#a29cb0d0b586c27d9b9abf049d25fd639">npc_creature_generator_akama::npc_creature_generator_akamaAI::instance</a></div><div class="ttdeci">InstanceScript * instance</div><div class="ttdef"><b>Definition:</b> boss_shade_of_akama.cpp:552</div></div>
+<div class="ttc" id="astructnpc__creature__generator__akama_1_1npc__creature__generator__akama_a_i_html_a8c58e7305b82eeca9c1f1a178d4ec10f"><div class="ttname"><a href="../../d2/d63/structnpc__creature__generator__akama_1_1npc__creature__generator__akama_a_i.html#a8c58e7305b82eeca9c1f1a178d4ec10f">npc_creature_generator_akama::npc_creature_generator_akamaAI::summons</a></div><div class="ttdeci">SummonList summons</div><div class="ttdef"><b>Definition:</b> boss_shade_of_akama.cpp:551</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -455,7 +465,49 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d9c/class_unit_a_i.html#a165d336cb3423f9665ed612d2dec76ed">UnitAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  498</span>        {</div>
+<div class="line"><span class="lineno">  499</span>            <span class="keywordflow">if</span> (param == <a class="code hl_enumvalue" href="../../d4/d8f/boss__shade__of__akama_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a436c8055564d23687539d223633969da">ACTION_STOP_SPAWNING</a> || param == <a class="code hl_enumvalue" href="../../d4/d8f/boss__shade__of__akama_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a20262479b954cbdd5f10dccf302bba15">ACTION_DESPAWN_ALL</a>)</div>
+<div class="line"><span class="lineno">  500</span>            {</div>
+<div class="line"><span class="lineno">  501</span>                <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.Reset();</div>
+<div class="line"><span class="lineno">  502</span>                <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d8/d7a/class_summon_list.html#a35c8f1dc80c0dc5bc0bf172a1e873566">SummonList::const_iterator</a> itr = <a class="code hl_variable" href="../../d2/d63/structnpc__creature__generator__akama_1_1npc__creature__generator__akama_a_i.html#a8c58e7305b82eeca9c1f1a178d4ec10f">summons</a>.<a class="code hl_function" href="../../d8/d7a/class_summon_list.html#a35b3b0c53cb511f90326ce630245b3cd">begin</a>(); itr != <a class="code hl_variable" href="../../d2/d63/structnpc__creature__generator__akama_1_1npc__creature__generator__akama_a_i.html#a8c58e7305b82eeca9c1f1a178d4ec10f">summons</a>.<a class="code hl_function" href="../../d8/d7a/class_summon_list.html#a66a5490fdea4fb7f0ff2db226a3fdbe6">end</a>(); ++itr)</div>
+<div class="line"><span class="lineno">  503</span>                {</div>
+<div class="line"><span class="lineno">  504</span>                    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* summon = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a>(*<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>, *itr))</div>
+<div class="line"><span class="lineno">  505</span>                    {</div>
+<div class="line"><span class="lineno">  506</span>                        <span class="keywordflow">if</span> (summon-&gt;GetEntry() != <a class="code hl_enumvalue" href="../../d4/d8f/boss__shade__of__akama_8cpp.html#a25a619e6b66096a4f05d048e4a96df08a22fc8deed004c63aed44c67b1067682f">NPC_ASHTONGUE_SORCERER</a>)</div>
+<div class="line"><span class="lineno">  507</span>                            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  508</span>                        summon-&gt;InterruptNonMeleeSpells(<span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  509</span>                        summon-&gt;GetMotionMaster()-&gt;Clear();</div>
+<div class="line"><span class="lineno">  510</span>                        summon-&gt;SetInCombatWithZone();</div>
+<div class="line"><span class="lineno">  511</span>                    }</div>
+<div class="line"><span class="lineno">  512</span>                }</div>
+<div class="line"><span class="lineno">  513</span>            }</div>
+<div class="line"><span class="lineno">  514</span>            <span class="keywordflow">if</span> (param == <a class="code hl_enumvalue" href="../../d4/d8f/boss__shade__of__akama_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a20262479b954cbdd5f10dccf302bba15">ACTION_DESPAWN_ALL</a>)</div>
+<div class="line"><span class="lineno">  515</span>                <a class="code hl_variable" href="../../d2/d63/structnpc__creature__generator__akama_1_1npc__creature__generator__akama_a_i.html#a8c58e7305b82eeca9c1f1a178d4ec10f">summons</a>.<a class="code hl_function" href="../../d8/d7a/class_summon_list.html#a902c1d4535ccdb1b82801547a94151bb">DespawnAll</a>();</div>
+<div class="line"><span class="lineno">  516</span>            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (param == <a class="code hl_enumvalue" href="../../d4/d8f/boss__shade__of__akama_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a1d2c3e95141d803a96c68b260d1b4392">ACTION_NO_SORCERERS</a>)</div>
+<div class="line"><span class="lineno">  517</span>                <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.CancelEvent(<a class="code hl_enumvalue" href="../../d4/d8f/boss__shade__of__akama_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ad8af393e7cba5e0f35f97caa3cec03eb">EVENT_SUMMON_ASHTONGUE_SORCERER</a>);</div>
+<div class="line"><span class="lineno">  518</span>            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (param == <a class="code hl_enumvalue" href="../../d4/d8f/boss__shade__of__akama_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6aba4027a0bf01bbe406c51c579cde7f5e">ACTION_START_ENCOUNTER</a>)</div>
+<div class="line"><span class="lineno">  519</span>            {</div>
+<div class="line"><span class="lineno">  520</span>                <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d4/d8f/boss__shade__of__akama_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a3d02d51a27a2283a13f35cd9fc8da5ff">EVENT_SUMMON_WAVE_B</a>, 5000);</div>
+<div class="line"><span class="lineno">  521</span>                <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d4/d8f/boss__shade__of__akama_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a4c0adda3e6b519429691c96745cc3423">EVENT_SUMMON_ASHTONGUE_DEFENDER</a>, 20000);</div>
+<div class="line"><span class="lineno">  522</span>                <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d4/d8f/boss__shade__of__akama_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ad8af393e7cba5e0f35f97caa3cec03eb">EVENT_SUMMON_ASHTONGUE_SORCERER</a>, 35000);</div>
+<div class="line"><span class="lineno">  523</span>            }</div>
+<div class="line"><span class="lineno">  524</span>        }</div>
+<div class="ttc" id="aboss__sartura_8cpp_html_ad29858f6d8ab73f2970f41cb21a76b84"><div class="ttname"><a href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a></div><div class="ttdeci">events</div><div class="ttdef"><b>Definition:</b> boss_sartura.cpp:43</div></div>
+<div class="ttc" id="aboss__shade__of__akama_8cpp_html_a25a619e6b66096a4f05d048e4a96df08a22fc8deed004c63aed44c67b1067682f"><div class="ttname"><a href="../../d4/d8f/boss__shade__of__akama_8cpp.html#a25a619e6b66096a4f05d048e4a96df08a22fc8deed004c63aed44c67b1067682f">NPC_ASHTONGUE_SORCERER</a></div><div class="ttdeci">@ NPC_ASHTONGUE_SORCERER</div><div class="ttdef"><b>Definition:</b> boss_shade_of_akama.cpp:50</div></div>
+<div class="ttc" id="aboss__shade__of__akama_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a1d2c3e95141d803a96c68b260d1b4392"><div class="ttname"><a href="../../d4/d8f/boss__shade__of__akama_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a1d2c3e95141d803a96c68b260d1b4392">ACTION_NO_SORCERERS</a></div><div class="ttdeci">@ ACTION_NO_SORCERERS</div><div class="ttdef"><b>Definition:</b> boss_shade_of_akama.cpp:67</div></div>
+<div class="ttc" id="aboss__shade__of__akama_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a20262479b954cbdd5f10dccf302bba15"><div class="ttname"><a href="../../d4/d8f/boss__shade__of__akama_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a20262479b954cbdd5f10dccf302bba15">ACTION_DESPAWN_ALL</a></div><div class="ttdeci">@ ACTION_DESPAWN_ALL</div><div class="ttdef"><b>Definition:</b> boss_shade_of_akama.cpp:64</div></div>
+<div class="ttc" id="aboss__shade__of__akama_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a3d02d51a27a2283a13f35cd9fc8da5ff"><div class="ttname"><a href="../../d4/d8f/boss__shade__of__akama_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a3d02d51a27a2283a13f35cd9fc8da5ff">EVENT_SUMMON_WAVE_B</a></div><div class="ttdeci">@ EVENT_SUMMON_WAVE_B</div><div class="ttdef"><b>Definition:</b> boss_shade_of_akama.cpp:79</div></div>
+<div class="ttc" id="aboss__shade__of__akama_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a436c8055564d23687539d223633969da"><div class="ttname"><a href="../../d4/d8f/boss__shade__of__akama_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a436c8055564d23687539d223633969da">ACTION_STOP_SPAWNING</a></div><div class="ttdeci">@ ACTION_STOP_SPAWNING</div><div class="ttdef"><b>Definition:</b> boss_shade_of_akama.cpp:63</div></div>
+<div class="ttc" id="aboss__shade__of__akama_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a4c0adda3e6b519429691c96745cc3423"><div class="ttname"><a href="../../d4/d8f/boss__shade__of__akama_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a4c0adda3e6b519429691c96745cc3423">EVENT_SUMMON_ASHTONGUE_DEFENDER</a></div><div class="ttdeci">@ EVENT_SUMMON_ASHTONGUE_DEFENDER</div><div class="ttdef"><b>Definition:</b> boss_shade_of_akama.cpp:81</div></div>
+<div class="ttc" id="aboss__shade__of__akama_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6aba4027a0bf01bbe406c51c579cde7f5e"><div class="ttname"><a href="../../d4/d8f/boss__shade__of__akama_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6aba4027a0bf01bbe406c51c579cde7f5e">ACTION_START_ENCOUNTER</a></div><div class="ttdeci">@ ACTION_START_ENCOUNTER</div><div class="ttdef"><b>Definition:</b> boss_shade_of_akama.cpp:62</div></div>
+<div class="ttc" id="aboss__shade__of__akama_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6ad8af393e7cba5e0f35f97caa3cec03eb"><div class="ttname"><a href="../../d4/d8f/boss__shade__of__akama_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ad8af393e7cba5e0f35f97caa3cec03eb">EVENT_SUMMON_ASHTONGUE_SORCERER</a></div><div class="ttdeci">@ EVENT_SUMMON_ASHTONGUE_SORCERER</div><div class="ttdef"><b>Definition:</b> boss_shade_of_akama.cpp:80</div></div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_summon_list_html_a35b3b0c53cb511f90326ce630245b3cd"><div class="ttname"><a href="../../d8/d7a/class_summon_list.html#a35b3b0c53cb511f90326ce630245b3cd">SummonList::begin</a></div><div class="ttdeci">iterator begin()</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:49</div></div>
+<div class="ttc" id="aclass_summon_list_html_a35c8f1dc80c0dc5bc0bf172a1e873566"><div class="ttname"><a href="../../d8/d7a/class_summon_list.html#a35c8f1dc80c0dc5bc0bf172a1e873566">SummonList::const_iterator</a></div><div class="ttdeci">StorageType::const_iterator const_iterator</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:38</div></div>
+<div class="ttc" id="aclass_summon_list_html_a66a5490fdea4fb7f0ff2db226a3fdbe6"><div class="ttname"><a href="../../d8/d7a/class_summon_list.html#a66a5490fdea4fb7f0ff2db226a3fdbe6">SummonList::end</a></div><div class="ttdeci">iterator end()</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:59</div></div>
+<div class="ttc" id="aclass_summon_list_html_a902c1d4535ccdb1b82801547a94151bb"><div class="ttname"><a href="../../d8/d7a/class_summon_list.html#a902c1d4535ccdb1b82801547a94151bb">SummonList::DespawnAll</a></div><div class="ttdeci">void DespawnAll(uint32 delay=0)</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.cpp:67</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_ae42e503fe79bbeaea1aaa665418c43f8"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a></div><div class="ttdeci">Creature * GetCreature(WorldObject const &amp;u, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:215</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a64c8d93b34e71938167932cf81d8bf07" name="a64c8d93b34e71938167932cf81d8bf07"></a>
@@ -483,7 +535,50 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d2/d68/class_creature_a_i.html#a3a55253d96d72f1df305b2ccfa7284ca">CreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  464</span>        {</div>
+<div class="line"><span class="lineno">  465</span>            <a class="code hl_variable" href="../../d2/d63/structnpc__creature__generator__akama_1_1npc__creature__generator__akama_a_i.html#a8c58e7305b82eeca9c1f1a178d4ec10f">summons</a>.<a class="code hl_function" href="../../d8/d7a/class_summon_list.html#a4b10347a4407bb6351230423019d9786">Summon</a>(summon);</div>
+<div class="line"><span class="lineno">  466</span>            <span class="keywordflow">if</span> (summon-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>() == <a class="code hl_enumvalue" href="../../d4/d8f/boss__shade__of__akama_8cpp.html#a25a619e6b66096a4f05d048e4a96df08a22fc8deed004c63aed44c67b1067682f">NPC_ASHTONGUE_SORCERER</a>)</div>
+<div class="line"><span class="lineno">  467</span>            {</div>
+<div class="line"><span class="lineno">  468</span>                std::list&lt;Creature*&gt; channelerList;</div>
+<div class="line"><span class="lineno">  469</span>                <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#aa95da5ea65fa0d7f7cd74c11b70b1ed2">GetCreaturesWithEntryInRange</a>(channelerList, 120.0f, <a class="code hl_enumvalue" href="../../d4/d8f/boss__shade__of__akama_8cpp.html#a25a619e6b66096a4f05d048e4a96df08aca58320c192ffd4ea2b25ba5a18607e3">NPC_ASHTONGUE_CHANNELER</a>);</div>
+<div class="line"><span class="lineno">  470</span>                <span class="keywordflow">for</span> (std::list&lt;Creature*&gt;::const_iterator itr = channelerList.begin(); itr != channelerList.end(); ++itr)</div>
+<div class="line"><span class="lineno">  471</span>                {</div>
+<div class="line"><span class="lineno">  472</span>                    <span class="keywordflow">if</span> ((*itr)-&gt;IsAlive() || (*itr)-&gt;HasUnitFlag(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a8b7b8fe906282847f5f337728d4a534f">UNIT_FLAG_NOT_SELECTABLE</a>))</div>
+<div class="line"><span class="lineno">  473</span>                        <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  474</span> </div>
+<div class="line"><span class="lineno">  475</span>                    summon-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a01ccacf28df6336a774bf1672caf3571">SetInCombatWithZone</a>();</div>
+<div class="line"><span class="lineno">  476</span>                    summon-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a593d295c1d4828fc930ca923a79046bd">SetReactState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37a8b5a7f923cba80ea3a429286eb38d0a0">REACT_PASSIVE</a>);</div>
+<div class="line"><span class="lineno">  477</span>                    summon-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../df/d4d/class_motion_master.html#a903a48c63482ebbd45d63272b218df7f">MovePoint</a>(<a class="code hl_enumvalue" href="../../d4/d8f/boss__shade__of__akama_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6aac94086ab64d143268f7d2072a74bb3a">POINT_START</a>, **itr);</div>
+<div class="line"><span class="lineno">  478</span>                    (*itr)-&gt;SetUnitFlag(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a8b7b8fe906282847f5f337728d4a534f">UNIT_FLAG_NOT_SELECTABLE</a>);</div>
+<div class="line"><span class="lineno">  479</span>                    <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  480</span>                }</div>
+<div class="line"><span class="lineno">  481</span>            }</div>
+<div class="line"><span class="lineno">  482</span> </div>
+<div class="line"><span class="lineno">  483</span>            summon-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a01ccacf28df6336a774bf1672caf3571">SetInCombatWithZone</a>();</div>
+<div class="line"><span class="lineno">  484</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* akama = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a>(*<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>, <a class="code hl_variable" href="../../d2/d63/structnpc__creature__generator__akama_1_1npc__creature__generator__akama_a_i.html#a29cb0d0b586c27d9b9abf049d25fd639">instance</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_instance_script.html#a3be7f24ca31c9433aca546e1087109b4">GetGuidData</a>(<a class="code hl_enumvalue" href="../../dc/d2a/black__temple_8h.html#a92f6fd626e1834a4cc509efc1186963ead846f49cb69da503a25ec27203c079d6">NPC_AKAMA_SHADE</a>)))</div>
+<div class="line"><span class="lineno">  485</span>            {</div>
+<div class="line"><span class="lineno">  486</span>                summon-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a3b4dad985e3b5dde28d89afc956999e4">AddThreat</a>(akama, 500.0f);</div>
+<div class="line"><span class="lineno">  487</span>                summon-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">AI</a>()-&gt;<a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#ae120634c255d365f1567e341e2cf1feb">AttackStart</a>(akama);</div>
+<div class="line"><span class="lineno">  488</span>            }</div>
+<div class="line"><span class="lineno">  489</span>        }</div>
+<div class="ttc" id="a_unit_8h_html_a5e9099d162ad74df5a3e3f5c0f056c37a8b5a7f923cba80ea3a429286eb38d0a0"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37a8b5a7f923cba80ea3a429286eb38d0a0">REACT_PASSIVE</a></div><div class="ttdeci">@ REACT_PASSIVE</div><div class="ttdef"><b>Definition:</b> Unit.h:1023</div></div>
+<div class="ttc" id="a_unit_8h_html_affdd0d554c8bcaaa85a879f5a9d60934a8b7b8fe906282847f5f337728d4a534f"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a8b7b8fe906282847f5f337728d4a534f">UNIT_FLAG_NOT_SELECTABLE</a></div><div class="ttdeci">@ UNIT_FLAG_NOT_SELECTABLE</div><div class="ttdef"><b>Definition:</b> Unit.h:473</div></div>
+<div class="ttc" id="ablack__temple_8h_html_a92f6fd626e1834a4cc509efc1186963ead846f49cb69da503a25ec27203c079d6"><div class="ttname"><a href="../../dc/d2a/black__temple_8h.html#a92f6fd626e1834a4cc509efc1186963ead846f49cb69da503a25ec27203c079d6">NPC_AKAMA_SHADE</a></div><div class="ttdeci">@ NPC_AKAMA_SHADE</div><div class="ttdef"><b>Definition:</b> black_temple.h:49</div></div>
+<div class="ttc" id="aboss__shade__of__akama_8cpp_html_a25a619e6b66096a4f05d048e4a96df08aca58320c192ffd4ea2b25ba5a18607e3"><div class="ttname"><a href="../../d4/d8f/boss__shade__of__akama_8cpp.html#a25a619e6b66096a4f05d048e4a96df08aca58320c192ffd4ea2b25ba5a18607e3">NPC_ASHTONGUE_CHANNELER</a></div><div class="ttdeci">@ NPC_ASHTONGUE_CHANNELER</div><div class="ttdef"><b>Definition:</b> boss_shade_of_akama.cpp:48</div></div>
+<div class="ttc" id="aboss__shade__of__akama_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6aac94086ab64d143268f7d2072a74bb3a"><div class="ttname"><a href="../../d4/d8f/boss__shade__of__akama_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6aac94086ab64d143268f7d2072a74bb3a">POINT_START</a></div><div class="ttdeci">@ POINT_START</div><div class="ttdef"><b>Definition:</b> boss_shade_of_akama.cpp:58</div></div>
+<div class="ttc" id="aclass_creature_html_a01ccacf28df6336a774bf1672caf3571"><div class="ttname"><a href="../../d1/dac/class_creature.html#a01ccacf28df6336a774bf1672caf3571">Creature::SetInCombatWithZone</a></div><div class="ttdeci">void SetInCombatWithZone()</div><div class="ttdef"><b>Definition:</b> Creature.cpp:2705</div></div>
+<div class="ttc" id="aclass_creature_html_a593d295c1d4828fc930ca923a79046bd"><div class="ttname"><a href="../../d1/dac/class_creature.html#a593d295c1d4828fc930ca923a79046bd">Creature::SetReactState</a></div><div class="ttdeci">void SetReactState(ReactStates st)</div><div class="ttdef"><b>Definition:</b> Creature.h:88</div></div>
+<div class="ttc" id="aclass_creature_html_af2188eef9620b5af52ef2d3ac142db67"><div class="ttname"><a href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">Creature::AI</a></div><div class="ttdeci">CreatureAI * AI() const</div><div class="ttdef"><b>Definition:</b> Creature.h:134</div></div>
+<div class="ttc" id="aclass_instance_script_html_a3be7f24ca31c9433aca546e1087109b4"><div class="ttname"><a href="../../d8/d83/class_instance_script.html#a3be7f24ca31c9433aca546e1087109b4">InstanceScript::GetGuidData</a></div><div class="ttdeci">ObjectGuid GetGuidData(uint32 type) const override</div><div class="ttdef"><b>Definition:</b> InstanceScript.cpp:93</div></div>
+<div class="ttc" id="aclass_motion_master_html_a903a48c63482ebbd45d63272b218df7f"><div class="ttname"><a href="../../df/d4d/class_motion_master.html#a903a48c63482ebbd45d63272b218df7f">MotionMaster::MovePoint</a></div><div class="ttdeci">void MovePoint(uint32 id, const Position &amp;pos, bool generatePath=true, bool forceDestination=true)</div><div class="ttdef"><b>Definition:</b> MotionMaster.h:210</div></div>
+<div class="ttc" id="aclass_object_html_aa627fe2967ed0e0ed1d8aeeb4365a961"><div class="ttname"><a href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">Object::GetEntry</a></div><div class="ttdeci">uint32 GetEntry() const</div><div class="ttdef"><b>Definition:</b> Object.h:109</div></div>
+<div class="ttc" id="aclass_summon_list_html_a4b10347a4407bb6351230423019d9786"><div class="ttname"><a href="../../d8/d7a/class_summon_list.html#a4b10347a4407bb6351230423019d9786">SummonList::Summon</a></div><div class="ttdeci">void Summon(Creature const *summon)</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:89</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_ae120634c255d365f1567e341e2cf1feb"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#ae120634c255d365f1567e341e2cf1feb">UnitAI::AttackStart</a></div><div class="ttdeci">virtual void AttackStart(Unit *)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:28</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_a3b4dad985e3b5dde28d89afc956999e4"><div class="ttname"><a href="../../da/db7/class_unit.html#a3b4dad985e3b5dde28d89afc956999e4">Unit::AddThreat</a></div><div class="ttdeci">void AddThreat(Unit *victim, float fThreat, SpellSchoolMask schoolMask=SPELL_SCHOOL_MASK_NORMAL, SpellInfo const *threatSpell=nullptr)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:14523</div></div>
+<div class="ttc" id="aclass_unit_html_a4a04a3f22c3b0d6f4933993ac0cc7aa4"><div class="ttname"><a href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">Unit::GetMotionMaster</a></div><div class="ttdeci">MotionMaster * GetMotionMaster()</div><div class="ttdef"><b>Definition:</b> Unit.h:2257</div></div>
+<div class="ttc" id="aclass_world_object_html_aa95da5ea65fa0d7f7cd74c11b70b1ed2"><div class="ttname"><a href="../../db/df7/class_world_object.html#aa95da5ea65fa0d7f7cd74c11b70b1ed2">WorldObject::GetCreaturesWithEntryInRange</a></div><div class="ttdeci">void GetCreaturesWithEntryInRange(std::list&lt; Creature * &gt; &amp;creatureList, float radius, uint32 entry)</div><div class="ttdef"><b>Definition:</b> Object.cpp:2998</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ab61e7eef3cc1cefff562d779c4f0539d" name="ab61e7eef3cc1cefff562d779c4f0539d"></a>
@@ -510,7 +605,11 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d9c/class_unit_a_i.html#a43eb9ef68b977d98f6618d69a0d62115">UnitAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  458</span>        {</div>
+<div class="line"><span class="lineno">  459</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.Reset();</div>
+<div class="line"><span class="lineno">  460</span>            <a class="code hl_variable" href="../../d2/d63/structnpc__creature__generator__akama_1_1npc__creature__generator__akama_a_i.html#a8c58e7305b82eeca9c1f1a178d4ec10f">summons</a>.<a class="code hl_function" href="../../d8/d7a/class_summon_list.html#a902c1d4535ccdb1b82801547a94151bb">DespawnAll</a>();</div>
+<div class="line"><span class="lineno">  461</span>        }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a446bcebf07bf50c41a6f18877d34940b" name="a446bcebf07bf50c41a6f18877d34940b"></a>
@@ -548,7 +647,13 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d2/d68/class_creature_a_i.html#aa84f573bdb0e556cf911d0a00f6ed5fb">CreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  492</span>        {</div>
+<div class="line"><span class="lineno">  493</span>            summon-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#abce66404f36b926cf403555911bcb9f7">DespawnOrUnsummon</a>(10000);</div>
+<div class="line"><span class="lineno">  494</span>            <a class="code hl_variable" href="../../d2/d63/structnpc__creature__generator__akama_1_1npc__creature__generator__akama_a_i.html#a8c58e7305b82eeca9c1f1a178d4ec10f">summons</a>.<a class="code hl_function" href="../../d8/d7a/class_summon_list.html#a2022b190043330dce78fdd60a15670a7">Despawn</a>(summon);</div>
+<div class="line"><span class="lineno">  495</span>        }</div>
+<div class="ttc" id="aclass_creature_html_abce66404f36b926cf403555911bcb9f7"><div class="ttname"><a href="../../d1/dac/class_creature.html#abce66404f36b926cf403555911bcb9f7">Creature::DespawnOrUnsummon</a></div><div class="ttdeci">void DespawnOrUnsummon(Milliseconds msTimeToDespawn, Seconds forcedRespawnTimer)</div><div class="ttdef"><b>Definition:</b> Creature.cpp:2092</div></div>
+<div class="ttc" id="aclass_summon_list_html_a2022b190043330dce78fdd60a15670a7"><div class="ttname"><a href="../../d8/d7a/class_summon_list.html#a2022b190043330dce78fdd60a15670a7">SummonList::Despawn</a></div><div class="ttdeci">void Despawn(Creature const *summon)</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:90</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a66e4fbf400c4583c7387e7b5e0c735a8" name="a66e4fbf400c4583c7387e7b5e0c735a8"></a>
@@ -576,7 +681,32 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d6/df7/class_null_creature_a_i.html#ab200fcf78dee74a2ec808c01f5855236">NullCreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  527</span>        {</div>
+<div class="line"><span class="lineno">  528</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.Update(diff);</div>
+<div class="line"><span class="lineno">  529</span> </div>
+<div class="line"><span class="lineno">  530</span>            <span class="keywordflow">switch</span> (<a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ExecuteEvent())</div>
+<div class="line"><span class="lineno">  531</span>            {</div>
+<div class="line"><span class="lineno">  532</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/d8f/boss__shade__of__akama_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a3d02d51a27a2283a13f35cd9fc8da5ff">EVENT_SUMMON_WAVE_B</a>:</div>
+<div class="line"><span class="lineno">  533</span>                    <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>, <a class="code hl_enumvalue" href="../../d4/d8f/boss__shade__of__akama_8cpp.html#a5bd342133be8c2137b831460acc9298ca78f8cb6ef552d89b52f21d38aa1dcbc2">SPELL_ASHTONGUE_WAVE_B</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  534</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d4/d8f/boss__shade__of__akama_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a3d02d51a27a2283a13f35cd9fc8da5ff">EVENT_SUMMON_WAVE_B</a>, 45000);</div>
+<div class="line"><span class="lineno">  535</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  536</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/d8f/boss__shade__of__akama_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ad8af393e7cba5e0f35f97caa3cec03eb">EVENT_SUMMON_ASHTONGUE_SORCERER</a>: <span class="comment">// left</span></div>
+<div class="line"><span class="lineno">  537</span>                    <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>, <a class="code hl_enumvalue" href="../../d4/d8f/boss__shade__of__akama_8cpp.html#a5bd342133be8c2137b831460acc9298ca2583f5d8b2b35a894207213e0f747d64">SPELL_SUMMON_ASHTONGUE_SORCERER</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  538</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d4/d8f/boss__shade__of__akama_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ad8af393e7cba5e0f35f97caa3cec03eb">EVENT_SUMMON_ASHTONGUE_SORCERER</a>, 45000);</div>
+<div class="line"><span class="lineno">  539</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  540</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/d8f/boss__shade__of__akama_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a4c0adda3e6b519429691c96745cc3423">EVENT_SUMMON_ASHTONGUE_DEFENDER</a>: <span class="comment">// right</span></div>
+<div class="line"><span class="lineno">  541</span>                    <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>, <a class="code hl_enumvalue" href="../../d4/d8f/boss__shade__of__akama_8cpp.html#a5bd342133be8c2137b831460acc9298ca24181f85c3b5098a24c5b91e925fbe65">SPELL_SUMMON_ASHTONGUE_DEFENDER</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  542</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d4/d8f/boss__shade__of__akama_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a4c0adda3e6b519429691c96745cc3423">EVENT_SUMMON_ASHTONGUE_DEFENDER</a>, 45000);</div>
+<div class="line"><span class="lineno">  543</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  544</span>                <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  545</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  546</span>            }</div>
+<div class="line"><span class="lineno">  547</span>        }</div>
+<div class="ttc" id="aboss__shade__of__akama_8cpp_html_a5bd342133be8c2137b831460acc9298ca24181f85c3b5098a24c5b91e925fbe65"><div class="ttname"><a href="../../d4/d8f/boss__shade__of__akama_8cpp.html#a5bd342133be8c2137b831460acc9298ca24181f85c3b5098a24c5b91e925fbe65">SPELL_SUMMON_ASHTONGUE_DEFENDER</a></div><div class="ttdeci">@ SPELL_SUMMON_ASHTONGUE_DEFENDER</div><div class="ttdef"><b>Definition:</b> boss_shade_of_akama.cpp:43</div></div>
+<div class="ttc" id="aboss__shade__of__akama_8cpp_html_a5bd342133be8c2137b831460acc9298ca2583f5d8b2b35a894207213e0f747d64"><div class="ttname"><a href="../../d4/d8f/boss__shade__of__akama_8cpp.html#a5bd342133be8c2137b831460acc9298ca2583f5d8b2b35a894207213e0f747d64">SPELL_SUMMON_ASHTONGUE_SORCERER</a></div><div class="ttdeci">@ SPELL_SUMMON_ASHTONGUE_SORCERER</div><div class="ttdef"><b>Definition:</b> boss_shade_of_akama.cpp:42</div></div>
+<div class="ttc" id="aboss__shade__of__akama_8cpp_html_a5bd342133be8c2137b831460acc9298ca78f8cb6ef552d89b52f21d38aa1dcbc2"><div class="ttname"><a href="../../d4/d8f/boss__shade__of__akama_8cpp.html#a5bd342133be8c2137b831460acc9298ca78f8cb6ef552d89b52f21d38aa1dcbc2">SPELL_ASHTONGUE_WAVE_B</a></div><div class="ttdeci">@ SPELL_ASHTONGUE_WAVE_B</div><div class="ttdef"><b>Definition:</b> boss_shade_of_akama.cpp:41</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -647,7 +777,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Outland/BlackTemple/<a class="el" href="../../d4/d8f/boss__shade__of__akama_8cpp.html">boss_shade_of_akama.cpp</a></li>
+<li><a class="el" href="../../">boss_shade_of_akama.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -655,7 +785,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d4/d1a/classnpc__creature__generator__akama.html">npc_creature_generator_akama</a></li><li class="navelem"><a class="el" href="../../d2/d63/structnpc__creature__generator__akama_1_1npc__creature__generator__akama_a_i.html">npc_creature_generator_akamaAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:49 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:04 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

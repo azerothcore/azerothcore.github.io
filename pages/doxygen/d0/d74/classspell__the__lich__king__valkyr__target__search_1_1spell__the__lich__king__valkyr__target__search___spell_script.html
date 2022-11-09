@@ -304,7 +304,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="aa41d123f611922406d1f88c83922ed52" name="aa41d123f611922406d1f88c83922ed52"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa41d123f611922406d1f88c83922ed52">&#9670;&#160;</a></span>HandleScript()</h2>
 
@@ -328,7 +329,23 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 2847</span>        {</div>
+<div class="line"><span class="lineno"> 2848</span>            <a class="code hl_function" href="../../dc/d62/class_spell_script.html#a56ed3ad5cf4ebc848946a9d8f1c35d5f">PreventHitDefaultEffect</a>(effIndex);</div>
+<div class="line"><span class="lineno"> 2849</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target = <a class="code hl_function" href="../../dc/d62/class_spell_script.html#a8435df1d0677fa5124515002da8e0860">GetHitUnit</a>())</div>
+<div class="line"><span class="lineno"> 2850</span>            {</div>
+<div class="line"><span class="lineno"> 2851</span>                <a class="code hl_function" href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>()-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../df/d4d/class_motion_master.html#a162fa5144b41ae9e080d41b5c7df1597">MoveCharge</a>(target-&gt;GetPositionX(), target-&gt;GetPositionY(), target-&gt;GetPositionZ() + 4.0f, 42.0f, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a4cf8d4a4d56e9f795518b6541ddeb5bfa4dcdb8f71251fbaa12367412388a8f7e">EVENT_CHARGE</a>);</div>
+<div class="line"><span class="lineno"> 2852</span>                <a class="code hl_function" href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>()-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a957c82ee73c5865d3826411cd9b22e28">SetDisableGravity</a>(<span class="keyword">true</span>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno"> 2853</span>            }</div>
+<div class="line"><span class="lineno"> 2854</span>        }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a4cf8d4a4d56e9f795518b6541ddeb5bfa4dcdb8f71251fbaa12367412388a8f7e"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a4cf8d4a4d56e9f795518b6541ddeb5bfa4dcdb8f71251fbaa12367412388a8f7e">EVENT_CHARGE</a></div><div class="ttdeci">@ EVENT_CHARGE</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3283</div></div>
+<div class="ttc" id="aclass_motion_master_html_a162fa5144b41ae9e080d41b5c7df1597"><div class="ttname"><a href="../../df/d4d/class_motion_master.html#a162fa5144b41ae9e080d41b5c7df1597">MotionMaster::MoveCharge</a></div><div class="ttdeci">void MoveCharge(float x, float y, float z, float speed=SPEED_CHARGE, uint32 id=EVENT_CHARGE, const Movement::PointsArray *path=nullptr, bool generatePath=false, float orientation=0.0f, ObjectGuid targetGUID=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> MotionMaster.cpp:586</div></div>
+<div class="ttc" id="aclass_spell_script_html_a56ed3ad5cf4ebc848946a9d8f1c35d5f"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a56ed3ad5cf4ebc848946a9d8f1c35d5f">SpellScript::PreventHitDefaultEffect</a></div><div class="ttdeci">void PreventHitDefaultEffect(SpellEffIndex effIndex)</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:590</div></div>
+<div class="ttc" id="aclass_spell_script_html_a8435df1d0677fa5124515002da8e0860"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a8435df1d0677fa5124515002da8e0860">SpellScript::GetHitUnit</a></div><div class="ttdeci">Unit * GetHitUnit()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:448</div></div>
+<div class="ttc" id="aclass_spell_script_html_ae630e2d388177707e28cecd5fa5a2b48"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">SpellScript::GetCaster</a></div><div class="ttdeci">Unit * GetCaster()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:401</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_a4a04a3f22c3b0d6f4933993ac0cc7aa4"><div class="ttname"><a href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">Unit::GetMotionMaster</a></div><div class="ttdeci">MotionMaster * GetMotionMaster()</div><div class="ttdef"><b>Definition:</b> Unit.h:2257</div></div>
+<div class="ttc" id="aclass_unit_html_a957c82ee73c5865d3826411cd9b22e28"><div class="ttname"><a href="../../da/db7/class_unit.html#a957c82ee73c5865d3826411cd9b22e28">Unit::SetDisableGravity</a></div><div class="ttdeci">virtual bool SetDisableGravity(bool disable, bool packetOnly=false, bool updateAnimationTier=true)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:20656</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a22dec440cc94b37d995da8a0572c1a27" name="a22dec440cc94b37d995da8a0572c1a27"></a>
@@ -355,7 +372,12 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d7/d13/class___spell_script.html#ad3b8fb5dd2bc5ca4dd34da5a98a76443">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 2805</span>        {</div>
+<div class="line"><span class="lineno"> 2806</span>            <a class="code hl_variable" href="../../d0/d74/classspell__the__lich__king__valkyr__target__search_1_1spell__the__lich__king__valkyr__target__search___spell_script.html#a65ff257b6ed369f2cf06c50721489787">_target</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno"> 2807</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 2808</span>        }</div>
+<div class="ttc" id="aclassspell__the__lich__king__valkyr__target__search_1_1spell__the__lich__king__valkyr__target__search___spell_script_html_a65ff257b6ed369f2cf06c50721489787"><div class="ttname"><a href="../../d0/d74/classspell__the__lich__king__valkyr__target__search_1_1spell__the__lich__king__valkyr__target__search___spell_script.html#a65ff257b6ed369f2cf06c50721489787">spell_the_lich_king_valkyr_target_search::spell_the_lich_king_valkyr_target_search_SpellScript::_target</a></div><div class="ttdeci">WorldObject * _target</div><div class="ttdef"><b>Definition:</b> boss_the_lich_king.cpp:2802</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a4427d466860ab5937c55b1c0e42ded6d" name="a4427d466860ab5937c55b1c0e42ded6d"></a>
@@ -408,7 +430,23 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 2857</span>        {</div>
+<div class="line"><span class="lineno"> 2858</span>            <a class="code hl_variable" href="../../dc/d62/class_spell_script.html#af74f730c6dacd310a78036be6b7cc6b7">OnObjectAreaTargetSelect</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a623f49512c3d12eceb55ca05cd53c4f2">SpellObjectAreaTargetSelectFn</a>(<a class="code hl_function" href="../../d0/d74/classspell__the__lich__king__valkyr__target__search_1_1spell__the__lich__king__valkyr__target__search___spell_script.html#a071c330d01997adffb559e3d991ba526">spell_the_lich_king_valkyr_target_search_SpellScript::SelectTarget</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a418aed4e4066eb09ab979b5d78dc9152a7b8c7cf5819db17b9ed16dfbb93addb4">TARGET_UNIT_SRC_AREA_ENEMY</a>);</div>
+<div class="line"><span class="lineno"> 2859</span>            <a class="code hl_variable" href="../../dc/d62/class_spell_script.html#af74f730c6dacd310a78036be6b7cc6b7">OnObjectAreaTargetSelect</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a623f49512c3d12eceb55ca05cd53c4f2">SpellObjectAreaTargetSelectFn</a>(<a class="code hl_function" href="../../d0/d74/classspell__the__lich__king__valkyr__target__search_1_1spell__the__lich__king__valkyr__target__search___spell_script.html#ad49ddebb8a33051a6bcb777a0a4f333f">spell_the_lich_king_valkyr_target_search_SpellScript::ReplaceTarget</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77a8ad5debef66c8aadbaf13f97f522e791">EFFECT_1</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a418aed4e4066eb09ab979b5d78dc9152a7b8c7cf5819db17b9ed16dfbb93addb4">TARGET_UNIT_SRC_AREA_ENEMY</a>);</div>
+<div class="line"><span class="lineno"> 2860</span>            <a class="code hl_variable" href="../../dc/d62/class_spell_script.html#a6f11356f7a28793e6053bfbc4e2dacf3">OnEffectHitTarget</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a551b0adb8eaf82985a7e55cef0695dcb">SpellEffectFn</a>(<a class="code hl_function" href="../../d0/d74/classspell__the__lich__king__valkyr__target__search_1_1spell__the__lich__king__valkyr__target__search___spell_script.html#aa41d123f611922406d1f88c83922ed52">spell_the_lich_king_valkyr_target_search_SpellScript::HandleScript</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97a078f855df3793531cf8efdef80967cba">SPELL_EFFECT_SCRIPT_EFFECT</a>);</div>
+<div class="line"><span class="lineno"> 2861</span>        }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77a8ad5debef66c8aadbaf13f97f522e791"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77a8ad5debef66c8aadbaf13f97f522e791">EFFECT_1</a></div><div class="ttdeci">@ EFFECT_1</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:31</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a></div><div class="ttdeci">@ EFFECT_0</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:30</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a292c893150c454dd75628b719db1fe97a078f855df3793531cf8efdef80967cba"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97a078f855df3793531cf8efdef80967cba">SPELL_EFFECT_SCRIPT_EFFECT</a></div><div class="ttdeci">@ SPELL_EFFECT_SCRIPT_EFFECT</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:827</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a418aed4e4066eb09ab979b5d78dc9152a7b8c7cf5819db17b9ed16dfbb93addb4"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a418aed4e4066eb09ab979b5d78dc9152a7b8c7cf5819db17b9ed16dfbb93addb4">TARGET_UNIT_SRC_AREA_ENEMY</a></div><div class="ttdeci">@ TARGET_UNIT_SRC_AREA_ENEMY</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1392</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a551b0adb8eaf82985a7e55cef0695dcb"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a551b0adb8eaf82985a7e55cef0695dcb">SpellEffectFn</a></div><div class="ttdeci">#define SpellEffectFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:337</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a623f49512c3d12eceb55ca05cd53c4f2"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a623f49512c3d12eceb55ca05cd53c4f2">SpellObjectAreaTargetSelectFn</a></div><div class="ttdeci">#define SpellObjectAreaTargetSelectFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:354</div></div>
+<div class="ttc" id="aclass_spell_script_html_a6f11356f7a28793e6053bfbc4e2dacf3"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a6f11356f7a28793e6053bfbc4e2dacf3">SpellScript::OnEffectHitTarget</a></div><div class="ttdeci">HookList&lt; EffectHandler &gt; OnEffectHitTarget</div><div class="ttdef"><b>Definition:</b> SpellScript.h:336</div></div>
+<div class="ttc" id="aclass_spell_script_html_af74f730c6dacd310a78036be6b7cc6b7"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#af74f730c6dacd310a78036be6b7cc6b7">SpellScript::OnObjectAreaTargetSelect</a></div><div class="ttdeci">HookList&lt; ObjectAreaTargetSelectHandler &gt; OnObjectAreaTargetSelect</div><div class="ttdef"><b>Definition:</b> SpellScript.h:353</div></div>
+<div class="ttc" id="aclassspell__the__lich__king__valkyr__target__search_1_1spell__the__lich__king__valkyr__target__search___spell_script_html_a071c330d01997adffb559e3d991ba526"><div class="ttname"><a href="../../d0/d74/classspell__the__lich__king__valkyr__target__search_1_1spell__the__lich__king__valkyr__target__search___spell_script.html#a071c330d01997adffb559e3d991ba526">spell_the_lich_king_valkyr_target_search::spell_the_lich_king_valkyr_target_search_SpellScript::SelectTarget</a></div><div class="ttdeci">void SelectTarget(std::list&lt; WorldObject * &gt; &amp;targets)</div><div class="ttdef"><b>Definition:</b> boss_the_lich_king.cpp:2810</div></div>
+<div class="ttc" id="aclassspell__the__lich__king__valkyr__target__search_1_1spell__the__lich__king__valkyr__target__search___spell_script_html_aa41d123f611922406d1f88c83922ed52"><div class="ttname"><a href="../../d0/d74/classspell__the__lich__king__valkyr__target__search_1_1spell__the__lich__king__valkyr__target__search___spell_script.html#aa41d123f611922406d1f88c83922ed52">spell_the_lich_king_valkyr_target_search::spell_the_lich_king_valkyr_target_search_SpellScript::HandleScript</a></div><div class="ttdeci">void HandleScript(SpellEffIndex effIndex)</div><div class="ttdef"><b>Definition:</b> boss_the_lich_king.cpp:2846</div></div>
+<div class="ttc" id="aclassspell__the__lich__king__valkyr__target__search_1_1spell__the__lich__king__valkyr__target__search___spell_script_html_ad49ddebb8a33051a6bcb777a0a4f333f"><div class="ttname"><a href="../../d0/d74/classspell__the__lich__king__valkyr__target__search_1_1spell__the__lich__king__valkyr__target__search___spell_script.html#ad49ddebb8a33051a6bcb777a0a4f333f">spell_the_lich_king_valkyr_target_search::spell_the_lich_king_valkyr_target_search_SpellScript::ReplaceTarget</a></div><div class="ttdeci">void ReplaceTarget(std::list&lt; WorldObject * &gt; &amp;targets)</div><div class="ttdef"><b>Definition:</b> boss_the_lich_king.cpp:2839</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad49ddebb8a33051a6bcb777a0a4f333f" name="ad49ddebb8a33051a6bcb777a0a4f333f"></a>
@@ -434,7 +472,12 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 2840</span>        {</div>
+<div class="line"><span class="lineno"> 2841</span>            targets.clear();</div>
+<div class="line"><span class="lineno"> 2842</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d0/d74/classspell__the__lich__king__valkyr__target__search_1_1spell__the__lich__king__valkyr__target__search___spell_script.html#a65ff257b6ed369f2cf06c50721489787">_target</a>)</div>
+<div class="line"><span class="lineno"> 2843</span>                targets.push_back(<a class="code hl_variable" href="../../d0/d74/classspell__the__lich__king__valkyr__target__search_1_1spell__the__lich__king__valkyr__target__search___spell_script.html#a65ff257b6ed369f2cf06c50721489787">_target</a>);</div>
+<div class="line"><span class="lineno"> 2844</span>        }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a071c330d01997adffb559e3d991ba526" name="a071c330d01997adffb559e3d991ba526"></a>
@@ -460,7 +503,51 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 2811</span>        {</div>
+<div class="line"><span class="lineno"> 2812</span>            <span class="keywordflow">if</span> (targets.empty())</div>
+<div class="line"><span class="lineno"> 2813</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 2814</span>            <a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* caster = <a class="code hl_function" href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>()-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ab0e2ef1ac1daa91476f749e0ec6ad3c6">ToCreature</a>();</div>
+<div class="line"><span class="lineno"> 2815</span>            <span class="keywordflow">if</span> (!caster)</div>
+<div class="line"><span class="lineno"> 2816</span>            {</div>
+<div class="line"><span class="lineno"> 2817</span>                targets.clear();</div>
+<div class="line"><span class="lineno"> 2818</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 2819</span>            }</div>
+<div class="line"><span class="lineno"> 2820</span>            targets.remove_if(<a class="code hl_class" href="../../d7/d2b/class_acore_1_1_unit_aura_check.html">Acore::UnitAuraCheck</a>(<span class="keyword">true</span>, <a class="code hl_function" href="../../dc/d62/class_spell_script.html#a3fa31d3b29c52993d3561fad3cd12af3">GetSpellInfo</a>()-&gt;Id));</div>
+<div class="line"><span class="lineno"> 2821</span>            targets.remove_if(<a class="code hl_class" href="../../d7/d2b/class_acore_1_1_unit_aura_check.html">Acore::UnitAuraCheck</a>(<span class="keyword">true</span>, <a class="code hl_enumvalue" href="../../da/d78/boss__the__lich__king_8cpp.html#a5bd342133be8c2137b831460acc9298ca477edfee07566a27f2ed8d02a0b8b79c">SPELL_BOSS_HITTIN_YA_AURA</a>)); <span class="comment">// done in dbc, but just to be sure xd</span></div>
+<div class="line"><span class="lineno"> 2822</span>            targets.remove_if(<a class="code hl_class" href="../../d7/d2b/class_acore_1_1_unit_aura_check.html">Acore::UnitAuraCheck</a>(<span class="keyword">true</span>, <a class="code hl_enumvalue" href="../../da/d78/boss__the__lich__king_8cpp.html#a5bd342133be8c2137b831460acc9298caf4d2e40352d0a9efb15fa453b8f328ad">SPELL_HARVEST_SOUL_VALKYR</a>));</div>
+<div class="line"><span class="lineno"> 2823</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d83/class_instance_script.html">InstanceScript</a>* _instance = caster-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">GetInstanceScript</a>())</div>
+<div class="line"><span class="lineno"> 2824</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* lichKing = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a>(*caster, _instance-&gt;GetGuidData(<a class="code hl_enumvalue" href="../../d9/d6a/icecrown__citadel_8h.html#afb6eb4f28419b652027fad41104a6d22a016fb0ced66e5f1e845588cc58379f1a">DATA_THE_LICH_KING</a>)))</div>
+<div class="line"><span class="lineno"> 2825</span>                    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d0d/class_spell.html">Spell</a>* s = lichKing-&gt;GetCurrentSpell(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ab791040bd6d685b1fd2cfd12c96d0a1fa9cbac6c5133585dece51a40e9c1908b0">CURRENT_GENERIC_SPELL</a>))</div>
+<div class="line"><span class="lineno"> 2826</span>                        <span class="keywordflow">if</span> (s-&gt;GetSpellInfo()-&gt;Id == <a class="code hl_enumvalue" href="../../da/d78/boss__the__lich__king_8cpp.html#a5bd342133be8c2137b831460acc9298caf2e50631a39716b4ab18294a711e3568">SPELL_DEFILE</a> &amp;&amp; s-&gt;m_targets.GetUnitTarget())</div>
+<div class="line"><span class="lineno"> 2827</span>                            targets.remove(s-&gt;m_targets.GetUnitTarget());</div>
+<div class="line"><span class="lineno"> 2828</span> </div>
+<div class="line"><span class="lineno"> 2829</span>            <span class="keywordflow">if</span> (targets.empty())</div>
+<div class="line"><span class="lineno"> 2830</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 2831</span> </div>
+<div class="line"><span class="lineno"> 2832</span>            <a class="code hl_variable" href="../../d0/d74/classspell__the__lich__king__valkyr__target__search_1_1spell__the__lich__king__valkyr__target__search___spell_script.html#a65ff257b6ed369f2cf06c50721489787">_target</a> = <a class="code hl_function" href="../../d0/df6/namespace_acore_1_1_containers.html#a8ca673d18562735d4ed20a11519b3d46">Acore::Containers::SelectRandomContainerElement</a>(targets);</div>
+<div class="line"><span class="lineno"> 2833</span>            targets.clear();</div>
+<div class="line"><span class="lineno"> 2834</span>            targets.push_back(<a class="code hl_variable" href="../../d0/d74/classspell__the__lich__king__valkyr__target__search_1_1spell__the__lich__king__valkyr__target__search___spell_script.html#a65ff257b6ed369f2cf06c50721489787">_target</a>);</div>
+<div class="line"><span class="lineno"> 2835</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* caster = <a class="code hl_function" href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>()-&gt;ToCreature())</div>
+<div class="line"><span class="lineno"> 2836</span>                caster-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">AI</a>()-&gt;<a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aed57e805b8792eda265a1a426fcf152a">SetGUID</a>(<a class="code hl_variable" href="../../d0/d74/classspell__the__lich__king__valkyr__target__search_1_1spell__the__lich__king__valkyr__target__search___spell_script.html#a65ff257b6ed369f2cf06c50721489787">_target</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>());</div>
+<div class="line"><span class="lineno"> 2837</span>        }</div>
+<div class="ttc" id="a_unit_8h_html_ab791040bd6d685b1fd2cfd12c96d0a1fa9cbac6c5133585dece51a40e9c1908b0"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#ab791040bd6d685b1fd2cfd12c96d0a1fa9cbac6c5133585dece51a40e9c1908b0">CURRENT_GENERIC_SPELL</a></div><div class="ttdeci">@ CURRENT_GENERIC_SPELL</div><div class="ttdef"><b>Definition:</b> Unit.h:979</div></div>
+<div class="ttc" id="aboss__the__lich__king_8cpp_html_a5bd342133be8c2137b831460acc9298ca477edfee07566a27f2ed8d02a0b8b79c"><div class="ttname"><a href="../../da/d78/boss__the__lich__king_8cpp.html#a5bd342133be8c2137b831460acc9298ca477edfee07566a27f2ed8d02a0b8b79c">SPELL_BOSS_HITTIN_YA_AURA</a></div><div class="ttdeci">@ SPELL_BOSS_HITTIN_YA_AURA</div><div class="ttdef"><b>Definition:</b> boss_the_lich_king.cpp:81</div></div>
+<div class="ttc" id="aboss__the__lich__king_8cpp_html_a5bd342133be8c2137b831460acc9298caf2e50631a39716b4ab18294a711e3568"><div class="ttname"><a href="../../da/d78/boss__the__lich__king_8cpp.html#a5bd342133be8c2137b831460acc9298caf2e50631a39716b4ab18294a711e3568">SPELL_DEFILE</a></div><div class="ttdeci">@ SPELL_DEFILE</div><div class="ttdef"><b>Definition:</b> boss_the_lich_king.cpp:133</div></div>
+<div class="ttc" id="aboss__the__lich__king_8cpp_html_a5bd342133be8c2137b831460acc9298caf4d2e40352d0a9efb15fa453b8f328ad"><div class="ttname"><a href="../../da/d78/boss__the__lich__king_8cpp.html#a5bd342133be8c2137b831460acc9298caf4d2e40352d0a9efb15fa453b8f328ad">SPELL_HARVEST_SOUL_VALKYR</a></div><div class="ttdeci">@ SPELL_HARVEST_SOUL_VALKYR</div><div class="ttdef"><b>Definition:</b> boss_the_lich_king.cpp:142</div></div>
+<div class="ttc" id="aclass_acore_1_1_unit_aura_check_html"><div class="ttname"><a href="../../d7/d2b/class_acore_1_1_unit_aura_check.html">Acore::UnitAuraCheck</a></div><div class="ttdef"><b>Definition:</b> GridNotifiers.h:1626</div></div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_creature_html_af2188eef9620b5af52ef2d3ac142db67"><div class="ttname"><a href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">Creature::AI</a></div><div class="ttdeci">CreatureAI * AI() const</div><div class="ttdef"><b>Definition:</b> Creature.h:134</div></div>
+<div class="ttc" id="aclass_instance_script_html"><div class="ttname"><a href="../../d8/d83/class_instance_script.html">InstanceScript</a></div><div class="ttdef"><b>Definition:</b> InstanceScript.h:140</div></div>
+<div class="ttc" id="aclass_object_html_ab0e2ef1ac1daa91476f749e0ec6ad3c6"><div class="ttname"><a href="../../d8/d83/class_object.html#ab0e2ef1ac1daa91476f749e0ec6ad3c6">Object::ToCreature</a></div><div class="ttdeci">Creature * ToCreature()</div><div class="ttdef"><b>Definition:</b> Object.h:197</div></div>
+<div class="ttc" id="aclass_object_html_ad23b997e2442fa6a6228ba73a7ecc138"><div class="ttname"><a href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">Object::GetGUID</a></div><div class="ttdeci">static ObjectGuid GetGUID(Object const *o)</div><div class="ttdef"><b>Definition:</b> Object.h:106</div></div>
+<div class="ttc" id="aclass_spell_html"><div class="ttname"><a href="../../d8/d0d/class_spell.html">Spell</a></div><div class="ttdef"><b>Definition:</b> Spell.h:284</div></div>
+<div class="ttc" id="aclass_spell_script_html_a3fa31d3b29c52993d3561fad3cd12af3"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a3fa31d3b29c52993d3561fad3cd12af3">SpellScript::GetSpellInfo</a></div><div class="ttdeci">SpellInfo const * GetSpellInfo()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:411</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_aed57e805b8792eda265a1a426fcf152a"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#aed57e805b8792eda265a1a426fcf152a">UnitAI::SetGUID</a></div><div class="ttdeci">virtual void SetGUID(ObjectGuid, int32=0)</div><div class="ttdef"><b>Definition:</b> UnitAI.h:199</div></div>
+<div class="ttc" id="aclass_world_object_html_a29762f86d0726e4d229df51281b9d710"><div class="ttname"><a href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">WorldObject::GetInstanceScript</a></div><div class="ttdeci">InstanceScript * GetInstanceScript() const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1192</div></div>
+<div class="ttc" id="aicecrown__citadel_8h_html_afb6eb4f28419b652027fad41104a6d22a016fb0ced66e5f1e845588cc58379f1a"><div class="ttname"><a href="../../d9/d6a/icecrown__citadel_8h.html#afb6eb4f28419b652027fad41104a6d22a016fb0ced66e5f1e845588cc58379f1a">DATA_THE_LICH_KING</a></div><div class="ttdeci">@ DATA_THE_LICH_KING</div><div class="ttdef"><b>Definition:</b> icecrown_citadel.h:103</div></div>
+<div class="ttc" id="anamespace_acore_1_1_containers_html_a8ca673d18562735d4ed20a11519b3d46"><div class="ttname"><a href="../../d0/df6/namespace_acore_1_1_containers.html#a8ca673d18562735d4ed20a11519b3d46">Acore::Containers::SelectRandomContainerElement</a></div><div class="ttdeci">auto SelectRandomContainerElement(C const &amp;container) -&gt; typename std::add_const&lt; decltype(*std::begin(container))&gt;::type &amp;</div><div class="ttdef"><b>Definition:</b> Containers.h:135</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_ae42e503fe79bbeaea1aaa665418c43f8"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a></div><div class="ttdeci">Creature * GetCreature(WorldObject const &amp;u, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:215</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -487,7 +574,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/IcecrownCitadel/<a class="el" href="../../da/d78/boss__the__lich__king_8cpp.html">boss_the_lich_king.cpp</a></li>
+<li><a class="el" href="../../">boss_the_lich_king.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -495,7 +582,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dd/dba/classspell__the__lich__king__valkyr__target__search.html">spell_the_lich_king_valkyr_target_search</a></li><li class="navelem"><a class="el" href="../../d0/d74/classspell__the__lich__king__valkyr__target__search_1_1spell__the__lich__king__valkyr__target__search___spell_script.html">spell_the_lich_king_valkyr_target_search_SpellScript</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:09 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:26 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

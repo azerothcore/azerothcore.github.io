@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzeorthCore: D:/azerothcore-wotlk/src/server/game/Movement/MovementGenerators/WaypointMovementGenerator.cpp File Reference</title>
+<title>AzeorthCore: WaypointMovementGenerator.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -111,20 +111,22 @@ $(document).ready(function(){initNavTree('d3/d61/_waypoint_movement_generator_8c
   <div class="headertitle"><div class="title">WaypointMovementGenerator.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../d4/d33/_waypoint_movement_generator_8h_source.html">WaypointMovementGenerator.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d8/d93/_creature_8h_source.html">Creature.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d7/d43/_creature_a_i_8h_source.html">CreatureAI.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d9/d7b/_creature_groups_8h_source.html">CreatureGroups.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d2/daa/_game_time_8h_source.html">GameTime.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dd/dca/_map_mgr_8h_source.html">MapMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../db/d3f/_move_spline_8h_source.html">MoveSpline.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dd/d9c/_move_spline_init_8h_source.html">MoveSplineInit.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d9/d77/_object_mgr_8h_source.html">ObjectMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d1/d39/_player_8h_source.html">Player.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d5/dfa/_spell_8h_source.html">Spell.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d5/d93/_transport_8h_source.html">Transport.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d8/d86/_world_8h_source.html">World.h</a>&quot;</code><br />
-</div><table class="memberdecls">
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">WaypointMovementGenerator.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Creature.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">CreatureAI.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">CreatureGroups.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GameTime.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">MapMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">MoveSpline.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">MoveSplineInit.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ObjectMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Spell.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Transport.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">World.h</a>&quot;</code><br />
+</div>
+<p><a href="">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
 <tr class="memitem:a55b33fb4c6265551b0327903da9bff4c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d61/_waypoint_movement_generator_8cpp.html#a55b33fb4c6265551b0327903da9bff4c">SKIP_SPLINE_POINT_DISTANCE_SQ</a>&#160;&#160;&#160;(40.0f * 40.0f)</td></tr>
@@ -192,7 +194,11 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  292</span>{</div>
+<div class="line"><span class="lineno">  293</span>    <span class="keywordflow">return</span> p1-&gt;mapid != p2-&gt;mapid || std::pow(p1-&gt;x - p2-&gt;x, 2) + std::pow(p1-&gt;y - p2-&gt;y, 2) &gt; <a class="code hl_define" href="../../d3/d61/_waypoint_movement_generator_8cpp.html#a55b33fb4c6265551b0327903da9bff4c">SKIP_SPLINE_POINT_DISTANCE_SQ</a>;</div>
+<div class="line"><span class="lineno">  294</span>}</div>
+<div class="ttc" id="a_waypoint_movement_generator_8cpp_html_a55b33fb4c6265551b0327903da9bff4c"><div class="ttname"><a href="../../d3/d61/_waypoint_movement_generator_8cpp.html#a55b33fb4c6265551b0327903da9bff4c">SKIP_SPLINE_POINT_DISTANCE_SQ</a></div><div class="ttdeci">#define SKIP_SPLINE_POINT_DISTANCE_SQ</div><div class="ttdef"><b>Definition:</b> WaypointMovementGenerator.cpp:289</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
@@ -201,7 +207,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_0787b0a4fdc11b0654465feaa92c32a3.html">Movement</a></li><li class="navelem"><a class="el" href="../../dir_5b912817ccf0063e74cbee75ff3a7169.html">MovementGenerators</a></li><li class="navelem"><a class="el" href="../../d3/d61/_waypoint_movement_generator_8cpp.html">WaypointMovementGenerator.cpp</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:18 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:32 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

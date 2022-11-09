@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('d9/d65/class_object_guid_generator.htm
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d9/d83/_object_guid_8h_source.html">ObjectGuid.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">ObjectGuid.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for ObjectGuidGenerator&lt; high &gt;:</div>
 <div class="dyncontent">
@@ -150,7 +150,9 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a4a14102e019aa10f41b050054cacca22 inherit pro_attribs_class_object_guid_generator_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/d03/class_object_guid.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d4a/class_object_guid_generator_base.html#a4a14102e019aa10f41b050054cacca22">_nextGuid</a></td></tr>
 <tr class="separator:a4a14102e019aa10f41b050054cacca22 inherit pro_attribs_class_object_guid_generator_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;<a class="el" href="../../d9/d83/_object_guid_8h.html#abe8666ac87665ba963053cdd2b014750">HighGuid</a> high&gt;<br />
+class ObjectGuidGenerator&lt; high &gt;</div></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a1d917989d9bf681546d0e3e9b20593e0" name="a1d917989d9bf681546d0e3e9b20593e0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1d917989d9bf681546d0e3e9b20593e0">&#9670;&#160;</a></span>ObjectGuidGenerator()</h2>
 
@@ -176,7 +178,9 @@ template&lt;<a class="el" href="../../d9/d83/_object_guid_8h.html#abe8666ac87665
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  301</span>: <a class="code hl_class" href="../../d8/d4a/class_object_guid_generator_base.html">ObjectGuidGeneratorBase</a>(start) { }</div>
+<div class="ttc" id="aclass_object_guid_generator_base_html"><div class="ttname"><a href="../../d8/d4a/class_object_guid_generator_base.html">ObjectGuidGeneratorBase</a></div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:283</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -206,11 +210,20 @@ template&lt;<a class="el" href="../../d9/d83/_object_guid_8h.html#abe8666ac87665
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d8/d4a/class_object_guid_generator_base.html#a7a6d9e5a78eef31007a46c10805c3fbe">ObjectGuidGeneratorBase</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  304</span>    {</div>
+<div class="line"><span class="lineno">  305</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d8/d4a/class_object_guid_generator_base.html#a4a14102e019aa10f41b050054cacca22">_nextGuid</a> &gt;= <a class="code hl_function" href="../../d8/d03/class_object_guid.html#ac69dc2d5462b778d2149c0df5ee7ea19">ObjectGuid::GetMaxCounter</a>(high) - 1)</div>
+<div class="line"><span class="lineno">  306</span>            <a class="code hl_function" href="../../d8/d4a/class_object_guid_generator_base.html#ada7a44ac47b112491c575c38465740fc">HandleCounterOverflow</a>(high);</div>
+<div class="line"><span class="lineno">  307</span> </div>
+<div class="line"><span class="lineno">  308</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d8/d4a/class_object_guid_generator_base.html#a4a14102e019aa10f41b050054cacca22">_nextGuid</a>++;</div>
+<div class="line"><span class="lineno">  309</span>    }</div>
+<div class="ttc" id="aclass_object_guid_generator_base_html_a4a14102e019aa10f41b050054cacca22"><div class="ttname"><a href="../../d8/d4a/class_object_guid_generator_base.html#a4a14102e019aa10f41b050054cacca22">ObjectGuidGeneratorBase::_nextGuid</a></div><div class="ttdeci">ObjectGuid::LowType _nextGuid</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:294</div></div>
+<div class="ttc" id="aclass_object_guid_generator_base_html_ada7a44ac47b112491c575c38465740fc"><div class="ttname"><a href="../../d8/d4a/class_object_guid_generator_base.html#ada7a44ac47b112491c575c38465740fc">ObjectGuidGeneratorBase::HandleCounterOverflow</a></div><div class="ttdeci">static void HandleCounterOverflow(HighGuid high)</div><div class="ttdef"><b>Definition:</b> ObjectGuid.cpp:93</div></div>
+<div class="ttc" id="aclass_object_guid_html_ac69dc2d5462b778d2149c0df5ee7ea19"><div class="ttname"><a href="../../d8/d03/class_object_guid.html#ac69dc2d5462b778d2149c0df5ee7ea19">ObjectGuid::GetMaxCounter</a></div><div class="ttdeci">ObjectGuid::LowType GetMaxCounter() const</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:161</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Entities/Object/<a class="el" href="../../d9/d83/_object_guid_8h_source.html">ObjectGuid.h</a></li>
+<li><a class="el" href="../../">ObjectGuid.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -218,7 +231,7 @@ template&lt;<a class="el" href="../../d9/d83/_object_guid_8h.html#abe8666ac87665
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d9/d65/class_object_guid_generator.html">ObjectGuidGenerator</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:56 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:12 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -308,7 +308,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a24023309aa98feec5c1f21360135a645" name="a24023309aa98feec5c1f21360135a645"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a24023309aa98feec5c1f21360135a645">&#9670;&#160;</a></span>CalculateAmount()</h2>
 
@@ -348,7 +349,16 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  687</span>        {</div>
+<div class="line"><span class="lineno">  688</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/df1/class_aura_effect.html">AuraEffect</a>* effect = <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a99cbee6d75732fbd9aa54d2d9679986f">GetAura</a>()-&gt;<a class="code hl_function" href="../../d4/d72/class_aura_script.html#a80b4589d9fb316ef3e53ffdc811738b4">GetEffect</a>(<a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77af927c15d111e2212aaf1f8488ce751c1">EFFECT_2</a>))</div>
+<div class="line"><span class="lineno">  689</span>                amount = std::max&lt;int32&gt;(-100, -5 * <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>(effect-&gt;GetTickNumber()));</div>
+<div class="line"><span class="lineno">  690</span>        }</div>
+<div class="ttc" id="a_define_8h_html_a0bf9964a3ce962c07ad3d8b5432bbbcd"><div class="ttname"><a href="../../db/d35/_define_8h.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a></div><div class="ttdeci">std::int32_t int32</div><div class="ttdef"><b>Definition:</b> Define.h:104</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77af927c15d111e2212aaf1f8488ce751c1"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77af927c15d111e2212aaf1f8488ce751c1">EFFECT_2</a></div><div class="ttdeci">@ EFFECT_2</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:32</div></div>
+<div class="ttc" id="aclass_aura_effect_html"><div class="ttname"><a href="../../da/df1/class_aura_effect.html">AuraEffect</a></div><div class="ttdef"><b>Definition:</b> SpellAuraEffects.h:39</div></div>
+<div class="ttc" id="aclass_aura_script_html_a80b4589d9fb316ef3e53ffdc811738b4"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a80b4589d9fb316ef3e53ffdc811738b4">AuraScript::GetEffect</a></div><div class="ttdeci">AuraEffect * GetEffect(uint8 effIndex) const</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:1145</div></div>
+<div class="ttc" id="aclass_aura_script_html_a99cbee6d75732fbd9aa54d2d9679986f"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a99cbee6d75732fbd9aa54d2d9679986f">AuraScript::GetAura</a></div><div class="ttdeci">Aura * GetAura() const</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:1035</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ae9f832f8e13e383de9442b59d5694c1d" name="ae9f832f8e13e383de9442b59d5694c1d"></a>
@@ -374,7 +384,12 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  676</span>        {</div>
+<div class="line"><span class="lineno">  677</span>            <span class="keywordflow">return</span> eventInfo.<a class="code hl_function" href="../../df/def/class_proc_event_info.html#a89d8ab0bf0b01e3e1ca4ae10a3cbde10">GetActor</a>() &amp;&amp; eventInfo.<a class="code hl_function" href="../../df/def/class_proc_event_info.html#a1b55684ec526bdc9b7d5d3b2ac4297a9">GetActionTarget</a>();</div>
+<div class="line"><span class="lineno">  678</span>        }</div>
+<div class="ttc" id="aclass_proc_event_info_html_a1b55684ec526bdc9b7d5d3b2ac4297a9"><div class="ttname"><a href="../../df/def/class_proc_event_info.html#a1b55684ec526bdc9b7d5d3b2ac4297a9">ProcEventInfo::GetActionTarget</a></div><div class="ttdeci">Unit * GetActionTarget() const</div><div class="ttdef"><b>Definition:</b> Unit.h:859</div></div>
+<div class="ttc" id="aclass_proc_event_info_html_a89d8ab0bf0b01e3e1ca4ae10a3cbde10"><div class="ttname"><a href="../../df/def/class_proc_event_info.html#a89d8ab0bf0b01e3e1ca4ae10a3cbde10">ProcEventInfo::GetActor</a></div><div class="ttdeci">Unit * GetActor()</div><div class="ttdef"><b>Definition:</b> Unit.h:858</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ae91be3f8edae9e28bb84e797f2b9375b" name="ae91be3f8edae9e28bb84e797f2b9375b"></a>
@@ -410,7 +425,17 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  681</span>        {</div>
+<div class="line"><span class="lineno">  682</span>            <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a19e0ed231d33245849ef31acb0f2bca3">PreventDefaultAction</a>();</div>
+<div class="line"><span class="lineno">  683</span>            eventInfo.<a class="code hl_function" href="../../df/def/class_proc_event_info.html#a1b55684ec526bdc9b7d5d3b2ac4297a9">GetActionTarget</a>()-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a51ec81e114bf82a2485ba9f66200afd2">CastCustomSpell</a>(<a class="code hl_enumvalue" href="../../d4/dd3/boss__reliquary__of__souls_8cpp.html#a5bd342133be8c2137b831460acc9298ca1c197cb269e9b054539de4c994de514e">SPELL_AURA_OF_DESIRE_DAMAGE</a>, <a class="code hl_enumvalue" href="../../d2/d6d/_spell_defines_8h.html#a4ad87b8c967acbbcb154a32bc123371bae5c19f392b2ebda372a39538fa9b592a">SPELLVALUE_BASE_POINT0</a>, eventInfo.<a class="code hl_function" href="../../df/def/class_proc_event_info.html#ad2eb8dffb2a2b91b02ca1b56861c7221">GetDamageInfo</a>()-&gt;<a class="code hl_function" href="../../d6/d2a/class_damage_info.html#adcf0ecbcfa77654529e66df53ae828d4">GetDamage</a>() / 2, eventInfo.<a class="code hl_function" href="../../df/def/class_proc_event_info.html#a89d8ab0bf0b01e3e1ca4ae10a3cbde10">GetActor</a>(), <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  684</span>        }</div>
+<div class="ttc" id="a_spell_defines_8h_html_a4ad87b8c967acbbcb154a32bc123371bae5c19f392b2ebda372a39538fa9b592a"><div class="ttname"><a href="../../d2/d6d/_spell_defines_8h.html#a4ad87b8c967acbbcb154a32bc123371bae5c19f392b2ebda372a39538fa9b592a">SPELLVALUE_BASE_POINT0</a></div><div class="ttdeci">@ SPELLVALUE_BASE_POINT0</div><div class="ttdef"><b>Definition:</b> SpellDefines.h:114</div></div>
+<div class="ttc" id="aboss__reliquary__of__souls_8cpp_html_a5bd342133be8c2137b831460acc9298ca1c197cb269e9b054539de4c994de514e"><div class="ttname"><a href="../../d4/dd3/boss__reliquary__of__souls_8cpp.html#a5bd342133be8c2137b831460acc9298ca1c197cb269e9b054539de4c994de514e">SPELL_AURA_OF_DESIRE_DAMAGE</a></div><div class="ttdeci">@ SPELL_AURA_OF_DESIRE_DAMAGE</div><div class="ttdef"><b>Definition:</b> boss_reliquary_of_souls.cpp:67</div></div>
+<div class="ttc" id="aclass_aura_script_html_a19e0ed231d33245849ef31acb0f2bca3"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a19e0ed231d33245849ef31acb0f2bca3">AuraScript::PreventDefaultAction</a></div><div class="ttdeci">void PreventDefaultAction()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:975</div></div>
+<div class="ttc" id="aclass_damage_info_html_adcf0ecbcfa77654529e66df53ae828d4"><div class="ttname"><a href="../../d6/d2a/class_damage_info.html#adcf0ecbcfa77654529e66df53ae828d4">DamageInfo::GetDamage</a></div><div class="ttdeci">uint32 GetDamage() const</div><div class="ttdef"><b>Definition:</b> Unit.h:795</div></div>
+<div class="ttc" id="aclass_proc_event_info_html_ad2eb8dffb2a2b91b02ca1b56861c7221"><div class="ttname"><a href="../../df/def/class_proc_event_info.html#ad2eb8dffb2a2b91b02ca1b56861c7221">ProcEventInfo::GetDamageInfo</a></div><div class="ttdeci">DamageInfo * GetDamageInfo() const</div><div class="ttdef"><b>Definition:</b> Unit.h:868</div></div>
+<div class="ttc" id="aclass_unit_html_a51ec81e114bf82a2485ba9f66200afd2"><div class="ttname"><a href="../../da/db7/class_unit.html#a51ec81e114bf82a2485ba9f66200afd2">Unit::CastCustomSpell</a></div><div class="ttdeci">SpellCastResult CastCustomSpell(Unit *victim, uint32 spellId, int32 const *bp0, int32 const *bp1, int32 const *bp2, bool triggered, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1225</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a80dbbd11ed3a6867a1f3b7946cc56539" name="a80dbbd11ed3a6867a1f3b7946cc56539"></a>
@@ -463,7 +488,30 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  700</span>        {</div>
+<div class="line"><span class="lineno">  701</span>            <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#ab771dd972497502e5202fd48a1d6c17d">DoCheckProc</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#ad25bcd0c3aa73ba267fa87ea50bc1780">AuraCheckProcFn</a>(<a class="code hl_function" href="../../db/d88/classspell__reliquary__of__souls__aura__of__desire_1_1spell__reliquary__of__souls__aura__of__desire___aura_script.html#ae9f832f8e13e383de9442b59d5694c1d">spell_reliquary_of_souls_aura_of_desire_AuraScript::CheckProc</a>);</div>
+<div class="line"><span class="lineno">  702</span>            <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#ae01a6d3f559913b72bd67a145c668457">OnEffectProc</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a477ed5ca0e8da0b293428f4596802c0b">AuraEffectProcFn</a>(<a class="code hl_function" href="../../db/d88/classspell__reliquary__of__souls__aura__of__desire_1_1spell__reliquary__of__souls__aura__of__desire___aura_script.html#ae91be3f8edae9e28bb84e797f2b9375b">spell_reliquary_of_souls_aura_of_desire_AuraScript::HandleProc</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799a79269de8dea27ac7f7622e49e14a687a">SPELL_AURA_MOD_HEALING_PCT</a>);</div>
+<div class="line"><span class="lineno">  703</span>            <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a5b3cca86dbe3a8e042a0517a2621acf2">DoEffectCalcAmount</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a5f7926ca012466d6b220655a1bb6e912">AuraEffectCalcAmountFn</a>(<a class="code hl_function" href="../../db/d88/classspell__reliquary__of__souls__aura__of__desire_1_1spell__reliquary__of__souls__aura__of__desire___aura_script.html#a24023309aa98feec5c1f21360135a645">spell_reliquary_of_souls_aura_of_desire_AuraScript::CalculateAmount</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77a8ad5debef66c8aadbaf13f97f522e791">EFFECT_1</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799aa6334836ea9df28bbb9637f5b4987030">SPELL_AURA_MOD_INCREASE_ENERGY_PERCENT</a>);</div>
+<div class="line"><span class="lineno">  704</span>            <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a491e7fc0a1acd202b60fa1aed79a9377">OnEffectPeriodic</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a63dd33eaa91292bfb53b1d9f2b0eba29">AuraEffectPeriodicFn</a>(<a class="code hl_function" href="../../db/d88/classspell__reliquary__of__souls__aura__of__desire_1_1spell__reliquary__of__souls__aura__of__desire___aura_script.html#adf311ee31ca8a61ca39a75975b8d5392">spell_reliquary_of_souls_aura_of_desire_AuraScript::Update</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77af927c15d111e2212aaf1f8488ce751c1">EFFECT_2</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799af51e1877e096bbfd69505e5ab4fc69ad">SPELL_AURA_PERIODIC_TRIGGER_SPELL</a>);</div>
+<div class="line"><span class="lineno">  705</span>        }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77a8ad5debef66c8aadbaf13f97f522e791"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77a8ad5debef66c8aadbaf13f97f522e791">EFFECT_1</a></div><div class="ttdeci">@ EFFECT_1</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:31</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a></div><div class="ttdeci">@ EFFECT_0</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:30</div></div>
+<div class="ttc" id="a_spell_aura_defines_8h_html_a538cdc259460b365f406fe0b3a981799a79269de8dea27ac7f7622e49e14a687a"><div class="ttname"><a href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799a79269de8dea27ac7f7622e49e14a687a">SPELL_AURA_MOD_HEALING_PCT</a></div><div class="ttdeci">@ SPELL_AURA_MOD_HEALING_PCT</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:181</div></div>
+<div class="ttc" id="a_spell_aura_defines_8h_html_a538cdc259460b365f406fe0b3a981799aa6334836ea9df28bbb9637f5b4987030"><div class="ttname"><a href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799aa6334836ea9df28bbb9637f5b4987030">SPELL_AURA_MOD_INCREASE_ENERGY_PERCENT</a></div><div class="ttdeci">@ SPELL_AURA_MOD_INCREASE_ENERGY_PERCENT</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:195</div></div>
+<div class="ttc" id="a_spell_aura_defines_8h_html_a538cdc259460b365f406fe0b3a981799af51e1877e096bbfd69505e5ab4fc69ad"><div class="ttname"><a href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799af51e1877e096bbfd69505e5ab4fc69ad">SPELL_AURA_PERIODIC_TRIGGER_SPELL</a></div><div class="ttdeci">@ SPELL_AURA_PERIODIC_TRIGGER_SPELL</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:86</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a477ed5ca0e8da0b293428f4596802c0b"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a477ed5ca0e8da0b293428f4596802c0b">AuraEffectProcFn</a></div><div class="ttdeci">#define AuraEffectProcFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:836</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a5f7926ca012466d6b220655a1bb6e912"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a5f7926ca012466d6b220655a1bb6e912">AuraEffectCalcAmountFn</a></div><div class="ttdeci">#define AuraEffectCalcAmountFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:762</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a63dd33eaa91292bfb53b1d9f2b0eba29"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a63dd33eaa91292bfb53b1d9f2b0eba29">AuraEffectPeriodicFn</a></div><div class="ttdeci">#define AuraEffectPeriodicFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:750</div></div>
+<div class="ttc" id="a_spell_script_8h_html_ad25bcd0c3aa73ba267fa87ea50bc1780"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#ad25bcd0c3aa73ba267fa87ea50bc1780">AuraCheckProcFn</a></div><div class="ttdeci">#define AuraCheckProcFn(F)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:812</div></div>
+<div class="ttc" id="aclass_aura_script_html_a491e7fc0a1acd202b60fa1aed79a9377"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a491e7fc0a1acd202b60fa1aed79a9377">AuraScript::OnEffectPeriodic</a></div><div class="ttdeci">HookList&lt; EffectPeriodicHandler &gt; OnEffectPeriodic</div><div class="ttdef"><b>Definition:</b> SpellScript.h:749</div></div>
+<div class="ttc" id="aclass_aura_script_html_a5b3cca86dbe3a8e042a0517a2621acf2"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a5b3cca86dbe3a8e042a0517a2621acf2">AuraScript::DoEffectCalcAmount</a></div><div class="ttdeci">HookList&lt; EffectCalcAmountHandler &gt; DoEffectCalcAmount</div><div class="ttdef"><b>Definition:</b> SpellScript.h:761</div></div>
+<div class="ttc" id="aclass_aura_script_html_ab771dd972497502e5202fd48a1d6c17d"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#ab771dd972497502e5202fd48a1d6c17d">AuraScript::DoCheckProc</a></div><div class="ttdeci">HookList&lt; CheckProcHandler &gt; DoCheckProc</div><div class="ttdef"><b>Definition:</b> SpellScript.h:807</div></div>
+<div class="ttc" id="aclass_aura_script_html_ae01a6d3f559913b72bd67a145c668457"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#ae01a6d3f559913b72bd67a145c668457">AuraScript::OnEffectProc</a></div><div class="ttdeci">HookList&lt; EffectProcHandler &gt; OnEffectProc</div><div class="ttdef"><b>Definition:</b> SpellScript.h:831</div></div>
+<div class="ttc" id="aclassspell__reliquary__of__souls__aura__of__desire_1_1spell__reliquary__of__souls__aura__of__desire___aura_script_html_a24023309aa98feec5c1f21360135a645"><div class="ttname"><a href="../../db/d88/classspell__reliquary__of__souls__aura__of__desire_1_1spell__reliquary__of__souls__aura__of__desire___aura_script.html#a24023309aa98feec5c1f21360135a645">spell_reliquary_of_souls_aura_of_desire::spell_reliquary_of_souls_aura_of_desire_AuraScript::CalculateAmount</a></div><div class="ttdeci">void CalculateAmount(AuraEffect const *, int32 &amp;amount, bool &amp;)</div><div class="ttdef"><b>Definition:</b> boss_reliquary_of_souls.cpp:686</div></div>
+<div class="ttc" id="aclassspell__reliquary__of__souls__aura__of__desire_1_1spell__reliquary__of__souls__aura__of__desire___aura_script_html_adf311ee31ca8a61ca39a75975b8d5392"><div class="ttname"><a href="../../db/d88/classspell__reliquary__of__souls__aura__of__desire_1_1spell__reliquary__of__souls__aura__of__desire___aura_script.html#adf311ee31ca8a61ca39a75975b8d5392">spell_reliquary_of_souls_aura_of_desire::spell_reliquary_of_souls_aura_of_desire_AuraScript::Update</a></div><div class="ttdeci">void Update(AuraEffect const *)</div><div class="ttdef"><b>Definition:</b> boss_reliquary_of_souls.cpp:692</div></div>
+<div class="ttc" id="aclassspell__reliquary__of__souls__aura__of__desire_1_1spell__reliquary__of__souls__aura__of__desire___aura_script_html_ae91be3f8edae9e28bb84e797f2b9375b"><div class="ttname"><a href="../../db/d88/classspell__reliquary__of__souls__aura__of__desire_1_1spell__reliquary__of__souls__aura__of__desire___aura_script.html#ae91be3f8edae9e28bb84e797f2b9375b">spell_reliquary_of_souls_aura_of_desire::spell_reliquary_of_souls_aura_of_desire_AuraScript::HandleProc</a></div><div class="ttdeci">void HandleProc(AuraEffect const *, ProcEventInfo &amp;eventInfo)</div><div class="ttdef"><b>Definition:</b> boss_reliquary_of_souls.cpp:680</div></div>
+<div class="ttc" id="aclassspell__reliquary__of__souls__aura__of__desire_1_1spell__reliquary__of__souls__aura__of__desire___aura_script_html_ae9f832f8e13e383de9442b59d5694c1d"><div class="ttname"><a href="../../db/d88/classspell__reliquary__of__souls__aura__of__desire_1_1spell__reliquary__of__souls__aura__of__desire___aura_script.html#ae9f832f8e13e383de9442b59d5694c1d">spell_reliquary_of_souls_aura_of_desire::spell_reliquary_of_souls_aura_of_desire_AuraScript::CheckProc</a></div><div class="ttdeci">bool CheckProc(ProcEventInfo &amp;eventInfo)</div><div class="ttdef"><b>Definition:</b> boss_reliquary_of_souls.cpp:675</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="adf311ee31ca8a61ca39a75975b8d5392" name="adf311ee31ca8a61ca39a75975b8d5392"></a>
@@ -489,11 +537,16 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  693</span>        {</div>
+<div class="line"><span class="lineno">  694</span>            <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a19e0ed231d33245849ef31acb0f2bca3">PreventDefaultAction</a>();</div>
+<div class="line"><span class="lineno">  695</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/df1/class_aura_effect.html">AuraEffect</a>* effect = <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a99cbee6d75732fbd9aa54d2d9679986f">GetAura</a>()-&gt;<a class="code hl_function" href="../../d4/d72/class_aura_script.html#a80b4589d9fb316ef3e53ffdc811738b4">GetEffect</a>(<a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77a8ad5debef66c8aadbaf13f97f522e791">EFFECT_1</a>))</div>
+<div class="line"><span class="lineno">  696</span>                effect-&gt;RecalculateAmount();</div>
+<div class="line"><span class="lineno">  697</span>        }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Outland/BlackTemple/<a class="el" href="../../d4/dd3/boss__reliquary__of__souls_8cpp.html">boss_reliquary_of_souls.cpp</a></li>
+<li><a class="el" href="../../">boss_reliquary_of_souls.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -501,7 +554,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../da/dc1/classspell__reliquary__of__souls__aura__of__desire.html">spell_reliquary_of_souls_aura_of_desire</a></li><li class="navelem"><a class="el" href="../../db/d88/classspell__reliquary__of__souls__aura__of__desire_1_1spell__reliquary__of__souls__aura__of__desire___aura_script.html">spell_reliquary_of_souls_aura_of_desire_AuraScript</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:07 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:24 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

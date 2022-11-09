@@ -115,7 +115,7 @@ $(document).ready(function(){initNavTree('d1/d5d/class_creature_text_mgr.html','
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d0/d99/_creature_text_mgr_8h_source.html">CreatureTextMgr.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">CreatureTextMgr.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -168,7 +168,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a12ecf289ef6d78691b6ab23f3cdd9fd8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d99/_creature_text_mgr_8h.html#ab39b2d82775a84108d19ed009bd14747">LocaleCreatureTextMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d5d/class_creature_text_mgr.html#a12ecf289ef6d78691b6ab23f3cdd9fd8">mLocaleTextMap</a></td></tr>
 <tr class="separator:a12ecf289ef6d78691b6ab23f3cdd9fd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a00cc7ebfdb0702de8af841dcbbddcc3b" name="a00cc7ebfdb0702de8af841dcbbddcc3b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a00cc7ebfdb0702de8af841dcbbddcc3b">&#9670;&#160;</a></span>CreatureTextMgr()</h2>
 
@@ -191,7 +192,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   87</span>{ }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a6f77e1f030bb16b585f9a75059a06f31" name="a6f77e1f030bb16b585f9a75059a06f31"></a>
@@ -216,7 +218,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   92</span>{ }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -263,7 +266,54 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  466</span>{</div>
+<div class="line"><span class="lineno">  467</span>    CreatureTextMap::const_iterator mapitr = <a class="code hl_variable" href="../../d1/d5d/class_creature_text_mgr.html#ad25faab453d0f5d6270797eeeb5e2e40">mTextMap</a>.find(entry);</div>
+<div class="line"><span class="lineno">  468</span>    <span class="keywordflow">if</span> (mapitr == <a class="code hl_variable" href="../../d1/d5d/class_creature_text_mgr.html#ad25faab453d0f5d6270797eeeb5e2e40">mTextMap</a>.end())</div>
+<div class="line"><span class="lineno">  469</span>        <span class="keywordflow">return</span> <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><span class="lineno">  470</span> </div>
+<div class="line"><span class="lineno">  471</span>    CreatureTextHolder::const_iterator holderItr = mapitr-&gt;second.find(textGroup);</div>
+<div class="line"><span class="lineno">  472</span>    <span class="keywordflow">if</span> (holderItr == mapitr-&gt;second.end())</div>
+<div class="line"><span class="lineno">  473</span>        <span class="keywordflow">return</span> <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><span class="lineno">  474</span> </div>
+<div class="line"><span class="lineno">  475</span>    CreatureTextGroup::const_iterator groupItr = holderItr-&gt;second.begin();</div>
+<div class="line"><span class="lineno">  476</span>    <span class="keywordflow">for</span> (; groupItr != holderItr-&gt;second.end(); ++groupItr)</div>
+<div class="line"><span class="lineno">  477</span>        <span class="keywordflow">if</span> (groupItr-&gt;id == <span class="keywordtype">id</span>)</div>
+<div class="line"><span class="lineno">  478</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  479</span> </div>
+<div class="line"><span class="lineno">  480</span>    <span class="keywordflow">if</span> (groupItr == holderItr-&gt;second.end())</div>
+<div class="line"><span class="lineno">  481</span>        <span class="keywordflow">return</span> <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><span class="lineno">  482</span> </div>
+<div class="line"><span class="lineno">  483</span>    <span class="keywordflow">if</span> (locale &gt; <a class="code hl_define" href="../../db/d1f/_common_8h.html#aa0ae9c82be025ecc48dd4a5f19b641be">MAX_LOCALES</a>)</div>
+<div class="line"><span class="lineno">  484</span>        locale = <a class="code hl_define" href="../../db/d1f/_common_8h.html#a900ed91bceba26c1e05048bd3a9ec4fd">DEFAULT_LOCALE</a>;</div>
+<div class="line"><span class="lineno">  485</span> </div>
+<div class="line"><span class="lineno">  486</span>    std::string baseText = <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><span class="lineno">  487</span> </div>
+<div class="line"><span class="lineno">  488</span>    <a class="code hl_struct" href="../../d0/d3b/struct_broadcast_text.html">BroadcastText</a> <span class="keyword">const</span>* bct = <a class="code hl_define" href="../../d9/d77/_object_mgr_8h.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetBroadcastText(groupItr-&gt;BroadcastTextId);</div>
+<div class="line"><span class="lineno">  489</span>    <span class="keywordflow">if</span> (bct)</div>
+<div class="line"><span class="lineno">  490</span>        baseText = bct-&gt;<a class="code hl_function" href="../../d0/d3b/struct_broadcast_text.html#a5002c01e04536db717167eb7d0f4c5ec">GetText</a>(locale, gender);</div>
+<div class="line"><span class="lineno">  491</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  492</span>        baseText = groupItr-&gt;text;</div>
+<div class="line"><span class="lineno">  493</span> </div>
+<div class="line"><span class="lineno">  494</span>    <span class="keywordflow">if</span> (locale != <a class="code hl_define" href="../../db/d1f/_common_8h.html#a900ed91bceba26c1e05048bd3a9ec4fd">DEFAULT_LOCALE</a> &amp;&amp; !bct)</div>
+<div class="line"><span class="lineno">  495</span>    {</div>
+<div class="line"><span class="lineno">  496</span>        LocaleCreatureTextMap::const_iterator locItr = <a class="code hl_variable" href="../../d1/d5d/class_creature_text_mgr.html#a12ecf289ef6d78691b6ab23f3cdd9fd8">mLocaleTextMap</a>.find(<a class="code hl_struct" href="../../d5/dcc/struct_creature_text_id.html">CreatureTextId</a>(entry, <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(textGroup), <span class="keywordtype">id</span>));</div>
+<div class="line"><span class="lineno">  497</span>        <span class="keywordflow">if</span> (locItr != <a class="code hl_variable" href="../../d1/d5d/class_creature_text_mgr.html#a12ecf289ef6d78691b6ab23f3cdd9fd8">mLocaleTextMap</a>.end())</div>
+<div class="line"><span class="lineno">  498</span>            <a class="code hl_function" href="../../d5/dbd/class_object_mgr.html#a92a2d9fe378030122340f34a7cb79ef9">ObjectMgr::GetLocaleString</a>(locItr-&gt;second.Text, locale, baseText);</div>
+<div class="line"><span class="lineno">  499</span>    }</div>
+<div class="line"><span class="lineno">  500</span> </div>
+<div class="line"><span class="lineno">  501</span>    <span class="keywordflow">return</span> baseText;</div>
+<div class="line"><span class="lineno">  502</span>}</div>
+<div class="ttc" id="a_common_8h_html_a900ed91bceba26c1e05048bd3a9ec4fd"><div class="ttname"><a href="../../db/d1f/_common_8h.html#a900ed91bceba26c1e05048bd3a9ec4fd">DEFAULT_LOCALE</a></div><div class="ttdeci">#define DEFAULT_LOCALE</div><div class="ttdef"><b>Definition:</b> Common.h:88</div></div>
+<div class="ttc" id="a_common_8h_html_aa0ae9c82be025ecc48dd4a5f19b641be"><div class="ttname"><a href="../../db/d1f/_common_8h.html#aa0ae9c82be025ecc48dd4a5f19b641be">MAX_LOCALES</a></div><div class="ttdeci">#define MAX_LOCALES</div><div class="ttdef"><b>Definition:</b> Common.h:90</div></div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="a_object_mgr_8h_html_a736e30da2b5261060ac6cdbb5de3b787"><div class="ttname"><a href="../../d9/d77/_object_mgr_8h.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a></div><div class="ttdeci">#define sObjectMgr</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:1606</div></div>
+<div class="ttc" id="aclass_creature_text_mgr_html_a12ecf289ef6d78691b6ab23f3cdd9fd8"><div class="ttname"><a href="../../d1/d5d/class_creature_text_mgr.html#a12ecf289ef6d78691b6ab23f3cdd9fd8">CreatureTextMgr::mLocaleTextMap</a></div><div class="ttdeci">LocaleCreatureTextMap mLocaleTextMap</div><div class="ttdef"><b>Definition:</b> CreatureTextMgr.h:116</div></div>
+<div class="ttc" id="aclass_creature_text_mgr_html_ad25faab453d0f5d6270797eeeb5e2e40"><div class="ttname"><a href="../../d1/d5d/class_creature_text_mgr.html#ad25faab453d0f5d6270797eeeb5e2e40">CreatureTextMgr::mTextMap</a></div><div class="ttdeci">CreatureTextMap mTextMap</div><div class="ttdef"><b>Definition:</b> CreatureTextMgr.h:114</div></div>
+<div class="ttc" id="aclass_object_mgr_html_a92a2d9fe378030122340f34a7cb79ef9"><div class="ttname"><a href="../../d5/dbd/class_object_mgr.html#a92a2d9fe378030122340f34a7cb79ef9">ObjectMgr::GetLocaleString</a></div><div class="ttdeci">static std::string_view GetLocaleString(std::vector&lt; std::string &gt; const &amp;data, size_t locale)</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:1390</div></div>
+<div class="ttc" id="astruct_broadcast_text_html"><div class="ttname"><a href="../../d0/d3b/struct_broadcast_text.html">BroadcastText</a></div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:435</div></div>
+<div class="ttc" id="astruct_broadcast_text_html_a5002c01e04536db717167eb7d0f4c5ec"><div class="ttname"><a href="../../d0/d3b/struct_broadcast_text.html#a5002c01e04536db717167eb7d0f4c5ec">BroadcastText::GetText</a></div><div class="ttdeci">std::string const &amp; GetText(LocaleConstant locale=DEFAULT_LOCALE, uint8 gender=GENDER_MALE, bool forceGender=false) const</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:457</div></div>
+<div class="ttc" id="astruct_creature_text_id_html"><div class="ttname"><a href="../../d5/dcc/struct_creature_text_id.html">CreatureTextId</a></div><div class="ttdef"><b>Definition:</b> CreatureTextMgr.h:59</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aeddebd7d3fcf604ee4d11b77ff87fd53" name="aeddebd7d3fcf604ee4d11b77ff87fd53"></a>
@@ -289,7 +339,31 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  312</span>{</div>
+<div class="line"><span class="lineno">  313</span>    <span class="keywordtype">float</span> dist = <a class="code hl_define" href="../../df/d17/group__world.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;getFloatConfig(<a class="code hl_enumvalue" href="../../d2/d80/_i_world_8h.html#aa23506e28a8e9c6ea99ea2d0b1ea5780a5a0bf7d77f3eb5fa2e54632e5706246e">CONFIG_LISTEN_RANGE_SAY</a>);</div>
+<div class="line"><span class="lineno">  314</span>    <span class="keywordflow">switch</span> (msgType)</div>
+<div class="line"><span class="lineno">  315</span>    {</div>
+<div class="line"><span class="lineno">  316</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16ac49b0083a9c7ab8e1540b1e6c8e7f615">CHAT_MSG_MONSTER_YELL</a>:</div>
+<div class="line"><span class="lineno">  317</span>            dist = <a class="code hl_define" href="../../df/d17/group__world.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;getFloatConfig(<a class="code hl_enumvalue" href="../../d2/d80/_i_world_8h.html#aa23506e28a8e9c6ea99ea2d0b1ea5780a382281b6a62a83594b4550f8c7118bf2">CONFIG_LISTEN_RANGE_YELL</a>);</div>
+<div class="line"><span class="lineno">  318</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  319</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16ab131ee2d3718d1b5e87b4aee777ed652">CHAT_MSG_MONSTER_EMOTE</a>:</div>
+<div class="line"><span class="lineno">  320</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16aa6fdb2aa1d66427c20c2013bead78cea">CHAT_MSG_RAID_BOSS_EMOTE</a>:</div>
+<div class="line"><span class="lineno">  321</span>            dist = <a class="code hl_define" href="../../df/d17/group__world.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;getFloatConfig(<a class="code hl_enumvalue" href="../../d2/d80/_i_world_8h.html#aa23506e28a8e9c6ea99ea2d0b1ea5780aeafefe4d43382b4fd7eefd0d93d300ce">CONFIG_LISTEN_RANGE_TEXTEMOTE</a>);</div>
+<div class="line"><span class="lineno">  322</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  323</span>        <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  324</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  325</span>    }</div>
+<div class="line"><span class="lineno">  326</span> </div>
+<div class="line"><span class="lineno">  327</span>    <span class="keywordflow">return</span> dist;</div>
+<div class="line"><span class="lineno">  328</span>}</div>
+<div class="ttc" id="a_i_world_8h_html_aa23506e28a8e9c6ea99ea2d0b1ea5780a382281b6a62a83594b4550f8c7118bf2"><div class="ttname"><a href="../../d2/d80/_i_world_8h.html#aa23506e28a8e9c6ea99ea2d0b1ea5780a382281b6a62a83594b4550f8c7118bf2">CONFIG_LISTEN_RANGE_YELL</a></div><div class="ttdeci">@ CONFIG_LISTEN_RANGE_YELL</div><div class="ttdef"><b>Definition:</b> IWorld.h:190</div></div>
+<div class="ttc" id="a_i_world_8h_html_aa23506e28a8e9c6ea99ea2d0b1ea5780a5a0bf7d77f3eb5fa2e54632e5706246e"><div class="ttname"><a href="../../d2/d80/_i_world_8h.html#aa23506e28a8e9c6ea99ea2d0b1ea5780a5a0bf7d77f3eb5fa2e54632e5706246e">CONFIG_LISTEN_RANGE_SAY</a></div><div class="ttdeci">@ CONFIG_LISTEN_RANGE_SAY</div><div class="ttdef"><b>Definition:</b> IWorld.h:188</div></div>
+<div class="ttc" id="a_i_world_8h_html_aa23506e28a8e9c6ea99ea2d0b1ea5780aeafefe4d43382b4fd7eefd0d93d300ce"><div class="ttname"><a href="../../d2/d80/_i_world_8h.html#aa23506e28a8e9c6ea99ea2d0b1ea5780aeafefe4d43382b4fd7eefd0d93d300ce">CONFIG_LISTEN_RANGE_TEXTEMOTE</a></div><div class="ttdeci">@ CONFIG_LISTEN_RANGE_TEXTEMOTE</div><div class="ttdef"><b>Definition:</b> IWorld.h:189</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a249e68b260c9857b5d0d4cf4697fae16aa6fdb2aa1d66427c20c2013bead78cea"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16aa6fdb2aa1d66427c20c2013bead78cea">CHAT_MSG_RAID_BOSS_EMOTE</a></div><div class="ttdeci">@ CHAT_MSG_RAID_BOSS_EMOTE</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3165</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a249e68b260c9857b5d0d4cf4697fae16ab131ee2d3718d1b5e87b4aee777ed652"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16ab131ee2d3718d1b5e87b4aee777ed652">CHAT_MSG_MONSTER_EMOTE</a></div><div class="ttdeci">@ CHAT_MSG_MONSTER_EMOTE</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3140</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a249e68b260c9857b5d0d4cf4697fae16ac49b0083a9c7ab8e1540b1e6c8e7f615"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16ac49b0083a9c7ab8e1540b1e6c8e7f615">CHAT_MSG_MONSTER_YELL</a></div><div class="ttdeci">@ CHAT_MSG_MONSTER_YELL</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3138</div></div>
+<div class="ttc" id="agroup__world_html_ga05dfb35c344e5b947a19e4284e7f5fa7"><div class="ttname"><a href="../../df/d17/group__world.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a></div><div class="ttdeci">#define sWorld</div><div class="ttdef"><b>Definition:</b> World.h:458</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aaa36b5a9223c7521e1b2a222fce77d79" name="aaa36b5a9223c7521e1b2a222fce77d79"></a>
@@ -325,7 +399,24 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  428</span>{</div>
+<div class="line"><span class="lineno">  429</span>    <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(source);<span class="comment">//should never happen</span></div>
+<div class="line"><span class="lineno">  430</span>    <a class="code hl_typedef" href="../../d0/d99/_creature_text_mgr_8h.html#a4a74e5d0af63228e47e1f663570018ae">CreatureTextRepeatIds</a> ids;</div>
+<div class="line"><span class="lineno">  431</span> </div>
+<div class="line"><span class="lineno">  432</span>    CreatureTextRepeatMap::const_iterator mapItr = <a class="code hl_variable" href="../../d1/d5d/class_creature_text_mgr.html#a880bb1943637b9e867ff3633c9d7390f">mTextRepeatMap</a>.find(source-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>());</div>
+<div class="line"><span class="lineno">  433</span>    <span class="keywordflow">if</span> (mapItr != <a class="code hl_variable" href="../../d1/d5d/class_creature_text_mgr.html#a880bb1943637b9e867ff3633c9d7390f">mTextRepeatMap</a>.end())</div>
+<div class="line"><span class="lineno">  434</span>    {</div>
+<div class="line"><span class="lineno">  435</span>        CreatureTextRepeatGroup::const_iterator groupItr = (*mapItr).second.find(textGroup);</div>
+<div class="line"><span class="lineno">  436</span>        <span class="keywordflow">if</span> (groupItr != mapItr-&gt;second.end())</div>
+<div class="line"><span class="lineno">  437</span>            ids = groupItr-&gt;second;</div>
+<div class="line"><span class="lineno">  438</span>    }</div>
+<div class="line"><span class="lineno">  439</span>    <span class="keywordflow">return</span> ids;</div>
+<div class="line"><span class="lineno">  440</span>}</div>
+<div class="ttc" id="a_creature_text_mgr_8h_html_a4a74e5d0af63228e47e1f663570018ae"><div class="ttname"><a href="../../d0/d99/_creature_text_mgr_8h.html#a4a74e5d0af63228e47e1f663570018ae">CreatureTextRepeatIds</a></div><div class="ttdeci">std::vector&lt; uint8 &gt; CreatureTextRepeatIds</div><div class="ttdef"><b>Definition:</b> CreatureTextMgr.h:81</div></div>
+<div class="ttc" id="a_errors_8h_html_af343b20373ba49a92fce523e948f2ab3"><div class="ttname"><a href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a></div><div class="ttdeci">#define ASSERT</div><div class="ttdef"><b>Definition:</b> Errors.h:68</div></div>
+<div class="ttc" id="aclass_creature_text_mgr_html_a880bb1943637b9e867ff3633c9d7390f"><div class="ttname"><a href="../../d1/d5d/class_creature_text_mgr.html#a880bb1943637b9e867ff3633c9d7390f">CreatureTextMgr::mTextRepeatMap</a></div><div class="ttdeci">CreatureTextRepeatMap mTextRepeatMap</div><div class="ttdef"><b>Definition:</b> CreatureTextMgr.h:115</div></div>
+<div class="ttc" id="aclass_object_html_ad23b997e2442fa6a6228ba73a7ecc138"><div class="ttname"><a href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">Object::GetGUID</a></div><div class="ttdeci">static ObjectGuid GetGUID(Object const *o)</div><div class="ttdef"><b>Definition:</b> Object.h:106</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a5237341864a3082126bed703d68312b2" name="a5237341864a3082126bed703d68312b2"></a>
@@ -350,7 +441,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   95</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d1/d5d/class_creature_text_mgr.html#ad25faab453d0f5d6270797eeeb5e2e40">mTextMap</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a92acbdab30a8942859e01526144b9989" name="a92acbdab30a8942859e01526144b9989"></a>
@@ -375,7 +467,13 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   77</span>{</div>
+<div class="line"><span class="lineno">   78</span>    <span class="keyword">static</span> <a class="code hl_class" href="../../d1/d5d/class_creature_text_mgr.html">CreatureTextMgr</a> <a class="code hl_function" href="../../d1/d5d/class_creature_text_mgr.html#a92acbdab30a8942859e01526144b9989">instance</a>;</div>
+<div class="line"><span class="lineno">   79</span>    <span class="keywordflow">return</span> &amp;<a class="code hl_function" href="../../d1/d5d/class_creature_text_mgr.html#a92acbdab30a8942859e01526144b9989">instance</a>;</div>
+<div class="line"><span class="lineno">   80</span>}</div>
+<div class="ttc" id="aclass_creature_text_mgr_html"><div class="ttname"><a href="../../d1/d5d/class_creature_text_mgr.html">CreatureTextMgr</a></div><div class="ttdef"><b>Definition:</b> CreatureTextMgr.h:86</div></div>
+<div class="ttc" id="aclass_creature_text_mgr_html_a92acbdab30a8942859e01526144b9989"><div class="ttname"><a href="../../d1/d5d/class_creature_text_mgr.html#a92acbdab30a8942859e01526144b9989">CreatureTextMgr::instance</a></div><div class="ttdeci">static CreatureTextMgr * instance()</div><div class="ttdef"><b>Definition:</b> CreatureTextMgr.cpp:76</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a826a3cd2e991c358a98fced5512297dd" name="a826a3cd2e991c358a98fced5512297dd"></a>
@@ -392,7 +490,50 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  170</span>{</div>
+<div class="line"><span class="lineno">  171</span>    <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> oldMSTime = <a class="code hl_function" href="../../d5/d29/_timer_8h.html#a4476c8e13ea790c3536f2749105f9cb9">getMSTime</a>();</div>
+<div class="line"><span class="lineno">  172</span> </div>
+<div class="line"><span class="lineno">  173</span>    <a class="code hl_variable" href="../../d1/d5d/class_creature_text_mgr.html#a12ecf289ef6d78691b6ab23f3cdd9fd8">mLocaleTextMap</a>.clear(); <span class="comment">// for reload case</span></div>
+<div class="line"><span class="lineno">  174</span> </div>
+<div class="line"><span class="lineno">  175</span>    <a class="code hl_typedef" href="../../db/d04/_database_env_fwd_8h.html#ab0c9feeec448a181290fcb39565b8253">QueryResult</a> result = <a class="code hl_variable" href="../../d6/d2e/_database_env_8cpp.html#afa9a6509f9913c9c7dd3081523badd7c">WorldDatabase</a>.Query(<span class="stringliteral">&quot;SELECT CreatureId, GroupId, ID, Locale, Text FROM creature_text_locale&quot;</span>);</div>
+<div class="line"><span class="lineno">  176</span> </div>
+<div class="line"><span class="lineno">  177</span>    <span class="keywordflow">if</span> (!result)</div>
+<div class="line"><span class="lineno">  178</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  179</span> </div>
+<div class="line"><span class="lineno">  180</span>    <span class="keywordflow">do</span></div>
+<div class="line"><span class="lineno">  181</span>    {</div>
+<div class="line"><span class="lineno">  182</span>        <a class="code hl_class" href="../../dc/d67/class_field.html">Field</a>* fields = result-&gt;Fetch();</div>
+<div class="line"><span class="lineno">  183</span> </div>
+<div class="line"><span class="lineno">  184</span>        <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> CreatureId           = fields[0].<a class="code hl_function" href="../../dc/d67/class_field.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&gt;();</div>
+<div class="line"><span class="lineno">  185</span>        <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> GroupId              = fields[1].<a class="code hl_function" href="../../dc/d67/class_field.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&gt;();</div>
+<div class="line"><span class="lineno">  186</span>        <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> ID                   = fields[2].<a class="code hl_function" href="../../dc/d67/class_field.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&gt;();</div>
+<div class="line"><span class="lineno">  187</span> </div>
+<div class="line"><span class="lineno">  188</span>        <a class="code hl_enumeration" href="../../db/d1f/_common_8h.html#a54c9b637be7283ba1a04fb5215594332">LocaleConstant</a> locale = <a class="code hl_function" href="../../db/d05/_common_8cpp.html#a8051d28826d995169bd4ce60310d5d65">GetLocaleByName</a>(fields[3].Get&lt;std::string&gt;());</div>
+<div class="line"><span class="lineno">  189</span>        <span class="keywordflow">if</span> (locale == <a class="code hl_enumvalue" href="../../db/d1f/_common_8h.html#a54c9b637be7283ba1a04fb5215594332ac07b7e8b5def3b0907685ac6c3566de3">LOCALE_enUS</a>)</div>
+<div class="line"><span class="lineno">  190</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  191</span> </div>
+<div class="line"><span class="lineno">  192</span>        <a class="code hl_struct" href="../../d3/d20/struct_creature_text_locale.html">CreatureTextLocale</a>&amp; data = <a class="code hl_variable" href="../../d1/d5d/class_creature_text_mgr.html#a12ecf289ef6d78691b6ab23f3cdd9fd8">mLocaleTextMap</a>[<a class="code hl_struct" href="../../d5/dcc/struct_creature_text_id.html">CreatureTextId</a>(CreatureId, GroupId, ID)];</div>
+<div class="line"><span class="lineno">  193</span>        <a class="code hl_function" href="../../d5/dbd/class_object_mgr.html#a42c5089b52f7d95968276277d8a00fd8">ObjectMgr::AddLocaleString</a>(fields[4].Get&lt;std::string&gt;(), locale, data.<a class="code hl_variable" href="../../d3/d20/struct_creature_text_locale.html#ab4b16957cc9e845b0f763b4241ba5c89">Text</a>);</div>
+<div class="line"><span class="lineno">  194</span>    } <span class="keywordflow">while</span> (result-&gt;NextRow());</div>
+<div class="line"><span class="lineno">  195</span> </div>
+<div class="line"><span class="lineno">  196</span>    <a class="code hl_define" href="../../da/df4/_log_8h.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt;&gt; Loaded {} Creature Text Locale in {} ms&quot;</span>, <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(<a class="code hl_variable" href="../../d1/d5d/class_creature_text_mgr.html#a12ecf289ef6d78691b6ab23f3cdd9fd8">mLocaleTextMap</a>.size()), <a class="code hl_function" href="../../d5/d29/_timer_8h.html#a23a2c8663a05f2b03a6f85501972e8c0">GetMSTimeDiffToNow</a>(oldMSTime));</div>
+<div class="line"><span class="lineno">  197</span>    <a class="code hl_define" href="../../da/df4/_log_8h.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><span class="lineno">  198</span>}</div>
+<div class="ttc" id="a_common_8cpp_html_a8051d28826d995169bd4ce60310d5d65"><div class="ttname"><a href="../../db/d05/_common_8cpp.html#a8051d28826d995169bd4ce60310d5d65">GetLocaleByName</a></div><div class="ttdeci">LocaleConstant GetLocaleByName(const std::string &amp;name)</div><div class="ttdef"><b>Definition:</b> Common.cpp:33</div></div>
+<div class="ttc" id="a_common_8h_html_a54c9b637be7283ba1a04fb5215594332"><div class="ttname"><a href="../../db/d1f/_common_8h.html#a54c9b637be7283ba1a04fb5215594332">LocaleConstant</a></div><div class="ttdeci">LocaleConstant</div><div class="ttdef"><b>Definition:</b> Common.h:74</div></div>
+<div class="ttc" id="a_common_8h_html_a54c9b637be7283ba1a04fb5215594332ac07b7e8b5def3b0907685ac6c3566de3"><div class="ttname"><a href="../../db/d1f/_common_8h.html#a54c9b637be7283ba1a04fb5215594332ac07b7e8b5def3b0907685ac6c3566de3">LOCALE_enUS</a></div><div class="ttdeci">@ LOCALE_enUS</div><div class="ttdef"><b>Definition:</b> Common.h:75</div></div>
+<div class="ttc" id="a_database_env_8cpp_html_afa9a6509f9913c9c7dd3081523badd7c"><div class="ttname"><a href="../../d6/d2e/_database_env_8cpp.html#afa9a6509f9913c9c7dd3081523badd7c">WorldDatabase</a></div><div class="ttdeci">DatabaseWorkerPool&lt; WorldDatabaseConnection &gt; WorldDatabase</div><div class="ttdoc">Accessor to the world database.</div><div class="ttdef"><b>Definition:</b> DatabaseEnv.cpp:20</div></div>
+<div class="ttc" id="a_database_env_fwd_8h_html_ab0c9feeec448a181290fcb39565b8253"><div class="ttname"><a href="../../db/d04/_database_env_fwd_8h.html#ab0c9feeec448a181290fcb39565b8253">QueryResult</a></div><div class="ttdeci">std::shared_ptr&lt; ResultSet &gt; QueryResult</div><div class="ttdef"><b>Definition:</b> DatabaseEnvFwd.h:28</div></div>
+<div class="ttc" id="a_define_8h_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:110</div></div>
+<div class="ttc" id="a_log_8h_html_a271e427d8e8481efd5cd5f537ec9e419"><div class="ttname"><a href="../../da/df4/_log_8h.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a></div><div class="ttdeci">#define LOG_INFO(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:167</div></div>
+<div class="ttc" id="a_timer_8h_html_a23a2c8663a05f2b03a6f85501972e8c0"><div class="ttname"><a href="../../d5/d29/_timer_8h.html#a23a2c8663a05f2b03a6f85501972e8c0">GetMSTimeDiffToNow</a></div><div class="ttdeci">uint32 GetMSTimeDiffToNow(uint32 oldMSTime)</div><div class="ttdef"><b>Definition:</b> Timer.h:131</div></div>
+<div class="ttc" id="a_timer_8h_html_a4476c8e13ea790c3536f2749105f9cb9"><div class="ttname"><a href="../../d5/d29/_timer_8h.html#a4476c8e13ea790c3536f2749105f9cb9">getMSTime</a></div><div class="ttdeci">uint32 getMSTime()</div><div class="ttdef"><b>Definition:</b> Timer.h:103</div></div>
+<div class="ttc" id="aclass_field_html"><div class="ttname"><a href="../../dc/d67/class_field.html">Field</a></div><div class="ttdoc">Class used to access individual fields of database query result.</div><div class="ttdef"><b>Definition:</b> Field.h:99</div></div>
+<div class="ttc" id="aclass_field_html_aae507d21d3570ffdaf1643ba02946f01"><div class="ttname"><a href="../../dc/d67/class_field.html#aae507d21d3570ffdaf1643ba02946f01">Field::Get</a></div><div class="ttdeci">std::enable_if_t&lt; std::is_arithmetic_v&lt; T &gt;, T &gt; Get() const</div><div class="ttdef"><b>Definition:</b> Field.h:113</div></div>
+<div class="ttc" id="aclass_object_mgr_html_a42c5089b52f7d95968276277d8a00fd8"><div class="ttname"><a href="../../d5/dbd/class_object_mgr.html#a42c5089b52f7d95968276277d8a00fd8">ObjectMgr::AddLocaleString</a></div><div class="ttdeci">static void AddLocaleString(std::string &amp;&amp;s, LocaleConstant locale, std::vector&lt; std::string &gt; &amp;data)</div><div class="ttdef"><b>Definition:</b> ObjectMgr.cpp:380</div></div>
+<div class="ttc" id="astruct_creature_text_locale_html"><div class="ttname"><a href="../../d3/d20/struct_creature_text_locale.html">CreatureTextLocale</a></div><div class="ttdef"><b>Definition:</b> CreatureTextMgr.h:54</div></div>
+<div class="ttc" id="astruct_creature_text_locale_html_ab4b16957cc9e845b0f763b4241ba5c89"><div class="ttname"><a href="../../d3/d20/struct_creature_text_locale.html#ab4b16957cc9e845b0f763b4241ba5c89">CreatureTextLocale::Text</a></div><div class="ttdeci">std::vector&lt; std::string &gt; Text</div><div class="ttdef"><b>Definition:</b> CreatureTextMgr.h:55</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a129039b5a7d2de067656cd6e47de43dd" name="a129039b5a7d2de067656cd6e47de43dd"></a>
@@ -409,7 +550,123 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   83</span>{</div>
+<div class="line"><span class="lineno">   84</span>    <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> oldMSTime = <a class="code hl_function" href="../../d5/d29/_timer_8h.html#a4476c8e13ea790c3536f2749105f9cb9">getMSTime</a>();</div>
+<div class="line"><span class="lineno">   85</span> </div>
+<div class="line"><span class="lineno">   86</span>    <a class="code hl_variable" href="../../d1/d5d/class_creature_text_mgr.html#ad25faab453d0f5d6270797eeeb5e2e40">mTextMap</a>.clear(); <span class="comment">// for reload case</span></div>
+<div class="line"><span class="lineno">   87</span>    <a class="code hl_variable" href="../../d1/d5d/class_creature_text_mgr.html#a880bb1943637b9e867ff3633c9d7390f">mTextRepeatMap</a>.clear(); <span class="comment">//reset all currently used temp texts</span></div>
+<div class="line"><span class="lineno">   88</span> </div>
+<div class="line"><span class="lineno">   89</span>    <a class="code hl_class" href="../../da/d37/class_prepared_statement.html">WorldDatabasePreparedStatement</a>* stmt = <a class="code hl_variable" href="../../d6/d2e/_database_env_8cpp.html#afa9a6509f9913c9c7dd3081523badd7c">WorldDatabase</a>.GetPreparedStatement(<a class="code hl_enumvalue" href="../../d5/dee/_world_database_8h.html#a736c0fca3c789518de967ddf4d44fc32ac50590e591cfa8652067dd7c423826df">WORLD_SEL_CREATURE_TEXT</a>);</div>
+<div class="line"><span class="lineno">   90</span>    <a class="code hl_typedef" href="../../db/d04/_database_env_fwd_8h.html#ac6110b8d867b5f84f677555d07037acb">PreparedQueryResult</a> result = <a class="code hl_variable" href="../../d6/d2e/_database_env_8cpp.html#afa9a6509f9913c9c7dd3081523badd7c">WorldDatabase</a>.Query(stmt);</div>
+<div class="line"><span class="lineno">   91</span> </div>
+<div class="line"><span class="lineno">   92</span>    <span class="keywordflow">if</span> (!result)</div>
+<div class="line"><span class="lineno">   93</span>    {</div>
+<div class="line"><span class="lineno">   94</span>        <a class="code hl_define" href="../../da/df4/_log_8h.html#adf09840a666e1d86bcd3439105db6edc">LOG_WARN</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt;&gt; Loaded 0 ceature texts. DB table `creature_texts` is empty.&quot;</span>);</div>
+<div class="line"><span class="lineno">   95</span>        <a class="code hl_define" href="../../da/df4/_log_8h.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><span class="lineno">   96</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   97</span>    }</div>
+<div class="line"><span class="lineno">   98</span> </div>
+<div class="line"><span class="lineno">   99</span>    <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> textCount = 0;</div>
+<div class="line"><span class="lineno">  100</span> </div>
+<div class="line"><span class="lineno">  101</span>    <span class="keywordflow">do</span></div>
+<div class="line"><span class="lineno">  102</span>    {</div>
+<div class="line"><span class="lineno">  103</span>        <a class="code hl_class" href="../../dc/d67/class_field.html">Field</a>* fields = result-&gt;Fetch();</div>
+<div class="line"><span class="lineno">  104</span>        <a class="code hl_struct" href="../../d0/d98/struct_creature_text_entry.html">CreatureTextEntry</a> temp;</div>
+<div class="line"><span class="lineno">  105</span> </div>
+<div class="line"><span class="lineno">  106</span>        temp.<a class="code hl_variable" href="../../d0/d98/struct_creature_text_entry.html#a3d1c888b73edee2474004de9d8714903">entry</a>           = fields[0].<a class="code hl_function" href="../../dc/d67/class_field.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&gt;();</div>
+<div class="line"><span class="lineno">  107</span>        temp.<a class="code hl_variable" href="../../d0/d98/struct_creature_text_entry.html#ae2161d1dc874efacd0131baa74b4e44a">group</a>           = fields[1].<a class="code hl_function" href="../../dc/d67/class_field.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&gt;();</div>
+<div class="line"><span class="lineno">  108</span>        temp.<a class="code hl_variable" href="../../d0/d98/struct_creature_text_entry.html#ab80181d53770a2f64bd6898498b3e76e">id</a>              = fields[2].<a class="code hl_function" href="../../dc/d67/class_field.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&gt;();</div>
+<div class="line"><span class="lineno">  109</span>        temp.<a class="code hl_variable" href="../../d0/d98/struct_creature_text_entry.html#a82b3db36b60a343d340677e8df6c7925">text</a>            = fields[3].<a class="code hl_function" href="../../dc/d67/class_field.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;std::string&gt;();</div>
+<div class="line"><span class="lineno">  110</span>        temp.<a class="code hl_variable" href="../../d0/d98/struct_creature_text_entry.html#a5675f6bcf159e1da503029771557e2a6">type</a>            = <a class="code hl_enumeration" href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16">ChatMsg</a>(fields[4].Get&lt;uint8&gt;());</div>
+<div class="line"><span class="lineno">  111</span>        temp.<a class="code hl_variable" href="../../d0/d98/struct_creature_text_entry.html#a8405ab49781ba0cbcd8680ff6715b675">lang</a>            = <a class="code hl_enumeration" href="../../df/d0b/_shared_defines_8h.html#a315ca917ad583797f709ea477dd28705">Language</a>(fields[5].Get&lt;uint8&gt;());</div>
+<div class="line"><span class="lineno">  112</span>        temp.<a class="code hl_variable" href="../../d0/d98/struct_creature_text_entry.html#a9bec9c2053f2efbac076831d4e928045">probability</a>     = fields[6].<a class="code hl_function" href="../../dc/d67/class_field.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;<span class="keywordtype">float</span>&gt;();</div>
+<div class="line"><span class="lineno">  113</span>        temp.<a class="code hl_variable" href="../../d0/d98/struct_creature_text_entry.html#aad433a0bc12717103936e6f89b5b31ea">emote</a>           = <a class="code hl_enumeration" href="../../df/d0b/_shared_defines_8h.html#a0e527855c554e31654c9beb340145574">Emote</a>(fields[7].Get&lt;uint32&gt;());</div>
+<div class="line"><span class="lineno">  114</span>        temp.<a class="code hl_variable" href="../../d0/d98/struct_creature_text_entry.html#a00b6d7cbf9ff377d30cd9e6cfab084b7">duration</a>        = fields[8].<a class="code hl_function" href="../../dc/d67/class_field.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&gt;();</div>
+<div class="line"><span class="lineno">  115</span>        temp.<a class="code hl_variable" href="../../d0/d98/struct_creature_text_entry.html#af312efff61026445caeb4be4b52c4e66">sound</a>           = fields[9].<a class="code hl_function" href="../../dc/d67/class_field.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&gt;();</div>
+<div class="line"><span class="lineno">  116</span>        temp.<a class="code hl_variable" href="../../d0/d98/struct_creature_text_entry.html#a12ff00d59ce642d3c27978e919f6ca17">BroadcastTextId</a> = fields[10].<a class="code hl_function" href="../../dc/d67/class_field.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&gt;();</div>
+<div class="line"><span class="lineno">  117</span>        temp.<a class="code hl_variable" href="../../d0/d98/struct_creature_text_entry.html#a2bb58a07abc9eb7ffeb4db131de03924">TextRange</a>       = <a class="code hl_enumeration" href="../../d0/d99/_creature_text_mgr_8h.html#adf847039afbebeda9e21210c1f4eb052">CreatureTextRange</a>(fields[11].Get&lt;uint8&gt;());</div>
+<div class="line"><span class="lineno">  118</span> </div>
+<div class="line"><span class="lineno">  119</span>        <span class="keywordflow">if</span> (temp.<a class="code hl_variable" href="../../d0/d98/struct_creature_text_entry.html#af312efff61026445caeb4be4b52c4e66">sound</a>)</div>
+<div class="line"><span class="lineno">  120</span>        {</div>
+<div class="line"><span class="lineno">  121</span>            <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../dd/d17/_d_b_c_stores_8cpp.html#a90cc67b85dd55c6764bdf3abe8cba7b0">sSoundEntriesStore</a>.LookupEntry(temp.<a class="code hl_variable" href="../../d0/d98/struct_creature_text_entry.html#af312efff61026445caeb4be4b52c4e66">sound</a>))</div>
+<div class="line"><span class="lineno">  122</span>            {</div>
+<div class="line"><span class="lineno">  123</span>                <a class="code hl_define" href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;sql.sql&quot;</span>, <span class="stringliteral">&quot;CreatureTextMgr: Entry {}, Group {} in table `creature_texts` has Sound {} but sound does not exist.&quot;</span>, temp.<a class="code hl_variable" href="../../d0/d98/struct_creature_text_entry.html#a3d1c888b73edee2474004de9d8714903">entry</a>, temp.<a class="code hl_variable" href="../../d0/d98/struct_creature_text_entry.html#ae2161d1dc874efacd0131baa74b4e44a">group</a>, temp.<a class="code hl_variable" href="../../d0/d98/struct_creature_text_entry.html#af312efff61026445caeb4be4b52c4e66">sound</a>);</div>
+<div class="line"><span class="lineno">  124</span>                temp.<a class="code hl_variable" href="../../d0/d98/struct_creature_text_entry.html#af312efff61026445caeb4be4b52c4e66">sound</a> = 0;</div>
+<div class="line"><span class="lineno">  125</span>            }</div>
+<div class="line"><span class="lineno">  126</span>        }</div>
+<div class="line"><span class="lineno">  127</span>        <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../df/d62/_object_mgr_8cpp.html#a5e723b66ad85198f3b0625903f5edac6">GetLanguageDescByID</a>(temp.<a class="code hl_variable" href="../../d0/d98/struct_creature_text_entry.html#a8405ab49781ba0cbcd8680ff6715b675">lang</a>))</div>
+<div class="line"><span class="lineno">  128</span>        {</div>
+<div class="line"><span class="lineno">  129</span>            <a class="code hl_define" href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;sql.sql&quot;</span>, <span class="stringliteral">&quot;CreatureTextMgr: Entry {}, Group {} in table `creature_texts` using Language {} but Language does not exist.&quot;</span>, temp.<a class="code hl_variable" href="../../d0/d98/struct_creature_text_entry.html#a3d1c888b73edee2474004de9d8714903">entry</a>, temp.<a class="code hl_variable" href="../../d0/d98/struct_creature_text_entry.html#ae2161d1dc874efacd0131baa74b4e44a">group</a>, <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(temp.<a class="code hl_variable" href="../../d0/d98/struct_creature_text_entry.html#a8405ab49781ba0cbcd8680ff6715b675">lang</a>));</div>
+<div class="line"><span class="lineno">  130</span>            temp.<a class="code hl_variable" href="../../d0/d98/struct_creature_text_entry.html#a8405ab49781ba0cbcd8680ff6715b675">lang</a> = <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a315ca917ad583797f709ea477dd28705a15adb0ab094ffe068674ecc6ea720d3a">LANG_UNIVERSAL</a>;</div>
+<div class="line"><span class="lineno">  131</span>        }</div>
+<div class="line"><span class="lineno">  132</span>        <span class="keywordflow">if</span> (temp.<a class="code hl_variable" href="../../d0/d98/struct_creature_text_entry.html#a5675f6bcf159e1da503029771557e2a6">type</a> &gt;= <a class="code hl_define" href="../../df/d0b/_shared_defines_8h.html#a5ee700eeb3fcc1390f2699f3c36d9607">MAX_CHAT_MSG_TYPE</a>)</div>
+<div class="line"><span class="lineno">  133</span>        {</div>
+<div class="line"><span class="lineno">  134</span>            <a class="code hl_define" href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;sql.sql&quot;</span>, <span class="stringliteral">&quot;CreatureTextMgr: Entry {}, Group {} in table `creature_texts` has Type {} but this Chat Type does not exist.&quot;</span>, temp.<a class="code hl_variable" href="../../d0/d98/struct_creature_text_entry.html#a3d1c888b73edee2474004de9d8714903">entry</a>, temp.<a class="code hl_variable" href="../../d0/d98/struct_creature_text_entry.html#ae2161d1dc874efacd0131baa74b4e44a">group</a>, <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(temp.<a class="code hl_variable" href="../../d0/d98/struct_creature_text_entry.html#a5675f6bcf159e1da503029771557e2a6">type</a>));</div>
+<div class="line"><span class="lineno">  135</span>            temp.<a class="code hl_variable" href="../../d0/d98/struct_creature_text_entry.html#a5675f6bcf159e1da503029771557e2a6">type</a> = <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16a28c3161b355228688af8d419d3db5ac7">CHAT_MSG_SAY</a>;</div>
+<div class="line"><span class="lineno">  136</span>        }</div>
+<div class="line"><span class="lineno">  137</span>        <span class="keywordflow">if</span> (temp.<a class="code hl_variable" href="../../d0/d98/struct_creature_text_entry.html#aad433a0bc12717103936e6f89b5b31ea">emote</a>)</div>
+<div class="line"><span class="lineno">  138</span>        {</div>
+<div class="line"><span class="lineno">  139</span>            <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../dd/d17/_d_b_c_stores_8cpp.html#af1e332a2f034094201c5bac37a9e4d1e">sEmotesStore</a>.LookupEntry(temp.<a class="code hl_variable" href="../../d0/d98/struct_creature_text_entry.html#aad433a0bc12717103936e6f89b5b31ea">emote</a>))</div>
+<div class="line"><span class="lineno">  140</span>            {</div>
+<div class="line"><span class="lineno">  141</span>                <a class="code hl_define" href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;sql.sql&quot;</span>, <span class="stringliteral">&quot;CreatureTextMgr: Entry {}, Group {} in table `creature_texts` has Emote {} but emote does not exist.&quot;</span>, temp.<a class="code hl_variable" href="../../d0/d98/struct_creature_text_entry.html#a3d1c888b73edee2474004de9d8714903">entry</a>, temp.<a class="code hl_variable" href="../../d0/d98/struct_creature_text_entry.html#ae2161d1dc874efacd0131baa74b4e44a">group</a>, <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(temp.<a class="code hl_variable" href="../../d0/d98/struct_creature_text_entry.html#aad433a0bc12717103936e6f89b5b31ea">emote</a>));</div>
+<div class="line"><span class="lineno">  142</span>                temp.<a class="code hl_variable" href="../../d0/d98/struct_creature_text_entry.html#aad433a0bc12717103936e6f89b5b31ea">emote</a> = <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0e527855c554e31654c9beb340145574acfb97941cf68852976f2505e5e1c56a7">EMOTE_ONESHOT_NONE</a>;</div>
+<div class="line"><span class="lineno">  143</span>            }</div>
+<div class="line"><span class="lineno">  144</span>        }</div>
+<div class="line"><span class="lineno">  145</span>        <span class="keywordflow">if</span> (temp.<a class="code hl_variable" href="../../d0/d98/struct_creature_text_entry.html#a12ff00d59ce642d3c27978e919f6ca17">BroadcastTextId</a>)</div>
+<div class="line"><span class="lineno">  146</span>        {</div>
+<div class="line"><span class="lineno">  147</span>            <span class="keywordflow">if</span> (!<a class="code hl_define" href="../../d9/d77/_object_mgr_8h.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetBroadcastText(temp.<a class="code hl_variable" href="../../d0/d98/struct_creature_text_entry.html#a12ff00d59ce642d3c27978e919f6ca17">BroadcastTextId</a>))</div>
+<div class="line"><span class="lineno">  148</span>            {</div>
+<div class="line"><span class="lineno">  149</span>                <a class="code hl_define" href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;sql.sql&quot;</span>, <span class="stringliteral">&quot;CreatureTextMgr: Entry {}, Group {}, Id {} in table `creature_text` has non-existing or incompatible BroadcastTextId {}.&quot;</span>, temp.<a class="code hl_variable" href="../../d0/d98/struct_creature_text_entry.html#a3d1c888b73edee2474004de9d8714903">entry</a>, temp.<a class="code hl_variable" href="../../d0/d98/struct_creature_text_entry.html#ae2161d1dc874efacd0131baa74b4e44a">group</a>, temp.<a class="code hl_variable" href="../../d0/d98/struct_creature_text_entry.html#ab80181d53770a2f64bd6898498b3e76e">id</a>, temp.<a class="code hl_variable" href="../../d0/d98/struct_creature_text_entry.html#a12ff00d59ce642d3c27978e919f6ca17">BroadcastTextId</a>);</div>
+<div class="line"><span class="lineno">  150</span>                temp.<a class="code hl_variable" href="../../d0/d98/struct_creature_text_entry.html#a12ff00d59ce642d3c27978e919f6ca17">BroadcastTextId</a> = 0;</div>
+<div class="line"><span class="lineno">  151</span>            }</div>
+<div class="line"><span class="lineno">  152</span>        }</div>
+<div class="line"><span class="lineno">  153</span>        <span class="keywordflow">if</span> (temp.<a class="code hl_variable" href="../../d0/d98/struct_creature_text_entry.html#a2bb58a07abc9eb7ffeb4db131de03924">TextRange</a> &gt; <a class="code hl_enumvalue" href="../../d0/d99/_creature_text_mgr_8h.html#adf847039afbebeda9e21210c1f4eb052a3a88078985d9e80a4543acf0acde52d9">TEXT_RANGE_WORLD</a>)</div>
+<div class="line"><span class="lineno">  154</span>        {</div>
+<div class="line"><span class="lineno">  155</span>            <a class="code hl_define" href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;sql.sql&quot;</span>, <span class="stringliteral">&quot;CreatureTextMgr: Entry {}, Group {}, Id {} in table `creature_text` has incorrect TextRange {}.&quot;</span>, temp.<a class="code hl_variable" href="../../d0/d98/struct_creature_text_entry.html#a3d1c888b73edee2474004de9d8714903">entry</a>, temp.<a class="code hl_variable" href="../../d0/d98/struct_creature_text_entry.html#ae2161d1dc874efacd0131baa74b4e44a">group</a>, temp.<a class="code hl_variable" href="../../d0/d98/struct_creature_text_entry.html#ab80181d53770a2f64bd6898498b3e76e">id</a>, temp.<a class="code hl_variable" href="../../d0/d98/struct_creature_text_entry.html#a2bb58a07abc9eb7ffeb4db131de03924">TextRange</a>);</div>
+<div class="line"><span class="lineno">  156</span>            temp.<a class="code hl_variable" href="../../d0/d98/struct_creature_text_entry.html#a2bb58a07abc9eb7ffeb4db131de03924">TextRange</a> = <a class="code hl_enumvalue" href="../../d0/d99/_creature_text_mgr_8h.html#adf847039afbebeda9e21210c1f4eb052a649e811a5e8853fa24088dbb708ce9ab">TEXT_RANGE_NORMAL</a>;</div>
+<div class="line"><span class="lineno">  157</span>        }</div>
+<div class="line"><span class="lineno">  158</span> </div>
+<div class="line"><span class="lineno">  159</span>        <span class="comment">//add the text into our entry&#39;s group</span></div>
+<div class="line"><span class="lineno">  160</span>        <a class="code hl_variable" href="../../d1/d5d/class_creature_text_mgr.html#ad25faab453d0f5d6270797eeeb5e2e40">mTextMap</a>[temp.<a class="code hl_variable" href="../../d0/d98/struct_creature_text_entry.html#a3d1c888b73edee2474004de9d8714903">entry</a>][temp.<a class="code hl_variable" href="../../d0/d98/struct_creature_text_entry.html#ae2161d1dc874efacd0131baa74b4e44a">group</a>].push_back(temp);</div>
+<div class="line"><span class="lineno">  161</span> </div>
+<div class="line"><span class="lineno">  162</span>        ++textCount;</div>
+<div class="line"><span class="lineno">  163</span>    } <span class="keywordflow">while</span> (result-&gt;NextRow());</div>
+<div class="line"><span class="lineno">  164</span> </div>
+<div class="line"><span class="lineno">  165</span>    <a class="code hl_define" href="../../da/df4/_log_8h.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt;&gt; Loaded {} Creature Texts For {} Creatures in {} ms&quot;</span>, textCount, <a class="code hl_variable" href="../../d1/d5d/class_creature_text_mgr.html#ad25faab453d0f5d6270797eeeb5e2e40">mTextMap</a>.size(), <a class="code hl_function" href="../../d5/d29/_timer_8h.html#a23a2c8663a05f2b03a6f85501972e8c0">GetMSTimeDiffToNow</a>(oldMSTime));</div>
+<div class="line"><span class="lineno">  166</span>    <a class="code hl_define" href="../../da/df4/_log_8h.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><span class="lineno">  167</span>}</div>
+<div class="ttc" id="a_creature_text_mgr_8h_html_adf847039afbebeda9e21210c1f4eb052"><div class="ttname"><a href="../../d0/d99/_creature_text_mgr_8h.html#adf847039afbebeda9e21210c1f4eb052">CreatureTextRange</a></div><div class="ttdeci">CreatureTextRange</div><div class="ttdef"><b>Definition:</b> CreatureTextMgr.h:29</div></div>
+<div class="ttc" id="a_creature_text_mgr_8h_html_adf847039afbebeda9e21210c1f4eb052a3a88078985d9e80a4543acf0acde52d9"><div class="ttname"><a href="../../d0/d99/_creature_text_mgr_8h.html#adf847039afbebeda9e21210c1f4eb052a3a88078985d9e80a4543acf0acde52d9">TEXT_RANGE_WORLD</a></div><div class="ttdeci">@ TEXT_RANGE_WORLD</div><div class="ttdef"><b>Definition:</b> CreatureTextMgr.h:34</div></div>
+<div class="ttc" id="a_creature_text_mgr_8h_html_adf847039afbebeda9e21210c1f4eb052a649e811a5e8853fa24088dbb708ce9ab"><div class="ttname"><a href="../../d0/d99/_creature_text_mgr_8h.html#adf847039afbebeda9e21210c1f4eb052a649e811a5e8853fa24088dbb708ce9ab">TEXT_RANGE_NORMAL</a></div><div class="ttdeci">@ TEXT_RANGE_NORMAL</div><div class="ttdef"><b>Definition:</b> CreatureTextMgr.h:30</div></div>
+<div class="ttc" id="a_d_b_c_stores_8cpp_html_a90cc67b85dd55c6764bdf3abe8cba7b0"><div class="ttname"><a href="../../dd/d17/_d_b_c_stores_8cpp.html#a90cc67b85dd55c6764bdf3abe8cba7b0">sSoundEntriesStore</a></div><div class="ttdeci">DBCStorage&lt; SoundEntriesEntry &gt; sSoundEntriesStore(SoundEntriesfmt)</div></div>
+<div class="ttc" id="a_d_b_c_stores_8cpp_html_af1e332a2f034094201c5bac37a9e4d1e"><div class="ttname"><a href="../../dd/d17/_d_b_c_stores_8cpp.html#af1e332a2f034094201c5bac37a9e4d1e">sEmotesStore</a></div><div class="ttdeci">DBCStorage&lt; EmotesEntry &gt; sEmotesStore(EmotesEntryfmt)</div></div>
+<div class="ttc" id="a_database_env_fwd_8h_html_ac6110b8d867b5f84f677555d07037acb"><div class="ttname"><a href="../../db/d04/_database_env_fwd_8h.html#ac6110b8d867b5f84f677555d07037acb">PreparedQueryResult</a></div><div class="ttdeci">std::shared_ptr&lt; PreparedResultSet &gt; PreparedQueryResult</div><div class="ttdef"><b>Definition:</b> DatabaseEnvFwd.h:46</div></div>
+<div class="ttc" id="a_log_8h_html_a43832e3fa8508deb4ce43e520005fcd9"><div class="ttname"><a href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a></div><div class="ttdeci">#define LOG_ERROR(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:159</div></div>
+<div class="ttc" id="a_log_8h_html_adf09840a666e1d86bcd3439105db6edc"><div class="ttname"><a href="../../da/df4/_log_8h.html#adf09840a666e1d86bcd3439105db6edc">LOG_WARN</a></div><div class="ttdeci">#define LOG_WARN(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:163</div></div>
+<div class="ttc" id="a_object_mgr_8cpp_html_a5e723b66ad85198f3b0625903f5edac6"><div class="ttname"><a href="../../df/d62/_object_mgr_8cpp.html#a5e723b66ad85198f3b0625903f5edac6">GetLanguageDescByID</a></div><div class="ttdeci">LanguageDesc const * GetLanguageDescByID(uint32 lang)</div><div class="ttdef"><b>Definition:</b> ObjectMgr.cpp:251</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a0e527855c554e31654c9beb340145574"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0e527855c554e31654c9beb340145574">Emote</a></div><div class="ttdeci">Emote</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1865</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a0e527855c554e31654c9beb340145574acfb97941cf68852976f2505e5e1c56a7"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0e527855c554e31654c9beb340145574acfb97941cf68852976f2505e5e1c56a7">EMOTE_ONESHOT_NONE</a></div><div class="ttdeci">@ EMOTE_ONESHOT_NONE</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1866</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a249e68b260c9857b5d0d4cf4697fae16"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16">ChatMsg</a></div><div class="ttdeci">ChatMsg</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3122</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a249e68b260c9857b5d0d4cf4697fae16a28c3161b355228688af8d419d3db5ac7"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16a28c3161b355228688af8d419d3db5ac7">CHAT_MSG_SAY</a></div><div class="ttdeci">@ CHAT_MSG_SAY</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3125</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a315ca917ad583797f709ea477dd28705"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a315ca917ad583797f709ea477dd28705">Language</a></div><div class="ttdeci">Language</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:706</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a315ca917ad583797f709ea477dd28705a15adb0ab094ffe068674ecc6ea720d3a"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a315ca917ad583797f709ea477dd28705a15adb0ab094ffe068674ecc6ea720d3a">LANG_UNIVERSAL</a></div><div class="ttdeci">@ LANG_UNIVERSAL</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:707</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a5ee700eeb3fcc1390f2699f3c36d9607"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a5ee700eeb3fcc1390f2699f3c36d9607">MAX_CHAT_MSG_TYPE</a></div><div class="ttdeci">#define MAX_CHAT_MSG_TYPE</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3178</div></div>
+<div class="ttc" id="a_world_database_8h_html_a736c0fca3c789518de967ddf4d44fc32ac50590e591cfa8652067dd7c423826df"><div class="ttname"><a href="../../d5/dee/_world_database_8h.html#a736c0fca3c789518de967ddf4d44fc32ac50590e591cfa8652067dd7c423826df">WORLD_SEL_CREATURE_TEXT</a></div><div class="ttdeci">@ WORLD_SEL_CREATURE_TEXT</div><div class="ttdef"><b>Definition:</b> WorldDatabase.h:34</div></div>
+<div class="ttc" id="aclass_prepared_statement_html"><div class="ttname"><a href="../../da/d37/class_prepared_statement.html">PreparedStatement</a></div><div class="ttdef"><b>Definition:</b> PreparedStatement.h:158</div></div>
+<div class="ttc" id="astruct_creature_text_entry_html"><div class="ttname"><a href="../../d0/d98/struct_creature_text_entry.html">CreatureTextEntry</a></div><div class="ttdef"><b>Definition:</b> CreatureTextMgr.h:38</div></div>
+<div class="ttc" id="astruct_creature_text_entry_html_a00b6d7cbf9ff377d30cd9e6cfab084b7"><div class="ttname"><a href="../../d0/d98/struct_creature_text_entry.html#a00b6d7cbf9ff377d30cd9e6cfab084b7">CreatureTextEntry::duration</a></div><div class="ttdeci">uint32 duration</div><div class="ttdef"><b>Definition:</b> CreatureTextMgr.h:47</div></div>
+<div class="ttc" id="astruct_creature_text_entry_html_a12ff00d59ce642d3c27978e919f6ca17"><div class="ttname"><a href="../../d0/d98/struct_creature_text_entry.html#a12ff00d59ce642d3c27978e919f6ca17">CreatureTextEntry::BroadcastTextId</a></div><div class="ttdeci">uint32 BroadcastTextId</div><div class="ttdef"><b>Definition:</b> CreatureTextMgr.h:50</div></div>
+<div class="ttc" id="astruct_creature_text_entry_html_a2bb58a07abc9eb7ffeb4db131de03924"><div class="ttname"><a href="../../d0/d98/struct_creature_text_entry.html#a2bb58a07abc9eb7ffeb4db131de03924">CreatureTextEntry::TextRange</a></div><div class="ttdeci">CreatureTextRange TextRange</div><div class="ttdef"><b>Definition:</b> CreatureTextMgr.h:49</div></div>
+<div class="ttc" id="astruct_creature_text_entry_html_a3d1c888b73edee2474004de9d8714903"><div class="ttname"><a href="../../d0/d98/struct_creature_text_entry.html#a3d1c888b73edee2474004de9d8714903">CreatureTextEntry::entry</a></div><div class="ttdeci">uint32 entry</div><div class="ttdef"><b>Definition:</b> CreatureTextMgr.h:39</div></div>
+<div class="ttc" id="astruct_creature_text_entry_html_a5675f6bcf159e1da503029771557e2a6"><div class="ttname"><a href="../../d0/d98/struct_creature_text_entry.html#a5675f6bcf159e1da503029771557e2a6">CreatureTextEntry::type</a></div><div class="ttdeci">ChatMsg type</div><div class="ttdef"><b>Definition:</b> CreatureTextMgr.h:43</div></div>
+<div class="ttc" id="astruct_creature_text_entry_html_a82b3db36b60a343d340677e8df6c7925"><div class="ttname"><a href="../../d0/d98/struct_creature_text_entry.html#a82b3db36b60a343d340677e8df6c7925">CreatureTextEntry::text</a></div><div class="ttdeci">std::string text</div><div class="ttdef"><b>Definition:</b> CreatureTextMgr.h:42</div></div>
+<div class="ttc" id="astruct_creature_text_entry_html_a8405ab49781ba0cbcd8680ff6715b675"><div class="ttname"><a href="../../d0/d98/struct_creature_text_entry.html#a8405ab49781ba0cbcd8680ff6715b675">CreatureTextEntry::lang</a></div><div class="ttdeci">Language lang</div><div class="ttdef"><b>Definition:</b> CreatureTextMgr.h:44</div></div>
+<div class="ttc" id="astruct_creature_text_entry_html_a9bec9c2053f2efbac076831d4e928045"><div class="ttname"><a href="../../d0/d98/struct_creature_text_entry.html#a9bec9c2053f2efbac076831d4e928045">CreatureTextEntry::probability</a></div><div class="ttdeci">float probability</div><div class="ttdef"><b>Definition:</b> CreatureTextMgr.h:45</div></div>
+<div class="ttc" id="astruct_creature_text_entry_html_aad433a0bc12717103936e6f89b5b31ea"><div class="ttname"><a href="../../d0/d98/struct_creature_text_entry.html#aad433a0bc12717103936e6f89b5b31ea">CreatureTextEntry::emote</a></div><div class="ttdeci">Emote emote</div><div class="ttdef"><b>Definition:</b> CreatureTextMgr.h:46</div></div>
+<div class="ttc" id="astruct_creature_text_entry_html_ab80181d53770a2f64bd6898498b3e76e"><div class="ttname"><a href="../../d0/d98/struct_creature_text_entry.html#ab80181d53770a2f64bd6898498b3e76e">CreatureTextEntry::id</a></div><div class="ttdeci">uint8 id</div><div class="ttdef"><b>Definition:</b> CreatureTextMgr.h:41</div></div>
+<div class="ttc" id="astruct_creature_text_entry_html_ae2161d1dc874efacd0131baa74b4e44a"><div class="ttname"><a href="../../d0/d98/struct_creature_text_entry.html#ae2161d1dc874efacd0131baa74b4e44a">CreatureTextEntry::group</a></div><div class="ttdeci">uint8 group</div><div class="ttdef"><b>Definition:</b> CreatureTextMgr.h:40</div></div>
+<div class="ttc" id="astruct_creature_text_entry_html_af312efff61026445caeb4be4b52c4e66"><div class="ttname"><a href="../../d0/d98/struct_creature_text_entry.html#af312efff61026445caeb4be4b52c4e66">CreatureTextEntry::sound</a></div><div class="ttdeci">uint32 sound</div><div class="ttdef"><b>Definition:</b> CreatureTextMgr.h:48</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a93c7fa546a0f41e7d59c6782aecee070" name="a93c7fa546a0f41e7d59c6782aecee070"></a>
@@ -485,7 +742,134 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  201</span>{</div>
+<div class="line"><span class="lineno">  202</span>    <span class="keywordflow">if</span> (!source)</div>
+<div class="line"><span class="lineno">  203</span>        <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">  204</span> </div>
+<div class="line"><span class="lineno">  205</span>    CreatureTextMap::const_iterator sList = <a class="code hl_variable" href="../../d1/d5d/class_creature_text_mgr.html#ad25faab453d0f5d6270797eeeb5e2e40">mTextMap</a>.find(source-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>());</div>
+<div class="line"><span class="lineno">  206</span>    <span class="keywordflow">if</span> (sList == <a class="code hl_variable" href="../../d1/d5d/class_creature_text_mgr.html#ad25faab453d0f5d6270797eeeb5e2e40">mTextMap</a>.end())</div>
+<div class="line"><span class="lineno">  207</span>    {</div>
+<div class="line"><span class="lineno">  208</span>        <a class="code hl_define" href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;sql.sql&quot;</span>, <span class="stringliteral">&quot;CreatureTextMgr: Could not find Text for Creature({}) Entry {} in &#39;creature_text&#39; table. Ignoring.&quot;</span>, source-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a7e67658eb5aa058bc7f46bf6b11a797c">GetName</a>(), source-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>());</div>
+<div class="line"><span class="lineno">  209</span>        <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">  210</span>    }</div>
+<div class="line"><span class="lineno">  211</span> </div>
+<div class="line"><span class="lineno">  212</span>    <a class="code hl_typedef" href="../../d0/d99/_creature_text_mgr_8h.html#aad09b58ddf486cb766cdeb242824cd2d">CreatureTextHolder</a> <span class="keyword">const</span>&amp; textHolder = sList-&gt;second;</div>
+<div class="line"><span class="lineno">  213</span>    CreatureTextHolder::const_iterator itr = textHolder.find(textGroup);</div>
+<div class="line"><span class="lineno">  214</span>    <span class="keywordflow">if</span> (itr == textHolder.end())</div>
+<div class="line"><span class="lineno">  215</span>    {</div>
+<div class="line"><span class="lineno">  216</span>        <a class="code hl_define" href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;sql.sql&quot;</span>, <span class="stringliteral">&quot;CreatureTextMgr: Could not find TextGroup {} for Creature {} ({}). Ignoring.&quot;</span>,</div>
+<div class="line"><span class="lineno">  217</span>            <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(textGroup), source-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a7e67658eb5aa058bc7f46bf6b11a797c">GetName</a>(), source-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>().<a class="code hl_function" href="../../d8/d03/class_object_guid.html#a78f5fb47e3b35addf8984000c175125b">ToString</a>());</div>
+<div class="line"><span class="lineno">  218</span>        <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">  219</span>    }</div>
+<div class="line"><span class="lineno">  220</span> </div>
+<div class="line"><span class="lineno">  221</span>    <a class="code hl_typedef" href="../../d0/d99/_creature_text_mgr_8h.html#a9baeb5ff5e542c90d9058942cf0b4bbd">CreatureTextGroup</a> <span class="keyword">const</span>&amp; textGroupContainer = itr-&gt;second;  <span class="comment">//has all texts in the group</span></div>
+<div class="line"><span class="lineno">  222</span>    <a class="code hl_typedef" href="../../d0/d99/_creature_text_mgr_8h.html#a4a74e5d0af63228e47e1f663570018ae">CreatureTextRepeatIds</a> repeatGroup = <a class="code hl_function" href="../../d1/d5d/class_creature_text_mgr.html#aaa36b5a9223c7521e1b2a222fce77d79">GetRepeatGroup</a>(source, textGroup);<span class="comment">//has all textIDs from the group that were already said</span></div>
+<div class="line"><span class="lineno">  223</span>    <a class="code hl_typedef" href="../../d0/d99/_creature_text_mgr_8h.html#a9baeb5ff5e542c90d9058942cf0b4bbd">CreatureTextGroup</a> tempGroup;<span class="comment">//will use this to talk after sorting repeatGroup</span></div>
+<div class="line"><span class="lineno">  224</span> </div>
+<div class="line"><span class="lineno">  225</span>    <span class="keywordflow">for</span> (CreatureTextGroup::const_iterator giter = textGroupContainer.begin(); giter != textGroupContainer.end(); ++giter)</div>
+<div class="line"><span class="lineno">  226</span>        <span class="keywordflow">if</span> (std::find(repeatGroup.begin(), repeatGroup.end(), giter-&gt;id) == repeatGroup.end())</div>
+<div class="line"><span class="lineno">  227</span>            tempGroup.push_back(*giter);</div>
+<div class="line"><span class="lineno">  228</span> </div>
+<div class="line"><span class="lineno">  229</span>    <span class="keywordflow">if</span> (tempGroup.empty())</div>
+<div class="line"><span class="lineno">  230</span>    {</div>
+<div class="line"><span class="lineno">  231</span>        CreatureTextRepeatMap::iterator mapItr = <a class="code hl_variable" href="../../d1/d5d/class_creature_text_mgr.html#a880bb1943637b9e867ff3633c9d7390f">mTextRepeatMap</a>.find(source-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>());</div>
+<div class="line"><span class="lineno">  232</span>        <span class="keywordflow">if</span> (mapItr != <a class="code hl_variable" href="../../d1/d5d/class_creature_text_mgr.html#a880bb1943637b9e867ff3633c9d7390f">mTextRepeatMap</a>.end())</div>
+<div class="line"><span class="lineno">  233</span>        {</div>
+<div class="line"><span class="lineno">  234</span>            CreatureTextRepeatGroup::iterator groupItr = mapItr-&gt;second.find(textGroup);</div>
+<div class="line"><span class="lineno">  235</span>            groupItr-&gt;second.clear();</div>
+<div class="line"><span class="lineno">  236</span>        }</div>
+<div class="line"><span class="lineno">  237</span> </div>
+<div class="line"><span class="lineno">  238</span>        tempGroup = textGroupContainer;</div>
+<div class="line"><span class="lineno">  239</span>    }</div>
+<div class="line"><span class="lineno">  240</span> </div>
+<div class="line"><span class="lineno">  241</span>    <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> count = 0;</div>
+<div class="line"><span class="lineno">  242</span>    <span class="keywordtype">float</span> lastChance = -1;</div>
+<div class="line"><span class="lineno">  243</span>    <span class="keywordtype">bool</span> isEqualChanced = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  244</span> </div>
+<div class="line"><span class="lineno">  245</span>    <span class="keywordtype">float</span> totalChance = 0;</div>
+<div class="line"><span class="lineno">  246</span> </div>
+<div class="line"><span class="lineno">  247</span>    <span class="keywordflow">for</span> (CreatureTextGroup::const_iterator iter = tempGroup.begin(); iter != tempGroup.end(); ++iter)</div>
+<div class="line"><span class="lineno">  248</span>    {</div>
+<div class="line"><span class="lineno">  249</span>        <span class="keywordflow">if</span> (lastChance &gt;= 0 &amp;&amp; lastChance != iter-&gt;probability)</div>
+<div class="line"><span class="lineno">  250</span>            isEqualChanced = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  251</span> </div>
+<div class="line"><span class="lineno">  252</span>        lastChance = iter-&gt;probability;</div>
+<div class="line"><span class="lineno">  253</span>        totalChance += iter-&gt;probability;</div>
+<div class="line"><span class="lineno">  254</span>        ++count;</div>
+<div class="line"><span class="lineno">  255</span>    }</div>
+<div class="line"><span class="lineno">  256</span> </div>
+<div class="line"><span class="lineno">  257</span>    <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> offset = -1;</div>
+<div class="line"><span class="lineno">  258</span>    <span class="keywordflow">if</span> (!isEqualChanced)</div>
+<div class="line"><span class="lineno">  259</span>    {</div>
+<div class="line"><span class="lineno">  260</span>        <span class="keywordflow">for</span> (CreatureTextGroup::const_iterator iter = tempGroup.begin(); iter != tempGroup.end(); ++iter)</div>
+<div class="line"><span class="lineno">  261</span>        {</div>
+<div class="line"><span class="lineno">  262</span>            <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> chance = <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(iter-&gt;probability);</div>
+<div class="line"><span class="lineno">  263</span>            <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> r = <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(0, 100);</div>
+<div class="line"><span class="lineno">  264</span>            ++offset;</div>
+<div class="line"><span class="lineno">  265</span>            <span class="keywordflow">if</span> (r &lt;= chance)</div>
+<div class="line"><span class="lineno">  266</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  267</span>        }</div>
+<div class="line"><span class="lineno">  268</span>    }</div>
+<div class="line"><span class="lineno">  269</span> </div>
+<div class="line"><span class="lineno">  270</span>    <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> pos = 0;</div>
+<div class="line"><span class="lineno">  271</span>    <span class="keywordflow">if</span> (isEqualChanced || offset &lt; 0)</div>
+<div class="line"><span class="lineno">  272</span>        pos = <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(0, count - 1);</div>
+<div class="line"><span class="lineno">  273</span>    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (offset &gt;= 0)</div>
+<div class="line"><span class="lineno">  274</span>        pos = offset;</div>
+<div class="line"><span class="lineno">  275</span> </div>
+<div class="line"><span class="lineno">  276</span>    CreatureTextGroup::const_iterator iter = tempGroup.begin() + pos;</div>
+<div class="line"><span class="lineno">  277</span> </div>
+<div class="line"><span class="lineno">  278</span>    <a class="code hl_enumeration" href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16">ChatMsg</a> finalType = (msgType == <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16ab5fa93973ae4d800ba9030a3cf15a7c1">CHAT_MSG_ADDON</a>) ? iter-&gt;type : msgType;</div>
+<div class="line"><span class="lineno">  279</span>    <a class="code hl_enumeration" href="../../df/d0b/_shared_defines_8h.html#a315ca917ad583797f709ea477dd28705">Language</a> finalLang = (language == <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a315ca917ad583797f709ea477dd28705aa85e31bb25e43732ec93feb7e5355e18">LANG_ADDON</a>) ? iter-&gt;lang : language;</div>
+<div class="line"><span class="lineno">  280</span>    <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> finalSound = sound ? sound : iter-&gt;sound;</div>
+<div class="line"><span class="lineno">  281</span> </div>
+<div class="line"><span class="lineno">  282</span>    <span class="keywordflow">if</span> (range == <a class="code hl_enumvalue" href="../../d0/d99/_creature_text_mgr_8h.html#adf847039afbebeda9e21210c1f4eb052a649e811a5e8853fa24088dbb708ce9ab">TEXT_RANGE_NORMAL</a>)</div>
+<div class="line"><span class="lineno">  283</span>        range = iter-&gt;TextRange;</div>
+<div class="line"><span class="lineno">  284</span> </div>
+<div class="line"><span class="lineno">  285</span>    <span class="keywordflow">if</span> (finalSound)</div>
+<div class="line"><span class="lineno">  286</span>        <a class="code hl_function" href="../../d1/d5d/class_creature_text_mgr.html#aa36b6dd5010eea049973122bec4fceb1">SendSound</a>(source, finalSound, finalType, target, range, teamId, gmOnly);</div>
+<div class="line"><span class="lineno">  287</span> </div>
+<div class="line"><span class="lineno">  288</span>    <a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* finalSource = source;</div>
+<div class="line"><span class="lineno">  289</span>    <span class="keywordflow">if</span> (srcPlr)</div>
+<div class="line"><span class="lineno">  290</span>        finalSource = srcPlr;</div>
+<div class="line"><span class="lineno">  291</span> </div>
+<div class="line"><span class="lineno">  292</span>    <span class="keywordflow">if</span> (iter-&gt;emote)</div>
+<div class="line"><span class="lineno">  293</span>        <a class="code hl_function" href="../../d1/d5d/class_creature_text_mgr.html#a8b9dc67f09242b5ade7405663ca52fda">SendEmote</a>(finalSource, iter-&gt;emote);</div>
+<div class="line"><span class="lineno">  294</span> </div>
+<div class="line"><span class="lineno">  295</span>    <span class="keywordflow">if</span> (srcPlr)</div>
+<div class="line"><span class="lineno">  296</span>    {</div>
+<div class="line"><span class="lineno">  297</span>        <a class="code hl_class" href="../../d6/d00/class_player_text_builder.html">PlayerTextBuilder</a> builder(source, finalSource, finalSource-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a0d13935c40d0392f7f7b5a34540461b2">getGender</a>(), finalType, iter-&gt;group, iter-&gt;id, finalLang, target);</div>
+<div class="line"><span class="lineno">  298</span>        <a class="code hl_function" href="../../d1/d5d/class_creature_text_mgr.html#a0b94720ae3ab22ba8bb961f26f47548b">SendChatPacket</a>(finalSource, builder, finalType, target, range, teamId, gmOnly);</div>
+<div class="line"><span class="lineno">  299</span>    }</div>
+<div class="line"><span class="lineno">  300</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  301</span>    {</div>
+<div class="line"><span class="lineno">  302</span>        <a class="code hl_class" href="../../dd/dba/class_creature_text_builder.html">CreatureTextBuilder</a> builder(finalSource, finalSource-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a0d13935c40d0392f7f7b5a34540461b2">getGender</a>(), finalType, iter-&gt;group, iter-&gt;id, finalLang, target);</div>
+<div class="line"><span class="lineno">  303</span>        <a class="code hl_function" href="../../d1/d5d/class_creature_text_mgr.html#a0b94720ae3ab22ba8bb961f26f47548b">SendChatPacket</a>(finalSource, builder, finalType, target, range, teamId, gmOnly);</div>
+<div class="line"><span class="lineno">  304</span>    }</div>
+<div class="line"><span class="lineno">  305</span>    <span class="keywordflow">if</span> (isEqualChanced || (!isEqualChanced &amp;&amp; totalChance == 100.0f))</div>
+<div class="line"><span class="lineno">  306</span>        <a class="code hl_function" href="../../d1/d5d/class_creature_text_mgr.html#a4f6c3e0cafcea242748d3ba65bb957f4">SetRepeatId</a>(source, textGroup, iter-&gt;id);</div>
+<div class="line"><span class="lineno">  307</span> </div>
+<div class="line"><span class="lineno">  308</span>    <span class="keywordflow">return</span> iter-&gt;duration;</div>
+<div class="line"><span class="lineno">  309</span>}</div>
+<div class="ttc" id="a_creature_text_mgr_8h_html_a9baeb5ff5e542c90d9058942cf0b4bbd"><div class="ttname"><a href="../../d0/d99/_creature_text_mgr_8h.html#a9baeb5ff5e542c90d9058942cf0b4bbd">CreatureTextGroup</a></div><div class="ttdeci">std::vector&lt; CreatureTextEntry &gt; CreatureTextGroup</div><div class="ttdef"><b>Definition:</b> CreatureTextMgr.h:74</div></div>
+<div class="ttc" id="a_creature_text_mgr_8h_html_aad09b58ddf486cb766cdeb242824cd2d"><div class="ttname"><a href="../../d0/d99/_creature_text_mgr_8h.html#aad09b58ddf486cb766cdeb242824cd2d">CreatureTextHolder</a></div><div class="ttdeci">std::unordered_map&lt; uint8, CreatureTextGroup &gt; CreatureTextHolder</div><div class="ttdef"><b>Definition:</b> CreatureTextMgr.h:75</div></div>
+<div class="ttc" id="a_define_8h_html_a0bf9964a3ce962c07ad3d8b5432bbbcd"><div class="ttname"><a href="../../db/d35/_define_8h.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a></div><div class="ttdeci">std::int32_t int32</div><div class="ttdef"><b>Definition:</b> Define.h:104</div></div>
+<div class="ttc" id="a_random_8cpp_html_ab17def34ccbbd868dc87a16bf35acdbd"><div class="ttname"><a href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a></div><div class="ttdeci">uint32 urand(uint32 min, uint32 max)</div><div class="ttdef"><b>Definition:</b> Random.cpp:44</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a249e68b260c9857b5d0d4cf4697fae16ab5fa93973ae4d800ba9030a3cf15a7c1"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16ab5fa93973ae4d800ba9030a3cf15a7c1">CHAT_MSG_ADDON</a></div><div class="ttdeci">@ CHAT_MSG_ADDON</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3123</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a315ca917ad583797f709ea477dd28705aa85e31bb25e43732ec93feb7e5355e18"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a315ca917ad583797f709ea477dd28705aa85e31bb25e43732ec93feb7e5355e18">LANG_ADDON</a></div><div class="ttdeci">@ LANG_ADDON</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:725</div></div>
+<div class="ttc" id="aclass_creature_text_builder_html"><div class="ttname"><a href="../../dd/dba/class_creature_text_builder.html">CreatureTextBuilder</a></div><div class="ttdef"><b>Definition:</b> CreatureTextMgr.cpp:30</div></div>
+<div class="ttc" id="aclass_creature_text_mgr_html_a0b94720ae3ab22ba8bb961f26f47548b"><div class="ttname"><a href="../../d1/d5d/class_creature_text_mgr.html#a0b94720ae3ab22ba8bb961f26f47548b">CreatureTextMgr::SendChatPacket</a></div><div class="ttdeci">void SendChatPacket(WorldObject *source, Builder const &amp;builder, ChatMsg msgType, WorldObject const *target=nullptr, CreatureTextRange range=TEXT_RANGE_NORMAL, TeamId teamId=TEAM_NEUTRAL, bool gmOnly=false) const</div><div class="ttdef"><b>Definition:</b> CreatureTextMgr.h:180</div></div>
+<div class="ttc" id="aclass_creature_text_mgr_html_a4f6c3e0cafcea242748d3ba65bb957f4"><div class="ttname"><a href="../../d1/d5d/class_creature_text_mgr.html#a4f6c3e0cafcea242748d3ba65bb957f4">CreatureTextMgr::SetRepeatId</a></div><div class="ttdeci">void SetRepeatId(Creature *source, uint8 textGroup, uint8 id)</div><div class="ttdef"><b>Definition:</b> CreatureTextMgr.cpp:414</div></div>
+<div class="ttc" id="aclass_creature_text_mgr_html_a8b9dc67f09242b5ade7405663ca52fda"><div class="ttname"><a href="../../d1/d5d/class_creature_text_mgr.html#a8b9dc67f09242b5ade7405663ca52fda">CreatureTextMgr::SendEmote</a></div><div class="ttdeci">void SendEmote(Unit *source, uint32 emote)</div><div class="ttdef"><b>Definition:</b> CreatureTextMgr.cpp:406</div></div>
+<div class="ttc" id="aclass_creature_text_mgr_html_aa36b6dd5010eea049973122bec4fceb1"><div class="ttname"><a href="../../d1/d5d/class_creature_text_mgr.html#aa36b6dd5010eea049973122bec4fceb1">CreatureTextMgr::SendSound</a></div><div class="ttdeci">void SendSound(Creature *source, uint32 sound, ChatMsg msgType, WorldObject const *target, CreatureTextRange range, TeamId teamId, bool gmOnly)</div><div class="ttdef"><b>Definition:</b> CreatureTextMgr.cpp:330</div></div>
+<div class="ttc" id="aclass_creature_text_mgr_html_aaa36b5a9223c7521e1b2a222fce77d79"><div class="ttname"><a href="../../d1/d5d/class_creature_text_mgr.html#aaa36b5a9223c7521e1b2a222fce77d79">CreatureTextMgr::GetRepeatGroup</a></div><div class="ttdeci">CreatureTextRepeatIds GetRepeatGroup(Creature *source, uint8 textGroup)</div><div class="ttdef"><b>Definition:</b> CreatureTextMgr.cpp:427</div></div>
+<div class="ttc" id="aclass_object_guid_html_a78f5fb47e3b35addf8984000c175125b"><div class="ttname"><a href="../../d8/d03/class_object_guid.html#a78f5fb47e3b35addf8984000c175125b">ObjectGuid::ToString</a></div><div class="ttdeci">std::string ToString() const</div><div class="ttdef"><b>Definition:</b> ObjectGuid.cpp:47</div></div>
+<div class="ttc" id="aclass_object_html_aa627fe2967ed0e0ed1d8aeeb4365a961"><div class="ttname"><a href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">Object::GetEntry</a></div><div class="ttdeci">uint32 GetEntry() const</div><div class="ttdef"><b>Definition:</b> Object.h:109</div></div>
+<div class="ttc" id="aclass_player_text_builder_html"><div class="ttname"><a href="../../d6/d00/class_player_text_builder.html">PlayerTextBuilder</a></div><div class="ttdef"><b>Definition:</b> CreatureTextMgr.cpp:53</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_a0d13935c40d0392f7f7b5a34540461b2"><div class="ttname"><a href="../../da/db7/class_unit.html#a0d13935c40d0392f7f7b5a34540461b2">Unit::getGender</a></div><div class="ttdeci">uint8 getGender() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1426</div></div>
+<div class="ttc" id="aclass_world_object_html_a7e67658eb5aa058bc7f46bf6b11a797c"><div class="ttname"><a href="../../db/df7/class_world_object.html#a7e67658eb5aa058bc7f46bf6b11a797c">WorldObject::GetName</a></div><div class="ttdeci">std::string const &amp; GetName() const</div><div class="ttdef"><b>Definition:</b> Object.h:446</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a0b94720ae3ab22ba8bb961f26f47548b" name="a0b94720ae3ab22ba8bb961f26f47548b"></a>
@@ -545,7 +929,104 @@ template&lt;class Builder &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  181</span>{</div>
+<div class="line"><span class="lineno">  182</span>    <span class="keywordflow">if</span> (!source)</div>
+<div class="line"><span class="lineno">  183</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  184</span> </div>
+<div class="line"><span class="lineno">  185</span>    <a class="code hl_class" href="../../d7/dd3/class_creature_text_localizer.html">CreatureTextLocalizer&lt;Builder&gt;</a> localizer(builder, msgType);</div>
+<div class="line"><span class="lineno">  186</span> </div>
+<div class="line"><span class="lineno">  187</span>    <span class="keywordflow">switch</span> (msgType)</div>
+<div class="line"><span class="lineno">  188</span>    {</div>
+<div class="line"><span class="lineno">  189</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16a1156d69b4214408b80dc93c321e717d8">CHAT_MSG_MONSTER_WHISPER</a>:</div>
+<div class="line"><span class="lineno">  190</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16a2aa825e5e35e3e6b5e2b9e1e519f322a">CHAT_MSG_RAID_BOSS_WHISPER</a>:</div>
+<div class="line"><span class="lineno">  191</span>            {</div>
+<div class="line"><span class="lineno">  192</span>                <span class="keywordflow">if</span> (range == <a class="code hl_enumvalue" href="../../d0/d99/_creature_text_mgr_8h.html#adf847039afbebeda9e21210c1f4eb052a649e811a5e8853fa24088dbb708ce9ab">TEXT_RANGE_NORMAL</a>) <span class="comment">//ignores team and gmOnly</span></div>
+<div class="line"><span class="lineno">  193</span>                {</div>
+<div class="line"><span class="lineno">  194</span>                    <span class="keywordflow">if</span> (!target || target-&gt;GetTypeId() != <a class="code hl_enumvalue" href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a>)</div>
+<div class="line"><span class="lineno">  195</span>                        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  196</span> </div>
+<div class="line"><span class="lineno">  197</span>                    localizer(<span class="keyword">const_cast&lt;</span><a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>*<span class="keyword">&gt;</span>(target-&gt;ToPlayer()));</div>
+<div class="line"><span class="lineno">  198</span>                    <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  199</span>                }</div>
+<div class="line"><span class="lineno">  200</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  201</span>            }</div>
+<div class="line"><span class="lineno">  202</span>        <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  203</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  204</span>    }</div>
+<div class="line"><span class="lineno">  205</span> </div>
+<div class="line"><span class="lineno">  206</span>    <span class="keywordflow">switch</span> (range)</div>
+<div class="line"><span class="lineno">  207</span>    {</div>
+<div class="line"><span class="lineno">  208</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d0/d99/_creature_text_mgr_8h.html#adf847039afbebeda9e21210c1f4eb052a1982e7a678f4ba541ea6ecbfec493385">TEXT_RANGE_AREA</a>:</div>
+<div class="line"><span class="lineno">  209</span>            {</div>
+<div class="line"><span class="lineno">  210</span>                <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> areaId = source-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#acdd585ef58eb876c506389ff96a4fbd9">GetAreaId</a>();</div>
+<div class="line"><span class="lineno">  211</span>                <a class="code hl_class" href="../../db/d87/class_map_ref_mgr.html">Map::PlayerList</a> <span class="keyword">const</span>&amp; players = source-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a1013c27be4347a1b1a4a986a07456deb">GetMap</a>()-&gt;<a class="code hl_function" href="../../dd/d11/class_map.html#ae37764185b1adf2c6438025e4fa9091a">GetPlayers</a>();</div>
+<div class="line"><span class="lineno">  212</span>                <span class="keywordflow">for</span> (<a class="code hl_class" href="../../db/dfe/class_linked_list_head_1_1_iterator.html">Map::PlayerList::const_iterator</a> itr = players.<a class="code hl_function" href="../../db/d87/class_map_ref_mgr.html#a6774b551f0d64628e33594c7b486a872">begin</a>(); itr != players.<a class="code hl_function" href="../../db/d87/class_map_ref_mgr.html#af488c0096775085791b5fbc89e5851a0">end</a>(); ++itr)</div>
+<div class="line"><span class="lineno">  213</span>                    <span class="keywordflow">if</span> (itr-&gt;GetSource()-&gt;GetAreaId() == areaId &amp;&amp; (teamId == <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a7513eda5ac39f7f649b82c80de7c324da1d009932a5dde84d818f627cfcfe3fe5">TEAM_NEUTRAL</a> || itr-&gt;GetSource()-&gt;GetTeamId() == teamId) &amp;&amp; (!gmOnly || itr-&gt;GetSource()-&gt;IsGameMaster()))</div>
+<div class="line"><span class="lineno">  214</span>                        localizer(itr-&gt;GetSource());</div>
+<div class="line"><span class="lineno">  215</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  216</span>            }</div>
+<div class="line"><span class="lineno">  217</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d0/d99/_creature_text_mgr_8h.html#adf847039afbebeda9e21210c1f4eb052a182bd5362916ba67bcf6660ce37fae0a">TEXT_RANGE_ZONE</a>:</div>
+<div class="line"><span class="lineno">  218</span>            {</div>
+<div class="line"><span class="lineno">  219</span>                <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> zoneId = source-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#ad498d690fbe69bb99a8a2ffdcb2f5169">GetZoneId</a>();</div>
+<div class="line"><span class="lineno">  220</span>                <a class="code hl_class" href="../../db/d87/class_map_ref_mgr.html">Map::PlayerList</a> <span class="keyword">const</span>&amp; players = source-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a1013c27be4347a1b1a4a986a07456deb">GetMap</a>()-&gt;<a class="code hl_function" href="../../dd/d11/class_map.html#ae37764185b1adf2c6438025e4fa9091a">GetPlayers</a>();</div>
+<div class="line"><span class="lineno">  221</span>                <span class="keywordflow">for</span> (<a class="code hl_class" href="../../db/dfe/class_linked_list_head_1_1_iterator.html">Map::PlayerList::const_iterator</a> itr = players.<a class="code hl_function" href="../../db/d87/class_map_ref_mgr.html#a6774b551f0d64628e33594c7b486a872">begin</a>(); itr != players.<a class="code hl_function" href="../../db/d87/class_map_ref_mgr.html#af488c0096775085791b5fbc89e5851a0">end</a>(); ++itr)</div>
+<div class="line"><span class="lineno">  222</span>                    <span class="keywordflow">if</span> (itr-&gt;GetSource()-&gt;GetZoneId() == zoneId &amp;&amp; (teamId == <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a7513eda5ac39f7f649b82c80de7c324da1d009932a5dde84d818f627cfcfe3fe5">TEAM_NEUTRAL</a> || itr-&gt;GetSource()-&gt;GetTeamId() == teamId) &amp;&amp; (!gmOnly || itr-&gt;GetSource()-&gt;IsGameMaster()))</div>
+<div class="line"><span class="lineno">  223</span>                        localizer(itr-&gt;GetSource());</div>
+<div class="line"><span class="lineno">  224</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  225</span>            }</div>
+<div class="line"><span class="lineno">  226</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d0/d99/_creature_text_mgr_8h.html#adf847039afbebeda9e21210c1f4eb052a90bf8cfe8ac6e4bac224bd3dd9fbc3a3">TEXT_RANGE_MAP</a>:</div>
+<div class="line"><span class="lineno">  227</span>            {</div>
+<div class="line"><span class="lineno">  228</span>                <a class="code hl_class" href="../../db/d87/class_map_ref_mgr.html">Map::PlayerList</a> <span class="keyword">const</span>&amp; players = source-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a1013c27be4347a1b1a4a986a07456deb">GetMap</a>()-&gt;<a class="code hl_function" href="../../dd/d11/class_map.html#ae37764185b1adf2c6438025e4fa9091a">GetPlayers</a>();</div>
+<div class="line"><span class="lineno">  229</span>                <span class="keywordflow">for</span> (<a class="code hl_class" href="../../db/dfe/class_linked_list_head_1_1_iterator.html">Map::PlayerList::const_iterator</a> itr = players.<a class="code hl_function" href="../../db/d87/class_map_ref_mgr.html#a6774b551f0d64628e33594c7b486a872">begin</a>(); itr != players.<a class="code hl_function" href="../../db/d87/class_map_ref_mgr.html#af488c0096775085791b5fbc89e5851a0">end</a>(); ++itr)</div>
+<div class="line"><span class="lineno">  230</span>                    <span class="keywordflow">if</span> ((teamId == <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a7513eda5ac39f7f649b82c80de7c324da1d009932a5dde84d818f627cfcfe3fe5">TEAM_NEUTRAL</a> || itr-&gt;GetSource()-&gt;GetTeamId() == teamId) &amp;&amp; (!gmOnly || itr-&gt;GetSource()-&gt;IsGameMaster()))</div>
+<div class="line"><span class="lineno">  231</span>                        localizer(itr-&gt;GetSource());</div>
+<div class="line"><span class="lineno">  232</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  233</span>            }</div>
+<div class="line"><span class="lineno">  234</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d0/d99/_creature_text_mgr_8h.html#adf847039afbebeda9e21210c1f4eb052a3a88078985d9e80a4543acf0acde52d9">TEXT_RANGE_WORLD</a>:</div>
+<div class="line"><span class="lineno">  235</span>            {</div>
+<div class="line"><span class="lineno">  236</span>                <a class="code hl_typedef" href="../../d2/d80/_i_world_8h.html#a24a95911e6375202b09db2333ec94fc1">SessionMap</a> <span class="keyword">const</span>&amp; smap = <a class="code hl_define" href="../../df/d17/group__world.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;GetAllSessions();</div>
+<div class="line"><span class="lineno">  237</span>                <span class="keywordflow">for</span> (SessionMap::const_iterator itr = smap.begin(); itr != smap.end(); ++itr)</div>
+<div class="line"><span class="lineno">  238</span>                    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* player = itr-&gt;second-&gt;GetPlayer())</div>
+<div class="line"><span class="lineno">  239</span>                        <span class="keywordflow">if</span> ((teamId == <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a7513eda5ac39f7f649b82c80de7c324da1d009932a5dde84d818f627cfcfe3fe5">TEAM_NEUTRAL</a> || player-&gt;GetTeamId() == teamId) &amp;&amp; (!gmOnly || player-&gt;IsGameMaster()))</div>
+<div class="line"><span class="lineno">  240</span>                            localizer(player);</div>
+<div class="line"><span class="lineno">  241</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  242</span>            }</div>
+<div class="line"><span class="lineno">  243</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d0/d99/_creature_text_mgr_8h.html#adf847039afbebeda9e21210c1f4eb052a649e811a5e8853fa24088dbb708ce9ab">TEXT_RANGE_NORMAL</a>:</div>
+<div class="line"><span class="lineno">  244</span>        <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  245</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  246</span>    }</div>
+<div class="line"><span class="lineno">  247</span> </div>
+<div class="line"><span class="lineno">  248</span>    <span class="keywordtype">float</span> dist = <a class="code hl_function" href="../../d1/d5d/class_creature_text_mgr.html#aeddebd7d3fcf604ee4d11b77ff87fd53">GetRangeForChatType</a>(msgType);</div>
+<div class="line"><span class="lineno">  249</span>    <span class="comment">// xinef: hack for boss emote</span></div>
+<div class="line"><span class="lineno">  250</span>    <span class="keywordflow">if</span> (msgType == <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16aa6fdb2aa1d66427c20c2013bead78cea">CHAT_MSG_RAID_BOSS_EMOTE</a> &amp;&amp; source-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a1013c27be4347a1b1a4a986a07456deb">GetMap</a>()-&gt;<a class="code hl_function" href="../../dd/d11/class_map.html#a0c80d50b012dc8d560e256201970f3b3">IsDungeon</a>())</div>
+<div class="line"><span class="lineno">  251</span>        dist = 250.0f;</div>
+<div class="line"><span class="lineno">  252</span> </div>
+<div class="line"><span class="lineno">  253</span>    <a class="code hl_struct" href="../../dc/d0c/struct_acore_1_1_player_dist_worker.html">Acore::PlayerDistWorker&lt;CreatureTextLocalizer&lt;Builder&gt;</a> &gt; worker(source, dist, localizer);</div>
+<div class="line"><span class="lineno">  254</span>    <a class="code hl_function" href="../../dc/d9f/struct_cell.html#a952f2c6008bbbc3b9ee1652ea5f9188a">Cell::VisitWorldObjects</a>(source, worker, dist);</div>
+<div class="line"><span class="lineno">  255</span>}</div>
+<div class="ttc" id="a_creature_text_mgr_8h_html_adf847039afbebeda9e21210c1f4eb052a182bd5362916ba67bcf6660ce37fae0a"><div class="ttname"><a href="../../d0/d99/_creature_text_mgr_8h.html#adf847039afbebeda9e21210c1f4eb052a182bd5362916ba67bcf6660ce37fae0a">TEXT_RANGE_ZONE</a></div><div class="ttdeci">@ TEXT_RANGE_ZONE</div><div class="ttdef"><b>Definition:</b> CreatureTextMgr.h:32</div></div>
+<div class="ttc" id="a_creature_text_mgr_8h_html_adf847039afbebeda9e21210c1f4eb052a1982e7a678f4ba541ea6ecbfec493385"><div class="ttname"><a href="../../d0/d99/_creature_text_mgr_8h.html#adf847039afbebeda9e21210c1f4eb052a1982e7a678f4ba541ea6ecbfec493385">TEXT_RANGE_AREA</a></div><div class="ttdeci">@ TEXT_RANGE_AREA</div><div class="ttdef"><b>Definition:</b> CreatureTextMgr.h:31</div></div>
+<div class="ttc" id="a_creature_text_mgr_8h_html_adf847039afbebeda9e21210c1f4eb052a90bf8cfe8ac6e4bac224bd3dd9fbc3a3"><div class="ttname"><a href="../../d0/d99/_creature_text_mgr_8h.html#adf847039afbebeda9e21210c1f4eb052a90bf8cfe8ac6e4bac224bd3dd9fbc3a3">TEXT_RANGE_MAP</a></div><div class="ttdeci">@ TEXT_RANGE_MAP</div><div class="ttdef"><b>Definition:</b> CreatureTextMgr.h:33</div></div>
+<div class="ttc" id="a_i_world_8h_html_a24a95911e6375202b09db2333ec94fc1"><div class="ttname"><a href="../../d2/d80/_i_world_8h.html#a24a95911e6375202b09db2333ec94fc1">SessionMap</a></div><div class="ttdeci">std::unordered_map&lt; uint32, WorldSession * &gt; SessionMap</div><div class="ttdef"><b>Definition:</b> IWorld.h:56</div></div>
+<div class="ttc" id="a_object_guid_8h_html_a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c"><div class="ttname"><a href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a></div><div class="ttdeci">@ TYPEID_PLAYER</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:38</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a249e68b260c9857b5d0d4cf4697fae16a1156d69b4214408b80dc93c321e717d8"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16a1156d69b4214408b80dc93c321e717d8">CHAT_MSG_MONSTER_WHISPER</a></div><div class="ttdeci">@ CHAT_MSG_MONSTER_WHISPER</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3139</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a249e68b260c9857b5d0d4cf4697fae16a2aa825e5e35e3e6b5e2b9e1e519f322a"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16a2aa825e5e35e3e6b5e2b9e1e519f322a">CHAT_MSG_RAID_BOSS_WHISPER</a></div><div class="ttdeci">@ CHAT_MSG_RAID_BOSS_WHISPER</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3166</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a7513eda5ac39f7f649b82c80de7c324da1d009932a5dde84d818f627cfcfe3fe5"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a7513eda5ac39f7f649b82c80de7c324da1d009932a5dde84d818f627cfcfe3fe5">TEAM_NEUTRAL</a></div><div class="ttdeci">@ TEAM_NEUTRAL</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:734</div></div>
+<div class="ttc" id="aclass_creature_text_localizer_html"><div class="ttname"><a href="../../d7/dd3/class_creature_text_localizer.html">CreatureTextLocalizer</a></div><div class="ttdef"><b>Definition:</b> CreatureTextMgr.h:123</div></div>
+<div class="ttc" id="aclass_creature_text_mgr_html_aeddebd7d3fcf604ee4d11b77ff87fd53"><div class="ttname"><a href="../../d1/d5d/class_creature_text_mgr.html#aeddebd7d3fcf604ee4d11b77ff87fd53">CreatureTextMgr::GetRangeForChatType</a></div><div class="ttdeci">float GetRangeForChatType(ChatMsg msgType) const</div><div class="ttdef"><b>Definition:</b> CreatureTextMgr.cpp:311</div></div>
+<div class="ttc" id="aclass_linked_list_head_1_1_iterator_html"><div class="ttname"><a href="../../db/dfe/class_linked_list_head_1_1_iterator.html">LinkedListHead::Iterator</a></div><div class="ttdef"><b>Definition:</b> LinkedList.h:139</div></div>
+<div class="ttc" id="aclass_map_html_a0c80d50b012dc8d560e256201970f3b3"><div class="ttname"><a href="../../dd/d11/class_map.html#a0c80d50b012dc8d560e256201970f3b3">Map::IsDungeon</a></div><div class="ttdeci">bool IsDungeon() const</div><div class="ttdef"><b>Definition:</b> Map.h:447</div></div>
+<div class="ttc" id="aclass_map_html_ae37764185b1adf2c6438025e4fa9091a"><div class="ttname"><a href="../../dd/d11/class_map.html#ae37764185b1adf2c6438025e4fa9091a">Map::GetPlayers</a></div><div class="ttdeci">PlayerList const &amp; GetPlayers() const</div><div class="ttdef"><b>Definition:</b> Map.h:484</div></div>
+<div class="ttc" id="aclass_map_ref_mgr_html"><div class="ttname"><a href="../../db/d87/class_map_ref_mgr.html">MapRefMgr</a></div><div class="ttdef"><b>Definition:</b> MapRefMgr.h:26</div></div>
+<div class="ttc" id="aclass_map_ref_mgr_html_a6774b551f0d64628e33594c7b486a872"><div class="ttname"><a href="../../db/d87/class_map_ref_mgr.html#a6774b551f0d64628e33594c7b486a872">MapRefMgr::begin</a></div><div class="ttdeci">iterator begin()</div><div class="ttdef"><b>Definition:</b> MapRefMgr.h:36</div></div>
+<div class="ttc" id="aclass_map_ref_mgr_html_af488c0096775085791b5fbc89e5851a0"><div class="ttname"><a href="../../db/d87/class_map_ref_mgr.html#af488c0096775085791b5fbc89e5851a0">MapRefMgr::end</a></div><div class="ttdeci">iterator end()</div><div class="ttdef"><b>Definition:</b> MapRefMgr.h:37</div></div>
+<div class="ttc" id="aclass_player_html"><div class="ttname"><a href="../../d8/d53/class_player.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1046</div></div>
+<div class="ttc" id="aclass_world_object_html_a1013c27be4347a1b1a4a986a07456deb"><div class="ttname"><a href="../../db/df7/class_world_object.html#a1013c27be4347a1b1a4a986a07456deb">WorldObject::GetMap</a></div><div class="ttdeci">Map * GetMap() const</div><div class="ttdef"><b>Definition:</b> Object.h:517</div></div>
+<div class="ttc" id="aclass_world_object_html_acdd585ef58eb876c506389ff96a4fbd9"><div class="ttname"><a href="../../db/df7/class_world_object.html#acdd585ef58eb876c506389ff96a4fbd9">WorldObject::GetAreaId</a></div><div class="ttdeci">uint32 GetAreaId() const</div><div class="ttdef"><b>Definition:</b> Object.cpp:3066</div></div>
+<div class="ttc" id="aclass_world_object_html_ad498d690fbe69bb99a8a2ffdcb2f5169"><div class="ttname"><a href="../../db/df7/class_world_object.html#ad498d690fbe69bb99a8a2ffdcb2f5169">WorldObject::GetZoneId</a></div><div class="ttdeci">uint32 GetZoneId() const</div><div class="ttdef"><b>Definition:</b> Object.cpp:3058</div></div>
+<div class="ttc" id="astruct_acore_1_1_player_dist_worker_html"><div class="ttname"><a href="../../dc/d0c/struct_acore_1_1_player_dist_worker.html">Acore::PlayerDistWorker</a></div><div class="ttdef"><b>Definition:</b> GridNotifiers.h:589</div></div>
+<div class="ttc" id="astruct_cell_html_a952f2c6008bbbc3b9ee1652ea5f9188a"><div class="ttname"><a href="../../dc/d9f/struct_cell.html#a952f2c6008bbbc3b9ee1652ea5f9188a">Cell::VisitWorldObjects</a></div><div class="ttdeci">static void VisitWorldObjects(WorldObject const *obj, T &amp;visitor, float radius, bool dont_load=true)</div><div class="ttdef"><b>Definition:</b> CellImpl.h:193</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a8b9dc67f09242b5ade7405663ca52fda" name="a8b9dc67f09242b5ade7405663ca52fda"></a>
@@ -573,7 +1054,14 @@ template&lt;class Builder &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  407</span>{</div>
+<div class="line"><span class="lineno">  408</span>    <span class="keywordflow">if</span> (!source)</div>
+<div class="line"><span class="lineno">  409</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  410</span> </div>
+<div class="line"><span class="lineno">  411</span>    source-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#adeebdc78f840a40e89361e5c792b0e53">HandleEmoteCommand</a>(emote);</div>
+<div class="line"><span class="lineno">  412</span>}</div>
+<div class="ttc" id="aclass_unit_html_adeebdc78f840a40e89361e5c792b0e53"><div class="ttname"><a href="../../da/db7/class_unit.html#adeebdc78f840a40e89361e5c792b0e53">Unit::HandleEmoteCommand</a></div><div class="ttdeci">void HandleEmoteCommand(uint32 emoteId)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1958</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2303c6343e233beb3f7a1ebda40e080e" name="a2303c6343e233beb3f7a1ebda40e080e"></a>
@@ -639,7 +1127,74 @@ template&lt;class Builder &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  339</span>{</div>
+<div class="line"><span class="lineno">  340</span>    <span class="keywordtype">float</span> dist = <a class="code hl_function" href="../../d1/d5d/class_creature_text_mgr.html#aeddebd7d3fcf604ee4d11b77ff87fd53">GetRangeForChatType</a>(msgType);</div>
+<div class="line"><span class="lineno">  341</span> </div>
+<div class="line"><span class="lineno">  342</span>    <span class="keywordflow">switch</span> (msgType)</div>
+<div class="line"><span class="lineno">  343</span>    {</div>
+<div class="line"><span class="lineno">  344</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16a1156d69b4214408b80dc93c321e717d8">CHAT_MSG_MONSTER_WHISPER</a>:</div>
+<div class="line"><span class="lineno">  345</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16a2aa825e5e35e3e6b5e2b9e1e519f322a">CHAT_MSG_RAID_BOSS_WHISPER</a>:</div>
+<div class="line"><span class="lineno">  346</span>            {</div>
+<div class="line"><span class="lineno">  347</span>                <span class="keywordflow">if</span> (range == <a class="code hl_enumvalue" href="../../d0/d99/_creature_text_mgr_8h.html#adf847039afbebeda9e21210c1f4eb052a649e811a5e8853fa24088dbb708ce9ab">TEXT_RANGE_NORMAL</a>)<span class="comment">//ignores team and gmOnly</span></div>
+<div class="line"><span class="lineno">  348</span>                {</div>
+<div class="line"><span class="lineno">  349</span>                    <span class="keywordflow">if</span> (!target || target-&gt;GetTypeId() != <a class="code hl_enumvalue" href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a>)</div>
+<div class="line"><span class="lineno">  350</span>                        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  351</span> </div>
+<div class="line"><span class="lineno">  352</span>                    target-&gt;ToPlayer()-&gt;GetSession()-&gt;SendPacket(data);</div>
+<div class="line"><span class="lineno">  353</span>                    <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  354</span>                }</div>
+<div class="line"><span class="lineno">  355</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  356</span>            }</div>
+<div class="line"><span class="lineno">  357</span>        <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  358</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  359</span>    }</div>
+<div class="line"><span class="lineno">  360</span> </div>
+<div class="line"><span class="lineno">  361</span>    <span class="keywordflow">switch</span> (range)</div>
+<div class="line"><span class="lineno">  362</span>    {</div>
+<div class="line"><span class="lineno">  363</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d0/d99/_creature_text_mgr_8h.html#adf847039afbebeda9e21210c1f4eb052a1982e7a678f4ba541ea6ecbfec493385">TEXT_RANGE_AREA</a>:</div>
+<div class="line"><span class="lineno">  364</span>            {</div>
+<div class="line"><span class="lineno">  365</span>                <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> areaId = source-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#acdd585ef58eb876c506389ff96a4fbd9">GetAreaId</a>();</div>
+<div class="line"><span class="lineno">  366</span>                <a class="code hl_class" href="../../db/d87/class_map_ref_mgr.html">Map::PlayerList</a> <span class="keyword">const</span>&amp; players = source-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a1013c27be4347a1b1a4a986a07456deb">GetMap</a>()-&gt;<a class="code hl_function" href="../../dd/d11/class_map.html#ae37764185b1adf2c6438025e4fa9091a">GetPlayers</a>();</div>
+<div class="line"><span class="lineno">  367</span>                <span class="keywordflow">for</span> (<a class="code hl_class" href="../../db/dfe/class_linked_list_head_1_1_iterator.html">Map::PlayerList::const_iterator</a> itr = players.<a class="code hl_function" href="../../db/d87/class_map_ref_mgr.html#a6774b551f0d64628e33594c7b486a872">begin</a>(); itr != players.<a class="code hl_function" href="../../db/d87/class_map_ref_mgr.html#af488c0096775085791b5fbc89e5851a0">end</a>(); ++itr)</div>
+<div class="line"><span class="lineno">  368</span>                    <span class="keywordflow">if</span> (itr-&gt;GetSource()-&gt;GetAreaId() == areaId &amp;&amp; (teamId == <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a7513eda5ac39f7f649b82c80de7c324da1d009932a5dde84d818f627cfcfe3fe5">TEAM_NEUTRAL</a> || itr-&gt;GetSource()-&gt;GetTeamId() == teamId) &amp;&amp; (!gmOnly || itr-&gt;GetSource()-&gt;IsGameMaster()))</div>
+<div class="line"><span class="lineno">  369</span>                        itr-&gt;GetSource()-&gt;GetSession()-&gt;SendPacket(data);</div>
+<div class="line"><span class="lineno">  370</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  371</span>            }</div>
+<div class="line"><span class="lineno">  372</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d0/d99/_creature_text_mgr_8h.html#adf847039afbebeda9e21210c1f4eb052a182bd5362916ba67bcf6660ce37fae0a">TEXT_RANGE_ZONE</a>:</div>
+<div class="line"><span class="lineno">  373</span>            {</div>
+<div class="line"><span class="lineno">  374</span>                <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> zoneId = source-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#ad498d690fbe69bb99a8a2ffdcb2f5169">GetZoneId</a>();</div>
+<div class="line"><span class="lineno">  375</span>                <a class="code hl_class" href="../../db/d87/class_map_ref_mgr.html">Map::PlayerList</a> <span class="keyword">const</span>&amp; players = source-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a1013c27be4347a1b1a4a986a07456deb">GetMap</a>()-&gt;<a class="code hl_function" href="../../dd/d11/class_map.html#ae37764185b1adf2c6438025e4fa9091a">GetPlayers</a>();</div>
+<div class="line"><span class="lineno">  376</span>                <span class="keywordflow">for</span> (<a class="code hl_class" href="../../db/dfe/class_linked_list_head_1_1_iterator.html">Map::PlayerList::const_iterator</a> itr = players.<a class="code hl_function" href="../../db/d87/class_map_ref_mgr.html#a6774b551f0d64628e33594c7b486a872">begin</a>(); itr != players.<a class="code hl_function" href="../../db/d87/class_map_ref_mgr.html#af488c0096775085791b5fbc89e5851a0">end</a>(); ++itr)</div>
+<div class="line"><span class="lineno">  377</span>                    <span class="keywordflow">if</span> (itr-&gt;GetSource()-&gt;GetZoneId() == zoneId &amp;&amp; (teamId == <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a7513eda5ac39f7f649b82c80de7c324da1d009932a5dde84d818f627cfcfe3fe5">TEAM_NEUTRAL</a> || itr-&gt;GetSource()-&gt;GetTeamId() == teamId) &amp;&amp; (!gmOnly || itr-&gt;GetSource()-&gt;IsGameMaster()))</div>
+<div class="line"><span class="lineno">  378</span>                        itr-&gt;GetSource()-&gt;GetSession()-&gt;SendPacket(data);</div>
+<div class="line"><span class="lineno">  379</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  380</span>            }</div>
+<div class="line"><span class="lineno">  381</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d0/d99/_creature_text_mgr_8h.html#adf847039afbebeda9e21210c1f4eb052a90bf8cfe8ac6e4bac224bd3dd9fbc3a3">TEXT_RANGE_MAP</a>:</div>
+<div class="line"><span class="lineno">  382</span>            {</div>
+<div class="line"><span class="lineno">  383</span>                <a class="code hl_class" href="../../db/d87/class_map_ref_mgr.html">Map::PlayerList</a> <span class="keyword">const</span>&amp; players = source-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a1013c27be4347a1b1a4a986a07456deb">GetMap</a>()-&gt;<a class="code hl_function" href="../../dd/d11/class_map.html#ae37764185b1adf2c6438025e4fa9091a">GetPlayers</a>();</div>
+<div class="line"><span class="lineno">  384</span>                <span class="keywordflow">for</span> (<a class="code hl_class" href="../../db/dfe/class_linked_list_head_1_1_iterator.html">Map::PlayerList::const_iterator</a> itr = players.<a class="code hl_function" href="../../db/d87/class_map_ref_mgr.html#a6774b551f0d64628e33594c7b486a872">begin</a>(); itr != players.<a class="code hl_function" href="../../db/d87/class_map_ref_mgr.html#af488c0096775085791b5fbc89e5851a0">end</a>(); ++itr)</div>
+<div class="line"><span class="lineno">  385</span>                    <span class="keywordflow">if</span> ((teamId == <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a7513eda5ac39f7f649b82c80de7c324da1d009932a5dde84d818f627cfcfe3fe5">TEAM_NEUTRAL</a> || itr-&gt;GetSource()-&gt;GetTeamId() == teamId) &amp;&amp; (!gmOnly || itr-&gt;GetSource()-&gt;IsGameMaster()))</div>
+<div class="line"><span class="lineno">  386</span>                        itr-&gt;GetSource()-&gt;GetSession()-&gt;SendPacket(data);</div>
+<div class="line"><span class="lineno">  387</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  388</span>            }</div>
+<div class="line"><span class="lineno">  389</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d0/d99/_creature_text_mgr_8h.html#adf847039afbebeda9e21210c1f4eb052a3a88078985d9e80a4543acf0acde52d9">TEXT_RANGE_WORLD</a>:</div>
+<div class="line"><span class="lineno">  390</span>            {</div>
+<div class="line"><span class="lineno">  391</span>                <a class="code hl_typedef" href="../../d2/d80/_i_world_8h.html#a24a95911e6375202b09db2333ec94fc1">SessionMap</a> <span class="keyword">const</span>&amp; smap = <a class="code hl_define" href="../../df/d17/group__world.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;GetAllSessions();</div>
+<div class="line"><span class="lineno">  392</span>                <span class="keywordflow">for</span> (SessionMap::const_iterator itr = smap.begin(); itr != smap.end(); ++itr)</div>
+<div class="line"><span class="lineno">  393</span>                    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* player = itr-&gt;second-&gt;GetPlayer())</div>
+<div class="line"><span class="lineno">  394</span>                        <span class="keywordflow">if</span> ((teamId == <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a7513eda5ac39f7f649b82c80de7c324da1d009932a5dde84d818f627cfcfe3fe5">TEAM_NEUTRAL</a> || player-&gt;GetTeamId() == teamId) &amp;&amp; (!gmOnly || player-&gt;IsGameMaster()))</div>
+<div class="line"><span class="lineno">  395</span>                            player-&gt;GetSession()-&gt;SendPacket(data);</div>
+<div class="line"><span class="lineno">  396</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  397</span>            }</div>
+<div class="line"><span class="lineno">  398</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d0/d99/_creature_text_mgr_8h.html#adf847039afbebeda9e21210c1f4eb052a649e811a5e8853fa24088dbb708ce9ab">TEXT_RANGE_NORMAL</a>:</div>
+<div class="line"><span class="lineno">  399</span>        <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  400</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  401</span>    }</div>
+<div class="line"><span class="lineno">  402</span> </div>
+<div class="line"><span class="lineno">  403</span>    source-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a1cb06547e353e6cc12759de9736718b5">SendMessageToSetInRange</a>(data, dist, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  404</span>}</div>
+<div class="ttc" id="aclass_world_object_html_a1cb06547e353e6cc12759de9736718b5"><div class="ttname"><a href="../../db/df7/class_world_object.html#a1cb06547e353e6cc12759de9736718b5">WorldObject::SendMessageToSetInRange</a></div><div class="ttdeci">virtual void SendMessageToSetInRange(WorldPacket const *data, float dist, bool, bool includeMargin=false, Player const *skipped_rcvr=nullptr) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:2041</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aa36b6dd5010eea049973122bec4fceb1" name="aa36b6dd5010eea049973122bec4fceb1"></a>
@@ -697,7 +1252,15 @@ template&lt;class Builder &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  331</span>{</div>
+<div class="line"><span class="lineno">  332</span>    <span class="keywordflow">if</span> (!sound || !source)</div>
+<div class="line"><span class="lineno">  333</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  334</span> </div>
+<div class="line"><span class="lineno">  335</span>    <a class="code hl_function" href="../../d1/d5d/class_creature_text_mgr.html#a2303c6343e233beb3f7a1ebda40e080e">SendNonChatPacket</a>(source, <a class="code hl_class" href="../../dc/de7/class_world_packets_1_1_misc_1_1_playsound.html">WorldPackets::Misc::Playsound</a>(sound).Write(), msgType, target, range, teamId, gmOnly);</div>
+<div class="line"><span class="lineno">  336</span>}</div>
+<div class="ttc" id="aclass_creature_text_mgr_html_a2303c6343e233beb3f7a1ebda40e080e"><div class="ttname"><a href="../../d1/d5d/class_creature_text_mgr.html#a2303c6343e233beb3f7a1ebda40e080e">CreatureTextMgr::SendNonChatPacket</a></div><div class="ttdeci">void SendNonChatPacket(WorldObject *source, WorldPacket const *data, ChatMsg msgType, WorldObject const *target, CreatureTextRange range, TeamId teamId, bool gmOnly) const</div><div class="ttdef"><b>Definition:</b> CreatureTextMgr.cpp:338</div></div>
+<div class="ttc" id="aclass_world_packets_1_1_misc_1_1_playsound_html"><div class="ttname"><a href="../../dc/de7/class_world_packets_1_1_misc_1_1_playsound.html">WorldPackets::Misc::Playsound</a></div><div class="ttdef"><b>Definition:</b> MiscPackets.h:83</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a4f6c3e0cafcea242748d3ba65bb957f4" name="a4f6c3e0cafcea242748d3ba65bb957f4"></a>
@@ -739,7 +1302,18 @@ template&lt;class Builder &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  415</span>{</div>
+<div class="line"><span class="lineno">  416</span>    <span class="keywordflow">if</span> (!source)</div>
+<div class="line"><span class="lineno">  417</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  418</span> </div>
+<div class="line"><span class="lineno">  419</span>    <a class="code hl_typedef" href="../../d0/d99/_creature_text_mgr_8h.html#a4a74e5d0af63228e47e1f663570018ae">CreatureTextRepeatIds</a>&amp; repeats = <a class="code hl_variable" href="../../d1/d5d/class_creature_text_mgr.html#a880bb1943637b9e867ff3633c9d7390f">mTextRepeatMap</a>[source-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>()][textGroup];</div>
+<div class="line"><span class="lineno">  420</span>    <span class="keywordflow">if</span> (std::find(repeats.begin(), repeats.end(), <span class="keywordtype">id</span>) == repeats.end())</div>
+<div class="line"><span class="lineno">  421</span>        repeats.push_back(<span class="keywordtype">id</span>);</div>
+<div class="line"><span class="lineno">  422</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  423</span>        <a class="code hl_define" href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;sql.sql&quot;</span>, <span class="stringliteral">&quot;CreatureTextMgr: TextGroup {} for Creature {} ({}), id {} already added&quot;</span>,</div>
+<div class="line"><span class="lineno">  424</span>            <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(textGroup), source-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a7e67658eb5aa058bc7f46bf6b11a797c">GetName</a>(), source-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>().<a class="code hl_function" href="../../d8/d03/class_object_guid.html#a78f5fb47e3b35addf8984000c175125b">ToString</a>(), <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(<span class="keywordtype">id</span>));</div>
+<div class="line"><span class="lineno">  425</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aa92d99a93a387193a10eb7a30c59b86e" name="aa92d99a93a387193a10eb7a30c59b86e"></a>
@@ -767,7 +1341,29 @@ template&lt;class Builder &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  443</span>{</div>
+<div class="line"><span class="lineno">  444</span>    <span class="keywordflow">if</span> (!sourceEntry)</div>
+<div class="line"><span class="lineno">  445</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  446</span> </div>
+<div class="line"><span class="lineno">  447</span>    CreatureTextMap::const_iterator sList = <a class="code hl_variable" href="../../d1/d5d/class_creature_text_mgr.html#ad25faab453d0f5d6270797eeeb5e2e40">mTextMap</a>.find(sourceEntry);</div>
+<div class="line"><span class="lineno">  448</span>    <span class="keywordflow">if</span> (sList == <a class="code hl_variable" href="../../d1/d5d/class_creature_text_mgr.html#ad25faab453d0f5d6270797eeeb5e2e40">mTextMap</a>.end())</div>
+<div class="line"><span class="lineno">  449</span>    {</div>
+<div class="line"><span class="lineno">  450</span>        <a class="code hl_define" href="../../da/df4/_log_8h.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a>(<span class="stringliteral">&quot;entities.unit&quot;</span>, <span class="stringliteral">&quot;CreatureTextMgr::TextExist: Could not find Text for Creature (entry {}) in &#39;creature_text&#39; table.&quot;</span>, sourceEntry);</div>
+<div class="line"><span class="lineno">  451</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  452</span>    }</div>
+<div class="line"><span class="lineno">  453</span> </div>
+<div class="line"><span class="lineno">  454</span>    <a class="code hl_typedef" href="../../d0/d99/_creature_text_mgr_8h.html#aad09b58ddf486cb766cdeb242824cd2d">CreatureTextHolder</a> <span class="keyword">const</span>&amp; textHolder = sList-&gt;second;</div>
+<div class="line"><span class="lineno">  455</span>    CreatureTextHolder::const_iterator itr = textHolder.find(textGroup);</div>
+<div class="line"><span class="lineno">  456</span>    <span class="keywordflow">if</span> (itr == textHolder.end())</div>
+<div class="line"><span class="lineno">  457</span>    {</div>
+<div class="line"><span class="lineno">  458</span>        <a class="code hl_define" href="../../da/df4/_log_8h.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a>(<span class="stringliteral">&quot;entities.unit&quot;</span>, <span class="stringliteral">&quot;CreatureTextMgr::TextExist: Could not find TextGroup {} for Creature (entry {}).&quot;</span>, <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(textGroup), sourceEntry);</div>
+<div class="line"><span class="lineno">  459</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  460</span>    }</div>
+<div class="line"><span class="lineno">  461</span> </div>
+<div class="line"><span class="lineno">  462</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  463</span>}</div>
+<div class="ttc" id="a_log_8h_html_a47ac782b14a7531c6232777165a1a161"><div class="ttname"><a href="../../da/df4/_log_8h.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a></div><div class="ttdeci">#define LOG_DEBUG(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:171</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -838,8 +1434,8 @@ template&lt;class Builder &gt; </div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Texts/<a class="el" href="../../d0/d99/_creature_text_mgr_8h_source.html">CreatureTextMgr.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/Texts/<a class="el" href="../../de/d60/_creature_text_mgr_8cpp.html">CreatureTextMgr.cpp</a></li>
+<li><a class="el" href="../../">CreatureTextMgr.h</a></li>
+<li><a class="el" href="../../">CreatureTextMgr.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -847,7 +1443,7 @@ template&lt;class Builder &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d5d/class_creature_text_mgr.html">CreatureTextMgr</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:44 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:58 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

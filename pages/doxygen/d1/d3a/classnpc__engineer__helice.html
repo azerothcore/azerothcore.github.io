@@ -187,7 +187,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a2d6cf85d1eb98438b5022804296eff11 inherit pro_methods_class_updatable_script"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dff/class_updatable_script.html#a2d6cf85d1eb98438b5022804296eff11">UpdatableScript</a> ()=default</td></tr>
 <tr class="separator:a2d6cf85d1eb98438b5022804296eff11 inherit pro_methods_class_updatable_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a445ed6b85e95db817c8117d5473a3c9d" name="a445ed6b85e95db817c8117d5473a3c9d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a445ed6b85e95db817c8117d5473a3c9d">&#9670;&#160;</a></span>npc_engineer_helice()</h2>
 
@@ -210,7 +211,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  722</span>: <a class="code hl_class" href="../../d5/dca/class_creature_script.html">CreatureScript</a>(<span class="stringliteral">&quot;npc_engineer_helice&quot;</span>) { }</div>
+<div class="ttc" id="aclass_creature_script_html"><div class="ttname"><a href="../../d5/dca/class_creature_script.html">CreatureScript</a></div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:718</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -239,7 +242,10 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d5/dca/class_creature_script.html#a24ba3529655943afdf6598450d14e6c2">CreatureScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  800</span>    {</div>
+<div class="line"><span class="lineno">  801</span>        <span class="keywordflow">return</span> <span class="keyword">new</span> npc_engineer_heliceAI(creature);</div>
+<div class="line"><span class="lineno">  802</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ae0979d68744372d5d4669b6f014eb123" name="ae0979d68744372d5d4669b6f014eb123"></a>
@@ -283,11 +289,37 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d5/dca/class_creature_script.html#a6b106a237886f49e523ae7b07e9c5979">CreatureScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  805</span>    {</div>
+<div class="line"><span class="lineno">  806</span>        <span class="keywordflow">if</span> (quest-&gt;<a class="code hl_function" href="../../d8/d63/class_quest.html#a992449032653d9405898a3419f8c28c0">GetQuestId</a>() == <a class="code hl_enumvalue" href="../../d3/d6e/zone__sholazar__basin_8cpp.html#a46213cdc4e36daec2b9c847b1a8b41edae0be2b168a36b8c07d2044f909d1d757">QUEST_DISASTER</a>)</div>
+<div class="line"><span class="lineno">  807</span>        {</div>
+<div class="line"><span class="lineno">  808</span>            <span class="keywordflow">if</span> (npc_engineer_heliceAI* pEscortAI = <a class="code hl_define" href="../../d3/dad/_scripted_creature_8h.html#a0476b18cfebeb691aabb4344ec4f8af3">CAST_AI</a>(<a class="code hl_struct" href="../../d0/d01/structnpc__engineer__helice_1_1npc__engineer__helice_a_i.html">npc_engineer_helice::npc_engineer_heliceAI</a>, creature-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">AI</a>()))</div>
+<div class="line"><span class="lineno">  809</span>            {</div>
+<div class="line"><span class="lineno">  810</span>                creature-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../df/d4d/class_motion_master.html#adb1f82ee5ec702375fc4292e46865edf">MoveJumpTo</a>(0, 0.4f, 0.4f);</div>
+<div class="line"><span class="lineno">  811</span>                creature-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a2579e2b71959daec99048b4bcf7f6bf3">SetFaction</a>(<a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#ac5c8e776fe109c83a63abe41eb5e80f2a12396a918c9dc7c97e7b31933cc75712">FACTION_ESCORTEE_N_NEUTRAL_PASSIVE</a>);</div>
+<div class="line"><span class="lineno">  812</span> </div>
+<div class="line"><span class="lineno">  813</span>                pEscortAI-&gt;Start(<span class="keyword">false</span>, <span class="keyword">false</span>, player-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>());</div>
+<div class="line"><span class="lineno">  814</span>                creature-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">AI</a>()-&gt;<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#a96b82ee318c4d46f16b94192de654bed">Talk</a>(<a class="code hl_enumvalue" href="../../d3/d6e/zone__sholazar__basin_8cpp.html#a46213cdc4e36daec2b9c847b1a8b41edafc3fa3268b6881d12c2589928f82da71">SAY_WP_1</a>);</div>
+<div class="line"><span class="lineno">  815</span>            }</div>
+<div class="line"><span class="lineno">  816</span>        }</div>
+<div class="line"><span class="lineno">  817</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  818</span>    }</div>
+<div class="ttc" id="a_scripted_creature_8h_html_a0476b18cfebeb691aabb4344ec4f8af3"><div class="ttname"><a href="../../d3/dad/_scripted_creature_8h.html#a0476b18cfebeb691aabb4344ec4f8af3">CAST_AI</a></div><div class="ttdeci">#define CAST_AI(a, b)</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:27</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_ac5c8e776fe109c83a63abe41eb5e80f2a12396a918c9dc7c97e7b31933cc75712"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#ac5c8e776fe109c83a63abe41eb5e80f2a12396a918c9dc7c97e7b31933cc75712">FACTION_ESCORTEE_N_NEUTRAL_PASSIVE</a></div><div class="ttdeci">@ FACTION_ESCORTEE_N_NEUTRAL_PASSIVE</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:183</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_a96b82ee318c4d46f16b94192de654bed"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#a96b82ee318c4d46f16b94192de654bed">CreatureAI::Talk</a></div><div class="ttdeci">void Talk(uint8 id, WorldObject const *whisperTarget=nullptr)</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:58</div></div>
+<div class="ttc" id="aclass_creature_html_af2188eef9620b5af52ef2d3ac142db67"><div class="ttname"><a href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">Creature::AI</a></div><div class="ttdeci">CreatureAI * AI() const</div><div class="ttdef"><b>Definition:</b> Creature.h:134</div></div>
+<div class="ttc" id="aclass_motion_master_html_adb1f82ee5ec702375fc4292e46865edf"><div class="ttname"><a href="../../df/d4d/class_motion_master.html#adb1f82ee5ec702375fc4292e46865edf">MotionMaster::MoveJumpTo</a></div><div class="ttdeci">void MoveJumpTo(float angle, float speedXY, float speedZ)</div><div class="ttdef"><b>Definition:</b> MotionMaster.cpp:511</div></div>
+<div class="ttc" id="aclass_object_html_ad23b997e2442fa6a6228ba73a7ecc138"><div class="ttname"><a href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">Object::GetGUID</a></div><div class="ttdeci">static ObjectGuid GetGUID(Object const *o)</div><div class="ttdef"><b>Definition:</b> Object.h:106</div></div>
+<div class="ttc" id="aclass_quest_html_a992449032653d9405898a3419f8c28c0"><div class="ttname"><a href="../../d8/d63/class_quest.html#a992449032653d9405898a3419f8c28c0">Quest::GetQuestId</a></div><div class="ttdeci">uint32 GetQuestId() const</div><div class="ttdef"><b>Definition:</b> QuestDef.h:225</div></div>
+<div class="ttc" id="aclass_unit_html_a2579e2b71959daec99048b4bcf7f6bf3"><div class="ttname"><a href="../../da/db7/class_unit.html#a2579e2b71959daec99048b4bcf7f6bf3">Unit::SetFaction</a></div><div class="ttdeci">void SetFaction(uint32 faction)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:10017</div></div>
+<div class="ttc" id="aclass_unit_html_a4a04a3f22c3b0d6f4933993ac0cc7aa4"><div class="ttname"><a href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">Unit::GetMotionMaster</a></div><div class="ttdeci">MotionMaster * GetMotionMaster()</div><div class="ttdef"><b>Definition:</b> Unit.h:2257</div></div>
+<div class="ttc" id="astructnpc__engineer__helice_1_1npc__engineer__helice_a_i_html"><div class="ttname"><a href="../../d0/d01/structnpc__engineer__helice_1_1npc__engineer__helice_a_i.html">npc_engineer_helice::npc_engineer_heliceAI</a></div><div class="ttdef"><b>Definition:</b> zone_sholazar_basin.cpp:725</div></div>
+<div class="ttc" id="azone__sholazar__basin_8cpp_html_a46213cdc4e36daec2b9c847b1a8b41edae0be2b168a36b8c07d2044f909d1d757"><div class="ttname"><a href="../../d3/d6e/zone__sholazar__basin_8cpp.html#a46213cdc4e36daec2b9c847b1a8b41edae0be2b168a36b8c07d2044f909d1d757">QUEST_DISASTER</a></div><div class="ttdeci">@ QUEST_DISASTER</div><div class="ttdef"><b>Definition:</b> zone_sholazar_basin.cpp:716</div></div>
+<div class="ttc" id="azone__sholazar__basin_8cpp_html_a46213cdc4e36daec2b9c847b1a8b41edafc3fa3268b6881d12c2589928f82da71"><div class="ttname"><a href="../../d3/d6e/zone__sholazar__basin_8cpp.html#a46213cdc4e36daec2b9c847b1a8b41edafc3fa3268b6881d12c2589928f82da71">SAY_WP_1</a></div><div class="ttdeci">@ SAY_WP_1</div><div class="ttdef"><b>Definition:</b> zone_sholazar_basin.cpp:707</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/<a class="el" href="../../d3/d6e/zone__sholazar__basin_8cpp.html">zone_sholazar_basin.cpp</a></li>
+<li><a class="el" href="../../">zone_sholazar_basin.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -295,7 +327,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d3a/classnpc__engineer__helice.html">npc_engineer_helice</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:49 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:04 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

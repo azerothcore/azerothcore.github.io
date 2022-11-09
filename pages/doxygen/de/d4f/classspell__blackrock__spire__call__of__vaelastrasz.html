@@ -292,7 +292,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a1b5999f392cec9fea4431c3f746ee034" name="a1b5999f392cec9fea4431c3f746ee034"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1b5999f392cec9fea4431c3f746ee034">&#9670;&#160;</a></span>OnEffect()</h2>
 
@@ -316,7 +317,34 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  905</span>    {</div>
+<div class="line"><span class="lineno">  906</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* caster = <a class="code hl_function" href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>())</div>
+<div class="line"><span class="lineno">  907</span>        {</div>
+<div class="line"><span class="lineno">  908</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d83/class_instance_script.html">InstanceScript</a>* instance = caster-&gt;GetInstanceScript())</div>
+<div class="line"><span class="lineno">  909</span>            {</div>
+<div class="line"><span class="lineno">  910</span>                instance-&gt;SetData(<a class="code hl_enumvalue" href="../../df/d13/blackrock__spire_8h.html#afb6eb4f28419b652027fad41104a6d22a74b9c350c949ab174753708ad4b5cf6d">DATA_VAELASTRASZ</a>, <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012">IN_PROGRESS</a>);</div>
+<div class="line"><span class="lineno">  911</span>                <span class="keywordtype">float</span> distanceToNorthSpawn = caster-&gt;GetDistance2d(<a class="code hl_variable" href="../../df/d1e/instance__blackrock__spire_8cpp.html#a6e2b9576004e728ce158557924a38741">VaelastraszTheRedPosNorth</a>.<a class="code hl_variable" href="../../d1/d26/struct_position.html#a4d45ff71d05bb3ff3d570905460f61cd">m_positionX</a>, <a class="code hl_variable" href="../../df/d1e/instance__blackrock__spire_8cpp.html#a6e2b9576004e728ce158557924a38741">VaelastraszTheRedPosNorth</a>.<a class="code hl_variable" href="../../d1/d26/struct_position.html#a4f8bb54eef056fd5a230c314d24c2ca6">m_positionY</a>);</div>
+<div class="line"><span class="lineno">  912</span>                <span class="keywordtype">float</span> distanceToSouthSpawn = caster-&gt;GetDistance2d(<a class="code hl_variable" href="../../df/d1e/instance__blackrock__spire_8cpp.html#a59a2ff14071727e718e217d2e7ba3454">VaelastraszTheRedPosSouth</a>.<a class="code hl_variable" href="../../d1/d26/struct_position.html#a4d45ff71d05bb3ff3d570905460f61cd">m_positionX</a>, <a class="code hl_variable" href="../../df/d1e/instance__blackrock__spire_8cpp.html#a59a2ff14071727e718e217d2e7ba3454">VaelastraszTheRedPosSouth</a>.<a class="code hl_variable" href="../../d1/d26/struct_position.html#a4f8bb54eef056fd5a230c314d24c2ca6">m_positionY</a>);</div>
+<div class="line"><span class="lineno">  913</span>                <a class="code hl_struct" href="../../d1/d26/struct_position.html">Position</a> spawnPosition = distanceToNorthSpawn &lt; distanceToSouthSpawn ? <a class="code hl_variable" href="../../df/d1e/instance__blackrock__spire_8cpp.html#a6e2b9576004e728ce158557924a38741">VaelastraszTheRedPosNorth</a> : <a class="code hl_variable" href="../../df/d1e/instance__blackrock__spire_8cpp.html#a59a2ff14071727e718e217d2e7ba3454">VaelastraszTheRedPosSouth</a>;</div>
+<div class="line"><span class="lineno">  914</span>                <span class="comment">// despawn is called by the CreatureAI</span></div>
+<div class="line"><span class="lineno">  915</span>                caster-&gt;SummonCreature(<a class="code hl_enumvalue" href="../../df/d13/blackrock__spire_8h.html#a23860b8d9499fb400f8921261b19efd2a429e55a9de628624ca3406538c5b72f3">NPC_VAELASTRASZ_THE_RED</a>, spawnPosition, <a class="code hl_enumvalue" href="../../df/d30/_object_8h.html#a38c6d8d01cbe0c49b035f348f7724148a68d0fa29801bfa0be2b983f167b0c0f2">TEMPSUMMON_TIMED_DESPAWN</a>, 60 * <a class="code hl_variable" href="../../db/d1f/_common_8h.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a>);</div>
+<div class="line"><span class="lineno">  916</span>            }</div>
+<div class="line"><span class="lineno">  917</span>        }</div>
+<div class="line"><span class="lineno">  918</span>    }</div>
+<div class="ttc" id="a_common_8h_html_a84190f79c8167211609f67284e066c58"><div class="ttname"><a href="../../db/d1f/_common_8h.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a></div><div class="ttdeci">constexpr auto IN_MILLISECONDS</div><div class="ttdef"><b>Definition:</b> Common.h:62</div></div>
+<div class="ttc" id="a_instance_script_8h_html_a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012">IN_PROGRESS</a></div><div class="ttdeci">@ IN_PROGRESS</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:57</div></div>
+<div class="ttc" id="a_object_8h_html_a38c6d8d01cbe0c49b035f348f7724148a68d0fa29801bfa0be2b983f167b0c0f2"><div class="ttname"><a href="../../df/d30/_object_8h.html#a38c6d8d01cbe0c49b035f348f7724148a68d0fa29801bfa0be2b983f167b0c0f2">TEMPSUMMON_TIMED_DESPAWN</a></div><div class="ttdeci">@ TEMPSUMMON_TIMED_DESPAWN</div><div class="ttdef"><b>Definition:</b> Object.h:44</div></div>
+<div class="ttc" id="ablackrock__spire_8h_html_a23860b8d9499fb400f8921261b19efd2a429e55a9de628624ca3406538c5b72f3"><div class="ttname"><a href="../../df/d13/blackrock__spire_8h.html#a23860b8d9499fb400f8921261b19efd2a429e55a9de628624ca3406538c5b72f3">NPC_VAELASTRASZ_THE_RED</a></div><div class="ttdeci">@ NPC_VAELASTRASZ_THE_RED</div><div class="ttdef"><b>Definition:</b> blackrock_spire.h:79</div></div>
+<div class="ttc" id="ablackrock__spire_8h_html_afb6eb4f28419b652027fad41104a6d22a74b9c350c949ab174753708ad4b5cf6d"><div class="ttname"><a href="../../df/d13/blackrock__spire_8h.html#afb6eb4f28419b652027fad41104a6d22a74b9c350c949ab174753708ad4b5cf6d">DATA_VAELASTRASZ</a></div><div class="ttdeci">@ DATA_VAELASTRASZ</div><div class="ttdef"><b>Definition:</b> blackrock_spire.h:55</div></div>
+<div class="ttc" id="aclass_instance_script_html"><div class="ttname"><a href="../../d8/d83/class_instance_script.html">InstanceScript</a></div><div class="ttdef"><b>Definition:</b> InstanceScript.h:140</div></div>
+<div class="ttc" id="aclass_spell_script_html_ae630e2d388177707e28cecd5fa5a2b48"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">SpellScript::GetCaster</a></div><div class="ttdeci">Unit * GetCaster()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:401</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="ainstance__blackrock__spire_8cpp_html_a59a2ff14071727e718e217d2e7ba3454"><div class="ttname"><a href="../../df/d1e/instance__blackrock__spire_8cpp.html#a59a2ff14071727e718e217d2e7ba3454">VaelastraszTheRedPosSouth</a></div><div class="ttdeci">Position VaelastraszTheRedPosSouth</div><div class="ttdef"><b>Definition:</b> instance_blackrock_spire.cpp:896</div></div>
+<div class="ttc" id="ainstance__blackrock__spire_8cpp_html_a6e2b9576004e728ce158557924a38741"><div class="ttname"><a href="../../df/d1e/instance__blackrock__spire_8cpp.html#a6e2b9576004e728ce158557924a38741">VaelastraszTheRedPosNorth</a></div><div class="ttdeci">Position VaelastraszTheRedPosNorth</div><div class="ttdef"><b>Definition:</b> instance_blackrock_spire.cpp:895</div></div>
+<div class="ttc" id="astruct_position_html"><div class="ttname"><a href="../../d1/d26/struct_position.html">Position</a></div><div class="ttdef"><b>Definition:</b> Position.h:28</div></div>
+<div class="ttc" id="astruct_position_html_a4d45ff71d05bb3ff3d570905460f61cd"><div class="ttname"><a href="../../d1/d26/struct_position.html#a4d45ff71d05bb3ff3d570905460f61cd">Position::m_positionX</a></div><div class="ttdeci">float m_positionX</div><div class="ttdef"><b>Definition:</b> Position.h:56</div></div>
+<div class="ttc" id="astruct_position_html_a4f8bb54eef056fd5a230c314d24c2ca6"><div class="ttname"><a href="../../d1/d26/struct_position.html#a4f8bb54eef056fd5a230c314d24c2ca6">Position::m_positionY</a></div><div class="ttdeci">float m_positionY</div><div class="ttdef"><b>Definition:</b> Position.h:57</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a4748a82fcc7b3794850461092ee6b2e4" name="a4748a82fcc7b3794850461092ee6b2e4"></a>
@@ -369,11 +397,19 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  921</span>    {</div>
+<div class="line"><span class="lineno">  922</span>        <a class="code hl_variable" href="../../dc/d62/class_spell_script.html#acf9d3c62feafc004af1f45af05652e3b">OnEffectLaunch</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a551b0adb8eaf82985a7e55cef0695dcb">SpellEffectFn</a>(<a class="code hl_function" href="../../de/d4f/classspell__blackrock__spire__call__of__vaelastrasz.html#a1b5999f392cec9fea4431c3f746ee034">spell_blackrock_spire_call_of_vaelastrasz::OnEffect</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97a8715eb5a36de38e3caa81115dfb9e2db">SPELL_EFFECT_SEND_EVENT</a>);</div>
+<div class="line"><span class="lineno">  923</span>    }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a></div><div class="ttdeci">@ EFFECT_0</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:30</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a292c893150c454dd75628b719db1fe97a8715eb5a36de38e3caa81115dfb9e2db"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97a8715eb5a36de38e3caa81115dfb9e2db">SPELL_EFFECT_SEND_EVENT</a></div><div class="ttdeci">@ SPELL_EFFECT_SEND_EVENT</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:811</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a551b0adb8eaf82985a7e55cef0695dcb"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a551b0adb8eaf82985a7e55cef0695dcb">SpellEffectFn</a></div><div class="ttdeci">#define SpellEffectFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:337</div></div>
+<div class="ttc" id="aclass_spell_script_html_acf9d3c62feafc004af1f45af05652e3b"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#acf9d3c62feafc004af1f45af05652e3b">SpellScript::OnEffectLaunch</a></div><div class="ttdeci">HookList&lt; EffectHandler &gt; OnEffectLaunch</div><div class="ttdef"><b>Definition:</b> SpellScript.h:333</div></div>
+<div class="ttc" id="aclassspell__blackrock__spire__call__of__vaelastrasz_html_a1b5999f392cec9fea4431c3f746ee034"><div class="ttname"><a href="../../de/d4f/classspell__blackrock__spire__call__of__vaelastrasz.html#a1b5999f392cec9fea4431c3f746ee034">spell_blackrock_spire_call_of_vaelastrasz::OnEffect</a></div><div class="ttdeci">void OnEffect(SpellEffIndex)</div><div class="ttdef"><b>Definition:</b> instance_blackrock_spire.cpp:904</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/<a class="el" href="../../df/d1e/instance__blackrock__spire_8cpp.html">instance_blackrock_spire.cpp</a></li>
+<li><a class="el" href="../../">instance_blackrock_spire.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -381,7 +417,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../de/d4f/classspell__blackrock__spire__call__of__vaelastrasz.html">spell_blackrock_spire_call_of_vaelastrasz</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:59 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:16 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -294,7 +294,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a2299a8b99013fb9f9c2b8e81cfc541cc" name="a2299a8b99013fb9f9c2b8e81cfc541cc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2299a8b99013fb9f9c2b8e81cfc541cc">&#9670;&#160;</a></span>HandleDummy()</h2>
 
@@ -318,7 +319,43 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1233</span>    {</div>
+<div class="line"><span class="lineno"> 1234</span>        <a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* caster = <a class="code hl_function" href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>();</div>
+<div class="line"><span class="lineno"> 1235</span>        <span class="keywordflow">if</span> (!caster || !caster-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ab0e2ef1ac1daa91476f749e0ec6ad3c6">ToCreature</a>() || !caster-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ab0e2ef1ac1daa91476f749e0ec6ad3c6">ToCreature</a>()-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">AI</a>())</div>
+<div class="line"><span class="lineno"> 1236</span>        {</div>
+<div class="line"><span class="lineno"> 1237</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 1238</span>        }</div>
+<div class="line"><span class="lineno"> 1239</span> </div>
+<div class="line"><span class="lineno"> 1240</span>        <a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target = caster-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ab0e2ef1ac1daa91476f749e0ec6ad3c6">ToCreature</a>()-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">AI</a>()-&gt;<a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6daed910a7666394bcbf8abd2f20096e">SelectTarget</a>(SelectTargetMethod::Random, 0, 200.f, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno"> 1241</span>        <span class="keywordflow">if</span> (!target)</div>
+<div class="line"><span class="lineno"> 1242</span>        {</div>
+<div class="line"><span class="lineno"> 1243</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 1244</span>        }</div>
+<div class="line"><span class="lineno"> 1245</span> </div>
+<div class="line"><span class="lineno"> 1246</span>        <span class="keywordflow">for</span> (<span class="keyword">auto</span> itr : <a class="code hl_variable" href="../../d4/d7b/boss__nefarian_8cpp.html#affa40416301c343cadd80599db0e9179">spellPos</a>)</div>
+<div class="line"><span class="lineno"> 1247</span>        {</div>
+<div class="line"><span class="lineno"> 1248</span>            <span class="keywordtype">float</span> distTarget = target-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a73f3c7fa817faebff6b2752ba3bb1a50">GetDistance2d</a>(itr.second.m_positionX, itr.second.m_positionY);</div>
+<div class="line"><span class="lineno"> 1249</span>            <span class="keywordflow">if</span> (distTarget &lt;= 30.f)</div>
+<div class="line"><span class="lineno"> 1250</span>            {</div>
+<div class="line"><span class="lineno"> 1251</span>                caster-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(caster, itr.first, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno"> 1252</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 1253</span>            }</div>
+<div class="line"><span class="lineno"> 1254</span>        }</div>
+<div class="line"><span class="lineno"> 1255</span> </div>
+<div class="line"><span class="lineno"> 1256</span>        <span class="comment">// Selected target is not near any known position, randomize</span></div>
+<div class="line"><span class="lineno"> 1257</span>        <span class="keyword">auto</span> spellId = <a class="code hl_function" href="../../d0/df6/namespace_acore_1_1_containers.html#a8ca673d18562735d4ed20a11519b3d46">Acore::Containers::SelectRandomContainerElement</a>(<a class="code hl_variable" href="../../d4/d7b/boss__nefarian_8cpp.html#affa40416301c343cadd80599db0e9179">spellPos</a>);</div>
+<div class="line"><span class="lineno"> 1258</span>        caster-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(caster, spellId.first, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno"> 1259</span>    }</div>
+<div class="ttc" id="aboss__nefarian_8cpp_html_affa40416301c343cadd80599db0e9179"><div class="ttname"><a href="../../d4/d7b/boss__nefarian_8cpp.html#affa40416301c343cadd80599db0e9179">spellPos</a></div><div class="ttdeci">std::unordered_map&lt; uint32, const Position &gt; const spellPos</div><div class="ttdef"><b>Definition:</b> boss_nefarian.cpp:1211</div></div>
+<div class="ttc" id="aclass_creature_html_af2188eef9620b5af52ef2d3ac142db67"><div class="ttname"><a href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">Creature::AI</a></div><div class="ttdeci">CreatureAI * AI() const</div><div class="ttdef"><b>Definition:</b> Creature.h:134</div></div>
+<div class="ttc" id="aclass_object_html_ab0e2ef1ac1daa91476f749e0ec6ad3c6"><div class="ttname"><a href="../../d8/d83/class_object.html#ab0e2ef1ac1daa91476f749e0ec6ad3c6">Object::ToCreature</a></div><div class="ttdeci">Creature * ToCreature()</div><div class="ttdef"><b>Definition:</b> Object.h:197</div></div>
+<div class="ttc" id="aclass_spell_script_html_ae630e2d388177707e28cecd5fa5a2b48"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">SpellScript::GetCaster</a></div><div class="ttdeci">Unit * GetCaster()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:401</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a6daed910a7666394bcbf8abd2f20096e"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a6daed910a7666394bcbf8abd2f20096e">UnitAI::SelectTarget</a></div><div class="ttdeci">Unit * SelectTarget(SelectTargetMethod targetType, uint32 position=0, float dist=0.0f, bool playerOnly=false, int32 aura=0)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:111</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+<div class="ttc" id="aclass_world_object_html_a73f3c7fa817faebff6b2752ba3bb1a50"><div class="ttname"><a href="../../db/df7/class_world_object.html#a73f3c7fa817faebff6b2752ba3bb1a50">WorldObject::GetDistance2d</a></div><div class="ttdeci">float GetDistance2d(WorldObject const *obj) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1263</div></div>
+<div class="ttc" id="anamespace_acore_1_1_containers_html_a8ca673d18562735d4ed20a11519b3d46"><div class="ttname"><a href="../../d0/df6/namespace_acore_1_1_containers.html#a8ca673d18562735d4ed20a11519b3d46">Acore::Containers::SelectRandomContainerElement</a></div><div class="ttdeci">auto SelectRandomContainerElement(C const &amp;container) -&gt; typename std::add_const&lt; decltype(*std::begin(container))&gt;::type &amp;</div><div class="ttdef"><b>Definition:</b> Containers.h:135</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad07165f81a7f407c716f90691ecb9817" name="ad07165f81a7f407c716f90691ecb9817"></a>
@@ -371,7 +408,15 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1262</span>    {</div>
+<div class="line"><span class="lineno"> 1263</span>        <a class="code hl_variable" href="../../dc/d62/class_spell_script.html#a6f11356f7a28793e6053bfbc4e2dacf3">OnEffectHitTarget</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a551b0adb8eaf82985a7e55cef0695dcb">SpellEffectFn</a>(<a class="code hl_function" href="../../db/d1b/classspell__shadowblink.html#a2299a8b99013fb9f9c2b8e81cfc541cc">spell_shadowblink::HandleDummy</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97a027bcdf3b42e90e7374802fe61fd776d">SPELL_EFFECT_DUMMY</a>);</div>
+<div class="line"><span class="lineno"> 1264</span>    }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a></div><div class="ttdeci">@ EFFECT_0</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:30</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a292c893150c454dd75628b719db1fe97a027bcdf3b42e90e7374802fe61fd776d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97a027bcdf3b42e90e7374802fe61fd776d">SPELL_EFFECT_DUMMY</a></div><div class="ttdeci">@ SPELL_EFFECT_DUMMY</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:753</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a551b0adb8eaf82985a7e55cef0695dcb"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a551b0adb8eaf82985a7e55cef0695dcb">SpellEffectFn</a></div><div class="ttdeci">#define SpellEffectFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:337</div></div>
+<div class="ttc" id="aclass_spell_script_html_a6f11356f7a28793e6053bfbc4e2dacf3"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a6f11356f7a28793e6053bfbc4e2dacf3">SpellScript::OnEffectHitTarget</a></div><div class="ttdeci">HookList&lt; EffectHandler &gt; OnEffectHitTarget</div><div class="ttdef"><b>Definition:</b> SpellScript.h:336</div></div>
+<div class="ttc" id="aclassspell__shadowblink_html_a2299a8b99013fb9f9c2b8e81cfc541cc"><div class="ttname"><a href="../../db/d1b/classspell__shadowblink.html#a2299a8b99013fb9f9c2b8e81cfc541cc">spell_shadowblink::HandleDummy</a></div><div class="ttdeci">void HandleDummy(SpellEffIndex)</div><div class="ttdef"><b>Definition:</b> boss_nefarian.cpp:1232</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a8ce6773c7d0fd501fa7b26f04fd22796" name="a8ce6773c7d0fd501fa7b26f04fd22796"></a>
@@ -399,11 +444,24 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d7/d13/class___spell_script.html#a95e7862a5807bff409f13aea8306077e">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1228</span>    {</div>
+<div class="line"><span class="lineno"> 1229</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../d7/d13/class___spell_script.html#a9f7c76ac56838fbe61bf67d534979159">ValidateSpellInfo</a>({ <a class="code hl_enumvalue" href="../../d4/d7b/boss__nefarian_8cpp.html#a23564d04d2d24a7ae1afe5a1fbfbf9b1a728e59af2f85c803f3cf0ba4f35ec372">SPELL_SHADOWBLINK_TRIGGERED_1</a>, <a class="code hl_enumvalue" href="../../d4/d7b/boss__nefarian_8cpp.html#a23564d04d2d24a7ae1afe5a1fbfbf9b1a27f69c3c3e6cab2172b100482d7c6bb4">SPELL_SHADOWBLINK_TRIGGERED_2</a>, <a class="code hl_enumvalue" href="../../d4/d7b/boss__nefarian_8cpp.html#a23564d04d2d24a7ae1afe5a1fbfbf9b1a3d5212d11dc9a4134e00f51b2e8b410f">SPELL_SHADOWBLINK_TRIGGERED_3</a>, <a class="code hl_enumvalue" href="../../d4/d7b/boss__nefarian_8cpp.html#a23564d04d2d24a7ae1afe5a1fbfbf9b1a14f5cffcf85735f69f66bb8112bd4457">SPELL_SHADOWBLINK_TRIGGERED_4</a>, <a class="code hl_enumvalue" href="../../d4/d7b/boss__nefarian_8cpp.html#a23564d04d2d24a7ae1afe5a1fbfbf9b1a5b15242a4d884f9e43e18c7220e36ac9">SPELL_SHADOWBLINK_TRIGGERED_5</a>, <a class="code hl_enumvalue" href="../../d4/d7b/boss__nefarian_8cpp.html#a23564d04d2d24a7ae1afe5a1fbfbf9b1a4d8b9290dd71c0913307a34c0d212f35">SPELL_SHADOWBLINK_TRIGGERED_6</a>, <a class="code hl_enumvalue" href="../../d4/d7b/boss__nefarian_8cpp.html#a23564d04d2d24a7ae1afe5a1fbfbf9b1aaaaa6df9c53752c9d1ecaec91779c41e">SPELL_SHADOWBLINK_TRIGGERED_7</a>, <a class="code hl_enumvalue" href="../../d4/d7b/boss__nefarian_8cpp.html#a23564d04d2d24a7ae1afe5a1fbfbf9b1a32ad740de1307057b30526621c5ca77a">SPELL_SHADOWBLINK_TRIGGERED_8</a>, <a class="code hl_enumvalue" href="../../d4/d7b/boss__nefarian_8cpp.html#a23564d04d2d24a7ae1afe5a1fbfbf9b1a4712c2a7231d098dd54a5dc48fb8f6e4">SPELL_SHADOWBLINK_TRIGGERED_9</a> });</div>
+<div class="line"><span class="lineno"> 1230</span>    }</div>
+<div class="ttc" id="aboss__nefarian_8cpp_html_a23564d04d2d24a7ae1afe5a1fbfbf9b1a14f5cffcf85735f69f66bb8112bd4457"><div class="ttname"><a href="../../d4/d7b/boss__nefarian_8cpp.html#a23564d04d2d24a7ae1afe5a1fbfbf9b1a14f5cffcf85735f69f66bb8112bd4457">SPELL_SHADOWBLINK_TRIGGERED_4</a></div><div class="ttdeci">@ SPELL_SHADOWBLINK_TRIGGERED_4</div><div class="ttdef"><b>Definition:</b> boss_nefarian.cpp:1203</div></div>
+<div class="ttc" id="aboss__nefarian_8cpp_html_a23564d04d2d24a7ae1afe5a1fbfbf9b1a27f69c3c3e6cab2172b100482d7c6bb4"><div class="ttname"><a href="../../d4/d7b/boss__nefarian_8cpp.html#a23564d04d2d24a7ae1afe5a1fbfbf9b1a27f69c3c3e6cab2172b100482d7c6bb4">SPELL_SHADOWBLINK_TRIGGERED_2</a></div><div class="ttdeci">@ SPELL_SHADOWBLINK_TRIGGERED_2</div><div class="ttdef"><b>Definition:</b> boss_nefarian.cpp:1201</div></div>
+<div class="ttc" id="aboss__nefarian_8cpp_html_a23564d04d2d24a7ae1afe5a1fbfbf9b1a32ad740de1307057b30526621c5ca77a"><div class="ttname"><a href="../../d4/d7b/boss__nefarian_8cpp.html#a23564d04d2d24a7ae1afe5a1fbfbf9b1a32ad740de1307057b30526621c5ca77a">SPELL_SHADOWBLINK_TRIGGERED_8</a></div><div class="ttdeci">@ SPELL_SHADOWBLINK_TRIGGERED_8</div><div class="ttdef"><b>Definition:</b> boss_nefarian.cpp:1207</div></div>
+<div class="ttc" id="aboss__nefarian_8cpp_html_a23564d04d2d24a7ae1afe5a1fbfbf9b1a3d5212d11dc9a4134e00f51b2e8b410f"><div class="ttname"><a href="../../d4/d7b/boss__nefarian_8cpp.html#a23564d04d2d24a7ae1afe5a1fbfbf9b1a3d5212d11dc9a4134e00f51b2e8b410f">SPELL_SHADOWBLINK_TRIGGERED_3</a></div><div class="ttdeci">@ SPELL_SHADOWBLINK_TRIGGERED_3</div><div class="ttdef"><b>Definition:</b> boss_nefarian.cpp:1202</div></div>
+<div class="ttc" id="aboss__nefarian_8cpp_html_a23564d04d2d24a7ae1afe5a1fbfbf9b1a4712c2a7231d098dd54a5dc48fb8f6e4"><div class="ttname"><a href="../../d4/d7b/boss__nefarian_8cpp.html#a23564d04d2d24a7ae1afe5a1fbfbf9b1a4712c2a7231d098dd54a5dc48fb8f6e4">SPELL_SHADOWBLINK_TRIGGERED_9</a></div><div class="ttdeci">@ SPELL_SHADOWBLINK_TRIGGERED_9</div><div class="ttdef"><b>Definition:</b> boss_nefarian.cpp:1208</div></div>
+<div class="ttc" id="aboss__nefarian_8cpp_html_a23564d04d2d24a7ae1afe5a1fbfbf9b1a4d8b9290dd71c0913307a34c0d212f35"><div class="ttname"><a href="../../d4/d7b/boss__nefarian_8cpp.html#a23564d04d2d24a7ae1afe5a1fbfbf9b1a4d8b9290dd71c0913307a34c0d212f35">SPELL_SHADOWBLINK_TRIGGERED_6</a></div><div class="ttdeci">@ SPELL_SHADOWBLINK_TRIGGERED_6</div><div class="ttdef"><b>Definition:</b> boss_nefarian.cpp:1205</div></div>
+<div class="ttc" id="aboss__nefarian_8cpp_html_a23564d04d2d24a7ae1afe5a1fbfbf9b1a5b15242a4d884f9e43e18c7220e36ac9"><div class="ttname"><a href="../../d4/d7b/boss__nefarian_8cpp.html#a23564d04d2d24a7ae1afe5a1fbfbf9b1a5b15242a4d884f9e43e18c7220e36ac9">SPELL_SHADOWBLINK_TRIGGERED_5</a></div><div class="ttdeci">@ SPELL_SHADOWBLINK_TRIGGERED_5</div><div class="ttdef"><b>Definition:</b> boss_nefarian.cpp:1204</div></div>
+<div class="ttc" id="aboss__nefarian_8cpp_html_a23564d04d2d24a7ae1afe5a1fbfbf9b1a728e59af2f85c803f3cf0ba4f35ec372"><div class="ttname"><a href="../../d4/d7b/boss__nefarian_8cpp.html#a23564d04d2d24a7ae1afe5a1fbfbf9b1a728e59af2f85c803f3cf0ba4f35ec372">SPELL_SHADOWBLINK_TRIGGERED_1</a></div><div class="ttdeci">@ SPELL_SHADOWBLINK_TRIGGERED_1</div><div class="ttdef"><b>Definition:</b> boss_nefarian.cpp:1200</div></div>
+<div class="ttc" id="aboss__nefarian_8cpp_html_a23564d04d2d24a7ae1afe5a1fbfbf9b1aaaaa6df9c53752c9d1ecaec91779c41e"><div class="ttname"><a href="../../d4/d7b/boss__nefarian_8cpp.html#a23564d04d2d24a7ae1afe5a1fbfbf9b1aaaaa6df9c53752c9d1ecaec91779c41e">SPELL_SHADOWBLINK_TRIGGERED_7</a></div><div class="ttdeci">@ SPELL_SHADOWBLINK_TRIGGERED_7</div><div class="ttdef"><b>Definition:</b> boss_nefarian.cpp:1206</div></div>
+<div class="ttc" id="aclass___spell_script_html_a9f7c76ac56838fbe61bf67d534979159"><div class="ttname"><a href="../../d7/d13/class___spell_script.html#a9f7c76ac56838fbe61bf67d534979159">_SpellScript::ValidateSpellInfo</a></div><div class="ttdeci">static bool ValidateSpellInfo(std::initializer_list&lt; uint32 &gt; spellIds)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:125</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/EasternKingdoms/BlackrockMountain/BlackwingLair/<a class="el" href="../../d4/d7b/boss__nefarian_8cpp.html">boss_nefarian.cpp</a></li>
+<li><a class="el" href="../../">boss_nefarian.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -411,7 +469,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../db/d1b/classspell__shadowblink.html">spell_shadowblink</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:08 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:25 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

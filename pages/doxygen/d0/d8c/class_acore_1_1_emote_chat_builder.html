@@ -131,7 +131,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:abc538e056d91ea1ee8d6203c96174b1d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d8c/class_acore_1_1_emote_chat_builder.html#abc538e056d91ea1ee8d6203c96174b1d">i_target</a></td></tr>
 <tr class="separator:abc538e056d91ea1ee8d6203c96174b1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ae1aeb36aad24d5ef28074edfbf2f9e7e" name="ae1aeb36aad24d5ef28074edfbf2f9e7e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae1aeb36aad24d5ef28074edfbf2f9e7e">&#9670;&#160;</a></span>EmoteChatBuilder()</h2>
 
@@ -177,7 +178,12 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  693</span>            : <a class="code hl_variable" href="../../d0/d8c/class_acore_1_1_emote_chat_builder.html#ae09dbfe01b2a24e57b63b2b1df5ad232">i_player</a>(player), <a class="code hl_variable" href="../../d0/d8c/class_acore_1_1_emote_chat_builder.html#add0630dc3fc76fb4fdb79095e13b2fc0">i_text_emote</a>(text_emote), <a class="code hl_variable" href="../../d0/d8c/class_acore_1_1_emote_chat_builder.html#a966b8afcbf5afca3a3466d8e075a9437">i_emote_num</a>(emote_num), <a class="code hl_variable" href="../../d0/d8c/class_acore_1_1_emote_chat_builder.html#abc538e056d91ea1ee8d6203c96174b1d">i_target</a>(target) {}</div>
+<div class="ttc" id="aclass_acore_1_1_emote_chat_builder_html_a966b8afcbf5afca3a3466d8e075a9437"><div class="ttname"><a href="../../d0/d8c/class_acore_1_1_emote_chat_builder.html#a966b8afcbf5afca3a3466d8e075a9437">Acore::EmoteChatBuilder::i_emote_num</a></div><div class="ttdeci">uint32 i_emote_num</div><div class="ttdef"><b>Definition:</b> ChatHandler.cpp:714</div></div>
+<div class="ttc" id="aclass_acore_1_1_emote_chat_builder_html_abc538e056d91ea1ee8d6203c96174b1d"><div class="ttname"><a href="../../d0/d8c/class_acore_1_1_emote_chat_builder.html#abc538e056d91ea1ee8d6203c96174b1d">Acore::EmoteChatBuilder::i_target</a></div><div class="ttdeci">Unit const  * i_target</div><div class="ttdef"><b>Definition:</b> ChatHandler.cpp:715</div></div>
+<div class="ttc" id="aclass_acore_1_1_emote_chat_builder_html_add0630dc3fc76fb4fdb79095e13b2fc0"><div class="ttname"><a href="../../d0/d8c/class_acore_1_1_emote_chat_builder.html#add0630dc3fc76fb4fdb79095e13b2fc0">Acore::EmoteChatBuilder::i_text_emote</a></div><div class="ttdeci">uint32 i_text_emote</div><div class="ttdef"><b>Definition:</b> ChatHandler.cpp:713</div></div>
+<div class="ttc" id="aclass_acore_1_1_emote_chat_builder_html_ae09dbfe01b2a24e57b63b2b1df5ad232"><div class="ttname"><a href="../../d0/d8c/class_acore_1_1_emote_chat_builder.html#ae09dbfe01b2a24e57b63b2b1df5ad232">Acore::EmoteChatBuilder::i_player</a></div><div class="ttdeci">Player const  &amp; i_player</div><div class="ttdef"><b>Definition:</b> ChatHandler.cpp:712</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -214,7 +220,27 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  696</span>        {</div>
+<div class="line"><span class="lineno">  697</span>            std::string <span class="keyword">const</span> name(<a class="code hl_variable" href="../../d0/d8c/class_acore_1_1_emote_chat_builder.html#abc538e056d91ea1ee8d6203c96174b1d">i_target</a> ? <a class="code hl_variable" href="../../d0/d8c/class_acore_1_1_emote_chat_builder.html#abc538e056d91ea1ee8d6203c96174b1d">i_target</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a8debfe26d218358a75ac85ea0bf079ad">GetNameForLocaleIdx</a>(loc_idx) : <span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><span class="lineno">  698</span>            <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> namlen = name.size();</div>
+<div class="line"><span class="lineno">  699</span> </div>
+<div class="line"><span class="lineno">  700</span>            data.<a class="code hl_function" href="../../d6/d1a/class_world_packet.html#aa8631eaf078e6dc9e16ded96dd0b393f">Initialize</a>(<a class="code hl_enumvalue" href="../../d2/dec/group__u2w.html#gga1073b6abb3a749f18bf1633020879e9baaae146c55ca27757b118ce10f1bebfae">SMSG_TEXT_EMOTE</a>, 20 + namlen);</div>
+<div class="line"><span class="lineno">  701</span>            data &lt;&lt; <a class="code hl_variable" href="../../d0/d8c/class_acore_1_1_emote_chat_builder.html#ae09dbfe01b2a24e57b63b2b1df5ad232">i_player</a>.<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>();</div>
+<div class="line"><span class="lineno">  702</span>            data &lt;&lt; <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(<a class="code hl_variable" href="../../d0/d8c/class_acore_1_1_emote_chat_builder.html#add0630dc3fc76fb4fdb79095e13b2fc0">i_text_emote</a>);</div>
+<div class="line"><span class="lineno">  703</span>            data &lt;&lt; <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(<a class="code hl_variable" href="../../d0/d8c/class_acore_1_1_emote_chat_builder.html#a966b8afcbf5afca3a3466d8e075a9437">i_emote_num</a>);</div>
+<div class="line"><span class="lineno">  704</span>            data &lt;&lt; <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(namlen);</div>
+<div class="line"><span class="lineno">  705</span>            <span class="keywordflow">if</span> (namlen &gt; 1)</div>
+<div class="line"><span class="lineno">  706</span>                data &lt;&lt; name;</div>
+<div class="line"><span class="lineno">  707</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  708</span>                data &lt;&lt; <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>(0x00);</div>
+<div class="line"><span class="lineno">  709</span>        }</div>
+<div class="ttc" id="a_define_8h_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:110</div></div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="aclass_object_html_ad23b997e2442fa6a6228ba73a7ecc138"><div class="ttname"><a href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">Object::GetGUID</a></div><div class="ttdeci">static ObjectGuid GetGUID(Object const *o)</div><div class="ttdef"><b>Definition:</b> Object.h:106</div></div>
+<div class="ttc" id="aclass_world_object_html_a8debfe26d218358a75ac85ea0bf079ad"><div class="ttname"><a href="../../db/df7/class_world_object.html#a8debfe26d218358a75ac85ea0bf079ad">WorldObject::GetNameForLocaleIdx</a></div><div class="ttdeci">virtual std::string const &amp; GetNameForLocaleIdx(LocaleConstant) const</div><div class="ttdef"><b>Definition:</b> Object.h:449</div></div>
+<div class="ttc" id="aclass_world_packet_html_aa8631eaf078e6dc9e16ded96dd0b393f"><div class="ttname"><a href="../../d6/d1a/class_world_packet.html#aa8631eaf078e6dc9e16ded96dd0b393f">WorldPacket::Initialize</a></div><div class="ttdeci">void Initialize(uint16 opcode, size_t newres=200)</div><div class="ttdef"><b>Definition:</b> WorldPacket.h:69</div></div>
+<div class="ttc" id="agroup__u2w_html_gga1073b6abb3a749f18bf1633020879e9baaae146c55ca27757b118ce10f1bebfae"><div class="ttname"><a href="../../d2/dec/group__u2w.html#gga1073b6abb3a749f18bf1633020879e9baaae146c55ca27757b118ce10f1bebfae">SMSG_TEXT_EMOTE</a></div><div class="ttdeci">@ SMSG_TEXT_EMOTE</div><div class="ttdef"><b>Definition:</b> Opcodes.h:291</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -307,7 +333,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Handlers/<a class="el" href="../../d0/d27/_chat_handler_8cpp.html">ChatHandler.cpp</a></li>
+<li><a class="el" href="../../">ChatHandler.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -315,7 +341,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d7d/namespace_acore.html">Acore</a></li><li class="navelem"><a class="el" href="../../d0/d8c/class_acore_1_1_emote_chat_builder.html">EmoteChatBuilder</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:13 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:31 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

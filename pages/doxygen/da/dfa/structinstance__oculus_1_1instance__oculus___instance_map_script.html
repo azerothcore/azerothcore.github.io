@@ -343,7 +343,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a5ab9bd10ed8736a816bfaf12c39bde59 inherit pro_methods_class_instance_script"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d83/class_instance_script.html#a5ab9bd10ed8736a816bfaf12c39bde59">GetBossSaveData</a> ()</td></tr>
 <tr class="separator:a5ab9bd10ed8736a816bfaf12c39bde59 inherit pro_methods_class_instance_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a86c942751aee67ae10e2c77a1ace630e" name="a86c942751aee67ae10e2c77a1ace630e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a86c942751aee67ae10e2c77a1ace630e">&#9670;&#160;</a></span>instance_oculus_InstanceMapScript()</h2>
 
@@ -367,7 +368,10 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   37</span>: <a class="code hl_class" href="../../d8/d83/class_instance_script.html">InstanceScript</a>(pMap) { <a class="code hl_function" href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#a1c035ca450efdd89481715bd09c6c38c">Initialize</a>(); }</div>
+<div class="ttc" id="aclass_instance_script_html"><div class="ttname"><a href="../../d8/d83/class_instance_script.html">InstanceScript</a></div><div class="ttdef"><b>Definition:</b> InstanceScript.h:140</div></div>
+<div class="ttc" id="astructinstance__oculus_1_1instance__oculus___instance_map_script_html_a1c035ca450efdd89481715bd09c6c38c"><div class="ttname"><a href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#a1c035ca450efdd89481715bd09c6c38c">instance_oculus::instance_oculus_InstanceMapScript::Initialize</a></div><div class="ttdeci">void Initialize() override</div><div class="ttdef"><b>Definition:</b> instance_oculus.cpp:53</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -418,7 +422,51 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d8/d83/class_instance_script.html#a2d682a63bb3099ffdc35517d004fe723">InstanceScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  281</span>        {</div>
+<div class="line"><span class="lineno">  282</span>            <span class="keywordflow">switch</span>(criteria_id)</div>
+<div class="line"><span class="lineno">  283</span>            {</div>
+<div class="line"><span class="lineno">  284</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#a40fe1d92134cb8005a020994cf6edd5ea4b91d5faa0d876e04c64b0eb99134744">CRITERIA_EXPERIENCED_AMBER</a>:</div>
+<div class="line"><span class="lineno">  285</span>                    <span class="keywordflow">if</span>( source )</div>
+<div class="line"><span class="lineno">  286</span>                        <span class="keywordflow">if</span>( <a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* drake = source-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a49c625cae45ad90bb1bcddec39b5b388">GetVehicleBase</a>() )</div>
+<div class="line"><span class="lineno">  287</span>                            <span class="keywordflow">if</span>( drake-&gt;GetEntry() == <a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#a6986ec7b2d3274669934af9795f26d5ca3b65c6a903ba6d4c4edb8766d706cc47">NPC_AMBER_DRAKE</a> )</div>
+<div class="line"><span class="lineno">  288</span>                                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  289</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  290</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#a40fe1d92134cb8005a020994cf6edd5ea68f4800ee218a41c1afa12eeb2cb8cce">CRITERIA_EXPERIENCED_EMERALD</a>:</div>
+<div class="line"><span class="lineno">  291</span>                    <span class="keywordflow">if</span>( source )</div>
+<div class="line"><span class="lineno">  292</span>                        <span class="keywordflow">if</span>( <a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* drake = source-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a49c625cae45ad90bb1bcddec39b5b388">GetVehicleBase</a>() )</div>
+<div class="line"><span class="lineno">  293</span>                            <span class="keywordflow">if</span>( drake-&gt;GetEntry() == <a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#a6986ec7b2d3274669934af9795f26d5ca657a051e7c1b84d178728e2b73a7983f">NPC_EMERALD_DRAKE</a> )</div>
+<div class="line"><span class="lineno">  294</span>                                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  295</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  296</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#a40fe1d92134cb8005a020994cf6edd5ea24171b132f2eacb3e9fa2b9e7a735f92">CRITERIA_EXPERIENCED_RUBY</a>:</div>
+<div class="line"><span class="lineno">  297</span>                    <span class="keywordflow">if</span>( source )</div>
+<div class="line"><span class="lineno">  298</span>                        <span class="keywordflow">if</span>( <a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* drake = source-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a49c625cae45ad90bb1bcddec39b5b388">GetVehicleBase</a>() )</div>
+<div class="line"><span class="lineno">  299</span>                            <span class="keywordflow">if</span>( drake-&gt;GetEntry() == <a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#a6986ec7b2d3274669934af9795f26d5cade7d41e2bf8030fd0999a1879e0a48b1">NPC_RUBY_DRAKE</a> )</div>
+<div class="line"><span class="lineno">  300</span>                                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  301</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  302</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#a40fe1d92134cb8005a020994cf6edd5eaadbc758e3c1b7e6a6595c6a8178b4737">CRITERIA_AMBER_VOID</a>:</div>
+<div class="line"><span class="lineno">  303</span>                    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#a9dfa8834bfea20a8f4a39c958e38bcbd">bAmberVoid</a>;</div>
+<div class="line"><span class="lineno">  304</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#a40fe1d92134cb8005a020994cf6edd5eadfdde38b50c8ebe99daea31afb11415d">CRITERIA_EMERALD_VOID</a>:</div>
+<div class="line"><span class="lineno">  305</span>                    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#a45ce85a8a6c9362ad04194b0518066c9">bEmeraldVoid</a>;</div>
+<div class="line"><span class="lineno">  306</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#a40fe1d92134cb8005a020994cf6edd5eacfd97bd3fb1ccc16d2a7bf6a147600b7">CRITERIA_RUBY_VOID</a>:</div>
+<div class="line"><span class="lineno">  307</span>                    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#ad93d6be40d07925d1eb485f864c72ace">bRubyVoid</a>;</div>
+<div class="line"><span class="lineno">  308</span>            }</div>
+<div class="line"><span class="lineno">  309</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  310</span>        }</div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_a49c625cae45ad90bb1bcddec39b5b388"><div class="ttname"><a href="../../da/db7/class_unit.html#a49c625cae45ad90bb1bcddec39b5b388">Unit::GetVehicleBase</a></div><div class="ttdeci">Unit * GetVehicleBase() const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:18774</div></div>
+<div class="ttc" id="aoculus_8h_html_a40fe1d92134cb8005a020994cf6edd5ea24171b132f2eacb3e9fa2b9e7a735f92"><div class="ttname"><a href="../../df/d29/oculus_8h.html#a40fe1d92134cb8005a020994cf6edd5ea24171b132f2eacb3e9fa2b9e7a735f92">CRITERIA_EXPERIENCED_RUBY</a></div><div class="ttdeci">@ CRITERIA_EXPERIENCED_RUBY</div><div class="ttdef"><b>Definition:</b> oculus.h:94</div></div>
+<div class="ttc" id="aoculus_8h_html_a40fe1d92134cb8005a020994cf6edd5ea4b91d5faa0d876e04c64b0eb99134744"><div class="ttname"><a href="../../df/d29/oculus_8h.html#a40fe1d92134cb8005a020994cf6edd5ea4b91d5faa0d876e04c64b0eb99134744">CRITERIA_EXPERIENCED_AMBER</a></div><div class="ttdeci">@ CRITERIA_EXPERIENCED_AMBER</div><div class="ttdef"><b>Definition:</b> oculus.h:92</div></div>
+<div class="ttc" id="aoculus_8h_html_a40fe1d92134cb8005a020994cf6edd5ea68f4800ee218a41c1afa12eeb2cb8cce"><div class="ttname"><a href="../../df/d29/oculus_8h.html#a40fe1d92134cb8005a020994cf6edd5ea68f4800ee218a41c1afa12eeb2cb8cce">CRITERIA_EXPERIENCED_EMERALD</a></div><div class="ttdeci">@ CRITERIA_EXPERIENCED_EMERALD</div><div class="ttdef"><b>Definition:</b> oculus.h:93</div></div>
+<div class="ttc" id="aoculus_8h_html_a40fe1d92134cb8005a020994cf6edd5eaadbc758e3c1b7e6a6595c6a8178b4737"><div class="ttname"><a href="../../df/d29/oculus_8h.html#a40fe1d92134cb8005a020994cf6edd5eaadbc758e3c1b7e6a6595c6a8178b4737">CRITERIA_AMBER_VOID</a></div><div class="ttdeci">@ CRITERIA_AMBER_VOID</div><div class="ttdef"><b>Definition:</b> oculus.h:95</div></div>
+<div class="ttc" id="aoculus_8h_html_a40fe1d92134cb8005a020994cf6edd5eacfd97bd3fb1ccc16d2a7bf6a147600b7"><div class="ttname"><a href="../../df/d29/oculus_8h.html#a40fe1d92134cb8005a020994cf6edd5eacfd97bd3fb1ccc16d2a7bf6a147600b7">CRITERIA_RUBY_VOID</a></div><div class="ttdeci">@ CRITERIA_RUBY_VOID</div><div class="ttdef"><b>Definition:</b> oculus.h:97</div></div>
+<div class="ttc" id="aoculus_8h_html_a40fe1d92134cb8005a020994cf6edd5eadfdde38b50c8ebe99daea31afb11415d"><div class="ttname"><a href="../../df/d29/oculus_8h.html#a40fe1d92134cb8005a020994cf6edd5eadfdde38b50c8ebe99daea31afb11415d">CRITERIA_EMERALD_VOID</a></div><div class="ttdeci">@ CRITERIA_EMERALD_VOID</div><div class="ttdef"><b>Definition:</b> oculus.h:96</div></div>
+<div class="ttc" id="aoculus_8h_html_a6986ec7b2d3274669934af9795f26d5ca3b65c6a903ba6d4c4edb8766d706cc47"><div class="ttname"><a href="../../df/d29/oculus_8h.html#a6986ec7b2d3274669934af9795f26d5ca3b65c6a903ba6d4c4edb8766d706cc47">NPC_AMBER_DRAKE</a></div><div class="ttdeci">@ NPC_AMBER_DRAKE</div><div class="ttdef"><b>Definition:</b> oculus.h:59</div></div>
+<div class="ttc" id="aoculus_8h_html_a6986ec7b2d3274669934af9795f26d5ca657a051e7c1b84d178728e2b73a7983f"><div class="ttname"><a href="../../df/d29/oculus_8h.html#a6986ec7b2d3274669934af9795f26d5ca657a051e7c1b84d178728e2b73a7983f">NPC_EMERALD_DRAKE</a></div><div class="ttdeci">@ NPC_EMERALD_DRAKE</div><div class="ttdef"><b>Definition:</b> oculus.h:60</div></div>
+<div class="ttc" id="aoculus_8h_html_a6986ec7b2d3274669934af9795f26d5cade7d41e2bf8030fd0999a1879e0a48b1"><div class="ttname"><a href="../../df/d29/oculus_8h.html#a6986ec7b2d3274669934af9795f26d5cade7d41e2bf8030fd0999a1879e0a48b1">NPC_RUBY_DRAKE</a></div><div class="ttdeci">@ NPC_RUBY_DRAKE</div><div class="ttdef"><b>Definition:</b> oculus.h:61</div></div>
+<div class="ttc" id="astructinstance__oculus_1_1instance__oculus___instance_map_script_html_a45ce85a8a6c9362ad04194b0518066c9"><div class="ttname"><a href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#a45ce85a8a6c9362ad04194b0518066c9">instance_oculus::instance_oculus_InstanceMapScript::bEmeraldVoid</a></div><div class="ttdeci">bool bEmeraldVoid</div><div class="ttdef"><b>Definition:</b> instance_oculus.cpp:50</div></div>
+<div class="ttc" id="astructinstance__oculus_1_1instance__oculus___instance_map_script_html_a9dfa8834bfea20a8f4a39c958e38bcbd"><div class="ttname"><a href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#a9dfa8834bfea20a8f4a39c958e38bcbd">instance_oculus::instance_oculus_InstanceMapScript::bAmberVoid</a></div><div class="ttdeci">bool bAmberVoid</div><div class="ttdef"><b>Definition:</b> instance_oculus.cpp:49</div></div>
+<div class="ttc" id="astructinstance__oculus_1_1instance__oculus___instance_map_script_html_ad93d6be40d07925d1eb485f864c72ace"><div class="ttname"><a href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#ad93d6be40d07925d1eb485f864c72ace">instance_oculus::instance_oculus_InstanceMapScript::bRubyVoid</a></div><div class="ttdeci">bool bRubyVoid</div><div class="ttdef"><b>Definition:</b> instance_oculus.cpp:51</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a44cf46153dd392758fa5c388e8c2ea84" name="a44cf46153dd392758fa5c388e8c2ea84"></a>
@@ -446,7 +494,28 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../df/dad/class_zone_script.html#a8997612fdbdacbf5e28e4de60d03e805">ZoneScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  205</span>        {</div>
+<div class="line"><span class="lineno">  206</span>            <span class="keywordflow">switch</span>( type )</div>
+<div class="line"><span class="lineno">  207</span>            {</div>
+<div class="line"><span class="lineno">  208</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#af5baa506e65b4caa6be6d1c6661dfe63a62efa54814a33a4d3e67aef578a5893b">DATA_DRAKOS</a>:</div>
+<div class="line"><span class="lineno">  209</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#af5baa506e65b4caa6be6d1c6661dfe63a45d32cfc4a9681ff35d6c70243999794">DATA_VAROS</a>:</div>
+<div class="line"><span class="lineno">  210</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#af5baa506e65b4caa6be6d1c6661dfe63aa5927bac3b5dbcbb4d84d36552c1f6c1">DATA_UROM</a>:</div>
+<div class="line"><span class="lineno">  211</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#af5baa506e65b4caa6be6d1c6661dfe63a59f8ffa23a594b37955bfb7cbdedb94c">DATA_EREGOS</a>:</div>
+<div class="line"><span class="lineno">  212</span>                    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#af4cca13b9039d7c88e7fad1e8f23eb3a">m_auiEncounter</a>[type];</div>
+<div class="line"><span class="lineno">  213</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#af5baa506e65b4caa6be6d1c6661dfe63ac67df56895111306b17ce28c89359d1a">DATA_CC_COUNT</a>:</div>
+<div class="line"><span class="lineno">  214</span>                    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#ae5a87cc8bfc153aee0f96978f39a1932">CentrifugeCount</a>;</div>
+<div class="line"><span class="lineno">  215</span>            }</div>
+<div class="line"><span class="lineno">  216</span> </div>
+<div class="line"><span class="lineno">  217</span>            <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">  218</span>        }</div>
+<div class="ttc" id="aoculus_8h_html_af5baa506e65b4caa6be6d1c6661dfe63a45d32cfc4a9681ff35d6c70243999794"><div class="ttname"><a href="../../df/d29/oculus_8h.html#af5baa506e65b4caa6be6d1c6661dfe63a45d32cfc4a9681ff35d6c70243999794">DATA_VAROS</a></div><div class="ttdeci">@ DATA_VAROS</div><div class="ttdef"><b>Definition:</b> oculus.h:35</div></div>
+<div class="ttc" id="aoculus_8h_html_af5baa506e65b4caa6be6d1c6661dfe63a59f8ffa23a594b37955bfb7cbdedb94c"><div class="ttname"><a href="../../df/d29/oculus_8h.html#af5baa506e65b4caa6be6d1c6661dfe63a59f8ffa23a594b37955bfb7cbdedb94c">DATA_EREGOS</a></div><div class="ttdeci">@ DATA_EREGOS</div><div class="ttdef"><b>Definition:</b> oculus.h:37</div></div>
+<div class="ttc" id="aoculus_8h_html_af5baa506e65b4caa6be6d1c6661dfe63a62efa54814a33a4d3e67aef578a5893b"><div class="ttname"><a href="../../df/d29/oculus_8h.html#af5baa506e65b4caa6be6d1c6661dfe63a62efa54814a33a4d3e67aef578a5893b">DATA_DRAKOS</a></div><div class="ttdeci">@ DATA_DRAKOS</div><div class="ttdef"><b>Definition:</b> oculus.h:34</div></div>
+<div class="ttc" id="aoculus_8h_html_af5baa506e65b4caa6be6d1c6661dfe63aa5927bac3b5dbcbb4d84d36552c1f6c1"><div class="ttname"><a href="../../df/d29/oculus_8h.html#af5baa506e65b4caa6be6d1c6661dfe63aa5927bac3b5dbcbb4d84d36552c1f6c1">DATA_UROM</a></div><div class="ttdeci">@ DATA_UROM</div><div class="ttdef"><b>Definition:</b> oculus.h:36</div></div>
+<div class="ttc" id="aoculus_8h_html_af5baa506e65b4caa6be6d1c6661dfe63ac67df56895111306b17ce28c89359d1a"><div class="ttname"><a href="../../df/d29/oculus_8h.html#af5baa506e65b4caa6be6d1c6661dfe63ac67df56895111306b17ce28c89359d1a">DATA_CC_COUNT</a></div><div class="ttdeci">@ DATA_CC_COUNT</div><div class="ttdef"><b>Definition:</b> oculus.h:39</div></div>
+<div class="ttc" id="astructinstance__oculus_1_1instance__oculus___instance_map_script_html_ae5a87cc8bfc153aee0f96978f39a1932"><div class="ttname"><a href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#ae5a87cc8bfc153aee0f96978f39a1932">instance_oculus::instance_oculus_InstanceMapScript::CentrifugeCount</a></div><div class="ttdeci">uint32 CentrifugeCount</div><div class="ttdef"><b>Definition:</b> instance_oculus.cpp:42</div></div>
+<div class="ttc" id="astructinstance__oculus_1_1instance__oculus___instance_map_script_html_af4cca13b9039d7c88e7fad1e8f23eb3a"><div class="ttname"><a href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#af4cca13b9039d7c88e7fad1e8f23eb3a">instance_oculus::instance_oculus_InstanceMapScript::m_auiEncounter</a></div><div class="ttdeci">uint32 m_auiEncounter[MAX_ENCOUNTER]</div><div class="ttdef"><b>Definition:</b> instance_oculus.cpp:39</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac969f1faf18633ad54354015fb66f4f8" name="ac969f1faf18633ad54354015fb66f4f8"></a>
@@ -474,7 +543,35 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d8/d83/class_instance_script.html#a3be7f24ca31c9433aca546e1087109b4">InstanceScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  221</span>        {</div>
+<div class="line"><span class="lineno">  222</span>            <span class="keywordflow">switch</span>( identifier )</div>
+<div class="line"><span class="lineno">  223</span>            {</div>
+<div class="line"><span class="lineno">  224</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#af5baa506e65b4caa6be6d1c6661dfe63a62efa54814a33a4d3e67aef578a5893b">DATA_DRAKOS</a>:</div>
+<div class="line"><span class="lineno">  225</span>                    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#a1bc410826700bdfcefc5f60d0967a091">uiDrakosGUID</a>;</div>
+<div class="line"><span class="lineno">  226</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#af5baa506e65b4caa6be6d1c6661dfe63a45d32cfc4a9681ff35d6c70243999794">DATA_VAROS</a>:</div>
+<div class="line"><span class="lineno">  227</span>                    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#ab4a87ca38d203deacc377579e66e5bfb">uiVarosGUID</a>;</div>
+<div class="line"><span class="lineno">  228</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#af5baa506e65b4caa6be6d1c6661dfe63aa5927bac3b5dbcbb4d84d36552c1f6c1">DATA_UROM</a>:</div>
+<div class="line"><span class="lineno">  229</span>                    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#accf640519e925eccf0230ca4a5dee3bb">uiUromGUID</a>;</div>
+<div class="line"><span class="lineno">  230</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#af5baa506e65b4caa6be6d1c6661dfe63a59f8ffa23a594b37955bfb7cbdedb94c">DATA_EREGOS</a>:</div>
+<div class="line"><span class="lineno">  231</span>                    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#a559b482989ee8f91f1ba412683856d89">uiEregosGUID</a>;</div>
+<div class="line"><span class="lineno">  232</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#af5baa506e65b4caa6be6d1c6661dfe63a9faadedda1b56547d102cd79f5b108c1">DATA_DCD_1</a>:</div>
+<div class="line"><span class="lineno">  233</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#af5baa506e65b4caa6be6d1c6661dfe63a9b7c03525728fee152dfff24a6d41988">DATA_DCD_2</a>:</div>
+<div class="line"><span class="lineno">  234</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#af5baa506e65b4caa6be6d1c6661dfe63a9217a2c5da8154c43f1792f28314cfca">DATA_DCD_3</a>:</div>
+<div class="line"><span class="lineno">  235</span>                    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#a402480035dfffd7c4c717229bd55b921">DragonCageDoorGUID</a>[identifier - 100];</div>
+<div class="line"><span class="lineno">  236</span>            }</div>
+<div class="line"><span class="lineno">  237</span> </div>
+<div class="line"><span class="lineno">  238</span>            <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d8/d03/class_object_guid.html#a14039d3f3df79203693f713495503165">ObjectGuid::Empty</a>;</div>
+<div class="line"><span class="lineno">  239</span>        }</div>
+<div class="ttc" id="aclass_object_guid_html_a14039d3f3df79203693f713495503165"><div class="ttname"><a href="../../d8/d03/class_object_guid.html#a14039d3f3df79203693f713495503165">ObjectGuid::Empty</a></div><div class="ttdeci">static ObjectGuid const Empty</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:122</div></div>
+<div class="ttc" id="aoculus_8h_html_af5baa506e65b4caa6be6d1c6661dfe63a9217a2c5da8154c43f1792f28314cfca"><div class="ttname"><a href="../../df/d29/oculus_8h.html#af5baa506e65b4caa6be6d1c6661dfe63a9217a2c5da8154c43f1792f28314cfca">DATA_DCD_3</a></div><div class="ttdeci">@ DATA_DCD_3</div><div class="ttdef"><b>Definition:</b> oculus.h:45</div></div>
+<div class="ttc" id="aoculus_8h_html_af5baa506e65b4caa6be6d1c6661dfe63a9b7c03525728fee152dfff24a6d41988"><div class="ttname"><a href="../../df/d29/oculus_8h.html#af5baa506e65b4caa6be6d1c6661dfe63a9b7c03525728fee152dfff24a6d41988">DATA_DCD_2</a></div><div class="ttdeci">@ DATA_DCD_2</div><div class="ttdef"><b>Definition:</b> oculus.h:44</div></div>
+<div class="ttc" id="aoculus_8h_html_af5baa506e65b4caa6be6d1c6661dfe63a9faadedda1b56547d102cd79f5b108c1"><div class="ttname"><a href="../../df/d29/oculus_8h.html#af5baa506e65b4caa6be6d1c6661dfe63a9faadedda1b56547d102cd79f5b108c1">DATA_DCD_1</a></div><div class="ttdeci">@ DATA_DCD_1</div><div class="ttdef"><b>Definition:</b> oculus.h:43</div></div>
+<div class="ttc" id="astructinstance__oculus_1_1instance__oculus___instance_map_script_html_a1bc410826700bdfcefc5f60d0967a091"><div class="ttname"><a href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#a1bc410826700bdfcefc5f60d0967a091">instance_oculus::instance_oculus_InstanceMapScript::uiDrakosGUID</a></div><div class="ttdeci">ObjectGuid uiDrakosGUID</div><div class="ttdef"><b>Definition:</b> instance_oculus.cpp:44</div></div>
+<div class="ttc" id="astructinstance__oculus_1_1instance__oculus___instance_map_script_html_a402480035dfffd7c4c717229bd55b921"><div class="ttname"><a href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#a402480035dfffd7c4c717229bd55b921">instance_oculus::instance_oculus_InstanceMapScript::DragonCageDoorGUID</a></div><div class="ttdeci">ObjectGuid DragonCageDoorGUID[3]</div><div class="ttdef"><b>Definition:</b> instance_oculus.cpp:40</div></div>
+<div class="ttc" id="astructinstance__oculus_1_1instance__oculus___instance_map_script_html_a559b482989ee8f91f1ba412683856d89"><div class="ttname"><a href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#a559b482989ee8f91f1ba412683856d89">instance_oculus::instance_oculus_InstanceMapScript::uiEregosGUID</a></div><div class="ttdeci">ObjectGuid uiEregosGUID</div><div class="ttdef"><b>Definition:</b> instance_oculus.cpp:47</div></div>
+<div class="ttc" id="astructinstance__oculus_1_1instance__oculus___instance_map_script_html_ab4a87ca38d203deacc377579e66e5bfb"><div class="ttname"><a href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#ab4a87ca38d203deacc377579e66e5bfb">instance_oculus::instance_oculus_InstanceMapScript::uiVarosGUID</a></div><div class="ttdeci">ObjectGuid uiVarosGUID</div><div class="ttdef"><b>Definition:</b> instance_oculus.cpp:45</div></div>
+<div class="ttc" id="astructinstance__oculus_1_1instance__oculus___instance_map_script_html_accf640519e925eccf0230ca4a5dee3bb"><div class="ttname"><a href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#accf640519e925eccf0230ca4a5dee3bb">instance_oculus::instance_oculus_InstanceMapScript::uiUromGUID</a></div><div class="ttdeci">ObjectGuid uiUromGUID</div><div class="ttdef"><b>Definition:</b> instance_oculus.cpp:46</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="acc7eb8133198c2b83660ffea2b645e53" name="acc7eb8133198c2b83660ffea2b645e53"></a>
@@ -501,7 +598,18 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d8/d83/class_instance_script.html#aa0e2d9bf4d757aad09d4773259ad8583">InstanceScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  242</span>        {</div>
+<div class="line"><span class="lineno">  243</span>            <a class="code hl_define" href="../../da/d42/_instance_script_8h.html#a65ed3183971093dcebed99d1ec6d6d63">OUT_SAVE_INST_DATA</a>;</div>
+<div class="line"><span class="lineno">  244</span> </div>
+<div class="line"><span class="lineno">  245</span>            std::ostringstream saveStream;</div>
+<div class="line"><span class="lineno">  246</span>            saveStream &lt;&lt; <span class="stringliteral">&quot;T O &quot;</span> &lt;&lt; <a class="code hl_variable" href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#af4cca13b9039d7c88e7fad1e8f23eb3a">m_auiEncounter</a>[0] &lt;&lt; <span class="charliteral">&#39; &#39;</span> &lt;&lt; <a class="code hl_variable" href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#af4cca13b9039d7c88e7fad1e8f23eb3a">m_auiEncounter</a>[1] &lt;&lt; <span class="charliteral">&#39; &#39;</span> &lt;&lt; <a class="code hl_variable" href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#af4cca13b9039d7c88e7fad1e8f23eb3a">m_auiEncounter</a>[2] &lt;&lt; <span class="charliteral">&#39; &#39;</span> &lt;&lt; <a class="code hl_variable" href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#af4cca13b9039d7c88e7fad1e8f23eb3a">m_auiEncounter</a>[3] &lt;&lt; <span class="charliteral">&#39; &#39;</span> &lt;&lt; <a class="code hl_variable" href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#ae5a87cc8bfc153aee0f96978f39a1932">CentrifugeCount</a>;</div>
+<div class="line"><span class="lineno">  247</span> </div>
+<div class="line"><span class="lineno">  248</span>            <a class="code hl_define" href="../../da/d42/_instance_script_8h.html#a3a93295e3500f757163145c03e90db3d">OUT_SAVE_INST_DATA_COMPLETE</a>;</div>
+<div class="line"><span class="lineno">  249</span>            <span class="keywordflow">return</span> saveStream.str();</div>
+<div class="line"><span class="lineno">  250</span>        }</div>
+<div class="ttc" id="a_instance_script_8h_html_a3a93295e3500f757163145c03e90db3d"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a3a93295e3500f757163145c03e90db3d">OUT_SAVE_INST_DATA_COMPLETE</a></div><div class="ttdeci">#define OUT_SAVE_INST_DATA_COMPLETE</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:28</div></div>
+<div class="ttc" id="a_instance_script_8h_html_a65ed3183971093dcebed99d1ec6d6d63"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a65ed3183971093dcebed99d1ec6d6d63">OUT_SAVE_INST_DATA</a></div><div class="ttdeci">#define OUT_SAVE_INST_DATA</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:27</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a1c035ca450efdd89481715bd09c6c38c" name="a1c035ca450efdd89481715bd09c6c38c"></a>
@@ -528,7 +636,15 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d8/d83/class_instance_script.html#ae28a789e519af133bb744c796902294c">InstanceScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   54</span>        {</div>
+<div class="line"><span class="lineno">   55</span>            <a class="code hl_variable" href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#ae5a87cc8bfc153aee0f96978f39a1932">CentrifugeCount</a> = 0;</div>
+<div class="line"><span class="lineno">   56</span>            <a class="code hl_variable" href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#a9dfa8834bfea20a8f4a39c958e38bcbd">bAmberVoid</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   57</span>            <a class="code hl_variable" href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#a45ce85a8a6c9362ad04194b0518066c9">bEmeraldVoid</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   58</span>            <a class="code hl_variable" href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#ad93d6be40d07925d1eb485f864c72ace">bRubyVoid</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   59</span> </div>
+<div class="line"><span class="lineno">   60</span>            memset(&amp;<a class="code hl_variable" href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#af4cca13b9039d7c88e7fad1e8f23eb3a">m_auiEncounter</a>, 0, <span class="keyword">sizeof</span>(<a class="code hl_variable" href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#af4cca13b9039d7c88e7fad1e8f23eb3a">m_auiEncounter</a>));</div>
+<div class="line"><span class="lineno">   61</span>        }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a1f833ee2e312513b9b2484880378fcbb" name="a1f833ee2e312513b9b2484880378fcbb"></a>
@@ -556,7 +672,40 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d8/d83/class_instance_script.html#ad8be0d1c384b505f5b3fa1ab55eb1f61">InstanceScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  253</span>        {</div>
+<div class="line"><span class="lineno">  254</span>            <span class="keywordflow">if</span>( !in )</div>
+<div class="line"><span class="lineno">  255</span>            {</div>
+<div class="line"><span class="lineno">  256</span>                <a class="code hl_define" href="../../da/d42/_instance_script_8h.html#a141fd6fe34ebbd5c3ad507db42f41b4a">OUT_LOAD_INST_DATA_FAIL</a>;</div>
+<div class="line"><span class="lineno">  257</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  258</span>            }</div>
+<div class="line"><span class="lineno">  259</span> </div>
+<div class="line"><span class="lineno">  260</span>            <a class="code hl_define" href="../../da/d42/_instance_script_8h.html#aafbf0073420e9a897ec0f243f4793a0f">OUT_LOAD_INST_DATA</a>(in);</div>
+<div class="line"><span class="lineno">  261</span> </div>
+<div class="line"><span class="lineno">  262</span>            <span class="keywordtype">char</span> dataHead1, dataHead2;</div>
+<div class="line"><span class="lineno">  263</span>            std::istringstream loadStream(in);</div>
+<div class="line"><span class="lineno">  264</span>            loadStream &gt;&gt; dataHead1 &gt;&gt; dataHead2;</div>
+<div class="line"><span class="lineno">  265</span> </div>
+<div class="line"><span class="lineno">  266</span>            <span class="keywordflow">if</span>( dataHead1 == <span class="charliteral">&#39;T&#39;</span> &amp;&amp; dataHead2 == <span class="charliteral">&#39;O&#39;</span> )</div>
+<div class="line"><span class="lineno">  267</span>            {</div>
+<div class="line"><span class="lineno">  268</span>                loadStream &gt;&gt; <a class="code hl_variable" href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#af4cca13b9039d7c88e7fad1e8f23eb3a">m_auiEncounter</a>[0] &gt;&gt; <a class="code hl_variable" href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#af4cca13b9039d7c88e7fad1e8f23eb3a">m_auiEncounter</a>[1] &gt;&gt; <a class="code hl_variable" href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#af4cca13b9039d7c88e7fad1e8f23eb3a">m_auiEncounter</a>[2] &gt;&gt; <a class="code hl_variable" href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#af4cca13b9039d7c88e7fad1e8f23eb3a">m_auiEncounter</a>[3] &gt;&gt; <a class="code hl_variable" href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#ae5a87cc8bfc153aee0f96978f39a1932">CentrifugeCount</a>;</div>
+<div class="line"><span class="lineno">  269</span> </div>
+<div class="line"><span class="lineno">  270</span>                <span class="keywordflow">for</span>( <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> i = 0; i &lt; <a class="code hl_define" href="../../da/d4c/violet__hold_8h.html#ac6cdc058851f958e83d8104f6ed3efe2">MAX_ENCOUNTER</a>; ++i )</div>
+<div class="line"><span class="lineno">  271</span>                    <span class="keywordflow">if</span>( <a class="code hl_variable" href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#af4cca13b9039d7c88e7fad1e8f23eb3a">m_auiEncounter</a>[i] == <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012">IN_PROGRESS</a> )</div>
+<div class="line"><span class="lineno">  272</span>                        <a class="code hl_variable" href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#af4cca13b9039d7c88e7fad1e8f23eb3a">m_auiEncounter</a>[i] = <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694ae7d82dfe80ea0bd4feea8ee49ea2eab5">NOT_STARTED</a>;</div>
+<div class="line"><span class="lineno">  273</span>            }</div>
+<div class="line"><span class="lineno">  274</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  275</span>                <a class="code hl_define" href="../../da/d42/_instance_script_8h.html#a141fd6fe34ebbd5c3ad507db42f41b4a">OUT_LOAD_INST_DATA_FAIL</a>;</div>
+<div class="line"><span class="lineno">  276</span> </div>
+<div class="line"><span class="lineno">  277</span>            <a class="code hl_define" href="../../da/d42/_instance_script_8h.html#a490e19560f068912b0e3dbd61c689b44">OUT_LOAD_INST_DATA_COMPLETE</a>;</div>
+<div class="line"><span class="lineno">  278</span>        }</div>
+<div class="ttc" id="a_define_8h_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:110</div></div>
+<div class="ttc" id="a_instance_script_8h_html_a141fd6fe34ebbd5c3ad507db42f41b4a"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a141fd6fe34ebbd5c3ad507db42f41b4a">OUT_LOAD_INST_DATA_FAIL</a></div><div class="ttdeci">#define OUT_LOAD_INST_DATA_FAIL</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:31</div></div>
+<div class="ttc" id="a_instance_script_8h_html_a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012">IN_PROGRESS</a></div><div class="ttdeci">@ IN_PROGRESS</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:57</div></div>
+<div class="ttc" id="a_instance_script_8h_html_a1c28341208eeb4bdc8237e8ceac88694ae7d82dfe80ea0bd4feea8ee49ea2eab5"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694ae7d82dfe80ea0bd4feea8ee49ea2eab5">NOT_STARTED</a></div><div class="ttdeci">@ NOT_STARTED</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:56</div></div>
+<div class="ttc" id="a_instance_script_8h_html_a490e19560f068912b0e3dbd61c689b44"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a490e19560f068912b0e3dbd61c689b44">OUT_LOAD_INST_DATA_COMPLETE</a></div><div class="ttdeci">#define OUT_LOAD_INST_DATA_COMPLETE</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:30</div></div>
+<div class="ttc" id="a_instance_script_8h_html_aafbf0073420e9a897ec0f243f4793a0f"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#aafbf0073420e9a897ec0f243f4793a0f">OUT_LOAD_INST_DATA</a></div><div class="ttdeci">#define OUT_LOAD_INST_DATA(a)</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:29</div></div>
+<div class="ttc" id="aviolet__hold_8h_html_ac6cdc058851f958e83d8104f6ed3efe2"><div class="ttname"><a href="../../da/d4c/violet__hold_8h.html#ac6cdc058851f958e83d8104f6ed3efe2">MAX_ENCOUNTER</a></div><div class="ttdeci">#define MAX_ENCOUNTER</div><div class="ttdef"><b>Definition:</b> violet_hold.h:21</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a1b0553334dc2d00fd12512dae373039a" name="a1b0553334dc2d00fd12512dae373039a"></a>
@@ -584,7 +733,30 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d8/d83/class_instance_script.html#a07b3c70e8153dfd74edb86656bf2b254">InstanceScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   64</span>        {</div>
+<div class="line"><span class="lineno">   65</span>            <span class="keywordflow">switch</span>( pCreature-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>() )</div>
+<div class="line"><span class="lineno">   66</span>            {</div>
+<div class="line"><span class="lineno">   67</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#a6986ec7b2d3274669934af9795f26d5ca159355a5d62485573c94323e3d8c1e58">NPC_DRAKOS</a>:</div>
+<div class="line"><span class="lineno">   68</span>                    <a class="code hl_variable" href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#a1bc410826700bdfcefc5f60d0967a091">uiDrakosGUID</a> = pCreature-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>();</div>
+<div class="line"><span class="lineno">   69</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   70</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#a6986ec7b2d3274669934af9795f26d5cab2bf5480de2097376576bf85934d3a87">NPC_VAROS</a>:</div>
+<div class="line"><span class="lineno">   71</span>                    <a class="code hl_variable" href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#ab4a87ca38d203deacc377579e66e5bfb">uiVarosGUID</a> = pCreature-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>();</div>
+<div class="line"><span class="lineno">   72</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   73</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#a6986ec7b2d3274669934af9795f26d5ca965a57aa111a044ebaaccd2fc11b9d34">NPC_UROM</a>:</div>
+<div class="line"><span class="lineno">   74</span>                    <a class="code hl_variable" href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#accf640519e925eccf0230ca4a5dee3bb">uiUromGUID</a> = pCreature-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>();</div>
+<div class="line"><span class="lineno">   75</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   76</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#a6986ec7b2d3274669934af9795f26d5ca3a3a1fe7f6d3c61d9670989241613684">NPC_EREGOS</a>:</div>
+<div class="line"><span class="lineno">   77</span>                    <a class="code hl_variable" href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#a559b482989ee8f91f1ba412683856d89">uiEregosGUID</a> = pCreature-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>();</div>
+<div class="line"><span class="lineno">   78</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   79</span>            }</div>
+<div class="line"><span class="lineno">   80</span>        }</div>
+<div class="ttc" id="aclass_object_html_aa627fe2967ed0e0ed1d8aeeb4365a961"><div class="ttname"><a href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">Object::GetEntry</a></div><div class="ttdeci">uint32 GetEntry() const</div><div class="ttdef"><b>Definition:</b> Object.h:109</div></div>
+<div class="ttc" id="aclass_object_html_ad23b997e2442fa6a6228ba73a7ecc138"><div class="ttname"><a href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">Object::GetGUID</a></div><div class="ttdeci">static ObjectGuid GetGUID(Object const *o)</div><div class="ttdef"><b>Definition:</b> Object.h:106</div></div>
+<div class="ttc" id="aoculus_8h_html_a6986ec7b2d3274669934af9795f26d5ca159355a5d62485573c94323e3d8c1e58"><div class="ttname"><a href="../../df/d29/oculus_8h.html#a6986ec7b2d3274669934af9795f26d5ca159355a5d62485573c94323e3d8c1e58">NPC_DRAKOS</a></div><div class="ttdeci">@ NPC_DRAKOS</div><div class="ttdef"><b>Definition:</b> oculus.h:50</div></div>
+<div class="ttc" id="aoculus_8h_html_a6986ec7b2d3274669934af9795f26d5ca3a3a1fe7f6d3c61d9670989241613684"><div class="ttname"><a href="../../df/d29/oculus_8h.html#a6986ec7b2d3274669934af9795f26d5ca3a3a1fe7f6d3c61d9670989241613684">NPC_EREGOS</a></div><div class="ttdeci">@ NPC_EREGOS</div><div class="ttdef"><b>Definition:</b> oculus.h:53</div></div>
+<div class="ttc" id="aoculus_8h_html_a6986ec7b2d3274669934af9795f26d5ca965a57aa111a044ebaaccd2fc11b9d34"><div class="ttname"><a href="../../df/d29/oculus_8h.html#a6986ec7b2d3274669934af9795f26d5ca965a57aa111a044ebaaccd2fc11b9d34">NPC_UROM</a></div><div class="ttdeci">@ NPC_UROM</div><div class="ttdef"><b>Definition:</b> oculus.h:52</div></div>
+<div class="ttc" id="aoculus_8h_html_a6986ec7b2d3274669934af9795f26d5cab2bf5480de2097376576bf85934d3a87"><div class="ttname"><a href="../../df/d29/oculus_8h.html#a6986ec7b2d3274669934af9795f26d5cab2bf5480de2097376576bf85934d3a87">NPC_VAROS</a></div><div class="ttdeci">@ NPC_VAROS</div><div class="ttdef"><b>Definition:</b> oculus.h:51</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a08abbb0430a43bb4841560b01e9fe26c" name="a08abbb0430a43bb4841560b01e9fe26c"></a>
@@ -612,7 +784,42 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d8/d83/class_instance_script.html#a95f23d1bff59799247babdd0d077bb7c">InstanceScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   83</span>        {</div>
+<div class="line"><span class="lineno">   84</span>            <span class="keywordflow">switch</span>( pGo-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>() )</div>
+<div class="line"><span class="lineno">   85</span>            {</div>
+<div class="line"><span class="lineno">   86</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#a0e34bfee1d19a882b3f839910a0df5c5ad9112ab4da3904d6906631cbbdc0ac75">GO_DRAGON_CAGE_DOOR</a>:</div>
+<div class="line"><span class="lineno">   87</span>                    <span class="keywordflow">for</span>( <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> i = 0; i &lt; 3; ++i )</div>
+<div class="line"><span class="lineno">   88</span>                    {</div>
+<div class="line"><span class="lineno">   89</span>                        <span class="keywordflow">if</span>( <a class="code hl_variable" href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#a402480035dfffd7c4c717229bd55b921">DragonCageDoorGUID</a>[i] )</div>
+<div class="line"><span class="lineno">   90</span>                            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">   91</span> </div>
+<div class="line"><span class="lineno">   92</span>                        <a class="code hl_variable" href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#a402480035dfffd7c4c717229bd55b921">DragonCageDoorGUID</a>[i] = pGo-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>();</div>
+<div class="line"><span class="lineno">   93</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   94</span>                    }</div>
+<div class="line"><span class="lineno">   95</span>                    <span class="keywordflow">if</span>( <a class="code hl_variable" href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#af4cca13b9039d7c88e7fad1e8f23eb3a">m_auiEncounter</a>[<a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#af5baa506e65b4caa6be6d1c6661dfe63a62efa54814a33a4d3e67aef578a5893b">DATA_DRAKOS</a>] == <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749">DONE</a> )</div>
+<div class="line"><span class="lineno">   96</span>                        <span class="keywordflow">if</span>( pGo-&gt;<a class="code hl_function" href="../../d0/dd1/class_game_object.html#a182d72a123211237f000795a39f5def9">GetGoState</a>() != <a class="code hl_enumvalue" href="../../df/d91/_game_object_8h.html#ac17cd142af80da019367bb796b15e5abaf4f299c1cfc830c90418c4487c567c1e">GO_STATE_ACTIVE</a> )</div>
+<div class="line"><span class="lineno">   97</span>                        {</div>
+<div class="line"><span class="lineno">   98</span>                            pGo-&gt;<a class="code hl_function" href="../../d0/dd1/class_game_object.html#a643b94ed112dc4e4fd2e335ecfbfe92d">SetLootState</a>(<a class="code hl_enumvalue" href="../../df/d91/_game_object_8h.html#a08733f20cea1f77cc9f1a549f8ce9f07a8708de424ecaae41eb7271d399f1d5fc">GO_READY</a>);</div>
+<div class="line"><span class="lineno">   99</span>                            pGo-&gt;<a class="code hl_function" href="../../d0/dd1/class_game_object.html#a12000cdd8344e082611a6dafc6d283fa">UseDoorOrButton</a>(0, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  100</span>                        }</div>
+<div class="line"><span class="lineno">  101</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  102</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#a0e34bfee1d19a882b3f839910a0df5c5a330ecb09f57548e54e2caa4fc0f69b07">GO_CACHE_OF_EREGOS</a>:</div>
+<div class="line"><span class="lineno">  103</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#a0e34bfee1d19a882b3f839910a0df5c5a488fca0324c32f82c39bbb5287fe7971">GO_CACHE_OF_EREGOS_HERO</a>:</div>
+<div class="line"><span class="lineno">  104</span>                    <a class="code hl_variable" href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#aad60cffd6c483bf4610884c3b99ad39c">EregosCacheGUID</a> = pGo-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>();</div>
+<div class="line"><span class="lineno">  105</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  106</span>            }</div>
+<div class="line"><span class="lineno">  107</span>        }</div>
+<div class="ttc" id="a_game_object_8h_html_a08733f20cea1f77cc9f1a549f8ce9f07a8708de424ecaae41eb7271d399f1d5fc"><div class="ttname"><a href="../../df/d91/_game_object_8h.html#a08733f20cea1f77cc9f1a549f8ce9f07a8708de424ecaae41eb7271d399f1d5fc">GO_READY</a></div><div class="ttdeci">@ GO_READY</div><div class="ttdef"><b>Definition:</b> GameObject.h:801</div></div>
+<div class="ttc" id="a_game_object_8h_html_ac17cd142af80da019367bb796b15e5abaf4f299c1cfc830c90418c4487c567c1e"><div class="ttname"><a href="../../df/d91/_game_object_8h.html#ac17cd142af80da019367bb796b15e5abaf4f299c1cfc830c90418c4487c567c1e">GO_STATE_ACTIVE</a></div><div class="ttdeci">@ GO_STATE_ACTIVE</div><div class="ttdef"><b>Definition:</b> GameObject.h:734</div></div>
+<div class="ttc" id="a_instance_script_8h_html_a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749">DONE</a></div><div class="ttdeci">@ DONE</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:59</div></div>
+<div class="ttc" id="aclass_game_object_html_a12000cdd8344e082611a6dafc6d283fa"><div class="ttname"><a href="../../d0/dd1/class_game_object.html#a12000cdd8344e082611a6dafc6d283fa">GameObject::UseDoorOrButton</a></div><div class="ttdeci">void UseDoorOrButton(uint32 time_to_restore=0, bool alternative=false, Unit *user=nullptr)</div><div class="ttdef"><b>Definition:</b> GameObject.cpp:1400</div></div>
+<div class="ttc" id="aclass_game_object_html_a182d72a123211237f000795a39f5def9"><div class="ttname"><a href="../../d0/dd1/class_game_object.html#a182d72a123211237f000795a39f5def9">GameObject::GetGoState</a></div><div class="ttdeci">GOState GetGoState() const</div><div class="ttdef"><b>Definition:</b> GameObject.h:898</div></div>
+<div class="ttc" id="aclass_game_object_html_a643b94ed112dc4e4fd2e335ecfbfe92d"><div class="ttname"><a href="../../d0/dd1/class_game_object.html#a643b94ed112dc4e4fd2e335ecfbfe92d">GameObject::SetLootState</a></div><div class="ttdeci">void SetLootState(LootState s, Unit *unit=nullptr)</div><div class="ttdef"><b>Definition:</b> GameObject.cpp:2413</div></div>
+<div class="ttc" id="aoculus_8h_html_a0e34bfee1d19a882b3f839910a0df5c5a330ecb09f57548e54e2caa4fc0f69b07"><div class="ttname"><a href="../../df/d29/oculus_8h.html#a0e34bfee1d19a882b3f839910a0df5c5a330ecb09f57548e54e2caa4fc0f69b07">GO_CACHE_OF_EREGOS</a></div><div class="ttdeci">@ GO_CACHE_OF_EREGOS</div><div class="ttdef"><b>Definition:</b> oculus.h:84</div></div>
+<div class="ttc" id="aoculus_8h_html_a0e34bfee1d19a882b3f839910a0df5c5a488fca0324c32f82c39bbb5287fe7971"><div class="ttname"><a href="../../df/d29/oculus_8h.html#a0e34bfee1d19a882b3f839910a0df5c5a488fca0324c32f82c39bbb5287fe7971">GO_CACHE_OF_EREGOS_HERO</a></div><div class="ttdeci">@ GO_CACHE_OF_EREGOS_HERO</div><div class="ttdef"><b>Definition:</b> oculus.h:85</div></div>
+<div class="ttc" id="aoculus_8h_html_a0e34bfee1d19a882b3f839910a0df5c5ad9112ab4da3904d6906631cbbdc0ac75"><div class="ttname"><a href="../../df/d29/oculus_8h.html#a0e34bfee1d19a882b3f839910a0df5c5ad9112ab4da3904d6906631cbbdc0ac75">GO_DRAGON_CAGE_DOOR</a></div><div class="ttdeci">@ GO_DRAGON_CAGE_DOOR</div><div class="ttdef"><b>Definition:</b> oculus.h:83</div></div>
+<div class="ttc" id="astructinstance__oculus_1_1instance__oculus___instance_map_script_html_aad60cffd6c483bf4610884c3b99ad39c"><div class="ttname"><a href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#aad60cffd6c483bf4610884c3b99ad39c">instance_oculus::instance_oculus_InstanceMapScript::EregosCacheGUID</a></div><div class="ttdeci">ObjectGuid EregosCacheGUID</div><div class="ttdef"><b>Definition:</b> instance_oculus.cpp:41</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a7046a9b087300d0854bb1078c7bd1c9b" name="a7046a9b087300d0854bb1078c7bd1c9b"></a>
@@ -640,7 +847,22 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d8/d83/class_instance_script.html#ad87af1c183202b03307ff0694c8aa0e2">InstanceScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  110</span>        {</div>
+<div class="line"><span class="lineno">  111</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#af4cca13b9039d7c88e7fad1e8f23eb3a">m_auiEncounter</a>[<a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#af5baa506e65b4caa6be6d1c6661dfe63a62efa54814a33a4d3e67aef578a5893b">DATA_DRAKOS</a>] == <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749">DONE</a> &amp;&amp; <a class="code hl_variable" href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#af4cca13b9039d7c88e7fad1e8f23eb3a">m_auiEncounter</a>[<a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#af5baa506e65b4caa6be6d1c6661dfe63a45d32cfc4a9681ff35d6c70243999794">DATA_VAROS</a>] != <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749">DONE</a>)</div>
+<div class="line"><span class="lineno">  112</span>            {</div>
+<div class="line"><span class="lineno">  113</span>                player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a2a12863caf54ad9a8af56bda556d7a4b">SendUpdateWorldState</a>(<a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#a7002d594b5e2e99facc4d247af72e898acf45b968157fcc12135e44db11f6b271">WORLD_STATE_CENTRIFUGE_CONSTRUCT_SHOW</a>, 1);</div>
+<div class="line"><span class="lineno">  114</span>                player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a2a12863caf54ad9a8af56bda556d7a4b">SendUpdateWorldState</a>(<a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#a7002d594b5e2e99facc4d247af72e898a91a81fa6b19d26b04314a3a6e60bb1b4">WORLD_STATE_CENTRIFUGE_CONSTRUCT_AMOUNT</a>, 10 - <a class="code hl_variable" href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#ae5a87cc8bfc153aee0f96978f39a1932">CentrifugeCount</a>);</div>
+<div class="line"><span class="lineno">  115</span>            }</div>
+<div class="line"><span class="lineno">  116</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  117</span>            {</div>
+<div class="line"><span class="lineno">  118</span>                player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a2a12863caf54ad9a8af56bda556d7a4b">SendUpdateWorldState</a>(<a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#a7002d594b5e2e99facc4d247af72e898acf45b968157fcc12135e44db11f6b271">WORLD_STATE_CENTRIFUGE_CONSTRUCT_SHOW</a>, 0);</div>
+<div class="line"><span class="lineno">  119</span>                player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a2a12863caf54ad9a8af56bda556d7a4b">SendUpdateWorldState</a>(<a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#a7002d594b5e2e99facc4d247af72e898a91a81fa6b19d26b04314a3a6e60bb1b4">WORLD_STATE_CENTRIFUGE_CONSTRUCT_AMOUNT</a>, 0);</div>
+<div class="line"><span class="lineno">  120</span>            }</div>
+<div class="line"><span class="lineno">  121</span>        }</div>
+<div class="ttc" id="aclass_player_html_a2a12863caf54ad9a8af56bda556d7a4b"><div class="ttname"><a href="../../d8/d53/class_player.html#a2a12863caf54ad9a8af56bda556d7a4b">Player::SendUpdateWorldState</a></div><div class="ttdeci">void SendUpdateWorldState(uint32 variable, uint32 value) const</div><div class="ttdef"><b>Definition:</b> PlayerUpdates.cpp:2189</div></div>
+<div class="ttc" id="aoculus_8h_html_a7002d594b5e2e99facc4d247af72e898a91a81fa6b19d26b04314a3a6e60bb1b4"><div class="ttname"><a href="../../df/d29/oculus_8h.html#a7002d594b5e2e99facc4d247af72e898a91a81fa6b19d26b04314a3a6e60bb1b4">WORLD_STATE_CENTRIFUGE_CONSTRUCT_AMOUNT</a></div><div class="ttdeci">@ WORLD_STATE_CENTRIFUGE_CONSTRUCT_AMOUNT</div><div class="ttdef"><b>Definition:</b> oculus.h:103</div></div>
+<div class="ttc" id="aoculus_8h_html_a7002d594b5e2e99facc4d247af72e898acf45b968157fcc12135e44db11f6b271"><div class="ttname"><a href="../../df/d29/oculus_8h.html#a7002d594b5e2e99facc4d247af72e898acf45b968157fcc12135e44db11f6b271">WORLD_STATE_CENTRIFUGE_CONSTRUCT_SHOW</a></div><div class="ttdeci">@ WORLD_STATE_CENTRIFUGE_CONSTRUCT_SHOW</div><div class="ttdef"><b>Definition:</b> oculus.h:102</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a84fa94a97c62ba7b68130c7a5d8bb4dd" name="a84fa94a97c62ba7b68130c7a5d8bb4dd"></a>
@@ -668,7 +890,13 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../df/dad/class_zone_script.html#afaf1aecaaaac82508b8f1c50712b8204">ZoneScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  124</span>        {</div>
+<div class="line"><span class="lineno">  125</span>            <span class="keywordflow">if</span> (unit-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>() == <a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#a6986ec7b2d3274669934af9795f26d5ca2ca72db3e8475eeba86052fae23a2505">NPC_CENTRIFUGE_CONSTRUCT</a>)</div>
+<div class="line"><span class="lineno">  126</span>                <a class="code hl_function" href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#a58b0b5142cbae350d6cc61c89a3792af">SetData</a>(<a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#af5baa506e65b4caa6be6d1c6661dfe63ac67df56895111306b17ce28c89359d1a">DATA_CC_COUNT</a>, <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749">DONE</a>);</div>
+<div class="line"><span class="lineno">  127</span>        }</div>
+<div class="ttc" id="aoculus_8h_html_a6986ec7b2d3274669934af9795f26d5ca2ca72db3e8475eeba86052fae23a2505"><div class="ttname"><a href="../../df/d29/oculus_8h.html#a6986ec7b2d3274669934af9795f26d5ca2ca72db3e8475eeba86052fae23a2505">NPC_CENTRIFUGE_CONSTRUCT</a></div><div class="ttdeci">@ NPC_CENTRIFUGE_CONSTRUCT</div><div class="ttdef"><b>Definition:</b> oculus.h:63</div></div>
+<div class="ttc" id="astructinstance__oculus_1_1instance__oculus___instance_map_script_html_a58b0b5142cbae350d6cc61c89a3792af"><div class="ttname"><a href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#a58b0b5142cbae350d6cc61c89a3792af">instance_oculus::instance_oculus_InstanceMapScript::SetData</a></div><div class="ttdeci">void SetData(uint32 type, uint32 data) override</div><div class="ttdef"><b>Definition:</b> instance_oculus.cpp:129</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a58b0b5142cbae350d6cc61c89a3792af" name="a58b0b5142cbae350d6cc61c89a3792af"></a>
@@ -706,7 +934,97 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../df/dad/class_zone_script.html#a949e67ea24c7e4b70a20806952735576">ZoneScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  130</span>        {</div>
+<div class="line"><span class="lineno">  131</span>            <span class="keywordflow">switch</span>( type )</div>
+<div class="line"><span class="lineno">  132</span>            {</div>
+<div class="line"><span class="lineno">  133</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#af5baa506e65b4caa6be6d1c6661dfe63a62efa54814a33a4d3e67aef578a5893b">DATA_DRAKOS</a>:</div>
+<div class="line"><span class="lineno">  134</span>                    <a class="code hl_variable" href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#af4cca13b9039d7c88e7fad1e8f23eb3a">m_auiEncounter</a>[<a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#af5baa506e65b4caa6be6d1c6661dfe63a62efa54814a33a4d3e67aef578a5893b">DATA_DRAKOS</a>] = data;</div>
+<div class="line"><span class="lineno">  135</span>                    <span class="keywordflow">if</span>( data == <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749">DONE</a> )</div>
+<div class="line"><span class="lineno">  136</span>                    {</div>
+<div class="line"><span class="lineno">  137</span>                        <a class="code hl_function" href="../../d8/d83/class_instance_script.html#aedd4eef2e0653d655e20fdd5343b372e">DoUpdateWorldState</a>(<a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#a7002d594b5e2e99facc4d247af72e898acf45b968157fcc12135e44db11f6b271">WORLD_STATE_CENTRIFUGE_CONSTRUCT_SHOW</a>, 1);</div>
+<div class="line"><span class="lineno">  138</span>                        <a class="code hl_function" href="../../d8/d83/class_instance_script.html#aedd4eef2e0653d655e20fdd5343b372e">DoUpdateWorldState</a>(<a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#a7002d594b5e2e99facc4d247af72e898a91a81fa6b19d26b04314a3a6e60bb1b4">WORLD_STATE_CENTRIFUGE_CONSTRUCT_AMOUNT</a>, 10 - <a class="code hl_variable" href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#ae5a87cc8bfc153aee0f96978f39a1932">CentrifugeCount</a>);</div>
+<div class="line"><span class="lineno">  139</span> </div>
+<div class="line"><span class="lineno">  140</span>                        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d8/d83/class_instance_script.html#a4b84b9635742380ce5dc6e2f8d76e30b">instance</a>-&gt;<a class="code hl_function" href="../../dd/d11/class_map.html#adcbab2814bdaeba356c591bffd953cea">IsHeroic</a>())</div>
+<div class="line"><span class="lineno">  141</span>                            <a class="code hl_function" href="../../d8/d83/class_instance_script.html#ac01ba61e0495829df66878fca191f7eb">DoStartTimedAchievement</a>(<a class="code hl_enumvalue" href="../../dc/d6e/_d_b_c_enums_8h.html#a282f094fb8ee80177dd57d2086ddd35bac02bba0f3ad69a2fc8ccde1efade56a3">ACHIEVEMENT_TIMED_TYPE_EVENT</a>, <a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#a40fe1d92134cb8005a020994cf6edd5ead41fae04f49e4f13f7a0cdd8231a5c23">ACHIEV_MAKE_IT_COUNT_TIMED_EVENT</a>);</div>
+<div class="line"><span class="lineno">  142</span>                    }</div>
+<div class="line"><span class="lineno">  143</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  144</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#af5baa506e65b4caa6be6d1c6661dfe63a45d32cfc4a9681ff35d6c70243999794">DATA_VAROS</a>:</div>
+<div class="line"><span class="lineno">  145</span>                    <a class="code hl_variable" href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#af4cca13b9039d7c88e7fad1e8f23eb3a">m_auiEncounter</a>[<a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#af5baa506e65b4caa6be6d1c6661dfe63a45d32cfc4a9681ff35d6c70243999794">DATA_VAROS</a>] = data;</div>
+<div class="line"><span class="lineno">  146</span>                    <span class="keywordflow">if</span>( data == <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749">DONE</a> )</div>
+<div class="line"><span class="lineno">  147</span>                    {</div>
+<div class="line"><span class="lineno">  148</span>                        <a class="code hl_function" href="../../d8/d83/class_instance_script.html#aedd4eef2e0653d655e20fdd5343b372e">DoUpdateWorldState</a>(<a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#a7002d594b5e2e99facc4d247af72e898acf45b968157fcc12135e44db11f6b271">WORLD_STATE_CENTRIFUGE_CONSTRUCT_SHOW</a>, 0);</div>
+<div class="line"><span class="lineno">  149</span> </div>
+<div class="line"><span class="lineno">  150</span>                        <span class="keywordflow">if</span>( <a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* urom = <a class="code hl_variable" href="../../d8/d83/class_instance_script.html#a4b84b9635742380ce5dc6e2f8d76e30b">instance</a>-&gt;<a class="code hl_function" href="../../dd/d11/class_map.html#a9c20f696cb8109183fbd81b13848b050">GetCreature</a>(<a class="code hl_variable" href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#accf640519e925eccf0230ca4a5dee3bb">uiUromGUID</a>) )</div>
+<div class="line"><span class="lineno">  151</span>                            urom-&gt;RemoveUnitFlag(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a2ecf000dcea1c08aeb8721570707f922">UNIT_FLAG_NON_ATTACKABLE</a>);</div>
+<div class="line"><span class="lineno">  152</span>                    }</div>
+<div class="line"><span class="lineno">  153</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  154</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#af5baa506e65b4caa6be6d1c6661dfe63aa5927bac3b5dbcbb4d84d36552c1f6c1">DATA_UROM</a>:</div>
+<div class="line"><span class="lineno">  155</span>                    <a class="code hl_variable" href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#af4cca13b9039d7c88e7fad1e8f23eb3a">m_auiEncounter</a>[<a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#af5baa506e65b4caa6be6d1c6661dfe63aa5927bac3b5dbcbb4d84d36552c1f6c1">DATA_UROM</a>] = data;</div>
+<div class="line"><span class="lineno">  156</span>                    <span class="keywordflow">if</span>( data == <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749">DONE</a> )</div>
+<div class="line"><span class="lineno">  157</span>                        <span class="keywordflow">if</span>( <a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* eregos = <a class="code hl_variable" href="../../d8/d83/class_instance_script.html#a4b84b9635742380ce5dc6e2f8d76e30b">instance</a>-&gt;<a class="code hl_function" href="../../dd/d11/class_map.html#a9c20f696cb8109183fbd81b13848b050">GetCreature</a>(<a class="code hl_variable" href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#a559b482989ee8f91f1ba412683856d89">uiEregosGUID</a>) )</div>
+<div class="line"><span class="lineno">  158</span>                            eregos-&gt;RemoveUnitFlag(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a2ecf000dcea1c08aeb8721570707f922">UNIT_FLAG_NON_ATTACKABLE</a>);</div>
+<div class="line"><span class="lineno">  159</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  160</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#af5baa506e65b4caa6be6d1c6661dfe63a59f8ffa23a594b37955bfb7cbdedb94c">DATA_EREGOS</a>:</div>
+<div class="line"><span class="lineno">  161</span>                    <a class="code hl_variable" href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#af4cca13b9039d7c88e7fad1e8f23eb3a">m_auiEncounter</a>[<a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#af5baa506e65b4caa6be6d1c6661dfe63a59f8ffa23a594b37955bfb7cbdedb94c">DATA_EREGOS</a>] = data;</div>
+<div class="line"><span class="lineno">  162</span>                    <span class="keywordflow">if</span> (data == <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749">DONE</a>)</div>
+<div class="line"><span class="lineno">  163</span>                    {</div>
+<div class="line"><span class="lineno">  164</span>                        <a class="code hl_function" href="../../d8/d83/class_instance_script.html#aa528d1016aee9dbbe55b7933fe631917">DoRespawnGameObject</a>(<a class="code hl_variable" href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#aad60cffd6c483bf4610884c3b99ad39c">EregosCacheGUID</a>, 7 * <a class="code hl_variable" href="../../db/d1f/_common_8h.html#a219e927a5d306db9cd363487d1f94366">DAY</a>);</div>
+<div class="line"><span class="lineno">  165</span> </div>
+<div class="line"><span class="lineno">  166</span>                        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d0/dd1/class_game_object.html">GameObject</a>* cache = <a class="code hl_variable" href="../../d8/d83/class_instance_script.html#a4b84b9635742380ce5dc6e2f8d76e30b">instance</a>-&gt;<a class="code hl_function" href="../../dd/d11/class_map.html#a92001d81940cdfec678ec714248052a5">GetGameObject</a>(<a class="code hl_variable" href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#aad60cffd6c483bf4610884c3b99ad39c">EregosCacheGUID</a>))</div>
+<div class="line"><span class="lineno">  167</span>                        {</div>
+<div class="line"><span class="lineno">  168</span>                            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* eregos = <a class="code hl_variable" href="../../d8/d83/class_instance_script.html#a4b84b9635742380ce5dc6e2f8d76e30b">instance</a>-&gt;<a class="code hl_function" href="../../dd/d11/class_map.html#a9c20f696cb8109183fbd81b13848b050">GetCreature</a>(<a class="code hl_variable" href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#a559b482989ee8f91f1ba412683856d89">uiEregosGUID</a>))</div>
+<div class="line"><span class="lineno">  169</span>                            {</div>
+<div class="line"><span class="lineno">  170</span>                                cache-&gt;SetLootRecipient(eregos);</div>
+<div class="line"><span class="lineno">  171</span>                            }</div>
+<div class="line"><span class="lineno">  172</span>                        }</div>
+<div class="line"><span class="lineno">  173</span>                    }</div>
+<div class="line"><span class="lineno">  174</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  175</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#af5baa506e65b4caa6be6d1c6661dfe63ac67df56895111306b17ce28c89359d1a">DATA_CC_COUNT</a>:</div>
+<div class="line"><span class="lineno">  176</span>                    <span class="keywordflow">if</span>( <a class="code hl_variable" href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#ae5a87cc8bfc153aee0f96978f39a1932">CentrifugeCount</a> &lt; 10 )</div>
+<div class="line"><span class="lineno">  177</span>                    {</div>
+<div class="line"><span class="lineno">  178</span>                        ++<a class="code hl_variable" href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#ae5a87cc8bfc153aee0f96978f39a1932">CentrifugeCount</a>;</div>
+<div class="line"><span class="lineno">  179</span>                        <a class="code hl_function" href="../../d8/d83/class_instance_script.html#aedd4eef2e0653d655e20fdd5343b372e">DoUpdateWorldState</a>(<a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#a7002d594b5e2e99facc4d247af72e898a91a81fa6b19d26b04314a3a6e60bb1b4">WORLD_STATE_CENTRIFUGE_CONSTRUCT_AMOUNT</a>, 10 - <a class="code hl_variable" href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#ae5a87cc8bfc153aee0f96978f39a1932">CentrifugeCount</a>);</div>
+<div class="line"><span class="lineno">  180</span>                    }</div>
+<div class="line"><span class="lineno">  181</span>                    <span class="keywordflow">if</span>( <a class="code hl_variable" href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#ae5a87cc8bfc153aee0f96978f39a1932">CentrifugeCount</a> &gt;= 10 )</div>
+<div class="line"><span class="lineno">  182</span>                        <span class="keywordflow">if</span>( <a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* varos = <a class="code hl_variable" href="../../d8/d83/class_instance_script.html#a4b84b9635742380ce5dc6e2f8d76e30b">instance</a>-&gt;<a class="code hl_function" href="../../dd/d11/class_map.html#a9c20f696cb8109183fbd81b13848b050">GetCreature</a>(<a class="code hl_variable" href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#ab4a87ca38d203deacc377579e66e5bfb">uiVarosGUID</a>) )</div>
+<div class="line"><span class="lineno">  183</span>                        {</div>
+<div class="line"><span class="lineno">  184</span>                            varos-&gt;RemoveUnitFlag(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a2ecf000dcea1c08aeb8721570707f922">UNIT_FLAG_NON_ATTACKABLE</a>);</div>
+<div class="line"><span class="lineno">  185</span>                            varos-&gt;InterruptNonMeleeSpells(<span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  186</span>                            varos-&gt;RemoveAura(50053);</div>
+<div class="line"><span class="lineno">  187</span>                        }</div>
+<div class="line"><span class="lineno">  188</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  189</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#af5baa506e65b4caa6be6d1c6661dfe63a20b2a334a506abf26ef0467a7b171815">DATA_AMBER_VOID</a>:</div>
+<div class="line"><span class="lineno">  190</span>                    <a class="code hl_variable" href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#a9dfa8834bfea20a8f4a39c958e38bcbd">bAmberVoid</a> = !!data;</div>
+<div class="line"><span class="lineno">  191</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  192</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#af5baa506e65b4caa6be6d1c6661dfe63a06d2e6837f8e6ce916a3e9dd836480ed">DATA_EMERALD_VOID</a>:</div>
+<div class="line"><span class="lineno">  193</span>                    <a class="code hl_variable" href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#a45ce85a8a6c9362ad04194b0518066c9">bEmeraldVoid</a> = !!data;</div>
+<div class="line"><span class="lineno">  194</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  195</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#af5baa506e65b4caa6be6d1c6661dfe63a6db3f4b328b75648a6d31bc6768e682b">DATA_RUBY_VOID</a>:</div>
+<div class="line"><span class="lineno">  196</span>                    <a class="code hl_variable" href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html#ad93d6be40d07925d1eb485f864c72ace">bRubyVoid</a> = !!data;</div>
+<div class="line"><span class="lineno">  197</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  198</span>            }</div>
+<div class="line"><span class="lineno">  199</span> </div>
+<div class="line"><span class="lineno">  200</span>            <span class="keywordflow">if</span>( data == <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749">DONE</a> )</div>
+<div class="line"><span class="lineno">  201</span>                <a class="code hl_function" href="../../d8/d83/class_instance_script.html#a99f69b7706e28b78008952ceefe09b69">SaveToDB</a>();</div>
+<div class="line"><span class="lineno">  202</span>        }</div>
+<div class="ttc" id="a_common_8h_html_a219e927a5d306db9cd363487d1f94366"><div class="ttname"><a href="../../db/d1f/_common_8h.html#a219e927a5d306db9cd363487d1f94366">DAY</a></div><div class="ttdeci">constexpr auto DAY</div><div class="ttdef"><b>Definition:</b> Common.h:58</div></div>
+<div class="ttc" id="a_d_b_c_enums_8h_html_a282f094fb8ee80177dd57d2086ddd35bac02bba0f3ad69a2fc8ccde1efade56a3"><div class="ttname"><a href="../../dc/d6e/_d_b_c_enums_8h.html#a282f094fb8ee80177dd57d2086ddd35bac02bba0f3ad69a2fc8ccde1efade56a3">ACHIEVEMENT_TIMED_TYPE_EVENT</a></div><div class="ttdeci">@ ACHIEVEMENT_TIMED_TYPE_EVENT</div><div class="ttdef"><b>Definition:</b> DBCEnums.h:116</div></div>
+<div class="ttc" id="a_unit_8h_html_affdd0d554c8bcaaa85a879f5a9d60934a2ecf000dcea1c08aeb8721570707f922"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a2ecf000dcea1c08aeb8721570707f922">UNIT_FLAG_NON_ATTACKABLE</a></div><div class="ttdeci">@ UNIT_FLAG_NON_ATTACKABLE</div><div class="ttdef"><b>Definition:</b> Unit.h:449</div></div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_game_object_html"><div class="ttname"><a href="../../d0/dd1/class_game_object.html">GameObject</a></div><div class="ttdef"><b>Definition:</b> GameObject.h:813</div></div>
+<div class="ttc" id="aclass_instance_script_html_a4b84b9635742380ce5dc6e2f8d76e30b"><div class="ttname"><a href="../../d8/d83/class_instance_script.html#a4b84b9635742380ce5dc6e2f8d76e30b">InstanceScript::instance</a></div><div class="ttdeci">Map * instance</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:146</div></div>
+<div class="ttc" id="aclass_instance_script_html_a99f69b7706e28b78008952ceefe09b69"><div class="ttname"><a href="../../d8/d83/class_instance_script.html#a99f69b7706e28b78008952ceefe09b69">InstanceScript::SaveToDB</a></div><div class="ttdeci">void SaveToDB()</div><div class="ttdef"><b>Definition:</b> InstanceScript.cpp:40</div></div>
+<div class="ttc" id="aclass_instance_script_html_aa528d1016aee9dbbe55b7933fe631917"><div class="ttname"><a href="../../d8/d83/class_instance_script.html#aa528d1016aee9dbbe55b7933fe631917">InstanceScript::DoRespawnGameObject</a></div><div class="ttdeci">void DoRespawnGameObject(ObjectGuid guid, uint32 timeToDespawn=MINUTE)</div><div class="ttdef"><b>Definition:</b> InstanceScript.cpp:386</div></div>
+<div class="ttc" id="aclass_instance_script_html_ac01ba61e0495829df66878fca191f7eb"><div class="ttname"><a href="../../d8/d83/class_instance_script.html#ac01ba61e0495829df66878fca191f7eb">InstanceScript::DoStartTimedAchievement</a></div><div class="ttdeci">void DoStartTimedAchievement(AchievementCriteriaTimedTypes type, uint32 entry)</div><div class="ttdef"><b>Definition:</b> InstanceScript.cpp:464</div></div>
+<div class="ttc" id="aclass_instance_script_html_aedd4eef2e0653d655e20fdd5343b372e"><div class="ttname"><a href="../../d8/d83/class_instance_script.html#aedd4eef2e0653d655e20fdd5343b372e">InstanceScript::DoUpdateWorldState</a></div><div class="ttdeci">void DoUpdateWorldState(uint32 worldstateId, uint32 worldstateValue)</div><div class="ttdef"><b>Definition:</b> InstanceScript.cpp:418</div></div>
+<div class="ttc" id="aclass_map_html_a92001d81940cdfec678ec714248052a5"><div class="ttname"><a href="../../dd/d11/class_map.html#a92001d81940cdfec678ec714248052a5">Map::GetGameObject</a></div><div class="ttdeci">GameObject * GetGameObject(ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> Map.cpp:3295</div></div>
+<div class="ttc" id="aclass_map_html_a9c20f696cb8109183fbd81b13848b050"><div class="ttname"><a href="../../dd/d11/class_map.html#a9c20f696cb8109183fbd81b13848b050">Map::GetCreature</a></div><div class="ttdeci">Creature * GetCreature(ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> Map.cpp:3290</div></div>
+<div class="ttc" id="aclass_map_html_adcbab2814bdaeba356c591bffd953cea"><div class="ttname"><a href="../../dd/d11/class_map.html#adcbab2814bdaeba356c591bffd953cea">Map::IsHeroic</a></div><div class="ttdeci">bool IsHeroic() const</div><div class="ttdef"><b>Definition:</b> Map.h:451</div></div>
+<div class="ttc" id="aoculus_8h_html_a40fe1d92134cb8005a020994cf6edd5ead41fae04f49e4f13f7a0cdd8231a5c23"><div class="ttname"><a href="../../df/d29/oculus_8h.html#a40fe1d92134cb8005a020994cf6edd5ead41fae04f49e4f13f7a0cdd8231a5c23">ACHIEV_MAKE_IT_COUNT_TIMED_EVENT</a></div><div class="ttdeci">@ ACHIEV_MAKE_IT_COUNT_TIMED_EVENT</div><div class="ttdef"><b>Definition:</b> oculus.h:91</div></div>
+<div class="ttc" id="aoculus_8h_html_af5baa506e65b4caa6be6d1c6661dfe63a06d2e6837f8e6ce916a3e9dd836480ed"><div class="ttname"><a href="../../df/d29/oculus_8h.html#af5baa506e65b4caa6be6d1c6661dfe63a06d2e6837f8e6ce916a3e9dd836480ed">DATA_EMERALD_VOID</a></div><div class="ttdeci">@ DATA_EMERALD_VOID</div><div class="ttdef"><b>Definition:</b> oculus.h:41</div></div>
+<div class="ttc" id="aoculus_8h_html_af5baa506e65b4caa6be6d1c6661dfe63a20b2a334a506abf26ef0467a7b171815"><div class="ttname"><a href="../../df/d29/oculus_8h.html#af5baa506e65b4caa6be6d1c6661dfe63a20b2a334a506abf26ef0467a7b171815">DATA_AMBER_VOID</a></div><div class="ttdeci">@ DATA_AMBER_VOID</div><div class="ttdef"><b>Definition:</b> oculus.h:40</div></div>
+<div class="ttc" id="aoculus_8h_html_af5baa506e65b4caa6be6d1c6661dfe63a6db3f4b328b75648a6d31bc6768e682b"><div class="ttname"><a href="../../df/d29/oculus_8h.html#af5baa506e65b4caa6be6d1c6661dfe63a6db3f4b328b75648a6d31bc6768e682b">DATA_RUBY_VOID</a></div><div class="ttdeci">@ DATA_RUBY_VOID</div><div class="ttdef"><b>Definition:</b> oculus.h:42</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -865,7 +1183,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/Nexus/Oculus/<a class="el" href="../../d5/d7b/instance__oculus_8cpp.html">instance_oculus.cpp</a></li>
+<li><a class="el" href="../../">instance_oculus.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -873,7 +1191,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d6/dba/classinstance__oculus.html">instance_oculus</a></li><li class="navelem"><a class="el" href="../../da/dfa/structinstance__oculus_1_1instance__oculus___instance_map_script.html">instance_oculus_InstanceMapScript</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:46 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:00 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

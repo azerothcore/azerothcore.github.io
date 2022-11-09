@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('dc/d45/struct_game_object_template.htm
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../df/d91/_game_object_8h_source.html">GameObject.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">GameObject.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -711,7 +711,8 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a32ad02505bf60c19a26cf9a5729dd42b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d45/struct_game_object_template.html#a32ad02505bf60c19a26cf9a5729dd42b">IsForQuests</a></td></tr>
 <tr class="separator:a32ad02505bf60c19a26cf9a5729dd42b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a19610d1dbeacd9f5ee907fa427d6663d" name="a19610d1dbeacd9f5ee907fa427d6663d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a19610d1dbeacd9f5ee907fa427d6663d">&#9670;&#160;</a></span>GetAutoCloseTime()</h2>
 
@@ -734,7 +735,49 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  521</span>    {</div>
+<div class="line"><span class="lineno">  522</span>        <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#ab62e41478910df05790ca9eca57b2ae1">autoCloseTime</a> = 0;</div>
+<div class="line"><span class="lineno">  523</span>        <span class="keywordflow">switch</span> (<a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#a1c78664b7272010dac83e9f4ea132330">type</a>)</div>
+<div class="line"><span class="lineno">  524</span>        {</div>
+<div class="line"><span class="lineno">  525</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9adfd56d9763c20bc6841ea111355f7fb8">GAMEOBJECT_TYPE_DOOR</a>:</div>
+<div class="line"><span class="lineno">  526</span>                <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#ab62e41478910df05790ca9eca57b2ae1">autoCloseTime</a> = <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#a1b80a1f6a280045d23333e09861ae796">door</a>.autoCloseTime;</div>
+<div class="line"><span class="lineno">  527</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  528</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a15f58d40de8df7da4670c73d34950f28">GAMEOBJECT_TYPE_BUTTON</a>:</div>
+<div class="line"><span class="lineno">  529</span>                <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#ab62e41478910df05790ca9eca57b2ae1">autoCloseTime</a> = <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#a5797b26eab66e46eb56e1aa0f19778c4">button</a>.autoCloseTime;</div>
+<div class="line"><span class="lineno">  530</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  531</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a53f894b7f924900a25913535b9ae3e00">GAMEOBJECT_TYPE_TRAP</a>:</div>
+<div class="line"><span class="lineno">  532</span>                <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#ab62e41478910df05790ca9eca57b2ae1">autoCloseTime</a> = <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#a3e22f0ed775e840b26df3511829e0a92">trap</a>.autoCloseTime;</div>
+<div class="line"><span class="lineno">  533</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  534</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9ac410838417ca3d5005ec8f23b72b783a">GAMEOBJECT_TYPE_GOOBER</a>:</div>
+<div class="line"><span class="lineno">  535</span>                <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#ab62e41478910df05790ca9eca57b2ae1">autoCloseTime</a> = <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#aea7c6df2ff891df15ea1fd523a56545a">goober</a>.autoCloseTime;</div>
+<div class="line"><span class="lineno">  536</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  537</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a230c015ae8c6e13d4cbb3285426f6bc0">GAMEOBJECT_TYPE_TRANSPORT</a>:</div>
+<div class="line"><span class="lineno">  538</span>                <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#ab62e41478910df05790ca9eca57b2ae1">autoCloseTime</a> = <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#af38279b6f6d36aa317021fb5bbd259f6">transport</a>.autoCloseTime;</div>
+<div class="line"><span class="lineno">  539</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  540</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a9ff9c7bbe3ffac8995e20c73ac930967">GAMEOBJECT_TYPE_AREADAMAGE</a>:</div>
+<div class="line"><span class="lineno">  541</span>                <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#ab62e41478910df05790ca9eca57b2ae1">autoCloseTime</a> = <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#a7d6356dcb22b933db078587899c7015a">areadamage</a>.autoCloseTime;</div>
+<div class="line"><span class="lineno">  542</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  543</span>            <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  544</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  545</span>        }</div>
+<div class="line"><span class="lineno">  546</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#ab62e41478910df05790ca9eca57b2ae1">autoCloseTime</a> <span class="comment">/* xinef: changed to milliseconds/ IN_MILLISECONDS*/</span>;              <span class="comment">// prior to 3.0.3, conversion was / 0x10000;</span></div>
+<div class="line"><span class="lineno">  547</span>    }</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a0233096c29a8a39f15373e06434985f9a15f58d40de8df7da4670c73d34950f28"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a15f58d40de8df7da4670c73d34950f28">GAMEOBJECT_TYPE_BUTTON</a></div><div class="ttdeci">@ GAMEOBJECT_TYPE_BUTTON</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1533</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a0233096c29a8a39f15373e06434985f9a230c015ae8c6e13d4cbb3285426f6bc0"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a230c015ae8c6e13d4cbb3285426f6bc0">GAMEOBJECT_TYPE_TRANSPORT</a></div><div class="ttdeci">@ GAMEOBJECT_TYPE_TRANSPORT</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1543</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a0233096c29a8a39f15373e06434985f9a53f894b7f924900a25913535b9ae3e00"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a53f894b7f924900a25913535b9ae3e00">GAMEOBJECT_TYPE_TRAP</a></div><div class="ttdeci">@ GAMEOBJECT_TYPE_TRAP</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1538</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a0233096c29a8a39f15373e06434985f9a9ff9c7bbe3ffac8995e20c73ac930967"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a9ff9c7bbe3ffac8995e20c73ac930967">GAMEOBJECT_TYPE_AREADAMAGE</a></div><div class="ttdeci">@ GAMEOBJECT_TYPE_AREADAMAGE</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1544</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a0233096c29a8a39f15373e06434985f9ac410838417ca3d5005ec8f23b72b783a"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9ac410838417ca3d5005ec8f23b72b783a">GAMEOBJECT_TYPE_GOOBER</a></div><div class="ttdeci">@ GAMEOBJECT_TYPE_GOOBER</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1542</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a0233096c29a8a39f15373e06434985f9adfd56d9763c20bc6841ea111355f7fb8"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9adfd56d9763c20bc6841ea111355f7fb8">GAMEOBJECT_TYPE_DOOR</a></div><div class="ttdeci">@ GAMEOBJECT_TYPE_DOOR</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1532</div></div>
+<div class="ttc" id="astruct_game_object_template_html_a1b80a1f6a280045d23333e09861ae796"><div class="ttname"><a href="../../dc/d45/struct_game_object_template.html#a1b80a1f6a280045d23333e09861ae796">GameObjectTemplate::door</a></div><div class="ttdeci">struct GameObjectTemplate::@209::@211 door</div></div>
+<div class="ttc" id="astruct_game_object_template_html_a1c78664b7272010dac83e9f4ea132330"><div class="ttname"><a href="../../dc/d45/struct_game_object_template.html#a1c78664b7272010dac83e9f4ea132330">GameObjectTemplate::type</a></div><div class="ttdeci">uint32 type</div><div class="ttdef"><b>Definition:</b> GameObject.h:43</div></div>
+<div class="ttc" id="astruct_game_object_template_html_a3e22f0ed775e840b26df3511829e0a92"><div class="ttname"><a href="../../dc/d45/struct_game_object_template.html#a3e22f0ed775e840b26df3511829e0a92">GameObjectTemplate::trap</a></div><div class="ttdeci">struct GameObjectTemplate::@209::@216 trap</div></div>
+<div class="ttc" id="astruct_game_object_template_html_a5797b26eab66e46eb56e1aa0f19778c4"><div class="ttname"><a href="../../dc/d45/struct_game_object_template.html#a5797b26eab66e46eb56e1aa0f19778c4">GameObjectTemplate::button</a></div><div class="ttdeci">struct GameObjectTemplate::@209::@212 button</div></div>
+<div class="ttc" id="astruct_game_object_template_html_a7d6356dcb22b933db078587899c7015a"><div class="ttname"><a href="../../dc/d45/struct_game_object_template.html#a7d6356dcb22b933db078587899c7015a">GameObjectTemplate::areadamage</a></div><div class="ttdeci">struct GameObjectTemplate::@209::@222 areadamage</div></div>
+<div class="ttc" id="astruct_game_object_template_html_ab62e41478910df05790ca9eca57b2ae1"><div class="ttname"><a href="../../dc/d45/struct_game_object_template.html#ab62e41478910df05790ca9eca57b2ae1">GameObjectTemplate::autoCloseTime</a></div><div class="ttdeci">uint32 autoCloseTime</div><div class="ttdef"><b>Definition:</b> GameObject.h:57</div></div>
+<div class="ttc" id="astruct_game_object_template_html_aea7c6df2ff891df15ea1fd523a56545a"><div class="ttname"><a href="../../dc/d45/struct_game_object_template.html#aea7c6df2ff891df15ea1fd523a56545a">GameObjectTemplate::goober</a></div><div class="ttdeci">struct GameObjectTemplate::@209::@220 goober</div></div>
+<div class="ttc" id="astruct_game_object_template_html_af38279b6f6d36aa317021fb5bbd259f6"><div class="ttname"><a href="../../dc/d45/struct_game_object_template.html#af38279b6f6d36aa317021fb5bbd259f6">GameObjectTemplate::transport</a></div><div class="ttdeci">struct GameObjectTemplate::@209::@221 transport</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a7c5724594df57db3bdb71b1daea87df3" name="a7c5724594df57db3bdb71b1daea87df3"></a>
@@ -759,7 +802,23 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  490</span>    {</div>
+<div class="line"><span class="lineno">  491</span>        <span class="keywordflow">switch</span> (<a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#a1c78664b7272010dac83e9f4ea132330">type</a>)</div>
+<div class="line"><span class="lineno">  492</span>        {</div>
+<div class="line"><span class="lineno">  493</span>            <span class="comment">//case GAMEOBJECT_TYPE_TRAP:        return trap.charges;</span></div>
+<div class="line"><span class="lineno">  494</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9ae9792bed3edc29b3870d0beeddeaddff">GAMEOBJECT_TYPE_GUARDPOST</a>:</div>
+<div class="line"><span class="lineno">  495</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#a22c97b0b670d639c94d9060acabbe93e">guardpost</a>.charges;</div>
+<div class="line"><span class="lineno">  496</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a6b384457be2194170b1d9666b8a29b1d">GAMEOBJECT_TYPE_SPELLCASTER</a>:</div>
+<div class="line"><span class="lineno">  497</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#a4c0bbfe6be0813812d903567626af539">spellcaster</a>.charges;</div>
+<div class="line"><span class="lineno">  498</span>            <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  499</span>                <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">  500</span>        }</div>
+<div class="line"><span class="lineno">  501</span>    }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0233096c29a8a39f15373e06434985f9a6b384457be2194170b1d9666b8a29b1d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a6b384457be2194170b1d9666b8a29b1d">GAMEOBJECT_TYPE_SPELLCASTER</a></div><div class="ttdeci">@ GAMEOBJECT_TYPE_SPELLCASTER</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1554</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a0233096c29a8a39f15373e06434985f9ae9792bed3edc29b3870d0beeddeaddff"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9ae9792bed3edc29b3870d0beeddeaddff">GAMEOBJECT_TYPE_GUARDPOST</a></div><div class="ttdeci">@ GAMEOBJECT_TYPE_GUARDPOST</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1553</div></div>
+<div class="ttc" id="astruct_game_object_template_html_a22c97b0b670d639c94d9060acabbe93e"><div class="ttname"><a href="../../dc/d45/struct_game_object_template.html#a22c97b0b670d639c94d9060acabbe93e">GameObjectTemplate::guardpost</a></div><div class="ttdeci">struct GameObjectTemplate::@209::@226 guardpost</div></div>
+<div class="ttc" id="astruct_game_object_template_html_a4c0bbfe6be0813812d903567626af539"><div class="ttname"><a href="../../dc/d45/struct_game_object_template.html#a4c0bbfe6be0813812d903567626af539">GameObjectTemplate::spellcaster</a></div><div class="ttdeci">struct GameObjectTemplate::@209::@227 spellcaster</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a86afe986dba59379167186254eec1d03" name="a86afe986dba59379167186254eec1d03"></a>
@@ -784,7 +843,18 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  591</span>    {</div>
+<div class="line"><span class="lineno">  592</span>        <span class="keywordflow">switch</span> (<a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#a1c78664b7272010dac83e9f4ea132330">type</a>)</div>
+<div class="line"><span class="lineno">  593</span>        {</div>
+<div class="line"><span class="lineno">  594</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a53f894b7f924900a25913535b9ae3e00">GAMEOBJECT_TYPE_TRAP</a>:</div>
+<div class="line"><span class="lineno">  595</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#a3e22f0ed775e840b26df3511829e0a92">trap</a>.cooldown;</div>
+<div class="line"><span class="lineno">  596</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9ac410838417ca3d5005ec8f23b72b783a">GAMEOBJECT_TYPE_GOOBER</a>:</div>
+<div class="line"><span class="lineno">  597</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#aea7c6df2ff891df15ea1fd523a56545a">goober</a>.cooldown;</div>
+<div class="line"><span class="lineno">  598</span>            <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  599</span>                <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">  600</span>        }</div>
+<div class="line"><span class="lineno">  601</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a9705dd2f673f60923a38652c80598d1c" name="a9705dd2f673f60923a38652c80598d1c"></a>
@@ -809,7 +879,32 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  469</span>    {</div>
+<div class="line"><span class="lineno">  470</span>        <span class="keywordflow">switch</span> (<a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#a1c78664b7272010dac83e9f4ea132330">type</a>)</div>
+<div class="line"><span class="lineno">  471</span>        {</div>
+<div class="line"><span class="lineno">  472</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9adfd56d9763c20bc6841ea111355f7fb8">GAMEOBJECT_TYPE_DOOR</a>:</div>
+<div class="line"><span class="lineno">  473</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#a1b80a1f6a280045d23333e09861ae796">door</a>.noDamageImmune;</div>
+<div class="line"><span class="lineno">  474</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a15f58d40de8df7da4670c73d34950f28">GAMEOBJECT_TYPE_BUTTON</a>:</div>
+<div class="line"><span class="lineno">  475</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#a5797b26eab66e46eb56e1aa0f19778c4">button</a>.noDamageImmune;</div>
+<div class="line"><span class="lineno">  476</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a6a57ca6d40b18de6228dc353a4a3ace1">GAMEOBJECT_TYPE_QUESTGIVER</a>:</div>
+<div class="line"><span class="lineno">  477</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#a204d11a4a125d8dd95bd9e2ea340b273">questgiver</a>.noDamageImmune;</div>
+<div class="line"><span class="lineno">  478</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9ac410838417ca3d5005ec8f23b72b783a">GAMEOBJECT_TYPE_GOOBER</a>:</div>
+<div class="line"><span class="lineno">  479</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#aea7c6df2ff891df15ea1fd523a56545a">goober</a>.noDamageImmune;</div>
+<div class="line"><span class="lineno">  480</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a7b152ee9aac0d007da2d01e195bf5bc4">GAMEOBJECT_TYPE_FLAGSTAND</a>:</div>
+<div class="line"><span class="lineno">  481</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#a9480142d72aeb853a7c4dfd83b27d611">flagstand</a>.noDamageImmune;</div>
+<div class="line"><span class="lineno">  482</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a6865f083fae719674ecddb2c31d825ee">GAMEOBJECT_TYPE_FLAGDROP</a>:</div>
+<div class="line"><span class="lineno">  483</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#aa9959b77782de80a62d1e3476d920c76">flagdrop</a>.noDamageImmune;</div>
+<div class="line"><span class="lineno">  484</span>            <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  485</span>                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  486</span>        }</div>
+<div class="line"><span class="lineno">  487</span>    }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0233096c29a8a39f15373e06434985f9a6865f083fae719674ecddb2c31d825ee"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a6865f083fae719674ecddb2c31d825ee">GAMEOBJECT_TYPE_FLAGDROP</a></div><div class="ttdeci">@ GAMEOBJECT_TYPE_FLAGDROP</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1558</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a0233096c29a8a39f15373e06434985f9a6a57ca6d40b18de6228dc353a4a3ace1"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a6a57ca6d40b18de6228dc353a4a3ace1">GAMEOBJECT_TYPE_QUESTGIVER</a></div><div class="ttdeci">@ GAMEOBJECT_TYPE_QUESTGIVER</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1534</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a0233096c29a8a39f15373e06434985f9a7b152ee9aac0d007da2d01e195bf5bc4"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a7b152ee9aac0d007da2d01e195bf5bc4">GAMEOBJECT_TYPE_FLAGSTAND</a></div><div class="ttdeci">@ GAMEOBJECT_TYPE_FLAGSTAND</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1556</div></div>
+<div class="ttc" id="astruct_game_object_template_html_a204d11a4a125d8dd95bd9e2ea340b273"><div class="ttname"><a href="../../dc/d45/struct_game_object_template.html#a204d11a4a125d8dd95bd9e2ea340b273">GameObjectTemplate::questgiver</a></div><div class="ttdeci">struct GameObjectTemplate::@209::@213 questgiver</div></div>
+<div class="ttc" id="astruct_game_object_template_html_a9480142d72aeb853a7c4dfd83b27d611"><div class="ttname"><a href="../../dc/d45/struct_game_object_template.html#a9480142d72aeb853a7c4dfd83b27d611">GameObjectTemplate::flagstand</a></div><div class="ttdeci">struct GameObjectTemplate::@209::@229 flagstand</div></div>
+<div class="ttc" id="astruct_game_object_template_html_aa9959b77782de80a62d1e3476d920c76"><div class="ttname"><a href="../../dc/d45/struct_game_object_template.html#aa9959b77782de80a62d1e3476d920c76">GameObjectTemplate::flagdrop</a></div><div class="ttdeci">struct GameObjectTemplate::@209::@231 flagdrop</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a828623bc49a497fe4a400e13147765f5" name="a828623bc49a497fe4a400e13147765f5"></a>
@@ -834,7 +929,24 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  576</span>    {</div>
+<div class="line"><span class="lineno">  577</span>        <span class="keywordflow">switch</span> (<a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#a1c78664b7272010dac83e9f4ea132330">type</a>)</div>
+<div class="line"><span class="lineno">  578</span>        {</div>
+<div class="line"><span class="lineno">  579</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9ac410838417ca3d5005ec8f23b72b783a">GAMEOBJECT_TYPE_GOOBER</a>:</div>
+<div class="line"><span class="lineno">  580</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#aea7c6df2ff891df15ea1fd523a56545a">goober</a>.eventId;</div>
+<div class="line"><span class="lineno">  581</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a5d5d866feab04a17e7da4d8b0967f2fd">GAMEOBJECT_TYPE_CHEST</a>:</div>
+<div class="line"><span class="lineno">  582</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#ad09c60a0b3e9538bf1991109b0578d6c">chest</a>.eventId;</div>
+<div class="line"><span class="lineno">  583</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a111571a8fadbb6254a200156d9cfb354">GAMEOBJECT_TYPE_CAMERA</a>:</div>
+<div class="line"><span class="lineno">  584</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#aa8ed9e5d7f69a16bf5d2a1e1b6afc68f">camera</a>.eventID;</div>
+<div class="line"><span class="lineno">  585</span>            <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  586</span>                <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">  587</span>        }</div>
+<div class="line"><span class="lineno">  588</span>    }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0233096c29a8a39f15373e06434985f9a111571a8fadbb6254a200156d9cfb354"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a111571a8fadbb6254a200156d9cfb354">GAMEOBJECT_TYPE_CAMERA</a></div><div class="ttdeci">@ GAMEOBJECT_TYPE_CAMERA</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1545</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a0233096c29a8a39f15373e06434985f9a5d5d866feab04a17e7da4d8b0967f2fd"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a5d5d866feab04a17e7da4d8b0967f2fd">GAMEOBJECT_TYPE_CHEST</a></div><div class="ttdeci">@ GAMEOBJECT_TYPE_CHEST</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1535</div></div>
+<div class="ttc" id="astruct_game_object_template_html_aa8ed9e5d7f69a16bf5d2a1e1b6afc68f"><div class="ttname"><a href="../../dc/d45/struct_game_object_template.html#aa8ed9e5d7f69a16bf5d2a1e1b6afc68f">GameObjectTemplate::camera</a></div><div class="ttdeci">struct GameObjectTemplate::@209::@223 camera</div></div>
+<div class="ttc" id="astruct_game_object_template_html_ad09c60a0b3e9538bf1991109b0578d6c"><div class="ttname"><a href="../../dc/d45/struct_game_object_template.html#ad09c60a0b3e9538bf1991109b0578d6c">GameObjectTemplate::chest</a></div><div class="ttdeci">struct GameObjectTemplate::@209::@214 chest</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2b485d6e3b1a0b38cf445c3a2cde1766" name="a2b485d6e3b1a0b38cf445c3a2cde1766"></a>
@@ -859,7 +971,18 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  563</span>    {</div>
+<div class="line"><span class="lineno">  564</span>        <span class="keywordflow">switch</span> (<a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#a1c78664b7272010dac83e9f4ea132330">type</a>)</div>
+<div class="line"><span class="lineno">  565</span>        {</div>
+<div class="line"><span class="lineno">  566</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a6a57ca6d40b18de6228dc353a4a3ace1">GAMEOBJECT_TYPE_QUESTGIVER</a>:</div>
+<div class="line"><span class="lineno">  567</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#a204d11a4a125d8dd95bd9e2ea340b273">questgiver</a>.gossipID;</div>
+<div class="line"><span class="lineno">  568</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9ac410838417ca3d5005ec8f23b72b783a">GAMEOBJECT_TYPE_GOOBER</a>:</div>
+<div class="line"><span class="lineno">  569</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#aea7c6df2ff891df15ea1fd523a56545a">goober</a>.gossipID;</div>
+<div class="line"><span class="lineno">  570</span>            <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  571</span>                <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">  572</span>        }</div>
+<div class="line"><span class="lineno">  573</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a9ee2620eea47ee13160d17a0823068ce" name="a9ee2620eea47ee13160d17a0823068ce"></a>
@@ -884,7 +1007,24 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  504</span>    {</div>
+<div class="line"><span class="lineno">  505</span>        <span class="keywordflow">switch</span> (<a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#a1c78664b7272010dac83e9f4ea132330">type</a>)</div>
+<div class="line"><span class="lineno">  506</span>        {</div>
+<div class="line"><span class="lineno">  507</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a15f58d40de8df7da4670c73d34950f28">GAMEOBJECT_TYPE_BUTTON</a>:</div>
+<div class="line"><span class="lineno">  508</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#a5797b26eab66e46eb56e1aa0f19778c4">button</a>.linkedTrap;</div>
+<div class="line"><span class="lineno">  509</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a5d5d866feab04a17e7da4d8b0967f2fd">GAMEOBJECT_TYPE_CHEST</a>:</div>
+<div class="line"><span class="lineno">  510</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#ad09c60a0b3e9538bf1991109b0578d6c">chest</a>.linkedTrapId;</div>
+<div class="line"><span class="lineno">  511</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a19da3e0d6d3baeb2f62b2f2fc8b35405">GAMEOBJECT_TYPE_SPELL_FOCUS</a>:</div>
+<div class="line"><span class="lineno">  512</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#aec31578eda76d19b6a4a0131027e5af0">spellFocus</a>.linkedTrapId;</div>
+<div class="line"><span class="lineno">  513</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9ac410838417ca3d5005ec8f23b72b783a">GAMEOBJECT_TYPE_GOOBER</a>:</div>
+<div class="line"><span class="lineno">  514</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#aea7c6df2ff891df15ea1fd523a56545a">goober</a>.linkedTrapId;</div>
+<div class="line"><span class="lineno">  515</span>            <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  516</span>                <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">  517</span>        }</div>
+<div class="line"><span class="lineno">  518</span>    }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0233096c29a8a39f15373e06434985f9a19da3e0d6d3baeb2f62b2f2fc8b35405"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a19da3e0d6d3baeb2f62b2f2fc8b35405">GAMEOBJECT_TYPE_SPELL_FOCUS</a></div><div class="ttdeci">@ GAMEOBJECT_TYPE_SPELL_FOCUS</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1540</div></div>
+<div class="ttc" id="astruct_game_object_template_html_aec31578eda76d19b6a4a0131027e5af0"><div class="ttname"><a href="../../dc/d45/struct_game_object_template.html#aec31578eda76d19b6a4a0131027e5af0">GameObjectTemplate::spellFocus</a></div><div class="ttdeci">struct GameObjectTemplate::@209::@218 spellFocus</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad9768a5e8a9d4574677ed4aa05f77770" name="ad9768a5e8a9d4574677ed4aa05f77770"></a>
@@ -909,7 +1049,38 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  438</span>    {</div>
+<div class="line"><span class="lineno">  439</span>        <span class="keywordflow">switch</span> (<a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#a1c78664b7272010dac83e9f4ea132330">type</a>)</div>
+<div class="line"><span class="lineno">  440</span>        {</div>
+<div class="line"><span class="lineno">  441</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9adfd56d9763c20bc6841ea111355f7fb8">GAMEOBJECT_TYPE_DOOR</a>:</div>
+<div class="line"><span class="lineno">  442</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#a1b80a1f6a280045d23333e09861ae796">door</a>.lockId;</div>
+<div class="line"><span class="lineno">  443</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a15f58d40de8df7da4670c73d34950f28">GAMEOBJECT_TYPE_BUTTON</a>:</div>
+<div class="line"><span class="lineno">  444</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#a5797b26eab66e46eb56e1aa0f19778c4">button</a>.lockId;</div>
+<div class="line"><span class="lineno">  445</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a6a57ca6d40b18de6228dc353a4a3ace1">GAMEOBJECT_TYPE_QUESTGIVER</a>:</div>
+<div class="line"><span class="lineno">  446</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#a204d11a4a125d8dd95bd9e2ea340b273">questgiver</a>.lockId;</div>
+<div class="line"><span class="lineno">  447</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a5d5d866feab04a17e7da4d8b0967f2fd">GAMEOBJECT_TYPE_CHEST</a>:</div>
+<div class="line"><span class="lineno">  448</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#ad09c60a0b3e9538bf1991109b0578d6c">chest</a>.lockId;</div>
+<div class="line"><span class="lineno">  449</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a53f894b7f924900a25913535b9ae3e00">GAMEOBJECT_TYPE_TRAP</a>:</div>
+<div class="line"><span class="lineno">  450</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#a3e22f0ed775e840b26df3511829e0a92">trap</a>.lockId;</div>
+<div class="line"><span class="lineno">  451</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9ac410838417ca3d5005ec8f23b72b783a">GAMEOBJECT_TYPE_GOOBER</a>:</div>
+<div class="line"><span class="lineno">  452</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#aea7c6df2ff891df15ea1fd523a56545a">goober</a>.lockId;</div>
+<div class="line"><span class="lineno">  453</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a9ff9c7bbe3ffac8995e20c73ac930967">GAMEOBJECT_TYPE_AREADAMAGE</a>:</div>
+<div class="line"><span class="lineno">  454</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#a7d6356dcb22b933db078587899c7015a">areadamage</a>.lockId;</div>
+<div class="line"><span class="lineno">  455</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a111571a8fadbb6254a200156d9cfb354">GAMEOBJECT_TYPE_CAMERA</a>:</div>
+<div class="line"><span class="lineno">  456</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#aa8ed9e5d7f69a16bf5d2a1e1b6afc68f">camera</a>.lockId;</div>
+<div class="line"><span class="lineno">  457</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a7b152ee9aac0d007da2d01e195bf5bc4">GAMEOBJECT_TYPE_FLAGSTAND</a>:</div>
+<div class="line"><span class="lineno">  458</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#a9480142d72aeb853a7c4dfd83b27d611">flagstand</a>.lockId;</div>
+<div class="line"><span class="lineno">  459</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a621022b3f9bd3e04f5e7221e7aaf44bc">GAMEOBJECT_TYPE_FISHINGHOLE</a>:</div>
+<div class="line"><span class="lineno">  460</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#ad2bff35c2c551378b7632addb2f7def2">fishinghole</a>.lockId;</div>
+<div class="line"><span class="lineno">  461</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a6865f083fae719674ecddb2c31d825ee">GAMEOBJECT_TYPE_FLAGDROP</a>:</div>
+<div class="line"><span class="lineno">  462</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#aa9959b77782de80a62d1e3476d920c76">flagdrop</a>.lockId;</div>
+<div class="line"><span class="lineno">  463</span>            <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  464</span>                <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">  465</span>        }</div>
+<div class="line"><span class="lineno">  466</span>    }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0233096c29a8a39f15373e06434985f9a621022b3f9bd3e04f5e7221e7aaf44bc"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a621022b3f9bd3e04f5e7221e7aaf44bc">GAMEOBJECT_TYPE_FISHINGHOLE</a></div><div class="ttdeci">@ GAMEOBJECT_TYPE_FISHINGHOLE</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1557</div></div>
+<div class="ttc" id="astruct_game_object_template_html_ad2bff35c2c551378b7632addb2f7def2"><div class="ttname"><a href="../../dc/d45/struct_game_object_template.html#ad2bff35c2c551378b7632addb2f7def2">GameObjectTemplate::fishinghole</a></div><div class="ttdeci">struct GameObjectTemplate::@209::@230 fishinghole</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="af60d38d17f82d1d90bb5845a54016001" name="af60d38d17f82d1d90bb5845a54016001"></a>
@@ -934,7 +1105,18 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  550</span>    {</div>
+<div class="line"><span class="lineno">  551</span>        <span class="keywordflow">switch</span> (<a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#a1c78664b7272010dac83e9f4ea132330">type</a>)</div>
+<div class="line"><span class="lineno">  552</span>        {</div>
+<div class="line"><span class="lineno">  553</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a5d5d866feab04a17e7da4d8b0967f2fd">GAMEOBJECT_TYPE_CHEST</a>:</div>
+<div class="line"><span class="lineno">  554</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#ad09c60a0b3e9538bf1991109b0578d6c">chest</a>.lootId;</div>
+<div class="line"><span class="lineno">  555</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a621022b3f9bd3e04f5e7221e7aaf44bc">GAMEOBJECT_TYPE_FISHINGHOLE</a>:</div>
+<div class="line"><span class="lineno">  556</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#ad2bff35c2c551378b7632addb2f7def2">fishinghole</a>.lootId;</div>
+<div class="line"><span class="lineno">  557</span>            <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  558</span>                <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">  559</span>        }</div>
+<div class="line"><span class="lineno">  560</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a68cfbe7c338d158d08bd1ffab6856990" name="a68cfbe7c338d158d08bd1ffab6856990"></a>
@@ -959,7 +1141,18 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  408</span>    {</div>
+<div class="line"><span class="lineno">  409</span>        <span class="keywordflow">switch</span> (<a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#a1c78664b7272010dac83e9f4ea132330">type</a>)</div>
+<div class="line"><span class="lineno">  410</span>        {</div>
+<div class="line"><span class="lineno">  411</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a5d5d866feab04a17e7da4d8b0967f2fd">GAMEOBJECT_TYPE_CHEST</a>:</div>
+<div class="line"><span class="lineno">  412</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#ad09c60a0b3e9538bf1991109b0578d6c">chest</a>.consumable;</div>
+<div class="line"><span class="lineno">  413</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9ac410838417ca3d5005ec8f23b72b783a">GAMEOBJECT_TYPE_GOOBER</a>:</div>
+<div class="line"><span class="lineno">  414</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#aea7c6df2ff891df15ea1fd523a56545a">goober</a>.consumable;</div>
+<div class="line"><span class="lineno">  415</span>            <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  416</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  417</span>        }</div>
+<div class="line"><span class="lineno">  418</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a99b39edec9bdda9f707ffa6948ce27c5" name="a99b39edec9bdda9f707ffa6948ce27c5"></a>
@@ -984,7 +1177,11 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  648</span>    {</div>
+<div class="line"><span class="lineno">  649</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#a32ad02505bf60c19a26cf9a5729dd42b">IsForQuests</a>;</div>
+<div class="line"><span class="lineno">  650</span>    }</div>
+<div class="ttc" id="astruct_game_object_template_html_a32ad02505bf60c19a26cf9a5729dd42b"><div class="ttname"><a href="../../dc/d45/struct_game_object_template.html#a32ad02505bf60c19a26cf9a5729dd42b">GameObjectTemplate::IsForQuests</a></div><div class="ttdeci">bool IsForQuests</div><div class="ttdef"><b>Definition:</b> GameObject.h:404</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad8b06a94b8afb25729ec2d7fb095e69d" name="ad8b06a94b8afb25729ec2d7fb095e69d"></a>
@@ -1009,7 +1206,24 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  653</span>    {</div>
+<div class="line"><span class="lineno">  654</span>        <span class="keywordflow">switch</span> (<a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#a1c78664b7272010dac83e9f4ea132330">type</a>)</div>
+<div class="line"><span class="lineno">  655</span>        {</div>
+<div class="line"><span class="lineno">  656</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a15f58d40de8df7da4670c73d34950f28">GAMEOBJECT_TYPE_BUTTON</a>:</div>
+<div class="line"><span class="lineno">  657</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#a5797b26eab66e46eb56e1aa0f19778c4">button</a>.losOK == 0;</div>
+<div class="line"><span class="lineno">  658</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a6a57ca6d40b18de6228dc353a4a3ace1">GAMEOBJECT_TYPE_QUESTGIVER</a>:</div>
+<div class="line"><span class="lineno">  659</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#a204d11a4a125d8dd95bd9e2ea340b273">questgiver</a>.losOK == 0;</div>
+<div class="line"><span class="lineno">  660</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a5d5d866feab04a17e7da4d8b0967f2fd">GAMEOBJECT_TYPE_CHEST</a>:</div>
+<div class="line"><span class="lineno">  661</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#ad09c60a0b3e9538bf1991109b0578d6c">chest</a>.losOK == 0;</div>
+<div class="line"><span class="lineno">  662</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9ac410838417ca3d5005ec8f23b72b783a">GAMEOBJECT_TYPE_GOOBER</a>:</div>
+<div class="line"><span class="lineno">  663</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#aea7c6df2ff891df15ea1fd523a56545a">goober</a>.losOK == 0;</div>
+<div class="line"><span class="lineno">  664</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a7b152ee9aac0d007da2d01e195bf5bc4">GAMEOBJECT_TYPE_FLAGSTAND</a>:</div>
+<div class="line"><span class="lineno">  665</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#a9480142d72aeb853a7c4dfd83b27d611">flagstand</a>.losOK == 0;</div>
+<div class="line"><span class="lineno">  666</span>            <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  667</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  668</span>        }</div>
+<div class="line"><span class="lineno">  669</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a63f6b5296456a06f2a0e461d73f6b3ea" name="a63f6b5296456a06f2a0e461d73f6b3ea"></a>
@@ -1034,7 +1248,26 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  629</span>    {</div>
+<div class="line"><span class="lineno">  630</span>        <span class="keywordflow">switch</span> (<a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#a1c78664b7272010dac83e9f4ea132330">type</a>)</div>
+<div class="line"><span class="lineno">  631</span>        {</div>
+<div class="line"><span class="lineno">  632</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9adfd56d9763c20bc6841ea111355f7fb8">GAMEOBJECT_TYPE_DOOR</a>:</div>
+<div class="line"><span class="lineno">  633</span>                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  634</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a7b152ee9aac0d007da2d01e195bf5bc4">GAMEOBJECT_TYPE_FLAGSTAND</a>:</div>
+<div class="line"><span class="lineno">  635</span>                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  636</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a6865f083fae719674ecddb2c31d825ee">GAMEOBJECT_TYPE_FLAGDROP</a>:</div>
+<div class="line"><span class="lineno">  637</span>                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  638</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a9749beff7617718a640f0de6b583caad">GAMEOBJECT_TYPE_DUNGEON_DIFFICULTY</a>:</div>
+<div class="line"><span class="lineno">  639</span>                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  640</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a64abb7e1e69cb002716d4ee82a480faa">GAMEOBJECT_TYPE_TRAPDOOR</a>:</div>
+<div class="line"><span class="lineno">  641</span>                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  642</span>            <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  643</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  644</span>        }</div>
+<div class="line"><span class="lineno">  645</span>    }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0233096c29a8a39f15373e06434985f9a64abb7e1e69cb002716d4ee82a480faa"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a64abb7e1e69cb002716d4ee82a480faa">GAMEOBJECT_TYPE_TRAPDOOR</a></div><div class="ttdeci">@ GAMEOBJECT_TYPE_TRAPDOOR</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1567</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a0233096c29a8a39f15373e06434985f9a9749beff7617718a640f0de6b583caad"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a9749beff7617718a640f0de6b583caad">GAMEOBJECT_TYPE_DUNGEON_DIFFICULTY</a></div><div class="ttdeci">@ GAMEOBJECT_TYPE_DUNGEON_DIFFICULTY</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1563</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2ead90c8876b3b542d5b185124240aa7" name="a2ead90c8876b3b542d5b185124240aa7"></a>
@@ -1059,7 +1292,34 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  604</span>    {</div>
+<div class="line"><span class="lineno">  605</span>        <span class="keywordflow">switch</span> (<a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#a1c78664b7272010dac83e9f4ea132330">type</a>)</div>
+<div class="line"><span class="lineno">  606</span>        {</div>
+<div class="line"><span class="lineno">  607</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a15f58d40de8df7da4670c73d34950f28">GAMEOBJECT_TYPE_BUTTON</a>:</div>
+<div class="line"><span class="lineno">  608</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#a5797b26eab66e46eb56e1aa0f19778c4">button</a>.large != 0;</div>
+<div class="line"><span class="lineno">  609</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a6a57ca6d40b18de6228dc353a4a3ace1">GAMEOBJECT_TYPE_QUESTGIVER</a>:</div>
+<div class="line"><span class="lineno">  610</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#a204d11a4a125d8dd95bd9e2ea340b273">questgiver</a>.large != 0;</div>
+<div class="line"><span class="lineno">  611</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a56abd3fff19115d1ed81d4d7e7b0bc48">GAMEOBJECT_TYPE_GENERIC</a>:</div>
+<div class="line"><span class="lineno">  612</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#af6157097edcab8e5f66ecec8f91fafe5">_generic</a>.large != 0;</div>
+<div class="line"><span class="lineno">  613</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a53f894b7f924900a25913535b9ae3e00">GAMEOBJECT_TYPE_TRAP</a>:</div>
+<div class="line"><span class="lineno">  614</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#a3e22f0ed775e840b26df3511829e0a92">trap</a>.large != 0;</div>
+<div class="line"><span class="lineno">  615</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a19da3e0d6d3baeb2f62b2f2fc8b35405">GAMEOBJECT_TYPE_SPELL_FOCUS</a>:</div>
+<div class="line"><span class="lineno">  616</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#aec31578eda76d19b6a4a0131027e5af0">spellFocus</a>.large != 0;</div>
+<div class="line"><span class="lineno">  617</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9ac410838417ca3d5005ec8f23b72b783a">GAMEOBJECT_TYPE_GOOBER</a>:</div>
+<div class="line"><span class="lineno">  618</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#aea7c6df2ff891df15ea1fd523a56545a">goober</a>.large != 0;</div>
+<div class="line"><span class="lineno">  619</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a6b384457be2194170b1d9666b8a29b1d">GAMEOBJECT_TYPE_SPELLCASTER</a>:</div>
+<div class="line"><span class="lineno">  620</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#a4c0bbfe6be0813812d903567626af539">spellcaster</a>.large != 0;</div>
+<div class="line"><span class="lineno">  621</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a15e0eaa2ecf827ab8f47b0768c2160b3">GAMEOBJECT_TYPE_CAPTURE_POINT</a>:</div>
+<div class="line"><span class="lineno">  622</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#a88942a929e4477bfbce837a93f4acca9">capturePoint</a>.large != 0;</div>
+<div class="line"><span class="lineno">  623</span>            <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  624</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  625</span>        }</div>
+<div class="line"><span class="lineno">  626</span>    }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0233096c29a8a39f15373e06434985f9a15e0eaa2ecf827ab8f47b0768c2160b3"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a15e0eaa2ecf827ab8f47b0768c2160b3">GAMEOBJECT_TYPE_CAPTURE_POINT</a></div><div class="ttdeci">@ GAMEOBJECT_TYPE_CAPTURE_POINT</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1561</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a0233096c29a8a39f15373e06434985f9a56abd3fff19115d1ed81d4d7e7b0bc48"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a56abd3fff19115d1ed81d4d7e7b0bc48">GAMEOBJECT_TYPE_GENERIC</a></div><div class="ttdeci">@ GAMEOBJECT_TYPE_GENERIC</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1537</div></div>
+<div class="ttc" id="astruct_game_object_template_html_a88942a929e4477bfbce837a93f4acca9"><div class="ttname"><a href="../../dc/d45/struct_game_object_template.html#a88942a929e4477bfbce837a93f4acca9">GameObjectTemplate::capturePoint</a></div><div class="ttdeci">struct GameObjectTemplate::@209::@233 capturePoint</div></div>
+<div class="ttc" id="astruct_game_object_template_html_af6157097edcab8e5f66ecec8f91fafe5"><div class="ttname"><a href="../../dc/d45/struct_game_object_template.html#af6157097edcab8e5f66ecec8f91fafe5">GameObjectTemplate::_generic</a></div><div class="ttdeci">struct GameObjectTemplate::@209::@215 _generic</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a31e6f93a512a1043b69020225e77eb34" name="a31e6f93a512a1043b69020225e77eb34"></a>
@@ -1084,7 +1344,24 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  421</span>    {</div>
+<div class="line"><span class="lineno">  422</span>        <span class="keywordflow">switch</span> (<a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#a1c78664b7272010dac83e9f4ea132330">type</a>)</div>
+<div class="line"><span class="lineno">  423</span>        {</div>
+<div class="line"><span class="lineno">  424</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a6a57ca6d40b18de6228dc353a4a3ace1">GAMEOBJECT_TYPE_QUESTGIVER</a>:</div>
+<div class="line"><span class="lineno">  425</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#a204d11a4a125d8dd95bd9e2ea340b273">questgiver</a>.allowMounted;</div>
+<div class="line"><span class="lineno">  426</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a86febeda306e11f359c9a107ed17f665">GAMEOBJECT_TYPE_TEXT</a>:</div>
+<div class="line"><span class="lineno">  427</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#ae3f35edf6e2522ad6a4dc89454f9105b">text</a>.allowMounted;</div>
+<div class="line"><span class="lineno">  428</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9ac410838417ca3d5005ec8f23b72b783a">GAMEOBJECT_TYPE_GOOBER</a>:</div>
+<div class="line"><span class="lineno">  429</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#aea7c6df2ff891df15ea1fd523a56545a">goober</a>.allowMounted;</div>
+<div class="line"><span class="lineno">  430</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a6b384457be2194170b1d9666b8a29b1d">GAMEOBJECT_TYPE_SPELLCASTER</a>:</div>
+<div class="line"><span class="lineno">  431</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/d45/struct_game_object_template.html#a4c0bbfe6be0813812d903567626af539">spellcaster</a>.allowMounted;</div>
+<div class="line"><span class="lineno">  432</span>            <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  433</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  434</span>        }</div>
+<div class="line"><span class="lineno">  435</span>    }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0233096c29a8a39f15373e06434985f9a86febeda306e11f359c9a107ed17f665"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0233096c29a8a39f15373e06434985f9a86febeda306e11f359c9a107ed17f665">GAMEOBJECT_TYPE_TEXT</a></div><div class="ttdeci">@ GAMEOBJECT_TYPE_TEXT</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1541</div></div>
+<div class="ttc" id="astruct_game_object_template_html_ae3f35edf6e2522ad6a4dc89454f9105b"><div class="ttname"><a href="../../dc/d45/struct_game_object_template.html#ae3f35edf6e2522ad6a4dc89454f9105b">GameObjectTemplate::text</a></div><div class="ttdeci">struct GameObjectTemplate::@209::@219 text</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -3623,7 +3900,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Entities/GameObject/<a class="el" href="../../df/d91/_game_object_8h_source.html">GameObject.h</a></li>
+<li><a class="el" href="../../">GameObject.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -3631,7 +3908,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/d45/struct_game_object_template.html">GameObjectTemplate</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:45 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:59 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

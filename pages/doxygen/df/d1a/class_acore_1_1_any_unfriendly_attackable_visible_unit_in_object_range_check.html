@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('df/d1a/class_acore_1_1_any_unfriendly_
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d0/dc9/_grid_notifiers_8h_source.html">GridNotifiers.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">GridNotifiers.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -129,7 +129,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a953943e53e25b6887bfab8cc1c19620a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d1a/class_acore_1_1_any_unfriendly_attackable_visible_unit_in_object_range_check.html#a953943e53e25b6887bfab8cc1c19620a">i_range</a></td></tr>
 <tr class="separator:a953943e53e25b6887bfab8cc1c19620a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a038f512c564e4ae18571ac1836897edb" name="a038f512c564e4ae18571ac1836897edb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a038f512c564e4ae18571ac1836897edb">&#9670;&#160;</a></span>AnyUnfriendlyAttackableVisibleUnitInObjectRangeCheck()</h2>
 
@@ -163,7 +164,10 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  958</span>            : <a class="code hl_variable" href="../../df/d1a/class_acore_1_1_any_unfriendly_attackable_visible_unit_in_object_range_check.html#a3a0742f36f0a0a22c4ae6a2c8b8269b6">i_funit</a>(funit), <a class="code hl_variable" href="../../df/d1a/class_acore_1_1_any_unfriendly_attackable_visible_unit_in_object_range_check.html#a953943e53e25b6887bfab8cc1c19620a">i_range</a>(range) {}</div>
+<div class="ttc" id="aclass_acore_1_1_any_unfriendly_attackable_visible_unit_in_object_range_check_html_a3a0742f36f0a0a22c4ae6a2c8b8269b6"><div class="ttname"><a href="../../df/d1a/class_acore_1_1_any_unfriendly_attackable_visible_unit_in_object_range_check.html#a3a0742f36f0a0a22c4ae6a2c8b8269b6">Acore::AnyUnfriendlyAttackableVisibleUnitInObjectRangeCheck::i_funit</a></div><div class="ttdeci">Unit const  * i_funit</div><div class="ttdef"><b>Definition:</b> GridNotifiers.h:971</div></div>
+<div class="ttc" id="aclass_acore_1_1_any_unfriendly_attackable_visible_unit_in_object_range_check_html_a953943e53e25b6887bfab8cc1c19620a"><div class="ttname"><a href="../../df/d1a/class_acore_1_1_any_unfriendly_attackable_visible_unit_in_object_range_check.html#a953943e53e25b6887bfab8cc1c19620a">Acore::AnyUnfriendlyAttackableVisibleUnitInObjectRangeCheck::i_range</a></div><div class="ttdeci">float i_range</div><div class="ttdef"><b>Definition:</b> GridNotifiers.h:972</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -190,7 +194,19 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  961</span>        {</div>
+<div class="line"><span class="lineno">  962</span>            <span class="keywordflow">return</span> u-&gt;IsAlive()</div>
+<div class="line"><span class="lineno">  963</span>                   &amp;&amp; <a class="code hl_variable" href="../../df/d1a/class_acore_1_1_any_unfriendly_attackable_visible_unit_in_object_range_check.html#a3a0742f36f0a0a22c4ae6a2c8b8269b6">i_funit</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#ab73407bcdf13a30519a953d24773ed02">IsWithinDistInMap</a>(u, <a class="code hl_variable" href="../../df/d1a/class_acore_1_1_any_unfriendly_attackable_visible_unit_in_object_range_check.html#a953943e53e25b6887bfab8cc1c19620a">i_range</a>)</div>
+<div class="line"><span class="lineno">  964</span>                   &amp;&amp; !<a class="code hl_variable" href="../../df/d1a/class_acore_1_1_any_unfriendly_attackable_visible_unit_in_object_range_check.html#a3a0742f36f0a0a22c4ae6a2c8b8269b6">i_funit</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#abdfe022523c40277d917754f75edb722">IsFriendlyTo</a>(u)</div>
+<div class="line"><span class="lineno">  965</span>                   &amp;&amp; <a class="code hl_variable" href="../../df/d1a/class_acore_1_1_any_unfriendly_attackable_visible_unit_in_object_range_check.html#a3a0742f36f0a0a22c4ae6a2c8b8269b6">i_funit</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a1a733a908c073be90e5174601d448002">IsValidAttackTarget</a>(u)</div>
+<div class="line"><span class="lineno">  966</span>                   &amp;&amp; !u-&gt;IsCritter()</div>
+<div class="line"><span class="lineno">  967</span>                   &amp;&amp; !u-&gt;IsTotem() <span class="comment">//xinef: dont attack totems</span></div>
+<div class="line"><span class="lineno">  968</span>                   <span class="comment">/*&amp;&amp; i_funit-&gt;CanSeeOrDetect(u)*/</span>; <span class="comment">// pussywizard: already checked in IsValidAttackTarget(u)</span></div>
+<div class="line"><span class="lineno">  969</span>        }</div>
+<div class="ttc" id="aclass_unit_html_a1a733a908c073be90e5174601d448002"><div class="ttname"><a href="../../da/db7/class_unit.html#a1a733a908c073be90e5174601d448002">Unit::IsValidAttackTarget</a></div><div class="ttdeci">bool IsValidAttackTarget(Unit const *target) const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:13764</div></div>
+<div class="ttc" id="aclass_unit_html_abdfe022523c40277d917754f75edb722"><div class="ttname"><a href="../../da/db7/class_unit.html#abdfe022523c40277d917754f75edb722">Unit::IsFriendlyTo</a></div><div class="ttdeci">bool IsFriendlyTo(Unit const *unit) const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:10202</div></div>
+<div class="ttc" id="aclass_world_object_html_ab73407bcdf13a30519a953d24773ed02"><div class="ttname"><a href="../../db/df7/class_world_object.html#ab73407bcdf13a30519a953d24773ed02">WorldObject::IsWithinDistInMap</a></div><div class="ttdeci">bool IsWithinDistInMap(WorldObject const *obj, float dist2compare, bool is3D=true, bool useBoundingRadius=true) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1321</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -239,7 +255,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Grids/Notifiers/<a class="el" href="../../d0/dc9/_grid_notifiers_8h_source.html">GridNotifiers.h</a></li>
+<li><a class="el" href="../../">GridNotifiers.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -247,7 +263,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d7d/namespace_acore.html">Acore</a></li><li class="navelem"><a class="el" href="../../df/d1a/class_acore_1_1_any_unfriendly_attackable_visible_unit_in_object_range_check.html">AnyUnfriendlyAttackableVisibleUnitInObjectRangeCheck</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:13 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:31 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

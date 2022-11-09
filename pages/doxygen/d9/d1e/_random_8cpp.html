@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzeorthCore: D:/azerothcore-wotlk/src/common/Utilities/Random.cpp File Reference</title>
+<title>AzeorthCore: Random.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -111,12 +111,14 @@ $(document).ready(function(){initNavTree('d9/d1e/_random_8cpp.html','../../'); i
   <div class="headertitle"><div class="title">Random.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../d0/d80/_random_8h_source.html">Random.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../db/d16/_errors_8h_source.html">Errors.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d0/dcb/_s_f_m_t_rand_8h_source.html">SFMTRand.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Random.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Errors.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SFMTRand.h</a>&quot;</code><br />
 <code>#include &lt;memory&gt;</code><br />
 <code>#include &lt;random&gt;</code><br />
-</div><table class="memberdecls">
+</div>
+<p><a href="">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a8602a67daa881e92c3eb9204c88b7733"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../dd/dfa/class_s_f_m_t_rand.html">SFMTRand</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d1e/_random_8cpp.html#a8602a67daa881e92c3eb9204c88b7733">GetRng</a> ()</td></tr>
@@ -173,7 +175,14 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   58</span>{</div>
+<div class="line"><span class="lineno">   59</span>    <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(max &gt;= min);</div>
+<div class="line"><span class="lineno">   60</span>    std::uniform_real_distribution&lt;float&gt; urd(min, max);</div>
+<div class="line"><span class="lineno">   61</span>    <span class="keywordflow">return</span> urd(<a class="code hl_variable" href="../../d9/d1e/_random_8cpp.html#a8ab11e2fa939d9f333dfa1a858e7690b">engine</a>);</div>
+<div class="line"><span class="lineno">   62</span>}</div>
+<div class="ttc" id="a_errors_8h_html_af343b20373ba49a92fce523e948f2ab3"><div class="ttname"><a href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a></div><div class="ttdeci">#define ASSERT</div><div class="ttdef"><b>Definition:</b> Errors.h:68</div></div>
+<div class="ttc" id="a_random_8cpp_html_a8ab11e2fa939d9f333dfa1a858e7690b"><div class="ttname"><a href="../../d9/d1e/_random_8cpp.html#a8ab11e2fa939d9f333dfa1a858e7690b">engine</a></div><div class="ttdeci">static RandomEngine engine</div><div class="ttdef"><b>Definition:</b> Random.cpp:25</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a8602a67daa881e92c3eb9204c88b7733" name="a8602a67daa881e92c3eb9204c88b7733"></a>
@@ -198,7 +207,16 @@ Variables</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   28</span>{</div>
+<div class="line"><span class="lineno">   29</span>    <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d9/d1e/_random_8cpp.html#a131ba7587aa544a7e73ff9884d6bc784">sfmtRand</a>)</div>
+<div class="line"><span class="lineno">   30</span>    {</div>
+<div class="line"><span class="lineno">   31</span>        <a class="code hl_variable" href="../../d9/d1e/_random_8cpp.html#a131ba7587aa544a7e73ff9884d6bc784">sfmtRand</a> = std::make_unique&lt;SFMTRand&gt;();</div>
+<div class="line"><span class="lineno">   32</span>    }</div>
+<div class="line"><span class="lineno">   33</span> </div>
+<div class="line"><span class="lineno">   34</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d9/d1e/_random_8cpp.html#a131ba7587aa544a7e73ff9884d6bc784">sfmtRand</a>.get();</div>
+<div class="line"><span class="lineno">   35</span>}</div>
+<div class="ttc" id="a_random_8cpp_html_a131ba7587aa544a7e73ff9884d6bc784"><div class="ttname"><a href="../../d9/d1e/_random_8cpp.html#a131ba7587aa544a7e73ff9884d6bc784">sfmtRand</a></div><div class="ttdeci">static thread_local std::unique_ptr&lt; SFMTRand &gt; sfmtRand</div><div class="ttdef"><b>Definition:</b> Random.cpp:24</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a6ae07d2bb0593d8339e65c136f63ecc0" name="a6ae07d2bb0593d8339e65c136f63ecc0"></a>
@@ -226,7 +244,12 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   38</span>{</div>
+<div class="line"><span class="lineno">   39</span>    <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(max &gt;= min);</div>
+<div class="line"><span class="lineno">   40</span>    std::uniform_int_distribution&lt;int32&gt; uid(min, max);</div>
+<div class="line"><span class="lineno">   41</span>    <span class="keywordflow">return</span> uid(<a class="code hl_variable" href="../../d9/d1e/_random_8cpp.html#a8ab11e2fa939d9f333dfa1a858e7690b">engine</a>);</div>
+<div class="line"><span class="lineno">   42</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac699324b85bb2266ea8978796967c541" name="ac699324b85bb2266ea8978796967c541"></a>
@@ -243,7 +266,12 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   73</span>{</div>
+<div class="line"><span class="lineno">   74</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#a8602a67daa881e92c3eb9204c88b7733">GetRng</a>()-&gt;<a class="code hl_function" href="../../dd/dfa/class_s_f_m_t_rand.html#a8d129952ad2916419cdf54aa474c23c0">RandomUInt32</a>();</div>
+<div class="line"><span class="lineno">   75</span>}</div>
+<div class="ttc" id="a_random_8cpp_html_a8602a67daa881e92c3eb9204c88b7733"><div class="ttname"><a href="../../d9/d1e/_random_8cpp.html#a8602a67daa881e92c3eb9204c88b7733">GetRng</a></div><div class="ttdeci">static SFMTRand * GetRng()</div><div class="ttdef"><b>Definition:</b> Random.cpp:27</div></div>
+<div class="ttc" id="aclass_s_f_m_t_rand_html_a8d129952ad2916419cdf54aa474c23c0"><div class="ttname"><a href="../../dd/dfa/class_s_f_m_t_rand.html#a8d129952ad2916419cdf54aa474c23c0">SFMTRand::RandomUInt32</a></div><div class="ttdeci">uint32 RandomUInt32()</div><div class="ttdef"><b>Definition:</b> SFMTRand.cpp:76</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a66621d09a8cc2aa9476391004fe2c427" name="a66621d09a8cc2aa9476391004fe2c427"></a>
@@ -260,7 +288,11 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   84</span>{</div>
+<div class="line"><span class="lineno">   85</span>    std::uniform_real_distribution&lt;double&gt; urd(0.0, 100.0);</div>
+<div class="line"><span class="lineno">   86</span>    <span class="keywordflow">return</span> urd(<a class="code hl_variable" href="../../d9/d1e/_random_8cpp.html#a8ab11e2fa939d9f333dfa1a858e7690b">engine</a>);</div>
+<div class="line"><span class="lineno">   87</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="af2f9363ceebb6f78067b4a146d1de9df" name="af2f9363ceebb6f78067b4a146d1de9df"></a>
@@ -277,7 +309,11 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   78</span>{</div>
+<div class="line"><span class="lineno">   79</span>    std::uniform_real_distribution&lt;double&gt; urd;</div>
+<div class="line"><span class="lineno">   80</span>    <span class="keywordflow">return</span> urd(<a class="code hl_variable" href="../../d9/d1e/_random_8cpp.html#a8ab11e2fa939d9f333dfa1a858e7690b">engine</a>);</div>
+<div class="line"><span class="lineno">   81</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a9ecda65ea9686c86f47934d04d38ec69" name="a9ecda65ea9686c86f47934d04d38ec69"></a>
@@ -305,7 +341,16 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   65</span>{</div>
+<div class="line"><span class="lineno">   66</span>    <span class="keywordtype">long</span> <span class="keywordtype">long</span> diff = max.count() - min.count();</div>
+<div class="line"><span class="lineno">   67</span>    <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(diff &gt;= 0);</div>
+<div class="line"><span class="lineno">   68</span>    <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(diff &lt;= (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>) - 1);</div>
+<div class="line"><span class="lineno">   69</span>    <span class="keywordflow">return</span> min + <a class="code hl_typedef" href="../../da/dfd/_duration_8h.html#a1c3834b9e3853535027d58bf21bec81f">Milliseconds</a>(<a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(0, diff));</div>
+<div class="line"><span class="lineno">   70</span>}</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="a_duration_8h_html_a1c3834b9e3853535027d58bf21bec81f"><div class="ttname"><a href="../../da/dfd/_duration_8h.html#a1c3834b9e3853535027d58bf21bec81f">Milliseconds</a></div><div class="ttdeci">std::chrono::milliseconds Milliseconds</div><div class="ttdoc">Milliseconds shorthand typedef.</div><div class="ttdef"><b>Definition:</b> Duration.h:27</div></div>
+<div class="ttc" id="a_random_8cpp_html_ab17def34ccbbd868dc87a16bf35acdbd"><div class="ttname"><a href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a></div><div class="ttdeci">uint32 urand(uint32 min, uint32 max)</div><div class="ttdef"><b>Definition:</b> Random.cpp:44</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ab17def34ccbbd868dc87a16bf35acdbd" name="ab17def34ccbbd868dc87a16bf35acdbd"></a>
@@ -333,7 +378,12 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   45</span>{</div>
+<div class="line"><span class="lineno">   46</span>    <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(max &gt;= min);</div>
+<div class="line"><span class="lineno">   47</span>    std::uniform_int_distribution&lt;uint32&gt; uid(min, max);</div>
+<div class="line"><span class="lineno">   48</span>    <span class="keywordflow">return</span> uid(<a class="code hl_variable" href="../../d9/d1e/_random_8cpp.html#a8ab11e2fa939d9f333dfa1a858e7690b">engine</a>);</div>
+<div class="line"><span class="lineno">   49</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="af901d57f29ff48f701a375e44a0f1261" name="af901d57f29ff48f701a375e44a0f1261"></a>
@@ -361,7 +411,11 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   52</span>{</div>
+<div class="line"><span class="lineno">   53</span>    <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(std::numeric_limits&lt;uint32&gt;::max() / Milliseconds::period::den &gt;= max);</div>
+<div class="line"><span class="lineno">   54</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(min * Milliseconds::period::den, max * Milliseconds::period::den);</div>
+<div class="line"><span class="lineno">   55</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a1ef6ff5da2302c71847799fdcaebd6e1" name="a1ef6ff5da2302c71847799fdcaebd6e1"></a>
@@ -389,7 +443,11 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   90</span>{</div>
+<div class="line"><span class="lineno">   91</span>    std::discrete_distribution&lt;uint32&gt; dd(chances, chances + count);</div>
+<div class="line"><span class="lineno">   92</span>    <span class="keywordflow">return</span> dd(<a class="code hl_variable" href="../../d9/d1e/_random_8cpp.html#a8ab11e2fa939d9f333dfa1a858e7690b">engine</a>);</div>
+<div class="line"><span class="lineno">   93</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
@@ -443,7 +501,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_1070012e9e40376f8468ff0aa5b77c71.html">common</a></li><li class="navelem"><a class="el" href="../../dir_5b60c41b3dc3977dce15646b3e6a9085.html">Utilities</a></li><li class="navelem"><a class="el" href="../../d9/d1e/_random_8cpp.html">Random.cpp</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:18 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:31 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

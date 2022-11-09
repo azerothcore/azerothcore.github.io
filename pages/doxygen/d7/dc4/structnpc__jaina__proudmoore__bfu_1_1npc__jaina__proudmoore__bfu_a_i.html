@@ -487,7 +487,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ad5ad1d05ef8210409c700e47b5442e24" name="ad5ad1d05ef8210409c700e47b5442e24"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad5ad1d05ef8210409c700e47b5442e24">&#9670;&#160;</a></span>npc_jaina_proudmoore_bfuAI()</h2>
 
@@ -511,7 +512,13 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 2093</span>                                                       : <a class="code hl_struct" href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a>(creature)</div>
+<div class="line"><span class="lineno"> 2094</span>        {</div>
+<div class="line"><span class="lineno"> 2095</span>            <a class="code hl_function" href="../../d7/dc4/structnpc__jaina__proudmoore__bfu_1_1npc__jaina__proudmoore__bfu_a_i.html#a18de805428ce0954a5fbfffbf5975342">Reset</a>();</div>
+<div class="line"><span class="lineno"> 2096</span>        }</div>
+<div class="ttc" id="astruct_scripted_a_i_html"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
+<div class="ttc" id="astructnpc__jaina__proudmoore__bfu_1_1npc__jaina__proudmoore__bfu_a_i_html_a18de805428ce0954a5fbfffbf5975342"><div class="ttname"><a href="../../d7/dc4/structnpc__jaina__proudmoore__bfu_1_1npc__jaina__proudmoore__bfu_a_i.html#a18de805428ce0954a5fbfffbf5975342">npc_jaina_proudmoore_bfu::npc_jaina_proudmoore_bfuAI::Reset</a></div><div class="ttdeci">void Reset() override</div><div class="ttdef"><b>Definition:</b> zone_undercity.cpp:2098</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -539,7 +546,29 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a26600c116d20a33461fc884bdb82eda9">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 2099</span>        {</div>
+<div class="line"><span class="lineno"> 2100</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#aa8a50e4ad6c377c87844b6db31c1489f">SetCorpseDelay</a>(1);</div>
+<div class="line"><span class="lineno"> 2101</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a35ac9da6ab2ade67fbcfab3f325e84e8">SetRespawnTime</a>(1);</div>
+<div class="line"><span class="lineno"> 2102</span>            <a class="code hl_variable" href="../../d7/dc4/structnpc__jaina__proudmoore__bfu_1_1npc__jaina__proudmoore__bfu_a_i.html#a87e99e0b5fd0a3823b009025019b1fa4">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a5e6081bda8828001c0ed8677b2aecd65">ScheduleEvent</a>(<a class="code hl_enumvalue" href="../../d1/d2d/zone__undercity_8cpp.html#a3340f88cbee80feb625844ccdee7eb8aa2f41794aafc9d878c1d2e3aa735cbf44">EVENT_FIREBALL</a>, 1 * <a class="code hl_variable" href="../../db/d1f/_common_8h.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a>);</div>
+<div class="line"><span class="lineno"> 2103</span>            <a class="code hl_variable" href="../../d7/dc4/structnpc__jaina__proudmoore__bfu_1_1npc__jaina__proudmoore__bfu_a_i.html#a87e99e0b5fd0a3823b009025019b1fa4">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a5e6081bda8828001c0ed8677b2aecd65">ScheduleEvent</a>(<a class="code hl_enumvalue" href="../../d1/d2d/zone__undercity_8cpp.html#a3340f88cbee80feb625844ccdee7eb8aac7748bbd75996b6fd1580c54fc1e883b">EVENT_BLIZZARD</a>, 8 * <a class="code hl_variable" href="../../db/d1f/_common_8h.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a>);</div>
+<div class="line"><span class="lineno"> 2104</span>            <a class="code hl_variable" href="../../d7/dc4/structnpc__jaina__proudmoore__bfu_1_1npc__jaina__proudmoore__bfu_a_i.html#a87e99e0b5fd0a3823b009025019b1fa4">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a5e6081bda8828001c0ed8677b2aecd65">ScheduleEvent</a>(<a class="code hl_enumvalue" href="../../d1/d2d/zone__undercity_8cpp.html#a3340f88cbee80feb625844ccdee7eb8aa5465384b2be6e62e20c8668b73744276">EVENT_ELEMENTAL</a>, 30 * <a class="code hl_variable" href="../../db/d1f/_common_8h.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a>);</div>
+<div class="line"><span class="lineno"> 2105</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a1afc1e413f12c5bd7bc00c926fa05833">ApplySpellImmune</a>(0, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a91d505a1e789c6ea6a338f3a3c85b6b9a981326220afec59126417e02e0b882de">IMMUNITY_ID</a>, <a class="code hl_enumvalue" href="../../d1/d2d/zone__undercity_8cpp.html#abc1817310402e8975ffa012bf11a8506ac0c681fbb4794400288283df7227f2c9">SPELL_THRALL_BUFF</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno"> 2106</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a1afc1e413f12c5bd7bc00c926fa05833">ApplySpellImmune</a>(0, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a91d505a1e789c6ea6a338f3a3c85b6b9a981326220afec59126417e02e0b882de">IMMUNITY_ID</a>, <a class="code hl_enumvalue" href="../../d1/d2d/zone__undercity_8cpp.html#a4c08faf51d83bc0550bcd1a89759a5b6ad4ea7ee98257439361cf3fa03e9063a5">SPELL_SYLVANAS_BUFF</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno"> 2107</span>        }</div>
+<div class="ttc" id="a_common_8h_html_a84190f79c8167211609f67284e066c58"><div class="ttname"><a href="../../db/d1f/_common_8h.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a></div><div class="ttdeci">constexpr auto IN_MILLISECONDS</div><div class="ttdef"><b>Definition:</b> Common.h:62</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a91d505a1e789c6ea6a338f3a3c85b6b9a981326220afec59126417e02e0b882de"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a91d505a1e789c6ea6a338f3a3c85b6b9a981326220afec59126417e02e0b882de">IMMUNITY_ID</a></div><div class="ttdeci">@ IMMUNITY_ID</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1372</div></div>
+<div class="ttc" id="aclass_creature_html_a35ac9da6ab2ade67fbcfab3f325e84e8"><div class="ttname"><a href="../../d1/dac/class_creature.html#a35ac9da6ab2ade67fbcfab3f325e84e8">Creature::SetRespawnTime</a></div><div class="ttdeci">void SetRespawnTime(uint32 respawn)</div><div class="ttdef"><b>Definition:</b> Creature.cpp:3625</div></div>
+<div class="ttc" id="aclass_creature_html_aa8a50e4ad6c377c87844b6db31c1489f"><div class="ttname"><a href="../../d1/dac/class_creature.html#aa8a50e4ad6c377c87844b6db31c1489f">Creature::SetCorpseDelay</a></div><div class="ttdeci">void SetCorpseDelay(uint32 delay)</div><div class="ttdef"><b>Definition:</b> Creature.h:71</div></div>
+<div class="ttc" id="aclass_event_map_html_a5e6081bda8828001c0ed8677b2aecd65"><div class="ttname"><a href="../../d8/d8f/class_event_map.html#a5e6081bda8828001c0ed8677b2aecd65">EventMap::ScheduleEvent</a></div><div class="ttdeci">void ScheduleEvent(uint32 eventId, uint32 time, uint32 group=0, uint32 phase=0)</div><div class="ttdef"><b>Definition:</b> EventMap.cpp:56</div></div>
+<div class="ttc" id="aclass_unit_html_a1afc1e413f12c5bd7bc00c926fa05833"><div class="ttname"><a href="../../da/db7/class_unit.html#a1afc1e413f12c5bd7bc00c926fa05833">Unit::ApplySpellImmune</a></div><div class="ttdeci">void ApplySpellImmune(uint32 spellId, uint32 op, uint32 type, bool apply, SpellImmuneBlockType blockType=SPELL_BLOCK_TYPE_ALL)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:13293</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+<div class="ttc" id="astructnpc__jaina__proudmoore__bfu_1_1npc__jaina__proudmoore__bfu_a_i_html_a87e99e0b5fd0a3823b009025019b1fa4"><div class="ttname"><a href="../../d7/dc4/structnpc__jaina__proudmoore__bfu_1_1npc__jaina__proudmoore__bfu_a_i.html#a87e99e0b5fd0a3823b009025019b1fa4">npc_jaina_proudmoore_bfu::npc_jaina_proudmoore_bfuAI::_events</a></div><div class="ttdeci">EventMap _events</div><div class="ttdef"><b>Definition:</b> zone_undercity.cpp:2145</div></div>
+<div class="ttc" id="azone__undercity_8cpp_html_a3340f88cbee80feb625844ccdee7eb8aa2f41794aafc9d878c1d2e3aa735cbf44"><div class="ttname"><a href="../../d1/d2d/zone__undercity_8cpp.html#a3340f88cbee80feb625844ccdee7eb8aa2f41794aafc9d878c1d2e3aa735cbf44">EVENT_FIREBALL</a></div><div class="ttdeci">@ EVENT_FIREBALL</div><div class="ttdef"><b>Definition:</b> zone_undercity.cpp:435</div></div>
+<div class="ttc" id="azone__undercity_8cpp_html_a3340f88cbee80feb625844ccdee7eb8aa5465384b2be6e62e20c8668b73744276"><div class="ttname"><a href="../../d1/d2d/zone__undercity_8cpp.html#a3340f88cbee80feb625844ccdee7eb8aa5465384b2be6e62e20c8668b73744276">EVENT_ELEMENTAL</a></div><div class="ttdeci">@ EVENT_ELEMENTAL</div><div class="ttdef"><b>Definition:</b> zone_undercity.cpp:437</div></div>
+<div class="ttc" id="azone__undercity_8cpp_html_a3340f88cbee80feb625844ccdee7eb8aac7748bbd75996b6fd1580c54fc1e883b"><div class="ttname"><a href="../../d1/d2d/zone__undercity_8cpp.html#a3340f88cbee80feb625844ccdee7eb8aac7748bbd75996b6fd1580c54fc1e883b">EVENT_BLIZZARD</a></div><div class="ttdeci">@ EVENT_BLIZZARD</div><div class="ttdef"><b>Definition:</b> zone_undercity.cpp:436</div></div>
+<div class="ttc" id="azone__undercity_8cpp_html_a4c08faf51d83bc0550bcd1a89759a5b6ad4ea7ee98257439361cf3fa03e9063a5"><div class="ttname"><a href="../../d1/d2d/zone__undercity_8cpp.html#a4c08faf51d83bc0550bcd1a89759a5b6ad4ea7ee98257439361cf3fa03e9063a5">SPELL_SYLVANAS_BUFF</a></div><div class="ttdeci">@ SPELL_SYLVANAS_BUFF</div><div class="ttdef"><b>Definition:</b> zone_undercity.cpp:562</div></div>
+<div class="ttc" id="azone__undercity_8cpp_html_abc1817310402e8975ffa012bf11a8506ac0c681fbb4794400288283df7227f2c9"><div class="ttname"><a href="../../d1/d2d/zone__undercity_8cpp.html#abc1817310402e8975ffa012bf11a8506ac0c681fbb4794400288283df7227f2c9">SPELL_THRALL_BUFF</a></div><div class="ttdeci">@ SPELL_THRALL_BUFF</div><div class="ttdef"><b>Definition:</b> zone_undercity.cpp:496</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a48b191d0812bfe3212511a52ef0df817" name="a48b191d0812bfe3212511a52ef0df817"></a>
@@ -567,7 +596,53 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#aff5fd4e142a5cf930ffacbfc7259cce5">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 2110</span>        {</div>
+<div class="line"><span class="lineno"> 2111</span>            <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">GetVictim</a>())</div>
+<div class="line"><span class="lineno"> 2112</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 2113</span> </div>
+<div class="line"><span class="lineno"> 2114</span>            <a class="code hl_variable" href="../../d7/dc4/structnpc__jaina__proudmoore__bfu_1_1npc__jaina__proudmoore__bfu_a_i.html#a87e99e0b5fd0a3823b009025019b1fa4">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a33ba1058edd639c98258ba3e123ac2f9">Update</a>(diff);</div>
+<div class="line"><span class="lineno"> 2115</span> </div>
+<div class="line"><span class="lineno"> 2116</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ab78147cd520d2dac6be709b4c80a7de3">HasUnitState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54">UNIT_STATE_CASTING</a>))</div>
+<div class="line"><span class="lineno"> 2117</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 2118</span> </div>
+<div class="line"><span class="lineno"> 2119</span>            <span class="keywordflow">while</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> eventId = <a class="code hl_variable" href="../../d7/dc4/structnpc__jaina__proudmoore__bfu_1_1npc__jaina__proudmoore__bfu_a_i.html#a87e99e0b5fd0a3823b009025019b1fa4">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a07764662d7571ae0e1c44203d189ba44">ExecuteEvent</a>())</div>
+<div class="line"><span class="lineno"> 2120</span>            {</div>
+<div class="line"><span class="lineno"> 2121</span>                <span class="keywordflow">switch</span> (eventId)</div>
+<div class="line"><span class="lineno"> 2122</span>                {</div>
+<div class="line"><span class="lineno"> 2123</span>                    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/d2d/zone__undercity_8cpp.html#a3340f88cbee80feb625844ccdee7eb8aa2f41794aafc9d878c1d2e3aa735cbf44">EVENT_FIREBALL</a>:</div>
+<div class="line"><span class="lineno"> 2124</span>                        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target = <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6daed910a7666394bcbf8abd2f20096e">SelectTarget</a>(SelectTargetMethod::Random, 0))</div>
+<div class="line"><span class="lineno"> 2125</span>                            <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(target, <a class="code hl_enumvalue" href="../../d1/d2d/zone__undercity_8cpp.html#a3340f88cbee80feb625844ccdee7eb8aa846055c995374082714483a6b39bc963">SPELL_FIREBALL</a>);</div>
+<div class="line"><span class="lineno"> 2126</span>                        <a class="code hl_variable" href="../../d7/dc4/structnpc__jaina__proudmoore__bfu_1_1npc__jaina__proudmoore__bfu_a_i.html#a87e99e0b5fd0a3823b009025019b1fa4">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a5e6081bda8828001c0ed8677b2aecd65">ScheduleEvent</a>(<a class="code hl_enumvalue" href="../../d1/d2d/zone__undercity_8cpp.html#a3340f88cbee80feb625844ccdee7eb8aa2f41794aafc9d878c1d2e3aa735cbf44">EVENT_FIREBALL</a>, 3 * <a class="code hl_variable" href="../../db/d1f/_common_8h.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a>);</div>
+<div class="line"><span class="lineno"> 2127</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 2128</span>                    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/d2d/zone__undercity_8cpp.html#a3340f88cbee80feb625844ccdee7eb8aac7748bbd75996b6fd1580c54fc1e883b">EVENT_BLIZZARD</a>:</div>
+<div class="line"><span class="lineno"> 2129</span>                        <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(<a class="code hl_enumvalue" href="../../d1/d2d/zone__undercity_8cpp.html#a3340f88cbee80feb625844ccdee7eb8aa8271bf723a74d49c9a4cf81f134cf956">SPELL_BLIZZARD</a>);</div>
+<div class="line"><span class="lineno"> 2130</span>                        <a class="code hl_variable" href="../../d7/dc4/structnpc__jaina__proudmoore__bfu_1_1npc__jaina__proudmoore__bfu_a_i.html#a87e99e0b5fd0a3823b009025019b1fa4">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a5e6081bda8828001c0ed8677b2aecd65">ScheduleEvent</a>(<a class="code hl_enumvalue" href="../../d1/d2d/zone__undercity_8cpp.html#a3340f88cbee80feb625844ccdee7eb8aac7748bbd75996b6fd1580c54fc1e883b">EVENT_BLIZZARD</a>, 15 * <a class="code hl_variable" href="../../db/d1f/_common_8h.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a>);</div>
+<div class="line"><span class="lineno"> 2131</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 2132</span>                    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/d2d/zone__undercity_8cpp.html#a3340f88cbee80feb625844ccdee7eb8aa5465384b2be6e62e20c8668b73744276">EVENT_ELEMENTAL</a>:</div>
+<div class="line"><span class="lineno"> 2133</span>                        <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(<a class="code hl_enumvalue" href="../../d1/d2d/zone__undercity_8cpp.html#a3340f88cbee80feb625844ccdee7eb8aa19cd12ca7f7b4fa098010aede50ef04b">SPELL_ELEMENTALS</a>);</div>
+<div class="line"><span class="lineno"> 2134</span>                        <a class="code hl_variable" href="../../d7/dc4/structnpc__jaina__proudmoore__bfu_1_1npc__jaina__proudmoore__bfu_a_i.html#a87e99e0b5fd0a3823b009025019b1fa4">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a5e6081bda8828001c0ed8677b2aecd65">ScheduleEvent</a>(<a class="code hl_enumvalue" href="../../d1/d2d/zone__undercity_8cpp.html#a3340f88cbee80feb625844ccdee7eb8aa5465384b2be6e62e20c8668b73744276">EVENT_ELEMENTAL</a>, 90 * <a class="code hl_variable" href="../../db/d1f/_common_8h.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a>);</div>
+<div class="line"><span class="lineno"> 2135</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 2136</span>                    <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno"> 2137</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 2138</span>                }</div>
+<div class="line"><span class="lineno"> 2139</span>            }</div>
+<div class="line"><span class="lineno"> 2140</span> </div>
+<div class="line"><span class="lineno"> 2141</span>            <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">DoMeleeAttackIfReady</a>();</div>
+<div class="line"><span class="lineno"> 2142</span>        }</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="a_unit_8h_html_ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54">UNIT_STATE_CASTING</a></div><div class="ttdeci">@ UNIT_STATE_CASTING</div><div class="ttdef"><b>Definition:</b> Unit.h:340</div></div>
+<div class="ttc" id="aclass_event_map_html_a07764662d7571ae0e1c44203d189ba44"><div class="ttname"><a href="../../d8/d8f/class_event_map.html#a07764662d7571ae0e1c44203d189ba44">EventMap::ExecuteEvent</a></div><div class="ttdeci">uint32 ExecuteEvent()</div><div class="ttdef"><b>Definition:</b> EventMap.cpp:114</div></div>
+<div class="ttc" id="aclass_event_map_html_a33ba1058edd639c98258ba3e123ac2f9"><div class="ttname"><a href="../../d8/d8f/class_event_map.html#a33ba1058edd639c98258ba3e123ac2f9">EventMap::Update</a></div><div class="ttdeci">void Update(uint32 time)</div><div class="ttdef"><b>Definition:</b> EventMap.h:54</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a348a472089a9be6210b58aace8fafa9f"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">UnitAI::DoMeleeAttackIfReady</a></div><div class="ttdeci">void DoMeleeAttackIfReady()</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:40</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a6daed910a7666394bcbf8abd2f20096e"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a6daed910a7666394bcbf8abd2f20096e">UnitAI::SelectTarget</a></div><div class="ttdeci">Unit * SelectTarget(SelectTargetMethod targetType, uint32 position=0, float dist=0.0f, bool playerOnly=false, int32 aura=0)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:111</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_aeebcad9b6effa45145c50f06af60b23d"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">UnitAI::DoCast</a></div><div class="ttdeci">SpellCastResult DoCast(uint32 spellId)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:178</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_aae09d03a474ea5517d671e64dc393739"><div class="ttname"><a href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">Unit::GetVictim</a></div><div class="ttdeci">Unit * GetVictim() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1386</div></div>
+<div class="ttc" id="aclass_unit_html_ab78147cd520d2dac6be709b4c80a7de3"><div class="ttname"><a href="../../da/db7/class_unit.html#ab78147cd520d2dac6be709b4c80a7de3">Unit::HasUnitState</a></div><div class="ttdeci">bool HasUnitState(const uint32 f) const</div><div class="ttdef"><b>Definition:</b> Unit.h:1398</div></div>
+<div class="ttc" id="azone__undercity_8cpp_html_a3340f88cbee80feb625844ccdee7eb8aa19cd12ca7f7b4fa098010aede50ef04b"><div class="ttname"><a href="../../d1/d2d/zone__undercity_8cpp.html#a3340f88cbee80feb625844ccdee7eb8aa19cd12ca7f7b4fa098010aede50ef04b">SPELL_ELEMENTALS</a></div><div class="ttdeci">@ SPELL_ELEMENTALS</div><div class="ttdef"><b>Definition:</b> zone_undercity.cpp:430</div></div>
+<div class="ttc" id="azone__undercity_8cpp_html_a3340f88cbee80feb625844ccdee7eb8aa8271bf723a74d49c9a4cf81f134cf956"><div class="ttname"><a href="../../d1/d2d/zone__undercity_8cpp.html#a3340f88cbee80feb625844ccdee7eb8aa8271bf723a74d49c9a4cf81f134cf956">SPELL_BLIZZARD</a></div><div class="ttdeci">@ SPELL_BLIZZARD</div><div class="ttdef"><b>Definition:</b> zone_undercity.cpp:429</div></div>
+<div class="ttc" id="azone__undercity_8cpp_html_a3340f88cbee80feb625844ccdee7eb8aa846055c995374082714483a6b39bc963"><div class="ttname"><a href="../../d1/d2d/zone__undercity_8cpp.html#a3340f88cbee80feb625844ccdee7eb8aa846055c995374082714483a6b39bc963">SPELL_FIREBALL</a></div><div class="ttdeci">@ SPELL_FIREBALL</div><div class="ttdef"><b>Definition:</b> zone_undercity.cpp:428</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -594,7 +669,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/EasternKingdoms/<a class="el" href="../../d1/d2d/zone__undercity_8cpp.html">zone_undercity.cpp</a></li>
+<li><a class="el" href="../../">zone_undercity.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -602,7 +677,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../df/dde/classnpc__jaina__proudmoore__bfu.html">npc_jaina_proudmoore_bfu</a></li><li class="navelem"><a class="el" href="../../d7/dc4/structnpc__jaina__proudmoore__bfu_1_1npc__jaina__proudmoore__bfu_a_i.html">npc_jaina_proudmoore_bfuAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:51 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:07 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

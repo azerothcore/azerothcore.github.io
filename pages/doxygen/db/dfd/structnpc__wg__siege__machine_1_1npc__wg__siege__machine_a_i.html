@@ -390,7 +390,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aaeca9e73520701ce28f2cc9d1483cc6b" name="aaeca9e73520701ce28f2cc9d1483cc6b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aaeca9e73520701ce28f2cc9d1483cc6b">&#9670;&#160;</a></span>npc_wg_siege_machineAI()</h2>
 
@@ -414,7 +415,13 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  794</span>                                                   : <a class="code hl_struct" href="../../df/d81/struct_vehicle_a_i.html">VehicleAI</a>(creature)</div>
+<div class="line"><span class="lineno">  795</span>        {</div>
+<div class="line"><span class="lineno">  796</span>            <a class="code hl_variable" href="../../db/dfd/structnpc__wg__siege__machine_1_1npc__wg__siege__machine_a_i.html#abf4b06eae50adeefedba02e2186ea48a">checkTimer</a> = 0;</div>
+<div class="line"><span class="lineno">  797</span>        }</div>
+<div class="ttc" id="astruct_vehicle_a_i_html"><div class="ttname"><a href="../../df/d81/struct_vehicle_a_i.html">VehicleAI</a></div><div class="ttdef"><b>Definition:</b> CombatAI.h:99</div></div>
+<div class="ttc" id="astructnpc__wg__siege__machine_1_1npc__wg__siege__machine_a_i_html_abf4b06eae50adeefedba02e2186ea48a"><div class="ttname"><a href="../../db/dfd/structnpc__wg__siege__machine_1_1npc__wg__siege__machine_a_i.html#abf4b06eae50adeefedba02e2186ea48a">npc_wg_siege_machine::npc_wg_siege_machineAI::checkTimer</a></div><div class="ttdeci">uint32 checkTimer</div><div class="ttdef"><b>Definition:</b> zone_wintergrasp.cpp:799</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -441,7 +448,22 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  802</span>        {</div>
+<div class="line"><span class="lineno">  803</span>            <span class="keywordflow">if</span> (passenger-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a69c5ac45b65cf0dede6e0ee837361f61">HasAura</a>(<a class="code hl_enumvalue" href="../../db/dbf/_battlefield_w_g_8h.html#a6d3ae36107d254525baaeec61e83ef2aae6d9d9e14574e1e135502787467b9a16">SPELL_LIEUTENANT</a>))</div>
+<div class="line"><span class="lineno">  804</span>                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  805</span> </div>
+<div class="line"><span class="lineno">  806</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>() == <a class="code hl_enumvalue" href="../../db/dbf/_battlefield_w_g_8h.html#a5d9b2f95c8b7a8307f9fa36c989d4e16a7e93f17d0d938047ef7ec14e9fa31c0b">NPC_WINTERGRASP_CATAPULT</a> &amp;&amp; passenger-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a69c5ac45b65cf0dede6e0ee837361f61">HasAura</a>(<a class="code hl_enumvalue" href="../../db/dbf/_battlefield_w_g_8h.html#a6d3ae36107d254525baaeec61e83ef2aa72ab7365194e457e204642cabd43625e">SPELL_CORPORAL</a>))</div>
+<div class="line"><span class="lineno">  807</span>                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  808</span> </div>
+<div class="line"><span class="lineno">  809</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  810</span>        }</div>
+<div class="ttc" id="a_battlefield_w_g_8h_html_a5d9b2f95c8b7a8307f9fa36c989d4e16a7e93f17d0d938047ef7ec14e9fa31c0b"><div class="ttname"><a href="../../db/dbf/_battlefield_w_g_8h.html#a5d9b2f95c8b7a8307f9fa36c989d4e16a7e93f17d0d938047ef7ec14e9fa31c0b">NPC_WINTERGRASP_CATAPULT</a></div><div class="ttdeci">@ NPC_WINTERGRASP_CATAPULT</div><div class="ttdef"><b>Definition:</b> BattlefieldWG.h:214</div></div>
+<div class="ttc" id="a_battlefield_w_g_8h_html_a6d3ae36107d254525baaeec61e83ef2aa72ab7365194e457e204642cabd43625e"><div class="ttname"><a href="../../db/dbf/_battlefield_w_g_8h.html#a6d3ae36107d254525baaeec61e83ef2aa72ab7365194e457e204642cabd43625e">SPELL_CORPORAL</a></div><div class="ttdeci">@ SPELL_CORPORAL</div><div class="ttdef"><b>Definition:</b> BattlefieldWG.h:50</div></div>
+<div class="ttc" id="a_battlefield_w_g_8h_html_a6d3ae36107d254525baaeec61e83ef2aae6d9d9e14574e1e135502787467b9a16"><div class="ttname"><a href="../../db/dbf/_battlefield_w_g_8h.html#a6d3ae36107d254525baaeec61e83ef2aae6d9d9e14574e1e135502787467b9a16">SPELL_LIEUTENANT</a></div><div class="ttdeci">@ SPELL_LIEUTENANT</div><div class="ttdef"><b>Definition:</b> BattlefieldWG.h:51</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_aee5bf3d421199445de241a34798ae819"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">CreatureAI::me</a></div><div class="ttdeci">Creature *const me</div><div class="ttdef"><b>Definition:</b> CreatureAI.h:72</div></div>
+<div class="ttc" id="aclass_object_html_aa627fe2967ed0e0ed1d8aeeb4365a961"><div class="ttname"><a href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">Object::GetEntry</a></div><div class="ttdeci">uint32 GetEntry() const</div><div class="ttdef"><b>Definition:</b> Object.h:109</div></div>
+<div class="ttc" id="aclass_unit_html_a69c5ac45b65cf0dede6e0ee837361f61"><div class="ttname"><a href="../../da/db7/class_unit.html#a69c5ac45b65cf0dede6e0ee837361f61">Unit::HasAura</a></div><div class="ttdeci">bool HasAura(uint32 spellId, ObjectGuid casterGUID=ObjectGuid::Empty, ObjectGuid itemCasterGUID=ObjectGuid::Empty, uint8 reqEffMask=0) const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:5598</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a8ddd21047a857facc767a9edc0ec5408" name="a8ddd21047a857facc767a9edc0ec5408"></a>
@@ -469,7 +491,34 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../df/d81/struct_vehicle_a_i.html#aac593372592d33fa008a66c6dcec1840">VehicleAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  813</span>        {</div>
+<div class="line"><span class="lineno">  814</span>            <a class="code hl_function" href="../../df/d81/struct_vehicle_a_i.html#aac593372592d33fa008a66c6dcec1840">VehicleAI::UpdateAI</a>(diff);</div>
+<div class="line"><span class="lineno">  815</span> </div>
+<div class="line"><span class="lineno">  816</span>            <a class="code hl_variable" href="../../db/dfd/structnpc__wg__siege__machine_1_1npc__wg__siege__machine_a_i.html#abf4b06eae50adeefedba02e2186ea48a">checkTimer</a> += diff;</div>
+<div class="line"><span class="lineno">  817</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../db/dfd/structnpc__wg__siege__machine_1_1npc__wg__siege__machine_a_i.html#abf4b06eae50adeefedba02e2186ea48a">checkTimer</a> &gt;= 1000)</div>
+<div class="line"><span class="lineno">  818</span>            {</div>
+<div class="line"><span class="lineno">  819</span>                <a class="code hl_variable" href="../../db/dfd/structnpc__wg__siege__machine_1_1npc__wg__siege__machine_a_i.html#abf4b06eae50adeefedba02e2186ea48a">checkTimer</a> = 0;</div>
+<div class="line"><span class="lineno">  820</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ae54fce65a1c084c982043777288895ec">GetVehicleKit</a>())</div>
+<div class="line"><span class="lineno">  821</span>                    <span class="keywordflow">for</span> (SeatMap::iterator itr = <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ae54fce65a1c084c982043777288895ec">GetVehicleKit</a>()-&gt;<a class="code hl_variable" href="../../dd/df6/class_vehicle.html#ab37daaf199009e8d9bd5eacee76b5932">Seats</a>.begin(); itr != <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ae54fce65a1c084c982043777288895ec">GetVehicleKit</a>()-&gt;<a class="code hl_variable" href="../../dd/df6/class_vehicle.html#ab37daaf199009e8d9bd5eacee76b5932">Seats</a>.end(); ++itr)</div>
+<div class="line"><span class="lineno">  822</span>                        <span class="keywordflow">if</span> (<span class="keyword">const</span> <a class="code hl_struct" href="../../d1/d95/struct_vehicle_seat_entry.html">VehicleSeatEntry</a>* seatInfo = itr-&gt;second.SeatInfo)</div>
+<div class="line"><span class="lineno">  823</span>                            <span class="keywordflow">if</span> (seatInfo-&gt;m_flags &amp; <a class="code hl_enumvalue" href="../../dc/d6e/_d_b_c_enums_8h.html#a1722a65e910763eaffb541de9d7001f5a94ffa65329c61093e3ef156ab08ccf98">VEHICLE_SEAT_FLAG_CAN_CONTROL</a>)</div>
+<div class="line"><span class="lineno">  824</span>                                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* passenger = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#a02c2dfb59db7d7e2501dcc9a4f9baf07">ObjectAccessor::GetUnit</a>(*<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>, itr-&gt;second.Passenger.Guid))</div>
+<div class="line"><span class="lineno">  825</span>                                    <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../db/dfd/structnpc__wg__siege__machine_1_1npc__wg__siege__machine_a_i.html#a7ce79406da48e245a0baa2fdd23622b9">CanControlVehicle</a>(passenger))</div>
+<div class="line"><span class="lineno">  826</span>                                    {</div>
+<div class="line"><span class="lineno">  827</span>                                        passenger-&gt;ExitVehicle();</div>
+<div class="line"><span class="lineno">  828</span>                                        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  829</span>                                    }</div>
+<div class="line"><span class="lineno">  830</span>            }</div>
+<div class="line"><span class="lineno">  831</span>        }</div>
+<div class="ttc" id="a_d_b_c_enums_8h_html_a1722a65e910763eaffb541de9d7001f5a94ffa65329c61093e3ef156ab08ccf98"><div class="ttname"><a href="../../dc/d6e/_d_b_c_enums_8h.html#a1722a65e910763eaffb541de9d7001f5a94ffa65329c61093e3ef156ab08ccf98">VEHICLE_SEAT_FLAG_CAN_CONTROL</a></div><div class="ttdeci">@ VEHICLE_SEAT_FLAG_CAN_CONTROL</div><div class="ttdef"><b>Definition:</b> DBCEnums.h:460</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_ae54fce65a1c084c982043777288895ec"><div class="ttname"><a href="../../da/db7/class_unit.html#ae54fce65a1c084c982043777288895ec">Unit::GetVehicleKit</a></div><div class="ttdeci">Vehicle * GetVehicleKit() const</div><div class="ttdef"><b>Definition:</b> Unit.h:2348</div></div>
+<div class="ttc" id="aclass_vehicle_html_ab37daaf199009e8d9bd5eacee76b5932"><div class="ttname"><a href="../../dd/df6/class_vehicle.html#ab37daaf199009e8d9bd5eacee76b5932">Vehicle::Seats</a></div><div class="ttdeci">SeatMap Seats</div><div class="ttdef"><b>Definition:</b> Vehicle.h:57</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_a02c2dfb59db7d7e2501dcc9a4f9baf07"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#a02c2dfb59db7d7e2501dcc9a4f9baf07">ObjectAccessor::GetUnit</a></div><div class="ttdeci">Unit * GetUnit(WorldObject const &amp;, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:204</div></div>
+<div class="ttc" id="astruct_vehicle_a_i_html_aac593372592d33fa008a66c6dcec1840"><div class="ttname"><a href="../../df/d81/struct_vehicle_a_i.html#aac593372592d33fa008a66c6dcec1840">VehicleAI::UpdateAI</a></div><div class="ttdeci">void UpdateAI(uint32 diff) override</div><div class="ttdef"><b>Definition:</b> CombatAI.cpp:265</div></div>
+<div class="ttc" id="astruct_vehicle_seat_entry_html"><div class="ttname"><a href="../../d1/d95/struct_vehicle_seat_entry.html">VehicleSeatEntry</a></div><div class="ttdef"><b>Definition:</b> DBCStructure.h:2026</div></div>
+<div class="ttc" id="astructnpc__wg__siege__machine_1_1npc__wg__siege__machine_a_i_html_a7ce79406da48e245a0baa2fdd23622b9"><div class="ttname"><a href="../../db/dfd/structnpc__wg__siege__machine_1_1npc__wg__siege__machine_a_i.html#a7ce79406da48e245a0baa2fdd23622b9">npc_wg_siege_machine::npc_wg_siege_machineAI::CanControlVehicle</a></div><div class="ttdeci">bool CanControlVehicle(Unit *passenger)</div><div class="ttdef"><b>Definition:</b> zone_wintergrasp.cpp:801</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -488,7 +537,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/<a class="el" href="../../d8/dd9/zone__wintergrasp_8cpp.html">zone_wintergrasp.cpp</a></li>
+<li><a class="el" href="../../">zone_wintergrasp.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -496,7 +545,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d5/df4/classnpc__wg__siege__machine.html">npc_wg_siege_machine</a></li><li class="navelem"><a class="el" href="../../db/dfd/structnpc__wg__siege__machine_1_1npc__wg__siege__machine_a_i.html">npc_wg_siege_machineAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:56 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:12 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

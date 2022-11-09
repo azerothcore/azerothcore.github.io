@@ -487,7 +487,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a0769e975c5c7ff1cfbfa6089e3e55e3f" name="a0769e975c5c7ff1cfbfa6089e3e55e3f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0769e975c5c7ff1cfbfa6089e3e55e3f">&#9670;&#160;</a></span>npc_valiance_keep_cannoneerAI()</h2>
 
@@ -511,7 +512,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1010</span>: <a class="code hl_struct" href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a>(creature) { }</div>
+<div class="ttc" id="astruct_scripted_a_i_html"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -539,7 +542,12 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a26600c116d20a33461fc884bdb82eda9">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1015</span>        {</div>
+<div class="line"><span class="lineno"> 1016</span>            <a class="code hl_variable" href="../../d0/dd8/structnpc__valiance__keep__cannoneer_1_1npc__valiance__keep__cannoneer_a_i.html#a0cf5f0413b1cded835252a38e272f835">uiTimer</a> = <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(13000, 18000);</div>
+<div class="line"><span class="lineno"> 1017</span>        }</div>
+<div class="ttc" id="a_random_8cpp_html_ab17def34ccbbd868dc87a16bf35acdbd"><div class="ttname"><a href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a></div><div class="ttdeci">uint32 urand(uint32 min, uint32 max)</div><div class="ttdef"><b>Definition:</b> Random.cpp:44</div></div>
+<div class="ttc" id="astructnpc__valiance__keep__cannoneer_1_1npc__valiance__keep__cannoneer_a_i_html_a0cf5f0413b1cded835252a38e272f835"><div class="ttname"><a href="../../d0/dd8/structnpc__valiance__keep__cannoneer_1_1npc__valiance__keep__cannoneer_a_i.html#a0cf5f0413b1cded835252a38e272f835">npc_valiance_keep_cannoneer::npc_valiance_keep_cannoneerAI::uiTimer</a></div><div class="ttdeci">uint32 uiTimer</div><div class="ttdef"><b>Definition:</b> zone_borean_tundra.cpp:1012</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a75f16f2b028ca341db6e08536be06bfa" name="a75f16f2b028ca341db6e08536be06bfa"></a>
@@ -567,7 +575,32 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#aff5fd4e142a5cf930ffacbfc7259cce5">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1020</span>        {</div>
+<div class="line"><span class="lineno"> 1021</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d0/dd8/structnpc__valiance__keep__cannoneer_1_1npc__valiance__keep__cannoneer_a_i.html#a0cf5f0413b1cded835252a38e272f835">uiTimer</a> &lt;= diff)</div>
+<div class="line"><span class="lineno"> 1022</span>            {</div>
+<div class="line"><span class="lineno"> 1023</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#adeebdc78f840a40e89361e5c792b0e53">HandleEmoteCommand</a>(<a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0e527855c554e31654c9beb340145574a2504b20e214e20adbf0dd8d49dc655ab">EMOTE_ONESHOT_KNEEL</a>);</div>
+<div class="line"><span class="lineno"> 1024</span>                <a class="code hl_class" href="../../d0/dd1/class_game_object.html">GameObject</a>* pCannon = <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a178c5ef685f97dc9bbd486dd6cabfb63">FindNearestGameObject</a>(<a class="code hl_enumvalue" href="../../d3/d09/zone__borean__tundra_8cpp.html#a1114a9936ddd85eff9c63846bf82e00dac8a2c336b9eed7a90513476a0d95a8be">GO_VALIANCE_KEEP_CANNON_1</a>, 10);</div>
+<div class="line"><span class="lineno"> 1025</span>                <span class="keywordflow">if</span> (!pCannon)</div>
+<div class="line"><span class="lineno"> 1026</span>                    pCannon = <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a178c5ef685f97dc9bbd486dd6cabfb63">FindNearestGameObject</a>(<a class="code hl_enumvalue" href="../../d3/d09/zone__borean__tundra_8cpp.html#a1114a9936ddd85eff9c63846bf82e00da1c990405d3a98b7a3c95ee7d2c67b9c0">GO_VALIANCE_KEEP_CANNON_2</a>, 10);</div>
+<div class="line"><span class="lineno"> 1027</span>                <span class="keywordflow">if</span> (pCannon)</div>
+<div class="line"><span class="lineno"> 1028</span>                    pCannon-&gt;<a class="code hl_function" href="../../d0/dd1/class_game_object.html#abb3cd2ea4845cd0adaa3e9dd6cca57bf">Use</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>);</div>
+<div class="line"><span class="lineno"> 1029</span>                <a class="code hl_variable" href="../../d0/dd8/structnpc__valiance__keep__cannoneer_1_1npc__valiance__keep__cannoneer_a_i.html#a0cf5f0413b1cded835252a38e272f835">uiTimer</a> = <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(13000, 18000);</div>
+<div class="line"><span class="lineno"> 1030</span>            }</div>
+<div class="line"><span class="lineno"> 1031</span>            <span class="keywordflow">else</span> <a class="code hl_variable" href="../../d0/dd8/structnpc__valiance__keep__cannoneer_1_1npc__valiance__keep__cannoneer_a_i.html#a0cf5f0413b1cded835252a38e272f835">uiTimer</a> -= diff;</div>
+<div class="line"><span class="lineno"> 1032</span> </div>
+<div class="line"><span class="lineno"> 1033</span>            <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">UpdateVictim</a>())</div>
+<div class="line"><span class="lineno"> 1034</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 1035</span>        }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0e527855c554e31654c9beb340145574a2504b20e214e20adbf0dd8d49dc655ab"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0e527855c554e31654c9beb340145574a2504b20e214e20adbf0dd8d49dc655ab">EMOTE_ONESHOT_KNEEL</a></div><div class="ttdeci">@ EMOTE_ONESHOT_KNEEL</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1880</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_ae03ccfe1e27501ed9ccbfecdbd3c4e39"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">CreatureAI::UpdateVictim</a></div><div class="ttdeci">bool UpdateVictim()</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:268</div></div>
+<div class="ttc" id="aclass_game_object_html"><div class="ttname"><a href="../../d0/dd1/class_game_object.html">GameObject</a></div><div class="ttdef"><b>Definition:</b> GameObject.h:813</div></div>
+<div class="ttc" id="aclass_game_object_html_abb3cd2ea4845cd0adaa3e9dd6cca57bf"><div class="ttname"><a href="../../d0/dd1/class_game_object.html#abb3cd2ea4845cd0adaa3e9dd6cca57bf">GameObject::Use</a></div><div class="ttdeci">void Use(Unit *user)</div><div class="ttdef"><b>Definition:</b> GameObject.cpp:1450</div></div>
+<div class="ttc" id="aclass_unit_html_adeebdc78f840a40e89361e5c792b0e53"><div class="ttname"><a href="../../da/db7/class_unit.html#adeebdc78f840a40e89361e5c792b0e53">Unit::HandleEmoteCommand</a></div><div class="ttdeci">void HandleEmoteCommand(uint32 emoteId)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1958</div></div>
+<div class="ttc" id="aclass_world_object_html_a178c5ef685f97dc9bbd486dd6cabfb63"><div class="ttname"><a href="../../db/df7/class_world_object.html#a178c5ef685f97dc9bbd486dd6cabfb63">WorldObject::FindNearestGameObject</a></div><div class="ttdeci">GameObject * FindNearestGameObject(uint32 entry, float range, bool onlySpawned=false) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:2401</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+<div class="ttc" id="azone__borean__tundra_8cpp_html_a1114a9936ddd85eff9c63846bf82e00da1c990405d3a98b7a3c95ee7d2c67b9c0"><div class="ttname"><a href="../../d3/d09/zone__borean__tundra_8cpp.html#a1114a9936ddd85eff9c63846bf82e00da1c990405d3a98b7a3c95ee7d2c67b9c0">GO_VALIANCE_KEEP_CANNON_2</a></div><div class="ttdeci">@ GO_VALIANCE_KEEP_CANNON_2</div><div class="ttdef"><b>Definition:</b> zone_borean_tundra.cpp:1000</div></div>
+<div class="ttc" id="azone__borean__tundra_8cpp_html_a1114a9936ddd85eff9c63846bf82e00dac8a2c336b9eed7a90513476a0d95a8be"><div class="ttname"><a href="../../d3/d09/zone__borean__tundra_8cpp.html#a1114a9936ddd85eff9c63846bf82e00dac8a2c336b9eed7a90513476a0d95a8be">GO_VALIANCE_KEEP_CANNON_1</a></div><div class="ttdeci">@ GO_VALIANCE_KEEP_CANNON_1</div><div class="ttdef"><b>Definition:</b> zone_borean_tundra.cpp:999</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -586,7 +619,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/<a class="el" href="../../d3/d09/zone__borean__tundra_8cpp.html">zone_borean_tundra.cpp</a></li>
+<li><a class="el" href="../../">zone_borean_tundra.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -594,7 +627,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d5/d8c/classnpc__valiance__keep__cannoneer.html">npc_valiance_keep_cannoneer</a></li><li class="navelem"><a class="el" href="../../d0/dd8/structnpc__valiance__keep__cannoneer_1_1npc__valiance__keep__cannoneer_a_i.html">npc_valiance_keep_cannoneerAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:55 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:11 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

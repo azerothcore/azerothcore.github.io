@@ -192,7 +192,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a8d493356155c90379d5dce9e923e81f9 inherit pub_static_methods_class_game_object_a_i"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../db/d35/_define_8h.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db8/class_game_object_a_i.html#a8d493356155c90379d5dce9e923e81f9">Permissible</a> (<a class="el" href="../../d0/dd1/class_game_object.html">GameObject</a> const *go)</td></tr>
 <tr class="separator:a8d493356155c90379d5dce9e923e81f9 inherit pub_static_methods_class_game_object_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a58d45acac672cb05988ddca78185b469" name="a58d45acac672cb05988ddca78185b469"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a58d45acac672cb05988ddca78185b469">&#9670;&#160;</a></span>go_sand_trap()</h2>
 
@@ -216,7 +217,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  144</span>: <a class="code hl_class" href="../../d7/db8/class_game_object_a_i.html">GameObjectAI</a>(go) { }</div>
+<div class="ttc" id="aclass_game_object_a_i_html"><div class="ttname"><a href="../../d7/db8/class_game_object_a_i.html">GameObjectAI</a></div><div class="ttdef"><b>Definition:</b> GameObjectAI.h:33</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -244,7 +247,24 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d7/db8/class_game_object_a_i.html#ae2f0f24cae721a75e4df8e7aa1c75b7c">GameObjectAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  147</span>    {</div>
+<div class="line"><span class="lineno">  148</span>        <a class="code hl_variable" href="../../d6/d4d/structgo__sand__trap.html#af845c0efb3d8ebe53d3620970a84f1e4">_scheduler</a>.<a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#a0e0579d2a2397de5a79c756d5e59a830">Schedule</a>(5s, [<span class="keyword">this</span>](<a class="code hl_class" href="../../d2/dd9/class_task_context.html">TaskContext</a> <span class="comment">/*context*/</span>)</div>
+<div class="line"><span class="lineno">  149</span>        {</div>
+<div class="line"><span class="lineno">  150</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d83/class_instance_script.html">InstanceScript</a>* instance = <a class="code hl_variable" href="../../d7/db8/class_game_object_a_i.html#a22a51a980875ccae8a285d7804967747">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">GetInstanceScript</a>())</div>
+<div class="line"><span class="lineno">  151</span>                if (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* kurinnaxx = instance-&gt;GetCreature(<a class="code hl_enumvalue" href="../../d4/d01/ruins__of__ahnqiraj_8h.html#afb6eb4f28419b652027fad41104a6d22afc6feb60b8212ceadfae10d568221f5e">DATA_KURINNAXX</a>))</div>
+<div class="line"><span class="lineno">  152</span>                    <a class="code hl_variable" href="../../d7/db8/class_game_object_a_i.html#a22a51a980875ccae8a285d7804967747">me</a>-&gt;<a class="code hl_function" href="../../d0/dd1/class_game_object.html#abb3cd2ea4845cd0adaa3e9dd6cca57bf">Use</a>(kurinnaxx);</div>
+<div class="line"><span class="lineno">  153</span>        });</div>
+<div class="line"><span class="lineno">  154</span>    }</div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_game_object_a_i_html_a22a51a980875ccae8a285d7804967747"><div class="ttname"><a href="../../d7/db8/class_game_object_a_i.html#a22a51a980875ccae8a285d7804967747">GameObjectAI::me</a></div><div class="ttdeci">GameObject *const me</div><div class="ttdef"><b>Definition:</b> GameObjectAI.h:35</div></div>
+<div class="ttc" id="aclass_game_object_html_abb3cd2ea4845cd0adaa3e9dd6cca57bf"><div class="ttname"><a href="../../d0/dd1/class_game_object.html#abb3cd2ea4845cd0adaa3e9dd6cca57bf">GameObject::Use</a></div><div class="ttdeci">void Use(Unit *user)</div><div class="ttdef"><b>Definition:</b> GameObject.cpp:1450</div></div>
+<div class="ttc" id="aclass_instance_script_html"><div class="ttname"><a href="../../d8/d83/class_instance_script.html">InstanceScript</a></div><div class="ttdef"><b>Definition:</b> InstanceScript.h:140</div></div>
+<div class="ttc" id="aclass_task_context_html"><div class="ttname"><a href="../../d2/dd9/class_task_context.html">TaskContext</a></div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:400</div></div>
+<div class="ttc" id="aclass_task_scheduler_html_a0e0579d2a2397de5a79c756d5e59a830"><div class="ttname"><a href="../../d7/dc4/class_task_scheduler.html#a0e0579d2a2397de5a79c756d5e59a830">TaskScheduler::Schedule</a></div><div class="ttdeci">TaskScheduler &amp; Schedule(std::chrono::duration&lt; _Rep, _Period &gt; const &amp;time, task_handler_t const &amp;task)</div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:217</div></div>
+<div class="ttc" id="aclass_world_object_html_a29762f86d0726e4d229df51281b9d710"><div class="ttname"><a href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">WorldObject::GetInstanceScript</a></div><div class="ttdeci">InstanceScript * GetInstanceScript() const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1192</div></div>
+<div class="ttc" id="aruins__of__ahnqiraj_8h_html_afb6eb4f28419b652027fad41104a6d22afc6feb60b8212ceadfae10d568221f5e"><div class="ttname"><a href="../../d4/d01/ruins__of__ahnqiraj_8h.html#afb6eb4f28419b652027fad41104a6d22afc6feb60b8212ceadfae10d568221f5e">DATA_KURINNAXX</a></div><div class="ttdeci">@ DATA_KURINNAXX</div><div class="ttdef"><b>Definition:</b> ruins_of_ahnqiraj.h:27</div></div>
+<div class="ttc" id="astructgo__sand__trap_html_af845c0efb3d8ebe53d3620970a84f1e4"><div class="ttname"><a href="../../d6/d4d/structgo__sand__trap.html#af845c0efb3d8ebe53d3620970a84f1e4">go_sand_trap::_scheduler</a></div><div class="ttdeci">TaskScheduler _scheduler</div><div class="ttdef"><b>Definition:</b> boss_kurinnaxx.cpp:162</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2e4a5fec4d4c790233ca97e6a7732ac4" name="a2e4a5fec4d4c790233ca97e6a7732ac4"></a>
@@ -272,7 +292,11 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d7/db8/class_game_object_a_i.html#aa9b59a4ec7d95a0702689fad902d956a">GameObjectAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  157</span>    {</div>
+<div class="line"><span class="lineno">  158</span>        <a class="code hl_variable" href="../../d6/d4d/structgo__sand__trap.html#af845c0efb3d8ebe53d3620970a84f1e4">_scheduler</a>.<a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#a35c0891c7aded13c6ae7ecd2e6d480a9">Update</a>(diff);</div>
+<div class="line"><span class="lineno">  159</span>    }</div>
+<div class="ttc" id="aclass_task_scheduler_html_a35c0891c7aded13c6ae7ecd2e6d480a9"><div class="ttname"><a href="../../d7/dc4/class_task_scheduler.html#a35c0891c7aded13c6ae7ecd2e6d480a9">TaskScheduler::Update</a></div><div class="ttdeci">TaskScheduler &amp; Update(success_t const &amp;callback=EmptyCallback)</div><div class="ttdef"><b>Definition:</b> TaskScheduler.cpp:15</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -299,7 +323,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Kalimdor/RuinsOfAhnQiraj/<a class="el" href="../../da/d85/boss__kurinnaxx_8cpp.html">boss_kurinnaxx.cpp</a></li>
+<li><a class="el" href="../../">boss_kurinnaxx.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -307,7 +331,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d6/d4d/structgo__sand__trap.html">go_sand_trap</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:45 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:59 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

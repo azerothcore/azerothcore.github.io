@@ -189,7 +189,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a2d6cf85d1eb98438b5022804296eff11 inherit pro_methods_class_updatable_script"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dff/class_updatable_script.html#a2d6cf85d1eb98438b5022804296eff11">UpdatableScript</a> ()=default</td></tr>
 <tr class="separator:a2d6cf85d1eb98438b5022804296eff11 inherit pro_methods_class_updatable_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a7077c769a252af8ba37b5ff5d524463e" name="a7077c769a252af8ba37b5ff5d524463e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7077c769a252af8ba37b5ff5d524463e">&#9670;&#160;</a></span>npc_shandy_dalaran()</h2>
 
@@ -212,7 +213,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  143</span>: <a class="code hl_class" href="../../d5/dca/class_creature_script.html">CreatureScript</a>(<span class="stringliteral">&quot;npc_shandy_dalaran&quot;</span>) { }</div>
+<div class="ttc" id="aclass_creature_script_html"><div class="ttname"><a href="../../d5/dca/class_creature_script.html">CreatureScript</a></div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:718</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -241,7 +244,10 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d5/dca/class_creature_script.html#a24ba3529655943afdf6598450d14e6c2">CreatureScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  276</span>    {</div>
+<div class="line"><span class="lineno">  277</span>        <span class="keywordflow">return</span> <span class="keyword">new</span> npc_shandy_dalaranAI(creature);</div>
+<div class="line"><span class="lineno">  278</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a91287aaba09fce091c9d826e75208f84" name="a91287aaba09fce091c9d826e75208f84"></a>
@@ -279,7 +285,40 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d5/dca/class_creature_script.html#a6268b132444845302ada504f48629a4f">CreatureScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  245</span>    {</div>
+<div class="line"><span class="lineno">  246</span>        <span class="keywordflow">if</span> (creature-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a66aca559340b09926d956b58773398cb">IsQuestGiver</a>())</div>
+<div class="line"><span class="lineno">  247</span>            player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#aa352798726d935f9e76f97137e47ee33">PrepareQuestMenu</a>(creature-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>());</div>
+<div class="line"><span class="lineno">  248</span> </div>
+<div class="line"><span class="lineno">  249</span>        <span class="keywordflow">if</span> (player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#ab98c62b0161d702e4219c8277f8f5349">GetQuestStatus</a>(<a class="code hl_enumvalue" href="../../d6/d13/zone__dalaran_8cpp.html#ace46e4161059a534857121dd8459c4eaad3dc3e397bdfb2977c9606cdd1a1d605">QUEST_SUITABLE_DISGUISE_A</a>) == <a class="code hl_enumvalue" href="../../d2/dc8/_quest_def_8h.html#abfc87d39d69176ad25e800fb4aa6f0d8a9d062f65bead287785d9b540987bb484">QUEST_STATUS_INCOMPLETE</a> ||</div>
+<div class="line"><span class="lineno">  250</span>                player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#ab98c62b0161d702e4219c8277f8f5349">GetQuestStatus</a>(<a class="code hl_enumvalue" href="../../d6/d13/zone__dalaran_8cpp.html#ace46e4161059a534857121dd8459c4eaa5193a34e8ea57d8d628c433a7dac496a">QUEST_SUITABLE_DISGUISE_H</a>) == <a class="code hl_enumvalue" href="../../d2/dc8/_quest_def_8h.html#abfc87d39d69176ad25e800fb4aa6f0d8a9d062f65bead287785d9b540987bb484">QUEST_STATUS_INCOMPLETE</a>)</div>
+<div class="line"><span class="lineno">  251</span>        {</div>
+<div class="line"><span class="lineno">  252</span>            <span class="keywordflow">if</span>(player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a4874f5c152e187c381c2a349f16aa0d4">GetTeamId</a>() == <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a7513eda5ac39f7f649b82c80de7c324da77ec52d5d5f9771c1ac94fddaf7fb84e">TEAM_ALLIANCE</a>)</div>
+<div class="line"><span class="lineno">  253</span>                <a class="code hl_function" href="../../d6/df2/_scripted_gossip_8cpp.html#a1d54254ae4ddb1bb0e9e2c74dffe5bf5">AddGossipItemFor</a>(player, <a class="code hl_enumvalue" href="../../d6/d13/zone__dalaran_8cpp.html#ace46e4161059a534857121dd8459c4eaae6495f4c4106e471b87ef3e68d405b92">GOSSIP_MENU_AQUANOS</a>, <a class="code hl_enumvalue" href="../../d6/d13/zone__dalaran_8cpp.html#ace46e4161059a534857121dd8459c4eaa9496a3f7830393f7e279a1069dba21e1">GOSSIP_AQUANOS_ALLIANCE</a>, <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da650f01832933ccb3735a38413b779452">GOSSIP_SENDER_MAIN</a>, <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36daf5e2b26c787b79ef696a69604bb85fd8">GOSSIP_ACTION_INFO_DEF</a>);</div>
+<div class="line"><span class="lineno">  254</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  255</span>                <a class="code hl_function" href="../../d6/df2/_scripted_gossip_8cpp.html#a1d54254ae4ddb1bb0e9e2c74dffe5bf5">AddGossipItemFor</a>(player, <a class="code hl_enumvalue" href="../../d6/d13/zone__dalaran_8cpp.html#ace46e4161059a534857121dd8459c4eaae6495f4c4106e471b87ef3e68d405b92">GOSSIP_MENU_AQUANOS</a>, <a class="code hl_enumvalue" href="../../d6/d13/zone__dalaran_8cpp.html#ace46e4161059a534857121dd8459c4eaa101f0db9380a5b9206fa5fada3755b83">GOSSIP_AQUANOS_HORDE</a>, <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da650f01832933ccb3735a38413b779452">GOSSIP_SENDER_MAIN</a>, <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36daf5e2b26c787b79ef696a69604bb85fd8">GOSSIP_ACTION_INFO_DEF</a>);</div>
+<div class="line"><span class="lineno">  256</span>        }</div>
+<div class="line"><span class="lineno">  257</span> </div>
+<div class="line"><span class="lineno">  258</span>        <a class="code hl_function" href="../../d6/df2/_scripted_gossip_8cpp.html#a18599cfc6649557de0d505ed4d4a0210">SendGossipMenuFor</a>(player, player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#ae22a64659346d2a5017d4b47e796146c">GetGossipTextId</a>(creature), creature-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>());</div>
+<div class="line"><span class="lineno">  259</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  260</span>    }</div>
+<div class="ttc" id="a_quest_def_8h_html_abfc87d39d69176ad25e800fb4aa6f0d8a9d062f65bead287785d9b540987bb484"><div class="ttname"><a href="../../d2/dc8/_quest_def_8h.html#abfc87d39d69176ad25e800fb4aa6f0d8a9d062f65bead287785d9b540987bb484">QUEST_STATUS_INCOMPLETE</a></div><div class="ttdeci">@ QUEST_STATUS_INCOMPLETE</div><div class="ttdef"><b>Definition:</b> QuestDef.h:103</div></div>
+<div class="ttc" id="a_scripted_gossip_8cpp_html_a18599cfc6649557de0d505ed4d4a0210"><div class="ttname"><a href="../../d6/df2/_scripted_gossip_8cpp.html#a18599cfc6649557de0d505ed4d4a0210">SendGossipMenuFor</a></div><div class="ttdeci">void SendGossipMenuFor(Player *player, uint32 npcTextID, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.cpp:45</div></div>
+<div class="ttc" id="a_scripted_gossip_8cpp_html_a1d54254ae4ddb1bb0e9e2c74dffe5bf5"><div class="ttname"><a href="../../d6/df2/_scripted_gossip_8cpp.html#a1d54254ae4ddb1bb0e9e2c74dffe5bf5">AddGossipItemFor</a></div><div class="ttdeci">void AddGossipItemFor(Player *player, uint32 icon, std::string const &amp;text, uint32 sender, uint32 action)</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.cpp:28</div></div>
+<div class="ttc" id="a_scripted_gossip_8h_html_ac61a667541c1c7c94a9aeb407e34d36da650f01832933ccb3735a38413b779452"><div class="ttname"><a href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da650f01832933ccb3735a38413b779452">GOSSIP_SENDER_MAIN</a></div><div class="ttdeci">@ GOSSIP_SENDER_MAIN</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.h:70</div></div>
+<div class="ttc" id="a_scripted_gossip_8h_html_ac61a667541c1c7c94a9aeb407e34d36daf5e2b26c787b79ef696a69604bb85fd8"><div class="ttname"><a href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36daf5e2b26c787b79ef696a69604bb85fd8">GOSSIP_ACTION_INFO_DEF</a></div><div class="ttdeci">@ GOSSIP_ACTION_INFO_DEF</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.h:68</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a7513eda5ac39f7f649b82c80de7c324da77ec52d5d5f9771c1ac94fddaf7fb84e"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a7513eda5ac39f7f649b82c80de7c324da77ec52d5d5f9771c1ac94fddaf7fb84e">TEAM_ALLIANCE</a></div><div class="ttdeci">@ TEAM_ALLIANCE</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:732</div></div>
+<div class="ttc" id="aclass_object_html_ad23b997e2442fa6a6228ba73a7ecc138"><div class="ttname"><a href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">Object::GetGUID</a></div><div class="ttdeci">static ObjectGuid GetGUID(Object const *o)</div><div class="ttdef"><b>Definition:</b> Object.h:106</div></div>
+<div class="ttc" id="aclass_player_html_a4874f5c152e187c381c2a349f16aa0d4"><div class="ttname"><a href="../../d8/d53/class_player.html#a4874f5c152e187c381c2a349f16aa0d4">Player::GetTeamId</a></div><div class="ttdeci">TeamId GetTeamId(bool original=false) const</div><div class="ttdef"><b>Definition:</b> Player.h:2058</div></div>
+<div class="ttc" id="aclass_player_html_aa352798726d935f9e76f97137e47ee33"><div class="ttname"><a href="../../d8/d53/class_player.html#aa352798726d935f9e76f97137e47ee33">Player::PrepareQuestMenu</a></div><div class="ttdeci">void PrepareQuestMenu(ObjectGuid guid)</div><div class="ttdef"><b>Definition:</b> PlayerQuest.cpp:38</div></div>
+<div class="ttc" id="aclass_player_html_ab98c62b0161d702e4219c8277f8f5349"><div class="ttname"><a href="../../d8/d53/class_player.html#ab98c62b0161d702e4219c8277f8f5349">Player::GetQuestStatus</a></div><div class="ttdeci">QuestStatus GetQuestStatus(uint32 quest_id) const</div><div class="ttdef"><b>Definition:</b> PlayerQuest.cpp:1407</div></div>
+<div class="ttc" id="aclass_player_html_ae22a64659346d2a5017d4b47e796146c"><div class="ttname"><a href="../../d8/d53/class_player.html#ae22a64659346d2a5017d4b47e796146c">Player::GetGossipTextId</a></div><div class="ttdeci">uint32 GetGossipTextId(uint32 menuId, WorldObject *source)</div><div class="ttdef"><b>Definition:</b> PlayerGossip.cpp:405</div></div>
+<div class="ttc" id="aclass_unit_html_a66aca559340b09926d956b58773398cb"><div class="ttname"><a href="../../da/db7/class_unit.html#a66aca559340b09926d956b58773398cb">Unit::IsQuestGiver</a></div><div class="ttdeci">bool IsQuestGiver() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1650</div></div>
+<div class="ttc" id="azone__dalaran_8cpp_html_ace46e4161059a534857121dd8459c4eaa101f0db9380a5b9206fa5fada3755b83"><div class="ttname"><a href="../../d6/d13/zone__dalaran_8cpp.html#ace46e4161059a534857121dd8459c4eaa101f0db9380a5b9206fa5fada3755b83">GOSSIP_AQUANOS_HORDE</a></div><div class="ttdeci">@ GOSSIP_AQUANOS_HORDE</div><div class="ttdef"><b>Definition:</b> zone_dalaran.cpp:121</div></div>
+<div class="ttc" id="azone__dalaran_8cpp_html_ace46e4161059a534857121dd8459c4eaa5193a34e8ea57d8d628c433a7dac496a"><div class="ttname"><a href="../../d6/d13/zone__dalaran_8cpp.html#ace46e4161059a534857121dd8459c4eaa5193a34e8ea57d8d628c433a7dac496a">QUEST_SUITABLE_DISGUISE_H</a></div><div class="ttdeci">@ QUEST_SUITABLE_DISGUISE_H</div><div class="ttdef"><b>Definition:</b> zone_dalaran.cpp:113</div></div>
+<div class="ttc" id="azone__dalaran_8cpp_html_ace46e4161059a534857121dd8459c4eaa9496a3f7830393f7e279a1069dba21e1"><div class="ttname"><a href="../../d6/d13/zone__dalaran_8cpp.html#ace46e4161059a534857121dd8459c4eaa9496a3f7830393f7e279a1069dba21e1">GOSSIP_AQUANOS_ALLIANCE</a></div><div class="ttdeci">@ GOSSIP_AQUANOS_ALLIANCE</div><div class="ttdef"><b>Definition:</b> zone_dalaran.cpp:120</div></div>
+<div class="ttc" id="azone__dalaran_8cpp_html_ace46e4161059a534857121dd8459c4eaad3dc3e397bdfb2977c9606cdd1a1d605"><div class="ttname"><a href="../../d6/d13/zone__dalaran_8cpp.html#ace46e4161059a534857121dd8459c4eaad3dc3e397bdfb2977c9606cdd1a1d605">QUEST_SUITABLE_DISGUISE_A</a></div><div class="ttdeci">@ QUEST_SUITABLE_DISGUISE_A</div><div class="ttdef"><b>Definition:</b> zone_dalaran.cpp:112</div></div>
+<div class="ttc" id="azone__dalaran_8cpp_html_ace46e4161059a534857121dd8459c4eaae6495f4c4106e471b87ef3e68d405b92"><div class="ttname"><a href="../../d6/d13/zone__dalaran_8cpp.html#ace46e4161059a534857121dd8459c4eaae6495f4c4106e471b87ef3e68d405b92">GOSSIP_MENU_AQUANOS</a></div><div class="ttdeci">@ GOSSIP_MENU_AQUANOS</div><div class="ttdef"><b>Definition:</b> zone_dalaran.cpp:119</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad005a17da187e0cfd03d2faf0099c448" name="ad005a17da187e0cfd03d2faf0099c448"></a>
@@ -329,11 +368,28 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d5/dca/class_creature_script.html#a30f160576b4cb97d940ecf3468834667">CreatureScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  263</span>    {</div>
+<div class="line"><span class="lineno">  264</span>        <span class="keywordflow">switch</span> (action)</div>
+<div class="line"><span class="lineno">  265</span>        {</div>
+<div class="line"><span class="lineno">  266</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36daf5e2b26c787b79ef696a69604bb85fd8">GOSSIP_ACTION_INFO_DEF</a>:</div>
+<div class="line"><span class="lineno">  267</span>                <a class="code hl_function" href="../../d6/df2/_scripted_gossip_8cpp.html#af8f7e54dac5ecc86e92d780c3918cb09">CloseGossipMenuFor</a>(player);</div>
+<div class="line"><span class="lineno">  268</span>                creature-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aea06ec7c050df356832ced656e5c162c">ReplaceAllNpcFlags</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ab054baf099d873bce22a0e84ae1090e2a7d75bb1546efb3a78c8ca3798667e2ef">UNIT_NPC_FLAG_NONE</a>);</div>
+<div class="line"><span class="lineno">  269</span>                creature-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">AI</a>()-&gt;<a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a14c40dcfec28989cc630fa571c67ebb7">SetData</a>(<a class="code hl_enumvalue" href="../../d6/d13/zone__dalaran_8cpp.html#ad4c7224769892a2894943c69e87677b4abed4420de057a8fac6096ea3f73d04e6">ACTION_SHANDY_INTRO</a>, 0);</div>
+<div class="line"><span class="lineno">  270</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  271</span>        }</div>
+<div class="line"><span class="lineno">  272</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  273</span>    }</div>
+<div class="ttc" id="a_scripted_gossip_8cpp_html_af8f7e54dac5ecc86e92d780c3918cb09"><div class="ttname"><a href="../../d6/df2/_scripted_gossip_8cpp.html#af8f7e54dac5ecc86e92d780c3918cb09">CloseGossipMenuFor</a></div><div class="ttdeci">void CloseGossipMenuFor(Player *player)</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.cpp:56</div></div>
+<div class="ttc" id="a_unit_8h_html_ab054baf099d873bce22a0e84ae1090e2a7d75bb1546efb3a78c8ca3798667e2ef"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#ab054baf099d873bce22a0e84ae1090e2a7d75bb1546efb3a78c8ca3798667e2ef">UNIT_NPC_FLAG_NONE</a></div><div class="ttdeci">@ UNIT_NPC_FLAG_NONE</div><div class="ttdef"><b>Definition:</b> Unit.h:515</div></div>
+<div class="ttc" id="aclass_creature_html_af2188eef9620b5af52ef2d3ac142db67"><div class="ttname"><a href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">Creature::AI</a></div><div class="ttdeci">CreatureAI * AI() const</div><div class="ttdef"><b>Definition:</b> Creature.h:134</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a14c40dcfec28989cc630fa571c67ebb7"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a14c40dcfec28989cc630fa571c67ebb7">UnitAI::SetData</a></div><div class="ttdeci">virtual void SetData(uint32, uint32)</div><div class="ttdef"><b>Definition:</b> UnitAI.h:198</div></div>
+<div class="ttc" id="aclass_unit_html_aea06ec7c050df356832ced656e5c162c"><div class="ttname"><a href="../../da/db7/class_unit.html#aea06ec7c050df356832ced656e5c162c">Unit::ReplaceAllNpcFlags</a></div><div class="ttdeci">void ReplaceAllNpcFlags(NPCFlags flags)</div><div class="ttdef"><b>Definition:</b> Unit.h:1646</div></div>
+<div class="ttc" id="azone__dalaran_8cpp_html_ad4c7224769892a2894943c69e87677b4abed4420de057a8fac6096ea3f73d04e6"><div class="ttname"><a href="../../d6/d13/zone__dalaran_8cpp.html#ad4c7224769892a2894943c69e87677b4abed4420de057a8fac6096ea3f73d04e6">ACTION_SHANDY_INTRO</a></div><div class="ttdeci">@ ACTION_SHANDY_INTRO</div><div class="ttdef"><b>Definition:</b> zone_dalaran.cpp:87</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/<a class="el" href="../../d6/d13/zone__dalaran_8cpp.html">zone_dalaran.cpp</a></li>
+<li><a class="el" href="../../">zone_dalaran.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -341,7 +397,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d7/d06/classnpc__shandy__dalaran.html">npc_shandy_dalaran</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:53 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:09 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -294,7 +294,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a8b20e2ffed94ec9438dc9b756ba76693" name="a8b20e2ffed94ec9438dc9b756ba76693"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8b20e2ffed94ec9438dc9b756ba76693">&#9670;&#160;</a></span>HandleScript()</h2>
 
@@ -318,7 +319,43 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 2668</span>    {</div>
+<div class="line"><span class="lineno"> 2669</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* player = <a class="code hl_function" href="../../dc/d62/class_spell_script.html#a175aa4408973ae49cfe237d6c9c5f12f">GetHitPlayer</a>())</div>
+<div class="line"><span class="lineno"> 2670</span>        {</div>
+<div class="line"><span class="lineno"> 2671</span>            <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> gender = player-&gt;getGender();</div>
+<div class="line"><span class="lineno"> 2672</span> </div>
+<div class="line"><span class="lineno"> 2673</span>            <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> spellId = <a class="code hl_function" href="../../dc/d62/class_spell_script.html#a3fa31d3b29c52993d3561fad3cd12af3">GetSpellInfo</a>()-&gt;<a class="code hl_variable" href="../../d4/d7d/class_spell_info.html#a49bc14059c2bd3785231c52e0d54d382">Id</a>;</div>
+<div class="line"><span class="lineno"> 2674</span> </div>
+<div class="line"><span class="lineno"> 2675</span>            <span class="keywordflow">switch</span> (spellId)</div>
+<div class="line"><span class="lineno"> 2676</span>            {</div>
+<div class="line"><span class="lineno"> 2677</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/de4/spell__generic_8cpp.html#a460785efc1ddd5d7e472fc61340cb9aaa2ddcbd77a4bcf42e52161b51c752dd1a">SPELL_SUNREAVER_DISGUISE_TRIGGER</a>:</div>
+<div class="line"><span class="lineno"> 2678</span>                    spellId = gender ? <a class="code hl_enumvalue" href="../../d1/de4/spell__generic_8cpp.html#a460785efc1ddd5d7e472fc61340cb9aaaccfa41f14d7418534ed208b0792e7765">SPELL_SUNREAVER_DISGUISE_FEMALE</a> : <a class="code hl_enumvalue" href="../../d1/de4/spell__generic_8cpp.html#a460785efc1ddd5d7e472fc61340cb9aaa2342fc86e4d2f4811c11c75f70b37f0b">SPELL_SUNREAVER_DISGUISE_MALE</a>;</div>
+<div class="line"><span class="lineno"> 2679</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 2680</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/de4/spell__generic_8cpp.html#a460785efc1ddd5d7e472fc61340cb9aaadbff08f49ac1cc5a8d187d2b226b31b6">SPELL_SILVER_COVENANT_DISGUISE_TRIGGER</a>:</div>
+<div class="line"><span class="lineno"> 2681</span>                    spellId = gender ? <a class="code hl_enumvalue" href="../../d1/de4/spell__generic_8cpp.html#a460785efc1ddd5d7e472fc61340cb9aaa501ce8c3a5ee1f583f1ce31104b928c9">SPELL_SILVER_COVENANT_DISGUISE_FEMALE</a> : <a class="code hl_enumvalue" href="../../d1/de4/spell__generic_8cpp.html#a460785efc1ddd5d7e472fc61340cb9aaa92e3488f1417b738ca6d93942b808f81">SPELL_SILVER_COVENANT_DISGUISE_MALE</a>;</div>
+<div class="line"><span class="lineno"> 2682</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 2683</span>                <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno"> 2684</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 2685</span>            }</div>
+<div class="line"><span class="lineno"> 2686</span> </div>
+<div class="line"><span class="lineno"> 2687</span>            <a class="code hl_function" href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>()-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(player, spellId, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno"> 2688</span>        }</div>
+<div class="line"><span class="lineno"> 2689</span>    }</div>
+<div class="ttc" id="a_define_8h_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:110</div></div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="aclass_player_html"><div class="ttname"><a href="../../d8/d53/class_player.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1046</div></div>
+<div class="ttc" id="aclass_spell_info_html_a49bc14059c2bd3785231c52e0d54d382"><div class="ttname"><a href="../../d4/d7d/class_spell_info.html#a49bc14059c2bd3785231c52e0d54d382">SpellInfo::Id</a></div><div class="ttdeci">uint32 Id</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:318</div></div>
+<div class="ttc" id="aclass_spell_script_html_a175aa4408973ae49cfe237d6c9c5f12f"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a175aa4408973ae49cfe237d6c9c5f12f">SpellScript::GetHitPlayer</a></div><div class="ttdeci">Player * GetHitPlayer()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:471</div></div>
+<div class="ttc" id="aclass_spell_script_html_a3fa31d3b29c52993d3561fad3cd12af3"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a3fa31d3b29c52993d3561fad3cd12af3">SpellScript::GetSpellInfo</a></div><div class="ttdeci">SpellInfo const * GetSpellInfo()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:411</div></div>
+<div class="ttc" id="aclass_spell_script_html_ae630e2d388177707e28cecd5fa5a2b48"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">SpellScript::GetCaster</a></div><div class="ttdeci">Unit * GetCaster()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:401</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+<div class="ttc" id="aspell__generic_8cpp_html_a460785efc1ddd5d7e472fc61340cb9aaa2342fc86e4d2f4811c11c75f70b37f0b"><div class="ttname"><a href="../../d1/de4/spell__generic_8cpp.html#a460785efc1ddd5d7e472fc61340cb9aaa2342fc86e4d2f4811c11c75f70b37f0b">SPELL_SUNREAVER_DISGUISE_MALE</a></div><div class="ttdeci">@ SPELL_SUNREAVER_DISGUISE_MALE</div><div class="ttdef"><b>Definition:</b> spell_generic.cpp:2641</div></div>
+<div class="ttc" id="aspell__generic_8cpp_html_a460785efc1ddd5d7e472fc61340cb9aaa2ddcbd77a4bcf42e52161b51c752dd1a"><div class="ttname"><a href="../../d1/de4/spell__generic_8cpp.html#a460785efc1ddd5d7e472fc61340cb9aaa2ddcbd77a4bcf42e52161b51c752dd1a">SPELL_SUNREAVER_DISGUISE_TRIGGER</a></div><div class="ttdeci">@ SPELL_SUNREAVER_DISGUISE_TRIGGER</div><div class="ttdef"><b>Definition:</b> spell_generic.cpp:2639</div></div>
+<div class="ttc" id="aspell__generic_8cpp_html_a460785efc1ddd5d7e472fc61340cb9aaa501ce8c3a5ee1f583f1ce31104b928c9"><div class="ttname"><a href="../../d1/de4/spell__generic_8cpp.html#a460785efc1ddd5d7e472fc61340cb9aaa501ce8c3a5ee1f583f1ce31104b928c9">SPELL_SILVER_COVENANT_DISGUISE_FEMALE</a></div><div class="ttdeci">@ SPELL_SILVER_COVENANT_DISGUISE_FEMALE</div><div class="ttdef"><b>Definition:</b> spell_generic.cpp:2644</div></div>
+<div class="ttc" id="aspell__generic_8cpp_html_a460785efc1ddd5d7e472fc61340cb9aaa92e3488f1417b738ca6d93942b808f81"><div class="ttname"><a href="../../d1/de4/spell__generic_8cpp.html#a460785efc1ddd5d7e472fc61340cb9aaa92e3488f1417b738ca6d93942b808f81">SPELL_SILVER_COVENANT_DISGUISE_MALE</a></div><div class="ttdeci">@ SPELL_SILVER_COVENANT_DISGUISE_MALE</div><div class="ttdef"><b>Definition:</b> spell_generic.cpp:2645</div></div>
+<div class="ttc" id="aspell__generic_8cpp_html_a460785efc1ddd5d7e472fc61340cb9aaaccfa41f14d7418534ed208b0792e7765"><div class="ttname"><a href="../../d1/de4/spell__generic_8cpp.html#a460785efc1ddd5d7e472fc61340cb9aaaccfa41f14d7418534ed208b0792e7765">SPELL_SUNREAVER_DISGUISE_FEMALE</a></div><div class="ttdeci">@ SPELL_SUNREAVER_DISGUISE_FEMALE</div><div class="ttdef"><b>Definition:</b> spell_generic.cpp:2640</div></div>
+<div class="ttc" id="aspell__generic_8cpp_html_a460785efc1ddd5d7e472fc61340cb9aaadbff08f49ac1cc5a8d187d2b226b31b6"><div class="ttname"><a href="../../d1/de4/spell__generic_8cpp.html#a460785efc1ddd5d7e472fc61340cb9aaadbff08f49ac1cc5a8d187d2b226b31b6">SPELL_SILVER_COVENANT_DISGUISE_TRIGGER</a></div><div class="ttdeci">@ SPELL_SILVER_COVENANT_DISGUISE_TRIGGER</div><div class="ttdef"><b>Definition:</b> spell_generic.cpp:2643</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a9e29ea947d5415471d991a4e1cd699ac" name="a9e29ea947d5415471d991a4e1cd699ac"></a>
@@ -371,7 +408,15 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 2692</span>    {</div>
+<div class="line"><span class="lineno"> 2693</span>        <a class="code hl_variable" href="../../dc/d62/class_spell_script.html#a6f11356f7a28793e6053bfbc4e2dacf3">OnEffectHitTarget</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a551b0adb8eaf82985a7e55cef0695dcb">SpellEffectFn</a>(<a class="code hl_function" href="../../d4/dd1/classspell__gen__dalaran__disguise.html#a8b20e2ffed94ec9438dc9b756ba76693">spell_gen_dalaran_disguise::HandleScript</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97a078f855df3793531cf8efdef80967cba">SPELL_EFFECT_SCRIPT_EFFECT</a>);</div>
+<div class="line"><span class="lineno"> 2694</span>    }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a></div><div class="ttdeci">@ EFFECT_0</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:30</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a292c893150c454dd75628b719db1fe97a078f855df3793531cf8efdef80967cba"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97a078f855df3793531cf8efdef80967cba">SPELL_EFFECT_SCRIPT_EFFECT</a></div><div class="ttdeci">@ SPELL_EFFECT_SCRIPT_EFFECT</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:827</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a551b0adb8eaf82985a7e55cef0695dcb"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a551b0adb8eaf82985a7e55cef0695dcb">SpellEffectFn</a></div><div class="ttdeci">#define SpellEffectFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:337</div></div>
+<div class="ttc" id="aclass_spell_script_html_a6f11356f7a28793e6053bfbc4e2dacf3"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a6f11356f7a28793e6053bfbc4e2dacf3">SpellScript::OnEffectHitTarget</a></div><div class="ttdeci">HookList&lt; EffectHandler &gt; OnEffectHitTarget</div><div class="ttdef"><b>Definition:</b> SpellScript.h:336</div></div>
+<div class="ttc" id="aclassspell__gen__dalaran__disguise_html_a8b20e2ffed94ec9438dc9b756ba76693"><div class="ttname"><a href="../../d4/dd1/classspell__gen__dalaran__disguise.html#a8b20e2ffed94ec9438dc9b756ba76693">spell_gen_dalaran_disguise::HandleScript</a></div><div class="ttdeci">void HandleScript(SpellEffIndex)</div><div class="ttdef"><b>Definition:</b> spell_generic.cpp:2667</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a77ed10819633ae2bc381023da0feb31b" name="a77ed10819633ae2bc381023da0feb31b"></a>
@@ -399,11 +444,23 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d7/d13/class___spell_script.html#a95e7862a5807bff409f13aea8306077e">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 2655</span>    {</div>
+<div class="line"><span class="lineno"> 2656</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../d7/d13/class___spell_script.html#a9f7c76ac56838fbe61bf67d534979159">ValidateSpellInfo</a>(</div>
+<div class="line"><span class="lineno"> 2657</span>            {</div>
+<div class="line"><span class="lineno"> 2658</span>                <a class="code hl_enumvalue" href="../../d1/de4/spell__generic_8cpp.html#a460785efc1ddd5d7e472fc61340cb9aaa2ddcbd77a4bcf42e52161b51c752dd1a">SPELL_SUNREAVER_DISGUISE_TRIGGER</a>,</div>
+<div class="line"><span class="lineno"> 2659</span>                <a class="code hl_enumvalue" href="../../d1/de4/spell__generic_8cpp.html#a460785efc1ddd5d7e472fc61340cb9aaaccfa41f14d7418534ed208b0792e7765">SPELL_SUNREAVER_DISGUISE_FEMALE</a>,</div>
+<div class="line"><span class="lineno"> 2660</span>                <a class="code hl_enumvalue" href="../../d1/de4/spell__generic_8cpp.html#a460785efc1ddd5d7e472fc61340cb9aaa2342fc86e4d2f4811c11c75f70b37f0b">SPELL_SUNREAVER_DISGUISE_MALE</a>,</div>
+<div class="line"><span class="lineno"> 2661</span>                <a class="code hl_enumvalue" href="../../d1/de4/spell__generic_8cpp.html#a460785efc1ddd5d7e472fc61340cb9aaadbff08f49ac1cc5a8d187d2b226b31b6">SPELL_SILVER_COVENANT_DISGUISE_TRIGGER</a>,</div>
+<div class="line"><span class="lineno"> 2662</span>                <a class="code hl_enumvalue" href="../../d1/de4/spell__generic_8cpp.html#a460785efc1ddd5d7e472fc61340cb9aaa501ce8c3a5ee1f583f1ce31104b928c9">SPELL_SILVER_COVENANT_DISGUISE_FEMALE</a>,</div>
+<div class="line"><span class="lineno"> 2663</span>                <a class="code hl_enumvalue" href="../../d1/de4/spell__generic_8cpp.html#a460785efc1ddd5d7e472fc61340cb9aaa92e3488f1417b738ca6d93942b808f81">SPELL_SILVER_COVENANT_DISGUISE_MALE</a></div>
+<div class="line"><span class="lineno"> 2664</span>            });</div>
+<div class="line"><span class="lineno"> 2665</span>    }</div>
+<div class="ttc" id="aclass___spell_script_html_a9f7c76ac56838fbe61bf67d534979159"><div class="ttname"><a href="../../d7/d13/class___spell_script.html#a9f7c76ac56838fbe61bf67d534979159">_SpellScript::ValidateSpellInfo</a></div><div class="ttdeci">static bool ValidateSpellInfo(std::initializer_list&lt; uint32 &gt; spellIds)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:125</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Spells/<a class="el" href="../../d1/de4/spell__generic_8cpp.html">spell_generic.cpp</a></li>
+<li><a class="el" href="../../">spell_generic.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -411,7 +468,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d4/dd1/classspell__gen__dalaran__disguise.html">spell_gen_dalaran_disguise</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:01 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:18 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

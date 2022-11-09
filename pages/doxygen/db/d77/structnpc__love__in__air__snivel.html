@@ -396,7 +396,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ab04596fb96292f54cf2a10f662dc94a3" name="ab04596fb96292f54cf2a10f662dc94a3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab04596fb96292f54cf2a10f662dc94a3">&#9670;&#160;</a></span>npc_love_in_air_snivel()</h2>
 
@@ -420,7 +421,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  115</span>: <a class="code hl_class" href="../../d6/df7/class_null_creature_a_i.html">NullCreatureAI</a>(creature) { }</div>
+<div class="ttc" id="aclass_null_creature_a_i_html"><div class="ttname"><a href="../../d6/df7/class_null_creature_a_i.html">NullCreatureAI</a></div><div class="ttdef"><b>Definition:</b> PassiveAI.h:53</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -447,7 +450,31 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  126</span>    {</div>
+<div class="line"><span class="lineno">  127</span>        <a class="code hl_typedef" href="../../db/d35/_define_8h.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> slot = player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a3454be68dff7bb9d8ee581591cac3c95">FindQuestSlot</a>(player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a4874f5c152e187c381c2a349f16aa0d4">GetTeamId</a>() == <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a7513eda5ac39f7f649b82c80de7c324da77ec52d5d5f9771c1ac94fddaf7fb84e">TEAM_ALLIANCE</a> ? <a class="code hl_enumvalue" href="../../db/d67/love__in__air_8cpp.html#a191047c88fb3938e07cfc65599e94390a00b4fa551ce3ec4ab9f5129c963372a8">QUEST_HOT_ON_TRAIL_ALLY</a> : <a class="code hl_enumvalue" href="../../db/d67/love__in__air_8cpp.html#a191047c88fb3938e07cfc65599e94390ab7a13d9a2b259ec4993161cbc6c68415">QUEST_HOT_ON_TRAIL_HORDE</a>);</div>
+<div class="line"><span class="lineno">  128</span>        <span class="keywordflow">if</span> (slot &gt;= <a class="code hl_define" href="../../d2/dc8/_quest_def_8h.html#a95d52fc66ae096a6bcac03b3cdccf3b8">MAX_QUEST_LOG_SIZE</a>)</div>
+<div class="line"><span class="lineno">  129</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  130</span> </div>
+<div class="line"><span class="lineno">  131</span>        <a class="code hl_struct" href="../../de/d05/struct_quest_status_data.html">QuestStatusData</a>&amp; qData = player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a218f48b60269525adf800c1a7278f232">getQuestStatusMap</a>()[(player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a4874f5c152e187c381c2a349f16aa0d4">GetTeamId</a>() == <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a7513eda5ac39f7f649b82c80de7c324da77ec52d5d5f9771c1ac94fddaf7fb84e">TEAM_ALLIANCE</a> ? <a class="code hl_enumvalue" href="../../db/d67/love__in__air_8cpp.html#a191047c88fb3938e07cfc65599e94390a00b4fa551ce3ec4ab9f5129c963372a8">QUEST_HOT_ON_TRAIL_ALLY</a> : <a class="code hl_enumvalue" href="../../db/d67/love__in__air_8cpp.html#a191047c88fb3938e07cfc65599e94390ab7a13d9a2b259ec4993161cbc6c68415">QUEST_HOT_ON_TRAIL_HORDE</a>)];</div>
+<div class="line"><span class="lineno">  132</span>        <span class="keywordflow">if</span> (qData.<a class="code hl_variable" href="../../de/d05/struct_quest_status_data.html#aa5892dc0744a41ac565568307f12ad35">CreatureOrGOCount</a>[<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>() - <a class="code hl_enumvalue" href="../../db/d67/love__in__air_8cpp.html#a191047c88fb3938e07cfc65599e94390a3a051cf873e140277c5e6cf875b4744c">NPC_SNIVEL_COUNTER</a>] == 0)</div>
+<div class="line"><span class="lineno">  133</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  134</span> </div>
+<div class="line"><span class="lineno">  135</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  136</span>    }</div>
+<div class="ttc" id="a_define_8h_html_ad9c79638db63f1dfe2b085743b5cbf7b"><div class="ttname"><a href="../../db/d35/_define_8h.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a></div><div class="ttdeci">std::uint16_t uint16</div><div class="ttdef"><b>Definition:</b> Define.h:109</div></div>
+<div class="ttc" id="a_quest_def_8h_html_a95d52fc66ae096a6bcac03b3cdccf3b8"><div class="ttname"><a href="../../d2/dc8/_quest_def_8h.html#a95d52fc66ae096a6bcac03b3cdccf3b8">MAX_QUEST_LOG_SIZE</a></div><div class="ttdeci">#define MAX_QUEST_LOG_SIZE</div><div class="ttdef"><b>Definition:</b> QuestDef.h:33</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a7513eda5ac39f7f649b82c80de7c324da77ec52d5d5f9771c1ac94fddaf7fb84e"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a7513eda5ac39f7f649b82c80de7c324da77ec52d5d5f9771c1ac94fddaf7fb84e">TEAM_ALLIANCE</a></div><div class="ttdeci">@ TEAM_ALLIANCE</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:732</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_aee5bf3d421199445de241a34798ae819"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">CreatureAI::me</a></div><div class="ttdeci">Creature *const me</div><div class="ttdef"><b>Definition:</b> CreatureAI.h:72</div></div>
+<div class="ttc" id="aclass_object_html_aa627fe2967ed0e0ed1d8aeeb4365a961"><div class="ttname"><a href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">Object::GetEntry</a></div><div class="ttdeci">uint32 GetEntry() const</div><div class="ttdef"><b>Definition:</b> Object.h:109</div></div>
+<div class="ttc" id="aclass_player_html_a218f48b60269525adf800c1a7278f232"><div class="ttname"><a href="../../d8/d53/class_player.html#a218f48b60269525adf800c1a7278f232">Player::getQuestStatusMap</a></div><div class="ttdeci">QuestStatusMap &amp; getQuestStatusMap()</div><div class="ttdef"><b>Definition:</b> Player.h:1585</div></div>
+<div class="ttc" id="aclass_player_html_a3454be68dff7bb9d8ee581591cac3c95"><div class="ttname"><a href="../../d8/d53/class_player.html#a3454be68dff7bb9d8ee581591cac3c95">Player::FindQuestSlot</a></div><div class="ttdeci">uint16 FindQuestSlot(uint32 quest_id) const</div><div class="ttdef"><b>Definition:</b> PlayerQuest.cpp:1759</div></div>
+<div class="ttc" id="aclass_player_html_a4874f5c152e187c381c2a349f16aa0d4"><div class="ttname"><a href="../../d8/d53/class_player.html#a4874f5c152e187c381c2a349f16aa0d4">Player::GetTeamId</a></div><div class="ttdeci">TeamId GetTeamId(bool original=false) const</div><div class="ttdef"><b>Definition:</b> Player.h:2058</div></div>
+<div class="ttc" id="alove__in__air_8cpp_html_a191047c88fb3938e07cfc65599e94390a00b4fa551ce3ec4ab9f5129c963372a8"><div class="ttname"><a href="../../db/d67/love__in__air_8cpp.html#a191047c88fb3938e07cfc65599e94390a00b4fa551ce3ec4ab9f5129c963372a8">QUEST_HOT_ON_TRAIL_ALLY</a></div><div class="ttdeci">@ QUEST_HOT_ON_TRAIL_ALLY</div><div class="ttdef"><b>Definition:</b> love_in_air.cpp:100</div></div>
+<div class="ttc" id="alove__in__air_8cpp_html_a191047c88fb3938e07cfc65599e94390a3a051cf873e140277c5e6cf875b4744c"><div class="ttname"><a href="../../db/d67/love__in__air_8cpp.html#a191047c88fb3938e07cfc65599e94390a3a051cf873e140277c5e6cf875b4744c">NPC_SNIVEL_COUNTER</a></div><div class="ttdeci">@ NPC_SNIVEL_COUNTER</div><div class="ttdef"><b>Definition:</b> love_in_air.cpp:104</div></div>
+<div class="ttc" id="alove__in__air_8cpp_html_a191047c88fb3938e07cfc65599e94390ab7a13d9a2b259ec4993161cbc6c68415"><div class="ttname"><a href="../../db/d67/love__in__air_8cpp.html#a191047c88fb3938e07cfc65599e94390ab7a13d9a2b259ec4993161cbc6c68415">QUEST_HOT_ON_TRAIL_HORDE</a></div><div class="ttdeci">@ QUEST_HOT_ON_TRAIL_HORDE</div><div class="ttdef"><b>Definition:</b> love_in_air.cpp:101</div></div>
+<div class="ttc" id="astruct_quest_status_data_html"><div class="ttname"><a href="../../de/d05/struct_quest_status_data.html">QuestStatusData</a></div><div class="ttdef"><b>Definition:</b> QuestDef.h:405</div></div>
+<div class="ttc" id="astruct_quest_status_data_html_aa5892dc0744a41ac565568307f12ad35"><div class="ttname"><a href="../../de/d05/struct_quest_status_data.html#aa5892dc0744a41ac565568307f12ad35">QuestStatusData::CreatureOrGOCount</a></div><div class="ttdeci">uint16 CreatureOrGOCount[QUEST_OBJECTIVES_COUNT]</div><div class="ttdef"><b>Definition:</b> QuestDef.h:415</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ae6537707109b95fad20e521d07867cdd" name="ae6537707109b95fad20e521d07867cdd"></a>
@@ -475,7 +502,29 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d6/df7/class_null_creature_a_i.html#a12c54c92a08e81751563ec9522236b28">NullCreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  139</span>    {</div>
+<div class="line"><span class="lineno">  140</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../db/d77/structnpc__love__in__air__snivel.html#a548db6245ef875ec47279246e437934c">delay</a> == 0 &amp;&amp; <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#acaa0cccbbb9cac74080c8279a571a68c">GetDistance</a>(who) &lt; 7.0f &amp;&amp; who-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">GetTypeId</a>() == <a class="code hl_enumvalue" href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a>)</div>
+<div class="line"><span class="lineno">  141</span>        {</div>
+<div class="line"><span class="lineno">  142</span>            <a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* plr = who-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a328d5f752cc33ed398b3d9861ef6929d">ToPlayer</a>();</div>
+<div class="line"><span class="lineno">  143</span>            <span class="keywordflow">if</span> (<a class="code hl_function" href="../../db/d77/structnpc__love__in__air__snivel.html#af1097317f62bbb8f8456124001c73576">AllowAction</a>(plr))</div>
+<div class="line"><span class="lineno">  144</span>            {</div>
+<div class="line"><span class="lineno">  145</span>                <a class="code hl_variable" href="../../db/d77/structnpc__love__in__air__snivel.html#a548db6245ef875ec47279246e437934c">delay</a> = 25000;</div>
+<div class="line"><span class="lineno">  146</span>                <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> index = plr-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a4874f5c152e187c381c2a349f16aa0d4">GetTeamId</a>() * 3 + (<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>() - <a class="code hl_enumvalue" href="../../db/d67/love__in__air_8cpp.html#a191047c88fb3938e07cfc65599e94390a3a051cf873e140277c5e6cf875b4744c">NPC_SNIVEL_COUNTER</a>);</div>
+<div class="line"><span class="lineno">  147</span>                plr-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(plr, <a class="code hl_variable" href="../../db/d67/love__in__air_8cpp.html#afc51815624598a3775ec655313663aa4">spellTable</a>[index], <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  148</span>            }</div>
+<div class="line"><span class="lineno">  149</span>        }</div>
+<div class="line"><span class="lineno">  150</span>    }</div>
+<div class="ttc" id="a_define_8h_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:110</div></div>
+<div class="ttc" id="a_object_guid_8h_html_a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c"><div class="ttname"><a href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a></div><div class="ttdeci">@ TYPEID_PLAYER</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:38</div></div>
+<div class="ttc" id="aclass_object_html_a328d5f752cc33ed398b3d9861ef6929d"><div class="ttname"><a href="../../d8/d83/class_object.html#a328d5f752cc33ed398b3d9861ef6929d">Object::ToPlayer</a></div><div class="ttdeci">Player * ToPlayer()</div><div class="ttdef"><b>Definition:</b> Object.h:195</div></div>
+<div class="ttc" id="aclass_object_html_a621a345fc34deed6d3a4e1e498a652da"><div class="ttname"><a href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">Object::GetTypeId</a></div><div class="ttdeci">TypeID GetTypeId() const</div><div class="ttdef"><b>Definition:</b> Object.h:121</div></div>
+<div class="ttc" id="aclass_player_html"><div class="ttname"><a href="../../d8/d53/class_player.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1046</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+<div class="ttc" id="aclass_world_object_html_acaa0cccbbb9cac74080c8279a571a68c"><div class="ttname"><a href="../../db/df7/class_world_object.html#acaa0cccbbb9cac74080c8279a571a68c">WorldObject::GetDistance</a></div><div class="ttdeci">float GetDistance(WorldObject const *obj) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1245</div></div>
+<div class="ttc" id="alove__in__air_8cpp_html_afc51815624598a3775ec655313663aa4"><div class="ttname"><a href="../../db/d67/love__in__air_8cpp.html#afc51815624598a3775ec655313663aa4">spellTable</a></div><div class="ttdeci">const uint32 spellTable[6]</div><div class="ttdef"><b>Definition:</b> love_in_air.cpp:111</div></div>
+<div class="ttc" id="astructnpc__love__in__air__snivel_html_a548db6245ef875ec47279246e437934c"><div class="ttname"><a href="../../db/d77/structnpc__love__in__air__snivel.html#a548db6245ef875ec47279246e437934c">npc_love_in_air_snivel::delay</a></div><div class="ttdeci">int32 delay</div><div class="ttdef"><b>Definition:</b> love_in_air.cpp:117</div></div>
+<div class="ttc" id="astructnpc__love__in__air__snivel_html_af1097317f62bbb8f8456124001c73576"><div class="ttname"><a href="../../db/d77/structnpc__love__in__air__snivel.html#af1097317f62bbb8f8456124001c73576">npc_love_in_air_snivel::AllowAction</a></div><div class="ttdeci">bool AllowAction(Player *player)</div><div class="ttdef"><b>Definition:</b> love_in_air.cpp:125</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2385ea44d9f44735b193add4a0d0485b" name="a2385ea44d9f44735b193add4a0d0485b"></a>
@@ -502,7 +551,13 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d9c/class_unit_a_i.html#a43eb9ef68b977d98f6618d69a0d62115">UnitAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  120</span>    {</div>
+<div class="line"><span class="lineno">  121</span>        <a class="code hl_variable" href="../../db/d77/structnpc__love__in__air__snivel.html#a548db6245ef875ec47279246e437934c">delay</a> = 0;</div>
+<div class="line"><span class="lineno">  122</span>        <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a593d295c1d4828fc930ca923a79046bd">SetReactState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37ab0d46448581f9ac821fb076f185661fc">REACT_AGGRESSIVE</a>);</div>
+<div class="line"><span class="lineno">  123</span>    }</div>
+<div class="ttc" id="a_unit_8h_html_a5e9099d162ad74df5a3e3f5c0f056c37ab0d46448581f9ac821fb076f185661fc"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37ab0d46448581f9ac821fb076f185661fc">REACT_AGGRESSIVE</a></div><div class="ttdeci">@ REACT_AGGRESSIVE</div><div class="ttdef"><b>Definition:</b> Unit.h:1025</div></div>
+<div class="ttc" id="aclass_creature_html_a593d295c1d4828fc930ca923a79046bd"><div class="ttname"><a href="../../d1/dac/class_creature.html#a593d295c1d4828fc930ca923a79046bd">Creature::SetReactState</a></div><div class="ttdeci">void SetReactState(ReactStates st)</div><div class="ttdef"><b>Definition:</b> Creature.h:88</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a9e712994663e3442359d2f574ebc812c" name="a9e712994663e3442359d2f574ebc812c"></a>
@@ -530,7 +585,11 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d6/df7/class_null_creature_a_i.html#ab200fcf78dee74a2ec808c01f5855236">NullCreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  153</span>    {</div>
+<div class="line"><span class="lineno">  154</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../db/d77/structnpc__love__in__air__snivel.html#a548db6245ef875ec47279246e437934c">delay</a> &gt; 0)</div>
+<div class="line"><span class="lineno">  155</span>            <a class="code hl_variable" href="../../db/d77/structnpc__love__in__air__snivel.html#a548db6245ef875ec47279246e437934c">delay</a> -= std::min&lt;int32&gt;(<a class="code hl_variable" href="../../db/d77/structnpc__love__in__air__snivel.html#a548db6245ef875ec47279246e437934c">delay</a>, diff);</div>
+<div class="line"><span class="lineno">  156</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -549,7 +608,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Events/<a class="el" href="../../db/d67/love__in__air_8cpp.html">love_in_air.cpp</a></li>
+<li><a class="el" href="../../">love_in_air.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -557,7 +616,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../db/d77/structnpc__love__in__air__snivel.html">npc_love_in_air_snivel</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:52 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:07 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

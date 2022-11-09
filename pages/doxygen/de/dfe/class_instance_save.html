@@ -114,7 +114,7 @@ $(document).ready(function(){initNavTree('de/dfe/class_instance_save.html','../.
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d4/d01/_instance_save_mgr_8h_source.html">InstanceSaveMgr.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">InstanceSaveMgr.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -189,7 +189,8 @@ Friends</h2></td></tr>
 <tr class="memitem:a895f58095a9d9f0ec4cd12e2ae2e8282"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dfe/class_instance_save.html#a895f58095a9d9f0ec4cd12e2ae2e8282">InstanceSaveMgr</a></td></tr>
 <tr class="separator:a895f58095a9d9f0ec4cd12e2ae2e8282"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a6901ef8f7c24501a18a6c688988735b6" name="a6901ef8f7c24501a18a6c688988735b6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6901ef8f7c24501a18a6c688988735b6">&#9670;&#160;</a></span>InstanceSave()</h2>
 
@@ -233,7 +234,22 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  151</span>    : <a class="code hl_variable" href="../../de/dfe/class_instance_save.html#ad4bc4189529fe75acac192e3682154e4">m_resetTime</a>(resetTime), <a class="code hl_variable" href="../../de/dfe/class_instance_save.html#af5ac89030cb727a6c05f1fb07a8a8c49">m_extendedResetTime</a>(extendedResetTime), <a class="code hl_variable" href="../../de/dfe/class_instance_save.html#a6057e679b99516575a2e5cab8d75b8a1">m_instanceid</a>(InstanceId), <a class="code hl_variable" href="../../de/dfe/class_instance_save.html#a86fe576f6d1aaf3084ff03054977ecc9">m_mapid</a>(MapId), <a class="code hl_variable" href="../../de/dfe/class_instance_save.html#aa9742adc281c69f28651e9c64541f820">m_difficulty</a>(<a class="code hl_function" href="../../dd/d17/_d_b_c_stores_8cpp.html#af7b6eff71f64ecef778f854613d72288">IsSharedDifficultyMap</a>(MapId) ? <a class="code hl_enumeration" href="../../dc/d6e/_d_b_c_enums_8h.html#a43efb0a2e61815a66134dfa5ccea0a83">Difficulty</a>(difficulty % 2) : difficulty), <a class="code hl_variable" href="../../de/dfe/class_instance_save.html#ad04e0c29de666c12fbe18111fca7c645">m_canReset</a>(<span class="keyword">true</span>), <a class="code hl_variable" href="../../de/dfe/class_instance_save.html#a89c8afd883451f16ce6423eb18fcc6be">m_instanceData</a>(<span class="stringliteral">&quot;&quot;</span>), <a class="code hl_variable" href="../../de/dfe/class_instance_save.html#afe1d6c463ee67c999066116837641324">m_completedEncounterMask</a>(0)</div>
+<div class="line"><span class="lineno">  152</span>{</div>
+<div class="line"><span class="lineno">  153</span>    <a class="code hl_define" href="../../d0/d7d/_script_mgr_8h.html#ae8161e629869974bc49b1cbfc73c1087">sScriptMgr</a>-&gt;OnConstructInstanceSave(<span class="keyword">this</span>);</div>
+<div class="line"><span class="lineno">  154</span>}</div>
+<div class="ttc" id="a_d_b_c_enums_8h_html_a43efb0a2e61815a66134dfa5ccea0a83"><div class="ttname"><a href="../../dc/d6e/_d_b_c_enums_8h.html#a43efb0a2e61815a66134dfa5ccea0a83">Difficulty</a></div><div class="ttdeci">Difficulty</div><div class="ttdef"><b>Definition:</b> DBCEnums.h:271</div></div>
+<div class="ttc" id="a_d_b_c_stores_8cpp_html_af7b6eff71f64ecef778f854613d72288"><div class="ttname"><a href="../../dd/d17/_d_b_c_stores_8cpp.html#af7b6eff71f64ecef778f854613d72288">IsSharedDifficultyMap</a></div><div class="ttdeci">bool IsSharedDifficultyMap(uint32 mapid)</div><div class="ttdef"><b>Definition:</b> DBCStores.cpp:817</div></div>
+<div class="ttc" id="a_script_mgr_8h_html_ae8161e629869974bc49b1cbfc73c1087"><div class="ttname"><a href="../../d0/d7d/_script_mgr_8h.html#ae8161e629869974bc49b1cbfc73c1087">sScriptMgr</a></div><div class="ttdeci">#define sScriptMgr</div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:2690</div></div>
+<div class="ttc" id="aclass_instance_save_html_a6057e679b99516575a2e5cab8d75b8a1"><div class="ttname"><a href="../../de/dfe/class_instance_save.html#a6057e679b99516575a2e5cab8d75b8a1">InstanceSave::m_instanceid</a></div><div class="ttdeci">uint32 m_instanceid</div><div class="ttdef"><b>Definition:</b> InstanceSaveMgr.h:94</div></div>
+<div class="ttc" id="aclass_instance_save_html_a86fe576f6d1aaf3084ff03054977ecc9"><div class="ttname"><a href="../../de/dfe/class_instance_save.html#a86fe576f6d1aaf3084ff03054977ecc9">InstanceSave::m_mapid</a></div><div class="ttdeci">uint32 m_mapid</div><div class="ttdef"><b>Definition:</b> InstanceSaveMgr.h:95</div></div>
+<div class="ttc" id="aclass_instance_save_html_a89c8afd883451f16ce6423eb18fcc6be"><div class="ttname"><a href="../../de/dfe/class_instance_save.html#a89c8afd883451f16ce6423eb18fcc6be">InstanceSave::m_instanceData</a></div><div class="ttdeci">std::string m_instanceData</div><div class="ttdef"><b>Definition:</b> InstanceSaveMgr.h:98</div></div>
+<div class="ttc" id="aclass_instance_save_html_aa9742adc281c69f28651e9c64541f820"><div class="ttname"><a href="../../de/dfe/class_instance_save.html#aa9742adc281c69f28651e9c64541f820">InstanceSave::m_difficulty</a></div><div class="ttdeci">Difficulty m_difficulty</div><div class="ttdef"><b>Definition:</b> InstanceSaveMgr.h:96</div></div>
+<div class="ttc" id="aclass_instance_save_html_ad04e0c29de666c12fbe18111fca7c645"><div class="ttname"><a href="../../de/dfe/class_instance_save.html#ad04e0c29de666c12fbe18111fca7c645">InstanceSave::m_canReset</a></div><div class="ttdeci">bool m_canReset</div><div class="ttdef"><b>Definition:</b> InstanceSaveMgr.h:97</div></div>
+<div class="ttc" id="aclass_instance_save_html_ad4bc4189529fe75acac192e3682154e4"><div class="ttname"><a href="../../de/dfe/class_instance_save.html#ad4bc4189529fe75acac192e3682154e4">InstanceSave::m_resetTime</a></div><div class="ttdeci">time_t m_resetTime</div><div class="ttdef"><b>Definition:</b> InstanceSaveMgr.h:92</div></div>
+<div class="ttc" id="aclass_instance_save_html_af5ac89030cb727a6c05f1fb07a8a8c49"><div class="ttname"><a href="../../de/dfe/class_instance_save.html#af5ac89030cb727a6c05f1fb07a8a8c49">InstanceSave::m_extendedResetTime</a></div><div class="ttdeci">time_t m_extendedResetTime</div><div class="ttdef"><b>Definition:</b> InstanceSaveMgr.h:93</div></div>
+<div class="ttc" id="aclass_instance_save_html_afe1d6c463ee67c999066116837641324"><div class="ttname"><a href="../../de/dfe/class_instance_save.html#afe1d6c463ee67c999066116837641324">InstanceSave::m_completedEncounterMask</a></div><div class="ttdeci">uint32 m_completedEncounterMask</div><div class="ttdef"><b>Definition:</b> InstanceSaveMgr.h:99</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a9ff182259d44acaa470cebb36d788c39" name="a9ff182259d44acaa470cebb36d788c39"></a>
@@ -250,7 +266,14 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  157</span>{</div>
+<div class="line"><span class="lineno">  158</span>    <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(<a class="code hl_variable" href="../../de/dfe/class_instance_save.html#a90d9cedcf9b9e25c638fea6268d70bc4">m_playerList</a>.empty());</div>
+<div class="line"><span class="lineno">  159</span> </div>
+<div class="line"><span class="lineno">  160</span>    <a class="code hl_define" href="../../d0/d7d/_script_mgr_8h.html#ae8161e629869974bc49b1cbfc73c1087">sScriptMgr</a>-&gt;OnDestructInstanceSave(<span class="keyword">this</span>);</div>
+<div class="line"><span class="lineno">  161</span>}</div>
+<div class="ttc" id="a_errors_8h_html_af343b20373ba49a92fce523e948f2ab3"><div class="ttname"><a href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a></div><div class="ttdeci">#define ASSERT</div><div class="ttdef"><b>Definition:</b> Errors.h:68</div></div>
+<div class="ttc" id="aclass_instance_save_html_a90d9cedcf9b9e25c638fea6268d70bc4"><div class="ttname"><a href="../../de/dfe/class_instance_save.html#a90d9cedcf9b9e25c638fea6268d70bc4">InstanceSave::m_playerList</a></div><div class="ttdeci">GuidList m_playerList</div><div class="ttdef"><b>Definition:</b> InstanceSaveMgr.h:91</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -269,7 +292,12 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  217</span>{</div>
+<div class="line"><span class="lineno">  218</span>    std::lock_guard&lt;std::mutex&gt; guard(<a class="code hl_variable" href="../../de/dfe/class_instance_save.html#a0e4cc72ed74b163f7c1a8dde39dd01f3">_lock</a>);</div>
+<div class="line"><span class="lineno">  219</span>    <a class="code hl_variable" href="../../de/dfe/class_instance_save.html#a90d9cedcf9b9e25c638fea6268d70bc4">m_playerList</a>.push_back(guid);</div>
+<div class="line"><span class="lineno">  220</span>}</div>
+<div class="ttc" id="aclass_instance_save_html_a0e4cc72ed74b163f7c1a8dde39dd01f3"><div class="ttname"><a href="../../de/dfe/class_instance_save.html#a0e4cc72ed74b163f7c1a8dde39dd01f3">InstanceSave::_lock</a></div><div class="ttdeci">std::mutex _lock</div><div class="ttdef"><b>Definition:</b> InstanceSaveMgr.h:101</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aba8d512041c8485f49eef8c1fafce729" name="aba8d512041c8485f49eef8c1fafce729"></a>
@@ -294,7 +322,8 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   81</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/dfe/class_instance_save.html#ad04e0c29de666c12fbe18111fca7c645">m_canReset</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="afe47ec184ab41772b446a6bfb338796f" name="afe47ec184ab41772b446a6bfb338796f"></a>
@@ -319,7 +348,8 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   71</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/dfe/class_instance_save.html#afe1d6c463ee67c999066116837641324">m_completedEncounterMask</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a94577295c43dc90262381beff84f5f91" name="a94577295c43dc90262381beff84f5f91"></a>
@@ -344,7 +374,8 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   63</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/dfe/class_instance_save.html#aa9742adc281c69f28651e9c64541f820">m_difficulty</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2da6c5ed63b57f6449de44461c05582b" name="a2da6c5ed63b57f6449de44461c05582b"></a>
@@ -369,7 +400,8 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   76</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/dfe/class_instance_save.html#af5ac89030cb727a6c05f1fb07a8a8c49">m_extendedResetTime</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a0785f4ba4011ef735d10e80ff05b0cf7" name="a0785f4ba4011ef735d10e80ff05b0cf7"></a>
@@ -394,7 +426,8 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   69</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/dfe/class_instance_save.html#a89c8afd883451f16ce6423eb18fcc6be">m_instanceData</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a7def734d9c4698457fa4f631e30fa9db" name="a7def734d9c4698457fa4f631e30fa9db"></a>
@@ -419,7 +452,8 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   61</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/dfe/class_instance_save.html#a6057e679b99516575a2e5cab8d75b8a1">m_instanceid</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a5e52665f53db7ed2e185920c22c584a2" name="a5e52665f53db7ed2e185920c22c584a2"></a>
@@ -436,7 +470,11 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  212</span>{</div>
+<div class="line"><span class="lineno">  213</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dd/d17/_d_b_c_stores_8cpp.html#acbe166cef01fbaa320231e8ef42b25c6">sMapStore</a>.LookupEntry(<a class="code hl_variable" href="../../de/dfe/class_instance_save.html#a86fe576f6d1aaf3084ff03054977ecc9">m_mapid</a>);</div>
+<div class="line"><span class="lineno">  214</span>}</div>
+<div class="ttc" id="a_d_b_c_stores_8cpp_html_acbe166cef01fbaa320231e8ef42b25c6"><div class="ttname"><a href="../../dd/d17/_d_b_c_stores_8cpp.html#acbe166cef01fbaa320231e8ef42b25c6">sMapStore</a></div><div class="ttdeci">DBCStorage&lt; MapEntry &gt; sMapStore(MapEntryfmt)</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a92ce355e9be7f83d53307b6dcd354c5d" name="a92ce355e9be7f83d53307b6dcd354c5d"></a>
@@ -461,7 +499,8 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   62</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/dfe/class_instance_save.html#a86fe576f6d1aaf3084ff03054977ecc9">m_mapid</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="af5f5969ae2d4730af0c9ad7ea7f5a8ac" name="af5f5969ae2d4730af0c9ad7ea7f5a8ac"></a>
@@ -486,7 +525,8 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   75</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/dfe/class_instance_save.html#ad4bc4189529fe75acac192e3682154e4">m_resetTime</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a78a9d21a1a7711c6eeefc6567dd30106" name="a78a9d21a1a7711c6eeefc6567dd30106"></a>
@@ -503,7 +543,22 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  196</span>{</div>
+<div class="line"><span class="lineno">  197</span>    <span class="comment">// only save the reset time for normal instances</span></div>
+<div class="line"><span class="lineno">  198</span>    <a class="code hl_struct" href="../../d2/d99/struct_map_entry.html">MapEntry</a> <span class="keyword">const</span>* entry = <a class="code hl_variable" href="../../dd/d17/_d_b_c_stores_8cpp.html#acbe166cef01fbaa320231e8ef42b25c6">sMapStore</a>.LookupEntry(<a class="code hl_function" href="../../de/dfe/class_instance_save.html#a92ce355e9be7f83d53307b6dcd354c5d">GetMapId</a>());</div>
+<div class="line"><span class="lineno">  199</span>    <span class="keywordflow">if</span> (!entry || entry-&gt;<a class="code hl_variable" href="../../d2/d99/struct_map_entry.html#adc919dc1d095da8c0f1624abfcca2cf6">map_type</a> == <a class="code hl_enumvalue" href="../../dc/d6e/_d_b_c_enums_8h.html#a28c252fd678ff644cdad7b1b835f24c9ae33c109f713bf214b65d889e5d7fd2fe">MAP_RAID</a> || <a class="code hl_function" href="../../de/dfe/class_instance_save.html#a94577295c43dc90262381beff84f5f91">GetDifficulty</a>() == <a class="code hl_enumvalue" href="../../dc/d6e/_d_b_c_enums_8h.html#a43efb0a2e61815a66134dfa5ccea0a83a8e5e0567af94d14d53209944fd9136ff">DUNGEON_DIFFICULTY_HEROIC</a>)</div>
+<div class="line"><span class="lineno">  200</span>        <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">  201</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  202</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../de/dfe/class_instance_save.html#af5f5969ae2d4730af0c9ad7ea7f5a8ac">GetResetTime</a>();</div>
+<div class="line"><span class="lineno">  203</span>}</div>
+<div class="ttc" id="a_d_b_c_enums_8h_html_a28c252fd678ff644cdad7b1b835f24c9ae33c109f713bf214b65d889e5d7fd2fe"><div class="ttname"><a href="../../dc/d6e/_d_b_c_enums_8h.html#a28c252fd678ff644cdad7b1b835f24c9ae33c109f713bf214b65d889e5d7fd2fe">MAP_RAID</a></div><div class="ttdeci">@ MAP_RAID</div><div class="ttdef"><b>Definition:</b> DBCEnums.h:353</div></div>
+<div class="ttc" id="a_d_b_c_enums_8h_html_a43efb0a2e61815a66134dfa5ccea0a83a8e5e0567af94d14d53209944fd9136ff"><div class="ttname"><a href="../../dc/d6e/_d_b_c_enums_8h.html#a43efb0a2e61815a66134dfa5ccea0a83a8e5e0567af94d14d53209944fd9136ff">DUNGEON_DIFFICULTY_HEROIC</a></div><div class="ttdeci">@ DUNGEON_DIFFICULTY_HEROIC</div><div class="ttdef"><b>Definition:</b> DBCEnums.h:275</div></div>
+<div class="ttc" id="aclass_instance_save_html_a92ce355e9be7f83d53307b6dcd354c5d"><div class="ttname"><a href="../../de/dfe/class_instance_save.html#a92ce355e9be7f83d53307b6dcd354c5d">InstanceSave::GetMapId</a></div><div class="ttdeci">uint32 GetMapId() const</div><div class="ttdef"><b>Definition:</b> InstanceSaveMgr.h:62</div></div>
+<div class="ttc" id="aclass_instance_save_html_a94577295c43dc90262381beff84f5f91"><div class="ttname"><a href="../../de/dfe/class_instance_save.html#a94577295c43dc90262381beff84f5f91">InstanceSave::GetDifficulty</a></div><div class="ttdeci">Difficulty GetDifficulty() const</div><div class="ttdef"><b>Definition:</b> InstanceSaveMgr.h:63</div></div>
+<div class="ttc" id="aclass_instance_save_html_af5f5969ae2d4730af0c9ad7ea7f5a8ac"><div class="ttname"><a href="../../de/dfe/class_instance_save.html#af5f5969ae2d4730af0c9ad7ea7f5a8ac">InstanceSave::GetResetTime</a></div><div class="ttdeci">time_t GetResetTime() const</div><div class="ttdef"><b>Definition:</b> InstanceSaveMgr.h:75</div></div>
+<div class="ttc" id="astruct_map_entry_html"><div class="ttname"><a href="../../d2/d99/struct_map_entry.html">MapEntry</a></div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1308</div></div>
+<div class="ttc" id="astruct_map_entry_html_adc919dc1d095da8c0f1624abfcca2cf6"><div class="ttname"><a href="../../d2/d99/struct_map_entry.html#adc919dc1d095da8c0f1624abfcca2cf6">MapEntry::map_type</a></div><div class="ttdeci">uint32 map_type</div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1311</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a1d01bd891d1885b4efc3a61a937a3d45" name="a1d01bd891d1885b4efc3a61a937a3d45"></a>
@@ -520,7 +575,11 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  207</span>{</div>
+<div class="line"><span class="lineno">  208</span>    <span class="keywordflow">return</span> <a class="code hl_define" href="../../d9/d77/_object_mgr_8h.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetInstanceTemplate(<a class="code hl_variable" href="../../de/dfe/class_instance_save.html#a86fe576f6d1aaf3084ff03054977ecc9">m_mapid</a>);</div>
+<div class="line"><span class="lineno">  209</span>}</div>
+<div class="ttc" id="a_object_mgr_8h_html_a736e30da2b5261060ac6cdbb5de3b787"><div class="ttname"><a href="../../d9/d77/_object_mgr_8h.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a></div><div class="ttdeci">#define sObjectMgr</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:1606</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a94ad997458e97d7b7548ccbd88f3ac63" name="a94ad997458e97d7b7548ccbd88f3ac63"></a>
@@ -537,7 +596,52 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  164</span>{</div>
+<div class="line"><span class="lineno">  165</span>    std::string data;</div>
+<div class="line"><span class="lineno">  166</span>    <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> completedEncounters = 0;</div>
+<div class="line"><span class="lineno">  167</span> </div>
+<div class="line"><span class="lineno">  168</span>    <a class="code hl_class" href="../../dd/d11/class_map.html">Map</a>* map = <a class="code hl_define" href="../../dd/dca/_map_mgr_8h.html#a9132749f8376c48b0ca7212eb3293905">sMapMgr</a>-&gt;FindMap(<a class="code hl_function" href="../../de/dfe/class_instance_save.html#a92ce355e9be7f83d53307b6dcd354c5d">GetMapId</a>(), <a class="code hl_variable" href="../../de/dfe/class_instance_save.html#a6057e679b99516575a2e5cab8d75b8a1">m_instanceid</a>);</div>
+<div class="line"><span class="lineno">  169</span>    <span class="keywordflow">if</span> (map)</div>
+<div class="line"><span class="lineno">  170</span>    {</div>
+<div class="line"><span class="lineno">  171</span>        <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(map-&gt;<a class="code hl_function" href="../../dd/d11/class_map.html#a0c80d50b012dc8d560e256201970f3b3">IsDungeon</a>());</div>
+<div class="line"><span class="lineno">  172</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d83/class_instance_script.html">InstanceScript</a>* instanceScript = map-&gt;<a class="code hl_function" href="../../dd/d11/class_map.html#aca5af60e4ebade05b3673dd341eafd4f">ToInstanceMap</a>()-&gt;<a class="code hl_function" href="../../d8/ded/class_instance_map.html#adb854ceb3abc3e768ad6b8ce66703314">GetInstanceScript</a>())</div>
+<div class="line"><span class="lineno">  173</span>        {</div>
+<div class="line"><span class="lineno">  174</span>            data = instanceScript-&gt;GetSaveData();</div>
+<div class="line"><span class="lineno">  175</span>            completedEncounters = instanceScript-&gt;GetCompletedEncounterMask();</div>
+<div class="line"><span class="lineno">  176</span> </div>
+<div class="line"><span class="lineno">  177</span>            <span class="comment">// pussywizard:</span></div>
+<div class="line"><span class="lineno">  178</span>            <a class="code hl_function" href="../../de/dfe/class_instance_save.html#af3834730980e93d2617c92229220c739">SetInstanceData</a>(data);</div>
+<div class="line"><span class="lineno">  179</span>            <a class="code hl_function" href="../../de/dfe/class_instance_save.html#afe42a43cecab75523b5f92340c5ef827">SetCompletedEncounterMask</a>(completedEncounters);</div>
+<div class="line"><span class="lineno">  180</span>        }</div>
+<div class="line"><span class="lineno">  181</span>    }</div>
+<div class="line"><span class="lineno">  182</span> </div>
+<div class="line"><span class="lineno">  183</span>    <a class="code hl_class" href="../../da/d37/class_prepared_statement.html">CharacterDatabasePreparedStatement</a>* stmt = <a class="code hl_variable" href="../../d6/d2e/_database_env_8cpp.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.GetPreparedStatement(<a class="code hl_enumvalue" href="../../d7/d54/_character_database_8h.html#a76116b4fa282d8e35bf8f8e940b5cba7a4cf872a07776f267c8ccf99d70064df6">CHAR_INS_INSTANCE_SAVE</a>);</div>
+<div class="line"><span class="lineno">  184</span>    stmt-&gt;<a class="code hl_function" href="../../dd/d6a/class_prepared_statement_base.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(0, <a class="code hl_variable" href="../../de/dfe/class_instance_save.html#a6057e679b99516575a2e5cab8d75b8a1">m_instanceid</a>);</div>
+<div class="line"><span class="lineno">  185</span>    stmt-&gt;<a class="code hl_function" href="../../dd/d6a/class_prepared_statement_base.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(1, <a class="code hl_function" href="../../de/dfe/class_instance_save.html#a92ce355e9be7f83d53307b6dcd354c5d">GetMapId</a>());</div>
+<div class="line"><span class="lineno">  186</span>    stmt-&gt;<a class="code hl_function" href="../../dd/d6a/class_prepared_statement_base.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(2, <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(<a class="code hl_function" href="../../de/dfe/class_instance_save.html#a78a9d21a1a7711c6eeefc6567dd30106">GetResetTimeForDB</a>()));</div>
+<div class="line"><span class="lineno">  187</span>    stmt-&gt;<a class="code hl_function" href="../../dd/d6a/class_prepared_statement_base.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(3, <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>(<a class="code hl_function" href="../../de/dfe/class_instance_save.html#a94577295c43dc90262381beff84f5f91">GetDifficulty</a>()));</div>
+<div class="line"><span class="lineno">  188</span>    stmt-&gt;<a class="code hl_function" href="../../dd/d6a/class_prepared_statement_base.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(4, completedEncounters);</div>
+<div class="line"><span class="lineno">  189</span>    stmt-&gt;<a class="code hl_function" href="../../dd/d6a/class_prepared_statement_base.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(5, data);</div>
+<div class="line"><span class="lineno">  190</span>    <a class="code hl_variable" href="../../d6/d2e/_database_env_8cpp.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.Execute(stmt);</div>
+<div class="line"><span class="lineno">  191</span> </div>
+<div class="line"><span class="lineno">  192</span>    <a class="code hl_define" href="../../d0/d7d/_script_mgr_8h.html#ae8161e629869974bc49b1cbfc73c1087">sScriptMgr</a>-&gt;OnInstanceSave(<span class="keyword">this</span>);</div>
+<div class="line"><span class="lineno">  193</span>}</div>
+<div class="ttc" id="a_character_database_8h_html_a76116b4fa282d8e35bf8f8e940b5cba7a4cf872a07776f267c8ccf99d70064df6"><div class="ttname"><a href="../../d7/d54/_character_database_8h.html#a76116b4fa282d8e35bf8f8e940b5cba7a4cf872a07776f267c8ccf99d70064df6">CHAR_INS_INSTANCE_SAVE</a></div><div class="ttdeci">@ CHAR_INS_INSTANCE_SAVE</div><div class="ttdef"><b>Definition:</b> CharacterDatabase.h:211</div></div>
+<div class="ttc" id="a_database_env_8cpp_html_a7e7534bc66d79434bd280b77cb124eec"><div class="ttname"><a href="../../d6/d2e/_database_env_8cpp.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a></div><div class="ttdeci">DatabaseWorkerPool&lt; CharacterDatabaseConnection &gt; CharacterDatabase</div><div class="ttdoc">Accessor to the character database.</div><div class="ttdef"><b>Definition:</b> DatabaseEnv.cpp:21</div></div>
+<div class="ttc" id="a_define_8h_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:110</div></div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="a_map_mgr_8h_html_a9132749f8376c48b0ca7212eb3293905"><div class="ttname"><a href="../../dd/dca/_map_mgr_8h.html#a9132749f8376c48b0ca7212eb3293905">sMapMgr</a></div><div class="ttdeci">#define sMapMgr</div><div class="ttdef"><b>Definition:</b> MapMgr.h:212</div></div>
+<div class="ttc" id="aclass_instance_map_html_adb854ceb3abc3e768ad6b8ce66703314"><div class="ttname"><a href="../../d8/ded/class_instance_map.html#adb854ceb3abc3e768ad6b8ce66703314">InstanceMap::GetInstanceScript</a></div><div class="ttdeci">InstanceScript * GetInstanceScript()</div><div class="ttdef"><b>Definition:</b> Map.h:825</div></div>
+<div class="ttc" id="aclass_instance_save_html_a78a9d21a1a7711c6eeefc6567dd30106"><div class="ttname"><a href="../../de/dfe/class_instance_save.html#a78a9d21a1a7711c6eeefc6567dd30106">InstanceSave::GetResetTimeForDB</a></div><div class="ttdeci">time_t GetResetTimeForDB()</div><div class="ttdef"><b>Definition:</b> InstanceSaveMgr.cpp:195</div></div>
+<div class="ttc" id="aclass_instance_save_html_af3834730980e93d2617c92229220c739"><div class="ttname"><a href="../../de/dfe/class_instance_save.html#af3834730980e93d2617c92229220c739">InstanceSave::SetInstanceData</a></div><div class="ttdeci">void SetInstanceData(std::string str)</div><div class="ttdef"><b>Definition:</b> InstanceSaveMgr.h:70</div></div>
+<div class="ttc" id="aclass_instance_save_html_afe42a43cecab75523b5f92340c5ef827"><div class="ttname"><a href="../../de/dfe/class_instance_save.html#afe42a43cecab75523b5f92340c5ef827">InstanceSave::SetCompletedEncounterMask</a></div><div class="ttdeci">void SetCompletedEncounterMask(uint32 mask)</div><div class="ttdef"><b>Definition:</b> InstanceSaveMgr.h:72</div></div>
+<div class="ttc" id="aclass_instance_script_html"><div class="ttname"><a href="../../d8/d83/class_instance_script.html">InstanceScript</a></div><div class="ttdef"><b>Definition:</b> InstanceScript.h:140</div></div>
+<div class="ttc" id="aclass_map_html"><div class="ttname"><a href="../../dd/d11/class_map.html">Map</a></div><div class="ttdef"><b>Definition:</b> Map.h:312</div></div>
+<div class="ttc" id="aclass_map_html_a0c80d50b012dc8d560e256201970f3b3"><div class="ttname"><a href="../../dd/d11/class_map.html#a0c80d50b012dc8d560e256201970f3b3">Map::IsDungeon</a></div><div class="ttdeci">bool IsDungeon() const</div><div class="ttdef"><b>Definition:</b> Map.h:447</div></div>
+<div class="ttc" id="aclass_map_html_aca5af60e4ebade05b3673dd341eafd4f"><div class="ttname"><a href="../../dd/d11/class_map.html#aca5af60e4ebade05b3673dd341eafd4f">Map::ToInstanceMap</a></div><div class="ttdeci">InstanceMap * ToInstanceMap()</div><div class="ttdef"><b>Definition:</b> Map.h:544</div></div>
+<div class="ttc" id="aclass_prepared_statement_base_html_a52fc2e65042c1db51f0923725a0f0ed0"><div class="ttname"><a href="../../dd/d6a/class_prepared_statement_base.html#a52fc2e65042c1db51f0923725a0f0ed0">PreparedStatementBase::SetData</a></div><div class="ttdeci">Acore::Types::is_default&lt; T &gt; SetData(const uint8 index, T value)</div><div class="ttdef"><b>Definition:</b> PreparedStatement.h:78</div></div>
+<div class="ttc" id="aclass_prepared_statement_html"><div class="ttname"><a href="../../da/d37/class_prepared_statement.html">PreparedStatement</a></div><div class="ttdef"><b>Definition:</b> PreparedStatement.h:158</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad67626787ecea8c4b5e54e205c069261" name="ad67626787ecea8c4b5e54e205c069261"></a>
@@ -565,7 +669,26 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  223</span>{</div>
+<div class="line"><span class="lineno">  224</span>    <span class="keywordtype">bool</span> deleteSave = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  225</span>    {</div>
+<div class="line"><span class="lineno">  226</span>        std::lock_guard lg(<a class="code hl_variable" href="../../de/dfe/class_instance_save.html#a0e4cc72ed74b163f7c1a8dde39dd01f3">_lock</a>);</div>
+<div class="line"><span class="lineno">  227</span>        <a class="code hl_variable" href="../../de/dfe/class_instance_save.html#a90d9cedcf9b9e25c638fea6268d70bc4">m_playerList</a>.remove(guid);</div>
+<div class="line"><span class="lineno">  228</span> </div>
+<div class="line"><span class="lineno">  229</span>        <span class="comment">// ism passed as an argument to avoid calling via singleton (might result in a deadlock)</span></div>
+<div class="line"><span class="lineno">  230</span>        deleteSave = ism-&gt;<a class="code hl_function" href="../../d3/d89/class_instance_save_mgr.html#a98d82f31b5853af7a2cb7fd819275f1c">DeleteInstanceSaveIfNeeded</a>(<span class="keyword">this</span>, <span class="keyword">false</span>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  231</span>    }</div>
+<div class="line"><span class="lineno">  232</span> </div>
+<div class="line"><span class="lineno">  233</span>    <span class="comment">// Delete save now (avoid mutex memory corruption)</span></div>
+<div class="line"><span class="lineno">  234</span>    <span class="keywordflow">if</span> (deleteSave)</div>
+<div class="line"><span class="lineno">  235</span>    {</div>
+<div class="line"><span class="lineno">  236</span>        <span class="keyword">delete</span> <span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">  237</span>    }</div>
+<div class="line"><span class="lineno">  238</span> </div>
+<div class="line"><span class="lineno">  239</span>    <span class="keywordflow">return</span> deleteSave;</div>
+<div class="line"><span class="lineno">  240</span>}</div>
+<div class="ttc" id="aclass_instance_save_mgr_html_a98d82f31b5853af7a2cb7fd819275f1c"><div class="ttname"><a href="../../d3/d89/class_instance_save_mgr.html#a98d82f31b5853af7a2cb7fd819275f1c">InstanceSaveMgr::DeleteInstanceSaveIfNeeded</a></div><div class="ttdeci">bool DeleteInstanceSaveIfNeeded(uint32 InstanceId, bool skipMapCheck)</div><div class="ttdef"><b>Definition:</b> InstanceSaveMgr.cpp:114</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a748d1f886e92a5c48af561198f8b0d96" name="a748d1f886e92a5c48af561198f8b0d96"></a>
@@ -591,7 +714,8 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   82</span>{ <a class="code hl_variable" href="../../de/dfe/class_instance_save.html#ad04e0c29de666c12fbe18111fca7c645">m_canReset</a> = canReset; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="afe42a43cecab75523b5f92340c5ef827" name="afe42a43cecab75523b5f92340c5ef827"></a>
@@ -617,7 +741,8 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   72</span>{ <a class="code hl_variable" href="../../de/dfe/class_instance_save.html#afe1d6c463ee67c999066116837641324">m_completedEncounterMask</a> = mask; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a30fae391561928818b002a29098f141c" name="a30fae391561928818b002a29098f141c"></a>
@@ -643,7 +768,8 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   79</span>{ <a class="code hl_variable" href="../../de/dfe/class_instance_save.html#af5ac89030cb727a6c05f1fb07a8a8c49">m_extendedResetTime</a> = extendedResetTime; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="af3834730980e93d2617c92229220c739" name="af3834730980e93d2617c92229220c739"></a>
@@ -669,7 +795,8 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   70</span>{ <a class="code hl_variable" href="../../de/dfe/class_instance_save.html#a89c8afd883451f16ce6423eb18fcc6be">m_instanceData</a> = str; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a7d50f44ec594b4f97f8b7e4ddf2b2083" name="a7d50f44ec594b4f97f8b7e4ddf2b2083"></a>
@@ -695,7 +822,8 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   78</span>{ <a class="code hl_variable" href="../../de/dfe/class_instance_save.html#ad4bc4189529fe75acac192e3682154e4">m_resetTime</a> = resetTime; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Friends And Related Function Documentation</h2>
@@ -943,8 +1071,8 @@ Friends</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Instances/<a class="el" href="../../d4/d01/_instance_save_mgr_8h_source.html">InstanceSaveMgr.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/Instances/<a class="el" href="../../dd/de3/_instance_save_mgr_8cpp.html">InstanceSaveMgr.cpp</a></li>
+<li><a class="el" href="../../">InstanceSaveMgr.h</a></li>
+<li><a class="el" href="../../">InstanceSaveMgr.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -952,7 +1080,7 @@ Friends</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../de/dfe/class_instance_save.html">InstanceSave</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:46 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:01 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

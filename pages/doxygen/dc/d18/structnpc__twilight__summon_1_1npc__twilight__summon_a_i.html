@@ -489,7 +489,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a8f5dfe54a5ac1d7a058c5efb9bead77a" name="a8f5dfe54a5ac1d7a058c5efb9bead77a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8f5dfe54a5ac1d7a058c5efb9bead77a">&#9670;&#160;</a></span>npc_twilight_summonAI()</h2>
 
@@ -513,7 +514,14 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1458</span>                                                   : <a class="code hl_struct" href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a>(pCreature),</div>
+<div class="line"><span class="lineno"> 1459</span>            <a class="code hl_variable" href="../../dc/d18/structnpc__twilight__summon_1_1npc__twilight__summon_a_i.html#ace4028c8f4d0240b4e2939481312d0d2">fadeArmorTimer</a>(<a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(0, 15000))</div>
+<div class="line"><span class="lineno"> 1460</span>        {</div>
+<div class="line"><span class="lineno"> 1461</span>        }</div>
+<div class="ttc" id="a_random_8cpp_html_ab17def34ccbbd868dc87a16bf35acdbd"><div class="ttname"><a href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a></div><div class="ttdeci">uint32 urand(uint32 min, uint32 max)</div><div class="ttdef"><b>Definition:</b> Random.cpp:44</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
+<div class="ttc" id="astructnpc__twilight__summon_1_1npc__twilight__summon_a_i_html_ace4028c8f4d0240b4e2939481312d0d2"><div class="ttname"><a href="../../dc/d18/structnpc__twilight__summon_1_1npc__twilight__summon_a_i.html#ace4028c8f4d0240b4e2939481312d0d2">npc_twilight_summon::npc_twilight_summonAI::fadeArmorTimer</a></div><div class="ttdeci">uint32 fadeArmorTimer</div><div class="ttdef"><b>Definition:</b> boss_sartharion.cpp:1510</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -542,7 +550,16 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d9c/class_unit_a_i.html#a165d336cb3423f9665ed612d2dec76ed">UnitAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1477</span>        {</div>
+<div class="line"><span class="lineno"> 1478</span>            <span class="keywordflow">if</span> (param == <a class="code hl_enumvalue" href="../../df/d71/boss__sartharion_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a3734c86ac06de7a9410c15d33dc43051">ACTION_SWITCH_PHASE</a>)</div>
+<div class="line"><span class="lineno"> 1479</span>            {</div>
+<div class="line"><span class="lineno"> 1480</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#abce66404f36b926cf403555911bcb9f7">DespawnOrUnsummon</a>(1);</div>
+<div class="line"><span class="lineno"> 1481</span>            }</div>
+<div class="line"><span class="lineno"> 1482</span>        }</div>
+<div class="ttc" id="aboss__sartharion_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a3734c86ac06de7a9410c15d33dc43051"><div class="ttname"><a href="../../df/d71/boss__sartharion_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a3734c86ac06de7a9410c15d33dc43051">ACTION_SWITCH_PHASE</a></div><div class="ttdeci">@ ACTION_SWITCH_PHASE</div><div class="ttdef"><b>Definition:</b> boss_sartharion.cpp:125</div></div>
+<div class="ttc" id="aclass_creature_html_abce66404f36b926cf403555911bcb9f7"><div class="ttname"><a href="../../d1/dac/class_creature.html#abce66404f36b926cf403555911bcb9f7">Creature::DespawnOrUnsummon</a></div><div class="ttdeci">void DespawnOrUnsummon(Milliseconds msTimeToDespawn, Seconds forcedRespawnTimer)</div><div class="ttdef"><b>Definition:</b> Creature.cpp:2092</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a1174c827aef1b05603214e4717c78f8a" name="a1174c827aef1b05603214e4717c78f8a"></a>
@@ -569,7 +586,23 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a26600c116d20a33461fc884bdb82eda9">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1464</span>        {</div>
+<div class="line"><span class="lineno"> 1465</span>            <a class="code hl_variable" href="../../dc/d18/structnpc__twilight__summon_1_1npc__twilight__summon_a_i.html#ace4028c8f4d0240b4e2939481312d0d2">fadeArmorTimer</a> = <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(0, 15000);</div>
+<div class="line"><span class="lineno"> 1466</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>() == <a class="code hl_enumvalue" href="../../df/d71/boss__sartharion_8cpp.html#a6986ec7b2d3274669934af9795f26d5ca7d2d663e0fd0f7e37fdd04eb045c5c6c">NPC_TWILIGHT_EGG</a>)</div>
+<div class="line"><span class="lineno"> 1467</span>            {</div>
+<div class="line"><span class="lineno"> 1468</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a2903449b4183e13866c6e98d77578887">SetControlled</a>(<span class="keyword">true</span>, <a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544aefe799c73ede1e5d5ffed28f69074106">UNIT_STATE_STUNNED</a>);</div>
+<div class="line"><span class="lineno"> 1469</span>            }</div>
+<div class="line"><span class="lineno"> 1470</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 1471</span>            {</div>
+<div class="line"><span class="lineno"> 1472</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a01ccacf28df6336a774bf1672caf3571">SetInCombatWithZone</a>();</div>
+<div class="line"><span class="lineno"> 1473</span>            }</div>
+<div class="line"><span class="lineno"> 1474</span>        }</div>
+<div class="ttc" id="a_unit_8h_html_ae51d2ecb71f7a5cb3882982a622c9544aefe799c73ede1e5d5ffed28f69074106"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544aefe799c73ede1e5d5ffed28f69074106">UNIT_STATE_STUNNED</a></div><div class="ttdeci">@ UNIT_STATE_STUNNED</div><div class="ttdef"><b>Definition:</b> Unit.h:328</div></div>
+<div class="ttc" id="aboss__sartharion_8cpp_html_a6986ec7b2d3274669934af9795f26d5ca7d2d663e0fd0f7e37fdd04eb045c5c6c"><div class="ttname"><a href="../../df/d71/boss__sartharion_8cpp.html#a6986ec7b2d3274669934af9795f26d5ca7d2d663e0fd0f7e37fdd04eb045c5c6c">NPC_TWILIGHT_EGG</a></div><div class="ttdeci">@ NPC_TWILIGHT_EGG</div><div class="ttdef"><b>Definition:</b> boss_sartharion.cpp:109</div></div>
+<div class="ttc" id="aclass_creature_html_a01ccacf28df6336a774bf1672caf3571"><div class="ttname"><a href="../../d1/dac/class_creature.html#a01ccacf28df6336a774bf1672caf3571">Creature::SetInCombatWithZone</a></div><div class="ttdeci">void SetInCombatWithZone()</div><div class="ttdef"><b>Definition:</b> Creature.cpp:2705</div></div>
+<div class="ttc" id="aclass_object_html_aa627fe2967ed0e0ed1d8aeeb4365a961"><div class="ttname"><a href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">Object::GetEntry</a></div><div class="ttdeci">uint32 GetEntry() const</div><div class="ttdef"><b>Definition:</b> Object.h:109</div></div>
+<div class="ttc" id="aclass_unit_html_a2903449b4183e13866c6e98d77578887"><div class="ttname"><a href="../../da/db7/class_unit.html#a2903449b4183e13866c6e98d77578887">Unit::SetControlled</a></div><div class="ttdeci">void SetControlled(bool apply, UnitState state)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:18071</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="addb312c34c668b8189087de6cf89543b" name="addb312c34c668b8189087de6cf89543b"></a>
@@ -597,7 +630,37 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#aff5fd4e142a5cf930ffacbfc7259cce5">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1485</span>        {</div>
+<div class="line"><span class="lineno"> 1486</span>            <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">UpdateVictim</a>() || <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>() == <a class="code hl_enumvalue" href="../../df/d71/boss__sartharion_8cpp.html#a6986ec7b2d3274669934af9795f26d5ca7d2d663e0fd0f7e37fdd04eb045c5c6c">NPC_TWILIGHT_EGG</a>)</div>
+<div class="line"><span class="lineno"> 1487</span>            {</div>
+<div class="line"><span class="lineno"> 1488</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 1489</span>            }</div>
+<div class="line"><span class="lineno"> 1490</span> </div>
+<div class="line"><span class="lineno"> 1491</span>            <a class="code hl_variable" href="../../dc/d18/structnpc__twilight__summon_1_1npc__twilight__summon_a_i.html#ace4028c8f4d0240b4e2939481312d0d2">fadeArmorTimer</a> += diff;</div>
+<div class="line"><span class="lineno"> 1492</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dc/d18/structnpc__twilight__summon_1_1npc__twilight__summon_a_i.html#ace4028c8f4d0240b4e2939481312d0d2">fadeArmorTimer</a> &gt;= 15000)</div>
+<div class="line"><span class="lineno"> 1493</span>            {</div>
+<div class="line"><span class="lineno"> 1494</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d2/dde/class_aura.html">Aura</a>* aur = <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">GetVictim</a>()-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a135e4d345c338da83450a60528f71222">GetAura</a>(<a class="code hl_enumvalue" href="../../df/d71/boss__sartharion_8cpp.html#a5bd342133be8c2137b831460acc9298cad48174bab4e9f24c5a2fb7d3c6936122">SPELL_FADE_ARMOR</a>))</div>
+<div class="line"><span class="lineno"> 1495</span>                {</div>
+<div class="line"><span class="lineno"> 1496</span>                    aur-&gt;ModStackAmount(1);</div>
+<div class="line"><span class="lineno"> 1497</span>                }</div>
+<div class="line"><span class="lineno"> 1498</span>                <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 1499</span>                {</div>
+<div class="line"><span class="lineno"> 1500</span>                    <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a361b6f4e71e9c74595bdf3d7e3b29a82">DoCastVictim</a>(<a class="code hl_enumvalue" href="../../df/d71/boss__sartharion_8cpp.html#a5bd342133be8c2137b831460acc9298cad48174bab4e9f24c5a2fb7d3c6936122">SPELL_FADE_ARMOR</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno"> 1501</span>                }</div>
+<div class="line"><span class="lineno"> 1502</span> </div>
+<div class="line"><span class="lineno"> 1503</span>                <a class="code hl_variable" href="../../dc/d18/structnpc__twilight__summon_1_1npc__twilight__summon_a_i.html#ace4028c8f4d0240b4e2939481312d0d2">fadeArmorTimer</a> = 0;</div>
+<div class="line"><span class="lineno"> 1504</span>            }</div>
+<div class="line"><span class="lineno"> 1505</span> </div>
+<div class="line"><span class="lineno"> 1506</span>            <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">DoMeleeAttackIfReady</a>();</div>
+<div class="line"><span class="lineno"> 1507</span>        }</div>
+<div class="ttc" id="aboss__sartharion_8cpp_html_a5bd342133be8c2137b831460acc9298cad48174bab4e9f24c5a2fb7d3c6936122"><div class="ttname"><a href="../../df/d71/boss__sartharion_8cpp.html#a5bd342133be8c2137b831460acc9298cad48174bab4e9f24c5a2fb7d3c6936122">SPELL_FADE_ARMOR</a></div><div class="ttdeci">@ SPELL_FADE_ARMOR</div><div class="ttdef"><b>Definition:</b> boss_sartharion.cpp:102</div></div>
+<div class="ttc" id="aclass_aura_html"><div class="ttname"><a href="../../d2/dde/class_aura.html">Aura</a></div><div class="ttdef"><b>Definition:</b> SpellAuras.h:87</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_ae03ccfe1e27501ed9ccbfecdbd3c4e39"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">CreatureAI::UpdateVictim</a></div><div class="ttdeci">bool UpdateVictim()</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:268</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a348a472089a9be6210b58aace8fafa9f"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">UnitAI::DoMeleeAttackIfReady</a></div><div class="ttdeci">void DoMeleeAttackIfReady()</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:40</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a361b6f4e71e9c74595bdf3d7e3b29a82"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a361b6f4e71e9c74595bdf3d7e3b29a82">UnitAI::DoCastVictim</a></div><div class="ttdeci">SpellCastResult DoCastVictim(uint32 spellId, bool triggered=false)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:241</div></div>
+<div class="ttc" id="aclass_unit_html_a135e4d345c338da83450a60528f71222"><div class="ttname"><a href="../../da/db7/class_unit.html#a135e4d345c338da83450a60528f71222">Unit::GetAura</a></div><div class="ttdeci">Aura * GetAura(uint32 spellId, ObjectGuid casterGUID=ObjectGuid::Empty, ObjectGuid itemCasterGUID=ObjectGuid::Empty, uint8 reqEffMask=0) const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:5487</div></div>
+<div class="ttc" id="aclass_unit_html_aae09d03a474ea5517d671e64dc393739"><div class="ttname"><a href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">Unit::GetVictim</a></div><div class="ttdeci">Unit * GetVictim() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1386</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -624,7 +687,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/ChamberOfAspects/ObsidianSanctum/<a class="el" href="../../df/d71/boss__sartharion_8cpp.html">boss_sartharion.cpp</a></li>
+<li><a class="el" href="../../">boss_sartharion.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -632,7 +695,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d4/dae/classnpc__twilight__summon.html">npc_twilight_summon</a></li><li class="navelem"><a class="el" href="../../dc/d18/structnpc__twilight__summon_1_1npc__twilight__summon_a_i.html">npc_twilight_summonAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:55 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:11 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

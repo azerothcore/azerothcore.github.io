@@ -154,7 +154,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a80c704c939f54eee6655d68509598c42 inherit pro_methods_class_script_object"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d5d/class_script_object.html#a80c704c939f54eee6655d68509598c42">~ScriptObject</a> ()=default</td></tr>
 <tr class="separator:a80c704c939f54eee6655d68509598c42 inherit pro_methods_class_script_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aed5c4aae45ee2b256eb078875c5a2c47" name="aed5c4aae45ee2b256eb078875c5a2c47"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aed5c4aae45ee2b256eb078875c5a2c47">&#9670;&#160;</a></span>at_the_beast_room()</h2>
 
@@ -177,7 +178,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  303</span>: <a class="code hl_class" href="../../d5/d6d/class_area_trigger_script.html">AreaTriggerScript</a>(<span class="stringliteral">&quot;at_the_beast_room&quot;</span>) { }</div>
+<div class="ttc" id="aclass_area_trigger_script_html"><div class="ttname"><a href="../../d5/d6d/class_area_trigger_script.html">AreaTriggerScript</a></div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:800</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -216,11 +219,36 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d5/d6d/class_area_trigger_script.html#abb6cdada718e9fad7da98fbb667c6d53">AreaTriggerScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  306</span>    {</div>
+<div class="line"><span class="lineno">  307</span>        <span class="keywordflow">if</span> (player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a9f23cae8a3da0345a05c2a2bfedc2fe2">IsGameMaster</a>())</div>
+<div class="line"><span class="lineno">  308</span>        {</div>
+<div class="line"><span class="lineno">  309</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  310</span>        }</div>
+<div class="line"><span class="lineno">  311</span> </div>
+<div class="line"><span class="lineno">  312</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d83/class_instance_script.html">InstanceScript</a>* instance = player-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">GetInstanceScript</a>())</div>
+<div class="line"><span class="lineno">  313</span>        {</div>
+<div class="line"><span class="lineno">  314</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* beast = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a>(*player, instance-&gt;GetGuidData(<a class="code hl_enumvalue" href="../../df/d13/blackrock__spire_8h.html#afb6eb4f28419b652027fad41104a6d22a04b67a848d4f8d875977d392b35c17af">DATA_THE_BEAST</a>)))</div>
+<div class="line"><span class="lineno">  315</span>            {</div>
+<div class="line"><span class="lineno">  316</span>                beast-&gt;AI()-&gt;SetData(<a class="code hl_enumvalue" href="../../d1/d58/boss__the__beast_8cpp.html#a90702f385b86278a300e5589aa870fe7a5f756bc946db358d3d20ce9b3ff1cffd">DATA_BEAST_ROOM</a>, <a class="code hl_enumvalue" href="../../d1/d58/boss__the__beast_8cpp.html#a90702f385b86278a300e5589aa870fe7a5f756bc946db358d3d20ce9b3ff1cffd">DATA_BEAST_ROOM</a>);</div>
+<div class="line"><span class="lineno">  317</span>            }</div>
+<div class="line"><span class="lineno">  318</span> </div>
+<div class="line"><span class="lineno">  319</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  320</span>        }</div>
+<div class="line"><span class="lineno">  321</span> </div>
+<div class="line"><span class="lineno">  322</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  323</span>    }</div>
+<div class="ttc" id="ablackrock__spire_8h_html_afb6eb4f28419b652027fad41104a6d22a04b67a848d4f8d875977d392b35c17af"><div class="ttname"><a href="../../df/d13/blackrock__spire_8h.html#afb6eb4f28419b652027fad41104a6d22a04b67a848d4f8d875977d392b35c17af">DATA_THE_BEAST</a></div><div class="ttdeci">@ DATA_THE_BEAST</div><div class="ttdef"><b>Definition:</b> blackrock_spire.h:41</div></div>
+<div class="ttc" id="aboss__the__beast_8cpp_html_a90702f385b86278a300e5589aa870fe7a5f756bc946db358d3d20ce9b3ff1cffd"><div class="ttname"><a href="../../d1/d58/boss__the__beast_8cpp.html#a90702f385b86278a300e5589aa870fe7a5f756bc946db358d3d20ce9b3ff1cffd">DATA_BEAST_ROOM</a></div><div class="ttdeci">@ DATA_BEAST_ROOM</div><div class="ttdef"><b>Definition:</b> boss_the_beast.cpp:47</div></div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_instance_script_html"><div class="ttname"><a href="../../d8/d83/class_instance_script.html">InstanceScript</a></div><div class="ttdef"><b>Definition:</b> InstanceScript.h:140</div></div>
+<div class="ttc" id="aclass_player_html_a9f23cae8a3da0345a05c2a2bfedc2fe2"><div class="ttname"><a href="../../d8/d53/class_player.html#a9f23cae8a3da0345a05c2a2bfedc2fe2">Player::IsGameMaster</a></div><div class="ttdeci">bool IsGameMaster() const</div><div class="ttdef"><b>Definition:</b> Player.h:1136</div></div>
+<div class="ttc" id="aclass_world_object_html_a29762f86d0726e4d229df51281b9d710"><div class="ttname"><a href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">WorldObject::GetInstanceScript</a></div><div class="ttdeci">InstanceScript * GetInstanceScript() const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1192</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_ae42e503fe79bbeaea1aaa665418c43f8"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a></div><div class="ttdeci">Creature * GetCreature(WorldObject const &amp;u, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:215</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/<a class="el" href="../../d1/d58/boss__the__beast_8cpp.html">boss_the_beast.cpp</a></li>
+<li><a class="el" href="../../">boss_the_beast.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -228,7 +256,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../da/def/classat__the__beast__room.html">at_the_beast_room</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:37 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:48 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

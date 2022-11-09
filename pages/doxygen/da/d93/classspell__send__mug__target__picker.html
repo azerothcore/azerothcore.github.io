@@ -294,7 +294,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="af3954bbcbce6de5d4ddadd2af0ecac91" name="af3954bbcbce6de5d4ddadd2af0ecac91"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af3954bbcbce6de5d4ddadd2af0ecac91">&#9670;&#160;</a></span>FilterTargets()</h2>
 
@@ -318,7 +319,44 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1916</span>    {</div>
+<div class="line"><span class="lineno"> 1917</span>        <a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* caster = <a class="code hl_function" href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>();</div>
+<div class="line"><span class="lineno"> 1918</span> </div>
+<div class="line"><span class="lineno"> 1919</span>        targets.remove_if(<a class="code hl_class" href="../../d7/d2b/class_acore_1_1_unit_aura_check.html">Acore::UnitAuraCheck</a>(<span class="keyword">true</span>, <a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#acf86a0bbb7e655957dd212f3aea686d0aff062d4f8fa16b6d72f2ce3b54a4fbbd">SPELL_HAS_DARK_BREWMAIDENS_BREW</a>));</div>
+<div class="line"><span class="lineno"> 1920</span> </div>
+<div class="line"><span class="lineno"> 1921</span>        <span class="keywordflow">if</span> (targets.size() &gt; 1)</div>
+<div class="line"><span class="lineno"> 1922</span>        {</div>
+<div class="line"><span class="lineno"> 1923</span>            targets.remove_if([caster](<a class="code hl_class" href="../../db/df7/class_world_object.html">WorldObject</a>* obj)</div>
+<div class="line"><span class="lineno"> 1924</span>            {</div>
+<div class="line"><span class="lineno"> 1925</span>                <span class="keywordflow">if</span> (obj-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>() == caster-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ac53944779fa1544c06a3fc3dc74f5294">GetAI</a>()-&gt;<a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a88b3f14630803365aeb7952d765a7cf1">GetGUID</a>(<a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#ad0fcc3268b0d04cfc8231f0143d898c4a2f0d7897edbeeb73848984e8f03fae75">DATA_TARGET_GUID</a>))</div>
+<div class="line"><span class="lineno"> 1926</span>                {</div>
+<div class="line"><span class="lineno"> 1927</span>                    return true;</div>
+<div class="line"><span class="lineno"> 1928</span>                }</div>
+<div class="line"><span class="lineno"> 1929</span> </div>
+<div class="line"><span class="lineno"> 1930</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1931</span>            });</div>
+<div class="line"><span class="lineno"> 1932</span>        }</div>
+<div class="line"><span class="lineno"> 1933</span> </div>
+<div class="line"><span class="lineno"> 1934</span>        <span class="keywordflow">if</span> (targets.empty())</div>
+<div class="line"><span class="lineno"> 1935</span>        {</div>
+<div class="line"><span class="lineno"> 1936</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 1937</span>        }</div>
+<div class="line"><span class="lineno"> 1938</span> </div>
+<div class="line"><span class="lineno"> 1939</span>        <a class="code hl_class" href="../../db/df7/class_world_object.html">WorldObject</a>* target = <a class="code hl_function" href="../../d0/df6/namespace_acore_1_1_containers.html#a8ca673d18562735d4ed20a11519b3d46">Acore::Containers::SelectRandomContainerElement</a>(targets);</div>
+<div class="line"><span class="lineno"> 1940</span>        targets.clear();</div>
+<div class="line"><span class="lineno"> 1941</span>        targets.push_back(target);</div>
+<div class="line"><span class="lineno"> 1942</span>    }</div>
+<div class="ttc" id="abrewfest_8cpp_html_acf86a0bbb7e655957dd212f3aea686d0aff062d4f8fa16b6d72f2ce3b54a4fbbd"><div class="ttname"><a href="../../dc/ddf/brewfest_8cpp.html#acf86a0bbb7e655957dd212f3aea686d0aff062d4f8fa16b6d72f2ce3b54a4fbbd">SPELL_HAS_DARK_BREWMAIDENS_BREW</a></div><div class="ttdeci">@ SPELL_HAS_DARK_BREWMAIDENS_BREW</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1476</div></div>
+<div class="ttc" id="abrewfest_8cpp_html_ad0fcc3268b0d04cfc8231f0143d898c4a2f0d7897edbeeb73848984e8f03fae75"><div class="ttname"><a href="../../dc/ddf/brewfest_8cpp.html#ad0fcc3268b0d04cfc8231f0143d898c4a2f0d7897edbeeb73848984e8f03fae75">DATA_TARGET_GUID</a></div><div class="ttdeci">@ DATA_TARGET_GUID</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1507</div></div>
+<div class="ttc" id="aclass_acore_1_1_unit_aura_check_html"><div class="ttname"><a href="../../d7/d2b/class_acore_1_1_unit_aura_check.html">Acore::UnitAuraCheck</a></div><div class="ttdef"><b>Definition:</b> GridNotifiers.h:1626</div></div>
+<div class="ttc" id="aclass_object_html_ad23b997e2442fa6a6228ba73a7ecc138"><div class="ttname"><a href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">Object::GetGUID</a></div><div class="ttdeci">static ObjectGuid GetGUID(Object const *o)</div><div class="ttdef"><b>Definition:</b> Object.h:106</div></div>
+<div class="ttc" id="aclass_spell_script_html_ae630e2d388177707e28cecd5fa5a2b48"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">SpellScript::GetCaster</a></div><div class="ttdeci">Unit * GetCaster()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:401</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a88b3f14630803365aeb7952d765a7cf1"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a88b3f14630803365aeb7952d765a7cf1">UnitAI::GetGUID</a></div><div class="ttdeci">virtual ObjectGuid GetGUID(int32=0) const</div><div class="ttdef"><b>Definition:</b> UnitAI.h:200</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_ac53944779fa1544c06a3fc3dc74f5294"><div class="ttname"><a href="../../da/db7/class_unit.html#ac53944779fa1544c06a3fc3dc74f5294">Unit::GetAI</a></div><div class="ttdeci">UnitAI * GetAI()</div><div class="ttdef"><b>Definition:</b> Unit.h:1316</div></div>
+<div class="ttc" id="aclass_world_object_html"><div class="ttname"><a href="../../db/df7/class_world_object.html">WorldObject</a></div><div class="ttdef"><b>Definition:</b> Object.h:393</div></div>
+<div class="ttc" id="anamespace_acore_1_1_containers_html_a8ca673d18562735d4ed20a11519b3d46"><div class="ttname"><a href="../../d0/df6/namespace_acore_1_1_containers.html#a8ca673d18562735d4ed20a11519b3d46">Acore::Containers::SelectRandomContainerElement</a></div><div class="ttdeci">auto SelectRandomContainerElement(C const &amp;container) -&gt; typename std::add_const&lt; decltype(*std::begin(container))&gt;::type &amp;</div><div class="ttdef"><b>Definition:</b> Containers.h:135</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad3688071ca786bbb4c27d5632d1a1e56" name="ad3688071ca786bbb4c27d5632d1a1e56"></a>
@@ -344,7 +382,16 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1945</span>    {</div>
+<div class="line"><span class="lineno"> 1946</span>        <a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* caster = <a class="code hl_function" href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>();</div>
+<div class="line"><span class="lineno"> 1947</span>        caster-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ac53944779fa1544c06a3fc3dc74f5294">GetAI</a>()-&gt;<a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aed57e805b8792eda265a1a426fcf152a">SetGUID</a>(<a class="code hl_function" href="../../dc/d62/class_spell_script.html#a8435df1d0677fa5124515002da8e0860">GetHitUnit</a>()-&gt;GetGUID(), <a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#ad0fcc3268b0d04cfc8231f0143d898c4a2f0d7897edbeeb73848984e8f03fae75">DATA_TARGET_GUID</a>);</div>
+<div class="line"><span class="lineno"> 1948</span>        caster-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_function" href="../../dc/d62/class_spell_script.html#a8435df1d0677fa5124515002da8e0860">GetHitUnit</a>(), <a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#acf86a0bbb7e655957dd212f3aea686d0a5cc37edef70d55bfa80d32fde663b986">SPELL_SEND_FIRST_MUG</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno"> 1949</span>    }</div>
+<div class="ttc" id="abrewfest_8cpp_html_acf86a0bbb7e655957dd212f3aea686d0a5cc37edef70d55bfa80d32fde663b986"><div class="ttname"><a href="../../dc/ddf/brewfest_8cpp.html#acf86a0bbb7e655957dd212f3aea686d0a5cc37edef70d55bfa80d32fde663b986">SPELL_SEND_FIRST_MUG</a></div><div class="ttdeci">@ SPELL_SEND_FIRST_MUG</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1473</div></div>
+<div class="ttc" id="aclass_spell_script_html_a8435df1d0677fa5124515002da8e0860"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a8435df1d0677fa5124515002da8e0860">SpellScript::GetHitUnit</a></div><div class="ttdeci">Unit * GetHitUnit()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:448</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_aed57e805b8792eda265a1a426fcf152a"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#aed57e805b8792eda265a1a426fcf152a">UnitAI::SetGUID</a></div><div class="ttdeci">virtual void SetGUID(ObjectGuid, int32=0)</div><div class="ttdef"><b>Definition:</b> UnitAI.h:199</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a6ac4db072beae6ae7a700774667da613" name="a6ac4db072beae6ae7a700774667da613"></a>
@@ -397,11 +444,24 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1952</span>    {</div>
+<div class="line"><span class="lineno"> 1953</span>        <a class="code hl_variable" href="../../dc/d62/class_spell_script.html#af74f730c6dacd310a78036be6b7cc6b7">OnObjectAreaTargetSelect</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a623f49512c3d12eceb55ca05cd53c4f2">SpellObjectAreaTargetSelectFn</a>(<a class="code hl_function" href="../../da/d93/classspell__send__mug__target__picker.html#af3954bbcbce6de5d4ddadd2af0ecac91">spell_send_mug_target_picker::FilterTargets</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a418aed4e4066eb09ab979b5d78dc9152a3f043071f052463518f0978322c782c6">TARGET_UNIT_SRC_AREA_ENTRY</a>);</div>
+<div class="line"><span class="lineno"> 1954</span>        <a class="code hl_variable" href="../../dc/d62/class_spell_script.html#a6f11356f7a28793e6053bfbc4e2dacf3">OnEffectHitTarget</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a551b0adb8eaf82985a7e55cef0695dcb">SpellEffectFn</a>(<a class="code hl_function" href="../../da/d93/classspell__send__mug__target__picker.html#ad3688071ca786bbb4c27d5632d1a1e56">spell_send_mug_target_picker::HandleDummy</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97a027bcdf3b42e90e7374802fe61fd776d">SPELL_EFFECT_DUMMY</a>);</div>
+<div class="line"><span class="lineno"> 1955</span>    }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a></div><div class="ttdeci">@ EFFECT_0</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:30</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a292c893150c454dd75628b719db1fe97a027bcdf3b42e90e7374802fe61fd776d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97a027bcdf3b42e90e7374802fe61fd776d">SPELL_EFFECT_DUMMY</a></div><div class="ttdeci">@ SPELL_EFFECT_DUMMY</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:753</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a418aed4e4066eb09ab979b5d78dc9152a3f043071f052463518f0978322c782c6"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a418aed4e4066eb09ab979b5d78dc9152a3f043071f052463518f0978322c782c6">TARGET_UNIT_SRC_AREA_ENTRY</a></div><div class="ttdeci">@ TARGET_UNIT_SRC_AREA_ENTRY</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1388</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a551b0adb8eaf82985a7e55cef0695dcb"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a551b0adb8eaf82985a7e55cef0695dcb">SpellEffectFn</a></div><div class="ttdeci">#define SpellEffectFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:337</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a623f49512c3d12eceb55ca05cd53c4f2"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a623f49512c3d12eceb55ca05cd53c4f2">SpellObjectAreaTargetSelectFn</a></div><div class="ttdeci">#define SpellObjectAreaTargetSelectFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:354</div></div>
+<div class="ttc" id="aclass_spell_script_html_a6f11356f7a28793e6053bfbc4e2dacf3"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a6f11356f7a28793e6053bfbc4e2dacf3">SpellScript::OnEffectHitTarget</a></div><div class="ttdeci">HookList&lt; EffectHandler &gt; OnEffectHitTarget</div><div class="ttdef"><b>Definition:</b> SpellScript.h:336</div></div>
+<div class="ttc" id="aclass_spell_script_html_af74f730c6dacd310a78036be6b7cc6b7"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#af74f730c6dacd310a78036be6b7cc6b7">SpellScript::OnObjectAreaTargetSelect</a></div><div class="ttdeci">HookList&lt; ObjectAreaTargetSelectHandler &gt; OnObjectAreaTargetSelect</div><div class="ttdef"><b>Definition:</b> SpellScript.h:353</div></div>
+<div class="ttc" id="aclassspell__send__mug__target__picker_html_ad3688071ca786bbb4c27d5632d1a1e56"><div class="ttname"><a href="../../da/d93/classspell__send__mug__target__picker.html#ad3688071ca786bbb4c27d5632d1a1e56">spell_send_mug_target_picker::HandleDummy</a></div><div class="ttdeci">void HandleDummy(SpellEffIndex)</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1944</div></div>
+<div class="ttc" id="aclassspell__send__mug__target__picker_html_af3954bbcbce6de5d4ddadd2af0ecac91"><div class="ttname"><a href="../../da/d93/classspell__send__mug__target__picker.html#af3954bbcbce6de5d4ddadd2af0ecac91">spell_send_mug_target_picker::FilterTargets</a></div><div class="ttdeci">void FilterTargets(std::list&lt; WorldObject * &gt; &amp;targets)</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1915</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Events/<a class="el" href="../../dc/ddf/brewfest_8cpp.html">brewfest.cpp</a></li>
+<li><a class="el" href="../../">brewfest.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -409,7 +469,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../da/d93/classspell__send__mug__target__picker.html">spell_send_mug_target_picker</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:08 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:24 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

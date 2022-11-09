@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('df/d1f/class_acore_1_1_any_player_exac
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d0/dc9/_grid_notifiers_8h_source.html">GridNotifiers.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">GridNotifiers.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -129,7 +129,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:ad91342e50833e3b9d75c5e548248941f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d1f/class_acore_1_1_any_player_exact_position_in_game_object_range_check.html#ad91342e50833e3b9d75c5e548248941f">_range</a></td></tr>
 <tr class="separator:ad91342e50833e3b9d75c5e548248941f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a51100c20d5b7f795f062dfaa5aa65017" name="a51100c20d5b7f795f062dfaa5aa65017"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a51100c20d5b7f795f062dfaa5aa65017">&#9670;&#160;</a></span>AnyPlayerExactPositionInGameObjectRangeCheck()</h2>
 
@@ -163,7 +164,10 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1389</span>: <a class="code hl_variable" href="../../df/d1f/class_acore_1_1_any_player_exact_position_in_game_object_range_check.html#a70e0b15948cf34a7c759885949560dcd">_go</a>(go), <a class="code hl_variable" href="../../df/d1f/class_acore_1_1_any_player_exact_position_in_game_object_range_check.html#ad91342e50833e3b9d75c5e548248941f">_range</a>(range) {}</div>
+<div class="ttc" id="aclass_acore_1_1_any_player_exact_position_in_game_object_range_check_html_a70e0b15948cf34a7c759885949560dcd"><div class="ttname"><a href="../../df/d1f/class_acore_1_1_any_player_exact_position_in_game_object_range_check.html#a70e0b15948cf34a7c759885949560dcd">Acore::AnyPlayerExactPositionInGameObjectRangeCheck::_go</a></div><div class="ttdeci">GameObject const  * _go</div><div class="ttdef"><b>Definition:</b> GridNotifiers.h:1399</div></div>
+<div class="ttc" id="aclass_acore_1_1_any_player_exact_position_in_game_object_range_check_html_ad91342e50833e3b9d75c5e548248941f"><div class="ttname"><a href="../../df/d1f/class_acore_1_1_any_player_exact_position_in_game_object_range_check.html#ad91342e50833e3b9d75c5e548248941f">Acore::AnyPlayerExactPositionInGameObjectRangeCheck::_range</a></div><div class="ttdeci">float _range</div><div class="ttdef"><b>Definition:</b> GridNotifiers.h:1400</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -190,7 +194,17 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1391</span>        {</div>
+<div class="line"><span class="lineno"> 1392</span>            <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../df/d1f/class_acore_1_1_any_player_exact_position_in_game_object_range_check.html#a70e0b15948cf34a7c759885949560dcd">_go</a>-&gt;<a class="code hl_function" href="../../d0/dd1/class_game_object.html#a745a0423be225a755ce40f93a6f0284c">IsInRange</a>(u-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#ad5577c934d9e845b44759b67c534c3e8">GetPositionX</a>(), u-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">GetPositionY</a>(), u-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#a4e813a59345a6275e8b87b96be03e60b">GetPositionZ</a>(), <a class="code hl_variable" href="../../df/d1f/class_acore_1_1_any_player_exact_position_in_game_object_range_check.html#ad91342e50833e3b9d75c5e548248941f">_range</a>))</div>
+<div class="line"><span class="lineno"> 1393</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1394</span> </div>
+<div class="line"><span class="lineno"> 1395</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 1396</span>        }</div>
+<div class="ttc" id="aclass_game_object_html_a745a0423be225a755ce40f93a6f0284c"><div class="ttname"><a href="../../d0/dd1/class_game_object.html#a745a0423be225a755ce40f93a6f0284c">GameObject::IsInRange</a></div><div class="ttdeci">bool IsInRange(float x, float y, float z, float radius) const</div><div class="ttdef"><b>Definition:</b> GameObject.cpp:2127</div></div>
+<div class="ttc" id="astruct_position_html_a4e813a59345a6275e8b87b96be03e60b"><div class="ttname"><a href="../../d1/d26/struct_position.html#a4e813a59345a6275e8b87b96be03e60b">Position::GetPositionZ</a></div><div class="ttdeci">float GetPositionZ() const</div><div class="ttdef"><b>Definition:</b> Position.h:119</div></div>
+<div class="ttc" id="astruct_position_html_ad5577c934d9e845b44759b67c534c3e8"><div class="ttname"><a href="../../d1/d26/struct_position.html#ad5577c934d9e845b44759b67c534c3e8">Position::GetPositionX</a></div><div class="ttdeci">float GetPositionX() const</div><div class="ttdef"><b>Definition:</b> Position.h:117</div></div>
+<div class="ttc" id="astruct_position_html_ae79fc664f6cd027f5d49f6c7df8e4c9e"><div class="ttname"><a href="../../d1/d26/struct_position.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">Position::GetPositionY</a></div><div class="ttdeci">float GetPositionY() const</div><div class="ttdef"><b>Definition:</b> Position.h:118</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -239,7 +253,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Grids/Notifiers/<a class="el" href="../../d0/dc9/_grid_notifiers_8h_source.html">GridNotifiers.h</a></li>
+<li><a class="el" href="../../">GridNotifiers.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -247,7 +261,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d7d/namespace_acore.html">Acore</a></li><li class="navelem"><a class="el" href="../../df/d1f/class_acore_1_1_any_player_exact_position_in_game_object_range_check.html">AnyPlayerExactPositionInGameObjectRangeCheck</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:13 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:31 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

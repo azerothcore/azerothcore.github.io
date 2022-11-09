@@ -114,7 +114,7 @@ $(document).ready(function(){initNavTree('d6/dcf/class_v_m_a_p_1_1_model_spawn.h
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../de/db2/_model_instance_8h_source.html">ModelInstance.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">ModelInstance.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for VMAP::ModelSpawn:</div>
 <div class="dyncontent">
@@ -158,7 +158,8 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a66e19a4a28f8fc0c537f1315d9bddcfb"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dcf/class_v_m_a_p_1_1_model_spawn.html#a66e19a4a28f8fc0c537f1315d9bddcfb">name</a></td></tr>
 <tr class="separator:a66e19a4a28f8fc0c537f1315d9bddcfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a4a112397e75fbaf5fd991a322a8a4ea4" name="a4a112397e75fbaf5fd991a322a8a4ea4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4a112397e75fbaf5fd991a322a8a4ea4">&#9670;&#160;</a></span>GetBounds()</h2>
 
@@ -181,7 +182,9 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   56</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d6/dcf/class_v_m_a_p_1_1_model_spawn.html#ae1dac1aa360c4d49b61a0cd8af92399c">iBound</a>; }</div>
+<div class="ttc" id="aclass_v_m_a_p_1_1_model_spawn_html_ae1dac1aa360c4d49b61a0cd8af92399c"><div class="ttname"><a href="../../d6/dcf/class_v_m_a_p_1_1_model_spawn.html#ae1dac1aa360c4d49b61a0cd8af92399c">VMAP::ModelSpawn::iBound</a></div><div class="ttdeci">G3D::AABox iBound</div><div class="ttdef"><b>Definition:</b> ModelInstance.h:51</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ab9713afd57c0bdf9f5ff8d5d12cd567f" name="ab9713afd57c0bdf9f5ff8d5d12cd567f"></a>
@@ -207,7 +210,9 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   53</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d6/dcf/class_v_m_a_p_1_1_model_spawn.html#ab2fdb441870d6ac7ddc05640ec1d0598">ID</a> == other.ID; }</div>
+<div class="ttc" id="aclass_v_m_a_p_1_1_model_spawn_html_ab2fdb441870d6ac7ddc05640ec1d0598"><div class="ttname"><a href="../../d6/dcf/class_v_m_a_p_1_1_model_spawn.html#ab2fdb441870d6ac7ddc05640ec1d0598">VMAP::ModelSpawn::ID</a></div><div class="ttdeci">uint32 ID</div><div class="ttdef"><b>Definition:</b> ModelInstance.h:47</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a35d7880eb3e295ed3148ca05a2f4520e" name="a35d7880eb3e295ed3148ca05a2f4520e"></a>
@@ -243,7 +248,56 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  161</span>    {</div>
+<div class="line"><span class="lineno">  162</span>        <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> check = 0, nameLen;</div>
+<div class="line"><span class="lineno">  163</span>        check += fread(&amp;spawn.flags, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>), 1, rf);</div>
+<div class="line"><span class="lineno">  164</span>        <span class="comment">// EoF?</span></div>
+<div class="line"><span class="lineno">  165</span>        <span class="keywordflow">if</span> (!check)</div>
+<div class="line"><span class="lineno">  166</span>        {</div>
+<div class="line"><span class="lineno">  167</span>            <span class="keywordflow">if</span> (ferror(rf))</div>
+<div class="line"><span class="lineno">  168</span>            {</div>
+<div class="line"><span class="lineno">  169</span>                std::cout &lt;&lt; <span class="stringliteral">&quot;Error reading ModelSpawn!\n&quot;</span>;</div>
+<div class="line"><span class="lineno">  170</span>            }</div>
+<div class="line"><span class="lineno">  171</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  172</span>        }</div>
+<div class="line"><span class="lineno">  173</span>        check += fread(&amp;spawn.adtId, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../db/d35/_define_8h.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>), 1, rf);</div>
+<div class="line"><span class="lineno">  174</span>        check += fread(&amp;spawn.ID, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>), 1, rf);</div>
+<div class="line"><span class="lineno">  175</span>        check += fread(&amp;spawn.iPos, <span class="keyword">sizeof</span>(<span class="keywordtype">float</span>), 3, rf);</div>
+<div class="line"><span class="lineno">  176</span>        check += fread(&amp;spawn.iRot, <span class="keyword">sizeof</span>(<span class="keywordtype">float</span>), 3, rf);</div>
+<div class="line"><span class="lineno">  177</span>        check += fread(&amp;spawn.iScale, <span class="keyword">sizeof</span>(<span class="keywordtype">float</span>), 1, rf);</div>
+<div class="line"><span class="lineno">  178</span>        <span class="keywordtype">bool</span> has_bound = (spawn.flags &amp; <a class="code hl_enumvalue" href="../../d6/d39/namespace_v_m_a_p.html#ac540ff16efadcc07eeb9d8511b94ccceaa47940cd802c5225d2babb37d24c7f09">MOD_HAS_BOUND</a>);</div>
+<div class="line"><span class="lineno">  179</span>        <span class="keywordflow">if</span> (has_bound) <span class="comment">// only WMOs have bound in MPQ, only available after computation</span></div>
+<div class="line"><span class="lineno">  180</span>        {</div>
+<div class="line"><span class="lineno">  181</span>            Vector3 bLow, bHigh;</div>
+<div class="line"><span class="lineno">  182</span>            check += fread(&amp;bLow, <span class="keyword">sizeof</span>(<span class="keywordtype">float</span>), 3, rf);</div>
+<div class="line"><span class="lineno">  183</span>            check += fread(&amp;bHigh, <span class="keyword">sizeof</span>(<span class="keywordtype">float</span>), 3, rf);</div>
+<div class="line"><span class="lineno">  184</span>            spawn.iBound = G3D::AABox(bLow, bHigh);</div>
+<div class="line"><span class="lineno">  185</span>        }</div>
+<div class="line"><span class="lineno">  186</span>        check += fread(&amp;nameLen, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>), 1, rf);</div>
+<div class="line"><span class="lineno">  187</span>        <span class="keywordflow">if</span> (check != <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(has_bound ? 17 : 11))</div>
+<div class="line"><span class="lineno">  188</span>        {</div>
+<div class="line"><span class="lineno">  189</span>            std::cout &lt;&lt; <span class="stringliteral">&quot;Error reading ModelSpawn!\n&quot;</span>;</div>
+<div class="line"><span class="lineno">  190</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  191</span>        }</div>
+<div class="line"><span class="lineno">  192</span>        <span class="keywordtype">char</span> nameBuff[500];</div>
+<div class="line"><span class="lineno">  193</span>        <span class="keywordflow">if</span> (nameLen &gt; 500) <span class="comment">// file names should never be that long, must be file error</span></div>
+<div class="line"><span class="lineno">  194</span>        {</div>
+<div class="line"><span class="lineno">  195</span>            std::cout &lt;&lt; <span class="stringliteral">&quot;Error reading ModelSpawn, file name too long!\n&quot;</span>;</div>
+<div class="line"><span class="lineno">  196</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  197</span>        }</div>
+<div class="line"><span class="lineno">  198</span>        check = fread(nameBuff, <span class="keyword">sizeof</span>(<span class="keywordtype">char</span>), nameLen, rf);</div>
+<div class="line"><span class="lineno">  199</span>        <span class="keywordflow">if</span> (check != nameLen)</div>
+<div class="line"><span class="lineno">  200</span>        {</div>
+<div class="line"><span class="lineno">  201</span>            std::cout &lt;&lt; <span class="stringliteral">&quot;Error reading ModelSpawn!\n&quot;</span>;</div>
+<div class="line"><span class="lineno">  202</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  203</span>        }</div>
+<div class="line"><span class="lineno">  204</span>        spawn.name = std::string(nameBuff, nameLen);</div>
+<div class="line"><span class="lineno">  205</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  206</span>    }</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="a_define_8h_html_ad9c79638db63f1dfe2b085743b5cbf7b"><div class="ttname"><a href="../../db/d35/_define_8h.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a></div><div class="ttdeci">std::uint16_t uint16</div><div class="ttdef"><b>Definition:</b> Define.h:109</div></div>
+<div class="ttc" id="anamespace_v_m_a_p_html_ac540ff16efadcc07eeb9d8511b94ccceaa47940cd802c5225d2babb37d24c7f09"><div class="ttname"><a href="../../d6/d39/namespace_v_m_a_p.html#ac540ff16efadcc07eeb9d8511b94ccceaa47940cd802c5225d2babb37d24c7f09">VMAP::MOD_HAS_BOUND</a></div><div class="ttdeci">@ MOD_HAS_BOUND</div><div class="ttdef"><b>Definition:</b> ModelInstance.h:38</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ae8623dcb78a2af4c9aebd60f67649f34" name="ae8623dcb78a2af4c9aebd60f67649f34"></a>
@@ -279,7 +333,28 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  209</span>    {</div>
+<div class="line"><span class="lineno">  210</span>        <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> check = 0;</div>
+<div class="line"><span class="lineno">  211</span>        check += fwrite(&amp;spawn.flags, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>), 1, wf);</div>
+<div class="line"><span class="lineno">  212</span>        check += fwrite(&amp;spawn.adtId, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../db/d35/_define_8h.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>), 1, wf);</div>
+<div class="line"><span class="lineno">  213</span>        check += fwrite(&amp;spawn.ID, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>), 1, wf);</div>
+<div class="line"><span class="lineno">  214</span>        check += fwrite(&amp;spawn.iPos, <span class="keyword">sizeof</span>(<span class="keywordtype">float</span>), 3, wf);</div>
+<div class="line"><span class="lineno">  215</span>        check += fwrite(&amp;spawn.iRot, <span class="keyword">sizeof</span>(<span class="keywordtype">float</span>), 3, wf);</div>
+<div class="line"><span class="lineno">  216</span>        check += fwrite(&amp;spawn.iScale, <span class="keyword">sizeof</span>(<span class="keywordtype">float</span>), 1, wf);</div>
+<div class="line"><span class="lineno">  217</span>        <span class="keywordtype">bool</span> has_bound = (spawn.flags &amp; <a class="code hl_enumvalue" href="../../d6/d39/namespace_v_m_a_p.html#ac540ff16efadcc07eeb9d8511b94ccceaa47940cd802c5225d2babb37d24c7f09">MOD_HAS_BOUND</a>);</div>
+<div class="line"><span class="lineno">  218</span>        <span class="keywordflow">if</span> (has_bound) <span class="comment">// only WMOs have bound in MPQ, only available after computation</span></div>
+<div class="line"><span class="lineno">  219</span>        {</div>
+<div class="line"><span class="lineno">  220</span>            check += fwrite(&amp;spawn.iBound.low(), <span class="keyword">sizeof</span>(<span class="keywordtype">float</span>), 3, wf);</div>
+<div class="line"><span class="lineno">  221</span>            check += fwrite(&amp;spawn.iBound.high(), <span class="keyword">sizeof</span>(<span class="keywordtype">float</span>), 3, wf);</div>
+<div class="line"><span class="lineno">  222</span>        }</div>
+<div class="line"><span class="lineno">  223</span>        <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> nameLen = spawn.name.length();</div>
+<div class="line"><span class="lineno">  224</span>        check += fwrite(&amp;nameLen, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>), 1, wf);</div>
+<div class="line"><span class="lineno">  225</span>        <span class="keywordflow">if</span> (check != <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(has_bound ? 17 : 11)) { <span class="keywordflow">return</span> <span class="keyword">false</span>; }</div>
+<div class="line"><span class="lineno">  226</span>        check = fwrite(spawn.name.c_str(), <span class="keyword">sizeof</span>(<span class="keywordtype">char</span>), nameLen, wf);</div>
+<div class="line"><span class="lineno">  227</span>        <span class="keywordflow">if</span> (check != nameLen) { <span class="keywordflow">return</span> <span class="keyword">false</span>; }</div>
+<div class="line"><span class="lineno">  228</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  229</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -396,8 +471,8 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/common/Collision/Models/<a class="el" href="../../de/db2/_model_instance_8h_source.html">ModelInstance.h</a></li>
-<li>D:/azerothcore-wotlk/src/common/Collision/Models/<a class="el" href="../../d1/d73/_model_instance_8cpp.html">ModelInstance.cpp</a></li>
+<li><a class="el" href="../../">ModelInstance.h</a></li>
+<li><a class="el" href="../../">ModelInstance.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -405,7 +480,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d6/d39/namespace_v_m_a_p.html">VMAP</a></li><li class="navelem"><a class="el" href="../../d6/dcf/class_v_m_a_p_1_1_model_spawn.html">ModelSpawn</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:14 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:32 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

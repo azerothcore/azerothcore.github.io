@@ -292,7 +292,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a81459e72d810b0f7addb3be66c6afcf6" name="a81459e72d810b0f7addb3be66c6afcf6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a81459e72d810b0f7addb3be66c6afcf6">&#9670;&#160;</a></span>HandleEvent()</h2>
 
@@ -316,7 +317,58 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 2023</span>        {</div>
+<div class="line"><span class="lineno"> 2024</span>            <a class="code hl_function" href="../../dc/d62/class_spell_script.html#a56ed3ad5cf4ebc848946a9d8f1c35d5f">PreventHitDefaultEffect</a>(effIndex);</div>
+<div class="line"><span class="lineno"> 2025</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d83/class_instance_script.html">InstanceScript</a>* instance = <a class="code hl_function" href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>()-&gt;GetInstanceScript())</div>
+<div class="line"><span class="lineno"> 2026</span>            {</div>
+<div class="line"><span class="lineno"> 2027</span>                <a class="code hl_struct" href="../../d1/d26/struct_position.html">Position</a> p = {4356.77f, 2971.90f, 360.52f, M_PI / 2};</div>
+<div class="line"><span class="lineno"> 2028</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* l = instance-&gt;instance-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#aaf7058bd6b40bbfd38cbcd4f740c0344">SummonCreature</a>(<a class="code hl_enumvalue" href="../../d9/d6a/icecrown__citadel_8h.html#a23860b8d9499fb400f8921261b19efd2abd25798442e574ba16eab028b69bb596">NPC_VENGEFUL_FLESHREAPER</a>, p))</div>
+<div class="line"><span class="lineno"> 2029</span>                {</div>
+<div class="line"><span class="lineno"> 2030</span>                    <span class="keywordtype">bool</span> hasTarget = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 2031</span>                    <a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno"> 2032</span>                    <span class="keywordflow">if</span> ((target = l-&gt;SelectNearestTarget(20.0f)))</div>
+<div class="line"><span class="lineno"> 2033</span>                        hasTarget = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 2034</span>                    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 2035</span>                    {</div>
+<div class="line"><span class="lineno"> 2036</span>                        target = l-&gt;SelectNearestTarget(120.0f);</div>
+<div class="line"><span class="lineno"> 2037</span>                        l-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../df/d4d/class_motion_master.html#a9744b1869b88241035117268f3edc591">MoveJump</a>(l-&gt;GetPositionX(), l-&gt;GetPositionY() + 55.0f, l-&gt;GetPositionZ(), 20.0f, 6.0f);</div>
+<div class="line"><span class="lineno"> 2038</span>                    }</div>
+<div class="line"><span class="lineno"> 2039</span>                    l-&gt;AI()-&gt;Talk(0);</div>
+<div class="line"><span class="lineno"> 2040</span>                    l-&gt;AI()-&gt;AttackStart(target);</div>
+<div class="line"><span class="lineno"> 2041</span>                    l-&gt;AddThreat(target, 1.0f);</div>
+<div class="line"><span class="lineno"> 2042</span>                    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> i = 0; i &lt; 5; ++i)</div>
+<div class="line"><span class="lineno"> 2043</span>                    {</div>
+<div class="line"><span class="lineno"> 2044</span>                        <span class="keywordtype">float</span> dist = 2.0f + <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#af2f9363ceebb6f78067b4a146d1de9df">rand_norm</a>() * 4.0f;</div>
+<div class="line"><span class="lineno"> 2045</span>                        <span class="keywordtype">float</span> angle = <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#af2f9363ceebb6f78067b4a146d1de9df">rand_norm</a>() * 2 * M_PI;</div>
+<div class="line"><span class="lineno"> 2046</span>                        <a class="code hl_struct" href="../../d1/d26/struct_position.html">Position</a> pos(p);</div>
+<div class="line"><span class="lineno"> 2047</span>                        l-&gt;MovePosition(pos, dist, angle);</div>
+<div class="line"><span class="lineno"> 2048</span>                        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* c = l-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#aaf7058bd6b40bbfd38cbcd4f740c0344">SummonCreature</a>(<a class="code hl_enumvalue" href="../../d9/d6a/icecrown__citadel_8h.html#a23860b8d9499fb400f8921261b19efd2abd25798442e574ba16eab028b69bb596">NPC_VENGEFUL_FLESHREAPER</a>, pos, <a class="code hl_enumvalue" href="../../df/d30/_object_8h.html#a38c6d8d01cbe0c49b035f348f7724148a792ae85af0a6c91140415668fdfef99a">TEMPSUMMON_TIMED_DESPAWN_OUT_OF_COMBAT</a>, 30 * <a class="code hl_variable" href="../../db/d1f/_common_8h.html#afacf27522adfacf698390ddafc53fa30">MINUTE</a> * <a class="code hl_variable" href="../../db/d1f/_common_8h.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a>))</div>
+<div class="line"><span class="lineno"> 2049</span>                        {</div>
+<div class="line"><span class="lineno"> 2050</span>                            c-&gt;AI()-&gt;AttackStart(l-&gt;GetVictim());</div>
+<div class="line"><span class="lineno"> 2051</span>                            c-&gt;AddThreat(l-&gt;GetVictim(), 1.0f);</div>
+<div class="line"><span class="lineno"> 2052</span>                            <span class="keywordflow">if</span> (!hasTarget)</div>
+<div class="line"><span class="lineno"> 2053</span>                                c-&gt;GetMotionMaster()-&gt;MoveJump(c-&gt;GetPositionX(), c-&gt;GetPositionY() + 55.0f, c-&gt;GetPositionZ(), 20.0f, 6.0f);</div>
+<div class="line"><span class="lineno"> 2054</span>                        }</div>
+<div class="line"><span class="lineno"> 2055</span>                    }</div>
+<div class="line"><span class="lineno"> 2056</span>                }</div>
+<div class="line"><span class="lineno"> 2057</span>            }</div>
+<div class="line"><span class="lineno"> 2058</span>        }</div>
+<div class="ttc" id="a_common_8h_html_a84190f79c8167211609f67284e066c58"><div class="ttname"><a href="../../db/d1f/_common_8h.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a></div><div class="ttdeci">constexpr auto IN_MILLISECONDS</div><div class="ttdef"><b>Definition:</b> Common.h:62</div></div>
+<div class="ttc" id="a_common_8h_html_afacf27522adfacf698390ddafc53fa30"><div class="ttname"><a href="../../db/d1f/_common_8h.html#afacf27522adfacf698390ddafc53fa30">MINUTE</a></div><div class="ttdeci">constexpr auto MINUTE</div><div class="ttdef"><b>Definition:</b> Common.h:56</div></div>
+<div class="ttc" id="a_define_8h_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:110</div></div>
+<div class="ttc" id="a_object_8h_html_a38c6d8d01cbe0c49b035f348f7724148a792ae85af0a6c91140415668fdfef99a"><div class="ttname"><a href="../../df/d30/_object_8h.html#a38c6d8d01cbe0c49b035f348f7724148a792ae85af0a6c91140415668fdfef99a">TEMPSUMMON_TIMED_DESPAWN_OUT_OF_COMBAT</a></div><div class="ttdeci">@ TEMPSUMMON_TIMED_DESPAWN_OUT_OF_COMBAT</div><div class="ttdef"><b>Definition:</b> Object.h:45</div></div>
+<div class="ttc" id="a_random_8cpp_html_af2f9363ceebb6f78067b4a146d1de9df"><div class="ttname"><a href="../../d9/d1e/_random_8cpp.html#af2f9363ceebb6f78067b4a146d1de9df">rand_norm</a></div><div class="ttdeci">double rand_norm()</div><div class="ttdef"><b>Definition:</b> Random.cpp:77</div></div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_instance_script_html"><div class="ttname"><a href="../../d8/d83/class_instance_script.html">InstanceScript</a></div><div class="ttdef"><b>Definition:</b> InstanceScript.h:140</div></div>
+<div class="ttc" id="aclass_motion_master_html_a9744b1869b88241035117268f3edc591"><div class="ttname"><a href="../../df/d4d/class_motion_master.html#a9744b1869b88241035117268f3edc591">MotionMaster::MoveJump</a></div><div class="ttdeci">void MoveJump(Position const &amp;pos, float speedXY, float speedZ, uint32 id=0)</div><div class="ttdef"><b>Definition:</b> MotionMaster.h:225</div></div>
+<div class="ttc" id="aclass_spell_script_html_a56ed3ad5cf4ebc848946a9d8f1c35d5f"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a56ed3ad5cf4ebc848946a9d8f1c35d5f">SpellScript::PreventHitDefaultEffect</a></div><div class="ttdeci">void PreventHitDefaultEffect(SpellEffIndex effIndex)</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:590</div></div>
+<div class="ttc" id="aclass_spell_script_html_ae630e2d388177707e28cecd5fa5a2b48"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">SpellScript::GetCaster</a></div><div class="ttdeci">Unit * GetCaster()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:401</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_a4a04a3f22c3b0d6f4933993ac0cc7aa4"><div class="ttname"><a href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">Unit::GetMotionMaster</a></div><div class="ttdeci">MotionMaster * GetMotionMaster()</div><div class="ttdef"><b>Definition:</b> Unit.h:2257</div></div>
+<div class="ttc" id="aclass_world_object_html_aaf7058bd6b40bbfd38cbcd4f740c0344"><div class="ttname"><a href="../../db/df7/class_world_object.html#aaf7058bd6b40bbfd38cbcd4f740c0344">WorldObject::SummonCreature</a></div><div class="ttdeci">TempSummon * SummonCreature(uint32 id, const Position &amp;pos, TempSummonType spwtype=TEMPSUMMON_MANUAL_DESPAWN, uint32 despwtime=0, uint32 vehId=0, SummonPropertiesEntry const *properties=nullptr) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:2301</div></div>
+<div class="ttc" id="aicecrown__citadel_8h_html_a23860b8d9499fb400f8921261b19efd2abd25798442e574ba16eab028b69bb596"><div class="ttname"><a href="../../d9/d6a/icecrown__citadel_8h.html#a23860b8d9499fb400f8921261b19efd2abd25798442e574ba16eab028b69bb596">NPC_VENGEFUL_FLESHREAPER</a></div><div class="ttdeci">@ NPC_VENGEFUL_FLESHREAPER</div><div class="ttdef"><b>Definition:</b> icecrown_citadel.h:367</div></div>
+<div class="ttc" id="astruct_position_html"><div class="ttname"><a href="../../d1/d26/struct_position.html">Position</a></div><div class="ttdef"><b>Definition:</b> Position.h:28</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad7eaef81c93e36f96869ad22b2cce9ec" name="ad7eaef81c93e36f96869ad22b2cce9ec"></a>
@@ -369,11 +421,19 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 2061</span>        {</div>
+<div class="line"><span class="lineno"> 2062</span>            <a class="code hl_variable" href="../../dc/d62/class_spell_script.html#a55b352390f66a1d2314566de232343f9">OnEffectHit</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a551b0adb8eaf82985a7e55cef0695dcb">SpellEffectFn</a>(<a class="code hl_function" href="../../d5/d49/classspell__icc__geist__alarm_1_1spell__icc__geist__alarm___spell_script.html#a81459e72d810b0f7addb3be66c6afcf6">spell_icc_geist_alarm_SpellScript::HandleEvent</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77af927c15d111e2212aaf1f8488ce751c1">EFFECT_2</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97a8715eb5a36de38e3caa81115dfb9e2db">SPELL_EFFECT_SEND_EVENT</a>);</div>
+<div class="line"><span class="lineno"> 2063</span>        }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77af927c15d111e2212aaf1f8488ce751c1"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77af927c15d111e2212aaf1f8488ce751c1">EFFECT_2</a></div><div class="ttdeci">@ EFFECT_2</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:32</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a292c893150c454dd75628b719db1fe97a8715eb5a36de38e3caa81115dfb9e2db"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97a8715eb5a36de38e3caa81115dfb9e2db">SPELL_EFFECT_SEND_EVENT</a></div><div class="ttdeci">@ SPELL_EFFECT_SEND_EVENT</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:811</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a551b0adb8eaf82985a7e55cef0695dcb"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a551b0adb8eaf82985a7e55cef0695dcb">SpellEffectFn</a></div><div class="ttdeci">#define SpellEffectFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:337</div></div>
+<div class="ttc" id="aclass_spell_script_html_a55b352390f66a1d2314566de232343f9"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a55b352390f66a1d2314566de232343f9">SpellScript::OnEffectHit</a></div><div class="ttdeci">HookList&lt; EffectHandler &gt; OnEffectHit</div><div class="ttdef"><b>Definition:</b> SpellScript.h:335</div></div>
+<div class="ttc" id="aclassspell__icc__geist__alarm_1_1spell__icc__geist__alarm___spell_script_html_a81459e72d810b0f7addb3be66c6afcf6"><div class="ttname"><a href="../../d5/d49/classspell__icc__geist__alarm_1_1spell__icc__geist__alarm___spell_script.html#a81459e72d810b0f7addb3be66c6afcf6">spell_icc_geist_alarm::spell_icc_geist_alarm_SpellScript::HandleEvent</a></div><div class="ttdeci">void HandleEvent(SpellEffIndex effIndex)</div><div class="ttdef"><b>Definition:</b> icecrown_citadel.cpp:2022</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/IcecrownCitadel/<a class="el" href="../../db/dd3/icecrown__citadel_8cpp.html">icecrown_citadel.cpp</a></li>
+<li><a class="el" href="../../">icecrown_citadel.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -381,7 +441,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d6/d8c/classspell__icc__geist__alarm.html">spell_icc_geist_alarm</a></li><li class="navelem"><a class="el" href="../../d5/d49/classspell__icc__geist__alarm_1_1spell__icc__geist__alarm___spell_script.html">spell_icc_geist_alarm_SpellScript</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:02 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:19 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

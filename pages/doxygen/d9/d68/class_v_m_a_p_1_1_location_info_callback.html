@@ -129,7 +129,8 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a1ada8b8a1742f02b2d1f28ee82903246"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d68/class_v_m_a_p_1_1_location_info_callback.html#a1ada8b8a1742f02b2d1f28ee82903246">result</a></td></tr>
 <tr class="separator:a1ada8b8a1742f02b2d1f28ee82903246"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a81b8c00fcc0a1780445ffbdf85decfdf" name="a81b8c00fcc0a1780445ffbdf85decfdf"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a81b8c00fcc0a1780445ffbdf85decfdf">&#9670;&#160;</a></span>LocationInfoCallback()</h2>
 
@@ -163,7 +164,11 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   73</span>: <a class="code hl_variable" href="../../d9/d68/class_v_m_a_p_1_1_location_info_callback.html#a19c87ad1c9665c3ddfbfa89ccdee5c10">prims</a>(val), <a class="code hl_variable" href="../../d9/d68/class_v_m_a_p_1_1_location_info_callback.html#a9a8b8529a571b3652cd898b2888d8027">locInfo</a>(info), <a class="code hl_variable" href="../../d9/d68/class_v_m_a_p_1_1_location_info_callback.html#a1ada8b8a1742f02b2d1f28ee82903246">result</a>(<span class="keyword">false</span>) {}</div>
+<div class="ttc" id="aclass_v_m_a_p_1_1_location_info_callback_html_a19c87ad1c9665c3ddfbfa89ccdee5c10"><div class="ttname"><a href="../../d9/d68/class_v_m_a_p_1_1_location_info_callback.html#a19c87ad1c9665c3ddfbfa89ccdee5c10">VMAP::LocationInfoCallback::prims</a></div><div class="ttdeci">ModelInstance * prims</div><div class="ttdef"><b>Definition:</b> MapTree.cpp:85</div></div>
+<div class="ttc" id="aclass_v_m_a_p_1_1_location_info_callback_html_a1ada8b8a1742f02b2d1f28ee82903246"><div class="ttname"><a href="../../d9/d68/class_v_m_a_p_1_1_location_info_callback.html#a1ada8b8a1742f02b2d1f28ee82903246">VMAP::LocationInfoCallback::result</a></div><div class="ttdeci">bool result</div><div class="ttdef"><b>Definition:</b> MapTree.cpp:87</div></div>
+<div class="ttc" id="aclass_v_m_a_p_1_1_location_info_callback_html_a9a8b8529a571b3652cd898b2888d8027"><div class="ttname"><a href="../../d9/d68/class_v_m_a_p_1_1_location_info_callback.html#a9a8b8529a571b3652cd898b2888d8027">VMAP::LocationInfoCallback::locInfo</a></div><div class="ttdeci">LocationInfo &amp; locInfo</div><div class="ttdef"><b>Definition:</b> MapTree.cpp:86</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -200,7 +205,17 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   75</span>        {</div>
+<div class="line"><span class="lineno">   76</span><span class="preprocessor">#if defined(VMAP_DEBUG)</span></div>
+<div class="line"><span class="lineno">   77</span>            <a class="code hl_define" href="../../da/df4/_log_8h.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a>(<span class="stringliteral">&quot;maps&quot;</span>, <span class="stringliteral">&quot;LocationInfoCallback: trying to intersect &#39;{}&#39;&quot;</span>, <a class="code hl_variable" href="../../d9/d68/class_v_m_a_p_1_1_location_info_callback.html#a19c87ad1c9665c3ddfbfa89ccdee5c10">prims</a>[entry].name);</div>
+<div class="line"><span class="lineno">   78</span><span class="preprocessor">#endif</span></div>
+<div class="line"><span class="lineno">   79</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d9/d68/class_v_m_a_p_1_1_location_info_callback.html#a19c87ad1c9665c3ddfbfa89ccdee5c10">prims</a>[entry].GetLocationInfo(point, <a class="code hl_variable" href="../../d9/d68/class_v_m_a_p_1_1_location_info_callback.html#a9a8b8529a571b3652cd898b2888d8027">locInfo</a>))</div>
+<div class="line"><span class="lineno">   80</span>            {</div>
+<div class="line"><span class="lineno">   81</span>                <a class="code hl_variable" href="../../d9/d68/class_v_m_a_p_1_1_location_info_callback.html#a1ada8b8a1742f02b2d1f28ee82903246">result</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   82</span>            }</div>
+<div class="line"><span class="lineno">   83</span>        }</div>
+<div class="ttc" id="a_log_8h_html_a47ac782b14a7531c6232777165a1a161"><div class="ttname"><a href="../../da/df4/_log_8h.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a></div><div class="ttdeci">#define LOG_DEBUG(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:171</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -247,7 +262,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/common/Collision/Maps/<a class="el" href="../../dc/d22/_map_tree_8cpp.html">MapTree.cpp</a></li>
+<li><a class="el" href="../../">MapTree.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -255,7 +270,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d6/d39/namespace_v_m_a_p.html">VMAP</a></li><li class="navelem"><a class="el" href="../../d9/d68/class_v_m_a_p_1_1_location_info_callback.html">LocationInfoCallback</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:14 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:32 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

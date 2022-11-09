@@ -396,7 +396,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ae08a68a79a3fef952f6dfa50b4eaabca" name="ae08a68a79a3fef952f6dfa50b4eaabca"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae08a68a79a3fef952f6dfa50b4eaabca">&#9670;&#160;</a></span>npc_hodirs_furyAI()</h2>
 
@@ -420,7 +421,11 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  982</span>                                       : <a class="code hl_class" href="../../d6/df7/class_null_creature_a_i.html">NullCreatureAI</a>(c)</div>
+<div class="line"><span class="lineno">  983</span>        {</div>
+<div class="line"><span class="lineno">  984</span>        }</div>
+<div class="ttc" id="aclass_null_creature_a_i_html"><div class="ttname"><a href="../../d6/df7/class_null_creature_a_i.html">NullCreatureAI</a></div><div class="ttdef"><b>Definition:</b> PassiveAI.h:53</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -459,7 +464,21 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d2/d68/class_creature_a_i.html#ab0438b14dc1d7f038221d9d7a2f37043">CreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1003</span>        {</div>
+<div class="line"><span class="lineno"> 1004</span>            <span class="keywordflow">if</span> (type == <a class="code hl_enumvalue" href="../../d8/dea/_motion_master_8h.html#a4f12806b915efea564eae942207002f9ae99e76e1e80feb6d7ff6e1df01e98e9c">FOLLOW_MOTION_TYPE</a> &amp;&amp; !<a class="code hl_variable" href="../../d0/d2c/structnpc__hodirs__fury_1_1npc__hodirs__fury_a_i.html#a594356602bd0068fba82bea64e284837">_timeToHit</a>)</div>
+<div class="line"><span class="lineno"> 1005</span>            {</div>
+<div class="line"><span class="lineno"> 1006</span>                <a class="code hl_variable" href="../../d0/d2c/structnpc__hodirs__fury_1_1npc__hodirs__fury_a_i.html#a594356602bd0068fba82bea64e284837">_timeToHit</a> = 1;</div>
+<div class="line"><span class="lineno"> 1007</span>                <a class="code hl_variable" href="../../d0/d2c/structnpc__hodirs__fury_1_1npc__hodirs__fury_a_i.html#a8d15c1e290438c8a4aa50887cfffccba">_switchTargetTimer</a> = 0;</div>
+<div class="line"><span class="lineno"> 1008</span>                <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a2903449b4183e13866c6e98d77578887">SetControlled</a>(<span class="keyword">true</span>, <a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544aefe799c73ede1e5d5ffed28f69074106">UNIT_STATE_STUNNED</a>);</div>
+<div class="line"><span class="lineno"> 1009</span>            }</div>
+<div class="line"><span class="lineno"> 1010</span>        }</div>
+<div class="ttc" id="a_motion_master_8h_html_a4f12806b915efea564eae942207002f9ae99e76e1e80feb6d7ff6e1df01e98e9c"><div class="ttname"><a href="../../d8/dea/_motion_master_8h.html#a4f12806b915efea564eae942207002f9ae99e76e1e80feb6d7ff6e1df01e98e9c">FOLLOW_MOTION_TYPE</a></div><div class="ttdeci">@ FOLLOW_MOTION_TYPE</div><div class="ttdef"><b>Definition:</b> MotionMaster.h:52</div></div>
+<div class="ttc" id="a_unit_8h_html_ae51d2ecb71f7a5cb3882982a622c9544aefe799c73ede1e5d5ffed28f69074106"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544aefe799c73ede1e5d5ffed28f69074106">UNIT_STATE_STUNNED</a></div><div class="ttdeci">@ UNIT_STATE_STUNNED</div><div class="ttdef"><b>Definition:</b> Unit.h:328</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_aee5bf3d421199445de241a34798ae819"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">CreatureAI::me</a></div><div class="ttdeci">Creature *const me</div><div class="ttdef"><b>Definition:</b> CreatureAI.h:72</div></div>
+<div class="ttc" id="aclass_unit_html_a2903449b4183e13866c6e98d77578887"><div class="ttname"><a href="../../da/db7/class_unit.html#a2903449b4183e13866c6e98d77578887">Unit::SetControlled</a></div><div class="ttdeci">void SetControlled(bool apply, UnitState state)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:18071</div></div>
+<div class="ttc" id="astructnpc__hodirs__fury_1_1npc__hodirs__fury_a_i_html_a594356602bd0068fba82bea64e284837"><div class="ttname"><a href="../../d0/d2c/structnpc__hodirs__fury_1_1npc__hodirs__fury_a_i.html#a594356602bd0068fba82bea64e284837">npc_hodirs_fury::npc_hodirs_furyAI::_timeToHit</a></div><div class="ttdeci">uint32 _timeToHit</div><div class="ttdef"><b>Definition:</b> boss_flame_leviathan.cpp:986</div></div>
+<div class="ttc" id="astructnpc__hodirs__fury_1_1npc__hodirs__fury_a_i_html_a8d15c1e290438c8a4aa50887cfffccba"><div class="ttname"><a href="../../d0/d2c/structnpc__hodirs__fury_1_1npc__hodirs__fury_a_i.html#a8d15c1e290438c8a4aa50887cfffccba">npc_hodirs_fury::npc_hodirs_furyAI::_switchTargetTimer</a></div><div class="ttdeci">uint32 _switchTargetTimer</div><div class="ttdef"><b>Definition:</b> boss_flame_leviathan.cpp:987</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a389f0f17fbc7860c5531f4859be561d3" name="a389f0f17fbc7860c5531f4859be561d3"></a>
@@ -486,7 +505,22 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d9c/class_unit_a_i.html#a43eb9ef68b977d98f6618d69a0d62115">UnitAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  990</span>        {</div>
+<div class="line"><span class="lineno">  991</span>            <a class="code hl_variable" href="../../d0/d2c/structnpc__hodirs__fury_1_1npc__hodirs__fury_a_i.html#a594356602bd0068fba82bea64e284837">_timeToHit</a> = 0;</div>
+<div class="line"><span class="lineno">  992</span>            <a class="code hl_variable" href="../../d0/d2c/structnpc__hodirs__fury_1_1npc__hodirs__fury_a_i.html#a8d15c1e290438c8a4aa50887cfffccba">_switchTargetTimer</a> = 30000;</div>
+<div class="line"><span class="lineno">  993</span>            <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#acb4a26180cdcb2266736f6aea4a695d8">SetWalk</a>(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  994</span> </div>
+<div class="line"><span class="lineno">  995</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d2/dde/class_aura.html">Aura</a>* aur = <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a51d433dde350cd94d7c3c43e30ca997f">AddAura</a>(<a class="code hl_enumvalue" href="../../d1/d88/boss__flame__leviathan_8cpp.html#a0b01dc061c57d5260b5013020f833e53a92ab76e93690eb2dd6fd9e4573c5ef20">SPELL_FREYA_DUMMY_BLUE</a>, <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>))</div>
+<div class="line"><span class="lineno">  996</span>            {</div>
+<div class="line"><span class="lineno">  997</span>                aur-&gt;SetMaxDuration(-1);</div>
+<div class="line"><span class="lineno">  998</span>                aur-&gt;SetDuration(-1);</div>
+<div class="line"><span class="lineno">  999</span>            }</div>
+<div class="line"><span class="lineno"> 1000</span>        }</div>
+<div class="ttc" id="aboss__flame__leviathan_8cpp_html_a0b01dc061c57d5260b5013020f833e53a92ab76e93690eb2dd6fd9e4573c5ef20"><div class="ttname"><a href="../../d1/d88/boss__flame__leviathan_8cpp.html#a0b01dc061c57d5260b5013020f833e53a92ab76e93690eb2dd6fd9e4573c5ef20">SPELL_FREYA_DUMMY_BLUE</a></div><div class="ttdeci">@ SPELL_FREYA_DUMMY_BLUE</div><div class="ttdef"><b>Definition:</b> boss_flame_leviathan.cpp:62</div></div>
+<div class="ttc" id="aclass_aura_html"><div class="ttname"><a href="../../d2/dde/class_aura.html">Aura</a></div><div class="ttdef"><b>Definition:</b> SpellAuras.h:87</div></div>
+<div class="ttc" id="aclass_creature_html_acb4a26180cdcb2266736f6aea4a695d8"><div class="ttname"><a href="../../d1/dac/class_creature.html#acb4a26180cdcb2266736f6aea4a695d8">Creature::SetWalk</a></div><div class="ttdeci">bool SetWalk(bool enable) override</div><div class="ttdef"><b>Definition:</b> Creature.cpp:3053</div></div>
+<div class="ttc" id="aclass_unit_html_a51d433dde350cd94d7c3c43e30ca997f"><div class="ttname"><a href="../../da/db7/class_unit.html#a51d433dde350cd94d7c3c43e30ca997f">Unit::AddAura</a></div><div class="ttdeci">Aura * AddAura(uint32 spellId, Unit *target)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:18895</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a5417d68891ad0f93c8130c9a14d57513" name="a5417d68891ad0f93c8130c9a14d57513"></a>
@@ -514,7 +548,53 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d6/df7/class_null_creature_a_i.html#ab200fcf78dee74a2ec808c01f5855236">NullCreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1013</span>        {</div>
+<div class="line"><span class="lineno"> 1014</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d0/d2c/structnpc__hodirs__fury_1_1npc__hodirs__fury_a_i.html#a594356602bd0068fba82bea64e284837">_timeToHit</a>)</div>
+<div class="line"><span class="lineno"> 1015</span>            {</div>
+<div class="line"><span class="lineno"> 1016</span>                <a class="code hl_variable" href="../../d0/d2c/structnpc__hodirs__fury_1_1npc__hodirs__fury_a_i.html#a594356602bd0068fba82bea64e284837">_timeToHit</a> += diff;</div>
+<div class="line"><span class="lineno"> 1017</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d0/d2c/structnpc__hodirs__fury_1_1npc__hodirs__fury_a_i.html#a594356602bd0068fba82bea64e284837">_timeToHit</a> &gt;= 5000)</div>
+<div class="line"><span class="lineno"> 1018</span>                {</div>
+<div class="line"><span class="lineno"> 1019</span>                    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* cr = <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#aaf7058bd6b40bbfd38cbcd4f740c0344">SummonCreature</a>(<a class="code hl_enumvalue" href="../../d1/d88/boss__flame__leviathan_8cpp.html#a640f990db89b5748398cd4fd8eb97550a93ddfa8bd1ffe3b8df83c10be0cf9093">NPC_HODIRS_FURY</a>, <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#ad5577c934d9e845b44759b67c534c3e8">GetPositionX</a>(), <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">GetPositionY</a>(), <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#a4e813a59345a6275e8b87b96be03e60b">GetPositionZ</a>() + 40, 0, <a class="code hl_enumvalue" href="../../df/d30/_object_8h.html#a38c6d8d01cbe0c49b035f348f7724148a68d0fa29801bfa0be2b983f167b0c0f2">TEMPSUMMON_TIMED_DESPAWN</a>, 10000))</div>
+<div class="line"><span class="lineno"> 1020</span>                        cr-&gt;CastSpell(<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>, <a class="code hl_enumvalue" href="../../d1/d88/boss__flame__leviathan_8cpp.html#a0b01dc061c57d5260b5013020f833e53ae1237ca2b71bf2bf0740b3218b20909f">SPELL_HODIRS_FURY</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno"> 1021</span> </div>
+<div class="line"><span class="lineno"> 1022</span>                    <a class="code hl_variable" href="../../d0/d2c/structnpc__hodirs__fury_1_1npc__hodirs__fury_a_i.html#a8d15c1e290438c8a4aa50887cfffccba">_switchTargetTimer</a> = 25000; <span class="comment">// Switch target soon</span></div>
+<div class="line"><span class="lineno"> 1023</span>                    <a class="code hl_variable" href="../../d0/d2c/structnpc__hodirs__fury_1_1npc__hodirs__fury_a_i.html#a594356602bd0068fba82bea64e284837">_timeToHit</a> = 0;</div>
+<div class="line"><span class="lineno"> 1024</span>                }</div>
+<div class="line"><span class="lineno"> 1025</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 1026</span>            }</div>
+<div class="line"><span class="lineno"> 1027</span> </div>
+<div class="line"><span class="lineno"> 1028</span>            <a class="code hl_variable" href="../../d0/d2c/structnpc__hodirs__fury_1_1npc__hodirs__fury_a_i.html#a8d15c1e290438c8a4aa50887cfffccba">_switchTargetTimer</a> += diff;</div>
+<div class="line"><span class="lineno"> 1029</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d0/d2c/structnpc__hodirs__fury_1_1npc__hodirs__fury_a_i.html#a8d15c1e290438c8a4aa50887cfffccba">_switchTargetTimer</a> &gt;= 30000)</div>
+<div class="line"><span class="lineno"> 1030</span>            {</div>
+<div class="line"><span class="lineno"> 1031</span>                <span class="keywordflow">if</span>(<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target = <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a37a962c6e3cf6106d547d733290740e1">SelectNearbyTarget</a>(<span class="keyword">nullptr</span>, 200.0f))</div>
+<div class="line"><span class="lineno"> 1032</span>                {</div>
+<div class="line"><span class="lineno"> 1033</span>                    <span class="keywordflow">if</span> (target-&gt;GetVehicleBase() &amp;&amp; target-&gt;GetVehicleBase()-&gt;GetEntry() == <a class="code hl_enumvalue" href="../../d1/d88/boss__flame__leviathan_8cpp.html#a640f990db89b5748398cd4fd8eb97550afde1ee16f7ce2e9ac37eda5286bdc4a1">NPC_SEAT</a>)</div>
+<div class="line"><span class="lineno"> 1034</span>                    {</div>
+<div class="line"><span class="lineno"> 1035</span>                        <a class="code hl_variable" href="../../d0/d2c/structnpc__hodirs__fury_1_1npc__hodirs__fury_a_i.html#a8d15c1e290438c8a4aa50887cfffccba">_switchTargetTimer</a> = 20000;</div>
+<div class="line"><span class="lineno"> 1036</span>                        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 1037</span>                    }</div>
+<div class="line"><span class="lineno"> 1038</span>                    <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a2903449b4183e13866c6e98d77578887">SetControlled</a>(<span class="keyword">false</span>, <a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544aefe799c73ede1e5d5ffed28f69074106">UNIT_STATE_STUNNED</a>);</div>
+<div class="line"><span class="lineno"> 1039</span>                    <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../df/d4d/class_motion_master.html#a5c4f6d1163174b909c83901d7f770d72">MoveFollow</a>(target, 0.0f, 0.0f);</div>
+<div class="line"><span class="lineno"> 1040</span>                    <a class="code hl_variable" href="../../d0/d2c/structnpc__hodirs__fury_1_1npc__hodirs__fury_a_i.html#a8d15c1e290438c8a4aa50887cfffccba">_switchTargetTimer</a> = 0;</div>
+<div class="line"><span class="lineno"> 1041</span>                }</div>
+<div class="line"><span class="lineno"> 1042</span>                <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 1043</span>                    <a class="code hl_variable" href="../../d0/d2c/structnpc__hodirs__fury_1_1npc__hodirs__fury_a_i.html#a8d15c1e290438c8a4aa50887cfffccba">_switchTargetTimer</a> = 25000;</div>
+<div class="line"><span class="lineno"> 1044</span>            }</div>
+<div class="line"><span class="lineno"> 1045</span>        }</div>
+<div class="ttc" id="a_object_8h_html_a38c6d8d01cbe0c49b035f348f7724148a68d0fa29801bfa0be2b983f167b0c0f2"><div class="ttname"><a href="../../df/d30/_object_8h.html#a38c6d8d01cbe0c49b035f348f7724148a68d0fa29801bfa0be2b983f167b0c0f2">TEMPSUMMON_TIMED_DESPAWN</a></div><div class="ttdeci">@ TEMPSUMMON_TIMED_DESPAWN</div><div class="ttdef"><b>Definition:</b> Object.h:44</div></div>
+<div class="ttc" id="aboss__flame__leviathan_8cpp_html_a0b01dc061c57d5260b5013020f833e53ae1237ca2b71bf2bf0740b3218b20909f"><div class="ttname"><a href="../../d1/d88/boss__flame__leviathan_8cpp.html#a0b01dc061c57d5260b5013020f833e53ae1237ca2b71bf2bf0740b3218b20909f">SPELL_HODIRS_FURY</a></div><div class="ttdeci">@ SPELL_HODIRS_FURY</div><div class="ttdef"><b>Definition:</b> boss_flame_leviathan.cpp:57</div></div>
+<div class="ttc" id="aboss__flame__leviathan_8cpp_html_a640f990db89b5748398cd4fd8eb97550a93ddfa8bd1ffe3b8df83c10be0cf9093"><div class="ttname"><a href="../../d1/d88/boss__flame__leviathan_8cpp.html#a640f990db89b5748398cd4fd8eb97550a93ddfa8bd1ffe3b8df83c10be0cf9093">NPC_HODIRS_FURY</a></div><div class="ttdeci">@ NPC_HODIRS_FURY</div><div class="ttdef"><b>Definition:</b> boss_flame_leviathan.cpp:101</div></div>
+<div class="ttc" id="aboss__flame__leviathan_8cpp_html_a640f990db89b5748398cd4fd8eb97550afde1ee16f7ce2e9ac37eda5286bdc4a1"><div class="ttname"><a href="../../d1/d88/boss__flame__leviathan_8cpp.html#a640f990db89b5748398cd4fd8eb97550afde1ee16f7ce2e9ac37eda5286bdc4a1">NPC_SEAT</a></div><div class="ttdeci">@ NPC_SEAT</div><div class="ttdef"><b>Definition:</b> boss_flame_leviathan.cpp:83</div></div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_motion_master_html_a5c4f6d1163174b909c83901d7f770d72"><div class="ttname"><a href="../../df/d4d/class_motion_master.html#a5c4f6d1163174b909c83901d7f770d72">MotionMaster::MoveFollow</a></div><div class="ttdeci">void MoveFollow(Unit *target, float dist, float angle, MovementSlot slot=MOTION_SLOT_ACTIVE)</div><div class="ttdef"><b>Definition:</b> MotionMaster.cpp:367</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_a37a962c6e3cf6106d547d733290740e1"><div class="ttname"><a href="../../da/db7/class_unit.html#a37a962c6e3cf6106d547d733290740e1">Unit::SelectNearbyTarget</a></div><div class="ttdeci">Unit * SelectNearbyTarget(Unit *exclude=nullptr, float dist=NOMINAL_MELEE_RANGE) const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:17045</div></div>
+<div class="ttc" id="aclass_unit_html_a4a04a3f22c3b0d6f4933993ac0cc7aa4"><div class="ttname"><a href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">Unit::GetMotionMaster</a></div><div class="ttdeci">MotionMaster * GetMotionMaster()</div><div class="ttdef"><b>Definition:</b> Unit.h:2257</div></div>
+<div class="ttc" id="aclass_world_object_html_aaf7058bd6b40bbfd38cbcd4f740c0344"><div class="ttname"><a href="../../db/df7/class_world_object.html#aaf7058bd6b40bbfd38cbcd4f740c0344">WorldObject::SummonCreature</a></div><div class="ttdeci">TempSummon * SummonCreature(uint32 id, const Position &amp;pos, TempSummonType spwtype=TEMPSUMMON_MANUAL_DESPAWN, uint32 despwtime=0, uint32 vehId=0, SummonPropertiesEntry const *properties=nullptr) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:2301</div></div>
+<div class="ttc" id="astruct_position_html_a4e813a59345a6275e8b87b96be03e60b"><div class="ttname"><a href="../../d1/d26/struct_position.html#a4e813a59345a6275e8b87b96be03e60b">Position::GetPositionZ</a></div><div class="ttdeci">float GetPositionZ() const</div><div class="ttdef"><b>Definition:</b> Position.h:119</div></div>
+<div class="ttc" id="astruct_position_html_ad5577c934d9e845b44759b67c534c3e8"><div class="ttname"><a href="../../d1/d26/struct_position.html#ad5577c934d9e845b44759b67c534c3e8">Position::GetPositionX</a></div><div class="ttdeci">float GetPositionX() const</div><div class="ttdef"><b>Definition:</b> Position.h:117</div></div>
+<div class="ttc" id="astruct_position_html_ae79fc664f6cd027f5d49f6c7df8e4c9e"><div class="ttname"><a href="../../d1/d26/struct_position.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">Position::GetPositionY</a></div><div class="ttdeci">float GetPositionY() const</div><div class="ttdef"><b>Definition:</b> Position.h:118</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -547,7 +627,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/Ulduar/Ulduar/<a class="el" href="../../d1/d88/boss__flame__leviathan_8cpp.html">boss_flame_leviathan.cpp</a></li>
+<li><a class="el" href="../../">boss_flame_leviathan.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -555,7 +635,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d7/d19/classnpc__hodirs__fury.html">npc_hodirs_fury</a></li><li class="navelem"><a class="el" href="../../d0/d2c/structnpc__hodirs__fury_1_1npc__hodirs__fury_a_i.html">npc_hodirs_furyAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:50 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:06 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

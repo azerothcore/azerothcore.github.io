@@ -325,7 +325,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a5ab9bd10ed8736a816bfaf12c39bde59 inherit pro_methods_class_instance_script"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d83/class_instance_script.html#a5ab9bd10ed8736a816bfaf12c39bde59">GetBossSaveData</a> ()</td></tr>
 <tr class="separator:a5ab9bd10ed8736a816bfaf12c39bde59 inherit pro_methods_class_instance_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ada5f19c96bfe623b110389ede032ef53" name="ada5f19c96bfe623b110389ede032ef53"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ada5f19c96bfe623b110389ede032ef53">&#9670;&#160;</a></span>instance_shadow_labyrinth_InstanceMapScript()</h2>
 
@@ -349,7 +350,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   34</span>: <a class="code hl_class" href="../../d8/d83/class_instance_script.html">InstanceScript</a>(map) {}</div>
+<div class="ttc" id="aclass_instance_script_html"><div class="ttname"><a href="../../d8/d83/class_instance_script.html">InstanceScript</a></div><div class="ttdef"><b>Definition:</b> InstanceScript.h:140</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -378,7 +381,14 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../df/dad/class_zone_script.html#a8997612fdbdacbf5e28e4de60d03e805">ZoneScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  127</span>        {</div>
+<div class="line"><span class="lineno">  128</span>            <span class="keywordflow">if</span> (type == <a class="code hl_enumvalue" href="../../d3/dec/shadow__labyrinth_8h.html#a0bb87d52cf69de5a588288e14237b87dae79bf74e4f3f4f45a25e4294ba066c30">TYPE_OVERSEER</a>)</div>
+<div class="line"><span class="lineno">  129</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d6/d16/structinstance__shadow__labyrinth_1_1instance__shadow__labyrinth___instance_map_script.html#ae0a930b3ce7d80acf9eefd823cf146d3">m_auiEncounter</a>[0];</div>
+<div class="line"><span class="lineno">  130</span>            <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">  131</span>        }</div>
+<div class="ttc" id="ashadow__labyrinth_8h_html_a0bb87d52cf69de5a588288e14237b87dae79bf74e4f3f4f45a25e4294ba066c30"><div class="ttname"><a href="../../d3/dec/shadow__labyrinth_8h.html#a0bb87d52cf69de5a588288e14237b87dae79bf74e4f3f4f45a25e4294ba066c30">TYPE_OVERSEER</a></div><div class="ttdeci">@ TYPE_OVERSEER</div><div class="ttdef"><b>Definition:</b> shadow_labyrinth.h:30</div></div>
+<div class="ttc" id="astructinstance__shadow__labyrinth_1_1instance__shadow__labyrinth___instance_map_script_html_ae0a930b3ce7d80acf9eefd823cf146d3"><div class="ttname"><a href="../../d6/d16/structinstance__shadow__labyrinth_1_1instance__shadow__labyrinth___instance_map_script.html#ae0a930b3ce7d80acf9eefd823cf146d3">instance_shadow_labyrinth::instance_shadow_labyrinth_InstanceMapScript::m_auiEncounter</a></div><div class="ttdeci">uint32 m_auiEncounter[MAX_ENCOUNTER]</div><div class="ttdef"><b>Definition:</b> instance_shadow_labyrinth.cpp:36</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2d853390c5704584b8530a46fb353b5f" name="a2d853390c5704584b8530a46fb353b5f"></a>
@@ -405,7 +415,14 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d8/d83/class_instance_script.html#aa0e2d9bf4d757aad09d4773259ad8583">InstanceScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  134</span>        {</div>
+<div class="line"><span class="lineno">  135</span>            std::ostringstream saveStream;</div>
+<div class="line"><span class="lineno">  136</span>            saveStream &lt;&lt; <span class="stringliteral">&quot;S L &quot;</span> &lt;&lt; <a class="code hl_variable" href="../../d6/d16/structinstance__shadow__labyrinth_1_1instance__shadow__labyrinth___instance_map_script.html#ae0a930b3ce7d80acf9eefd823cf146d3">m_auiEncounter</a>[0] &lt;&lt; <span class="charliteral">&#39; &#39;</span> &lt;&lt; <a class="code hl_variable" href="../../d6/d16/structinstance__shadow__labyrinth_1_1instance__shadow__labyrinth___instance_map_script.html#ae0a930b3ce7d80acf9eefd823cf146d3">m_auiEncounter</a>[1] &lt;&lt; <span class="charliteral">&#39; &#39;</span></div>
+<div class="line"><span class="lineno">  137</span>                       &lt;&lt; <a class="code hl_variable" href="../../d6/d16/structinstance__shadow__labyrinth_1_1instance__shadow__labyrinth___instance_map_script.html#ae0a930b3ce7d80acf9eefd823cf146d3">m_auiEncounter</a>[2] &lt;&lt; <span class="charliteral">&#39; &#39;</span> &lt;&lt; <a class="code hl_variable" href="../../d6/d16/structinstance__shadow__labyrinth_1_1instance__shadow__labyrinth___instance_map_script.html#ae0a930b3ce7d80acf9eefd823cf146d3">m_auiEncounter</a>[3] &lt;&lt; <span class="charliteral">&#39; &#39;</span> &lt;&lt; <a class="code hl_variable" href="../../d6/d16/structinstance__shadow__labyrinth_1_1instance__shadow__labyrinth___instance_map_script.html#ae0a930b3ce7d80acf9eefd823cf146d3">m_auiEncounter</a>[4];</div>
+<div class="line"><span class="lineno">  138</span> </div>
+<div class="line"><span class="lineno">  139</span>            <span class="keywordflow">return</span> saveStream.str();</div>
+<div class="line"><span class="lineno">  140</span>        }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a9dc908fdaef98aa6eb81fd1709eee9e4" name="a9dc908fdaef98aa6eb81fd1709eee9e4"></a>
@@ -432,7 +449,13 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d8/d83/class_instance_script.html#ae28a789e519af133bb744c796902294c">InstanceScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   45</span>        {</div>
+<div class="line"><span class="lineno">   46</span>            memset(&amp;<a class="code hl_variable" href="../../d6/d16/structinstance__shadow__labyrinth_1_1instance__shadow__labyrinth___instance_map_script.html#ae0a930b3ce7d80acf9eefd823cf146d3">m_auiEncounter</a>, 0, <span class="keyword">sizeof</span>(<a class="code hl_variable" href="../../d6/d16/structinstance__shadow__labyrinth_1_1instance__shadow__labyrinth___instance_map_script.html#ae0a930b3ce7d80acf9eefd823cf146d3">m_auiEncounter</a>));</div>
+<div class="line"><span class="lineno">   47</span> </div>
+<div class="line"><span class="lineno">   48</span>            <a class="code hl_variable" href="../../d6/d16/structinstance__shadow__labyrinth_1_1instance__shadow__labyrinth___instance_map_script.html#a31fa361f1a3bbb1ea8c439b415931fdb">m_uiFelOverseerCount</a> = 0;</div>
+<div class="line"><span class="lineno">   49</span>        }</div>
+<div class="ttc" id="astructinstance__shadow__labyrinth_1_1instance__shadow__labyrinth___instance_map_script_html_a31fa361f1a3bbb1ea8c439b415931fdb"><div class="ttname"><a href="../../d6/d16/structinstance__shadow__labyrinth_1_1instance__shadow__labyrinth___instance_map_script.html#a31fa361f1a3bbb1ea8c439b415931fdb">instance_shadow_labyrinth::instance_shadow_labyrinth_InstanceMapScript::m_uiFelOverseerCount</a></div><div class="ttdeci">uint32 m_uiFelOverseerCount</div><div class="ttdef"><b>Definition:</b> instance_shadow_labyrinth.cpp:42</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a11ca4a18532fc7de396dfb4188a1348f" name="a11ca4a18532fc7de396dfb4188a1348f"></a>
@@ -459,7 +482,17 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d8/d83/class_instance_script.html#a9753c3c71fef44fcbc33b89ff68350cd">InstanceScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   52</span>        {</div>
+<div class="line"><span class="lineno">   53</span>            <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> i = 0; i &lt; <a class="code hl_define" href="../../da/d4c/violet__hold_8h.html#ac6cdc058851f958e83d8104f6ed3efe2">MAX_ENCOUNTER</a>; ++i)</div>
+<div class="line"><span class="lineno">   54</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d6/d16/structinstance__shadow__labyrinth_1_1instance__shadow__labyrinth___instance_map_script.html#ae0a930b3ce7d80acf9eefd823cf146d3">m_auiEncounter</a>[i] == <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012">IN_PROGRESS</a>)</div>
+<div class="line"><span class="lineno">   55</span>                    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   56</span> </div>
+<div class="line"><span class="lineno">   57</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   58</span>        }</div>
+<div class="ttc" id="a_define_8h_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:110</div></div>
+<div class="ttc" id="a_instance_script_8h_html_a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012">IN_PROGRESS</a></div><div class="ttdeci">@ IN_PROGRESS</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:57</div></div>
+<div class="ttc" id="aviolet__hold_8h_html_ac6cdc058851f958e83d8104f6ed3efe2"><div class="ttname"><a href="../../da/d4c/violet__hold_8h.html#ac6cdc058851f958e83d8104f6ed3efe2">MAX_ENCOUNTER</a></div><div class="ttdeci">#define MAX_ENCOUNTER</div><div class="ttdef"><b>Definition:</b> violet_hold.h:21</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a6f25f1ce7fb4a75acccfecee947fb531" name="a6f25f1ce7fb4a75acccfecee947fb531"></a>
@@ -487,7 +520,35 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d8/d83/class_instance_script.html#ad8be0d1c384b505f5b3fa1ab55eb1f61">InstanceScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  143</span>        {</div>
+<div class="line"><span class="lineno">  144</span>            <span class="keywordflow">if</span> (!in)</div>
+<div class="line"><span class="lineno">  145</span>            {</div>
+<div class="line"><span class="lineno">  146</span>                <a class="code hl_define" href="../../da/d42/_instance_script_8h.html#a141fd6fe34ebbd5c3ad507db42f41b4a">OUT_LOAD_INST_DATA_FAIL</a>;</div>
+<div class="line"><span class="lineno">  147</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  148</span>            }</div>
+<div class="line"><span class="lineno">  149</span> </div>
+<div class="line"><span class="lineno">  150</span>            <a class="code hl_define" href="../../da/d42/_instance_script_8h.html#aafbf0073420e9a897ec0f243f4793a0f">OUT_LOAD_INST_DATA</a>(in);</div>
+<div class="line"><span class="lineno">  151</span> </div>
+<div class="line"><span class="lineno">  152</span>            <span class="keywordtype">char</span> dataHead1, dataHead2;</div>
+<div class="line"><span class="lineno">  153</span>            std::istringstream loadStream(in);</div>
+<div class="line"><span class="lineno">  154</span>            loadStream &gt;&gt; dataHead1 &gt;&gt; dataHead2;</div>
+<div class="line"><span class="lineno">  155</span>            <span class="keywordflow">if</span> (dataHead1 == <span class="charliteral">&#39;S&#39;</span> &amp;&amp; dataHead2 == <span class="charliteral">&#39;L&#39;</span>)</div>
+<div class="line"><span class="lineno">  156</span>            {</div>
+<div class="line"><span class="lineno">  157</span>                <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> i = 0; i &lt; <a class="code hl_define" href="../../da/d4c/violet__hold_8h.html#ac6cdc058851f958e83d8104f6ed3efe2">MAX_ENCOUNTER</a>; ++i)</div>
+<div class="line"><span class="lineno">  158</span>                {</div>
+<div class="line"><span class="lineno">  159</span>                    loadStream &gt;&gt; <a class="code hl_variable" href="../../d6/d16/structinstance__shadow__labyrinth_1_1instance__shadow__labyrinth___instance_map_script.html#ae0a930b3ce7d80acf9eefd823cf146d3">m_auiEncounter</a>[i];</div>
+<div class="line"><span class="lineno">  160</span>                    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d6/d16/structinstance__shadow__labyrinth_1_1instance__shadow__labyrinth___instance_map_script.html#ae0a930b3ce7d80acf9eefd823cf146d3">m_auiEncounter</a>[i] == <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012">IN_PROGRESS</a>)</div>
+<div class="line"><span class="lineno">  161</span>                        <a class="code hl_variable" href="../../d6/d16/structinstance__shadow__labyrinth_1_1instance__shadow__labyrinth___instance_map_script.html#ae0a930b3ce7d80acf9eefd823cf146d3">m_auiEncounter</a>[i] = <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694ae7d82dfe80ea0bd4feea8ee49ea2eab5">NOT_STARTED</a>;</div>
+<div class="line"><span class="lineno">  162</span>                }</div>
+<div class="line"><span class="lineno">  163</span>            }</div>
+<div class="line"><span class="lineno">  164</span> </div>
+<div class="line"><span class="lineno">  165</span>            <a class="code hl_define" href="../../da/d42/_instance_script_8h.html#a490e19560f068912b0e3dbd61c689b44">OUT_LOAD_INST_DATA_COMPLETE</a>;</div>
+<div class="line"><span class="lineno">  166</span>        }</div>
+<div class="ttc" id="a_instance_script_8h_html_a141fd6fe34ebbd5c3ad507db42f41b4a"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a141fd6fe34ebbd5c3ad507db42f41b4a">OUT_LOAD_INST_DATA_FAIL</a></div><div class="ttdeci">#define OUT_LOAD_INST_DATA_FAIL</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:31</div></div>
+<div class="ttc" id="a_instance_script_8h_html_a1c28341208eeb4bdc8237e8ceac88694ae7d82dfe80ea0bd4feea8ee49ea2eab5"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694ae7d82dfe80ea0bd4feea8ee49ea2eab5">NOT_STARTED</a></div><div class="ttdeci">@ NOT_STARTED</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:56</div></div>
+<div class="ttc" id="a_instance_script_8h_html_a490e19560f068912b0e3dbd61c689b44"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a490e19560f068912b0e3dbd61c689b44">OUT_LOAD_INST_DATA_COMPLETE</a></div><div class="ttdeci">#define OUT_LOAD_INST_DATA_COMPLETE</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:30</div></div>
+<div class="ttc" id="a_instance_script_8h_html_aafbf0073420e9a897ec0f243f4793a0f"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#aafbf0073420e9a897ec0f243f4793a0f">OUT_LOAD_INST_DATA</a></div><div class="ttdeci">#define OUT_LOAD_INST_DATA(a)</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:29</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a118b4a7a7c872327ec2868c5b0417636" name="a118b4a7a7c872327ec2868c5b0417636"></a>
@@ -515,7 +576,25 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d8/d83/class_instance_script.html#a07b3c70e8153dfd74edb86656bf2b254">InstanceScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   78</span>        {</div>
+<div class="line"><span class="lineno">   79</span>            <span class="keywordflow">switch</span> (creature-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>())</div>
+<div class="line"><span class="lineno">   80</span>            {</div>
+<div class="line"><span class="lineno">   81</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d3/dec/shadow__labyrinth_8h.html#a5aeaf5f332ee73166572f5313be89bf1ab9432b4054d2a9f2dbc314b5a8df9ef9">NPC_FEL_OVERSEER</a>:</div>
+<div class="line"><span class="lineno">   82</span>                    <span class="keywordflow">if</span> (creature-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a5ea3f54af571493f7889220724667189">IsAlive</a>())</div>
+<div class="line"><span class="lineno">   83</span>                        ++<a class="code hl_variable" href="../../d6/d16/structinstance__shadow__labyrinth_1_1instance__shadow__labyrinth___instance_map_script.html#a31fa361f1a3bbb1ea8c439b415931fdb">m_uiFelOverseerCount</a>;</div>
+<div class="line"><span class="lineno">   84</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   85</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d3/dec/shadow__labyrinth_8h.html#a5aeaf5f332ee73166572f5313be89bf1ad42fe7f18144f0b2ff2949b85385db8b">NPC_HELLMAW</a>:</div>
+<div class="line"><span class="lineno">   86</span>                    <a class="code hl_variable" href="../../d6/d16/structinstance__shadow__labyrinth_1_1instance__shadow__labyrinth___instance_map_script.html#a04afb00a70bdf58e3d4b5c962ab4024a">m_uiHellmawGUID</a> = creature-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>();</div>
+<div class="line"><span class="lineno">   87</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   88</span>            }</div>
+<div class="line"><span class="lineno">   89</span>        }</div>
+<div class="ttc" id="aclass_object_html_aa627fe2967ed0e0ed1d8aeeb4365a961"><div class="ttname"><a href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">Object::GetEntry</a></div><div class="ttdeci">uint32 GetEntry() const</div><div class="ttdef"><b>Definition:</b> Object.h:109</div></div>
+<div class="ttc" id="aclass_object_html_ad23b997e2442fa6a6228ba73a7ecc138"><div class="ttname"><a href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">Object::GetGUID</a></div><div class="ttdeci">static ObjectGuid GetGUID(Object const *o)</div><div class="ttdef"><b>Definition:</b> Object.h:106</div></div>
+<div class="ttc" id="aclass_unit_html_a5ea3f54af571493f7889220724667189"><div class="ttname"><a href="../../da/db7/class_unit.html#a5ea3f54af571493f7889220724667189">Unit::IsAlive</a></div><div class="ttdeci">bool IsAlive() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1805</div></div>
+<div class="ttc" id="ashadow__labyrinth_8h_html_a5aeaf5f332ee73166572f5313be89bf1ab9432b4054d2a9f2dbc314b5a8df9ef9"><div class="ttname"><a href="../../d3/dec/shadow__labyrinth_8h.html#a5aeaf5f332ee73166572f5313be89bf1ab9432b4054d2a9f2dbc314b5a8df9ef9">NPC_FEL_OVERSEER</a></div><div class="ttdeci">@ NPC_FEL_OVERSEER</div><div class="ttdef"><b>Definition:</b> shadow_labyrinth.h:40</div></div>
+<div class="ttc" id="ashadow__labyrinth_8h_html_a5aeaf5f332ee73166572f5313be89bf1ad42fe7f18144f0b2ff2949b85385db8b"><div class="ttname"><a href="../../d3/dec/shadow__labyrinth_8h.html#a5aeaf5f332ee73166572f5313be89bf1ad42fe7f18144f0b2ff2949b85385db8b">NPC_HELLMAW</a></div><div class="ttdeci">@ NPC_HELLMAW</div><div class="ttdef"><b>Definition:</b> shadow_labyrinth.h:41</div></div>
+<div class="ttc" id="astructinstance__shadow__labyrinth_1_1instance__shadow__labyrinth___instance_map_script_html_a04afb00a70bdf58e3d4b5c962ab4024a"><div class="ttname"><a href="../../d6/d16/structinstance__shadow__labyrinth_1_1instance__shadow__labyrinth___instance_map_script.html#a04afb00a70bdf58e3d4b5c962ab4024a">instance_shadow_labyrinth::instance_shadow_labyrinth_InstanceMapScript::m_uiHellmawGUID</a></div><div class="ttdeci">ObjectGuid m_uiHellmawGUID</div><div class="ttdef"><b>Definition:</b> instance_shadow_labyrinth.cpp:38</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a95f60977efe0b547d5383024870fbbb9" name="a95f60977efe0b547d5383024870fbbb9"></a>
@@ -543,7 +622,31 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d8/d83/class_instance_script.html#a95f23d1bff59799247babdd0d077bb7c">InstanceScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   61</span>        {</div>
+<div class="line"><span class="lineno">   62</span>            <span class="keywordflow">switch</span> (go-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>())</div>
+<div class="line"><span class="lineno">   63</span>            {</div>
+<div class="line"><span class="lineno">   64</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d3/dec/shadow__labyrinth_8h.html#a5aeaf5f332ee73166572f5313be89bf1ab072856efbc6f0ab506a323726bb71fa">REFECTORY_DOOR</a>:</div>
+<div class="line"><span class="lineno">   65</span>                    <a class="code hl_variable" href="../../d6/d16/structinstance__shadow__labyrinth_1_1instance__shadow__labyrinth___instance_map_script.html#a5b345dab99fd701d0f8969a6d3742c8b">m_uiRefectoryDoorGUID</a> = go-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>();</div>
+<div class="line"><span class="lineno">   66</span>                    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d6/d16/structinstance__shadow__labyrinth_1_1instance__shadow__labyrinth___instance_map_script.html#ae0a930b3ce7d80acf9eefd823cf146d3">m_auiEncounter</a>[<a class="code hl_enumvalue" href="../../d3/dec/shadow__labyrinth_8h.html#a0bb87d52cf69de5a588288e14237b87da5e5ecb7b6f8d204717412ca517a3aa26">DATA_BLACKHEARTTHEINCITEREVENT</a>] == <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749">DONE</a>)</div>
+<div class="line"><span class="lineno">   67</span>                        go-&gt;<a class="code hl_function" href="../../d0/dd1/class_game_object.html#a076a61c5824ee381e456486af8ceb87d">SetGoState</a>(<a class="code hl_enumvalue" href="../../df/d91/_game_object_8h.html#ac17cd142af80da019367bb796b15e5abaf4f299c1cfc830c90418c4487c567c1e">GO_STATE_ACTIVE</a>);</div>
+<div class="line"><span class="lineno">   68</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   69</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d3/dec/shadow__labyrinth_8h.html#a5aeaf5f332ee73166572f5313be89bf1a042a7375dbc81e3320fac1d88082a5d8">SCREAMING_HALL_DOOR</a>:</div>
+<div class="line"><span class="lineno">   70</span>                    <a class="code hl_variable" href="../../d6/d16/structinstance__shadow__labyrinth_1_1instance__shadow__labyrinth___instance_map_script.html#a303f702a98745e98862e8b42061794e9">m_uiScreamingHallDoorGUID</a> = go-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>();</div>
+<div class="line"><span class="lineno">   71</span>                    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d6/d16/structinstance__shadow__labyrinth_1_1instance__shadow__labyrinth___instance_map_script.html#ae0a930b3ce7d80acf9eefd823cf146d3">m_auiEncounter</a>[<a class="code hl_enumvalue" href="../../d3/dec/shadow__labyrinth_8h.html#a0bb87d52cf69de5a588288e14237b87da7fe4a775a485c30ad47b459ac52a25c4">DATA_GRANDMASTERVORPILEVENT</a>] == <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749">DONE</a>)</div>
+<div class="line"><span class="lineno">   72</span>                        go-&gt;<a class="code hl_function" href="../../d0/dd1/class_game_object.html#a076a61c5824ee381e456486af8ceb87d">SetGoState</a>(<a class="code hl_enumvalue" href="../../df/d91/_game_object_8h.html#ac17cd142af80da019367bb796b15e5abaf4f299c1cfc830c90418c4487c567c1e">GO_STATE_ACTIVE</a>);</div>
+<div class="line"><span class="lineno">   73</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   74</span>            }</div>
+<div class="line"><span class="lineno">   75</span>        }</div>
+<div class="ttc" id="a_game_object_8h_html_ac17cd142af80da019367bb796b15e5abaf4f299c1cfc830c90418c4487c567c1e"><div class="ttname"><a href="../../df/d91/_game_object_8h.html#ac17cd142af80da019367bb796b15e5abaf4f299c1cfc830c90418c4487c567c1e">GO_STATE_ACTIVE</a></div><div class="ttdeci">@ GO_STATE_ACTIVE</div><div class="ttdef"><b>Definition:</b> GameObject.h:734</div></div>
+<div class="ttc" id="a_instance_script_8h_html_a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749">DONE</a></div><div class="ttdeci">@ DONE</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:59</div></div>
+<div class="ttc" id="aclass_game_object_html_a076a61c5824ee381e456486af8ceb87d"><div class="ttname"><a href="../../d0/dd1/class_game_object.html#a076a61c5824ee381e456486af8ceb87d">GameObject::SetGoState</a></div><div class="ttdeci">void SetGoState(GOState state)</div><div class="ttdef"><b>Definition:</b> GameObject.cpp:2441</div></div>
+<div class="ttc" id="ashadow__labyrinth_8h_html_a0bb87d52cf69de5a588288e14237b87da5e5ecb7b6f8d204717412ca517a3aa26"><div class="ttname"><a href="../../d3/dec/shadow__labyrinth_8h.html#a0bb87d52cf69de5a588288e14237b87da5e5ecb7b6f8d204717412ca517a3aa26">DATA_BLACKHEARTTHEINCITEREVENT</a></div><div class="ttdeci">@ DATA_BLACKHEARTTHEINCITEREVENT</div><div class="ttdef"><b>Definition:</b> shadow_labyrinth.h:32</div></div>
+<div class="ttc" id="ashadow__labyrinth_8h_html_a0bb87d52cf69de5a588288e14237b87da7fe4a775a485c30ad47b459ac52a25c4"><div class="ttname"><a href="../../d3/dec/shadow__labyrinth_8h.html#a0bb87d52cf69de5a588288e14237b87da7fe4a775a485c30ad47b459ac52a25c4">DATA_GRANDMASTERVORPILEVENT</a></div><div class="ttdeci">@ DATA_GRANDMASTERVORPILEVENT</div><div class="ttdef"><b>Definition:</b> shadow_labyrinth.h:33</div></div>
+<div class="ttc" id="ashadow__labyrinth_8h_html_a5aeaf5f332ee73166572f5313be89bf1a042a7375dbc81e3320fac1d88082a5d8"><div class="ttname"><a href="../../d3/dec/shadow__labyrinth_8h.html#a5aeaf5f332ee73166572f5313be89bf1a042a7375dbc81e3320fac1d88082a5d8">SCREAMING_HALL_DOOR</a></div><div class="ttdeci">@ SCREAMING_HALL_DOOR</div><div class="ttdef"><b>Definition:</b> shadow_labyrinth.h:44</div></div>
+<div class="ttc" id="ashadow__labyrinth_8h_html_a5aeaf5f332ee73166572f5313be89bf1ab072856efbc6f0ab506a323726bb71fa"><div class="ttname"><a href="../../d3/dec/shadow__labyrinth_8h.html#a5aeaf5f332ee73166572f5313be89bf1ab072856efbc6f0ab506a323726bb71fa">REFECTORY_DOOR</a></div><div class="ttdeci">@ REFECTORY_DOOR</div><div class="ttdef"><b>Definition:</b> shadow_labyrinth.h:43</div></div>
+<div class="ttc" id="astructinstance__shadow__labyrinth_1_1instance__shadow__labyrinth___instance_map_script_html_a303f702a98745e98862e8b42061794e9"><div class="ttname"><a href="../../d6/d16/structinstance__shadow__labyrinth_1_1instance__shadow__labyrinth___instance_map_script.html#a303f702a98745e98862e8b42061794e9">instance_shadow_labyrinth::instance_shadow_labyrinth_InstanceMapScript::m_uiScreamingHallDoorGUID</a></div><div class="ttdeci">ObjectGuid m_uiScreamingHallDoorGUID</div><div class="ttdef"><b>Definition:</b> instance_shadow_labyrinth.cpp:40</div></div>
+<div class="ttc" id="astructinstance__shadow__labyrinth_1_1instance__shadow__labyrinth___instance_map_script_html_a5b345dab99fd701d0f8969a6d3742c8b"><div class="ttname"><a href="../../d6/d16/structinstance__shadow__labyrinth_1_1instance__shadow__labyrinth___instance_map_script.html#a5b345dab99fd701d0f8969a6d3742c8b">instance_shadow_labyrinth::instance_shadow_labyrinth_InstanceMapScript::m_uiRefectoryDoorGUID</a></div><div class="ttdeci">ObjectGuid m_uiRefectoryDoorGUID</div><div class="ttdef"><b>Definition:</b> instance_shadow_labyrinth.cpp:39</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ab3419cfb644ce5fe533656c091145527" name="ab3419cfb644ce5fe533656c091145527"></a>
@@ -581,7 +684,47 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../df/dad/class_zone_script.html#a949e67ea24c7e4b70a20806952735576">ZoneScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   92</span>        {</div>
+<div class="line"><span class="lineno">   93</span>            <span class="keywordflow">switch</span> (type)</div>
+<div class="line"><span class="lineno">   94</span>            {</div>
+<div class="line"><span class="lineno">   95</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d3/dec/shadow__labyrinth_8h.html#a0bb87d52cf69de5a588288e14237b87dae79bf74e4f3f4f45a25e4294ba066c30">TYPE_OVERSEER</a>:</div>
+<div class="line"><span class="lineno">   96</span>                    <span class="keywordflow">if</span> (!--<a class="code hl_variable" href="../../d6/d16/structinstance__shadow__labyrinth_1_1instance__shadow__labyrinth___instance_map_script.html#a31fa361f1a3bbb1ea8c439b415931fdb">m_uiFelOverseerCount</a>)</div>
+<div class="line"><span class="lineno">   97</span>                    {</div>
+<div class="line"><span class="lineno">   98</span>                        <a class="code hl_variable" href="../../d6/d16/structinstance__shadow__labyrinth_1_1instance__shadow__labyrinth___instance_map_script.html#ae0a930b3ce7d80acf9eefd823cf146d3">m_auiEncounter</a>[type] = <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749">DONE</a>;</div>
+<div class="line"><span class="lineno">   99</span>                        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* cr = <a class="code hl_variable" href="../../d8/d83/class_instance_script.html#a4b84b9635742380ce5dc6e2f8d76e30b">instance</a>-&gt;<a class="code hl_function" href="../../dd/d11/class_map.html#a9c20f696cb8109183fbd81b13848b050">GetCreature</a>(<a class="code hl_variable" href="../../d6/d16/structinstance__shadow__labyrinth_1_1instance__shadow__labyrinth___instance_map_script.html#a04afb00a70bdf58e3d4b5c962ab4024a">m_uiHellmawGUID</a>))</div>
+<div class="line"><span class="lineno">  100</span>                            cr-&gt;AI()-&gt;DoAction(1);</div>
+<div class="line"><span class="lineno">  101</span>                    }</div>
+<div class="line"><span class="lineno">  102</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  103</span> </div>
+<div class="line"><span class="lineno">  104</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d3/dec/shadow__labyrinth_8h.html#a0bb87d52cf69de5a588288e14237b87da5e5ecb7b6f8d204717412ca517a3aa26">DATA_BLACKHEARTTHEINCITEREVENT</a>:</div>
+<div class="line"><span class="lineno">  105</span>                    <span class="keywordflow">if</span> (uiData == <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749">DONE</a>)</div>
+<div class="line"><span class="lineno">  106</span>                        <a class="code hl_function" href="../../d8/d83/class_instance_script.html#a3ddcb4558a36e54ae0b1e37204de09fa">DoUseDoorOrButton</a>(<a class="code hl_variable" href="../../d6/d16/structinstance__shadow__labyrinth_1_1instance__shadow__labyrinth___instance_map_script.html#a5b345dab99fd701d0f8969a6d3742c8b">m_uiRefectoryDoorGUID</a>);</div>
+<div class="line"><span class="lineno">  107</span>                    <a class="code hl_variable" href="../../d6/d16/structinstance__shadow__labyrinth_1_1instance__shadow__labyrinth___instance_map_script.html#ae0a930b3ce7d80acf9eefd823cf146d3">m_auiEncounter</a>[type] = uiData;</div>
+<div class="line"><span class="lineno">  108</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  109</span> </div>
+<div class="line"><span class="lineno">  110</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d3/dec/shadow__labyrinth_8h.html#a0bb87d52cf69de5a588288e14237b87da7fe4a775a485c30ad47b459ac52a25c4">DATA_GRANDMASTERVORPILEVENT</a>:</div>
+<div class="line"><span class="lineno">  111</span>                    <span class="keywordflow">if</span> (uiData == <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749">DONE</a>)</div>
+<div class="line"><span class="lineno">  112</span>                        <a class="code hl_function" href="../../d8/d83/class_instance_script.html#a3ddcb4558a36e54ae0b1e37204de09fa">DoUseDoorOrButton</a>(<a class="code hl_variable" href="../../d6/d16/structinstance__shadow__labyrinth_1_1instance__shadow__labyrinth___instance_map_script.html#a303f702a98745e98862e8b42061794e9">m_uiScreamingHallDoorGUID</a>);</div>
+<div class="line"><span class="lineno">  113</span>                    <a class="code hl_variable" href="../../d6/d16/structinstance__shadow__labyrinth_1_1instance__shadow__labyrinth___instance_map_script.html#ae0a930b3ce7d80acf9eefd823cf146d3">m_auiEncounter</a>[type] = uiData;</div>
+<div class="line"><span class="lineno">  114</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  115</span> </div>
+<div class="line"><span class="lineno">  116</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d3/dec/shadow__labyrinth_8h.html#a0bb87d52cf69de5a588288e14237b87da6d821b47b03599b8b3c294d32359c13f">DATA_MURMUREVENT</a>:</div>
+<div class="line"><span class="lineno">  117</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d3/dec/shadow__labyrinth_8h.html#a0bb87d52cf69de5a588288e14237b87da52ac1b40043222aff2cbe571a96bd05f">TYPE_HELLMAW</a>:</div>
+<div class="line"><span class="lineno">  118</span>                    <a class="code hl_variable" href="../../d6/d16/structinstance__shadow__labyrinth_1_1instance__shadow__labyrinth___instance_map_script.html#ae0a930b3ce7d80acf9eefd823cf146d3">m_auiEncounter</a>[type] = uiData;</div>
+<div class="line"><span class="lineno">  119</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  120</span>            }</div>
+<div class="line"><span class="lineno">  121</span> </div>
+<div class="line"><span class="lineno">  122</span>            <span class="keywordflow">if</span> (uiData == <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749">DONE</a>)</div>
+<div class="line"><span class="lineno">  123</span>                <a class="code hl_function" href="../../d8/d83/class_instance_script.html#a99f69b7706e28b78008952ceefe09b69">SaveToDB</a>();</div>
+<div class="line"><span class="lineno">  124</span>        }</div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_instance_script_html_a3ddcb4558a36e54ae0b1e37204de09fa"><div class="ttname"><a href="../../d8/d83/class_instance_script.html#a3ddcb4558a36e54ae0b1e37204de09fa">InstanceScript::DoUseDoorOrButton</a></div><div class="ttdeci">void DoUseDoorOrButton(ObjectGuid guid, uint32 withRestoreTime=0, bool useAlternativeState=false)</div><div class="ttdef"><b>Definition:</b> InstanceScript.cpp:365</div></div>
+<div class="ttc" id="aclass_instance_script_html_a4b84b9635742380ce5dc6e2f8d76e30b"><div class="ttname"><a href="../../d8/d83/class_instance_script.html#a4b84b9635742380ce5dc6e2f8d76e30b">InstanceScript::instance</a></div><div class="ttdeci">Map * instance</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:146</div></div>
+<div class="ttc" id="aclass_instance_script_html_a99f69b7706e28b78008952ceefe09b69"><div class="ttname"><a href="../../d8/d83/class_instance_script.html#a99f69b7706e28b78008952ceefe09b69">InstanceScript::SaveToDB</a></div><div class="ttdeci">void SaveToDB()</div><div class="ttdef"><b>Definition:</b> InstanceScript.cpp:40</div></div>
+<div class="ttc" id="aclass_map_html_a9c20f696cb8109183fbd81b13848b050"><div class="ttname"><a href="../../dd/d11/class_map.html#a9c20f696cb8109183fbd81b13848b050">Map::GetCreature</a></div><div class="ttdeci">Creature * GetCreature(ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> Map.cpp:3290</div></div>
+<div class="ttc" id="ashadow__labyrinth_8h_html_a0bb87d52cf69de5a588288e14237b87da52ac1b40043222aff2cbe571a96bd05f"><div class="ttname"><a href="../../d3/dec/shadow__labyrinth_8h.html#a0bb87d52cf69de5a588288e14237b87da52ac1b40043222aff2cbe571a96bd05f">TYPE_HELLMAW</a></div><div class="ttdeci">@ TYPE_HELLMAW</div><div class="ttdef"><b>Definition:</b> shadow_labyrinth.h:31</div></div>
+<div class="ttc" id="ashadow__labyrinth_8h_html_a0bb87d52cf69de5a588288e14237b87da6d821b47b03599b8b3c294d32359c13f"><div class="ttname"><a href="../../d3/dec/shadow__labyrinth_8h.html#a0bb87d52cf69de5a588288e14237b87da6d821b47b03599b8b3c294d32359c13f">DATA_MURMUREVENT</a></div><div class="ttdeci">@ DATA_MURMUREVENT</div><div class="ttdef"><b>Definition:</b> shadow_labyrinth.h:34</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -656,7 +799,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Outland/Auchindoun/ShadowLabyrinth/<a class="el" href="../../da/d65/instance__shadow__labyrinth_8cpp.html">instance_shadow_labyrinth.cpp</a></li>
+<li><a class="el" href="../../">instance_shadow_labyrinth.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -664,7 +807,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d9/d8c/classinstance__shadow__labyrinth.html">instance_shadow_labyrinth</a></li><li class="navelem"><a class="el" href="../../d6/d16/structinstance__shadow__labyrinth_1_1instance__shadow__labyrinth___instance_map_script.html">instance_shadow_labyrinth_InstanceMapScript</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:46 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:01 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

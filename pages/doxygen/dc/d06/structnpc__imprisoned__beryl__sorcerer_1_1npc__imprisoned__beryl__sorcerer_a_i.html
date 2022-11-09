@@ -493,7 +493,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a0a8159a84689dbfd8c69ed523ce03817" name="a0a8159a84689dbfd8c69ed523ce03817"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0a8159a84689dbfd8c69ed523ce03817">&#9670;&#160;</a></span>npc_imprisoned_beryl_sorcererAI()</h2>
 
@@ -517,7 +518,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  739</span>: <a class="code hl_struct" href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a>(creature) { }</div>
+<div class="ttc" id="astruct_scripted_a_i_html"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -546,7 +549,9 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a35a9ca7c140474598325b0f2073f9bcd">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  774</span>        {</div>
+<div class="line"><span class="lineno">  775</span>        }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a0729c584c3b65e5f25f4445de378f0ea" name="a0729c584c3b65e5f25f4445de378f0ea"></a>
@@ -572,7 +577,52 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  789</span>        {</div>
+<div class="line"><span class="lineno">  790</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* caster = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#aeb3657e7ad09335b9a9ffa50473aa216">ObjectAccessor::GetPlayer</a>(*<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, casterGUID))</div>
+<div class="line"><span class="lineno">  791</span>            {</div>
+<div class="line"><span class="lineno">  792</span>                <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> step = caster-&gt;GetAuraCount(<a class="code hl_enumvalue" href="../../d3/d09/zone__borean__tundra_8cpp.html#a6f2fd2620ffdf295515afcd78e32b178a8a2fa8e27afc12d115154acd4668fbd5">SPELL_NEURAL_NEEDLE</a>) + 1;</div>
+<div class="line"><span class="lineno">  793</span>                <span class="keywordflow">switch</span> (step)</div>
+<div class="line"><span class="lineno">  794</span>                {</div>
+<div class="line"><span class="lineno">  795</span>                    <span class="keywordflow">case</span> 1:</div>
+<div class="line"><span class="lineno">  796</span>                        <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d3/d09/zone__borean__tundra_8cpp.html#a6f2fd2620ffdf295515afcd78e32b178a3b0b33e2e94be1336b9c2a1caa73d8dd">SAY_IMPRISIONED_BERYL_1</a>);</div>
+<div class="line"><span class="lineno">  797</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  798</span>                    <span class="keywordflow">case</span> 2:</div>
+<div class="line"><span class="lineno">  799</span>                        <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d3/d09/zone__borean__tundra_8cpp.html#a6f2fd2620ffdf295515afcd78e32b178ae6469589be1d2ce28c9eec152dd5b0f5">SAY_IMPRISIONED_BERYL_2</a>, caster);</div>
+<div class="line"><span class="lineno">  800</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  801</span>                    <span class="keywordflow">case</span> 3:</div>
+<div class="line"><span class="lineno">  802</span>                        <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d3/d09/zone__borean__tundra_8cpp.html#a6f2fd2620ffdf295515afcd78e32b178a7a673d1413e43d759bfab3c2bc842cb2">SAY_IMPRISIONED_BERYL_3</a>);</div>
+<div class="line"><span class="lineno">  803</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  804</span>                    <span class="keywordflow">case</span> 4:</div>
+<div class="line"><span class="lineno">  805</span>                        <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d3/d09/zone__borean__tundra_8cpp.html#a6f2fd2620ffdf295515afcd78e32b178ae200a0fc5389ab3f15f2d98311ef20b1">SAY_IMPRISIONED_BERYL_4</a>);</div>
+<div class="line"><span class="lineno">  806</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  807</span>                    <span class="keywordflow">case</span> 5:</div>
+<div class="line"><span class="lineno">  808</span>                        <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d3/d09/zone__borean__tundra_8cpp.html#a6f2fd2620ffdf295515afcd78e32b178a98aaa997cbd8824a4e9b5c50047078f5">SAY_IMPRISIONED_BERYL_5</a>);</div>
+<div class="line"><span class="lineno">  809</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  810</span>                    <span class="keywordflow">case</span> 6:</div>
+<div class="line"><span class="lineno">  811</span>                        <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d3/d09/zone__borean__tundra_8cpp.html#a6f2fd2620ffdf295515afcd78e32b178a0ac92ed472704313c5dc8cdc65935b00">SAY_IMPRISIONED_BERYL_6</a>, caster);</div>
+<div class="line"><span class="lineno">  812</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  813</span>                    <span class="keywordflow">case</span> 7:</div>
+<div class="line"><span class="lineno">  814</span>                        <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d3/d09/zone__borean__tundra_8cpp.html#a6f2fd2620ffdf295515afcd78e32b178a1e32811c8b718211a4bc078ce8a395e7">SAY_IMPRISIONED_BERYL_7</a>);</div>
+<div class="line"><span class="lineno">  815</span>                        caster-&gt;KilledMonsterCredit(<a class="code hl_enumvalue" href="../../d3/d09/zone__borean__tundra_8cpp.html#a6f2fd2620ffdf295515afcd78e32b178a5ab453d06d1693e52516bb430d100707">NPC_IMPRISONED_BERYL_SORCERER</a>);</div>
+<div class="line"><span class="lineno">  816</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  817</span>                }</div>
+<div class="line"><span class="lineno">  818</span>            }</div>
+<div class="line"><span class="lineno">  819</span>        }</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="aboss__fathomlord__karathress_8cpp_html_a747a224b6b3195f9a33c56ddc6c7e268"><div class="ttname"><a href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a></div><div class="ttdeci">Talk</div><div class="ttdef"><b>Definition:</b> boss_fathomlord_karathress.cpp:23</div></div>
+<div class="ttc" id="aclass_player_html"><div class="ttname"><a href="../../d8/d53/class_player.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1046</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_aeb3657e7ad09335b9a9ffa50473aa216"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#aeb3657e7ad09335b9a9ffa50473aa216">ObjectAccessor::GetPlayer</a></div><div class="ttdeci">Player * GetPlayer(Map const *, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:225</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+<div class="ttc" id="azone__borean__tundra_8cpp_html_a6f2fd2620ffdf295515afcd78e32b178a0ac92ed472704313c5dc8cdc65935b00"><div class="ttname"><a href="../../d3/d09/zone__borean__tundra_8cpp.html#a6f2fd2620ffdf295515afcd78e32b178a0ac92ed472704313c5dc8cdc65935b00">SAY_IMPRISIONED_BERYL_6</a></div><div class="ttdeci">@ SAY_IMPRISIONED_BERYL_6</div><div class="ttdef"><b>Definition:</b> zone_borean_tundra.cpp:728</div></div>
+<div class="ttc" id="azone__borean__tundra_8cpp_html_a6f2fd2620ffdf295515afcd78e32b178a1e32811c8b718211a4bc078ce8a395e7"><div class="ttname"><a href="../../d3/d09/zone__borean__tundra_8cpp.html#a6f2fd2620ffdf295515afcd78e32b178a1e32811c8b718211a4bc078ce8a395e7">SAY_IMPRISIONED_BERYL_7</a></div><div class="ttdeci">@ SAY_IMPRISIONED_BERYL_7</div><div class="ttdef"><b>Definition:</b> zone_borean_tundra.cpp:729</div></div>
+<div class="ttc" id="azone__borean__tundra_8cpp_html_a6f2fd2620ffdf295515afcd78e32b178a3b0b33e2e94be1336b9c2a1caa73d8dd"><div class="ttname"><a href="../../d3/d09/zone__borean__tundra_8cpp.html#a6f2fd2620ffdf295515afcd78e32b178a3b0b33e2e94be1336b9c2a1caa73d8dd">SAY_IMPRISIONED_BERYL_1</a></div><div class="ttdeci">@ SAY_IMPRISIONED_BERYL_1</div><div class="ttdef"><b>Definition:</b> zone_borean_tundra.cpp:723</div></div>
+<div class="ttc" id="azone__borean__tundra_8cpp_html_a6f2fd2620ffdf295515afcd78e32b178a5ab453d06d1693e52516bb430d100707"><div class="ttname"><a href="../../d3/d09/zone__borean__tundra_8cpp.html#a6f2fd2620ffdf295515afcd78e32b178a5ab453d06d1693e52516bb430d100707">NPC_IMPRISONED_BERYL_SORCERER</a></div><div class="ttdeci">@ NPC_IMPRISONED_BERYL_SORCERER</div><div class="ttdef"><b>Definition:</b> zone_borean_tundra.cpp:721</div></div>
+<div class="ttc" id="azone__borean__tundra_8cpp_html_a6f2fd2620ffdf295515afcd78e32b178a7a673d1413e43d759bfab3c2bc842cb2"><div class="ttname"><a href="../../d3/d09/zone__borean__tundra_8cpp.html#a6f2fd2620ffdf295515afcd78e32b178a7a673d1413e43d759bfab3c2bc842cb2">SAY_IMPRISIONED_BERYL_3</a></div><div class="ttdeci">@ SAY_IMPRISIONED_BERYL_3</div><div class="ttdef"><b>Definition:</b> zone_borean_tundra.cpp:725</div></div>
+<div class="ttc" id="azone__borean__tundra_8cpp_html_a6f2fd2620ffdf295515afcd78e32b178a8a2fa8e27afc12d115154acd4668fbd5"><div class="ttname"><a href="../../d3/d09/zone__borean__tundra_8cpp.html#a6f2fd2620ffdf295515afcd78e32b178a8a2fa8e27afc12d115154acd4668fbd5">SPELL_NEURAL_NEEDLE</a></div><div class="ttdeci">@ SPELL_NEURAL_NEEDLE</div><div class="ttdef"><b>Definition:</b> zone_borean_tundra.cpp:719</div></div>
+<div class="ttc" id="azone__borean__tundra_8cpp_html_a6f2fd2620ffdf295515afcd78e32b178a98aaa997cbd8824a4e9b5c50047078f5"><div class="ttname"><a href="../../d3/d09/zone__borean__tundra_8cpp.html#a6f2fd2620ffdf295515afcd78e32b178a98aaa997cbd8824a4e9b5c50047078f5">SAY_IMPRISIONED_BERYL_5</a></div><div class="ttdeci">@ SAY_IMPRISIONED_BERYL_5</div><div class="ttdef"><b>Definition:</b> zone_borean_tundra.cpp:727</div></div>
+<div class="ttc" id="azone__borean__tundra_8cpp_html_a6f2fd2620ffdf295515afcd78e32b178ae200a0fc5389ab3f15f2d98311ef20b1"><div class="ttname"><a href="../../d3/d09/zone__borean__tundra_8cpp.html#a6f2fd2620ffdf295515afcd78e32b178ae200a0fc5389ab3f15f2d98311ef20b1">SAY_IMPRISIONED_BERYL_4</a></div><div class="ttdeci">@ SAY_IMPRISIONED_BERYL_4</div><div class="ttdef"><b>Definition:</b> zone_borean_tundra.cpp:726</div></div>
+<div class="ttc" id="azone__borean__tundra_8cpp_html_a6f2fd2620ffdf295515afcd78e32b178ae6469589be1d2ce28c9eec152dd5b0f5"><div class="ttname"><a href="../../d3/d09/zone__borean__tundra_8cpp.html#a6f2fd2620ffdf295515afcd78e32b178ae6469589be1d2ce28c9eec152dd5b0f5">SAY_IMPRISIONED_BERYL_2</a></div><div class="ttdeci">@ SAY_IMPRISIONED_BERYL_2</div><div class="ttdef"><b>Definition:</b> zone_borean_tundra.cpp:724</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aedc82ee3bfa193a838d5af62533e19b4" name="aedc82ee3bfa193a838d5af62533e19b4"></a>
@@ -599,7 +649,27 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a26600c116d20a33461fc884bdb82eda9">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  744</span>        {</div>
+<div class="line"><span class="lineno">  745</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#ac8053a37866fdc948648683c358498a3">GetReactState</a>() != <a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37a8b5a7f923cba80ea3a429286eb38d0a0">REACT_PASSIVE</a>)</div>
+<div class="line"><span class="lineno">  746</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a593d295c1d4828fc930ca923a79046bd">SetReactState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37a8b5a7f923cba80ea3a429286eb38d0a0">REACT_PASSIVE</a>);</div>
+<div class="line"><span class="lineno">  747</span> </div>
+<div class="line"><span class="lineno">  748</span>            <a class="code hl_variable" href="../../dc/d06/structnpc__imprisoned__beryl__sorcerer_1_1npc__imprisoned__beryl__sorcerer_a_i.html#ac83c25091fdd3c7876a88927b758261f">rebuff</a> = 0;</div>
+<div class="line"><span class="lineno">  749</span> </div>
+<div class="line"><span class="lineno">  750</span>            <span class="comment">// xinef: correct visuals</span></div>
+<div class="line"><span class="lineno">  751</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a84ec84cb45d5d4bc29fe28c24c4f7624">UpdatePosition</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#ad5577c934d9e845b44759b67c534c3e8">GetPositionX</a>(), <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">GetPositionY</a>(), 150.517f, <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#a74cabfb8f441acb38e1abd5bf6ecdc84">GetOrientation</a>(), <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  752</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aeae261b4b6d3ccacc8819ca19b4ef0cc">SetStandState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#a809d475cf0ffeaa1ddad86f73e24a7c1a3f7e87267b36315b72f5de8594e5dcc9">UNIT_STAND_STATE_SIT_MEDIUM_CHAIR</a>);</div>
+<div class="line"><span class="lineno">  753</span>        }</div>
+<div class="ttc" id="a_unit_8h_html_a5e9099d162ad74df5a3e3f5c0f056c37a8b5a7f923cba80ea3a429286eb38d0a0"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37a8b5a7f923cba80ea3a429286eb38d0a0">REACT_PASSIVE</a></div><div class="ttdeci">@ REACT_PASSIVE</div><div class="ttdef"><b>Definition:</b> Unit.h:1023</div></div>
+<div class="ttc" id="a_unit_8h_html_a809d475cf0ffeaa1ddad86f73e24a7c1a3f7e87267b36315b72f5de8594e5dcc9"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#a809d475cf0ffeaa1ddad86f73e24a7c1a3f7e87267b36315b72f5de8594e5dcc9">UNIT_STAND_STATE_SIT_MEDIUM_CHAIR</a></div><div class="ttdeci">@ UNIT_STAND_STATE_SIT_MEDIUM_CHAIR</div><div class="ttdef"><b>Definition:</b> Unit.h:58</div></div>
+<div class="ttc" id="aclass_creature_html_a593d295c1d4828fc930ca923a79046bd"><div class="ttname"><a href="../../d1/dac/class_creature.html#a593d295c1d4828fc930ca923a79046bd">Creature::SetReactState</a></div><div class="ttdeci">void SetReactState(ReactStates st)</div><div class="ttdef"><b>Definition:</b> Creature.h:88</div></div>
+<div class="ttc" id="aclass_creature_html_ac8053a37866fdc948648683c358498a3"><div class="ttname"><a href="../../d1/dac/class_creature.html#ac8053a37866fdc948648683c358498a3">Creature::GetReactState</a></div><div class="ttdeci">ReactStates GetReactState() const</div><div class="ttdef"><b>Definition:</b> Creature.h:89</div></div>
+<div class="ttc" id="aclass_unit_html_a84ec84cb45d5d4bc29fe28c24c4f7624"><div class="ttname"><a href="../../da/db7/class_unit.html#a84ec84cb45d5d4bc29fe28c24c4f7624">Unit::UpdatePosition</a></div><div class="ttdeci">virtual bool UpdatePosition(float x, float y, float z, float ang, bool teleport=false)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:20031</div></div>
+<div class="ttc" id="aclass_unit_html_aeae261b4b6d3ccacc8819ca19b4ef0cc"><div class="ttname"><a href="../../da/db7/class_unit.html#aeae261b4b6d3ccacc8819ca19b4ef0cc">Unit::SetStandState</a></div><div class="ttdeci">void SetStandState(uint8 state)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:16812</div></div>
+<div class="ttc" id="astruct_position_html_a74cabfb8f441acb38e1abd5bf6ecdc84"><div class="ttname"><a href="../../d1/d26/struct_position.html#a74cabfb8f441acb38e1abd5bf6ecdc84">Position::GetOrientation</a></div><div class="ttdeci">float GetOrientation() const</div><div class="ttdef"><b>Definition:</b> Position.h:120</div></div>
+<div class="ttc" id="astruct_position_html_ad5577c934d9e845b44759b67c534c3e8"><div class="ttname"><a href="../../d1/d26/struct_position.html#ad5577c934d9e845b44759b67c534c3e8">Position::GetPositionX</a></div><div class="ttdeci">float GetPositionX() const</div><div class="ttdef"><b>Definition:</b> Position.h:117</div></div>
+<div class="ttc" id="astruct_position_html_ae79fc664f6cd027f5d49f6c7df8e4c9e"><div class="ttname"><a href="../../d1/d26/struct_position.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">Position::GetPositionY</a></div><div class="ttdeci">float GetPositionY() const</div><div class="ttdef"><b>Definition:</b> Position.h:118</div></div>
+<div class="ttc" id="astructnpc__imprisoned__beryl__sorcerer_1_1npc__imprisoned__beryl__sorcerer_a_i_html_ac83c25091fdd3c7876a88927b758261f"><div class="ttname"><a href="../../dc/d06/structnpc__imprisoned__beryl__sorcerer_1_1npc__imprisoned__beryl__sorcerer_a_i.html#ac83c25091fdd3c7876a88927b758261f">npc_imprisoned_beryl_sorcerer::npc_imprisoned_beryl_sorcererAI::rebuff</a></div><div class="ttdeci">uint32 rebuff</div><div class="ttdef"><b>Definition:</b> zone_borean_tundra.cpp:741</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2010b53b3a8ad1e0aa6ecb5a26c8b6c9" name="a2010b53b3a8ad1e0aa6ecb5a26c8b6c9"></a>
@@ -637,7 +707,20 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a7c4ff5a7547e75576c127ba4a514e548">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  778</span>        {</div>
+<div class="line"><span class="lineno">  779</span>            <span class="keywordflow">if</span> (spell-&gt;Id == <a class="code hl_enumvalue" href="../../d3/d09/zone__borean__tundra_8cpp.html#a6f2fd2620ffdf295515afcd78e32b178a8a2fa8e27afc12d115154acd4668fbd5">SPELL_NEURAL_NEEDLE</a> &amp;&amp; unit-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">GetTypeId</a>() == <a class="code hl_enumvalue" href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a>)</div>
+<div class="line"><span class="lineno">  780</span>            {</div>
+<div class="line"><span class="lineno">  781</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* player = unit-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a328d5f752cc33ed398b3d9861ef6929d">ToPlayer</a>())</div>
+<div class="line"><span class="lineno">  782</span>                {</div>
+<div class="line"><span class="lineno">  783</span>                    <a class="code hl_function" href="../../dc/d06/structnpc__imprisoned__beryl__sorcerer_1_1npc__imprisoned__beryl__sorcerer_a_i.html#a0729c584c3b65e5f25f4445de378f0ea">GotStinged</a>(player-&gt;GetGUID());</div>
+<div class="line"><span class="lineno">  784</span>                }</div>
+<div class="line"><span class="lineno">  785</span>            }</div>
+<div class="line"><span class="lineno">  786</span>        }</div>
+<div class="ttc" id="a_object_guid_8h_html_a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c"><div class="ttname"><a href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a></div><div class="ttdeci">@ TYPEID_PLAYER</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:38</div></div>
+<div class="ttc" id="aclass_object_html_a328d5f752cc33ed398b3d9861ef6929d"><div class="ttname"><a href="../../d8/d83/class_object.html#a328d5f752cc33ed398b3d9861ef6929d">Object::ToPlayer</a></div><div class="ttdeci">Player * ToPlayer()</div><div class="ttdef"><b>Definition:</b> Object.h:195</div></div>
+<div class="ttc" id="aclass_object_html_a621a345fc34deed6d3a4e1e498a652da"><div class="ttname"><a href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">Object::GetTypeId</a></div><div class="ttdeci">TypeID GetTypeId() const</div><div class="ttdef"><b>Definition:</b> Object.h:121</div></div>
+<div class="ttc" id="astructnpc__imprisoned__beryl__sorcerer_1_1npc__imprisoned__beryl__sorcerer_a_i_html_a0729c584c3b65e5f25f4445de378f0ea"><div class="ttname"><a href="../../dc/d06/structnpc__imprisoned__beryl__sorcerer_1_1npc__imprisoned__beryl__sorcerer_a_i.html#a0729c584c3b65e5f25f4445de378f0ea">npc_imprisoned_beryl_sorcerer::npc_imprisoned_beryl_sorcererAI::GotStinged</a></div><div class="ttdeci">void GotStinged(ObjectGuid casterGUID)</div><div class="ttdef"><b>Definition:</b> zone_borean_tundra.cpp:788</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a21def23073eeec051c1c97a813e0ea84" name="a21def23073eeec051c1c97a813e0ea84"></a>
@@ -665,7 +748,28 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#aff5fd4e142a5cf930ffacbfc7259cce5">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  756</span>        {</div>
+<div class="line"><span class="lineno">  757</span>            <a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">UpdateVictim</a>();</div>
+<div class="line"><span class="lineno">  758</span> </div>
+<div class="line"><span class="lineno">  759</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dc/d06/structnpc__imprisoned__beryl__sorcerer_1_1npc__imprisoned__beryl__sorcerer_a_i.html#ac83c25091fdd3c7876a88927b758261f">rebuff</a> &lt;= diff)</div>
+<div class="line"><span class="lineno">  760</span>            {</div>
+<div class="line"><span class="lineno">  761</span>                <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a69c5ac45b65cf0dede6e0ee837361f61">HasAura</a>(<a class="code hl_enumvalue" href="../../d3/d09/zone__borean__tundra_8cpp.html#a9f87df6e1fc3613a707440575321b281aa38de03f4b38451c61c01e6ae0381b6d">SPELL_COSMETIC_ENSLAVE_CHAINS_SELF</a>))</div>
+<div class="line"><span class="lineno">  762</span>                {</div>
+<div class="line"><span class="lineno">  763</span>                    <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_enumvalue" href="../../d3/d09/zone__borean__tundra_8cpp.html#a9f87df6e1fc3613a707440575321b281aa38de03f4b38451c61c01e6ae0381b6d">SPELL_COSMETIC_ENSLAVE_CHAINS_SELF</a>);</div>
+<div class="line"><span class="lineno">  764</span>                }</div>
+<div class="line"><span class="lineno">  765</span>                <a class="code hl_variable" href="../../dc/d06/structnpc__imprisoned__beryl__sorcerer_1_1npc__imprisoned__beryl__sorcerer_a_i.html#ac83c25091fdd3c7876a88927b758261f">rebuff</a> = 180000;</div>
+<div class="line"><span class="lineno">  766</span>            }</div>
+<div class="line"><span class="lineno">  767</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  768</span>                <a class="code hl_variable" href="../../dc/d06/structnpc__imprisoned__beryl__sorcerer_1_1npc__imprisoned__beryl__sorcerer_a_i.html#ac83c25091fdd3c7876a88927b758261f">rebuff</a> -= diff;</div>
+<div class="line"><span class="lineno">  769</span> </div>
+<div class="line"><span class="lineno">  770</span>            <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">DoMeleeAttackIfReady</a>();</div>
+<div class="line"><span class="lineno">  771</span>        }</div>
+<div class="ttc" id="aclass_creature_a_i_html_ae03ccfe1e27501ed9ccbfecdbd3c4e39"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">CreatureAI::UpdateVictim</a></div><div class="ttdeci">bool UpdateVictim()</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:268</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a348a472089a9be6210b58aace8fafa9f"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">UnitAI::DoMeleeAttackIfReady</a></div><div class="ttdeci">void DoMeleeAttackIfReady()</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:40</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_aeebcad9b6effa45145c50f06af60b23d"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">UnitAI::DoCast</a></div><div class="ttdeci">SpellCastResult DoCast(uint32 spellId)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:178</div></div>
+<div class="ttc" id="aclass_unit_html_a69c5ac45b65cf0dede6e0ee837361f61"><div class="ttname"><a href="../../da/db7/class_unit.html#a69c5ac45b65cf0dede6e0ee837361f61">Unit::HasAura</a></div><div class="ttdeci">bool HasAura(uint32 spellId, ObjectGuid casterGUID=ObjectGuid::Empty, ObjectGuid itemCasterGUID=ObjectGuid::Empty, uint8 reqEffMask=0) const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:5598</div></div>
+<div class="ttc" id="azone__borean__tundra_8cpp_html_a9f87df6e1fc3613a707440575321b281aa38de03f4b38451c61c01e6ae0381b6d"><div class="ttname"><a href="../../d3/d09/zone__borean__tundra_8cpp.html#a9f87df6e1fc3613a707440575321b281aa38de03f4b38451c61c01e6ae0381b6d">SPELL_COSMETIC_ENSLAVE_CHAINS_SELF</a></div><div class="ttdeci">@ SPELL_COSMETIC_ENSLAVE_CHAINS_SELF</div><div class="ttdef"><b>Definition:</b> zone_borean_tundra.cpp:516</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -684,7 +788,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/<a class="el" href="../../d3/d09/zone__borean__tundra_8cpp.html">zone_borean_tundra.cpp</a></li>
+<li><a class="el" href="../../">zone_borean_tundra.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -692,7 +796,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d86/classnpc__imprisoned__beryl__sorcerer.html">npc_imprisoned_beryl_sorcerer</a></li><li class="navelem"><a class="el" href="../../dc/d06/structnpc__imprisoned__beryl__sorcerer_1_1npc__imprisoned__beryl__sorcerer_a_i.html">npc_imprisoned_beryl_sorcererAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:51 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:06 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

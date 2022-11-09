@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzeorthCore: D:/azerothcore-wotlk/src/server/scripts/Northrend/Naxxramas/boss_sapphiron.cpp File Reference</title>
+<title>AzeorthCore: boss_sapphiron.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -112,12 +112,14 @@ $(document).ready(function(){initNavTree('dc/d49/boss__sapphiron_8cpp.html','../
   <div class="headertitle"><div class="title">boss_sapphiron.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../d1/d39/_player_8h_source.html">Player.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d0/d7d/_script_mgr_8h_source.html">ScriptMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d3/dad/_scripted_creature_8h_source.html">ScriptedCreature.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d1/df6/_spell_script_8h_source.html">SpellScript.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d6/d84/naxxramas_8h_source.html">naxxramas.h</a>&quot;</code><br />
-</div><table class="memberdecls">
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptedCreature.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">naxxramas.h</a>&quot;</code><br />
+</div>
+<p><a href="">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d34/classboss__sapphiron.html">boss_sapphiron</a></td></tr>
@@ -13330,7 +13332,37 @@ Functions</h2></td></tr>
 <tr><td class="fieldname"><a id="af60e00b78607064c5be6aa9397ea49c1a38de9f3389120e6c6a28b2798422db74" name="af60e00b78607064c5be6aa9397ea49c1a38de9f3389120e6c6a28b2798422db74"></a>EVENT_ARCANE_BLAST&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="af60e00b78607064c5be6aa9397ea49c1a9c1eb82ba397495012178faa3efce8f9" name="af60e00b78607064c5be6aa9397ea49c1a9c1eb82ba397495012178faa3efce8f9"></a>EVENT_BELLOWING_ROAR&#160;</td><td class="fielddoc"></td></tr>
 </table>
-
+<div class="fragment"><div class="line"><span class="lineno">   64</span>{</div>
+<div class="line"><span class="lineno">   65</span>    <a class="code hl_enumvalue" href="../../dc/d49/boss__sapphiron_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a94f1144a24a622ff9e12ebe57137f266">EVENT_BERSERK</a>                   = 1,</div>
+<div class="line"><span class="lineno">   66</span>    <a class="code hl_enumvalue" href="../../dc/d49/boss__sapphiron_8cpp.html#af60e00b78607064c5be6aa9397ea49c1ad4266671217cc53e473a6844d92ef36a">EVENT_CLEAVE</a>                    = 2,</div>
+<div class="line"><span class="lineno">   67</span>    <a class="code hl_enumvalue" href="../../dc/d49/boss__sapphiron_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a17bfc27de87051c2b38ca746bfb1b732">EVENT_TAIL_SWEEP</a>                = 3,</div>
+<div class="line"><span class="lineno">   68</span>    <a class="code hl_enumvalue" href="../../dc/d49/boss__sapphiron_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a94c2a8317a1737e1281190629eeb6855">EVENT_LIFE_DRAIN</a>                = 4,</div>
+<div class="line"><span class="lineno">   69</span>    <a class="code hl_enumvalue" href="../../dc/d49/boss__sapphiron_8cpp.html#af60e00b78607064c5be6aa9397ea49c1ac7748bbd75996b6fd1580c54fc1e883b">EVENT_BLIZZARD</a>                  = 5,</div>
+<div class="line"><span class="lineno">   70</span>    <a class="code hl_enumvalue" href="../../dc/d49/boss__sapphiron_8cpp.html#af60e00b78607064c5be6aa9397ea49c1abda46ba2baef05ca366eda88abde76a0">EVENT_FLIGHT_START</a>              = 6,</div>
+<div class="line"><span class="lineno">   71</span>    <a class="code hl_enumvalue" href="../../dc/d49/boss__sapphiron_8cpp.html#af60e00b78607064c5be6aa9397ea49c1abe3ac13e4769e945ff1bca6c51c6d736">EVENT_FLIGHT_LIFTOFF</a>            = 7,</div>
+<div class="line"><span class="lineno">   72</span>    <a class="code hl_enumvalue" href="../../dc/d49/boss__sapphiron_8cpp.html#af60e00b78607064c5be6aa9397ea49c1aa01791719f85184f63a33a611a915e2b">EVENT_FLIGHT_ICEBOLT</a>            = 8,</div>
+<div class="line"><span class="lineno">   73</span>    <a class="code hl_enumvalue" href="../../dc/d49/boss__sapphiron_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a24042a9ec5330bd014bada105a8a2afe">EVENT_FLIGHT_BREATH</a>             = 9,</div>
+<div class="line"><span class="lineno">   74</span>    <a class="code hl_enumvalue" href="../../dc/d49/boss__sapphiron_8cpp.html#af60e00b78607064c5be6aa9397ea49c1aa4c535acb8c4322e059df4a57b14bf11">EVENT_FLIGHT_SPELL_EXPLOSION</a>    = 10,</div>
+<div class="line"><span class="lineno">   75</span>    <a class="code hl_enumvalue" href="../../dc/d49/boss__sapphiron_8cpp.html#af60e00b78607064c5be6aa9397ea49c1ac6daafb50ca151d594546783ae4044e6">EVENT_FLIGHT_START_LAND</a>         = 11,</div>
+<div class="line"><span class="lineno">   76</span>    <a class="code hl_enumvalue" href="../../dc/d49/boss__sapphiron_8cpp.html#af60e00b78607064c5be6aa9397ea49c1aef91952064652c12e6294be214ba63da">EVENT_LAND</a>                      = 12,</div>
+<div class="line"><span class="lineno">   77</span>    <a class="code hl_enumvalue" href="../../dc/d49/boss__sapphiron_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a63f66cb197f5cc43c231cd4758fcc228">EVENT_GROUND</a>                    = 13,</div>
+<div class="line"><span class="lineno">   78</span>    <a class="code hl_enumvalue" href="../../dc/d49/boss__sapphiron_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a444abf4004297df94ed200e223ab5155">EVENT_HUNDRED_CLUB</a>              = 14</div>
+<div class="line"><span class="lineno">   79</span>};</div>
+<div class="ttc" id="aboss__sapphiron_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a17bfc27de87051c2b38ca746bfb1b732"><div class="ttname"><a href="../../dc/d49/boss__sapphiron_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a17bfc27de87051c2b38ca746bfb1b732">EVENT_TAIL_SWEEP</a></div><div class="ttdeci">@ EVENT_TAIL_SWEEP</div><div class="ttdef"><b>Definition:</b> boss_sapphiron.cpp:67</div></div>
+<div class="ttc" id="aboss__sapphiron_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a24042a9ec5330bd014bada105a8a2afe"><div class="ttname"><a href="../../dc/d49/boss__sapphiron_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a24042a9ec5330bd014bada105a8a2afe">EVENT_FLIGHT_BREATH</a></div><div class="ttdeci">@ EVENT_FLIGHT_BREATH</div><div class="ttdef"><b>Definition:</b> boss_sapphiron.cpp:73</div></div>
+<div class="ttc" id="aboss__sapphiron_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a444abf4004297df94ed200e223ab5155"><div class="ttname"><a href="../../dc/d49/boss__sapphiron_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a444abf4004297df94ed200e223ab5155">EVENT_HUNDRED_CLUB</a></div><div class="ttdeci">@ EVENT_HUNDRED_CLUB</div><div class="ttdef"><b>Definition:</b> boss_sapphiron.cpp:78</div></div>
+<div class="ttc" id="aboss__sapphiron_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a63f66cb197f5cc43c231cd4758fcc228"><div class="ttname"><a href="../../dc/d49/boss__sapphiron_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a63f66cb197f5cc43c231cd4758fcc228">EVENT_GROUND</a></div><div class="ttdeci">@ EVENT_GROUND</div><div class="ttdef"><b>Definition:</b> boss_sapphiron.cpp:77</div></div>
+<div class="ttc" id="aboss__sapphiron_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a94c2a8317a1737e1281190629eeb6855"><div class="ttname"><a href="../../dc/d49/boss__sapphiron_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a94c2a8317a1737e1281190629eeb6855">EVENT_LIFE_DRAIN</a></div><div class="ttdeci">@ EVENT_LIFE_DRAIN</div><div class="ttdef"><b>Definition:</b> boss_sapphiron.cpp:68</div></div>
+<div class="ttc" id="aboss__sapphiron_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a94f1144a24a622ff9e12ebe57137f266"><div class="ttname"><a href="../../dc/d49/boss__sapphiron_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a94f1144a24a622ff9e12ebe57137f266">EVENT_BERSERK</a></div><div class="ttdeci">@ EVENT_BERSERK</div><div class="ttdef"><b>Definition:</b> boss_sapphiron.cpp:65</div></div>
+<div class="ttc" id="aboss__sapphiron_8cpp_html_af60e00b78607064c5be6aa9397ea49c1aa01791719f85184f63a33a611a915e2b"><div class="ttname"><a href="../../dc/d49/boss__sapphiron_8cpp.html#af60e00b78607064c5be6aa9397ea49c1aa01791719f85184f63a33a611a915e2b">EVENT_FLIGHT_ICEBOLT</a></div><div class="ttdeci">@ EVENT_FLIGHT_ICEBOLT</div><div class="ttdef"><b>Definition:</b> boss_sapphiron.cpp:72</div></div>
+<div class="ttc" id="aboss__sapphiron_8cpp_html_af60e00b78607064c5be6aa9397ea49c1aa4c535acb8c4322e059df4a57b14bf11"><div class="ttname"><a href="../../dc/d49/boss__sapphiron_8cpp.html#af60e00b78607064c5be6aa9397ea49c1aa4c535acb8c4322e059df4a57b14bf11">EVENT_FLIGHT_SPELL_EXPLOSION</a></div><div class="ttdeci">@ EVENT_FLIGHT_SPELL_EXPLOSION</div><div class="ttdef"><b>Definition:</b> boss_sapphiron.cpp:74</div></div>
+<div class="ttc" id="aboss__sapphiron_8cpp_html_af60e00b78607064c5be6aa9397ea49c1abda46ba2baef05ca366eda88abde76a0"><div class="ttname"><a href="../../dc/d49/boss__sapphiron_8cpp.html#af60e00b78607064c5be6aa9397ea49c1abda46ba2baef05ca366eda88abde76a0">EVENT_FLIGHT_START</a></div><div class="ttdeci">@ EVENT_FLIGHT_START</div><div class="ttdef"><b>Definition:</b> boss_sapphiron.cpp:70</div></div>
+<div class="ttc" id="aboss__sapphiron_8cpp_html_af60e00b78607064c5be6aa9397ea49c1abe3ac13e4769e945ff1bca6c51c6d736"><div class="ttname"><a href="../../dc/d49/boss__sapphiron_8cpp.html#af60e00b78607064c5be6aa9397ea49c1abe3ac13e4769e945ff1bca6c51c6d736">EVENT_FLIGHT_LIFTOFF</a></div><div class="ttdeci">@ EVENT_FLIGHT_LIFTOFF</div><div class="ttdef"><b>Definition:</b> boss_sapphiron.cpp:71</div></div>
+<div class="ttc" id="aboss__sapphiron_8cpp_html_af60e00b78607064c5be6aa9397ea49c1ac6daafb50ca151d594546783ae4044e6"><div class="ttname"><a href="../../dc/d49/boss__sapphiron_8cpp.html#af60e00b78607064c5be6aa9397ea49c1ac6daafb50ca151d594546783ae4044e6">EVENT_FLIGHT_START_LAND</a></div><div class="ttdeci">@ EVENT_FLIGHT_START_LAND</div><div class="ttdef"><b>Definition:</b> boss_sapphiron.cpp:75</div></div>
+<div class="ttc" id="aboss__sapphiron_8cpp_html_af60e00b78607064c5be6aa9397ea49c1ac7748bbd75996b6fd1580c54fc1e883b"><div class="ttname"><a href="../../dc/d49/boss__sapphiron_8cpp.html#af60e00b78607064c5be6aa9397ea49c1ac7748bbd75996b6fd1580c54fc1e883b">EVENT_BLIZZARD</a></div><div class="ttdeci">@ EVENT_BLIZZARD</div><div class="ttdef"><b>Definition:</b> boss_sapphiron.cpp:69</div></div>
+<div class="ttc" id="aboss__sapphiron_8cpp_html_af60e00b78607064c5be6aa9397ea49c1ad4266671217cc53e473a6844d92ef36a"><div class="ttname"><a href="../../dc/d49/boss__sapphiron_8cpp.html#af60e00b78607064c5be6aa9397ea49c1ad4266671217cc53e473a6844d92ef36a">EVENT_CLEAVE</a></div><div class="ttdeci">@ EVENT_CLEAVE</div><div class="ttdef"><b>Definition:</b> boss_sapphiron.cpp:66</div></div>
+<div class="ttc" id="aboss__sapphiron_8cpp_html_af60e00b78607064c5be6aa9397ea49c1aef91952064652c12e6294be214ba63da"><div class="ttname"><a href="../../dc/d49/boss__sapphiron_8cpp.html#af60e00b78607064c5be6aa9397ea49c1aef91952064652c12e6294be214ba63da">EVENT_LAND</a></div><div class="ttdeci">@ EVENT_LAND</div><div class="ttdef"><b>Definition:</b> boss_sapphiron.cpp:76</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a3329d9d369a4ae5cfa5d8eac33a0c0c6" name="a3329d9d369a4ae5cfa5d8eac33a0c0c6"></a>
@@ -14366,7 +14398,16 @@ Functions</h2></td></tr>
 <tr><td class="fieldname"><a id="a3329d9d369a4ae5cfa5d8eac33a0c0c6ab4e2567cf14e7f5312e0df378558e2cb" name="a3329d9d369a4ae5cfa5d8eac33a0c0c6ab4e2567cf14e7f5312e0df378558e2cb"></a>EVENT_SCENE_16&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a3329d9d369a4ae5cfa5d8eac33a0c0c6afaba2ba84c4b5d02f3948821fd5850b3" name="a3329d9d369a4ae5cfa5d8eac33a0c0c6afaba2ba84c4b5d02f3948821fd5850b3"></a>NPC_DK_GHOUL&#160;</td><td class="fielddoc"></td></tr>
 </table>
-
+<div class="fragment"><div class="line"><span class="lineno">   56</span>{</div>
+<div class="line"><span class="lineno">   57</span>    <a class="code hl_enumvalue" href="../../dc/d49/boss__sapphiron_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a41aed87dcb29c9f3fd8f7a9f49754f5b">GO_ICE_BLOCK</a>                    = 181247,</div>
+<div class="line"><span class="lineno">   58</span>    <a class="code hl_enumvalue" href="../../dc/d49/boss__sapphiron_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a5caf019185f00353845ac0d87b9684ee">NPC_BLIZZARD</a>                    = 16474,</div>
+<div class="line"><span class="lineno">   59</span> </div>
+<div class="line"><span class="lineno">   60</span>    <a class="code hl_enumvalue" href="../../dc/d49/boss__sapphiron_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a35c48d5f51bc05447105b2cfb112e69f">POINT_CENTER</a>                    = 1</div>
+<div class="line"><span class="lineno">   61</span>};</div>
+<div class="ttc" id="aboss__sapphiron_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a35c48d5f51bc05447105b2cfb112e69f"><div class="ttname"><a href="../../dc/d49/boss__sapphiron_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a35c48d5f51bc05447105b2cfb112e69f">POINT_CENTER</a></div><div class="ttdeci">@ POINT_CENTER</div><div class="ttdef"><b>Definition:</b> boss_sapphiron.cpp:60</div></div>
+<div class="ttc" id="aboss__sapphiron_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a41aed87dcb29c9f3fd8f7a9f49754f5b"><div class="ttname"><a href="../../dc/d49/boss__sapphiron_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a41aed87dcb29c9f3fd8f7a9f49754f5b">GO_ICE_BLOCK</a></div><div class="ttdeci">@ GO_ICE_BLOCK</div><div class="ttdef"><b>Definition:</b> boss_sapphiron.cpp:57</div></div>
+<div class="ttc" id="aboss__sapphiron_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a5caf019185f00353845ac0d87b9684ee"><div class="ttname"><a href="../../dc/d49/boss__sapphiron_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a5caf019185f00353845ac0d87b9684ee">NPC_BLIZZARD</a></div><div class="ttdeci">@ NPC_BLIZZARD</div><div class="ttdef"><b>Definition:</b> boss_sapphiron.cpp:58</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a5bd342133be8c2137b831460acc9298c" name="a5bd342133be8c2137b831460acc9298c"></a>
@@ -17278,7 +17319,42 @@ Functions</h2></td></tr>
 <tr><td class="fieldname"><a id="a5bd342133be8c2137b831460acc9298ca504d01cfc63a8b604bcd1b8e4885a5df" name="a5bd342133be8c2137b831460acc9298ca504d01cfc63a8b604bcd1b8e4885a5df"></a>SPELL_SUMMON_NETHER_WRAITH_3&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a5bd342133be8c2137b831460acc9298cab148123342fab6e991d3dcc39a339386" name="a5bd342133be8c2137b831460acc9298cab148123342fab6e991d3dcc39a339386"></a>SPELL_SUMMON_NETHER_WRAITH_4&#160;</td><td class="fielddoc"></td></tr>
 </table>
-
+<div class="fragment"><div class="line"><span class="lineno">   33</span>{</div>
+<div class="line"><span class="lineno">   34</span>    <span class="comment">// Fight</span></div>
+<div class="line"><span class="lineno">   35</span>    <a class="code hl_enumvalue" href="../../dc/d49/boss__sapphiron_8cpp.html#a5bd342133be8c2137b831460acc9298ca492a1947943bd9ff583db8f536f9b3de">SPELL_FROST_AURA_10</a>             = 28531,</div>
+<div class="line"><span class="lineno">   36</span>    <a class="code hl_enumvalue" href="../../dc/d49/boss__sapphiron_8cpp.html#a5bd342133be8c2137b831460acc9298ca6cbc39ecd730d874aeb994a86461cd2a">SPELL_FROST_AURA_25</a>             = 55799,</div>
+<div class="line"><span class="lineno">   37</span>    <a class="code hl_enumvalue" href="../../dc/d49/boss__sapphiron_8cpp.html#a5bd342133be8c2137b831460acc9298ca0de0a536dbf18ec5c2e76cfee1d751eb">SPELL_CLEAVE</a>                    = 19983,</div>
+<div class="line"><span class="lineno">   38</span>    <a class="code hl_enumvalue" href="../../dc/d49/boss__sapphiron_8cpp.html#a5bd342133be8c2137b831460acc9298ca0ebf40fe58c052a4c2dfe69ad8b98aee">SPELL_TAIL_SWEEP_10</a>             = 55697,</div>
+<div class="line"><span class="lineno">   39</span>    <a class="code hl_enumvalue" href="../../dc/d49/boss__sapphiron_8cpp.html#a5bd342133be8c2137b831460acc9298caf1bce68d7f9217b4d5c96b6b7850e3f8">SPELL_TAIL_SWEEP_25</a>             = 55696,</div>
+<div class="line"><span class="lineno">   40</span>    <a class="code hl_enumvalue" href="../../dc/d49/boss__sapphiron_8cpp.html#a5bd342133be8c2137b831460acc9298cac82d546d00dd6af58e94f9bbf0f6fad4">SPELL_SUMMON_BLIZZARD</a>           = 28560,</div>
+<div class="line"><span class="lineno">   41</span>    <a class="code hl_enumvalue" href="../../dc/d49/boss__sapphiron_8cpp.html#a5bd342133be8c2137b831460acc9298caf8e17f55745f1a3b78a47a8ee1264ad2">SPELL_LIFE_DRAIN_10</a>             = 28542,</div>
+<div class="line"><span class="lineno">   42</span>    <a class="code hl_enumvalue" href="../../dc/d49/boss__sapphiron_8cpp.html#a5bd342133be8c2137b831460acc9298cafc1e420bbd6ed8b8cb100622bb12d474">SPELL_LIFE_DRAIN_25</a>             = 55665,</div>
+<div class="line"><span class="lineno">   43</span>    <a class="code hl_enumvalue" href="../../dc/d49/boss__sapphiron_8cpp.html#a5bd342133be8c2137b831460acc9298cad7b3e50b45f9949cd0e4030ca19a6b4f">SPELL_BERSERK</a>                   = 26662,</div>
+<div class="line"><span class="lineno">   44</span> </div>
+<div class="line"><span class="lineno">   45</span>    <span class="comment">// Ice block</span></div>
+<div class="line"><span class="lineno">   46</span>    <a class="code hl_enumvalue" href="../../dc/d49/boss__sapphiron_8cpp.html#a5bd342133be8c2137b831460acc9298caa3d23300dbc2574a11981b6aac1ddf51">SPELL_ICEBOLT_CAST</a>              = 28526,</div>
+<div class="line"><span class="lineno">   47</span>    <a class="code hl_enumvalue" href="../../dc/d49/boss__sapphiron_8cpp.html#a5bd342133be8c2137b831460acc9298ca0da708c83d8321142ad79ababb74393c">SPELL_ICEBOLT_TRIGGER</a>           = 28522,</div>
+<div class="line"><span class="lineno">   48</span>    <a class="code hl_enumvalue" href="../../dc/d49/boss__sapphiron_8cpp.html#a5bd342133be8c2137b831460acc9298cace9ccdb83b868b64c6d32698148b04b9">SPELL_FROST_MISSILE</a>             = 30101,</div>
+<div class="line"><span class="lineno">   49</span>    <a class="code hl_enumvalue" href="../../dc/d49/boss__sapphiron_8cpp.html#a5bd342133be8c2137b831460acc9298cac6acbf11d05843e56c9048a89bd6fd12">SPELL_FROST_EXPLOSION</a>           = 28524,</div>
+<div class="line"><span class="lineno">   50</span> </div>
+<div class="line"><span class="lineno">   51</span>    <span class="comment">// Visuals</span></div>
+<div class="line"><span class="lineno">   52</span>    <a class="code hl_enumvalue" href="../../dc/d49/boss__sapphiron_8cpp.html#a5bd342133be8c2137b831460acc9298ca73e465881589fa02b898ab6929c2c977">SPELL_SAPPHIRON_DIES</a>            = 29357</div>
+<div class="line"><span class="lineno">   53</span>};</div>
+<div class="ttc" id="aboss__sapphiron_8cpp_html_a5bd342133be8c2137b831460acc9298ca0da708c83d8321142ad79ababb74393c"><div class="ttname"><a href="../../dc/d49/boss__sapphiron_8cpp.html#a5bd342133be8c2137b831460acc9298ca0da708c83d8321142ad79ababb74393c">SPELL_ICEBOLT_TRIGGER</a></div><div class="ttdeci">@ SPELL_ICEBOLT_TRIGGER</div><div class="ttdef"><b>Definition:</b> boss_sapphiron.cpp:47</div></div>
+<div class="ttc" id="aboss__sapphiron_8cpp_html_a5bd342133be8c2137b831460acc9298ca0de0a536dbf18ec5c2e76cfee1d751eb"><div class="ttname"><a href="../../dc/d49/boss__sapphiron_8cpp.html#a5bd342133be8c2137b831460acc9298ca0de0a536dbf18ec5c2e76cfee1d751eb">SPELL_CLEAVE</a></div><div class="ttdeci">@ SPELL_CLEAVE</div><div class="ttdef"><b>Definition:</b> boss_sapphiron.cpp:37</div></div>
+<div class="ttc" id="aboss__sapphiron_8cpp_html_a5bd342133be8c2137b831460acc9298ca0ebf40fe58c052a4c2dfe69ad8b98aee"><div class="ttname"><a href="../../dc/d49/boss__sapphiron_8cpp.html#a5bd342133be8c2137b831460acc9298ca0ebf40fe58c052a4c2dfe69ad8b98aee">SPELL_TAIL_SWEEP_10</a></div><div class="ttdeci">@ SPELL_TAIL_SWEEP_10</div><div class="ttdef"><b>Definition:</b> boss_sapphiron.cpp:38</div></div>
+<div class="ttc" id="aboss__sapphiron_8cpp_html_a5bd342133be8c2137b831460acc9298ca492a1947943bd9ff583db8f536f9b3de"><div class="ttname"><a href="../../dc/d49/boss__sapphiron_8cpp.html#a5bd342133be8c2137b831460acc9298ca492a1947943bd9ff583db8f536f9b3de">SPELL_FROST_AURA_10</a></div><div class="ttdeci">@ SPELL_FROST_AURA_10</div><div class="ttdef"><b>Definition:</b> boss_sapphiron.cpp:35</div></div>
+<div class="ttc" id="aboss__sapphiron_8cpp_html_a5bd342133be8c2137b831460acc9298ca6cbc39ecd730d874aeb994a86461cd2a"><div class="ttname"><a href="../../dc/d49/boss__sapphiron_8cpp.html#a5bd342133be8c2137b831460acc9298ca6cbc39ecd730d874aeb994a86461cd2a">SPELL_FROST_AURA_25</a></div><div class="ttdeci">@ SPELL_FROST_AURA_25</div><div class="ttdef"><b>Definition:</b> boss_sapphiron.cpp:36</div></div>
+<div class="ttc" id="aboss__sapphiron_8cpp_html_a5bd342133be8c2137b831460acc9298ca73e465881589fa02b898ab6929c2c977"><div class="ttname"><a href="../../dc/d49/boss__sapphiron_8cpp.html#a5bd342133be8c2137b831460acc9298ca73e465881589fa02b898ab6929c2c977">SPELL_SAPPHIRON_DIES</a></div><div class="ttdeci">@ SPELL_SAPPHIRON_DIES</div><div class="ttdef"><b>Definition:</b> boss_sapphiron.cpp:52</div></div>
+<div class="ttc" id="aboss__sapphiron_8cpp_html_a5bd342133be8c2137b831460acc9298caa3d23300dbc2574a11981b6aac1ddf51"><div class="ttname"><a href="../../dc/d49/boss__sapphiron_8cpp.html#a5bd342133be8c2137b831460acc9298caa3d23300dbc2574a11981b6aac1ddf51">SPELL_ICEBOLT_CAST</a></div><div class="ttdeci">@ SPELL_ICEBOLT_CAST</div><div class="ttdef"><b>Definition:</b> boss_sapphiron.cpp:46</div></div>
+<div class="ttc" id="aboss__sapphiron_8cpp_html_a5bd342133be8c2137b831460acc9298cac6acbf11d05843e56c9048a89bd6fd12"><div class="ttname"><a href="../../dc/d49/boss__sapphiron_8cpp.html#a5bd342133be8c2137b831460acc9298cac6acbf11d05843e56c9048a89bd6fd12">SPELL_FROST_EXPLOSION</a></div><div class="ttdeci">@ SPELL_FROST_EXPLOSION</div><div class="ttdef"><b>Definition:</b> boss_sapphiron.cpp:49</div></div>
+<div class="ttc" id="aboss__sapphiron_8cpp_html_a5bd342133be8c2137b831460acc9298cac82d546d00dd6af58e94f9bbf0f6fad4"><div class="ttname"><a href="../../dc/d49/boss__sapphiron_8cpp.html#a5bd342133be8c2137b831460acc9298cac82d546d00dd6af58e94f9bbf0f6fad4">SPELL_SUMMON_BLIZZARD</a></div><div class="ttdeci">@ SPELL_SUMMON_BLIZZARD</div><div class="ttdef"><b>Definition:</b> boss_sapphiron.cpp:40</div></div>
+<div class="ttc" id="aboss__sapphiron_8cpp_html_a5bd342133be8c2137b831460acc9298cace9ccdb83b868b64c6d32698148b04b9"><div class="ttname"><a href="../../dc/d49/boss__sapphiron_8cpp.html#a5bd342133be8c2137b831460acc9298cace9ccdb83b868b64c6d32698148b04b9">SPELL_FROST_MISSILE</a></div><div class="ttdeci">@ SPELL_FROST_MISSILE</div><div class="ttdef"><b>Definition:</b> boss_sapphiron.cpp:48</div></div>
+<div class="ttc" id="aboss__sapphiron_8cpp_html_a5bd342133be8c2137b831460acc9298cad7b3e50b45f9949cd0e4030ca19a6b4f"><div class="ttname"><a href="../../dc/d49/boss__sapphiron_8cpp.html#a5bd342133be8c2137b831460acc9298cad7b3e50b45f9949cd0e4030ca19a6b4f">SPELL_BERSERK</a></div><div class="ttdeci">@ SPELL_BERSERK</div><div class="ttdef"><b>Definition:</b> boss_sapphiron.cpp:43</div></div>
+<div class="ttc" id="aboss__sapphiron_8cpp_html_a5bd342133be8c2137b831460acc9298caf1bce68d7f9217b4d5c96b6b7850e3f8"><div class="ttname"><a href="../../dc/d49/boss__sapphiron_8cpp.html#a5bd342133be8c2137b831460acc9298caf1bce68d7f9217b4d5c96b6b7850e3f8">SPELL_TAIL_SWEEP_25</a></div><div class="ttdeci">@ SPELL_TAIL_SWEEP_25</div><div class="ttdef"><b>Definition:</b> boss_sapphiron.cpp:39</div></div>
+<div class="ttc" id="aboss__sapphiron_8cpp_html_a5bd342133be8c2137b831460acc9298caf8e17f55745f1a3b78a47a8ee1264ad2"><div class="ttname"><a href="../../dc/d49/boss__sapphiron_8cpp.html#a5bd342133be8c2137b831460acc9298caf8e17f55745f1a3b78a47a8ee1264ad2">SPELL_LIFE_DRAIN_10</a></div><div class="ttdeci">@ SPELL_LIFE_DRAIN_10</div><div class="ttdef"><b>Definition:</b> boss_sapphiron.cpp:41</div></div>
+<div class="ttc" id="aboss__sapphiron_8cpp_html_a5bd342133be8c2137b831460acc9298cafc1e420bbd6ed8b8cb100622bb12d474"><div class="ttname"><a href="../../dc/d49/boss__sapphiron_8cpp.html#a5bd342133be8c2137b831460acc9298cafc1e420bbd6ed8b8cb100622bb12d474">SPELL_LIFE_DRAIN_25</a></div><div class="ttdeci">@ SPELL_LIFE_DRAIN_25</div><div class="ttdef"><b>Definition:</b> boss_sapphiron.cpp:42</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a34a1b224b8db54cacd01d75b910f04e3" name="a34a1b224b8db54cacd01d75b910f04e3"></a>
@@ -17773,7 +17849,17 @@ Functions</h2></td></tr>
 <tr><td class="fieldname"><a id="a34a1b224b8db54cacd01d75b910f04e3aaff7201ebe3a2de7322accea1f9266f6" name="a34a1b224b8db54cacd01d75b910f04e3aaff7201ebe3a2de7322accea1f9266f6"></a>YELL_KILL&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a34a1b224b8db54cacd01d75b910f04e3ab0554bb474effa5a810d32f250d0c1e5" name="a34a1b224b8db54cacd01d75b910f04e3ab0554bb474effa5a810d32f250d0c1e5"></a>YELL_DEATH&#160;</td><td class="fielddoc"></td></tr>
 </table>
-
+<div class="fragment"><div class="line"><span class="lineno">   25</span>{</div>
+<div class="line"><span class="lineno">   26</span>    <a class="code hl_enumvalue" href="../../dc/d49/boss__sapphiron_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3a3ba35f3cfe82848739530ab5d5737c4f">EMOTE_AIR_PHASE</a>         = 0,</div>
+<div class="line"><span class="lineno">   27</span>    <a class="code hl_enumvalue" href="../../dc/d49/boss__sapphiron_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3a9ced0786c5d62dfaf14223025ed6a354">EMOTE_GROUND_PHASE</a>      = 1,</div>
+<div class="line"><span class="lineno">   28</span>    <a class="code hl_enumvalue" href="../../dc/d49/boss__sapphiron_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3a50c8ef575df67b3816d12afc28db8162">EMOTE_BREATH</a>            = 2,</div>
+<div class="line"><span class="lineno">   29</span>    <a class="code hl_enumvalue" href="../../dc/d49/boss__sapphiron_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3a81024d2fa77c20eddf3d080ee9947126">EMOTE_ENRAGE</a>            = 3</div>
+<div class="line"><span class="lineno">   30</span>};</div>
+<div class="ttc" id="aboss__sapphiron_8cpp_html_a34a1b224b8db54cacd01d75b910f04e3a3ba35f3cfe82848739530ab5d5737c4f"><div class="ttname"><a href="../../dc/d49/boss__sapphiron_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3a3ba35f3cfe82848739530ab5d5737c4f">EMOTE_AIR_PHASE</a></div><div class="ttdeci">@ EMOTE_AIR_PHASE</div><div class="ttdef"><b>Definition:</b> boss_sapphiron.cpp:26</div></div>
+<div class="ttc" id="aboss__sapphiron_8cpp_html_a34a1b224b8db54cacd01d75b910f04e3a50c8ef575df67b3816d12afc28db8162"><div class="ttname"><a href="../../dc/d49/boss__sapphiron_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3a50c8ef575df67b3816d12afc28db8162">EMOTE_BREATH</a></div><div class="ttdeci">@ EMOTE_BREATH</div><div class="ttdef"><b>Definition:</b> boss_sapphiron.cpp:28</div></div>
+<div class="ttc" id="aboss__sapphiron_8cpp_html_a34a1b224b8db54cacd01d75b910f04e3a81024d2fa77c20eddf3d080ee9947126"><div class="ttname"><a href="../../dc/d49/boss__sapphiron_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3a81024d2fa77c20eddf3d080ee9947126">EMOTE_ENRAGE</a></div><div class="ttdeci">@ EMOTE_ENRAGE</div><div class="ttdef"><b>Definition:</b> boss_sapphiron.cpp:29</div></div>
+<div class="ttc" id="aboss__sapphiron_8cpp_html_a34a1b224b8db54cacd01d75b910f04e3a9ced0786c5d62dfaf14223025ed6a354"><div class="ttname"><a href="../../dc/d49/boss__sapphiron_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3a9ced0786c5d62dfaf14223025ed6a354">EMOTE_GROUND_PHASE</a></div><div class="ttdeci">@ EMOTE_GROUND_PHASE</div><div class="ttdef"><b>Definition:</b> boss_sapphiron.cpp:27</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
@@ -17791,7 +17877,13 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  462</span>{</div>
+<div class="line"><span class="lineno">  463</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d9/d34/classboss__sapphiron.html">boss_sapphiron</a>();</div>
+<div class="line"><span class="lineno">  464</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d8/d38/classspell__sapphiron__frost__explosion.html">spell_sapphiron_frost_explosion</a>();</div>
+<div class="line"><span class="lineno">  465</span>}</div>
+<div class="ttc" id="aclassboss__sapphiron_html"><div class="ttname"><a href="../../d9/d34/classboss__sapphiron.html">boss_sapphiron</a></div><div class="ttdef"><b>Definition:</b> boss_sapphiron.cpp:82</div></div>
+<div class="ttc" id="aclassspell__sapphiron__frost__explosion_html"><div class="ttname"><a href="../../d8/d38/classspell__sapphiron__frost__explosion.html">spell_sapphiron_frost_explosion</a></div><div class="ttdef"><b>Definition:</b> boss_sapphiron.cpp:420</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
@@ -17800,7 +17892,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_81f27dfa25f27c55a8e8044b1a11fbfb.html">Northrend</a></li><li class="navelem"><a class="el" href="../../dir_d398bc29d4ac2bbbb9d86fcdd4564fe5.html">Naxxramas</a></li><li class="navelem"><a class="el" href="../../dc/d49/boss__sapphiron_8cpp.html">boss_sapphiron.cpp</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:30 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:42 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

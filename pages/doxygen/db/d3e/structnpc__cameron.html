@@ -501,7 +501,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a45e47ec5c9dadc6f0899e83ac2e19cff" name="a45e47ec5c9dadc6f0899e83ac2e19cff"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a45e47ec5c9dadc6f0899e83ac2e19cff">&#9670;&#160;</a></span>npc_cameron()</h2>
 
@@ -525,7 +526,13 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   72</span>                                    : <a class="code hl_struct" href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a>(creature)</div>
+<div class="line"><span class="lineno">   73</span>    {</div>
+<div class="line"><span class="lineno">   74</span>        <a class="code hl_variable" href="../../db/d3e/structnpc__cameron.html#a985d0590eedde340a3923e299d4dffd8">_started</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   75</span>    }</div>
+<div class="ttc" id="astruct_scripted_a_i_html"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
+<div class="ttc" id="astructnpc__cameron_html_a985d0590eedde340a3923e299d4dffd8"><div class="ttname"><a href="../../db/d3e/structnpc__cameron.html#a985d0590eedde340a3923e299d4dffd8">npc_cameron::_started</a></div><div class="ttdeci">bool _started</div><div class="ttdef"><b>Definition:</b> zone_elwynn_forest.cpp:253</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -551,7 +558,47 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   90</span>    {</div>
+<div class="line"><span class="lineno">   91</span>        std::vector&lt;Position&gt; MovePosPositions =</div>
+<div class="line"><span class="lineno">   92</span>        {</div>
+<div class="line"><span class="lineno">   93</span>            { -9373.521f, -67.71767f, 69.201965f, 1.117011f },</div>
+<div class="line"><span class="lineno">   94</span>            { -9374.94f, -62.51654f, 69.201965f, 5.201081f },</div>
+<div class="line"><span class="lineno">   95</span>            { -9371.013f, -71.20811f, 69.201965f, 1.937315f },</div>
+<div class="line"><span class="lineno">   96</span>            { -9368.419f, -66.47543f, 69.201965f, 3.141593f },</div>
+<div class="line"><span class="lineno">   97</span>            { -9372.376f, -65.49946f, 69.201965f, 4.206244f },</div>
+<div class="line"><span class="lineno">   98</span>            { -9377.477f, -67.8297f, 69.201965f, 0.296706f }</div>
+<div class="line"><span class="lineno">   99</span>        };</div>
+<div class="line"><span class="lineno">  100</span> </div>
+<div class="line"><span class="lineno">  101</span>        <a class="code hl_function" href="../../d0/df6/namespace_acore_1_1_containers.html#a4585a27b1f592547062d7bc039cff3b4">Acore::Containers::RandomShuffle</a>(MovePosPositions);</div>
+<div class="line"><span class="lineno">  102</span> </div>
+<div class="line"><span class="lineno">  103</span>        <span class="comment">// first we break formation because children will need to move on their own now</span></div>
+<div class="line"><span class="lineno">  104</span>        <span class="keywordflow">for</span> (<span class="keyword">auto</span> guid : <a class="code hl_variable" href="../../db/d3e/structnpc__cameron.html#ad260466902e8fb1a2e02998cc4549695">_childrenGUIDs</a>)</div>
+<div class="line"><span class="lineno">  105</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* child = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a>(*<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, guid))</div>
+<div class="line"><span class="lineno">  106</span>                <span class="keywordflow">if</span> (child-&gt;GetFormation())</div>
+<div class="line"><span class="lineno">  107</span>                    child-&gt;GetFormation()-&gt;RemoveMember(child);</div>
+<div class="line"><span class="lineno">  108</span> </div>
+<div class="line"><span class="lineno">  109</span>        <span class="comment">// Move each child to an random position</span></div>
+<div class="line"><span class="lineno">  110</span>        <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> i = 0; i &lt; <a class="code hl_variable" href="../../db/d3e/structnpc__cameron.html#ad260466902e8fb1a2e02998cc4549695">_childrenGUIDs</a>.size(); ++i)</div>
+<div class="line"><span class="lineno">  111</span>        {</div>
+<div class="line"><span class="lineno">  112</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* children = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a>(*<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_variable" href="../../db/d3e/structnpc__cameron.html#ad260466902e8fb1a2e02998cc4549695">_childrenGUIDs</a>[i]))</div>
+<div class="line"><span class="lineno">  113</span>            {</div>
+<div class="line"><span class="lineno">  114</span>                children-&gt;SetWalk(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  115</span>                children-&gt;GetMotionMaster()-&gt;MovePoint(0, MovePosPositions[i], <span class="keyword">true</span>, MovePosPositions[i].GetOrientation());</div>
+<div class="line"><span class="lineno">  116</span>            }</div>
+<div class="line"><span class="lineno">  117</span>        }</div>
+<div class="line"><span class="lineno">  118</span>        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#acb4a26180cdcb2266736f6aea4a695d8">SetWalk</a>(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  119</span>        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../df/d4d/class_motion_master.html#a903a48c63482ebbd45d63272b218df7f">MovePoint</a>(0, MovePosPositions.back(), <span class="keyword">true</span>, MovePosPositions.back().GetOrientation());</div>
+<div class="line"><span class="lineno">  120</span>    }</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_creature_html_acb4a26180cdcb2266736f6aea4a695d8"><div class="ttname"><a href="../../d1/dac/class_creature.html#acb4a26180cdcb2266736f6aea4a695d8">Creature::SetWalk</a></div><div class="ttdeci">bool SetWalk(bool enable) override</div><div class="ttdef"><b>Definition:</b> Creature.cpp:3053</div></div>
+<div class="ttc" id="aclass_motion_master_html_a903a48c63482ebbd45d63272b218df7f"><div class="ttname"><a href="../../df/d4d/class_motion_master.html#a903a48c63482ebbd45d63272b218df7f">MotionMaster::MovePoint</a></div><div class="ttdeci">void MovePoint(uint32 id, const Position &amp;pos, bool generatePath=true, bool forceDestination=true)</div><div class="ttdef"><b>Definition:</b> MotionMaster.h:210</div></div>
+<div class="ttc" id="aclass_unit_html_a4a04a3f22c3b0d6f4933993ac0cc7aa4"><div class="ttname"><a href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">Unit::GetMotionMaster</a></div><div class="ttdeci">MotionMaster * GetMotionMaster()</div><div class="ttdef"><b>Definition:</b> Unit.h:2257</div></div>
+<div class="ttc" id="anamespace_acore_1_1_containers_html_a4585a27b1f592547062d7bc039cff3b4"><div class="ttname"><a href="../../d0/df6/namespace_acore_1_1_containers.html#a4585a27b1f592547062d7bc039cff3b4">Acore::Containers::RandomShuffle</a></div><div class="ttdeci">void RandomShuffle(C &amp;container)</div><div class="ttdef"><b>Definition:</b> Containers.h:207</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_ae42e503fe79bbeaea1aaa665418c43f8"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a></div><div class="ttdeci">Creature * GetCreature(WorldObject const &amp;u, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:215</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+<div class="ttc" id="astructnpc__cameron_html_ad260466902e8fb1a2e02998cc4549695"><div class="ttname"><a href="../../db/d3e/structnpc__cameron.html#ad260466902e8fb1a2e02998cc4549695">npc_cameron::_childrenGUIDs</a></div><div class="ttdeci">GuidVector _childrenGUIDs</div><div class="ttdef"><b>Definition:</b> zone_elwynn_forest.cpp:254</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a0bf53f40eeb4fe3ed7d62988bee0a912" name="a0bf53f40eeb4fe3ed7d62988bee0a912"></a>
@@ -579,7 +626,52 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d2/d68/class_creature_a_i.html#a7f8df8722e2c7f1cc29875db3f27d9fd">CreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  123</span>    {</div>
+<div class="line"><span class="lineno">  124</span>        <span class="keywordflow">switch</span> (pathId)</div>
+<div class="line"><span class="lineno">  125</span>        {</div>
+<div class="line"><span class="lineno">  126</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d7/d61/zone__elwynn__forest_8cpp.html#a2be3c31abb125ee2f4e5db0dffba1303ad1a5074e62ba573b4ca7b603db8af713">STORMWIND_PATH</a>:</div>
+<div class="line"><span class="lineno">  127</span>            {</div>
+<div class="line"><span class="lineno">  128</span>                <a class="code hl_variable" href="../../db/d3e/structnpc__cameron.html#ad6c58f433520c4ed55f43ef3604dde28">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a5e6081bda8828001c0ed8677b2aecd65">ScheduleEvent</a>(<a class="code hl_enumvalue" href="../../d7/d61/zone__elwynn__forest_8cpp.html#ab264f1364ee8d7515c93f7604d783521ac6c378046d721cffff0f049904ea03d1">EVENT_RANDOM_MOVEMENT</a>, 2000);</div>
+<div class="line"><span class="lineno">  129</span>                <a class="code hl_variable" href="../../db/d3e/structnpc__cameron.html#ad6c58f433520c4ed55f43ef3604dde28">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a5e6081bda8828001c0ed8677b2aecd65">ScheduleEvent</a>(<a class="code hl_enumvalue" href="../../d7/d61/zone__elwynn__forest_8cpp.html#ab264f1364ee8d7515c93f7604d783521a5ca2cf14da690bfda633065ea736e15f">EVENT_WP_START_GOLDSHIRE</a>, 660000); <span class="comment">// 11 minutes</span></div>
+<div class="line"><span class="lineno">  130</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  131</span>            }</div>
+<div class="line"><span class="lineno">  132</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d7/d61/zone__elwynn__forest_8cpp.html#a2be3c31abb125ee2f4e5db0dffba1303ae667c0211d3eff5f76656bf6d0008172">GOLDSHIRE_PATH</a>:</div>
+<div class="line"><span class="lineno">  133</span>            {</div>
+<div class="line"><span class="lineno">  134</span>                <a class="code hl_variable" href="../../db/d3e/structnpc__cameron.html#ad6c58f433520c4ed55f43ef3604dde28">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a5e6081bda8828001c0ed8677b2aecd65">ScheduleEvent</a>(<a class="code hl_enumvalue" href="../../d7/d61/zone__elwynn__forest_8cpp.html#ab264f1364ee8d7515c93f7604d783521ac6c378046d721cffff0f049904ea03d1">EVENT_RANDOM_MOVEMENT</a>, 2000);</div>
+<div class="line"><span class="lineno">  135</span>                <a class="code hl_variable" href="../../db/d3e/structnpc__cameron.html#ad6c58f433520c4ed55f43ef3604dde28">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a5e6081bda8828001c0ed8677b2aecd65">ScheduleEvent</a>(<a class="code hl_enumvalue" href="../../d7/d61/zone__elwynn__forest_8cpp.html#ab264f1364ee8d7515c93f7604d783521a05142c4d528718117f9c7c66c066d67a">EVENT_WP_START_WOODS</a>, 900000); <span class="comment">// 15 minutes</span></div>
+<div class="line"><span class="lineno">  136</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  137</span>            }</div>
+<div class="line"><span class="lineno">  138</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d7/d61/zone__elwynn__forest_8cpp.html#a2be3c31abb125ee2f4e5db0dffba1303a3b6098ca7c08a02325e87d2e2d51e097">WOODS_PATH</a>:</div>
+<div class="line"><span class="lineno">  139</span>            {</div>
+<div class="line"><span class="lineno">  140</span>                <a class="code hl_variable" href="../../db/d3e/structnpc__cameron.html#ad6c58f433520c4ed55f43ef3604dde28">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a5e6081bda8828001c0ed8677b2aecd65">ScheduleEvent</a>(<a class="code hl_enumvalue" href="../../d7/d61/zone__elwynn__forest_8cpp.html#ab264f1364ee8d7515c93f7604d783521ac6c378046d721cffff0f049904ea03d1">EVENT_RANDOM_MOVEMENT</a>, 2000);</div>
+<div class="line"><span class="lineno">  141</span>                <a class="code hl_variable" href="../../db/d3e/structnpc__cameron.html#ad6c58f433520c4ed55f43ef3604dde28">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a5e6081bda8828001c0ed8677b2aecd65">ScheduleEvent</a>(<a class="code hl_enumvalue" href="../../d7/d61/zone__elwynn__forest_8cpp.html#ab264f1364ee8d7515c93f7604d783521ad3ea93fa2e5aa5f9c975333fa1b1ff2d">EVENT_WP_START_HOUSE</a>, 360000); <span class="comment">// 6 minutes</span></div>
+<div class="line"><span class="lineno">  142</span>                <a class="code hl_variable" href="../../db/d3e/structnpc__cameron.html#ad6c58f433520c4ed55f43ef3604dde28">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a5e6081bda8828001c0ed8677b2aecd65">ScheduleEvent</a>(<a class="code hl_enumvalue" href="../../d7/d61/zone__elwynn__forest_8cpp.html#ab264f1364ee8d7515c93f7604d783521acc6320f492dc6b0283b8c26d0c8dabc8">EVENT_WP_START_LISA</a>, 362000);</div>
+<div class="line"><span class="lineno">  143</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  144</span>            }</div>
+<div class="line"><span class="lineno">  145</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d7/d61/zone__elwynn__forest_8cpp.html#a2be3c31abb125ee2f4e5db0dffba1303a613998450aaf10ae6d9eb7b70fe9b773">HOUSE_PATH</a>:</div>
+<div class="line"><span class="lineno">  146</span>            {</div>
+<div class="line"><span class="lineno">  147</span>                <span class="comment">// Move childeren at last point</span></div>
+<div class="line"><span class="lineno">  148</span>                <a class="code hl_function" href="../../db/d3e/structnpc__cameron.html#a85ae436f19f69ffb853330f01ee152a0">MoveTheChildren</a>();</div>
+<div class="line"><span class="lineno">  149</span>                <span class="comment">// After 30 seconds a random sound should play</span></div>
+<div class="line"><span class="lineno">  150</span>                <a class="code hl_variable" href="../../db/d3e/structnpc__cameron.html#ad6c58f433520c4ed55f43ef3604dde28">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a5e6081bda8828001c0ed8677b2aecd65">ScheduleEvent</a>(<a class="code hl_enumvalue" href="../../d7/d61/zone__elwynn__forest_8cpp.html#ab264f1364ee8d7515c93f7604d783521a9f179e3b64119e37ba2bd7197c842ab4">EVENT_PLAY_SOUNDS</a>, 30000);</div>
+<div class="line"><span class="lineno">  151</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  152</span>            }</div>
+<div class="line"><span class="lineno">  153</span>        }</div>
+<div class="line"><span class="lineno">  154</span>    }</div>
+<div class="ttc" id="aclass_event_map_html_a5e6081bda8828001c0ed8677b2aecd65"><div class="ttname"><a href="../../d8/d8f/class_event_map.html#a5e6081bda8828001c0ed8677b2aecd65">EventMap::ScheduleEvent</a></div><div class="ttdeci">void ScheduleEvent(uint32 eventId, uint32 time, uint32 group=0, uint32 phase=0)</div><div class="ttdef"><b>Definition:</b> EventMap.cpp:56</div></div>
+<div class="ttc" id="astructnpc__cameron_html_a85ae436f19f69ffb853330f01ee152a0"><div class="ttname"><a href="../../db/d3e/structnpc__cameron.html#a85ae436f19f69ffb853330f01ee152a0">npc_cameron::MoveTheChildren</a></div><div class="ttdeci">void MoveTheChildren()</div><div class="ttdef"><b>Definition:</b> zone_elwynn_forest.cpp:89</div></div>
+<div class="ttc" id="astructnpc__cameron_html_ad6c58f433520c4ed55f43ef3604dde28"><div class="ttname"><a href="../../db/d3e/structnpc__cameron.html#ad6c58f433520c4ed55f43ef3604dde28">npc_cameron::_events</a></div><div class="ttdeci">EventMap _events</div><div class="ttdef"><b>Definition:</b> zone_elwynn_forest.cpp:252</div></div>
+<div class="ttc" id="azone__elwynn__forest_8cpp_html_a2be3c31abb125ee2f4e5db0dffba1303a3b6098ca7c08a02325e87d2e2d51e097"><div class="ttname"><a href="../../d7/d61/zone__elwynn__forest_8cpp.html#a2be3c31abb125ee2f4e5db0dffba1303a3b6098ca7c08a02325e87d2e2d51e097">WOODS_PATH</a></div><div class="ttdeci">@ WOODS_PATH</div><div class="ttdef"><b>Definition:</b> zone_elwynn_forest.cpp:29</div></div>
+<div class="ttc" id="azone__elwynn__forest_8cpp_html_a2be3c31abb125ee2f4e5db0dffba1303a613998450aaf10ae6d9eb7b70fe9b773"><div class="ttname"><a href="../../d7/d61/zone__elwynn__forest_8cpp.html#a2be3c31abb125ee2f4e5db0dffba1303a613998450aaf10ae6d9eb7b70fe9b773">HOUSE_PATH</a></div><div class="ttdeci">@ HOUSE_PATH</div><div class="ttdef"><b>Definition:</b> zone_elwynn_forest.cpp:30</div></div>
+<div class="ttc" id="azone__elwynn__forest_8cpp_html_a2be3c31abb125ee2f4e5db0dffba1303ad1a5074e62ba573b4ca7b603db8af713"><div class="ttname"><a href="../../d7/d61/zone__elwynn__forest_8cpp.html#a2be3c31abb125ee2f4e5db0dffba1303ad1a5074e62ba573b4ca7b603db8af713">STORMWIND_PATH</a></div><div class="ttdeci">@ STORMWIND_PATH</div><div class="ttdef"><b>Definition:</b> zone_elwynn_forest.cpp:27</div></div>
+<div class="ttc" id="azone__elwynn__forest_8cpp_html_a2be3c31abb125ee2f4e5db0dffba1303ae667c0211d3eff5f76656bf6d0008172"><div class="ttname"><a href="../../d7/d61/zone__elwynn__forest_8cpp.html#a2be3c31abb125ee2f4e5db0dffba1303ae667c0211d3eff5f76656bf6d0008172">GOLDSHIRE_PATH</a></div><div class="ttdeci">@ GOLDSHIRE_PATH</div><div class="ttdef"><b>Definition:</b> zone_elwynn_forest.cpp:28</div></div>
+<div class="ttc" id="azone__elwynn__forest_8cpp_html_ab264f1364ee8d7515c93f7604d783521a05142c4d528718117f9c7c66c066d67a"><div class="ttname"><a href="../../d7/d61/zone__elwynn__forest_8cpp.html#ab264f1364ee8d7515c93f7604d783521a05142c4d528718117f9c7c66c066d67a">EVENT_WP_START_WOODS</a></div><div class="ttdeci">@ EVENT_WP_START_WOODS</div><div class="ttdef"><b>Definition:</b> zone_elwynn_forest.cpp:57</div></div>
+<div class="ttc" id="azone__elwynn__forest_8cpp_html_ab264f1364ee8d7515c93f7604d783521a5ca2cf14da690bfda633065ea736e15f"><div class="ttname"><a href="../../d7/d61/zone__elwynn__forest_8cpp.html#ab264f1364ee8d7515c93f7604d783521a5ca2cf14da690bfda633065ea736e15f">EVENT_WP_START_GOLDSHIRE</a></div><div class="ttdeci">@ EVENT_WP_START_GOLDSHIRE</div><div class="ttdef"><b>Definition:</b> zone_elwynn_forest.cpp:56</div></div>
+<div class="ttc" id="azone__elwynn__forest_8cpp_html_ab264f1364ee8d7515c93f7604d783521a9f179e3b64119e37ba2bd7197c842ab4"><div class="ttname"><a href="../../d7/d61/zone__elwynn__forest_8cpp.html#ab264f1364ee8d7515c93f7604d783521a9f179e3b64119e37ba2bd7197c842ab4">EVENT_PLAY_SOUNDS</a></div><div class="ttdeci">@ EVENT_PLAY_SOUNDS</div><div class="ttdef"><b>Definition:</b> zone_elwynn_forest.cpp:60</div></div>
+<div class="ttc" id="azone__elwynn__forest_8cpp_html_ab264f1364ee8d7515c93f7604d783521ac6c378046d721cffff0f049904ea03d1"><div class="ttname"><a href="../../d7/d61/zone__elwynn__forest_8cpp.html#ab264f1364ee8d7515c93f7604d783521ac6c378046d721cffff0f049904ea03d1">EVENT_RANDOM_MOVEMENT</a></div><div class="ttdeci">@ EVENT_RANDOM_MOVEMENT</div><div class="ttdef"><b>Definition:</b> zone_elwynn_forest.cpp:62</div></div>
+<div class="ttc" id="azone__elwynn__forest_8cpp_html_ab264f1364ee8d7515c93f7604d783521acc6320f492dc6b0283b8c26d0c8dabc8"><div class="ttname"><a href="../../d7/d61/zone__elwynn__forest_8cpp.html#ab264f1364ee8d7515c93f7604d783521acc6320f492dc6b0283b8c26d0c8dabc8">EVENT_WP_START_LISA</a></div><div class="ttdeci">@ EVENT_WP_START_LISA</div><div class="ttdef"><b>Definition:</b> zone_elwynn_forest.cpp:59</div></div>
+<div class="ttc" id="azone__elwynn__forest_8cpp_html_ab264f1364ee8d7515c93f7604d783521ad3ea93fa2e5aa5f9c975333fa1b1ff2d"><div class="ttname"><a href="../../d7/d61/zone__elwynn__forest_8cpp.html#ab264f1364ee8d7515c93f7604d783521ad3ea93fa2e5aa5f9c975333fa1b1ff2d">EVENT_WP_START_HOUSE</a></div><div class="ttdeci">@ EVENT_WP_START_HOUSE</div><div class="ttdef"><b>Definition:</b> zone_elwynn_forest.cpp:58</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ab22841871cfcdc926b28296a5b4e440c" name="ab22841871cfcdc926b28296a5b4e440c"></a>
@@ -617,7 +709,25 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d9c/class_unit_a_i.html#af0dcf0919badd9b450ed3f70973c9fde">UnitAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  157</span>    {</div>
+<div class="line"><span class="lineno">  158</span>        <span class="keywordflow">if</span> (start &amp;&amp; eventId == <a class="code hl_enumvalue" href="../../d7/d61/zone__elwynn__forest_8cpp.html#a7f96446be0a530da18223bb22482eb13ae98243feecf1c9640cede7b94f8681cb">GAME_EVENT_CHILDREN_OF_GOLDSHIRE</a>)</div>
+<div class="line"><span class="lineno">  159</span>        {</div>
+<div class="line"><span class="lineno">  160</span>            <span class="comment">// Start event at 7 am</span></div>
+<div class="line"><span class="lineno">  161</span>            <span class="comment">// Begin pathing</span></div>
+<div class="line"><span class="lineno">  162</span>            <a class="code hl_variable" href="../../db/d3e/structnpc__cameron.html#ad6c58f433520c4ed55f43ef3604dde28">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a5e6081bda8828001c0ed8677b2aecd65">ScheduleEvent</a>(<a class="code hl_enumvalue" href="../../d7/d61/zone__elwynn__forest_8cpp.html#ab264f1364ee8d7515c93f7604d783521a82d09cc2c3aa83b16da003fcf3cb98b7">EVENT_BEGIN_EVENT</a>, 2000);</div>
+<div class="line"><span class="lineno">  163</span>            <a class="code hl_variable" href="../../db/d3e/structnpc__cameron.html#a985d0590eedde340a3923e299d4dffd8">_started</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  164</span>        }</div>
+<div class="line"><span class="lineno">  165</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (!start &amp;&amp; eventId == <a class="code hl_enumvalue" href="../../d7/d61/zone__elwynn__forest_8cpp.html#a7f96446be0a530da18223bb22482eb13ae98243feecf1c9640cede7b94f8681cb">GAME_EVENT_CHILDREN_OF_GOLDSHIRE</a>)</div>
+<div class="line"><span class="lineno">  166</span>        {</div>
+<div class="line"><span class="lineno">  167</span>            <span class="comment">// Reset event at 8 am</span></div>
+<div class="line"><span class="lineno">  168</span>            <a class="code hl_variable" href="../../db/d3e/structnpc__cameron.html#a985d0590eedde340a3923e299d4dffd8">_started</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  169</span>            <a class="code hl_variable" href="../../db/d3e/structnpc__cameron.html#ad6c58f433520c4ed55f43ef3604dde28">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#afd6b5b23aa26797b6de1275c70268808">Reset</a>();</div>
+<div class="line"><span class="lineno">  170</span>        }</div>
+<div class="line"><span class="lineno">  171</span>    }</div>
+<div class="ttc" id="aclass_event_map_html_afd6b5b23aa26797b6de1275c70268808"><div class="ttname"><a href="../../d8/d8f/class_event_map.html#afd6b5b23aa26797b6de1275c70268808">EventMap::Reset</a></div><div class="ttdeci">void Reset()</div><div class="ttdef"><b>Definition:</b> EventMap.cpp:21</div></div>
+<div class="ttc" id="azone__elwynn__forest_8cpp_html_a7f96446be0a530da18223bb22482eb13ae98243feecf1c9640cede7b94f8681cb"><div class="ttname"><a href="../../d7/d61/zone__elwynn__forest_8cpp.html#a7f96446be0a530da18223bb22482eb13ae98243feecf1c9640cede7b94f8681cb">GAME_EVENT_CHILDREN_OF_GOLDSHIRE</a></div><div class="ttdeci">@ GAME_EVENT_CHILDREN_OF_GOLDSHIRE</div><div class="ttdef"><b>Definition:</b> zone_elwynn_forest.cpp:67</div></div>
+<div class="ttc" id="azone__elwynn__forest_8cpp_html_ab264f1364ee8d7515c93f7604d783521a82d09cc2c3aa83b16da003fcf3cb98b7"><div class="ttname"><a href="../../d7/d61/zone__elwynn__forest_8cpp.html#ab264f1364ee8d7515c93f7604d783521a82d09cc2c3aa83b16da003fcf3cb98b7">EVENT_BEGIN_EVENT</a></div><div class="ttdeci">@ EVENT_BEGIN_EVENT</div><div class="ttdef"><b>Definition:</b> zone_elwynn_forest.cpp:61</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2ad97aaac0bd759921e0b75cfc88d07d" name="a2ad97aaac0bd759921e0b75cfc88d07d"></a>
@@ -642,7 +752,24 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   78</span>    {</div>
+<div class="line"><span class="lineno">   79</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../d3/d01/_creature_a_i_impl_8h.html#a95d9a0c5ba0d54645670ba51c16ed33c">RAND</a>(</div>
+<div class="line"><span class="lineno">   80</span>            <a class="code hl_enumvalue" href="../../d7/d61/zone__elwynn__forest_8cpp.html#a41b64d07acba30bca6797dd30accb701a778d73a82a4986348c2f576778911c1d">BANSHEE_DEATH</a>,</div>
+<div class="line"><span class="lineno">   81</span>            <a class="code hl_enumvalue" href="../../d7/d61/zone__elwynn__forest_8cpp.html#a41b64d07acba30bca6797dd30accb701a9194ea7479faaf1cd6e95b3d3ef5133e">BANSHEEPREAGGRO</a>,</div>
+<div class="line"><span class="lineno">   82</span>            <a class="code hl_enumvalue" href="../../d7/d61/zone__elwynn__forest_8cpp.html#a41b64d07acba30bca6797dd30accb701a82970f5a7615c954b42ee1a4fc6e175c">CTHUN_YOU_WILL_DIE</a>,</div>
+<div class="line"><span class="lineno">   83</span>            <a class="code hl_enumvalue" href="../../d7/d61/zone__elwynn__forest_8cpp.html#a41b64d07acba30bca6797dd30accb701a6597c2048b383d43a5ff472d715fdc05">CTHUN_DEATH_IS_CLOSE</a>,</div>
+<div class="line"><span class="lineno">   84</span>            <a class="code hl_enumvalue" href="../../d7/d61/zone__elwynn__forest_8cpp.html#a41b64d07acba30bca6797dd30accb701a154e3f7a96cd9c9d13a04b5fc36ec18a">HUMAN_FEMALE_EMOTE_CRY</a>,</div>
+<div class="line"><span class="lineno">   85</span>            <a class="code hl_enumvalue" href="../../d7/d61/zone__elwynn__forest_8cpp.html#a41b64d07acba30bca6797dd30accb701a5ad070314ff7ce37671151ab6fd1df05">GHOSTDEATH</a></div>
+<div class="line"><span class="lineno">   86</span>        );</div>
+<div class="line"><span class="lineno">   87</span>    }</div>
+<div class="ttc" id="a_creature_a_i_impl_8h_html_a95d9a0c5ba0d54645670ba51c16ed33c"><div class="ttname"><a href="../../d3/d01/_creature_a_i_impl_8h.html#a95d9a0c5ba0d54645670ba51c16ed33c">RAND</a></div><div class="ttdeci">static First const &amp; RAND(First const &amp;first, Second const &amp;second, Rest const &amp;... rest)</div><div class="ttdef"><b>Definition:</b> CreatureAIImpl.h:30</div></div>
+<div class="ttc" id="azone__elwynn__forest_8cpp_html_a41b64d07acba30bca6797dd30accb701a154e3f7a96cd9c9d13a04b5fc36ec18a"><div class="ttname"><a href="../../d7/d61/zone__elwynn__forest_8cpp.html#a41b64d07acba30bca6797dd30accb701a154e3f7a96cd9c9d13a04b5fc36ec18a">HUMAN_FEMALE_EMOTE_CRY</a></div><div class="ttdeci">@ HUMAN_FEMALE_EMOTE_CRY</div><div class="ttdef"><b>Definition:</b> zone_elwynn_forest.cpp:40</div></div>
+<div class="ttc" id="azone__elwynn__forest_8cpp_html_a41b64d07acba30bca6797dd30accb701a5ad070314ff7ce37671151ab6fd1df05"><div class="ttname"><a href="../../d7/d61/zone__elwynn__forest_8cpp.html#a41b64d07acba30bca6797dd30accb701a5ad070314ff7ce37671151ab6fd1df05">GHOSTDEATH</a></div><div class="ttdeci">@ GHOSTDEATH</div><div class="ttdef"><b>Definition:</b> zone_elwynn_forest.cpp:41</div></div>
+<div class="ttc" id="azone__elwynn__forest_8cpp_html_a41b64d07acba30bca6797dd30accb701a6597c2048b383d43a5ff472d715fdc05"><div class="ttname"><a href="../../d7/d61/zone__elwynn__forest_8cpp.html#a41b64d07acba30bca6797dd30accb701a6597c2048b383d43a5ff472d715fdc05">CTHUN_DEATH_IS_CLOSE</a></div><div class="ttdeci">@ CTHUN_DEATH_IS_CLOSE</div><div class="ttdef"><b>Definition:</b> zone_elwynn_forest.cpp:39</div></div>
+<div class="ttc" id="azone__elwynn__forest_8cpp_html_a41b64d07acba30bca6797dd30accb701a778d73a82a4986348c2f576778911c1d"><div class="ttname"><a href="../../d7/d61/zone__elwynn__forest_8cpp.html#a41b64d07acba30bca6797dd30accb701a778d73a82a4986348c2f576778911c1d">BANSHEE_DEATH</a></div><div class="ttdeci">@ BANSHEE_DEATH</div><div class="ttdef"><b>Definition:</b> zone_elwynn_forest.cpp:36</div></div>
+<div class="ttc" id="azone__elwynn__forest_8cpp_html_a41b64d07acba30bca6797dd30accb701a82970f5a7615c954b42ee1a4fc6e175c"><div class="ttname"><a href="../../d7/d61/zone__elwynn__forest_8cpp.html#a41b64d07acba30bca6797dd30accb701a82970f5a7615c954b42ee1a4fc6e175c">CTHUN_YOU_WILL_DIE</a></div><div class="ttdeci">@ CTHUN_YOU_WILL_DIE</div><div class="ttdef"><b>Definition:</b> zone_elwynn_forest.cpp:38</div></div>
+<div class="ttc" id="azone__elwynn__forest_8cpp_html_a41b64d07acba30bca6797dd30accb701a9194ea7479faaf1cd6e95b3d3ef5133e"><div class="ttname"><a href="../../d7/d61/zone__elwynn__forest_8cpp.html#a41b64d07acba30bca6797dd30accb701a9194ea7479faaf1cd6e95b3d3ef5133e">BANSHEEPREAGGRO</a></div><div class="ttdeci">@ BANSHEEPREAGGRO</div><div class="ttdef"><b>Definition:</b> zone_elwynn_forest.cpp:37</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a32a2dd2be2c06700fb81f4072a364ce2" name="a32a2dd2be2c06700fb81f4072a364ce2"></a>
@@ -670,7 +797,98 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#aff5fd4e142a5cf930ffacbfc7259cce5">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  174</span>    {</div>
+<div class="line"><span class="lineno">  175</span>        <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../db/d3e/structnpc__cameron.html#a985d0590eedde340a3923e299d4dffd8">_started</a>)</div>
+<div class="line"><span class="lineno">  176</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  177</span> </div>
+<div class="line"><span class="lineno">  178</span>        <a class="code hl_variable" href="../../db/d3e/structnpc__cameron.html#ad6c58f433520c4ed55f43ef3604dde28">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a33ba1058edd639c98258ba3e123ac2f9">Update</a>(diff);</div>
+<div class="line"><span class="lineno">  179</span> </div>
+<div class="line"><span class="lineno">  180</span>        <span class="keywordflow">while</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> eventId = <a class="code hl_variable" href="../../db/d3e/structnpc__cameron.html#ad6c58f433520c4ed55f43ef3604dde28">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a07764662d7571ae0e1c44203d189ba44">ExecuteEvent</a>())</div>
+<div class="line"><span class="lineno">  181</span>        {</div>
+<div class="line"><span class="lineno">  182</span>            <span class="keywordflow">switch</span> (eventId)</div>
+<div class="line"><span class="lineno">  183</span>            {</div>
+<div class="line"><span class="lineno">  184</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d7/d61/zone__elwynn__forest_8cpp.html#ab264f1364ee8d7515c93f7604d783521a5ca2cf14da690bfda633065ea736e15f">EVENT_WP_START_GOLDSHIRE</a>:</div>
+<div class="line"><span class="lineno">  185</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../df/d4d/class_motion_master.html#acd2899e1663e5b925c27df72288eafc9">MovePath</a>(<a class="code hl_enumvalue" href="../../d7/d61/zone__elwynn__forest_8cpp.html#a2be3c31abb125ee2f4e5db0dffba1303ae667c0211d3eff5f76656bf6d0008172">GOLDSHIRE_PATH</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  186</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  187</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d7/d61/zone__elwynn__forest_8cpp.html#ab264f1364ee8d7515c93f7604d783521a05142c4d528718117f9c7c66c066d67a">EVENT_WP_START_WOODS</a>:</div>
+<div class="line"><span class="lineno">  188</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../df/d4d/class_motion_master.html#acd2899e1663e5b925c27df72288eafc9">MovePath</a>(<a class="code hl_enumvalue" href="../../d7/d61/zone__elwynn__forest_8cpp.html#a2be3c31abb125ee2f4e5db0dffba1303a3b6098ca7c08a02325e87d2e2d51e097">WOODS_PATH</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  189</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  190</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d7/d61/zone__elwynn__forest_8cpp.html#ab264f1364ee8d7515c93f7604d783521ad3ea93fa2e5aa5f9c975333fa1b1ff2d">EVENT_WP_START_HOUSE</a>:</div>
+<div class="line"><span class="lineno">  191</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../df/d4d/class_motion_master.html#acd2899e1663e5b925c27df72288eafc9">MovePath</a>(<a class="code hl_enumvalue" href="../../d7/d61/zone__elwynn__forest_8cpp.html#a2be3c31abb125ee2f4e5db0dffba1303a613998450aaf10ae6d9eb7b70fe9b773">HOUSE_PATH</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  192</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  193</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d7/d61/zone__elwynn__forest_8cpp.html#ab264f1364ee8d7515c93f7604d783521acc6320f492dc6b0283b8c26d0c8dabc8">EVENT_WP_START_LISA</a>:</div>
+<div class="line"><span class="lineno">  194</span>                <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> i = 0; i &lt; <a class="code hl_variable" href="../../db/d3e/structnpc__cameron.html#ad260466902e8fb1a2e02998cc4549695">_childrenGUIDs</a>.size(); ++i)</div>
+<div class="line"><span class="lineno">  195</span>                {</div>
+<div class="line"><span class="lineno">  196</span>                    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* lisa = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a>(*<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_variable" href="../../db/d3e/structnpc__cameron.html#ad260466902e8fb1a2e02998cc4549695">_childrenGUIDs</a>[i]))</div>
+<div class="line"><span class="lineno">  197</span>                    {</div>
+<div class="line"><span class="lineno">  198</span>                        <span class="keywordflow">if</span> (lisa-&gt;GetEntry() == <a class="code hl_enumvalue" href="../../d7/d61/zone__elwynn__forest_8cpp.html#a65c53b71f65b39ebdb719ba85df40c00a54c1064e732d54bcc50cc2fe6c83fc00">NPC_LISA</a>)</div>
+<div class="line"><span class="lineno">  199</span>                        {</div>
+<div class="line"><span class="lineno">  200</span>                            lisa-&gt;GetMotionMaster()-&gt;MovePath(<a class="code hl_enumvalue" href="../../d7/d61/zone__elwynn__forest_8cpp.html#a2be3c31abb125ee2f4e5db0dffba1303a2dc260175ba90e722d9fd3a5ec22d80c">LISA_PATH</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  201</span>                            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  202</span>                        }</div>
+<div class="line"><span class="lineno">  203</span>                    }</div>
+<div class="line"><span class="lineno">  204</span>                }</div>
+<div class="line"><span class="lineno">  205</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  206</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d7/d61/zone__elwynn__forest_8cpp.html#ab264f1364ee8d7515c93f7604d783521a9f179e3b64119e37ba2bd7197c842ab4">EVENT_PLAY_SOUNDS</a>:</div>
+<div class="line"><span class="lineno">  207</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#aaf763bad217ff546f44a04b8c977d694">PlayDistanceSound</a>(<a class="code hl_function" href="../../db/d3e/structnpc__cameron.html#a2ad97aaac0bd759921e0b75cfc88d07d">SoundPicker</a>());</div>
+<div class="line"><span class="lineno">  208</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  209</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d7/d61/zone__elwynn__forest_8cpp.html#ab264f1364ee8d7515c93f7604d783521a82d09cc2c3aa83b16da003fcf3cb98b7">EVENT_BEGIN_EVENT</a>:</div>
+<div class="line"><span class="lineno">  210</span>            {</div>
+<div class="line"><span class="lineno">  211</span>                <a class="code hl_variable" href="../../db/d3e/structnpc__cameron.html#ad260466902e8fb1a2e02998cc4549695">_childrenGUIDs</a>.clear();</div>
+<div class="line"><span class="lineno">  212</span> </div>
+<div class="line"><span class="lineno">  213</span>                <span class="comment">// Get all childeren&#39;s guid&#39;s.</span></div>
+<div class="line"><span class="lineno">  214</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* dana = <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#aa7cc61d571dbc39ca8ac6ac10ffd18ab">FindNearestCreature</a>(<a class="code hl_enumvalue" href="../../d7/d61/zone__elwynn__forest_8cpp.html#a65c53b71f65b39ebdb719ba85df40c00aab1360bef063d32d66b5592222983b79">NPC_DANA</a>, 25.0f))</div>
+<div class="line"><span class="lineno">  215</span>                    <a class="code hl_variable" href="../../db/d3e/structnpc__cameron.html#ad260466902e8fb1a2e02998cc4549695">_childrenGUIDs</a>.push_back(dana-&gt;GetGUID());</div>
+<div class="line"><span class="lineno">  216</span> </div>
+<div class="line"><span class="lineno">  217</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* john = <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#aa7cc61d571dbc39ca8ac6ac10ffd18ab">FindNearestCreature</a>(<a class="code hl_enumvalue" href="../../d7/d61/zone__elwynn__forest_8cpp.html#a65c53b71f65b39ebdb719ba85df40c00a92ee2b12ddc8057ce39df7fc8e26cad8">NPC_JOHN</a>, 25.0f))</div>
+<div class="line"><span class="lineno">  218</span>                    <a class="code hl_variable" href="../../db/d3e/structnpc__cameron.html#ad260466902e8fb1a2e02998cc4549695">_childrenGUIDs</a>.push_back(john-&gt;GetGUID());</div>
+<div class="line"><span class="lineno">  219</span> </div>
+<div class="line"><span class="lineno">  220</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* lisa = <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#aa7cc61d571dbc39ca8ac6ac10ffd18ab">FindNearestCreature</a>(<a class="code hl_enumvalue" href="../../d7/d61/zone__elwynn__forest_8cpp.html#a65c53b71f65b39ebdb719ba85df40c00a54c1064e732d54bcc50cc2fe6c83fc00">NPC_LISA</a>, 25.0f))</div>
+<div class="line"><span class="lineno">  221</span>                    <a class="code hl_variable" href="../../db/d3e/structnpc__cameron.html#ad260466902e8fb1a2e02998cc4549695">_childrenGUIDs</a>.push_back(lisa-&gt;GetGUID());</div>
+<div class="line"><span class="lineno">  222</span> </div>
+<div class="line"><span class="lineno">  223</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* aaron = <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#aa7cc61d571dbc39ca8ac6ac10ffd18ab">FindNearestCreature</a>(<a class="code hl_enumvalue" href="../../d7/d61/zone__elwynn__forest_8cpp.html#a65c53b71f65b39ebdb719ba85df40c00a1b159aa0575b48c2c155ce477231d648">NPC_AARON</a>, 25.0f))</div>
+<div class="line"><span class="lineno">  224</span>                    <a class="code hl_variable" href="../../db/d3e/structnpc__cameron.html#ad260466902e8fb1a2e02998cc4549695">_childrenGUIDs</a>.push_back(aaron-&gt;GetGUID());</div>
+<div class="line"><span class="lineno">  225</span> </div>
+<div class="line"><span class="lineno">  226</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* jose = <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#aa7cc61d571dbc39ca8ac6ac10ffd18ab">FindNearestCreature</a>(<a class="code hl_enumvalue" href="../../d7/d61/zone__elwynn__forest_8cpp.html#a65c53b71f65b39ebdb719ba85df40c00ad461074ca1d14ce25750b36d50dff8d9">NPC_JOSE</a>, 25.0f))</div>
+<div class="line"><span class="lineno">  227</span>                    <a class="code hl_variable" href="../../db/d3e/structnpc__cameron.html#ad260466902e8fb1a2e02998cc4549695">_childrenGUIDs</a>.push_back(jose-&gt;GetGUID());</div>
+<div class="line"><span class="lineno">  228</span> </div>
+<div class="line"><span class="lineno">  229</span>                <span class="comment">// If Formation was disbanded, remake.</span></div>
+<div class="line"><span class="lineno">  230</span>                <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a52ad9185174d0709f5dd2052d770f642">GetFormation</a>()-&gt;<a class="code hl_function" href="../../d5/db6/class_creature_group.html#a60d646229e75ac6bf0be825f43e7368c">IsFormed</a>())</div>
+<div class="line"><span class="lineno">  231</span>                    <span class="keywordflow">for</span> (<span class="keyword">auto</span> guid : <a class="code hl_variable" href="../../db/d3e/structnpc__cameron.html#ad260466902e8fb1a2e02998cc4549695">_childrenGUIDs</a>)</div>
+<div class="line"><span class="lineno">  232</span>                        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* child = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a>(*<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, guid))</div>
+<div class="line"><span class="lineno">  233</span>                            child-&gt;SearchFormation();</div>
+<div class="line"><span class="lineno">  234</span> </div>
+<div class="line"><span class="lineno">  235</span>                <span class="comment">// Start movement</span></div>
+<div class="line"><span class="lineno">  236</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../df/d4d/class_motion_master.html#acd2899e1663e5b925c27df72288eafc9">MovePath</a>(<a class="code hl_enumvalue" href="../../d7/d61/zone__elwynn__forest_8cpp.html#a2be3c31abb125ee2f4e5db0dffba1303ad1a5074e62ba573b4ca7b603db8af713">STORMWIND_PATH</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  237</span> </div>
+<div class="line"><span class="lineno">  238</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  239</span>            }</div>
+<div class="line"><span class="lineno">  240</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d7/d61/zone__elwynn__forest_8cpp.html#ab264f1364ee8d7515c93f7604d783521ac6c378046d721cffff0f049904ea03d1">EVENT_RANDOM_MOVEMENT</a>:</div>
+<div class="line"><span class="lineno">  241</span>            {</div>
+<div class="line"><span class="lineno">  242</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../df/d4d/class_motion_master.html#afffbc53c2b9aff673a784898bbed3e54">MoveRandom</a>(10.0f);</div>
+<div class="line"><span class="lineno">  243</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  244</span>            }</div>
+<div class="line"><span class="lineno">  245</span>            <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  246</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  247</span>            }</div>
+<div class="line"><span class="lineno">  248</span>        }</div>
+<div class="line"><span class="lineno">  249</span>    }</div>
+<div class="ttc" id="aclass_creature_group_html_a60d646229e75ac6bf0be825f43e7368c"><div class="ttname"><a href="../../d5/db6/class_creature_group.html#a60d646229e75ac6bf0be825f43e7368c">CreatureGroup::IsFormed</a></div><div class="ttdeci">bool IsFormed() const</div><div class="ttdef"><b>Definition:</b> CreatureGroups.h:101</div></div>
+<div class="ttc" id="aclass_creature_html_a52ad9185174d0709f5dd2052d770f642"><div class="ttname"><a href="../../d1/dac/class_creature.html#a52ad9185174d0709f5dd2052d770f642">Creature::GetFormation</a></div><div class="ttdeci">CreatureGroup const * GetFormation() const</div><div class="ttdef"><b>Definition:</b> Creature.h:337</div></div>
+<div class="ttc" id="aclass_event_map_html_a07764662d7571ae0e1c44203d189ba44"><div class="ttname"><a href="../../d8/d8f/class_event_map.html#a07764662d7571ae0e1c44203d189ba44">EventMap::ExecuteEvent</a></div><div class="ttdeci">uint32 ExecuteEvent()</div><div class="ttdef"><b>Definition:</b> EventMap.cpp:114</div></div>
+<div class="ttc" id="aclass_event_map_html_a33ba1058edd639c98258ba3e123ac2f9"><div class="ttname"><a href="../../d8/d8f/class_event_map.html#a33ba1058edd639c98258ba3e123ac2f9">EventMap::Update</a></div><div class="ttdeci">void Update(uint32 time)</div><div class="ttdef"><b>Definition:</b> EventMap.h:54</div></div>
+<div class="ttc" id="aclass_motion_master_html_acd2899e1663e5b925c27df72288eafc9"><div class="ttname"><a href="../../df/d4d/class_motion_master.html#acd2899e1663e5b925c27df72288eafc9">MotionMaster::MovePath</a></div><div class="ttdeci">void MovePath(uint32 path_id, bool repeatable)</div><div class="ttdef"><b>Definition:</b> MotionMaster.cpp:758</div></div>
+<div class="ttc" id="aclass_motion_master_html_afffbc53c2b9aff673a784898bbed3e54"><div class="ttname"><a href="../../df/d4d/class_motion_master.html#afffbc53c2b9aff673a784898bbed3e54">MotionMaster::MoveRandom</a></div><div class="ttdeci">void MoveRandom(float wanderDistance=0.0f)</div><div class="ttdef"><b>Definition:</b> MotionMaster.cpp:238</div></div>
+<div class="ttc" id="aclass_world_object_html_aa7cc61d571dbc39ca8ac6ac10ffd18ab"><div class="ttname"><a href="../../db/df7/class_world_object.html#aa7cc61d571dbc39ca8ac6ac10ffd18ab">WorldObject::FindNearestCreature</a></div><div class="ttdeci">Creature * FindNearestCreature(uint32 entry, float range, bool alive=true) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:2392</div></div>
+<div class="ttc" id="aclass_world_object_html_aaf763bad217ff546f44a04b8c977d694"><div class="ttname"><a href="../../db/df7/class_world_object.html#aaf763bad217ff546f44a04b8c977d694">WorldObject::PlayDistanceSound</a></div><div class="ttdeci">void PlayDistanceSound(uint32 sound_id, Player *target=nullptr)</div><div class="ttdef"><b>Definition:</b> Object.cpp:2828</div></div>
+<div class="ttc" id="astructnpc__cameron_html_a2ad97aaac0bd759921e0b75cfc88d07d"><div class="ttname"><a href="../../db/d3e/structnpc__cameron.html#a2ad97aaac0bd759921e0b75cfc88d07d">npc_cameron::SoundPicker</a></div><div class="ttdeci">static uint32 SoundPicker()</div><div class="ttdef"><b>Definition:</b> zone_elwynn_forest.cpp:77</div></div>
+<div class="ttc" id="azone__elwynn__forest_8cpp_html_a2be3c31abb125ee2f4e5db0dffba1303a2dc260175ba90e722d9fd3a5ec22d80c"><div class="ttname"><a href="../../d7/d61/zone__elwynn__forest_8cpp.html#a2be3c31abb125ee2f4e5db0dffba1303a2dc260175ba90e722d9fd3a5ec22d80c">LISA_PATH</a></div><div class="ttdeci">@ LISA_PATH</div><div class="ttdef"><b>Definition:</b> zone_elwynn_forest.cpp:31</div></div>
+<div class="ttc" id="azone__elwynn__forest_8cpp_html_a65c53b71f65b39ebdb719ba85df40c00a1b159aa0575b48c2c155ce477231d648"><div class="ttname"><a href="../../d7/d61/zone__elwynn__forest_8cpp.html#a65c53b71f65b39ebdb719ba85df40c00a1b159aa0575b48c2c155ce477231d648">NPC_AARON</a></div><div class="ttdeci">@ NPC_AARON</div><div class="ttdef"><b>Definition:</b> zone_elwynn_forest.cpp:50</div></div>
+<div class="ttc" id="azone__elwynn__forest_8cpp_html_a65c53b71f65b39ebdb719ba85df40c00a54c1064e732d54bcc50cc2fe6c83fc00"><div class="ttname"><a href="../../d7/d61/zone__elwynn__forest_8cpp.html#a65c53b71f65b39ebdb719ba85df40c00a54c1064e732d54bcc50cc2fe6c83fc00">NPC_LISA</a></div><div class="ttdeci">@ NPC_LISA</div><div class="ttdef"><b>Definition:</b> zone_elwynn_forest.cpp:49</div></div>
+<div class="ttc" id="azone__elwynn__forest_8cpp_html_a65c53b71f65b39ebdb719ba85df40c00a92ee2b12ddc8057ce39df7fc8e26cad8"><div class="ttname"><a href="../../d7/d61/zone__elwynn__forest_8cpp.html#a65c53b71f65b39ebdb719ba85df40c00a92ee2b12ddc8057ce39df7fc8e26cad8">NPC_JOHN</a></div><div class="ttdeci">@ NPC_JOHN</div><div class="ttdef"><b>Definition:</b> zone_elwynn_forest.cpp:48</div></div>
+<div class="ttc" id="azone__elwynn__forest_8cpp_html_a65c53b71f65b39ebdb719ba85df40c00aab1360bef063d32d66b5592222983b79"><div class="ttname"><a href="../../d7/d61/zone__elwynn__forest_8cpp.html#a65c53b71f65b39ebdb719ba85df40c00aab1360bef063d32d66b5592222983b79">NPC_DANA</a></div><div class="ttdeci">@ NPC_DANA</div><div class="ttdef"><b>Definition:</b> zone_elwynn_forest.cpp:46</div></div>
+<div class="ttc" id="azone__elwynn__forest_8cpp_html_a65c53b71f65b39ebdb719ba85df40c00ad461074ca1d14ce25750b36d50dff8d9"><div class="ttname"><a href="../../d7/d61/zone__elwynn__forest_8cpp.html#a65c53b71f65b39ebdb719ba85df40c00ad461074ca1d14ce25750b36d50dff8d9">NPC_JOSE</a></div><div class="ttdeci">@ NPC_JOSE</div><div class="ttdef"><b>Definition:</b> zone_elwynn_forest.cpp:51</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -741,7 +959,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/EasternKingdoms/<a class="el" href="../../d7/d61/zone__elwynn__forest_8cpp.html">zone_elwynn_forest.cpp</a></li>
+<li><a class="el" href="../../">zone_elwynn_forest.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -749,7 +967,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../db/d3e/structnpc__cameron.html">npc_cameron</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:48 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:03 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

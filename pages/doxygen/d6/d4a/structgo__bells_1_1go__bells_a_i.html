@@ -194,7 +194,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a22a51a980875ccae8a285d7804967747 inherit pro_attribs_class_game_object_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/dd1/class_game_object.html">GameObject</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db8/class_game_object_a_i.html#a22a51a980875ccae8a285d7804967747">me</a></td></tr>
 <tr class="separator:a22a51a980875ccae8a285d7804967747 inherit pro_attribs_class_game_object_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a6f22847c66a3b5faded35da799359846" name="a6f22847c66a3b5faded35da799359846"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6f22847c66a3b5faded35da799359846">&#9670;&#160;</a></span>go_bellsAI()</h2>
 
@@ -218,7 +219,108 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1787</span>                                   : <a class="code hl_class" href="../../d7/db8/class_game_object_a_i.html">GameObjectAI</a>(go), <a class="code hl_variable" href="../../d6/d4a/structgo__bells_1_1go__bells_a_i.html#ab2491e9d27266ea69a5a9163e8c1b35b">_soundId</a>(0), <a class="code hl_variable" href="../../d6/d4a/structgo__bells_1_1go__bells_a_i.html#abf6ca2fc64f5764936a6d0179d40c2fa">once</a>(<span class="keyword">true</span>)</div>
+<div class="line"><span class="lineno"> 1788</span>        {</div>
+<div class="line"><span class="lineno"> 1789</span>            <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> zoneId = go-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#ad498d690fbe69bb99a8a2ffdcb2f5169">GetZoneId</a>();</div>
+<div class="line"><span class="lineno"> 1790</span> </div>
+<div class="line"><span class="lineno"> 1791</span>            <span class="keywordflow">switch</span> (go-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>())</div>
+<div class="line"><span class="lineno"> 1792</span>            {</div>
+<div class="line"><span class="lineno"> 1793</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#a34fc42b84d94303ffa0825e8c0f922b3a902afce21bc38a8bd15dead3f321e957">GO_HORDE_BELL</a>:</div>
+<div class="line"><span class="lineno"> 1794</span>            {</div>
+<div class="line"><span class="lineno"> 1795</span>                <span class="keywordflow">switch</span> (zoneId)</div>
+<div class="line"><span class="lineno"> 1796</span>                {</div>
+<div class="line"><span class="lineno"> 1797</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#ac7ff520f75f80e7ac4cb29de01f2bf8ca361a87b5a3ff3ad36d9b72f394763477">TIRISFAL_ZONE</a>:</div>
+<div class="line"><span class="lineno"> 1798</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#ac7ff520f75f80e7ac4cb29de01f2bf8caefc946d7d8a11667ad2ecbead522f3e1">UNDERCITY_ZONE</a>:</div>
+<div class="line"><span class="lineno"> 1799</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#ac7ff520f75f80e7ac4cb29de01f2bf8ca35d91fa7b24f28afd792162b49505c87">HILLSBRAD_FOOTHILLS_ZONE</a>:</div>
+<div class="line"><span class="lineno"> 1800</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#ac7ff520f75f80e7ac4cb29de01f2bf8ca6db703ca146eb7d710109737432b9f48">DUSKWOOD_ZONE</a>:</div>
+<div class="line"><span class="lineno"> 1801</span>                    <a class="code hl_variable" href="../../d6/d4a/structgo__bells_1_1go__bells_a_i.html#ab2491e9d27266ea69a5a9163e8c1b35b">_soundId</a> = <a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#acf70bf5aef6a5c87e11c5a783bf28bbeaa10106ffc02139319351b94eb8f77b1b">BELLTOLLHORDE</a>;</div>
+<div class="line"><span class="lineno"> 1802</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1803</span>                <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno"> 1804</span>                    <a class="code hl_variable" href="../../d6/d4a/structgo__bells_1_1go__bells_a_i.html#ab2491e9d27266ea69a5a9163e8c1b35b">_soundId</a> = <a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#acf70bf5aef6a5c87e11c5a783bf28bbeab97f413b0b7481dc69fad37ab15aa1ee">BELLTOLLTRIBAL</a>;</div>
+<div class="line"><span class="lineno"> 1805</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1806</span>                }</div>
+<div class="line"><span class="lineno"> 1807</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1808</span>            }</div>
+<div class="line"><span class="lineno"> 1809</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#a34fc42b84d94303ffa0825e8c0f922b3a0dab569e9ded0955c5a53b07f71a52c1">GO_ALLIANCE_BELL</a>:</div>
+<div class="line"><span class="lineno"> 1810</span>            {</div>
+<div class="line"><span class="lineno"> 1811</span>                <span class="keywordflow">switch</span> (zoneId)</div>
+<div class="line"><span class="lineno"> 1812</span>                {</div>
+<div class="line"><span class="lineno"> 1813</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#ac7ff520f75f80e7ac4cb29de01f2bf8caa35be24efbe1327bf71f2d60eeda53ec">IRONFORGE_ZONE</a>:</div>
+<div class="line"><span class="lineno"> 1814</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#ac7ff520f75f80e7ac4cb29de01f2bf8cad775e9f4bc4af75550c23d1d367bc62f">DUN_MOROGH_ZONE</a>:</div>
+<div class="line"><span class="lineno"> 1815</span>                    <a class="code hl_variable" href="../../d6/d4a/structgo__bells_1_1go__bells_a_i.html#ab2491e9d27266ea69a5a9163e8c1b35b">_soundId</a> = <a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#acf70bf5aef6a5c87e11c5a783bf28bbeae72761714f81f491e8d5bd55f336d615">BELLTOLLDWARFGNOME</a>;</div>
+<div class="line"><span class="lineno"> 1816</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1817</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#ac7ff520f75f80e7ac4cb29de01f2bf8cabec6f0885583abeca8de103de4a46548">DARNASSUS_ZONE</a>:</div>
+<div class="line"><span class="lineno"> 1818</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#ac7ff520f75f80e7ac4cb29de01f2bf8ca80c216ca132e8bcdb039fe0ab7bab07a">TELDRASSIL_ZONE</a>:</div>
+<div class="line"><span class="lineno"> 1819</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#ac7ff520f75f80e7ac4cb29de01f2bf8ca4cd90a294a2507e756e96b77d19af12f">ASHENVALE_ZONE</a>:</div>
+<div class="line"><span class="lineno"> 1820</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#ac7ff520f75f80e7ac4cb29de01f2bf8cac8b463170ddba3be86b194f53aef0229">SHATTRATH_ZONE</a>:</div>
+<div class="line"><span class="lineno"> 1821</span>                    <a class="code hl_variable" href="../../d6/d4a/structgo__bells_1_1go__bells_a_i.html#ab2491e9d27266ea69a5a9163e8c1b35b">_soundId</a> = <a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#acf70bf5aef6a5c87e11c5a783bf28bbea4194c31ad685b4aaf8721d4382b850d8">BELLTOLLNIGHTELF</a>;</div>
+<div class="line"><span class="lineno"> 1822</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1823</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#ac7ff520f75f80e7ac4cb29de01f2bf8caa9bac8caf512d3a1eca3f8dc38e93b9f">WESTFALL_ZONE</a>:</div>
+<div class="line"><span class="lineno"> 1824</span>                    <span class="keywordflow">if</span> (go-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#acdd585ef58eb876c506389ff96a4fbd9">GetAreaId</a>() == <a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#ad11982c4102bd658cfbabc532912e7bea9e3264aa792a0224a8e2a2d18f02a6f8">AREA_WESTFALL_LIGHTHOUSE</a>)</div>
+<div class="line"><span class="lineno"> 1825</span>                    {</div>
+<div class="line"><span class="lineno"> 1826</span>                        <a class="code hl_variable" href="../../d6/d4a/structgo__bells_1_1go__bells_a_i.html#ab2491e9d27266ea69a5a9163e8c1b35b">_soundId</a> = <a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#acf70bf5aef6a5c87e11c5a783bf28bbea1793a7d1a1a3da24135c59906166779b">LIGHTHOUSEFOGHORN</a>;</div>
+<div class="line"><span class="lineno"> 1827</span>                    }</div>
+<div class="line"><span class="lineno"> 1828</span>                    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 1829</span>                    {</div>
+<div class="line"><span class="lineno"> 1830</span>                        <a class="code hl_variable" href="../../d6/d4a/structgo__bells_1_1go__bells_a_i.html#ab2491e9d27266ea69a5a9163e8c1b35b">_soundId</a> = <a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#acf70bf5aef6a5c87e11c5a783bf28bbea6602f47011fe059e673d7ed981778279">BELLTOLLALLIANCE</a>;</div>
+<div class="line"><span class="lineno"> 1831</span>                    }</div>
+<div class="line"><span class="lineno"> 1832</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1833</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#ac7ff520f75f80e7ac4cb29de01f2bf8ca014ddfda0150f1f95eddd39434809e8d">DUSTWALLOW_MARSH_ZONE</a>:</div>
+<div class="line"><span class="lineno"> 1834</span>                    <span class="keywordflow">if</span> (go-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#acdd585ef58eb876c506389ff96a4fbd9">GetAreaId</a>() == <a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#ad11982c4102bd658cfbabc532912e7bea39f1f908c275ba3e434a3135c03c2f78">AREA_ALCAZ_ISLAND</a>)</div>
+<div class="line"><span class="lineno"> 1835</span>                    {</div>
+<div class="line"><span class="lineno"> 1836</span>                        <a class="code hl_variable" href="../../d6/d4a/structgo__bells_1_1go__bells_a_i.html#ab2491e9d27266ea69a5a9163e8c1b35b">_soundId</a> = <a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#acf70bf5aef6a5c87e11c5a783bf28bbea1793a7d1a1a3da24135c59906166779b">LIGHTHOUSEFOGHORN</a>;</div>
+<div class="line"><span class="lineno"> 1837</span>                    }</div>
+<div class="line"><span class="lineno"> 1838</span>                    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 1839</span>                    {</div>
+<div class="line"><span class="lineno"> 1840</span>                        <a class="code hl_variable" href="../../d6/d4a/structgo__bells_1_1go__bells_a_i.html#ab2491e9d27266ea69a5a9163e8c1b35b">_soundId</a> = <a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#acf70bf5aef6a5c87e11c5a783bf28bbea6602f47011fe059e673d7ed981778279">BELLTOLLALLIANCE</a>;</div>
+<div class="line"><span class="lineno"> 1841</span>                    }</div>
+<div class="line"><span class="lineno"> 1842</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1843</span>                <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno"> 1844</span>                    <a class="code hl_variable" href="../../d6/d4a/structgo__bells_1_1go__bells_a_i.html#ab2491e9d27266ea69a5a9163e8c1b35b">_soundId</a> = <a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#acf70bf5aef6a5c87e11c5a783bf28bbea6602f47011fe059e673d7ed981778279">BELLTOLLALLIANCE</a>;</div>
+<div class="line"><span class="lineno"> 1845</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1846</span>                }</div>
+<div class="line"><span class="lineno"> 1847</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1848</span>            }</div>
+<div class="line"><span class="lineno"> 1849</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#a34fc42b84d94303ffa0825e8c0f922b3a8e249767760a017a8f397b7885544557">GO_KHARAZHAN_BELL</a>:</div>
+<div class="line"><span class="lineno"> 1850</span>            {</div>
+<div class="line"><span class="lineno"> 1851</span>                <a class="code hl_variable" href="../../d6/d4a/structgo__bells_1_1go__bells_a_i.html#ab2491e9d27266ea69a5a9163e8c1b35b">_soundId</a> = <a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#acf70bf5aef6a5c87e11c5a783bf28bbea931fe46d052fd8a6e36aa1c9931a7c89">BELLTOLLKHARAZHAN</a>;</div>
+<div class="line"><span class="lineno"> 1852</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1853</span>            }</div>
+<div class="line"><span class="lineno"> 1854</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1855</span>            }</div>
+<div class="line"><span class="lineno"> 1856</span>        }</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="aclass_game_object_a_i_html"><div class="ttname"><a href="../../d7/db8/class_game_object_a_i.html">GameObjectAI</a></div><div class="ttdef"><b>Definition:</b> GameObjectAI.h:33</div></div>
+<div class="ttc" id="aclass_object_html_aa627fe2967ed0e0ed1d8aeeb4365a961"><div class="ttname"><a href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">Object::GetEntry</a></div><div class="ttdeci">uint32 GetEntry() const</div><div class="ttdef"><b>Definition:</b> Object.h:109</div></div>
+<div class="ttc" id="aclass_world_object_html_acdd585ef58eb876c506389ff96a4fbd9"><div class="ttname"><a href="../../db/df7/class_world_object.html#acdd585ef58eb876c506389ff96a4fbd9">WorldObject::GetAreaId</a></div><div class="ttdeci">uint32 GetAreaId() const</div><div class="ttdef"><b>Definition:</b> Object.cpp:3066</div></div>
+<div class="ttc" id="aclass_world_object_html_ad498d690fbe69bb99a8a2ffdcb2f5169"><div class="ttname"><a href="../../db/df7/class_world_object.html#ad498d690fbe69bb99a8a2ffdcb2f5169">WorldObject::GetZoneId</a></div><div class="ttdeci">uint32 GetZoneId() const</div><div class="ttdef"><b>Definition:</b> Object.cpp:3058</div></div>
+<div class="ttc" id="ago__scripts_8cpp_html_a34fc42b84d94303ffa0825e8c0f922b3a0dab569e9ded0955c5a53b07f71a52c1"><div class="ttname"><a href="../../d6/d0c/go__scripts_8cpp.html#a34fc42b84d94303ffa0825e8c0f922b3a0dab569e9ded0955c5a53b07f71a52c1">GO_ALLIANCE_BELL</a></div><div class="ttdeci">@ GO_ALLIANCE_BELL</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1769</div></div>
+<div class="ttc" id="ago__scripts_8cpp_html_a34fc42b84d94303ffa0825e8c0f922b3a8e249767760a017a8f397b7885544557"><div class="ttname"><a href="../../d6/d0c/go__scripts_8cpp.html#a34fc42b84d94303ffa0825e8c0f922b3a8e249767760a017a8f397b7885544557">GO_KHARAZHAN_BELL</a></div><div class="ttdeci">@ GO_KHARAZHAN_BELL</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1770</div></div>
+<div class="ttc" id="ago__scripts_8cpp_html_a34fc42b84d94303ffa0825e8c0f922b3a902afce21bc38a8bd15dead3f321e957"><div class="ttname"><a href="../../d6/d0c/go__scripts_8cpp.html#a34fc42b84d94303ffa0825e8c0f922b3a902afce21bc38a8bd15dead3f321e957">GO_HORDE_BELL</a></div><div class="ttdeci">@ GO_HORDE_BELL</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1768</div></div>
+<div class="ttc" id="ago__scripts_8cpp_html_ac7ff520f75f80e7ac4cb29de01f2bf8ca014ddfda0150f1f95eddd39434809e8d"><div class="ttname"><a href="../../d6/d0c/go__scripts_8cpp.html#ac7ff520f75f80e7ac4cb29de01f2bf8ca014ddfda0150f1f95eddd39434809e8d">DUSTWALLOW_MARSH_ZONE</a></div><div class="ttdeci">@ DUSTWALLOW_MARSH_ZONE</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1756</div></div>
+<div class="ttc" id="ago__scripts_8cpp_html_ac7ff520f75f80e7ac4cb29de01f2bf8ca35d91fa7b24f28afd792162b49505c87"><div class="ttname"><a href="../../d6/d0c/go__scripts_8cpp.html#ac7ff520f75f80e7ac4cb29de01f2bf8ca35d91fa7b24f28afd792162b49505c87">HILLSBRAD_FOOTHILLS_ZONE</a></div><div class="ttdeci">@ HILLSBRAD_FOOTHILLS_ZONE</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1753</div></div>
+<div class="ttc" id="ago__scripts_8cpp_html_ac7ff520f75f80e7ac4cb29de01f2bf8ca361a87b5a3ff3ad36d9b72f394763477"><div class="ttname"><a href="../../d6/d0c/go__scripts_8cpp.html#ac7ff520f75f80e7ac4cb29de01f2bf8ca361a87b5a3ff3ad36d9b72f394763477">TIRISFAL_ZONE</a></div><div class="ttdeci">@ TIRISFAL_ZONE</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1746</div></div>
+<div class="ttc" id="ago__scripts_8cpp_html_ac7ff520f75f80e7ac4cb29de01f2bf8ca4cd90a294a2507e756e96b77d19af12f"><div class="ttname"><a href="../../d6/d0c/go__scripts_8cpp.html#ac7ff520f75f80e7ac4cb29de01f2bf8ca4cd90a294a2507e756e96b77d19af12f">ASHENVALE_ZONE</a></div><div class="ttdeci">@ ASHENVALE_ZONE</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1752</div></div>
+<div class="ttc" id="ago__scripts_8cpp_html_ac7ff520f75f80e7ac4cb29de01f2bf8ca6db703ca146eb7d710109737432b9f48"><div class="ttname"><a href="../../d6/d0c/go__scripts_8cpp.html#ac7ff520f75f80e7ac4cb29de01f2bf8ca6db703ca146eb7d710109737432b9f48">DUSKWOOD_ZONE</a></div><div class="ttdeci">@ DUSKWOOD_ZONE</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1754</div></div>
+<div class="ttc" id="ago__scripts_8cpp_html_ac7ff520f75f80e7ac4cb29de01f2bf8ca80c216ca132e8bcdb039fe0ab7bab07a"><div class="ttname"><a href="../../d6/d0c/go__scripts_8cpp.html#ac7ff520f75f80e7ac4cb29de01f2bf8ca80c216ca132e8bcdb039fe0ab7bab07a">TELDRASSIL_ZONE</a></div><div class="ttdeci">@ TELDRASSIL_ZONE</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1750</div></div>
+<div class="ttc" id="ago__scripts_8cpp_html_ac7ff520f75f80e7ac4cb29de01f2bf8caa35be24efbe1327bf71f2d60eeda53ec"><div class="ttname"><a href="../../d6/d0c/go__scripts_8cpp.html#ac7ff520f75f80e7ac4cb29de01f2bf8caa35be24efbe1327bf71f2d60eeda53ec">IRONFORGE_ZONE</a></div><div class="ttdeci">@ IRONFORGE_ZONE</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1749</div></div>
+<div class="ttc" id="ago__scripts_8cpp_html_ac7ff520f75f80e7ac4cb29de01f2bf8caa9bac8caf512d3a1eca3f8dc38e93b9f"><div class="ttname"><a href="../../d6/d0c/go__scripts_8cpp.html#ac7ff520f75f80e7ac4cb29de01f2bf8caa9bac8caf512d3a1eca3f8dc38e93b9f">WESTFALL_ZONE</a></div><div class="ttdeci">@ WESTFALL_ZONE</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1755</div></div>
+<div class="ttc" id="ago__scripts_8cpp_html_ac7ff520f75f80e7ac4cb29de01f2bf8cabec6f0885583abeca8de103de4a46548"><div class="ttname"><a href="../../d6/d0c/go__scripts_8cpp.html#ac7ff520f75f80e7ac4cb29de01f2bf8cabec6f0885583abeca8de103de4a46548">DARNASSUS_ZONE</a></div><div class="ttdeci">@ DARNASSUS_ZONE</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1751</div></div>
+<div class="ttc" id="ago__scripts_8cpp_html_ac7ff520f75f80e7ac4cb29de01f2bf8cac8b463170ddba3be86b194f53aef0229"><div class="ttname"><a href="../../d6/d0c/go__scripts_8cpp.html#ac7ff520f75f80e7ac4cb29de01f2bf8cac8b463170ddba3be86b194f53aef0229">SHATTRATH_ZONE</a></div><div class="ttdeci">@ SHATTRATH_ZONE</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1757</div></div>
+<div class="ttc" id="ago__scripts_8cpp_html_ac7ff520f75f80e7ac4cb29de01f2bf8cad775e9f4bc4af75550c23d1d367bc62f"><div class="ttname"><a href="../../d6/d0c/go__scripts_8cpp.html#ac7ff520f75f80e7ac4cb29de01f2bf8cad775e9f4bc4af75550c23d1d367bc62f">DUN_MOROGH_ZONE</a></div><div class="ttdeci">@ DUN_MOROGH_ZONE</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1748</div></div>
+<div class="ttc" id="ago__scripts_8cpp_html_ac7ff520f75f80e7ac4cb29de01f2bf8caefc946d7d8a11667ad2ecbead522f3e1"><div class="ttname"><a href="../../d6/d0c/go__scripts_8cpp.html#ac7ff520f75f80e7ac4cb29de01f2bf8caefc946d7d8a11667ad2ecbead522f3e1">UNDERCITY_ZONE</a></div><div class="ttdeci">@ UNDERCITY_ZONE</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1747</div></div>
+<div class="ttc" id="ago__scripts_8cpp_html_acf70bf5aef6a5c87e11c5a783bf28bbea1793a7d1a1a3da24135c59906166779b"><div class="ttname"><a href="../../d6/d0c/go__scripts_8cpp.html#acf70bf5aef6a5c87e11c5a783bf28bbea1793a7d1a1a3da24135c59906166779b">LIGHTHOUSEFOGHORN</a></div><div class="ttdeci">@ LIGHTHOUSEFOGHORN</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1741</div></div>
+<div class="ttc" id="ago__scripts_8cpp_html_acf70bf5aef6a5c87e11c5a783bf28bbea4194c31ad685b4aaf8721d4382b850d8"><div class="ttname"><a href="../../d6/d0c/go__scripts_8cpp.html#acf70bf5aef6a5c87e11c5a783bf28bbea4194c31ad685b4aaf8721d4382b850d8">BELLTOLLNIGHTELF</a></div><div class="ttdeci">@ BELLTOLLNIGHTELF</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1738</div></div>
+<div class="ttc" id="ago__scripts_8cpp_html_acf70bf5aef6a5c87e11c5a783bf28bbea6602f47011fe059e673d7ed981778279"><div class="ttname"><a href="../../d6/d0c/go__scripts_8cpp.html#acf70bf5aef6a5c87e11c5a783bf28bbea6602f47011fe059e673d7ed981778279">BELLTOLLALLIANCE</a></div><div class="ttdeci">@ BELLTOLLALLIANCE</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1737</div></div>
+<div class="ttc" id="ago__scripts_8cpp_html_acf70bf5aef6a5c87e11c5a783bf28bbea931fe46d052fd8a6e36aa1c9931a7c89"><div class="ttname"><a href="../../d6/d0c/go__scripts_8cpp.html#acf70bf5aef6a5c87e11c5a783bf28bbea931fe46d052fd8a6e36aa1c9931a7c89">BELLTOLLKHARAZHAN</a></div><div class="ttdeci">@ BELLTOLLKHARAZHAN</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1740</div></div>
+<div class="ttc" id="ago__scripts_8cpp_html_acf70bf5aef6a5c87e11c5a783bf28bbeaa10106ffc02139319351b94eb8f77b1b"><div class="ttname"><a href="../../d6/d0c/go__scripts_8cpp.html#acf70bf5aef6a5c87e11c5a783bf28bbeaa10106ffc02139319351b94eb8f77b1b">BELLTOLLHORDE</a></div><div class="ttdeci">@ BELLTOLLHORDE</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1735</div></div>
+<div class="ttc" id="ago__scripts_8cpp_html_acf70bf5aef6a5c87e11c5a783bf28bbeab97f413b0b7481dc69fad37ab15aa1ee"><div class="ttname"><a href="../../d6/d0c/go__scripts_8cpp.html#acf70bf5aef6a5c87e11c5a783bf28bbeab97f413b0b7481dc69fad37ab15aa1ee">BELLTOLLTRIBAL</a></div><div class="ttdeci">@ BELLTOLLTRIBAL</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1736</div></div>
+<div class="ttc" id="ago__scripts_8cpp_html_acf70bf5aef6a5c87e11c5a783bf28bbeae72761714f81f491e8d5bd55f336d615"><div class="ttname"><a href="../../d6/d0c/go__scripts_8cpp.html#acf70bf5aef6a5c87e11c5a783bf28bbeae72761714f81f491e8d5bd55f336d615">BELLTOLLDWARFGNOME</a></div><div class="ttdeci">@ BELLTOLLDWARFGNOME</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1739</div></div>
+<div class="ttc" id="ago__scripts_8cpp_html_ad11982c4102bd658cfbabc532912e7bea39f1f908c275ba3e434a3135c03c2f78"><div class="ttname"><a href="../../d6/d0c/go__scripts_8cpp.html#ad11982c4102bd658cfbabc532912e7bea39f1f908c275ba3e434a3135c03c2f78">AREA_ALCAZ_ISLAND</a></div><div class="ttdeci">@ AREA_ALCAZ_ISLAND</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1762</div></div>
+<div class="ttc" id="ago__scripts_8cpp_html_ad11982c4102bd658cfbabc532912e7bea9e3264aa792a0224a8e2a2d18f02a6f8"><div class="ttname"><a href="../../d6/d0c/go__scripts_8cpp.html#ad11982c4102bd658cfbabc532912e7bea9e3264aa792a0224a8e2a2d18f02a6f8">AREA_WESTFALL_LIGHTHOUSE</a></div><div class="ttdeci">@ AREA_WESTFALL_LIGHTHOUSE</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1763</div></div>
+<div class="ttc" id="astructgo__bells_1_1go__bells_a_i_html_ab2491e9d27266ea69a5a9163e8c1b35b"><div class="ttname"><a href="../../d6/d4a/structgo__bells_1_1go__bells_a_i.html#ab2491e9d27266ea69a5a9163e8c1b35b">go_bells::go_bellsAI::_soundId</a></div><div class="ttdeci">uint32 _soundId</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1906</div></div>
+<div class="ttc" id="astructgo__bells_1_1go__bells_a_i_html_abf6ca2fc64f5764936a6d0179d40c2fa"><div class="ttname"><a href="../../d6/d4a/structgo__bells_1_1go__bells_a_i.html#abf6ca2fc64f5764936a6d0179d40c2fa">go_bells::go_bellsAI::once</a></div><div class="ttdeci">bool once</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1907</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -247,7 +349,63 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d7/db8/class_game_object_a_i.html#aa9b59a4ec7d95a0702689fad902d956a">GameObjectAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1859</span>        {</div>
+<div class="line"><span class="lineno"> 1860</span>            <a class="code hl_variable" href="../../d6/d4a/structgo__bells_1_1go__bells_a_i.html#a46c66442078cee28a76fc412746ca026">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a33ba1058edd639c98258ba3e123ac2f9">Update</a>(diff);</div>
+<div class="line"><span class="lineno"> 1861</span> </div>
+<div class="line"><span class="lineno"> 1862</span>            <span class="keywordflow">if</span> (<a class="code hl_define" href="../../d8/d13/_game_event_mgr_8h.html#a3c1c916d94272dfe845b9cc5e8fc292a">sGameEventMgr</a>-&gt;IsActiveEvent(<a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#a30ebe09f92269b0ecf33b3d0865a3e18aa237d3f5a602ffd414af9f62fe5da60c">GAME_EVENT_HOURLY_BELLS</a>) &amp;&amp; <a class="code hl_variable" href="../../d6/d4a/structgo__bells_1_1go__bells_a_i.html#abf6ca2fc64f5764936a6d0179d40c2fa">once</a>)</div>
+<div class="line"><span class="lineno"> 1863</span>            {</div>
+<div class="line"><span class="lineno"> 1864</span>                <span class="comment">// Reset</span></div>
+<div class="line"><span class="lineno"> 1865</span>                <a class="code hl_variable" href="../../d6/d4a/structgo__bells_1_1go__bells_a_i.html#abf6ca2fc64f5764936a6d0179d40c2fa">once</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1866</span>                <a class="code hl_variable" href="../../d6/d4a/structgo__bells_1_1go__bells_a_i.html#a46c66442078cee28a76fc412746ca026">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a5e6081bda8828001c0ed8677b2aecd65">ScheduleEvent</a>(<a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#a30ebe09f92269b0ecf33b3d0865a3e18a3c04eb101efda30d7c1f73678eae701b">EVENT_TIME</a>, 1000);</div>
+<div class="line"><span class="lineno"> 1867</span>            }</div>
+<div class="line"><span class="lineno"> 1868</span> </div>
+<div class="line"><span class="lineno"> 1869</span>            <span class="keywordflow">while</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> eventId = <a class="code hl_variable" href="../../d6/d4a/structgo__bells_1_1go__bells_a_i.html#a46c66442078cee28a76fc412746ca026">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a07764662d7571ae0e1c44203d189ba44">ExecuteEvent</a>())</div>
+<div class="line"><span class="lineno"> 1870</span>            {</div>
+<div class="line"><span class="lineno"> 1871</span>                <span class="keywordflow">switch</span> (eventId)</div>
+<div class="line"><span class="lineno"> 1872</span>                {</div>
+<div class="line"><span class="lineno"> 1873</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#a30ebe09f92269b0ecf33b3d0865a3e18a3c04eb101efda30d7c1f73678eae701b">EVENT_TIME</a>:</div>
+<div class="line"><span class="lineno"> 1874</span>                {</div>
+<div class="line"><span class="lineno"> 1875</span>                    tzset(); <span class="comment">// set timezone for localtime_r() -&gt; fix issues due to daylight time</span></div>
+<div class="line"><span class="lineno"> 1876</span>                    tm local_tm = <a class="code hl_function" href="../../d9/d3a/namespace_acore_1_1_time.html#ab6a946894ec0cb9fa9bf76afa8e7fec8">Acore::Time::TimeBreakdown</a>();</div>
+<div class="line"><span class="lineno"> 1877</span>                    <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> _rings = (local_tm.tm_hour) % 12;</div>
+<div class="line"><span class="lineno"> 1878</span>                    _rings = (_rings == 0) ? 12 : _rings; <span class="comment">// 00:00 and 12:00</span></div>
+<div class="line"><span class="lineno"> 1879</span> </div>
+<div class="line"><span class="lineno"> 1880</span>                    <span class="comment">// Dwarf hourly horn should only play a single time, each time the next hour begins.</span></div>
+<div class="line"><span class="lineno"> 1881</span>                    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d6/d4a/structgo__bells_1_1go__bells_a_i.html#ab2491e9d27266ea69a5a9163e8c1b35b">_soundId</a> == <a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#acf70bf5aef6a5c87e11c5a783bf28bbeae72761714f81f491e8d5bd55f336d615">BELLTOLLDWARFGNOME</a>)</div>
+<div class="line"><span class="lineno"> 1882</span>                    {</div>
+<div class="line"><span class="lineno"> 1883</span>                        _rings = 1;</div>
+<div class="line"><span class="lineno"> 1884</span>                    }</div>
+<div class="line"><span class="lineno"> 1885</span> </div>
+<div class="line"><span class="lineno"> 1886</span>                    <span class="comment">// Schedule ring event</span></div>
+<div class="line"><span class="lineno"> 1887</span>                    <span class="keywordflow">for</span> (<span class="keyword">auto</span> i = 0; i &lt; _rings; ++i)</div>
+<div class="line"><span class="lineno"> 1888</span>                    {</div>
+<div class="line"><span class="lineno"> 1889</span>                        <a class="code hl_variable" href="../../d6/d4a/structgo__bells_1_1go__bells_a_i.html#a46c66442078cee28a76fc412746ca026">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a5e6081bda8828001c0ed8677b2aecd65">ScheduleEvent</a>(<a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#a30ebe09f92269b0ecf33b3d0865a3e18aeac3ba497c7abe6379f714275584bf0d">EVENT_RING_BELL</a>, (i * 4 + 1) * 1000);</div>
+<div class="line"><span class="lineno"> 1890</span>                    }</div>
+<div class="line"><span class="lineno"> 1891</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1892</span>                }</div>
+<div class="line"><span class="lineno"> 1893</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#a30ebe09f92269b0ecf33b3d0865a3e18aeac3ba497c7abe6379f714275584bf0d">EVENT_RING_BELL</a>:</div>
+<div class="line"><span class="lineno"> 1894</span>                {</div>
+<div class="line"><span class="lineno"> 1895</span>                    <a class="code hl_variable" href="../../d7/db8/class_game_object_a_i.html#a22a51a980875ccae8a285d7804967747">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a40f0974be3005abb7313b4688e4cdfe3">PlayDirectSound</a>(<a class="code hl_variable" href="../../d6/d4a/structgo__bells_1_1go__bells_a_i.html#ab2491e9d27266ea69a5a9163e8c1b35b">_soundId</a>);</div>
+<div class="line"><span class="lineno"> 1896</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1897</span>                }</div>
+<div class="line"><span class="lineno"> 1898</span>                <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno"> 1899</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1900</span>                }</div>
+<div class="line"><span class="lineno"> 1901</span>            }</div>
+<div class="line"><span class="lineno"> 1902</span>        }</div>
+<div class="ttc" id="a_define_8h_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:110</div></div>
+<div class="ttc" id="a_game_event_mgr_8h_html_a3c1c916d94272dfe845b9cc5e8fc292a"><div class="ttname"><a href="../../d8/d13/_game_event_mgr_8h.html#a3c1c916d94272dfe845b9cc5e8fc292a">sGameEventMgr</a></div><div class="ttdeci">#define sGameEventMgr</div><div class="ttdef"><b>Definition:</b> GameEventMgr.h:186</div></div>
+<div class="ttc" id="aclass_event_map_html_a07764662d7571ae0e1c44203d189ba44"><div class="ttname"><a href="../../d8/d8f/class_event_map.html#a07764662d7571ae0e1c44203d189ba44">EventMap::ExecuteEvent</a></div><div class="ttdeci">uint32 ExecuteEvent()</div><div class="ttdef"><b>Definition:</b> EventMap.cpp:114</div></div>
+<div class="ttc" id="aclass_event_map_html_a33ba1058edd639c98258ba3e123ac2f9"><div class="ttname"><a href="../../d8/d8f/class_event_map.html#a33ba1058edd639c98258ba3e123ac2f9">EventMap::Update</a></div><div class="ttdeci">void Update(uint32 time)</div><div class="ttdef"><b>Definition:</b> EventMap.h:54</div></div>
+<div class="ttc" id="aclass_event_map_html_a5e6081bda8828001c0ed8677b2aecd65"><div class="ttname"><a href="../../d8/d8f/class_event_map.html#a5e6081bda8828001c0ed8677b2aecd65">EventMap::ScheduleEvent</a></div><div class="ttdeci">void ScheduleEvent(uint32 eventId, uint32 time, uint32 group=0, uint32 phase=0)</div><div class="ttdef"><b>Definition:</b> EventMap.cpp:56</div></div>
+<div class="ttc" id="aclass_game_object_a_i_html_a22a51a980875ccae8a285d7804967747"><div class="ttname"><a href="../../d7/db8/class_game_object_a_i.html#a22a51a980875ccae8a285d7804967747">GameObjectAI::me</a></div><div class="ttdeci">GameObject *const me</div><div class="ttdef"><b>Definition:</b> GameObjectAI.h:35</div></div>
+<div class="ttc" id="aclass_world_object_html_a40f0974be3005abb7313b4688e4cdfe3"><div class="ttname"><a href="../../db/df7/class_world_object.html#a40f0974be3005abb7313b4688e4cdfe3">WorldObject::PlayDirectSound</a></div><div class="ttdeci">void PlayDirectSound(uint32 sound_id, Player *target=nullptr)</div><div class="ttdef"><b>Definition:</b> Object.cpp:2836</div></div>
+<div class="ttc" id="ago__scripts_8cpp_html_a30ebe09f92269b0ecf33b3d0865a3e18a3c04eb101efda30d7c1f73678eae701b"><div class="ttname"><a href="../../d6/d0c/go__scripts_8cpp.html#a30ebe09f92269b0ecf33b3d0865a3e18a3c04eb101efda30d7c1f73678eae701b">EVENT_TIME</a></div><div class="ttdeci">@ EVENT_TIME</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1777</div></div>
+<div class="ttc" id="ago__scripts_8cpp_html_a30ebe09f92269b0ecf33b3d0865a3e18aa237d3f5a602ffd414af9f62fe5da60c"><div class="ttname"><a href="../../d6/d0c/go__scripts_8cpp.html#a30ebe09f92269b0ecf33b3d0865a3e18aa237d3f5a602ffd414af9f62fe5da60c">GAME_EVENT_HOURLY_BELLS</a></div><div class="ttdeci">@ GAME_EVENT_HOURLY_BELLS</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1775</div></div>
+<div class="ttc" id="ago__scripts_8cpp_html_a30ebe09f92269b0ecf33b3d0865a3e18aeac3ba497c7abe6379f714275584bf0d"><div class="ttname"><a href="../../d6/d0c/go__scripts_8cpp.html#a30ebe09f92269b0ecf33b3d0865a3e18aeac3ba497c7abe6379f714275584bf0d">EVENT_RING_BELL</a></div><div class="ttdeci">@ EVENT_RING_BELL</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1776</div></div>
+<div class="ttc" id="anamespace_acore_1_1_time_html_ab6a946894ec0cb9fa9bf76afa8e7fec8"><div class="ttname"><a href="../../d9/d3a/namespace_acore_1_1_time.html#ab6a946894ec0cb9fa9bf76afa8e7fec8">Acore::Time::TimeBreakdown</a></div><div class="ttdeci">AC_COMMON_API std::tm TimeBreakdown(time_t t=0)</div><div class="ttdef"><b>Definition:</b> Timer.cpp:233</div></div>
+<div class="ttc" id="astructgo__bells_1_1go__bells_a_i_html_a46c66442078cee28a76fc412746ca026"><div class="ttname"><a href="../../d6/d4a/structgo__bells_1_1go__bells_a_i.html#a46c66442078cee28a76fc412746ca026">go_bells::go_bellsAI::_events</a></div><div class="ttdeci">EventMap _events</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1905</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -318,7 +476,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/World/<a class="el" href="../../d6/d0c/go__scripts_8cpp.html">go_scripts.cpp</a></li>
+<li><a class="el" href="../../">go_scripts.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -326,7 +484,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d9/d10/classgo__bells.html">go_bells</a></li><li class="navelem"><a class="el" href="../../d6/d4a/structgo__bells_1_1go__bells_a_i.html">go_bellsAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:45 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:59 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

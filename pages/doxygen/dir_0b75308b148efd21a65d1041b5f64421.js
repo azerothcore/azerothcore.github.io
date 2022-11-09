@@ -1,8 +1,8 @@
 var dir_0b75308b148efd21a65d1041b5f64421 =
 [
-    [ "azjol_nerub.h", "dc/da4/azjol__nerub_8h.html", "dc/da4/azjol__nerub_8h" ],
-    [ "boss_anubarak.cpp", "dd/dd2/boss__anubarak_8cpp.html", "dd/dd2/boss__anubarak_8cpp" ],
-    [ "boss_hadronox.cpp", "d3/d18/boss__hadronox_8cpp.html", "d3/d18/boss__hadronox_8cpp" ],
-    [ "boss_krikthir_the_gatewatcher.cpp", "d1/d92/boss__krikthir__the__gatewatcher_8cpp.html", "d1/d92/boss__krikthir__the__gatewatcher_8cpp" ],
-    [ "instance_azjol_nerub.cpp", "d1/d2d/instance__azjol__nerub_8cpp.html", "d1/d2d/instance__azjol__nerub_8cpp" ]
+    [ "azjol_nerub.h", "d1/d48/a03218.html", "d1/d48/a03218" ],
+    [ "boss_anubarak.cpp", "d1/da3/a03221.html", "d1/da3/a03221" ],
+    [ "boss_hadronox.cpp", "d7/de1/a03224.html", "d7/de1/a03224" ],
+    [ "boss_krikthir_the_gatewatcher.cpp", "d3/d1b/a03227.html", "d3/d1b/a03227" ],
+    [ "instance_azjol_nerub.cpp", "df/dc9/a03230.html", "df/dc9/a03230" ]
 ];

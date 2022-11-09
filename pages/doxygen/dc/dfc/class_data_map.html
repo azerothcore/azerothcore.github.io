@@ -114,7 +114,7 @@ $(document).ready(function(){initNavTree('dc/dfc/class_data_map.html','../../');
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d1/d5c/_data_map_8h_source.html">DataMap.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">DataMap.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -139,7 +139,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a3a559027ba0a64e4af2f02218ce1c910"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; std::string, std::unique_ptr&lt; <a class="el" href="../../d5/dd9/class_data_map_1_1_base.html">Base</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dfc/class_data_map.html#a3a559027ba0a64e4af2f02218ce1c910">Container</a></td></tr>
 <tr class="separator:a3a559027ba0a64e4af2f02218ce1c910"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a2c7b450c8781824135765e5d82b0272e" name="a2c7b450c8781824135765e5d82b0272e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2c7b450c8781824135765e5d82b0272e">&#9670;&#160;</a></span>Erase()</h2>
 
@@ -164,7 +165,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p >Removes objects with given key and returns true if one was removed, false otherwise </p>
-
+<div class="fragment"><div class="line"><span class="lineno">   70</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dc/dfc/class_data_map.html#a3a559027ba0a64e4af2f02218ce1c910">Container</a>.erase(k) != 0; }</div>
+<div class="ttc" id="aclass_data_map_html_a3a559027ba0a64e4af2f02218ce1c910"><div class="ttname"><a href="../../dc/dfc/class_data_map.html#a3a559027ba0a64e4af2f02218ce1c910">DataMap::Container</a></div><div class="ttdeci">std::unordered_map&lt; std::string, std::unique_ptr&lt; Base &gt; &gt; Container</div><div class="ttdef"><b>Definition:</b> DataMap.h:73</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aa8f56bb08a6245792a75305ba2fcce82" name="aa8f56bb08a6245792a75305ba2fcce82"></a>
@@ -193,7 +196,21 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 <p >Returns a pointer to object of requested type stored with given key or nullptr </p>
-
+<div class="fragment"><div class="line"><span class="lineno">   30</span>    {</div>
+<div class="line"><span class="lineno">   31</span>        <span class="keyword">static_assert</span>(std::is_base_of&lt;Base, T&gt;::value, <span class="stringliteral">&quot;T must derive from Base&quot;</span>);</div>
+<div class="line"><span class="lineno">   32</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dc/dfc/class_data_map.html#a3a559027ba0a64e4af2f02218ce1c910">Container</a>.empty())</div>
+<div class="line"><span class="lineno">   33</span>        {</div>
+<div class="line"><span class="lineno">   34</span>            <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">   35</span>        }</div>
+<div class="line"><span class="lineno">   36</span> </div>
+<div class="line"><span class="lineno">   37</span>        <span class="keyword">auto</span> it = <a class="code hl_variable" href="../../dc/dfc/class_data_map.html#a3a559027ba0a64e4af2f02218ce1c910">Container</a>.find(k);</div>
+<div class="line"><span class="lineno">   38</span>        <span class="keywordflow">if</span> (it != <a class="code hl_variable" href="../../dc/dfc/class_data_map.html#a3a559027ba0a64e4af2f02218ce1c910">Container</a>.end())</div>
+<div class="line"><span class="lineno">   39</span>        {</div>
+<div class="line"><span class="lineno">   40</span>            <span class="keywordflow">return</span> <span class="keyword">dynamic_cast&lt;</span>T*<span class="keyword">&gt;</span>(it-&gt;second.get());</div>
+<div class="line"><span class="lineno">   41</span>        }</div>
+<div class="line"><span class="lineno">   42</span>        <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">   43</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad53ddbe486c994277adbb96e1c644112" name="ad53ddbe486c994277adbb96e1c644112"></a>
@@ -222,7 +239,17 @@ template&lt;class T , typename std::enable_if&lt; std::is_default_constructible&
 </table>
 </div><div class="memdoc">
 <p >Returns a pointer to object of requested type stored with given key or default constructs one and returns that one </p>
-
+<div class="fragment"><div class="line"><span class="lineno">   51</span>    {</div>
+<div class="line"><span class="lineno">   52</span>        <span class="keyword">static_assert</span>(std::is_base_of&lt;Base, T&gt;::value, <span class="stringliteral">&quot;T must derive from Base&quot;</span>);</div>
+<div class="line"><span class="lineno">   53</span>        <span class="keywordflow">if</span> (T* v = Get&lt;T&gt;(k))</div>
+<div class="line"><span class="lineno">   54</span>        {</div>
+<div class="line"><span class="lineno">   55</span>            <span class="keywordflow">return</span> v;</div>
+<div class="line"><span class="lineno">   56</span>        }</div>
+<div class="line"><span class="lineno">   57</span>        T* v = <span class="keyword">new</span> T();</div>
+<div class="line"><span class="lineno">   58</span>        <a class="code hl_variable" href="../../dc/dfc/class_data_map.html#a3a559027ba0a64e4af2f02218ce1c910">Container</a>.emplace(k, std::unique_ptr&lt;T&gt;(v));</div>
+<div class="line"><span class="lineno">   59</span>        <span class="keywordflow">return</span> v;</div>
+<div class="line"><span class="lineno">   60</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a93bf2535b14236df9703e485ef816b36" name="a93bf2535b14236df9703e485ef816b36"></a>
@@ -259,7 +286,8 @@ template&lt;class T , typename std::enable_if&lt; std::is_default_constructible&
 </table>
 </div><div class="memdoc">
 <p >Stores a new object that inherits the <a class="el" href="../../d5/dd9/class_data_map_1_1_base.html">Base</a> class with the given key </p>
-
+<div class="fragment"><div class="line"><span class="lineno">   65</span>{ <a class="code hl_variable" href="../../dc/dfc/class_data_map.html#a3a559027ba0a64e4af2f02218ce1c910">Container</a>[k] = std::unique_ptr&lt;Base&gt;(v); }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -286,7 +314,7 @@ template&lt;class T , typename std::enable_if&lt; std::is_default_constructible&
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/common/Utilities/<a class="el" href="../../d1/d5c/_data_map_8h_source.html">DataMap.h</a></li>
+<li><a class="el" href="../../">DataMap.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -294,7 +322,7 @@ template&lt;class T , typename std::enable_if&lt; std::is_default_constructible&
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/dfc/class_data_map.html">DataMap</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:44 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:58 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

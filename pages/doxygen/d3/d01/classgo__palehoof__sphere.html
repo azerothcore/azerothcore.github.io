@@ -181,7 +181,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a2d6cf85d1eb98438b5022804296eff11 inherit pro_methods_class_updatable_script"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dff/class_updatable_script.html#a2d6cf85d1eb98438b5022804296eff11">UpdatableScript</a> ()=default</td></tr>
 <tr class="separator:a2d6cf85d1eb98438b5022804296eff11 inherit pro_methods_class_updatable_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a9e31fe7531980a5f75af95e24cbc272d" name="a9e31fe7531980a5f75af95e24cbc272d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9e31fe7531980a5f75af95e24cbc272d">&#9670;&#160;</a></span>go_palehoof_sphere()</h2>
 
@@ -204,7 +205,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  795</span>: <a class="code hl_class" href="../../d9/dc2/class_game_object_script.html">GameObjectScript</a>(<span class="stringliteral">&quot;go_palehoof_sphere&quot;</span>) { }</div>
+<div class="ttc" id="aclass_game_object_script_html"><div class="ttname"><a href="../../d9/dc2/class_game_object_script.html">GameObjectScript</a></div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:758</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -243,11 +246,40 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d9/dc2/class_game_object_script.html#a58b56fc92ae87aea0530eceba1f3088d">GameObjectScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  798</span>    {</div>
+<div class="line"><span class="lineno">  799</span>        <a class="code hl_class" href="../../d8/d83/class_instance_script.html">InstanceScript</a>* pInstance = go-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">GetInstanceScript</a>();</div>
+<div class="line"><span class="lineno">  800</span> </div>
+<div class="line"><span class="lineno">  801</span>        <a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* pPalehoof = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a>(*go, pInstance ? pInstance-&gt;<a class="code hl_function" href="../../d8/d83/class_instance_script.html#a3be7f24ca31c9433aca546e1087109b4">GetGuidData</a>(<a class="code hl_enumvalue" href="../../d8/d3a/utgarde__pinnacle_8h.html#af5baa506e65b4caa6be6d1c6661dfe63af401dca375b515a11f8341799438d677">DATA_GORTOK_PALEHOOF</a>) : <a class="code hl_variable" href="../../d8/d03/class_object_guid.html#a14039d3f3df79203693f713495503165">ObjectGuid::Empty</a>);</div>
+<div class="line"><span class="lineno">  802</span>        <span class="keywordflow">if</span> (pPalehoof &amp;&amp; pPalehoof-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a5ea3f54af571493f7889220724667189">IsAlive</a>())</div>
+<div class="line"><span class="lineno">  803</span>        {</div>
+<div class="line"><span class="lineno">  804</span>            <span class="comment">// maybe these are hacks :(</span></div>
+<div class="line"><span class="lineno">  805</span>            go-&gt;<a class="code hl_function" href="../../d0/dd1/class_game_object.html#a0a114d2b10c05ab2203d4cd2b5bef50c">SetGameObjectFlag</a>(<a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a7716f26c46ee49831358c2993e79582fa923ad52f14738a794626655f6b1109c9">GO_FLAG_NOT_SELECTABLE</a>);</div>
+<div class="line"><span class="lineno">  806</span>            go-&gt;<a class="code hl_function" href="../../d0/dd1/class_game_object.html#a076a61c5824ee381e456486af8ceb87d">SetGoState</a>(<a class="code hl_enumvalue" href="../../df/d91/_game_object_8h.html#ac17cd142af80da019367bb796b15e5abaf4f299c1cfc830c90418c4487c567c1e">GO_STATE_ACTIVE</a>);</div>
+<div class="line"><span class="lineno">  807</span> </div>
+<div class="line"><span class="lineno">  808</span>            pPalehoof-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">AI</a>()-&gt;<a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a165d336cb3423f9665ed612d2dec76ed">DoAction</a>(<a class="code hl_enumvalue" href="../../d1/dda/boss__palehoof_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a5a9d00590152ece2beb2305c6f271dd9">ACTION_START_EVENT</a>);</div>
+<div class="line"><span class="lineno">  809</span>        }</div>
+<div class="line"><span class="lineno">  810</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  811</span>    }</div>
+<div class="ttc" id="a_game_object_8h_html_ac17cd142af80da019367bb796b15e5abaf4f299c1cfc830c90418c4487c567c1e"><div class="ttname"><a href="../../df/d91/_game_object_8h.html#ac17cd142af80da019367bb796b15e5abaf4f299c1cfc830c90418c4487c567c1e">GO_STATE_ACTIVE</a></div><div class="ttdeci">@ GO_STATE_ACTIVE</div><div class="ttdef"><b>Definition:</b> GameObject.h:734</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a7716f26c46ee49831358c2993e79582fa923ad52f14738a794626655f6b1109c9"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a7716f26c46ee49831358c2993e79582fa923ad52f14738a794626655f6b1109c9">GO_FLAG_NOT_SELECTABLE</a></div><div class="ttdeci">@ GO_FLAG_NOT_SELECTABLE</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1579</div></div>
+<div class="ttc" id="aboss__palehoof_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a5a9d00590152ece2beb2305c6f271dd9"><div class="ttname"><a href="../../d1/dda/boss__palehoof_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a5a9d00590152ece2beb2305c6f271dd9">ACTION_START_EVENT</a></div><div class="ttdeci">@ ACTION_START_EVENT</div><div class="ttdef"><b>Definition:</b> boss_palehoof.cpp:70</div></div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_creature_html_af2188eef9620b5af52ef2d3ac142db67"><div class="ttname"><a href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">Creature::AI</a></div><div class="ttdeci">CreatureAI * AI() const</div><div class="ttdef"><b>Definition:</b> Creature.h:134</div></div>
+<div class="ttc" id="aclass_game_object_html_a076a61c5824ee381e456486af8ceb87d"><div class="ttname"><a href="../../d0/dd1/class_game_object.html#a076a61c5824ee381e456486af8ceb87d">GameObject::SetGoState</a></div><div class="ttdeci">void SetGoState(GOState state)</div><div class="ttdef"><b>Definition:</b> GameObject.cpp:2441</div></div>
+<div class="ttc" id="aclass_game_object_html_a0a114d2b10c05ab2203d4cd2b5bef50c"><div class="ttname"><a href="../../d0/dd1/class_game_object.html#a0a114d2b10c05ab2203d4cd2b5bef50c">GameObject::SetGameObjectFlag</a></div><div class="ttdeci">void SetGameObjectFlag(GameObjectFlags flags)</div><div class="ttdef"><b>Definition:</b> GameObject.h:911</div></div>
+<div class="ttc" id="aclass_instance_script_html"><div class="ttname"><a href="../../d8/d83/class_instance_script.html">InstanceScript</a></div><div class="ttdef"><b>Definition:</b> InstanceScript.h:140</div></div>
+<div class="ttc" id="aclass_instance_script_html_a3be7f24ca31c9433aca546e1087109b4"><div class="ttname"><a href="../../d8/d83/class_instance_script.html#a3be7f24ca31c9433aca546e1087109b4">InstanceScript::GetGuidData</a></div><div class="ttdeci">ObjectGuid GetGuidData(uint32 type) const override</div><div class="ttdef"><b>Definition:</b> InstanceScript.cpp:93</div></div>
+<div class="ttc" id="aclass_object_guid_html_a14039d3f3df79203693f713495503165"><div class="ttname"><a href="../../d8/d03/class_object_guid.html#a14039d3f3df79203693f713495503165">ObjectGuid::Empty</a></div><div class="ttdeci">static ObjectGuid const Empty</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:122</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a165d336cb3423f9665ed612d2dec76ed"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a165d336cb3423f9665ed612d2dec76ed">UnitAI::DoAction</a></div><div class="ttdeci">virtual void DoAction(int32)</div><div class="ttdef"><b>Definition:</b> UnitAI.h:196</div></div>
+<div class="ttc" id="aclass_unit_html_a5ea3f54af571493f7889220724667189"><div class="ttname"><a href="../../da/db7/class_unit.html#a5ea3f54af571493f7889220724667189">Unit::IsAlive</a></div><div class="ttdeci">bool IsAlive() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1805</div></div>
+<div class="ttc" id="aclass_world_object_html_a29762f86d0726e4d229df51281b9d710"><div class="ttname"><a href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">WorldObject::GetInstanceScript</a></div><div class="ttdeci">InstanceScript * GetInstanceScript() const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1192</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_ae42e503fe79bbeaea1aaa665418c43f8"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a></div><div class="ttdeci">Creature * GetCreature(WorldObject const &amp;u, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:215</div></div>
+<div class="ttc" id="autgarde__pinnacle_8h_html_af5baa506e65b4caa6be6d1c6661dfe63af401dca375b515a11f8341799438d677"><div class="ttname"><a href="../../d8/d3a/utgarde__pinnacle_8h.html#af5baa506e65b4caa6be6d1c6661dfe63af401dca375b515a11f8341799438d677">DATA_GORTOK_PALEHOOF</a></div><div class="ttdeci">@ DATA_GORTOK_PALEHOOF</div><div class="ttdef"><b>Definition:</b> utgarde_pinnacle.h:29</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/UtgardeKeep/UtgardePinnacle/<a class="el" href="../../d1/dda/boss__palehoof_8cpp.html">boss_palehoof.cpp</a></li>
+<li><a class="el" href="../../">boss_palehoof.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -255,7 +287,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d3/d01/classgo__palehoof__sphere.html">go_palehoof_sphere</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:45 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:59 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

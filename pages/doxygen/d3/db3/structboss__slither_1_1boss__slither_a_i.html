@@ -502,7 +502,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a4cd9ca5bc5c2121edd72bc65c2f4182b" name="a4cd9ca5bc5c2121edd72bc65c2f4182b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4cd9ca5bc5c2121edd72bc65c2f4182b">&#9670;&#160;</a></span>boss_slitherAI()</h2>
 
@@ -526,7 +527,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  814</span>: <a class="code hl_struct" href="../../dd/d4b/structboss__hexlord__add_a_i.html">boss_hexlord_addAI</a>(creature) { }</div>
+<div class="ttc" id="astructboss__hexlord__add_a_i_html"><div class="ttname"><a href="../../dd/d4b/structboss__hexlord__add_a_i.html">boss_hexlord_addAI</a></div><div class="ttdef"><b>Definition:</b> boss_hexlord.cpp:221</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -555,7 +558,26 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a4c91d8d2c1a6e8b234c1c4f15936c7a4">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  825</span>        {</div>
+<div class="line"><span class="lineno">  826</span>            <span class="keywordflow">if</span> (!who)</div>
+<div class="line"><span class="lineno">  827</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  828</span> </div>
+<div class="line"><span class="lineno">  829</span>            <span class="keywordflow">if</span> (who-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ac7b8b4896478ec239a547d99ef4d4c9d">isTargetableForAttack</a>())</div>
+<div class="line"><span class="lineno">  830</span>            {</div>
+<div class="line"><span class="lineno">  831</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a8d910c36ac5d61171ee5ddaeb696292c">Attack</a>(who, <span class="keyword">false</span>))</div>
+<div class="line"><span class="lineno">  832</span>                {</div>
+<div class="line"><span class="lineno">  833</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../df/d4d/class_motion_master.html#a3ff14061961bcc5cf1d34842683d90ac">MoveChase</a>(who, 20);</div>
+<div class="line"><span class="lineno">  834</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a3b4dad985e3b5dde28d89afc956999e4">AddThreat</a>(who, 0.0f);</div>
+<div class="line"><span class="lineno">  835</span>                }</div>
+<div class="line"><span class="lineno">  836</span>            }</div>
+<div class="line"><span class="lineno">  837</span>        }</div>
+<div class="ttc" id="aclass_motion_master_html_a3ff14061961bcc5cf1d34842683d90ac"><div class="ttname"><a href="../../df/d4d/class_motion_master.html#a3ff14061961bcc5cf1d34842683d90ac">MotionMaster::MoveChase</a></div><div class="ttdeci">void MoveChase(Unit *target, std::optional&lt; ChaseRange &gt; dist={}, std::optional&lt; ChaseAngle &gt; angle={})</div><div class="ttdef"><b>Definition:</b> MotionMaster.cpp:299</div></div>
+<div class="ttc" id="aclass_unit_html_a3b4dad985e3b5dde28d89afc956999e4"><div class="ttname"><a href="../../da/db7/class_unit.html#a3b4dad985e3b5dde28d89afc956999e4">Unit::AddThreat</a></div><div class="ttdeci">void AddThreat(Unit *victim, float fThreat, SpellSchoolMask schoolMask=SPELL_SCHOOL_MASK_NORMAL, SpellInfo const *threatSpell=nullptr)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:14523</div></div>
+<div class="ttc" id="aclass_unit_html_a4a04a3f22c3b0d6f4933993ac0cc7aa4"><div class="ttname"><a href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">Unit::GetMotionMaster</a></div><div class="ttdeci">MotionMaster * GetMotionMaster()</div><div class="ttdef"><b>Definition:</b> Unit.h:2257</div></div>
+<div class="ttc" id="aclass_unit_html_a8d910c36ac5d61171ee5ddaeb696292c"><div class="ttname"><a href="../../da/db7/class_unit.html#a8d910c36ac5d61171ee5ddaeb696292c">Unit::Attack</a></div><div class="ttdeci">bool Attack(Unit *victim, bool meleeAttack)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:10233</div></div>
+<div class="ttc" id="aclass_unit_html_ac7b8b4896478ec239a547d99ef4d4c9d"><div class="ttname"><a href="../../da/db7/class_unit.html#ac7b8b4896478ec239a547d99ef4d4c9d">Unit::isTargetableForAttack</a></div><div class="ttdeci">bool isTargetableForAttack(bool checkFakeDeath=true, Unit const *byWho=nullptr) const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:13747</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ab2de8f1b9b51c1a04664cf3864ae4ef9" name="ab2de8f1b9b51c1a04664cf3864ae4ef9"></a>
@@ -582,7 +604,13 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d4b/structboss__hexlord__add_a_i.html#aa2003900c4b6cadc54b8643990ebe86b">boss_hexlord_addAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  819</span>        {</div>
+<div class="line"><span class="lineno">  820</span>            <a class="code hl_variable" href="../../d3/db3/structboss__slither_1_1boss__slither_a_i.html#a33649cb1e8fc177073982ccafbd387e6">venomspit_timer</a> = 5000;</div>
+<div class="line"><span class="lineno">  821</span>            <a class="code hl_function" href="../../dd/d4b/structboss__hexlord__add_a_i.html#aa2003900c4b6cadc54b8643990ebe86b">boss_hexlord_addAI::Reset</a>();</div>
+<div class="line"><span class="lineno">  822</span>        }</div>
+<div class="ttc" id="astructboss__hexlord__add_a_i_html_aa2003900c4b6cadc54b8643990ebe86b"><div class="ttname"><a href="../../dd/d4b/structboss__hexlord__add_a_i.html#aa2003900c4b6cadc54b8643990ebe86b">boss_hexlord_addAI::Reset</a></div><div class="ttdeci">void Reset() override</div><div class="ttdef"><b>Definition:</b> boss_hexlord.cpp:229</div></div>
+<div class="ttc" id="astructboss__slither_1_1boss__slither_a_i_html_a33649cb1e8fc177073982ccafbd387e6"><div class="ttname"><a href="../../d3/db3/structboss__slither_1_1boss__slither_a_i.html#a33649cb1e8fc177073982ccafbd387e6">boss_slither::boss_slitherAI::venomspit_timer</a></div><div class="ttdeci">uint32 venomspit_timer</div><div class="ttdef"><b>Definition:</b> boss_hexlord.cpp:816</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a9df057eabc5338745786385055d1334e" name="a9df057eabc5338745786385055d1334e"></a>
@@ -610,7 +638,27 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d4b/structboss__hexlord__add_a_i.html#a0ec76f64ad72a1c11ab838dd9b812675">boss_hexlord_addAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  840</span>        {</div>
+<div class="line"><span class="lineno">  841</span>            <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">UpdateVictim</a>())</div>
+<div class="line"><span class="lineno">  842</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  843</span> </div>
+<div class="line"><span class="lineno">  844</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d3/db3/structboss__slither_1_1boss__slither_a_i.html#a33649cb1e8fc177073982ccafbd387e6">venomspit_timer</a> &lt;= diff)</div>
+<div class="line"><span class="lineno">  845</span>            {</div>
+<div class="line"><span class="lineno">  846</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* victim = <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6daed910a7666394bcbf8abd2f20096e">SelectTarget</a>(SelectTargetMethod::Random, 0, 100, <span class="keyword">true</span>))</div>
+<div class="line"><span class="lineno">  847</span>                    <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(victim, <a class="code hl_enumvalue" href="../../d4/d57/boss__hexlord_8cpp.html#a5bd342133be8c2137b831460acc9298cafd3521571de9e08368645054056733f6">SPELL_VENOM_SPIT</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  848</span>                <a class="code hl_variable" href="../../d3/db3/structboss__slither_1_1boss__slither_a_i.html#a33649cb1e8fc177073982ccafbd387e6">venomspit_timer</a> = 2500;</div>
+<div class="line"><span class="lineno">  849</span>            }</div>
+<div class="line"><span class="lineno">  850</span>            <span class="keywordflow">else</span> <a class="code hl_variable" href="../../d3/db3/structboss__slither_1_1boss__slither_a_i.html#a33649cb1e8fc177073982ccafbd387e6">venomspit_timer</a> -= diff;</div>
+<div class="line"><span class="lineno">  851</span> </div>
+<div class="line"><span class="lineno">  852</span>            <a class="code hl_function" href="../../dd/d4b/structboss__hexlord__add_a_i.html#a0ec76f64ad72a1c11ab838dd9b812675">boss_hexlord_addAI::UpdateAI</a>(diff);</div>
+<div class="line"><span class="lineno">  853</span>        }</div>
+<div class="ttc" id="aboss__hexlord_8cpp_html_a5bd342133be8c2137b831460acc9298cafd3521571de9e08368645054056733f6"><div class="ttname"><a href="../../d4/d57/boss__hexlord_8cpp.html#a5bd342133be8c2137b831460acc9298cafd3521571de9e08368645054056733f6">SPELL_VENOM_SPIT</a></div><div class="ttdeci">@ SPELL_VENOM_SPIT</div><div class="ttdef"><b>Definition:</b> boss_hexlord.cpp:121</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_ae03ccfe1e27501ed9ccbfecdbd3c4e39"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">CreatureAI::UpdateVictim</a></div><div class="ttdeci">bool UpdateVictim()</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:268</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a6daed910a7666394bcbf8abd2f20096e"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a6daed910a7666394bcbf8abd2f20096e">UnitAI::SelectTarget</a></div><div class="ttdeci">Unit * SelectTarget(SelectTargetMethod targetType, uint32 position=0, float dist=0.0f, bool playerOnly=false, int32 aura=0)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:111</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_aeebcad9b6effa45145c50f06af60b23d"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">UnitAI::DoCast</a></div><div class="ttdeci">SpellCastResult DoCast(uint32 spellId)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:178</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="astructboss__hexlord__add_a_i_html_a0ec76f64ad72a1c11ab838dd9b812675"><div class="ttname"><a href="../../dd/d4b/structboss__hexlord__add_a_i.html#a0ec76f64ad72a1c11ab838dd9b812675">boss_hexlord_addAI::UpdateAI</a></div><div class="ttdeci">void UpdateAI(uint32) override</div><div class="ttdef"><b>Definition:</b> boss_hexlord.cpp:236</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -629,7 +677,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/EasternKingdoms/ZulAman/<a class="el" href="../../d4/d57/boss__hexlord_8cpp.html">boss_hexlord.cpp</a></li>
+<li><a class="el" href="../../">boss_hexlord.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -637,7 +685,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../de/dfd/classboss__slither.html">boss_slither</a></li><li class="navelem"><a class="el" href="../../d3/db3/structboss__slither_1_1boss__slither_a_i.html">boss_slitherAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:42 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:55 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

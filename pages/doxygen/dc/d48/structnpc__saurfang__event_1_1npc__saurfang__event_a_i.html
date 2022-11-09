@@ -489,7 +489,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a8436a87576c92ecc0b45106683d20e93" name="a8436a87576c92ecc0b45106683d20e93"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8436a87576c92ecc0b45106683d20e93">&#9670;&#160;</a></span>npc_saurfang_eventAI()</h2>
 
@@ -513,7 +514,17 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1001</span>                                                 : <a class="code hl_struct" href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a>(creature)</div>
+<div class="line"><span class="lineno"> 1002</span>        {</div>
+<div class="line"><span class="lineno"> 1003</span>            <a class="code hl_variable" href="../../dc/d48/structnpc__saurfang__event_1_1npc__saurfang__event_a_i.html#a793d72078bd68b34fcdb7cd6587295dd">_index</a> = 0;</div>
+<div class="line"><span class="lineno"> 1004</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a593d295c1d4828fc930ca923a79046bd">SetReactState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37a8b5a7f923cba80ea3a429286eb38d0a0">REACT_PASSIVE</a>);</div>
+<div class="line"><span class="lineno"> 1005</span>        }</div>
+<div class="ttc" id="a_unit_8h_html_a5e9099d162ad74df5a3e3f5c0f056c37a8b5a7f923cba80ea3a429286eb38d0a0"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37a8b5a7f923cba80ea3a429286eb38d0a0">REACT_PASSIVE</a></div><div class="ttdeci">@ REACT_PASSIVE</div><div class="ttdef"><b>Definition:</b> Unit.h:1023</div></div>
+<div class="ttc" id="aclass_creature_html_a593d295c1d4828fc930ca923a79046bd"><div class="ttname"><a href="../../d1/dac/class_creature.html#a593d295c1d4828fc930ca923a79046bd">Creature::SetReactState</a></div><div class="ttdeci">void SetReactState(ReactStates st)</div><div class="ttdef"><b>Definition:</b> Creature.h:88</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+<div class="ttc" id="astructnpc__saurfang__event_1_1npc__saurfang__event_a_i_html_a793d72078bd68b34fcdb7cd6587295dd"><div class="ttname"><a href="../../dc/d48/structnpc__saurfang__event_1_1npc__saurfang__event_a_i.html#a793d72078bd68b34fcdb7cd6587295dd">npc_saurfang_event::npc_saurfang_eventAI::_index</a></div><div class="ttdeci">uint32 _index</div><div class="ttdef"><b>Definition:</b> boss_deathbringer_saurfang.cpp:1034</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -542,7 +553,24 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d9c/class_unit_a_i.html#a165d336cb3423f9665ed612d2dec76ed">UnitAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1023</span>        {</div>
+<div class="line"><span class="lineno"> 1024</span>            <span class="keywordflow">if</span> (action == <a class="code hl_enumvalue" href="../../d0/d80/boss__deathbringer__saurfang_8cpp.html#a250372292659bed7ae290d8621f88ccfa3ecea0c9267d7c02bd089696692b1b85">ACTION_CHARGE</a> &amp;&amp; <a class="code hl_variable" href="../../dc/d48/structnpc__saurfang__event_1_1npc__saurfang__event_a_i.html#a793d72078bd68b34fcdb7cd6587295dd">_index</a>)</div>
+<div class="line"><span class="lineno"> 1025</span>            {</div>
+<div class="line"><span class="lineno"> 1026</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#acb4a26180cdcb2266736f6aea4a695d8">SetWalk</a>(<span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno"> 1027</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../df/d4d/class_motion_master.html#a162fa5144b41ae9e080d41b5c7df1597">MoveCharge</a>(<a class="code hl_variable" href="../../d0/d80/boss__deathbringer__saurfang_8cpp.html#a442ce4eb9b1fce5bba661b8df62266bd">chargePos</a>[<a class="code hl_variable" href="../../dc/d48/structnpc__saurfang__event_1_1npc__saurfang__event_a_i.html#a793d72078bd68b34fcdb7cd6587295dd">_index</a>].GetPositionX(), <a class="code hl_variable" href="../../d0/d80/boss__deathbringer__saurfang_8cpp.html#a442ce4eb9b1fce5bba661b8df62266bd">chargePos</a>[<a class="code hl_variable" href="../../dc/d48/structnpc__saurfang__event_1_1npc__saurfang__event_a_i.html#a793d72078bd68b34fcdb7cd6587295dd">_index</a>].GetPositionY(), <a class="code hl_variable" href="../../d0/d80/boss__deathbringer__saurfang_8cpp.html#a442ce4eb9b1fce5bba661b8df62266bd">chargePos</a>[<a class="code hl_variable" href="../../dc/d48/structnpc__saurfang__event_1_1npc__saurfang__event_a_i.html#a793d72078bd68b34fcdb7cd6587295dd">_index</a>].GetPositionZ(), 13.0f, <a class="code hl_enumvalue" href="../../d0/d80/boss__deathbringer__saurfang_8cpp.html#a7833023af5dd1196e6ec1567d0102cfda7c2c20bf46a4b40d7e34b4f3d27a36ba">POINT_CHARGE</a>);</div>
+<div class="line"><span class="lineno"> 1028</span>            }</div>
+<div class="line"><span class="lineno"> 1029</span>            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (action == <a class="code hl_enumvalue" href="../../d0/d80/boss__deathbringer__saurfang_8cpp.html#a250372292659bed7ae290d8621f88ccfa4a1db5ac9eab0c6fe2c8c2258a568d50">ACTION_DESPAWN</a>)</div>
+<div class="line"><span class="lineno"> 1030</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#abce66404f36b926cf403555911bcb9f7">DespawnOrUnsummon</a>(1);</div>
+<div class="line"><span class="lineno"> 1031</span>        }</div>
+<div class="ttc" id="aboss__deathbringer__saurfang_8cpp_html_a250372292659bed7ae290d8621f88ccfa3ecea0c9267d7c02bd089696692b1b85"><div class="ttname"><a href="../../d0/d80/boss__deathbringer__saurfang_8cpp.html#a250372292659bed7ae290d8621f88ccfa3ecea0c9267d7c02bd089696692b1b85">ACTION_CHARGE</a></div><div class="ttdeci">@ ACTION_CHARGE</div><div class="ttdef"><b>Definition:</b> boss_deathbringer_saurfang.cpp:192</div></div>
+<div class="ttc" id="aboss__deathbringer__saurfang_8cpp_html_a250372292659bed7ae290d8621f88ccfa4a1db5ac9eab0c6fe2c8c2258a568d50"><div class="ttname"><a href="../../d0/d80/boss__deathbringer__saurfang_8cpp.html#a250372292659bed7ae290d8621f88ccfa4a1db5ac9eab0c6fe2c8c2258a568d50">ACTION_DESPAWN</a></div><div class="ttdeci">@ ACTION_DESPAWN</div><div class="ttdef"><b>Definition:</b> boss_deathbringer_saurfang.cpp:194</div></div>
+<div class="ttc" id="aboss__deathbringer__saurfang_8cpp_html_a442ce4eb9b1fce5bba661b8df62266bd"><div class="ttname"><a href="../../d0/d80/boss__deathbringer__saurfang_8cpp.html#a442ce4eb9b1fce5bba661b8df62266bd">chargePos</a></div><div class="ttdeci">Position const chargePos[6]</div><div class="ttdef"><b>Definition:</b> boss_deathbringer_saurfang.cpp:217</div></div>
+<div class="ttc" id="aboss__deathbringer__saurfang_8cpp_html_a7833023af5dd1196e6ec1567d0102cfda7c2c20bf46a4b40d7e34b4f3d27a36ba"><div class="ttname"><a href="../../d0/d80/boss__deathbringer__saurfang_8cpp.html#a7833023af5dd1196e6ec1567d0102cfda7c2c20bf46a4b40d7e34b4f3d27a36ba">POINT_CHARGE</a></div><div class="ttdeci">@ POINT_CHARGE</div><div class="ttdef"><b>Definition:</b> boss_deathbringer_saurfang.cpp:208</div></div>
+<div class="ttc" id="aclass_creature_html_abce66404f36b926cf403555911bcb9f7"><div class="ttname"><a href="../../d1/dac/class_creature.html#abce66404f36b926cf403555911bcb9f7">Creature::DespawnOrUnsummon</a></div><div class="ttdeci">void DespawnOrUnsummon(Milliseconds msTimeToDespawn, Seconds forcedRespawnTimer)</div><div class="ttdef"><b>Definition:</b> Creature.cpp:2092</div></div>
+<div class="ttc" id="aclass_creature_html_acb4a26180cdcb2266736f6aea4a695d8"><div class="ttname"><a href="../../d1/dac/class_creature.html#acb4a26180cdcb2266736f6aea4a695d8">Creature::SetWalk</a></div><div class="ttdeci">bool SetWalk(bool enable) override</div><div class="ttdef"><b>Definition:</b> Creature.cpp:3053</div></div>
+<div class="ttc" id="aclass_motion_master_html_a162fa5144b41ae9e080d41b5c7df1597"><div class="ttname"><a href="../../df/d4d/class_motion_master.html#a162fa5144b41ae9e080d41b5c7df1597">MotionMaster::MoveCharge</a></div><div class="ttdeci">void MoveCharge(float x, float y, float z, float speed=SPEED_CHARGE, uint32 id=EVENT_CHARGE, const Movement::PointsArray *path=nullptr, bool generatePath=false, float orientation=0.0f, ObjectGuid targetGUID=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> MotionMaster.cpp:586</div></div>
+<div class="ttc" id="aclass_unit_html_a4a04a3f22c3b0d6f4933993ac0cc7aa4"><div class="ttname"><a href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">Unit::GetMotionMaster</a></div><div class="ttdeci">MotionMaster * GetMotionMaster()</div><div class="ttdef"><b>Definition:</b> Unit.h:2257</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a7f012a54ebce5307940eb7957f028d52" name="a7f012a54ebce5307940eb7957f028d52"></a>
@@ -580,7 +608,12 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d9c/class_unit_a_i.html#a14c40dcfec28989cc630fa571c67ebb7">UnitAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1008</span>        {</div>
+<div class="line"><span class="lineno"> 1009</span>            <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(!type &amp;&amp; data &amp;&amp; data &lt; 6);</div>
+<div class="line"><span class="lineno"> 1010</span>            <a class="code hl_variable" href="../../dc/d48/structnpc__saurfang__event_1_1npc__saurfang__event_a_i.html#a793d72078bd68b34fcdb7cd6587295dd">_index</a> = data;</div>
+<div class="line"><span class="lineno"> 1011</span>        }</div>
+<div class="ttc" id="a_errors_8h_html_af343b20373ba49a92fce523e948f2ab3"><div class="ttname"><a href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a></div><div class="ttdeci">#define ASSERT</div><div class="ttdef"><b>Definition:</b> Errors.h:68</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2ed920f949c4d8dbc6d6ff5b9149e749" name="a2ed920f949c4d8dbc6d6ff5b9149e749"></a>
@@ -618,7 +651,19 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a7c4ff5a7547e75576c127ba4a514e548">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1014</span>        {</div>
+<div class="line"><span class="lineno"> 1015</span>            <span class="keywordflow">if</span> (spell-&gt;Id == <a class="code hl_enumvalue" href="../../d0/d80/boss__deathbringer__saurfang_8cpp.html#a5bd342133be8c2137b831460acc9298caadbea51043452c394f0b2c5b17641807">SPELL_GRIP_OF_AGONY</a>)</div>
+<div class="line"><span class="lineno"> 1016</span>            {</div>
+<div class="line"><span class="lineno"> 1017</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a3bc802b096ecae6d1eb8a90ec4c6a72d">SetDisableGravity</a>(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno"> 1018</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../df/d4d/class_motion_master.html#a903a48c63482ebbd45d63272b218df7f">MovePoint</a>(<a class="code hl_enumvalue" href="../../d0/d80/boss__deathbringer__saurfang_8cpp.html#a7833023af5dd1196e6ec1567d0102cfda0cf854b741f7723747af29c3aab6fdd6">POINT_CHOKE</a>, <a class="code hl_variable" href="../../d0/d80/boss__deathbringer__saurfang_8cpp.html#ab5bfc257883a48feb1411e5ac2e12ac8">chokePos</a>[<a class="code hl_variable" href="../../dc/d48/structnpc__saurfang__event_1_1npc__saurfang__event_a_i.html#a793d72078bd68b34fcdb7cd6587295dd">_index</a>]);</div>
+<div class="line"><span class="lineno"> 1019</span>            }</div>
+<div class="line"><span class="lineno"> 1020</span>        }</div>
+<div class="ttc" id="aboss__deathbringer__saurfang_8cpp_html_a5bd342133be8c2137b831460acc9298caadbea51043452c394f0b2c5b17641807"><div class="ttname"><a href="../../d0/d80/boss__deathbringer__saurfang_8cpp.html#a5bd342133be8c2137b831460acc9298caadbea51043452c394f0b2c5b17641807">SPELL_GRIP_OF_AGONY</a></div><div class="ttdeci">@ SPELL_GRIP_OF_AGONY</div><div class="ttdef"><b>Definition:</b> boss_deathbringer_saurfang.cpp:92</div></div>
+<div class="ttc" id="aboss__deathbringer__saurfang_8cpp_html_a7833023af5dd1196e6ec1567d0102cfda0cf854b741f7723747af29c3aab6fdd6"><div class="ttname"><a href="../../d0/d80/boss__deathbringer__saurfang_8cpp.html#a7833023af5dd1196e6ec1567d0102cfda0cf854b741f7723747af29c3aab6fdd6">POINT_CHOKE</a></div><div class="ttdeci">@ POINT_CHOKE</div><div class="ttdef"><b>Definition:</b> boss_deathbringer_saurfang.cpp:209</div></div>
+<div class="ttc" id="aboss__deathbringer__saurfang_8cpp_html_ab5bfc257883a48feb1411e5ac2e12ac8"><div class="ttname"><a href="../../d0/d80/boss__deathbringer__saurfang_8cpp.html#ab5bfc257883a48feb1411e5ac2e12ac8">chokePos</a></div><div class="ttdeci">Position const chokePos[6]</div><div class="ttdef"><b>Definition:</b> boss_deathbringer_saurfang.cpp:227</div></div>
+<div class="ttc" id="aclass_creature_html_a3bc802b096ecae6d1eb8a90ec4c6a72d"><div class="ttname"><a href="../../d1/dac/class_creature.html#a3bc802b096ecae6d1eb8a90ec4c6a72d">Creature::SetDisableGravity</a></div><div class="ttdeci">bool SetDisableGravity(bool disable, bool packetOnly=false, bool updateAnimationTier=true) override</div><div class="ttdef"><b>Definition:</b> Creature.cpp:3064</div></div>
+<div class="ttc" id="aclass_motion_master_html_a903a48c63482ebbd45d63272b218df7f"><div class="ttname"><a href="../../df/d4d/class_motion_master.html#a903a48c63482ebbd45d63272b218df7f">MotionMaster::MovePoint</a></div><div class="ttdeci">void MovePoint(uint32 id, const Position &amp;pos, bool generatePath=true, bool forceDestination=true)</div><div class="ttdef"><b>Definition:</b> MotionMaster.h:210</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -645,7 +690,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/IcecrownCitadel/<a class="el" href="../../d0/d80/boss__deathbringer__saurfang_8cpp.html">boss_deathbringer_saurfang.cpp</a></li>
+<li><a class="el" href="../../">boss_deathbringer_saurfang.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -653,7 +698,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/da2/classnpc__saurfang__event.html">npc_saurfang_event</a></li><li class="navelem"><a class="el" href="../../dc/d48/structnpc__saurfang__event_1_1npc__saurfang__event_a_i.html">npc_saurfang_eventAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:53 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:09 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

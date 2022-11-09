@@ -392,7 +392,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aaab278dc6557a49624099b0064b8d6f3" name="aaab278dc6557a49624099b0064b8d6f3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aaab278dc6557a49624099b0064b8d6f3">&#9670;&#160;</a></span>boss_thorim_trapAI()</h2>
 
@@ -416,7 +417,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  956</span>: <a class="code hl_class" href="../../d6/df7/class_null_creature_a_i.html">NullCreatureAI</a>(pCreature) { }</div>
+<div class="ttc" id="aclass_null_creature_a_i_html"><div class="ttname"><a href="../../d6/df7/class_null_creature_a_i.html">NullCreatureAI</a></div><div class="ttdef"><b>Definition:</b> PassiveAI.h:53</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -444,7 +447,9 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d9c/class_unit_a_i.html#a43eb9ef68b977d98f6618d69a0d62115">UnitAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  960</span>{ <a class="code hl_variable" href="../../d2/d4e/structboss__thorim__trap_1_1boss__thorim__trap_a_i.html#ad3ed8edb4d06e5b98a5afc82170f3233">_checkTimer</a> = 1; }</div>
+<div class="ttc" id="astructboss__thorim__trap_1_1boss__thorim__trap_a_i_html_ad3ed8edb4d06e5b98a5afc82170f3233"><div class="ttname"><a href="../../d2/d4e/structboss__thorim__trap_1_1boss__thorim__trap_a_i.html#ad3ed8edb4d06e5b98a5afc82170f3233">boss_thorim_trap::boss_thorim_trapAI::_checkTimer</a></div><div class="ttdeci">uint32 _checkTimer</div><div class="ttdef"><b>Definition:</b> boss_thorim.cpp:958</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a40078609a67aa029f71df7971449b056" name="a40078609a67aa029f71df7971449b056"></a>
@@ -472,7 +477,31 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d6/df7/class_null_creature_a_i.html#ab200fcf78dee74a2ec808c01f5855236">NullCreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  962</span>        {</div>
+<div class="line"><span class="lineno">  963</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d2/d4e/structboss__thorim__trap_1_1boss__thorim__trap_a_i.html#ad3ed8edb4d06e5b98a5afc82170f3233">_checkTimer</a>)</div>
+<div class="line"><span class="lineno">  964</span>            {</div>
+<div class="line"><span class="lineno">  965</span>                <a class="code hl_variable" href="../../d2/d4e/structboss__thorim__trap_1_1boss__thorim__trap_a_i.html#ad3ed8edb4d06e5b98a5afc82170f3233">_checkTimer</a> += diff;</div>
+<div class="line"><span class="lineno">  966</span>                <span class="keywordflow">if</span> ((<a class="code hl_variable" href="../../d2/d4e/structboss__thorim__trap_1_1boss__thorim__trap_a_i.html#ad3ed8edb4d06e5b98a5afc82170f3233">_checkTimer</a> &gt;= 1000 &amp;&amp; <a class="code hl_variable" href="../../d2/d4e/structboss__thorim__trap_1_1boss__thorim__trap_a_i.html#ad3ed8edb4d06e5b98a5afc82170f3233">_checkTimer</a> &lt; 10000) || <a class="code hl_variable" href="../../d2/d4e/structboss__thorim__trap_1_1boss__thorim__trap_a_i.html#ad3ed8edb4d06e5b98a5afc82170f3233">_checkTimer</a> &gt;= 60000)</div>
+<div class="line"><span class="lineno">  967</span>                {</div>
+<div class="line"><span class="lineno">  968</span>                    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a37a962c6e3cf6106d547d733290740e1">SelectNearbyTarget</a>(<span class="keyword">nullptr</span>, 12.0f))</div>
+<div class="line"><span class="lineno">  969</span>                    {</div>
+<div class="line"><span class="lineno">  970</span>                        <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>, <a class="code hl_enumvalue" href="../../d0/d89/boss__thorim_8cpp.html#ac71fe47fa9bb83bb8135ba497b2fc445a15a8a92c45a7fc6f7de8a8f4f826223c">SPELL_LIGHTNING_FIELD</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  971</span>                        <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>, (<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>() == 33054 <span class="comment">/*NPC_THORIM_TRAP_BUNNY*/</span> ? <a class="code hl_enumvalue" href="../../d0/d89/boss__thorim_8cpp.html#ac71fe47fa9bb83bb8135ba497b2fc445a8a9e149ba1a476607bd658ba2bdcecbb">SPELL_PARALYTIC_FIELD_FIRST</a> : <a class="code hl_enumvalue" href="../../d0/d89/boss__thorim_8cpp.html#ac71fe47fa9bb83bb8135ba497b2fc445add31d4a5c7e9d28996a9cefe7683189f">SPELL_PARALYTIC_FIELD_SECOND</a>), <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  972</span>                        <a class="code hl_variable" href="../../d2/d4e/structboss__thorim__trap_1_1boss__thorim__trap_a_i.html#ad3ed8edb4d06e5b98a5afc82170f3233">_checkTimer</a> = 10000;</div>
+<div class="line"><span class="lineno">  973</span>                        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  974</span>                    }</div>
+<div class="line"><span class="lineno">  975</span>                    <a class="code hl_variable" href="../../d2/d4e/structboss__thorim__trap_1_1boss__thorim__trap_a_i.html#ad3ed8edb4d06e5b98a5afc82170f3233">_checkTimer</a> = 1;</div>
+<div class="line"><span class="lineno">  976</span>                }</div>
+<div class="line"><span class="lineno">  977</span>            }</div>
+<div class="line"><span class="lineno">  978</span>        }</div>
+<div class="ttc" id="aboss__thorim_8cpp_html_ac71fe47fa9bb83bb8135ba497b2fc445a15a8a92c45a7fc6f7de8a8f4f826223c"><div class="ttname"><a href="../../d0/d89/boss__thorim_8cpp.html#ac71fe47fa9bb83bb8135ba497b2fc445a15a8a92c45a7fc6f7de8a8f4f826223c">SPELL_LIGHTNING_FIELD</a></div><div class="ttdeci">@ SPELL_LIGHTNING_FIELD</div><div class="ttdef"><b>Definition:</b> boss_thorim.cpp:129</div></div>
+<div class="ttc" id="aboss__thorim_8cpp_html_ac71fe47fa9bb83bb8135ba497b2fc445a8a9e149ba1a476607bd658ba2bdcecbb"><div class="ttname"><a href="../../d0/d89/boss__thorim_8cpp.html#ac71fe47fa9bb83bb8135ba497b2fc445a8a9e149ba1a476607bd658ba2bdcecbb">SPELL_PARALYTIC_FIELD_FIRST</a></div><div class="ttdeci">@ SPELL_PARALYTIC_FIELD_FIRST</div><div class="ttdef"><b>Definition:</b> boss_thorim.cpp:130</div></div>
+<div class="ttc" id="aboss__thorim_8cpp_html_ac71fe47fa9bb83bb8135ba497b2fc445add31d4a5c7e9d28996a9cefe7683189f"><div class="ttname"><a href="../../d0/d89/boss__thorim_8cpp.html#ac71fe47fa9bb83bb8135ba497b2fc445add31d4a5c7e9d28996a9cefe7683189f">SPELL_PARALYTIC_FIELD_SECOND</a></div><div class="ttdeci">@ SPELL_PARALYTIC_FIELD_SECOND</div><div class="ttdef"><b>Definition:</b> boss_thorim.cpp:131</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_aee5bf3d421199445de241a34798ae819"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">CreatureAI::me</a></div><div class="ttdeci">Creature *const me</div><div class="ttdef"><b>Definition:</b> CreatureAI.h:72</div></div>
+<div class="ttc" id="aclass_object_html_aa627fe2967ed0e0ed1d8aeeb4365a961"><div class="ttname"><a href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">Object::GetEntry</a></div><div class="ttdeci">uint32 GetEntry() const</div><div class="ttdef"><b>Definition:</b> Object.h:109</div></div>
+<div class="ttc" id="aclass_unit_html_a37a962c6e3cf6106d547d733290740e1"><div class="ttname"><a href="../../da/db7/class_unit.html#a37a962c6e3cf6106d547d733290740e1">Unit::SelectNearbyTarget</a></div><div class="ttdeci">Unit * SelectNearbyTarget(Unit *exclude=nullptr, float dist=NOMINAL_MELEE_RANGE) const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:17045</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -491,7 +520,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/Ulduar/Ulduar/<a class="el" href="../../d0/d89/boss__thorim_8cpp.html">boss_thorim.cpp</a></li>
+<li><a class="el" href="../../">boss_thorim.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -499,7 +528,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d4/d7f/classboss__thorim__trap.html">boss_thorim_trap</a></li><li class="navelem"><a class="el" href="../../d2/d4e/structboss__thorim__trap_1_1boss__thorim__trap_a_i.html">boss_thorim_trapAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:43 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:56 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

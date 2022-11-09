@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('d2/d9f/class_world_packets_1_1_client_
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d7/dbe/_packet_8h_source.html">Packet.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">Packet.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for WorldPackets::ClientPacket:</div>
 <div class="dyncontent">
@@ -210,7 +210,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ab85f1c9f20117bc5015180165c7b458a inherit pro_attribs_class_world_packets_1_1_packet"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d1a/class_world_packet.html">WorldPacket</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d4e/class_world_packets_1_1_packet.html#ab85f1c9f20117bc5015180165c7b458a">_worldPacket</a></td></tr>
 <tr class="separator:ab85f1c9f20117bc5015180165c7b458a inherit pro_attribs_class_world_packets_1_1_packet"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aa1d1946c07e248bae5927e83fdad9500" name="aa1d1946c07e248bae5927e83fdad9500"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa1d1946c07e248bae5927e83fdad9500">&#9670;&#160;</a></span>ClientPacket() <span class="overload">[1/2]</span></h2>
 
@@ -226,7 +227,11 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   40</span>    : <a class="code hl_function" href="../../d7/d4e/class_world_packets_1_1_packet.html#a316af2b7ce1ac7189fb1e57f534bad11">Packet</a>(std::move(packet))</div>
+<div class="line"><span class="lineno">   41</span>{</div>
+<div class="line"><span class="lineno">   42</span>}</div>
+<div class="ttc" id="aclass_world_packets_1_1_packet_html_a316af2b7ce1ac7189fb1e57f534bad11"><div class="ttname"><a href="../../d7/d4e/class_world_packets_1_1_packet.html#a316af2b7ce1ac7189fb1e57f534bad11">WorldPackets::Packet::Packet</a></div><div class="ttdeci">Packet(WorldPacket &amp;&amp;worldPacket)</div><div class="ttdef"><b>Definition:</b> Packet.cpp:21</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a1cdaaacca2695c4366647c7611073ff0" name="a1cdaaacca2695c4366647c7611073ff0"></a>
@@ -254,7 +259,13 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   34</span>                                                                                        : <a class="code hl_function" href="../../d7/d4e/class_world_packets_1_1_packet.html#a316af2b7ce1ac7189fb1e57f534bad11">Packet</a>(std::move(packet))</div>
+<div class="line"><span class="lineno">   35</span>{</div>
+<div class="line"><span class="lineno">   36</span>    <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(<a class="code hl_function" href="../../d2/d9f/class_world_packets_1_1_client_packet.html#aa51558bb8faa96a665fe40b1bddf9d14">GetOpcode</a>() == expectedOpcode);</div>
+<div class="line"><span class="lineno">   37</span>}</div>
+<div class="ttc" id="a_errors_8h_html_af343b20373ba49a92fce523e948f2ab3"><div class="ttname"><a href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a></div><div class="ttdeci">#define ASSERT</div><div class="ttdef"><b>Definition:</b> Errors.h:68</div></div>
+<div class="ttc" id="aclass_world_packets_1_1_client_packet_html_aa51558bb8faa96a665fe40b1bddf9d14"><div class="ttname"><a href="../../d2/d9f/class_world_packets_1_1_client_packet.html#aa51558bb8faa96a665fe40b1bddf9d14">WorldPackets::ClientPacket::GetOpcode</a></div><div class="ttdeci">OpcodeClient GetOpcode() const</div><div class="ttdef"><b>Definition:</b> Packet.h:67</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -280,7 +291,11 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   67</span>{ <span class="keywordflow">return</span> <a class="code hl_typedef" href="../../d2/dec/group__u2w.html#ga168cceac84af6c8197247537b103c659">OpcodeClient</a>(<a class="code hl_variable" href="../../d7/d4e/class_world_packets_1_1_packet.html#ab85f1c9f20117bc5015180165c7b458a">_worldPacket</a>.<a class="code hl_function" href="../../d6/d1a/class_world_packet.html#a666547feae3b83bfbba424a541287239">GetOpcode</a>()); }</div>
+<div class="ttc" id="aclass_world_packet_html_a666547feae3b83bfbba424a541287239"><div class="ttname"><a href="../../d6/d1a/class_world_packet.html#a666547feae3b83bfbba424a541287239">WorldPacket::GetOpcode</a></div><div class="ttdeci">uint16 GetOpcode() const</div><div class="ttdef"><b>Definition:</b> WorldPacket.h:76</div></div>
+<div class="ttc" id="aclass_world_packets_1_1_packet_html_ab85f1c9f20117bc5015180165c7b458a"><div class="ttname"><a href="../../d7/d4e/class_world_packets_1_1_packet.html#ab85f1c9f20117bc5015180165c7b458a">WorldPackets::Packet::_worldPacket</a></div><div class="ttdeci">WorldPacket _worldPacket</div><div class="ttdef"><b>Definition:</b> Packet.h:42</div></div>
+<div class="ttc" id="agroup__u2w_html_ga168cceac84af6c8197247537b103c659"><div class="ttname"><a href="../../d2/dec/group__u2w.html#ga168cceac84af6c8197247537b103c659">OpcodeClient</a></div><div class="ttdeci">Opcodes OpcodeClient</div><div class="ttdef"><b>Definition:</b> Opcodes.h:1350</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a16e5b9fa05e35fa1e32e33bef2688487" name="a16e5b9fa05e35fa1e32e33bef2688487"></a>
@@ -307,12 +322,17 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d4e/class_world_packets_1_1_packet.html#af7c79156d7b6cfe3142fc530f9ed262a">WorldPackets::Packet</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   45</span>{</div>
+<div class="line"><span class="lineno">   46</span>    <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(!<span class="stringliteral">&quot;Write not allowed for client packets.&quot;</span>);</div>
+<div class="line"><span class="lineno">   47</span>    <span class="comment">// Shut up some compilers</span></div>
+<div class="line"><span class="lineno">   48</span>    <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">   49</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Server/<a class="el" href="../../d7/dbe/_packet_8h_source.html">Packet.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/Server/<a class="el" href="../../d8/dbe/_packet_8cpp.html">Packet.cpp</a></li>
+<li><a class="el" href="../../">Packet.h</a></li>
+<li><a class="el" href="../../">Packet.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -320,7 +340,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d3/d87/namespace_world_packets.html">WorldPackets</a></li><li class="navelem"><a class="el" href="../../d2/d9f/class_world_packets_1_1_client_packet.html">ClientPacket</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:14 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:32 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

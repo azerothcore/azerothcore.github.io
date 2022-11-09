@@ -292,7 +292,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a57915ab912fb71fa9fb0aab774f7fb0e" name="a57915ab912fb71fa9fb0aab774f7fb0e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a57915ab912fb71fa9fb0aab774f7fb0e">&#9670;&#160;</a></span>HandleSendEvent()</h2>
 
@@ -316,7 +317,27 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  237</span>        {</div>
+<div class="line"><span class="lineno">  238</span>            <a class="code hl_class" href="../../d8/d83/class_instance_script.html">InstanceScript</a>* instance = <a class="code hl_function" href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>()-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">GetInstanceScript</a>();</div>
+<div class="line"><span class="lineno">  239</span> </div>
+<div class="line"><span class="lineno">  240</span>            <span class="keywordflow">if</span> (!instance || instance-&gt;<a class="code hl_function" href="../../df/dad/class_zone_script.html#a8997612fdbdacbf5e28e4de60d03e805">GetData</a>(<a class="code hl_enumvalue" href="../../dc/d7c/uldaman_8h.html#afb6eb4f28419b652027fad41104a6d22a5d89eed481428701aa8f09c52e072c72">DATA_ARCHAEDAS</a>) == <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012">IN_PROGRESS</a> || instance-&gt;<a class="code hl_function" href="../../df/dad/class_zone_script.html#a8997612fdbdacbf5e28e4de60d03e805">GetData</a>(<a class="code hl_enumvalue" href="../../dc/d7c/uldaman_8h.html#afb6eb4f28419b652027fad41104a6d22a5d89eed481428701aa8f09c52e072c72">DATA_ARCHAEDAS</a>) == <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749">DONE</a>)</div>
+<div class="line"><span class="lineno">  241</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  242</span> </div>
+<div class="line"><span class="lineno">  243</span>            instance-&gt;<a class="code hl_function" href="../../df/dad/class_zone_script.html#a949e67ea24c7e4b70a20806952735576">SetData</a>(<a class="code hl_enumvalue" href="../../dc/d7c/uldaman_8h.html#afb6eb4f28419b652027fad41104a6d22a5d89eed481428701aa8f09c52e072c72">DATA_ARCHAEDAS</a>, <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012">IN_PROGRESS</a>);</div>
+<div class="line"><span class="lineno">  244</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* archaedas = <a class="code hl_function" href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>()-&gt;FindNearestCreature(<a class="code hl_enumvalue" href="../../dc/d7c/uldaman_8h.html#a16c2b8982727dd1439379712d87864b3af2ab523ddea33d0e8a2cf024a914c155">NPC_ARCHAEDAS</a>, 100.0f, <span class="keyword">true</span>))</div>
+<div class="line"><span class="lineno">  245</span>                archaedas-&gt;AI()-&gt;SetData(1, 1);</div>
+<div class="line"><span class="lineno">  246</span>        }</div>
+<div class="ttc" id="a_instance_script_8h_html_a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012">IN_PROGRESS</a></div><div class="ttdeci">@ IN_PROGRESS</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:57</div></div>
+<div class="ttc" id="a_instance_script_8h_html_a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749">DONE</a></div><div class="ttdeci">@ DONE</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:59</div></div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_instance_script_html"><div class="ttname"><a href="../../d8/d83/class_instance_script.html">InstanceScript</a></div><div class="ttdef"><b>Definition:</b> InstanceScript.h:140</div></div>
+<div class="ttc" id="aclass_spell_script_html_ae630e2d388177707e28cecd5fa5a2b48"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">SpellScript::GetCaster</a></div><div class="ttdeci">Unit * GetCaster()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:401</div></div>
+<div class="ttc" id="aclass_world_object_html_a29762f86d0726e4d229df51281b9d710"><div class="ttname"><a href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">WorldObject::GetInstanceScript</a></div><div class="ttdeci">InstanceScript * GetInstanceScript() const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1192</div></div>
+<div class="ttc" id="aclass_zone_script_html_a8997612fdbdacbf5e28e4de60d03e805"><div class="ttname"><a href="../../df/dad/class_zone_script.html#a8997612fdbdacbf5e28e4de60d03e805">ZoneScript::GetData</a></div><div class="ttdeci">virtual uint32 GetData(uint32) const</div><div class="ttdef"><b>Definition:</b> ZoneScript.h:52</div></div>
+<div class="ttc" id="aclass_zone_script_html_a949e67ea24c7e4b70a20806952735576"><div class="ttname"><a href="../../df/dad/class_zone_script.html#a949e67ea24c7e4b70a20806952735576">ZoneScript::SetData</a></div><div class="ttdeci">virtual void SetData(uint32, uint32)</div><div class="ttdef"><b>Definition:</b> ZoneScript.h:53</div></div>
+<div class="ttc" id="auldaman_8h_html_a16c2b8982727dd1439379712d87864b3af2ab523ddea33d0e8a2cf024a914c155"><div class="ttname"><a href="../../dc/d7c/uldaman_8h.html#a16c2b8982727dd1439379712d87864b3af2ab523ddea33d0e8a2cf024a914c155">NPC_ARCHAEDAS</a></div><div class="ttdeci">@ NPC_ARCHAEDAS</div><div class="ttdef"><b>Definition:</b> uldaman.h:41</div></div>
+<div class="ttc" id="auldaman_8h_html_afb6eb4f28419b652027fad41104a6d22a5d89eed481428701aa8f09c52e072c72"><div class="ttname"><a href="../../dc/d7c/uldaman_8h.html#afb6eb4f28419b652027fad41104a6d22a5d89eed481428701aa8f09c52e072c72">DATA_ARCHAEDAS</a></div><div class="ttdeci">@ DATA_ARCHAEDAS</div><div class="ttdef"><b>Definition:</b> uldaman.h:25</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2f934bdc7339e775fa3cbe636842bab9" name="a2f934bdc7339e775fa3cbe636842bab9"></a>
@@ -369,11 +390,19 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  249</span>        {</div>
+<div class="line"><span class="lineno">  250</span>            <a class="code hl_variable" href="../../dc/d62/class_spell_script.html#acf9d3c62feafc004af1f45af05652e3b">OnEffectLaunch</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a551b0adb8eaf82985a7e55cef0695dcb">SpellEffectFn</a>(<a class="code hl_function" href="../../d1/dd1/classspell__uldaman__boss__agro__archaedas_1_1spell__uldaman__boss__agro__archaedas___spell_script.html#a57915ab912fb71fa9fb0aab774f7fb0e">spell_uldaman_boss_agro_archaedas_SpellScript::HandleSendEvent</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97a8715eb5a36de38e3caa81115dfb9e2db">SPELL_EFFECT_SEND_EVENT</a>);</div>
+<div class="line"><span class="lineno">  251</span>        }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a></div><div class="ttdeci">@ EFFECT_0</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:30</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a292c893150c454dd75628b719db1fe97a8715eb5a36de38e3caa81115dfb9e2db"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97a8715eb5a36de38e3caa81115dfb9e2db">SPELL_EFFECT_SEND_EVENT</a></div><div class="ttdeci">@ SPELL_EFFECT_SEND_EVENT</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:811</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a551b0adb8eaf82985a7e55cef0695dcb"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a551b0adb8eaf82985a7e55cef0695dcb">SpellEffectFn</a></div><div class="ttdeci">#define SpellEffectFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:337</div></div>
+<div class="ttc" id="aclass_spell_script_html_acf9d3c62feafc004af1f45af05652e3b"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#acf9d3c62feafc004af1f45af05652e3b">SpellScript::OnEffectLaunch</a></div><div class="ttdeci">HookList&lt; EffectHandler &gt; OnEffectLaunch</div><div class="ttdef"><b>Definition:</b> SpellScript.h:333</div></div>
+<div class="ttc" id="aclassspell__uldaman__boss__agro__archaedas_1_1spell__uldaman__boss__agro__archaedas___spell_script_html_a57915ab912fb71fa9fb0aab774f7fb0e"><div class="ttname"><a href="../../d1/dd1/classspell__uldaman__boss__agro__archaedas_1_1spell__uldaman__boss__agro__archaedas___spell_script.html#a57915ab912fb71fa9fb0aab774f7fb0e">spell_uldaman_boss_agro_archaedas::spell_uldaman_boss_agro_archaedas_SpellScript::HandleSendEvent</a></div><div class="ttdeci">void HandleSendEvent(SpellEffIndex)</div><div class="ttdef"><b>Definition:</b> instance_uldaman.cpp:236</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/EasternKingdoms/Uldaman/<a class="el" href="../../dc/dff/instance__uldaman_8cpp.html">instance_uldaman.cpp</a></li>
+<li><a class="el" href="../../">instance_uldaman.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -381,7 +410,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d8/d39/classspell__uldaman__boss__agro__archaedas.html">spell_uldaman_boss_agro_archaedas</a></li><li class="navelem"><a class="el" href="../../d1/dd1/classspell__uldaman__boss__agro__archaedas_1_1spell__uldaman__boss__agro__archaedas___spell_script.html">spell_uldaman_boss_agro_archaedas_SpellScript</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:09 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:26 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

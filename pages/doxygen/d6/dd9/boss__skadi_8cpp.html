@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzeorthCore: D:/azerothcore-wotlk/src/server/scripts/Northrend/UtgardeKeep/UtgardePinnacle/boss_skadi.cpp File Reference</title>
+<title>AzeorthCore: boss_skadi.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -113,14 +113,16 @@ $(document).ready(function(){initNavTree('d6/dd9/boss__skadi_8cpp.html','../../'
   <div class="headertitle"><div class="title">boss_skadi.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../dc/db7/_combat_a_i_8h_source.html">CombatAI.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d1/d39/_player_8h_source.html">Player.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d0/d7d/_script_mgr_8h_source.html">ScriptMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d3/dad/_scripted_creature_8h_source.html">ScriptedCreature.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dc/d70/_spell_info_8h_source.html">SpellInfo.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../df/d90/_vehicle_8h_source.html">Vehicle.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d8/d3a/utgarde__pinnacle_8h_source.html">utgarde_pinnacle.h</a>&quot;</code><br />
-</div><table class="memberdecls">
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">CombatAI.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptedCreature.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellInfo.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Vehicle.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">utgarde_pinnacle.h</a>&quot;</code><br />
+</div>
+<p><a href="">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d69/classboss__skadi.html">boss_skadi</a></td></tr>
@@ -6599,7 +6601,30 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="af60e00b78607064c5be6aa9397ea49c1a38de9f3389120e6c6a28b2798422db74" name="af60e00b78607064c5be6aa9397ea49c1a38de9f3389120e6c6a28b2798422db74"></a>EVENT_ARCANE_BLAST&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="af60e00b78607064c5be6aa9397ea49c1a9c1eb82ba397495012178faa3efce8f9" name="af60e00b78607064c5be6aa9397ea49c1a9c1eb82ba397495012178faa3efce8f9"></a>EVENT_BELLOWING_ROAR&#160;</td><td class="fielddoc"></td></tr>
 </table>
-
+<div class="fragment"><div class="line"><span class="lineno">   72</span>{</div>
+<div class="line"><span class="lineno">   73</span>    <span class="comment">// SKADI</span></div>
+<div class="line"><span class="lineno">   74</span>    <a class="code hl_enumvalue" href="../../d6/dd9/boss__skadi_8cpp.html#af60e00b78607064c5be6aa9397ea49c1aa1374c2f484baa70c6c3d30ffffb42f8">EVENT_SKADI_START</a>                   = 1,</div>
+<div class="line"><span class="lineno">   75</span>    <a class="code hl_enumvalue" href="../../d6/dd9/boss__skadi_8cpp.html#af60e00b78607064c5be6aa9397ea49c1acea85e21b3879545cc517518ff4d8474">EVENT_SKADI_CRUSH</a>                   = 2,</div>
+<div class="line"><span class="lineno">   76</span>    <a class="code hl_enumvalue" href="../../d6/dd9/boss__skadi_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a221e90edca7272b297e47592d083f4c1">EVENT_SKADI_SPEAR</a>                   = 3,</div>
+<div class="line"><span class="lineno">   77</span>    <a class="code hl_enumvalue" href="../../d6/dd9/boss__skadi_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a096f1637b0a617a4779e41f6eb680ec8">EVENT_SKADI_WHIRLWIND</a>               = 4,</div>
+<div class="line"><span class="lineno">   78</span> </div>
+<div class="line"><span class="lineno">   79</span>    <span class="comment">// GRAUF</span></div>
+<div class="line"><span class="lineno">   80</span>    <a class="code hl_enumvalue" href="../../d6/dd9/boss__skadi_8cpp.html#af60e00b78607064c5be6aa9397ea49c1ae98aa4808fff120cb256c930036c228c">EVENT_GRAUF_START</a>                   = 10,</div>
+<div class="line"><span class="lineno">   81</span>    <a class="code hl_enumvalue" href="../../d6/dd9/boss__skadi_8cpp.html#af60e00b78607064c5be6aa9397ea49c1ae11121182975aa062e29b19a967f15c2">EVENT_GRAUF_MOVE</a>                    = 11,</div>
+<div class="line"><span class="lineno">   82</span>    <a class="code hl_enumvalue" href="../../d6/dd9/boss__skadi_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a48c7512bd582db855dca74a56e3e8d68">EVENT_GRAUF_SUMMON_HELPERS</a>          = 12,</div>
+<div class="line"><span class="lineno">   83</span>    <a class="code hl_enumvalue" href="../../d6/dd9/boss__skadi_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a68265babf2de25e07f651d1fdb5a9d78">EVENT_GRAUF_CHECK</a>                   = 13,</div>
+<div class="line"><span class="lineno">   84</span>    <a class="code hl_enumvalue" href="../../d6/dd9/boss__skadi_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a4d830805dd168a2d185fa9de62c13801">EVENT_GRAUF_REMOVE_SKADI</a>            = 14,</div>
+<div class="line"><span class="lineno">   85</span>};</div>
+<div class="ttc" id="aboss__skadi_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a096f1637b0a617a4779e41f6eb680ec8"><div class="ttname"><a href="../../d6/dd9/boss__skadi_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a096f1637b0a617a4779e41f6eb680ec8">EVENT_SKADI_WHIRLWIND</a></div><div class="ttdeci">@ EVENT_SKADI_WHIRLWIND</div><div class="ttdef"><b>Definition:</b> boss_skadi.cpp:77</div></div>
+<div class="ttc" id="aboss__skadi_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a221e90edca7272b297e47592d083f4c1"><div class="ttname"><a href="../../d6/dd9/boss__skadi_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a221e90edca7272b297e47592d083f4c1">EVENT_SKADI_SPEAR</a></div><div class="ttdeci">@ EVENT_SKADI_SPEAR</div><div class="ttdef"><b>Definition:</b> boss_skadi.cpp:76</div></div>
+<div class="ttc" id="aboss__skadi_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a48c7512bd582db855dca74a56e3e8d68"><div class="ttname"><a href="../../d6/dd9/boss__skadi_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a48c7512bd582db855dca74a56e3e8d68">EVENT_GRAUF_SUMMON_HELPERS</a></div><div class="ttdeci">@ EVENT_GRAUF_SUMMON_HELPERS</div><div class="ttdef"><b>Definition:</b> boss_skadi.cpp:82</div></div>
+<div class="ttc" id="aboss__skadi_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a4d830805dd168a2d185fa9de62c13801"><div class="ttname"><a href="../../d6/dd9/boss__skadi_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a4d830805dd168a2d185fa9de62c13801">EVENT_GRAUF_REMOVE_SKADI</a></div><div class="ttdeci">@ EVENT_GRAUF_REMOVE_SKADI</div><div class="ttdef"><b>Definition:</b> boss_skadi.cpp:84</div></div>
+<div class="ttc" id="aboss__skadi_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a68265babf2de25e07f651d1fdb5a9d78"><div class="ttname"><a href="../../d6/dd9/boss__skadi_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a68265babf2de25e07f651d1fdb5a9d78">EVENT_GRAUF_CHECK</a></div><div class="ttdeci">@ EVENT_GRAUF_CHECK</div><div class="ttdef"><b>Definition:</b> boss_skadi.cpp:83</div></div>
+<div class="ttc" id="aboss__skadi_8cpp_html_af60e00b78607064c5be6aa9397ea49c1aa1374c2f484baa70c6c3d30ffffb42f8"><div class="ttname"><a href="../../d6/dd9/boss__skadi_8cpp.html#af60e00b78607064c5be6aa9397ea49c1aa1374c2f484baa70c6c3d30ffffb42f8">EVENT_SKADI_START</a></div><div class="ttdeci">@ EVENT_SKADI_START</div><div class="ttdef"><b>Definition:</b> boss_skadi.cpp:74</div></div>
+<div class="ttc" id="aboss__skadi_8cpp_html_af60e00b78607064c5be6aa9397ea49c1acea85e21b3879545cc517518ff4d8474"><div class="ttname"><a href="../../d6/dd9/boss__skadi_8cpp.html#af60e00b78607064c5be6aa9397ea49c1acea85e21b3879545cc517518ff4d8474">EVENT_SKADI_CRUSH</a></div><div class="ttdeci">@ EVENT_SKADI_CRUSH</div><div class="ttdef"><b>Definition:</b> boss_skadi.cpp:75</div></div>
+<div class="ttc" id="aboss__skadi_8cpp_html_af60e00b78607064c5be6aa9397ea49c1ae11121182975aa062e29b19a967f15c2"><div class="ttname"><a href="../../d6/dd9/boss__skadi_8cpp.html#af60e00b78607064c5be6aa9397ea49c1ae11121182975aa062e29b19a967f15c2">EVENT_GRAUF_MOVE</a></div><div class="ttdeci">@ EVENT_GRAUF_MOVE</div><div class="ttdef"><b>Definition:</b> boss_skadi.cpp:81</div></div>
+<div class="ttc" id="aboss__skadi_8cpp_html_af60e00b78607064c5be6aa9397ea49c1ae98aa4808fff120cb256c930036c228c"><div class="ttname"><a href="../../d6/dd9/boss__skadi_8cpp.html#af60e00b78607064c5be6aa9397ea49c1ae98aa4808fff120cb256c930036c228c">EVENT_GRAUF_START</a></div><div class="ttdeci">@ EVENT_GRAUF_START</div><div class="ttdef"><b>Definition:</b> boss_skadi.cpp:80</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a3329d9d369a4ae5cfa5d8eac33a0c0c6" name="a3329d9d369a4ae5cfa5d8eac33a0c0c6"></a>
@@ -7635,7 +7660,78 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="a3329d9d369a4ae5cfa5d8eac33a0c0c6ab4e2567cf14e7f5312e0df378558e2cb" name="a3329d9d369a4ae5cfa5d8eac33a0c0c6ab4e2567cf14e7f5312e0df378558e2cb"></a>EVENT_SCENE_16&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a3329d9d369a4ae5cfa5d8eac33a0c0c6afaba2ba84c4b5d02f3948821fd5850b3" name="a3329d9d369a4ae5cfa5d8eac33a0c0c6afaba2ba84c4b5d02f3948821fd5850b3"></a>NPC_DK_GHOUL&#160;</td><td class="fielddoc"></td></tr>
 </table>
-
+<div class="fragment"><div class="line"><span class="lineno">   27</span>{</div>
+<div class="line"><span class="lineno">   28</span>    <span class="comment">// TEXTS</span></div>
+<div class="line"><span class="lineno">   29</span>    <a class="code hl_enumvalue" href="../../d6/dd9/boss__skadi_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a47c752fff069f3e55065795eef2a9bfe">SAY_AGGRO</a>                           = 0,</div>
+<div class="line"><span class="lineno">   30</span>    <a class="code hl_enumvalue" href="../../d6/dd9/boss__skadi_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a7f4f26c3b97b953fd229ac5d308024d5">SAY_KILL</a>                            = 1,</div>
+<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../d6/dd9/boss__skadi_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a04c962d9b6aaafde54ff92a54369135e">SAY_DEATH</a>                           = 3,</div>
+<div class="line"><span class="lineno">   32</span>    <a class="code hl_enumvalue" href="../../d6/dd9/boss__skadi_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a28102865b8a4bfc8b86cfd7e13a3e5bc">SAY_DRAKE_DEATH</a>                     = 5,</div>
+<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../d6/dd9/boss__skadi_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a89e08ca608c7df1074c5c9aa78c9ce50">SAY_DRAKE_BREATH</a>                    = 6,</div>
+<div class="line"><span class="lineno">   34</span> </div>
+<div class="line"><span class="lineno">   35</span>    <span class="comment">// EMOTES</span></div>
+<div class="line"><span class="lineno">   36</span>    <a class="code hl_enumvalue" href="../../d6/dd9/boss__skadi_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a301dd510f1ca6604fda24c94112e97fe">EMOTE_DEEP_BREATH</a>                   = 0,</div>
+<div class="line"><span class="lineno">   37</span>    <a class="code hl_enumvalue" href="../../d6/dd9/boss__skadi_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a1e536c78710d5b778b14a756d68c47e2">EMOTE_RANGE</a>                         = 1,</div>
+<div class="line"><span class="lineno">   38</span> </div>
+<div class="line"><span class="lineno">   39</span>    <span class="comment">// SPELLS</span></div>
+<div class="line"><span class="lineno">   40</span>    <a class="code hl_enumvalue" href="../../d6/dd9/boss__skadi_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ad53b0a5fbdf194da32d589e277785f6e">SPELL_CRUSH_N</a>                       = 50234,</div>
+<div class="line"><span class="lineno">   41</span>    <a class="code hl_enumvalue" href="../../d6/dd9/boss__skadi_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6af62b0c720f087fbc3182366a2214900a">SPELL_CRUSH_H</a>                       = 59330,</div>
+<div class="line"><span class="lineno">   42</span>    <a class="code hl_enumvalue" href="../../d6/dd9/boss__skadi_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a70684195d11443f14f2292ad500ce6e5">SPELL_POISONED_SPEAR_N</a>              = 50255,</div>
+<div class="line"><span class="lineno">   43</span>    <a class="code hl_enumvalue" href="../../d6/dd9/boss__skadi_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6af518a4862ea0a865ff41c06795755871">SPELL_POISONED_SPEAR_H</a>              = 59331,</div>
+<div class="line"><span class="lineno">   44</span>    <a class="code hl_enumvalue" href="../../d6/dd9/boss__skadi_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a0c1fd4b9e8b1c09482f97dddfacdb3b6">SPELL_WHIRLWIND_N</a>                   = 50228,</div>
+<div class="line"><span class="lineno">   45</span>    <a class="code hl_enumvalue" href="../../d6/dd9/boss__skadi_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a8d4e3f9a941825a3ebde6dd66cf3976f">SPELL_WHIRLWIND_H</a>                   = 50228,</div>
+<div class="line"><span class="lineno">   46</span> </div>
+<div class="line"><span class="lineno">   47</span>    <a class="code hl_enumvalue" href="../../d6/dd9/boss__skadi_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a9e18023b69075952ea847304fa283b53">SPELL_FREEZING_CLOUD_VISUAL</a>         = 47592,</div>
+<div class="line"><span class="lineno">   48</span>    <a class="code hl_enumvalue" href="../../d6/dd9/boss__skadi_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6aeae1df43ba6fde2c1cf7b64d51a9e27f">SPELL_FREEZING_CLOUD_N</a>              = 47579,</div>
+<div class="line"><span class="lineno">   49</span>    <a class="code hl_enumvalue" href="../../d6/dd9/boss__skadi_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a9dfefec7532dea6669d8e50a41f5f964">SPELL_FREEZING_CLOUD_H</a>              = 60020,</div>
+<div class="line"><span class="lineno">   50</span> </div>
+<div class="line"><span class="lineno">   51</span>    <a class="code hl_enumvalue" href="../../d6/dd9/boss__skadi_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a8df3cb823481152d8c01063608b461b6">SPELL_LAUNCH_HARPOON</a>                = 48642,</div>
+<div class="line"><span class="lineno">   52</span> </div>
+<div class="line"><span class="lineno">   53</span>    <span class="comment">// NPCS</span></div>
+<div class="line"><span class="lineno">   54</span>    <a class="code hl_enumvalue" href="../../d6/dd9/boss__skadi_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a4ad8352754e963d50347dbed73b85be2">NPC_YMIRJAR_WARRIOR</a>                 = 26690,</div>
+<div class="line"><span class="lineno">   55</span>    <a class="code hl_enumvalue" href="../../d6/dd9/boss__skadi_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a47a8412a0aead43c1129b6662987f0ef">NPC_YMIRJAR_WITCH_DOCTOR</a>            = 26691,</div>
+<div class="line"><span class="lineno">   56</span>    <a class="code hl_enumvalue" href="../../d6/dd9/boss__skadi_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6af7a445ae2c533f53b385fd5552b19d20">NPC_YMIRJAR_HARPOONER</a>               = 26692,</div>
+<div class="line"><span class="lineno">   57</span>    <a class="code hl_enumvalue" href="../../d6/dd9/boss__skadi_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6abe9c1500f91a0f01f081d3850d1ee69b">NPC_GRAUF</a>                           = 26893,</div>
+<div class="line"><span class="lineno">   58</span>    <a class="code hl_enumvalue" href="../../d6/dd9/boss__skadi_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a08c6c655db0af5bf27c7d1e998b0f8f8">NPC_BREATH_TRIGGER</a>                  = 28351,</div>
+<div class="line"><span class="lineno">   59</span>    <a class="code hl_enumvalue" href="../../d6/dd9/boss__skadi_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6aea8347fd982a7c0147d20184f2a64be8">EQUIP_MACE</a>                          = 17193,</div>
+<div class="line"><span class="lineno">   60</span> </div>
+<div class="line"><span class="lineno">   61</span>    <span class="comment">// ACTIONS</span></div>
+<div class="line"><span class="lineno">   62</span>    <a class="code hl_enumvalue" href="../../d6/dd9/boss__skadi_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a5a9d00590152ece2beb2305c6f271dd9">ACTION_START_EVENT</a>                  = 1,</div>
+<div class="line"><span class="lineno">   63</span>    <a class="code hl_enumvalue" href="../../d6/dd9/boss__skadi_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a23ad67139df344342263dca07927c122">ACTION_REMOVE_SKADI</a>                 = 2,</div>
+<div class="line"><span class="lineno">   64</span>    <a class="code hl_enumvalue" href="../../d6/dd9/boss__skadi_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a27415b019dd189dbf87ba112d5a3c663">ACTION_PHASE2</a>                       = 3,</div>
+<div class="line"><span class="lineno">   65</span>    <a class="code hl_enumvalue" href="../../d6/dd9/boss__skadi_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ad28da1f63ce17b73f4f1fe56681c6c1f">ACTION_MYGIRL_ACHIEVEMENT</a>           = 4,</div>
+<div class="line"><span class="lineno">   66</span> </div>
+<div class="line"><span class="lineno">   67</span>    <span class="comment">// ACHIEVEMENTS</span></div>
+<div class="line"><span class="lineno">   68</span>    <a class="code hl_enumvalue" href="../../d6/dd9/boss__skadi_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a6d402e107cfecdc405ddfcb0441afcf9">ACHIEV_TIMED_LODI_DODI</a>              = 17726,</div>
+<div class="line"><span class="lineno">   69</span>};</div>
+<div class="ttc" id="aboss__skadi_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a04c962d9b6aaafde54ff92a54369135e"><div class="ttname"><a href="../../d6/dd9/boss__skadi_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a04c962d9b6aaafde54ff92a54369135e">SAY_DEATH</a></div><div class="ttdeci">@ SAY_DEATH</div><div class="ttdef"><b>Definition:</b> boss_skadi.cpp:31</div></div>
+<div class="ttc" id="aboss__skadi_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a08c6c655db0af5bf27c7d1e998b0f8f8"><div class="ttname"><a href="../../d6/dd9/boss__skadi_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a08c6c655db0af5bf27c7d1e998b0f8f8">NPC_BREATH_TRIGGER</a></div><div class="ttdeci">@ NPC_BREATH_TRIGGER</div><div class="ttdef"><b>Definition:</b> boss_skadi.cpp:58</div></div>
+<div class="ttc" id="aboss__skadi_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a0c1fd4b9e8b1c09482f97dddfacdb3b6"><div class="ttname"><a href="../../d6/dd9/boss__skadi_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a0c1fd4b9e8b1c09482f97dddfacdb3b6">SPELL_WHIRLWIND_N</a></div><div class="ttdeci">@ SPELL_WHIRLWIND_N</div><div class="ttdef"><b>Definition:</b> boss_skadi.cpp:44</div></div>
+<div class="ttc" id="aboss__skadi_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a1e536c78710d5b778b14a756d68c47e2"><div class="ttname"><a href="../../d6/dd9/boss__skadi_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a1e536c78710d5b778b14a756d68c47e2">EMOTE_RANGE</a></div><div class="ttdeci">@ EMOTE_RANGE</div><div class="ttdef"><b>Definition:</b> boss_skadi.cpp:37</div></div>
+<div class="ttc" id="aboss__skadi_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a23ad67139df344342263dca07927c122"><div class="ttname"><a href="../../d6/dd9/boss__skadi_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a23ad67139df344342263dca07927c122">ACTION_REMOVE_SKADI</a></div><div class="ttdeci">@ ACTION_REMOVE_SKADI</div><div class="ttdef"><b>Definition:</b> boss_skadi.cpp:63</div></div>
+<div class="ttc" id="aboss__skadi_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a27415b019dd189dbf87ba112d5a3c663"><div class="ttname"><a href="../../d6/dd9/boss__skadi_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a27415b019dd189dbf87ba112d5a3c663">ACTION_PHASE2</a></div><div class="ttdeci">@ ACTION_PHASE2</div><div class="ttdef"><b>Definition:</b> boss_skadi.cpp:64</div></div>
+<div class="ttc" id="aboss__skadi_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a28102865b8a4bfc8b86cfd7e13a3e5bc"><div class="ttname"><a href="../../d6/dd9/boss__skadi_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a28102865b8a4bfc8b86cfd7e13a3e5bc">SAY_DRAKE_DEATH</a></div><div class="ttdeci">@ SAY_DRAKE_DEATH</div><div class="ttdef"><b>Definition:</b> boss_skadi.cpp:32</div></div>
+<div class="ttc" id="aboss__skadi_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a301dd510f1ca6604fda24c94112e97fe"><div class="ttname"><a href="../../d6/dd9/boss__skadi_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a301dd510f1ca6604fda24c94112e97fe">EMOTE_DEEP_BREATH</a></div><div class="ttdeci">@ EMOTE_DEEP_BREATH</div><div class="ttdef"><b>Definition:</b> boss_skadi.cpp:36</div></div>
+<div class="ttc" id="aboss__skadi_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a47a8412a0aead43c1129b6662987f0ef"><div class="ttname"><a href="../../d6/dd9/boss__skadi_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a47a8412a0aead43c1129b6662987f0ef">NPC_YMIRJAR_WITCH_DOCTOR</a></div><div class="ttdeci">@ NPC_YMIRJAR_WITCH_DOCTOR</div><div class="ttdef"><b>Definition:</b> boss_skadi.cpp:55</div></div>
+<div class="ttc" id="aboss__skadi_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a47c752fff069f3e55065795eef2a9bfe"><div class="ttname"><a href="../../d6/dd9/boss__skadi_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a47c752fff069f3e55065795eef2a9bfe">SAY_AGGRO</a></div><div class="ttdeci">@ SAY_AGGRO</div><div class="ttdef"><b>Definition:</b> boss_skadi.cpp:29</div></div>
+<div class="ttc" id="aboss__skadi_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a4ad8352754e963d50347dbed73b85be2"><div class="ttname"><a href="../../d6/dd9/boss__skadi_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a4ad8352754e963d50347dbed73b85be2">NPC_YMIRJAR_WARRIOR</a></div><div class="ttdeci">@ NPC_YMIRJAR_WARRIOR</div><div class="ttdef"><b>Definition:</b> boss_skadi.cpp:54</div></div>
+<div class="ttc" id="aboss__skadi_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a5a9d00590152ece2beb2305c6f271dd9"><div class="ttname"><a href="../../d6/dd9/boss__skadi_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a5a9d00590152ece2beb2305c6f271dd9">ACTION_START_EVENT</a></div><div class="ttdeci">@ ACTION_START_EVENT</div><div class="ttdef"><b>Definition:</b> boss_skadi.cpp:62</div></div>
+<div class="ttc" id="aboss__skadi_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a6d402e107cfecdc405ddfcb0441afcf9"><div class="ttname"><a href="../../d6/dd9/boss__skadi_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a6d402e107cfecdc405ddfcb0441afcf9">ACHIEV_TIMED_LODI_DODI</a></div><div class="ttdeci">@ ACHIEV_TIMED_LODI_DODI</div><div class="ttdef"><b>Definition:</b> boss_skadi.cpp:68</div></div>
+<div class="ttc" id="aboss__skadi_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a70684195d11443f14f2292ad500ce6e5"><div class="ttname"><a href="../../d6/dd9/boss__skadi_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a70684195d11443f14f2292ad500ce6e5">SPELL_POISONED_SPEAR_N</a></div><div class="ttdeci">@ SPELL_POISONED_SPEAR_N</div><div class="ttdef"><b>Definition:</b> boss_skadi.cpp:42</div></div>
+<div class="ttc" id="aboss__skadi_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a7f4f26c3b97b953fd229ac5d308024d5"><div class="ttname"><a href="../../d6/dd9/boss__skadi_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a7f4f26c3b97b953fd229ac5d308024d5">SAY_KILL</a></div><div class="ttdeci">@ SAY_KILL</div><div class="ttdef"><b>Definition:</b> boss_skadi.cpp:30</div></div>
+<div class="ttc" id="aboss__skadi_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a89e08ca608c7df1074c5c9aa78c9ce50"><div class="ttname"><a href="../../d6/dd9/boss__skadi_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a89e08ca608c7df1074c5c9aa78c9ce50">SAY_DRAKE_BREATH</a></div><div class="ttdeci">@ SAY_DRAKE_BREATH</div><div class="ttdef"><b>Definition:</b> boss_skadi.cpp:33</div></div>
+<div class="ttc" id="aboss__skadi_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a8d4e3f9a941825a3ebde6dd66cf3976f"><div class="ttname"><a href="../../d6/dd9/boss__skadi_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a8d4e3f9a941825a3ebde6dd66cf3976f">SPELL_WHIRLWIND_H</a></div><div class="ttdeci">@ SPELL_WHIRLWIND_H</div><div class="ttdef"><b>Definition:</b> boss_skadi.cpp:45</div></div>
+<div class="ttc" id="aboss__skadi_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a8df3cb823481152d8c01063608b461b6"><div class="ttname"><a href="../../d6/dd9/boss__skadi_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a8df3cb823481152d8c01063608b461b6">SPELL_LAUNCH_HARPOON</a></div><div class="ttdeci">@ SPELL_LAUNCH_HARPOON</div><div class="ttdef"><b>Definition:</b> boss_skadi.cpp:51</div></div>
+<div class="ttc" id="aboss__skadi_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a9dfefec7532dea6669d8e50a41f5f964"><div class="ttname"><a href="../../d6/dd9/boss__skadi_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a9dfefec7532dea6669d8e50a41f5f964">SPELL_FREEZING_CLOUD_H</a></div><div class="ttdeci">@ SPELL_FREEZING_CLOUD_H</div><div class="ttdef"><b>Definition:</b> boss_skadi.cpp:49</div></div>
+<div class="ttc" id="aboss__skadi_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a9e18023b69075952ea847304fa283b53"><div class="ttname"><a href="../../d6/dd9/boss__skadi_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a9e18023b69075952ea847304fa283b53">SPELL_FREEZING_CLOUD_VISUAL</a></div><div class="ttdeci">@ SPELL_FREEZING_CLOUD_VISUAL</div><div class="ttdef"><b>Definition:</b> boss_skadi.cpp:47</div></div>
+<div class="ttc" id="aboss__skadi_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6abe9c1500f91a0f01f081d3850d1ee69b"><div class="ttname"><a href="../../d6/dd9/boss__skadi_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6abe9c1500f91a0f01f081d3850d1ee69b">NPC_GRAUF</a></div><div class="ttdeci">@ NPC_GRAUF</div><div class="ttdef"><b>Definition:</b> boss_skadi.cpp:57</div></div>
+<div class="ttc" id="aboss__skadi_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6ad28da1f63ce17b73f4f1fe56681c6c1f"><div class="ttname"><a href="../../d6/dd9/boss__skadi_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ad28da1f63ce17b73f4f1fe56681c6c1f">ACTION_MYGIRL_ACHIEVEMENT</a></div><div class="ttdeci">@ ACTION_MYGIRL_ACHIEVEMENT</div><div class="ttdef"><b>Definition:</b> boss_skadi.cpp:65</div></div>
+<div class="ttc" id="aboss__skadi_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6ad53b0a5fbdf194da32d589e277785f6e"><div class="ttname"><a href="../../d6/dd9/boss__skadi_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ad53b0a5fbdf194da32d589e277785f6e">SPELL_CRUSH_N</a></div><div class="ttdeci">@ SPELL_CRUSH_N</div><div class="ttdef"><b>Definition:</b> boss_skadi.cpp:40</div></div>
+<div class="ttc" id="aboss__skadi_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6aea8347fd982a7c0147d20184f2a64be8"><div class="ttname"><a href="../../d6/dd9/boss__skadi_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6aea8347fd982a7c0147d20184f2a64be8">EQUIP_MACE</a></div><div class="ttdeci">@ EQUIP_MACE</div><div class="ttdef"><b>Definition:</b> boss_skadi.cpp:59</div></div>
+<div class="ttc" id="aboss__skadi_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6aeae1df43ba6fde2c1cf7b64d51a9e27f"><div class="ttname"><a href="../../d6/dd9/boss__skadi_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6aeae1df43ba6fde2c1cf7b64d51a9e27f">SPELL_FREEZING_CLOUD_N</a></div><div class="ttdeci">@ SPELL_FREEZING_CLOUD_N</div><div class="ttdef"><b>Definition:</b> boss_skadi.cpp:48</div></div>
+<div class="ttc" id="aboss__skadi_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6af518a4862ea0a865ff41c06795755871"><div class="ttname"><a href="../../d6/dd9/boss__skadi_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6af518a4862ea0a865ff41c06795755871">SPELL_POISONED_SPEAR_H</a></div><div class="ttdeci">@ SPELL_POISONED_SPEAR_H</div><div class="ttdef"><b>Definition:</b> boss_skadi.cpp:43</div></div>
+<div class="ttc" id="aboss__skadi_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6af62b0c720f087fbc3182366a2214900a"><div class="ttname"><a href="../../d6/dd9/boss__skadi_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6af62b0c720f087fbc3182366a2214900a">SPELL_CRUSH_H</a></div><div class="ttdeci">@ SPELL_CRUSH_H</div><div class="ttdef"><b>Definition:</b> boss_skadi.cpp:41</div></div>
+<div class="ttc" id="aboss__skadi_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6af7a445ae2c533f53b385fd5552b19d20"><div class="ttname"><a href="../../d6/dd9/boss__skadi_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6af7a445ae2c533f53b385fd5552b19d20">NPC_YMIRJAR_HARPOONER</a></div><div class="ttdeci">@ NPC_YMIRJAR_HARPOONER</div><div class="ttdef"><b>Definition:</b> boss_skadi.cpp:56</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a4432ad5c680b2372adf2f56998516c6d" name="a4432ad5c680b2372adf2f56998516c6d"></a>
@@ -7656,7 +7752,19 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="a4432ad5c680b2372adf2f56998516c6dacdfd220f36379c80b4caa3d4a1b4ba0f" name="a4432ad5c680b2372adf2f56998516c6dacdfd220f36379c80b4caa3d4a1b4ba0f"></a>PHASE_LAND&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a4432ad5c680b2372adf2f56998516c6dac254831385f10a22ed7b3cc98e8ac925" name="a4432ad5c680b2372adf2f56998516c6dac254831385f10a22ed7b3cc98e8ac925"></a>PHASE_GROUND&#160;</td><td class="fielddoc"></td></tr>
 </table>
-
+<div class="fragment"><div class="line"><span class="lineno">  102</span>{</div>
+<div class="line"><span class="lineno">  103</span>    <a class="code hl_enumvalue" href="../../d6/dd9/boss__skadi_8cpp.html#a4432ad5c680b2372adf2f56998516c6da61e900515aec51ba22cfdd63c1082fc7">PHASE_NONE</a>,</div>
+<div class="line"><span class="lineno">  104</span>    <a class="code hl_enumvalue" href="../../d6/dd9/boss__skadi_8cpp.html#a4432ad5c680b2372adf2f56998516c6daa8b0a394b51c518baed10676a2c932e3">PHASE_START</a>,</div>
+<div class="line"><span class="lineno">  105</span>    <a class="code hl_enumvalue" href="../../d6/dd9/boss__skadi_8cpp.html#a4432ad5c680b2372adf2f56998516c6da76b6d3f45429b898e3111fc4ca57fec0">PHASE_FLIGHT</a>,</div>
+<div class="line"><span class="lineno">  106</span>    <a class="code hl_enumvalue" href="../../d6/dd9/boss__skadi_8cpp.html#a4432ad5c680b2372adf2f56998516c6dacdfd220f36379c80b4caa3d4a1b4ba0f">PHASE_LAND</a>,</div>
+<div class="line"><span class="lineno">  107</span>    <a class="code hl_enumvalue" href="../../d6/dd9/boss__skadi_8cpp.html#a4432ad5c680b2372adf2f56998516c6dac254831385f10a22ed7b3cc98e8ac925">PHASE_GROUND</a></div>
+<div class="line"><span class="lineno">  108</span>};</div>
+<div class="ttc" id="aboss__skadi_8cpp_html_a4432ad5c680b2372adf2f56998516c6da61e900515aec51ba22cfdd63c1082fc7"><div class="ttname"><a href="../../d6/dd9/boss__skadi_8cpp.html#a4432ad5c680b2372adf2f56998516c6da61e900515aec51ba22cfdd63c1082fc7">PHASE_NONE</a></div><div class="ttdeci">@ PHASE_NONE</div><div class="ttdef"><b>Definition:</b> boss_skadi.cpp:103</div></div>
+<div class="ttc" id="aboss__skadi_8cpp_html_a4432ad5c680b2372adf2f56998516c6da76b6d3f45429b898e3111fc4ca57fec0"><div class="ttname"><a href="../../d6/dd9/boss__skadi_8cpp.html#a4432ad5c680b2372adf2f56998516c6da76b6d3f45429b898e3111fc4ca57fec0">PHASE_FLIGHT</a></div><div class="ttdeci">@ PHASE_FLIGHT</div><div class="ttdef"><b>Definition:</b> boss_skadi.cpp:105</div></div>
+<div class="ttc" id="aboss__skadi_8cpp_html_a4432ad5c680b2372adf2f56998516c6daa8b0a394b51c518baed10676a2c932e3"><div class="ttname"><a href="../../d6/dd9/boss__skadi_8cpp.html#a4432ad5c680b2372adf2f56998516c6daa8b0a394b51c518baed10676a2c932e3">PHASE_START</a></div><div class="ttdeci">@ PHASE_START</div><div class="ttdef"><b>Definition:</b> boss_skadi.cpp:104</div></div>
+<div class="ttc" id="aboss__skadi_8cpp_html_a4432ad5c680b2372adf2f56998516c6dac254831385f10a22ed7b3cc98e8ac925"><div class="ttname"><a href="../../d6/dd9/boss__skadi_8cpp.html#a4432ad5c680b2372adf2f56998516c6dac254831385f10a22ed7b3cc98e8ac925">PHASE_GROUND</a></div><div class="ttdeci">@ PHASE_GROUND</div><div class="ttdef"><b>Definition:</b> boss_skadi.cpp:107</div></div>
+<div class="ttc" id="aboss__skadi_8cpp_html_a4432ad5c680b2372adf2f56998516c6dacdfd220f36379c80b4caa3d4a1b4ba0f"><div class="ttname"><a href="../../d6/dd9/boss__skadi_8cpp.html#a4432ad5c680b2372adf2f56998516c6dacdfd220f36379c80b4caa3d4a1b4ba0f">PHASE_LAND</a></div><div class="ttdeci">@ PHASE_LAND</div><div class="ttdef"><b>Definition:</b> boss_skadi.cpp:106</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
@@ -7674,7 +7782,15 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  530</span>{</div>
+<div class="line"><span class="lineno">  531</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../dc/d69/classboss__skadi.html">boss_skadi</a>();</div>
+<div class="line"><span class="lineno">  532</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../dd/dfa/classboss__skadi__grauf.html">boss_skadi_grauf</a>();</div>
+<div class="line"><span class="lineno">  533</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../db/d14/classgo__harpoon__canon.html">go_harpoon_canon</a>();</div>
+<div class="line"><span class="lineno">  534</span>}</div>
+<div class="ttc" id="aclassboss__skadi__grauf_html"><div class="ttname"><a href="../../dd/dfa/classboss__skadi__grauf.html">boss_skadi_grauf</a></div><div class="ttdef"><b>Definition:</b> boss_skadi.cpp:271</div></div>
+<div class="ttc" id="aclassboss__skadi_html"><div class="ttname"><a href="../../dc/d69/classboss__skadi.html">boss_skadi</a></div><div class="ttdef"><b>Definition:</b> boss_skadi.cpp:111</div></div>
+<div class="ttc" id="aclassgo__harpoon__canon_html"><div class="ttname"><a href="../../db/d14/classgo__harpoon__canon.html">go_harpoon_canon</a></div><div class="ttdef"><b>Definition:</b> boss_skadi.cpp:499</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
@@ -7740,7 +7856,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_81f27dfa25f27c55a8e8044b1a11fbfb.html">Northrend</a></li><li class="navelem"><a class="el" href="../../dir_d1549822ab15c727c75ddc2dceea56dd.html">UtgardeKeep</a></li><li class="navelem"><a class="el" href="../../dir_c6c1ef729e7487551f9ee2947f9e6a75.html">UtgardePinnacle</a></li><li class="navelem"><a class="el" href="../../d6/dd9/boss__skadi_8cpp.html">boss_skadi.cpp</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:32 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:44 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

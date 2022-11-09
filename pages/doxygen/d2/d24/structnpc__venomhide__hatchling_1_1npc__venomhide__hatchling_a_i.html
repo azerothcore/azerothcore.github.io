@@ -481,7 +481,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aa5929973ae39166ef381a3ed3c42a29c" name="aa5929973ae39166ef381a3ed3c42a29c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa5929973ae39166ef381a3ed3c42a29c">&#9670;&#160;</a></span>npc_venomhide_hatchlingAI()</h2>
 
@@ -505,7 +506,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 2519</span>: <a class="code hl_struct" href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a>(creature) {}</div>
+<div class="ttc" id="astruct_scripted_a_i_html"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -534,7 +537,36 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d2/d68/class_creature_a_i.html#a717b3431bd49e191fc77afe0fa50d827">CreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 2522</span>        {</div>
+<div class="line"><span class="lineno"> 2523</span>            <span class="keywordflow">if</span> (summoner-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">GetTypeId</a>() != <a class="code hl_enumvalue" href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a>)</div>
+<div class="line"><span class="lineno"> 2524</span>            {</div>
+<div class="line"><span class="lineno"> 2525</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 2526</span>            }</div>
+<div class="line"><span class="lineno"> 2527</span> </div>
+<div class="line"><span class="lineno"> 2528</span>            <span class="keywordflow">if</span> (summoner-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a328d5f752cc33ed398b3d9861ef6929d">ToPlayer</a>()-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a5aa219a691b0c5212fda9de12dfd72e9">GetItemCount</a>(<a class="code hl_enumvalue" href="../../db/dae/npcs__special_8cpp.html#ae5e5e621d0f9d0d5d49c575c4ee9e1cda48be430269d4b81aa898b2609dcf4e65">ITEM_VENOMHIDE_BABY_TOOTH</a>) &gt;= 6)</div>
+<div class="line"><span class="lineno"> 2529</span>            {</div>
+<div class="line"><span class="lineno"> 2530</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a294f22689bb98a36b2b8da1c33dd87f9">SetDisplayId</a>(<a class="code hl_enumvalue" href="../../db/dae/npcs__special_8cpp.html#ae5e5e621d0f9d0d5d49c575c4ee9e1cda561ec693739cd4d708d30cbb62c2e47a">MODEL_BABY_RAPTOR_REPTILE_EYES</a>);</div>
+<div class="line"><span class="lineno"> 2531</span>            }</div>
+<div class="line"><span class="lineno"> 2532</span>            <span class="keywordflow">if</span> (summoner-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a328d5f752cc33ed398b3d9861ef6929d">ToPlayer</a>()-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a5aa219a691b0c5212fda9de12dfd72e9">GetItemCount</a>(<a class="code hl_enumvalue" href="../../db/dae/npcs__special_8cpp.html#ae5e5e621d0f9d0d5d49c575c4ee9e1cda48be430269d4b81aa898b2609dcf4e65">ITEM_VENOMHIDE_BABY_TOOTH</a>) &gt;= 11)</div>
+<div class="line"><span class="lineno"> 2533</span>            {</div>
+<div class="line"><span class="lineno"> 2534</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a294f22689bb98a36b2b8da1c33dd87f9">SetDisplayId</a>(<a class="code hl_enumvalue" href="../../db/dae/npcs__special_8cpp.html#ae5e5e621d0f9d0d5d49c575c4ee9e1cda65ecf5f641cdd72203a5581779276efd">MODEL_ADOLESCENT_RAPTOR</a>);</div>
+<div class="line"><span class="lineno"> 2535</span>            }</div>
+<div class="line"><span class="lineno"> 2536</span>            <span class="keywordflow">if</span> (summoner-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a328d5f752cc33ed398b3d9861ef6929d">ToPlayer</a>()-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a5aa219a691b0c5212fda9de12dfd72e9">GetItemCount</a>(<a class="code hl_enumvalue" href="../../db/dae/npcs__special_8cpp.html#ae5e5e621d0f9d0d5d49c575c4ee9e1cda48be430269d4b81aa898b2609dcf4e65">ITEM_VENOMHIDE_BABY_TOOTH</a>) &gt;= 16)</div>
+<div class="line"><span class="lineno"> 2537</span>            {</div>
+<div class="line"><span class="lineno"> 2538</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a294f22689bb98a36b2b8da1c33dd87f9">SetDisplayId</a>(<a class="code hl_enumvalue" href="../../db/dae/npcs__special_8cpp.html#ae5e5e621d0f9d0d5d49c575c4ee9e1cdab50612c7a2bded037015fa8a7993253d">MODEL_FULL_RAPTOR</a>);</div>
+<div class="line"><span class="lineno"> 2539</span>            }</div>
+<div class="line"><span class="lineno"> 2540</span>        }</div>
+<div class="ttc" id="a_object_guid_8h_html_a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c"><div class="ttname"><a href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a></div><div class="ttdeci">@ TYPEID_PLAYER</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:38</div></div>
+<div class="ttc" id="aclass_creature_html_a294f22689bb98a36b2b8da1c33dd87f9"><div class="ttname"><a href="../../d1/dac/class_creature.html#a294f22689bb98a36b2b8da1c33dd87f9">Creature::SetDisplayId</a></div><div class="ttdeci">void SetDisplayId(uint32 modelId) override</div><div class="ttdef"><b>Definition:</b> Creature.cpp:3372</div></div>
+<div class="ttc" id="aclass_object_html_a328d5f752cc33ed398b3d9861ef6929d"><div class="ttname"><a href="../../d8/d83/class_object.html#a328d5f752cc33ed398b3d9861ef6929d">Object::ToPlayer</a></div><div class="ttdeci">Player * ToPlayer()</div><div class="ttdef"><b>Definition:</b> Object.h:195</div></div>
+<div class="ttc" id="aclass_object_html_a621a345fc34deed6d3a4e1e498a652da"><div class="ttname"><a href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">Object::GetTypeId</a></div><div class="ttdeci">TypeID GetTypeId() const</div><div class="ttdef"><b>Definition:</b> Object.h:121</div></div>
+<div class="ttc" id="aclass_player_html_a5aa219a691b0c5212fda9de12dfd72e9"><div class="ttname"><a href="../../d8/d53/class_player.html#a5aa219a691b0c5212fda9de12dfd72e9">Player::GetItemCount</a></div><div class="ttdeci">uint32 GetItemCount(uint32 item, bool inBankAlso=false, Item *skipItem=nullptr) const</div><div class="ttdef"><b>Definition:</b> PlayerStorage.cpp:358</div></div>
+<div class="ttc" id="anpcs__special_8cpp_html_ae5e5e621d0f9d0d5d49c575c4ee9e1cda48be430269d4b81aa898b2609dcf4e65"><div class="ttname"><a href="../../db/dae/npcs__special_8cpp.html#ae5e5e621d0f9d0d5d49c575c4ee9e1cda48be430269d4b81aa898b2609dcf4e65">ITEM_VENOMHIDE_BABY_TOOTH</a></div><div class="ttdeci">@ ITEM_VENOMHIDE_BABY_TOOTH</div><div class="ttdef"><b>Definition:</b> npcs_special.cpp:2492</div></div>
+<div class="ttc" id="anpcs__special_8cpp_html_ae5e5e621d0f9d0d5d49c575c4ee9e1cda561ec693739cd4d708d30cbb62c2e47a"><div class="ttname"><a href="../../db/dae/npcs__special_8cpp.html#ae5e5e621d0f9d0d5d49c575c4ee9e1cda561ec693739cd4d708d30cbb62c2e47a">MODEL_BABY_RAPTOR_REPTILE_EYES</a></div><div class="ttdeci">@ MODEL_BABY_RAPTOR_REPTILE_EYES</div><div class="ttdef"><b>Definition:</b> npcs_special.cpp:2495</div></div>
+<div class="ttc" id="anpcs__special_8cpp_html_ae5e5e621d0f9d0d5d49c575c4ee9e1cda65ecf5f641cdd72203a5581779276efd"><div class="ttname"><a href="../../db/dae/npcs__special_8cpp.html#ae5e5e621d0f9d0d5d49c575c4ee9e1cda65ecf5f641cdd72203a5581779276efd">MODEL_ADOLESCENT_RAPTOR</a></div><div class="ttdeci">@ MODEL_ADOLESCENT_RAPTOR</div><div class="ttdef"><b>Definition:</b> npcs_special.cpp:2496</div></div>
+<div class="ttc" id="anpcs__special_8cpp_html_ae5e5e621d0f9d0d5d49c575c4ee9e1cdab50612c7a2bded037015fa8a7993253d"><div class="ttname"><a href="../../db/dae/npcs__special_8cpp.html#ae5e5e621d0f9d0d5d49c575c4ee9e1cdab50612c7a2bded037015fa8a7993253d">MODEL_FULL_RAPTOR</a></div><div class="ttdeci">@ MODEL_FULL_RAPTOR</div><div class="ttdef"><b>Definition:</b> npcs_special.cpp:2497</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac6c255438dc2f6c750ee47b61fbc20a3" name="ac6c255438dc2f6c750ee47b61fbc20a3"></a>
@@ -572,11 +604,22 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a7c4ff5a7547e75576c127ba4a514e548">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 2543</span>        {</div>
+<div class="line"><span class="lineno"> 2544</span>            <span class="keywordflow">if</span> (spell-&gt;Id == <a class="code hl_enumvalue" href="../../db/dae/npcs__special_8cpp.html#a1896308cb3a61422f078cf36a4cdfb11a57f5b5899e1415f29ab85aabb791f7ca">SPELL_SILITHID_EGG</a> || spell-&gt;Id == <a class="code hl_enumvalue" href="../../db/dae/npcs__special_8cpp.html#a1896308cb3a61422f078cf36a4cdfb11ab51fc07aebf70478f57299a1eac9bb8f">SPELL_SILITHID_MEAT</a> || spell-&gt;Id == <a class="code hl_enumvalue" href="../../db/dae/npcs__special_8cpp.html#a1896308cb3a61422f078cf36a4cdfb11a3da1e1309814dd148a6b7d1aa4cb0326">SPELL_FRESH_DINOSAUR_MEAT</a>)</div>
+<div class="line"><span class="lineno"> 2545</span>            {</div>
+<div class="line"><span class="lineno"> 2546</span>                <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../db/dae/npcs__special_8cpp.html#af73994a8a9c9864b72a4afe05d232f9ca731f1c8fa206bd1f031344f9604eee1e">TALK_EMOTE_EAT</a>);</div>
+<div class="line"><span class="lineno"> 2547</span>            }</div>
+<div class="line"><span class="lineno"> 2548</span>        }</div>
+<div class="ttc" id="aboss__fathomlord__karathress_8cpp_html_a747a224b6b3195f9a33c56ddc6c7e268"><div class="ttname"><a href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a></div><div class="ttdeci">Talk</div><div class="ttdef"><b>Definition:</b> boss_fathomlord_karathress.cpp:23</div></div>
+<div class="ttc" id="anpcs__special_8cpp_html_a1896308cb3a61422f078cf36a4cdfb11a3da1e1309814dd148a6b7d1aa4cb0326"><div class="ttname"><a href="../../db/dae/npcs__special_8cpp.html#a1896308cb3a61422f078cf36a4cdfb11a3da1e1309814dd148a6b7d1aa4cb0326">SPELL_FRESH_DINOSAUR_MEAT</a></div><div class="ttdeci">@ SPELL_FRESH_DINOSAUR_MEAT</div><div class="ttdef"><b>Definition:</b> npcs_special.cpp:2509</div></div>
+<div class="ttc" id="anpcs__special_8cpp_html_a1896308cb3a61422f078cf36a4cdfb11a57f5b5899e1415f29ab85aabb791f7ca"><div class="ttname"><a href="../../db/dae/npcs__special_8cpp.html#a1896308cb3a61422f078cf36a4cdfb11a57f5b5899e1415f29ab85aabb791f7ca">SPELL_SILITHID_EGG</a></div><div class="ttdeci">@ SPELL_SILITHID_EGG</div><div class="ttdef"><b>Definition:</b> npcs_special.cpp:2508</div></div>
+<div class="ttc" id="anpcs__special_8cpp_html_a1896308cb3a61422f078cf36a4cdfb11ab51fc07aebf70478f57299a1eac9bb8f"><div class="ttname"><a href="../../db/dae/npcs__special_8cpp.html#a1896308cb3a61422f078cf36a4cdfb11ab51fc07aebf70478f57299a1eac9bb8f">SPELL_SILITHID_MEAT</a></div><div class="ttdeci">@ SPELL_SILITHID_MEAT</div><div class="ttdef"><b>Definition:</b> npcs_special.cpp:2507</div></div>
+<div class="ttc" id="anpcs__special_8cpp_html_af73994a8a9c9864b72a4afe05d232f9ca731f1c8fa206bd1f031344f9604eee1e"><div class="ttname"><a href="../../db/dae/npcs__special_8cpp.html#af73994a8a9c9864b72a4afe05d232f9ca731f1c8fa206bd1f031344f9604eee1e">TALK_EMOTE_EAT</a></div><div class="ttdeci">@ TALK_EMOTE_EAT</div><div class="ttdef"><b>Definition:</b> npcs_special.cpp:2502</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/World/<a class="el" href="../../db/dae/npcs__special_8cpp.html">npcs_special.cpp</a></li>
+<li><a class="el" href="../../">npcs_special.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -584,7 +627,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../df/ded/classnpc__venomhide__hatchling.html">npc_venomhide_hatchling</a></li><li class="navelem"><a class="el" href="../../d2/d24/structnpc__venomhide__hatchling_1_1npc__venomhide__hatchling_a_i.html">npc_venomhide_hatchlingAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:56 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:11 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

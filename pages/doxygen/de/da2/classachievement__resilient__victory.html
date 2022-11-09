@@ -154,7 +154,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a80c704c939f54eee6655d68509598c42 inherit pro_methods_class_script_object"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d5d/class_script_object.html#a80c704c939f54eee6655d68509598c42">~ScriptObject</a> ()=default</td></tr>
 <tr class="separator:a80c704c939f54eee6655d68509598c42 inherit pro_methods_class_script_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a6224c8a4b1b1ee7c1ab09d8873e86aa8" name="a6224c8a4b1b1ee7c1ab09d8873e86aa8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6224c8a4b1b1ee7c1ab09d8873e86aa8">&#9670;&#160;</a></span>achievement_resilient_victory()</h2>
 
@@ -177,7 +178,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   31</span>: <a class="code hl_class" href="../../d6/d44/class_achievement_criteria_script.html">AchievementCriteriaScript</a>(<span class="stringliteral">&quot;achievement_resilient_victory&quot;</span>) { }</div>
+<div class="ttc" id="aclass_achievement_criteria_script_html"><div class="ttname"><a href="../../d6/d44/class_achievement_criteria_script.html">AchievementCriteriaScript</a></div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:975</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -222,11 +225,22 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d6/d44/class_achievement_criteria_script.html#a9fab6f158219db6d5a65b0b302cf285e">AchievementCriteriaScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   34</span>    {</div>
+<div class="line"><span class="lineno">   35</span>        <a class="code hl_class" href="../../d6/ddc/class_battleground.html">Battleground</a>* bg = source-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a5f17db78f9356bf239b7631ebc38fa2d">GetBattleground</a>();</div>
+<div class="line"><span class="lineno">   36</span>        <span class="keywordflow">return</span> bg &amp;&amp; bg-&gt;<a class="code hl_function" href="../../d6/ddc/class_battleground.html#adfd6af85ad435ecdab7129e810ba2319">GetBgTypeID</a>(<span class="keyword">true</span>) == <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#aaef9ddb244c12d22800aee24c3b637a2acfb3cfbf4efce33f7dfe06964c79188d">BATTLEGROUND_AB</a> &amp;&amp; bg-&gt;<a class="code hl_function" href="../../d6/ddc/class_battleground.html#aca558e3f560315e49a68fb76c7d9a51c">ToBattlegroundAB</a>()-&gt;<a class="code hl_function" href="../../d3/db3/class_battleground_a_b.html#a82678df6d68f7d5d762cbca8ab215f13">IsTeamScores500Disadvantage</a>(source-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a4874f5c152e187c381c2a349f16aa0d4">GetTeamId</a>());</div>
+<div class="line"><span class="lineno">   37</span>    }</div>
+<div class="ttc" id="a_shared_defines_8h_html_aaef9ddb244c12d22800aee24c3b637a2acfb3cfbf4efce33f7dfe06964c79188d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#aaef9ddb244c12d22800aee24c3b637a2acfb3cfbf4efce33f7dfe06964c79188d">BATTLEGROUND_AB</a></div><div class="ttdeci">@ BATTLEGROUND_AB</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3455</div></div>
+<div class="ttc" id="aclass_battleground_a_b_html_a82678df6d68f7d5d762cbca8ab215f13"><div class="ttname"><a href="../../d3/db3/class_battleground_a_b.html#a82678df6d68f7d5d762cbca8ab215f13">BattlegroundAB::IsTeamScores500Disadvantage</a></div><div class="ttdeci">bool IsTeamScores500Disadvantage(TeamId teamId) const</div><div class="ttdef"><b>Definition:</b> BattlegroundAB.h:311</div></div>
+<div class="ttc" id="aclass_battleground_html"><div class="ttname"><a href="../../d6/ddc/class_battleground.html">Battleground</a></div><div class="ttdef"><b>Definition:</b> Battleground.h:293</div></div>
+<div class="ttc" id="aclass_battleground_html_aca558e3f560315e49a68fb76c7d9a51c"><div class="ttname"><a href="../../d6/ddc/class_battleground.html#aca558e3f560315e49a68fb76c7d9a51c">Battleground::ToBattlegroundAB</a></div><div class="ttdeci">BattlegroundAB * ToBattlegroundAB()</div><div class="ttdef"><b>Definition:</b> Battleground.h:572</div></div>
+<div class="ttc" id="aclass_battleground_html_adfd6af85ad435ecdab7129e810ba2319"><div class="ttname"><a href="../../d6/ddc/class_battleground.html#adfd6af85ad435ecdab7129e810ba2319">Battleground::GetBgTypeID</a></div><div class="ttdeci">BattlegroundTypeId GetBgTypeID(bool GetRandom=false) const</div><div class="ttdef"><b>Definition:</b> Battleground.h:319</div></div>
+<div class="ttc" id="aclass_player_html_a4874f5c152e187c381c2a349f16aa0d4"><div class="ttname"><a href="../../d8/d53/class_player.html#a4874f5c152e187c381c2a349f16aa0d4">Player::GetTeamId</a></div><div class="ttdeci">TeamId GetTeamId(bool original=false) const</div><div class="ttdef"><b>Definition:</b> Player.h:2058</div></div>
+<div class="ttc" id="aclass_player_html_a5f17db78f9356bf239b7631ebc38fa2d"><div class="ttname"><a href="../../d8/d53/class_player.html#a5f17db78f9356bf239b7631ebc38fa2d">Player::GetBattleground</a></div><div class="ttdeci">Battleground * GetBattleground(bool create=false) const</div><div class="ttdef"><b>Definition:</b> Player.cpp:11913</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/World/<a class="el" href="../../d2/d2e/achievement__scripts_8cpp.html">achievement_scripts.cpp</a></li>
+<li><a class="el" href="../../">achievement_scripts.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -234,7 +248,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../de/da2/classachievement__resilient__victory.html">achievement_resilient_victory</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:36 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:48 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

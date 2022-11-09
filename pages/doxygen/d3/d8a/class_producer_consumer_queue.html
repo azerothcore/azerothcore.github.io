@@ -114,7 +114,7 @@ $(document).ready(function(){initNavTree('d3/d8a/class_producer_consumer_queue.h
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../da/d4b/_p_c_queue_8h_source.html">PCQueue.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">PCQueue.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -153,7 +153,9 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a994ad012dfe4e9cd4d76d8eb9270f0d2"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d8a/class_producer_consumer_queue.html#a994ad012dfe4e9cd4d76d8eb9270f0d2">_shutdown</a></td></tr>
 <tr class="separator:a994ad012dfe4e9cd4d76d8eb9270f0d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;typename T&gt;<br />
+class ProducerConsumerQueue&lt; T &gt;</div></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ac0b490656bbc14e5f3ed827e878da3c6" name="ac0b490656bbc14e5f3ed827e878da3c6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac0b490656bbc14e5f3ed827e878da3c6">&#9670;&#160;</a></span>ProducerConsumerQueue()</h2>
 
@@ -178,7 +180,9 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   37</span>: <a class="code hl_variable" href="../../d3/d8a/class_producer_consumer_queue.html#a994ad012dfe4e9cd4d76d8eb9270f0d2">_shutdown</a>(<span class="keyword">false</span>) { }</div>
+<div class="ttc" id="aclass_producer_consumer_queue_html_a994ad012dfe4e9cd4d76d8eb9270f0d2"><div class="ttname"><a href="../../d3/d8a/class_producer_consumer_queue.html#a994ad012dfe4e9cd4d76d8eb9270f0d2">ProducerConsumerQueue::_shutdown</a></div><div class="ttdeci">std::atomic&lt; bool &gt; _shutdown</div><div class="ttdef"><b>Definition:</b> PCQueue.h:34</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -206,7 +210,27 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   97</span>    {</div>
+<div class="line"><span class="lineno">   98</span>        std::unique_lock&lt;std::mutex&gt; lock(<a class="code hl_variable" href="../../d3/d8a/class_producer_consumer_queue.html#a18c7223e356b338f9ddbc17eadc6a21e">_queueLock</a>);</div>
+<div class="line"><span class="lineno">   99</span> </div>
+<div class="line"><span class="lineno">  100</span>        <span class="keywordflow">while</span> (!<a class="code hl_variable" href="../../d3/d8a/class_producer_consumer_queue.html#a5fc3a20c094041e2da999c4b37d735f0">_queue</a>.empty())</div>
+<div class="line"><span class="lineno">  101</span>        {</div>
+<div class="line"><span class="lineno">  102</span>            T&amp; value = <a class="code hl_variable" href="../../d3/d8a/class_producer_consumer_queue.html#a5fc3a20c094041e2da999c4b37d735f0">_queue</a>.front();</div>
+<div class="line"><span class="lineno">  103</span> </div>
+<div class="line"><span class="lineno">  104</span>            <a class="code hl_function" href="../../d3/d8a/class_producer_consumer_queue.html#af375e232b14a288b4e514f4e1e726f06">DeleteQueuedObject</a>(value);</div>
+<div class="line"><span class="lineno">  105</span> </div>
+<div class="line"><span class="lineno">  106</span>            <a class="code hl_variable" href="../../d3/d8a/class_producer_consumer_queue.html#a5fc3a20c094041e2da999c4b37d735f0">_queue</a>.pop();</div>
+<div class="line"><span class="lineno">  107</span>        }</div>
+<div class="line"><span class="lineno">  108</span> </div>
+<div class="line"><span class="lineno">  109</span>        <a class="code hl_variable" href="../../d3/d8a/class_producer_consumer_queue.html#a994ad012dfe4e9cd4d76d8eb9270f0d2">_shutdown</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  110</span> </div>
+<div class="line"><span class="lineno">  111</span>        <a class="code hl_variable" href="../../d3/d8a/class_producer_consumer_queue.html#ace83931f4236e97f32c58067b05d35e9">_condition</a>.notify_all();</div>
+<div class="line"><span class="lineno">  112</span>    }</div>
+<div class="ttc" id="aclass_producer_consumer_queue_html_a18c7223e356b338f9ddbc17eadc6a21e"><div class="ttname"><a href="../../d3/d8a/class_producer_consumer_queue.html#a18c7223e356b338f9ddbc17eadc6a21e">ProducerConsumerQueue::_queueLock</a></div><div class="ttdeci">std::mutex _queueLock</div><div class="ttdef"><b>Definition:</b> PCQueue.h:31</div></div>
+<div class="ttc" id="aclass_producer_consumer_queue_html_a5fc3a20c094041e2da999c4b37d735f0"><div class="ttname"><a href="../../d3/d8a/class_producer_consumer_queue.html#a5fc3a20c094041e2da999c4b37d735f0">ProducerConsumerQueue::_queue</a></div><div class="ttdeci">std::queue&lt; T &gt; _queue</div><div class="ttdef"><b>Definition:</b> PCQueue.h:32</div></div>
+<div class="ttc" id="aclass_producer_consumer_queue_html_ace83931f4236e97f32c58067b05d35e9"><div class="ttname"><a href="../../d3/d8a/class_producer_consumer_queue.html#ace83931f4236e97f32c58067b05d35e9">ProducerConsumerQueue::_condition</a></div><div class="ttdeci">std::condition_variable _condition</div><div class="ttdef"><b>Definition:</b> PCQueue.h:33</div></div>
+<div class="ttc" id="aclass_producer_consumer_queue_html_af375e232b14a288b4e514f4e1e726f06"><div class="ttname"><a href="../../d3/d8a/class_producer_consumer_queue.html#af375e232b14a288b4e514f4e1e726f06">ProducerConsumerQueue::DeleteQueuedObject</a></div><div class="ttdeci">std::enable_if&lt; std::is_pointer&lt; E &gt;::value &gt;::type DeleteQueuedObject(E &amp;obj)</div><div class="ttdef"><b>Definition:</b> PCQueue.h:116</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="af375e232b14a288b4e514f4e1e726f06" name="af375e232b14a288b4e514f4e1e726f06"></a>
@@ -236,7 +260,8 @@ template&lt;typename E  = T&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  116</span>{ <span class="keyword">delete</span> obj; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a10e893856377f7f7a4be62c224a2aef3" name="a10e893856377f7f7a4be62c224a2aef3"></a>
@@ -266,7 +291,8 @@ template&lt;typename E  = T&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  119</span>{ }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a3f48e829d818260f29979a37aaa02f93" name="a3f48e829d818260f29979a37aaa02f93"></a>
@@ -293,7 +319,12 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   48</span>    {</div>
+<div class="line"><span class="lineno">   49</span>        std::lock_guard&lt;std::mutex&gt; lock(<a class="code hl_variable" href="../../d3/d8a/class_producer_consumer_queue.html#a18c7223e356b338f9ddbc17eadc6a21e">_queueLock</a>);</div>
+<div class="line"><span class="lineno">   50</span> </div>
+<div class="line"><span class="lineno">   51</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d3/d8a/class_producer_consumer_queue.html#a5fc3a20c094041e2da999c4b37d735f0">_queue</a>.empty();</div>
+<div class="line"><span class="lineno">   52</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="afe8119f67dd7d95bbcd749d7ac9404d4" name="afe8119f67dd7d95bbcd749d7ac9404d4"></a>
@@ -321,7 +352,21 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   60</span>    {</div>
+<div class="line"><span class="lineno">   61</span>        std::lock_guard&lt;std::mutex&gt; lock(<a class="code hl_variable" href="../../d3/d8a/class_producer_consumer_queue.html#a18c7223e356b338f9ddbc17eadc6a21e">_queueLock</a>);</div>
+<div class="line"><span class="lineno">   62</span> </div>
+<div class="line"><span class="lineno">   63</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d3/d8a/class_producer_consumer_queue.html#a5fc3a20c094041e2da999c4b37d735f0">_queue</a>.empty() || <a class="code hl_variable" href="../../d3/d8a/class_producer_consumer_queue.html#a994ad012dfe4e9cd4d76d8eb9270f0d2">_shutdown</a>)</div>
+<div class="line"><span class="lineno">   64</span>        {</div>
+<div class="line"><span class="lineno">   65</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   66</span>        }</div>
+<div class="line"><span class="lineno">   67</span> </div>
+<div class="line"><span class="lineno">   68</span>        value = <a class="code hl_variable" href="../../d3/d8a/class_producer_consumer_queue.html#a5fc3a20c094041e2da999c4b37d735f0">_queue</a>.front();</div>
+<div class="line"><span class="lineno">   69</span> </div>
+<div class="line"><span class="lineno">   70</span>        <a class="code hl_variable" href="../../d3/d8a/class_producer_consumer_queue.html#a5fc3a20c094041e2da999c4b37d735f0">_queue</a>.pop();</div>
+<div class="line"><span class="lineno">   71</span> </div>
+<div class="line"><span class="lineno">   72</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   73</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="abd3bd3c88fbd7d8edb721fc5f89da5ed" name="abd3bd3c88fbd7d8edb721fc5f89da5ed"></a>
@@ -349,7 +394,13 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   40</span>    {</div>
+<div class="line"><span class="lineno">   41</span>        std::lock_guard&lt;std::mutex&gt; lock(<a class="code hl_variable" href="../../d3/d8a/class_producer_consumer_queue.html#a18c7223e356b338f9ddbc17eadc6a21e">_queueLock</a>);</div>
+<div class="line"><span class="lineno">   42</span>        <a class="code hl_variable" href="../../d3/d8a/class_producer_consumer_queue.html#a5fc3a20c094041e2da999c4b37d735f0">_queue</a>.push(std::move(value));</div>
+<div class="line"><span class="lineno">   43</span> </div>
+<div class="line"><span class="lineno">   44</span>        <a class="code hl_variable" href="../../d3/d8a/class_producer_consumer_queue.html#ace83931f4236e97f32c58067b05d35e9">_condition</a>.notify_one();</div>
+<div class="line"><span class="lineno">   45</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a649c5743d89cdea915ab1c389040b103" name="a649c5743d89cdea915ab1c389040b103"></a>
@@ -376,7 +427,10 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   55</span>    {</div>
+<div class="line"><span class="lineno">   56</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d3/d8a/class_producer_consumer_queue.html#a5fc3a20c094041e2da999c4b37d735f0">_queue</a>.size();</div>
+<div class="line"><span class="lineno">   57</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a172ef4211bcb237478ec57531c8dcc4d" name="a172ef4211bcb237478ec57531c8dcc4d"></a>
@@ -404,7 +458,26 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   76</span>    {</div>
+<div class="line"><span class="lineno">   77</span>        std::unique_lock&lt;std::mutex&gt; lock(<a class="code hl_variable" href="../../d3/d8a/class_producer_consumer_queue.html#a18c7223e356b338f9ddbc17eadc6a21e">_queueLock</a>);</div>
+<div class="line"><span class="lineno">   78</span> </div>
+<div class="line"><span class="lineno">   79</span>        <span class="comment">// we could be using .wait(lock, predicate) overload here but it is broken</span></div>
+<div class="line"><span class="lineno">   80</span>        <span class="comment">// https://connect.microsoft.com/VisualStudio/feedback/details/1098841</span></div>
+<div class="line"><span class="lineno">   81</span>        <span class="keywordflow">while</span> (<a class="code hl_variable" href="../../d3/d8a/class_producer_consumer_queue.html#a5fc3a20c094041e2da999c4b37d735f0">_queue</a>.empty() &amp;&amp; !<a class="code hl_variable" href="../../d3/d8a/class_producer_consumer_queue.html#a994ad012dfe4e9cd4d76d8eb9270f0d2">_shutdown</a>)</div>
+<div class="line"><span class="lineno">   82</span>        {</div>
+<div class="line"><span class="lineno">   83</span>            <a class="code hl_variable" href="../../d3/d8a/class_producer_consumer_queue.html#ace83931f4236e97f32c58067b05d35e9">_condition</a>.wait(lock);</div>
+<div class="line"><span class="lineno">   84</span>        }</div>
+<div class="line"><span class="lineno">   85</span> </div>
+<div class="line"><span class="lineno">   86</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d3/d8a/class_producer_consumer_queue.html#a5fc3a20c094041e2da999c4b37d735f0">_queue</a>.empty() || <a class="code hl_variable" href="../../d3/d8a/class_producer_consumer_queue.html#a994ad012dfe4e9cd4d76d8eb9270f0d2">_shutdown</a>)</div>
+<div class="line"><span class="lineno">   87</span>        {</div>
+<div class="line"><span class="lineno">   88</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   89</span>        }</div>
+<div class="line"><span class="lineno">   90</span> </div>
+<div class="line"><span class="lineno">   91</span>        value = <a class="code hl_variable" href="../../d3/d8a/class_producer_consumer_queue.html#a5fc3a20c094041e2da999c4b37d735f0">_queue</a>.front();</div>
+<div class="line"><span class="lineno">   92</span> </div>
+<div class="line"><span class="lineno">   93</span>        <a class="code hl_variable" href="../../d3/d8a/class_producer_consumer_queue.html#a5fc3a20c094041e2da999c4b37d735f0">_queue</a>.pop();</div>
+<div class="line"><span class="lineno">   94</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -505,7 +578,7 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/common/Threading/<a class="el" href="../../da/d4b/_p_c_queue_8h_source.html">PCQueue.h</a></li>
+<li><a class="el" href="../../">PCQueue.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -513,7 +586,7 @@ template&lt;typename T &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d3/d8a/class_producer_consumer_queue.html">ProducerConsumerQueue</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:57 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:14 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -507,7 +507,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a51ab68feb3dde3fb23c708afcdcdbd34" name="a51ab68feb3dde3fb23c708afcdcdbd34"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a51ab68feb3dde3fb23c708afcdcdbd34">&#9670;&#160;</a></span>npc_coren_direbrew()</h2>
 
@@ -531,7 +532,11 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1522</span>: <a class="code hl_struct" href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a>(creature), <a class="code hl_variable" href="../../d1/dc7/structnpc__coren__direbrew.html#a261d4c4dea56748e66752cb11588086a">_summons</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>) {}</div>
+<div class="ttc" id="astruct_scripted_a_i_html"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+<div class="ttc" id="astructnpc__coren__direbrew_html_a261d4c4dea56748e66752cb11588086a"><div class="ttname"><a href="../../d1/dc7/structnpc__coren__direbrew.html#a261d4c4dea56748e66752cb11588086a">npc_coren_direbrew::_summons</a></div><div class="ttdeci">SummonList _summons</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1727</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -560,7 +565,20 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d2/d68/class_creature_a_i.html#a7f2469dbb7ee382f35c2a69c70519644">CreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1543</span>    {</div>
+<div class="line"><span class="lineno"> 1544</span>        <span class="keywordflow">if</span> (player-&gt;IsGameMaster())</div>
+<div class="line"><span class="lineno"> 1545</span>        {</div>
+<div class="line"><span class="lineno"> 1546</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 1547</span>        }</div>
+<div class="line"><span class="lineno"> 1548</span> </div>
+<div class="line"><span class="lineno"> 1549</span>        <a class="code hl_class" href="../../da/d50/class_group.html">Group</a> <span class="keyword">const</span>* group = player-&gt;GetGroup();</div>
+<div class="line"><span class="lineno"> 1550</span>        <span class="keywordflow">return</span> group &amp;&amp; <a class="code hl_define" href="../../df/dfb/_l_f_g_mgr_8h.html#a9876016115774ddaf27fca5cc9adb96e">sLFGMgr</a>-&gt;GetDungeon(group-&gt;<a class="code hl_function" href="../../da/d50/class_group.html#a68c38a89619391cc85eeac2bf2b96ac4">GetGUID</a>()) == <a class="code hl_enumvalue" href="../../de/d72/namespacelfg.html#a7a9bf5071b96b3fc85b1c3c7a4d6a06da94d2d4aff127ae9692ba0f7688bc8243">lfg::LFG_DUNGEON_COREN_DIREBREW</a>;</div>
+<div class="line"><span class="lineno"> 1551</span>    }</div>
+<div class="ttc" id="a_l_f_g_mgr_8h_html_a9876016115774ddaf27fca5cc9adb96e"><div class="ttname"><a href="../../df/dfb/_l_f_g_mgr_8h.html#a9876016115774ddaf27fca5cc9adb96e">sLFGMgr</a></div><div class="ttdeci">#define sLFGMgr</div><div class="ttdef"><b>Definition:</b> LFGMgr.h:638</div></div>
+<div class="ttc" id="aclass_group_html"><div class="ttname"><a href="../../da/d50/class_group.html">Group</a></div><div class="ttdef"><b>Definition:</b> Group.h:168</div></div>
+<div class="ttc" id="aclass_group_html_a68c38a89619391cc85eeac2bf2b96ac4"><div class="ttname"><a href="../../da/d50/class_group.html#a68c38a89619391cc85eeac2bf2b96ac4">Group::GetGUID</a></div><div class="ttdeci">ObjectGuid GetGUID() const</div><div class="ttdef"><b>Definition:</b> Group.cpp:2241</div></div>
+<div class="ttc" id="anamespacelfg_html_a7a9bf5071b96b3fc85b1c3c7a4d6a06da94d2d4aff127ae9692ba0f7688bc8243"><div class="ttname"><a href="../../de/d72/namespacelfg.html#a7a9bf5071b96b3fc85b1c3c7a4d6a06da94d2d4aff127ae9692ba0f7688bc8243">lfg::LFG_DUNGEON_COREN_DIREBREW</a></div><div class="ttdeci">@ LFG_DUNGEON_COREN_DIREBREW</div><div class="ttdef"><b>Definition:</b> LFGMgr.h:150</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a782a08ed525eab8a9e9044dc1d5814b3" name="a782a08ed525eab8a9e9044dc1d5814b3"></a>
@@ -610,7 +628,29 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a0d572a234f887646543620c847bd61cd">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1609</span>    {</div>
+<div class="line"><span class="lineno"> 1610</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ad08665e79b8df4fd5339b05ae1538dd9">HealthBelowPctDamaged</a>(66, damage) &amp;&amp; <a class="code hl_variable" href="../../d1/dc7/structnpc__coren__direbrew.html#a81ee26c215b7581a13faf56ee041b9fe">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a796d4bcda3aca28895ff4ba44b21226f">IsInPhase</a>(<a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#a83398fbaa7c84eaab41278d70b013d88a010c34255c53692507f4cf089853cd05">PHASE_ONE</a>))</div>
+<div class="line"><span class="lineno"> 1611</span>        {</div>
+<div class="line"><span class="lineno"> 1612</span>            <a class="code hl_variable" href="../../d1/dc7/structnpc__coren__direbrew.html#a81ee26c215b7581a13faf56ee041b9fe">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#ad578a9dc7ca02dafe4b53bcedb83ac23">SetPhase</a>(<a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#a83398fbaa7c84eaab41278d70b013d88ad306b605b01d26aee45d81b8a241cb65">PHASE_TWO</a>);</div>
+<div class="line"><span class="lineno"> 1613</span>            <a class="code hl_function" href="../../d1/dc7/structnpc__coren__direbrew.html#a358fe5922a85ea3eee6abe9451869b66">SummonSister</a>(<a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#ac0f691e5e38d07f709b42c1f70418f00abcd093fc25119756257f7f5b65900e3b">NPC_ILSA_DIREBREW</a>);</div>
+<div class="line"><span class="lineno"> 1614</span>        }</div>
+<div class="line"><span class="lineno"> 1615</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ad08665e79b8df4fd5339b05ae1538dd9">HealthBelowPctDamaged</a>(33, damage) &amp;&amp; <a class="code hl_variable" href="../../d1/dc7/structnpc__coren__direbrew.html#a81ee26c215b7581a13faf56ee041b9fe">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a796d4bcda3aca28895ff4ba44b21226f">IsInPhase</a>(<a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#a83398fbaa7c84eaab41278d70b013d88ad306b605b01d26aee45d81b8a241cb65">PHASE_TWO</a>))</div>
+<div class="line"><span class="lineno"> 1616</span>        {</div>
+<div class="line"><span class="lineno"> 1617</span>            <a class="code hl_variable" href="../../d1/dc7/structnpc__coren__direbrew.html#a81ee26c215b7581a13faf56ee041b9fe">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#ad578a9dc7ca02dafe4b53bcedb83ac23">SetPhase</a>(<a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#a83398fbaa7c84eaab41278d70b013d88ab240c367c5e45c91ba387ac010e238bf">PHASE_THREE</a>);</div>
+<div class="line"><span class="lineno"> 1618</span>            <a class="code hl_function" href="../../d1/dc7/structnpc__coren__direbrew.html#a358fe5922a85ea3eee6abe9451869b66">SummonSister</a>(<a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#ac0f691e5e38d07f709b42c1f70418f00a944f5d79c4cd160d36636a1e8c999a28">NPC_URSULA_DIREBREW</a>);</div>
+<div class="line"><span class="lineno"> 1619</span>        }</div>
+<div class="line"><span class="lineno"> 1620</span>    }</div>
+<div class="ttc" id="abrewfest_8cpp_html_a83398fbaa7c84eaab41278d70b013d88a010c34255c53692507f4cf089853cd05"><div class="ttname"><a href="../../dc/ddf/brewfest_8cpp.html#a83398fbaa7c84eaab41278d70b013d88a010c34255c53692507f4cf089853cd05">PHASE_ONE</a></div><div class="ttdeci">@ PHASE_ONE</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1485</div></div>
+<div class="ttc" id="abrewfest_8cpp_html_a83398fbaa7c84eaab41278d70b013d88ab240c367c5e45c91ba387ac010e238bf"><div class="ttname"><a href="../../dc/ddf/brewfest_8cpp.html#a83398fbaa7c84eaab41278d70b013d88ab240c367c5e45c91ba387ac010e238bf">PHASE_THREE</a></div><div class="ttdeci">@ PHASE_THREE</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1487</div></div>
+<div class="ttc" id="abrewfest_8cpp_html_a83398fbaa7c84eaab41278d70b013d88ad306b605b01d26aee45d81b8a241cb65"><div class="ttname"><a href="../../dc/ddf/brewfest_8cpp.html#a83398fbaa7c84eaab41278d70b013d88ad306b605b01d26aee45d81b8a241cb65">PHASE_TWO</a></div><div class="ttdeci">@ PHASE_TWO</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1486</div></div>
+<div class="ttc" id="abrewfest_8cpp_html_ac0f691e5e38d07f709b42c1f70418f00a944f5d79c4cd160d36636a1e8c999a28"><div class="ttname"><a href="../../dc/ddf/brewfest_8cpp.html#ac0f691e5e38d07f709b42c1f70418f00a944f5d79c4cd160d36636a1e8c999a28">NPC_URSULA_DIREBREW</a></div><div class="ttdeci">@ NPC_URSULA_DIREBREW</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1457</div></div>
+<div class="ttc" id="abrewfest_8cpp_html_ac0f691e5e38d07f709b42c1f70418f00abcd093fc25119756257f7f5b65900e3b"><div class="ttname"><a href="../../dc/ddf/brewfest_8cpp.html#ac0f691e5e38d07f709b42c1f70418f00abcd093fc25119756257f7f5b65900e3b">NPC_ILSA_DIREBREW</a></div><div class="ttdeci">@ NPC_ILSA_DIREBREW</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1456</div></div>
+<div class="ttc" id="aclass_event_map_html_a796d4bcda3aca28895ff4ba44b21226f"><div class="ttname"><a href="../../d8/d8f/class_event_map.html#a796d4bcda3aca28895ff4ba44b21226f">EventMap::IsInPhase</a></div><div class="ttdeci">bool IsInPhase(uint8 phase)</div><div class="ttdef"><b>Definition:</b> EventMap.cpp:253</div></div>
+<div class="ttc" id="aclass_event_map_html_ad578a9dc7ca02dafe4b53bcedb83ac23"><div class="ttname"><a href="../../d8/d8f/class_event_map.html#ad578a9dc7ca02dafe4b53bcedb83ac23">EventMap::SetPhase</a></div><div class="ttdeci">void SetPhase(uint8 phase)</div><div class="ttdef"><b>Definition:</b> EventMap.cpp:28</div></div>
+<div class="ttc" id="aclass_unit_html_ad08665e79b8df4fd5339b05ae1538dd9"><div class="ttname"><a href="../../da/db7/class_unit.html#ad08665e79b8df4fd5339b05ae1538dd9">Unit::HealthBelowPctDamaged</a></div><div class="ttdeci">bool HealthBelowPctDamaged(int32 pct, uint32 damage) const</div><div class="ttdef"><b>Definition:</b> Unit.h:1443</div></div>
+<div class="ttc" id="astructnpc__coren__direbrew_html_a358fe5922a85ea3eee6abe9451869b66"><div class="ttname"><a href="../../d1/dc7/structnpc__coren__direbrew.html#a358fe5922a85ea3eee6abe9451869b66">npc_coren_direbrew::SummonSister</a></div><div class="ttdeci">void SummonSister(uint32 entry)</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1652</div></div>
+<div class="ttc" id="astructnpc__coren__direbrew_html_a81ee26c215b7581a13faf56ee041b9fe"><div class="ttname"><a href="../../d1/dc7/structnpc__coren__direbrew.html#a81ee26c215b7581a13faf56ee041b9fe">npc_coren_direbrew::_events</a></div><div class="ttdeci">EventMap _events</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1726</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2d417a9310b5b75df09879678d967794" name="a2d417a9310b5b75df09879678d967794"></a>
@@ -638,7 +678,35 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d9c/class_unit_a_i.html#a165d336cb3423f9665ed612d2dec76ed">UnitAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1592</span>    {</div>
+<div class="line"><span class="lineno"> 1593</span>        <span class="keywordflow">if</span> (action == <a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#a14ebf7554847176e636b96243a89f663afd2662e5ad45793954d7eca931443e2a">ACTION_START_FIGHT</a>)</div>
+<div class="line"><span class="lineno"> 1594</span>        {</div>
+<div class="line"><span class="lineno"> 1595</span>            <a class="code hl_variable" href="../../d1/dc7/structnpc__coren__direbrew.html#a81ee26c215b7581a13faf56ee041b9fe">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#ad578a9dc7ca02dafe4b53bcedb83ac23">SetPhase</a>(<a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#a83398fbaa7c84eaab41278d70b013d88a010c34255c53692507f4cf089853cd05">PHASE_ONE</a>);</div>
+<div class="line"><span class="lineno"> 1596</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ae60ed2cee8b340a5efb62f2acd249284">SetImmuneToPC</a>(<span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno"> 1597</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a2579e2b71959daec99048b4bcf7f6bf3">SetFaction</a>(<a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#ac5c8e776fe109c83a63abe41eb5e80f2ac8a1f21b1a9c811285c80d4da4e9b115">FACTION_GOBLIN_DARK_IRON_BAR_PATRON</a>);</div>
+<div class="line"><span class="lineno"> 1598</span>            <a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#afdeeccb48c5f74120d0fffe2a631a88a">DoZoneInCombat</a>();</div>
+<div class="line"><span class="lineno"> 1599</span> </div>
+<div class="line"><span class="lineno"> 1600</span>            <a class="code hl_class" href="../../db/dbb/class_entry_check_predicate.html">EntryCheckPredicate</a> pred(<a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#ac0f691e5e38d07f709b42c1f70418f00a9c788bc64844a20b7ac96b8ad18ae556">NPC_ANTAGONIST</a>);</div>
+<div class="line"><span class="lineno"> 1601</span>            <a class="code hl_variable" href="../../d1/dc7/structnpc__coren__direbrew.html#a261d4c4dea56748e66752cb11588086a">_summons</a>.<a class="code hl_function" href="../../d8/d7a/class_summon_list.html#a92d001f7f8ec8b9c1ee3a95bf0d88ac4">DoAction</a>(<a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#a14ebf7554847176e636b96243a89f663a8ee82bf806ca0d2d14e8e91877942bc4">ACTION_ANTAGONIST_HOSTILE</a>, pred);</div>
+<div class="line"><span class="lineno"> 1602</span> </div>
+<div class="line"><span class="lineno"> 1603</span>            <a class="code hl_variable" href="../../d1/dc7/structnpc__coren__direbrew.html#a81ee26c215b7581a13faf56ee041b9fe">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a5e6081bda8828001c0ed8677b2aecd65">ScheduleEvent</a>(<a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#a98e46eba63ac814c8a4cda4543639a92a3269e8cecce222ec626b0dd9538e1ad3">EVENT_SUMMON_MOLE_MACHINE</a>, 15 * <a class="code hl_variable" href="../../db/d1f/_common_8h.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a>);</div>
+<div class="line"><span class="lineno"> 1604</span>            <a class="code hl_variable" href="../../d1/dc7/structnpc__coren__direbrew.html#a81ee26c215b7581a13faf56ee041b9fe">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a5e6081bda8828001c0ed8677b2aecd65">ScheduleEvent</a>(<a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#a98e46eba63ac814c8a4cda4543639a92af83258e7e8426f53cf743dbd27957aa5">EVENT_DIREBREW_DISARM</a>, 20 * <a class="code hl_variable" href="../../db/d1f/_common_8h.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a>);</div>
+<div class="line"><span class="lineno"> 1605</span>        }</div>
+<div class="line"><span class="lineno"> 1606</span>    }</div>
+<div class="ttc" id="a_common_8h_html_a84190f79c8167211609f67284e066c58"><div class="ttname"><a href="../../db/d1f/_common_8h.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a></div><div class="ttdeci">constexpr auto IN_MILLISECONDS</div><div class="ttdef"><b>Definition:</b> Common.h:62</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_ac5c8e776fe109c83a63abe41eb5e80f2ac8a1f21b1a9c811285c80d4da4e9b115"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#ac5c8e776fe109c83a63abe41eb5e80f2ac8a1f21b1a9c811285c80d4da4e9b115">FACTION_GOBLIN_DARK_IRON_BAR_PATRON</a></div><div class="ttdeci">@ FACTION_GOBLIN_DARK_IRON_BAR_PATRON</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:193</div></div>
+<div class="ttc" id="abrewfest_8cpp_html_a14ebf7554847176e636b96243a89f663a8ee82bf806ca0d2d14e8e91877942bc4"><div class="ttname"><a href="../../dc/ddf/brewfest_8cpp.html#a14ebf7554847176e636b96243a89f663a8ee82bf806ca0d2d14e8e91877942bc4">ACTION_ANTAGONIST_HOSTILE</a></div><div class="ttdeci">@ ACTION_ANTAGONIST_HOSTILE</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1451</div></div>
+<div class="ttc" id="abrewfest_8cpp_html_a14ebf7554847176e636b96243a89f663afd2662e5ad45793954d7eca931443e2a"><div class="ttname"><a href="../../dc/ddf/brewfest_8cpp.html#a14ebf7554847176e636b96243a89f663afd2662e5ad45793954d7eca931443e2a">ACTION_START_FIGHT</a></div><div class="ttdeci">@ ACTION_START_FIGHT</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1448</div></div>
+<div class="ttc" id="abrewfest_8cpp_html_a98e46eba63ac814c8a4cda4543639a92a3269e8cecce222ec626b0dd9538e1ad3"><div class="ttname"><a href="../../dc/ddf/brewfest_8cpp.html#a98e46eba63ac814c8a4cda4543639a92a3269e8cecce222ec626b0dd9538e1ad3">EVENT_SUMMON_MOLE_MACHINE</a></div><div class="ttdeci">@ EVENT_SUMMON_MOLE_MACHINE</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1496</div></div>
+<div class="ttc" id="abrewfest_8cpp_html_a98e46eba63ac814c8a4cda4543639a92af83258e7e8426f53cf743dbd27957aa5"><div class="ttname"><a href="../../dc/ddf/brewfest_8cpp.html#a98e46eba63ac814c8a4cda4543639a92af83258e7e8426f53cf743dbd27957aa5">EVENT_DIREBREW_DISARM</a></div><div class="ttdeci">@ EVENT_DIREBREW_DISARM</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1495</div></div>
+<div class="ttc" id="abrewfest_8cpp_html_ac0f691e5e38d07f709b42c1f70418f00a9c788bc64844a20b7ac96b8ad18ae556"><div class="ttname"><a href="../../dc/ddf/brewfest_8cpp.html#ac0f691e5e38d07f709b42c1f70418f00a9c788bc64844a20b7ac96b8ad18ae556">NPC_ANTAGONIST</a></div><div class="ttdeci">@ NPC_ANTAGONIST</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1458</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_afdeeccb48c5f74120d0fffe2a631a88a"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#afdeeccb48c5f74120d0fffe2a631a88a">CreatureAI::DoZoneInCombat</a></div><div class="ttdeci">void DoZoneInCombat(Creature *creature=nullptr, float maxRangeToNearestTarget=250.0f)</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:93</div></div>
+<div class="ttc" id="aclass_entry_check_predicate_html"><div class="ttname"><a href="../../db/dbb/class_entry_check_predicate.html">EntryCheckPredicate</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:154</div></div>
+<div class="ttc" id="aclass_event_map_html_a5e6081bda8828001c0ed8677b2aecd65"><div class="ttname"><a href="../../d8/d8f/class_event_map.html#a5e6081bda8828001c0ed8677b2aecd65">EventMap::ScheduleEvent</a></div><div class="ttdeci">void ScheduleEvent(uint32 eventId, uint32 time, uint32 group=0, uint32 phase=0)</div><div class="ttdef"><b>Definition:</b> EventMap.cpp:56</div></div>
+<div class="ttc" id="aclass_summon_list_html_a92d001f7f8ec8b9c1ee3a95bf0d88ac4"><div class="ttname"><a href="../../d8/d7a/class_summon_list.html#a92d001f7f8ec8b9c1ee3a95bf0d88ac4">SummonList::DoAction</a></div><div class="ttdeci">void DoAction(int32 info, uint16 max=0)</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:103</div></div>
+<div class="ttc" id="aclass_unit_html_a2579e2b71959daec99048b4bcf7f6bf3"><div class="ttname"><a href="../../da/db7/class_unit.html#a2579e2b71959daec99048b4bcf7f6bf3">Unit::SetFaction</a></div><div class="ttdeci">void SetFaction(uint32 faction)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:10017</div></div>
+<div class="ttc" id="aclass_unit_html_ae60ed2cee8b340a5efb62f2acd249284"><div class="ttname"><a href="../../da/db7/class_unit.html#ae60ed2cee8b340a5efb62f2acd249284">Unit::SetImmuneToPC</a></div><div class="ttdeci">void SetImmuneToPC(bool apply, bool keepCombat=false)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:13511</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a39913e601440fcd6ffbc77ad7c204ac8" name="a39913e601440fcd6ffbc77ad7c204ac8"></a>
@@ -666,7 +734,32 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a4cc209e047dcbd29cf57e689e3945ff7">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1635</span>    {</div>
+<div class="line"><span class="lineno"> 1636</span>        <a class="code hl_variable" href="../../d1/dc7/structnpc__coren__direbrew.html#a81ee26c215b7581a13faf56ee041b9fe">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#afd6b5b23aa26797b6de1275c70268808">Reset</a>();</div>
+<div class="line"><span class="lineno"> 1637</span>        <a class="code hl_variable" href="../../d1/dc7/structnpc__coren__direbrew.html#a261d4c4dea56748e66752cb11588086a">_summons</a>.<a class="code hl_function" href="../../d8/d7a/class_summon_list.html#a902c1d4535ccdb1b82801547a94151bb">DespawnAll</a>();</div>
+<div class="line"><span class="lineno"> 1638</span> </div>
+<div class="line"><span class="lineno"> 1639</span>        <a class="code hl_class" href="../../db/d87/class_map_ref_mgr.html">Map::PlayerList</a> <span class="keyword">const</span>&amp; players = <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a1013c27be4347a1b1a4a986a07456deb">GetMap</a>()-&gt;<a class="code hl_function" href="../../dd/d11/class_map.html#ae37764185b1adf2c6438025e4fa9091a">GetPlayers</a>();</div>
+<div class="line"><span class="lineno"> 1640</span>        <span class="keywordflow">if</span> (!players.<a class="code hl_function" href="../../db/d2f/class_linked_list_head.html#a5f450b83a615d010bedc7b0c6aa18d70">IsEmpty</a>())</div>
+<div class="line"><span class="lineno"> 1641</span>        {</div>
+<div class="line"><span class="lineno"> 1642</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/d50/class_group.html">Group</a>* group = players.<a class="code hl_function" href="../../db/d87/class_map_ref_mgr.html#a6774b551f0d64628e33594c7b486a872">begin</a>()-&gt;<a class="code hl_function" href="../../de/dd2/class_reference.html#a95ef762721fcc58e9655c57fab05899b">GetSource</a>()-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a99fc00f9ac903dbe9adcadc5f7415abb">GetGroup</a>())</div>
+<div class="line"><span class="lineno"> 1643</span>            {</div>
+<div class="line"><span class="lineno"> 1644</span>                <span class="keywordflow">if</span> (group-&gt;isLFGGroup())</div>
+<div class="line"><span class="lineno"> 1645</span>                {</div>
+<div class="line"><span class="lineno"> 1646</span>                    <a class="code hl_define" href="../../df/dfb/_l_f_g_mgr_8h.html#a9876016115774ddaf27fca5cc9adb96e">sLFGMgr</a>-&gt;FinishDungeon(group-&gt;GetGUID(), 287, <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a1013c27be4347a1b1a4a986a07456deb">GetMap</a>());</div>
+<div class="line"><span class="lineno"> 1647</span>                }</div>
+<div class="line"><span class="lineno"> 1648</span>            }</div>
+<div class="line"><span class="lineno"> 1649</span>        }</div>
+<div class="line"><span class="lineno"> 1650</span>    }</div>
+<div class="ttc" id="aclass_event_map_html_afd6b5b23aa26797b6de1275c70268808"><div class="ttname"><a href="../../d8/d8f/class_event_map.html#afd6b5b23aa26797b6de1275c70268808">EventMap::Reset</a></div><div class="ttdeci">void Reset()</div><div class="ttdef"><b>Definition:</b> EventMap.cpp:21</div></div>
+<div class="ttc" id="aclass_linked_list_head_html_a5f450b83a615d010bedc7b0c6aa18d70"><div class="ttname"><a href="../../db/d2f/class_linked_list_head.html#a5f450b83a615d010bedc7b0c6aa18d70">LinkedListHead::IsEmpty</a></div><div class="ttdeci">bool IsEmpty() const</div><div class="ttdef"><b>Definition:</b> LinkedList.h:97</div></div>
+<div class="ttc" id="aclass_map_html_ae37764185b1adf2c6438025e4fa9091a"><div class="ttname"><a href="../../dd/d11/class_map.html#ae37764185b1adf2c6438025e4fa9091a">Map::GetPlayers</a></div><div class="ttdeci">PlayerList const &amp; GetPlayers() const</div><div class="ttdef"><b>Definition:</b> Map.h:484</div></div>
+<div class="ttc" id="aclass_map_ref_mgr_html"><div class="ttname"><a href="../../db/d87/class_map_ref_mgr.html">MapRefMgr</a></div><div class="ttdef"><b>Definition:</b> MapRefMgr.h:26</div></div>
+<div class="ttc" id="aclass_map_ref_mgr_html_a6774b551f0d64628e33594c7b486a872"><div class="ttname"><a href="../../db/d87/class_map_ref_mgr.html#a6774b551f0d64628e33594c7b486a872">MapRefMgr::begin</a></div><div class="ttdeci">iterator begin()</div><div class="ttdef"><b>Definition:</b> MapRefMgr.h:36</div></div>
+<div class="ttc" id="aclass_player_html_a99fc00f9ac903dbe9adcadc5f7415abb"><div class="ttname"><a href="../../d8/d53/class_player.html#a99fc00f9ac903dbe9adcadc5f7415abb">Player::GetGroup</a></div><div class="ttdeci">Group * GetGroup()</div><div class="ttdef"><b>Definition:</b> Player.h:2417</div></div>
+<div class="ttc" id="aclass_reference_html_a95ef762721fcc58e9655c57fab05899b"><div class="ttname"><a href="../../de/dd2/class_reference.html#a95ef762721fcc58e9655c57fab05899b">Reference::GetSource</a></div><div class="ttdeci">FROM * GetSource() const</div><div class="ttdef"><b>Definition:</b> Reference.h:97</div></div>
+<div class="ttc" id="aclass_summon_list_html_a902c1d4535ccdb1b82801547a94151bb"><div class="ttname"><a href="../../d8/d7a/class_summon_list.html#a902c1d4535ccdb1b82801547a94151bb">SummonList::DespawnAll</a></div><div class="ttdeci">void DespawnAll(uint32 delay=0)</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.cpp:67</div></div>
+<div class="ttc" id="aclass_world_object_html_a1013c27be4347a1b1a4a986a07456deb"><div class="ttname"><a href="../../db/df7/class_world_object.html#a1013c27be4347a1b1a4a986a07456deb">WorldObject::GetMap</a></div><div class="ttdeci">Map * GetMap() const</div><div class="ttdef"><b>Definition:</b> Object.h:517</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2cb3d9de6ccdffa73f709b82cfae790a" name="a2cb3d9de6ccdffa73f709b82cfae790a"></a>
@@ -694,7 +787,11 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a1625d27c60b9833cc9bdebffb80833cb">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1587</span>    {</div>
+<div class="line"><span class="lineno"> 1588</span>        <a class="code hl_variable" href="../../d1/dc7/structnpc__coren__direbrew.html#a261d4c4dea56748e66752cb11588086a">_summons</a>.<a class="code hl_function" href="../../d8/d7a/class_summon_list.html#a4b10347a4407bb6351230423019d9786">Summon</a>(creature);</div>
+<div class="line"><span class="lineno"> 1589</span>    }</div>
+<div class="ttc" id="aclass_summon_list_html_a4b10347a4407bb6351230423019d9786"><div class="ttname"><a href="../../d8/d7a/class_summon_list.html#a4b10347a4407bb6351230423019d9786">SummonList::Summon</a></div><div class="ttdeci">void Summon(Creature const *summon)</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:89</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a9c48c7e4a97998c2091992f51b734679" name="a9c48c7e4a97998c2091992f51b734679"></a>
@@ -722,7 +819,24 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d2/d68/class_creature_a_i.html#a1280f8bcf72254ad31c453b810615f87">CreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1575</span>    {</div>
+<div class="line"><span class="lineno"> 1576</span>        <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d1/dc7/structnpc__coren__direbrew.html#a81ee26c215b7581a13faf56ee041b9fe">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a796d4bcda3aca28895ff4ba44b21226f">IsInPhase</a>(<a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#a83398fbaa7c84eaab41278d70b013d88a5a174c07b8602efe54b08ead7652a3fe">PHASE_ALL</a>) || who-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">GetTypeId</a>() != <a class="code hl_enumvalue" href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a>)</div>
+<div class="line"><span class="lineno"> 1577</span>        {</div>
+<div class="line"><span class="lineno"> 1578</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 1579</span>        }</div>
+<div class="line"><span class="lineno"> 1580</span> </div>
+<div class="line"><span class="lineno"> 1581</span>        <a class="code hl_variable" href="../../d1/dc7/structnpc__coren__direbrew.html#a81ee26c215b7581a13faf56ee041b9fe">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#ad578a9dc7ca02dafe4b53bcedb83ac23">SetPhase</a>(<a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#a83398fbaa7c84eaab41278d70b013d88a4759cf00b99e3a6f4a2f65af817bd203">PHASE_INTRO</a>);</div>
+<div class="line"><span class="lineno"> 1582</span>        <a class="code hl_variable" href="../../d1/dc7/structnpc__coren__direbrew.html#a81ee26c215b7581a13faf56ee041b9fe">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a5e6081bda8828001c0ed8677b2aecd65">ScheduleEvent</a>(<a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#a98e46eba63ac814c8a4cda4543639a92a256fd25f172fa42871e6171e67568f28">EVENT_INTRO_1</a>, 6 * <a class="code hl_variable" href="../../db/d1f/_common_8h.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a>, 0, <a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#a83398fbaa7c84eaab41278d70b013d88a4759cf00b99e3a6f4a2f65af817bd203">PHASE_INTRO</a>);</div>
+<div class="line"><span class="lineno"> 1583</span>        <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#a0b1768ced5432e6bc04e07393305784caf5bc3db04213b3bf118af6ce85b5a637">SAY_INTRO</a>);</div>
+<div class="line"><span class="lineno"> 1584</span>    }</div>
+<div class="ttc" id="a_object_guid_8h_html_a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c"><div class="ttname"><a href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a></div><div class="ttdeci">@ TYPEID_PLAYER</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:38</div></div>
+<div class="ttc" id="aboss__fathomlord__karathress_8cpp_html_a747a224b6b3195f9a33c56ddc6c7e268"><div class="ttname"><a href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a></div><div class="ttdeci">Talk</div><div class="ttdef"><b>Definition:</b> boss_fathomlord_karathress.cpp:23</div></div>
+<div class="ttc" id="abrewfest_8cpp_html_a0b1768ced5432e6bc04e07393305784caf5bc3db04213b3bf118af6ce85b5a637"><div class="ttname"><a href="../../dc/ddf/brewfest_8cpp.html#a0b1768ced5432e6bc04e07393305784caf5bc3db04213b3bf118af6ce85b5a637">SAY_INTRO</a></div><div class="ttdeci">@ SAY_INTRO</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1437</div></div>
+<div class="ttc" id="abrewfest_8cpp_html_a83398fbaa7c84eaab41278d70b013d88a4759cf00b99e3a6f4a2f65af817bd203"><div class="ttname"><a href="../../dc/ddf/brewfest_8cpp.html#a83398fbaa7c84eaab41278d70b013d88a4759cf00b99e3a6f4a2f65af817bd203">PHASE_INTRO</a></div><div class="ttdeci">@ PHASE_INTRO</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1484</div></div>
+<div class="ttc" id="abrewfest_8cpp_html_a83398fbaa7c84eaab41278d70b013d88a5a174c07b8602efe54b08ead7652a3fe"><div class="ttname"><a href="../../dc/ddf/brewfest_8cpp.html#a83398fbaa7c84eaab41278d70b013d88a5a174c07b8602efe54b08ead7652a3fe">PHASE_ALL</a></div><div class="ttdeci">@ PHASE_ALL</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1483</div></div>
+<div class="ttc" id="abrewfest_8cpp_html_a98e46eba63ac814c8a4cda4543639a92a256fd25f172fa42871e6171e67568f28"><div class="ttname"><a href="../../dc/ddf/brewfest_8cpp.html#a98e46eba63ac814c8a4cda4543639a92a256fd25f172fa42871e6171e67568f28">EVENT_INTRO_1</a></div><div class="ttdeci">@ EVENT_INTRO_1</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1492</div></div>
+<div class="ttc" id="aclass_object_html_a621a345fc34deed6d3a4e1e498a652da"><div class="ttname"><a href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">Object::GetTypeId</a></div><div class="ttdeci">TypeID GetTypeId() const</div><div class="ttdef"><b>Definition:</b> Object.h:121</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a49eb75eb89742ee70ca957d4e2f0b5d0" name="a49eb75eb89742ee70ca957d4e2f0b5d0"></a>
@@ -749,7 +863,35 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a26600c116d20a33461fc884bdb82eda9">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1554</span>    {</div>
+<div class="line"><span class="lineno"> 1555</span>        <a class="code hl_variable" href="../../d1/dc7/structnpc__coren__direbrew.html#a81ee26c215b7581a13faf56ee041b9fe">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#afd6b5b23aa26797b6de1275c70268808">Reset</a>();</div>
+<div class="line"><span class="lineno"> 1556</span>        <a class="code hl_variable" href="../../d1/dc7/structnpc__coren__direbrew.html#a261d4c4dea56748e66752cb11588086a">_summons</a>.<a class="code hl_function" href="../../d8/d7a/class_summon_list.html#a902c1d4535ccdb1b82801547a94151bb">DespawnAll</a>();</div>
+<div class="line"><span class="lineno"> 1557</span>        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ae60ed2cee8b340a5efb62f2acd249284">SetImmuneToPC</a>(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno"> 1558</span>        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a2579e2b71959daec99048b4bcf7f6bf3">SetFaction</a>(<a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#ac5c8e776fe109c83a63abe41eb5e80f2a5cf4abb6724ef933fed2820a2dce8b42">FACTION_FRIENDLY</a>);</div>
+<div class="line"><span class="lineno"> 1559</span>        <a class="code hl_variable" href="../../d1/dc7/structnpc__coren__direbrew.html#a81ee26c215b7581a13faf56ee041b9fe">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#ad578a9dc7ca02dafe4b53bcedb83ac23">SetPhase</a>(<a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#a83398fbaa7c84eaab41278d70b013d88a5a174c07b8602efe54b08ead7652a3fe">PHASE_ALL</a>);</div>
+<div class="line"><span class="lineno"> 1560</span> </div>
+<div class="line"><span class="lineno"> 1561</span>        <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> i = 0; i &lt; <a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#ad0fcc3268b0d04cfc8231f0143d898c4a708862ad6ea39c18e76cfd2767e0d3f6">MAX_ANTAGONISTS</a>; ++i)</div>
+<div class="line"><span class="lineno"> 1562</span>        {</div>
+<div class="line"><span class="lineno"> 1563</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#aaf7058bd6b40bbfd38cbcd4f740c0344">SummonCreature</a>(<a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#ac0f691e5e38d07f709b42c1f70418f00a9c788bc64844a20b7ac96b8ad18ae556">NPC_ANTAGONIST</a>, <a class="code hl_variable" href="../../dc/ddf/brewfest_8cpp.html#ae08d67fac7772287f656a8ac94adbfb1">AntagonistPos</a>[i], <a class="code hl_enumvalue" href="../../df/d30/_object_8h.html#a38c6d8d01cbe0c49b035f348f7724148a2ed37622e9cac6dbba3d2bb354307493">TEMPSUMMON_DEAD_DESPAWN</a>);</div>
+<div class="line"><span class="lineno"> 1564</span>        }</div>
+<div class="line"><span class="lineno"> 1565</span> </div>
+<div class="line"><span class="lineno"> 1566</span>        std::list&lt;GameObject*&gt; machines;</div>
+<div class="line"><span class="lineno"> 1567</span>        <a class="code hl_function" href="../../d4/d43/_scripted_creature_8cpp.html#ae9abb80c4e811509bca88e65cf817276">GetGameObjectListWithEntryInGrid</a>(machines, <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#ad0fcc3268b0d04cfc8231f0143d898c4a86c92dd979c36cd76fd7a16b6776866c">GO_MACHINE_SUMMONER</a>, 60.f);</div>
+<div class="line"><span class="lineno"> 1568</span>        <span class="keywordflow">for</span> (<a class="code hl_class" href="../../d0/dd1/class_game_object.html">GameObject</a>* go : machines)</div>
+<div class="line"><span class="lineno"> 1569</span>        {</div>
+<div class="line"><span class="lineno"> 1570</span>            go-&gt;Delete();</div>
+<div class="line"><span class="lineno"> 1571</span>        }</div>
+<div class="line"><span class="lineno"> 1572</span>    }</div>
+<div class="ttc" id="a_define_8h_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:110</div></div>
+<div class="ttc" id="a_object_8h_html_a38c6d8d01cbe0c49b035f348f7724148a2ed37622e9cac6dbba3d2bb354307493"><div class="ttname"><a href="../../df/d30/_object_8h.html#a38c6d8d01cbe0c49b035f348f7724148a2ed37622e9cac6dbba3d2bb354307493">TEMPSUMMON_DEAD_DESPAWN</a></div><div class="ttdeci">@ TEMPSUMMON_DEAD_DESPAWN</div><div class="ttdef"><b>Definition:</b> Object.h:48</div></div>
+<div class="ttc" id="a_scripted_creature_8cpp_html_ae9abb80c4e811509bca88e65cf817276"><div class="ttname"><a href="../../d4/d43/_scripted_creature_8cpp.html#ae9abb80c4e811509bca88e65cf817276">GetGameObjectListWithEntryInGrid</a></div><div class="ttdeci">void GetGameObjectListWithEntryInGrid(std::list&lt; GameObject * &gt; &amp;list, WorldObject *source, uint32 entry, float maxSearchRange)</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.cpp:708</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_ac5c8e776fe109c83a63abe41eb5e80f2a5cf4abb6724ef933fed2820a2dce8b42"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#ac5c8e776fe109c83a63abe41eb5e80f2a5cf4abb6724ef933fed2820a2dce8b42">FACTION_FRIENDLY</a></div><div class="ttdeci">@ FACTION_FRIENDLY</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:173</div></div>
+<div class="ttc" id="abrewfest_8cpp_html_ad0fcc3268b0d04cfc8231f0143d898c4a708862ad6ea39c18e76cfd2767e0d3f6"><div class="ttname"><a href="../../dc/ddf/brewfest_8cpp.html#ad0fcc3268b0d04cfc8231f0143d898c4a708862ad6ea39c18e76cfd2767e0d3f6">MAX_ANTAGONISTS</a></div><div class="ttdeci">@ MAX_ANTAGONISTS</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1508</div></div>
+<div class="ttc" id="abrewfest_8cpp_html_ad0fcc3268b0d04cfc8231f0143d898c4a86c92dd979c36cd76fd7a16b6776866c"><div class="ttname"><a href="../../dc/ddf/brewfest_8cpp.html#ad0fcc3268b0d04cfc8231f0143d898c4a86c92dd979c36cd76fd7a16b6776866c">GO_MACHINE_SUMMONER</a></div><div class="ttdeci">@ GO_MACHINE_SUMMONER</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1510</div></div>
+<div class="ttc" id="abrewfest_8cpp_html_ae08d67fac7772287f656a8ac94adbfb1"><div class="ttname"><a href="../../dc/ddf/brewfest_8cpp.html#ae08d67fac7772287f656a8ac94adbfb1">AntagonistPos</a></div><div class="ttdeci">Position const AntagonistPos[3]</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1513</div></div>
+<div class="ttc" id="aclass_game_object_html"><div class="ttname"><a href="../../d0/dd1/class_game_object.html">GameObject</a></div><div class="ttdef"><b>Definition:</b> GameObject.h:813</div></div>
+<div class="ttc" id="aclass_world_object_html_aaf7058bd6b40bbfd38cbcd4f740c0344"><div class="ttname"><a href="../../db/df7/class_world_object.html#aaf7058bd6b40bbfd38cbcd4f740c0344">WorldObject::SummonCreature</a></div><div class="ttdeci">TempSummon * SummonCreature(uint32 id, const Position &amp;pos, TempSummonType spwtype=TEMPSUMMON_MANUAL_DESPAWN, uint32 despwtime=0, uint32 vehId=0, SummonPropertiesEntry const *properties=nullptr) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:2301</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad8b665606985984ad633f66ad9b73bd2" name="ad8b665606985984ad633f66ad9b73bd2"></a>
@@ -793,7 +935,29 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d9c/class_unit_a_i.html#ab4adb2abfabe081acf0e4c5670607f87">UnitAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1525</span>    {</div>
+<div class="line"><span class="lineno"> 1526</span>        <span class="keywordflow">if</span> (menuId != <a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#ad0fcc3268b0d04cfc8231f0143d898c4af1faeb7f45a958be04b8e98454512450">GOSSIP_ID</a>)</div>
+<div class="line"><span class="lineno"> 1527</span>        {</div>
+<div class="line"><span class="lineno"> 1528</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 1529</span>        }</div>
+<div class="line"><span class="lineno"> 1530</span> </div>
+<div class="line"><span class="lineno"> 1531</span>        <span class="keywordflow">if</span> (gossipListId == <a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#ad0fcc3268b0d04cfc8231f0143d898c4ab76eef903f89cb3da333d64dd4f9ce90">GOSSIP_OPTION_FIGHT</a>)</div>
+<div class="line"><span class="lineno"> 1532</span>        {</div>
+<div class="line"><span class="lineno"> 1533</span>            <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#a0b1768ced5432e6bc04e07393305784ca2c4d79de099eba7bc6b0698b65705ded">SAY_INSULT</a>, player);</div>
+<div class="line"><span class="lineno"> 1534</span>            <a class="code hl_function" href="../../d1/dc7/structnpc__coren__direbrew.html#a2d417a9310b5b75df09879678d967794">DoAction</a>(<a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#a14ebf7554847176e636b96243a89f663afd2662e5ad45793954d7eca931443e2a">ACTION_START_FIGHT</a>);</div>
+<div class="line"><span class="lineno"> 1535</span>        }</div>
+<div class="line"><span class="lineno"> 1536</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (gossipListId == <a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#ad0fcc3268b0d04cfc8231f0143d898c4a42290007a38ddc31942a6705a3ff79bf">GOSSIP_OPTION_APOLOGIZE</a>)</div>
+<div class="line"><span class="lineno"> 1537</span>        {</div>
+<div class="line"><span class="lineno"> 1538</span>            <a class="code hl_function" href="../../d6/df2/_scripted_gossip_8cpp.html#af8f7e54dac5ecc86e92d780c3918cb09">CloseGossipMenuFor</a>(player);</div>
+<div class="line"><span class="lineno"> 1539</span>        }</div>
+<div class="line"><span class="lineno"> 1540</span>    }</div>
+<div class="ttc" id="a_scripted_gossip_8cpp_html_af8f7e54dac5ecc86e92d780c3918cb09"><div class="ttname"><a href="../../d6/df2/_scripted_gossip_8cpp.html#af8f7e54dac5ecc86e92d780c3918cb09">CloseGossipMenuFor</a></div><div class="ttdeci">void CloseGossipMenuFor(Player *player)</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.cpp:56</div></div>
+<div class="ttc" id="abrewfest_8cpp_html_a0b1768ced5432e6bc04e07393305784ca2c4d79de099eba7bc6b0698b65705ded"><div class="ttname"><a href="../../dc/ddf/brewfest_8cpp.html#a0b1768ced5432e6bc04e07393305784ca2c4d79de099eba7bc6b0698b65705ded">SAY_INSULT</a></div><div class="ttdeci">@ SAY_INSULT</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1440</div></div>
+<div class="ttc" id="abrewfest_8cpp_html_ad0fcc3268b0d04cfc8231f0143d898c4a42290007a38ddc31942a6705a3ff79bf"><div class="ttname"><a href="../../dc/ddf/brewfest_8cpp.html#ad0fcc3268b0d04cfc8231f0143d898c4a42290007a38ddc31942a6705a3ff79bf">GOSSIP_OPTION_APOLOGIZE</a></div><div class="ttdeci">@ GOSSIP_OPTION_APOLOGIZE</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1506</div></div>
+<div class="ttc" id="abrewfest_8cpp_html_ad0fcc3268b0d04cfc8231f0143d898c4ab76eef903f89cb3da333d64dd4f9ce90"><div class="ttname"><a href="../../dc/ddf/brewfest_8cpp.html#ad0fcc3268b0d04cfc8231f0143d898c4ab76eef903f89cb3da333d64dd4f9ce90">GOSSIP_OPTION_FIGHT</a></div><div class="ttdeci">@ GOSSIP_OPTION_FIGHT</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1505</div></div>
+<div class="ttc" id="abrewfest_8cpp_html_ad0fcc3268b0d04cfc8231f0143d898c4af1faeb7f45a958be04b8e98454512450"><div class="ttname"><a href="../../dc/ddf/brewfest_8cpp.html#ad0fcc3268b0d04cfc8231f0143d898c4af1faeb7f45a958be04b8e98454512450">GOSSIP_ID</a></div><div class="ttdeci">@ GOSSIP_ID</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1503</div></div>
+<div class="ttc" id="astructnpc__coren__direbrew_html_a2d417a9310b5b75df09879678d967794"><div class="ttname"><a href="../../d1/dc7/structnpc__coren__direbrew.html#a2d417a9310b5b75df09879678d967794">npc_coren_direbrew::DoAction</a></div><div class="ttdeci">void DoAction(int32 action) override</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1591</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aafdc2d271d1e267f5b3deba7d00e07fc" name="aafdc2d271d1e267f5b3deba7d00e07fc"></a>
@@ -831,7 +995,20 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d2/d68/class_creature_a_i.html#aa84f573bdb0e556cf911d0a00f6ed5fb">CreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1623</span>    {</div>
+<div class="line"><span class="lineno"> 1624</span>        <span class="keywordflow">if</span> (summon-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>() == <a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#ac0f691e5e38d07f709b42c1f70418f00abcd093fc25119756257f7f5b65900e3b">NPC_ILSA_DIREBREW</a>)</div>
+<div class="line"><span class="lineno"> 1625</span>        {</div>
+<div class="line"><span class="lineno"> 1626</span>            <a class="code hl_variable" href="../../d1/dc7/structnpc__coren__direbrew.html#a81ee26c215b7581a13faf56ee041b9fe">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a5e6081bda8828001c0ed8677b2aecd65">ScheduleEvent</a>(<a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#a98e46eba63ac814c8a4cda4543639a92a1696f23ce1666381858aa20ce59c4879">EVENT_RESPAWN_ILSA</a>, 1 * <a class="code hl_variable" href="../../db/d1f/_common_8h.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a>);</div>
+<div class="line"><span class="lineno"> 1627</span>        }</div>
+<div class="line"><span class="lineno"> 1628</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (summon-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>() == <a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#ac0f691e5e38d07f709b42c1f70418f00a944f5d79c4cd160d36636a1e8c999a28">NPC_URSULA_DIREBREW</a>)</div>
+<div class="line"><span class="lineno"> 1629</span>        {</div>
+<div class="line"><span class="lineno"> 1630</span>            <a class="code hl_variable" href="../../d1/dc7/structnpc__coren__direbrew.html#a81ee26c215b7581a13faf56ee041b9fe">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a5e6081bda8828001c0ed8677b2aecd65">ScheduleEvent</a>(<a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#a98e46eba63ac814c8a4cda4543639a92a2a1e824d2d9c51bad877f5fb83878dee">EVENT_RESPAWN_URSULA</a>, 1 * <a class="code hl_variable" href="../../db/d1f/_common_8h.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a>);</div>
+<div class="line"><span class="lineno"> 1631</span>        }</div>
+<div class="line"><span class="lineno"> 1632</span>    }</div>
+<div class="ttc" id="abrewfest_8cpp_html_a98e46eba63ac814c8a4cda4543639a92a1696f23ce1666381858aa20ce59c4879"><div class="ttname"><a href="../../dc/ddf/brewfest_8cpp.html#a98e46eba63ac814c8a4cda4543639a92a1696f23ce1666381858aa20ce59c4879">EVENT_RESPAWN_ILSA</a></div><div class="ttdeci">@ EVENT_RESPAWN_ILSA</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1497</div></div>
+<div class="ttc" id="abrewfest_8cpp_html_a98e46eba63ac814c8a4cda4543639a92a2a1e824d2d9c51bad877f5fb83878dee"><div class="ttname"><a href="../../dc/ddf/brewfest_8cpp.html#a98e46eba63ac814c8a4cda4543639a92a2a1e824d2d9c51bad877f5fb83878dee">EVENT_RESPAWN_URSULA</a></div><div class="ttdeci">@ EVENT_RESPAWN_URSULA</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1498</div></div>
+<div class="ttc" id="aclass_object_html_aa627fe2967ed0e0ed1d8aeeb4365a961"><div class="ttname"><a href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">Object::GetEntry</a></div><div class="ttdeci">uint32 GetEntry() const</div><div class="ttdef"><b>Definition:</b> Object.h:109</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a358fe5922a85ea3eee6abe9451869b66" name="a358fe5922a85ea3eee6abe9451869b66"></a>
@@ -857,7 +1034,15 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1653</span>    {</div>
+<div class="line"><span class="lineno"> 1654</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* sister = <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#aaf7058bd6b40bbfd38cbcd4f740c0344">SummonCreature</a>(entry, <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#ad8e55f9b39618093aa625abe3a06e1ed">GetPosition</a>(), <a class="code hl_enumvalue" href="../../df/d30/_object_8h.html#a38c6d8d01cbe0c49b035f348f7724148a2ed37622e9cac6dbba3d2bb354307493">TEMPSUMMON_DEAD_DESPAWN</a>))</div>
+<div class="line"><span class="lineno"> 1655</span>        {</div>
+<div class="line"><span class="lineno"> 1656</span>            <a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#afdeeccb48c5f74120d0fffe2a631a88a">DoZoneInCombat</a>(sister);</div>
+<div class="line"><span class="lineno"> 1657</span>        }</div>
+<div class="line"><span class="lineno"> 1658</span>    }</div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="astruct_position_html_ad8e55f9b39618093aa625abe3a06e1ed"><div class="ttname"><a href="../../d1/d26/struct_position.html#ad8e55f9b39618093aa625abe3a06e1ed">Position::GetPosition</a></div><div class="ttdeci">void GetPosition(float &amp;x, float &amp;y) const</div><div class="ttdef"><b>Definition:</b> Position.h:122</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="af6615292fa853883979dc37c6e247289" name="af6615292fa853883979dc37c6e247289"></a>
@@ -885,7 +1070,89 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#aff5fd4e142a5cf930ffacbfc7259cce5">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1661</span>    {</div>
+<div class="line"><span class="lineno"> 1662</span>        <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">UpdateVictim</a>() &amp;&amp; !<a class="code hl_variable" href="../../d1/dc7/structnpc__coren__direbrew.html#a81ee26c215b7581a13faf56ee041b9fe">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a796d4bcda3aca28895ff4ba44b21226f">IsInPhase</a>(<a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#a83398fbaa7c84eaab41278d70b013d88a4759cf00b99e3a6f4a2f65af817bd203">PHASE_INTRO</a>))</div>
+<div class="line"><span class="lineno"> 1663</span>        {</div>
+<div class="line"><span class="lineno"> 1664</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 1665</span>        }</div>
+<div class="line"><span class="lineno"> 1666</span> </div>
+<div class="line"><span class="lineno"> 1667</span>        <a class="code hl_variable" href="../../d1/dc7/structnpc__coren__direbrew.html#a81ee26c215b7581a13faf56ee041b9fe">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a33ba1058edd639c98258ba3e123ac2f9">Update</a>(diff);</div>
+<div class="line"><span class="lineno"> 1668</span> </div>
+<div class="line"><span class="lineno"> 1669</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ab78147cd520d2dac6be709b4c80a7de3">HasUnitState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54">UNIT_STATE_CASTING</a>))</div>
+<div class="line"><span class="lineno"> 1670</span>        {</div>
+<div class="line"><span class="lineno"> 1671</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 1672</span>        }</div>
+<div class="line"><span class="lineno"> 1673</span> </div>
+<div class="line"><span class="lineno"> 1674</span>        <span class="keywordflow">while</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> eventId = <a class="code hl_variable" href="../../d1/dc7/structnpc__coren__direbrew.html#a81ee26c215b7581a13faf56ee041b9fe">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a07764662d7571ae0e1c44203d189ba44">ExecuteEvent</a>())</div>
+<div class="line"><span class="lineno"> 1675</span>        {</div>
+<div class="line"><span class="lineno"> 1676</span>            <span class="keywordflow">switch</span> (eventId)</div>
+<div class="line"><span class="lineno"> 1677</span>            {</div>
+<div class="line"><span class="lineno"> 1678</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#a98e46eba63ac814c8a4cda4543639a92a256fd25f172fa42871e6171e67568f28">EVENT_INTRO_1</a>:</div>
+<div class="line"><span class="lineno"> 1679</span>                    <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#a0b1768ced5432e6bc04e07393305784ca17383917acea21c7a408d5e02de97873">SAY_INTRO1</a>);</div>
+<div class="line"><span class="lineno"> 1680</span>                    <a class="code hl_variable" href="../../d1/dc7/structnpc__coren__direbrew.html#a81ee26c215b7581a13faf56ee041b9fe">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a5e6081bda8828001c0ed8677b2aecd65">ScheduleEvent</a>(<a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#a98e46eba63ac814c8a4cda4543639a92a33886550fcce093bd39450d188489113">EVENT_INTRO_2</a>, 4 * <a class="code hl_variable" href="../../db/d1f/_common_8h.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a>, 0, <a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#a83398fbaa7c84eaab41278d70b013d88a4759cf00b99e3a6f4a2f65af817bd203">PHASE_INTRO</a>);</div>
+<div class="line"><span class="lineno"> 1681</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1682</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#a98e46eba63ac814c8a4cda4543639a92a33886550fcce093bd39450d188489113">EVENT_INTRO_2</a>:</div>
+<div class="line"><span class="lineno"> 1683</span>                {</div>
+<div class="line"><span class="lineno"> 1684</span>                    <a class="code hl_class" href="../../db/dbb/class_entry_check_predicate.html">EntryCheckPredicate</a> pred(<a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#ac0f691e5e38d07f709b42c1f70418f00a9c788bc64844a20b7ac96b8ad18ae556">NPC_ANTAGONIST</a>);</div>
+<div class="line"><span class="lineno"> 1685</span>                    <a class="code hl_variable" href="../../d1/dc7/structnpc__coren__direbrew.html#a261d4c4dea56748e66752cb11588086a">_summons</a>.<a class="code hl_function" href="../../d8/d7a/class_summon_list.html#a92d001f7f8ec8b9c1ee3a95bf0d88ac4">DoAction</a>(<a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#a14ebf7554847176e636b96243a89f663a027d4077cde87fd4a1ae2ed918c72887">ACTION_ANTAGONIST_SAY_1</a>, pred);</div>
+<div class="line"><span class="lineno"> 1686</span>                    <a class="code hl_variable" href="../../d1/dc7/structnpc__coren__direbrew.html#a81ee26c215b7581a13faf56ee041b9fe">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a5e6081bda8828001c0ed8677b2aecd65">ScheduleEvent</a>(<a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#a98e46eba63ac814c8a4cda4543639a92ad59301158e6d930fd6318326d74e141c">EVENT_INTRO_3</a>, 3 * <a class="code hl_variable" href="../../db/d1f/_common_8h.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a>, 0, <a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#a83398fbaa7c84eaab41278d70b013d88a4759cf00b99e3a6f4a2f65af817bd203">PHASE_INTRO</a>);</div>
+<div class="line"><span class="lineno"> 1687</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1688</span>                }</div>
+<div class="line"><span class="lineno"> 1689</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#a98e46eba63ac814c8a4cda4543639a92ad59301158e6d930fd6318326d74e141c">EVENT_INTRO_3</a>:</div>
+<div class="line"><span class="lineno"> 1690</span>                {</div>
+<div class="line"><span class="lineno"> 1691</span>                    <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#a0b1768ced5432e6bc04e07393305784cafc9c1989ff6b959b21add6f92af072d8">SAY_INTRO2</a>);</div>
+<div class="line"><span class="lineno"> 1692</span>                    <a class="code hl_class" href="../../db/dbb/class_entry_check_predicate.html">EntryCheckPredicate</a> pred(<a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#ac0f691e5e38d07f709b42c1f70418f00a9c788bc64844a20b7ac96b8ad18ae556">NPC_ANTAGONIST</a>);</div>
+<div class="line"><span class="lineno"> 1693</span>                    <a class="code hl_variable" href="../../d1/dc7/structnpc__coren__direbrew.html#a261d4c4dea56748e66752cb11588086a">_summons</a>.<a class="code hl_function" href="../../d8/d7a/class_summon_list.html#a92d001f7f8ec8b9c1ee3a95bf0d88ac4">DoAction</a>(<a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#a14ebf7554847176e636b96243a89f663ab974bef4b163b78c262252509b9352c1">ACTION_ANTAGONIST_SAY_2</a>, pred);</div>
+<div class="line"><span class="lineno"> 1694</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1695</span>                }</div>
+<div class="line"><span class="lineno"> 1696</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#a98e46eba63ac814c8a4cda4543639a92a1696f23ce1666381858aa20ce59c4879">EVENT_RESPAWN_ILSA</a>:</div>
+<div class="line"><span class="lineno"> 1697</span>                    <a class="code hl_function" href="../../d1/dc7/structnpc__coren__direbrew.html#a358fe5922a85ea3eee6abe9451869b66">SummonSister</a>(<a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#ac0f691e5e38d07f709b42c1f70418f00abcd093fc25119756257f7f5b65900e3b">NPC_ILSA_DIREBREW</a>);</div>
+<div class="line"><span class="lineno"> 1698</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1699</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#a98e46eba63ac814c8a4cda4543639a92a2a1e824d2d9c51bad877f5fb83878dee">EVENT_RESPAWN_URSULA</a>:</div>
+<div class="line"><span class="lineno"> 1700</span>                    <a class="code hl_function" href="../../d1/dc7/structnpc__coren__direbrew.html#a358fe5922a85ea3eee6abe9451869b66">SummonSister</a>(<a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#ac0f691e5e38d07f709b42c1f70418f00a944f5d79c4cd160d36636a1e8c999a28">NPC_URSULA_DIREBREW</a>);</div>
+<div class="line"><span class="lineno"> 1701</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1702</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#a98e46eba63ac814c8a4cda4543639a92a3269e8cecce222ec626b0dd9538e1ad3">EVENT_SUMMON_MOLE_MACHINE</a>:</div>
+<div class="line"><span class="lineno"> 1703</span>                {</div>
+<div class="line"><span class="lineno"> 1704</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a51ec81e114bf82a2485ba9f66200afd2">CastCustomSpell</a>(<a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#acf86a0bbb7e655957dd212f3aea686d0a03d47a92be79c9d7022fa3a5b5f1078e">SPELL_MOLE_MACHINE_TARGET_PICKER</a>, <a class="code hl_enumvalue" href="../../d2/d6d/_spell_defines_8h.html#a4ad87b8c967acbbcb154a32bc123371baac4a68bd47fc6d4dd83453928def284b">SPELLVALUE_MAX_TARGETS</a>, 1, <span class="keyword">nullptr</span>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno"> 1705</span>                    <a class="code hl_variable" href="../../d1/dc7/structnpc__coren__direbrew.html#a81ee26c215b7581a13faf56ee041b9fe">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a73bd414484591b7c1761390679fd3fe3">RepeatEvent</a>(15 * <a class="code hl_variable" href="../../db/d1f/_common_8h.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a>);</div>
+<div class="line"><span class="lineno"> 1706</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1707</span>                }</div>
+<div class="line"><span class="lineno"> 1708</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#a98e46eba63ac814c8a4cda4543639a92af83258e7e8426f53cf743dbd27957aa5">EVENT_DIREBREW_DISARM</a>:</div>
+<div class="line"><span class="lineno"> 1709</span>                    <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6ae5c7d15b747433f4d94f80bcebd215">DoCastSelf</a>(<a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#acf86a0bbb7e655957dd212f3aea686d0ab892967fecfc5baa81356e43994a3404">SPELL_DIREBREW_DISARM_PRE_CAST</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno"> 1710</span>                    <a class="code hl_variable" href="../../d1/dc7/structnpc__coren__direbrew.html#a81ee26c215b7581a13faf56ee041b9fe">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a73bd414484591b7c1761390679fd3fe3">RepeatEvent</a>(20 * <a class="code hl_variable" href="../../db/d1f/_common_8h.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a>);</div>
+<div class="line"><span class="lineno"> 1711</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1712</span>                <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno"> 1713</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1714</span>            }</div>
+<div class="line"><span class="lineno"> 1715</span> </div>
+<div class="line"><span class="lineno"> 1716</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ab78147cd520d2dac6be709b4c80a7de3">HasUnitState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54">UNIT_STATE_CASTING</a>))</div>
+<div class="line"><span class="lineno"> 1717</span>            {</div>
+<div class="line"><span class="lineno"> 1718</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 1719</span>            }</div>
+<div class="line"><span class="lineno"> 1720</span>        }</div>
+<div class="line"><span class="lineno"> 1721</span> </div>
+<div class="line"><span class="lineno"> 1722</span>        <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">DoMeleeAttackIfReady</a>();</div>
+<div class="line"><span class="lineno"> 1723</span>    }</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="a_spell_defines_8h_html_a4ad87b8c967acbbcb154a32bc123371baac4a68bd47fc6d4dd83453928def284b"><div class="ttname"><a href="../../d2/d6d/_spell_defines_8h.html#a4ad87b8c967acbbcb154a32bc123371baac4a68bd47fc6d4dd83453928def284b">SPELLVALUE_MAX_TARGETS</a></div><div class="ttdeci">@ SPELLVALUE_MAX_TARGETS</div><div class="ttdef"><b>Definition:</b> SpellDefines.h:118</div></div>
+<div class="ttc" id="a_unit_8h_html_ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54">UNIT_STATE_CASTING</a></div><div class="ttdeci">@ UNIT_STATE_CASTING</div><div class="ttdef"><b>Definition:</b> Unit.h:340</div></div>
+<div class="ttc" id="abrewfest_8cpp_html_a0b1768ced5432e6bc04e07393305784ca17383917acea21c7a408d5e02de97873"><div class="ttname"><a href="../../dc/ddf/brewfest_8cpp.html#a0b1768ced5432e6bc04e07393305784ca17383917acea21c7a408d5e02de97873">SAY_INTRO1</a></div><div class="ttdeci">@ SAY_INTRO1</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1438</div></div>
+<div class="ttc" id="abrewfest_8cpp_html_a0b1768ced5432e6bc04e07393305784cafc9c1989ff6b959b21add6f92af072d8"><div class="ttname"><a href="../../dc/ddf/brewfest_8cpp.html#a0b1768ced5432e6bc04e07393305784cafc9c1989ff6b959b21add6f92af072d8">SAY_INTRO2</a></div><div class="ttdeci">@ SAY_INTRO2</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1439</div></div>
+<div class="ttc" id="abrewfest_8cpp_html_a14ebf7554847176e636b96243a89f663a027d4077cde87fd4a1ae2ed918c72887"><div class="ttname"><a href="../../dc/ddf/brewfest_8cpp.html#a14ebf7554847176e636b96243a89f663a027d4077cde87fd4a1ae2ed918c72887">ACTION_ANTAGONIST_SAY_1</a></div><div class="ttdeci">@ ACTION_ANTAGONIST_SAY_1</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1449</div></div>
+<div class="ttc" id="abrewfest_8cpp_html_a14ebf7554847176e636b96243a89f663ab974bef4b163b78c262252509b9352c1"><div class="ttname"><a href="../../dc/ddf/brewfest_8cpp.html#a14ebf7554847176e636b96243a89f663ab974bef4b163b78c262252509b9352c1">ACTION_ANTAGONIST_SAY_2</a></div><div class="ttdeci">@ ACTION_ANTAGONIST_SAY_2</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1450</div></div>
+<div class="ttc" id="abrewfest_8cpp_html_a98e46eba63ac814c8a4cda4543639a92a33886550fcce093bd39450d188489113"><div class="ttname"><a href="../../dc/ddf/brewfest_8cpp.html#a98e46eba63ac814c8a4cda4543639a92a33886550fcce093bd39450d188489113">EVENT_INTRO_2</a></div><div class="ttdeci">@ EVENT_INTRO_2</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1493</div></div>
+<div class="ttc" id="abrewfest_8cpp_html_a98e46eba63ac814c8a4cda4543639a92ad59301158e6d930fd6318326d74e141c"><div class="ttname"><a href="../../dc/ddf/brewfest_8cpp.html#a98e46eba63ac814c8a4cda4543639a92ad59301158e6d930fd6318326d74e141c">EVENT_INTRO_3</a></div><div class="ttdeci">@ EVENT_INTRO_3</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1494</div></div>
+<div class="ttc" id="abrewfest_8cpp_html_acf86a0bbb7e655957dd212f3aea686d0a03d47a92be79c9d7022fa3a5b5f1078e"><div class="ttname"><a href="../../dc/ddf/brewfest_8cpp.html#acf86a0bbb7e655957dd212f3aea686d0a03d47a92be79c9d7022fa3a5b5f1078e">SPELL_MOLE_MACHINE_TARGET_PICKER</a></div><div class="ttdeci">@ SPELL_MOLE_MACHINE_TARGET_PICKER</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1465</div></div>
+<div class="ttc" id="abrewfest_8cpp_html_acf86a0bbb7e655957dd212f3aea686d0ab892967fecfc5baa81356e43994a3404"><div class="ttname"><a href="../../dc/ddf/brewfest_8cpp.html#acf86a0bbb7e655957dd212f3aea686d0ab892967fecfc5baa81356e43994a3404">SPELL_DIREBREW_DISARM_PRE_CAST</a></div><div class="ttdeci">@ SPELL_DIREBREW_DISARM_PRE_CAST</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1464</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_ae03ccfe1e27501ed9ccbfecdbd3c4e39"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">CreatureAI::UpdateVictim</a></div><div class="ttdeci">bool UpdateVictim()</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:268</div></div>
+<div class="ttc" id="aclass_event_map_html_a07764662d7571ae0e1c44203d189ba44"><div class="ttname"><a href="../../d8/d8f/class_event_map.html#a07764662d7571ae0e1c44203d189ba44">EventMap::ExecuteEvent</a></div><div class="ttdeci">uint32 ExecuteEvent()</div><div class="ttdef"><b>Definition:</b> EventMap.cpp:114</div></div>
+<div class="ttc" id="aclass_event_map_html_a33ba1058edd639c98258ba3e123ac2f9"><div class="ttname"><a href="../../d8/d8f/class_event_map.html#a33ba1058edd639c98258ba3e123ac2f9">EventMap::Update</a></div><div class="ttdeci">void Update(uint32 time)</div><div class="ttdef"><b>Definition:</b> EventMap.h:54</div></div>
+<div class="ttc" id="aclass_event_map_html_a73bd414484591b7c1761390679fd3fe3"><div class="ttname"><a href="../../d8/d8f/class_event_map.html#a73bd414484591b7c1761390679fd3fe3">EventMap::RepeatEvent</a></div><div class="ttdeci">void RepeatEvent(uint32 time)</div><div class="ttdef"><b>Definition:</b> EventMap.cpp:99</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a348a472089a9be6210b58aace8fafa9f"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">UnitAI::DoMeleeAttackIfReady</a></div><div class="ttdeci">void DoMeleeAttackIfReady()</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:40</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a6ae5c7d15b747433f4d94f80bcebd215"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a6ae5c7d15b747433f4d94f80bcebd215">UnitAI::DoCastSelf</a></div><div class="ttdeci">SpellCastResult DoCastSelf(uint32 spellId, bool triggered=false)</div><div class="ttdef"><b>Definition:</b> UnitAI.h:323</div></div>
+<div class="ttc" id="aclass_unit_html_a51ec81e114bf82a2485ba9f66200afd2"><div class="ttname"><a href="../../da/db7/class_unit.html#a51ec81e114bf82a2485ba9f66200afd2">Unit::CastCustomSpell</a></div><div class="ttdeci">SpellCastResult CastCustomSpell(Unit *victim, uint32 spellId, int32 const *bp0, int32 const *bp1, int32 const *bp2, bool triggered, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1225</div></div>
+<div class="ttc" id="aclass_unit_html_ab78147cd520d2dac6be709b4c80a7de3"><div class="ttname"><a href="../../da/db7/class_unit.html#ab78147cd520d2dac6be709b4c80a7de3">Unit::HasUnitState</a></div><div class="ttdeci">bool HasUnitState(const uint32 f) const</div><div class="ttdef"><b>Definition:</b> Unit.h:1398</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -934,7 +1201,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Events/<a class="el" href="../../dc/ddf/brewfest_8cpp.html">brewfest.cpp</a></li>
+<li><a class="el" href="../../">brewfest.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -942,7 +1209,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/dc7/structnpc__coren__direbrew.html">npc_coren_direbrew</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:49 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:04 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

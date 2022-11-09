@@ -117,7 +117,7 @@ $(document).ready(function(){initNavTree('d9/d35/class_movement_1_1_spline_base.
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d4/d25/_spline_8h_source.html">Spline.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">Spline.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for Movement::SplineBase:</div>
 <div class="dyncontent">
@@ -256,7 +256,8 @@ Static Protected Attributes</h2></td></tr>
 <tr class="memitem:a33f224d12367e8dd3f1a63e41979a639"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/d35/class_movement_1_1_spline_base.html#a5c31a87c9450b35cadc069a67862d2c2">InitMethtod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d35/class_movement_1_1_spline_base.html#a33f224d12367e8dd3f1a63e41979a639">initializers</a> [<a class="el" href="../../d9/d35/class_movement_1_1_spline_base.html#a815f7b7cd727035f39a5d81bb3ff731aa283328758f9b80aced4f344a65564468">ModesEnd</a>]</td></tr>
 <tr class="separator:a33f224d12367e8dd3f1a63e41979a639"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Typedef Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a1519aa715d924d84efc27560b523f869" name="a1519aa715d924d84efc27560b523f869"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1519aa715d924d84efc27560b523f869">&#9670;&#160;</a></span>ControlArray</h2>
 
@@ -374,7 +375,15 @@ Static Protected Attributes</h2></td></tr>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ab7e575c59a453db8b754e66002a666fdaf8e13b728ef434c606dc4c6b66684908" name="ab7e575c59a453db8b754e66002a666fdaf8e13b728ef434c606dc4c6b66684908"></a>STEPS_PER_SEGMENT&#160;</td><td class="fielddoc"></td></tr>
 </table>
-
+<div class="fragment"><div class="line"><span class="lineno">   53</span>        {</div>
+<div class="line"><span class="lineno">   54</span>            <span class="comment">// could be modified, affects segment length evaluation precision</span></div>
+<div class="line"><span class="lineno">   55</span>            <span class="comment">// lesser value saves more performance in cost of lover precision</span></div>
+<div class="line"><span class="lineno">   56</span>            <span class="comment">// minimal value is 1</span></div>
+<div class="line"><span class="lineno">   57</span>            <span class="comment">// client&#39;s value is 20, blizzs use 2-3 steps to compute length</span></div>
+<div class="line"><span class="lineno">   58</span>            <a class="code hl_enumvalue" href="../../d9/d35/class_movement_1_1_spline_base.html#ab7e575c59a453db8b754e66002a666fdaf8e13b728ef434c606dc4c6b66684908">STEPS_PER_SEGMENT</a> = 3</div>
+<div class="line"><span class="lineno">   59</span>        };</div>
+<div class="ttc" id="aclass_movement_1_1_spline_base_html_ab7e575c59a453db8b754e66002a666fdaf8e13b728ef434c606dc4c6b66684908"><div class="ttname"><a href="../../d9/d35/class_movement_1_1_spline_base.html#ab7e575c59a453db8b754e66002a666fdaf8e13b728ef434c606dc4c6b66684908">Movement::SplineBase::STEPS_PER_SEGMENT</a></div><div class="ttdeci">@ STEPS_PER_SEGMENT</div><div class="ttdef"><b>Definition:</b> Spline.h:58</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a815f7b7cd727035f39a5d81bb3ff731a" name="a815f7b7cd727035f39a5d81bb3ff731a"></a>
@@ -395,7 +404,19 @@ Static Protected Attributes</h2></td></tr>
 <tr><td class="fieldname"><a id="a815f7b7cd727035f39a5d81bb3ff731aaebc8600d88a6ff86567b895b7cd0d54d" name="a815f7b7cd727035f39a5d81bb3ff731aaebc8600d88a6ff86567b895b7cd0d54d"></a>UninitializedMode&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a815f7b7cd727035f39a5d81bb3ff731aa283328758f9b80aced4f344a65564468" name="a815f7b7cd727035f39a5d81bb3ff731aa283328758f9b80aced4f344a65564468"></a>ModesEnd&#160;</td><td class="fielddoc"></td></tr>
 </table>
-
+<div class="fragment"><div class="line"><span class="lineno">   35</span>        {</div>
+<div class="line"><span class="lineno">   36</span>            <a class="code hl_enumvalue" href="../../d9/d35/class_movement_1_1_spline_base.html#a815f7b7cd727035f39a5d81bb3ff731aaf7dc78a98cac10b22b94630757269e8b">ModeLinear</a>,</div>
+<div class="line"><span class="lineno">   37</span>            <a class="code hl_enumvalue" href="../../d9/d35/class_movement_1_1_spline_base.html#a815f7b7cd727035f39a5d81bb3ff731aa237cadfa35c5a8a98d58ada3c2c4c903">ModeCatmullrom</a>,</div>
+<div class="line"><span class="lineno">   38</span>            <a class="code hl_enumvalue" href="../../d9/d35/class_movement_1_1_spline_base.html#a815f7b7cd727035f39a5d81bb3ff731aa6aef83ae868527f01b149249d6e58f6d">ModeBezier3_Unused</a>,</div>
+<div class="line"><span class="lineno">   39</span>            <a class="code hl_enumvalue" href="../../d9/d35/class_movement_1_1_spline_base.html#a815f7b7cd727035f39a5d81bb3ff731aaebc8600d88a6ff86567b895b7cd0d54d">UninitializedMode</a>,</div>
+<div class="line"><span class="lineno">   40</span>            <a class="code hl_enumvalue" href="../../d9/d35/class_movement_1_1_spline_base.html#a815f7b7cd727035f39a5d81bb3ff731aa283328758f9b80aced4f344a65564468">ModesEnd</a></div>
+<div class="line"><span class="lineno">   41</span>        };</div>
+<div class="ttc" id="aclass_movement_1_1_spline_base_html_a815f7b7cd727035f39a5d81bb3ff731aa237cadfa35c5a8a98d58ada3c2c4c903"><div class="ttname"><a href="../../d9/d35/class_movement_1_1_spline_base.html#a815f7b7cd727035f39a5d81bb3ff731aa237cadfa35c5a8a98d58ada3c2c4c903">Movement::SplineBase::ModeCatmullrom</a></div><div class="ttdeci">@ ModeCatmullrom</div><div class="ttdef"><b>Definition:</b> Spline.h:37</div></div>
+<div class="ttc" id="aclass_movement_1_1_spline_base_html_a815f7b7cd727035f39a5d81bb3ff731aa283328758f9b80aced4f344a65564468"><div class="ttname"><a href="../../d9/d35/class_movement_1_1_spline_base.html#a815f7b7cd727035f39a5d81bb3ff731aa283328758f9b80aced4f344a65564468">Movement::SplineBase::ModesEnd</a></div><div class="ttdeci">@ ModesEnd</div><div class="ttdef"><b>Definition:</b> Spline.h:40</div></div>
+<div class="ttc" id="aclass_movement_1_1_spline_base_html_a815f7b7cd727035f39a5d81bb3ff731aa6aef83ae868527f01b149249d6e58f6d"><div class="ttname"><a href="../../d9/d35/class_movement_1_1_spline_base.html#a815f7b7cd727035f39a5d81bb3ff731aa6aef83ae868527f01b149249d6e58f6d">Movement::SplineBase::ModeBezier3_Unused</a></div><div class="ttdeci">@ ModeBezier3_Unused</div><div class="ttdef"><b>Definition:</b> Spline.h:38</div></div>
+<div class="ttc" id="aclass_movement_1_1_spline_base_html_a815f7b7cd727035f39a5d81bb3ff731aaebc8600d88a6ff86567b895b7cd0d54d"><div class="ttname"><a href="../../d9/d35/class_movement_1_1_spline_base.html#a815f7b7cd727035f39a5d81bb3ff731aaebc8600d88a6ff86567b895b7cd0d54d">Movement::SplineBase::UninitializedMode</a></div><div class="ttdeci">@ UninitializedMode</div><div class="ttdef"><b>Definition:</b> Spline.h:39</div></div>
+<div class="ttc" id="aclass_movement_1_1_spline_base_html_a815f7b7cd727035f39a5d81bb3ff731aaf7dc78a98cac10b22b94630757269e8b"><div class="ttname"><a href="../../d9/d35/class_movement_1_1_spline_base.html#a815f7b7cd727035f39a5d81bb3ff731aaf7dc78a98cac10b22b94630757269e8b">Movement::SplineBase::ModeLinear</a></div><div class="ttdeci">@ ModeLinear</div><div class="ttdef"><b>Definition:</b> Spline.h:36</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -439,7 +460,15 @@ Static Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  285</span>    {</div>
+<div class="line"><span class="lineno">  286</span>        <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#af38f585652cb0227e23299afa10bb96d">index_lo</a> = 0;</div>
+<div class="line"><span class="lineno">  287</span>        <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#acbc7e3f2c43de66ef88d86d1e2d9fab2">index_hi</a> = 0;</div>
+<div class="line"><span class="lineno">  288</span>        <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#a37192fbc57bfe73c09916ec181860ed7">points</a>.clear();</div>
+<div class="line"><span class="lineno">  289</span>    }</div>
+<div class="ttc" id="aclass_movement_1_1_spline_base_html_a37192fbc57bfe73c09916ec181860ed7"><div class="ttname"><a href="../../d9/d35/class_movement_1_1_spline_base.html#a37192fbc57bfe73c09916ec181860ed7">Movement::SplineBase::points</a></div><div class="ttdeci">ControlArray points</div><div class="ttdef"><b>Definition:</b> Spline.h:44</div></div>
+<div class="ttc" id="aclass_movement_1_1_spline_base_html_acbc7e3f2c43de66ef88d86d1e2d9fab2"><div class="ttname"><a href="../../d9/d35/class_movement_1_1_spline_base.html#acbc7e3f2c43de66ef88d86d1e2d9fab2">Movement::SplineBase::index_hi</a></div><div class="ttdeci">index_type index_hi</div><div class="ttdef"><b>Definition:</b> Spline.h:47</div></div>
+<div class="ttc" id="aclass_movement_1_1_spline_base_html_af38f585652cb0227e23299afa10bb96d"><div class="ttname"><a href="../../d9/d35/class_movement_1_1_spline_base.html#af38f585652cb0227e23299afa10bb96d">Movement::SplineBase::index_lo</a></div><div class="ttdeci">index_type index_lo</div><div class="ttdef"><b>Definition:</b> Spline.h:46</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a6e3e99b9af65afd02ec5f23e9553e9d2" name="a6e3e99b9af65afd02ec5f23e9553e9d2"></a>
@@ -464,7 +493,8 @@ Static Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  109</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#af38f585652cb0227e23299afa10bb96d">index_lo</a> == <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#acbc7e3f2c43de66ef88d86d1e2d9fab2">index_hi</a>;}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a544deed5ae0e24603922b1e80bbe4dc1" name="a544deed5ae0e24603922b1e80bbe4dc1"></a>
@@ -513,7 +543,10 @@ Static Protected Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-
+<div class="fragment"><div class="line"><span class="lineno">  103</span>{(this-&gt;*<a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#ae63abd2b810a736c7695a56a493e0473">derivative_evaluators</a>[<a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#acab01ea4c863d0c90c169fc8813ddd4e">m_mode</a>])(Idx, u, hermite);}</div>
+<div class="ttc" id="aclass_movement_1_1_spline_base_html_acab01ea4c863d0c90c169fc8813ddd4e"><div class="ttname"><a href="../../d9/d35/class_movement_1_1_spline_base.html#acab01ea4c863d0c90c169fc8813ddd4e">Movement::SplineBase::m_mode</a></div><div class="ttdeci">uint8 m_mode</div><div class="ttdef"><b>Definition:</b> Spline.h:49</div></div>
+<div class="ttc" id="aclass_movement_1_1_spline_base_html_ae63abd2b810a736c7695a56a493e0473"><div class="ttname"><a href="../../d9/d35/class_movement_1_1_spline_base.html#ae63abd2b810a736c7695a56a493e0473">Movement::SplineBase::derivative_evaluators</a></div><div class="ttdeci">static EvaluationMethtod derivative_evaluators[ModesEnd]</div><div class="ttdef"><b>Definition:</b> Spline.h:72</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a48ae1e6a51f87c3540a6b88b959d6976" name="a48ae1e6a51f87c3540a6b88b959d6976"></a>
@@ -562,7 +595,9 @@ Static Protected Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-
+<div class="fragment"><div class="line"><span class="lineno">   97</span>{(this-&gt;*<a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#af7df2a9dc5d487b512bfcab4e0370106">evaluators</a>[<a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#acab01ea4c863d0c90c169fc8813ddd4e">m_mode</a>])(Idx, u, c);}</div>
+<div class="ttc" id="aclass_movement_1_1_spline_base_html_af7df2a9dc5d487b512bfcab4e0370106"><div class="ttname"><a href="../../d9/d35/class_movement_1_1_spline_base.html#af7df2a9dc5d487b512bfcab4e0370106">Movement::SplineBase::evaluators</a></div><div class="ttdeci">static EvaluationMethtod evaluators[ModesEnd]</div><div class="ttdef"><b>Definition:</b> Spline.h:67</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a5be8fc68c7300669934170022710f6be" name="a5be8fc68c7300669934170022710f6be"></a>
@@ -604,7 +639,15 @@ Static Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  128</span>    {</div>
+<div class="line"><span class="lineno">  129</span>        index *= 3u;</div>
+<div class="line"><span class="lineno">  130</span>        <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(index &gt;= <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#af38f585652cb0227e23299afa10bb96d">index_lo</a> &amp;&amp; index &lt; <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#acbc7e3f2c43de66ef88d86d1e2d9fab2">index_hi</a>);</div>
+<div class="line"><span class="lineno">  131</span>        <a class="code hl_function" href="../../d1/dc5/namespace_movement.html#a409e47c24c7802840315c6e4c75725cc">C_Evaluate</a>(&amp;<a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#a37192fbc57bfe73c09916ec181860ed7">points</a>[index], t, <a class="code hl_function" href="../../d1/dc5/namespace_movement.html#a508e01047096fea2dbd9e0fedf6d75cb">s_Bezier3Coeffs</a>, result);</div>
+<div class="line"><span class="lineno">  132</span>    }</div>
+<div class="ttc" id="a_errors_8h_html_af343b20373ba49a92fce523e948f2ab3"><div class="ttname"><a href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a></div><div class="ttdeci">#define ASSERT</div><div class="ttdef"><b>Definition:</b> Errors.h:68</div></div>
+<div class="ttc" id="anamespace_movement_html_a409e47c24c7802840315c6e4c75725cc"><div class="ttname"><a href="../../d1/dc5/namespace_movement.html#a409e47c24c7802840315c6e4c75725cc">Movement::C_Evaluate</a></div><div class="ttdeci">void C_Evaluate(const Vector3 *vertice, float t, const Matrix4 &amp;matr, Vector3 &amp;result)</div><div class="ttdef"><b>Definition:</b> Spline.cpp:97</div></div>
+<div class="ttc" id="anamespace_movement_html_a508e01047096fea2dbd9e0fedf6d75cb"><div class="ttname"><a href="../../d1/dc5/namespace_movement.html#a508e01047096fea2dbd9e0fedf6d75cb">Movement::s_Bezier3Coeffs</a></div><div class="ttdeci">static const Matrix4 s_Bezier3Coeffs(-1.f, 3.f, -3.f, 1.f, 3.f, -6.f, 3.f, 0.f, -3.f, 3.f, 0.f, 0.f, 1.f, 0.f, 0.f, 0.f)</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a3c5879eff2fe19a85c84c6ffe5c5d708" name="a3c5879eff2fe19a85c84c6ffe5c5d708"></a>
@@ -646,7 +689,12 @@ Static Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  122</span>    {</div>
+<div class="line"><span class="lineno">  123</span>        <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(index &gt;= <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#af38f585652cb0227e23299afa10bb96d">index_lo</a> &amp;&amp; index &lt; <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#acbc7e3f2c43de66ef88d86d1e2d9fab2">index_hi</a>);</div>
+<div class="line"><span class="lineno">  124</span>        <a class="code hl_function" href="../../d1/dc5/namespace_movement.html#a409e47c24c7802840315c6e4c75725cc">C_Evaluate</a>(&amp;<a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#a37192fbc57bfe73c09916ec181860ed7">points</a>[index - 1], t, <a class="code hl_function" href="../../d1/dc5/namespace_movement.html#aff10e913762216c0735a8a3530ee25d2">s_catmullRomCoeffs</a>, result);</div>
+<div class="line"><span class="lineno">  125</span>    }</div>
+<div class="ttc" id="anamespace_movement_html_aff10e913762216c0735a8a3530ee25d2"><div class="ttname"><a href="../../d1/dc5/namespace_movement.html#aff10e913762216c0735a8a3530ee25d2">Movement::s_catmullRomCoeffs</a></div><div class="ttdeci">static const Matrix4 s_catmullRomCoeffs(-0.5f, 1.5f, -1.5f, 0.5f, 1.f, -2.5f, 2.f, -0.5f, -0.5f, 0.f, 0.5f, 0.f, 0.f, 1.f, 0.f, 0.f)</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a8fdfebac1364d5f8dd80c2eeddca6f5a" name="a8fdfebac1364d5f8dd80c2eeddca6f5a"></a>
@@ -688,7 +736,13 @@ Static Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  147</span>    {</div>
+<div class="line"><span class="lineno">  148</span>        index *= 3u;</div>
+<div class="line"><span class="lineno">  149</span>        <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(index &gt;= <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#af38f585652cb0227e23299afa10bb96d">index_lo</a> &amp;&amp; index &lt; <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#acbc7e3f2c43de66ef88d86d1e2d9fab2">index_hi</a>);</div>
+<div class="line"><span class="lineno">  150</span>        <a class="code hl_function" href="../../d1/dc5/namespace_movement.html#a318f60ef13751f5cf60cdb79cf353faa">C_Evaluate_Derivative</a>(&amp;<a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#a37192fbc57bfe73c09916ec181860ed7">points</a>[index], t, <a class="code hl_function" href="../../d1/dc5/namespace_movement.html#a508e01047096fea2dbd9e0fedf6d75cb">s_Bezier3Coeffs</a>, result);</div>
+<div class="line"><span class="lineno">  151</span>    }</div>
+<div class="ttc" id="anamespace_movement_html_a318f60ef13751f5cf60cdb79cf353faa"><div class="ttname"><a href="../../d1/dc5/namespace_movement.html#a318f60ef13751f5cf60cdb79cf353faa">Movement::C_Evaluate_Derivative</a></div><div class="ttdeci">void C_Evaluate_Derivative(const Vector3 *vertice, float t, const Matrix4 &amp;matr, Vector3 &amp;result)</div><div class="ttdef"><b>Definition:</b> Spline.cpp:106</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a479bedc009b21874f0282e2d31647c29" name="a479bedc009b21874f0282e2d31647c29"></a>
@@ -730,7 +784,11 @@ Static Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  141</span>    {</div>
+<div class="line"><span class="lineno">  142</span>        <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(index &gt;= <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#af38f585652cb0227e23299afa10bb96d">index_lo</a> &amp;&amp; index &lt; <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#acbc7e3f2c43de66ef88d86d1e2d9fab2">index_hi</a>);</div>
+<div class="line"><span class="lineno">  143</span>        <a class="code hl_function" href="../../d1/dc5/namespace_movement.html#a318f60ef13751f5cf60cdb79cf353faa">C_Evaluate_Derivative</a>(&amp;<a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#a37192fbc57bfe73c09916ec181860ed7">points</a>[index - 1], t, <a class="code hl_function" href="../../d1/dc5/namespace_movement.html#aff10e913762216c0735a8a3530ee25d2">s_catmullRomCoeffs</a>, result);</div>
+<div class="line"><span class="lineno">  144</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a97191bbb290e7e1d0e1f4b1843f333a8" name="a97191bbb290e7e1d0e1f4b1843f333a8"></a>
@@ -772,7 +830,11 @@ Static Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  135</span>    {</div>
+<div class="line"><span class="lineno">  136</span>        <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(index &gt;= <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#af38f585652cb0227e23299afa10bb96d">index_lo</a> &amp;&amp; index &lt; <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#acbc7e3f2c43de66ef88d86d1e2d9fab2">index_hi</a>);</div>
+<div class="line"><span class="lineno">  137</span>        result = <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#a37192fbc57bfe73c09916ec181860ed7">points</a>[index + 1] - <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#a37192fbc57bfe73c09916ec181860ed7">points</a>[index];</div>
+<div class="line"><span class="lineno">  138</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac3672bc1b64f976f8965760573b6ddb9" name="ac3672bc1b64f976f8965760573b6ddb9"></a>
@@ -814,7 +876,11 @@ Static Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  116</span>    {</div>
+<div class="line"><span class="lineno">  117</span>        <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(index &gt;= <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#af38f585652cb0227e23299afa10bb96d">index_lo</a> &amp;&amp; index &lt; <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#acbc7e3f2c43de66ef88d86d1e2d9fab2">index_hi</a>);</div>
+<div class="line"><span class="lineno">  118</span>        result = <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#a37192fbc57bfe73c09916ec181860ed7">points</a>[index] + (<a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#a37192fbc57bfe73c09916ec181860ed7">points</a>[index + 1] - <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#a37192fbc57bfe73c09916ec181860ed7">points</a>[index]) * u;</div>
+<div class="line"><span class="lineno">  119</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a83b4d4eeca3c80ab3b7c1c36f8edec39" name="a83b4d4eeca3c80ab3b7c1c36f8edec39"></a>
@@ -840,7 +906,8 @@ Static Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p >Bounds for spline indexes. All indexes should be in range [first, last). </p>
-
+<div class="fragment"><div class="line"><span class="lineno">  106</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#af38f585652cb0227e23299afa10bb96d">index_lo</a>;}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2488d8f0ca631d1004e577347663d84e" name="a2488d8f0ca631d1004e577347663d84e"></a>
@@ -866,7 +933,8 @@ Static Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  116</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#a37192fbc57bfe73c09916ec181860ed7">points</a>[i];}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aec270291a46b401ba59f367a94eaf565" name="aec270291a46b401ba59f367a94eaf565"></a>
@@ -891,7 +959,8 @@ Static Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  115</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#a37192fbc57bfe73c09916ec181860ed7">points</a>.size();}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="abfedcb6ac1261e845c73743dfa8daa1f" name="abfedcb6ac1261e845c73743dfa8daa1f"></a>
@@ -916,7 +985,8 @@ Static Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  114</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#a37192fbc57bfe73c09916ec181860ed7">points</a>;}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="add5fd58a7c5edc3c5345813e0086b860" name="add5fd58a7c5edc3c5345813e0086b860"></a>
@@ -956,7 +1026,15 @@ Static Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  211</span>    {</div>
+<div class="line"><span class="lineno">  212</span>        <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#acab01ea4c863d0c90c169fc8813ddd4e">m_mode</a> = m;</div>
+<div class="line"><span class="lineno">  213</span>        <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#a5301207167e707f9b7296cad775ab8d9">cyclic</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  214</span> </div>
+<div class="line"><span class="lineno">  215</span>        (this-&gt;*<a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#a33f224d12367e8dd3f1a63e41979a639">initializers</a>[<a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#acab01ea4c863d0c90c169fc8813ddd4e">m_mode</a>])(controls, count, <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#a5301207167e707f9b7296cad775ab8d9">cyclic</a>, cyclic_point);</div>
+<div class="line"><span class="lineno">  216</span>    }</div>
+<div class="ttc" id="aclass_movement_1_1_spline_base_html_a33f224d12367e8dd3f1a63e41979a639"><div class="ttname"><a href="../../d9/d35/class_movement_1_1_spline_base.html#a33f224d12367e8dd3f1a63e41979a639">Movement::SplineBase::initializers</a></div><div class="ttdeci">static InitMethtod initializers[ModesEnd]</div><div class="ttdef"><b>Definition:</b> Spline.h:84</div></div>
+<div class="ttc" id="aclass_movement_1_1_spline_base_html_a5301207167e707f9b7296cad775ab8d9"><div class="ttname"><a href="../../d9/d35/class_movement_1_1_spline_base.html#a5301207167e707f9b7296cad775ab8d9">Movement::SplineBase::cyclic</a></div><div class="ttdeci">bool cyclic</div><div class="ttdef"><b>Definition:</b> Spline.h:50</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a9b11420c24387cd4796650b85e37d359" name="a9b11420c24387cd4796650b85e37d359"></a>
@@ -991,7 +1069,13 @@ Static Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p >Initializes spline. Don't call other methods while spline not initialized. </p>
-
+<div class="fragment"><div class="line"><span class="lineno">  203</span>    {</div>
+<div class="line"><span class="lineno">  204</span>        <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#acab01ea4c863d0c90c169fc8813ddd4e">m_mode</a> = m;</div>
+<div class="line"><span class="lineno">  205</span>        <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#a5301207167e707f9b7296cad775ab8d9">cyclic</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  206</span> </div>
+<div class="line"><span class="lineno">  207</span>        (this-&gt;*<a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#a33f224d12367e8dd3f1a63e41979a639">initializers</a>[<a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#acab01ea4c863d0c90c169fc8813ddd4e">m_mode</a>])(controls, count, <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#a5301207167e707f9b7296cad775ab8d9">cyclic</a>, 0);</div>
+<div class="line"><span class="lineno">  208</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a0d320a2dc6db0e026829cdfce4bf1bd9" name="a0d320a2dc6db0e026829cdfce4bf1bd9"></a>
@@ -1020,7 +1104,10 @@ template&lt;class Init &gt; </div>
 </table>
 </div><div class="memdoc">
 <p >As i can see there are a lot of ways how spline can be initialized would be no harm to have some custom initializers. </p>
-
+<div class="fragment"><div class="line"><span class="lineno">  125</span>        {</div>
+<div class="line"><span class="lineno">  126</span>            initializer(<a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#acab01ea4c863d0c90c169fc8813ddd4e">m_mode</a>, <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#a5301207167e707f9b7296cad775ab8d9">cyclic</a>, <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#a37192fbc57bfe73c09916ec181860ed7">points</a>, <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#af38f585652cb0227e23299afa10bb96d">index_lo</a>, <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#acbc7e3f2c43de66ef88d86d1e2d9fab2">index_hi</a>);</div>
+<div class="line"><span class="lineno">  127</span>        }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad8e8a50d51c34508f25c158115f8abdb" name="ad8e8a50d51c34508f25c158115f8abdb"></a>
@@ -1068,7 +1155,19 @@ template&lt;class Init &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  272</span>    {</div>
+<div class="line"><span class="lineno">  273</span>        <a class="code hl_typedef" href="../../d9/d35/class_movement_1_1_spline_base.html#a6610d94dcbdc06c43565fa389b739c67">index_type</a> c = count / 3u * 3u;</div>
+<div class="line"><span class="lineno">  274</span>        <a class="code hl_typedef" href="../../d9/d35/class_movement_1_1_spline_base.html#a6610d94dcbdc06c43565fa389b739c67">index_type</a> t = c / 3u;</div>
+<div class="line"><span class="lineno">  275</span> </div>
+<div class="line"><span class="lineno">  276</span>        <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#a37192fbc57bfe73c09916ec181860ed7">points</a>.resize(c);</div>
+<div class="line"><span class="lineno">  277</span>        memcpy(&amp;<a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#a37192fbc57bfe73c09916ec181860ed7">points</a>[0], controls, <span class="keyword">sizeof</span>(Vector3) * c);</div>
+<div class="line"><span class="lineno">  278</span> </div>
+<div class="line"><span class="lineno">  279</span>        <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#af38f585652cb0227e23299afa10bb96d">index_lo</a> = 0;</div>
+<div class="line"><span class="lineno">  280</span>        <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#acbc7e3f2c43de66ef88d86d1e2d9fab2">index_hi</a> = t - 1;</div>
+<div class="line"><span class="lineno">  281</span>        <span class="comment">//mov_assert(points.size() % 3 == 0);</span></div>
+<div class="line"><span class="lineno">  282</span>    }</div>
+<div class="ttc" id="aclass_movement_1_1_spline_base_html_a6610d94dcbdc06c43565fa389b739c67"><div class="ttname"><a href="../../d9/d35/class_movement_1_1_spline_base.html#a6610d94dcbdc06c43565fa389b739c67">Movement::SplineBase::index_type</a></div><div class="ttdeci">int index_type</div><div class="ttdef"><b>Definition:</b> Spline.h:31</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ae1bc098b3ca87cd4b96f60b345ec22f2" name="ae1bc098b3ca87cd4b96f60b345ec22f2"></a>
@@ -1116,7 +1215,38 @@ template&lt;class Init &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  239</span>    {</div>
+<div class="line"><span class="lineno">  240</span>        <span class="keyword">const</span> <span class="keywordtype">int</span> real_size = count + (<a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#a5301207167e707f9b7296cad775ab8d9">cyclic</a> ? (1 + 2) : (1 + 1));</div>
+<div class="line"><span class="lineno">  241</span> </div>
+<div class="line"><span class="lineno">  242</span>        <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#a37192fbc57bfe73c09916ec181860ed7">points</a>.resize(real_size);</div>
+<div class="line"><span class="lineno">  243</span> </div>
+<div class="line"><span class="lineno">  244</span>        <span class="keywordtype">int</span> lo_index = 1;</div>
+<div class="line"><span class="lineno">  245</span>        <span class="keywordtype">int</span> high_index = lo_index + count - 1;</div>
+<div class="line"><span class="lineno">  246</span> </div>
+<div class="line"><span class="lineno">  247</span>        memcpy(&amp;<a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#a37192fbc57bfe73c09916ec181860ed7">points</a>[lo_index], controls, <span class="keyword">sizeof</span>(Vector3) * count);</div>
+<div class="line"><span class="lineno">  248</span> </div>
+<div class="line"><span class="lineno">  249</span>        <span class="comment">// first and last two indexes are space for special &#39;virtual points&#39;</span></div>
+<div class="line"><span class="lineno">  250</span>        <span class="comment">// these points are required for proper C_Evaluate and C_Evaluate_Derivative methtod work</span></div>
+<div class="line"><span class="lineno">  251</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#a5301207167e707f9b7296cad775ab8d9">cyclic</a>)</div>
+<div class="line"><span class="lineno">  252</span>        {</div>
+<div class="line"><span class="lineno">  253</span>            <span class="keywordflow">if</span> (cyclic_point == 0)</div>
+<div class="line"><span class="lineno">  254</span>                <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#a37192fbc57bfe73c09916ec181860ed7">points</a>[0] = controls[count - 1];</div>
+<div class="line"><span class="lineno">  255</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  256</span>                <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#a37192fbc57bfe73c09916ec181860ed7">points</a>[0] = controls[0].lerp(controls[1], -1);</div>
+<div class="line"><span class="lineno">  257</span> </div>
+<div class="line"><span class="lineno">  258</span>            <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#a37192fbc57bfe73c09916ec181860ed7">points</a>[high_index + 1] = controls[cyclic_point];</div>
+<div class="line"><span class="lineno">  259</span>            <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#a37192fbc57bfe73c09916ec181860ed7">points</a>[high_index + 2] = controls[cyclic_point + 1];</div>
+<div class="line"><span class="lineno">  260</span>        }</div>
+<div class="line"><span class="lineno">  261</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  262</span>        {</div>
+<div class="line"><span class="lineno">  263</span>            <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#a37192fbc57bfe73c09916ec181860ed7">points</a>[0] = controls[0].lerp(controls[1], -1);</div>
+<div class="line"><span class="lineno">  264</span>            <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#a37192fbc57bfe73c09916ec181860ed7">points</a>[high_index + 1] = controls[count - 1];</div>
+<div class="line"><span class="lineno">  265</span>        }</div>
+<div class="line"><span class="lineno">  266</span> </div>
+<div class="line"><span class="lineno">  267</span>        <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#af38f585652cb0227e23299afa10bb96d">index_lo</a> = lo_index;</div>
+<div class="line"><span class="lineno">  268</span>        <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#acbc7e3f2c43de66ef88d86d1e2d9fab2">index_hi</a> = high_index + (<a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#a5301207167e707f9b7296cad775ab8d9">cyclic</a> ? 1 : 0);</div>
+<div class="line"><span class="lineno">  269</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a6ffa3a73890229e987209965fe368a04" name="a6ffa3a73890229e987209965fe368a04"></a>
@@ -1164,7 +1294,25 @@ template&lt;class Init &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  219</span>    {</div>
+<div class="line"><span class="lineno">  220</span>        <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(count &gt;= 2);</div>
+<div class="line"><span class="lineno">  221</span>        <span class="keyword">const</span> <span class="keywordtype">int</span> real_size = count + 1;</div>
+<div class="line"><span class="lineno">  222</span> </div>
+<div class="line"><span class="lineno">  223</span>        <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#a37192fbc57bfe73c09916ec181860ed7">points</a>.resize(real_size);</div>
+<div class="line"><span class="lineno">  224</span> </div>
+<div class="line"><span class="lineno">  225</span>        memcpy(&amp;<a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#a37192fbc57bfe73c09916ec181860ed7">points</a>[0], controls, <span class="keyword">sizeof</span>(Vector3) * count);</div>
+<div class="line"><span class="lineno">  226</span> </div>
+<div class="line"><span class="lineno">  227</span>        <span class="comment">// first and last two indexes are space for special &#39;virtual points&#39;</span></div>
+<div class="line"><span class="lineno">  228</span>        <span class="comment">// these points are required for proper C_Evaluate and C_Evaluate_Derivative methtod work</span></div>
+<div class="line"><span class="lineno">  229</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#a5301207167e707f9b7296cad775ab8d9">cyclic</a>)</div>
+<div class="line"><span class="lineno">  230</span>            <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#a37192fbc57bfe73c09916ec181860ed7">points</a>[count] = controls[cyclic_point];</div>
+<div class="line"><span class="lineno">  231</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  232</span>            <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#a37192fbc57bfe73c09916ec181860ed7">points</a>[count] = controls[count - 1];</div>
+<div class="line"><span class="lineno">  233</span> </div>
+<div class="line"><span class="lineno">  234</span>        <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#af38f585652cb0227e23299afa10bb96d">index_lo</a> = 0;</div>
+<div class="line"><span class="lineno">  235</span>        <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#acbc7e3f2c43de66ef88d86d1e2d9fab2">index_hi</a> = <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#a5301207167e707f9b7296cad775ab8d9">cyclic</a> ? count : (count - 1);</div>
+<div class="line"><span class="lineno">  236</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a0f6aa656c6cf648879c9bfb90e4b577c" name="a0f6aa656c6cf648879c9bfb90e4b577c"></a>
@@ -1189,7 +1337,8 @@ template&lt;class Init &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  111</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#a5301207167e707f9b7296cad775ab8d9">cyclic</a>;}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac9b6a775702923a14230b1818843be7e" name="ac9b6a775702923a14230b1818843be7e"></a>
@@ -1214,7 +1363,8 @@ template&lt;class Init &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  107</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#acbc7e3f2c43de66ef88d86d1e2d9fab2">index_hi</a>;}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="afb64ddbb7477c7c9b9332c74ee536466" name="afb64ddbb7477c7c9b9332c74ee536466"></a>
@@ -1239,7 +1389,9 @@ template&lt;class Init &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  110</span>{ <span class="keywordflow">return</span> (<a class="code hl_enumeration" href="../../d9/d35/class_movement_1_1_spline_base.html#a815f7b7cd727035f39a5d81bb3ff731a">EvaluationMode</a>)<a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#acab01ea4c863d0c90c169fc8813ddd4e">m_mode</a>;}</div>
+<div class="ttc" id="aclass_movement_1_1_spline_base_html_a815f7b7cd727035f39a5d81bb3ff731a"><div class="ttname"><a href="../../d9/d35/class_movement_1_1_spline_base.html#a815f7b7cd727035f39a5d81bb3ff731a">Movement::SplineBase::EvaluationMode</a></div><div class="ttdeci">EvaluationMode</div><div class="ttdef"><b>Definition:</b> Spline.h:35</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a7fbf9bef91573f74a8260d0b98726bc9" name="a7fbf9bef91573f74a8260d0b98726bc9"></a>
@@ -1266,7 +1418,9 @@ template&lt;class Init &gt; </div>
 </table>
 </div><div class="memdoc">
 <p >Calculates distance between [i; i+1] points, assumes that index i is in bounds. </p>
-
+<div class="fragment"><div class="line"><span class="lineno">  132</span>{ <span class="keywordflow">return</span> (this-&gt;*<a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#ae755cfd5bbc9e1fae8678be70c82348b">seglengths</a>[<a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#acab01ea4c863d0c90c169fc8813ddd4e">m_mode</a>])(i);}</div>
+<div class="ttc" id="aclass_movement_1_1_spline_base_html_ae755cfd5bbc9e1fae8678be70c82348b"><div class="ttname"><a href="../../d9/d35/class_movement_1_1_spline_base.html#ae755cfd5bbc9e1fae8678be70c82348b">Movement::SplineBase::seglengths</a></div><div class="ttdeci">static SegLenghtMethtod seglengths[ModesEnd]</div><div class="ttdef"><b>Definition:</b> Spline.h:78</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a5ca255eb2aace968ba60cbd0eeaa9837" name="a5ca255eb2aace968ba60cbd0eeaa9837"></a>
@@ -1292,7 +1446,28 @@ template&lt;class Init &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  180</span>    {</div>
+<div class="line"><span class="lineno">  181</span>        index *= 3u;</div>
+<div class="line"><span class="lineno">  182</span>        <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(index &gt;= <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#af38f585652cb0227e23299afa10bb96d">index_lo</a> &amp;&amp; index &lt; <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#acbc7e3f2c43de66ef88d86d1e2d9fab2">index_hi</a>);</div>
+<div class="line"><span class="lineno">  183</span> </div>
+<div class="line"><span class="lineno">  184</span>        Vector3 curPos, nextPos;</div>
+<div class="line"><span class="lineno">  185</span>        <span class="keyword">const</span> Vector3* p = &amp;<a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#a37192fbc57bfe73c09916ec181860ed7">points</a>[index];</div>
+<div class="line"><span class="lineno">  186</span> </div>
+<div class="line"><span class="lineno">  187</span>        <a class="code hl_function" href="../../d1/dc5/namespace_movement.html#a409e47c24c7802840315c6e4c75725cc">C_Evaluate</a>(p, 0.f, <a class="code hl_function" href="../../d1/dc5/namespace_movement.html#a508e01047096fea2dbd9e0fedf6d75cb">s_Bezier3Coeffs</a>, nextPos);</div>
+<div class="line"><span class="lineno">  188</span>        curPos = nextPos;</div>
+<div class="line"><span class="lineno">  189</span> </div>
+<div class="line"><span class="lineno">  190</span>        <a class="code hl_typedef" href="../../d9/d35/class_movement_1_1_spline_base.html#a6610d94dcbdc06c43565fa389b739c67">index_type</a> i = 1;</div>
+<div class="line"><span class="lineno">  191</span>        <span class="keywordtype">double</span> length = 0;</div>
+<div class="line"><span class="lineno">  192</span>        <span class="keywordflow">while</span> (i &lt;= <a class="code hl_enumvalue" href="../../d9/d35/class_movement_1_1_spline_base.html#ab7e575c59a453db8b754e66002a666fdaf8e13b728ef434c606dc4c6b66684908">STEPS_PER_SEGMENT</a>)</div>
+<div class="line"><span class="lineno">  193</span>        {</div>
+<div class="line"><span class="lineno">  194</span>            <a class="code hl_function" href="../../d1/dc5/namespace_movement.html#a409e47c24c7802840315c6e4c75725cc">C_Evaluate</a>(p, <span class="keywordtype">float</span>(i) / <span class="keywordtype">float</span>(<a class="code hl_enumvalue" href="../../d9/d35/class_movement_1_1_spline_base.html#ab7e575c59a453db8b754e66002a666fdaf8e13b728ef434c606dc4c6b66684908">STEPS_PER_SEGMENT</a>), <a class="code hl_function" href="../../d1/dc5/namespace_movement.html#a508e01047096fea2dbd9e0fedf6d75cb">s_Bezier3Coeffs</a>, nextPos);</div>
+<div class="line"><span class="lineno">  195</span>            length += (nextPos - curPos).length();</div>
+<div class="line"><span class="lineno">  196</span>            curPos = nextPos;</div>
+<div class="line"><span class="lineno">  197</span>            ++i;</div>
+<div class="line"><span class="lineno">  198</span>        }</div>
+<div class="line"><span class="lineno">  199</span>        <span class="keywordflow">return</span> length;</div>
+<div class="line"><span class="lineno">  200</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a6c4861abaf2e0b2b594bdff0e18eb3b4" name="a6c4861abaf2e0b2b594bdff0e18eb3b4"></a>
@@ -1318,7 +1493,25 @@ template&lt;class Init &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  160</span>    {</div>
+<div class="line"><span class="lineno">  161</span>        <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(index &gt;= <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#af38f585652cb0227e23299afa10bb96d">index_lo</a> &amp;&amp; index &lt; <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#acbc7e3f2c43de66ef88d86d1e2d9fab2">index_hi</a>);</div>
+<div class="line"><span class="lineno">  162</span> </div>
+<div class="line"><span class="lineno">  163</span>        Vector3 curPos, nextPos;</div>
+<div class="line"><span class="lineno">  164</span>        <span class="keyword">const</span> Vector3* p = &amp;<a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#a37192fbc57bfe73c09916ec181860ed7">points</a>[index - 1];</div>
+<div class="line"><span class="lineno">  165</span>        curPos = nextPos = p[1];</div>
+<div class="line"><span class="lineno">  166</span> </div>
+<div class="line"><span class="lineno">  167</span>        <a class="code hl_typedef" href="../../d9/d35/class_movement_1_1_spline_base.html#a6610d94dcbdc06c43565fa389b739c67">index_type</a> i = 1;</div>
+<div class="line"><span class="lineno">  168</span>        <span class="keywordtype">double</span> length = 0;</div>
+<div class="line"><span class="lineno">  169</span>        <span class="keywordflow">while</span> (i &lt;= <a class="code hl_enumvalue" href="../../d9/d35/class_movement_1_1_spline_base.html#ab7e575c59a453db8b754e66002a666fdaf8e13b728ef434c606dc4c6b66684908">STEPS_PER_SEGMENT</a>)</div>
+<div class="line"><span class="lineno">  170</span>        {</div>
+<div class="line"><span class="lineno">  171</span>            <a class="code hl_function" href="../../d1/dc5/namespace_movement.html#a409e47c24c7802840315c6e4c75725cc">C_Evaluate</a>(p, <span class="keywordtype">float</span>(i) / <span class="keywordtype">float</span>(<a class="code hl_enumvalue" href="../../d9/d35/class_movement_1_1_spline_base.html#ab7e575c59a453db8b754e66002a666fdaf8e13b728ef434c606dc4c6b66684908">STEPS_PER_SEGMENT</a>), <a class="code hl_function" href="../../d1/dc5/namespace_movement.html#aff10e913762216c0735a8a3530ee25d2">s_catmullRomCoeffs</a>, nextPos);</div>
+<div class="line"><span class="lineno">  172</span>            length += (nextPos - curPos).length();</div>
+<div class="line"><span class="lineno">  173</span>            curPos = nextPos;</div>
+<div class="line"><span class="lineno">  174</span>            ++i;</div>
+<div class="line"><span class="lineno">  175</span>        }</div>
+<div class="line"><span class="lineno">  176</span>        <span class="keywordflow">return</span> length;</div>
+<div class="line"><span class="lineno">  177</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a17550dfbefd86496ca9adfb69ea79ec7" name="a17550dfbefd86496ca9adfb69ea79ec7"></a>
@@ -1344,7 +1537,11 @@ template&lt;class Init &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  154</span>    {</div>
+<div class="line"><span class="lineno">  155</span>        <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(index &gt;= <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#af38f585652cb0227e23299afa10bb96d">index_lo</a> &amp;&amp; index &lt; <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#acbc7e3f2c43de66ef88d86d1e2d9fab2">index_hi</a>);</div>
+<div class="line"><span class="lineno">  156</span>        <span class="keywordflow">return</span> (<a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#a37192fbc57bfe73c09916ec181860ed7">points</a>[index] - <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#a37192fbc57bfe73c09916ec181860ed7">points</a>[index + 1]).length();</div>
+<div class="line"><span class="lineno">  157</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad6dd181fc2a4b086cf19a4d6df006606" name="ad6dd181fc2a4b086cf19a4d6df006606"></a>
@@ -1361,7 +1558,20 @@ template&lt;class Init &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  292</span>    {</div>
+<div class="line"><span class="lineno">  293</span>        std::stringstream str;</div>
+<div class="line"><span class="lineno">  294</span>        <span class="keyword">const</span> <span class="keywordtype">char</span>* mode_str[<a class="code hl_enumvalue" href="../../d9/d35/class_movement_1_1_spline_base.html#a815f7b7cd727035f39a5d81bb3ff731aa283328758f9b80aced4f344a65564468">ModesEnd</a>] = {<span class="stringliteral">&quot;Linear&quot;</span>, <span class="stringliteral">&quot;CatmullRom&quot;</span>, <span class="stringliteral">&quot;Bezier3&quot;</span>, <span class="stringliteral">&quot;Uninitialized&quot;</span>};</div>
+<div class="line"><span class="lineno">  295</span> </div>
+<div class="line"><span class="lineno">  296</span>        <a class="code hl_typedef" href="../../d9/d35/class_movement_1_1_spline_base.html#a6610d94dcbdc06c43565fa389b739c67">index_type</a> count = this-&gt;<a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#a37192fbc57bfe73c09916ec181860ed7">points</a>.size();</div>
+<div class="line"><span class="lineno">  297</span>        str &lt;&lt; <span class="stringliteral">&quot;mode: &quot;</span> &lt;&lt; mode_str[<a class="code hl_function" href="../../d9/d35/class_movement_1_1_spline_base.html#afb64ddbb7477c7c9b9332c74ee536466">mode</a>()] &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">  298</span>        str &lt;&lt; <span class="stringliteral">&quot;points count: &quot;</span> &lt;&lt; count &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">  299</span>        <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d9/d35/class_movement_1_1_spline_base.html#a6610d94dcbdc06c43565fa389b739c67">index_type</a> i = 0; i &lt; count; ++i)</div>
+<div class="line"><span class="lineno">  300</span>            str &lt;&lt; <span class="stringliteral">&quot;point &quot;</span> &lt;&lt; i &lt;&lt; <span class="stringliteral">&quot; : &quot;</span> &lt;&lt; <a class="code hl_variable" href="../../d9/d35/class_movement_1_1_spline_base.html#a37192fbc57bfe73c09916ec181860ed7">points</a>[i].toString() &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">  301</span> </div>
+<div class="line"><span class="lineno">  302</span>        <span class="keywordflow">return</span> str.str();</div>
+<div class="line"><span class="lineno">  303</span>    }</div>
+<div class="ttc" id="aclass_movement_1_1_spline_base_html_afb64ddbb7477c7c9b9332c74ee536466"><div class="ttname"><a href="../../d9/d35/class_movement_1_1_spline_base.html#afb64ddbb7477c7c9b9332c74ee536466">Movement::SplineBase::mode</a></div><div class="ttdeci">EvaluationMode mode() const</div><div class="ttdef"><b>Definition:</b> Spline.h:110</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aec65c172c290e441867312afb9e7369b" name="aec65c172c290e441867312afb9e7369b"></a>
@@ -1403,7 +1613,9 @@ template&lt;class Init &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   86</span>{ <a class="code hl_define" href="../../db/d16/_errors_8h.html#a5376571bbf4cdc9782683635f366f89a">ABORT</a>(); }</div>
+<div class="ttc" id="a_errors_8h_html_a5376571bbf4cdc9782683635f366f89a"><div class="ttname"><a href="../../db/d16/_errors_8h.html#a5376571bbf4cdc9782683635f366f89a">ABORT</a></div><div class="ttdeci">#define ABORT</div><div class="ttdef"><b>Definition:</b> Errors.h:76</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a520721b492690d166fdb6c17a6bffe51" name="a520721b492690d166fdb6c17a6bffe51"></a>
@@ -1451,7 +1663,8 @@ template&lt;class Init &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   88</span>{ <a class="code hl_define" href="../../db/d16/_errors_8h.html#a5376571bbf4cdc9782683635f366f89a">ABORT</a>(); }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a60572b06ecbd6b106ec4bb25c925542f" name="a60572b06ecbd6b106ec4bb25c925542f"></a>
@@ -1477,7 +1690,8 @@ template&lt;class Init &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   87</span>{ <a class="code hl_define" href="../../db/d16/_errors_8h.html#a5376571bbf4cdc9782683635f366f89a">ABORT</a>(); }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -1723,8 +1937,8 @@ template&lt;class Init &gt; </div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Movement/Spline/<a class="el" href="../../d4/d25/_spline_8h_source.html">Spline.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/Movement/Spline/<a class="el" href="../../d6/d72/_spline_8cpp.html">Spline.cpp</a></li>
+<li><a class="el" href="../../">Spline.h</a></li>
+<li><a class="el" href="../../">Spline.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -1732,7 +1946,7 @@ template&lt;class Init &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/dc5/namespace_movement.html">Movement</a></li><li class="navelem"><a class="el" href="../../d9/d35/class_movement_1_1_spline_base.html">SplineBase</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:14 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:32 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -114,7 +114,7 @@ $(document).ready(function(){initNavTree('d0/ded/class_enum_flag.html','../../')
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d0/dad/_enum_flag_8h_source.html">EnumFlag.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">EnumFlag.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -149,7 +149,9 @@ Friends</h2></td></tr>
 <tr class="memitem:add07cc2598afc632e84ffdc0bf60cd81"><td class="memItemLeft" align="right" valign="top">constexpr friend <a class="el" href="../../d0/ded/class_enum_flag.html">EnumFlag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/ded/class_enum_flag.html#add07cc2598afc632e84ffdc0bf60cd81">operator|</a> (<a class="el" href="../../d0/ded/class_enum_flag.html">EnumFlag</a> left, <a class="el" href="../../d0/ded/class_enum_flag.html">EnumFlag</a> right)</td></tr>
 <tr class="separator:add07cc2598afc632e84ffdc0bf60cd81"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;typename T&gt;<br />
+class EnumFlag&lt; T &gt;</div></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a877aa23dfde6aa91cff6d8c0eb9a4732" name="a877aa23dfde6aa91cff6d8c0eb9a4732"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a877aa23dfde6aa91cff6d8c0eb9a4732">&#9670;&#160;</a></span>EnumFlag()</h2>
 
@@ -175,7 +177,11 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   58</span>                                  : <a class="code hl_variable" href="../../d0/ded/class_enum_flag.html#a55353d720942d68d0dea86837aaca7c5">_value</a>(value)</div>
+<div class="line"><span class="lineno">   59</span>    {</div>
+<div class="line"><span class="lineno">   60</span>    }</div>
+<div class="ttc" id="aclass_enum_flag_html_a55353d720942d68d0dea86837aaca7c5"><div class="ttname"><a href="../../d0/ded/class_enum_flag.html#a55353d720942d68d0dea86837aaca7c5">EnumFlag::_value</a></div><div class="ttdeci">T _value</div><div class="ttdef"><b>Definition:</b> EnumFlag.h:116</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -203,7 +209,10 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  111</span>    {</div>
+<div class="line"><span class="lineno">  112</span>        <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span>std::underlying_type_t&lt;T&gt;<span class="keyword">&gt;</span>(<a class="code hl_variable" href="../../d0/ded/class_enum_flag.html#a55353d720942d68d0dea86837aaca7c5">_value</a>);</div>
+<div class="line"><span class="lineno">  113</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="adb5b65ab4a3d827882634d94774a912b" name="adb5b65ab4a3d827882634d94774a912b"></a>
@@ -231,7 +240,10 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  101</span>    {</div>
+<div class="line"><span class="lineno">  102</span>        <span class="keywordflow">return</span> (<a class="code hl_variable" href="../../d0/ded/class_enum_flag.html#a55353d720942d68d0dea86837aaca7c5">_value</a> &amp; flags) == flags;</div>
+<div class="line"><span class="lineno">  103</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a311985d41e79365bf9fd5bcb7c8fbf0c" name="a311985d41e79365bf9fd5bcb7c8fbf0c"></a>
@@ -259,7 +271,11 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   95</span>    {</div>
+<div class="line"><span class="lineno">   96</span>        <span class="keyword">using </span>i = std::underlying_type_t&lt;T&gt;;</div>
+<div class="line"><span class="lineno">   97</span>        <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span>i<span class="keyword">&gt;</span>(<a class="code hl_variable" href="../../d0/ded/class_enum_flag.html#a55353d720942d68d0dea86837aaca7c5">_value</a> &amp; flag) != <span class="keyword">static_cast&lt;</span>i<span class="keyword">&gt;</span>(0);</div>
+<div class="line"><span class="lineno">   98</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a13022712c9634c84907b906e55aebe28" name="a13022712c9634c84907b906e55aebe28"></a>
@@ -286,7 +302,10 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  106</span>    {</div>
+<div class="line"><span class="lineno">  107</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d0/ded/class_enum_flag.html#a55353d720942d68d0dea86837aaca7c5">_value</a>;</div>
+<div class="line"><span class="lineno">  108</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="afb2c7428dd07e4f427b0b0ca5ac0f7c3" name="afb2c7428dd07e4f427b0b0ca5ac0f7c3"></a>
@@ -314,7 +333,11 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   63</span>    {</div>
+<div class="line"><span class="lineno">   64</span>        <a class="code hl_variable" href="../../d0/ded/class_enum_flag.html#a55353d720942d68d0dea86837aaca7c5">_value</a> &amp;= right.<a class="code hl_variable" href="../../d0/ded/class_enum_flag.html#a55353d720942d68d0dea86837aaca7c5">_value</a>;</div>
+<div class="line"><span class="lineno">   65</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">   66</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ab49498ed668ee324702c4beadf4de999" name="ab49498ed668ee324702c4beadf4de999"></a>
@@ -342,7 +365,11 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   74</span>    {</div>
+<div class="line"><span class="lineno">   75</span>        <a class="code hl_variable" href="../../d0/ded/class_enum_flag.html#a55353d720942d68d0dea86837aaca7c5">_value</a> |= right.<a class="code hl_variable" href="../../d0/ded/class_enum_flag.html#a55353d720942d68d0dea86837aaca7c5">_value</a>;</div>
+<div class="line"><span class="lineno">   76</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">   77</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a3001eac7546c03530d1e51d5c1e6abfd" name="a3001eac7546c03530d1e51d5c1e6abfd"></a>
@@ -369,7 +396,10 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   85</span>    {</div>
+<div class="line"><span class="lineno">   86</span>        <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span>T<span class="keyword">&gt;</span>(~static_cast&lt;std::underlying_type_t&lt;T&gt;&gt;(<a class="code hl_variable" href="../../d0/ded/class_enum_flag.html#a55353d720942d68d0dea86837aaca7c5">_value</a>));</div>
+<div class="line"><span class="lineno">   87</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a106a00ee4112382aa0120489551bf50a" name="a106a00ee4112382aa0120489551bf50a"></a>
@@ -397,7 +427,10 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   90</span>    {</div>
+<div class="line"><span class="lineno">   91</span>        <a class="code hl_variable" href="../../d0/ded/class_enum_flag.html#a55353d720942d68d0dea86837aaca7c5">_value</a> &amp;= ~flag._value;</div>
+<div class="line"><span class="lineno">   92</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Friends And Related Function Documentation</h2>
@@ -436,7 +469,10 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   69</span>    {</div>
+<div class="line"><span class="lineno">   70</span>        <span class="keywordflow">return</span> left &amp;= right;</div>
+<div class="line"><span class="lineno">   71</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="add07cc2598afc632e84ffdc0bf60cd81" name="add07cc2598afc632e84ffdc0bf60cd81"></a>
@@ -474,7 +510,10 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   80</span>    {</div>
+<div class="line"><span class="lineno">   81</span>        <span class="keywordflow">return</span> left |= right;</div>
+<div class="line"><span class="lineno">   82</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -503,7 +542,7 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/common/Utilities/<a class="el" href="../../d0/dad/_enum_flag_8h_source.html">EnumFlag.h</a></li>
+<li><a class="el" href="../../">EnumFlag.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -511,7 +550,7 @@ template&lt;typename T &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d0/ded/class_enum_flag.html">EnumFlag</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:45 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:58 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -131,7 +131,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a6ee78b1ca184a05d01aa053afe499a95"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ddd/struct_shadow_trap_l_k_target_selector.html#a6ee78b1ca184a05d01aa053afe499a95">_maxDist</a></td></tr>
 <tr class="separator:a6ee78b1ca184a05d01aa053afe499a95"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a33561775948e07ac6ade2037f237441d" name="a33561775948e07ac6ade2037f237441d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a33561775948e07ac6ade2037f237441d">&#9670;&#160;</a></span>ShadowTrapLKTargetSelector()</h2>
 
@@ -177,7 +178,12 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  377</span>: <a class="code hl_variable" href="../../dd/ddd/struct_shadow_trap_l_k_target_selector.html#af416013aabf3b217b07228072076603d">_source</a>(source), <a class="code hl_variable" href="../../dd/ddd/struct_shadow_trap_l_k_target_selector.html#acfb3a657e430bc2ca26680bef6cf0159">_playerOnly</a>(playerOnly), <a class="code hl_variable" href="../../dd/ddd/struct_shadow_trap_l_k_target_selector.html#a7911be23196f59d55028affc3be23c20">_reqLOS</a>(reqLOS), <a class="code hl_variable" href="../../dd/ddd/struct_shadow_trap_l_k_target_selector.html#a6ee78b1ca184a05d01aa053afe499a95">_maxDist</a>(maxDist) { }</div>
+<div class="ttc" id="astruct_shadow_trap_l_k_target_selector_html_a6ee78b1ca184a05d01aa053afe499a95"><div class="ttname"><a href="../../dd/ddd/struct_shadow_trap_l_k_target_selector.html#a6ee78b1ca184a05d01aa053afe499a95">ShadowTrapLKTargetSelector::_maxDist</a></div><div class="ttdeci">float _maxDist</div><div class="ttdef"><b>Definition:</b> boss_the_lich_king.cpp:397</div></div>
+<div class="ttc" id="astruct_shadow_trap_l_k_target_selector_html_a7911be23196f59d55028affc3be23c20"><div class="ttname"><a href="../../dd/ddd/struct_shadow_trap_l_k_target_selector.html#a7911be23196f59d55028affc3be23c20">ShadowTrapLKTargetSelector::_reqLOS</a></div><div class="ttdeci">bool _reqLOS</div><div class="ttdef"><b>Definition:</b> boss_the_lich_king.cpp:396</div></div>
+<div class="ttc" id="astruct_shadow_trap_l_k_target_selector_html_acfb3a657e430bc2ca26680bef6cf0159"><div class="ttname"><a href="../../dd/ddd/struct_shadow_trap_l_k_target_selector.html#acfb3a657e430bc2ca26680bef6cf0159">ShadowTrapLKTargetSelector::_playerOnly</a></div><div class="ttdeci">bool _playerOnly</div><div class="ttdef"><b>Definition:</b> boss_the_lich_king.cpp:395</div></div>
+<div class="ttc" id="astruct_shadow_trap_l_k_target_selector_html_af416013aabf3b217b07228072076603d"><div class="ttname"><a href="../../dd/ddd/struct_shadow_trap_l_k_target_selector.html#af416013aabf3b217b07228072076603d">ShadowTrapLKTargetSelector::_source</a></div><div class="ttdeci">Creature const  * _source</div><div class="ttdef"><b>Definition:</b> boss_the_lich_king.cpp:394</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -204,7 +210,23 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  379</span>    {</div>
+<div class="line"><span class="lineno">  380</span>        <span class="keywordflow">if</span> (!target)</div>
+<div class="line"><span class="lineno">  381</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  382</span>        <span class="keywordflow">if</span> (!target-&gt;IsAlive())</div>
+<div class="line"><span class="lineno">  383</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  384</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dd/ddd/struct_shadow_trap_l_k_target_selector.html#acfb3a657e430bc2ca26680bef6cf0159">_playerOnly</a> &amp;&amp; target-&gt;GetTypeId() != <a class="code hl_enumvalue" href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a>)</div>
+<div class="line"><span class="lineno">  385</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  386</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dd/ddd/struct_shadow_trap_l_k_target_selector.html#a6ee78b1ca184a05d01aa053afe499a95">_maxDist</a> &amp;&amp; <a class="code hl_variable" href="../../dd/ddd/struct_shadow_trap_l_k_target_selector.html#af416013aabf3b217b07228072076603d">_source</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#a45b83c2b057421d190c01b819b513cdc">GetExactDist</a>(target) &gt; <a class="code hl_variable" href="../../dd/ddd/struct_shadow_trap_l_k_target_selector.html#a6ee78b1ca184a05d01aa053afe499a95">_maxDist</a>)</div>
+<div class="line"><span class="lineno">  387</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  388</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dd/ddd/struct_shadow_trap_l_k_target_selector.html#a7911be23196f59d55028affc3be23c20">_reqLOS</a> &amp;&amp; !<a class="code hl_variable" href="../../dd/ddd/struct_shadow_trap_l_k_target_selector.html#af416013aabf3b217b07228072076603d">_source</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a3b4bf64ce1648c214c4f049cfff8eb93">IsWithinLOSInMap</a>(target))</div>
+<div class="line"><span class="lineno">  389</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  390</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  391</span>    }</div>
+<div class="ttc" id="a_object_guid_8h_html_a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c"><div class="ttname"><a href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a></div><div class="ttdeci">@ TYPEID_PLAYER</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:38</div></div>
+<div class="ttc" id="aclass_world_object_html_a3b4bf64ce1648c214c4f049cfff8eb93"><div class="ttname"><a href="../../db/df7/class_world_object.html#a3b4bf64ce1648c214c4f049cfff8eb93">WorldObject::IsWithinLOSInMap</a></div><div class="ttdeci">bool IsWithinLOSInMap(WorldObject const *obj, VMAP::ModelIgnoreFlags ignoreFlags=VMAP::ModelIgnoreFlags::Nothing, LineOfSightChecks checks=LINEOFSIGHT_ALL_CHECKS, Optional&lt; float &gt; collisionHeight={ }) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1347</div></div>
+<div class="ttc" id="astruct_position_html_a45b83c2b057421d190c01b819b513cdc"><div class="ttname"><a href="../../d1/d26/struct_position.html#a45b83c2b057421d190c01b819b513cdc">Position::GetExactDist</a></div><div class="ttdeci">float GetExactDist(float x, float y, float z) const</div><div class="ttdef"><b>Definition:</b> Position.h:178</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -297,7 +319,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/IcecrownCitadel/<a class="el" href="../../da/d78/boss__the__lich__king_8cpp.html">boss_the_lich_king.cpp</a></li>
+<li><a class="el" href="../../">boss_the_lich_king.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -305,7 +327,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dd/ddd/struct_shadow_trap_l_k_target_selector.html">ShadowTrapLKTargetSelector</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:58 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:15 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

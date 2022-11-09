@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzeorthCore: D:/azerothcore-wotlk/src/server/game/Entities/Object/ObjectGuid.cpp File Reference</title>
+<title>AzeorthCore: ObjectGuid.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -111,12 +111,14 @@ $(document).ready(function(){initNavTree('da/d5f/_object_guid_8cpp.html','../../
   <div class="headertitle"><div class="title">ObjectGuid.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../d9/d83/_object_guid_8h_source.html">ObjectGuid.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../da/df4/_log_8h_source.html">Log.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d8/d86/_world_8h_source.html">World.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">ObjectGuid.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Log.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">World.h</a>&quot;</code><br />
 <code>#include &lt;iomanip&gt;</code><br />
 <code>#include &lt;sstream&gt;</code><br />
-</div><table class="memberdecls">
+</div>
+<p><a href="">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
 <tr class="memitem:a62c17cbc4f3da3f26f9c1ae3ba2c4953"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d5f/_object_guid_8cpp.html#a62c17cbc4f3da3f26f9c1ae3ba2c4953">GUID_TRAIT_INSTANTIATE_GUID</a>(HIGH_GUID)&#160;&#160;&#160;    template class <a class="el" href="../../d9/d65/class_object_guid_generator.html">ObjectGuidGenerator</a>&lt; HIGH_GUID &gt;;</td></tr>
@@ -178,7 +180,12 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   70</span>{</div>
+<div class="line"><span class="lineno">   71</span>    buf &lt;&lt; <a class="code hl_typedef" href="../../db/d35/_define_8h.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a>(guid.GetRawValue());</div>
+<div class="line"><span class="lineno">   72</span>    <span class="keywordflow">return</span> buf;</div>
+<div class="line"><span class="lineno">   73</span>}</div>
+<div class="ttc" id="a_define_8h_html_ac4dd6ce78ce3b840c53bd4b3c63ed09b"><div class="ttname"><a href="../../db/d35/_define_8h.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a></div><div class="ttdeci">std::uint64_t uint64</div><div class="ttdef"><b>Definition:</b> Define.h:107</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a94ab551ce00fd82dea1532d47ad908bc" name="a94ab551ce00fd82dea1532d47ad908bc"></a>
@@ -206,7 +213,12 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   82</span>{</div>
+<div class="line"><span class="lineno">   83</span>    buf.<a class="code hl_function" href="../../dd/d44/class_byte_buffer.html#a5811e6da355e8c3d0f45997a557a666b">append</a>(guid._packedGuid);</div>
+<div class="line"><span class="lineno">   84</span>    <span class="keywordflow">return</span> buf;</div>
+<div class="line"><span class="lineno">   85</span>}</div>
+<div class="ttc" id="aclass_byte_buffer_html_a5811e6da355e8c3d0f45997a557a666b"><div class="ttname"><a href="../../dd/d44/class_byte_buffer.html#a5811e6da355e8c3d0f45997a557a666b">ByteBuffer::append</a></div><div class="ttdeci">void append(T value)</div><div class="ttdef"><b>Definition:</b> ByteBuffer.h:129</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a30aef535f2839648f0ae4648c746d3e2" name="a30aef535f2839648f0ae4648c746d3e2"></a>
@@ -234,7 +246,13 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   76</span>{</div>
+<div class="line"><span class="lineno">   77</span>    guid.<a class="code hl_function" href="../../d8/d03/class_object_guid.html#adfd90f25996d5e85a14e25f1af152c94">Set</a>(buf.<a class="code hl_function" href="../../dd/d44/class_byte_buffer.html#afab3484e1af821859f16b7bdacf2af9c">read</a>&lt;<a class="code hl_typedef" href="../../db/d35/_define_8h.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a>&gt;());</div>
+<div class="line"><span class="lineno">   78</span>    <span class="keywordflow">return</span> buf;</div>
+<div class="line"><span class="lineno">   79</span>}</div>
+<div class="ttc" id="aclass_byte_buffer_html_afab3484e1af821859f16b7bdacf2af9c"><div class="ttname"><a href="../../dd/d44/class_byte_buffer.html#afab3484e1af821859f16b7bdacf2af9c">ByteBuffer::read</a></div><div class="ttdeci">T read()</div><div class="ttdef"><b>Definition:</b> ByteBuffer.h:351</div></div>
+<div class="ttc" id="aclass_object_guid_html_adfd90f25996d5e85a14e25f1af152c94"><div class="ttname"><a href="../../d8/d03/class_object_guid.html#adfd90f25996d5e85a14e25f1af152c94">ObjectGuid::Set</a></div><div class="ttdeci">void Set(uint64 guid)</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:139</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a95f3a6eef334b9fcdcaca879532c25d4" name="a95f3a6eef334b9fcdcaca879532c25d4"></a>
@@ -262,7 +280,12 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   88</span>{</div>
+<div class="line"><span class="lineno">   89</span>    buf.<a class="code hl_function" href="../../dd/d44/class_byte_buffer.html#ad04535f80c6d32211f3b377ca8c32e68">readPackGUID</a>(<span class="keyword">reinterpret_cast&lt;</span><a class="code hl_typedef" href="../../db/d35/_define_8h.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a>&amp;<span class="keyword">&gt;</span>(guid.Guid));</div>
+<div class="line"><span class="lineno">   90</span>    <span class="keywordflow">return</span> buf;</div>
+<div class="line"><span class="lineno">   91</span>}</div>
+<div class="ttc" id="aclass_byte_buffer_html_ad04535f80c6d32211f3b377ca8c32e68"><div class="ttname"><a href="../../dd/d44/class_byte_buffer.html#ad04535f80c6d32211f3b377ca8c32e68">ByteBuffer::readPackGUID</a></div><div class="ttdeci">void readPackGUID(uint64 &amp;guid)</div><div class="ttdef"><b>Definition:</b> ByteBuffer.h:387</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
@@ -271,7 +294,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_e83c9d0a1780a629eb22febc87da63b1.html">Entities</a></li><li class="navelem"><a class="el" href="../../dir_7cceb56be83a77325820340cc4b7f0cb.html">Object</a></li><li class="navelem"><a class="el" href="../../da/d5f/_object_guid_8cpp.html">ObjectGuid.cpp</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:18 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:32 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

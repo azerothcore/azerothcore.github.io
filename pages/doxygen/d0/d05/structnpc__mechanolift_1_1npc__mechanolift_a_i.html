@@ -394,7 +394,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ad772427e03c2bd2c3a51556b6e5968b5" name="ad772427e03c2bd2c3a51556b6e5968b5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad772427e03c2bd2c3a51556b6e5968b5">&#9670;&#160;</a></span>npc_mechanoliftAI()</h2>
 
@@ -418,7 +419,16 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1389</span>                                       : <a class="code hl_class" href="../../d6/df7/class_null_creature_a_i.html">NullCreatureAI</a>(c)</div>
+<div class="line"><span class="lineno"> 1390</span>        {</div>
+<div class="line"><span class="lineno"> 1391</span>            <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ab30ea03b94379b25f1d75ea879b4a61c">SetSpeed</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#af91f7580a89722b7dc45a018bb46fce4ad231571a48b7742c2a432eb7a8a849de">MOVE_RUN</a>, <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#af2f9363ceebb6f78067b4a146d1de9df">rand_norm</a>() + 0.5f);</div>
+<div class="line"><span class="lineno"> 1392</span>        }</div>
+<div class="ttc" id="a_random_8cpp_html_af2f9363ceebb6f78067b4a146d1de9df"><div class="ttname"><a href="../../d9/d1e/_random_8cpp.html#af2f9363ceebb6f78067b4a146d1de9df">rand_norm</a></div><div class="ttdeci">double rand_norm()</div><div class="ttdef"><b>Definition:</b> Random.cpp:77</div></div>
+<div class="ttc" id="a_unit_8h_html_af91f7580a89722b7dc45a018bb46fce4ad231571a48b7742c2a432eb7a8a849de"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#af91f7580a89722b7dc45a018bb46fce4ad231571a48b7742c2a432eb7a8a849de">MOVE_RUN</a></div><div class="ttdeci">@ MOVE_RUN</div><div class="ttdef"><b>Definition:</b> Unit.h:379</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_aee5bf3d421199445de241a34798ae819"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">CreatureAI::me</a></div><div class="ttdeci">Creature *const me</div><div class="ttdef"><b>Definition:</b> CreatureAI.h:72</div></div>
+<div class="ttc" id="aclass_null_creature_a_i_html"><div class="ttname"><a href="../../d6/df7/class_null_creature_a_i.html">NullCreatureAI</a></div><div class="ttdef"><b>Definition:</b> PassiveAI.h:53</div></div>
+<div class="ttc" id="aclass_unit_html_ab30ea03b94379b25f1d75ea879b4a61c"><div class="ttname"><a href="../../da/db7/class_unit.html#ab30ea03b94379b25f1d75ea879b4a61c">Unit::SetSpeed</a></div><div class="ttdeci">void SetSpeed(UnitMoveType mtype, float rate, bool forced=false)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:14301</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -446,7 +456,14 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d9c/class_unit_a_i.html#a43eb9ef68b977d98f6618d69a0d62115">UnitAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1398</span>        {</div>
+<div class="line"><span class="lineno"> 1399</span>            <a class="code hl_variable" href="../../d0/d05/structnpc__mechanolift_1_1npc__mechanolift_a_i.html#a9b1587bbadd8f0044e1d404d55b8ba1f">_startTimer</a> = <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(1, 5000);</div>
+<div class="line"><span class="lineno"> 1400</span>            <a class="code hl_variable" href="../../d0/d05/structnpc__mechanolift_1_1npc__mechanolift_a_i.html#a53da6899ad0dcea569ca29f57e45bf61">_evadeTimer</a> = 0;</div>
+<div class="line"><span class="lineno"> 1401</span>        }</div>
+<div class="ttc" id="a_random_8cpp_html_ab17def34ccbbd868dc87a16bf35acdbd"><div class="ttname"><a href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a></div><div class="ttdeci">uint32 urand(uint32 min, uint32 max)</div><div class="ttdef"><b>Definition:</b> Random.cpp:44</div></div>
+<div class="ttc" id="astructnpc__mechanolift_1_1npc__mechanolift_a_i_html_a53da6899ad0dcea569ca29f57e45bf61"><div class="ttname"><a href="../../d0/d05/structnpc__mechanolift_1_1npc__mechanolift_a_i.html#a53da6899ad0dcea569ca29f57e45bf61">npc_mechanolift::npc_mechanoliftAI::_evadeTimer</a></div><div class="ttdeci">uint32 _evadeTimer</div><div class="ttdef"><b>Definition:</b> boss_flame_leviathan.cpp:1395</div></div>
+<div class="ttc" id="astructnpc__mechanolift_1_1npc__mechanolift_a_i_html_a9b1587bbadd8f0044e1d404d55b8ba1f"><div class="ttname"><a href="../../d0/d05/structnpc__mechanolift_1_1npc__mechanolift_a_i.html#a9b1587bbadd8f0044e1d404d55b8ba1f">npc_mechanolift::npc_mechanoliftAI::_startTimer</a></div><div class="ttdeci">int32 _startTimer</div><div class="ttdef"><b>Definition:</b> boss_flame_leviathan.cpp:1394</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a3f8634abde6b3aa00acf03c77df433be" name="a3f8634abde6b3aa00acf03c77df433be"></a>
@@ -474,7 +491,28 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d6/df7/class_null_creature_a_i.html#ab200fcf78dee74a2ec808c01f5855236">NullCreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1404</span>        {</div>
+<div class="line"><span class="lineno"> 1405</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d0/d05/structnpc__mechanolift_1_1npc__mechanolift_a_i.html#a9b1587bbadd8f0044e1d404d55b8ba1f">_startTimer</a>)</div>
+<div class="line"><span class="lineno"> 1406</span>            {</div>
+<div class="line"><span class="lineno"> 1407</span>                <a class="code hl_variable" href="../../d0/d05/structnpc__mechanolift_1_1npc__mechanolift_a_i.html#a9b1587bbadd8f0044e1d404d55b8ba1f">_startTimer</a> -= diff;</div>
+<div class="line"><span class="lineno"> 1408</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d0/d05/structnpc__mechanolift_1_1npc__mechanolift_a_i.html#a9b1587bbadd8f0044e1d404d55b8ba1f">_startTimer</a> &lt;= 0)</div>
+<div class="line"><span class="lineno"> 1409</span>                {</div>
+<div class="line"><span class="lineno"> 1410</span>                    <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../df/d4d/class_motion_master.html#acd2899e1663e5b925c27df72288eafc9">MovePath</a>(3000000 + <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(0, 11), <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno"> 1411</span>                    <a class="code hl_variable" href="../../d0/d05/structnpc__mechanolift_1_1npc__mechanolift_a_i.html#a9b1587bbadd8f0044e1d404d55b8ba1f">_startTimer</a> = 0;</div>
+<div class="line"><span class="lineno"> 1412</span>                }</div>
+<div class="line"><span class="lineno"> 1413</span>            }</div>
+<div class="line"><span class="lineno"> 1414</span> </div>
+<div class="line"><span class="lineno"> 1415</span>            <a class="code hl_variable" href="../../d0/d05/structnpc__mechanolift_1_1npc__mechanolift_a_i.html#a53da6899ad0dcea569ca29f57e45bf61">_evadeTimer</a> += diff;</div>
+<div class="line"><span class="lineno"> 1416</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d0/d05/structnpc__mechanolift_1_1npc__mechanolift_a_i.html#a53da6899ad0dcea569ca29f57e45bf61">_evadeTimer</a> &gt;= 10000)</div>
+<div class="line"><span class="lineno"> 1417</span>            {</div>
+<div class="line"><span class="lineno"> 1418</span>                <a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#a7cd0b6bf7ee616d4d4e98045f7b808c0">_EnterEvadeMode</a>();</div>
+<div class="line"><span class="lineno"> 1419</span>                <a class="code hl_variable" href="../../d0/d05/structnpc__mechanolift_1_1npc__mechanolift_a_i.html#a53da6899ad0dcea569ca29f57e45bf61">_evadeTimer</a> = 0;</div>
+<div class="line"><span class="lineno"> 1420</span>            }</div>
+<div class="line"><span class="lineno"> 1421</span>        }</div>
+<div class="ttc" id="aclass_creature_a_i_html_a7cd0b6bf7ee616d4d4e98045f7b808c0"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#a7cd0b6bf7ee616d4d4e98045f7b808c0">CreatureAI::_EnterEvadeMode</a></div><div class="ttdeci">bool _EnterEvadeMode(EvadeReason why=EVADE_REASON_OTHER)</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:291</div></div>
+<div class="ttc" id="aclass_motion_master_html_acd2899e1663e5b925c27df72288eafc9"><div class="ttname"><a href="../../df/d4d/class_motion_master.html#acd2899e1663e5b925c27df72288eafc9">MotionMaster::MovePath</a></div><div class="ttdeci">void MovePath(uint32 path_id, bool repeatable)</div><div class="ttdef"><b>Definition:</b> MotionMaster.cpp:758</div></div>
+<div class="ttc" id="aclass_unit_html_a4a04a3f22c3b0d6f4933993ac0cc7aa4"><div class="ttname"><a href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">Unit::GetMotionMaster</a></div><div class="ttdeci">MotionMaster * GetMotionMaster()</div><div class="ttdef"><b>Definition:</b> Unit.h:2257</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -507,7 +545,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/Ulduar/Ulduar/<a class="el" href="../../d1/d88/boss__flame__leviathan_8cpp.html">boss_flame_leviathan.cpp</a></li>
+<li><a class="el" href="../../">boss_flame_leviathan.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -515,7 +553,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d4/d8d/classnpc__mechanolift.html">npc_mechanolift</a></li><li class="navelem"><a class="el" href="../../d0/d05/structnpc__mechanolift_1_1npc__mechanolift_a_i.html">npc_mechanoliftAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:52 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:07 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

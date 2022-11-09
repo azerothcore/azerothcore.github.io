@@ -155,7 +155,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:afc7ac5ed7c4c2d79170548fe061917eb"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d7a/class_guild_1_1_bank_tab.html#afc7ac5ed7c4c2d79170548fe061917eb">m_text</a></td></tr>
 <tr class="separator:afc7ac5ed7c4c2d79170548fe061917eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a4cc137e35b63b86c5d436e6bc15ad590" name="a4cc137e35b63b86c5d436e6bc15ad590"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4cc137e35b63b86c5d436e6bc15ad590">&#9670;&#160;</a></span>BankTab()</h2>
 
@@ -189,7 +190,12 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  555</span>                                             : <a class="code hl_variable" href="../../db/d7a/class_guild_1_1_bank_tab.html#abc272a367b69a90207dbf10580a55038">m_guildId</a>(guildId), <a class="code hl_variable" href="../../db/d7a/class_guild_1_1_bank_tab.html#ab055a2b7500c83c96a78c396dc60588a">m_tabId</a>(tabId)</div>
+<div class="line"><span class="lineno">  556</span>        {</div>
+<div class="line"><span class="lineno">  557</span>        }</div>
+<div class="ttc" id="aclass_guild_1_1_bank_tab_html_ab055a2b7500c83c96a78c396dc60588a"><div class="ttname"><a href="../../db/d7a/class_guild_1_1_bank_tab.html#ab055a2b7500c83c96a78c396dc60588a">Guild::BankTab::m_tabId</a></div><div class="ttdeci">uint8 m_tabId</div><div class="ttdef"><b>Definition:</b> Guild.h:576</div></div>
+<div class="ttc" id="aclass_guild_1_1_bank_tab_html_abc272a367b69a90207dbf10580a55038"><div class="ttname"><a href="../../db/d7a/class_guild_1_1_bank_tab.html#abc272a367b69a90207dbf10580a55038">Guild::BankTab::m_guildId</a></div><div class="ttdeci">uint32 m_guildId</div><div class="ttdef"><b>Definition:</b> Guild.h:575</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -218,7 +224,22 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  428</span>{</div>
+<div class="line"><span class="lineno">  429</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> slotId = 0; slotId &lt; <a class="code hl_enumvalue" href="../../df/da3/_guild_8h.html#a06a462b77a279ae7e2e901b2a8b42fbaab16b15ec75f4e5d66f25c472aa3e8bba">GUILD_BANK_MAX_SLOTS</a>; ++slotId)</div>
+<div class="line"><span class="lineno">  430</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../dc/d32/class_item.html">Item</a>* pItem = <a class="code hl_variable" href="../../db/d7a/class_guild_1_1_bank_tab.html#a80cc2a64638722401276263d01e5ee27">m_items</a>[slotId])</div>
+<div class="line"><span class="lineno">  431</span>        {</div>
+<div class="line"><span class="lineno">  432</span>            pItem-&gt;RemoveFromWorld();</div>
+<div class="line"><span class="lineno">  433</span>            <span class="keywordflow">if</span> (removeItemsFromDB)</div>
+<div class="line"><span class="lineno">  434</span>                pItem-&gt;DeleteFromDB(trans);</div>
+<div class="line"><span class="lineno">  435</span>            <span class="keyword">delete</span> pItem;</div>
+<div class="line"><span class="lineno">  436</span>            pItem = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  437</span>        }</div>
+<div class="line"><span class="lineno">  438</span>}</div>
+<div class="ttc" id="a_define_8h_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:110</div></div>
+<div class="ttc" id="a_guild_8h_html_a06a462b77a279ae7e2e901b2a8b42fbaab16b15ec75f4e5d66f25c472aa3e8bba"><div class="ttname"><a href="../../df/da3/_guild_8h.html#a06a462b77a279ae7e2e901b2a8b42fbaab16b15ec75f4e5d66f25c472aa3e8bba">GUILD_BANK_MAX_SLOTS</a></div><div class="ttdeci">@ GUILD_BANK_MAX_SLOTS</div><div class="ttdef"><b>Definition:</b> Guild.h:46</div></div>
+<div class="ttc" id="aclass_guild_1_1_bank_tab_html_a80cc2a64638722401276263d01e5ee27"><div class="ttname"><a href="../../db/d7a/class_guild_1_1_bank_tab.html#a80cc2a64638722401276263d01e5ee27">Guild::BankTab::m_items</a></div><div class="ttdeci">std::array&lt; Item *, GUILD_BANK_MAX_SLOTS &gt; m_items</div><div class="ttdef"><b>Definition:</b> Guild.h:578</div></div>
+<div class="ttc" id="aclass_item_html"><div class="ttname"><a href="../../dc/d32/class_item.html">Item</a></div><div class="ttdef"><b>Definition:</b> Item.h:214</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2406a477fff518690b1a9656d0c2129b" name="a2406a477fff518690b1a9656d0c2129b"></a>
@@ -243,7 +264,9 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  568</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../db/d7a/class_guild_1_1_bank_tab.html#a25217a0d4f9dc91c853f7007f63f140b">m_icon</a>; }</div>
+<div class="ttc" id="aclass_guild_1_1_bank_tab_html_a25217a0d4f9dc91c853f7007f63f140b"><div class="ttname"><a href="../../db/d7a/class_guild_1_1_bank_tab.html#a25217a0d4f9dc91c853f7007f63f140b">Guild::BankTab::m_icon</a></div><div class="ttdeci">std::string m_icon</div><div class="ttdef"><b>Definition:</b> Guild.h:580</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a9c5baa8eb92520b73c646488e3b38caa" name="a9c5baa8eb92520b73c646488e3b38caa"></a>
@@ -269,7 +292,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  571</span>{ <span class="keywordflow">return</span> slotId &lt; <a class="code hl_enumvalue" href="../../df/da3/_guild_8h.html#a06a462b77a279ae7e2e901b2a8b42fbaab16b15ec75f4e5d66f25c472aa3e8bba">GUILD_BANK_MAX_SLOTS</a> ?  <a class="code hl_variable" href="../../db/d7a/class_guild_1_1_bank_tab.html#a80cc2a64638722401276263d01e5ee27">m_items</a>[slotId] : <span class="keyword">nullptr</span>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a0360f82663e5f9e073bcb28affcdf0b3" name="a0360f82663e5f9e073bcb28affcdf0b3"></a>
@@ -294,7 +318,9 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  567</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../db/d7a/class_guild_1_1_bank_tab.html#a5555e808bc4597ad9a74e69b95e56149">m_name</a>; }</div>
+<div class="ttc" id="aclass_guild_1_1_bank_tab_html_a5555e808bc4597ad9a74e69b95e56149"><div class="ttname"><a href="../../db/d7a/class_guild_1_1_bank_tab.html#a5555e808bc4597ad9a74e69b95e56149">Guild::BankTab::m_name</a></div><div class="ttdeci">std::string m_name</div><div class="ttdef"><b>Definition:</b> Guild.h:579</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ace1887dd0ef166be4fc6f8cb894d80b3" name="ace1887dd0ef166be4fc6f8cb894d80b3"></a>
@@ -319,7 +345,9 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  569</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../db/d7a/class_guild_1_1_bank_tab.html#afc7ac5ed7c4c2d79170548fe061917eb">m_text</a>; }</div>
+<div class="ttc" id="aclass_guild_1_1_bank_tab_html_afc7ac5ed7c4c2d79170548fe061917eb"><div class="ttname"><a href="../../db/d7a/class_guild_1_1_bank_tab.html#afc7ac5ed7c4c2d79170548fe061917eb">Guild::BankTab::m_text</a></div><div class="ttdeci">std::string m_text</div><div class="ttdef"><b>Definition:</b> Guild.h:581</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a016c23dc9710058e969ccfc51501afd6" name="a016c23dc9710058e969ccfc51501afd6"></a>
@@ -337,7 +365,13 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  382</span>{</div>
+<div class="line"><span class="lineno">  383</span>    <a class="code hl_variable" href="../../db/d7a/class_guild_1_1_bank_tab.html#a5555e808bc4597ad9a74e69b95e56149">m_name</a> = fields[2].<a class="code hl_function" href="../../dc/d67/class_field.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;std::string&gt;();</div>
+<div class="line"><span class="lineno">  384</span>    <a class="code hl_variable" href="../../db/d7a/class_guild_1_1_bank_tab.html#a25217a0d4f9dc91c853f7007f63f140b">m_icon</a> = fields[3].<a class="code hl_function" href="../../dc/d67/class_field.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;std::string&gt;();</div>
+<div class="line"><span class="lineno">  385</span>    <a class="code hl_variable" href="../../db/d7a/class_guild_1_1_bank_tab.html#afc7ac5ed7c4c2d79170548fe061917eb">m_text</a> = fields[4].<a class="code hl_function" href="../../dc/d67/class_field.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;std::string&gt;();</div>
+<div class="line"><span class="lineno">  386</span>}</div>
+<div class="ttc" id="aclass_field_html_aae507d21d3570ffdaf1643ba02946f01"><div class="ttname"><a href="../../dc/d67/class_field.html#aae507d21d3570ffdaf1643ba02946f01">Field::Get</a></div><div class="ttdeci">std::enable_if_t&lt; std::is_arithmetic_v&lt; T &gt;, T &gt; Get() const</div><div class="ttdef"><b>Definition:</b> Field.h:113</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aa7bd9e67c6685878fa7bf158c09fae51" name="aa7bd9e67c6685878fa7bf158c09fae51"></a>
@@ -355,7 +389,56 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  389</span>{</div>
+<div class="line"><span class="lineno">  390</span>    <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> slotId = fields[13].<a class="code hl_function" href="../../dc/d67/class_field.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&gt;();</div>
+<div class="line"><span class="lineno">  391</span>    <a class="code hl_typedef" href="../../d8/d03/class_object_guid.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a> itemGuid = fields[14].<a class="code hl_function" href="../../dc/d67/class_field.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&gt;();</div>
+<div class="line"><span class="lineno">  392</span>    <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> itemEntry = fields[15].<a class="code hl_function" href="../../dc/d67/class_field.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&gt;();</div>
+<div class="line"><span class="lineno">  393</span>    <span class="keywordflow">if</span> (slotId &gt;= <a class="code hl_enumvalue" href="../../df/da3/_guild_8h.html#a06a462b77a279ae7e2e901b2a8b42fbaab16b15ec75f4e5d66f25c472aa3e8bba">GUILD_BANK_MAX_SLOTS</a>)</div>
+<div class="line"><span class="lineno">  394</span>    {</div>
+<div class="line"><span class="lineno">  395</span>        <a class="code hl_define" href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;guild&quot;</span>, <span class="stringliteral">&quot;Invalid slot for item (GUID: {}, id: {}) in guild bank, skipped.&quot;</span>, itemGuid, itemEntry);</div>
+<div class="line"><span class="lineno">  396</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  397</span>    }</div>
+<div class="line"><span class="lineno">  398</span> </div>
+<div class="line"><span class="lineno">  399</span>    <a class="code hl_struct" href="../../da/d61/struct_item_template.html">ItemTemplate</a> <span class="keyword">const</span>* proto = <a class="code hl_define" href="../../d9/d77/_object_mgr_8h.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetItemTemplate(itemEntry);</div>
+<div class="line"><span class="lineno">  400</span>    <span class="keywordflow">if</span> (!proto)</div>
+<div class="line"><span class="lineno">  401</span>    {</div>
+<div class="line"><span class="lineno">  402</span>        <a class="code hl_define" href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;guild&quot;</span>, <span class="stringliteral">&quot;Unknown item (GUID: {}, id: {}) in guild bank, skipped.&quot;</span>, itemGuid, itemEntry);</div>
+<div class="line"><span class="lineno">  403</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  404</span>    }</div>
+<div class="line"><span class="lineno">  405</span> </div>
+<div class="line"><span class="lineno">  406</span>    <a class="code hl_class" href="../../dc/d32/class_item.html">Item</a>* pItem = <a class="code hl_function" href="../../d9/d34/_bag_8h.html#a6b74a54b7de3ced0e27f4128f0d95c64">NewItemOrBag</a>(proto);</div>
+<div class="line"><span class="lineno">  407</span>    <span class="keywordflow">if</span> (!pItem-&gt;<a class="code hl_function" href="../../dc/d32/class_item.html#a1cff18f16e42238b2d161716ee98cefd">LoadFromDB</a>(itemGuid, <a class="code hl_variable" href="../../d8/d03/class_object_guid.html#a14039d3f3df79203693f713495503165">ObjectGuid::Empty</a>, fields, itemEntry))</div>
+<div class="line"><span class="lineno">  408</span>    {</div>
+<div class="line"><span class="lineno">  409</span>        <a class="code hl_define" href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;guild&quot;</span>, <span class="stringliteral">&quot;Item (GUID {}, id: {}) not found in item_instance, deleting from guild bank!&quot;</span>, itemGuid, itemEntry);</div>
+<div class="line"><span class="lineno">  410</span> </div>
+<div class="line"><span class="lineno">  411</span>        <a class="code hl_class" href="../../da/d37/class_prepared_statement.html">CharacterDatabasePreparedStatement</a>* stmt = <a class="code hl_variable" href="../../d6/d2e/_database_env_8cpp.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.GetPreparedStatement(<a class="code hl_enumvalue" href="../../d7/d54/_character_database_8h.html#a76116b4fa282d8e35bf8f8e940b5cba7a573d0a2c13ca1ca1073a477c51c480b8">CHAR_DEL_NONEXISTENT_GUILD_BANK_ITEM</a>);</div>
+<div class="line"><span class="lineno">  412</span>        stmt-&gt;<a class="code hl_function" href="../../dd/d6a/class_prepared_statement_base.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(0, <a class="code hl_variable" href="../../db/d7a/class_guild_1_1_bank_tab.html#abc272a367b69a90207dbf10580a55038">m_guildId</a>);</div>
+<div class="line"><span class="lineno">  413</span>        stmt-&gt;<a class="code hl_function" href="../../dd/d6a/class_prepared_statement_base.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a> (1, <a class="code hl_variable" href="../../db/d7a/class_guild_1_1_bank_tab.html#ab055a2b7500c83c96a78c396dc60588a">m_tabId</a>);</div>
+<div class="line"><span class="lineno">  414</span>        stmt-&gt;<a class="code hl_function" href="../../dd/d6a/class_prepared_statement_base.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a> (2, slotId);</div>
+<div class="line"><span class="lineno">  415</span>        <a class="code hl_variable" href="../../d6/d2e/_database_env_8cpp.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.Execute(stmt);</div>
+<div class="line"><span class="lineno">  416</span> </div>
+<div class="line"><span class="lineno">  417</span>        <span class="keyword">delete</span> pItem;</div>
+<div class="line"><span class="lineno">  418</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  419</span>    }</div>
+<div class="line"><span class="lineno">  420</span> </div>
+<div class="line"><span class="lineno">  421</span>    pItem-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#acd880d19bc0c5c1ee3e6139bdb0cb07a">AddToWorld</a>();</div>
+<div class="line"><span class="lineno">  422</span>    <a class="code hl_variable" href="../../db/d7a/class_guild_1_1_bank_tab.html#a80cc2a64638722401276263d01e5ee27">m_items</a>[slotId] = pItem;</div>
+<div class="line"><span class="lineno">  423</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  424</span>}</div>
+<div class="ttc" id="a_bag_8h_html_a6b74a54b7de3ced0e27f4128f0d95c64"><div class="ttname"><a href="../../d9/d34/_bag_8h.html#a6b74a54b7de3ced0e27f4128f0d95c64">NewItemOrBag</a></div><div class="ttdeci">Item * NewItemOrBag(ItemTemplate const *proto)</div><div class="ttdef"><b>Definition:</b> Bag.h:67</div></div>
+<div class="ttc" id="a_character_database_8h_html_a76116b4fa282d8e35bf8f8e940b5cba7a573d0a2c13ca1ca1073a477c51c480b8"><div class="ttname"><a href="../../d7/d54/_character_database_8h.html#a76116b4fa282d8e35bf8f8e940b5cba7a573d0a2c13ca1ca1073a477c51c480b8">CHAR_DEL_NONEXISTENT_GUILD_BANK_ITEM</a></div><div class="ttdeci">@ CHAR_DEL_NONEXISTENT_GUILD_BANK_ITEM</div><div class="ttdef"><b>Definition:</b> CharacterDatabase.h:33</div></div>
+<div class="ttc" id="a_database_env_8cpp_html_a7e7534bc66d79434bd280b77cb124eec"><div class="ttname"><a href="../../d6/d2e/_database_env_8cpp.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a></div><div class="ttdeci">DatabaseWorkerPool&lt; CharacterDatabaseConnection &gt; CharacterDatabase</div><div class="ttdoc">Accessor to the character database.</div><div class="ttdef"><b>Definition:</b> DatabaseEnv.cpp:21</div></div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="a_log_8h_html_a43832e3fa8508deb4ce43e520005fcd9"><div class="ttname"><a href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a></div><div class="ttdeci">#define LOG_ERROR(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:159</div></div>
+<div class="ttc" id="a_object_mgr_8h_html_a736e30da2b5261060ac6cdbb5de3b787"><div class="ttname"><a href="../../d9/d77/_object_mgr_8h.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a></div><div class="ttdeci">#define sObjectMgr</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:1606</div></div>
+<div class="ttc" id="aclass_item_html_a1cff18f16e42238b2d161716ee98cefd"><div class="ttname"><a href="../../dc/d32/class_item.html#a1cff18f16e42238b2d161716ee98cefd">Item::LoadFromDB</a></div><div class="ttdeci">virtual bool LoadFromDB(ObjectGuid::LowType guid, ObjectGuid owner_guid, Field *fields, uint32 entry)</div><div class="ttdef"><b>Definition:</b> Item.cpp:421</div></div>
+<div class="ttc" id="aclass_object_guid_html_a14039d3f3df79203693f713495503165"><div class="ttname"><a href="../../d8/d03/class_object_guid.html#a14039d3f3df79203693f713495503165">ObjectGuid::Empty</a></div><div class="ttdeci">static ObjectGuid const Empty</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:122</div></div>
+<div class="ttc" id="aclass_object_guid_html_aa278d50613c05dc1333df5185a6993eb"><div class="ttname"><a href="../../d8/d03/class_object_guid.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a></div><div class="ttdeci">uint32 LowType</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:124</div></div>
+<div class="ttc" id="aclass_object_html_acd880d19bc0c5c1ee3e6139bdb0cb07a"><div class="ttname"><a href="../../d8/d83/class_object.html#acd880d19bc0c5c1ee3e6139bdb0cb07a">Object::AddToWorld</a></div><div class="ttdeci">virtual void AddToWorld()</div><div class="ttdef"><b>Definition:</b> Object.cpp:152</div></div>
+<div class="ttc" id="aclass_prepared_statement_base_html_a52fc2e65042c1db51f0923725a0f0ed0"><div class="ttname"><a href="../../dd/d6a/class_prepared_statement_base.html#a52fc2e65042c1db51f0923725a0f0ed0">PreparedStatementBase::SetData</a></div><div class="ttdeci">Acore::Types::is_default&lt; T &gt; SetData(const uint8 index, T value)</div><div class="ttdef"><b>Definition:</b> PreparedStatement.h:78</div></div>
+<div class="ttc" id="aclass_prepared_statement_html"><div class="ttname"><a href="../../da/d37/class_prepared_statement.html">PreparedStatement</a></div><div class="ttdef"><b>Definition:</b> PreparedStatement.h:158</div></div>
+<div class="ttc" id="astruct_item_template_html"><div class="ttname"><a href="../../da/d61/struct_item_template.html">ItemTemplate</a></div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:628</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac3ca58dcc1997788226c6fe0d5b690c7" name="ac3ca58dcc1997788226c6fe0d5b690c7"></a>
@@ -383,7 +466,32 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  504</span>{</div>
+<div class="line"><span class="lineno">  505</span>    <a class="code hl_class" href="../../d7/de0/class_world_packets_1_1_guild_1_1_guild_bank_text_query_result.html">WorldPackets::Guild::GuildBankTextQueryResult</a> textQuery;</div>
+<div class="line"><span class="lineno">  506</span>    textQuery.<a class="code hl_variable" href="../../d7/de0/class_world_packets_1_1_guild_1_1_guild_bank_text_query_result.html#abfc5522a0f94086474493db85ed1ef73">Tab</a> = <a class="code hl_variable" href="../../db/d7a/class_guild_1_1_bank_tab.html#ab055a2b7500c83c96a78c396dc60588a">m_tabId</a>;</div>
+<div class="line"><span class="lineno">  507</span>    textQuery.<a class="code hl_variable" href="../../d7/de0/class_world_packets_1_1_guild_1_1_guild_bank_text_query_result.html#ae78c1d1b802e12efd058987117158ec3">Text</a> = <a class="code hl_variable" href="../../db/d7a/class_guild_1_1_bank_tab.html#afc7ac5ed7c4c2d79170548fe061917eb">m_text</a>;</div>
+<div class="line"><span class="lineno">  508</span> </div>
+<div class="line"><span class="lineno">  509</span>    <span class="keywordflow">if</span> (session)</div>
+<div class="line"><span class="lineno">  510</span>    {</div>
+<div class="line"><span class="lineno">  511</span>        <a class="code hl_define" href="../../da/df4/_log_8h.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a>(<span class="stringliteral">&quot;guild&quot;</span>, <span class="stringliteral">&quot;MSG_QUERY_GUILD_BANK_TEXT [{}]: Tabid: {}, Text: {}&quot;</span></div>
+<div class="line"><span class="lineno">  512</span>                       , session-&gt;<a class="code hl_function" href="../../d1/d47/class_world_session.html#a5850670ad0e6b6a81abf41246bd92523">GetPlayerInfo</a>(), <a class="code hl_variable" href="../../db/d7a/class_guild_1_1_bank_tab.html#ab055a2b7500c83c96a78c396dc60588a">m_tabId</a>, <a class="code hl_variable" href="../../db/d7a/class_guild_1_1_bank_tab.html#afc7ac5ed7c4c2d79170548fe061917eb">m_text</a>);</div>
+<div class="line"><span class="lineno">  513</span>        session-&gt;<a class="code hl_function" href="../../d1/d47/class_world_session.html#a2c74b80ca9b81765049e315813b29269">SendPacket</a>(textQuery.<a class="code hl_function" href="../../d7/de0/class_world_packets_1_1_guild_1_1_guild_bank_text_query_result.html#acb6b28dcf56b821e3c0d5b58f6baa2dd">Write</a>());</div>
+<div class="line"><span class="lineno">  514</span>    }</div>
+<div class="line"><span class="lineno">  515</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  516</span>    {</div>
+<div class="line"><span class="lineno">  517</span>        <a class="code hl_define" href="../../da/df4/_log_8h.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a>(<span class="stringliteral">&quot;guild&quot;</span>, <span class="stringliteral">&quot;MSG_QUERY_GUILD_BANK_TEXT [Broadcast]: Tabid: {}, Text: {}&quot;</span>, <a class="code hl_variable" href="../../db/d7a/class_guild_1_1_bank_tab.html#ab055a2b7500c83c96a78c396dc60588a">m_tabId</a>, <a class="code hl_variable" href="../../db/d7a/class_guild_1_1_bank_tab.html#afc7ac5ed7c4c2d79170548fe061917eb">m_text</a>);</div>
+<div class="line"><span class="lineno">  518</span>        guild-&gt;<a class="code hl_function" href="../../d5/dfe/class_guild.html#a16a63bd6373e87c43bf74572f5c4f0ca">BroadcastPacket</a>(textQuery.<a class="code hl_function" href="../../d7/de0/class_world_packets_1_1_guild_1_1_guild_bank_text_query_result.html#acb6b28dcf56b821e3c0d5b58f6baa2dd">Write</a>());</div>
+<div class="line"><span class="lineno">  519</span>    }</div>
+<div class="line"><span class="lineno">  520</span>}</div>
+<div class="ttc" id="a_log_8h_html_a47ac782b14a7531c6232777165a1a161"><div class="ttname"><a href="../../da/df4/_log_8h.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a></div><div class="ttdeci">#define LOG_DEBUG(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:171</div></div>
+<div class="ttc" id="aclass_guild_html_a16a63bd6373e87c43bf74572f5c4f0ca"><div class="ttname"><a href="../../d5/dfe/class_guild.html#a16a63bd6373e87c43bf74572f5c4f0ca">Guild::BroadcastPacket</a></div><div class="ttdeci">void BroadcastPacket(WorldPacket const *packet) const</div><div class="ttdef"><b>Definition:</b> Guild.cpp:2110</div></div>
+<div class="ttc" id="aclass_world_packets_1_1_guild_1_1_guild_bank_text_query_result_html"><div class="ttname"><a href="../../d7/de0/class_world_packets_1_1_guild_1_1_guild_bank_text_query_result.html">WorldPackets::Guild::GuildBankTextQueryResult</a></div><div class="ttdef"><b>Definition:</b> GuildPackets.h:567</div></div>
+<div class="ttc" id="aclass_world_packets_1_1_guild_1_1_guild_bank_text_query_result_html_abfc5522a0f94086474493db85ed1ef73"><div class="ttname"><a href="../../d7/de0/class_world_packets_1_1_guild_1_1_guild_bank_text_query_result.html#abfc5522a0f94086474493db85ed1ef73">WorldPackets::Guild::GuildBankTextQueryResult::Tab</a></div><div class="ttdeci">uint8 Tab</div><div class="ttdef"><b>Definition:</b> GuildPackets.h:573</div></div>
+<div class="ttc" id="aclass_world_packets_1_1_guild_1_1_guild_bank_text_query_result_html_acb6b28dcf56b821e3c0d5b58f6baa2dd"><div class="ttname"><a href="../../d7/de0/class_world_packets_1_1_guild_1_1_guild_bank_text_query_result.html#acb6b28dcf56b821e3c0d5b58f6baa2dd">WorldPackets::Guild::GuildBankTextQueryResult::Write</a></div><div class="ttdeci">WorldPacket const * Write() override</div><div class="ttdef"><b>Definition:</b> GuildPackets.cpp:424</div></div>
+<div class="ttc" id="aclass_world_packets_1_1_guild_1_1_guild_bank_text_query_result_html_ae78c1d1b802e12efd058987117158ec3"><div class="ttname"><a href="../../d7/de0/class_world_packets_1_1_guild_1_1_guild_bank_text_query_result.html#ae78c1d1b802e12efd058987117158ec3">WorldPackets::Guild::GuildBankTextQueryResult::Text</a></div><div class="ttdeci">std::string Text</div><div class="ttdef"><b>Definition:</b> GuildPackets.h:574</div></div>
+<div class="ttc" id="aclass_world_session_html_a2c74b80ca9b81765049e315813b29269"><div class="ttname"><a href="../../d1/d47/class_world_session.html#a2c74b80ca9b81765049e315813b29269">WorldSession::SendPacket</a></div><div class="ttdeci">void SendPacket(WorldPacket const *packet)</div><div class="ttdoc">Send a packet to the client.</div><div class="ttdef"><b>Definition:</b> WorldSession.cpp:208</div></div>
+<div class="ttc" id="aclass_world_session_html_a5850670ad0e6b6a81abf41246bd92523"><div class="ttname"><a href="../../d1/d47/class_world_session.html#a5850670ad0e6b6a81abf41246bd92523">WorldSession::GetPlayerInfo</a></div><div class="ttdeci">std::string GetPlayerInfo() const</div><div class="ttdef"><b>Definition:</b> WorldSession.cpp:185</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="afb645aa2e4219558eb2f493782804657" name="afb645aa2e4219558eb2f493782804657"></a>
@@ -411,7 +519,22 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  441</span>{</div>
+<div class="line"><span class="lineno">  442</span>    <span class="keywordflow">if</span> ((<a class="code hl_variable" href="../../db/d7a/class_guild_1_1_bank_tab.html#a5555e808bc4597ad9a74e69b95e56149">m_name</a> == name) &amp;&amp; (<a class="code hl_variable" href="../../db/d7a/class_guild_1_1_bank_tab.html#a25217a0d4f9dc91c853f7007f63f140b">m_icon</a> == icon))</div>
+<div class="line"><span class="lineno">  443</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  444</span> </div>
+<div class="line"><span class="lineno">  445</span>    <a class="code hl_variable" href="../../db/d7a/class_guild_1_1_bank_tab.html#a5555e808bc4597ad9a74e69b95e56149">m_name</a> = name;</div>
+<div class="line"><span class="lineno">  446</span>    <a class="code hl_variable" href="../../db/d7a/class_guild_1_1_bank_tab.html#a25217a0d4f9dc91c853f7007f63f140b">m_icon</a> = icon;</div>
+<div class="line"><span class="lineno">  447</span> </div>
+<div class="line"><span class="lineno">  448</span>    <a class="code hl_class" href="../../da/d37/class_prepared_statement.html">CharacterDatabasePreparedStatement</a>* stmt = <a class="code hl_variable" href="../../d6/d2e/_database_env_8cpp.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.GetPreparedStatement(<a class="code hl_enumvalue" href="../../d7/d54/_character_database_8h.html#a76116b4fa282d8e35bf8f8e940b5cba7af169bbfa184ce43d4393a5a1597310b2">CHAR_UPD_GUILD_BANK_TAB_INFO</a>);</div>
+<div class="line"><span class="lineno">  449</span>    stmt-&gt;<a class="code hl_function" href="../../dd/d6a/class_prepared_statement_base.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(0, <a class="code hl_variable" href="../../db/d7a/class_guild_1_1_bank_tab.html#a5555e808bc4597ad9a74e69b95e56149">m_name</a>);</div>
+<div class="line"><span class="lineno">  450</span>    stmt-&gt;<a class="code hl_function" href="../../dd/d6a/class_prepared_statement_base.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(1, <a class="code hl_variable" href="../../db/d7a/class_guild_1_1_bank_tab.html#a25217a0d4f9dc91c853f7007f63f140b">m_icon</a>);</div>
+<div class="line"><span class="lineno">  451</span>    stmt-&gt;<a class="code hl_function" href="../../dd/d6a/class_prepared_statement_base.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(2, <a class="code hl_variable" href="../../db/d7a/class_guild_1_1_bank_tab.html#abc272a367b69a90207dbf10580a55038">m_guildId</a>);</div>
+<div class="line"><span class="lineno">  452</span>    stmt-&gt;<a class="code hl_function" href="../../dd/d6a/class_prepared_statement_base.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a> (3, <a class="code hl_variable" href="../../db/d7a/class_guild_1_1_bank_tab.html#ab055a2b7500c83c96a78c396dc60588a">m_tabId</a>);</div>
+<div class="line"><span class="lineno">  453</span>    <a class="code hl_variable" href="../../d6/d2e/_database_env_8cpp.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.Execute(stmt);</div>
+<div class="line"><span class="lineno">  454</span>}</div>
+<div class="ttc" id="a_character_database_8h_html_a76116b4fa282d8e35bf8f8e940b5cba7af169bbfa184ce43d4393a5a1597310b2"><div class="ttname"><a href="../../d7/d54/_character_database_8h.html#a76116b4fa282d8e35bf8f8e940b5cba7af169bbfa184ce43d4393a5a1597310b2">CHAR_UPD_GUILD_BANK_TAB_INFO</a></div><div class="ttdeci">@ CHAR_UPD_GUILD_BANK_TAB_INFO</div><div class="ttdef"><b>Definition:</b> CharacterDatabase.h:174</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a3013ae191efb43063162f4cbb5508392" name="a3013ae191efb43063162f4cbb5508392"></a>
@@ -445,7 +568,40 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  474</span>{</div>
+<div class="line"><span class="lineno">  475</span>    <span class="keywordflow">if</span> (slotId &gt;= <a class="code hl_enumvalue" href="../../df/da3/_guild_8h.html#a06a462b77a279ae7e2e901b2a8b42fbaab16b15ec75f4e5d66f25c472aa3e8bba">GUILD_BANK_MAX_SLOTS</a>)</div>
+<div class="line"><span class="lineno">  476</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  477</span> </div>
+<div class="line"><span class="lineno">  478</span>    <a class="code hl_variable" href="../../db/d7a/class_guild_1_1_bank_tab.html#a80cc2a64638722401276263d01e5ee27">m_items</a>[slotId] = item;</div>
+<div class="line"><span class="lineno">  479</span> </div>
+<div class="line"><span class="lineno">  480</span>    <a class="code hl_class" href="../../da/d37/class_prepared_statement.html">CharacterDatabasePreparedStatement</a>* stmt = <a class="code hl_variable" href="../../d6/d2e/_database_env_8cpp.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.GetPreparedStatement(<a class="code hl_enumvalue" href="../../d7/d54/_character_database_8h.html#a76116b4fa282d8e35bf8f8e940b5cba7abd15298cc081163de6dce676ddc57648">CHAR_DEL_GUILD_BANK_ITEM</a>);</div>
+<div class="line"><span class="lineno">  481</span>    stmt-&gt;<a class="code hl_function" href="../../dd/d6a/class_prepared_statement_base.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(0, <a class="code hl_variable" href="../../db/d7a/class_guild_1_1_bank_tab.html#abc272a367b69a90207dbf10580a55038">m_guildId</a>);</div>
+<div class="line"><span class="lineno">  482</span>    stmt-&gt;<a class="code hl_function" href="../../dd/d6a/class_prepared_statement_base.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a> (1, <a class="code hl_variable" href="../../db/d7a/class_guild_1_1_bank_tab.html#ab055a2b7500c83c96a78c396dc60588a">m_tabId</a>);</div>
+<div class="line"><span class="lineno">  483</span>    stmt-&gt;<a class="code hl_function" href="../../dd/d6a/class_prepared_statement_base.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a> (2, slotId);</div>
+<div class="line"><span class="lineno">  484</span>    <a class="code hl_variable" href="../../d6/d2e/_database_env_8cpp.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.ExecuteOrAppend(trans, stmt);</div>
+<div class="line"><span class="lineno">  485</span> </div>
+<div class="line"><span class="lineno">  486</span>    <span class="keywordflow">if</span> (item)</div>
+<div class="line"><span class="lineno">  487</span>    {</div>
+<div class="line"><span class="lineno">  488</span>        stmt = <a class="code hl_variable" href="../../d6/d2e/_database_env_8cpp.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.GetPreparedStatement(<a class="code hl_enumvalue" href="../../d7/d54/_character_database_8h.html#a76116b4fa282d8e35bf8f8e940b5cba7aeb79c63c3f2ee28f0d6471f86d14f3b8">CHAR_INS_GUILD_BANK_ITEM</a>);</div>
+<div class="line"><span class="lineno">  489</span>        stmt-&gt;<a class="code hl_function" href="../../dd/d6a/class_prepared_statement_base.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(0, <a class="code hl_variable" href="../../db/d7a/class_guild_1_1_bank_tab.html#abc272a367b69a90207dbf10580a55038">m_guildId</a>);</div>
+<div class="line"><span class="lineno">  490</span>        stmt-&gt;<a class="code hl_function" href="../../dd/d6a/class_prepared_statement_base.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a> (1, <a class="code hl_variable" href="../../db/d7a/class_guild_1_1_bank_tab.html#ab055a2b7500c83c96a78c396dc60588a">m_tabId</a>);</div>
+<div class="line"><span class="lineno">  491</span>        stmt-&gt;<a class="code hl_function" href="../../dd/d6a/class_prepared_statement_base.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a> (2, slotId);</div>
+<div class="line"><span class="lineno">  492</span>        stmt-&gt;<a class="code hl_function" href="../../dd/d6a/class_prepared_statement_base.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(3, item-&gt;GetGUID().GetCounter());</div>
+<div class="line"><span class="lineno">  493</span>        <a class="code hl_variable" href="../../d6/d2e/_database_env_8cpp.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.ExecuteOrAppend(trans, stmt);</div>
+<div class="line"><span class="lineno">  494</span> </div>
+<div class="line"><span class="lineno">  495</span>        item-&gt;SetGuidValue(<a class="code hl_enumvalue" href="../../dd/d65/_update_fields_8h.html#a529e4bfaaee7e3c2dc52aaa447287cfbad33f08fc535881147ce66f205ec1490d">ITEM_FIELD_CONTAINED</a>, <a class="code hl_variable" href="../../d8/d03/class_object_guid.html#a14039d3f3df79203693f713495503165">ObjectGuid::Empty</a>);</div>
+<div class="line"><span class="lineno">  496</span>        item-&gt;SetGuidValue(<a class="code hl_enumvalue" href="../../dd/d65/_update_fields_8h.html#a529e4bfaaee7e3c2dc52aaa447287cfba881d0b16fa30b247b069fc55a19795a4">ITEM_FIELD_OWNER</a>, <a class="code hl_variable" href="../../d8/d03/class_object_guid.html#a14039d3f3df79203693f713495503165">ObjectGuid::Empty</a>);</div>
+<div class="line"><span class="lineno">  497</span>        item-&gt;FSetState(<a class="code hl_enumvalue" href="../../da/d43/_item_8h.html#a744ce838494e4dc6eb5f123b9a38bd04a6ea900210f326657f7565454c52c0bb0">ITEM_NEW</a>);</div>
+<div class="line"><span class="lineno">  498</span>        item-&gt;SaveToDB(trans);                                 <span class="comment">// Not in inventory and can be saved standalone</span></div>
+<div class="line"><span class="lineno">  499</span>    }</div>
+<div class="line"><span class="lineno">  500</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  501</span>}</div>
+<div class="ttc" id="a_character_database_8h_html_a76116b4fa282d8e35bf8f8e940b5cba7abd15298cc081163de6dce676ddc57648"><div class="ttname"><a href="../../d7/d54/_character_database_8h.html#a76116b4fa282d8e35bf8f8e940b5cba7abd15298cc081163de6dce676ddc57648">CHAR_DEL_GUILD_BANK_ITEM</a></div><div class="ttdeci">@ CHAR_DEL_GUILD_BANK_ITEM</div><div class="ttdef"><b>Definition:</b> CharacterDatabase.h:154</div></div>
+<div class="ttc" id="a_character_database_8h_html_a76116b4fa282d8e35bf8f8e940b5cba7aeb79c63c3f2ee28f0d6471f86d14f3b8"><div class="ttname"><a href="../../d7/d54/_character_database_8h.html#a76116b4fa282d8e35bf8f8e940b5cba7aeb79c63c3f2ee28f0d6471f86d14f3b8">CHAR_INS_GUILD_BANK_ITEM</a></div><div class="ttdeci">@ CHAR_INS_GUILD_BANK_ITEM</div><div class="ttdef"><b>Definition:</b> CharacterDatabase.h:153</div></div>
+<div class="ttc" id="a_item_8h_html_a744ce838494e4dc6eb5f123b9a38bd04a6ea900210f326657f7565454c52c0bb0"><div class="ttname"><a href="../../da/d43/_item_8h.html#a744ce838494e4dc6eb5f123b9a38bd04a6ea900210f326657f7565454c52c0bb0">ITEM_NEW</a></div><div class="ttdeci">@ ITEM_NEW</div><div class="ttdef"><b>Definition:</b> Item.h:205</div></div>
+<div class="ttc" id="a_update_fields_8h_html_a529e4bfaaee7e3c2dc52aaa447287cfba881d0b16fa30b247b069fc55a19795a4"><div class="ttname"><a href="../../dd/d65/_update_fields_8h.html#a529e4bfaaee7e3c2dc52aaa447287cfba881d0b16fa30b247b069fc55a19795a4">ITEM_FIELD_OWNER</a></div><div class="ttdeci">@ ITEM_FIELD_OWNER</div><div class="ttdef"><b>Definition:</b> UpdateFields.h:35</div></div>
+<div class="ttc" id="a_update_fields_8h_html_a529e4bfaaee7e3c2dc52aaa447287cfbad33f08fc535881147ce66f205ec1490d"><div class="ttname"><a href="../../dd/d65/_update_fields_8h.html#a529e4bfaaee7e3c2dc52aaa447287cfbad33f08fc535881147ce66f205ec1490d">ITEM_FIELD_CONTAINED</a></div><div class="ttdeci">@ ITEM_FIELD_CONTAINED</div><div class="ttdef"><b>Definition:</b> UpdateFields.h:36</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a5945b66216eebcb4ac68a6e429c15972" name="a5945b66216eebcb4ac68a6e429c15972"></a>
@@ -463,7 +619,23 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  457</span>{</div>
+<div class="line"><span class="lineno">  458</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../db/d7a/class_guild_1_1_bank_tab.html#afc7ac5ed7c4c2d79170548fe061917eb">m_text</a> == text)</div>
+<div class="line"><span class="lineno">  459</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  460</span> </div>
+<div class="line"><span class="lineno">  461</span>    <a class="code hl_variable" href="../../db/d7a/class_guild_1_1_bank_tab.html#afc7ac5ed7c4c2d79170548fe061917eb">m_text</a> = text;</div>
+<div class="line"><span class="lineno">  462</span>    <a class="code hl_function" href="../../db/d35/_util_8cpp.html#ae4fe16e69a1d70241791c62097f0217e">utf8truncate</a>(<a class="code hl_variable" href="../../db/d7a/class_guild_1_1_bank_tab.html#afc7ac5ed7c4c2d79170548fe061917eb">m_text</a>, <a class="code hl_define" href="../../db/de8/_guild_8cpp.html#a458eaf87a56d0ac3d92187c55b14f437">MAX_GUILD_BANK_TAB_TEXT_LEN</a>);          <span class="comment">// DB and client size limitation</span></div>
+<div class="line"><span class="lineno">  463</span> </div>
+<div class="line"><span class="lineno">  464</span>    <a class="code hl_class" href="../../da/d37/class_prepared_statement.html">CharacterDatabasePreparedStatement</a>* stmt = <a class="code hl_variable" href="../../d6/d2e/_database_env_8cpp.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.GetPreparedStatement(<a class="code hl_enumvalue" href="../../d7/d54/_character_database_8h.html#a76116b4fa282d8e35bf8f8e940b5cba7a16d7cb171116f15bfa23ce53682a4499">CHAR_UPD_GUILD_BANK_TAB_TEXT</a>);</div>
+<div class="line"><span class="lineno">  465</span>    stmt-&gt;<a class="code hl_function" href="../../dd/d6a/class_prepared_statement_base.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(0, <a class="code hl_variable" href="../../db/d7a/class_guild_1_1_bank_tab.html#afc7ac5ed7c4c2d79170548fe061917eb">m_text</a>);</div>
+<div class="line"><span class="lineno">  466</span>    stmt-&gt;<a class="code hl_function" href="../../dd/d6a/class_prepared_statement_base.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(1, <a class="code hl_variable" href="../../db/d7a/class_guild_1_1_bank_tab.html#abc272a367b69a90207dbf10580a55038">m_guildId</a>);</div>
+<div class="line"><span class="lineno">  467</span>    stmt-&gt;<a class="code hl_function" href="../../dd/d6a/class_prepared_statement_base.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a> (2, <a class="code hl_variable" href="../../db/d7a/class_guild_1_1_bank_tab.html#ab055a2b7500c83c96a78c396dc60588a">m_tabId</a>);</div>
+<div class="line"><span class="lineno">  468</span>    <a class="code hl_variable" href="../../d6/d2e/_database_env_8cpp.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.Execute(stmt);</div>
+<div class="line"><span class="lineno">  469</span>}</div>
+<div class="ttc" id="a_character_database_8h_html_a76116b4fa282d8e35bf8f8e940b5cba7a16d7cb171116f15bfa23ce53682a4499"><div class="ttname"><a href="../../d7/d54/_character_database_8h.html#a76116b4fa282d8e35bf8f8e940b5cba7a16d7cb171116f15bfa23ce53682a4499">CHAR_UPD_GUILD_BANK_TAB_TEXT</a></div><div class="ttdeci">@ CHAR_UPD_GUILD_BANK_TAB_TEXT</div><div class="ttdef"><b>Definition:</b> CharacterDatabase.h:178</div></div>
+<div class="ttc" id="a_guild_8cpp_html_a458eaf87a56d0ac3d92187c55b14f437"><div class="ttname"><a href="../../db/de8/_guild_8cpp.html#a458eaf87a56d0ac3d92187c55b14f437">MAX_GUILD_BANK_TAB_TEXT_LEN</a></div><div class="ttdeci">#define MAX_GUILD_BANK_TAB_TEXT_LEN</div><div class="ttdef"><b>Definition:</b> Guild.cpp:41</div></div>
+<div class="ttc" id="a_util_8cpp_html_ae4fe16e69a1d70241791c62097f0217e"><div class="ttname"><a href="../../db/d35/_util_8cpp.html#ae4fe16e69a1d70241791c62097f0217e">utf8truncate</a></div><div class="ttdeci">void utf8truncate(std::string &amp;utf8str, size_t len)</div><div class="ttdef"><b>Definition:</b> Util.cpp:259</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -600,8 +772,8 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Guilds/<a class="el" href="../../df/da3/_guild_8h_source.html">Guild.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/Guilds/<a class="el" href="../../db/de8/_guild_8cpp.html">Guild.cpp</a></li>
+<li><a class="el" href="../../">Guild.h</a></li>
+<li><a class="el" href="../../">Guild.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -609,7 +781,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d5/dfe/class_guild.html">Guild</a></li><li class="navelem"><a class="el" href="../../db/d7a/class_guild_1_1_bank_tab.html">BankTab</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:45 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:00 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

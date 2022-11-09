@@ -302,7 +302,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a3b7a33003d6b405b30832eb17b80b820" name="a3b7a33003d6b405b30832eb17b80b820"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3b7a33003d6b405b30832eb17b80b820">&#9670;&#160;</a></span>CountTargets()</h2>
 
@@ -326,7 +327,12 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  668</span>        {</div>
+<div class="line"><span class="lineno">  669</span>            <a class="code hl_variable" href="../../dd/d7a/classspell__marrowgar__bone__slice_1_1spell__marrowgar__bone__slice___spell_script.html#a4f26d0e33c1a400dce2782685692ebcc">_targetCount</a> = std::min&lt;uint32&gt;(targets.size(), <a class="code hl_function" href="../../dc/d62/class_spell_script.html#a3fa31d3b29c52993d3561fad3cd12af3">GetSpellInfo</a>()-&gt;MaxAffectedTargets);</div>
+<div class="line"><span class="lineno">  670</span>        }</div>
+<div class="ttc" id="aclass_spell_script_html_a3fa31d3b29c52993d3561fad3cd12af3"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a3fa31d3b29c52993d3561fad3cd12af3">SpellScript::GetSpellInfo</a></div><div class="ttdeci">SpellInfo const * GetSpellInfo()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:411</div></div>
+<div class="ttc" id="aclassspell__marrowgar__bone__slice_1_1spell__marrowgar__bone__slice___spell_script_html_a4f26d0e33c1a400dce2782685692ebcc"><div class="ttname"><a href="../../dd/d7a/classspell__marrowgar__bone__slice_1_1spell__marrowgar__bone__slice___spell_script.html#a4f26d0e33c1a400dce2782685692ebcc">spell_marrowgar_bone_slice::spell_marrowgar_bone_slice_SpellScript::_targetCount</a></div><div class="ttdeci">uint32 _targetCount</div><div class="ttdef"><b>Definition:</b> boss_lord_marrowgar.cpp:686</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a1be85491ed4e8a5ee3deb736a78840c2" name="a1be85491ed4e8a5ee3deb736a78840c2"></a>
@@ -353,7 +359,11 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d7/d13/class___spell_script.html#ad3b8fb5dd2bc5ca4dd34da5a98a76443">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  662</span>        {</div>
+<div class="line"><span class="lineno">  663</span>            <a class="code hl_variable" href="../../dd/d7a/classspell__marrowgar__bone__slice_1_1spell__marrowgar__bone__slice___spell_script.html#a4f26d0e33c1a400dce2782685692ebcc">_targetCount</a> = 0;</div>
+<div class="line"><span class="lineno">  664</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  665</span>        }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2598af3bfb8fd9974b8b65dd320bb44d" name="a2598af3bfb8fd9974b8b65dd320bb44d"></a>
@@ -406,7 +416,19 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  681</span>        {</div>
+<div class="line"><span class="lineno">  682</span>            <a class="code hl_variable" href="../../dc/d62/class_spell_script.html#af74f730c6dacd310a78036be6b7cc6b7">OnObjectAreaTargetSelect</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a623f49512c3d12eceb55ca05cd53c4f2">SpellObjectAreaTargetSelectFn</a>(<a class="code hl_function" href="../../dd/d7a/classspell__marrowgar__bone__slice_1_1spell__marrowgar__bone__slice___spell_script.html#a3b7a33003d6b405b30832eb17b80b820">spell_marrowgar_bone_slice_SpellScript::CountTargets</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a418aed4e4066eb09ab979b5d78dc9152a423eed54c405c7e51816127214e8ea82">TARGET_UNIT_DEST_AREA_ENEMY</a>);</div>
+<div class="line"><span class="lineno">  683</span>            <a class="code hl_variable" href="../../dc/d62/class_spell_script.html#a4ad6c271f820ea8f949e286512912d52">OnHit</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#ad33ae6ff74ef32eb5ec79707ff0ab5b1">SpellHitFn</a>(<a class="code hl_function" href="../../dd/d7a/classspell__marrowgar__bone__slice_1_1spell__marrowgar__bone__slice___spell_script.html#a94fbc5fc493d23ecd68f9fee07eacf50">spell_marrowgar_bone_slice_SpellScript::SplitDamage</a>);</div>
+<div class="line"><span class="lineno">  684</span>        }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a></div><div class="ttdeci">@ EFFECT_0</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:30</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a418aed4e4066eb09ab979b5d78dc9152a423eed54c405c7e51816127214e8ea82"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a418aed4e4066eb09ab979b5d78dc9152a423eed54c405c7e51816127214e8ea82">TARGET_UNIT_DEST_AREA_ENEMY</a></div><div class="ttdeci">@ TARGET_UNIT_DEST_AREA_ENEMY</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1393</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a623f49512c3d12eceb55ca05cd53c4f2"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a623f49512c3d12eceb55ca05cd53c4f2">SpellObjectAreaTargetSelectFn</a></div><div class="ttdeci">#define SpellObjectAreaTargetSelectFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:354</div></div>
+<div class="ttc" id="a_spell_script_8h_html_ad33ae6ff74ef32eb5ec79707ff0ab5b1"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#ad33ae6ff74ef32eb5ec79707ff0ab5b1">SpellHitFn</a></div><div class="ttdeci">#define SpellHitFn(F)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:349</div></div>
+<div class="ttc" id="aclass_spell_script_html_a4ad6c271f820ea8f949e286512912d52"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a4ad6c271f820ea8f949e286512912d52">SpellScript::OnHit</a></div><div class="ttdeci">HookList&lt; HitHandler &gt; OnHit</div><div class="ttdef"><b>Definition:</b> SpellScript.h:345</div></div>
+<div class="ttc" id="aclass_spell_script_html_af74f730c6dacd310a78036be6b7cc6b7"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#af74f730c6dacd310a78036be6b7cc6b7">SpellScript::OnObjectAreaTargetSelect</a></div><div class="ttdeci">HookList&lt; ObjectAreaTargetSelectHandler &gt; OnObjectAreaTargetSelect</div><div class="ttdef"><b>Definition:</b> SpellScript.h:353</div></div>
+<div class="ttc" id="aclassspell__marrowgar__bone__slice_1_1spell__marrowgar__bone__slice___spell_script_html_a3b7a33003d6b405b30832eb17b80b820"><div class="ttname"><a href="../../dd/d7a/classspell__marrowgar__bone__slice_1_1spell__marrowgar__bone__slice___spell_script.html#a3b7a33003d6b405b30832eb17b80b820">spell_marrowgar_bone_slice::spell_marrowgar_bone_slice_SpellScript::CountTargets</a></div><div class="ttdeci">void CountTargets(std::list&lt; WorldObject * &gt; &amp;targets)</div><div class="ttdef"><b>Definition:</b> boss_lord_marrowgar.cpp:667</div></div>
+<div class="ttc" id="aclassspell__marrowgar__bone__slice_1_1spell__marrowgar__bone__slice___spell_script_html_a94fbc5fc493d23ecd68f9fee07eacf50"><div class="ttname"><a href="../../dd/d7a/classspell__marrowgar__bone__slice_1_1spell__marrowgar__bone__slice___spell_script.html#a94fbc5fc493d23ecd68f9fee07eacf50">spell_marrowgar_bone_slice::spell_marrowgar_bone_slice_SpellScript::SplitDamage</a></div><div class="ttdeci">void SplitDamage()</div><div class="ttdef"><b>Definition:</b> boss_lord_marrowgar.cpp:672</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a94fbc5fc493d23ecd68f9fee07eacf50" name="a94fbc5fc493d23ecd68f9fee07eacf50"></a>
@@ -431,7 +453,15 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  673</span>        {</div>
+<div class="line"><span class="lineno">  674</span>            <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../dd/d7a/classspell__marrowgar__bone__slice_1_1spell__marrowgar__bone__slice___spell_script.html#a4f26d0e33c1a400dce2782685692ebcc">_targetCount</a>)</div>
+<div class="line"><span class="lineno">  675</span>                <span class="keywordflow">return</span>; <span class="comment">// This spell can miss all targets</span></div>
+<div class="line"><span class="lineno">  676</span> </div>
+<div class="line"><span class="lineno">  677</span>            <a class="code hl_function" href="../../dc/d62/class_spell_script.html#ac1cfda0b3181c0da3422765acf78922e">SetHitDamage</a>(<a class="code hl_function" href="../../dc/d62/class_spell_script.html#aff69d3a9a6f02ae0afa8f8bbaa543493">GetHitDamage</a>() / <a class="code hl_variable" href="../../dd/d7a/classspell__marrowgar__bone__slice_1_1spell__marrowgar__bone__slice___spell_script.html#a4f26d0e33c1a400dce2782685692ebcc">_targetCount</a>);</div>
+<div class="line"><span class="lineno">  678</span>        }</div>
+<div class="ttc" id="aclass_spell_script_html_ac1cfda0b3181c0da3422765acf78922e"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#ac1cfda0b3181c0da3422765acf78922e">SpellScript::SetHitDamage</a></div><div class="ttdeci">void SetHitDamage(int32 damage)</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:524</div></div>
+<div class="ttc" id="aclass_spell_script_html_aff69d3a9a6f02ae0afa8f8bbaa543493"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#aff69d3a9a6f02ae0afa8f8bbaa543493">SpellScript::GetHitDamage</a></div><div class="ttdeci">int32 GetHitDamage()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:514</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -458,7 +488,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/IcecrownCitadel/<a class="el" href="../../d4/dac/boss__lord__marrowgar_8cpp.html">boss_lord_marrowgar.cpp</a></li>
+<li><a class="el" href="../../">boss_lord_marrowgar.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -466,7 +496,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d8/d3d/classspell__marrowgar__bone__slice.html">spell_marrowgar_bone_slice</a></li><li class="navelem"><a class="el" href="../../dd/d7a/classspell__marrowgar__bone__slice_1_1spell__marrowgar__bone__slice___spell_script.html">spell_marrowgar_bone_slice_SpellScript</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:05 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:21 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

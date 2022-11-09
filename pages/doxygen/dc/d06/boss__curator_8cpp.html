@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzeorthCore: D:/azerothcore-wotlk/src/server/scripts/EasternKingdoms/Karazhan/boss_curator.cpp File Reference</title>
+<title>AzeorthCore: boss_curator.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -112,10 +112,12 @@ $(document).ready(function(){initNavTree('dc/d06/boss__curator_8cpp.html','../..
   <div class="headertitle"><div class="title">boss_curator.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../d0/d7d/_script_mgr_8h_source.html">ScriptMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d3/dad/_scripted_creature_8h_source.html">ScriptedCreature.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../da/d76/karazhan_8h_source.html">karazhan.h</a>&quot;</code><br />
-</div><table class="memberdecls">
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptedCreature.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">karazhan.h</a>&quot;</code><br />
+</div>
+<p><a href="">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d18/classboss__curator.html">boss_curator</a></td></tr>
@@ -208,7 +210,52 @@ Functions</h2></td></tr>
 <tr><td class="fieldname"><a id="aa8cf55c40f0f52a8801c4098c167eb06ac98fdfb490fa896cecb40ae427f4ea75" name="aa8cf55c40f0f52a8801c4098c167eb06ac98fdfb490fa896cecb40ae427f4ea75"></a>EVENT_SPELL_BERSERK&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aa8cf55c40f0f52a8801c4098c167eb06a5545d513600badfbae47148bc756ed64" name="aa8cf55c40f0f52a8801c4098c167eb06a5545d513600badfbae47148bc756ed64"></a>EVENT_CHECK_HEALTH&#160;</td><td class="fielddoc"></td></tr>
 </table>
-
+<div class="fragment"><div class="line"><span class="lineno">   23</span>{</div>
+<div class="line"><span class="lineno">   24</span>    <a class="code hl_enumvalue" href="../../dc/d06/boss__curator_8cpp.html#aa8cf55c40f0f52a8801c4098c167eb06a47c752fff069f3e55065795eef2a9bfe">SAY_AGGRO</a>                       = 0,</div>
+<div class="line"><span class="lineno">   25</span>    <a class="code hl_enumvalue" href="../../dc/d06/boss__curator_8cpp.html#aa8cf55c40f0f52a8801c4098c167eb06acebbfa1f13b8de4f039f5d550063c7bf">SAY_SUMMON</a>                      = 1,</div>
+<div class="line"><span class="lineno">   26</span>    <a class="code hl_enumvalue" href="../../dc/d06/boss__curator_8cpp.html#aa8cf55c40f0f52a8801c4098c167eb06a2ab2d3749086e3919a191a23d6da610c">SAY_EVOCATE</a>                     = 2,</div>
+<div class="line"><span class="lineno">   27</span>    <a class="code hl_enumvalue" href="../../dc/d06/boss__curator_8cpp.html#aa8cf55c40f0f52a8801c4098c167eb06ac90d9311ef3cf3f33564ce22ff904f54">SAY_ENRAGE</a>                      = 3,</div>
+<div class="line"><span class="lineno">   28</span>    <a class="code hl_enumvalue" href="../../dc/d06/boss__curator_8cpp.html#aa8cf55c40f0f52a8801c4098c167eb06a7f4f26c3b97b953fd229ac5d308024d5">SAY_KILL</a>                        = 4,</div>
+<div class="line"><span class="lineno">   29</span>    <a class="code hl_enumvalue" href="../../dc/d06/boss__curator_8cpp.html#aa8cf55c40f0f52a8801c4098c167eb06a04c962d9b6aaafde54ff92a54369135e">SAY_DEATH</a>                       = 5,</div>
+<div class="line"><span class="lineno">   30</span> </div>
+<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../dc/d06/boss__curator_8cpp.html#aa8cf55c40f0f52a8801c4098c167eb06a96e3140ab635d00121baf8c0ee6a76ad">SPELL_HATEFUL_BOLT</a>              = 30383,</div>
+<div class="line"><span class="lineno">   32</span>    <a class="code hl_enumvalue" href="../../dc/d06/boss__curator_8cpp.html#aa8cf55c40f0f52a8801c4098c167eb06a8934d7c1a86aa663dd516e759a774822">SPELL_EVOCATION</a>                 = 30254,</div>
+<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../dc/d06/boss__curator_8cpp.html#aa8cf55c40f0f52a8801c4098c167eb06a19fd751bdf0b8d401d30a76edb682723">SPELL_ARCANE_INFUSION</a>           = 30403,</div>
+<div class="line"><span class="lineno">   34</span>    <a class="code hl_enumvalue" href="../../dc/d06/boss__curator_8cpp.html#aa8cf55c40f0f52a8801c4098c167eb06a2754cdfe3abaa36af80434b488e4cc11">SPELL_ASTRAL_DECONSTRUCTION</a>     = 30407,</div>
+<div class="line"><span class="lineno">   35</span> </div>
+<div class="line"><span class="lineno">   36</span>    <a class="code hl_enumvalue" href="../../dc/d06/boss__curator_8cpp.html#aa8cf55c40f0f52a8801c4098c167eb06a9bb78e60c9b828cf088458619da656f8">SPELL_SUMMON_ASTRAL_FLARE1</a>      = 30236,</div>
+<div class="line"><span class="lineno">   37</span>    <a class="code hl_enumvalue" href="../../dc/d06/boss__curator_8cpp.html#aa8cf55c40f0f52a8801c4098c167eb06ad7ae14a78d5df48baefa84e1e188c418">SPELL_SUMMON_ASTRAL_FLARE2</a>      = 30239,</div>
+<div class="line"><span class="lineno">   38</span>    <a class="code hl_enumvalue" href="../../dc/d06/boss__curator_8cpp.html#aa8cf55c40f0f52a8801c4098c167eb06a7e76c33295c4469c0995f9891c4ba780">SPELL_SUMMON_ASTRAL_FLARE3</a>      = 30240,</div>
+<div class="line"><span class="lineno">   39</span>    <a class="code hl_enumvalue" href="../../dc/d06/boss__curator_8cpp.html#aa8cf55c40f0f52a8801c4098c167eb06a65b03c8218033c2fbc5f7ccfb454c4f2">SPELL_SUMMON_ASTRAL_FLARE4</a>      = 30241,</div>
+<div class="line"><span class="lineno">   40</span> </div>
+<div class="line"><span class="lineno">   41</span>    <a class="code hl_enumvalue" href="../../dc/d06/boss__curator_8cpp.html#aa8cf55c40f0f52a8801c4098c167eb06a19e2d7e7feeb728214e70da2b689c36b">EVENT_KILL_TALK</a>                 = 1,</div>
+<div class="line"><span class="lineno">   42</span>    <a class="code hl_enumvalue" href="../../dc/d06/boss__curator_8cpp.html#aa8cf55c40f0f52a8801c4098c167eb06a811d1331117be4e6927b9f7e73f5851f">EVENT_SPELL_HATEFUL_BOLT</a>        = 2,</div>
+<div class="line"><span class="lineno">   43</span>    <a class="code hl_enumvalue" href="../../dc/d06/boss__curator_8cpp.html#aa8cf55c40f0f52a8801c4098c167eb06a2072cc49ae37c25495027d6f74be5a40">EVENT_SPELL_EVOCATION</a>           = 3,</div>
+<div class="line"><span class="lineno">   44</span>    <a class="code hl_enumvalue" href="../../dc/d06/boss__curator_8cpp.html#aa8cf55c40f0f52a8801c4098c167eb06a652d514420d0ac97c1bd0b557ec975c4">EVENT_SPELL_ASTRAL_FLARE</a>        = 4,</div>
+<div class="line"><span class="lineno">   45</span>    <a class="code hl_enumvalue" href="../../dc/d06/boss__curator_8cpp.html#aa8cf55c40f0f52a8801c4098c167eb06ac98fdfb490fa896cecb40ae427f4ea75">EVENT_SPELL_BERSERK</a>             = 5,</div>
+<div class="line"><span class="lineno">   46</span>    <a class="code hl_enumvalue" href="../../dc/d06/boss__curator_8cpp.html#aa8cf55c40f0f52a8801c4098c167eb06a5545d513600badfbae47148bc756ed64">EVENT_CHECK_HEALTH</a>              = 6</div>
+<div class="line"><span class="lineno">   47</span>};</div>
+<div class="ttc" id="aboss__curator_8cpp_html_aa8cf55c40f0f52a8801c4098c167eb06a04c962d9b6aaafde54ff92a54369135e"><div class="ttname"><a href="../../dc/d06/boss__curator_8cpp.html#aa8cf55c40f0f52a8801c4098c167eb06a04c962d9b6aaafde54ff92a54369135e">SAY_DEATH</a></div><div class="ttdeci">@ SAY_DEATH</div><div class="ttdef"><b>Definition:</b> boss_curator.cpp:29</div></div>
+<div class="ttc" id="aboss__curator_8cpp_html_aa8cf55c40f0f52a8801c4098c167eb06a19e2d7e7feeb728214e70da2b689c36b"><div class="ttname"><a href="../../dc/d06/boss__curator_8cpp.html#aa8cf55c40f0f52a8801c4098c167eb06a19e2d7e7feeb728214e70da2b689c36b">EVENT_KILL_TALK</a></div><div class="ttdeci">@ EVENT_KILL_TALK</div><div class="ttdef"><b>Definition:</b> boss_curator.cpp:41</div></div>
+<div class="ttc" id="aboss__curator_8cpp_html_aa8cf55c40f0f52a8801c4098c167eb06a19fd751bdf0b8d401d30a76edb682723"><div class="ttname"><a href="../../dc/d06/boss__curator_8cpp.html#aa8cf55c40f0f52a8801c4098c167eb06a19fd751bdf0b8d401d30a76edb682723">SPELL_ARCANE_INFUSION</a></div><div class="ttdeci">@ SPELL_ARCANE_INFUSION</div><div class="ttdef"><b>Definition:</b> boss_curator.cpp:33</div></div>
+<div class="ttc" id="aboss__curator_8cpp_html_aa8cf55c40f0f52a8801c4098c167eb06a2072cc49ae37c25495027d6f74be5a40"><div class="ttname"><a href="../../dc/d06/boss__curator_8cpp.html#aa8cf55c40f0f52a8801c4098c167eb06a2072cc49ae37c25495027d6f74be5a40">EVENT_SPELL_EVOCATION</a></div><div class="ttdeci">@ EVENT_SPELL_EVOCATION</div><div class="ttdef"><b>Definition:</b> boss_curator.cpp:43</div></div>
+<div class="ttc" id="aboss__curator_8cpp_html_aa8cf55c40f0f52a8801c4098c167eb06a2754cdfe3abaa36af80434b488e4cc11"><div class="ttname"><a href="../../dc/d06/boss__curator_8cpp.html#aa8cf55c40f0f52a8801c4098c167eb06a2754cdfe3abaa36af80434b488e4cc11">SPELL_ASTRAL_DECONSTRUCTION</a></div><div class="ttdeci">@ SPELL_ASTRAL_DECONSTRUCTION</div><div class="ttdef"><b>Definition:</b> boss_curator.cpp:34</div></div>
+<div class="ttc" id="aboss__curator_8cpp_html_aa8cf55c40f0f52a8801c4098c167eb06a2ab2d3749086e3919a191a23d6da610c"><div class="ttname"><a href="../../dc/d06/boss__curator_8cpp.html#aa8cf55c40f0f52a8801c4098c167eb06a2ab2d3749086e3919a191a23d6da610c">SAY_EVOCATE</a></div><div class="ttdeci">@ SAY_EVOCATE</div><div class="ttdef"><b>Definition:</b> boss_curator.cpp:26</div></div>
+<div class="ttc" id="aboss__curator_8cpp_html_aa8cf55c40f0f52a8801c4098c167eb06a47c752fff069f3e55065795eef2a9bfe"><div class="ttname"><a href="../../dc/d06/boss__curator_8cpp.html#aa8cf55c40f0f52a8801c4098c167eb06a47c752fff069f3e55065795eef2a9bfe">SAY_AGGRO</a></div><div class="ttdeci">@ SAY_AGGRO</div><div class="ttdef"><b>Definition:</b> boss_curator.cpp:24</div></div>
+<div class="ttc" id="aboss__curator_8cpp_html_aa8cf55c40f0f52a8801c4098c167eb06a5545d513600badfbae47148bc756ed64"><div class="ttname"><a href="../../dc/d06/boss__curator_8cpp.html#aa8cf55c40f0f52a8801c4098c167eb06a5545d513600badfbae47148bc756ed64">EVENT_CHECK_HEALTH</a></div><div class="ttdeci">@ EVENT_CHECK_HEALTH</div><div class="ttdef"><b>Definition:</b> boss_curator.cpp:46</div></div>
+<div class="ttc" id="aboss__curator_8cpp_html_aa8cf55c40f0f52a8801c4098c167eb06a652d514420d0ac97c1bd0b557ec975c4"><div class="ttname"><a href="../../dc/d06/boss__curator_8cpp.html#aa8cf55c40f0f52a8801c4098c167eb06a652d514420d0ac97c1bd0b557ec975c4">EVENT_SPELL_ASTRAL_FLARE</a></div><div class="ttdeci">@ EVENT_SPELL_ASTRAL_FLARE</div><div class="ttdef"><b>Definition:</b> boss_curator.cpp:44</div></div>
+<div class="ttc" id="aboss__curator_8cpp_html_aa8cf55c40f0f52a8801c4098c167eb06a65b03c8218033c2fbc5f7ccfb454c4f2"><div class="ttname"><a href="../../dc/d06/boss__curator_8cpp.html#aa8cf55c40f0f52a8801c4098c167eb06a65b03c8218033c2fbc5f7ccfb454c4f2">SPELL_SUMMON_ASTRAL_FLARE4</a></div><div class="ttdeci">@ SPELL_SUMMON_ASTRAL_FLARE4</div><div class="ttdef"><b>Definition:</b> boss_curator.cpp:39</div></div>
+<div class="ttc" id="aboss__curator_8cpp_html_aa8cf55c40f0f52a8801c4098c167eb06a7e76c33295c4469c0995f9891c4ba780"><div class="ttname"><a href="../../dc/d06/boss__curator_8cpp.html#aa8cf55c40f0f52a8801c4098c167eb06a7e76c33295c4469c0995f9891c4ba780">SPELL_SUMMON_ASTRAL_FLARE3</a></div><div class="ttdeci">@ SPELL_SUMMON_ASTRAL_FLARE3</div><div class="ttdef"><b>Definition:</b> boss_curator.cpp:38</div></div>
+<div class="ttc" id="aboss__curator_8cpp_html_aa8cf55c40f0f52a8801c4098c167eb06a7f4f26c3b97b953fd229ac5d308024d5"><div class="ttname"><a href="../../dc/d06/boss__curator_8cpp.html#aa8cf55c40f0f52a8801c4098c167eb06a7f4f26c3b97b953fd229ac5d308024d5">SAY_KILL</a></div><div class="ttdeci">@ SAY_KILL</div><div class="ttdef"><b>Definition:</b> boss_curator.cpp:28</div></div>
+<div class="ttc" id="aboss__curator_8cpp_html_aa8cf55c40f0f52a8801c4098c167eb06a811d1331117be4e6927b9f7e73f5851f"><div class="ttname"><a href="../../dc/d06/boss__curator_8cpp.html#aa8cf55c40f0f52a8801c4098c167eb06a811d1331117be4e6927b9f7e73f5851f">EVENT_SPELL_HATEFUL_BOLT</a></div><div class="ttdeci">@ EVENT_SPELL_HATEFUL_BOLT</div><div class="ttdef"><b>Definition:</b> boss_curator.cpp:42</div></div>
+<div class="ttc" id="aboss__curator_8cpp_html_aa8cf55c40f0f52a8801c4098c167eb06a8934d7c1a86aa663dd516e759a774822"><div class="ttname"><a href="../../dc/d06/boss__curator_8cpp.html#aa8cf55c40f0f52a8801c4098c167eb06a8934d7c1a86aa663dd516e759a774822">SPELL_EVOCATION</a></div><div class="ttdeci">@ SPELL_EVOCATION</div><div class="ttdef"><b>Definition:</b> boss_curator.cpp:32</div></div>
+<div class="ttc" id="aboss__curator_8cpp_html_aa8cf55c40f0f52a8801c4098c167eb06a96e3140ab635d00121baf8c0ee6a76ad"><div class="ttname"><a href="../../dc/d06/boss__curator_8cpp.html#aa8cf55c40f0f52a8801c4098c167eb06a96e3140ab635d00121baf8c0ee6a76ad">SPELL_HATEFUL_BOLT</a></div><div class="ttdeci">@ SPELL_HATEFUL_BOLT</div><div class="ttdef"><b>Definition:</b> boss_curator.cpp:31</div></div>
+<div class="ttc" id="aboss__curator_8cpp_html_aa8cf55c40f0f52a8801c4098c167eb06a9bb78e60c9b828cf088458619da656f8"><div class="ttname"><a href="../../dc/d06/boss__curator_8cpp.html#aa8cf55c40f0f52a8801c4098c167eb06a9bb78e60c9b828cf088458619da656f8">SPELL_SUMMON_ASTRAL_FLARE1</a></div><div class="ttdeci">@ SPELL_SUMMON_ASTRAL_FLARE1</div><div class="ttdef"><b>Definition:</b> boss_curator.cpp:36</div></div>
+<div class="ttc" id="aboss__curator_8cpp_html_aa8cf55c40f0f52a8801c4098c167eb06ac90d9311ef3cf3f33564ce22ff904f54"><div class="ttname"><a href="../../dc/d06/boss__curator_8cpp.html#aa8cf55c40f0f52a8801c4098c167eb06ac90d9311ef3cf3f33564ce22ff904f54">SAY_ENRAGE</a></div><div class="ttdeci">@ SAY_ENRAGE</div><div class="ttdef"><b>Definition:</b> boss_curator.cpp:27</div></div>
+<div class="ttc" id="aboss__curator_8cpp_html_aa8cf55c40f0f52a8801c4098c167eb06ac98fdfb490fa896cecb40ae427f4ea75"><div class="ttname"><a href="../../dc/d06/boss__curator_8cpp.html#aa8cf55c40f0f52a8801c4098c167eb06ac98fdfb490fa896cecb40ae427f4ea75">EVENT_SPELL_BERSERK</a></div><div class="ttdeci">@ EVENT_SPELL_BERSERK</div><div class="ttdef"><b>Definition:</b> boss_curator.cpp:45</div></div>
+<div class="ttc" id="aboss__curator_8cpp_html_aa8cf55c40f0f52a8801c4098c167eb06acebbfa1f13b8de4f039f5d550063c7bf"><div class="ttname"><a href="../../dc/d06/boss__curator_8cpp.html#aa8cf55c40f0f52a8801c4098c167eb06acebbfa1f13b8de4f039f5d550063c7bf">SAY_SUMMON</a></div><div class="ttdeci">@ SAY_SUMMON</div><div class="ttdef"><b>Definition:</b> boss_curator.cpp:25</div></div>
+<div class="ttc" id="aboss__curator_8cpp_html_aa8cf55c40f0f52a8801c4098c167eb06ad7ae14a78d5df48baefa84e1e188c418"><div class="ttname"><a href="../../dc/d06/boss__curator_8cpp.html#aa8cf55c40f0f52a8801c4098c167eb06ad7ae14a78d5df48baefa84e1e188c418">SPELL_SUMMON_ASTRAL_FLARE2</a></div><div class="ttdeci">@ SPELL_SUMMON_ASTRAL_FLARE2</div><div class="ttdef"><b>Definition:</b> boss_curator.cpp:37</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
@@ -226,7 +273,11 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  173</span>{</div>
+<div class="line"><span class="lineno">  174</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d0/d18/classboss__curator.html">boss_curator</a>();</div>
+<div class="line"><span class="lineno">  175</span>}</div>
+<div class="ttc" id="aclassboss__curator_html"><div class="ttname"><a href="../../d0/d18/classboss__curator.html">boss_curator</a></div><div class="ttdef"><b>Definition:</b> boss_curator.cpp:50</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
@@ -235,7 +286,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_ddeb450e5fe586f747c0635391d1d1d6.html">EasternKingdoms</a></li><li class="navelem"><a class="el" href="../../dir_4741540d90fc7603479c20e4d5a7e517.html">Karazhan</a></li><li class="navelem"><a class="el" href="../../dc/d06/boss__curator_8cpp.html">boss_curator.cpp</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:22 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:35 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -114,7 +114,7 @@ $(document).ready(function(){initNavTree('d1/d45/classadt___m_h2_o.html','../../
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d3/df0/adt_8h_source.html">adt.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">adt.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -154,7 +154,8 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:aaaff4b98a34d81985b552fd671411450"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="../../d2/dde/structadt___m_h2_o_1_1adt___l_i_q_u_i_d.html">adt_MH2O::adt_LIQUID</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d45/classadt___m_h2_o.html#aaaff4b98a34d81985b552fd671411450">liquid</a> [<a class="el" href="../../d3/df0/adt_8h.html#aaa17abcdb17267fda5cd146bec40af39">ADT_CELLS_PER_GRID</a>][<a class="el" href="../../d3/df0/adt_8h.html#aaa17abcdb17267fda5cd146bec40af39">ADT_CELLS_PER_GRID</a>]</td></tr>
 <tr class="separator:aaaff4b98a34d81985b552fd671411450"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a343859f1c04059988ca0e4050ffac22f" name="a343859f1c04059988ca0e4050ffac22f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a343859f1c04059988ca0e4050ffac22f">&#9670;&#160;</a></span>GetLiquidAttributes()</h2>
 
@@ -188,7 +189,20 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  242</span>    {</div>
+<div class="line"><span class="lineno">  243</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d1/d45/classadt___m_h2_o.html#aaaff4b98a34d81985b552fd671411450">liquid</a>[x][y].used)</div>
+<div class="line"><span class="lineno">  244</span>        {</div>
+<div class="line"><span class="lineno">  245</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d1/d45/classadt___m_h2_o.html#aaaff4b98a34d81985b552fd671411450">liquid</a>[x][y].OffsetAttributes)</div>
+<div class="line"><span class="lineno">  246</span>                <span class="keywordflow">return</span> *((<a class="code hl_struct" href="../../d5/d44/structadt__liquid__attributes.html">adt_liquid_attributes</a> *)((<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>*)<span class="keyword">this</span> + 8 + <a class="code hl_variable" href="../../d1/d45/classadt___m_h2_o.html#aaaff4b98a34d81985b552fd671411450">liquid</a>[x][y].<a class="code hl_variable" href="../../d2/dde/structadt___m_h2_o_1_1adt___l_i_q_u_i_d.html#a072918c298b316823e784c2e5779be2a">OffsetAttributes</a>));</div>
+<div class="line"><span class="lineno">  247</span>            <span class="keywordflow">return</span> { 0xFFFFFFFFFFFFFFFF, 0xFFFFFFFFFFFFFFFF };</div>
+<div class="line"><span class="lineno">  248</span>        }</div>
+<div class="line"><span class="lineno">  249</span>        <span class="keywordflow">return</span> { 0, 0 };</div>
+<div class="line"><span class="lineno">  250</span>    }</div>
+<div class="ttc" id="a_define_8h_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:110</div></div>
+<div class="ttc" id="aclassadt___m_h2_o_html_aaaff4b98a34d81985b552fd671411450"><div class="ttname"><a href="../../d1/d45/classadt___m_h2_o.html#aaaff4b98a34d81985b552fd671411450">adt_MH2O::liquid</a></div><div class="ttdeci">struct adt_MH2O::adt_LIQUID liquid[ADT_CELLS_PER_GRID][ADT_CELLS_PER_GRID]</div></div>
+<div class="ttc" id="astructadt___m_h2_o_1_1adt___l_i_q_u_i_d_html_a072918c298b316823e784c2e5779be2a"><div class="ttname"><a href="../../d2/dde/structadt___m_h2_o_1_1adt___l_i_q_u_i_d.html#a072918c298b316823e784c2e5779be2a">adt_MH2O::adt_LIQUID::OffsetAttributes</a></div><div class="ttdeci">uint32 OffsetAttributes</div><div class="ttdef"><b>Definition:</b> adt.h:229</div></div>
+<div class="ttc" id="astructadt__liquid__attributes_html"><div class="ttname"><a href="../../d5/d44/structadt__liquid__attributes.html">adt_liquid_attributes</a></div><div class="ttdef"><b>Definition:</b> adt.h:207</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a6f620512f4feb239bc732efcfe53ae7c" name="a6f620512f4feb239bc732efcfe53ae7c"></a>
@@ -224,7 +238,25 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  280</span>    {</div>
+<div class="line"><span class="lineno">  281</span>        <span class="keywordflow">if</span> (!h-&gt;OffsetVertexData)</div>
+<div class="line"><span class="lineno">  282</span>            <span class="keywordflow">return</span> -1;</div>
+<div class="line"><span class="lineno">  283</span> </div>
+<div class="line"><span class="lineno">  284</span>        <span class="keywordflow">switch</span> (h-&gt;LiquidVertexFormat)</div>
+<div class="line"><span class="lineno">  285</span>        {</div>
+<div class="line"><span class="lineno">  286</span>            <span class="keywordflow">case</span> LiquidVertexFormatType::HeightDepth:</div>
+<div class="line"><span class="lineno">  287</span>                <span class="keywordflow">return</span> ((<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a3bb8a71f4ae9af551f71e9eb2c9c3325">int8</a> <span class="keyword">const</span>*)((<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a3bb8a71f4ae9af551f71e9eb2c9c3325">int8</a> <span class="keyword">const</span>*)<span class="keyword">this</span> + 8 + h-&gt;OffsetVertexData + (h-&gt;GetWidth() + 1) * (h-&gt;GetHeight() + 1) * 4))[pos];</div>
+<div class="line"><span class="lineno">  288</span>            <span class="keywordflow">case</span> LiquidVertexFormatType::HeightTextureCoord:</div>
+<div class="line"><span class="lineno">  289</span>                <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">  290</span>            <span class="keywordflow">case</span> LiquidVertexFormatType::Depth:</div>
+<div class="line"><span class="lineno">  291</span>                <span class="keywordflow">return</span> ((<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a3bb8a71f4ae9af551f71e9eb2c9c3325">int8</a> <span class="keyword">const</span>*)((<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>*)<span class="keyword">this</span> + 8 + h-&gt;OffsetVertexData))[pos];</div>
+<div class="line"><span class="lineno">  292</span>            <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  293</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  294</span>        }</div>
+<div class="line"><span class="lineno">  295</span>        <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">  296</span>    }</div>
+<div class="ttc" id="a_define_8h_html_a3bb8a71f4ae9af551f71e9eb2c9c3325"><div class="ttname"><a href="../../db/d35/_define_8h.html#a3bb8a71f4ae9af551f71e9eb2c9c3325">int8</a></div><div class="ttdeci">std::int8_t int8</div><div class="ttdef"><b>Definition:</b> Define.h:106</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aaa9e70d67222ddcfbd890e8e3262f8e0" name="aaa9e70d67222ddcfbd890e8e3262f8e0"></a>
@@ -250,7 +282,14 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  317</span>    {</div>
+<div class="line"><span class="lineno">  318</span>        <span class="keywordflow">if</span> (h-&gt;OffsetExistsBitmap)</div>
+<div class="line"><span class="lineno">  319</span>            <span class="keywordflow">return</span> *((<a class="code hl_typedef" href="../../db/d35/_define_8h.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a> *)((<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>*)<span class="keyword">this</span> + 8 + h-&gt;OffsetExistsBitmap));</div>
+<div class="line"><span class="lineno">  320</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  321</span>            <span class="keywordflow">return</span> 0xFFFFFFFFFFFFFFFFuLL;</div>
+<div class="line"><span class="lineno">  322</span>    }</div>
+<div class="ttc" id="a_define_8h_html_ac4dd6ce78ce3b840c53bd4b3c63ed09b"><div class="ttname"><a href="../../db/d35/_define_8h.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a></div><div class="ttdeci">std::uint64_t uint64</div><div class="ttdef"><b>Definition:</b> Define.h:107</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a73ad976bf67c8adba2443190e6db533f" name="a73ad976bf67c8adba2443190e6db533f"></a>
@@ -286,7 +325,24 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  261</span>    {</div>
+<div class="line"><span class="lineno">  262</span>        <span class="keywordflow">if</span> (!h-&gt;OffsetVertexData)</div>
+<div class="line"><span class="lineno">  263</span>            <span class="keywordflow">return</span> 0.0f;</div>
+<div class="line"><span class="lineno">  264</span> </div>
+<div class="line"><span class="lineno">  265</span>        <span class="keywordflow">switch</span> (h-&gt;LiquidVertexFormat)</div>
+<div class="line"><span class="lineno">  266</span>        {</div>
+<div class="line"><span class="lineno">  267</span>            <span class="keywordflow">case</span> LiquidVertexFormatType::HeightDepth:</div>
+<div class="line"><span class="lineno">  268</span>            <span class="keywordflow">case</span> LiquidVertexFormatType::HeightTextureCoord:</div>
+<div class="line"><span class="lineno">  269</span>                <span class="keywordflow">return</span> ((<span class="keywordtype">float</span> <span class="keyword">const</span>*)((<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>*)<span class="keyword">this</span> + 8 + h-&gt;OffsetVertexData))[pos];</div>
+<div class="line"><span class="lineno">  270</span>            <span class="keywordflow">case</span> LiquidVertexFormatType::Depth:</div>
+<div class="line"><span class="lineno">  271</span>                <span class="keywordflow">return</span> 0.0f;</div>
+<div class="line"><span class="lineno">  272</span>            <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  273</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  274</span>        }</div>
+<div class="line"><span class="lineno">  275</span> </div>
+<div class="line"><span class="lineno">  276</span>        <span class="keywordflow">return</span> 0.0f;</div>
+<div class="line"><span class="lineno">  277</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a65b3323ff560d26302f86dcfc79eb4c3" name="a65b3323ff560d26302f86dcfc79eb4c3"></a>
@@ -322,7 +378,13 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  235</span>    {</div>
+<div class="line"><span class="lineno">  236</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d1/d45/classadt___m_h2_o.html#aaaff4b98a34d81985b552fd671411450">liquid</a>[x][y].used &amp;&amp; <a class="code hl_variable" href="../../d1/d45/classadt___m_h2_o.html#aaaff4b98a34d81985b552fd671411450">liquid</a>[x][y].OffsetInstances)</div>
+<div class="line"><span class="lineno">  237</span>            <span class="keywordflow">return</span> (<a class="code hl_struct" href="../../d1/d16/structadt__liquid__instance.html">adt_liquid_instance</a> *)((<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>*)<span class="keyword">this</span> + 8 + <a class="code hl_variable" href="../../d1/d45/classadt___m_h2_o.html#aaaff4b98a34d81985b552fd671411450">liquid</a>[x][y].OffsetInstances);</div>
+<div class="line"><span class="lineno">  238</span>        <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  239</span>    }</div>
+<div class="ttc" id="astructadt__liquid__instance_html"><div class="ttname"><a href="../../d1/d16/structadt__liquid__instance.html">adt_liquid_instance</a></div><div class="ttdef"><b>Definition:</b> adt.h:188</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a1d0cfd669f16b346e9199f6ade39cbce" name="a1d0cfd669f16b346e9199f6ade39cbce"></a>
@@ -358,7 +420,24 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  299</span>    {</div>
+<div class="line"><span class="lineno">  300</span>        <span class="keywordflow">if</span> (!h-&gt;OffsetVertexData)</div>
+<div class="line"><span class="lineno">  301</span>            <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  302</span> </div>
+<div class="line"><span class="lineno">  303</span>        <span class="keywordflow">switch</span> (h-&gt;LiquidVertexFormat)</div>
+<div class="line"><span class="lineno">  304</span>        {</div>
+<div class="line"><span class="lineno">  305</span>            <span class="keywordflow">case</span> LiquidVertexFormatType::HeightDepth:</div>
+<div class="line"><span class="lineno">  306</span>            <span class="keywordflow">case</span> LiquidVertexFormatType::Depth:</div>
+<div class="line"><span class="lineno">  307</span>                <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  308</span>            <span class="keywordflow">case</span> LiquidVertexFormatType::HeightTextureCoord:</div>
+<div class="line"><span class="lineno">  309</span>                <span class="keywordflow">return</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> <span class="keyword">const</span>*)((<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> <span class="keyword">const</span>*)<span class="keyword">this</span> + 8 + h-&gt;OffsetVertexData + 4 * ((h-&gt;GetWidth() + 1) * (h-&gt;GetHeight() + 1) + pos));</div>
+<div class="line"><span class="lineno">  310</span>            <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  311</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  312</span>        }</div>
+<div class="line"><span class="lineno">  313</span>        <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  314</span>    }</div>
+<div class="ttc" id="a_define_8h_html_ad9c79638db63f1dfe2b085743b5cbf7b"><div class="ttname"><a href="../../db/d35/_define_8h.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a></div><div class="ttdeci">std::uint16_t uint16</div><div class="ttdef"><b>Definition:</b> Define.h:109</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="acd96d3f82d0ad8c3cb601097e52427b5" name="acd96d3f82d0ad8c3cb601097e52427b5"></a>
@@ -384,7 +463,13 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  253</span>    {</div>
+<div class="line"><span class="lineno">  254</span>        <span class="keywordflow">if</span> (h-&gt;LiquidVertexFormat == LiquidVertexFormatType::Depth)</div>
+<div class="line"><span class="lineno">  255</span>            <span class="keywordflow">return</span> 2;</div>
+<div class="line"><span class="lineno">  256</span> </div>
+<div class="line"><span class="lineno">  257</span>        <span class="keywordflow">return</span> h-&gt;LiquidType;</div>
+<div class="line"><span class="lineno">  258</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a05b77a8778e3d85dae8437d96a4aae8a" name="a05b77a8778e3d85dae8437d96a4aae8a"></a>
@@ -401,7 +486,20 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  116</span>{</div>
+<div class="line"><span class="lineno">  117</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d1/d45/classadt___m_h2_o.html#a6c09458d5788c58dbd2f9b96448a1ff4">fcc</a> != <a class="code hl_variable" href="../../d5/d36/adt_8cpp.html#aaeaf747e4bc5c25257f9e0ef1153b5a7">MH2OMagic</a>.<a class="code hl_variable" href="../../dd/d66/unionu__map__fcc.html#a828a2845e666d6eb47d6d4705a663a3d">fcc</a>)</div>
+<div class="line"><span class="lineno">  118</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  119</span> </div>
+<div class="line"><span class="lineno">  120</span>    <span class="comment">// Check liquid data</span></div>
+<div class="line"><span class="lineno">  121</span>    <span class="comment">//    for (int i=0; i&lt;ADT_CELLS_PER_GRID;i++)</span></div>
+<div class="line"><span class="lineno">  122</span>    <span class="comment">//        for (int j=0; j&lt;ADT_CELLS_PER_GRID;j++)</span></div>
+<div class="line"><span class="lineno">  123</span> </div>
+<div class="line"><span class="lineno">  124</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  125</span>}</div>
+<div class="ttc" id="aadt_8cpp_html_aaeaf747e4bc5c25257f9e0ef1153b5a7"><div class="ttname"><a href="../../d5/d36/adt_8cpp.html#aaeaf747e4bc5c25257f9e0ef1153b5a7">MH2OMagic</a></div><div class="ttdeci">u_map_fcc MH2OMagic</div><div class="ttdef"><b>Definition:</b> adt.cpp:28</div></div>
+<div class="ttc" id="aclassadt___m_h2_o_html_a6c09458d5788c58dbd2f9b96448a1ff4"><div class="ttname"><a href="../../d1/d45/classadt___m_h2_o.html#a6c09458d5788c58dbd2f9b96448a1ff4">adt_MH2O::fcc</a></div><div class="ttdeci">uint32 fcc</div><div class="ttdef"><b>Definition:</b> adt.h:220</div></div>
+<div class="ttc" id="aunionu__map__fcc_html_a828a2845e666d6eb47d6d4705a663a3d"><div class="ttname"><a href="../../dd/d66/unionu__map__fcc.html#a828a2845e666d6eb47d6d4705a663a3d">u_map_fcc::fcc</a></div><div class="ttdeci">uint32 fcc</div><div class="ttdef"><b>Definition:</b> map_extractor/loadlib/loadlib.h:29</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -476,8 +574,8 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/tools/map_extractor/<a class="el" href="../../d3/df0/adt_8h_source.html">adt.h</a></li>
-<li>D:/azerothcore-wotlk/src/tools/map_extractor/<a class="el" href="../../d5/d36/adt_8cpp.html">adt.cpp</a></li>
+<li><a class="el" href="../../">adt.h</a></li>
+<li><a class="el" href="../../">adt.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -485,7 +583,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d45/classadt___m_h2_o.html">adt_MH2O</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:36 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:48 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -116,7 +116,7 @@ $(document).ready(function(){initNavTree('dd/db9/class_transaction_base.html','.
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d8/d99/_transaction_8h_source.html">Transaction.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">Transaction.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for TransactionBase:</div>
 <div class="dyncontent">
@@ -218,7 +218,9 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   41</span>{ <a class="code hl_function" href="../../dd/db9/class_transaction_base.html#a35e0ce11de325a1b286d90a2936d4aa3">Cleanup</a>(); }</div>
+<div class="ttc" id="aclass_transaction_base_html_a35e0ce11de325a1b286d90a2936d4aa3"><div class="ttname"><a href="../../dd/db9/class_transaction_base.html#a35e0ce11de325a1b286d90a2936d4aa3">TransactionBase::Cleanup</a></div><div class="ttdeci">void Cleanup()</div><div class="ttdef"><b>Definition:</b> Transaction.cpp:50</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -237,7 +239,18 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   34</span>{</div>
+<div class="line"><span class="lineno">   35</span>    <a class="code hl_struct" href="../../d0/dac/struct_s_q_l_element_data.html">SQLElementData</a> data = {};</div>
+<div class="line"><span class="lineno">   36</span>    data.<a class="code hl_variable" href="../../d0/dac/struct_s_q_l_element_data.html#afb3f8dc82da740b1aaae165cb6a5b218">type</a> = <a class="code hl_enumvalue" href="../../da/d2f/_s_q_l_operation_8h.html#abb4a6cfcce013f18b29779f1f435e627a49f9977e0908bdeb2a8b30b5877d939a">SQL_ELEMENT_RAW</a>;</div>
+<div class="line"><span class="lineno">   37</span>    data.<a class="code hl_variable" href="../../d0/dac/struct_s_q_l_element_data.html#ae5400b2932fe1a8c514c38fb6bab392f">element</a> = std::string(sql);</div>
+<div class="line"><span class="lineno">   38</span>    <a class="code hl_variable" href="../../dd/db9/class_transaction_base.html#a156f1a8316358c05285778e5734eade1">m_queries</a>.emplace_back(data);</div>
+<div class="line"><span class="lineno">   39</span>}</div>
+<div class="ttc" id="a_s_q_l_operation_8h_html_abb4a6cfcce013f18b29779f1f435e627a49f9977e0908bdeb2a8b30b5877d939a"><div class="ttname"><a href="../../da/d2f/_s_q_l_operation_8h.html#abb4a6cfcce013f18b29779f1f435e627a49f9977e0908bdeb2a8b30b5877d939a">SQL_ELEMENT_RAW</a></div><div class="ttdeci">@ SQL_ELEMENT_RAW</div><div class="ttdef"><b>Definition:</b> SQLOperation.h:28</div></div>
+<div class="ttc" id="aclass_transaction_base_html_a156f1a8316358c05285778e5734eade1"><div class="ttname"><a href="../../dd/db9/class_transaction_base.html#a156f1a8316358c05285778e5734eade1">TransactionBase::m_queries</a></div><div class="ttdeci">std::vector&lt; SQLElementData &gt; m_queries</div><div class="ttdef"><b>Definition:</b> Transaction.h:56</div></div>
+<div class="ttc" id="astruct_s_q_l_element_data_html"><div class="ttname"><a href="../../d0/dac/struct_s_q_l_element_data.html">SQLElementData</a></div><div class="ttdef"><b>Definition:</b> SQLOperation.h:34</div></div>
+<div class="ttc" id="astruct_s_q_l_element_data_html_ae5400b2932fe1a8c514c38fb6bab392f"><div class="ttname"><a href="../../d0/dac/struct_s_q_l_element_data.html#ae5400b2932fe1a8c514c38fb6bab392f">SQLElementData::element</a></div><div class="ttdeci">std::variant&lt; PreparedStatementBase *, std::string &gt; element</div><div class="ttdef"><b>Definition:</b> SQLOperation.h:35</div></div>
+<div class="ttc" id="astruct_s_q_l_element_data_html_afb3f8dc82da740b1aaae165cb6a5b218"><div class="ttname"><a href="../../d0/dac/struct_s_q_l_element_data.html#afb3f8dc82da740b1aaae165cb6a5b218">SQLElementData::type</a></div><div class="ttdeci">SQLElementDataType type</div><div class="ttdef"><b>Definition:</b> SQLOperation.h:36</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aa0a81814abe26d456018c3bc9153cd4d" name="aa0a81814abe26d456018c3bc9153cd4d"></a>
@@ -275,7 +288,12 @@ template&lt;typename... Args&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   47</span>    {</div>
+<div class="line"><span class="lineno">   48</span>        <a class="code hl_function" href="../../dd/db9/class_transaction_base.html#a867b7a92080104278aef5fb4975a4a52">Append</a>(<a class="code hl_function" href="../../d1/d7d/namespace_acore.html#a07b6432e111b17b737269191d9557f20">Acore::StringFormatFmt</a>(sql, std::forward&lt;Args&gt;(args)...));</div>
+<div class="line"><span class="lineno">   49</span>    }</div>
+<div class="ttc" id="aclass_transaction_base_html_a867b7a92080104278aef5fb4975a4a52"><div class="ttname"><a href="../../dd/db9/class_transaction_base.html#a867b7a92080104278aef5fb4975a4a52">TransactionBase::Append</a></div><div class="ttdeci">void Append(std::string_view sql)</div><div class="ttdef"><b>Definition:</b> Transaction.cpp:33</div></div>
+<div class="ttc" id="anamespace_acore_html_a07b6432e111b17b737269191d9557f20"><div class="ttname"><a href="../../d1/d7d/namespace_acore.html#a07b6432e111b17b737269191d9557f20">Acore::StringFormatFmt</a></div><div class="ttdeci">std::string StringFormatFmt(std::string_view fmt, Args &amp;&amp;... args)</div><div class="ttdef"><b>Definition:</b> StringFormat.h:44</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a8e099a4f8775b5e5e3b95ad0273a716f" name="a8e099a4f8775b5e5e3b95ad0273a716f"></a>
@@ -301,7 +319,14 @@ template&lt;typename... Args&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   43</span>{</div>
+<div class="line"><span class="lineno">   44</span>    <a class="code hl_struct" href="../../d0/dac/struct_s_q_l_element_data.html">SQLElementData</a> data = {};</div>
+<div class="line"><span class="lineno">   45</span>    data.<a class="code hl_variable" href="../../d0/dac/struct_s_q_l_element_data.html#afb3f8dc82da740b1aaae165cb6a5b218">type</a> = <a class="code hl_enumvalue" href="../../da/d2f/_s_q_l_operation_8h.html#abb4a6cfcce013f18b29779f1f435e627af61734e97ffd411ebb8f4275ea05600d">SQL_ELEMENT_PREPARED</a>;</div>
+<div class="line"><span class="lineno">   46</span>    data.<a class="code hl_variable" href="../../d0/dac/struct_s_q_l_element_data.html#ae5400b2932fe1a8c514c38fb6bab392f">element</a> = stmt;</div>
+<div class="line"><span class="lineno">   47</span>    <a class="code hl_variable" href="../../dd/db9/class_transaction_base.html#a156f1a8316358c05285778e5734eade1">m_queries</a>.emplace_back(data);</div>
+<div class="line"><span class="lineno">   48</span>}</div>
+<div class="ttc" id="a_s_q_l_operation_8h_html_abb4a6cfcce013f18b29779f1f435e627af61734e97ffd411ebb8f4275ea05600d"><div class="ttname"><a href="../../da/d2f/_s_q_l_operation_8h.html#abb4a6cfcce013f18b29779f1f435e627af61734e97ffd411ebb8f4275ea05600d">SQL_ELEMENT_PREPARED</a></div><div class="ttdeci">@ SQL_ELEMENT_PREPARED</div><div class="ttdef"><b>Definition:</b> SQLOperation.h:29</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a35e0ce11de325a1b286d90a2936d4aa3" name="a35e0ce11de325a1b286d90a2936d4aa3"></a>
@@ -326,7 +351,56 @@ template&lt;typename... Args&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   51</span>{</div>
+<div class="line"><span class="lineno">   52</span>    <span class="comment">// This might be called by explicit calls to Cleanup or by the auto-destructor</span></div>
+<div class="line"><span class="lineno">   53</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dd/db9/class_transaction_base.html#aa82af96128bfcee997423a54396d40d4">_cleanedUp</a>)</div>
+<div class="line"><span class="lineno">   54</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   55</span> </div>
+<div class="line"><span class="lineno">   56</span>    <span class="keywordflow">for</span> (<a class="code hl_struct" href="../../d0/dac/struct_s_q_l_element_data.html">SQLElementData</a>&amp; data : <a class="code hl_variable" href="../../dd/db9/class_transaction_base.html#a156f1a8316358c05285778e5734eade1">m_queries</a>)</div>
+<div class="line"><span class="lineno">   57</span>    {</div>
+<div class="line"><span class="lineno">   58</span>        <span class="keywordflow">switch</span> (data.type)</div>
+<div class="line"><span class="lineno">   59</span>        {</div>
+<div class="line"><span class="lineno">   60</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../da/d2f/_s_q_l_operation_8h.html#abb4a6cfcce013f18b29779f1f435e627af61734e97ffd411ebb8f4275ea05600d">SQL_ELEMENT_PREPARED</a>:</div>
+<div class="line"><span class="lineno">   61</span>            {</div>
+<div class="line"><span class="lineno">   62</span>                <span class="keywordflow">try</span></div>
+<div class="line"><span class="lineno">   63</span>                {</div>
+<div class="line"><span class="lineno">   64</span>                    <a class="code hl_class" href="../../dd/d6a/class_prepared_statement_base.html">PreparedStatementBase</a>* stmt = std::get&lt;PreparedStatementBase*&gt;(data.element);</div>
+<div class="line"><span class="lineno">   65</span>                    <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(stmt);</div>
+<div class="line"><span class="lineno">   66</span> </div>
+<div class="line"><span class="lineno">   67</span>                    <span class="keyword">delete</span> stmt;</div>
+<div class="line"><span class="lineno">   68</span>                }</div>
+<div class="line"><span class="lineno">   69</span>                <span class="keywordflow">catch</span> (<span class="keyword">const</span> std::bad_variant_access&amp; ex)</div>
+<div class="line"><span class="lineno">   70</span>                {</div>
+<div class="line"><span class="lineno">   71</span>                    <a class="code hl_define" href="../../da/df4/_log_8h.html#a0e09b50c268dc6897a1c70aa46de936e">LOG_FATAL</a>(<span class="stringliteral">&quot;sql.sql&quot;</span>, <span class="stringliteral">&quot;&gt; PreparedStatementBase not found in SQLElementData. {}&quot;</span>, ex.what());</div>
+<div class="line"><span class="lineno">   72</span>                    <a class="code hl_define" href="../../db/d16/_errors_8h.html#a5376571bbf4cdc9782683635f366f89a">ABORT</a>();</div>
+<div class="line"><span class="lineno">   73</span>                }</div>
+<div class="line"><span class="lineno">   74</span>            }</div>
+<div class="line"><span class="lineno">   75</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   76</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../da/d2f/_s_q_l_operation_8h.html#abb4a6cfcce013f18b29779f1f435e627a49f9977e0908bdeb2a8b30b5877d939a">SQL_ELEMENT_RAW</a>:</div>
+<div class="line"><span class="lineno">   77</span>            {</div>
+<div class="line"><span class="lineno">   78</span>                <span class="keywordflow">try</span></div>
+<div class="line"><span class="lineno">   79</span>                {</div>
+<div class="line"><span class="lineno">   80</span>                    std::get&lt;std::string&gt;(data.element).clear();</div>
+<div class="line"><span class="lineno">   81</span>                }</div>
+<div class="line"><span class="lineno">   82</span>                <span class="keywordflow">catch</span> (<span class="keyword">const</span> std::bad_variant_access&amp; ex)</div>
+<div class="line"><span class="lineno">   83</span>                {</div>
+<div class="line"><span class="lineno">   84</span>                    <a class="code hl_define" href="../../da/df4/_log_8h.html#a0e09b50c268dc6897a1c70aa46de936e">LOG_FATAL</a>(<span class="stringliteral">&quot;sql.sql&quot;</span>, <span class="stringliteral">&quot;&gt; std::string not found in SQLElementData. {}&quot;</span>, ex.what());</div>
+<div class="line"><span class="lineno">   85</span>                    <a class="code hl_define" href="../../db/d16/_errors_8h.html#a5376571bbf4cdc9782683635f366f89a">ABORT</a>();</div>
+<div class="line"><span class="lineno">   86</span>                }</div>
+<div class="line"><span class="lineno">   87</span>            }</div>
+<div class="line"><span class="lineno">   88</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   89</span>        }</div>
+<div class="line"><span class="lineno">   90</span>    }</div>
+<div class="line"><span class="lineno">   91</span> </div>
+<div class="line"><span class="lineno">   92</span>    <a class="code hl_variable" href="../../dd/db9/class_transaction_base.html#a156f1a8316358c05285778e5734eade1">m_queries</a>.clear();</div>
+<div class="line"><span class="lineno">   93</span>    <a class="code hl_variable" href="../../dd/db9/class_transaction_base.html#aa82af96128bfcee997423a54396d40d4">_cleanedUp</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   94</span>}</div>
+<div class="ttc" id="a_errors_8h_html_a5376571bbf4cdc9782683635f366f89a"><div class="ttname"><a href="../../db/d16/_errors_8h.html#a5376571bbf4cdc9782683635f366f89a">ABORT</a></div><div class="ttdeci">#define ABORT</div><div class="ttdef"><b>Definition:</b> Errors.h:76</div></div>
+<div class="ttc" id="a_errors_8h_html_af343b20373ba49a92fce523e948f2ab3"><div class="ttname"><a href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a></div><div class="ttdeci">#define ASSERT</div><div class="ttdef"><b>Definition:</b> Errors.h:68</div></div>
+<div class="ttc" id="a_log_8h_html_a0e09b50c268dc6897a1c70aa46de936e"><div class="ttname"><a href="../../da/df4/_log_8h.html#a0e09b50c268dc6897a1c70aa46de936e">LOG_FATAL</a></div><div class="ttdeci">#define LOG_FATAL(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:155</div></div>
+<div class="ttc" id="aclass_prepared_statement_base_html"><div class="ttname"><a href="../../dd/d6a/class_prepared_statement_base.html">PreparedStatementBase</a></div><div class="ttdef"><b>Definition:</b> PreparedStatement.h:69</div></div>
+<div class="ttc" id="aclass_transaction_base_html_aa82af96128bfcee997423a54396d40d4"><div class="ttname"><a href="../../dd/db9/class_transaction_base.html#aa82af96128bfcee997423a54396d40d4">TransactionBase::_cleanedUp</a></div><div class="ttdeci">bool _cleanedUp</div><div class="ttdef"><b>Definition:</b> Transaction.h:59</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a261ad9d7423562ccbe2cac6d75c203bd" name="a261ad9d7423562ccbe2cac6d75c203bd"></a>
@@ -351,7 +425,8 @@ template&lt;typename... Args&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   51</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dd/db9/class_transaction_base.html#a156f1a8316358c05285778e5734eade1">m_queries</a>.size(); }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Friends And Related Function Documentation</h2>
@@ -469,8 +544,8 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/database/Database/<a class="el" href="../../d8/d99/_transaction_8h_source.html">Transaction.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/database/Database/<a class="el" href="../../df/d11/_transaction_8cpp.html">Transaction.cpp</a></li>
+<li><a class="el" href="../../">Transaction.h</a></li>
+<li><a class="el" href="../../">Transaction.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -478,7 +553,7 @@ template&lt;typename T &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dd/db9/class_transaction_base.html">TransactionBase</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:12 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:28 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

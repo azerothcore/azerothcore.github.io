@@ -497,7 +497,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a95e8039b174f6db267197e04b6bd2dd2" name="a95e8039b174f6db267197e04b6bd2dd2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a95e8039b174f6db267197e04b6bd2dd2">&#9670;&#160;</a></span>npc_your_inner_turmoilAI()</h2>
 
@@ -521,7 +522,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   97</span>: <a class="code hl_struct" href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a>(creature) {}</div>
+<div class="ttc" id="astruct_scripted_a_i_html"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -572,7 +575,29 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a0d572a234f887646543620c847bd61cd">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  125</span>        {</div>
+<div class="line"><span class="lineno">  126</span>            <span class="keywordflow">if</span> (<a class="code hl_function" href="../../de/d83/struct_scripted_a_i.html#aa4e7196924ef7710dc780b0321e09002">HealthBelowPct</a>(50) &amp;&amp; !<a class="code hl_variable" href="../../df/d5b/structnpc__your__inner__turmoil_1_1npc__your__inner__turmoil_a_i.html#af5a9e355c2a5a927d38ea22fe96d89f0">health50</a>)</div>
+<div class="line"><span class="lineno">  127</span>            {</div>
+<div class="line"><span class="lineno">  128</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d2/d6e/class_temp_summon.html">TempSummon</a> <span class="keyword">const</span>* tempSummon = <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a6649e9ba10948d634bc0ac9c4a5800e5">ToTempSummon</a>())</div>
+<div class="line"><span class="lineno">  129</span>                {</div>
+<div class="line"><span class="lineno">  130</span>                    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../db/df7/class_world_object.html">WorldObject</a>* summoner = tempSummon-&gt;GetSummonerUnit())</div>
+<div class="line"><span class="lineno">  131</span>                    {</div>
+<div class="line"><span class="lineno">  132</span>                        <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d1/d77/zone__howling__fjord_8cpp.html#ae01e16ebe34a24a598f4b4fb26dbf919a378c2c631bf845c1710a9d8cc64a2541">SAY_TURMOIL_HALF_HP</a>, summoner);</div>
+<div class="line"><span class="lineno">  133</span>                    }</div>
+<div class="line"><span class="lineno">  134</span>                }</div>
+<div class="line"><span class="lineno">  135</span> </div>
+<div class="line"><span class="lineno">  136</span>                <a class="code hl_variable" href="../../df/d5b/structnpc__your__inner__turmoil_1_1npc__your__inner__turmoil_a_i.html#af5a9e355c2a5a927d38ea22fe96d89f0">health50</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  137</span>            }</div>
+<div class="line"><span class="lineno">  138</span>        }</div>
+<div class="ttc" id="aboss__fathomlord__karathress_8cpp_html_a747a224b6b3195f9a33c56ddc6c7e268"><div class="ttname"><a href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a></div><div class="ttdeci">Talk</div><div class="ttdef"><b>Definition:</b> boss_fathomlord_karathress.cpp:23</div></div>
+<div class="ttc" id="aclass_temp_summon_html"><div class="ttname"><a href="../../d2/d6e/class_temp_summon.html">TempSummon</a></div><div class="ttdef"><b>Definition:</b> TemporarySummon.h:40</div></div>
+<div class="ttc" id="aclass_unit_html_a6649e9ba10948d634bc0ac9c4a5800e5"><div class="ttname"><a href="../../da/db7/class_unit.html#a6649e9ba10948d634bc0ac9c4a5800e5">Unit::ToTempSummon</a></div><div class="ttdeci">TempSummon * ToTempSummon()</div><div class="ttdef"><b>Definition:</b> Unit.h:2395</div></div>
+<div class="ttc" id="aclass_world_object_html"><div class="ttname"><a href="../../db/df7/class_world_object.html">WorldObject</a></div><div class="ttdef"><b>Definition:</b> Object.h:393</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_aa4e7196924ef7710dc780b0321e09002"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#aa4e7196924ef7710dc780b0321e09002">ScriptedAI::HealthBelowPct</a></div><div class="ttdeci">bool HealthBelowPct(uint32 pct) const</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:332</div></div>
+<div class="ttc" id="astructnpc__your__inner__turmoil_1_1npc__your__inner__turmoil_a_i_html_af5a9e355c2a5a927d38ea22fe96d89f0"><div class="ttname"><a href="../../df/d5b/structnpc__your__inner__turmoil_1_1npc__your__inner__turmoil_a_i.html#af5a9e355c2a5a927d38ea22fe96d89f0">npc_your_inner_turmoil::npc_your_inner_turmoilAI::health50</a></div><div class="ttdeci">bool health50</div><div class="ttdef"><b>Definition:</b> zone_howling_fjord.cpp:101</div></div>
+<div class="ttc" id="azone__howling__fjord_8cpp_html_ae01e16ebe34a24a598f4b4fb26dbf919a378c2c631bf845c1710a9d8cc64a2541"><div class="ttname"><a href="../../d1/d77/zone__howling__fjord_8cpp.html#ae01e16ebe34a24a598f4b4fb26dbf919a378c2c631bf845c1710a9d8cc64a2541">SAY_TURMOIL_HALF_HP</a></div><div class="ttdeci">@ SAY_TURMOIL_HALF_HP</div><div class="ttdef"><b>Definition:</b> zone_howling_fjord.cpp:86</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a142359bf1661542d044a7d27b764832b" name="a142359bf1661542d044a7d27b764832b"></a>
@@ -600,7 +625,17 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a4cc209e047dcbd29cf57e689e3945ff7">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  141</span>        {</div>
+<div class="line"><span class="lineno">  142</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d2/d6e/class_temp_summon.html">TempSummon</a> <span class="keyword">const</span>* tempSummon = <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a6649e9ba10948d634bc0ac9c4a5800e5">ToTempSummon</a>())</div>
+<div class="line"><span class="lineno">  143</span>            {</div>
+<div class="line"><span class="lineno">  144</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../db/df7/class_world_object.html">WorldObject</a>* summoner = tempSummon-&gt;GetSummonerUnit())</div>
+<div class="line"><span class="lineno">  145</span>                {</div>
+<div class="line"><span class="lineno">  146</span>                    <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d1/d77/zone__howling__fjord_8cpp.html#ae01e16ebe34a24a598f4b4fb26dbf919ae008192ae78fbdcce408850140f26eb8">SAY_TURMOIL_DEATH</a>, summoner);</div>
+<div class="line"><span class="lineno">  147</span>                }</div>
+<div class="line"><span class="lineno">  148</span>            }</div>
+<div class="line"><span class="lineno">  149</span>        }</div>
+<div class="ttc" id="azone__howling__fjord_8cpp_html_ae01e16ebe34a24a598f4b4fb26dbf919ae008192ae78fbdcce408850140f26eb8"><div class="ttname"><a href="../../d1/d77/zone__howling__fjord_8cpp.html#ae01e16ebe34a24a598f4b4fb26dbf919ae008192ae78fbdcce408850140f26eb8">SAY_TURMOIL_DEATH</a></div><div class="ttdeci">@ SAY_TURMOIL_DEATH</div><div class="ttdef"><b>Definition:</b> zone_howling_fjord.cpp:87</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a4e17e9642ec11712652f41495974b716" name="a4e17e9642ec11712652f41495974b716"></a>
@@ -627,7 +662,14 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a26600c116d20a33461fc884bdb82eda9">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  104</span>        {</div>
+<div class="line"><span class="lineno">  105</span>            <a class="code hl_variable" href="../../df/d5b/structnpc__your__inner__turmoil_1_1npc__your__inner__turmoil_a_i.html#af2c272de51aa15a41af9837f99256a62">timer</a> = 0;</div>
+<div class="line"><span class="lineno">  106</span>            <a class="code hl_enumeration" href="../../d6/dd9/boss__skadi_8cpp.html#a4432ad5c680b2372adf2f56998516c6d">phase</a> = 0;</div>
+<div class="line"><span class="lineno">  107</span>            <a class="code hl_variable" href="../../df/d5b/structnpc__your__inner__turmoil_1_1npc__your__inner__turmoil_a_i.html#af5a9e355c2a5a927d38ea22fe96d89f0">health50</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  108</span>        }</div>
+<div class="ttc" id="aboss__skadi_8cpp_html_a4432ad5c680b2372adf2f56998516c6d"><div class="ttname"><a href="../../d6/dd9/boss__skadi_8cpp.html#a4432ad5c680b2372adf2f56998516c6d">phase</a></div><div class="ttdeci">phase</div><div class="ttdef"><b>Definition:</b> boss_skadi.cpp:102</div></div>
+<div class="ttc" id="astructnpc__your__inner__turmoil_1_1npc__your__inner__turmoil_a_i_html_af2c272de51aa15a41af9837f99256a62"><div class="ttname"><a href="../../df/d5b/structnpc__your__inner__turmoil_1_1npc__your__inner__turmoil_a_i.html#af2c272de51aa15a41af9837f99256a62">npc_your_inner_turmoil::npc_your_inner_turmoilAI::timer</a></div><div class="ttdeci">uint32 timer</div><div class="ttdef"><b>Definition:</b> zone_howling_fjord.cpp:99</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a17c00619bcf5818e49f67d4d8b8b35b0" name="a17c00619bcf5818e49f67d4d8b8b35b0"></a>
@@ -653,7 +695,49 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  152</span>        {</div>
+<div class="line"><span class="lineno">  153</span>            <a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* summoner = <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a6649e9ba10948d634bc0ac9c4a5800e5">ToTempSummon</a>() ? <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a6649e9ba10948d634bc0ac9c4a5800e5">ToTempSummon</a>()-&gt;<a class="code hl_function" href="../../d2/d6e/class_temp_summon.html#ae76cc9614974a4e0ae95c3715aab3a70">GetSummonerUnit</a>() : <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  154</span>            <span class="keywordflow">if</span> (!summoner || summoner-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">GetTypeId</a>() != <a class="code hl_enumvalue" href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a>)</div>
+<div class="line"><span class="lineno">  155</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  156</span> </div>
+<div class="line"><span class="lineno">  157</span>            <span class="keywordflow">switch</span> (newPhase)</div>
+<div class="line"><span class="lineno">  158</span>            {</div>
+<div class="line"><span class="lineno">  159</span>                <span class="keywordflow">case</span> 1:</div>
+<div class="line"><span class="lineno">  160</span>                    <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d1/d77/zone__howling__fjord_8cpp.html#ae01e16ebe34a24a598f4b4fb26dbf919a942b14a6948f52ce8970c678198ca200">SAY_TURMOIL_0</a>, summoner-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a328d5f752cc33ed398b3d9861ef6929d">ToPlayer</a>());</div>
+<div class="line"><span class="lineno">  161</span>                    <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  162</span>                <span class="keywordflow">case</span> 2:</div>
+<div class="line"><span class="lineno">  163</span>                {</div>
+<div class="line"><span class="lineno">  164</span>                    <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d1/d77/zone__howling__fjord_8cpp.html#ae01e16ebe34a24a598f4b4fb26dbf919a552b3da685e5d5c0ee068936387378c8">SAY_TURMOIL_1</a>, summoner-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a328d5f752cc33ed398b3d9861ef6929d">ToPlayer</a>());</div>
+<div class="line"><span class="lineno">  165</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a815ff6e664524d768b65cc0428ad4d1f">SetLevel</a>(summoner-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#adc6d98745d565970b4a89088ec5b5a42">getLevel</a>());</div>
+<div class="line"><span class="lineno">  166</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a2579e2b71959daec99048b4bcf7f6bf3">SetFaction</a>(<a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#ac5c8e776fe109c83a63abe41eb5e80f2ad5df5c249f2a8680cdf3cdf81931f1a9">FACTION_MONSTER</a>);</div>
+<div class="line"><span class="lineno">  167</span>                    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#a45b83c2b057421d190c01b819b513cdc">GetExactDist</a>(summoner) &lt; 50.0f)</div>
+<div class="line"><span class="lineno">  168</span>                    {</div>
+<div class="line"><span class="lineno">  169</span>                        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a84ec84cb45d5d4bc29fe28c24c4f7624">UpdatePosition</a>(summoner-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#ad5577c934d9e845b44759b67c534c3e8">GetPositionX</a>(), summoner-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">GetPositionY</a>(), summoner-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#a4e813a59345a6275e8b87b96be03e60b">GetPositionZ</a>(), 0.0f, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  170</span>                        summoner-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, 50218, <span class="keyword">true</span>); <span class="comment">// clone caster</span></div>
+<div class="line"><span class="lineno">  171</span>                        <a class="code hl_function" href="../../de/d83/struct_scripted_a_i.html#a4c91d8d2c1a6e8b234c1c4f15936c7a4">AttackStart</a>(summoner);</div>
+<div class="line"><span class="lineno">  172</span>                    }</div>
+<div class="line"><span class="lineno">  173</span>                }</div>
+<div class="line"><span class="lineno">  174</span>            }</div>
+<div class="line"><span class="lineno">  175</span>        }</div>
+<div class="ttc" id="a_object_guid_8h_html_a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c"><div class="ttname"><a href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a></div><div class="ttdeci">@ TYPEID_PLAYER</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:38</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_ac5c8e776fe109c83a63abe41eb5e80f2ad5df5c249f2a8680cdf3cdf81931f1a9"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#ac5c8e776fe109c83a63abe41eb5e80f2ad5df5c249f2a8680cdf3cdf81931f1a9">FACTION_MONSTER</a></div><div class="ttdeci">@ FACTION_MONSTER</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:167</div></div>
+<div class="ttc" id="aclass_object_html_a328d5f752cc33ed398b3d9861ef6929d"><div class="ttname"><a href="../../d8/d83/class_object.html#a328d5f752cc33ed398b3d9861ef6929d">Object::ToPlayer</a></div><div class="ttdeci">Player * ToPlayer()</div><div class="ttdef"><b>Definition:</b> Object.h:195</div></div>
+<div class="ttc" id="aclass_object_html_a621a345fc34deed6d3a4e1e498a652da"><div class="ttname"><a href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">Object::GetTypeId</a></div><div class="ttdeci">TypeID GetTypeId() const</div><div class="ttdef"><b>Definition:</b> Object.h:121</div></div>
+<div class="ttc" id="aclass_temp_summon_html_ae76cc9614974a4e0ae95c3715aab3a70"><div class="ttname"><a href="../../d2/d6e/class_temp_summon.html#ae76cc9614974a4e0ae95c3715aab3a70">TempSummon::GetSummonerUnit</a></div><div class="ttdeci">Unit * GetSummonerUnit() const</div><div class="ttdef"><b>Definition:</b> TemporarySummon.cpp:43</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_a2579e2b71959daec99048b4bcf7f6bf3"><div class="ttname"><a href="../../da/db7/class_unit.html#a2579e2b71959daec99048b4bcf7f6bf3">Unit::SetFaction</a></div><div class="ttdeci">void SetFaction(uint32 faction)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:10017</div></div>
+<div class="ttc" id="aclass_unit_html_a815ff6e664524d768b65cc0428ad4d1f"><div class="ttname"><a href="../../da/db7/class_unit.html#a815ff6e664524d768b65cc0428ad4d1f">Unit::SetLevel</a></div><div class="ttdeci">void SetLevel(uint8 lvl, bool showLevelChange=true)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:15317</div></div>
+<div class="ttc" id="aclass_unit_html_a84ec84cb45d5d4bc29fe28c24c4f7624"><div class="ttname"><a href="../../da/db7/class_unit.html#a84ec84cb45d5d4bc29fe28c24c4f7624">Unit::UpdatePosition</a></div><div class="ttdeci">virtual bool UpdatePosition(float x, float y, float z, float ang, bool teleport=false)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:20031</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+<div class="ttc" id="aclass_unit_html_adc6d98745d565970b4a89088ec5b5a42"><div class="ttname"><a href="../../da/db7/class_unit.html#adc6d98745d565970b4a89088ec5b5a42">Unit::getLevel</a></div><div class="ttdeci">uint8 getLevel() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1418</div></div>
+<div class="ttc" id="astruct_position_html_a45b83c2b057421d190c01b819b513cdc"><div class="ttname"><a href="../../d1/d26/struct_position.html#a45b83c2b057421d190c01b819b513cdc">Position::GetExactDist</a></div><div class="ttdeci">float GetExactDist(float x, float y, float z) const</div><div class="ttdef"><b>Definition:</b> Position.h:178</div></div>
+<div class="ttc" id="astruct_position_html_a4e813a59345a6275e8b87b96be03e60b"><div class="ttname"><a href="../../d1/d26/struct_position.html#a4e813a59345a6275e8b87b96be03e60b">Position::GetPositionZ</a></div><div class="ttdeci">float GetPositionZ() const</div><div class="ttdef"><b>Definition:</b> Position.h:119</div></div>
+<div class="ttc" id="astruct_position_html_ad5577c934d9e845b44759b67c534c3e8"><div class="ttname"><a href="../../d1/d26/struct_position.html#ad5577c934d9e845b44759b67c534c3e8">Position::GetPositionX</a></div><div class="ttdeci">float GetPositionX() const</div><div class="ttdef"><b>Definition:</b> Position.h:117</div></div>
+<div class="ttc" id="astruct_position_html_ae79fc664f6cd027f5d49f6c7df8e4c9e"><div class="ttname"><a href="../../d1/d26/struct_position.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">Position::GetPositionY</a></div><div class="ttdeci">float GetPositionY() const</div><div class="ttdef"><b>Definition:</b> Position.h:118</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a4c91d8d2c1a6e8b234c1c4f15936c7a4"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a4c91d8d2c1a6e8b234c1c4f15936c7a4">ScriptedAI::AttackStart</a></div><div class="ttdeci">void AttackStart(Unit *) override</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.cpp:206</div></div>
+<div class="ttc" id="azone__howling__fjord_8cpp_html_ae01e16ebe34a24a598f4b4fb26dbf919a552b3da685e5d5c0ee068936387378c8"><div class="ttname"><a href="../../d1/d77/zone__howling__fjord_8cpp.html#ae01e16ebe34a24a598f4b4fb26dbf919a552b3da685e5d5c0ee068936387378c8">SAY_TURMOIL_1</a></div><div class="ttdeci">@ SAY_TURMOIL_1</div><div class="ttdef"><b>Definition:</b> zone_howling_fjord.cpp:85</div></div>
+<div class="ttc" id="azone__howling__fjord_8cpp_html_ae01e16ebe34a24a598f4b4fb26dbf919a942b14a6948f52ce8970c678198ca200"><div class="ttname"><a href="../../d1/d77/zone__howling__fjord_8cpp.html#ae01e16ebe34a24a598f4b4fb26dbf919a942b14a6948f52ce8970c678198ca200">SAY_TURMOIL_0</a></div><div class="ttdeci">@ SAY_TURMOIL_0</div><div class="ttdef"><b>Definition:</b> zone_howling_fjord.cpp:84</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2a4b20fccb4b5ef0f590f0a7ee92e4d2" name="a2a4b20fccb4b5ef0f590f0a7ee92e4d2"></a>
@@ -681,7 +765,21 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#aff5fd4e142a5cf930ffacbfc7259cce5">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  111</span>        {</div>
+<div class="line"><span class="lineno">  112</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../df/d5b/structnpc__your__inner__turmoil_1_1npc__your__inner__turmoil_a_i.html#af2c272de51aa15a41af9837f99256a62">timer</a> &gt;= 6000 &amp;&amp; <a class="code hl_enumeration" href="../../d6/dd9/boss__skadi_8cpp.html#a4432ad5c680b2372adf2f56998516c6d">phase</a> &lt; 2)</div>
+<div class="line"><span class="lineno">  113</span>            {</div>
+<div class="line"><span class="lineno">  114</span>                <a class="code hl_enumeration" href="../../d6/dd9/boss__skadi_8cpp.html#a4432ad5c680b2372adf2f56998516c6d">phase</a>++;</div>
+<div class="line"><span class="lineno">  115</span>                <a class="code hl_function" href="../../df/d5b/structnpc__your__inner__turmoil_1_1npc__your__inner__turmoil_a_i.html#a17c00619bcf5818e49f67d4d8b8b35b0">setphase</a>(<a class="code hl_enumeration" href="../../d6/dd9/boss__skadi_8cpp.html#a4432ad5c680b2372adf2f56998516c6d">phase</a>);</div>
+<div class="line"><span class="lineno">  116</span>                <a class="code hl_variable" href="../../df/d5b/structnpc__your__inner__turmoil_1_1npc__your__inner__turmoil_a_i.html#af2c272de51aa15a41af9837f99256a62">timer</a> = 0;</div>
+<div class="line"><span class="lineno">  117</span>            }</div>
+<div class="line"><span class="lineno">  118</span> </div>
+<div class="line"><span class="lineno">  119</span>            <a class="code hl_variable" href="../../df/d5b/structnpc__your__inner__turmoil_1_1npc__your__inner__turmoil_a_i.html#af2c272de51aa15a41af9837f99256a62">timer</a> += diff;</div>
+<div class="line"><span class="lineno">  120</span> </div>
+<div class="line"><span class="lineno">  121</span>            <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">DoMeleeAttackIfReady</a>();</div>
+<div class="line"><span class="lineno">  122</span>        }</div>
+<div class="ttc" id="aclass_unit_a_i_html_a348a472089a9be6210b58aace8fafa9f"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">UnitAI::DoMeleeAttackIfReady</a></div><div class="ttdeci">void DoMeleeAttackIfReady()</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:40</div></div>
+<div class="ttc" id="astructnpc__your__inner__turmoil_1_1npc__your__inner__turmoil_a_i_html_a17c00619bcf5818e49f67d4d8b8b35b0"><div class="ttname"><a href="../../df/d5b/structnpc__your__inner__turmoil_1_1npc__your__inner__turmoil_a_i.html#a17c00619bcf5818e49f67d4d8b8b35b0">npc_your_inner_turmoil::npc_your_inner_turmoilAI::setphase</a></div><div class="ttdeci">void setphase(short newPhase)</div><div class="ttdef"><b>Definition:</b> zone_howling_fjord.cpp:151</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -728,7 +826,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/<a class="el" href="../../d1/d77/zone__howling__fjord_8cpp.html">zone_howling_fjord.cpp</a></li>
+<li><a class="el" href="../../">zone_howling_fjord.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -736,7 +834,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/de6/classnpc__your__inner__turmoil.html">npc_your_inner_turmoil</a></li><li class="navelem"><a class="el" href="../../df/d5b/structnpc__your__inner__turmoil_1_1npc__your__inner__turmoil_a_i.html">npc_your_inner_turmoilAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:56 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:12 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

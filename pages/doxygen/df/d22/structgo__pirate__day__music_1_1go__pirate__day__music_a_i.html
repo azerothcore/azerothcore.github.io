@@ -196,7 +196,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a22a51a980875ccae8a285d7804967747 inherit pro_attribs_class_game_object_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/dd1/class_game_object.html">GameObject</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db8/class_game_object_a_i.html#a22a51a980875ccae8a285d7804967747">me</a></td></tr>
 <tr class="separator:a22a51a980875ccae8a285d7804967747 inherit pro_attribs_class_game_object_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a1abe263949b7a07e5143779efcddc7eb" name="a1abe263949b7a07e5143779efcddc7eb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1abe263949b7a07e5143779efcddc7eb">&#9670;&#160;</a></span>go_pirate_day_musicAI()</h2>
 
@@ -220,7 +221,15 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  697</span>                                              : <a class="code hl_class" href="../../d7/db8/class_game_object_a_i.html">GameObjectAI</a>(go)</div>
+<div class="line"><span class="lineno">  698</span>        {</div>
+<div class="line"><span class="lineno">  699</span>            <a class="code hl_variable" href="../../df/d22/structgo__pirate__day__music_1_1go__pirate__day__music_a_i.html#a233ae55a05876c665455b106ef50d57e">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a5e6081bda8828001c0ed8677b2aecd65">ScheduleEvent</a>(<a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#a90070712c532a8c26b7acca5702f0737a53a10f03018ca8517c37544f34675e65">EVENT_PDM_START_MUSIC</a>, 1000);</div>
+<div class="line"><span class="lineno">  700</span>        }</div>
+<div class="ttc" id="aclass_event_map_html_a5e6081bda8828001c0ed8677b2aecd65"><div class="ttname"><a href="../../d8/d8f/class_event_map.html#a5e6081bda8828001c0ed8677b2aecd65">EventMap::ScheduleEvent</a></div><div class="ttdeci">void ScheduleEvent(uint32 eventId, uint32 time, uint32 group=0, uint32 phase=0)</div><div class="ttdef"><b>Definition:</b> EventMap.cpp:56</div></div>
+<div class="ttc" id="aclass_game_object_a_i_html"><div class="ttname"><a href="../../d7/db8/class_game_object_a_i.html">GameObjectAI</a></div><div class="ttdef"><b>Definition:</b> GameObjectAI.h:33</div></div>
+<div class="ttc" id="ago__scripts_8cpp_html_a90070712c532a8c26b7acca5702f0737a53a10f03018ca8517c37544f34675e65"><div class="ttname"><a href="../../d6/d0c/go__scripts_8cpp.html#a90070712c532a8c26b7acca5702f0737a53a10f03018ca8517c37544f34675e65">EVENT_PDM_START_MUSIC</a></div><div class="ttdeci">@ EVENT_PDM_START_MUSIC</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:685</div></div>
+<div class="ttc" id="astructgo__pirate__day__music_1_1go__pirate__day__music_a_i_html_a233ae55a05876c665455b106ef50d57e"><div class="ttname"><a href="../../df/d22/structgo__pirate__day__music_1_1go__pirate__day__music_a_i.html#a233ae55a05876c665455b106ef50d57e">go_pirate_day_music::go_pirate_day_musicAI::_events</a></div><div class="ttdeci">EventMap _events</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:721</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -249,7 +258,32 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d7/db8/class_game_object_a_i.html#aa9b59a4ec7d95a0702689fad902d956a">GameObjectAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  703</span>        {</div>
+<div class="line"><span class="lineno">  704</span>            <a class="code hl_variable" href="../../df/d22/structgo__pirate__day__music_1_1go__pirate__day__music_a_i.html#a233ae55a05876c665455b106ef50d57e">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a33ba1058edd639c98258ba3e123ac2f9">Update</a>(diff);</div>
+<div class="line"><span class="lineno">  705</span>            <span class="keywordflow">while</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> eventId = <a class="code hl_variable" href="../../df/d22/structgo__pirate__day__music_1_1go__pirate__day__music_a_i.html#a233ae55a05876c665455b106ef50d57e">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a07764662d7571ae0e1c44203d189ba44">ExecuteEvent</a>())</div>
+<div class="line"><span class="lineno">  706</span>            {</div>
+<div class="line"><span class="lineno">  707</span>                <span class="keywordflow">switch</span> (eventId)</div>
+<div class="line"><span class="lineno">  708</span>                {</div>
+<div class="line"><span class="lineno">  709</span>                    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#a90070712c532a8c26b7acca5702f0737a53a10f03018ca8517c37544f34675e65">EVENT_PDM_START_MUSIC</a>:</div>
+<div class="line"><span class="lineno">  710</span>                        <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../dc/df4/_game_event_mgr_8cpp.html#a429db26781d2673aa2f031fc1327ffaf">IsHolidayActive</a>(<a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#ad279224fea61f9754572051fc5ff1fabab5520fc423e7a3635fdda0dc63a7e11b">HOLIDAY_PIRATES_DAY</a>))</div>
+<div class="line"><span class="lineno">  711</span>                            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  712</span>                        <a class="code hl_variable" href="../../d7/db8/class_game_object_a_i.html#a22a51a980875ccae8a285d7804967747">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a74efe8ac3ff27491fec956625749178c">PlayDirectMusic</a>(<a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#a389c53b4909666608f9054330b601fd1a02835584af75215c801e4bf424b70557">MUSIC_PIRATE_DAY_MUSIC</a>);</div>
+<div class="line"><span class="lineno">  713</span>                        <a class="code hl_variable" href="../../df/d22/structgo__pirate__day__music_1_1go__pirate__day__music_a_i.html#a233ae55a05876c665455b106ef50d57e">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a5e6081bda8828001c0ed8677b2aecd65">ScheduleEvent</a>(<a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#a90070712c532a8c26b7acca5702f0737a53a10f03018ca8517c37544f34675e65">EVENT_PDM_START_MUSIC</a>, 5000);  <span class="comment">// Every 5 second&#39;s SMSG_PLAY_MUSIC packet (PlayDirectMusic) is pushed to the client (sniffed value)</span></div>
+<div class="line"><span class="lineno">  714</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  715</span>                    <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  716</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  717</span>                }</div>
+<div class="line"><span class="lineno">  718</span>            }</div>
+<div class="line"><span class="lineno">  719</span>        }</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="a_game_event_mgr_8cpp_html_a429db26781d2673aa2f031fc1327ffaf"><div class="ttname"><a href="../../dc/df4/_game_event_mgr_8cpp.html#a429db26781d2673aa2f031fc1327ffaf">IsHolidayActive</a></div><div class="ttdeci">bool IsHolidayActive(HolidayIds id)</div><div class="ttdef"><b>Definition:</b> GameEventMgr.cpp:1910</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_ad279224fea61f9754572051fc5ff1fabab5520fc423e7a3635fdda0dc63a7e11b"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#ad279224fea61f9754572051fc5ff1fabab5520fc423e7a3635fdda0dc63a7e11b">HOLIDAY_PIRATES_DAY</a></div><div class="ttdeci">@ HOLIDAY_PIRATES_DAY</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:2734</div></div>
+<div class="ttc" id="aclass_event_map_html_a07764662d7571ae0e1c44203d189ba44"><div class="ttname"><a href="../../d8/d8f/class_event_map.html#a07764662d7571ae0e1c44203d189ba44">EventMap::ExecuteEvent</a></div><div class="ttdeci">uint32 ExecuteEvent()</div><div class="ttdef"><b>Definition:</b> EventMap.cpp:114</div></div>
+<div class="ttc" id="aclass_event_map_html_a33ba1058edd639c98258ba3e123ac2f9"><div class="ttname"><a href="../../d8/d8f/class_event_map.html#a33ba1058edd639c98258ba3e123ac2f9">EventMap::Update</a></div><div class="ttdeci">void Update(uint32 time)</div><div class="ttdef"><b>Definition:</b> EventMap.h:54</div></div>
+<div class="ttc" id="aclass_game_object_a_i_html_a22a51a980875ccae8a285d7804967747"><div class="ttname"><a href="../../d7/db8/class_game_object_a_i.html#a22a51a980875ccae8a285d7804967747">GameObjectAI::me</a></div><div class="ttdeci">GameObject *const me</div><div class="ttdef"><b>Definition:</b> GameObjectAI.h:35</div></div>
+<div class="ttc" id="aclass_world_object_html_a74efe8ac3ff27491fec956625749178c"><div class="ttname"><a href="../../db/df7/class_world_object.html#a74efe8ac3ff27491fec956625749178c">WorldObject::PlayDirectMusic</a></div><div class="ttdeci">void PlayDirectMusic(uint32 music_id, Player *target=nullptr)</div><div class="ttdef"><b>Definition:</b> Object.cpp:2844</div></div>
+<div class="ttc" id="ago__scripts_8cpp_html_a389c53b4909666608f9054330b601fd1a02835584af75215c801e4bf424b70557"><div class="ttname"><a href="../../d6/d0c/go__scripts_8cpp.html#a389c53b4909666608f9054330b601fd1a02835584af75215c801e4bf424b70557">MUSIC_PIRATE_DAY_MUSIC</a></div><div class="ttdeci">@ MUSIC_PIRATE_DAY_MUSIC</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:680</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -290,7 +324,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/World/<a class="el" href="../../d6/d0c/go__scripts_8cpp.html">go_scripts.cpp</a></li>
+<li><a class="el" href="../../">go_scripts.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -298,7 +332,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d3/da4/classgo__pirate__day__music.html">go_pirate_day_music</a></li><li class="navelem"><a class="el" href="../../df/d22/structgo__pirate__day__music_1_1go__pirate__day__music_a_i.html">go_pirate_day_musicAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:45 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:59 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -302,7 +302,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a4a276b00d4912c210598057620368934" name="a4a276b00d4912c210598057620368934"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4a276b00d4912c210598057620368934">&#9670;&#160;</a></span>OnApply()</h2>
 
@@ -336,7 +337,42 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1378</span>    {</div>
+<div class="line"><span class="lineno"> 1379</span>        <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> factionId = <a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#afd53a868088ef0d578cc351b05ab9df8a12b83bc54e5cd1250dc5c24578af5c68">FACTION_ALLIANCE</a>;</div>
+<div class="line"><span class="lineno"> 1380</span>        <span class="keywordflow">switch</span> (<a class="code hl_variable" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a>)</div>
+<div class="line"><span class="lineno"> 1381</span>        {</div>
+<div class="line"><span class="lineno"> 1382</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#afd53a868088ef0d578cc351b05ab9df8a8f4df5b3207fedb818a208651ce87de9">SPELL_BREWFEST_REVELER_TRANSFORM_BE</a>:</div>
+<div class="line"><span class="lineno"> 1383</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#afd53a868088ef0d578cc351b05ab9df8a8814a55a3046f8d5b12ae92edad188e6">SPELL_BREWFEST_REVELER_TRANSFORM_ORC</a>:</div>
+<div class="line"><span class="lineno"> 1384</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#afd53a868088ef0d578cc351b05ab9df8a4288e74f4fd3978d4af9ada35238fd81">SPELL_BREWFEST_REVELER_TRANSFORM_TAUREN</a>:</div>
+<div class="line"><span class="lineno"> 1385</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#afd53a868088ef0d578cc351b05ab9df8a3365c4940364c71cdecd3455f1fcaaa9">SPELL_BREWFEST_REVELER_TRANSFORM_TROLL</a>:</div>
+<div class="line"><span class="lineno"> 1386</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#afd53a868088ef0d578cc351b05ab9df8a95f5bd27925c7cac826ae1065091f3f3">SPELL_BREWFEST_REVELER_TRANSFORM_UNDEAD</a>:</div>
+<div class="line"><span class="lineno"> 1387</span>                factionId = <a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#afd53a868088ef0d578cc351b05ab9df8ab009f6e52ebbe43a5f354ac86cba2540">FACTION_HORDE</a>;</div>
+<div class="line"><span class="lineno"> 1388</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1389</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#afd53a868088ef0d578cc351b05ab9df8a0eadd178341893fb53ddcc9d835b191f">SPELL_BREWFEST_REVELER_TRANSFORM_GOBLIN_MALE</a>:</div>
+<div class="line"><span class="lineno"> 1390</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/ddf/brewfest_8cpp.html#afd53a868088ef0d578cc351b05ab9df8a7eddef42bae072663cd19ff05c32e720">SPELL_BREWFEST_REVELER_TRANSFORM_GOBLIN_FEMALE</a>:</div>
+<div class="line"><span class="lineno"> 1391</span>                factionId = <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#ac5c8e776fe109c83a63abe41eb5e80f2a5cf4abb6724ef933fed2820a2dce8b42">FACTION_FRIENDLY</a>;</div>
+<div class="line"><span class="lineno"> 1392</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1393</span>            <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno"> 1394</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1395</span>        }</div>
+<div class="line"><span class="lineno"> 1396</span> </div>
+<div class="line"><span class="lineno"> 1397</span>        <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">GetTarget</a>()-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a2579e2b71959daec99048b4bcf7f6bf3">SetFaction</a>(factionId);</div>
+<div class="line"><span class="lineno"> 1398</span>    }</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_ac5c8e776fe109c83a63abe41eb5e80f2a5cf4abb6724ef933fed2820a2dce8b42"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#ac5c8e776fe109c83a63abe41eb5e80f2a5cf4abb6724ef933fed2820a2dce8b42">FACTION_FRIENDLY</a></div><div class="ttdeci">@ FACTION_FRIENDLY</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:173</div></div>
+<div class="ttc" id="abrewfest_8cpp_html_afd53a868088ef0d578cc351b05ab9df8a0eadd178341893fb53ddcc9d835b191f"><div class="ttname"><a href="../../dc/ddf/brewfest_8cpp.html#afd53a868088ef0d578cc351b05ab9df8a0eadd178341893fb53ddcc9d835b191f">SPELL_BREWFEST_REVELER_TRANSFORM_GOBLIN_MALE</a></div><div class="ttdeci">@ SPELL_BREWFEST_REVELER_TRANSFORM_GOBLIN_MALE</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1364</div></div>
+<div class="ttc" id="abrewfest_8cpp_html_afd53a868088ef0d578cc351b05ab9df8a12b83bc54e5cd1250dc5c24578af5c68"><div class="ttname"><a href="../../dc/ddf/brewfest_8cpp.html#afd53a868088ef0d578cc351b05ab9df8a12b83bc54e5cd1250dc5c24578af5c68">FACTION_ALLIANCE</a></div><div class="ttdeci">@ FACTION_ALLIANCE</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1361</div></div>
+<div class="ttc" id="abrewfest_8cpp_html_afd53a868088ef0d578cc351b05ab9df8a3365c4940364c71cdecd3455f1fcaaa9"><div class="ttname"><a href="../../dc/ddf/brewfest_8cpp.html#afd53a868088ef0d578cc351b05ab9df8a3365c4940364c71cdecd3455f1fcaaa9">SPELL_BREWFEST_REVELER_TRANSFORM_TROLL</a></div><div class="ttdeci">@ SPELL_BREWFEST_REVELER_TRANSFORM_TROLL</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1369</div></div>
+<div class="ttc" id="abrewfest_8cpp_html_afd53a868088ef0d578cc351b05ab9df8a4288e74f4fd3978d4af9ada35238fd81"><div class="ttname"><a href="../../dc/ddf/brewfest_8cpp.html#afd53a868088ef0d578cc351b05ab9df8a4288e74f4fd3978d4af9ada35238fd81">SPELL_BREWFEST_REVELER_TRANSFORM_TAUREN</a></div><div class="ttdeci">@ SPELL_BREWFEST_REVELER_TRANSFORM_TAUREN</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1368</div></div>
+<div class="ttc" id="abrewfest_8cpp_html_afd53a868088ef0d578cc351b05ab9df8a7eddef42bae072663cd19ff05c32e720"><div class="ttname"><a href="../../dc/ddf/brewfest_8cpp.html#afd53a868088ef0d578cc351b05ab9df8a7eddef42bae072663cd19ff05c32e720">SPELL_BREWFEST_REVELER_TRANSFORM_GOBLIN_FEMALE</a></div><div class="ttdeci">@ SPELL_BREWFEST_REVELER_TRANSFORM_GOBLIN_FEMALE</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1365</div></div>
+<div class="ttc" id="abrewfest_8cpp_html_afd53a868088ef0d578cc351b05ab9df8a8814a55a3046f8d5b12ae92edad188e6"><div class="ttname"><a href="../../dc/ddf/brewfest_8cpp.html#afd53a868088ef0d578cc351b05ab9df8a8814a55a3046f8d5b12ae92edad188e6">SPELL_BREWFEST_REVELER_TRANSFORM_ORC</a></div><div class="ttdeci">@ SPELL_BREWFEST_REVELER_TRANSFORM_ORC</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1367</div></div>
+<div class="ttc" id="abrewfest_8cpp_html_afd53a868088ef0d578cc351b05ab9df8a8f4df5b3207fedb818a208651ce87de9"><div class="ttname"><a href="../../dc/ddf/brewfest_8cpp.html#afd53a868088ef0d578cc351b05ab9df8a8f4df5b3207fedb818a208651ce87de9">SPELL_BREWFEST_REVELER_TRANSFORM_BE</a></div><div class="ttdeci">@ SPELL_BREWFEST_REVELER_TRANSFORM_BE</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1366</div></div>
+<div class="ttc" id="abrewfest_8cpp_html_afd53a868088ef0d578cc351b05ab9df8a95f5bd27925c7cac826ae1065091f3f3"><div class="ttname"><a href="../../dc/ddf/brewfest_8cpp.html#afd53a868088ef0d578cc351b05ab9df8a95f5bd27925c7cac826ae1065091f3f3">SPELL_BREWFEST_REVELER_TRANSFORM_UNDEAD</a></div><div class="ttdeci">@ SPELL_BREWFEST_REVELER_TRANSFORM_UNDEAD</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1370</div></div>
+<div class="ttc" id="abrewfest_8cpp_html_afd53a868088ef0d578cc351b05ab9df8ab009f6e52ebbe43a5f354ac86cba2540"><div class="ttname"><a href="../../dc/ddf/brewfest_8cpp.html#afd53a868088ef0d578cc351b05ab9df8ab009f6e52ebbe43a5f354ac86cba2540">FACTION_HORDE</a></div><div class="ttdeci">@ FACTION_HORDE</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1362</div></div>
+<div class="ttc" id="aclass___spell_script_html_ae2ab4203d324b2179ad06ffdb5d8626f"><div class="ttname"><a href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">_SpellScript::m_scriptSpellId</a></div><div class="ttdeci">uint32 m_scriptSpellId</div><div class="ttdef"><b>Definition:</b> SpellScript.h:107</div></div>
+<div class="ttc" id="aclass_aura_script_html_a9b2ee1254bdbef7f6ee93f6fae6eb912"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">AuraScript::GetTarget</a></div><div class="ttdeci">Unit * GetTarget() const</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:1155</div></div>
+<div class="ttc" id="aclass_unit_html_a2579e2b71959daec99048b4bcf7f6bf3"><div class="ttname"><a href="../../da/db7/class_unit.html#a2579e2b71959daec99048b4bcf7f6bf3">Unit::SetFaction</a></div><div class="ttdeci">void SetFaction(uint32 faction)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:10017</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a20cb3aec994ffc0a06d9b4ba4f575844" name="a20cb3aec994ffc0a06d9b4ba4f575844"></a>
@@ -389,11 +425,20 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1401</span>    {</div>
+<div class="line"><span class="lineno"> 1402</span>        <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a509262d9721d83783e19142eee1645df">AfterEffectApply</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#ac47070c5a13a5436cc5d204a1445c993">AuraEffectApplyFn</a>(<a class="code hl_function" href="../../df/df9/classspell__brewfest__reveler__transform.html#a4a276b00d4912c210598057620368934">spell_brewfest_reveler_transform::OnApply</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799ab4e25ba6068fba0c5d7c5ac8adbbf8fa">SPELL_AURA_TRANSFORM</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a82ebee9e3cf7eaf2ab892a6eb7796288a9db592566b0111486336c591e7a06e2b">AURA_EFFECT_HANDLE_REAL</a>);</div>
+<div class="line"><span class="lineno"> 1403</span>    }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a></div><div class="ttdeci">@ EFFECT_0</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:30</div></div>
+<div class="ttc" id="a_spell_aura_defines_8h_html_a538cdc259460b365f406fe0b3a981799ab4e25ba6068fba0c5d7c5ac8adbbf8fa"><div class="ttname"><a href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799ab4e25ba6068fba0c5d7c5ac8adbbf8fa">SPELL_AURA_TRANSFORM</a></div><div class="ttdeci">@ SPELL_AURA_TRANSFORM</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:119</div></div>
+<div class="ttc" id="a_spell_aura_defines_8h_html_a82ebee9e3cf7eaf2ab892a6eb7796288a9db592566b0111486336c591e7a06e2b"><div class="ttname"><a href="../../d7/d5a/_spell_aura_defines_8h.html#a82ebee9e3cf7eaf2ab892a6eb7796288a9db592566b0111486336c591e7a06e2b">AURA_EFFECT_HANDLE_REAL</a></div><div class="ttdeci">@ AURA_EFFECT_HANDLE_REAL</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:42</div></div>
+<div class="ttc" id="a_spell_script_8h_html_ac47070c5a13a5436cc5d204a1445c993"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#ac47070c5a13a5436cc5d204a1445c993">AuraEffectApplyFn</a></div><div class="ttdeci">#define AuraEffectApplyFn(F, I, N, M)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:733</div></div>
+<div class="ttc" id="aclass_aura_script_html_a509262d9721d83783e19142eee1645df"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a509262d9721d83783e19142eee1645df">AuraScript::AfterEffectApply</a></div><div class="ttdeci">HookList&lt; EffectApplyHandler &gt; AfterEffectApply</div><div class="ttdef"><b>Definition:</b> SpellScript.h:732</div></div>
+<div class="ttc" id="aclassspell__brewfest__reveler__transform_html_a4a276b00d4912c210598057620368934"><div class="ttname"><a href="../../df/df9/classspell__brewfest__reveler__transform.html#a4a276b00d4912c210598057620368934">spell_brewfest_reveler_transform::OnApply</a></div><div class="ttdeci">void OnApply(AuraEffect const *, AuraEffectHandleModes)</div><div class="ttdef"><b>Definition:</b> brewfest.cpp:1377</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Events/<a class="el" href="../../dc/ddf/brewfest_8cpp.html">brewfest.cpp</a></li>
+<li><a class="el" href="../../">brewfest.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -401,7 +446,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../df/df9/classspell__brewfest__reveler__transform.html">spell_brewfest_reveler_transform</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:59 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:16 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -161,7 +161,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a80c704c939f54eee6655d68509598c42 inherit pro_methods_class_script_object"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d5d/class_script_object.html#a80c704c939f54eee6655d68509598c42">~ScriptObject</a> ()=default</td></tr>
 <tr class="separator:a80c704c939f54eee6655d68509598c42 inherit pro_methods_class_script_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a7c1a6c172b970d1a35a4014d783dc783" name="a7c1a6c172b970d1a35a4014d783dc783"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7c1a6c172b970d1a35a4014d783dc783">&#9670;&#160;</a></span>honor_commandscript()</h2>
 
@@ -184,7 +185,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   36</span>: <a class="code hl_class" href="../../d8/ddd/class_command_script.html">CommandScript</a>(<span class="stringliteral">&quot;honor_commandscript&quot;</span>) { }</div>
+<div class="ttc" id="aclass_command_script_html"><div class="ttname"><a href="../../d8/ddd/class_command_script.html">CommandScript</a></div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:849</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -212,7 +215,31 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d8/ddd/class_command_script.html#a97dc7d00b78e0030ba2a950d23b2ebd2">CommandScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   39</span>    {</div>
+<div class="line"><span class="lineno">   40</span>        <span class="keyword">static</span> <a class="code hl_typedef" href="../../d2/d86/namespace_acore_1_1_chat_commands.html#a7aa1549a95f760a19b9b7ffd8e669626">ChatCommandTable</a> honorAddCommandTable =</div>
+<div class="line"><span class="lineno">   41</span>        {</div>
+<div class="line"><span class="lineno">   42</span>            { <span class="stringliteral">&quot;kill&quot;</span>, <a class="code hl_function" href="../../dd/d1b/classhonor__commandscript.html#aec79f459796d821a032477827e16308a">HandleHonorAddKillCommand</a>, <a class="code hl_enumvalue" href="../../db/d1f/_common_8h.html#adaa1cabfe05f8df3c272bdcfd89cdac7a7f04060ed09e837220bc6c3f34d6fef1">SEC_GAMEMASTER</a>, Console::No },</div>
+<div class="line"><span class="lineno">   43</span>            { <span class="stringliteral">&quot;&quot;</span>,     <a class="code hl_function" href="../../dd/d1b/classhonor__commandscript.html#a03caa77b436e3d513e1325badf05df33">HandleHonorAddCommand</a>,     <a class="code hl_enumvalue" href="../../db/d1f/_common_8h.html#adaa1cabfe05f8df3c272bdcfd89cdac7a7f04060ed09e837220bc6c3f34d6fef1">SEC_GAMEMASTER</a>, Console::No }</div>
+<div class="line"><span class="lineno">   44</span>        };</div>
+<div class="line"><span class="lineno">   45</span> </div>
+<div class="line"><span class="lineno">   46</span>        <span class="keyword">static</span> <a class="code hl_typedef" href="../../d2/d86/namespace_acore_1_1_chat_commands.html#a7aa1549a95f760a19b9b7ffd8e669626">ChatCommandTable</a> honorCommandTable =</div>
+<div class="line"><span class="lineno">   47</span>        {</div>
+<div class="line"><span class="lineno">   48</span>            { <span class="stringliteral">&quot;add&quot;</span>,    honorAddCommandTable },</div>
+<div class="line"><span class="lineno">   49</span>            { <span class="stringliteral">&quot;update&quot;</span>, <a class="code hl_function" href="../../dd/d1b/classhonor__commandscript.html#a11831a3ea577f3f1e06fea3d0dbc0147">HandleHonorUpdateCommand</a>, <a class="code hl_enumvalue" href="../../db/d1f/_common_8h.html#adaa1cabfe05f8df3c272bdcfd89cdac7a7f04060ed09e837220bc6c3f34d6fef1">SEC_GAMEMASTER</a>, Console::No }</div>
+<div class="line"><span class="lineno">   50</span>        };</div>
+<div class="line"><span class="lineno">   51</span> </div>
+<div class="line"><span class="lineno">   52</span>        <span class="keyword">static</span> <a class="code hl_typedef" href="../../d2/d86/namespace_acore_1_1_chat_commands.html#a7aa1549a95f760a19b9b7ffd8e669626">ChatCommandTable</a> commandTable =</div>
+<div class="line"><span class="lineno">   53</span>        {</div>
+<div class="line"><span class="lineno">   54</span>            { <span class="stringliteral">&quot;honor&quot;</span>, honorCommandTable }</div>
+<div class="line"><span class="lineno">   55</span>        };</div>
+<div class="line"><span class="lineno">   56</span>        <span class="keywordflow">return</span> commandTable;</div>
+<div class="line"><span class="lineno">   57</span>    }</div>
+<div class="ttc" id="a_common_8h_html_adaa1cabfe05f8df3c272bdcfd89cdac7a7f04060ed09e837220bc6c3f34d6fef1"><div class="ttname"><a href="../../db/d1f/_common_8h.html#adaa1cabfe05f8df3c272bdcfd89cdac7a7f04060ed09e837220bc6c3f34d6fef1">SEC_GAMEMASTER</a></div><div class="ttdeci">@ SEC_GAMEMASTER</div><div class="ttdef"><b>Definition:</b> Common.h:68</div></div>
+<div class="ttc" id="aclasshonor__commandscript_html_a03caa77b436e3d513e1325badf05df33"><div class="ttname"><a href="../../dd/d1b/classhonor__commandscript.html#a03caa77b436e3d513e1325badf05df33">honor_commandscript::HandleHonorAddCommand</a></div><div class="ttdeci">static bool HandleHonorAddCommand(ChatHandler *handler, uint32 amount)</div><div class="ttdef"><b>Definition:</b> cs_honor.cpp:59</div></div>
+<div class="ttc" id="aclasshonor__commandscript_html_a11831a3ea577f3f1e06fea3d0dbc0147"><div class="ttname"><a href="../../dd/d1b/classhonor__commandscript.html#a11831a3ea577f3f1e06fea3d0dbc0147">honor_commandscript::HandleHonorUpdateCommand</a></div><div class="ttdeci">static bool HandleHonorUpdateCommand(ChatHandler *handler)</div><div class="ttdef"><b>Definition:</b> cs_honor.cpp:96</div></div>
+<div class="ttc" id="aclasshonor__commandscript_html_aec79f459796d821a032477827e16308a"><div class="ttname"><a href="../../dd/d1b/classhonor__commandscript.html#aec79f459796d821a032477827e16308a">honor_commandscript::HandleHonorAddKillCommand</a></div><div class="ttdeci">static bool HandleHonorAddKillCommand(ChatHandler *handler)</div><div class="ttdef"><b>Definition:</b> cs_honor.cpp:77</div></div>
+<div class="ttc" id="anamespace_acore_1_1_chat_commands_html_a7aa1549a95f760a19b9b7ffd8e669626"><div class="ttname"><a href="../../d2/d86/namespace_acore_1_1_chat_commands.html#a7aa1549a95f760a19b9b7ffd8e669626">Acore::ChatCommands::ChatCommandTable</a></div><div class="ttdeci">std::vector&lt; ChatCommandBuilder &gt; ChatCommandTable</div><div class="ttdef"><b>Definition:</b> ChatCommand.h:50</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a03caa77b436e3d513e1325badf05df33" name="a03caa77b436e3d513e1325badf05df33"></a>
@@ -248,7 +275,31 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   60</span>    {</div>
+<div class="line"><span class="lineno">   61</span>        <a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* target = handler-&gt;<a class="code hl_function" href="../../d2/d04/class_chat_handler.html#ad948d4d7a2fe777df9d02f40201bcf4a">getSelectedPlayer</a>();</div>
+<div class="line"><span class="lineno">   62</span>        <span class="keywordflow">if</span> (!target)</div>
+<div class="line"><span class="lineno">   63</span>        {</div>
+<div class="line"><span class="lineno">   64</span>            handler-&gt;<a class="code hl_function" href="../../d2/d04/class_chat_handler.html#ac1ed346507097817b3f8e00f0ae657a0">SendSysMessage</a>(<a class="code hl_enumvalue" href="../../dc/d4b/_language_8h.html#af9ee42b1cf006ecb2d2e74fe71c0761aaab2e8907c804b742a54d115d079d86a6">LANG_PLAYER_NOT_FOUND</a>);</div>
+<div class="line"><span class="lineno">   65</span>            handler-&gt;<a class="code hl_function" href="../../d2/d04/class_chat_handler.html#aaabf84568161763e66bf375c14f100c5">SetSentErrorMessage</a>(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">   66</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   67</span>        }</div>
+<div class="line"><span class="lineno">   68</span> </div>
+<div class="line"><span class="lineno">   69</span>        <span class="comment">// check online security</span></div>
+<div class="line"><span class="lineno">   70</span>        <span class="keywordflow">if</span> (handler-&gt;<a class="code hl_function" href="../../d2/d04/class_chat_handler.html#afacb4b59756372ec32810be0d46da49c">HasLowerSecurity</a>(target, <a class="code hl_variable" href="../../d8/d03/class_object_guid.html#a14039d3f3df79203693f713495503165">ObjectGuid::Empty</a>))</div>
+<div class="line"><span class="lineno">   71</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   72</span> </div>
+<div class="line"><span class="lineno">   73</span>        target-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a030b9e0a5adc82692f438c8a7109da6c">RewardHonor</a>(<span class="keyword">nullptr</span>, 1, amount);</div>
+<div class="line"><span class="lineno">   74</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   75</span>    }</div>
+<div class="ttc" id="a_language_8h_html_af9ee42b1cf006ecb2d2e74fe71c0761aaab2e8907c804b742a54d115d079d86a6"><div class="ttname"><a href="../../dc/d4b/_language_8h.html#af9ee42b1cf006ecb2d2e74fe71c0761aaab2e8907c804b742a54d115d079d86a6">LANG_PLAYER_NOT_FOUND</a></div><div class="ttdeci">@ LANG_PLAYER_NOT_FOUND</div><div class="ttdef"><b>Definition:</b> Language.h:522</div></div>
+<div class="ttc" id="aclass_chat_handler_html_aaabf84568161763e66bf375c14f100c5"><div class="ttname"><a href="../../d2/d04/class_chat_handler.html#aaabf84568161763e66bf375c14f100c5">ChatHandler::SetSentErrorMessage</a></div><div class="ttdeci">void SetSentErrorMessage(bool val)</div><div class="ttdef"><b>Definition:</b> Chat.h:118</div></div>
+<div class="ttc" id="aclass_chat_handler_html_ac1ed346507097817b3f8e00f0ae657a0"><div class="ttname"><a href="../../d2/d04/class_chat_handler.html#ac1ed346507097817b3f8e00f0ae657a0">ChatHandler::SendSysMessage</a></div><div class="ttdeci">virtual void SendSysMessage(std::string_view str, bool escapeCharacters=false)</div><div class="ttdef"><b>Definition:</b> Chat.cpp:103</div></div>
+<div class="ttc" id="aclass_chat_handler_html_ad948d4d7a2fe777df9d02f40201bcf4a"><div class="ttname"><a href="../../d2/d04/class_chat_handler.html#ad948d4d7a2fe777df9d02f40201bcf4a">ChatHandler::getSelectedPlayer</a></div><div class="ttdeci">Player * getSelectedPlayer() const</div><div class="ttdef"><b>Definition:</b> Chat.cpp:301</div></div>
+<div class="ttc" id="aclass_chat_handler_html_afacb4b59756372ec32810be0d46da49c"><div class="ttname"><a href="../../d2/d04/class_chat_handler.html#afacb4b59756372ec32810be0d46da49c">ChatHandler::HasLowerSecurity</a></div><div class="ttdeci">bool HasLowerSecurity(Player *target, ObjectGuid guid=ObjectGuid::Empty, bool strong=false)</div><div class="ttdef"><b>Definition:</b> Chat.cpp:53</div></div>
+<div class="ttc" id="aclass_object_guid_html_a14039d3f3df79203693f713495503165"><div class="ttname"><a href="../../d8/d03/class_object_guid.html#a14039d3f3df79203693f713495503165">ObjectGuid::Empty</a></div><div class="ttdeci">static ObjectGuid const Empty</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:122</div></div>
+<div class="ttc" id="aclass_player_html"><div class="ttname"><a href="../../d8/d53/class_player.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1046</div></div>
+<div class="ttc" id="aclass_player_html_a030b9e0a5adc82692f438c8a7109da6c"><div class="ttname"><a href="../../d8/d53/class_player.html#a030b9e0a5adc82692f438c8a7109da6c">Player::RewardHonor</a></div><div class="ttdeci">bool RewardHonor(Unit *victim, uint32 groupsize, int32 honor=-1, bool awardXP=true)</div><div class="ttdef"><b>Definition:</b> Player.cpp:5951</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aec79f459796d821a032477827e16308a" name="aec79f459796d821a032477827e16308a"></a>
@@ -274,7 +325,29 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   78</span>    {</div>
+<div class="line"><span class="lineno">   79</span>        <a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target = handler-&gt;<a class="code hl_function" href="../../d2/d04/class_chat_handler.html#ae88a523ef51a6d51d38a8d524e49b179">getSelectedUnit</a>();</div>
+<div class="line"><span class="lineno">   80</span>        <span class="keywordflow">if</span> (!target)</div>
+<div class="line"><span class="lineno">   81</span>        {</div>
+<div class="line"><span class="lineno">   82</span>            handler-&gt;<a class="code hl_function" href="../../d2/d04/class_chat_handler.html#ac1ed346507097817b3f8e00f0ae657a0">SendSysMessage</a>(<a class="code hl_enumvalue" href="../../dc/d4b/_language_8h.html#af9ee42b1cf006ecb2d2e74fe71c0761aaab2e8907c804b742a54d115d079d86a6">LANG_PLAYER_NOT_FOUND</a>);</div>
+<div class="line"><span class="lineno">   83</span>            handler-&gt;<a class="code hl_function" href="../../d2/d04/class_chat_handler.html#aaabf84568161763e66bf375c14f100c5">SetSentErrorMessage</a>(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">   84</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   85</span>        }</div>
+<div class="line"><span class="lineno">   86</span> </div>
+<div class="line"><span class="lineno">   87</span>        <span class="comment">// check online security</span></div>
+<div class="line"><span class="lineno">   88</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* player = target-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a328d5f752cc33ed398b3d9861ef6929d">ToPlayer</a>())</div>
+<div class="line"><span class="lineno">   89</span>            <span class="keywordflow">if</span> (handler-&gt;<a class="code hl_function" href="../../d2/d04/class_chat_handler.html#afacb4b59756372ec32810be0d46da49c">HasLowerSecurity</a>(player, <a class="code hl_variable" href="../../d8/d03/class_object_guid.html#a14039d3f3df79203693f713495503165">ObjectGuid::Empty</a>))</div>
+<div class="line"><span class="lineno">   90</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   91</span> </div>
+<div class="line"><span class="lineno">   92</span>        handler-&gt;<a class="code hl_function" href="../../d2/d04/class_chat_handler.html#a635eca3065c9464e0cdcedd9f0740daa">GetSession</a>()-&gt;<a class="code hl_function" href="../../d1/d47/class_world_session.html#a62c786bcb829a021c267e7eb56809952">GetPlayer</a>()-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a030b9e0a5adc82692f438c8a7109da6c">RewardHonor</a>(target, 1);</div>
+<div class="line"><span class="lineno">   93</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   94</span>    }</div>
+<div class="ttc" id="aclass_chat_handler_html_a635eca3065c9464e0cdcedd9f0740daa"><div class="ttname"><a href="../../d2/d04/class_chat_handler.html#a635eca3065c9464e0cdcedd9f0740daa">ChatHandler::GetSession</a></div><div class="ttdeci">WorldSession * GetSession()</div><div class="ttdef"><b>Definition:</b> Chat.h:122</div></div>
+<div class="ttc" id="aclass_chat_handler_html_ae88a523ef51a6d51d38a8d524e49b179"><div class="ttname"><a href="../../d2/d04/class_chat_handler.html#ae88a523ef51a6d51d38a8d524e49b179">ChatHandler::getSelectedUnit</a></div><div class="ttdeci">Unit * getSelectedUnit() const</div><div class="ttdef"><b>Definition:</b> Chat.cpp:313</div></div>
+<div class="ttc" id="aclass_object_html_a328d5f752cc33ed398b3d9861ef6929d"><div class="ttname"><a href="../../d8/d83/class_object.html#a328d5f752cc33ed398b3d9861ef6929d">Object::ToPlayer</a></div><div class="ttdeci">Player * ToPlayer()</div><div class="ttdef"><b>Definition:</b> Object.h:195</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_world_session_html_a62c786bcb829a021c267e7eb56809952"><div class="ttname"><a href="../../d1/d47/class_world_session.html#a62c786bcb829a021c267e7eb56809952">WorldSession::GetPlayer</a></div><div class="ttdeci">Player * GetPlayer() const</div><div class="ttdef"><b>Definition:</b> WorldSession.h:360</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a11831a3ea577f3f1e06fea3d0dbc0147" name="a11831a3ea577f3f1e06fea3d0dbc0147"></a>
@@ -300,11 +373,28 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   97</span>    {</div>
+<div class="line"><span class="lineno">   98</span>        <a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* target = handler-&gt;<a class="code hl_function" href="../../d2/d04/class_chat_handler.html#ad948d4d7a2fe777df9d02f40201bcf4a">getSelectedPlayer</a>();</div>
+<div class="line"><span class="lineno">   99</span>        <span class="keywordflow">if</span> (!target)</div>
+<div class="line"><span class="lineno">  100</span>        {</div>
+<div class="line"><span class="lineno">  101</span>            handler-&gt;<a class="code hl_function" href="../../d2/d04/class_chat_handler.html#ac1ed346507097817b3f8e00f0ae657a0">SendSysMessage</a>(<a class="code hl_enumvalue" href="../../dc/d4b/_language_8h.html#af9ee42b1cf006ecb2d2e74fe71c0761aaab2e8907c804b742a54d115d079d86a6">LANG_PLAYER_NOT_FOUND</a>);</div>
+<div class="line"><span class="lineno">  102</span>            handler-&gt;<a class="code hl_function" href="../../d2/d04/class_chat_handler.html#aaabf84568161763e66bf375c14f100c5">SetSentErrorMessage</a>(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  103</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  104</span>        }</div>
+<div class="line"><span class="lineno">  105</span> </div>
+<div class="line"><span class="lineno">  106</span>        <span class="comment">// check online security</span></div>
+<div class="line"><span class="lineno">  107</span>        <span class="keywordflow">if</span> (handler-&gt;<a class="code hl_function" href="../../d2/d04/class_chat_handler.html#afacb4b59756372ec32810be0d46da49c">HasLowerSecurity</a>(target, <a class="code hl_variable" href="../../d8/d03/class_object_guid.html#a14039d3f3df79203693f713495503165">ObjectGuid::Empty</a>))</div>
+<div class="line"><span class="lineno">  108</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  109</span> </div>
+<div class="line"><span class="lineno">  110</span>        target-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#aee0515fef117a6dc1c8a9d7c86b2f827">UpdateHonorFields</a>();</div>
+<div class="line"><span class="lineno">  111</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  112</span>    }</div>
+<div class="ttc" id="aclass_player_html_aee0515fef117a6dc1c8a9d7c86b2f827"><div class="ttname"><a href="../../d8/d53/class_player.html#aee0515fef117a6dc1c8a9d7c86b2f827">Player::UpdateHonorFields</a></div><div class="ttdeci">void UpdateHonorFields()</div><div class="ttdef"><b>Definition:</b> PlayerUpdates.cpp:1138</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Commands/<a class="el" href="../../d0/db3/cs__honor_8cpp.html">cs_honor.cpp</a></li>
+<li><a class="el" href="../../">cs_honor.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -312,7 +402,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dd/d1b/classhonor__commandscript.html">honor_commandscript</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:46 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:00 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

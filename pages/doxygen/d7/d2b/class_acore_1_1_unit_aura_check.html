@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('d7/d2b/class_acore_1_1_unit_aura_check
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d0/dc9/_grid_notifiers_8h_source.html">GridNotifiers.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">GridNotifiers.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -133,7 +133,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:ab2bdf4c05792dd83e4e9542fc3083cc3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/d03/class_object_guid.html">ObjectGuid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d2b/class_acore_1_1_unit_aura_check.html#ab2bdf4c05792dd83e4e9542fc3083cc3">_casterGUID</a></td></tr>
 <tr class="separator:ab2bdf4c05792dd83e4e9542fc3083cc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="acbc0c969db8b768720ab3b8235c28352" name="acbc0c969db8b768720ab3b8235c28352"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acbc0c969db8b768720ab3b8235c28352">&#9670;&#160;</a></span>UnitAuraCheck()</h2>
 
@@ -173,7 +174,11 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1628</span>: <a class="code hl_variable" href="../../d7/d2b/class_acore_1_1_unit_aura_check.html#af553a0c4db5b11ec69ae7fbe9ce5ff78">_present</a>(present), <a class="code hl_variable" href="../../d7/d2b/class_acore_1_1_unit_aura_check.html#a0dd71c851f803fb70a4543c77b672889">_spellId</a>(spellId), <a class="code hl_variable" href="../../d7/d2b/class_acore_1_1_unit_aura_check.html#ab2bdf4c05792dd83e4e9542fc3083cc3">_casterGUID</a>(casterGUID) {}</div>
+<div class="ttc" id="aclass_acore_1_1_unit_aura_check_html_a0dd71c851f803fb70a4543c77b672889"><div class="ttname"><a href="../../d7/d2b/class_acore_1_1_unit_aura_check.html#a0dd71c851f803fb70a4543c77b672889">Acore::UnitAuraCheck::_spellId</a></div><div class="ttdeci">uint32 _spellId</div><div class="ttdef"><b>Definition:</b> GridNotifiers.h:1641</div></div>
+<div class="ttc" id="aclass_acore_1_1_unit_aura_check_html_ab2bdf4c05792dd83e4e9542fc3083cc3"><div class="ttname"><a href="../../d7/d2b/class_acore_1_1_unit_aura_check.html#ab2bdf4c05792dd83e4e9542fc3083cc3">Acore::UnitAuraCheck::_casterGUID</a></div><div class="ttdeci">ObjectGuid _casterGUID</div><div class="ttdef"><b>Definition:</b> GridNotifiers.h:1642</div></div>
+<div class="ttc" id="aclass_acore_1_1_unit_aura_check_html_af553a0c4db5b11ec69ae7fbe9ce5ff78"><div class="ttname"><a href="../../d7/d2b/class_acore_1_1_unit_aura_check.html#af553a0c4db5b11ec69ae7fbe9ce5ff78">Acore::UnitAuraCheck::_present</a></div><div class="ttdeci">bool _present</div><div class="ttdef"><b>Definition:</b> GridNotifiers.h:1640</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -200,7 +205,10 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1630</span>        {</div>
+<div class="line"><span class="lineno"> 1631</span>            <span class="keywordflow">return</span> unit-&gt;HasAura(<a class="code hl_variable" href="../../d7/d2b/class_acore_1_1_unit_aura_check.html#a0dd71c851f803fb70a4543c77b672889">_spellId</a>, <a class="code hl_variable" href="../../d7/d2b/class_acore_1_1_unit_aura_check.html#ab2bdf4c05792dd83e4e9542fc3083cc3">_casterGUID</a>) == <a class="code hl_variable" href="../../d7/d2b/class_acore_1_1_unit_aura_check.html#af553a0c4db5b11ec69ae7fbe9ce5ff78">_present</a>;</div>
+<div class="line"><span class="lineno"> 1632</span>        }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a1c85e9d5d517a852cf4c92063e6f3ed1" name="a1c85e9d5d517a852cf4c92063e6f3ed1"></a>
@@ -226,7 +234,10 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1635</span>        {</div>
+<div class="line"><span class="lineno"> 1636</span>            <span class="keywordflow">return</span> <span class="keywordtype">object</span>-&gt;ToUnit() &amp;&amp; <span class="keywordtype">object</span>-&gt;ToUnit()-&gt;HasAura(<a class="code hl_variable" href="../../d7/d2b/class_acore_1_1_unit_aura_check.html#a0dd71c851f803fb70a4543c77b672889">_spellId</a>, <a class="code hl_variable" href="../../d7/d2b/class_acore_1_1_unit_aura_check.html#ab2bdf4c05792dd83e4e9542fc3083cc3">_casterGUID</a>) == <a class="code hl_variable" href="../../d7/d2b/class_acore_1_1_unit_aura_check.html#af553a0c4db5b11ec69ae7fbe9ce5ff78">_present</a>;</div>
+<div class="line"><span class="lineno"> 1637</span>        }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -297,7 +308,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Grids/Notifiers/<a class="el" href="../../d0/dc9/_grid_notifiers_8h_source.html">GridNotifiers.h</a></li>
+<li><a class="el" href="../../">GridNotifiers.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -305,7 +316,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d7d/namespace_acore.html">Acore</a></li><li class="navelem"><a class="el" href="../../d7/d2b/class_acore_1_1_unit_aura_check.html">UnitAuraCheck</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:13 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:31 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

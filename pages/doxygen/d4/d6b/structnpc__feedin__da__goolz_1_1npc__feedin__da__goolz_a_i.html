@@ -394,7 +394,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ada9ba6b4a0dfa5858b76986f8ebaa5d0" name="ada9ba6b4a0dfa5858b76986f8ebaa5d0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ada9ba6b4a0dfa5858b76986f8ebaa5d0">&#9670;&#160;</a></span>npc_feedin_da_goolzAI()</h2>
 
@@ -418,7 +419,11 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  253</span>: <a class="code hl_class" href="../../d6/df7/class_null_creature_a_i.html">NullCreatureAI</a>(creature) { <a class="code hl_variable" href="../../d4/d6b/structnpc__feedin__da__goolz_1_1npc__feedin__da__goolz_a_i.html#a91b49f7c12fed4ddd958171187ccfb47">findTimer</a> = 1; <a class="code hl_variable" href="../../d4/d6b/structnpc__feedin__da__goolz_1_1npc__feedin__da__goolz_a_i.html#a834f91e84fc2dff6a07e46f0b677de3e">checkTimer</a> = 0; }</div>
+<div class="ttc" id="aclass_null_creature_a_i_html"><div class="ttname"><a href="../../d6/df7/class_null_creature_a_i.html">NullCreatureAI</a></div><div class="ttdef"><b>Definition:</b> PassiveAI.h:53</div></div>
+<div class="ttc" id="astructnpc__feedin__da__goolz_1_1npc__feedin__da__goolz_a_i_html_a834f91e84fc2dff6a07e46f0b677de3e"><div class="ttname"><a href="../../d4/d6b/structnpc__feedin__da__goolz_1_1npc__feedin__da__goolz_a_i.html#a834f91e84fc2dff6a07e46f0b677de3e">npc_feedin_da_goolz::npc_feedin_da_goolzAI::checkTimer</a></div><div class="ttdeci">uint32 checkTimer</div><div class="ttdef"><b>Definition:</b> zone_zuldrak.cpp:256</div></div>
+<div class="ttc" id="astructnpc__feedin__da__goolz_1_1npc__feedin__da__goolz_a_i_html_a91b49f7c12fed4ddd958171187ccfb47"><div class="ttname"><a href="../../d4/d6b/structnpc__feedin__da__goolz_1_1npc__feedin__da__goolz_a_i.html#a91b49f7c12fed4ddd958171187ccfb47">npc_feedin_da_goolz::npc_feedin_da_goolzAI::findTimer</a></div><div class="ttdeci">uint32 findTimer</div><div class="ttdef"><b>Definition:</b> zone_zuldrak.cpp:255</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -447,7 +452,84 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d6/df7/class_null_creature_a_i.html#ab200fcf78dee74a2ec808c01f5855236">NullCreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  260</span>        {</div>
+<div class="line"><span class="lineno">  261</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d4/d6b/structnpc__feedin__da__goolz_1_1npc__feedin__da__goolz_a_i.html#a91b49f7c12fed4ddd958171187ccfb47">findTimer</a>)</div>
+<div class="line"><span class="lineno">  262</span>            {</div>
+<div class="line"><span class="lineno">  263</span>                <a class="code hl_variable" href="../../d4/d6b/structnpc__feedin__da__goolz_1_1npc__feedin__da__goolz_a_i.html#a91b49f7c12fed4ddd958171187ccfb47">findTimer</a> += diff;</div>
+<div class="line"><span class="lineno">  264</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d4/d6b/structnpc__feedin__da__goolz_1_1npc__feedin__da__goolz_a_i.html#a91b49f7c12fed4ddd958171187ccfb47">findTimer</a> &gt;= 1000)</div>
+<div class="line"><span class="lineno">  265</span>                {</div>
+<div class="line"><span class="lineno">  266</span>                    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* ghoul = <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#aa7cc61d571dbc39ca8ac6ac10ffd18ab">FindNearestCreature</a>(<a class="code hl_enumvalue" href="../../d7/d1f/zone__zuldrak_8cpp.html#a43c9efb8a651596a7a5fef22e29f58fca9ef1c4771e696935078cdd4341b32c69">NPC_DECAYING_GHOUL</a>, 30.0f, <span class="keyword">true</span>))</div>
+<div class="line"><span class="lineno">  267</span>                    {</div>
+<div class="line"><span class="lineno">  268</span>                        ghoul-&gt;SetReactState(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37a7183e7251db222734d0d007a258d65c7">REACT_DEFENSIVE</a>);</div>
+<div class="line"><span class="lineno">  269</span>                        <span class="keywordtype">float</span> o = <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#aee80751b631ac7287aafe8f6df5891b4">GetAngle</a>(ghoul);</div>
+<div class="line"><span class="lineno">  270</span>                        ghoul-&gt;GetMotionMaster()-&gt;MovePoint(1, <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#ad5577c934d9e845b44759b67c534c3e8">GetPositionX</a>() + 2 * cos(o), <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">GetPositionY</a>() + 2 * std::sin(o), <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#a4e813a59345a6275e8b87b96be03e60b">GetPositionZ</a>());</div>
+<div class="line"><span class="lineno">  271</span>                        <a class="code hl_variable" href="../../d4/d6b/structnpc__feedin__da__goolz_1_1npc__feedin__da__goolz_a_i.html#a834f91e84fc2dff6a07e46f0b677de3e">checkTimer</a> = 1;</div>
+<div class="line"><span class="lineno">  272</span>                        <a class="code hl_variable" href="../../d4/d6b/structnpc__feedin__da__goolz_1_1npc__feedin__da__goolz_a_i.html#a91b49f7c12fed4ddd958171187ccfb47">findTimer</a> = 0;</div>
+<div class="line"><span class="lineno">  273</span>                    }</div>
+<div class="line"><span class="lineno">  274</span>                    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  275</span>                        <a class="code hl_variable" href="../../d4/d6b/structnpc__feedin__da__goolz_1_1npc__feedin__da__goolz_a_i.html#a91b49f7c12fed4ddd958171187ccfb47">findTimer</a> = 1;</div>
+<div class="line"><span class="lineno">  276</span>                }</div>
+<div class="line"><span class="lineno">  277</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  278</span>            }</div>
+<div class="line"><span class="lineno">  279</span> </div>
+<div class="line"><span class="lineno">  280</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d4/d6b/structnpc__feedin__da__goolz_1_1npc__feedin__da__goolz_a_i.html#a834f91e84fc2dff6a07e46f0b677de3e">checkTimer</a>)</div>
+<div class="line"><span class="lineno">  281</span>            {</div>
+<div class="line"><span class="lineno">  282</span>                <a class="code hl_variable" href="../../d4/d6b/structnpc__feedin__da__goolz_1_1npc__feedin__da__goolz_a_i.html#a834f91e84fc2dff6a07e46f0b677de3e">checkTimer</a> += diff;</div>
+<div class="line"><span class="lineno">  283</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d4/d6b/structnpc__feedin__da__goolz_1_1npc__feedin__da__goolz_a_i.html#a834f91e84fc2dff6a07e46f0b677de3e">checkTimer</a> &gt;= 1500)</div>
+<div class="line"><span class="lineno">  284</span>                {</div>
+<div class="line"><span class="lineno">  285</span>                    <a class="code hl_variable" href="../../d4/d6b/structnpc__feedin__da__goolz_1_1npc__feedin__da__goolz_a_i.html#a834f91e84fc2dff6a07e46f0b677de3e">checkTimer</a> = 1;</div>
+<div class="line"><span class="lineno">  286</span>                    <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d4/d6b/structnpc__feedin__da__goolz_1_1npc__feedin__da__goolz_a_i.html#adf256f6a4311f8b7cf6758259cc78f3f">ghoulFed</a>)</div>
+<div class="line"><span class="lineno">  287</span>                    {</div>
+<div class="line"><span class="lineno">  288</span>                        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* ghoul = <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#aa7cc61d571dbc39ca8ac6ac10ffd18ab">FindNearestCreature</a>(<a class="code hl_enumvalue" href="../../d7/d1f/zone__zuldrak_8cpp.html#a43c9efb8a651596a7a5fef22e29f58fca9ef1c4771e696935078cdd4341b32c69">NPC_DECAYING_GHOUL</a>, 3.0f, <span class="keyword">true</span>))</div>
+<div class="line"><span class="lineno">  289</span>                        {</div>
+<div class="line"><span class="lineno">  290</span>                            <a class="code hl_variable" href="../../d4/d6b/structnpc__feedin__da__goolz_1_1npc__feedin__da__goolz_a_i.html#adf256f6a4311f8b7cf6758259cc78f3f">ghoulFed</a> = ghoul-&gt;GetGUID();</div>
+<div class="line"><span class="lineno">  291</span>                            ghoul-&gt;HandleEmoteCommand(<a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0e527855c554e31654c9beb340145574a9635eb73199df82de902deb0539f1fc8">EMOTE_ONESHOT_EAT</a>);</div>
+<div class="line"><span class="lineno">  292</span>                        }</div>
+<div class="line"><span class="lineno">  293</span>                    }</div>
+<div class="line"><span class="lineno">  294</span>                    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  295</span>                    {</div>
+<div class="line"><span class="lineno">  296</span>                        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d0/dd1/class_game_object.html">GameObject</a>* bowl = <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a178c5ef685f97dc9bbd486dd6cabfb63">FindNearestGameObject</a>(<a class="code hl_enumvalue" href="../../d7/d1f/zone__zuldrak_8cpp.html#a43c9efb8a651596a7a5fef22e29f58fcafb8d22dbf319a5f8710fb6fa9bf34b60">GO_BOWL</a>, 10.0f))</div>
+<div class="line"><span class="lineno">  297</span>                            bowl-&gt;Delete();</div>
+<div class="line"><span class="lineno">  298</span> </div>
+<div class="line"><span class="lineno">  299</span>                        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* ghoul = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a>(*<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>, <a class="code hl_variable" href="../../d4/d6b/structnpc__feedin__da__goolz_1_1npc__feedin__da__goolz_a_i.html#adf256f6a4311f8b7cf6758259cc78f3f">ghoulFed</a>))</div>
+<div class="line"><span class="lineno">  300</span>                        {</div>
+<div class="line"><span class="lineno">  301</span>                            ghoul-&gt;SetReactState(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37ab0d46448581f9ac821fb076f185661fc">REACT_AGGRESSIVE</a>);</div>
+<div class="line"><span class="lineno">  302</span>                            ghoul-&gt;GetMotionMaster()-&gt;MoveTargetedHome();</div>
+<div class="line"><span class="lineno">  303</span>                        }</div>
+<div class="line"><span class="lineno">  304</span> </div>
+<div class="line"><span class="lineno">  305</span>                        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* owner = <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a6649e9ba10948d634bc0ac9c4a5800e5">ToTempSummon</a>()-&gt;<a class="code hl_function" href="../../d2/d6e/class_temp_summon.html#ae76cc9614974a4e0ae95c3715aab3a70">GetSummonerUnit</a>())</div>
+<div class="line"><span class="lineno">  306</span>                            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* player = owner-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a328d5f752cc33ed398b3d9861ef6929d">ToPlayer</a>())</div>
+<div class="line"><span class="lineno">  307</span>                                player-&gt;KilledMonsterCredit(<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>());</div>
+<div class="line"><span class="lineno">  308</span> </div>
+<div class="line"><span class="lineno">  309</span>                        <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#abce66404f36b926cf403555911bcb9f7">DespawnOrUnsummon</a>(1);</div>
+<div class="line"><span class="lineno">  310</span>                    }</div>
+<div class="line"><span class="lineno">  311</span>                }</div>
+<div class="line"><span class="lineno">  312</span>            }</div>
+<div class="line"><span class="lineno">  313</span>        }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0e527855c554e31654c9beb340145574a9635eb73199df82de902deb0539f1fc8"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0e527855c554e31654c9beb340145574a9635eb73199df82de902deb0539f1fc8">EMOTE_ONESHOT_EAT</a></div><div class="ttdeci">@ EMOTE_ONESHOT_EAT</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1873</div></div>
+<div class="ttc" id="a_unit_8h_html_a5e9099d162ad74df5a3e3f5c0f056c37a7183e7251db222734d0d007a258d65c7"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37a7183e7251db222734d0d007a258d65c7">REACT_DEFENSIVE</a></div><div class="ttdeci">@ REACT_DEFENSIVE</div><div class="ttdef"><b>Definition:</b> Unit.h:1024</div></div>
+<div class="ttc" id="a_unit_8h_html_a5e9099d162ad74df5a3e3f5c0f056c37ab0d46448581f9ac821fb076f185661fc"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37ab0d46448581f9ac821fb076f185661fc">REACT_AGGRESSIVE</a></div><div class="ttdeci">@ REACT_AGGRESSIVE</div><div class="ttdef"><b>Definition:</b> Unit.h:1025</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_aee5bf3d421199445de241a34798ae819"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">CreatureAI::me</a></div><div class="ttdeci">Creature *const me</div><div class="ttdef"><b>Definition:</b> CreatureAI.h:72</div></div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_creature_html_abce66404f36b926cf403555911bcb9f7"><div class="ttname"><a href="../../d1/dac/class_creature.html#abce66404f36b926cf403555911bcb9f7">Creature::DespawnOrUnsummon</a></div><div class="ttdeci">void DespawnOrUnsummon(Milliseconds msTimeToDespawn, Seconds forcedRespawnTimer)</div><div class="ttdef"><b>Definition:</b> Creature.cpp:2092</div></div>
+<div class="ttc" id="aclass_game_object_html"><div class="ttname"><a href="../../d0/dd1/class_game_object.html">GameObject</a></div><div class="ttdef"><b>Definition:</b> GameObject.h:813</div></div>
+<div class="ttc" id="aclass_object_html_a328d5f752cc33ed398b3d9861ef6929d"><div class="ttname"><a href="../../d8/d83/class_object.html#a328d5f752cc33ed398b3d9861ef6929d">Object::ToPlayer</a></div><div class="ttdeci">Player * ToPlayer()</div><div class="ttdef"><b>Definition:</b> Object.h:195</div></div>
+<div class="ttc" id="aclass_object_html_aa627fe2967ed0e0ed1d8aeeb4365a961"><div class="ttname"><a href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">Object::GetEntry</a></div><div class="ttdeci">uint32 GetEntry() const</div><div class="ttdef"><b>Definition:</b> Object.h:109</div></div>
+<div class="ttc" id="aclass_player_html"><div class="ttname"><a href="../../d8/d53/class_player.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1046</div></div>
+<div class="ttc" id="aclass_temp_summon_html_ae76cc9614974a4e0ae95c3715aab3a70"><div class="ttname"><a href="../../d2/d6e/class_temp_summon.html#ae76cc9614974a4e0ae95c3715aab3a70">TempSummon::GetSummonerUnit</a></div><div class="ttdeci">Unit * GetSummonerUnit() const</div><div class="ttdef"><b>Definition:</b> TemporarySummon.cpp:43</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_a6649e9ba10948d634bc0ac9c4a5800e5"><div class="ttname"><a href="../../da/db7/class_unit.html#a6649e9ba10948d634bc0ac9c4a5800e5">Unit::ToTempSummon</a></div><div class="ttdeci">TempSummon * ToTempSummon()</div><div class="ttdef"><b>Definition:</b> Unit.h:2395</div></div>
+<div class="ttc" id="aclass_world_object_html_a178c5ef685f97dc9bbd486dd6cabfb63"><div class="ttname"><a href="../../db/df7/class_world_object.html#a178c5ef685f97dc9bbd486dd6cabfb63">WorldObject::FindNearestGameObject</a></div><div class="ttdeci">GameObject * FindNearestGameObject(uint32 entry, float range, bool onlySpawned=false) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:2401</div></div>
+<div class="ttc" id="aclass_world_object_html_aa7cc61d571dbc39ca8ac6ac10ffd18ab"><div class="ttname"><a href="../../db/df7/class_world_object.html#aa7cc61d571dbc39ca8ac6ac10ffd18ab">WorldObject::FindNearestCreature</a></div><div class="ttdeci">Creature * FindNearestCreature(uint32 entry, float range, bool alive=true) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:2392</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_ae42e503fe79bbeaea1aaa665418c43f8"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a></div><div class="ttdeci">Creature * GetCreature(WorldObject const &amp;u, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:215</div></div>
+<div class="ttc" id="astruct_position_html_a4e813a59345a6275e8b87b96be03e60b"><div class="ttname"><a href="../../d1/d26/struct_position.html#a4e813a59345a6275e8b87b96be03e60b">Position::GetPositionZ</a></div><div class="ttdeci">float GetPositionZ() const</div><div class="ttdef"><b>Definition:</b> Position.h:119</div></div>
+<div class="ttc" id="astruct_position_html_ad5577c934d9e845b44759b67c534c3e8"><div class="ttname"><a href="../../d1/d26/struct_position.html#ad5577c934d9e845b44759b67c534c3e8">Position::GetPositionX</a></div><div class="ttdeci">float GetPositionX() const</div><div class="ttdef"><b>Definition:</b> Position.h:117</div></div>
+<div class="ttc" id="astruct_position_html_ae79fc664f6cd027f5d49f6c7df8e4c9e"><div class="ttname"><a href="../../d1/d26/struct_position.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">Position::GetPositionY</a></div><div class="ttdeci">float GetPositionY() const</div><div class="ttdef"><b>Definition:</b> Position.h:118</div></div>
+<div class="ttc" id="astruct_position_html_aee80751b631ac7287aafe8f6df5891b4"><div class="ttname"><a href="../../d1/d26/struct_position.html#aee80751b631ac7287aafe8f6df5891b4">Position::GetAngle</a></div><div class="ttdeci">float GetAngle(const Position *pos) const</div><div class="ttdef"><b>Definition:</b> Position.cpp:77</div></div>
+<div class="ttc" id="astructnpc__feedin__da__goolz_1_1npc__feedin__da__goolz_a_i_html_adf256f6a4311f8b7cf6758259cc78f3f"><div class="ttname"><a href="../../d4/d6b/structnpc__feedin__da__goolz_1_1npc__feedin__da__goolz_a_i.html#adf256f6a4311f8b7cf6758259cc78f3f">npc_feedin_da_goolz::npc_feedin_da_goolzAI::ghoulFed</a></div><div class="ttdeci">ObjectGuid ghoulFed</div><div class="ttdef"><b>Definition:</b> zone_zuldrak.cpp:257</div></div>
+<div class="ttc" id="azone__zuldrak_8cpp_html_a43c9efb8a651596a7a5fef22e29f58fca9ef1c4771e696935078cdd4341b32c69"><div class="ttname"><a href="../../d7/d1f/zone__zuldrak_8cpp.html#a43c9efb8a651596a7a5fef22e29f58fca9ef1c4771e696935078cdd4341b32c69">NPC_DECAYING_GHOUL</a></div><div class="ttdeci">@ NPC_DECAYING_GHOUL</div><div class="ttdef"><b>Definition:</b> zone_zuldrak.cpp:237</div></div>
+<div class="ttc" id="azone__zuldrak_8cpp_html_a43c9efb8a651596a7a5fef22e29f58fcafb8d22dbf319a5f8710fb6fa9bf34b60"><div class="ttname"><a href="../../d7/d1f/zone__zuldrak_8cpp.html#a43c9efb8a651596a7a5fef22e29f58fcafb8d22dbf319a5f8710fb6fa9bf34b60">GO_BOWL</a></div><div class="ttdeci">@ GO_BOWL</div><div class="ttdef"><b>Definition:</b> zone_zuldrak.cpp:238</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -494,7 +576,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/<a class="el" href="../../d7/d1f/zone__zuldrak_8cpp.html">zone_zuldrak.cpp</a></li>
+<li><a class="el" href="../../">zone_zuldrak.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -502,7 +584,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d5/dbd/classnpc__feedin__da__goolz.html">npc_feedin_da_goolz</a></li><li class="navelem"><a class="el" href="../../d4/d6b/structnpc__feedin__da__goolz_1_1npc__feedin__da__goolz_a_i.html">npc_feedin_da_goolzAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:49 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:05 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

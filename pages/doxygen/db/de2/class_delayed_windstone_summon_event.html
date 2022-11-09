@@ -149,7 +149,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:ad83bb6d87b569f59e99abcc16517745b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/d03/class_object_guid.html">ObjectGuid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de2/class_delayed_windstone_summon_event.html#ad83bb6d87b569f59e99abcc16517745b">_playerGUID</a></td></tr>
 <tr class="separator:ad83bb6d87b569f59e99abcc16517745b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aa97daf8cf3479395ffd6558b6699436a" name="aa97daf8cf3479395ffd6558b6699436a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa97daf8cf3479395ffd6558b6699436a">&#9670;&#160;</a></span>DelayedWindstoneSummonEvent()</h2>
 
@@ -183,7 +184,10 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1012</span>: <a class="code hl_variable" href="../../db/de2/class_delayed_windstone_summon_event.html#af9804d276da5daebab3a37f2c75301ea">_summon</a>(summon), <a class="code hl_variable" href="../../db/de2/class_delayed_windstone_summon_event.html#ad83bb6d87b569f59e99abcc16517745b">_playerGUID</a>(playerGUID) { }</div>
+<div class="ttc" id="aclass_delayed_windstone_summon_event_html_ad83bb6d87b569f59e99abcc16517745b"><div class="ttname"><a href="../../db/de2/class_delayed_windstone_summon_event.html#ad83bb6d87b569f59e99abcc16517745b">DelayedWindstoneSummonEvent::_playerGUID</a></div><div class="ttdeci">ObjectGuid _playerGUID</div><div class="ttdef"><b>Definition:</b> zone_silithus.cpp:1026</div></div>
+<div class="ttc" id="aclass_delayed_windstone_summon_event_html_af9804d276da5daebab3a37f2c75301ea"><div class="ttname"><a href="../../db/de2/class_delayed_windstone_summon_event.html#af9804d276da5daebab3a37f2c75301ea">DelayedWindstoneSummonEvent::_summon</a></div><div class="ttdeci">TempSummon * _summon</div><div class="ttdef"><b>Definition:</b> zone_silithus.cpp:1025</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -222,7 +226,19 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d0/df3/class_basic_event.html#a89297a10b64d01895332655122ed8ccb">BasicEvent</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1015</span>    {</div>
+<div class="line"><span class="lineno"> 1016</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* player = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#a9ede56180a13f102ad195136eadb97ee">ObjectAccessor::FindPlayer</a>(<a class="code hl_variable" href="../../db/de2/class_delayed_windstone_summon_event.html#ad83bb6d87b569f59e99abcc16517745b">_playerGUID</a>))</div>
+<div class="line"><span class="lineno"> 1017</span>        {</div>
+<div class="line"><span class="lineno"> 1018</span>            <a class="code hl_variable" href="../../db/de2/class_delayed_windstone_summon_event.html#af9804d276da5daebab3a37f2c75301ea">_summon</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">AI</a>()-&gt;<a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#ae120634c255d365f1567e341e2cf1feb">AttackStart</a>(player);</div>
+<div class="line"><span class="lineno"> 1019</span>        }</div>
+<div class="line"><span class="lineno"> 1020</span> </div>
+<div class="line"><span class="lineno"> 1021</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 1022</span>    }</div>
+<div class="ttc" id="aclass_creature_html_af2188eef9620b5af52ef2d3ac142db67"><div class="ttname"><a href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">Creature::AI</a></div><div class="ttdeci">CreatureAI * AI() const</div><div class="ttdef"><b>Definition:</b> Creature.h:134</div></div>
+<div class="ttc" id="aclass_player_html"><div class="ttname"><a href="../../d8/d53/class_player.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1046</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_ae120634c255d365f1567e341e2cf1feb"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#ae120634c255d365f1567e341e2cf1feb">UnitAI::AttackStart</a></div><div class="ttdeci">virtual void AttackStart(Unit *)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:28</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_a9ede56180a13f102ad195136eadb97ee"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#a9ede56180a13f102ad195136eadb97ee">ObjectAccessor::FindPlayer</a></div><div class="ttdeci">Player * FindPlayer(ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:250</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -271,7 +287,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Kalimdor/<a class="el" href="../../d3/d9d/zone__silithus_8cpp.html">zone_silithus.cpp</a></li>
+<li><a class="el" href="../../">zone_silithus.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -279,7 +295,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../db/de2/class_delayed_windstone_summon_event.html">DelayedWindstoneSummonEvent</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:44 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:58 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

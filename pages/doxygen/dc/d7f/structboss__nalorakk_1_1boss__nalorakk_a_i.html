@@ -529,7 +529,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a3e25f60f2e11cc245390b21929321349" name="a3e25f60f2e11cc245390b21929321349"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3e25f60f2e11cc245390b21929321349">&#9670;&#160;</a></span>boss_nalorakkAI()</h2>
 
@@ -553,7 +554,18 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   90</span>                                            : <a class="code hl_struct" href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a>(creature)</div>
+<div class="line"><span class="lineno">   91</span>        {</div>
+<div class="line"><span class="lineno">   92</span>            <a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#a622f56155527ab3e358ffbe8308c62cc">MoveEvent</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   93</span>            <a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#ae206b5079a69d672d12fb395624fe704">MovePhase</a> = 0;</div>
+<div class="line"><span class="lineno">   94</span>            <a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#a50b2585a611bb9c47e8fc49f347b761a">instance</a> = creature-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">GetInstanceScript</a>();</div>
+<div class="line"><span class="lineno">   95</span>        }</div>
+<div class="ttc" id="aclass_world_object_html_a29762f86d0726e4d229df51281b9d710"><div class="ttname"><a href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">WorldObject::GetInstanceScript</a></div><div class="ttdeci">InstanceScript * GetInstanceScript() const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1192</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
+<div class="ttc" id="astructboss__nalorakk_1_1boss__nalorakk_a_i_html_a50b2585a611bb9c47e8fc49f347b761a"><div class="ttname"><a href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#a50b2585a611bb9c47e8fc49f347b761a">boss_nalorakk::boss_nalorakkAI::instance</a></div><div class="ttdeci">InstanceScript * instance</div><div class="ttdef"><b>Definition:</b> boss_nalorakk.cpp:97</div></div>
+<div class="ttc" id="astructboss__nalorakk_1_1boss__nalorakk_a_i_html_a622f56155527ab3e358ffbe8308c62cc"><div class="ttname"><a href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#a622f56155527ab3e358ffbe8308c62cc">boss_nalorakk::boss_nalorakkAI::MoveEvent</a></div><div class="ttdeci">bool MoveEvent</div><div class="ttdef"><b>Definition:</b> boss_nalorakk.cpp:111</div></div>
+<div class="ttc" id="astructboss__nalorakk_1_1boss__nalorakk_a_i_html_ae206b5079a69d672d12fb395624fe704"><div class="ttname"><a href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#ae206b5079a69d672d12fb395624fe704">boss_nalorakk::boss_nalorakkAI::MovePhase</a></div><div class="ttdeci">uint32 MovePhase</div><div class="ttdef"><b>Definition:</b> boss_nalorakk.cpp:113</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -582,7 +594,12 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a4c91d8d2c1a6e8b234c1c4f15936c7a4">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  208</span>        {</div>
+<div class="line"><span class="lineno">  209</span>            <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#a622f56155527ab3e358ffbe8308c62cc">MoveEvent</a>)</div>
+<div class="line"><span class="lineno">  210</span>                <a class="code hl_function" href="../../de/d83/struct_scripted_a_i.html#a4c91d8d2c1a6e8b234c1c4f15936c7a4">ScriptedAI::AttackStart</a>(who);</div>
+<div class="line"><span class="lineno">  211</span>        }</div>
+<div class="ttc" id="astruct_scripted_a_i_html_a4c91d8d2c1a6e8b234c1c4f15936c7a4"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a4c91d8d2c1a6e8b234c1c4f15936c7a4">ScriptedAI::AttackStart</a></div><div class="ttdeci">void AttackStart(Unit *) override</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.cpp:206</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a79f84385d2730f83a31c6c01b0507f75" name="a79f84385d2730f83a31c6c01b0507f75"></a>
@@ -610,7 +627,20 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a35a9ca7c140474598325b0f2073f9bcd">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  284</span>        {</div>
+<div class="line"><span class="lineno">  285</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#a50b2585a611bb9c47e8fc49f347b761a">instance</a>)</div>
+<div class="line"><span class="lineno">  286</span>                <a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#a50b2585a611bb9c47e8fc49f347b761a">instance</a>-&gt;<a class="code hl_function" href="../../df/dad/class_zone_script.html#a949e67ea24c7e4b70a20806952735576">SetData</a>(<a class="code hl_enumvalue" href="../../d9/d98/zulaman_8h.html#afb6eb4f28419b652027fad41104a6d22a4a1b48f32db219664618a352a028011f">DATA_NALORAKKEVENT</a>, <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012">IN_PROGRESS</a>);</div>
+<div class="line"><span class="lineno">  287</span> </div>
+<div class="line"><span class="lineno">  288</span>            <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d1/d79/boss__nalorakk_8cpp.html#acb9ca3a790c820be5cc99570142bda22a47c752fff069f3e55065795eef2a9bfe">SAY_AGGRO</a>);</div>
+<div class="line"><span class="lineno">  289</span>            <a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#afdeeccb48c5f74120d0fffe2a631a88a">DoZoneInCombat</a>();</div>
+<div class="line"><span class="lineno">  290</span>        }</div>
+<div class="ttc" id="a_instance_script_8h_html_a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012">IN_PROGRESS</a></div><div class="ttdeci">@ IN_PROGRESS</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:57</div></div>
+<div class="ttc" id="aboss__fathomlord__karathress_8cpp_html_a747a224b6b3195f9a33c56ddc6c7e268"><div class="ttname"><a href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a></div><div class="ttdeci">Talk</div><div class="ttdef"><b>Definition:</b> boss_fathomlord_karathress.cpp:23</div></div>
+<div class="ttc" id="aboss__nalorakk_8cpp_html_acb9ca3a790c820be5cc99570142bda22a47c752fff069f3e55065795eef2a9bfe"><div class="ttname"><a href="../../d1/d79/boss__nalorakk_8cpp.html#acb9ca3a790c820be5cc99570142bda22a47c752fff069f3e55065795eef2a9bfe">SAY_AGGRO</a></div><div class="ttdeci">@ SAY_AGGRO</div><div class="ttdef"><b>Definition:</b> boss_nalorakk.cpp:68</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_afdeeccb48c5f74120d0fffe2a631a88a"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#afdeeccb48c5f74120d0fffe2a631a88a">CreatureAI::DoZoneInCombat</a></div><div class="ttdeci">void DoZoneInCombat(Creature *creature=nullptr, float maxRangeToNearestTarget=250.0f)</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:93</div></div>
+<div class="ttc" id="aclass_zone_script_html_a949e67ea24c7e4b70a20806952735576"><div class="ttname"><a href="../../df/dad/class_zone_script.html#a949e67ea24c7e4b70a20806952735576">ZoneScript::SetData</a></div><div class="ttdeci">virtual void SetData(uint32, uint32)</div><div class="ttdef"><b>Definition:</b> ZoneScript.h:53</div></div>
+<div class="ttc" id="azulaman_8h_html_afb6eb4f28419b652027fad41104a6d22a4a1b48f32db219664618a352a028011f"><div class="ttname"><a href="../../d9/d98/zulaman_8h.html#afb6eb4f28419b652027fad41104a6d22a4a1b48f32db219664618a352a028011f">DATA_NALORAKKEVENT</a></div><div class="ttdeci">@ DATA_NALORAKKEVENT</div><div class="ttdef"><b>Definition:</b> zulaman.h:28</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a14b666aa040401991672a58dedeaad2d" name="a14b666aa040401991672a58dedeaad2d"></a>
@@ -638,7 +668,18 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a4cc209e047dcbd29cf57e689e3945ff7">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  293</span>        {</div>
+<div class="line"><span class="lineno">  294</span>            <a class="code hl_function" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#a6a354f006fbd1c555339a6c871e96150">ResetMobs</a>();</div>
+<div class="line"><span class="lineno">  295</span> </div>
+<div class="line"><span class="lineno">  296</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#a50b2585a611bb9c47e8fc49f347b761a">instance</a>)</div>
+<div class="line"><span class="lineno">  297</span>                <a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#a50b2585a611bb9c47e8fc49f347b761a">instance</a>-&gt;<a class="code hl_function" href="../../df/dad/class_zone_script.html#a949e67ea24c7e4b70a20806952735576">SetData</a>(<a class="code hl_enumvalue" href="../../d9/d98/zulaman_8h.html#afb6eb4f28419b652027fad41104a6d22a4a1b48f32db219664618a352a028011f">DATA_NALORAKKEVENT</a>, <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749">DONE</a>);</div>
+<div class="line"><span class="lineno">  298</span> </div>
+<div class="line"><span class="lineno">  299</span>            <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d1/d79/boss__nalorakk_8cpp.html#acb9ca3a790c820be5cc99570142bda22a04c962d9b6aaafde54ff92a54369135e">SAY_DEATH</a>);</div>
+<div class="line"><span class="lineno">  300</span>        }</div>
+<div class="ttc" id="a_instance_script_8h_html_a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749">DONE</a></div><div class="ttdeci">@ DONE</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:59</div></div>
+<div class="ttc" id="aboss__nalorakk_8cpp_html_acb9ca3a790c820be5cc99570142bda22a04c962d9b6aaafde54ff92a54369135e"><div class="ttname"><a href="../../d1/d79/boss__nalorakk_8cpp.html#acb9ca3a790c820be5cc99570142bda22a04c962d9b6aaafde54ff92a54369135e">SAY_DEATH</a></div><div class="ttdeci">@ SAY_DEATH</div><div class="ttdef"><b>Definition:</b> boss_nalorakk.cpp:75</div></div>
+<div class="ttc" id="astructboss__nalorakk_1_1boss__nalorakk_a_i_html_a6a354f006fbd1c555339a6c871e96150"><div class="ttname"><a href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#a6a354f006fbd1c555339a6c871e96150">boss_nalorakk::boss_nalorakkAI::ResetMobs</a></div><div class="ttdeci">void ResetMobs()</div><div class="ttdef"><b>Definition:</b> boss_nalorakk.cpp:148</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="acfcb17a6003d24fa1e3210cd8b899941" name="acfcb17a6003d24fa1e3210cd8b899941"></a>
@@ -666,7 +707,21 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a8d6c7fd71269453c229326c9785006e8">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  303</span>        {</div>
+<div class="line"><span class="lineno">  304</span>            <span class="keywordflow">switch</span> (<a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(0, 1))</div>
+<div class="line"><span class="lineno">  305</span>            {</div>
+<div class="line"><span class="lineno">  306</span>                <span class="keywordflow">case</span> 0:</div>
+<div class="line"><span class="lineno">  307</span>                    <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d1/d79/boss__nalorakk_8cpp.html#acb9ca3a790c820be5cc99570142bda22ab6a10bbf6ec7839b4bd0efd4ad9064d4">SAY_KILL_ONE</a>);</div>
+<div class="line"><span class="lineno">  308</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  309</span>                <span class="keywordflow">case</span> 1:</div>
+<div class="line"><span class="lineno">  310</span>                    <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d1/d79/boss__nalorakk_8cpp.html#acb9ca3a790c820be5cc99570142bda22aa7c7463b7793dc7152cc6d82ae369710">SAY_KILL_TWO</a>);</div>
+<div class="line"><span class="lineno">  311</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  312</span>            }</div>
+<div class="line"><span class="lineno">  313</span>        }</div>
+<div class="ttc" id="a_random_8cpp_html_ab17def34ccbbd868dc87a16bf35acdbd"><div class="ttname"><a href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a></div><div class="ttdeci">uint32 urand(uint32 min, uint32 max)</div><div class="ttdef"><b>Definition:</b> Random.cpp:44</div></div>
+<div class="ttc" id="aboss__nalorakk_8cpp_html_acb9ca3a790c820be5cc99570142bda22aa7c7463b7793dc7152cc6d82ae369710"><div class="ttname"><a href="../../d1/d79/boss__nalorakk_8cpp.html#acb9ca3a790c820be5cc99570142bda22aa7c7463b7793dc7152cc6d82ae369710">SAY_KILL_TWO</a></div><div class="ttdeci">@ SAY_KILL_TWO</div><div class="ttdef"><b>Definition:</b> boss_nalorakk.cpp:74</div></div>
+<div class="ttc" id="aboss__nalorakk_8cpp_html_acb9ca3a790c820be5cc99570142bda22ab6a10bbf6ec7839b4bd0efd4ad9064d4"><div class="ttname"><a href="../../d1/d79/boss__nalorakk_8cpp.html#acb9ca3a790c820be5cc99570142bda22ab6a10bbf6ec7839b4bd0efd4ad9064d4">SAY_KILL_ONE</a></div><div class="ttdeci">@ SAY_KILL_ONE</div><div class="ttdef"><b>Definition:</b> boss_nalorakk.cpp:73</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a86d3620d8d6e8a6500082ea71ebf3aaf" name="a86d3620d8d6e8a6500082ea71ebf3aaf"></a>
@@ -694,7 +749,88 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d2/d68/class_creature_a_i.html#a1280f8bcf72254ad31c453b810615f87">CreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  215</span>        {</div>
+<div class="line"><span class="lineno">  216</span>            <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#a622f56155527ab3e358ffbe8308c62cc">MoveEvent</a>)</div>
+<div class="line"><span class="lineno">  217</span>            {</div>
+<div class="line"><span class="lineno">  218</span>                <a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#a1280f8bcf72254ad31c453b810615f87">ScriptedAI::MoveInLineOfSight</a>(who);</div>
+<div class="line"><span class="lineno">  219</span>            }</div>
+<div class="line"><span class="lineno">  220</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  221</span>            {</div>
+<div class="line"><span class="lineno">  222</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ae8d112bd8c9cc28d1186e773945291b6">IsHostileTo</a>(who))</div>
+<div class="line"><span class="lineno">  223</span>                {</div>
+<div class="line"><span class="lineno">  224</span>                    <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#acefb22e1848b103589915cbb092c12d5">inMove</a>)</div>
+<div class="line"><span class="lineno">  225</span>                    {</div>
+<div class="line"><span class="lineno">  226</span>                        <span class="keywordflow">switch</span> (<a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#ae206b5079a69d672d12fb395624fe704">MovePhase</a>)</div>
+<div class="line"><span class="lineno">  227</span>                        {</div>
+<div class="line"><span class="lineno">  228</span>                            <span class="keywordflow">case</span> 0:</div>
+<div class="line"><span class="lineno">  229</span>                                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#ab73407bcdf13a30519a953d24773ed02">IsWithinDistInMap</a>(who, 50))</div>
+<div class="line"><span class="lineno">  230</span>                                {</div>
+<div class="line"><span class="lineno">  231</span>                                    <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d1/d79/boss__nalorakk_8cpp.html#acb9ca3a790c820be5cc99570142bda22ab95c0da9cea1abdeed129ce42c5b7478">SAY_WAVE1</a>);</div>
+<div class="line"><span class="lineno">  232</span> </div>
+<div class="line"><span class="lineno">  233</span>                                    (*me).GetMotionMaster()-&gt;MovePoint(1, <a class="code hl_variable" href="../../d1/d79/boss__nalorakk_8cpp.html#acf75fe5585db30253cd14d7a81452c9f">NalorakkWay</a>[1][0], <a class="code hl_variable" href="../../d1/d79/boss__nalorakk_8cpp.html#acf75fe5585db30253cd14d7a81452c9f">NalorakkWay</a>[1][1], <a class="code hl_variable" href="../../d1/d79/boss__nalorakk_8cpp.html#acf75fe5585db30253cd14d7a81452c9f">NalorakkWay</a>[1][2]);</div>
+<div class="line"><span class="lineno">  234</span>                                    <a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#ae206b5079a69d672d12fb395624fe704">MovePhase</a> ++;</div>
+<div class="line"><span class="lineno">  235</span>                                    <a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#acefb22e1848b103589915cbb092c12d5">inMove</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  236</span> </div>
+<div class="line"><span class="lineno">  237</span>                                    <a class="code hl_function" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#a30fdcfacfbcda123b2fb92cbbfc74708">SendAttacker</a>(who);</div>
+<div class="line"><span class="lineno">  238</span>                                }</div>
+<div class="line"><span class="lineno">  239</span>                                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  240</span>                            <span class="keywordflow">case</span> 2:</div>
+<div class="line"><span class="lineno">  241</span>                                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#ab73407bcdf13a30519a953d24773ed02">IsWithinDistInMap</a>(who, 40))</div>
+<div class="line"><span class="lineno">  242</span>                                {</div>
+<div class="line"><span class="lineno">  243</span>                                    <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d1/d79/boss__nalorakk_8cpp.html#acb9ca3a790c820be5cc99570142bda22aa5fdc5f00160ab94a4848d6a849afffd">SAY_WAVE2</a>);</div>
+<div class="line"><span class="lineno">  244</span> </div>
+<div class="line"><span class="lineno">  245</span>                                    (*me).GetMotionMaster()-&gt;MovePoint(3, <a class="code hl_variable" href="../../d1/d79/boss__nalorakk_8cpp.html#acf75fe5585db30253cd14d7a81452c9f">NalorakkWay</a>[3][0], <a class="code hl_variable" href="../../d1/d79/boss__nalorakk_8cpp.html#acf75fe5585db30253cd14d7a81452c9f">NalorakkWay</a>[3][1], <a class="code hl_variable" href="../../d1/d79/boss__nalorakk_8cpp.html#acf75fe5585db30253cd14d7a81452c9f">NalorakkWay</a>[3][2]);</div>
+<div class="line"><span class="lineno">  246</span>                                    <a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#ae206b5079a69d672d12fb395624fe704">MovePhase</a> ++;</div>
+<div class="line"><span class="lineno">  247</span>                                    <a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#acefb22e1848b103589915cbb092c12d5">inMove</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  248</span> </div>
+<div class="line"><span class="lineno">  249</span>                                    <a class="code hl_function" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#a30fdcfacfbcda123b2fb92cbbfc74708">SendAttacker</a>(who);</div>
+<div class="line"><span class="lineno">  250</span>                                }</div>
+<div class="line"><span class="lineno">  251</span>                                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  252</span>                            <span class="keywordflow">case</span> 5:</div>
+<div class="line"><span class="lineno">  253</span>                                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#ab73407bcdf13a30519a953d24773ed02">IsWithinDistInMap</a>(who, 40))</div>
+<div class="line"><span class="lineno">  254</span>                                {</div>
+<div class="line"><span class="lineno">  255</span>                                    <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d1/d79/boss__nalorakk_8cpp.html#acb9ca3a790c820be5cc99570142bda22a2c4234c075da474e1859f08d620f20d3">SAY_WAVE3</a>);</div>
+<div class="line"><span class="lineno">  256</span> </div>
+<div class="line"><span class="lineno">  257</span>                                    (*me).GetMotionMaster()-&gt;MovePoint(6, <a class="code hl_variable" href="../../d1/d79/boss__nalorakk_8cpp.html#acf75fe5585db30253cd14d7a81452c9f">NalorakkWay</a>[6][0], <a class="code hl_variable" href="../../d1/d79/boss__nalorakk_8cpp.html#acf75fe5585db30253cd14d7a81452c9f">NalorakkWay</a>[6][1], <a class="code hl_variable" href="../../d1/d79/boss__nalorakk_8cpp.html#acf75fe5585db30253cd14d7a81452c9f">NalorakkWay</a>[6][2]);</div>
+<div class="line"><span class="lineno">  258</span>                                    <a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#ae206b5079a69d672d12fb395624fe704">MovePhase</a> ++;</div>
+<div class="line"><span class="lineno">  259</span>                                    <a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#acefb22e1848b103589915cbb092c12d5">inMove</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  260</span> </div>
+<div class="line"><span class="lineno">  261</span>                                    <a class="code hl_function" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#a30fdcfacfbcda123b2fb92cbbfc74708">SendAttacker</a>(who);</div>
+<div class="line"><span class="lineno">  262</span>                                }</div>
+<div class="line"><span class="lineno">  263</span>                                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  264</span>                            <span class="keywordflow">case</span> 7:</div>
+<div class="line"><span class="lineno">  265</span>                                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#ab73407bcdf13a30519a953d24773ed02">IsWithinDistInMap</a>(who, 50))</div>
+<div class="line"><span class="lineno">  266</span>                                {</div>
+<div class="line"><span class="lineno">  267</span>                                    <a class="code hl_function" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#a30fdcfacfbcda123b2fb92cbbfc74708">SendAttacker</a>(who);</div>
+<div class="line"><span class="lineno">  268</span> </div>
+<div class="line"><span class="lineno">  269</span>                                    <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d1/d79/boss__nalorakk_8cpp.html#acb9ca3a790c820be5cc99570142bda22af13e872cbd347b8a5bc80c2e8666381d">SAY_WAVE4</a>);</div>
+<div class="line"><span class="lineno">  270</span> </div>
+<div class="line"><span class="lineno">  271</span>                                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#af9a5a43c2d7940c38f8b101409666a0d">RemoveUnitFlag</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a8b7b8fe906282847f5f337728d4a534f">UNIT_FLAG_NOT_SELECTABLE</a>);</div>
+<div class="line"><span class="lineno">  272</span>                                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#af9a5a43c2d7940c38f8b101409666a0d">RemoveUnitFlag</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a2ecf000dcea1c08aeb8721570707f922">UNIT_FLAG_NON_ATTACKABLE</a>);</div>
+<div class="line"><span class="lineno">  273</span> </div>
+<div class="line"><span class="lineno">  274</span>                                    <a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#a622f56155527ab3e358ffbe8308c62cc">MoveEvent</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  275</span>                                }</div>
+<div class="line"><span class="lineno">  276</span>                                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  277</span>                        }</div>
+<div class="line"><span class="lineno">  278</span>                    }</div>
+<div class="line"><span class="lineno">  279</span>                }</div>
+<div class="line"><span class="lineno">  280</span>            }</div>
+<div class="line"><span class="lineno">  281</span>        }</div>
+<div class="ttc" id="a_unit_8h_html_affdd0d554c8bcaaa85a879f5a9d60934a2ecf000dcea1c08aeb8721570707f922"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a2ecf000dcea1c08aeb8721570707f922">UNIT_FLAG_NON_ATTACKABLE</a></div><div class="ttdeci">@ UNIT_FLAG_NON_ATTACKABLE</div><div class="ttdef"><b>Definition:</b> Unit.h:449</div></div>
+<div class="ttc" id="a_unit_8h_html_affdd0d554c8bcaaa85a879f5a9d60934a8b7b8fe906282847f5f337728d4a534f"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a8b7b8fe906282847f5f337728d4a534f">UNIT_FLAG_NOT_SELECTABLE</a></div><div class="ttdeci">@ UNIT_FLAG_NOT_SELECTABLE</div><div class="ttdef"><b>Definition:</b> Unit.h:473</div></div>
+<div class="ttc" id="aboss__nalorakk_8cpp_html_acb9ca3a790c820be5cc99570142bda22a2c4234c075da474e1859f08d620f20d3"><div class="ttname"><a href="../../d1/d79/boss__nalorakk_8cpp.html#acb9ca3a790c820be5cc99570142bda22a2c4234c075da474e1859f08d620f20d3">SAY_WAVE3</a></div><div class="ttdeci">@ SAY_WAVE3</div><div class="ttdef"><b>Definition:</b> boss_nalorakk.cpp:66</div></div>
+<div class="ttc" id="aboss__nalorakk_8cpp_html_acb9ca3a790c820be5cc99570142bda22aa5fdc5f00160ab94a4848d6a849afffd"><div class="ttname"><a href="../../d1/d79/boss__nalorakk_8cpp.html#acb9ca3a790c820be5cc99570142bda22aa5fdc5f00160ab94a4848d6a849afffd">SAY_WAVE2</a></div><div class="ttdeci">@ SAY_WAVE2</div><div class="ttdef"><b>Definition:</b> boss_nalorakk.cpp:65</div></div>
+<div class="ttc" id="aboss__nalorakk_8cpp_html_acb9ca3a790c820be5cc99570142bda22ab95c0da9cea1abdeed129ce42c5b7478"><div class="ttname"><a href="../../d1/d79/boss__nalorakk_8cpp.html#acb9ca3a790c820be5cc99570142bda22ab95c0da9cea1abdeed129ce42c5b7478">SAY_WAVE1</a></div><div class="ttdeci">@ SAY_WAVE1</div><div class="ttdef"><b>Definition:</b> boss_nalorakk.cpp:64</div></div>
+<div class="ttc" id="aboss__nalorakk_8cpp_html_acb9ca3a790c820be5cc99570142bda22af13e872cbd347b8a5bc80c2e8666381d"><div class="ttname"><a href="../../d1/d79/boss__nalorakk_8cpp.html#acb9ca3a790c820be5cc99570142bda22af13e872cbd347b8a5bc80c2e8666381d">SAY_WAVE4</a></div><div class="ttdeci">@ SAY_WAVE4</div><div class="ttdef"><b>Definition:</b> boss_nalorakk.cpp:67</div></div>
+<div class="ttc" id="aboss__nalorakk_8cpp_html_acf75fe5585db30253cd14d7a81452c9f"><div class="ttname"><a href="../../d1/d79/boss__nalorakk_8cpp.html#acf75fe5585db30253cd14d7a81452c9f">NalorakkWay</a></div><div class="ttdeci">float NalorakkWay[8][3]</div><div class="ttdef"><b>Definition:</b> boss_nalorakk.cpp:50</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_a1280f8bcf72254ad31c453b810615f87"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#a1280f8bcf72254ad31c453b810615f87">CreatureAI::MoveInLineOfSight</a></div><div class="ttdeci">virtual void MoveInLineOfSight(Unit *)</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:156</div></div>
+<div class="ttc" id="aclass_unit_html_ae8d112bd8c9cc28d1186e773945291b6"><div class="ttname"><a href="../../da/db7/class_unit.html#ae8d112bd8c9cc28d1186e773945291b6">Unit::IsHostileTo</a></div><div class="ttdeci">bool IsHostileTo(Unit const *unit) const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:10197</div></div>
+<div class="ttc" id="aclass_unit_html_af9a5a43c2d7940c38f8b101409666a0d"><div class="ttname"><a href="../../da/db7/class_unit.html#af9a5a43c2d7940c38f8b101409666a0d">Unit::RemoveUnitFlag</a></div><div class="ttdeci">void RemoveUnitFlag(UnitFlags flags)</div><div class="ttdef"><b>Definition:</b> Unit.h:1480</div></div>
+<div class="ttc" id="aclass_world_object_html_ab73407bcdf13a30519a953d24773ed02"><div class="ttname"><a href="../../db/df7/class_world_object.html#ab73407bcdf13a30519a953d24773ed02">WorldObject::IsWithinDistInMap</a></div><div class="ttdeci">bool IsWithinDistInMap(WorldObject const *obj, float dist2compare, bool is3D=true, bool useBoundingRadius=true) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1321</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+<div class="ttc" id="astructboss__nalorakk_1_1boss__nalorakk_a_i_html_a30fdcfacfbcda123b2fb92cbbfc74708"><div class="ttname"><a href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#a30fdcfacfbcda123b2fb92cbbfc74708">boss_nalorakk::boss_nalorakkAI::SendAttacker</a></div><div class="ttdeci">void SendAttacker(Unit *target)</div><div class="ttdef"><b>Definition:</b> boss_nalorakk.cpp:175</div></div>
+<div class="ttc" id="astructboss__nalorakk_1_1boss__nalorakk_a_i_html_acefb22e1848b103589915cbb092c12d5"><div class="ttname"><a href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#acefb22e1848b103589915cbb092c12d5">boss_nalorakk::boss_nalorakkAI::inMove</a></div><div class="ttdeci">bool inMove</div><div class="ttdef"><b>Definition:</b> boss_nalorakk.cpp:112</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a106588c95a1c8f022ac4da156b5564dc" name="a106588c95a1c8f022ac4da156b5564dc"></a>
@@ -732,7 +868,47 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#ac737070ba7a8645d0e0ccf6bd6107004">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  316</span>        {</div>
+<div class="line"><span class="lineno">  317</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#a622f56155527ab3e358ffbe8308c62cc">MoveEvent</a>)</div>
+<div class="line"><span class="lineno">  318</span>            {</div>
+<div class="line"><span class="lineno">  319</span>                <span class="keywordflow">if</span> (type != <a class="code hl_enumvalue" href="../../d8/dea/_motion_master_8h.html#a4f12806b915efea564eae942207002f9ad05105e19ca15912eceb8a1d856c7467">POINT_MOTION_TYPE</a>)</div>
+<div class="line"><span class="lineno">  320</span>                    <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  321</span> </div>
+<div class="line"><span class="lineno">  322</span>                <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#acefb22e1848b103589915cbb092c12d5">inMove</a>)</div>
+<div class="line"><span class="lineno">  323</span>                    <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  324</span> </div>
+<div class="line"><span class="lineno">  325</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#ae206b5079a69d672d12fb395624fe704">MovePhase</a> != <span class="keywordtype">id</span>)</div>
+<div class="line"><span class="lineno">  326</span>                    <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  327</span> </div>
+<div class="line"><span class="lineno">  328</span>                <span class="keywordflow">switch</span> (<a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#ae206b5079a69d672d12fb395624fe704">MovePhase</a>)</div>
+<div class="line"><span class="lineno">  329</span>                {</div>
+<div class="line"><span class="lineno">  330</span>                    <span class="keywordflow">case</span> 2:</div>
+<div class="line"><span class="lineno">  331</span>                        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#aa547307fa2e6acedbcebda20a98a0fcf">SetOrientation</a>(3.1415f * 2);</div>
+<div class="line"><span class="lineno">  332</span>                        <a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#acefb22e1848b103589915cbb092c12d5">inMove</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  333</span>                        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  334</span>                    <span class="keywordflow">case</span> 1:</div>
+<div class="line"><span class="lineno">  335</span>                    <span class="keywordflow">case</span> 3:</div>
+<div class="line"><span class="lineno">  336</span>                    <span class="keywordflow">case</span> 4:</div>
+<div class="line"><span class="lineno">  337</span>                    <span class="keywordflow">case</span> 6:</div>
+<div class="line"><span class="lineno">  338</span>                        <a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#ae206b5079a69d672d12fb395624fe704">MovePhase</a> ++;</div>
+<div class="line"><span class="lineno">  339</span>                        <a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#a4abf593d93f1db7ac5366a3ff0c9a45e">waitTimer</a> = 1;</div>
+<div class="line"><span class="lineno">  340</span>                        <a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#acefb22e1848b103589915cbb092c12d5">inMove</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  341</span>                        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  342</span>                    <span class="keywordflow">case</span> 5:</div>
+<div class="line"><span class="lineno">  343</span>                        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#aa547307fa2e6acedbcebda20a98a0fcf">SetOrientation</a>(3.1415f * 0.5f);</div>
+<div class="line"><span class="lineno">  344</span>                        <a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#acefb22e1848b103589915cbb092c12d5">inMove</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  345</span>                        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  346</span>                    <span class="keywordflow">case</span> 7:</div>
+<div class="line"><span class="lineno">  347</span>                        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#aa547307fa2e6acedbcebda20a98a0fcf">SetOrientation</a>(3.1415f * 0.5f);</div>
+<div class="line"><span class="lineno">  348</span>                        <a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#acefb22e1848b103589915cbb092c12d5">inMove</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  349</span>                        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  350</span>                }</div>
+<div class="line"><span class="lineno">  351</span>            }</div>
+<div class="line"><span class="lineno">  352</span>        }</div>
+<div class="ttc" id="a_motion_master_8h_html_a4f12806b915efea564eae942207002f9ad05105e19ca15912eceb8a1d856c7467"><div class="ttname"><a href="../../d8/dea/_motion_master_8h.html#a4f12806b915efea564eae942207002f9ad05105e19ca15912eceb8a1d856c7467">POINT_MOTION_TYPE</a></div><div class="ttdeci">@ POINT_MOTION_TYPE</div><div class="ttdef"><b>Definition:</b> MotionMaster.h:46</div></div>
+<div class="ttc" id="astruct_position_html_aa547307fa2e6acedbcebda20a98a0fcf"><div class="ttname"><a href="../../d1/d26/struct_position.html#aa547307fa2e6acedbcebda20a98a0fcf">Position::SetOrientation</a></div><div class="ttdeci">void SetOrientation(float orientation)</div><div class="ttdef"><b>Definition:</b> Position.h:112</div></div>
+<div class="ttc" id="astructboss__nalorakk_1_1boss__nalorakk_a_i_html_a4abf593d93f1db7ac5366a3ff0c9a45e"><div class="ttname"><a href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#a4abf593d93f1db7ac5366a3ff0c9a45e">boss_nalorakk::boss_nalorakkAI::waitTimer</a></div><div class="ttdeci">uint32 waitTimer</div><div class="ttdef"><b>Definition:</b> boss_nalorakk.cpp:114</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad057b649679210c1342cbe52def71a8a" name="ad057b649679210c1342cbe52def71a8a"></a>
@@ -759,7 +935,48 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a26600c116d20a33461fc884bdb82eda9">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  117</span>        {</div>
+<div class="line"><span class="lineno">  118</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#a622f56155527ab3e358ffbe8308c62cc">MoveEvent</a>)</div>
+<div class="line"><span class="lineno">  119</span>            {</div>
+<div class="line"><span class="lineno">  120</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ad9f2d48b20f62e17abf5c1892cebe296">SetUnitFlag</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a8b7b8fe906282847f5f337728d4a534f">UNIT_FLAG_NOT_SELECTABLE</a>);</div>
+<div class="line"><span class="lineno">  121</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ad9f2d48b20f62e17abf5c1892cebe296">SetUnitFlag</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a2ecf000dcea1c08aeb8721570707f922">UNIT_FLAG_NON_ATTACKABLE</a>);</div>
+<div class="line"><span class="lineno">  122</span>                <a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#acefb22e1848b103589915cbb092c12d5">inMove</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  123</span>                <a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#a4abf593d93f1db7ac5366a3ff0c9a45e">waitTimer</a> = 0;</div>
+<div class="line"><span class="lineno">  124</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ab30ea03b94379b25f1d75ea879b4a61c">SetSpeed</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#af91f7580a89722b7dc45a018bb46fce4ad231571a48b7742c2a432eb7a8a849de">MOVE_RUN</a>, 2);</div>
+<div class="line"><span class="lineno">  125</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#acb4a26180cdcb2266736f6aea4a695d8">SetWalk</a>(<span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  126</span>                <a class="code hl_function" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#a6a354f006fbd1c555339a6c871e96150">ResetMobs</a>();</div>
+<div class="line"><span class="lineno">  127</span>            }</div>
+<div class="line"><span class="lineno">  128</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  129</span>            {</div>
+<div class="line"><span class="lineno">  130</span>                (*me).GetMotionMaster()-&gt;MovePoint(0, <a class="code hl_variable" href="../../d1/d79/boss__nalorakk_8cpp.html#acf75fe5585db30253cd14d7a81452c9f">NalorakkWay</a>[7][0], <a class="code hl_variable" href="../../d1/d79/boss__nalorakk_8cpp.html#acf75fe5585db30253cd14d7a81452c9f">NalorakkWay</a>[7][1], <a class="code hl_variable" href="../../d1/d79/boss__nalorakk_8cpp.html#acf75fe5585db30253cd14d7a81452c9f">NalorakkWay</a>[7][2]);</div>
+<div class="line"><span class="lineno">  131</span>            }</div>
+<div class="line"><span class="lineno">  132</span> </div>
+<div class="line"><span class="lineno">  133</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#a50b2585a611bb9c47e8fc49f347b761a">instance</a>)</div>
+<div class="line"><span class="lineno">  134</span>            {</div>
+<div class="line"><span class="lineno">  135</span>                <a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#a50b2585a611bb9c47e8fc49f347b761a">instance</a>-&gt;<a class="code hl_function" href="../../df/dad/class_zone_script.html#a949e67ea24c7e4b70a20806952735576">SetData</a>(<a class="code hl_enumvalue" href="../../d9/d98/zulaman_8h.html#afb6eb4f28419b652027fad41104a6d22a4a1b48f32db219664618a352a028011f">DATA_NALORAKKEVENT</a>, <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694ae7d82dfe80ea0bd4feea8ee49ea2eab5">NOT_STARTED</a>);</div>
+<div class="line"><span class="lineno">  136</span>            }</div>
+<div class="line"><span class="lineno">  137</span> </div>
+<div class="line"><span class="lineno">  138</span>            <a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#a6537a684bc28ad70ba6032ed7f83fa1b">Surge_Timer</a> = <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(15000, 20000);</div>
+<div class="line"><span class="lineno">  139</span>            <a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#a03fa5005a8b1d784ce51861379a7c322">BrutalSwipe_Timer</a> = <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(7000, 12000);</div>
+<div class="line"><span class="lineno">  140</span>            <a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#ac9a138ae20c81911b47d9fc72c57f5f9">Mangle_Timer</a> = <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(10000, 15000);</div>
+<div class="line"><span class="lineno">  141</span>            <a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#a6b4196ebf2c195e5894515d73531399a">ShapeShift_Timer</a> = <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(45000, 50000);</div>
+<div class="line"><span class="lineno">  142</span>            <a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#a60998c2c16af9f2799235e459dc90442">Berserk_Timer</a> = 600000;</div>
+<div class="line"><span class="lineno">  143</span> </div>
+<div class="line"><span class="lineno">  144</span>            <a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#ae9f37d867ed6fbb4d99e7ea338a57681">inBearForm</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  145</span>            <span class="comment">// me-&gt;SetUInt32Value(UNIT_VIRTUAL_ITEM_SLOT_ID + 1, 5122);  /// @todo find the correct equipment id</span></div>
+<div class="line"><span class="lineno">  146</span>        }</div>
+<div class="ttc" id="a_instance_script_8h_html_a1c28341208eeb4bdc8237e8ceac88694ae7d82dfe80ea0bd4feea8ee49ea2eab5"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694ae7d82dfe80ea0bd4feea8ee49ea2eab5">NOT_STARTED</a></div><div class="ttdeci">@ NOT_STARTED</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:56</div></div>
+<div class="ttc" id="a_unit_8h_html_af91f7580a89722b7dc45a018bb46fce4ad231571a48b7742c2a432eb7a8a849de"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#af91f7580a89722b7dc45a018bb46fce4ad231571a48b7742c2a432eb7a8a849de">MOVE_RUN</a></div><div class="ttdeci">@ MOVE_RUN</div><div class="ttdef"><b>Definition:</b> Unit.h:379</div></div>
+<div class="ttc" id="aclass_creature_html_acb4a26180cdcb2266736f6aea4a695d8"><div class="ttname"><a href="../../d1/dac/class_creature.html#acb4a26180cdcb2266736f6aea4a695d8">Creature::SetWalk</a></div><div class="ttdeci">bool SetWalk(bool enable) override</div><div class="ttdef"><b>Definition:</b> Creature.cpp:3053</div></div>
+<div class="ttc" id="aclass_unit_html_ab30ea03b94379b25f1d75ea879b4a61c"><div class="ttname"><a href="../../da/db7/class_unit.html#ab30ea03b94379b25f1d75ea879b4a61c">Unit::SetSpeed</a></div><div class="ttdeci">void SetSpeed(UnitMoveType mtype, float rate, bool forced=false)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:14301</div></div>
+<div class="ttc" id="aclass_unit_html_ad9f2d48b20f62e17abf5c1892cebe296"><div class="ttname"><a href="../../da/db7/class_unit.html#ad9f2d48b20f62e17abf5c1892cebe296">Unit::SetUnitFlag</a></div><div class="ttdeci">void SetUnitFlag(UnitFlags flags)</div><div class="ttdef"><b>Definition:</b> Unit.h:1479</div></div>
+<div class="ttc" id="astructboss__nalorakk_1_1boss__nalorakk_a_i_html_a03fa5005a8b1d784ce51861379a7c322"><div class="ttname"><a href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#a03fa5005a8b1d784ce51861379a7c322">boss_nalorakk::boss_nalorakkAI::BrutalSwipe_Timer</a></div><div class="ttdeci">uint32 BrutalSwipe_Timer</div><div class="ttdef"><b>Definition:</b> boss_nalorakk.cpp:99</div></div>
+<div class="ttc" id="astructboss__nalorakk_1_1boss__nalorakk_a_i_html_a60998c2c16af9f2799235e459dc90442"><div class="ttname"><a href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#a60998c2c16af9f2799235e459dc90442">boss_nalorakk::boss_nalorakkAI::Berserk_Timer</a></div><div class="ttdeci">uint32 Berserk_Timer</div><div class="ttdef"><b>Definition:</b> boss_nalorakk.cpp:108</div></div>
+<div class="ttc" id="astructboss__nalorakk_1_1boss__nalorakk_a_i_html_a6537a684bc28ad70ba6032ed7f83fa1b"><div class="ttname"><a href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#a6537a684bc28ad70ba6032ed7f83fa1b">boss_nalorakk::boss_nalorakkAI::Surge_Timer</a></div><div class="ttdeci">uint32 Surge_Timer</div><div class="ttdef"><b>Definition:</b> boss_nalorakk.cpp:101</div></div>
+<div class="ttc" id="astructboss__nalorakk_1_1boss__nalorakk_a_i_html_a6b4196ebf2c195e5894515d73531399a"><div class="ttname"><a href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#a6b4196ebf2c195e5894515d73531399a">boss_nalorakk::boss_nalorakkAI::ShapeShift_Timer</a></div><div class="ttdeci">uint32 ShapeShift_Timer</div><div class="ttdef"><b>Definition:</b> boss_nalorakk.cpp:107</div></div>
+<div class="ttc" id="astructboss__nalorakk_1_1boss__nalorakk_a_i_html_ac9a138ae20c81911b47d9fc72c57f5f9"><div class="ttname"><a href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#ac9a138ae20c81911b47d9fc72c57f5f9">boss_nalorakk::boss_nalorakkAI::Mangle_Timer</a></div><div class="ttdeci">uint32 Mangle_Timer</div><div class="ttdef"><b>Definition:</b> boss_nalorakk.cpp:100</div></div>
+<div class="ttc" id="astructboss__nalorakk_1_1boss__nalorakk_a_i_html_ae9f37d867ed6fbb4d99e7ea338a57681"><div class="ttname"><a href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#ae9f37d867ed6fbb4d99e7ea338a57681">boss_nalorakk::boss_nalorakkAI::inBearForm</a></div><div class="ttdeci">bool inBearForm</div><div class="ttdef"><b>Definition:</b> boss_nalorakk.cpp:110</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a6a354f006fbd1c555339a6c871e96150" name="a6a354f006fbd1c555339a6c871e96150"></a>
@@ -784,7 +1001,43 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  149</span>        {</div>
+<div class="line"><span class="lineno">  150</span>            std::list&lt;Creature*&gt; templist;</div>
+<div class="line"><span class="lineno">  151</span>            <span class="keywordtype">float</span> x, y, z;</div>
+<div class="line"><span class="lineno">  152</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#ad8e55f9b39618093aa625abe3a06e1ed">GetPosition</a>(x, y, z);</div>
+<div class="line"><span class="lineno">  153</span> </div>
+<div class="line"><span class="lineno">  154</span>            {</div>
+<div class="line"><span class="lineno">  155</span>                <a class="code hl_class" href="../../d6/d39/struct_coord_pair.html">CellCoord</a> pair(<a class="code hl_function" href="../../d1/d7d/namespace_acore.html#af056a475dba505792191bc6e8c3370a5">Acore::ComputeCellCoord</a>(x, y));</div>
+<div class="line"><span class="lineno">  156</span>                <a class="code hl_struct" href="../../dc/d9f/struct_cell.html">Cell</a> cell(pair);</div>
+<div class="line"><span class="lineno">  157</span>                cell.SetNoCreate();</div>
+<div class="line"><span class="lineno">  158</span> </div>
+<div class="line"><span class="lineno">  159</span>                <a class="code hl_class" href="../../d5/d2d/class_acore_1_1_all_friendly_creatures_in_grid.html">Acore::AllFriendlyCreaturesInGrid</a> check(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>);</div>
+<div class="line"><span class="lineno">  160</span>                <a class="code hl_struct" href="../../de/d88/struct_acore_1_1_creature_list_searcher.html">Acore::CreatureListSearcher&lt;Acore::AllFriendlyCreaturesInGrid&gt;</a> searcher(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, templist, check);</div>
+<div class="line"><span class="lineno">  161</span> </div>
+<div class="line"><span class="lineno">  162</span>                <a class="code hl_class" href="../../df/d26/class_type_container_visitor.html">TypeContainerVisitor&lt;Acore::CreatureListSearcher&lt;Acore::AllFriendlyCreaturesInGrid&gt;</a>, <a class="code hl_class" href="../../db/dd5/class_type_map_container.html">GridTypeMapContainer</a>&gt; cSearcher(searcher);</div>
+<div class="line"><span class="lineno">  163</span> </div>
+<div class="line"><span class="lineno">  164</span>                cell.Visit(pair, cSearcher, *(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a1013c27be4347a1b1a4a986a07456deb">GetMap</a>()), *<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a3cce686d74d3ab3890a7de391698a106">GetGridActivationRange</a>());</div>
+<div class="line"><span class="lineno">  165</span>            }</div>
+<div class="line"><span class="lineno">  166</span> </div>
+<div class="line"><span class="lineno">  167</span>            <span class="keywordflow">if</span> (templist.empty())</div>
+<div class="line"><span class="lineno">  168</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  169</span> </div>
+<div class="line"><span class="lineno">  170</span>            <span class="keywordflow">for</span> (std::list&lt;Creature*&gt;::const_iterator i = templist.begin(); i != templist.end(); ++i)</div>
+<div class="line"><span class="lineno">  171</span>                <span class="keywordflow">if</span> ((*i) &amp;&amp; <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>() != (*i)-&gt;GetGUID() &amp;&amp; <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#ab73407bcdf13a30519a953d24773ed02">IsWithinDistInMap</a>((*i), 25))</div>
+<div class="line"><span class="lineno">  172</span>                    (*i)-&gt;AI()-&gt;Reset();</div>
+<div class="line"><span class="lineno">  173</span>        }</div>
+<div class="ttc" id="aclass_acore_1_1_all_friendly_creatures_in_grid_html"><div class="ttname"><a href="../../d5/d2d/class_acore_1_1_all_friendly_creatures_in_grid.html">Acore::AllFriendlyCreaturesInGrid</a></div><div class="ttdef"><b>Definition:</b> GridNotifiers.h:1428</div></div>
+<div class="ttc" id="aclass_object_html_ad23b997e2442fa6a6228ba73a7ecc138"><div class="ttname"><a href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">Object::GetGUID</a></div><div class="ttdeci">static ObjectGuid GetGUID(Object const *o)</div><div class="ttdef"><b>Definition:</b> Object.h:106</div></div>
+<div class="ttc" id="aclass_type_container_visitor_html"><div class="ttname"><a href="../../df/d26/class_type_container_visitor.html">TypeContainerVisitor</a></div><div class="ttdef"><b>Definition:</b> TypeContainerVisitor.h:85</div></div>
+<div class="ttc" id="aclass_type_map_container_html"><div class="ttname"><a href="../../db/dd5/class_type_map_container.html">TypeMapContainer</a></div><div class="ttdef"><b>Definition:</b> TypeContainer.h:103</div></div>
+<div class="ttc" id="aclass_world_object_html_a1013c27be4347a1b1a4a986a07456deb"><div class="ttname"><a href="../../db/df7/class_world_object.html#a1013c27be4347a1b1a4a986a07456deb">WorldObject::GetMap</a></div><div class="ttdeci">Map * GetMap() const</div><div class="ttdef"><b>Definition:</b> Object.h:517</div></div>
+<div class="ttc" id="aclass_world_object_html_a3cce686d74d3ab3890a7de391698a106"><div class="ttname"><a href="../../db/df7/class_world_object.html#a3cce686d74d3ab3890a7de391698a106">WorldObject::GetGridActivationRange</a></div><div class="ttdeci">float GetGridActivationRange() const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1623</div></div>
+<div class="ttc" id="anamespace_acore_html_af056a475dba505792191bc6e8c3370a5"><div class="ttname"><a href="../../d1/d7d/namespace_acore.html#af056a475dba505792191bc6e8c3370a5">Acore::ComputeCellCoord</a></div><div class="ttdeci">CellCoord ComputeCellCoord(float x, float y)</div><div class="ttdef"><b>Definition:</b> GridDefines.h:191</div></div>
+<div class="ttc" id="astruct_acore_1_1_creature_list_searcher_html"><div class="ttname"><a href="../../de/d88/struct_acore_1_1_creature_list_searcher.html">Acore::CreatureListSearcher</a></div><div class="ttdef"><b>Definition:</b> GridNotifiers.h:470</div></div>
+<div class="ttc" id="astruct_cell_html"><div class="ttname"><a href="../../dc/d9f/struct_cell.html">Cell</a></div><div class="ttdef"><b>Definition:</b> Cell.h:46</div></div>
+<div class="ttc" id="astruct_coord_pair_html"><div class="ttname"><a href="../../d6/d39/struct_coord_pair.html">CoordPair&lt; TOTAL_NUMBER_OF_CELLS_PER_MAP &gt;</a></div></div>
+<div class="ttc" id="astruct_position_html_ad8e55f9b39618093aa625abe3a06e1ed"><div class="ttname"><a href="../../d1/d26/struct_position.html#ad8e55f9b39618093aa625abe3a06e1ed">Position::GetPosition</a></div><div class="ttdeci">void GetPosition(float &amp;x, float &amp;y) const</div><div class="ttdef"><b>Definition:</b> Position.h:122</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a30fdcfacfbcda123b2fb92cbbfc74708" name="a30fdcfacfbcda123b2fb92cbbfc74708"></a>
@@ -810,7 +1063,37 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  176</span>        {</div>
+<div class="line"><span class="lineno">  177</span>            std::list&lt;Creature*&gt; templist;</div>
+<div class="line"><span class="lineno">  178</span>            <span class="keywordtype">float</span> x, y, z;</div>
+<div class="line"><span class="lineno">  179</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#ad8e55f9b39618093aa625abe3a06e1ed">GetPosition</a>(x, y, z);</div>
+<div class="line"><span class="lineno">  180</span> </div>
+<div class="line"><span class="lineno">  181</span>            {</div>
+<div class="line"><span class="lineno">  182</span>                <a class="code hl_class" href="../../d6/d39/struct_coord_pair.html">CellCoord</a> pair(<a class="code hl_function" href="../../d1/d7d/namespace_acore.html#af056a475dba505792191bc6e8c3370a5">Acore::ComputeCellCoord</a>(x, y));</div>
+<div class="line"><span class="lineno">  183</span>                <a class="code hl_struct" href="../../dc/d9f/struct_cell.html">Cell</a> cell(pair);</div>
+<div class="line"><span class="lineno">  184</span>                cell.SetNoCreate();</div>
+<div class="line"><span class="lineno">  185</span> </div>
+<div class="line"><span class="lineno">  186</span>                <a class="code hl_class" href="../../d5/d2d/class_acore_1_1_all_friendly_creatures_in_grid.html">Acore::AllFriendlyCreaturesInGrid</a> check(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>);</div>
+<div class="line"><span class="lineno">  187</span>                <a class="code hl_struct" href="../../de/d88/struct_acore_1_1_creature_list_searcher.html">Acore::CreatureListSearcher&lt;Acore::AllFriendlyCreaturesInGrid&gt;</a> searcher(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, templist, check);</div>
+<div class="line"><span class="lineno">  188</span> </div>
+<div class="line"><span class="lineno">  189</span>                <a class="code hl_class" href="../../df/d26/class_type_container_visitor.html">TypeContainerVisitor&lt;Acore::CreatureListSearcher&lt;Acore::AllFriendlyCreaturesInGrid&gt;</a>, <a class="code hl_class" href="../../db/dd5/class_type_map_container.html">GridTypeMapContainer</a>&gt; cSearcher(searcher);</div>
+<div class="line"><span class="lineno">  190</span> </div>
+<div class="line"><span class="lineno">  191</span>                cell.Visit(pair, cSearcher, *(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a1013c27be4347a1b1a4a986a07456deb">GetMap</a>()), *<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a3cce686d74d3ab3890a7de391698a106">GetGridActivationRange</a>());</div>
+<div class="line"><span class="lineno">  192</span>            }</div>
+<div class="line"><span class="lineno">  193</span> </div>
+<div class="line"><span class="lineno">  194</span>            <span class="keywordflow">if</span> (templist.empty())</div>
+<div class="line"><span class="lineno">  195</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  196</span> </div>
+<div class="line"><span class="lineno">  197</span>            <span class="keywordflow">for</span> (std::list&lt;Creature*&gt;::const_iterator i = templist.begin(); i != templist.end(); ++i)</div>
+<div class="line"><span class="lineno">  198</span>            {</div>
+<div class="line"><span class="lineno">  199</span>                <span class="keywordflow">if</span> ((*i) &amp;&amp; <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#ab73407bcdf13a30519a953d24773ed02">IsWithinDistInMap</a>((*i), 25))</div>
+<div class="line"><span class="lineno">  200</span>                {</div>
+<div class="line"><span class="lineno">  201</span>                    (*i)-&gt;SetNoCallAssistance(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  202</span>                    (*i)-&gt;AI()-&gt;AttackStart(target);</div>
+<div class="line"><span class="lineno">  203</span>                }</div>
+<div class="line"><span class="lineno">  204</span>            }</div>
+<div class="line"><span class="lineno">  205</span>        }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a57926e9ae57618bcdbd503440578d678" name="a57926e9ae57618bcdbd503440578d678"></a>
@@ -838,7 +1121,138 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#aff5fd4e142a5cf930ffacbfc7259cce5">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  355</span>        {</div>
+<div class="line"><span class="lineno">  356</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#a4abf593d93f1db7ac5366a3ff0c9a45e">waitTimer</a> &amp;&amp; <a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#acefb22e1848b103589915cbb092c12d5">inMove</a>)</div>
+<div class="line"><span class="lineno">  357</span>            {</div>
+<div class="line"><span class="lineno">  358</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#a4abf593d93f1db7ac5366a3ff0c9a45e">waitTimer</a> &lt;= diff)</div>
+<div class="line"><span class="lineno">  359</span>                {</div>
+<div class="line"><span class="lineno">  360</span>                    (*me).GetMotionMaster()-&gt;MovementExpired();</div>
+<div class="line"><span class="lineno">  361</span>                    (*me).GetMotionMaster()-&gt;MovePoint(<a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#ae206b5079a69d672d12fb395624fe704">MovePhase</a>, <a class="code hl_variable" href="../../d1/d79/boss__nalorakk_8cpp.html#acf75fe5585db30253cd14d7a81452c9f">NalorakkWay</a>[<a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#ae206b5079a69d672d12fb395624fe704">MovePhase</a>][0], <a class="code hl_variable" href="../../d1/d79/boss__nalorakk_8cpp.html#acf75fe5585db30253cd14d7a81452c9f">NalorakkWay</a>[<a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#ae206b5079a69d672d12fb395624fe704">MovePhase</a>][1], <a class="code hl_variable" href="../../d1/d79/boss__nalorakk_8cpp.html#acf75fe5585db30253cd14d7a81452c9f">NalorakkWay</a>[<a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#ae206b5079a69d672d12fb395624fe704">MovePhase</a>][2]);</div>
+<div class="line"><span class="lineno">  362</span>                    <a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#a4abf593d93f1db7ac5366a3ff0c9a45e">waitTimer</a> = 0;</div>
+<div class="line"><span class="lineno">  363</span>                }</div>
+<div class="line"><span class="lineno">  364</span>                <span class="keywordflow">else</span> <a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#a4abf593d93f1db7ac5366a3ff0c9a45e">waitTimer</a> -= diff;</div>
+<div class="line"><span class="lineno">  365</span>            }</div>
+<div class="line"><span class="lineno">  366</span> </div>
+<div class="line"><span class="lineno">  367</span>            <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">UpdateVictim</a>())</div>
+<div class="line"><span class="lineno">  368</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  369</span> </div>
+<div class="line"><span class="lineno">  370</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#a60998c2c16af9f2799235e459dc90442">Berserk_Timer</a> &lt;= diff)</div>
+<div class="line"><span class="lineno">  371</span>            {</div>
+<div class="line"><span class="lineno">  372</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_enumvalue" href="../../d1/d79/boss__nalorakk_8cpp.html#a5bd342133be8c2137b831460acc9298cad7b3e50b45f9949cd0e4030ca19a6b4f">SPELL_BERSERK</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  373</span>                <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d1/d79/boss__nalorakk_8cpp.html#acb9ca3a790c820be5cc99570142bda22ada55f761193c5ce51964480004c8462b">SAY_BERSERK</a>);</div>
+<div class="line"><span class="lineno">  374</span>                <a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#a60998c2c16af9f2799235e459dc90442">Berserk_Timer</a> = 600000;</div>
+<div class="line"><span class="lineno">  375</span>            }</div>
+<div class="line"><span class="lineno">  376</span>            <span class="keywordflow">else</span> <a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#a60998c2c16af9f2799235e459dc90442">Berserk_Timer</a> -= diff;</div>
+<div class="line"><span class="lineno">  377</span> </div>
+<div class="line"><span class="lineno">  378</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#a6b4196ebf2c195e5894515d73531399a">ShapeShift_Timer</a> &lt;= diff)</div>
+<div class="line"><span class="lineno">  379</span>            {</div>
+<div class="line"><span class="lineno">  380</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#ae9f37d867ed6fbb4d99e7ea338a57681">inBearForm</a>)</div>
+<div class="line"><span class="lineno">  381</span>                {</div>
+<div class="line"><span class="lineno">  382</span>                    <span class="comment">// me-&gt;SetUInt32Value(UNIT_VIRTUAL_ITEM_SLOT_ID + 1, 5122);</span></div>
+<div class="line"><span class="lineno">  383</span>                    <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d1/d79/boss__nalorakk_8cpp.html#acb9ca3a790c820be5cc99570142bda22ace6cd3a3a9b30b88b5183f33aaa7bb9d">SAY_SHIFTEDTOTROLL</a>);</div>
+<div class="line"><span class="lineno">  384</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aac612f06e84142d92dcfc432b5feb4ac">RemoveAurasDueToSpell</a>(<a class="code hl_enumvalue" href="../../d1/d79/boss__nalorakk_8cpp.html#a5bd342133be8c2137b831460acc9298ca0d75264b5db1847ae49995e1e5df30c5">SPELL_BEARFORM</a>);</div>
+<div class="line"><span class="lineno">  385</span>                    <a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#a6537a684bc28ad70ba6032ed7f83fa1b">Surge_Timer</a> = <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(15000, 20000);</div>
+<div class="line"><span class="lineno">  386</span>                    <a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#a03fa5005a8b1d784ce51861379a7c322">BrutalSwipe_Timer</a> = <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(7000, 12000);</div>
+<div class="line"><span class="lineno">  387</span>                    <a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#ac9a138ae20c81911b47d9fc72c57f5f9">Mangle_Timer</a> = <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(10000, 15000);</div>
+<div class="line"><span class="lineno">  388</span>                    <a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#a6b4196ebf2c195e5894515d73531399a">ShapeShift_Timer</a> = <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(45000, 50000);</div>
+<div class="line"><span class="lineno">  389</span>                    <a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#ae9f37d867ed6fbb4d99e7ea338a57681">inBearForm</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  390</span>                }</div>
+<div class="line"><span class="lineno">  391</span>                <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  392</span>                {</div>
+<div class="line"><span class="lineno">  393</span>                    <span class="comment">// me-&gt;SetUInt32Value(UNIT_VIRTUAL_ITEM_SLOT_ID + 1, 0);</span></div>
+<div class="line"><span class="lineno">  394</span>                    <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d1/d79/boss__nalorakk_8cpp.html#acb9ca3a790c820be5cc99570142bda22ae958c115559290f6e0b08712b03a6177">SAY_SHIFTEDTOBEAR</a>);</div>
+<div class="line"><span class="lineno">  395</span>                    <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_enumvalue" href="../../d1/d79/boss__nalorakk_8cpp.html#a5bd342133be8c2137b831460acc9298ca0d75264b5db1847ae49995e1e5df30c5">SPELL_BEARFORM</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  396</span>                    <a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#a86de4dc4f0f8a94175ac310a555a2ae8">LaceratingSlash_Timer</a> = 2000; <span class="comment">// dur 18s</span></div>
+<div class="line"><span class="lineno">  397</span>                    <a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#ac43fa9de9eea4efd0b252d30180e86fd">RendFlesh_Timer</a> = 3000;  <span class="comment">// dur 5s</span></div>
+<div class="line"><span class="lineno">  398</span>                    <a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#a45e4da03dc74bb0a9188bc2688a15125">DeafeningRoar_Timer</a> = <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(5000, 10000);  <span class="comment">// dur 2s</span></div>
+<div class="line"><span class="lineno">  399</span>                    <a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#a6b4196ebf2c195e5894515d73531399a">ShapeShift_Timer</a> = <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(20000, 25000); <span class="comment">// dur 30s</span></div>
+<div class="line"><span class="lineno">  400</span>                    <a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#ae9f37d867ed6fbb4d99e7ea338a57681">inBearForm</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  401</span>                }</div>
+<div class="line"><span class="lineno">  402</span>            }</div>
+<div class="line"><span class="lineno">  403</span>            <span class="keywordflow">else</span> <a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#a6b4196ebf2c195e5894515d73531399a">ShapeShift_Timer</a> -= diff;</div>
+<div class="line"><span class="lineno">  404</span> </div>
+<div class="line"><span class="lineno">  405</span>            <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#ae9f37d867ed6fbb4d99e7ea338a57681">inBearForm</a>)</div>
+<div class="line"><span class="lineno">  406</span>            {</div>
+<div class="line"><span class="lineno">  407</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#a03fa5005a8b1d784ce51861379a7c322">BrutalSwipe_Timer</a> &lt;= diff)</div>
+<div class="line"><span class="lineno">  408</span>                {</div>
+<div class="line"><span class="lineno">  409</span>                    <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a361b6f4e71e9c74595bdf3d7e3b29a82">DoCastVictim</a>(<a class="code hl_enumvalue" href="../../d1/d79/boss__nalorakk_8cpp.html#a5bd342133be8c2137b831460acc9298caba97b901145d03090541f5a5ae5df813">SPELL_BRUTALSWIPE</a>);</div>
+<div class="line"><span class="lineno">  410</span>                    <a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#a03fa5005a8b1d784ce51861379a7c322">BrutalSwipe_Timer</a> = <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(7000, 12000);</div>
+<div class="line"><span class="lineno">  411</span>                }</div>
+<div class="line"><span class="lineno">  412</span>                <span class="keywordflow">else</span> <a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#a03fa5005a8b1d784ce51861379a7c322">BrutalSwipe_Timer</a> -= diff;</div>
+<div class="line"><span class="lineno">  413</span> </div>
+<div class="line"><span class="lineno">  414</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#ac9a138ae20c81911b47d9fc72c57f5f9">Mangle_Timer</a> &lt;= diff)</div>
+<div class="line"><span class="lineno">  415</span>                {</div>
+<div class="line"><span class="lineno">  416</span>                    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">GetVictim</a>() &amp;&amp; !<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">GetVictim</a>()-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a69c5ac45b65cf0dede6e0ee837361f61">HasAura</a>(<a class="code hl_enumvalue" href="../../d1/d79/boss__nalorakk_8cpp.html#a5bd342133be8c2137b831460acc9298ca62ac7021bb4953c7acf70c8f4cf84387">SPELL_MANGLEEFFECT</a>))</div>
+<div class="line"><span class="lineno">  417</span>                    {</div>
+<div class="line"><span class="lineno">  418</span>                        <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a361b6f4e71e9c74595bdf3d7e3b29a82">DoCastVictim</a>(<a class="code hl_enumvalue" href="../../d1/d79/boss__nalorakk_8cpp.html#a5bd342133be8c2137b831460acc9298ca41cca4c21173b2616bfca0b0759d7e21">SPELL_MANGLE</a>);</div>
+<div class="line"><span class="lineno">  419</span>                        <a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#ac9a138ae20c81911b47d9fc72c57f5f9">Mangle_Timer</a> = 1000;</div>
+<div class="line"><span class="lineno">  420</span>                    }</div>
+<div class="line"><span class="lineno">  421</span>                    <span class="keywordflow">else</span> <a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#ac9a138ae20c81911b47d9fc72c57f5f9">Mangle_Timer</a> = <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(10000, 15000);</div>
+<div class="line"><span class="lineno">  422</span>                }</div>
+<div class="line"><span class="lineno">  423</span>                <span class="keywordflow">else</span> <a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#ac9a138ae20c81911b47d9fc72c57f5f9">Mangle_Timer</a> -= diff;</div>
+<div class="line"><span class="lineno">  424</span> </div>
+<div class="line"><span class="lineno">  425</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#a6537a684bc28ad70ba6032ed7f83fa1b">Surge_Timer</a> &lt;= diff)</div>
+<div class="line"><span class="lineno">  426</span>                {</div>
+<div class="line"><span class="lineno">  427</span>                    <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d1/d79/boss__nalorakk_8cpp.html#acb9ca3a790c820be5cc99570142bda22a0be05cf38671dac65609ad3781ddc87d">SAY_SURGE</a>);</div>
+<div class="line"><span class="lineno">  428</span>                    <a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target = <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6daed910a7666394bcbf8abd2f20096e">SelectTarget</a>(SelectTargetMethod::Random, 1, 45, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  429</span>                    <span class="keywordflow">if</span> (target)</div>
+<div class="line"><span class="lineno">  430</span>                        <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(target, <a class="code hl_enumvalue" href="../../d1/d79/boss__nalorakk_8cpp.html#a5bd342133be8c2137b831460acc9298cae241a6c1a3e011d0f66cedcc8d321074">SPELL_SURGE</a>);</div>
+<div class="line"><span class="lineno">  431</span>                    <a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#a6537a684bc28ad70ba6032ed7f83fa1b">Surge_Timer</a> = <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(15000, 20000);</div>
+<div class="line"><span class="lineno">  432</span>                }</div>
+<div class="line"><span class="lineno">  433</span>                <span class="keywordflow">else</span> <a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#a6537a684bc28ad70ba6032ed7f83fa1b">Surge_Timer</a> -= diff;</div>
+<div class="line"><span class="lineno">  434</span>            }</div>
+<div class="line"><span class="lineno">  435</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  436</span>            {</div>
+<div class="line"><span class="lineno">  437</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#a86de4dc4f0f8a94175ac310a555a2ae8">LaceratingSlash_Timer</a> &lt;= diff)</div>
+<div class="line"><span class="lineno">  438</span>                {</div>
+<div class="line"><span class="lineno">  439</span>                    <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a361b6f4e71e9c74595bdf3d7e3b29a82">DoCastVictim</a>(<a class="code hl_enumvalue" href="../../d1/d79/boss__nalorakk_8cpp.html#a5bd342133be8c2137b831460acc9298ca76e451e43dff35952804f080bde3831d">SPELL_LACERATINGSLASH</a>);</div>
+<div class="line"><span class="lineno">  440</span>                    <a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#a86de4dc4f0f8a94175ac310a555a2ae8">LaceratingSlash_Timer</a> = <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(18000, 23000);</div>
+<div class="line"><span class="lineno">  441</span>                }</div>
+<div class="line"><span class="lineno">  442</span>                <span class="keywordflow">else</span> <a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#a86de4dc4f0f8a94175ac310a555a2ae8">LaceratingSlash_Timer</a> -= diff;</div>
+<div class="line"><span class="lineno">  443</span> </div>
+<div class="line"><span class="lineno">  444</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#ac43fa9de9eea4efd0b252d30180e86fd">RendFlesh_Timer</a> &lt;= diff)</div>
+<div class="line"><span class="lineno">  445</span>                {</div>
+<div class="line"><span class="lineno">  446</span>                    <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a361b6f4e71e9c74595bdf3d7e3b29a82">DoCastVictim</a>(<a class="code hl_enumvalue" href="../../d1/d79/boss__nalorakk_8cpp.html#a5bd342133be8c2137b831460acc9298ca85503965ec746006fad3cc651bdb80bf">SPELL_RENDFLESH</a>);</div>
+<div class="line"><span class="lineno">  447</span>                    <a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#ac43fa9de9eea4efd0b252d30180e86fd">RendFlesh_Timer</a> = <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(5000, 10000);</div>
+<div class="line"><span class="lineno">  448</span>                }</div>
+<div class="line"><span class="lineno">  449</span>                <span class="keywordflow">else</span> <a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#ac43fa9de9eea4efd0b252d30180e86fd">RendFlesh_Timer</a> -= diff;</div>
+<div class="line"><span class="lineno">  450</span> </div>
+<div class="line"><span class="lineno">  451</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#a45e4da03dc74bb0a9188bc2688a15125">DeafeningRoar_Timer</a> &lt;= diff)</div>
+<div class="line"><span class="lineno">  452</span>                {</div>
+<div class="line"><span class="lineno">  453</span>                    <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a361b6f4e71e9c74595bdf3d7e3b29a82">DoCastVictim</a>(<a class="code hl_enumvalue" href="../../d1/d79/boss__nalorakk_8cpp.html#a5bd342133be8c2137b831460acc9298cae434017ab740c9d35ff61b8e601d6db6">SPELL_DEAFENINGROAR</a>);</div>
+<div class="line"><span class="lineno">  454</span>                    <a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#a45e4da03dc74bb0a9188bc2688a15125">DeafeningRoar_Timer</a> = <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(15000, 20000);</div>
+<div class="line"><span class="lineno">  455</span>                }</div>
+<div class="line"><span class="lineno">  456</span>                <span class="keywordflow">else</span> <a class="code hl_variable" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#a45e4da03dc74bb0a9188bc2688a15125">DeafeningRoar_Timer</a> -= diff;</div>
+<div class="line"><span class="lineno">  457</span>            }</div>
+<div class="line"><span class="lineno">  458</span> </div>
+<div class="line"><span class="lineno">  459</span>            <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">DoMeleeAttackIfReady</a>();</div>
+<div class="line"><span class="lineno">  460</span>        }</div>
+<div class="ttc" id="aboss__nalorakk_8cpp_html_a5bd342133be8c2137b831460acc9298ca0d75264b5db1847ae49995e1e5df30c5"><div class="ttname"><a href="../../d1/d79/boss__nalorakk_8cpp.html#a5bd342133be8c2137b831460acc9298ca0d75264b5db1847ae49995e1e5df30c5">SPELL_BEARFORM</a></div><div class="ttdeci">@ SPELL_BEARFORM</div><div class="ttdef"><b>Definition:</b> boss_nalorakk.cpp:41</div></div>
+<div class="ttc" id="aboss__nalorakk_8cpp_html_a5bd342133be8c2137b831460acc9298ca41cca4c21173b2616bfca0b0759d7e21"><div class="ttname"><a href="../../d1/d79/boss__nalorakk_8cpp.html#a5bd342133be8c2137b831460acc9298ca41cca4c21173b2616bfca0b0759d7e21">SPELL_MANGLE</a></div><div class="ttdeci">@ SPELL_MANGLE</div><div class="ttdef"><b>Definition:</b> boss_nalorakk.cpp:38</div></div>
+<div class="ttc" id="aboss__nalorakk_8cpp_html_a5bd342133be8c2137b831460acc9298ca62ac7021bb4953c7acf70c8f4cf84387"><div class="ttname"><a href="../../d1/d79/boss__nalorakk_8cpp.html#a5bd342133be8c2137b831460acc9298ca62ac7021bb4953c7acf70c8f4cf84387">SPELL_MANGLEEFFECT</a></div><div class="ttdeci">@ SPELL_MANGLEEFFECT</div><div class="ttdef"><b>Definition:</b> boss_nalorakk.cpp:39</div></div>
+<div class="ttc" id="aboss__nalorakk_8cpp_html_a5bd342133be8c2137b831460acc9298ca76e451e43dff35952804f080bde3831d"><div class="ttname"><a href="../../d1/d79/boss__nalorakk_8cpp.html#a5bd342133be8c2137b831460acc9298ca76e451e43dff35952804f080bde3831d">SPELL_LACERATINGSLASH</a></div><div class="ttdeci">@ SPELL_LACERATINGSLASH</div><div class="ttdef"><b>Definition:</b> boss_nalorakk.cpp:44</div></div>
+<div class="ttc" id="aboss__nalorakk_8cpp_html_a5bd342133be8c2137b831460acc9298ca85503965ec746006fad3cc651bdb80bf"><div class="ttname"><a href="../../d1/d79/boss__nalorakk_8cpp.html#a5bd342133be8c2137b831460acc9298ca85503965ec746006fad3cc651bdb80bf">SPELL_RENDFLESH</a></div><div class="ttdeci">@ SPELL_RENDFLESH</div><div class="ttdef"><b>Definition:</b> boss_nalorakk.cpp:45</div></div>
+<div class="ttc" id="aboss__nalorakk_8cpp_html_a5bd342133be8c2137b831460acc9298caba97b901145d03090541f5a5ae5df813"><div class="ttname"><a href="../../d1/d79/boss__nalorakk_8cpp.html#a5bd342133be8c2137b831460acc9298caba97b901145d03090541f5a5ae5df813">SPELL_BRUTALSWIPE</a></div><div class="ttdeci">@ SPELL_BRUTALSWIPE</div><div class="ttdef"><b>Definition:</b> boss_nalorakk.cpp:37</div></div>
+<div class="ttc" id="aboss__nalorakk_8cpp_html_a5bd342133be8c2137b831460acc9298cad7b3e50b45f9949cd0e4030ca19a6b4f"><div class="ttname"><a href="../../d1/d79/boss__nalorakk_8cpp.html#a5bd342133be8c2137b831460acc9298cad7b3e50b45f9949cd0e4030ca19a6b4f">SPELL_BERSERK</a></div><div class="ttdeci">@ SPELL_BERSERK</div><div class="ttdef"><b>Definition:</b> boss_nalorakk.cpp:34</div></div>
+<div class="ttc" id="aboss__nalorakk_8cpp_html_a5bd342133be8c2137b831460acc9298cae241a6c1a3e011d0f66cedcc8d321074"><div class="ttname"><a href="../../d1/d79/boss__nalorakk_8cpp.html#a5bd342133be8c2137b831460acc9298cae241a6c1a3e011d0f66cedcc8d321074">SPELL_SURGE</a></div><div class="ttdeci">@ SPELL_SURGE</div><div class="ttdef"><b>Definition:</b> boss_nalorakk.cpp:40</div></div>
+<div class="ttc" id="aboss__nalorakk_8cpp_html_a5bd342133be8c2137b831460acc9298cae434017ab740c9d35ff61b8e601d6db6"><div class="ttname"><a href="../../d1/d79/boss__nalorakk_8cpp.html#a5bd342133be8c2137b831460acc9298cae434017ab740c9d35ff61b8e601d6db6">SPELL_DEAFENINGROAR</a></div><div class="ttdeci">@ SPELL_DEAFENINGROAR</div><div class="ttdef"><b>Definition:</b> boss_nalorakk.cpp:46</div></div>
+<div class="ttc" id="aboss__nalorakk_8cpp_html_acb9ca3a790c820be5cc99570142bda22a0be05cf38671dac65609ad3781ddc87d"><div class="ttname"><a href="../../d1/d79/boss__nalorakk_8cpp.html#acb9ca3a790c820be5cc99570142bda22a0be05cf38671dac65609ad3781ddc87d">SAY_SURGE</a></div><div class="ttdeci">@ SAY_SURGE</div><div class="ttdef"><b>Definition:</b> boss_nalorakk.cpp:69</div></div>
+<div class="ttc" id="aboss__nalorakk_8cpp_html_acb9ca3a790c820be5cc99570142bda22ace6cd3a3a9b30b88b5183f33aaa7bb9d"><div class="ttname"><a href="../../d1/d79/boss__nalorakk_8cpp.html#acb9ca3a790c820be5cc99570142bda22ace6cd3a3a9b30b88b5183f33aaa7bb9d">SAY_SHIFTEDTOTROLL</a></div><div class="ttdeci">@ SAY_SHIFTEDTOTROLL</div><div class="ttdef"><b>Definition:</b> boss_nalorakk.cpp:71</div></div>
+<div class="ttc" id="aboss__nalorakk_8cpp_html_acb9ca3a790c820be5cc99570142bda22ada55f761193c5ce51964480004c8462b"><div class="ttname"><a href="../../d1/d79/boss__nalorakk_8cpp.html#acb9ca3a790c820be5cc99570142bda22ada55f761193c5ce51964480004c8462b">SAY_BERSERK</a></div><div class="ttdeci">@ SAY_BERSERK</div><div class="ttdef"><b>Definition:</b> boss_nalorakk.cpp:72</div></div>
+<div class="ttc" id="aboss__nalorakk_8cpp_html_acb9ca3a790c820be5cc99570142bda22ae958c115559290f6e0b08712b03a6177"><div class="ttname"><a href="../../d1/d79/boss__nalorakk_8cpp.html#acb9ca3a790c820be5cc99570142bda22ae958c115559290f6e0b08712b03a6177">SAY_SHIFTEDTOBEAR</a></div><div class="ttdeci">@ SAY_SHIFTEDTOBEAR</div><div class="ttdef"><b>Definition:</b> boss_nalorakk.cpp:70</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_ae03ccfe1e27501ed9ccbfecdbd3c4e39"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">CreatureAI::UpdateVictim</a></div><div class="ttdeci">bool UpdateVictim()</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:268</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a348a472089a9be6210b58aace8fafa9f"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">UnitAI::DoMeleeAttackIfReady</a></div><div class="ttdeci">void DoMeleeAttackIfReady()</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:40</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a361b6f4e71e9c74595bdf3d7e3b29a82"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a361b6f4e71e9c74595bdf3d7e3b29a82">UnitAI::DoCastVictim</a></div><div class="ttdeci">SpellCastResult DoCastVictim(uint32 spellId, bool triggered=false)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:241</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a6daed910a7666394bcbf8abd2f20096e"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a6daed910a7666394bcbf8abd2f20096e">UnitAI::SelectTarget</a></div><div class="ttdeci">Unit * SelectTarget(SelectTargetMethod targetType, uint32 position=0, float dist=0.0f, bool playerOnly=false, int32 aura=0)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:111</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_aeebcad9b6effa45145c50f06af60b23d"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">UnitAI::DoCast</a></div><div class="ttdeci">SpellCastResult DoCast(uint32 spellId)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:178</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_a69c5ac45b65cf0dede6e0ee837361f61"><div class="ttname"><a href="../../da/db7/class_unit.html#a69c5ac45b65cf0dede6e0ee837361f61">Unit::HasAura</a></div><div class="ttdeci">bool HasAura(uint32 spellId, ObjectGuid casterGUID=ObjectGuid::Empty, ObjectGuid itemCasterGUID=ObjectGuid::Empty, uint8 reqEffMask=0) const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:5598</div></div>
+<div class="ttc" id="aclass_unit_html_aac612f06e84142d92dcfc432b5feb4ac"><div class="ttname"><a href="../../da/db7/class_unit.html#aac612f06e84142d92dcfc432b5feb4ac">Unit::RemoveAurasDueToSpell</a></div><div class="ttdeci">void RemoveAurasDueToSpell(uint32 spellId, ObjectGuid casterGUID=ObjectGuid::Empty, uint8 reqEffMask=0, AuraRemoveMode removeMode=AURA_REMOVE_BY_DEFAULT)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:4823</div></div>
+<div class="ttc" id="aclass_unit_html_aae09d03a474ea5517d671e64dc393739"><div class="ttname"><a href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">Unit::GetVictim</a></div><div class="ttdeci">Unit * GetVictim() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1386</div></div>
+<div class="ttc" id="astructboss__nalorakk_1_1boss__nalorakk_a_i_html_a45e4da03dc74bb0a9188bc2688a15125"><div class="ttname"><a href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#a45e4da03dc74bb0a9188bc2688a15125">boss_nalorakk::boss_nalorakkAI::DeafeningRoar_Timer</a></div><div class="ttdeci">uint32 DeafeningRoar_Timer</div><div class="ttdef"><b>Definition:</b> boss_nalorakk.cpp:105</div></div>
+<div class="ttc" id="astructboss__nalorakk_1_1boss__nalorakk_a_i_html_a86de4dc4f0f8a94175ac310a555a2ae8"><div class="ttname"><a href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#a86de4dc4f0f8a94175ac310a555a2ae8">boss_nalorakk::boss_nalorakkAI::LaceratingSlash_Timer</a></div><div class="ttdeci">uint32 LaceratingSlash_Timer</div><div class="ttdef"><b>Definition:</b> boss_nalorakk.cpp:103</div></div>
+<div class="ttc" id="astructboss__nalorakk_1_1boss__nalorakk_a_i_html_ac43fa9de9eea4efd0b252d30180e86fd"><div class="ttname"><a href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html#ac43fa9de9eea4efd0b252d30180e86fd">boss_nalorakk::boss_nalorakkAI::RendFlesh_Timer</a></div><div class="ttdeci">uint32 RendFlesh_Timer</div><div class="ttdef"><b>Definition:</b> boss_nalorakk.cpp:104</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -1039,7 +1453,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/EasternKingdoms/ZulAman/<a class="el" href="../../d1/d79/boss__nalorakk_8cpp.html">boss_nalorakk.cpp</a></li>
+<li><a class="el" href="../../">boss_nalorakk.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -1047,7 +1461,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d3/db0/classboss__nalorakk.html">boss_nalorakk</a></li><li class="navelem"><a class="el" href="../../dc/d7f/structboss__nalorakk_1_1boss__nalorakk_a_i.html">boss_nalorakkAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:41 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:54 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -292,7 +292,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a63bc85e32a1478d03b381c61a33d0dff" name="a63bc85e32a1478d03b381c61a33d0dff"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a63bc85e32a1478d03b381c61a33d0dff">&#9670;&#160;</a></span>HandleDummy()</h2>
 
@@ -316,7 +317,25 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 2569</span>    {</div>
+<div class="line"><span class="lineno"> 2570</span>        <a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* caster = <a class="code hl_function" href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>();</div>
+<div class="line"><span class="lineno"> 2571</span>        <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> r = <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#a6ae07d2bb0593d8339e65c136f63ecc0">irand</a>(0, 119);</div>
+<div class="line"><span class="lineno"> 2572</span>        <span class="keywordflow">if</span> (r &lt; 20)                           <span class="comment">// Transporter Malfunction - 1/6 polymorph</span></div>
+<div class="line"><span class="lineno"> 2573</span>            caster-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(caster, <a class="code hl_enumvalue" href="../../d1/de4/spell__generic_8cpp.html#a2e35569a890d85938ce046a63ada28ebae3dbe038ce1db94abb07c9fba15e3bd9">SPELL_TRANSPORTER_MALFUNCTION_POLYMORPH</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno"> 2574</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (r &lt; 100)                     <span class="comment">// Evil Twin               - 4/6 evil twin</span></div>
+<div class="line"><span class="lineno"> 2575</span>            caster-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(caster, <a class="code hl_enumvalue" href="../../d1/de4/spell__generic_8cpp.html#a2e35569a890d85938ce046a63ada28ebaa783900ea078d2cec7f82b61629a5aa4">SPELL_TRANSPORTER_EVIL_TWIN</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno"> 2576</span>        <span class="keywordflow">else</span>                                    <span class="comment">// Transporter Malfunction - 1/6 miss the target</span></div>
+<div class="line"><span class="lineno"> 2577</span>            caster-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(caster, <a class="code hl_enumvalue" href="../../d1/de4/spell__generic_8cpp.html#a2e35569a890d85938ce046a63ada28ebab9f9fecb559858133b2bf5aa6fe5c586">SPELL_TRANSPORTER_MALFUNCTION_MISS</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno"> 2578</span>    }</div>
+<div class="ttc" id="a_define_8h_html_a0bf9964a3ce962c07ad3d8b5432bbbcd"><div class="ttname"><a href="../../db/d35/_define_8h.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a></div><div class="ttdeci">std::int32_t int32</div><div class="ttdef"><b>Definition:</b> Define.h:104</div></div>
+<div class="ttc" id="a_random_8cpp_html_a6ae07d2bb0593d8339e65c136f63ecc0"><div class="ttname"><a href="../../d9/d1e/_random_8cpp.html#a6ae07d2bb0593d8339e65c136f63ecc0">irand</a></div><div class="ttdeci">int32 irand(int32 min, int32 max)</div><div class="ttdef"><b>Definition:</b> Random.cpp:37</div></div>
+<div class="ttc" id="aclass_spell_script_html_ae630e2d388177707e28cecd5fa5a2b48"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">SpellScript::GetCaster</a></div><div class="ttdeci">Unit * GetCaster()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:401</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+<div class="ttc" id="aspell__generic_8cpp_html_a2e35569a890d85938ce046a63ada28ebaa783900ea078d2cec7f82b61629a5aa4"><div class="ttname"><a href="../../d1/de4/spell__generic_8cpp.html#a2e35569a890d85938ce046a63ada28ebaa783900ea078d2cec7f82b61629a5aa4">SPELL_TRANSPORTER_EVIL_TWIN</a></div><div class="ttdeci">@ SPELL_TRANSPORTER_EVIL_TWIN</div><div class="ttdef"><b>Definition:</b> spell_generic.cpp:2549</div></div>
+<div class="ttc" id="aspell__generic_8cpp_html_a2e35569a890d85938ce046a63ada28ebab9f9fecb559858133b2bf5aa6fe5c586"><div class="ttname"><a href="../../d1/de4/spell__generic_8cpp.html#a2e35569a890d85938ce046a63ada28ebab9f9fecb559858133b2bf5aa6fe5c586">SPELL_TRANSPORTER_MALFUNCTION_MISS</a></div><div class="ttdeci">@ SPELL_TRANSPORTER_MALFUNCTION_MISS</div><div class="ttdef"><b>Definition:</b> spell_generic.cpp:2550</div></div>
+<div class="ttc" id="aspell__generic_8cpp_html_a2e35569a890d85938ce046a63ada28ebae3dbe038ce1db94abb07c9fba15e3bd9"><div class="ttname"><a href="../../d1/de4/spell__generic_8cpp.html#a2e35569a890d85938ce046a63ada28ebae3dbe038ce1db94abb07c9fba15e3bd9">SPELL_TRANSPORTER_MALFUNCTION_POLYMORPH</a></div><div class="ttdeci">@ SPELL_TRANSPORTER_MALFUNCTION_POLYMORPH</div><div class="ttdef"><b>Definition:</b> spell_generic.cpp:2548</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="adae41617f38a71ccec183f419d677cfd" name="adae41617f38a71ccec183f419d677cfd"></a>
@@ -342,7 +361,16 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 2559</span>    {</div>
+<div class="line"><span class="lineno"> 2560</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../d7/d13/class___spell_script.html#a9f7c76ac56838fbe61bf67d534979159">ValidateSpellInfo</a>(</div>
+<div class="line"><span class="lineno"> 2561</span>            {</div>
+<div class="line"><span class="lineno"> 2562</span>                <a class="code hl_enumvalue" href="../../d1/de4/spell__generic_8cpp.html#a2e35569a890d85938ce046a63ada28ebae3dbe038ce1db94abb07c9fba15e3bd9">SPELL_TRANSPORTER_MALFUNCTION_POLYMORPH</a>,</div>
+<div class="line"><span class="lineno"> 2563</span>                <a class="code hl_enumvalue" href="../../d1/de4/spell__generic_8cpp.html#a2e35569a890d85938ce046a63ada28ebaa783900ea078d2cec7f82b61629a5aa4">SPELL_TRANSPORTER_EVIL_TWIN</a>,</div>
+<div class="line"><span class="lineno"> 2564</span>                <a class="code hl_enumvalue" href="../../d1/de4/spell__generic_8cpp.html#a2e35569a890d85938ce046a63ada28ebab9f9fecb559858133b2bf5aa6fe5c586">SPELL_TRANSPORTER_MALFUNCTION_MISS</a></div>
+<div class="line"><span class="lineno"> 2565</span>            });</div>
+<div class="line"><span class="lineno"> 2566</span>    }</div>
+<div class="ttc" id="aclass___spell_script_html_a9f7c76ac56838fbe61bf67d534979159"><div class="ttname"><a href="../../d7/d13/class___spell_script.html#a9f7c76ac56838fbe61bf67d534979159">_SpellScript::ValidateSpellInfo</a></div><div class="ttdeci">static bool ValidateSpellInfo(std::initializer_list&lt; uint32 &gt; spellIds)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:125</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a820e8b506de36a24411ae4a1c5930417" name="a820e8b506de36a24411ae4a1c5930417"></a>
@@ -369,11 +397,19 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 2581</span>    {</div>
+<div class="line"><span class="lineno"> 2582</span>        <a class="code hl_variable" href="../../dc/d62/class_spell_script.html#a6f11356f7a28793e6053bfbc4e2dacf3">OnEffectHitTarget</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a551b0adb8eaf82985a7e55cef0695dcb">SpellEffectFn</a>(<a class="code hl_function" href="../../db/dd1/classspell__gen__gadgetzan__transporter__backfire.html#a63bc85e32a1478d03b381c61a33d0dff">spell_gen_gadgetzan_transporter_backfire::HandleDummy</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97a027bcdf3b42e90e7374802fe61fd776d">SPELL_EFFECT_DUMMY</a>);</div>
+<div class="line"><span class="lineno"> 2583</span>    }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a></div><div class="ttdeci">@ EFFECT_0</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:30</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a292c893150c454dd75628b719db1fe97a027bcdf3b42e90e7374802fe61fd776d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97a027bcdf3b42e90e7374802fe61fd776d">SPELL_EFFECT_DUMMY</a></div><div class="ttdeci">@ SPELL_EFFECT_DUMMY</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:753</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a551b0adb8eaf82985a7e55cef0695dcb"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a551b0adb8eaf82985a7e55cef0695dcb">SpellEffectFn</a></div><div class="ttdeci">#define SpellEffectFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:337</div></div>
+<div class="ttc" id="aclass_spell_script_html_a6f11356f7a28793e6053bfbc4e2dacf3"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a6f11356f7a28793e6053bfbc4e2dacf3">SpellScript::OnEffectHitTarget</a></div><div class="ttdeci">HookList&lt; EffectHandler &gt; OnEffectHitTarget</div><div class="ttdef"><b>Definition:</b> SpellScript.h:336</div></div>
+<div class="ttc" id="aclassspell__gen__gadgetzan__transporter__backfire_html_a63bc85e32a1478d03b381c61a33d0dff"><div class="ttname"><a href="../../db/dd1/classspell__gen__gadgetzan__transporter__backfire.html#a63bc85e32a1478d03b381c61a33d0dff">spell_gen_gadgetzan_transporter_backfire::HandleDummy</a></div><div class="ttdeci">void HandleDummy(SpellEffIndex)</div><div class="ttdef"><b>Definition:</b> spell_generic.cpp:2568</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Spells/<a class="el" href="../../d1/de4/spell__generic_8cpp.html">spell_generic.cpp</a></li>
+<li><a class="el" href="../../">spell_generic.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -381,7 +417,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../db/dd1/classspell__gen__gadgetzan__transporter__backfire.html">spell_gen_gadgetzan_transporter_backfire</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:01 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:18 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

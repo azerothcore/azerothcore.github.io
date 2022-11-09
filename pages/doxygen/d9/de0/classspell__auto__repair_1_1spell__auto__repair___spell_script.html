@@ -294,7 +294,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a2e1effe6dac650f361b0c47acb4d8be7" name="a2e1effe6dac650f361b0c47acb4d8be7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2e1effe6dac650f361b0c47acb4d8be7">&#9670;&#160;</a></span>FilterTargets()</h2>
 
@@ -318,7 +319,18 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1498</span>        {</div>
+<div class="line"><span class="lineno"> 1499</span>            std::list&lt;WorldObject*&gt; tmplist;</div>
+<div class="line"><span class="lineno"> 1500</span>            <span class="keywordflow">for</span> (std::list&lt;WorldObject*&gt;::iterator itr = targets.begin(); itr != targets.end(); ++itr)</div>
+<div class="line"><span class="lineno"> 1501</span>                <span class="keywordflow">if</span> (!(*itr)-&gt;ToUnit()-&gt;HasAura(<a class="code hl_enumvalue" href="../../d2/d1a/classspell__auto__repair.html#aad245ccd970f905f1ec1b7f65c7152a1a58bd7f373c7f6880929dbf4732a559c5">SPELL_AUTO_REPAIR</a>))</div>
+<div class="line"><span class="lineno"> 1502</span>                    tmplist.push_back(*itr);</div>
+<div class="line"><span class="lineno"> 1503</span> </div>
+<div class="line"><span class="lineno"> 1504</span>            targets.clear();</div>
+<div class="line"><span class="lineno"> 1505</span>            <span class="keywordflow">for</span> (std::list&lt;WorldObject*&gt;::iterator itr = tmplist.begin(); itr != tmplist.end(); ++itr)</div>
+<div class="line"><span class="lineno"> 1506</span>                targets.push_back(*itr);</div>
+<div class="line"><span class="lineno"> 1507</span>        }</div>
+<div class="ttc" id="aclassspell__auto__repair_html_aad245ccd970f905f1ec1b7f65c7152a1a58bd7f373c7f6880929dbf4732a559c5"><div class="ttname"><a href="../../d2/d1a/classspell__auto__repair.html#aad245ccd970f905f1ec1b7f65c7152a1a58bd7f373c7f6880929dbf4732a559c5">spell_auto_repair::SPELL_AUTO_REPAIR</a></div><div class="ttdeci">@ SPELL_AUTO_REPAIR</div><div class="ttdef"><b>Definition:</b> boss_flame_leviathan.cpp:1487</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a3bbb39add29eed3267f7b0c49279aacd" name="a3bbb39add29eed3267f7b0c49279aacd"></a>
@@ -344,7 +356,35 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1510</span>        {</div>
+<div class="line"><span class="lineno"> 1511</span>            <a class="code hl_class" href="../../dd/df6/class_vehicle.html">Vehicle</a>* vehicle = <a class="code hl_function" href="../../dc/d62/class_spell_script.html#a8435df1d0677fa5124515002da8e0860">GetHitUnit</a>()-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ae54fce65a1c084c982043777288895ec">GetVehicleKit</a>();</div>
+<div class="line"><span class="lineno"> 1512</span>            <span class="keywordflow">if</span> (!vehicle)</div>
+<div class="line"><span class="lineno"> 1513</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 1514</span> </div>
+<div class="line"><span class="lineno"> 1515</span>            <a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* driver = vehicle-&gt;<a class="code hl_function" href="../../dd/df6/class_vehicle.html#a250a3ae75407ecbf79d3235a9c56679f">GetPassenger</a>(0);</div>
+<div class="line"><span class="lineno"> 1516</span>            <span class="keywordflow">if</span> (!driver)</div>
+<div class="line"><span class="lineno"> 1517</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 1518</span> </div>
+<div class="line"><span class="lineno"> 1519</span>            <span class="comment">//driver-&gt;TextEmote(VEHICLE_EMOTE_REPAIR, driver, true); // No source</span></div>
+<div class="line"><span class="lineno"> 1520</span> </div>
+<div class="line"><span class="lineno"> 1521</span>            <span class="comment">// Actually should/could use basepoints (100) for this spell effect as percentage of health, but oh well.</span></div>
+<div class="line"><span class="lineno"> 1522</span>            vehicle-&gt;<a class="code hl_function" href="../../dd/df6/class_vehicle.html#a1c71112b0bc3488d27ec06d9bb63ea88">GetBase</a>()-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a1d52e887c40e087252647958a47e933c">SetFullHealth</a>();</div>
+<div class="line"><span class="lineno"> 1523</span> </div>
+<div class="line"><span class="lineno"> 1524</span>            <span class="comment">// Achievement</span></div>
+<div class="line"><span class="lineno"> 1525</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d83/class_instance_script.html">InstanceScript</a>* instance = vehicle-&gt;<a class="code hl_function" href="../../dd/df6/class_vehicle.html#a1c71112b0bc3488d27ec06d9bb63ea88">GetBase</a>()-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">GetInstanceScript</a>())</div>
+<div class="line"><span class="lineno"> 1526</span>                instance-&gt;SetData(<a class="code hl_enumvalue" href="../../d9/df7/ulduar_8h.html#a637b611fb0e8ff96b12cacdde24ac9b2a8890960218d5e7c3175e3b4b43aa8539">DATA_UNBROKEN_ACHIEVEMENT</a>, 0);</div>
+<div class="line"><span class="lineno"> 1527</span>        }</div>
+<div class="ttc" id="aclass_instance_script_html"><div class="ttname"><a href="../../d8/d83/class_instance_script.html">InstanceScript</a></div><div class="ttdef"><b>Definition:</b> InstanceScript.h:140</div></div>
+<div class="ttc" id="aclass_spell_script_html_a8435df1d0677fa5124515002da8e0860"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a8435df1d0677fa5124515002da8e0860">SpellScript::GetHitUnit</a></div><div class="ttdeci">Unit * GetHitUnit()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:448</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_a1d52e887c40e087252647958a47e933c"><div class="ttname"><a href="../../da/db7/class_unit.html#a1d52e887c40e087252647958a47e933c">Unit::SetFullHealth</a></div><div class="ttdeci">void SetFullHealth()</div><div class="ttdef"><b>Definition:</b> Unit.h:1453</div></div>
+<div class="ttc" id="aclass_unit_html_ae54fce65a1c084c982043777288895ec"><div class="ttname"><a href="../../da/db7/class_unit.html#ae54fce65a1c084c982043777288895ec">Unit::GetVehicleKit</a></div><div class="ttdeci">Vehicle * GetVehicleKit() const</div><div class="ttdef"><b>Definition:</b> Unit.h:2348</div></div>
+<div class="ttc" id="aclass_vehicle_html"><div class="ttname"><a href="../../dd/df6/class_vehicle.html">Vehicle</a></div><div class="ttdef"><b>Definition:</b> Vehicle.h:30</div></div>
+<div class="ttc" id="aclass_vehicle_html_a1c71112b0bc3488d27ec06d9bb63ea88"><div class="ttname"><a href="../../dd/df6/class_vehicle.html#a1c71112b0bc3488d27ec06d9bb63ea88">Vehicle::GetBase</a></div><div class="ttdeci">Unit * GetBase() const</div><div class="ttdoc">May be called from scripts.</div><div class="ttdef"><b>Definition:</b> Vehicle.h:39</div></div>
+<div class="ttc" id="aclass_vehicle_html_a250a3ae75407ecbf79d3235a9c56679f"><div class="ttname"><a href="../../dd/df6/class_vehicle.html#a250a3ae75407ecbf79d3235a9c56679f">Vehicle::GetPassenger</a></div><div class="ttdeci">Unit * GetPassenger(int8 seatId) const</div><div class="ttdef"><b>Definition:</b> Vehicle.cpp:226</div></div>
+<div class="ttc" id="aclass_world_object_html_a29762f86d0726e4d229df51281b9d710"><div class="ttname"><a href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">WorldObject::GetInstanceScript</a></div><div class="ttdeci">InstanceScript * GetInstanceScript() const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1192</div></div>
+<div class="ttc" id="aulduar_8h_html_a637b611fb0e8ff96b12cacdde24ac9b2a8890960218d5e7c3175e3b4b43aa8539"><div class="ttname"><a href="../../d9/df7/ulduar_8h.html#a637b611fb0e8ff96b12cacdde24ac9b2a8890960218d5e7c3175e3b4b43aa8539">DATA_UNBROKEN_ACHIEVEMENT</a></div><div class="ttdeci">@ DATA_UNBROKEN_ACHIEVEMENT</div><div class="ttdef"><b>Definition:</b> ulduar.h:60</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a0ddab83c9c04812f3c5c8af28b546609" name="a0ddab83c9c04812f3c5c8af28b546609"></a>
@@ -397,11 +437,25 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1530</span>        {</div>
+<div class="line"><span class="lineno"> 1531</span>            <a class="code hl_variable" href="../../dc/d62/class_spell_script.html#af74f730c6dacd310a78036be6b7cc6b7">OnObjectAreaTargetSelect</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a623f49512c3d12eceb55ca05cd53c4f2">SpellObjectAreaTargetSelectFn</a>(<a class="code hl_function" href="../../d9/de0/classspell__auto__repair_1_1spell__auto__repair___spell_script.html#a2e1effe6dac650f361b0c47acb4d8be7">spell_auto_repair_SpellScript::FilterTargets</a>, <a class="code hl_define" href="../../df/d0b/_shared_defines_8h.html#ac97ba74f30438a8b51ce05c9de303cd7">EFFECT_ALL</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a418aed4e4066eb09ab979b5d78dc9152a934668876768a96fe7ef286b00c4ed4d">TARGET_UNIT_DEST_AREA_ENTRY</a>);</div>
+<div class="line"><span class="lineno"> 1532</span>            <a class="code hl_variable" href="../../dc/d62/class_spell_script.html#a6f11356f7a28793e6053bfbc4e2dacf3">OnEffectHitTarget</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a551b0adb8eaf82985a7e55cef0695dcb">SpellEffectFn</a>(<a class="code hl_function" href="../../d9/de0/classspell__auto__repair_1_1spell__auto__repair___spell_script.html#a3bbb39add29eed3267f7b0c49279aacd">spell_auto_repair_SpellScript::HandleScript</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97a078f855df3793531cf8efdef80967cba">SPELL_EFFECT_SCRIPT_EFFECT</a>);</div>
+<div class="line"><span class="lineno"> 1533</span>        }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a></div><div class="ttdeci">@ EFFECT_0</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:30</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a292c893150c454dd75628b719db1fe97a078f855df3793531cf8efdef80967cba"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97a078f855df3793531cf8efdef80967cba">SPELL_EFFECT_SCRIPT_EFFECT</a></div><div class="ttdeci">@ SPELL_EFFECT_SCRIPT_EFFECT</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:827</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a418aed4e4066eb09ab979b5d78dc9152a934668876768a96fe7ef286b00c4ed4d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a418aed4e4066eb09ab979b5d78dc9152a934668876768a96fe7ef286b00c4ed4d">TARGET_UNIT_DEST_AREA_ENTRY</a></div><div class="ttdeci">@ TARGET_UNIT_DEST_AREA_ENTRY</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1389</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_ac97ba74f30438a8b51ce05c9de303cd7"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#ac97ba74f30438a8b51ce05c9de303cd7">EFFECT_ALL</a></div><div class="ttdeci">#define EFFECT_ALL</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:37</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a551b0adb8eaf82985a7e55cef0695dcb"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a551b0adb8eaf82985a7e55cef0695dcb">SpellEffectFn</a></div><div class="ttdeci">#define SpellEffectFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:337</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a623f49512c3d12eceb55ca05cd53c4f2"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a623f49512c3d12eceb55ca05cd53c4f2">SpellObjectAreaTargetSelectFn</a></div><div class="ttdeci">#define SpellObjectAreaTargetSelectFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:354</div></div>
+<div class="ttc" id="aclass_spell_script_html_a6f11356f7a28793e6053bfbc4e2dacf3"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a6f11356f7a28793e6053bfbc4e2dacf3">SpellScript::OnEffectHitTarget</a></div><div class="ttdeci">HookList&lt; EffectHandler &gt; OnEffectHitTarget</div><div class="ttdef"><b>Definition:</b> SpellScript.h:336</div></div>
+<div class="ttc" id="aclass_spell_script_html_af74f730c6dacd310a78036be6b7cc6b7"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#af74f730c6dacd310a78036be6b7cc6b7">SpellScript::OnObjectAreaTargetSelect</a></div><div class="ttdeci">HookList&lt; ObjectAreaTargetSelectHandler &gt; OnObjectAreaTargetSelect</div><div class="ttdef"><b>Definition:</b> SpellScript.h:353</div></div>
+<div class="ttc" id="aclassspell__auto__repair_1_1spell__auto__repair___spell_script_html_a2e1effe6dac650f361b0c47acb4d8be7"><div class="ttname"><a href="../../d9/de0/classspell__auto__repair_1_1spell__auto__repair___spell_script.html#a2e1effe6dac650f361b0c47acb4d8be7">spell_auto_repair::spell_auto_repair_SpellScript::FilterTargets</a></div><div class="ttdeci">void FilterTargets(std::list&lt; WorldObject * &gt; &amp;targets)</div><div class="ttdef"><b>Definition:</b> boss_flame_leviathan.cpp:1497</div></div>
+<div class="ttc" id="aclassspell__auto__repair_1_1spell__auto__repair___spell_script_html_a3bbb39add29eed3267f7b0c49279aacd"><div class="ttname"><a href="../../d9/de0/classspell__auto__repair_1_1spell__auto__repair___spell_script.html#a3bbb39add29eed3267f7b0c49279aacd">spell_auto_repair::spell_auto_repair_SpellScript::HandleScript</a></div><div class="ttdeci">void HandleScript(SpellEffIndex)</div><div class="ttdef"><b>Definition:</b> boss_flame_leviathan.cpp:1509</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/Ulduar/Ulduar/<a class="el" href="../../d1/d88/boss__flame__leviathan_8cpp.html">boss_flame_leviathan.cpp</a></li>
+<li><a class="el" href="../../">boss_flame_leviathan.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -409,7 +463,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d2/d1a/classspell__auto__repair.html">spell_auto_repair</a></li><li class="navelem"><a class="el" href="../../d9/de0/classspell__auto__repair_1_1spell__auto__repair___spell_script.html">spell_auto_repair_SpellScript</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:58 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:16 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

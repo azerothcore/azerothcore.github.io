@@ -294,7 +294,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="ad3497a9c986f65978d4b2553b0c9958f" name="ad3497a9c986f65978d4b2553b0c9958f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad3497a9c986f65978d4b2553b0c9958f">&#9670;&#160;</a></span>HandleScriptEffect()</h2>
 
@@ -318,7 +319,51 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  385</span>    {</div>
+<div class="line"><span class="lineno">  386</span>        <a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* caster = <a class="code hl_function" href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>()-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ab0e2ef1ac1daa91476f749e0ec6ad3c6">ToCreature</a>();</div>
+<div class="line"><span class="lineno">  387</span>        <span class="keywordflow">if</span> (!caster || !caster-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a9534e161f94312c5ee5c81fd75cc16ee">IsSummon</a>())</div>
+<div class="line"><span class="lineno">  388</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  389</span> </div>
+<div class="line"><span class="lineno">  390</span>        <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> lightwellRenew = 0;</div>
+<div class="line"><span class="lineno">  391</span>        <span class="keywordflow">switch</span> (caster-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>())</div>
+<div class="line"><span class="lineno">  392</span>        {</div>
+<div class="line"><span class="lineno">  393</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../de/d21/spell__priest_8cpp.html#a439ae212e5fed4e154fe58fdb86af08fa9bfaa0e89cf08c8ab24187cae961c97c">PRIEST_LIGHTWELL_NPC_1</a>: lightwellRenew = 7001; <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  394</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../de/d21/spell__priest_8cpp.html#a439ae212e5fed4e154fe58fdb86af08fa5d0adab14c7d27efd1fbee48054ba5b8">PRIEST_LIGHTWELL_NPC_2</a>: lightwellRenew = 27873; <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  395</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../de/d21/spell__priest_8cpp.html#a439ae212e5fed4e154fe58fdb86af08fa05cec601ad40b4e8cec88b99c08d319b">PRIEST_LIGHTWELL_NPC_3</a>: lightwellRenew = 27874; <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  396</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../de/d21/spell__priest_8cpp.html#a439ae212e5fed4e154fe58fdb86af08fa98c7454ab11639256776039df0d734ed">PRIEST_LIGHTWELL_NPC_4</a>: lightwellRenew = 28276; <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  397</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../de/d21/spell__priest_8cpp.html#a439ae212e5fed4e154fe58fdb86af08fad6392938a0dad3deb3aa4baf51a0f6a4">PRIEST_LIGHTWELL_NPC_5</a>: lightwellRenew = 48084; <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  398</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../de/d21/spell__priest_8cpp.html#a439ae212e5fed4e154fe58fdb86af08fa8b0fe0e610be0d419811728348fd6ecf">PRIEST_LIGHTWELL_NPC_6</a>: lightwellRenew = 48085; <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  399</span>        }</div>
+<div class="line"><span class="lineno">  400</span> </div>
+<div class="line"><span class="lineno">  401</span>        <span class="comment">// proc a spellcast</span></div>
+<div class="line"><span class="lineno">  402</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d2/dde/class_aura.html">Aura</a>* chargesAura = caster-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a135e4d345c338da83450a60528f71222">GetAura</a>(<a class="code hl_enumvalue" href="../../de/d21/spell__priest_8cpp.html#a8aaecfe4214ff7bd567980dd904b110faa3a53a7bde25a970e5c29b0f7f8984b2">SPELL_PRIEST_LIGHTWELL_CHARGES</a>))</div>
+<div class="line"><span class="lineno">  403</span>        {</div>
+<div class="line"><span class="lineno">  404</span>            caster-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_function" href="../../dc/d62/class_spell_script.html#a8435df1d0677fa5124515002da8e0860">GetHitUnit</a>(), lightwellRenew, caster-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a6649e9ba10948d634bc0ac9c4a5800e5">ToTempSummon</a>()-&gt;<a class="code hl_function" href="../../d2/d6e/class_temp_summon.html#a4f1c054b1e80b1ae0b44e6f38951082e">GetSummonerGUID</a>());</div>
+<div class="line"><span class="lineno">  405</span>            <span class="keywordflow">if</span> (chargesAura-&gt;ModCharges(-1))</div>
+<div class="line"><span class="lineno">  406</span>                caster-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a6649e9ba10948d634bc0ac9c4a5800e5">ToTempSummon</a>()-&gt;<a class="code hl_function" href="../../d2/d6e/class_temp_summon.html#a198ec16a2673b1e481427549b6029d56">UnSummon</a>();</div>
+<div class="line"><span class="lineno">  407</span>        }</div>
+<div class="line"><span class="lineno">  408</span>    }</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="aclass_aura_html"><div class="ttname"><a href="../../d2/dde/class_aura.html">Aura</a></div><div class="ttdef"><b>Definition:</b> SpellAuras.h:87</div></div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_object_html_aa627fe2967ed0e0ed1d8aeeb4365a961"><div class="ttname"><a href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">Object::GetEntry</a></div><div class="ttdeci">uint32 GetEntry() const</div><div class="ttdef"><b>Definition:</b> Object.h:109</div></div>
+<div class="ttc" id="aclass_object_html_ab0e2ef1ac1daa91476f749e0ec6ad3c6"><div class="ttname"><a href="../../d8/d83/class_object.html#ab0e2ef1ac1daa91476f749e0ec6ad3c6">Object::ToCreature</a></div><div class="ttdeci">Creature * ToCreature()</div><div class="ttdef"><b>Definition:</b> Object.h:197</div></div>
+<div class="ttc" id="aclass_spell_script_html_a8435df1d0677fa5124515002da8e0860"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a8435df1d0677fa5124515002da8e0860">SpellScript::GetHitUnit</a></div><div class="ttdeci">Unit * GetHitUnit()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:448</div></div>
+<div class="ttc" id="aclass_spell_script_html_ae630e2d388177707e28cecd5fa5a2b48"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">SpellScript::GetCaster</a></div><div class="ttdeci">Unit * GetCaster()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:401</div></div>
+<div class="ttc" id="aclass_temp_summon_html_a198ec16a2673b1e481427549b6029d56"><div class="ttname"><a href="../../d2/d6e/class_temp_summon.html#a198ec16a2673b1e481427549b6029d56">TempSummon::UnSummon</a></div><div class="ttdeci">virtual void UnSummon(uint32 msTime=0)</div><div class="ttdef"><b>Definition:</b> TemporarySummon.cpp:270</div></div>
+<div class="ttc" id="aclass_temp_summon_html_a4f1c054b1e80b1ae0b44e6f38951082e"><div class="ttname"><a href="../../d2/d6e/class_temp_summon.html#a4f1c054b1e80b1ae0b44e6f38951082e">TempSummon::GetSummonerGUID</a></div><div class="ttdeci">ObjectGuid GetSummonerGUID() const</div><div class="ttdef"><b>Definition:</b> TemporarySummon.h:55</div></div>
+<div class="ttc" id="aclass_unit_html_a135e4d345c338da83450a60528f71222"><div class="ttname"><a href="../../da/db7/class_unit.html#a135e4d345c338da83450a60528f71222">Unit::GetAura</a></div><div class="ttdeci">Aura * GetAura(uint32 spellId, ObjectGuid casterGUID=ObjectGuid::Empty, ObjectGuid itemCasterGUID=ObjectGuid::Empty, uint8 reqEffMask=0) const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:5487</div></div>
+<div class="ttc" id="aclass_unit_html_a6649e9ba10948d634bc0ac9c4a5800e5"><div class="ttname"><a href="../../da/db7/class_unit.html#a6649e9ba10948d634bc0ac9c4a5800e5">Unit::ToTempSummon</a></div><div class="ttdeci">TempSummon * ToTempSummon()</div><div class="ttdef"><b>Definition:</b> Unit.h:2395</div></div>
+<div class="ttc" id="aclass_unit_html_a9534e161f94312c5ee5c81fd75cc16ee"><div class="ttname"><a href="../../da/db7/class_unit.html#a9534e161f94312c5ee5c81fd75cc16ee">Unit::IsSummon</a></div><div class="ttdeci">bool IsSummon() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1410</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+<div class="ttc" id="aspell__priest_8cpp_html_a439ae212e5fed4e154fe58fdb86af08fa05cec601ad40b4e8cec88b99c08d319b"><div class="ttname"><a href="../../de/d21/spell__priest_8cpp.html#a439ae212e5fed4e154fe58fdb86af08fa05cec601ad40b4e8cec88b99c08d319b">PRIEST_LIGHTWELL_NPC_3</a></div><div class="ttdeci">@ PRIEST_LIGHTWELL_NPC_3</div><div class="ttdef"><b>Definition:</b> spell_priest.cpp:70</div></div>
+<div class="ttc" id="aspell__priest_8cpp_html_a439ae212e5fed4e154fe58fdb86af08fa5d0adab14c7d27efd1fbee48054ba5b8"><div class="ttname"><a href="../../de/d21/spell__priest_8cpp.html#a439ae212e5fed4e154fe58fdb86af08fa5d0adab14c7d27efd1fbee48054ba5b8">PRIEST_LIGHTWELL_NPC_2</a></div><div class="ttdeci">@ PRIEST_LIGHTWELL_NPC_2</div><div class="ttdef"><b>Definition:</b> spell_priest.cpp:69</div></div>
+<div class="ttc" id="aspell__priest_8cpp_html_a439ae212e5fed4e154fe58fdb86af08fa8b0fe0e610be0d419811728348fd6ecf"><div class="ttname"><a href="../../de/d21/spell__priest_8cpp.html#a439ae212e5fed4e154fe58fdb86af08fa8b0fe0e610be0d419811728348fd6ecf">PRIEST_LIGHTWELL_NPC_6</a></div><div class="ttdeci">@ PRIEST_LIGHTWELL_NPC_6</div><div class="ttdef"><b>Definition:</b> spell_priest.cpp:73</div></div>
+<div class="ttc" id="aspell__priest_8cpp_html_a439ae212e5fed4e154fe58fdb86af08fa98c7454ab11639256776039df0d734ed"><div class="ttname"><a href="../../de/d21/spell__priest_8cpp.html#a439ae212e5fed4e154fe58fdb86af08fa98c7454ab11639256776039df0d734ed">PRIEST_LIGHTWELL_NPC_4</a></div><div class="ttdeci">@ PRIEST_LIGHTWELL_NPC_4</div><div class="ttdef"><b>Definition:</b> spell_priest.cpp:71</div></div>
+<div class="ttc" id="aspell__priest_8cpp_html_a439ae212e5fed4e154fe58fdb86af08fa9bfaa0e89cf08c8ab24187cae961c97c"><div class="ttname"><a href="../../de/d21/spell__priest_8cpp.html#a439ae212e5fed4e154fe58fdb86af08fa9bfaa0e89cf08c8ab24187cae961c97c">PRIEST_LIGHTWELL_NPC_1</a></div><div class="ttdeci">@ PRIEST_LIGHTWELL_NPC_1</div><div class="ttdef"><b>Definition:</b> spell_priest.cpp:68</div></div>
+<div class="ttc" id="aspell__priest_8cpp_html_a439ae212e5fed4e154fe58fdb86af08fad6392938a0dad3deb3aa4baf51a0f6a4"><div class="ttname"><a href="../../de/d21/spell__priest_8cpp.html#a439ae212e5fed4e154fe58fdb86af08fad6392938a0dad3deb3aa4baf51a0f6a4">PRIEST_LIGHTWELL_NPC_5</a></div><div class="ttdeci">@ PRIEST_LIGHTWELL_NPC_5</div><div class="ttdef"><b>Definition:</b> spell_priest.cpp:72</div></div>
+<div class="ttc" id="aspell__priest_8cpp_html_a8aaecfe4214ff7bd567980dd904b110faa3a53a7bde25a970e5c29b0f7f8984b2"><div class="ttname"><a href="../../de/d21/spell__priest_8cpp.html#a8aaecfe4214ff7bd567980dd904b110faa3a53a7bde25a970e5c29b0f7f8984b2">SPELL_PRIEST_LIGHTWELL_CHARGES</a></div><div class="ttdeci">@ SPELL_PRIEST_LIGHTWELL_CHARGES</div><div class="ttdef"><b>Definition:</b> spell_priest.cpp:41</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a33d46e5ebd418ea0242d958345cb44d2" name="a33d46e5ebd418ea0242d958345cb44d2"></a>
@@ -345,7 +390,12 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d7/d13/class___spell_script.html#ad3b8fb5dd2bc5ca4dd34da5a98a76443">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  380</span>    {</div>
+<div class="line"><span class="lineno">  381</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>()-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">GetTypeId</a>() == <a class="code hl_enumvalue" href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2a93dfa528ffc48db4993fb7ac62696db9">TYPEID_UNIT</a>;</div>
+<div class="line"><span class="lineno">  382</span>    }</div>
+<div class="ttc" id="a_object_guid_8h_html_a183c40b2ba67065929d70b3987da4cc2a93dfa528ffc48db4993fb7ac62696db9"><div class="ttname"><a href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2a93dfa528ffc48db4993fb7ac62696db9">TYPEID_UNIT</a></div><div class="ttdeci">@ TYPEID_UNIT</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:37</div></div>
+<div class="ttc" id="aclass_object_html_a621a345fc34deed6d3a4e1e498a652da"><div class="ttname"><a href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">Object::GetTypeId</a></div><div class="ttdeci">TypeID GetTypeId() const</div><div class="ttdef"><b>Definition:</b> Object.h:121</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ade09cd376d00df8b5e709026e353f409" name="ade09cd376d00df8b5e709026e353f409"></a>
@@ -398,11 +448,19 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  411</span>    {</div>
+<div class="line"><span class="lineno">  412</span>        <a class="code hl_variable" href="../../dc/d62/class_spell_script.html#a6f11356f7a28793e6053bfbc4e2dacf3">OnEffectHitTarget</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a551b0adb8eaf82985a7e55cef0695dcb">SpellEffectFn</a>(<a class="code hl_function" href="../../d1/d14/classspell__pri__lightwell.html#ad3497a9c986f65978d4b2553b0c9958f">spell_pri_lightwell::HandleScriptEffect</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97a078f855df3793531cf8efdef80967cba">SPELL_EFFECT_SCRIPT_EFFECT</a>);</div>
+<div class="line"><span class="lineno">  413</span>    }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a></div><div class="ttdeci">@ EFFECT_0</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:30</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a292c893150c454dd75628b719db1fe97a078f855df3793531cf8efdef80967cba"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97a078f855df3793531cf8efdef80967cba">SPELL_EFFECT_SCRIPT_EFFECT</a></div><div class="ttdeci">@ SPELL_EFFECT_SCRIPT_EFFECT</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:827</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a551b0adb8eaf82985a7e55cef0695dcb"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a551b0adb8eaf82985a7e55cef0695dcb">SpellEffectFn</a></div><div class="ttdeci">#define SpellEffectFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:337</div></div>
+<div class="ttc" id="aclass_spell_script_html_a6f11356f7a28793e6053bfbc4e2dacf3"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a6f11356f7a28793e6053bfbc4e2dacf3">SpellScript::OnEffectHitTarget</a></div><div class="ttdeci">HookList&lt; EffectHandler &gt; OnEffectHitTarget</div><div class="ttdef"><b>Definition:</b> SpellScript.h:336</div></div>
+<div class="ttc" id="aclassspell__pri__lightwell_html_ad3497a9c986f65978d4b2553b0c9958f"><div class="ttname"><a href="../../d1/d14/classspell__pri__lightwell.html#ad3497a9c986f65978d4b2553b0c9958f">spell_pri_lightwell::HandleScriptEffect</a></div><div class="ttdeci">void HandleScriptEffect(SpellEffIndex)</div><div class="ttdef"><b>Definition:</b> spell_priest.cpp:384</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Spells/<a class="el" href="../../de/d21/spell__priest_8cpp.html">spell_priest.cpp</a></li>
+<li><a class="el" href="../../">spell_priest.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -410,7 +468,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d14/classspell__pri__lightwell.html">spell_pri_lightwell</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:06 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:22 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

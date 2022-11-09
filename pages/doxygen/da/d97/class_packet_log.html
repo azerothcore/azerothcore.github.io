@@ -115,7 +115,7 @@ $(document).ready(function(){initNavTree('da/d97/class_packet_log.html','../../'
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d7/dfb/_packet_log_8h_source.html">PacketLog.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">PacketLog.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -147,7 +147,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a03346a709f7586f6445e03b9a3b6af04"><td class="memItemLeft" align="right" valign="top">FILE *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d97/class_packet_log.html#a03346a709f7586f6445e03b9a3b6af04">_file</a></td></tr>
 <tr class="separator:a03346a709f7586f6445e03b9a3b6af04"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a75215d454393ecd3fce0ea07b5d673ee" name="a75215d454393ecd3fce0ea07b5d673ee"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a75215d454393ecd3fce0ea07b5d673ee">&#9670;&#160;</a></span>PacketLog()</h2>
 
@@ -170,7 +171,14 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   61</span>                     : <a class="code hl_variable" href="../../da/d97/class_packet_log.html#a03346a709f7586f6445e03b9a3b6af04">_file</a>(<span class="keyword">nullptr</span>)</div>
+<div class="line"><span class="lineno">   62</span>{</div>
+<div class="line"><span class="lineno">   63</span>    std::call_once(<a class="code hl_variable" href="../../da/d97/class_packet_log.html#a490cafe009f7b2ecb303a76c781f8960">_initializeFlag</a>, &amp;<a class="code hl_function" href="../../da/d97/class_packet_log.html#aea6ccfd41bc147557b7c5066fe18afa6">PacketLog::Initialize</a>, <span class="keyword">this</span>);</div>
+<div class="line"><span class="lineno">   64</span>}</div>
+<div class="ttc" id="aclass_packet_log_html_a03346a709f7586f6445e03b9a3b6af04"><div class="ttname"><a href="../../da/d97/class_packet_log.html#a03346a709f7586f6445e03b9a3b6af04">PacketLog::_file</a></div><div class="ttdeci">FILE * _file</div><div class="ttdef"><b>Definition:</b> PacketLog.h:49</div></div>
+<div class="ttc" id="aclass_packet_log_html_a490cafe009f7b2ecb303a76c781f8960"><div class="ttname"><a href="../../da/d97/class_packet_log.html#a490cafe009f7b2ecb303a76c781f8960">PacketLog::_initializeFlag</a></div><div class="ttdeci">std::once_flag _initializeFlag</div><div class="ttdef"><b>Definition:</b> PacketLog.h:39</div></div>
+<div class="ttc" id="aclass_packet_log_html_aea6ccfd41bc147557b7c5066fe18afa6"><div class="ttname"><a href="../../da/d97/class_packet_log.html#aea6ccfd41bc147557b7c5066fe18afa6">PacketLog::Initialize</a></div><div class="ttdeci">void Initialize()</div><div class="ttdef"><b>Definition:</b> PacketLog.cpp:82</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a595a42f9aaa94d6c46d185955df801e0" name="a595a42f9aaa94d6c46d185955df801e0"></a>
@@ -195,7 +203,15 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   67</span>{</div>
+<div class="line"><span class="lineno">   68</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../da/d97/class_packet_log.html#a03346a709f7586f6445e03b9a3b6af04">_file</a>)</div>
+<div class="line"><span class="lineno">   69</span>    {</div>
+<div class="line"><span class="lineno">   70</span>        fclose(<a class="code hl_variable" href="../../da/d97/class_packet_log.html#a03346a709f7586f6445e03b9a3b6af04">_file</a>);</div>
+<div class="line"><span class="lineno">   71</span>    }</div>
+<div class="line"><span class="lineno">   72</span> </div>
+<div class="line"><span class="lineno">   73</span>    <a class="code hl_variable" href="../../da/d97/class_packet_log.html#a03346a709f7586f6445e03b9a3b6af04">_file</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">   74</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -221,7 +237,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   45</span>{ <span class="keywordflow">return</span> (<a class="code hl_variable" href="../../da/d97/class_packet_log.html#a03346a709f7586f6445e03b9a3b6af04">_file</a> != <span class="keyword">nullptr</span>); }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aea6ccfd41bc147557b7c5066fe18afa6" name="aea6ccfd41bc147557b7c5066fe18afa6"></a>
@@ -238,7 +255,51 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   83</span>{</div>
+<div class="line"><span class="lineno">   84</span>    std::string logsDir = <a class="code hl_define" href="../../d4/d71/_config_8h.html#a7236988e98bdd405bf435a029b70a26f">sConfigMgr</a>-&gt;GetOption&lt;std::string&gt;(<span class="stringliteral">&quot;LogsDir&quot;</span>, <span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><span class="lineno">   85</span> </div>
+<div class="line"><span class="lineno">   86</span>    <span class="keywordflow">if</span> (!logsDir.empty() &amp;&amp; (logsDir.at(logsDir.length() - 1) != <span class="charliteral">&#39;/&#39;</span>) &amp;&amp; (logsDir.at(logsDir.length() - 1) != <span class="charliteral">&#39;\\&#39;</span>))</div>
+<div class="line"><span class="lineno">   87</span>    {</div>
+<div class="line"><span class="lineno">   88</span>        logsDir.push_back(<span class="charliteral">&#39;/&#39;</span>);</div>
+<div class="line"><span class="lineno">   89</span>    }</div>
+<div class="line"><span class="lineno">   90</span> </div>
+<div class="line"><span class="lineno">   91</span>    std::string logname = <a class="code hl_define" href="../../d4/d71/_config_8h.html#a7236988e98bdd405bf435a029b70a26f">sConfigMgr</a>-&gt;GetOption&lt;std::string&gt;(<span class="stringliteral">&quot;PacketLogFile&quot;</span>, <span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><span class="lineno">   92</span>    <span class="keywordflow">if</span> (!logname.empty())</div>
+<div class="line"><span class="lineno">   93</span>    {</div>
+<div class="line"><span class="lineno">   94</span>        <a class="code hl_variable" href="../../da/d97/class_packet_log.html#a03346a709f7586f6445e03b9a3b6af04">_file</a> = fopen((logsDir + logname).c_str(), <span class="stringliteral">&quot;wb&quot;</span>);</div>
+<div class="line"><span class="lineno">   95</span> </div>
+<div class="line"><span class="lineno">   96</span>        <a class="code hl_struct" href="../../d5/dec/struct_log_header.html">LogHeader</a> header;</div>
+<div class="line"><span class="lineno">   97</span>        header.<a class="code hl_variable" href="../../d5/dec/struct_log_header.html#a34b88d6d83daeee7827176993c152de4">Signature</a>[0] = <span class="charliteral">&#39;P&#39;</span>; header.<a class="code hl_variable" href="../../d5/dec/struct_log_header.html#a34b88d6d83daeee7827176993c152de4">Signature</a>[1] = <span class="charliteral">&#39;K&#39;</span>; header.<a class="code hl_variable" href="../../d5/dec/struct_log_header.html#a34b88d6d83daeee7827176993c152de4">Signature</a>[2] = <span class="charliteral">&#39;T&#39;</span>;</div>
+<div class="line"><span class="lineno">   98</span>        header.<a class="code hl_variable" href="../../d5/dec/struct_log_header.html#abf0c90aa56c9f74e4139b4a1ead3115e">FormatVersion</a> = 0x0301;</div>
+<div class="line"><span class="lineno">   99</span>        header.<a class="code hl_variable" href="../../d5/dec/struct_log_header.html#a95d3f116ef30a096970ee4f3dd10e2ed">SnifferId</a> = <span class="charliteral">&#39;T&#39;</span>;</div>
+<div class="line"><span class="lineno">  100</span>        header.<a class="code hl_variable" href="../../d5/dec/struct_log_header.html#aa5ed2806342a36723f1317105ebc13fa">Build</a> = 12340;</div>
+<div class="line"><span class="lineno">  101</span>        header.<a class="code hl_variable" href="../../d5/dec/struct_log_header.html#acdcbe4c10ad6143b756638349c185ae5">Locale</a>[0] = <span class="charliteral">&#39;e&#39;</span>; header.<a class="code hl_variable" href="../../d5/dec/struct_log_header.html#acdcbe4c10ad6143b756638349c185ae5">Locale</a>[1] = <span class="charliteral">&#39;n&#39;</span>; header.<a class="code hl_variable" href="../../d5/dec/struct_log_header.html#acdcbe4c10ad6143b756638349c185ae5">Locale</a>[2] = <span class="charliteral">&#39;U&#39;</span>; header.<a class="code hl_variable" href="../../d5/dec/struct_log_header.html#acdcbe4c10ad6143b756638349c185ae5">Locale</a>[3] = <span class="charliteral">&#39;S&#39;</span>;</div>
+<div class="line"><span class="lineno">  102</span>        std::memset(header.<a class="code hl_variable" href="../../d5/dec/struct_log_header.html#aff4e4f46725d72923bac3e197ae7d2e3">SessionKey</a>, 0, <span class="keyword">sizeof</span>(header.<a class="code hl_variable" href="../../d5/dec/struct_log_header.html#aff4e4f46725d72923bac3e197ae7d2e3">SessionKey</a>));</div>
+<div class="line"><span class="lineno">  103</span>        header.<a class="code hl_variable" href="../../d5/dec/struct_log_header.html#a8923983e21b7a7f1dd3ee4f21b7df592">SniffStartUnixtime</a> = <a class="code hl_function" href="../../d4/d1c/namespace_game_time.html#adbe1785d1327dedf2ac403b7cc8e99c2">GameTime::GetGameTime</a>().count();</div>
+<div class="line"><span class="lineno">  104</span>        header.<a class="code hl_variable" href="../../d5/dec/struct_log_header.html#a1884076ea4fe5af08964471d0058fd4d">SniffStartTicks</a> = <a class="code hl_function" href="../../d5/d29/_timer_8h.html#a4476c8e13ea790c3536f2749105f9cb9">getMSTime</a>();</div>
+<div class="line"><span class="lineno">  105</span>        header.<a class="code hl_variable" href="../../d5/dec/struct_log_header.html#a88c79f6e69197e23ce191bcef187c0fe">OptionalDataSize</a> = 0;</div>
+<div class="line"><span class="lineno">  106</span> </div>
+<div class="line"><span class="lineno">  107</span>        <span class="keywordflow">if</span> (<a class="code hl_function" href="../../da/d97/class_packet_log.html#a322cf3a0d8707becb9dcc64548d4cce5">CanLogPacket</a>())</div>
+<div class="line"><span class="lineno">  108</span>        {</div>
+<div class="line"><span class="lineno">  109</span>            fwrite(&amp;header, <span class="keyword">sizeof</span>(header), 1, <a class="code hl_variable" href="../../da/d97/class_packet_log.html#a03346a709f7586f6445e03b9a3b6af04">_file</a>);</div>
+<div class="line"><span class="lineno">  110</span>        }</div>
+<div class="line"><span class="lineno">  111</span>    }</div>
+<div class="line"><span class="lineno">  112</span>}</div>
+<div class="ttc" id="a_config_8h_html_a7236988e98bdd405bf435a029b70a26f"><div class="ttname"><a href="../../d4/d71/_config_8h.html#a7236988e98bdd405bf435a029b70a26f">sConfigMgr</a></div><div class="ttdeci">#define sConfigMgr</div><div class="ttdef"><b>Definition:</b> Config.h:92</div></div>
+<div class="ttc" id="a_timer_8h_html_a4476c8e13ea790c3536f2749105f9cb9"><div class="ttname"><a href="../../d5/d29/_timer_8h.html#a4476c8e13ea790c3536f2749105f9cb9">getMSTime</a></div><div class="ttdeci">uint32 getMSTime()</div><div class="ttdef"><b>Definition:</b> Timer.h:103</div></div>
+<div class="ttc" id="aclass_packet_log_html_a322cf3a0d8707becb9dcc64548d4cce5"><div class="ttname"><a href="../../da/d97/class_packet_log.html#a322cf3a0d8707becb9dcc64548d4cce5">PacketLog::CanLogPacket</a></div><div class="ttdeci">bool CanLogPacket() const</div><div class="ttdef"><b>Definition:</b> PacketLog.h:45</div></div>
+<div class="ttc" id="anamespace_game_time_html_adbe1785d1327dedf2ac403b7cc8e99c2"><div class="ttname"><a href="../../d4/d1c/namespace_game_time.html#adbe1785d1327dedf2ac403b7cc8e99c2">GameTime::GetGameTime</a></div><div class="ttdeci">Seconds GetGameTime()</div><div class="ttdef"><b>Definition:</b> GameTime.cpp:38</div></div>
+<div class="ttc" id="astruct_log_header_html"><div class="ttname"><a href="../../d5/dec/struct_log_header.html">LogHeader</a></div><div class="ttdef"><b>Definition:</b> PacketLog.cpp:29</div></div>
+<div class="ttc" id="astruct_log_header_html_a1884076ea4fe5af08964471d0058fd4d"><div class="ttname"><a href="../../d5/dec/struct_log_header.html#a1884076ea4fe5af08964471d0058fd4d">LogHeader::SniffStartTicks</a></div><div class="ttdeci">uint32 SniffStartTicks</div><div class="ttdef"><b>Definition:</b> PacketLog.cpp:37</div></div>
+<div class="ttc" id="astruct_log_header_html_a34b88d6d83daeee7827176993c152de4"><div class="ttname"><a href="../../d5/dec/struct_log_header.html#a34b88d6d83daeee7827176993c152de4">LogHeader::Signature</a></div><div class="ttdeci">char Signature[3]</div><div class="ttdef"><b>Definition:</b> PacketLog.cpp:30</div></div>
+<div class="ttc" id="astruct_log_header_html_a88c79f6e69197e23ce191bcef187c0fe"><div class="ttname"><a href="../../d5/dec/struct_log_header.html#a88c79f6e69197e23ce191bcef187c0fe">LogHeader::OptionalDataSize</a></div><div class="ttdeci">uint32 OptionalDataSize</div><div class="ttdef"><b>Definition:</b> PacketLog.cpp:38</div></div>
+<div class="ttc" id="astruct_log_header_html_a8923983e21b7a7f1dd3ee4f21b7df592"><div class="ttname"><a href="../../d5/dec/struct_log_header.html#a8923983e21b7a7f1dd3ee4f21b7df592">LogHeader::SniffStartUnixtime</a></div><div class="ttdeci">uint32 SniffStartUnixtime</div><div class="ttdef"><b>Definition:</b> PacketLog.cpp:36</div></div>
+<div class="ttc" id="astruct_log_header_html_a95d3f116ef30a096970ee4f3dd10e2ed"><div class="ttname"><a href="../../d5/dec/struct_log_header.html#a95d3f116ef30a096970ee4f3dd10e2ed">LogHeader::SnifferId</a></div><div class="ttdeci">uint8 SnifferId</div><div class="ttdef"><b>Definition:</b> PacketLog.cpp:32</div></div>
+<div class="ttc" id="astruct_log_header_html_aa5ed2806342a36723f1317105ebc13fa"><div class="ttname"><a href="../../d5/dec/struct_log_header.html#aa5ed2806342a36723f1317105ebc13fa">LogHeader::Build</a></div><div class="ttdeci">uint32 Build</div><div class="ttdef"><b>Definition:</b> PacketLog.cpp:33</div></div>
+<div class="ttc" id="astruct_log_header_html_abf0c90aa56c9f74e4139b4a1ead3115e"><div class="ttname"><a href="../../d5/dec/struct_log_header.html#abf0c90aa56c9f74e4139b4a1ead3115e">LogHeader::FormatVersion</a></div><div class="ttdeci">uint16 FormatVersion</div><div class="ttdef"><b>Definition:</b> PacketLog.cpp:31</div></div>
+<div class="ttc" id="astruct_log_header_html_acdcbe4c10ad6143b756638349c185ae5"><div class="ttname"><a href="../../d5/dec/struct_log_header.html#acdcbe4c10ad6143b756638349c185ae5">LogHeader::Locale</a></div><div class="ttdeci">char Locale[4]</div><div class="ttdef"><b>Definition:</b> PacketLog.cpp:34</div></div>
+<div class="ttc" id="astruct_log_header_html_aff4e4f46725d72923bac3e197ae7d2e3"><div class="ttname"><a href="../../d5/dec/struct_log_header.html#aff4e4f46725d72923bac3e197ae7d2e3">LogHeader::SessionKey</a></div><div class="ttdeci">uint8 SessionKey[40]</div><div class="ttdef"><b>Definition:</b> PacketLog.cpp:35</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a484418a51ca0bf150d17b23d97979bf4" name="a484418a51ca0bf150d17b23d97979bf4"></a>
@@ -263,7 +324,13 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   77</span>{</div>
+<div class="line"><span class="lineno">   78</span>    <span class="keyword">static</span> <a class="code hl_class" href="../../da/d97/class_packet_log.html">PacketLog</a> <a class="code hl_function" href="../../da/d97/class_packet_log.html#a484418a51ca0bf150d17b23d97979bf4">instance</a>;</div>
+<div class="line"><span class="lineno">   79</span>    <span class="keywordflow">return</span> &amp;<a class="code hl_function" href="../../da/d97/class_packet_log.html#a484418a51ca0bf150d17b23d97979bf4">instance</a>;</div>
+<div class="line"><span class="lineno">   80</span>}</div>
+<div class="ttc" id="aclass_packet_log_html"><div class="ttname"><a href="../../da/d97/class_packet_log.html">PacketLog</a></div><div class="ttdef"><b>Definition:</b> PacketLog.h:34</div></div>
+<div class="ttc" id="aclass_packet_log_html_a484418a51ca0bf150d17b23d97979bf4"><div class="ttname"><a href="../../da/d97/class_packet_log.html#a484418a51ca0bf150d17b23d97979bf4">PacketLog::instance</a></div><div class="ttdeci">static PacketLog * instance()</div><div class="ttdef"><b>Definition:</b> PacketLog.cpp:76</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac0323a6ac3856412b765d0b31dbbb37e" name="ac0323a6ac3856412b765d0b31dbbb37e"></a>
@@ -303,7 +370,54 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  115</span>{</div>
+<div class="line"><span class="lineno">  116</span>    std::lock_guard&lt;std::mutex&gt; lock(<a class="code hl_variable" href="../../da/d97/class_packet_log.html#aeffb6309ef859cbb346b15dc1fca5cbe">_logPacketLock</a>);</div>
+<div class="line"><span class="lineno">  117</span> </div>
+<div class="line"><span class="lineno">  118</span>    <a class="code hl_struct" href="../../d1/dec/struct_packet_header.html">PacketHeader</a> header;</div>
+<div class="line"><span class="lineno">  119</span>    header.<a class="code hl_variable" href="../../d1/dec/struct_packet_header.html#a03a38a8ceed9eb1ea5585fcfb1ab29b8">Direction</a> = direction == <a class="code hl_enumvalue" href="../../d7/dfb/_packet_log_8h.html#a224b9163917ac32fc95a60d8c1eec3aaae4561e948350e841223c3dc44738f476">CLIENT_TO_SERVER</a> ? 0x47534d43 : 0x47534d53;</div>
+<div class="line"><span class="lineno">  120</span>    header.<a class="code hl_variable" href="../../d1/dec/struct_packet_header.html#abe8700ec99d55a66b22f8fbb28c833fa">ConnectionId</a> = 0;</div>
+<div class="line"><span class="lineno">  121</span>    header.<a class="code hl_variable" href="../../d1/dec/struct_packet_header.html#a8fa635d0c8f77a0e39fd66501490f6ea">ArrivalTicks</a> = <a class="code hl_function" href="../../d5/d29/_timer_8h.html#a4476c8e13ea790c3536f2749105f9cb9">getMSTime</a>();</div>
+<div class="line"><span class="lineno">  122</span> </div>
+<div class="line"><span class="lineno">  123</span>    header.<a class="code hl_variable" href="../../d1/dec/struct_packet_header.html#a03b79fe07bd5f0a1c254f2fb92a3ecba">OptionalDataSize</a> = <span class="keyword">sizeof</span>(header.<a class="code hl_variable" href="../../d1/dec/struct_packet_header.html#aa5219ee4193cccf913dabf6db5d6f57a">OptionalData</a>);</div>
+<div class="line"><span class="lineno">  124</span>    memset(header.<a class="code hl_variable" href="../../d1/dec/struct_packet_header.html#aa5219ee4193cccf913dabf6db5d6f57a">OptionalData</a>.<a class="code hl_variable" href="../../de/d93/struct_packet_header_1_1_optional_data.html#aa10551a3c7371bafa9b27919e37b16ff">SocketIPBytes</a>, 0, <span class="keyword">sizeof</span>(header.<a class="code hl_variable" href="../../d1/dec/struct_packet_header.html#aa5219ee4193cccf913dabf6db5d6f57a">OptionalData</a>.<a class="code hl_variable" href="../../de/d93/struct_packet_header_1_1_optional_data.html#aa10551a3c7371bafa9b27919e37b16ff">SocketIPBytes</a>));</div>
+<div class="line"><span class="lineno">  125</span> </div>
+<div class="line"><span class="lineno">  126</span>    <span class="keywordflow">if</span> (addr.is_v4())</div>
+<div class="line"><span class="lineno">  127</span>    {</div>
+<div class="line"><span class="lineno">  128</span>        <span class="keyword">auto</span> bytes = addr.to_v4().to_bytes();</div>
+<div class="line"><span class="lineno">  129</span>        memcpy(header.<a class="code hl_variable" href="../../d1/dec/struct_packet_header.html#aa5219ee4193cccf913dabf6db5d6f57a">OptionalData</a>.<a class="code hl_variable" href="../../de/d93/struct_packet_header_1_1_optional_data.html#aa10551a3c7371bafa9b27919e37b16ff">SocketIPBytes</a>, bytes.data(), bytes.size());</div>
+<div class="line"><span class="lineno">  130</span>    }</div>
+<div class="line"><span class="lineno">  131</span>    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (addr.is_v6())</div>
+<div class="line"><span class="lineno">  132</span>    {</div>
+<div class="line"><span class="lineno">  133</span>        <span class="keyword">auto</span> bytes = addr.to_v6().to_bytes();</div>
+<div class="line"><span class="lineno">  134</span>        memcpy(header.<a class="code hl_variable" href="../../d1/dec/struct_packet_header.html#aa5219ee4193cccf913dabf6db5d6f57a">OptionalData</a>.<a class="code hl_variable" href="../../de/d93/struct_packet_header_1_1_optional_data.html#aa10551a3c7371bafa9b27919e37b16ff">SocketIPBytes</a>, bytes.data(), bytes.size());</div>
+<div class="line"><span class="lineno">  135</span>    }</div>
+<div class="line"><span class="lineno">  136</span> </div>
+<div class="line"><span class="lineno">  137</span>    header.<a class="code hl_variable" href="../../d1/dec/struct_packet_header.html#aa5219ee4193cccf913dabf6db5d6f57a">OptionalData</a>.<a class="code hl_variable" href="../../de/d93/struct_packet_header_1_1_optional_data.html#a6e6fb49cad093530f6ba650ca2ff57af">SocketPort</a> = port;</div>
+<div class="line"><span class="lineno">  138</span>    header.<a class="code hl_variable" href="../../d1/dec/struct_packet_header.html#ab889533c6ebe4a8b3dbf0a2a5fef06dc">Length</a> = packet.size() + <span class="keyword">sizeof</span>(header.<a class="code hl_variable" href="../../d1/dec/struct_packet_header.html#a7fcc9281cd10ecf79929f9f17c855b65">Opcode</a>);</div>
+<div class="line"><span class="lineno">  139</span>    header.<a class="code hl_variable" href="../../d1/dec/struct_packet_header.html#a7fcc9281cd10ecf79929f9f17c855b65">Opcode</a> = packet.GetOpcode();</div>
+<div class="line"><span class="lineno">  140</span> </div>
+<div class="line"><span class="lineno">  141</span>    fwrite(&amp;header, <span class="keyword">sizeof</span>(header), 1, <a class="code hl_variable" href="../../da/d97/class_packet_log.html#a03346a709f7586f6445e03b9a3b6af04">_file</a>);</div>
+<div class="line"><span class="lineno">  142</span> </div>
+<div class="line"><span class="lineno">  143</span>    <span class="keywordflow">if</span> (!packet.empty())</div>
+<div class="line"><span class="lineno">  144</span>    {</div>
+<div class="line"><span class="lineno">  145</span>        fwrite(packet.contents(), 1, packet.size(), <a class="code hl_variable" href="../../da/d97/class_packet_log.html#a03346a709f7586f6445e03b9a3b6af04">_file</a>);</div>
+<div class="line"><span class="lineno">  146</span>    }</div>
+<div class="line"><span class="lineno">  147</span> </div>
+<div class="line"><span class="lineno">  148</span>    fflush(<a class="code hl_variable" href="../../da/d97/class_packet_log.html#a03346a709f7586f6445e03b9a3b6af04">_file</a>);</div>
+<div class="line"><span class="lineno">  149</span>}</div>
+<div class="ttc" id="a_packet_log_8h_html_a224b9163917ac32fc95a60d8c1eec3aaae4561e948350e841223c3dc44738f476"><div class="ttname"><a href="../../d7/dfb/_packet_log_8h.html#a224b9163917ac32fc95a60d8c1eec3aaae4561e948350e841223c3dc44738f476">CLIENT_TO_SERVER</a></div><div class="ttdeci">@ CLIENT_TO_SERVER</div><div class="ttdef"><b>Definition:</b> PacketLog.h:27</div></div>
+<div class="ttc" id="aclass_packet_log_html_aeffb6309ef859cbb346b15dc1fca5cbe"><div class="ttname"><a href="../../da/d97/class_packet_log.html#aeffb6309ef859cbb346b15dc1fca5cbe">PacketLog::_logPacketLock</a></div><div class="ttdeci">std::mutex _logPacketLock</div><div class="ttdef"><b>Definition:</b> PacketLog.h:38</div></div>
+<div class="ttc" id="astruct_packet_header_1_1_optional_data_html_a6e6fb49cad093530f6ba650ca2ff57af"><div class="ttname"><a href="../../de/d93/struct_packet_header_1_1_optional_data.html#a6e6fb49cad093530f6ba650ca2ff57af">PacketHeader::OptionalData::SocketPort</a></div><div class="ttdeci">uint32 SocketPort</div><div class="ttdef"><b>Definition:</b> PacketLog.cpp:47</div></div>
+<div class="ttc" id="astruct_packet_header_1_1_optional_data_html_aa10551a3c7371bafa9b27919e37b16ff"><div class="ttname"><a href="../../de/d93/struct_packet_header_1_1_optional_data.html#aa10551a3c7371bafa9b27919e37b16ff">PacketHeader::OptionalData::SocketIPBytes</a></div><div class="ttdeci">uint8 SocketIPBytes[16]</div><div class="ttdef"><b>Definition:</b> PacketLog.cpp:46</div></div>
+<div class="ttc" id="astruct_packet_header_html"><div class="ttname"><a href="../../d1/dec/struct_packet_header.html">PacketHeader</a></div><div class="ttdef"><b>Definition:</b> PacketLog.cpp:42</div></div>
+<div class="ttc" id="astruct_packet_header_html_a03a38a8ceed9eb1ea5585fcfb1ab29b8"><div class="ttname"><a href="../../d1/dec/struct_packet_header.html#a03a38a8ceed9eb1ea5585fcfb1ab29b8">PacketHeader::Direction</a></div><div class="ttdeci">uint32 Direction</div><div class="ttdef"><b>Definition:</b> PacketLog.cpp:50</div></div>
+<div class="ttc" id="astruct_packet_header_html_a03b79fe07bd5f0a1c254f2fb92a3ecba"><div class="ttname"><a href="../../d1/dec/struct_packet_header.html#a03b79fe07bd5f0a1c254f2fb92a3ecba">PacketHeader::OptionalDataSize</a></div><div class="ttdeci">uint32 OptionalDataSize</div><div class="ttdef"><b>Definition:</b> PacketLog.cpp:53</div></div>
+<div class="ttc" id="astruct_packet_header_html_a7fcc9281cd10ecf79929f9f17c855b65"><div class="ttname"><a href="../../d1/dec/struct_packet_header.html#a7fcc9281cd10ecf79929f9f17c855b65">PacketHeader::Opcode</a></div><div class="ttdeci">uint32 Opcode</div><div class="ttdef"><b>Definition:</b> PacketLog.cpp:56</div></div>
+<div class="ttc" id="astruct_packet_header_html_a8fa635d0c8f77a0e39fd66501490f6ea"><div class="ttname"><a href="../../d1/dec/struct_packet_header.html#a8fa635d0c8f77a0e39fd66501490f6ea">PacketHeader::ArrivalTicks</a></div><div class="ttdeci">uint32 ArrivalTicks</div><div class="ttdef"><b>Definition:</b> PacketLog.cpp:52</div></div>
+<div class="ttc" id="astruct_packet_header_html_aa5219ee4193cccf913dabf6db5d6f57a"><div class="ttname"><a href="../../d1/dec/struct_packet_header.html#aa5219ee4193cccf913dabf6db5d6f57a">PacketHeader::OptionalData</a></div><div class="ttdeci">OptionalData OptionalData</div><div class="ttdef"><b>Definition:</b> PacketLog.cpp:55</div></div>
+<div class="ttc" id="astruct_packet_header_html_ab889533c6ebe4a8b3dbf0a2a5fef06dc"><div class="ttname"><a href="../../d1/dec/struct_packet_header.html#ab889533c6ebe4a8b3dbf0a2a5fef06dc">PacketHeader::Length</a></div><div class="ttdeci">uint32 Length</div><div class="ttdef"><b>Definition:</b> PacketLog.cpp:54</div></div>
+<div class="ttc" id="astruct_packet_header_html_abe8700ec99d55a66b22f8fbb28c833fa"><div class="ttname"><a href="../../d1/dec/struct_packet_header.html#abe8700ec99d55a66b22f8fbb28c833fa">PacketHeader::ConnectionId</a></div><div class="ttdeci">uint32 ConnectionId</div><div class="ttdef"><b>Definition:</b> PacketLog.cpp:51</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -374,8 +488,8 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Server/Protocol/<a class="el" href="../../d7/dfb/_packet_log_8h_source.html">PacketLog.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/Server/Protocol/<a class="el" href="../../d1/d3b/_packet_log_8cpp.html">PacketLog.cpp</a></li>
+<li><a class="el" href="../../">PacketLog.h</a></li>
+<li><a class="el" href="../../">PacketLog.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -383,7 +497,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../da/d97/class_packet_log.html">PacketLog</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:57 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:13 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

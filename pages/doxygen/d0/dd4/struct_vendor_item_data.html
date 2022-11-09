@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('d0/dd4/struct_vendor_item_data.html','
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../dd/de2/_creature_data_8h_source.html">CreatureData.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">CreatureData.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -137,7 +137,8 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:aa16668e54fce8fffe8651644cdef4335"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/de2/_creature_data_8h.html#ade72c22c956598b6544cf254bdf9e975">VendorItemList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dd4/struct_vendor_item_data.html#aa16668e54fce8fffe8651644cdef4335">m_items</a></td></tr>
 <tr class="separator:aa16668e54fce8fffe8651644cdef4335"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a46f6533323fd15632c3f9a8b96ef6f3f" name="a46f6533323fd15632c3f9a8b96ef6f3f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a46f6533323fd15632c3f9a8b96ef6f3f">&#9670;&#160;</a></span>AddItem()</h2>
 
@@ -183,7 +184,12 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  471</span>    {</div>
+<div class="line"><span class="lineno">  472</span>        <a class="code hl_variable" href="../../d0/dd4/struct_vendor_item_data.html#aa16668e54fce8fffe8651644cdef4335">m_items</a>.push_back(<span class="keyword">new</span> <a class="code hl_struct" href="../../d7/db9/struct_vendor_item.html">VendorItem</a>(item, maxcount, ptime, ExtendedCost));</div>
+<div class="line"><span class="lineno">  473</span>    }</div>
+<div class="ttc" id="astruct_vendor_item_data_html_aa16668e54fce8fffe8651644cdef4335"><div class="ttname"><a href="../../d0/dd4/struct_vendor_item_data.html#aa16668e54fce8fffe8651644cdef4335">VendorItemData::m_items</a></div><div class="ttdeci">VendorItemList m_items</div><div class="ttdef"><b>Definition:</b> CreatureData.h:459</div></div>
+<div class="ttc" id="astruct_vendor_item_html"><div class="ttname"><a href="../../d7/db9/struct_vendor_item.html">VendorItem</a></div><div class="ttdef"><b>Definition:</b> CreatureData.h:443</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a70c7400c4bc60923fd538890774445de" name="a70c7400c4bc60923fd538890774445de"></a>
@@ -208,7 +214,12 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  477</span>    {</div>
+<div class="line"><span class="lineno">  478</span>        <span class="keywordflow">for</span> (VendorItemList::const_iterator itr = <a class="code hl_variable" href="../../d0/dd4/struct_vendor_item_data.html#aa16668e54fce8fffe8651644cdef4335">m_items</a>.begin(); itr != <a class="code hl_variable" href="../../d0/dd4/struct_vendor_item_data.html#aa16668e54fce8fffe8651644cdef4335">m_items</a>.end(); ++itr)</div>
+<div class="line"><span class="lineno">  479</span>            <span class="keyword">delete</span> (*itr);</div>
+<div class="line"><span class="lineno">  480</span>        <a class="code hl_variable" href="../../d0/dd4/struct_vendor_item_data.html#aa16668e54fce8fffe8651644cdef4335">m_items</a>.clear();</div>
+<div class="line"><span class="lineno">  481</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ab55fa73ab327294de2c5f6906fc1fbdb" name="ab55fa73ab327294de2c5f6906fc1fbdb"></a>
@@ -233,7 +244,8 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  468</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d0/dd4/struct_vendor_item_data.html#aa16668e54fce8fffe8651644cdef4335">m_items</a>.empty(); }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a61dc4394afdd3a360559ffec1655c343" name="a61dc4394afdd3a360559ffec1655c343"></a>
@@ -261,7 +273,13 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  113</span>{</div>
+<div class="line"><span class="lineno">  114</span>    <span class="keywordflow">for</span> (VendorItemList::const_iterator i = <a class="code hl_variable" href="../../d0/dd4/struct_vendor_item_data.html#aa16668e54fce8fffe8651644cdef4335">m_items</a>.begin(); i != <a class="code hl_variable" href="../../d0/dd4/struct_vendor_item_data.html#aa16668e54fce8fffe8651644cdef4335">m_items</a>.end(); ++i)</div>
+<div class="line"><span class="lineno">  115</span>        <span class="keywordflow">if</span> ((*i)-&gt;item == item_id &amp;&amp; (*i)-&gt;ExtendedCost == extendedCost)</div>
+<div class="line"><span class="lineno">  116</span>            <span class="keywordflow">return</span> *i;</div>
+<div class="line"><span class="lineno">  117</span>    <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  118</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aa764da5b4647c84813e3aa6b46de7593" name="aa764da5b4647c84813e3aa6b46de7593"></a>
@@ -287,7 +305,13 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  462</span>    {</div>
+<div class="line"><span class="lineno">  463</span>        <span class="keywordflow">if</span> (slot &gt;= <a class="code hl_variable" href="../../d0/dd4/struct_vendor_item_data.html#aa16668e54fce8fffe8651644cdef4335">m_items</a>.size())</div>
+<div class="line"><span class="lineno">  464</span>            <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  465</span> </div>
+<div class="line"><span class="lineno">  466</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d0/dd4/struct_vendor_item_data.html#aa16668e54fce8fffe8651644cdef4335">m_items</a>[slot];</div>
+<div class="line"><span class="lineno">  467</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ae80634592ce705c77c5aa53960f89c24" name="ae80634592ce705c77c5aa53960f89c24"></a>
@@ -312,7 +336,8 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  469</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d0/dd4/struct_vendor_item_data.html#aa16668e54fce8fffe8651644cdef4335">m_items</a>.size(); }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a974925f2979910348a0af795893b310b" name="a974925f2979910348a0af795893b310b"></a>
@@ -330,7 +355,21 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   94</span>{</div>
+<div class="line"><span class="lineno">   95</span>    <span class="keywordtype">bool</span> found = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   96</span>    <span class="keywordflow">for</span> (VendorItemList::iterator i = <a class="code hl_variable" href="../../d0/dd4/struct_vendor_item_data.html#aa16668e54fce8fffe8651644cdef4335">m_items</a>.begin(); i != <a class="code hl_variable" href="../../d0/dd4/struct_vendor_item_data.html#aa16668e54fce8fffe8651644cdef4335">m_items</a>.end();)</div>
+<div class="line"><span class="lineno">   97</span>    {</div>
+<div class="line"><span class="lineno">   98</span>        <span class="keywordflow">if</span> ((*i)-&gt;item == item_id)</div>
+<div class="line"><span class="lineno">   99</span>        {</div>
+<div class="line"><span class="lineno">  100</span>            i = <a class="code hl_variable" href="../../d0/dd4/struct_vendor_item_data.html#aa16668e54fce8fffe8651644cdef4335">m_items</a>.erase(i++);</div>
+<div class="line"><span class="lineno">  101</span>            found = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  102</span>        }</div>
+<div class="line"><span class="lineno">  103</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  104</span>            ++i;</div>
+<div class="line"><span class="lineno">  105</span>    }</div>
+<div class="line"><span class="lineno">  106</span>    <span class="keywordflow">return</span> found;</div>
+<div class="line"><span class="lineno">  107</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -349,8 +388,8 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Entities/Creature/<a class="el" href="../../dd/de2/_creature_data_8h_source.html">CreatureData.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/Entities/Creature/<a class="el" href="../../d3/d9d/_creature_8cpp.html">Creature.cpp</a></li>
+<li><a class="el" href="../../">CreatureData.h</a></li>
+<li><a class="el" href="../../">Creature.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -358,7 +397,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d0/dd4/struct_vendor_item_data.html">VendorItemData</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:12 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:30 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

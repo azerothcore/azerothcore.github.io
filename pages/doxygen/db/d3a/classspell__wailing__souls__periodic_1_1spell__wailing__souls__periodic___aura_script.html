@@ -310,7 +310,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a3c3cbd8961e42a133b819500079cee53" name="a3c3cbd8961e42a133b819500079cee53"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3c3cbd8961e42a133b819500079cee53">&#9670;&#160;</a></span>HandlePeriodicTick()</h2>
 
@@ -334,7 +335,51 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  328</span>        {</div>
+<div class="line"><span class="lineno">  329</span>            <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a19e0ed231d33245849ef31acb0f2bca3">PreventDefaultAction</a>();</div>
+<div class="line"><span class="lineno">  330</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* t = <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">GetTarget</a>())</div>
+<div class="line"><span class="lineno">  331</span>            {</div>
+<div class="line"><span class="lineno">  332</span>                <span class="keywordflow">if</span> (aurEff-&gt;GetTickNumber() &lt; 30)</div>
+<div class="line"><span class="lineno">  333</span>                {</div>
+<div class="line"><span class="lineno">  334</span>                    <span class="comment">// spinning, casting, etc.</span></div>
+<div class="line"><span class="lineno">  335</span>                    <span class="keywordtype">float</span> diff = (2 * M_PI) / (4 * 30);</div>
+<div class="line"><span class="lineno">  336</span>                    <span class="keywordtype">float</span> new_o = t-&gt;GetOrientation() + diff * <a class="code hl_variable" href="../../db/d3a/classspell__wailing__souls__periodic_1_1spell__wailing__souls__periodic___aura_script.html#a9b523759a7375bd4096f6c712b4fa4c1">dir</a>;</div>
+<div class="line"><span class="lineno">  337</span>                    <span class="keywordflow">if</span> (new_o &gt;= 2 * M_PI)</div>
+<div class="line"><span class="lineno">  338</span>                        new_o -= 2 * M_PI;</div>
+<div class="line"><span class="lineno">  339</span>                    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (new_o &lt; 0)</div>
+<div class="line"><span class="lineno">  340</span>                        new_o += 2 * M_PI;</div>
+<div class="line"><span class="lineno">  341</span>                    t-&gt;UpdateOrientation(new_o);</div>
+<div class="line"><span class="lineno">  342</span>                    t-&gt;SetFacingTo(new_o);</div>
+<div class="line"><span class="lineno">  343</span>                    t-&gt;CastSpell(t, <a class="code hl_enumvalue" href="../../db/d09/boss__devourer__of__souls_8cpp.html#ad55cdc1f9b28ac7c9d9b316ba4b039a0a075a98fb08e08a5bd1253336bca08aeb">SPELL_WAILING_SOULS_DMG_N</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  344</span>                }</div>
+<div class="line"><span class="lineno">  345</span>                <span class="keywordflow">else</span> <span class="keywordflow">if</span> (aurEff-&gt;GetTickNumber() == 33)</div>
+<div class="line"><span class="lineno">  346</span>                {</div>
+<div class="line"><span class="lineno">  347</span>                    t-&gt;SetControlled(<span class="keyword">false</span>, <a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544a50d4f70d273dc4674d4f56fcab462a14">UNIT_STATE_ROOT</a>);</div>
+<div class="line"><span class="lineno">  348</span>                    t-&gt;DisableRotate(<span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  349</span>                    <span class="keywordflow">if</span> (t-&gt;GetTypeId() == <a class="code hl_enumvalue" href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2a93dfa528ffc48db4993fb7ac62696db9">TYPEID_UNIT</a>)</div>
+<div class="line"><span class="lineno">  350</span>                        t-&gt;ToCreature()-&gt;SetReactState(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37ab0d46448581f9ac821fb076f185661fc">REACT_AGGRESSIVE</a>);</div>
+<div class="line"><span class="lineno">  351</span>                    <span class="keywordflow">if</span> (t-&gt;GetVictim())</div>
+<div class="line"><span class="lineno">  352</span>                    {</div>
+<div class="line"><span class="lineno">  353</span>                        t-&gt;SetGuidValue(<a class="code hl_enumvalue" href="../../dd/d65/_update_fields_8h.html#a0e42dc606678c9df7884e1aad621e881abe2731d09de243fd5b4782d2cfcea8aa">UNIT_FIELD_TARGET</a>, t-&gt;GetVictim()-&gt;GetGUID());</div>
+<div class="line"><span class="lineno">  354</span>                        t-&gt;GetMotionMaster()-&gt;MoveChase(t-&gt;GetVictim());</div>
+<div class="line"><span class="lineno">  355</span>                    }</div>
+<div class="line"><span class="lineno">  356</span>                }</div>
+<div class="line"><span class="lineno">  357</span>                <span class="keywordflow">else</span> <span class="keywordflow">if</span> (aurEff-&gt;GetTickNumber() &gt;= 34)</div>
+<div class="line"><span class="lineno">  358</span>                    <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a1c17121710636e7e8e7e8ac6feed75db">Remove</a>(<a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a9a4f502870485ba32e759067c9adca94a9ca05b22853d12d44ac7e80a9e864a10">AURA_REMOVE_BY_EXPIRE</a>);</div>
+<div class="line"><span class="lineno">  359</span>            }</div>
+<div class="line"><span class="lineno">  360</span>        }</div>
+<div class="ttc" id="a_object_guid_8h_html_a183c40b2ba67065929d70b3987da4cc2a93dfa528ffc48db4993fb7ac62696db9"><div class="ttname"><a href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2a93dfa528ffc48db4993fb7ac62696db9">TYPEID_UNIT</a></div><div class="ttdeci">@ TYPEID_UNIT</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:37</div></div>
+<div class="ttc" id="a_spell_aura_defines_8h_html_a9a4f502870485ba32e759067c9adca94a9ca05b22853d12d44ac7e80a9e864a10"><div class="ttname"><a href="../../d7/d5a/_spell_aura_defines_8h.html#a9a4f502870485ba32e759067c9adca94a9ca05b22853d12d44ac7e80a9e864a10">AURA_REMOVE_BY_EXPIRE</a></div><div class="ttdeci">@ AURA_REMOVE_BY_EXPIRE</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:395</div></div>
+<div class="ttc" id="a_unit_8h_html_a5e9099d162ad74df5a3e3f5c0f056c37ab0d46448581f9ac821fb076f185661fc"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37ab0d46448581f9ac821fb076f185661fc">REACT_AGGRESSIVE</a></div><div class="ttdeci">@ REACT_AGGRESSIVE</div><div class="ttdef"><b>Definition:</b> Unit.h:1025</div></div>
+<div class="ttc" id="a_unit_8h_html_ae51d2ecb71f7a5cb3882982a622c9544a50d4f70d273dc4674d4f56fcab462a14"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544a50d4f70d273dc4674d4f56fcab462a14">UNIT_STATE_ROOT</a></div><div class="ttdeci">@ UNIT_STATE_ROOT</div><div class="ttdef"><b>Definition:</b> Unit.h:335</div></div>
+<div class="ttc" id="a_update_fields_8h_html_a0e42dc606678c9df7884e1aad621e881abe2731d09de243fd5b4782d2cfcea8aa"><div class="ttname"><a href="../../dd/d65/_update_fields_8h.html#a0e42dc606678c9df7884e1aad621e881abe2731d09de243fd5b4782d2cfcea8aa">UNIT_FIELD_TARGET</a></div><div class="ttdeci">@ UNIT_FIELD_TARGET</div><div class="ttdef"><b>Definition:</b> UpdateFields.h:92</div></div>
+<div class="ttc" id="aboss__devourer__of__souls_8cpp_html_ad55cdc1f9b28ac7c9d9b316ba4b039a0a075a98fb08e08a5bd1253336bca08aeb"><div class="ttname"><a href="../../db/d09/boss__devourer__of__souls_8cpp.html#ad55cdc1f9b28ac7c9d9b316ba4b039a0a075a98fb08e08a5bd1253336bca08aeb">SPELL_WAILING_SOULS_DMG_N</a></div><div class="ttdeci">@ SPELL_WAILING_SOULS_DMG_N</div><div class="ttdef"><b>Definition:</b> boss_devourer_of_souls.cpp:55</div></div>
+<div class="ttc" id="aclass_aura_script_html_a19e0ed231d33245849ef31acb0f2bca3"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a19e0ed231d33245849ef31acb0f2bca3">AuraScript::PreventDefaultAction</a></div><div class="ttdeci">void PreventDefaultAction()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:975</div></div>
+<div class="ttc" id="aclass_aura_script_html_a1c17121710636e7e8e7e8ac6feed75db"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a1c17121710636e7e8e7e8ac6feed75db">AuraScript::Remove</a></div><div class="ttdeci">void Remove(uint32 removeMode=0)</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:1030</div></div>
+<div class="ttc" id="aclass_aura_script_html_a9b2ee1254bdbef7f6ee93f6fae6eb912"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">AuraScript::GetTarget</a></div><div class="ttdeci">Unit * GetTarget() const</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:1155</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclassspell__wailing__souls__periodic_1_1spell__wailing__souls__periodic___aura_script_html_a9b523759a7375bd4096f6c712b4fa4c1"><div class="ttname"><a href="../../db/d3a/classspell__wailing__souls__periodic_1_1spell__wailing__souls__periodic___aura_script.html#a9b523759a7375bd4096f6c712b4fa4c1">spell_wailing_souls_periodic::spell_wailing_souls_periodic_AuraScript::dir</a></div><div class="ttdeci">int8 dir</div><div class="ttdef"><b>Definition:</b> boss_devourer_of_souls.cpp:319</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a0ef263fc5f9b7a8949d2fb58fe88bb31" name="a0ef263fc5f9b7a8949d2fb58fe88bb31"></a>
@@ -361,7 +406,12 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d7/d13/class___spell_script.html#ad3b8fb5dd2bc5ca4dd34da5a98a76443">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  322</span>        {</div>
+<div class="line"><span class="lineno">  323</span>            <a class="code hl_variable" href="../../db/d3a/classspell__wailing__souls__periodic_1_1spell__wailing__souls__periodic___aura_script.html#a9b523759a7375bd4096f6c712b4fa4c1">dir</a> = <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(0, 1) ? 1 : -1;</div>
+<div class="line"><span class="lineno">  324</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  325</span>        }</div>
+<div class="ttc" id="a_random_8cpp_html_ab17def34ccbbd868dc87a16bf35acdbd"><div class="ttname"><a href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a></div><div class="ttdeci">uint32 urand(uint32 min, uint32 max)</div><div class="ttdef"><b>Definition:</b> Random.cpp:44</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a6359089e60d0b6d30c9744ed78383839" name="a6359089e60d0b6d30c9744ed78383839"></a>
@@ -414,7 +464,15 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  363</span>        {</div>
+<div class="line"><span class="lineno">  364</span>            <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a491e7fc0a1acd202b60fa1aed79a9377">OnEffectPeriodic</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a63dd33eaa91292bfb53b1d9f2b0eba29">AuraEffectPeriodicFn</a>(<a class="code hl_function" href="../../db/d3a/classspell__wailing__souls__periodic_1_1spell__wailing__souls__periodic___aura_script.html#a3c3cbd8961e42a133b819500079cee53">spell_wailing_souls_periodic_AuraScript::HandlePeriodicTick</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799add498157825d0faca2c013bbcdfbae56">SPELL_AURA_PERIODIC_DUMMY</a>);</div>
+<div class="line"><span class="lineno">  365</span>        }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a></div><div class="ttdeci">@ EFFECT_0</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:30</div></div>
+<div class="ttc" id="a_spell_aura_defines_8h_html_a538cdc259460b365f406fe0b3a981799add498157825d0faca2c013bbcdfbae56"><div class="ttname"><a href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799add498157825d0faca2c013bbcdfbae56">SPELL_AURA_PERIODIC_DUMMY</a></div><div class="ttdeci">@ SPELL_AURA_PERIODIC_DUMMY</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:289</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a63dd33eaa91292bfb53b1d9f2b0eba29"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a63dd33eaa91292bfb53b1d9f2b0eba29">AuraEffectPeriodicFn</a></div><div class="ttdeci">#define AuraEffectPeriodicFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:750</div></div>
+<div class="ttc" id="aclass_aura_script_html_a491e7fc0a1acd202b60fa1aed79a9377"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a491e7fc0a1acd202b60fa1aed79a9377">AuraScript::OnEffectPeriodic</a></div><div class="ttdeci">HookList&lt; EffectPeriodicHandler &gt; OnEffectPeriodic</div><div class="ttdef"><b>Definition:</b> SpellScript.h:749</div></div>
+<div class="ttc" id="aclassspell__wailing__souls__periodic_1_1spell__wailing__souls__periodic___aura_script_html_a3c3cbd8961e42a133b819500079cee53"><div class="ttname"><a href="../../db/d3a/classspell__wailing__souls__periodic_1_1spell__wailing__souls__periodic___aura_script.html#a3c3cbd8961e42a133b819500079cee53">spell_wailing_souls_periodic::spell_wailing_souls_periodic_AuraScript::HandlePeriodicTick</a></div><div class="ttdeci">void HandlePeriodicTick(AuraEffect const *aurEff)</div><div class="ttdef"><b>Definition:</b> boss_devourer_of_souls.cpp:327</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -441,7 +499,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/FrozenHalls/ForgeOfSouls/<a class="el" href="../../db/d09/boss__devourer__of__souls_8cpp.html">boss_devourer_of_souls.cpp</a></li>
+<li><a class="el" href="../../">boss_devourer_of_souls.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -449,7 +507,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../df/dbd/classspell__wailing__souls__periodic.html">spell_wailing_souls_periodic</a></li><li class="navelem"><a class="el" href="../../db/d3a/classspell__wailing__souls__periodic_1_1spell__wailing__souls__periodic___aura_script.html">spell_wailing_souls_periodic_AuraScript</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:10 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:26 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

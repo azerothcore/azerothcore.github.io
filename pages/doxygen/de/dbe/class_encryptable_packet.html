@@ -114,7 +114,7 @@ $(document).ready(function(){initNavTree('de/dbe/class_encryptable_packet.html',
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../db/dd1/_world_socket_8h_source.html">WorldSocket.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">WorldSocket.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for EncryptablePacket:</div>
 <div class="dyncontent">
@@ -347,7 +347,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a242f4610e8cc4876af2296c933fa2213 inherit pro_attribs_class_byte_buffer"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d44/class_byte_buffer.html#a242f4610e8cc4876af2296c933fa2213">_storage</a></td></tr>
 <tr class="separator:a242f4610e8cc4876af2296c933fa2213 inherit pro_attribs_class_byte_buffer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a2c9d552b144b45ba398d9495493b3bea" name="a2c9d552b144b45ba398d9495493b3bea"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2c9d552b144b45ba398d9495493b3bea">&#9670;&#160;</a></span>EncryptablePacket()</h2>
 
@@ -381,7 +382,14 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   36</span>                                                               : <a class="code hl_function" href="../../d6/d1a/class_world_packet.html#a6329945c46586b75f41f4f3b0410a046">WorldPacket</a>(packet), <a class="code hl_variable" href="../../de/dbe/class_encryptable_packet.html#a850a670a65433a381d1a3a305c70fb83">_encrypt</a>(encrypt)</div>
+<div class="line"><span class="lineno">   37</span>    {</div>
+<div class="line"><span class="lineno">   38</span>        <a class="code hl_variable" href="../../de/dbe/class_encryptable_packet.html#a3a93402981a1fd31c84280f3852e37a1">SocketQueueLink</a>.store(<span class="keyword">nullptr</span>, std::memory_order_relaxed);</div>
+<div class="line"><span class="lineno">   39</span>    }</div>
+<div class="ttc" id="aclass_encryptable_packet_html_a3a93402981a1fd31c84280f3852e37a1"><div class="ttname"><a href="../../de/dbe/class_encryptable_packet.html#a3a93402981a1fd31c84280f3852e37a1">EncryptablePacket::SocketQueueLink</a></div><div class="ttdeci">std::atomic&lt; EncryptablePacket * &gt; SocketQueueLink</div><div class="ttdef"><b>Definition:</b> WorldSocket.h:43</div></div>
+<div class="ttc" id="aclass_encryptable_packet_html_a850a670a65433a381d1a3a305c70fb83"><div class="ttname"><a href="../../de/dbe/class_encryptable_packet.html#a850a670a65433a381d1a3a305c70fb83">EncryptablePacket::_encrypt</a></div><div class="ttdeci">bool _encrypt</div><div class="ttdef"><b>Definition:</b> WorldSocket.h:46</div></div>
+<div class="ttc" id="aclass_world_packet_html_a6329945c46586b75f41f4f3b0410a046"><div class="ttname"><a href="../../d6/d1a/class_world_packet.html#a6329945c46586b75f41f4f3b0410a046">WorldPacket::WorldPacket</a></div><div class="ttdeci">WorldPacket()</div><div class="ttdef"><b>Definition:</b> WorldPacket.h:30</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -407,7 +415,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   41</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/dbe/class_encryptable_packet.html#a850a670a65433a381d1a3a305c70fb83">_encrypt</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -448,7 +457,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Server/<a class="el" href="../../db/dd1/_world_socket_8h_source.html">WorldSocket.h</a></li>
+<li><a class="el" href="../../">WorldSocket.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -456,7 +465,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../de/dbe/class_encryptable_packet.html">EncryptablePacket</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:45 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:58 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

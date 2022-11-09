@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzeorthCore: D:/azerothcore-wotlk/src/server/game/Handlers/TradeHandler.cpp File Reference</title>
+<title>AzeorthCore: TradeHandler.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -110,20 +110,22 @@ $(document).ready(function(){initNavTree('d0/d20/_trade_handler_8cpp.html','../.
   <div class="headertitle"><div class="title">TradeHandler.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../da/d43/_item_8h_source.html">Item.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dc/d4b/_language_8h_source.html">Language.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../da/df4/_log_8h_source.html">Log.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../db/d59/_object_accessor_8h_source.html">ObjectAccessor.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../da/d10/_opcodes_8h_source.html">Opcodes.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d1/d39/_player_8h_source.html">Player.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d0/d7d/_script_mgr_8h_source.html">ScriptMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d7/dff/_social_mgr_8h_source.html">SocialMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d5/dfa/_spell_8h_source.html">Spell.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d3/d75/_spell_mgr_8h_source.html">SpellMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d8/d86/_world_8h_source.html">World.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../db/d66/_world_packet_8h_source.html">WorldPacket.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../db/dc6/_world_session_8h_source.html">WorldSession.h</a>&quot;</code><br />
-</div><table class="memberdecls">
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Item.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Language.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Log.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ObjectAccessor.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Opcodes.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SocialMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Spell.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">World.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">WorldPacket.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">WorldSession.h</a>&quot;</code><br />
+</div>
+<p><a href="">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a63b255ea813e0ea4f109492ed7f0213c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d20/_trade_handler_8cpp.html#a63b255ea813e0ea4f109492ed7f0213c">setAcceptTradeMode</a> (<a class="el" href="../../d0/d23/class_trade_data.html">TradeData</a> *myTrade, <a class="el" href="../../d0/d23/class_trade_data.html">TradeData</a> *hisTrade, <a class="el" href="../../dc/d32/class_item.html">Item</a> **myItems, <a class="el" href="../../dc/d32/class_item.html">Item</a> **hisItems)</td></tr>
@@ -167,7 +169,20 @@ Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  234</span>{</div>
+<div class="line"><span class="lineno">  235</span>    <span class="comment">// clear &#39;in-trade&#39; flag</span></div>
+<div class="line"><span class="lineno">  236</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> i = 0; i &lt; <a class="code hl_enumvalue" href="../../d5/dee/_trade_data_8h.html#ad8fd978c4198825d89a1f02643d20c62ab52f8b8c3be8445987c622e4dfacaa79">TRADE_SLOT_TRADED_COUNT</a>; ++i)</div>
+<div class="line"><span class="lineno">  237</span>    {</div>
+<div class="line"><span class="lineno">  238</span>        <span class="keywordflow">if</span> (myItems[i])</div>
+<div class="line"><span class="lineno">  239</span>            myItems[i]-&gt;<a class="code hl_function" href="../../dc/d32/class_item.html#afcb47d626c017f93e12d3949fe3ab056">SetInTrade</a>(<span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  240</span>        <span class="keywordflow">if</span> (hisItems[i])</div>
+<div class="line"><span class="lineno">  241</span>            hisItems[i]-&gt;<a class="code hl_function" href="../../dc/d32/class_item.html#afcb47d626c017f93e12d3949fe3ab056">SetInTrade</a>(<span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  242</span>    }</div>
+<div class="line"><span class="lineno">  243</span>}</div>
+<div class="ttc" id="a_define_8h_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:110</div></div>
+<div class="ttc" id="a_trade_data_8h_html_ad8fd978c4198825d89a1f02643d20c62ab52f8b8c3be8445987c622e4dfacaa79"><div class="ttname"><a href="../../d5/dee/_trade_data_8h.html#ad8fd978c4198825d89a1f02643d20c62ab52f8b8c3be8445987c622e4dfacaa79">TRADE_SLOT_TRADED_COUNT</a></div><div class="ttdeci">@ TRADE_SLOT_TRADED_COUNT</div><div class="ttdef"><b>Definition:</b> TradeData.h:30</div></div>
+<div class="ttc" id="aclass_item_html_afcb47d626c017f93e12d3949fe3ab056"><div class="ttname"><a href="../../dc/d32/class_item.html#afcb47d626c017f93e12d3949fe3ab056">Item::SetInTrade</a></div><div class="ttdeci">void SetInTrade(bool b=true)</div><div class="ttdef"><b>Definition:</b> Item.h:253</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a7b5fc6374a945ebbe9b397c1e115e952" name="a7b5fc6374a945ebbe9b397c1e115e952"></a>
@@ -203,7 +218,12 @@ Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  228</span>{</div>
+<div class="line"><span class="lineno">  229</span>    myTrade-&gt;<a class="code hl_function" href="../../d0/d23/class_trade_data.html#a4851016708b0e8336ec33c64ab41aa8a">SetInAcceptProcess</a>(<span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  230</span>    hisTrade-&gt;<a class="code hl_function" href="../../d0/d23/class_trade_data.html#a4851016708b0e8336ec33c64ab41aa8a">SetInAcceptProcess</a>(<span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  231</span>}</div>
+<div class="ttc" id="aclass_trade_data_html_a4851016708b0e8336ec33c64ab41aa8a"><div class="ttname"><a href="../../d0/d23/class_trade_data.html#a4851016708b0e8336ec33c64ab41aa8a">TradeData::SetInAcceptProcess</a></div><div class="ttdeci">void SetInAcceptProcess(bool state)</div><div class="ttdef"><b>Definition:</b> TradeData.h:62</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a63b255ea813e0ea4f109492ed7f0213c" name="a63b255ea813e0ea4f109492ed7f0213c"></a>
@@ -251,7 +271,34 @@ Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  203</span>{</div>
+<div class="line"><span class="lineno">  204</span>    myTrade-&gt;<a class="code hl_function" href="../../d0/d23/class_trade_data.html#a4851016708b0e8336ec33c64ab41aa8a">SetInAcceptProcess</a>(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  205</span>    hisTrade-&gt;<a class="code hl_function" href="../../d0/d23/class_trade_data.html#a4851016708b0e8336ec33c64ab41aa8a">SetInAcceptProcess</a>(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  206</span> </div>
+<div class="line"><span class="lineno">  207</span>    <span class="comment">// store items in local list and set &#39;in-trade&#39; flag</span></div>
+<div class="line"><span class="lineno">  208</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> i = 0; i &lt; <a class="code hl_enumvalue" href="../../d5/dee/_trade_data_8h.html#ad8fd978c4198825d89a1f02643d20c62ab52f8b8c3be8445987c622e4dfacaa79">TRADE_SLOT_TRADED_COUNT</a>; ++i)</div>
+<div class="line"><span class="lineno">  209</span>    {</div>
+<div class="line"><span class="lineno">  210</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../dc/d32/class_item.html">Item</a>* item = myTrade-&gt;<a class="code hl_function" href="../../d0/d23/class_trade_data.html#a6c769042535c69e89bdc19234dd680e4">GetItem</a>(<a class="code hl_enumeration" href="../../d5/dee/_trade_data_8h.html#ad8fd978c4198825d89a1f02643d20c62">TradeSlots</a>(i)))</div>
+<div class="line"><span class="lineno">  211</span>        {</div>
+<div class="line"><span class="lineno">  212</span>            <a class="code hl_define" href="../../da/df4/_log_8h.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a>(<span class="stringliteral">&quot;network.opcode&quot;</span>, <span class="stringliteral">&quot;player trade item {} bag: {} slot: {}&quot;</span>, item-&gt;GetGUID().ToString(), item-&gt;GetBagSlot(), item-&gt;GetSlot());</div>
+<div class="line"><span class="lineno">  213</span>            <span class="comment">//Can return nullptr</span></div>
+<div class="line"><span class="lineno">  214</span>            myItems[i] = item;</div>
+<div class="line"><span class="lineno">  215</span>            myItems[i]-&gt;<a class="code hl_function" href="../../dc/d32/class_item.html#afcb47d626c017f93e12d3949fe3ab056">SetInTrade</a>();</div>
+<div class="line"><span class="lineno">  216</span>        }</div>
+<div class="line"><span class="lineno">  217</span> </div>
+<div class="line"><span class="lineno">  218</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../dc/d32/class_item.html">Item</a>* item = hisTrade-&gt;<a class="code hl_function" href="../../d0/d23/class_trade_data.html#a6c769042535c69e89bdc19234dd680e4">GetItem</a>(<a class="code hl_enumeration" href="../../d5/dee/_trade_data_8h.html#ad8fd978c4198825d89a1f02643d20c62">TradeSlots</a>(i)))</div>
+<div class="line"><span class="lineno">  219</span>        {</div>
+<div class="line"><span class="lineno">  220</span>            <a class="code hl_define" href="../../da/df4/_log_8h.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a>(<span class="stringliteral">&quot;network.opcode&quot;</span>, <span class="stringliteral">&quot;partner trade item {} bag: {} slot: {}&quot;</span>, item-&gt;GetGUID().ToString(), item-&gt;GetBagSlot(), item-&gt;GetSlot());</div>
+<div class="line"><span class="lineno">  221</span>            hisItems[i] = item;</div>
+<div class="line"><span class="lineno">  222</span>            hisItems[i]-&gt;<a class="code hl_function" href="../../dc/d32/class_item.html#afcb47d626c017f93e12d3949fe3ab056">SetInTrade</a>();</div>
+<div class="line"><span class="lineno">  223</span>        }</div>
+<div class="line"><span class="lineno">  224</span>    }</div>
+<div class="line"><span class="lineno">  225</span>}</div>
+<div class="ttc" id="a_log_8h_html_a47ac782b14a7531c6232777165a1a161"><div class="ttname"><a href="../../da/df4/_log_8h.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a></div><div class="ttdeci">#define LOG_DEBUG(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:171</div></div>
+<div class="ttc" id="a_trade_data_8h_html_ad8fd978c4198825d89a1f02643d20c62"><div class="ttname"><a href="../../d5/dee/_trade_data_8h.html#ad8fd978c4198825d89a1f02643d20c62">TradeSlots</a></div><div class="ttdeci">TradeSlots</div><div class="ttdef"><b>Definition:</b> TradeData.h:28</div></div>
+<div class="ttc" id="aclass_item_html"><div class="ttname"><a href="../../dc/d32/class_item.html">Item</a></div><div class="ttdef"><b>Definition:</b> Item.h:214</div></div>
+<div class="ttc" id="aclass_trade_data_html_a6c769042535c69e89bdc19234dd680e4"><div class="ttname"><a href="../../d0/d23/class_trade_data.html#a6c769042535c69e89bdc19234dd680e4">TradeData::GetItem</a></div><div class="ttdeci">Item * GetItem(TradeSlots slot) const</div><div class="ttdef"><b>Definition:</b> TradeData.cpp:26</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
@@ -260,7 +307,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_c6aa1690377d4e56e32ba0c89772ac1d.html">Handlers</a></li><li class="navelem"><a class="el" href="../../d0/d20/_trade_handler_8cpp.html">TradeHandler.cpp</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:18 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:32 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

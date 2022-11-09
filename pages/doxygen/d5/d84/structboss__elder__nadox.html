@@ -556,7 +556,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a718d8fffde11b1df5a44650096c474cc" name="a718d8fffde11b1df5a44650096c474cc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a718d8fffde11b1df5a44650096c474cc">&#9670;&#160;</a></span>boss_elder_nadox()</h2>
 
@@ -580,7 +581,16 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   74</span>                                         : <a class="code hl_class" href="../../d4/d0e/class_boss_a_i.html">BossAI</a>(creature, <a class="code hl_enumvalue" href="../../da/dfd/ahnkahet_8h.html#aff905f3bb30004af8919ddfe3d29e8ddaaedbd25489af19057ce8227250867ce0">DATA_PRINCE_TALDARAM</a>),</div>
+<div class="line"><span class="lineno">   75</span>        <a class="code hl_variable" href="../../d5/d84/structboss__elder__nadox.html#a5543be0c08bf1d432b36bfdb2d532f0d">guardianSummoned</a>(<span class="keyword">false</span>),</div>
+<div class="line"><span class="lineno">   76</span>        <a class="code hl_variable" href="../../d5/d84/structboss__elder__nadox.html#aac97ef9511e64692a152077b43e83e75">respectYourElders</a>(<span class="keyword">true</span>)</div>
+<div class="line"><span class="lineno">   77</span>    {</div>
+<div class="line"><span class="lineno">   78</span>    }</div>
+<div class="ttc" id="aahnkahet_8h_html_aff905f3bb30004af8919ddfe3d29e8ddaaedbd25489af19057ce8227250867ce0"><div class="ttname"><a href="../../da/dfd/ahnkahet_8h.html#aff905f3bb30004af8919ddfe3d29e8ddaaedbd25489af19057ce8227250867ce0">DATA_PRINCE_TALDARAM</a></div><div class="ttdeci">@ DATA_PRINCE_TALDARAM</div><div class="ttdef"><b>Definition:</b> ahnkahet.h:27</div></div>
+<div class="ttc" id="aclass_boss_a_i_html"><div class="ttname"><a href="../../d4/d0e/class_boss_a_i.html">BossAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:424</div></div>
+<div class="ttc" id="astructboss__elder__nadox_html_a5543be0c08bf1d432b36bfdb2d532f0d"><div class="ttname"><a href="../../d5/d84/structboss__elder__nadox.html#a5543be0c08bf1d432b36bfdb2d532f0d">boss_elder_nadox::guardianSummoned</a></div><div class="ttdeci">bool guardianSummoned</div><div class="ttdef"><b>Definition:</b> boss_elder_nadox.cpp:234</div></div>
+<div class="ttc" id="astructboss__elder__nadox_html_aac97ef9511e64692a152077b43e83e75"><div class="ttname"><a href="../../d5/d84/structboss__elder__nadox.html#aac97ef9511e64692a152077b43e83e75">boss_elder_nadox::respectYourElders</a></div><div class="ttdeci">bool respectYourElders</div><div class="ttdef"><b>Definition:</b> boss_elder_nadox.cpp:235</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -631,7 +641,17 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a0d572a234f887646543620c847bd61cd">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  160</span>    {</div>
+<div class="line"><span class="lineno">  161</span>        <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d5/d84/structboss__elder__nadox.html#a5543be0c08bf1d432b36bfdb2d532f0d">guardianSummoned</a> &amp;&amp; <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ad08665e79b8df4fd5339b05ae1538dd9">HealthBelowPctDamaged</a>(55, damage))</div>
+<div class="line"><span class="lineno">  162</span>        {</div>
+<div class="line"><span class="lineno">  163</span>            <a class="code hl_function" href="../../d5/d84/structboss__elder__nadox.html#ae65044c111e514a3050ea14f1155a7dc">SummonHelpers</a>(<span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  164</span>            <a class="code hl_variable" href="../../d5/d84/structboss__elder__nadox.html#a5543be0c08bf1d432b36bfdb2d532f0d">guardianSummoned</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  165</span>        }</div>
+<div class="line"><span class="lineno">  166</span>    }</div>
+<div class="ttc" id="aclass_unit_html_ad08665e79b8df4fd5339b05ae1538dd9"><div class="ttname"><a href="../../da/db7/class_unit.html#ad08665e79b8df4fd5339b05ae1538dd9">Unit::HealthBelowPctDamaged</a></div><div class="ttdeci">bool HealthBelowPctDamaged(int32 pct, uint32 damage) const</div><div class="ttdef"><b>Definition:</b> Unit.h:1443</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+<div class="ttc" id="astructboss__elder__nadox_html_ae65044c111e514a3050ea14f1155a7dc"><div class="ttname"><a href="../../d5/d84/structboss__elder__nadox.html#ae65044c111e514a3050ea14f1155a7dc">boss_elder_nadox::SummonHelpers</a></div><div class="ttdeci">void SummonHelpers(bool swarm)</div><div class="ttdef"><b>Definition:</b> boss_elder_nadox.cpp:237</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ae474adeadd890e86aa6f7dbeb880ebbf" name="ae474adeadd890e86aa6f7dbeb880ebbf"></a>
@@ -659,7 +679,66 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d4/d0e/class_boss_a_i.html#a2f3d2c15114cff26b92dedd45dff0905">BossAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   93</span>    {</div>
+<div class="line"><span class="lineno">   94</span>        <a class="code hl_function" href="../../d4/d0e/class_boss_a_i.html#adbdded8bea1d5cf779f2aed9bc2a4821">_EnterCombat</a>();</div>
+<div class="line"><span class="lineno">   95</span>        <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d9/d33/boss__elder__nadox_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3a47c752fff069f3e55065795eef2a9bfe">SAY_AGGRO</a>);</div>
+<div class="line"><span class="lineno">   96</span> </div>
+<div class="line"><span class="lineno">   97</span>        <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d9/d33/boss__elder__nadox_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a9c4ab4022f522cfde283f24299aa58ce">EVENT_SWARMER</a>, 10000);</div>
+<div class="line"><span class="lineno">   98</span>        <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d9/d33/boss__elder__nadox_8cpp.html#af60e00b78607064c5be6aa9397ea49c1ae220a6e311550eb48362a342bb57b05b">EVENT_CHECK_HOME</a>, 2000);</div>
+<div class="line"><span class="lineno">   99</span>        <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d9/d33/boss__elder__nadox_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a0a4b8ce68896891bba96c3f966085581">EVENT_PLAGUE</a>, <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(5000, 8000));</div>
+<div class="line"><span class="lineno">  100</span> </div>
+<div class="line"><span class="lineno">  101</span>        <span class="keywordflow">if</span> (<a class="code hl_function" href="../../de/d83/struct_scripted_a_i.html#a14abf83c60abf99df6186e0247ce20bd">IsHeroic</a>())</div>
+<div class="line"><span class="lineno">  102</span>        {</div>
+<div class="line"><span class="lineno">  103</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d9/d33/boss__elder__nadox_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a8abdafa350f5cf94d31f1e0776ed0630">EVENT_BROOD_RAGE</a>, 5000);</div>
+<div class="line"><span class="lineno">  104</span>        }</div>
+<div class="line"><span class="lineno">  105</span> </div>
+<div class="line"><span class="lineno">  106</span>        <span class="comment">// Cache eggs</span></div>
+<div class="line"><span class="lineno">  107</span>        std::list&lt;Creature*&gt; eggs;</div>
+<div class="line"><span class="lineno">  108</span>        <span class="comment">// Swarm eggs</span></div>
+<div class="line"><span class="lineno">  109</span>        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#aa0a6f93bf47966d32dae1ef3fee55ac7">GetCreatureListWithEntryInGrid</a>(eggs, <a class="code hl_enumvalue" href="../../d9/d33/boss__elder__nadox_8cpp.html#a25a619e6b66096a4f05d048e4a96df08aec93a53b3e5b42e631dc81331b3e9ddc">NPC_AHNKAHAR_SWARM_EGG</a>, 250.0f);</div>
+<div class="line"><span class="lineno">  110</span>        <span class="keywordflow">if</span> (!eggs.empty())</div>
+<div class="line"><span class="lineno">  111</span>        {</div>
+<div class="line"><span class="lineno">  112</span>            <span class="keywordflow">for</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* <span class="keyword">const</span> egg : eggs)</div>
+<div class="line"><span class="lineno">  113</span>            {</div>
+<div class="line"><span class="lineno">  114</span>                <span class="keywordflow">if</span> (egg)</div>
+<div class="line"><span class="lineno">  115</span>                {</div>
+<div class="line"><span class="lineno">  116</span>                    <a class="code hl_variable" href="../../d5/d84/structboss__elder__nadox.html#a28c8b6826ed86e30b573883cab83168f">swarmEggs</a>.push_back(egg-&gt;GetGUID());</div>
+<div class="line"><span class="lineno">  117</span>                }</div>
+<div class="line"><span class="lineno">  118</span>            }</div>
+<div class="line"><span class="lineno">  119</span>        }</div>
+<div class="line"><span class="lineno">  120</span> </div>
+<div class="line"><span class="lineno">  121</span>        eggs.clear();</div>
+<div class="line"><span class="lineno">  122</span> </div>
+<div class="line"><span class="lineno">  123</span>            <span class="comment">// Guardian eggs</span></div>
+<div class="line"><span class="lineno">  124</span>        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#aa0a6f93bf47966d32dae1ef3fee55ac7">GetCreatureListWithEntryInGrid</a>(eggs, <a class="code hl_enumvalue" href="../../d9/d33/boss__elder__nadox_8cpp.html#a25a619e6b66096a4f05d048e4a96df08ac57ed0e8c5a3dc8e2bf2b533521c7a7c">NPC_AHNKAHAR_GUARDIAN_EGG</a>, 250.0f);</div>
+<div class="line"><span class="lineno">  125</span>        <span class="keywordflow">if</span> (!eggs.empty())</div>
+<div class="line"><span class="lineno">  126</span>        {</div>
+<div class="line"><span class="lineno">  127</span>            <span class="keywordflow">for</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* <span class="keyword">const</span> egg : eggs)</div>
+<div class="line"><span class="lineno">  128</span>            {</div>
+<div class="line"><span class="lineno">  129</span>                <span class="keywordflow">if</span> (egg)</div>
+<div class="line"><span class="lineno">  130</span>                {</div>
+<div class="line"><span class="lineno">  131</span>                    <a class="code hl_variable" href="../../d5/d84/structboss__elder__nadox.html#aae96b622766ab4478a8510bd1c7a9f1f">guardianEggs</a>.push_back(egg-&gt;GetGUID());</div>
+<div class="line"><span class="lineno">  132</span>                }</div>
+<div class="line"><span class="lineno">  133</span>            }</div>
+<div class="line"><span class="lineno">  134</span>        }</div>
+<div class="line"><span class="lineno">  135</span>    }</div>
+<div class="ttc" id="a_random_8cpp_html_ab17def34ccbbd868dc87a16bf35acdbd"><div class="ttname"><a href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a></div><div class="ttdeci">uint32 urand(uint32 min, uint32 max)</div><div class="ttdef"><b>Definition:</b> Random.cpp:44</div></div>
+<div class="ttc" id="aboss__elder__nadox_8cpp_html_a25a619e6b66096a4f05d048e4a96df08ac57ed0e8c5a3dc8e2bf2b533521c7a7c"><div class="ttname"><a href="../../d9/d33/boss__elder__nadox_8cpp.html#a25a619e6b66096a4f05d048e4a96df08ac57ed0e8c5a3dc8e2bf2b533521c7a7c">NPC_AHNKAHAR_GUARDIAN_EGG</a></div><div class="ttdeci">@ NPC_AHNKAHAR_GUARDIAN_EGG</div><div class="ttdef"><b>Definition:</b> boss_elder_nadox.cpp:52</div></div>
+<div class="ttc" id="aboss__elder__nadox_8cpp_html_a25a619e6b66096a4f05d048e4a96df08aec93a53b3e5b42e631dc81331b3e9ddc"><div class="ttname"><a href="../../d9/d33/boss__elder__nadox_8cpp.html#a25a619e6b66096a4f05d048e4a96df08aec93a53b3e5b42e631dc81331b3e9ddc">NPC_AHNKAHAR_SWARM_EGG</a></div><div class="ttdeci">@ NPC_AHNKAHAR_SWARM_EGG</div><div class="ttdef"><b>Definition:</b> boss_elder_nadox.cpp:51</div></div>
+<div class="ttc" id="aboss__elder__nadox_8cpp_html_a34a1b224b8db54cacd01d75b910f04e3a47c752fff069f3e55065795eef2a9bfe"><div class="ttname"><a href="../../d9/d33/boss__elder__nadox_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3a47c752fff069f3e55065795eef2a9bfe">SAY_AGGRO</a></div><div class="ttdeci">@ SAY_AGGRO</div><div class="ttdef"><b>Definition:</b> boss_elder_nadox.cpp:65</div></div>
+<div class="ttc" id="aboss__elder__nadox_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a0a4b8ce68896891bba96c3f966085581"><div class="ttname"><a href="../../d9/d33/boss__elder__nadox_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a0a4b8ce68896891bba96c3f966085581">EVENT_PLAGUE</a></div><div class="ttdeci">@ EVENT_PLAGUE</div><div class="ttdef"><b>Definition:</b> boss_elder_nadox.cpp:58</div></div>
+<div class="ttc" id="aboss__elder__nadox_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a8abdafa350f5cf94d31f1e0776ed0630"><div class="ttname"><a href="../../d9/d33/boss__elder__nadox_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a8abdafa350f5cf94d31f1e0776ed0630">EVENT_BROOD_RAGE</a></div><div class="ttdeci">@ EVENT_BROOD_RAGE</div><div class="ttdef"><b>Definition:</b> boss_elder_nadox.cpp:59</div></div>
+<div class="ttc" id="aboss__elder__nadox_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a9c4ab4022f522cfde283f24299aa58ce"><div class="ttname"><a href="../../d9/d33/boss__elder__nadox_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a9c4ab4022f522cfde283f24299aa58ce">EVENT_SWARMER</a></div><div class="ttdeci">@ EVENT_SWARMER</div><div class="ttdef"><b>Definition:</b> boss_elder_nadox.cpp:60</div></div>
+<div class="ttc" id="aboss__elder__nadox_8cpp_html_af60e00b78607064c5be6aa9397ea49c1ae220a6e311550eb48362a342bb57b05b"><div class="ttname"><a href="../../d9/d33/boss__elder__nadox_8cpp.html#af60e00b78607064c5be6aa9397ea49c1ae220a6e311550eb48362a342bb57b05b">EVENT_CHECK_HOME</a></div><div class="ttdeci">@ EVENT_CHECK_HOME</div><div class="ttdef"><b>Definition:</b> boss_elder_nadox.cpp:57</div></div>
+<div class="ttc" id="aboss__fathomlord__karathress_8cpp_html_a747a224b6b3195f9a33c56ddc6c7e268"><div class="ttname"><a href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a></div><div class="ttdeci">Talk</div><div class="ttdef"><b>Definition:</b> boss_fathomlord_karathress.cpp:23</div></div>
+<div class="ttc" id="aboss__sartura_8cpp_html_ad29858f6d8ab73f2970f41cb21a76b84"><div class="ttname"><a href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a></div><div class="ttdeci">events</div><div class="ttdef"><b>Definition:</b> boss_sartura.cpp:43</div></div>
+<div class="ttc" id="aclass_boss_a_i_html_adbdded8bea1d5cf779f2aed9bc2a4821"><div class="ttname"><a href="../../d4/d0e/class_boss_a_i.html#adbdded8bea1d5cf779f2aed9bc2a4821">BossAI::_EnterCombat</a></div><div class="ttdeci">void _EnterCombat()</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.cpp:562</div></div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_world_object_html_aa0a6f93bf47966d32dae1ef3fee55ac7"><div class="ttname"><a href="../../db/df7/class_world_object.html#aa0a6f93bf47966d32dae1ef3fee55ac7">WorldObject::GetCreatureListWithEntryInGrid</a></div><div class="ttdeci">void GetCreatureListWithEntryInGrid(std::list&lt; Creature * &gt; &amp;lList, uint32 uiEntry, float fMaxSearchRange) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:2446</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a14abf83c60abf99df6186e0247ce20bd"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a14abf83c60abf99df6186e0247ce20bd">ScriptedAI::IsHeroic</a></div><div class="ttdeci">bool IsHeroic() const</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:355</div></div>
+<div class="ttc" id="astructboss__elder__nadox_html_a28c8b6826ed86e30b573883cab83168f"><div class="ttname"><a href="../../d5/d84/structboss__elder__nadox.html#a28c8b6826ed86e30b573883cab83168f">boss_elder_nadox::swarmEggs</a></div><div class="ttdeci">GuidList swarmEggs</div><div class="ttdef"><b>Definition:</b> boss_elder_nadox.cpp:231</div></div>
+<div class="ttc" id="astructboss__elder__nadox_html_aae96b622766ab4478a8510bd1c7a9f1f"><div class="ttname"><a href="../../d5/d84/structboss__elder__nadox.html#aae96b622766ab4478a8510bd1c7a9f1f">boss_elder_nadox::guardianEggs</a></div><div class="ttdeci">GuidList guardianEggs</div><div class="ttdef"><b>Definition:</b> boss_elder_nadox.cpp:232</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad2f80bcefb6c43370546d867fd4fc951" name="ad2f80bcefb6c43370546d867fd4fc951"></a>
@@ -687,7 +766,16 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d9c/class_unit_a_i.html#a6905aa5db0b3501623c040689946350e">UnitAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  169</span>    {</div>
+<div class="line"><span class="lineno">  170</span>        <span class="keywordflow">if</span> (type == <a class="code hl_enumvalue" href="../../d9/d33/boss__elder__nadox_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a83424c56b7a7ef9ee7ec35484104fd53">DATA_RESPECT_YOUR_ELDERS</a>)</div>
+<div class="line"><span class="lineno">  171</span>        {</div>
+<div class="line"><span class="lineno">  172</span>            <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d5/d84/structboss__elder__nadox.html#aac97ef9511e64692a152077b43e83e75">respectYourElders</a> ? 1 : 0;</div>
+<div class="line"><span class="lineno">  173</span>        }</div>
+<div class="line"><span class="lineno">  174</span> </div>
+<div class="line"><span class="lineno">  175</span>        <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">  176</span>    }</div>
+<div class="ttc" id="aboss__elder__nadox_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a83424c56b7a7ef9ee7ec35484104fd53"><div class="ttname"><a href="../../d9/d33/boss__elder__nadox_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a83424c56b7a7ef9ee7ec35484104fd53">DATA_RESPECT_YOUR_ELDERS</a></div><div class="ttdeci">@ DATA_RESPECT_YOUR_ELDERS</div><div class="ttdef"><b>Definition:</b> boss_elder_nadox.cpp:28</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a1342dbd6de10197c6ba4bc8e43cceace" name="a1342dbd6de10197c6ba4bc8e43cceace"></a>
@@ -715,7 +803,13 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d4/d0e/class_boss_a_i.html#a3980e3c1e8e9992034c9ec35a8b3e298">BossAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  154</span>    {</div>
+<div class="line"><span class="lineno">  155</span>        <a class="code hl_function" href="../../d4/d0e/class_boss_a_i.html#acb0ee118bdfc7f7aef660e44b5fb18ae">_JustDied</a>();</div>
+<div class="line"><span class="lineno">  156</span>        <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d9/d33/boss__elder__nadox_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3a04c962d9b6aaafde54ff92a54369135e">SAY_DEATH</a>);</div>
+<div class="line"><span class="lineno">  157</span>    }</div>
+<div class="ttc" id="aboss__elder__nadox_8cpp_html_a34a1b224b8db54cacd01d75b910f04e3a04c962d9b6aaafde54ff92a54369135e"><div class="ttname"><a href="../../d9/d33/boss__elder__nadox_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3a04c962d9b6aaafde54ff92a54369135e">SAY_DEATH</a></div><div class="ttdeci">@ SAY_DEATH</div><div class="ttdef"><b>Definition:</b> boss_elder_nadox.cpp:67</div></div>
+<div class="ttc" id="aclass_boss_a_i_html_acb0ee118bdfc7f7aef660e44b5fb18ae"><div class="ttname"><a href="../../d4/d0e/class_boss_a_i.html#acb0ee118bdfc7f7aef660e44b5fb18ae">BossAI::_JustDied</a></div><div class="ttdeci">void _JustDied()</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.cpp:551</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a78310e83e518b64c1373b60a946f9748" name="a78310e83e518b64c1373b60a946f9748"></a>
@@ -743,7 +837,16 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a8d6c7fd71269453c229326c9785006e8">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  146</span>    {</div>
+<div class="line"><span class="lineno">  147</span>        <span class="keywordflow">if</span> (victim-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">GetTypeId</a>() == <a class="code hl_enumvalue" href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a>)</div>
+<div class="line"><span class="lineno">  148</span>        {</div>
+<div class="line"><span class="lineno">  149</span>            <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d9/d33/boss__elder__nadox_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3a9e64f6e600dd42567d18006912811f75">SAY_SLAY</a>);</div>
+<div class="line"><span class="lineno">  150</span>        }</div>
+<div class="line"><span class="lineno">  151</span>    }</div>
+<div class="ttc" id="a_object_guid_8h_html_a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c"><div class="ttname"><a href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a></div><div class="ttdeci">@ TYPEID_PLAYER</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:38</div></div>
+<div class="ttc" id="aboss__elder__nadox_8cpp_html_a34a1b224b8db54cacd01d75b910f04e3a9e64f6e600dd42567d18006912811f75"><div class="ttname"><a href="../../d9/d33/boss__elder__nadox_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3a9e64f6e600dd42567d18006912811f75">SAY_SLAY</a></div><div class="ttdeci">@ SAY_SLAY</div><div class="ttdef"><b>Definition:</b> boss_elder_nadox.cpp:66</div></div>
+<div class="ttc" id="aclass_object_html_a621a345fc34deed6d3a4e1e498a652da"><div class="ttname"><a href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">Object::GetTypeId</a></div><div class="ttdeci">TypeID GetTypeId() const</div><div class="ttdef"><b>Definition:</b> Object.h:121</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ab5e492f39552b64c0333b6fbce89c1ae" name="ab5e492f39552b64c0333b6fbce89c1ae"></a>
@@ -770,7 +873,20 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d4/d0e/class_boss_a_i.html#abe75353ec3f0c86502696b8ccb059cb7">BossAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   81</span>    {</div>
+<div class="line"><span class="lineno">   82</span>        <a class="code hl_function" href="../../d4/d0e/class_boss_a_i.html#acdc89a1df0e62952becf83d9e1bd6299">_Reset</a>();</div>
+<div class="line"><span class="lineno">   83</span> </div>
+<div class="line"><span class="lineno">   84</span>        <span class="comment">// Clear eggs data</span></div>
+<div class="line"><span class="lineno">   85</span>        <a class="code hl_variable" href="../../d5/d84/structboss__elder__nadox.html#a28c8b6826ed86e30b573883cab83168f">swarmEggs</a>.clear();</div>
+<div class="line"><span class="lineno">   86</span>        <a class="code hl_variable" href="../../d5/d84/structboss__elder__nadox.html#aae96b622766ab4478a8510bd1c7a9f1f">guardianEggs</a>.clear();</div>
+<div class="line"><span class="lineno">   87</span>        <a class="code hl_variable" href="../../d5/d84/structboss__elder__nadox.html#add5ff92f92b8d01caef0b12a98569535">previousSwarmEgg_GUID</a>.<a class="code hl_function" href="../../d8/d03/class_object_guid.html#af6aafb4610723c7f14523fef243b1b65">Clear</a>();</div>
+<div class="line"><span class="lineno">   88</span>        <a class="code hl_variable" href="../../d5/d84/structboss__elder__nadox.html#a5543be0c08bf1d432b36bfdb2d532f0d">guardianSummoned</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   89</span>        <a class="code hl_variable" href="../../d5/d84/structboss__elder__nadox.html#aac97ef9511e64692a152077b43e83e75">respectYourElders</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   90</span>    }</div>
+<div class="ttc" id="aclass_boss_a_i_html_acdc89a1df0e62952becf83d9e1bd6299"><div class="ttname"><a href="../../d4/d0e/class_boss_a_i.html#acdc89a1df0e62952becf83d9e1bd6299">BossAI::_Reset</a></div><div class="ttdeci">void _Reset()</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.cpp:539</div></div>
+<div class="ttc" id="aclass_object_guid_html_af6aafb4610723c7f14523fef243b1b65"><div class="ttname"><a href="../../d8/d03/class_object_guid.html#af6aafb4610723c7f14523fef243b1b65">ObjectGuid::Clear</a></div><div class="ttdeci">void Clear()</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:140</div></div>
+<div class="ttc" id="astructboss__elder__nadox_html_add5ff92f92b8d01caef0b12a98569535"><div class="ttname"><a href="../../d5/d84/structboss__elder__nadox.html#add5ff92f92b8d01caef0b12a98569535">boss_elder_nadox::previousSwarmEgg_GUID</a></div><div class="ttdeci">ObjectGuid previousSwarmEgg_GUID</div><div class="ttdef"><b>Definition:</b> boss_elder_nadox.cpp:233</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a77d9861b2e2de593d0b44c2fd9449f17" name="a77d9861b2e2de593d0b44c2fd9449f17"></a>
@@ -808,7 +924,15 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d2/d68/class_creature_a_i.html#aa84f573bdb0e556cf911d0a00f6ed5fb">CreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  138</span>    {</div>
+<div class="line"><span class="lineno">  139</span>        <span class="keywordflow">if</span> (summon-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>() == <a class="code hl_enumvalue" href="../../d9/d33/boss__elder__nadox_8cpp.html#a25a619e6b66096a4f05d048e4a96df08ac403178186cded30dc337cd5253dd578">NPC_AHNKAHAR_GUARDIAN</a>)</div>
+<div class="line"><span class="lineno">  140</span>        {</div>
+<div class="line"><span class="lineno">  141</span>            <a class="code hl_variable" href="../../d5/d84/structboss__elder__nadox.html#aac97ef9511e64692a152077b43e83e75">respectYourElders</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  142</span>        }</div>
+<div class="line"><span class="lineno">  143</span>    }</div>
+<div class="ttc" id="aboss__elder__nadox_8cpp_html_a25a619e6b66096a4f05d048e4a96df08ac403178186cded30dc337cd5253dd578"><div class="ttname"><a href="../../d9/d33/boss__elder__nadox_8cpp.html#a25a619e6b66096a4f05d048e4a96df08ac403178186cded30dc337cd5253dd578">NPC_AHNKAHAR_GUARDIAN</a></div><div class="ttdeci">@ NPC_AHNKAHAR_GUARDIAN</div><div class="ttdef"><b>Definition:</b> boss_elder_nadox.cpp:50</div></div>
+<div class="ttc" id="aclass_object_html_aa627fe2967ed0e0ed1d8aeeb4365a961"><div class="ttname"><a href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">Object::GetEntry</a></div><div class="ttdeci">uint32 GetEntry() const</div><div class="ttdef"><b>Definition:</b> Object.h:109</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ae65044c111e514a3050ea14f1155a7dc" name="ae65044c111e514a3050ea14f1155a7dc"></a>
@@ -834,7 +958,76 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  238</span>    {</div>
+<div class="line"><span class="lineno">  239</span>        <span class="keywordflow">if</span> (swarm)</div>
+<div class="line"><span class="lineno">  240</span>        {</div>
+<div class="line"><span class="lineno">  241</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d5/d84/structboss__elder__nadox.html#a28c8b6826ed86e30b573883cab83168f">swarmEggs</a>.empty())</div>
+<div class="line"><span class="lineno">  242</span>            {</div>
+<div class="line"><span class="lineno">  243</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  244</span>            }</div>
+<div class="line"><span class="lineno">  245</span> </div>
+<div class="line"><span class="lineno">  246</span>            <span class="comment">// Make a copy of guid list</span></div>
+<div class="line"><span class="lineno">  247</span>            <a class="code hl_typedef" href="../../d9/d83/_object_guid_8h.html#a5951d383f157ff0ed6d23ecef2213a4b">GuidList</a> swarmEggs2 = <a class="code hl_variable" href="../../d5/d84/structboss__elder__nadox.html#a28c8b6826ed86e30b573883cab83168f">swarmEggs</a>;</div>
+<div class="line"><span class="lineno">  248</span> </div>
+<div class="line"><span class="lineno">  249</span>            <span class="comment">// Remove previous egg</span></div>
+<div class="line"><span class="lineno">  250</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d5/d84/structboss__elder__nadox.html#add5ff92f92b8d01caef0b12a98569535">previousSwarmEgg_GUID</a>)</div>
+<div class="line"><span class="lineno">  251</span>            {</div>
+<div class="line"><span class="lineno">  252</span>                std::list&lt;ObjectGuid&gt;::iterator itr = std::find(swarmEggs2.begin(), swarmEggs2.end(), <a class="code hl_variable" href="../../d5/d84/structboss__elder__nadox.html#add5ff92f92b8d01caef0b12a98569535">previousSwarmEgg_GUID</a>);</div>
+<div class="line"><span class="lineno">  253</span>                <span class="keywordflow">if</span> (itr != swarmEggs2.end())</div>
+<div class="line"><span class="lineno">  254</span>                {</div>
+<div class="line"><span class="lineno">  255</span>                    swarmEggs2.erase(itr);</div>
+<div class="line"><span class="lineno">  256</span>                }</div>
+<div class="line"><span class="lineno">  257</span>            }</div>
+<div class="line"><span class="lineno">  258</span> </div>
+<div class="line"><span class="lineno">  259</span>            <span class="keywordflow">if</span> (swarmEggs2.empty())</div>
+<div class="line"><span class="lineno">  260</span>            {</div>
+<div class="line"><span class="lineno">  261</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  262</span>            }</div>
+<div class="line"><span class="lineno">  263</span> </div>
+<div class="line"><span class="lineno">  264</span>            <a class="code hl_variable" href="../../d5/d84/structboss__elder__nadox.html#add5ff92f92b8d01caef0b12a98569535">previousSwarmEgg_GUID</a> = <a class="code hl_function" href="../../d0/df6/namespace_acore_1_1_containers.html#a8ca673d18562735d4ed20a11519b3d46">Acore::Containers::SelectRandomContainerElement</a>(swarmEggs2);</div>
+<div class="line"><span class="lineno">  265</span> </div>
+<div class="line"><span class="lineno">  266</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* egg = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a>(*<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_variable" href="../../d5/d84/structboss__elder__nadox.html#add5ff92f92b8d01caef0b12a98569535">previousSwarmEgg_GUID</a>))</div>
+<div class="line"><span class="lineno">  267</span>            {</div>
+<div class="line"><span class="lineno">  268</span>                egg-&gt;CastSpell(egg, <a class="code hl_enumvalue" href="../../d9/d33/boss__elder__nadox_8cpp.html#a5bd342133be8c2137b831460acc9298ca4f74584ddf248c155adc2c5cee5768c2">SPELL_SUMMON_SWARMERS</a>, <span class="keyword">true</span>, <span class="keyword">nullptr</span>, <span class="keyword">nullptr</span>, <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>());</div>
+<div class="line"><span class="lineno">  269</span>            }</div>
+<div class="line"><span class="lineno">  270</span> </div>
+<div class="line"><span class="lineno">  271</span>            <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d0/d80/_random_8h.html#a4b15099bc81731469c5078a778673c94">roll_chance_f</a>(33))</div>
+<div class="line"><span class="lineno">  272</span>            {</div>
+<div class="line"><span class="lineno">  273</span>                <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d9/d33/boss__elder__nadox_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3ae89bebb06f0b15d0ba1d9a8e3c8fdfb8">SAY_EGG_SAC</a>);</div>
+<div class="line"><span class="lineno">  274</span>            }</div>
+<div class="line"><span class="lineno">  275</span>        }</div>
+<div class="line"><span class="lineno">  276</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  277</span>        {</div>
+<div class="line"><span class="lineno">  278</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d5/d84/structboss__elder__nadox.html#aae96b622766ab4478a8510bd1c7a9f1f">guardianEggs</a>.empty())</div>
+<div class="line"><span class="lineno">  279</span>            {</div>
+<div class="line"><span class="lineno">  280</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  281</span>            }</div>
+<div class="line"><span class="lineno">  282</span> </div>
+<div class="line"><span class="lineno">  283</span>            <a class="code hl_class" href="../../d8/d03/class_object_guid.html">ObjectGuid</a> <span class="keyword">const</span>&amp; guardianEggGUID = <a class="code hl_function" href="../../d0/df6/namespace_acore_1_1_containers.html#a8ca673d18562735d4ed20a11519b3d46">Acore::Containers::SelectRandomContainerElement</a>(<a class="code hl_variable" href="../../d5/d84/structboss__elder__nadox.html#aae96b622766ab4478a8510bd1c7a9f1f">guardianEggs</a>);</div>
+<div class="line"><span class="lineno">  284</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* egg = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a>(*<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, guardianEggGUID))</div>
+<div class="line"><span class="lineno">  285</span>            {</div>
+<div class="line"><span class="lineno">  286</span>                egg-&gt;CastSpell(egg, <a class="code hl_enumvalue" href="../../d9/d33/boss__elder__nadox_8cpp.html#a5bd342133be8c2137b831460acc9298cac107ea27bf91014c08d43a0eaf7a02aa">SPELL_SUMMON_SWARM_GUARD</a>, <span class="keyword">true</span>, <span class="keyword">nullptr</span>, <span class="keyword">nullptr</span>, <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>());</div>
+<div class="line"><span class="lineno">  287</span>            }</div>
+<div class="line"><span class="lineno">  288</span> </div>
+<div class="line"><span class="lineno">  289</span>            <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d9/d33/boss__elder__nadox_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3a2f2e391ab2b2121cfd6630b446bd6bba">EMOTE_HATCHES</a>, <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>);</div>
+<div class="line"><span class="lineno">  290</span> </div>
+<div class="line"><span class="lineno">  291</span>            <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d0/d80/_random_8h.html#a4b15099bc81731469c5078a778673c94">roll_chance_f</a>(33))</div>
+<div class="line"><span class="lineno">  292</span>            {</div>
+<div class="line"><span class="lineno">  293</span>                <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d9/d33/boss__elder__nadox_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3ae89bebb06f0b15d0ba1d9a8e3c8fdfb8">SAY_EGG_SAC</a>);</div>
+<div class="line"><span class="lineno">  294</span>            }</div>
+<div class="line"><span class="lineno">  295</span>        }</div>
+<div class="line"><span class="lineno">  296</span>    }</div>
+<div class="ttc" id="a_object_guid_8h_html_a5951d383f157ff0ed6d23ecef2213a4b"><div class="ttname"><a href="../../d9/d83/_object_guid_8h.html#a5951d383f157ff0ed6d23ecef2213a4b">GuidList</a></div><div class="ttdeci">std::list&lt; ObjectGuid &gt; GuidList</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:256</div></div>
+<div class="ttc" id="a_random_8h_html_a4b15099bc81731469c5078a778673c94"><div class="ttname"><a href="../../d0/d80/_random_8h.html#a4b15099bc81731469c5078a778673c94">roll_chance_f</a></div><div class="ttdeci">bool roll_chance_f(float chance)</div><div class="ttdef"><b>Definition:</b> Random.h:53</div></div>
+<div class="ttc" id="aboss__elder__nadox_8cpp_html_a34a1b224b8db54cacd01d75b910f04e3a2f2e391ab2b2121cfd6630b446bd6bba"><div class="ttname"><a href="../../d9/d33/boss__elder__nadox_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3a2f2e391ab2b2121cfd6630b446bd6bba">EMOTE_HATCHES</a></div><div class="ttdeci">@ EMOTE_HATCHES</div><div class="ttdef"><b>Definition:</b> boss_elder_nadox.cpp:69</div></div>
+<div class="ttc" id="aboss__elder__nadox_8cpp_html_a34a1b224b8db54cacd01d75b910f04e3ae89bebb06f0b15d0ba1d9a8e3c8fdfb8"><div class="ttname"><a href="../../d9/d33/boss__elder__nadox_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3ae89bebb06f0b15d0ba1d9a8e3c8fdfb8">SAY_EGG_SAC</a></div><div class="ttdeci">@ SAY_EGG_SAC</div><div class="ttdef"><b>Definition:</b> boss_elder_nadox.cpp:68</div></div>
+<div class="ttc" id="aboss__elder__nadox_8cpp_html_a5bd342133be8c2137b831460acc9298ca4f74584ddf248c155adc2c5cee5768c2"><div class="ttname"><a href="../../d9/d33/boss__elder__nadox_8cpp.html#a5bd342133be8c2137b831460acc9298ca4f74584ddf248c155adc2c5cee5768c2">SPELL_SUMMON_SWARMERS</a></div><div class="ttdeci">@ SPELL_SUMMON_SWARMERS</div><div class="ttdef"><b>Definition:</b> boss_elder_nadox.cpp:37</div></div>
+<div class="ttc" id="aboss__elder__nadox_8cpp_html_a5bd342133be8c2137b831460acc9298cac107ea27bf91014c08d43a0eaf7a02aa"><div class="ttname"><a href="../../d9/d33/boss__elder__nadox_8cpp.html#a5bd342133be8c2137b831460acc9298cac107ea27bf91014c08d43a0eaf7a02aa">SPELL_SUMMON_SWARM_GUARD</a></div><div class="ttdeci">@ SPELL_SUMMON_SWARM_GUARD</div><div class="ttdef"><b>Definition:</b> boss_elder_nadox.cpp:38</div></div>
+<div class="ttc" id="aclass_object_guid_html"><div class="ttname"><a href="../../d8/d03/class_object_guid.html">ObjectGuid</a></div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:120</div></div>
+<div class="ttc" id="aclass_object_html_ad23b997e2442fa6a6228ba73a7ecc138"><div class="ttname"><a href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">Object::GetGUID</a></div><div class="ttdeci">static ObjectGuid GetGUID(Object const *o)</div><div class="ttdef"><b>Definition:</b> Object.h:106</div></div>
+<div class="ttc" id="anamespace_acore_1_1_containers_html_a8ca673d18562735d4ed20a11519b3d46"><div class="ttname"><a href="../../d0/df6/namespace_acore_1_1_containers.html#a8ca673d18562735d4ed20a11519b3d46">Acore::Containers::SelectRandomContainerElement</a></div><div class="ttdeci">auto SelectRandomContainerElement(C const &amp;container) -&gt; typename std::add_const&lt; decltype(*std::begin(container))&gt;::type &amp;</div><div class="ttdef"><b>Definition:</b> Containers.h:135</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_ae42e503fe79bbeaea1aaa665418c43f8"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a></div><div class="ttdeci">Creature * GetCreature(WorldObject const &amp;u, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:215</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="abbb783581208c76fa371f01efd481b66" name="abbb783581208c76fa371f01efd481b66"></a>
@@ -862,7 +1055,75 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d4/d0e/class_boss_a_i.html#a840cc108b3135ee19402e61d591f18d0">BossAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  179</span>    {</div>
+<div class="line"><span class="lineno">  180</span>        <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">UpdateVictim</a>())</div>
+<div class="line"><span class="lineno">  181</span>        {</div>
+<div class="line"><span class="lineno">  182</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  183</span>        }</div>
+<div class="line"><span class="lineno">  184</span> </div>
+<div class="line"><span class="lineno">  185</span>        <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.Update(diff);</div>
+<div class="line"><span class="lineno">  186</span> </div>
+<div class="line"><span class="lineno">  187</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ab78147cd520d2dac6be709b4c80a7de3">HasUnitState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54">UNIT_STATE_CASTING</a>))</div>
+<div class="line"><span class="lineno">  188</span>        {</div>
+<div class="line"><span class="lineno">  189</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  190</span>        }</div>
+<div class="line"><span class="lineno">  191</span> </div>
+<div class="line"><span class="lineno">  192</span>        <span class="keywordflow">while</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> <span class="keyword">const</span> eventId = <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ExecuteEvent())</div>
+<div class="line"><span class="lineno">  193</span>        {</div>
+<div class="line"><span class="lineno">  194</span>            <span class="keywordflow">switch</span> (eventId)</div>
+<div class="line"><span class="lineno">  195</span>            {</div>
+<div class="line"><span class="lineno">  196</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d9/d33/boss__elder__nadox_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a8abdafa350f5cf94d31f1e0776ed0630">EVENT_BROOD_RAGE</a>:</div>
+<div class="line"><span class="lineno">  197</span>                {</div>
+<div class="line"><span class="lineno">  198</span>                    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* pSwarmer = <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#aa7cc61d571dbc39ca8ac6ac10ffd18ab">FindNearestCreature</a>(<a class="code hl_enumvalue" href="../../d9/d33/boss__elder__nadox_8cpp.html#a25a619e6b66096a4f05d048e4a96df08a09bcf6fdf3c400fe914a982574130d41">NPC_AHNKAHAR_SWARMER</a>, 40, <span class="keyword">true</span>))</div>
+<div class="line"><span class="lineno">  199</span>                        <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(pSwarmer, <a class="code hl_enumvalue" href="../../d9/d33/boss__elder__nadox_8cpp.html#a5bd342133be8c2137b831460acc9298ca92e635e57290acbf8ac9efe15d1f99f6">SPELL_BROOD_RAGE_H</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  200</span> </div>
+<div class="line"><span class="lineno">  201</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.RepeatEvent(10000);</div>
+<div class="line"><span class="lineno">  202</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  203</span>                }</div>
+<div class="line"><span class="lineno">  204</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d9/d33/boss__elder__nadox_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a0a4b8ce68896891bba96c3f966085581">EVENT_PLAGUE</a>:</div>
+<div class="line"><span class="lineno">  205</span>                {</div>
+<div class="line"><span class="lineno">  206</span>                    <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a361b6f4e71e9c74595bdf3d7e3b29a82">DoCastVictim</a>(<a class="code hl_enumvalue" href="../../d9/d33/boss__elder__nadox_8cpp.html#a5bd342133be8c2137b831460acc9298caf9c6724ab743e7fa3824864cd397ca95">SPELL_BROOD_PLAGUE</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  207</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.RepeatEvent(<a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(12000, 17000));</div>
+<div class="line"><span class="lineno">  208</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  209</span>                }</div>
+<div class="line"><span class="lineno">  210</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d9/d33/boss__elder__nadox_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a9c4ab4022f522cfde283f24299aa58ce">EVENT_SWARMER</a>:</div>
+<div class="line"><span class="lineno">  211</span>                {</div>
+<div class="line"><span class="lineno">  212</span>                    <a class="code hl_function" href="../../d5/d84/structboss__elder__nadox.html#ae65044c111e514a3050ea14f1155a7dc">SummonHelpers</a>(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  213</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.RepeatEvent(10000);</div>
+<div class="line"><span class="lineno">  214</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  215</span>                }</div>
+<div class="line"><span class="lineno">  216</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d9/d33/boss__elder__nadox_8cpp.html#af60e00b78607064c5be6aa9397ea49c1ae220a6e311550eb48362a342bb57b05b">EVENT_CHECK_HOME</a>:</div>
+<div class="line"><span class="lineno">  217</span>                {</div>
+<div class="line"><span class="lineno">  218</span>                    <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a69c5ac45b65cf0dede6e0ee837361f61">HasAura</a>(<a class="code hl_enumvalue" href="../../d9/d33/boss__elder__nadox_8cpp.html#a5bd342133be8c2137b831460acc9298ca2a20f56307679be4d4f01a0d3d93cc7e">SPELL_ENRAGE</a>) &amp;&amp; (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#a4e813a59345a6275e8b87b96be03e60b">GetPositionZ</a>() &lt; 24.0f || !<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a406ff2cf337ffe4dde864ecf85a6f54b">GetHomePosition</a>().IsInDist(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#ad5577c934d9e845b44759b67c534c3e8">GetPositionX</a>(), <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">GetPositionY</a>(), <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#a4e813a59345a6275e8b87b96be03e60b">GetPositionZ</a>(), 110.0f)))</div>
+<div class="line"><span class="lineno">  219</span>                    {</div>
+<div class="line"><span class="lineno">  220</span>                        <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6ae5c7d15b747433f4d94f80bcebd215">DoCastSelf</a>(<a class="code hl_enumvalue" href="../../d9/d33/boss__elder__nadox_8cpp.html#a5bd342133be8c2137b831460acc9298ca2a20f56307679be4d4f01a0d3d93cc7e">SPELL_ENRAGE</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  221</span>                    }</div>
+<div class="line"><span class="lineno">  222</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  223</span>                }</div>
+<div class="line"><span class="lineno">  224</span>            }</div>
+<div class="line"><span class="lineno">  225</span>        }</div>
+<div class="line"><span class="lineno">  226</span> </div>
+<div class="line"><span class="lineno">  227</span>        <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">DoMeleeAttackIfReady</a>();</div>
+<div class="line"><span class="lineno">  228</span>    }</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="a_unit_8h_html_ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54">UNIT_STATE_CASTING</a></div><div class="ttdeci">@ UNIT_STATE_CASTING</div><div class="ttdef"><b>Definition:</b> Unit.h:340</div></div>
+<div class="ttc" id="aboss__elder__nadox_8cpp_html_a25a619e6b66096a4f05d048e4a96df08a09bcf6fdf3c400fe914a982574130d41"><div class="ttname"><a href="../../d9/d33/boss__elder__nadox_8cpp.html#a25a619e6b66096a4f05d048e4a96df08a09bcf6fdf3c400fe914a982574130d41">NPC_AHNKAHAR_SWARMER</a></div><div class="ttdeci">@ NPC_AHNKAHAR_SWARMER</div><div class="ttdef"><b>Definition:</b> boss_elder_nadox.cpp:49</div></div>
+<div class="ttc" id="aboss__elder__nadox_8cpp_html_a5bd342133be8c2137b831460acc9298ca2a20f56307679be4d4f01a0d3d93cc7e"><div class="ttname"><a href="../../d9/d33/boss__elder__nadox_8cpp.html#a5bd342133be8c2137b831460acc9298ca2a20f56307679be4d4f01a0d3d93cc7e">SPELL_ENRAGE</a></div><div class="ttdeci">@ SPELL_ENRAGE</div><div class="ttdef"><b>Definition:</b> boss_elder_nadox.cpp:36</div></div>
+<div class="ttc" id="aboss__elder__nadox_8cpp_html_a5bd342133be8c2137b831460acc9298ca92e635e57290acbf8ac9efe15d1f99f6"><div class="ttname"><a href="../../d9/d33/boss__elder__nadox_8cpp.html#a5bd342133be8c2137b831460acc9298ca92e635e57290acbf8ac9efe15d1f99f6">SPELL_BROOD_RAGE_H</a></div><div class="ttdeci">@ SPELL_BROOD_RAGE_H</div><div class="ttdef"><b>Definition:</b> boss_elder_nadox.cpp:35</div></div>
+<div class="ttc" id="aboss__elder__nadox_8cpp_html_a5bd342133be8c2137b831460acc9298caf9c6724ab743e7fa3824864cd397ca95"><div class="ttname"><a href="../../d9/d33/boss__elder__nadox_8cpp.html#a5bd342133be8c2137b831460acc9298caf9c6724ab743e7fa3824864cd397ca95">SPELL_BROOD_PLAGUE</a></div><div class="ttdeci">@ SPELL_BROOD_PLAGUE</div><div class="ttdef"><b>Definition:</b> boss_elder_nadox.cpp:34</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_ae03ccfe1e27501ed9ccbfecdbd3c4e39"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">CreatureAI::UpdateVictim</a></div><div class="ttdeci">bool UpdateVictim()</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:268</div></div>
+<div class="ttc" id="aclass_creature_html_a406ff2cf337ffe4dde864ecf85a6f54b"><div class="ttname"><a href="../../d1/dac/class_creature.html#a406ff2cf337ffe4dde864ecf85a6f54b">Creature::GetHomePosition</a></div><div class="ttdeci">void GetHomePosition(float &amp;x, float &amp;y, float &amp;z, float &amp;ori) const</div><div class="ttdef"><b>Definition:</b> Creature.h:322</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a348a472089a9be6210b58aace8fafa9f"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">UnitAI::DoMeleeAttackIfReady</a></div><div class="ttdeci">void DoMeleeAttackIfReady()</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:40</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a361b6f4e71e9c74595bdf3d7e3b29a82"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a361b6f4e71e9c74595bdf3d7e3b29a82">UnitAI::DoCastVictim</a></div><div class="ttdeci">SpellCastResult DoCastVictim(uint32 spellId, bool triggered=false)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:241</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a6ae5c7d15b747433f4d94f80bcebd215"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a6ae5c7d15b747433f4d94f80bcebd215">UnitAI::DoCastSelf</a></div><div class="ttdeci">SpellCastResult DoCastSelf(uint32 spellId, bool triggered=false)</div><div class="ttdef"><b>Definition:</b> UnitAI.h:323</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_aeebcad9b6effa45145c50f06af60b23d"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">UnitAI::DoCast</a></div><div class="ttdeci">SpellCastResult DoCast(uint32 spellId)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:178</div></div>
+<div class="ttc" id="aclass_unit_html_a69c5ac45b65cf0dede6e0ee837361f61"><div class="ttname"><a href="../../da/db7/class_unit.html#a69c5ac45b65cf0dede6e0ee837361f61">Unit::HasAura</a></div><div class="ttdeci">bool HasAura(uint32 spellId, ObjectGuid casterGUID=ObjectGuid::Empty, ObjectGuid itemCasterGUID=ObjectGuid::Empty, uint8 reqEffMask=0) const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:5598</div></div>
+<div class="ttc" id="aclass_unit_html_ab78147cd520d2dac6be709b4c80a7de3"><div class="ttname"><a href="../../da/db7/class_unit.html#ab78147cd520d2dac6be709b4c80a7de3">Unit::HasUnitState</a></div><div class="ttdeci">bool HasUnitState(const uint32 f) const</div><div class="ttdef"><b>Definition:</b> Unit.h:1398</div></div>
+<div class="ttc" id="aclass_world_object_html_aa7cc61d571dbc39ca8ac6ac10ffd18ab"><div class="ttname"><a href="../../db/df7/class_world_object.html#aa7cc61d571dbc39ca8ac6ac10ffd18ab">WorldObject::FindNearestCreature</a></div><div class="ttdeci">Creature * FindNearestCreature(uint32 entry, float range, bool alive=true) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:2392</div></div>
+<div class="ttc" id="astruct_position_html_a4e813a59345a6275e8b87b96be03e60b"><div class="ttname"><a href="../../d1/d26/struct_position.html#a4e813a59345a6275e8b87b96be03e60b">Position::GetPositionZ</a></div><div class="ttdeci">float GetPositionZ() const</div><div class="ttdef"><b>Definition:</b> Position.h:119</div></div>
+<div class="ttc" id="astruct_position_html_ad5577c934d9e845b44759b67c534c3e8"><div class="ttname"><a href="../../d1/d26/struct_position.html#ad5577c934d9e845b44759b67c534c3e8">Position::GetPositionX</a></div><div class="ttdeci">float GetPositionX() const</div><div class="ttdef"><b>Definition:</b> Position.h:117</div></div>
+<div class="ttc" id="astruct_position_html_ae79fc664f6cd027f5d49f6c7df8e4c9e"><div class="ttname"><a href="../../d1/d26/struct_position.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">Position::GetPositionY</a></div><div class="ttdeci">float GetPositionY() const</div><div class="ttdef"><b>Definition:</b> Position.h:118</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -977,7 +1238,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/AzjolNerub/ahnkahet/<a class="el" href="../../d9/d33/boss__elder__nadox_8cpp.html">boss_elder_nadox.cpp</a></li>
+<li><a class="el" href="../../">boss_elder_nadox.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -985,7 +1246,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d5/d84/structboss__elder__nadox.html">boss_elder_nadox</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:39 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:51 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

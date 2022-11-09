@@ -394,7 +394,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a696d62fed28de9c67827dad111cf320b" name="a696d62fed28de9c67827dad111cf320b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a696d62fed28de9c67827dad111cf320b">&#9670;&#160;</a></span>trigger_periodicAI()</h2>
 
@@ -418,7 +419,22 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  178</span>                                               : <a class="code hl_class" href="../../d6/df7/class_null_creature_a_i.html">NullCreatureAI</a>(creature)</div>
+<div class="line"><span class="lineno">  179</span>        {</div>
+<div class="line"><span class="lineno">  180</span>            <a class="code hl_variable" href="../../d7/d6c/structtrigger__periodic_1_1trigger__periodic_a_i.html#a618b707155edf6d9179bbedc0f0ecf1e">spell</a> = <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_variable" href="../../d1/dac/class_creature.html#a38727e1fc7443d11afa6e37598e932ea">m_spells</a>[0] ? <a class="code hl_define" href="../../d3/d75/_spell_mgr_8h.html#aa21e14d8e1145507b746a69b5487109d">sSpellMgr</a>-&gt;GetSpellInfo(<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_variable" href="../../d1/dac/class_creature.html#a38727e1fc7443d11afa6e37598e932ea">m_spells</a>[0]) : <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  181</span>            <a class="code hl_variable" href="../../d7/d6c/structtrigger__periodic_1_1trigger__periodic_a_i.html#a6e9dd149ce11dcc1c2adf039c73e8023">interval</a> = <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa4192d3622a4c41d4c5a46a60209e62e">GetAttackTime</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#a2a35652af7129b6f139b0f7a2af1876aa5145c1138a6f21d47061e9015e07a3ae">BASE_ATTACK</a>);</div>
+<div class="line"><span class="lineno">  182</span>            <a class="code hl_variable" href="../../d7/d6c/structtrigger__periodic_1_1trigger__periodic_a_i.html#ac434f6a60065ae3b1adcb11d58af4299">timer</a> = <a class="code hl_variable" href="../../d7/d6c/structtrigger__periodic_1_1trigger__periodic_a_i.html#a6e9dd149ce11dcc1c2adf039c73e8023">interval</a>;</div>
+<div class="line"><span class="lineno">  183</span>        }</div>
+<div class="ttc" id="a_spell_mgr_8h_html_aa21e14d8e1145507b746a69b5487109d"><div class="ttname"><a href="../../d3/d75/_spell_mgr_8h.html#aa21e14d8e1145507b746a69b5487109d">sSpellMgr</a></div><div class="ttdeci">#define sSpellMgr</div><div class="ttdef"><b>Definition:</b> SpellMgr.h:803</div></div>
+<div class="ttc" id="a_unit_8h_html_a2a35652af7129b6f139b0f7a2af1876aa5145c1138a6f21d47061e9015e07a3ae"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#a2a35652af7129b6f139b0f7a2af1876aa5145c1138a6f21d47061e9015e07a3ae">BASE_ATTACK</a></div><div class="ttdeci">@ BASE_ATTACK</div><div class="ttdef"><b>Definition:</b> Unit.h:396</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_aee5bf3d421199445de241a34798ae819"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">CreatureAI::me</a></div><div class="ttdeci">Creature *const me</div><div class="ttdef"><b>Definition:</b> CreatureAI.h:72</div></div>
+<div class="ttc" id="aclass_creature_html_a38727e1fc7443d11afa6e37598e932ea"><div class="ttname"><a href="../../d1/dac/class_creature.html#a38727e1fc7443d11afa6e37598e932ea">Creature::m_spells</a></div><div class="ttdeci">uint32 m_spells[MAX_CREATURE_SPELLS]</div><div class="ttdef"><b>Definition:</b> Creature.h:241</div></div>
+<div class="ttc" id="aclass_null_creature_a_i_html"><div class="ttname"><a href="../../d6/df7/class_null_creature_a_i.html">NullCreatureAI</a></div><div class="ttdef"><b>Definition:</b> PassiveAI.h:53</div></div>
+<div class="ttc" id="aclass_unit_html_aa4192d3622a4c41d4c5a46a60209e62e"><div class="ttname"><a href="../../da/db7/class_unit.html#aa4192d3622a4c41d4c5a46a60209e62e">Unit::GetAttackTime</a></div><div class="ttdeci">uint32 GetAttackTime(WeaponAttackType att) const</div><div class="ttdef"><b>Definition:</b> Unit.h:1467</div></div>
+<div class="ttc" id="astructtrigger__periodic_1_1trigger__periodic_a_i_html_a618b707155edf6d9179bbedc0f0ecf1e"><div class="ttname"><a href="../../d7/d6c/structtrigger__periodic_1_1trigger__periodic_a_i.html#a618b707155edf6d9179bbedc0f0ecf1e">trigger_periodic::trigger_periodicAI::spell</a></div><div class="ttdeci">SpellInfo const  * spell</div><div class="ttdef"><b>Definition:</b> mob_generic_creature.cpp:186</div></div>
+<div class="ttc" id="astructtrigger__periodic_1_1trigger__periodic_a_i_html_a6e9dd149ce11dcc1c2adf039c73e8023"><div class="ttname"><a href="../../d7/d6c/structtrigger__periodic_1_1trigger__periodic_a_i.html#a6e9dd149ce11dcc1c2adf039c73e8023">trigger_periodic::trigger_periodicAI::interval</a></div><div class="ttdeci">uint32 interval</div><div class="ttdef"><b>Definition:</b> mob_generic_creature.cpp:185</div></div>
+<div class="ttc" id="astructtrigger__periodic_1_1trigger__periodic_a_i_html_ac434f6a60065ae3b1adcb11d58af4299"><div class="ttname"><a href="../../d7/d6c/structtrigger__periodic_1_1trigger__periodic_a_i.html#ac434f6a60065ae3b1adcb11d58af4299">trigger_periodic::trigger_periodicAI::timer</a></div><div class="ttdeci">uint32 timer</div><div class="ttdef"><b>Definition:</b> mob_generic_creature.cpp:185</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -447,7 +463,18 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d6/df7/class_null_creature_a_i.html#ab200fcf78dee74a2ec808c01f5855236">NullCreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  189</span>        {</div>
+<div class="line"><span class="lineno">  190</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d7/d6c/structtrigger__periodic_1_1trigger__periodic_a_i.html#ac434f6a60065ae3b1adcb11d58af4299">timer</a> &lt;= diff)</div>
+<div class="line"><span class="lineno">  191</span>            {</div>
+<div class="line"><span class="lineno">  192</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d7/d6c/structtrigger__periodic_1_1trigger__periodic_a_i.html#a618b707155edf6d9179bbedc0f0ecf1e">spell</a>)</div>
+<div class="line"><span class="lineno">  193</span>                    <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>, <a class="code hl_variable" href="../../d7/d6c/structtrigger__periodic_1_1trigger__periodic_a_i.html#a618b707155edf6d9179bbedc0f0ecf1e">spell</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  194</span>                <a class="code hl_variable" href="../../d7/d6c/structtrigger__periodic_1_1trigger__periodic_a_i.html#ac434f6a60065ae3b1adcb11d58af4299">timer</a> = <a class="code hl_variable" href="../../d7/d6c/structtrigger__periodic_1_1trigger__periodic_a_i.html#a6e9dd149ce11dcc1c2adf039c73e8023">interval</a>;</div>
+<div class="line"><span class="lineno">  195</span>            }</div>
+<div class="line"><span class="lineno">  196</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  197</span>                <a class="code hl_variable" href="../../d7/d6c/structtrigger__periodic_1_1trigger__periodic_a_i.html#ac434f6a60065ae3b1adcb11d58af4299">timer</a> -= diff;</div>
+<div class="line"><span class="lineno">  198</span>        }</div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -494,7 +521,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/World/<a class="el" href="../../d3/d10/mob__generic__creature_8cpp.html">mob_generic_creature.cpp</a></li>
+<li><a class="el" href="../../">mob_generic_creature.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -502,7 +529,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d2/dd4/classtrigger__periodic.html">trigger_periodic</a></li><li class="navelem"><a class="el" href="../../d7/d6c/structtrigger__periodic_1_1trigger__periodic_a_i.html">trigger_periodicAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:12 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:29 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

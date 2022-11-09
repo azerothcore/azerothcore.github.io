@@ -306,7 +306,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a88e98bcb11fb16696f789878f79c665c" name="a88e98bcb11fb16696f789878f79c665c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a88e98bcb11fb16696f789878f79c665c">&#9670;&#160;</a></span>HandleEffectApply()</h2>
 
@@ -340,7 +341,20 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1554</span>    {</div>
+<div class="line"><span class="lineno"> 1555</span>        <a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target = <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">GetTarget</a>();</div>
+<div class="line"><span class="lineno"> 1556</span>        <span class="keywordflow">if</span> ((target-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a69c5ac45b65cf0dede6e0ee837361f61">HasAura</a>(<a class="code hl_enumvalue" href="../../d6/d51/spell__dk_8cpp.html#a70990262974db7bc1730b177eb17a499a17c917ea361d32e91a852611393cb850">SPELL_DK_FROST_PRESENCE</a>) || target-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a69c5ac45b65cf0dede6e0ee837361f61">HasAura</a>(<a class="code hl_enumvalue" href="../../d6/d51/spell__dk_8cpp.html#a70990262974db7bc1730b177eb17a499ae23535d4ae7804c0b21e692fa64e62eb">SPELL_DK_UNHOLY_PRESENCE</a>)) &amp;&amp; !target-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a69c5ac45b65cf0dede6e0ee837361f61">HasAura</a>(<a class="code hl_enumvalue" href="../../d6/d51/spell__dk_8cpp.html#a70990262974db7bc1730b177eb17a499a8015bc1ee88d84bf6af5ec8ad33dc9c5">SPELL_DK_IMPROVED_BLOOD_PRESENCE_TRIGGERED</a>))</div>
+<div class="line"><span class="lineno"> 1557</span>            target-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a51ec81e114bf82a2485ba9f66200afd2">CastCustomSpell</a>(<a class="code hl_enumvalue" href="../../d6/d51/spell__dk_8cpp.html#a70990262974db7bc1730b177eb17a499a8015bc1ee88d84bf6af5ec8ad33dc9c5">SPELL_DK_IMPROVED_BLOOD_PRESENCE_TRIGGERED</a>, <a class="code hl_enumvalue" href="../../d2/d6d/_spell_defines_8h.html#a4ad87b8c967acbbcb154a32bc123371ba5240ec494599dced5b2a127b19eebd62">SPELLVALUE_BASE_POINT1</a>, aurEff-&gt;GetAmount(), target, <span class="keyword">true</span>, <span class="keyword">nullptr</span>, aurEff);</div>
+<div class="line"><span class="lineno"> 1558</span>    }</div>
+<div class="ttc" id="a_spell_defines_8h_html_a4ad87b8c967acbbcb154a32bc123371ba5240ec494599dced5b2a127b19eebd62"><div class="ttname"><a href="../../d2/d6d/_spell_defines_8h.html#a4ad87b8c967acbbcb154a32bc123371ba5240ec494599dced5b2a127b19eebd62">SPELLVALUE_BASE_POINT1</a></div><div class="ttdeci">@ SPELLVALUE_BASE_POINT1</div><div class="ttdef"><b>Definition:</b> SpellDefines.h:115</div></div>
+<div class="ttc" id="aclass_aura_script_html_a9b2ee1254bdbef7f6ee93f6fae6eb912"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">AuraScript::GetTarget</a></div><div class="ttdeci">Unit * GetTarget() const</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:1155</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_a51ec81e114bf82a2485ba9f66200afd2"><div class="ttname"><a href="../../da/db7/class_unit.html#a51ec81e114bf82a2485ba9f66200afd2">Unit::CastCustomSpell</a></div><div class="ttdeci">SpellCastResult CastCustomSpell(Unit *victim, uint32 spellId, int32 const *bp0, int32 const *bp1, int32 const *bp2, bool triggered, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1225</div></div>
+<div class="ttc" id="aclass_unit_html_a69c5ac45b65cf0dede6e0ee837361f61"><div class="ttname"><a href="../../da/db7/class_unit.html#a69c5ac45b65cf0dede6e0ee837361f61">Unit::HasAura</a></div><div class="ttdeci">bool HasAura(uint32 spellId, ObjectGuid casterGUID=ObjectGuid::Empty, ObjectGuid itemCasterGUID=ObjectGuid::Empty, uint8 reqEffMask=0) const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:5598</div></div>
+<div class="ttc" id="aspell__dk_8cpp_html_a70990262974db7bc1730b177eb17a499a17c917ea361d32e91a852611393cb850"><div class="ttname"><a href="../../d6/d51/spell__dk_8cpp.html#a70990262974db7bc1730b177eb17a499a17c917ea361d32e91a852611393cb850">SPELL_DK_FROST_PRESENCE</a></div><div class="ttdeci">@ SPELL_DK_FROST_PRESENCE</div><div class="ttdef"><b>Definition:</b> spell_dk.cpp:54</div></div>
+<div class="ttc" id="aspell__dk_8cpp_html_a70990262974db7bc1730b177eb17a499a8015bc1ee88d84bf6af5ec8ad33dc9c5"><div class="ttname"><a href="../../d6/d51/spell__dk_8cpp.html#a70990262974db7bc1730b177eb17a499a8015bc1ee88d84bf6af5ec8ad33dc9c5">SPELL_DK_IMPROVED_BLOOD_PRESENCE_TRIGGERED</a></div><div class="ttdeci">@ SPELL_DK_IMPROVED_BLOOD_PRESENCE_TRIGGERED</div><div class="ttdef"><b>Definition:</b> spell_dk.cpp:62</div></div>
+<div class="ttc" id="aspell__dk_8cpp_html_a70990262974db7bc1730b177eb17a499ae23535d4ae7804c0b21e692fa64e62eb"><div class="ttname"><a href="../../d6/d51/spell__dk_8cpp.html#a70990262974db7bc1730b177eb17a499ae23535d4ae7804c0b21e692fa64e62eb">SPELL_DK_UNHOLY_PRESENCE</a></div><div class="ttdeci">@ SPELL_DK_UNHOLY_PRESENCE</div><div class="ttdef"><b>Definition:</b> spell_dk.cpp:72</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ab2d5f1dccd9bdf9f087ee3203b0d18c2" name="ab2d5f1dccd9bdf9f087ee3203b0d18c2"></a>
@@ -376,7 +390,14 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1561</span>    {</div>
+<div class="line"><span class="lineno"> 1562</span>        <a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target = <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">GetTarget</a>();</div>
+<div class="line"><span class="lineno"> 1563</span>        <span class="keywordflow">if</span> (!target-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a69c5ac45b65cf0dede6e0ee837361f61">HasAura</a>(<a class="code hl_enumvalue" href="../../d6/d51/spell__dk_8cpp.html#a70990262974db7bc1730b177eb17a499aed2f121b8035ac607b34365fa52ba470">SPELL_DK_BLOOD_PRESENCE</a>))</div>
+<div class="line"><span class="lineno"> 1564</span>            target-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a1be09c524dfdd2c3538f2ae977c58399">RemoveAura</a>(<a class="code hl_enumvalue" href="../../d6/d51/spell__dk_8cpp.html#a70990262974db7bc1730b177eb17a499a8015bc1ee88d84bf6af5ec8ad33dc9c5">SPELL_DK_IMPROVED_BLOOD_PRESENCE_TRIGGERED</a>);</div>
+<div class="line"><span class="lineno"> 1565</span>    }</div>
+<div class="ttc" id="aclass_unit_html_a1be09c524dfdd2c3538f2ae977c58399"><div class="ttname"><a href="../../da/db7/class_unit.html#a1be09c524dfdd2c3538f2ae977c58399">Unit::RemoveAura</a></div><div class="ttdeci">void RemoveAura(AuraApplicationMap::iterator &amp;i, AuraRemoveMode mode=AURA_REMOVE_BY_DEFAULT)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:4696</div></div>
+<div class="ttc" id="aspell__dk_8cpp_html_a70990262974db7bc1730b177eb17a499aed2f121b8035ac607b34365fa52ba470"><div class="ttname"><a href="../../d6/d51/spell__dk_8cpp.html#a70990262974db7bc1730b177eb17a499aed2f121b8035ac607b34365fa52ba470">SPELL_DK_BLOOD_PRESENCE</a></div><div class="ttdeci">@ SPELL_DK_BLOOD_PRESENCE</div><div class="ttdef"><b>Definition:</b> spell_dk.cpp:47</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a64f9e0f3d0376342767b912e32642c6c" name="a64f9e0f3d0376342767b912e32642c6c"></a>
@@ -429,7 +450,20 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1568</span>    {</div>
+<div class="line"><span class="lineno"> 1569</span>        <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a509262d9721d83783e19142eee1645df">AfterEffectApply</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#ac47070c5a13a5436cc5d204a1445c993">AuraEffectApplyFn</a>(<a class="code hl_function" href="../../d6/d76/classspell__dk__improved__blood__presence.html#a88e98bcb11fb16696f789878f79c665c">spell_dk_improved_blood_presence::HandleEffectApply</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799a66cca11731d68512cb0bb652cb1e7caf">SPELL_AURA_DUMMY</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a82ebee9e3cf7eaf2ab892a6eb7796288a9db592566b0111486336c591e7a06e2b">AURA_EFFECT_HANDLE_REAL</a>);</div>
+<div class="line"><span class="lineno"> 1570</span>        <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a2bfb775dfbe8cfc3cff876469c78ddcf">AfterEffectRemove</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#af8f20adad60abdb901d6e7310afea31b">AuraEffectRemoveFn</a>(<a class="code hl_function" href="../../d6/d76/classspell__dk__improved__blood__presence.html#ab2d5f1dccd9bdf9f087ee3203b0d18c2">spell_dk_improved_blood_presence::HandleEffectRemove</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799a66cca11731d68512cb0bb652cb1e7caf">SPELL_AURA_DUMMY</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a82ebee9e3cf7eaf2ab892a6eb7796288a9db592566b0111486336c591e7a06e2b">AURA_EFFECT_HANDLE_REAL</a>);</div>
+<div class="line"><span class="lineno"> 1571</span>    }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a></div><div class="ttdeci">@ EFFECT_0</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:30</div></div>
+<div class="ttc" id="a_spell_aura_defines_8h_html_a538cdc259460b365f406fe0b3a981799a66cca11731d68512cb0bb652cb1e7caf"><div class="ttname"><a href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799a66cca11731d68512cb0bb652cb1e7caf">SPELL_AURA_DUMMY</a></div><div class="ttdeci">@ SPELL_AURA_DUMMY</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:67</div></div>
+<div class="ttc" id="a_spell_aura_defines_8h_html_a82ebee9e3cf7eaf2ab892a6eb7796288a9db592566b0111486336c591e7a06e2b"><div class="ttname"><a href="../../d7/d5a/_spell_aura_defines_8h.html#a82ebee9e3cf7eaf2ab892a6eb7796288a9db592566b0111486336c591e7a06e2b">AURA_EFFECT_HANDLE_REAL</a></div><div class="ttdeci">@ AURA_EFFECT_HANDLE_REAL</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:42</div></div>
+<div class="ttc" id="a_spell_script_8h_html_ac47070c5a13a5436cc5d204a1445c993"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#ac47070c5a13a5436cc5d204a1445c993">AuraEffectApplyFn</a></div><div class="ttdeci">#define AuraEffectApplyFn(F, I, N, M)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:733</div></div>
+<div class="ttc" id="a_spell_script_8h_html_af8f20adad60abdb901d6e7310afea31b"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#af8f20adad60abdb901d6e7310afea31b">AuraEffectRemoveFn</a></div><div class="ttdeci">#define AuraEffectRemoveFn(F, I, N, M)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:744</div></div>
+<div class="ttc" id="aclass_aura_script_html_a2bfb775dfbe8cfc3cff876469c78ddcf"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a2bfb775dfbe8cfc3cff876469c78ddcf">AuraScript::AfterEffectRemove</a></div><div class="ttdeci">HookList&lt; EffectApplyHandler &gt; AfterEffectRemove</div><div class="ttdef"><b>Definition:</b> SpellScript.h:743</div></div>
+<div class="ttc" id="aclass_aura_script_html_a509262d9721d83783e19142eee1645df"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a509262d9721d83783e19142eee1645df">AuraScript::AfterEffectApply</a></div><div class="ttdeci">HookList&lt; EffectApplyHandler &gt; AfterEffectApply</div><div class="ttdef"><b>Definition:</b> SpellScript.h:732</div></div>
+<div class="ttc" id="aclassspell__dk__improved__blood__presence_html_a88e98bcb11fb16696f789878f79c665c"><div class="ttname"><a href="../../d6/d76/classspell__dk__improved__blood__presence.html#a88e98bcb11fb16696f789878f79c665c">spell_dk_improved_blood_presence::HandleEffectApply</a></div><div class="ttdeci">void HandleEffectApply(AuraEffect const *aurEff, AuraEffectHandleModes)</div><div class="ttdef"><b>Definition:</b> spell_dk.cpp:1553</div></div>
+<div class="ttc" id="aclassspell__dk__improved__blood__presence_html_ab2d5f1dccd9bdf9f087ee3203b0d18c2"><div class="ttname"><a href="../../d6/d76/classspell__dk__improved__blood__presence.html#ab2d5f1dccd9bdf9f087ee3203b0d18c2">spell_dk_improved_blood_presence::HandleEffectRemove</a></div><div class="ttdeci">void HandleEffectRemove(AuraEffect const *, AuraEffectHandleModes)</div><div class="ttdef"><b>Definition:</b> spell_dk.cpp:1560</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac936c92c3a24fba95505243cd3e79c21" name="ac936c92c3a24fba95505243cd3e79c21"></a>
@@ -457,11 +491,21 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d7/d13/class___spell_script.html#a95e7862a5807bff409f13aea8306077e">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1543</span>    {</div>
+<div class="line"><span class="lineno"> 1544</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../d7/d13/class___spell_script.html#a9f7c76ac56838fbe61bf67d534979159">ValidateSpellInfo</a>(</div>
+<div class="line"><span class="lineno"> 1545</span>            {</div>
+<div class="line"><span class="lineno"> 1546</span>                <a class="code hl_enumvalue" href="../../d6/d51/spell__dk_8cpp.html#a70990262974db7bc1730b177eb17a499aed2f121b8035ac607b34365fa52ba470">SPELL_DK_BLOOD_PRESENCE</a>,</div>
+<div class="line"><span class="lineno"> 1547</span>                <a class="code hl_enumvalue" href="../../d6/d51/spell__dk_8cpp.html#a70990262974db7bc1730b177eb17a499a17c917ea361d32e91a852611393cb850">SPELL_DK_FROST_PRESENCE</a>,</div>
+<div class="line"><span class="lineno"> 1548</span>                <a class="code hl_enumvalue" href="../../d6/d51/spell__dk_8cpp.html#a70990262974db7bc1730b177eb17a499ae23535d4ae7804c0b21e692fa64e62eb">SPELL_DK_UNHOLY_PRESENCE</a>,</div>
+<div class="line"><span class="lineno"> 1549</span>                <a class="code hl_enumvalue" href="../../d6/d51/spell__dk_8cpp.html#a70990262974db7bc1730b177eb17a499a8015bc1ee88d84bf6af5ec8ad33dc9c5">SPELL_DK_IMPROVED_BLOOD_PRESENCE_TRIGGERED</a></div>
+<div class="line"><span class="lineno"> 1550</span>            });</div>
+<div class="line"><span class="lineno"> 1551</span>    }</div>
+<div class="ttc" id="aclass___spell_script_html_a9f7c76ac56838fbe61bf67d534979159"><div class="ttname"><a href="../../d7/d13/class___spell_script.html#a9f7c76ac56838fbe61bf67d534979159">_SpellScript::ValidateSpellInfo</a></div><div class="ttdeci">static bool ValidateSpellInfo(std::initializer_list&lt; uint32 &gt; spellIds)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:125</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Spells/<a class="el" href="../../d6/d51/spell__dk_8cpp.html">spell_dk.cpp</a></li>
+<li><a class="el" href="../../">spell_dk.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -469,7 +513,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d6/d76/classspell__dk__improved__blood__presence.html">spell_dk_improved_blood_presence</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:59 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:17 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzeorthCore: D:/azerothcore-wotlk/src/server/scripts/Northrend/IcecrownCitadel/boss_rotface.cpp File Reference</title>
+<title>AzeorthCore: boss_rotface.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -114,13 +114,15 @@ $(document).ready(function(){initNavTree('d7/d2b/boss__rotface_8cpp.html','../..
   <div class="headertitle"><div class="title">boss_rotface.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../d0/dc9/_grid_notifiers_8h_source.html">GridNotifiers.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d9/d77/_object_mgr_8h_source.html">ObjectMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d0/d7d/_script_mgr_8h_source.html">ScriptMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d3/dad/_scripted_creature_8h_source.html">ScriptedCreature.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d5/dcf/_spell_auras_8h_source.html">SpellAuras.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d9/d6a/icecrown__citadel_8h_source.html">icecrown_citadel.h</a>&quot;</code><br />
-</div><table class="memberdecls">
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">GridNotifiers.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ObjectMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptedCreature.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellAuras.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">icecrown_citadel.h</a>&quot;</code><br />
+</div>
+<p><a href="">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d71/struct_rotface_height_check.html">RotfaceHeightCheck</a></td></tr>
@@ -11515,7 +11517,35 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="af60e00b78607064c5be6aa9397ea49c1a38de9f3389120e6c6a28b2798422db74" name="af60e00b78607064c5be6aa9397ea49c1a38de9f3389120e6c6a28b2798422db74"></a>EVENT_ARCANE_BLAST&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="af60e00b78607064c5be6aa9397ea49c1a9c1eb82ba397495012178faa3efce8f9" name="af60e00b78607064c5be6aa9397ea49c1a9c1eb82ba397495012178faa3efce8f9"></a>EVENT_BELLOWING_ROAR&#160;</td><td class="fielddoc"></td></tr>
 </table>
-
+<div class="fragment"><div class="line"><span class="lineno">   77</span>{</div>
+<div class="line"><span class="lineno">   78</span>    <a class="code hl_enumvalue" href="../../d7/d2b/boss__rotface_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a939a6cc6d749a232a23ff324dca6d48c">EVENT_NONE</a>,</div>
+<div class="line"><span class="lineno">   79</span>    <span class="comment">// Rotface</span></div>
+<div class="line"><span class="lineno">   80</span>    <a class="code hl_enumvalue" href="../../d7/d2b/boss__rotface_8cpp.html#af60e00b78607064c5be6aa9397ea49c1affa73594765dfffd558f6cb2acac4ab9">EVENT_UNROOT</a>,</div>
+<div class="line"><span class="lineno">   81</span>    <a class="code hl_enumvalue" href="../../d7/d2b/boss__rotface_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a47bbd6fd157ca8317223abadc1233aca">EVENT_SLIME_SPRAY</a>,</div>
+<div class="line"><span class="lineno">   82</span>    <a class="code hl_enumvalue" href="../../d7/d2b/boss__rotface_8cpp.html#af60e00b78607064c5be6aa9397ea49c1ad60e005740d8660b12eb935b0823c6c4">EVENT_HASTEN_INFECTIONS</a>,</div>
+<div class="line"><span class="lineno">   83</span>    <a class="code hl_enumvalue" href="../../d7/d2b/boss__rotface_8cpp.html#af60e00b78607064c5be6aa9397ea49c1aadf8ca8e7b6166cf8e4971f7c77fbf72">EVENT_MUTATED_INFECTION</a>,</div>
+<div class="line"><span class="lineno">   84</span>    <a class="code hl_enumvalue" href="../../d7/d2b/boss__rotface_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a04b0f89f124acf798b1f8b28168b3559">EVENT_ROTFACE_OOZE_FLOOD</a>,</div>
+<div class="line"><span class="lineno">   85</span>    <a class="code hl_enumvalue" href="../../d7/d2b/boss__rotface_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a499b8c1f264705b6dceeb456b99e7669">EVENT_ROTFACE_VILE_GAS</a>,</div>
+<div class="line"><span class="lineno">   86</span> </div>
+<div class="line"><span class="lineno">   87</span>    <a class="code hl_enumvalue" href="../../d7/d2b/boss__rotface_8cpp.html#af60e00b78607064c5be6aa9397ea49c1aa6fda36bf97147ea76e6a76d16c8dfef">EVENT_STICKY_OOZE</a>,</div>
+<div class="line"><span class="lineno">   88</span> </div>
+<div class="line"><span class="lineno">   89</span>    <span class="comment">// Precious</span></div>
+<div class="line"><span class="lineno">   90</span>    <a class="code hl_enumvalue" href="../../d7/d2b/boss__rotface_8cpp.html#af60e00b78607064c5be6aa9397ea49c1afa14c943127f3ae15ef51e18fcc3aa97">EVENT_DECIMATE</a>,</div>
+<div class="line"><span class="lineno">   91</span>    <a class="code hl_enumvalue" href="../../d7/d2b/boss__rotface_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a4b28b406cda8e52b72782b205ea9cadf">EVENT_MORTAL_WOUND</a>,</div>
+<div class="line"><span class="lineno">   92</span>    <a class="code hl_enumvalue" href="../../d7/d2b/boss__rotface_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a46197bee1561258a5f54111fb35a9750">EVENT_SUMMON_ZOMBIES</a>,</div>
+<div class="line"><span class="lineno">   93</span>};</div>
+<div class="ttc" id="aboss__rotface_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a04b0f89f124acf798b1f8b28168b3559"><div class="ttname"><a href="../../d7/d2b/boss__rotface_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a04b0f89f124acf798b1f8b28168b3559">EVENT_ROTFACE_OOZE_FLOOD</a></div><div class="ttdeci">@ EVENT_ROTFACE_OOZE_FLOOD</div><div class="ttdef"><b>Definition:</b> boss_rotface.cpp:84</div></div>
+<div class="ttc" id="aboss__rotface_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a46197bee1561258a5f54111fb35a9750"><div class="ttname"><a href="../../d7/d2b/boss__rotface_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a46197bee1561258a5f54111fb35a9750">EVENT_SUMMON_ZOMBIES</a></div><div class="ttdeci">@ EVENT_SUMMON_ZOMBIES</div><div class="ttdef"><b>Definition:</b> boss_rotface.cpp:92</div></div>
+<div class="ttc" id="aboss__rotface_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a47bbd6fd157ca8317223abadc1233aca"><div class="ttname"><a href="../../d7/d2b/boss__rotface_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a47bbd6fd157ca8317223abadc1233aca">EVENT_SLIME_SPRAY</a></div><div class="ttdeci">@ EVENT_SLIME_SPRAY</div><div class="ttdef"><b>Definition:</b> boss_rotface.cpp:81</div></div>
+<div class="ttc" id="aboss__rotface_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a499b8c1f264705b6dceeb456b99e7669"><div class="ttname"><a href="../../d7/d2b/boss__rotface_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a499b8c1f264705b6dceeb456b99e7669">EVENT_ROTFACE_VILE_GAS</a></div><div class="ttdeci">@ EVENT_ROTFACE_VILE_GAS</div><div class="ttdef"><b>Definition:</b> boss_rotface.cpp:85</div></div>
+<div class="ttc" id="aboss__rotface_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a4b28b406cda8e52b72782b205ea9cadf"><div class="ttname"><a href="../../d7/d2b/boss__rotface_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a4b28b406cda8e52b72782b205ea9cadf">EVENT_MORTAL_WOUND</a></div><div class="ttdeci">@ EVENT_MORTAL_WOUND</div><div class="ttdef"><b>Definition:</b> boss_rotface.cpp:91</div></div>
+<div class="ttc" id="aboss__rotface_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a939a6cc6d749a232a23ff324dca6d48c"><div class="ttname"><a href="../../d7/d2b/boss__rotface_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a939a6cc6d749a232a23ff324dca6d48c">EVENT_NONE</a></div><div class="ttdeci">@ EVENT_NONE</div><div class="ttdef"><b>Definition:</b> boss_rotface.cpp:78</div></div>
+<div class="ttc" id="aboss__rotface_8cpp_html_af60e00b78607064c5be6aa9397ea49c1aa6fda36bf97147ea76e6a76d16c8dfef"><div class="ttname"><a href="../../d7/d2b/boss__rotface_8cpp.html#af60e00b78607064c5be6aa9397ea49c1aa6fda36bf97147ea76e6a76d16c8dfef">EVENT_STICKY_OOZE</a></div><div class="ttdeci">@ EVENT_STICKY_OOZE</div><div class="ttdef"><b>Definition:</b> boss_rotface.cpp:87</div></div>
+<div class="ttc" id="aboss__rotface_8cpp_html_af60e00b78607064c5be6aa9397ea49c1aadf8ca8e7b6166cf8e4971f7c77fbf72"><div class="ttname"><a href="../../d7/d2b/boss__rotface_8cpp.html#af60e00b78607064c5be6aa9397ea49c1aadf8ca8e7b6166cf8e4971f7c77fbf72">EVENT_MUTATED_INFECTION</a></div><div class="ttdeci">@ EVENT_MUTATED_INFECTION</div><div class="ttdef"><b>Definition:</b> boss_rotface.cpp:83</div></div>
+<div class="ttc" id="aboss__rotface_8cpp_html_af60e00b78607064c5be6aa9397ea49c1ad60e005740d8660b12eb935b0823c6c4"><div class="ttname"><a href="../../d7/d2b/boss__rotface_8cpp.html#af60e00b78607064c5be6aa9397ea49c1ad60e005740d8660b12eb935b0823c6c4">EVENT_HASTEN_INFECTIONS</a></div><div class="ttdeci">@ EVENT_HASTEN_INFECTIONS</div><div class="ttdef"><b>Definition:</b> boss_rotface.cpp:82</div></div>
+<div class="ttc" id="aboss__rotface_8cpp_html_af60e00b78607064c5be6aa9397ea49c1afa14c943127f3ae15ef51e18fcc3aa97"><div class="ttname"><a href="../../d7/d2b/boss__rotface_8cpp.html#af60e00b78607064c5be6aa9397ea49c1afa14c943127f3ae15ef51e18fcc3aa97">EVENT_DECIMATE</a></div><div class="ttdeci">@ EVENT_DECIMATE</div><div class="ttdef"><b>Definition:</b> boss_rotface.cpp:90</div></div>
+<div class="ttc" id="aboss__rotface_8cpp_html_af60e00b78607064c5be6aa9397ea49c1affa73594765dfffd558f6cb2acac4ab9"><div class="ttname"><a href="../../d7/d2b/boss__rotface_8cpp.html#af60e00b78607064c5be6aa9397ea49c1affa73594765dfffd558f6cb2acac4ab9">EVENT_UNROOT</a></div><div class="ttdeci">@ EVENT_UNROOT</div><div class="ttdef"><b>Definition:</b> boss_rotface.cpp:80</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a5bd342133be8c2137b831460acc9298c" name="a5bd342133be8c2137b831460acc9298c"></a>
@@ -14427,7 +14457,55 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="a5bd342133be8c2137b831460acc9298ca504d01cfc63a8b604bcd1b8e4885a5df" name="a5bd342133be8c2137b831460acc9298ca504d01cfc63a8b604bcd1b8e4885a5df"></a>SPELL_SUMMON_NETHER_WRAITH_3&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a5bd342133be8c2137b831460acc9298cab148123342fab6e991d3dcc39a339386" name="a5bd342133be8c2137b831460acc9298cab148123342fab6e991d3dcc39a339386"></a>SPELL_SUMMON_NETHER_WRAITH_4&#160;</td><td class="fielddoc"></td></tr>
 </table>
-
+<div class="fragment"><div class="line"><span class="lineno">   44</span>{</div>
+<div class="line"><span class="lineno">   45</span>    <span class="comment">// Rotface</span></div>
+<div class="line"><span class="lineno">   46</span>    <a class="code hl_enumvalue" href="../../d7/d2b/boss__rotface_8cpp.html#a5bd342133be8c2137b831460acc9298ca9c5d1f42537cacfa5399c0fad0c3e9e4">SPELL_SLIME_SPRAY</a>                       = 69508,    <span class="comment">// every 20 seconds</span></div>
+<div class="line"><span class="lineno">   47</span>    <a class="code hl_enumvalue" href="../../d7/d2b/boss__rotface_8cpp.html#a5bd342133be8c2137b831460acc9298ca02bb9bd175710dfac5885844a5c09243">SPELL_MUTATED_INFECTION</a>                 = 69674,    <span class="comment">// hastens every 1:30</span></div>
+<div class="line"><span class="lineno">   48</span> </div>
+<div class="line"><span class="lineno">   49</span>    <a class="code hl_enumvalue" href="../../d7/d2b/boss__rotface_8cpp.html#a5bd342133be8c2137b831460acc9298cac6d290a2f854fba413e19bc45b196baf">SPELL_VILE_GAS_H</a>                        = 69240,</div>
+<div class="line"><span class="lineno">   50</span> </div>
+<div class="line"><span class="lineno">   51</span>    <span class="comment">// Ooze Flood</span></div>
+<div class="line"><span class="lineno">   52</span>    <a class="code hl_enumvalue" href="../../d7/d2b/boss__rotface_8cpp.html#a5bd342133be8c2137b831460acc9298ca08d9442d10ad2eae61eed612099a7a42">SPELL_OOZE_FLOOD_VISUAL</a>                 = 69785,</div>
+<div class="line"><span class="lineno">   53</span>    <a class="code hl_enumvalue" href="../../d7/d2b/boss__rotface_8cpp.html#a5bd342133be8c2137b831460acc9298cabf5964d8547068bb4af165c9a81cd2e4">SPELL_OOZE_FLOOD_PERIODIC</a>               = 69788,</div>
+<div class="line"><span class="lineno">   54</span> </div>
+<div class="line"><span class="lineno">   55</span>    <span class="comment">// Oozes</span></div>
+<div class="line"><span class="lineno">   56</span>    <a class="code hl_enumvalue" href="../../d7/d2b/boss__rotface_8cpp.html#a5bd342133be8c2137b831460acc9298cace637208b829cd09ea4d1583c4648e5b">SPELL_LITTLE_OOZE_COMBINE</a>               = 69537,    <span class="comment">// combine 2 Small Oozes</span></div>
+<div class="line"><span class="lineno">   57</span>    <a class="code hl_enumvalue" href="../../d7/d2b/boss__rotface_8cpp.html#a5bd342133be8c2137b831460acc9298ca164d610da19edfc1dd3a64b11dc7ea8c">SPELL_LARGE_OOZE_COMBINE</a>                = 69552,    <span class="comment">// combine 2 Large Oozes</span></div>
+<div class="line"><span class="lineno">   58</span>    <a class="code hl_enumvalue" href="../../d7/d2b/boss__rotface_8cpp.html#a5bd342133be8c2137b831460acc9298cae4f31dc0284b8a2171b718a657bc32cd">SPELL_LARGE_OOZE_BUFF_COMBINE</a>           = 69611,    <span class="comment">// combine Large and Small Ooze</span></div>
+<div class="line"><span class="lineno">   59</span>    <a class="code hl_enumvalue" href="../../d7/d2b/boss__rotface_8cpp.html#a5bd342133be8c2137b831460acc9298cafc32d04454cbb030d53f15f291abce3e">SPELL_OOZE_MERGE</a>                        = 69889,    <span class="comment">// 2 Small Oozes summon a Large Ooze</span></div>
+<div class="line"><span class="lineno">   60</span>    <a class="code hl_enumvalue" href="../../d7/d2b/boss__rotface_8cpp.html#a5bd342133be8c2137b831460acc9298caba1e6515747bf8031d80a79c33bf0969">SPELL_WEAK_RADIATING_OOZE</a>               = 69750,    <span class="comment">// passive damage aura - small</span></div>
+<div class="line"><span class="lineno">   61</span>    <a class="code hl_enumvalue" href="../../d7/d2b/boss__rotface_8cpp.html#a5bd342133be8c2137b831460acc9298ca4debec0e0a5b1b0ebedfdeb032def43c">SPELL_RADIATING_OOZE</a>                    = 69760,    <span class="comment">// passive damage aura - large</span></div>
+<div class="line"><span class="lineno">   62</span>    <a class="code hl_enumvalue" href="../../d7/d2b/boss__rotface_8cpp.html#a5bd342133be8c2137b831460acc9298ca2757fcab73fa4d7f236bfa57db45f650">SPELL_UNSTABLE_OOZE</a>                     = 69558,    <span class="comment">// damage boost and counter for explosion</span></div>
+<div class="line"><span class="lineno">   63</span>    <a class="code hl_enumvalue" href="../../d7/d2b/boss__rotface_8cpp.html#a5bd342133be8c2137b831460acc9298cae3033625357769b2a8f88d68692a2e61">SPELL_GREEN_ABOMINATION_HITTIN__YA_PROC</a> = 70001,    <span class="comment">// prevents getting hit by infection</span></div>
+<div class="line"><span class="lineno">   64</span>    <a class="code hl_enumvalue" href="../../d7/d2b/boss__rotface_8cpp.html#a5bd342133be8c2137b831460acc9298ca21ced53c24796c215b0dbfe9bd31a2d2">SPELL_UNSTABLE_OOZE_EXPLOSION</a>           = 69839,</div>
+<div class="line"><span class="lineno">   65</span>    <a class="code hl_enumvalue" href="../../d7/d2b/boss__rotface_8cpp.html#a5bd342133be8c2137b831460acc9298cac98e51577a60674a52fbd4e388437493">SPELL_STICKY_OOZE</a>                       = 69774,</div>
+<div class="line"><span class="lineno">   66</span>    <a class="code hl_enumvalue" href="../../d7/d2b/boss__rotface_8cpp.html#a5bd342133be8c2137b831460acc9298ca307c028c73ad97c95b07e5449a1cb170">SPELL_UNSTABLE_OOZE_EXPLOSION_TRIGGER</a>   = 69832,</div>
+<div class="line"><span class="lineno">   67</span> </div>
+<div class="line"><span class="lineno">   68</span>    <span class="comment">// Precious</span></div>
+<div class="line"><span class="lineno">   69</span>    <a class="code hl_enumvalue" href="../../d7/d2b/boss__rotface_8cpp.html#a5bd342133be8c2137b831460acc9298cade4f4dd4b7799e3729980832dbc60e4c">SPELL_MORTAL_WOUND</a>                      = 71127,</div>
+<div class="line"><span class="lineno">   70</span>    <a class="code hl_enumvalue" href="../../d7/d2b/boss__rotface_8cpp.html#a5bd342133be8c2137b831460acc9298cac4e03f3e6d6650e974e1ad899dfb2d56">SPELL_DECIMATE</a>                          = 71123,</div>
+<div class="line"><span class="lineno">   71</span>    <a class="code hl_enumvalue" href="../../d7/d2b/boss__rotface_8cpp.html#a5bd342133be8c2137b831460acc9298ca50ad689b2f503dce3a43384f6a4b3267">SPELL_AWAKEN_PLAGUED_ZOMBIES</a>            = 71159,</div>
+<div class="line"><span class="lineno">   72</span>};</div>
+<div class="ttc" id="aboss__rotface_8cpp_html_a5bd342133be8c2137b831460acc9298ca02bb9bd175710dfac5885844a5c09243"><div class="ttname"><a href="../../d7/d2b/boss__rotface_8cpp.html#a5bd342133be8c2137b831460acc9298ca02bb9bd175710dfac5885844a5c09243">SPELL_MUTATED_INFECTION</a></div><div class="ttdeci">@ SPELL_MUTATED_INFECTION</div><div class="ttdef"><b>Definition:</b> boss_rotface.cpp:47</div></div>
+<div class="ttc" id="aboss__rotface_8cpp_html_a5bd342133be8c2137b831460acc9298ca08d9442d10ad2eae61eed612099a7a42"><div class="ttname"><a href="../../d7/d2b/boss__rotface_8cpp.html#a5bd342133be8c2137b831460acc9298ca08d9442d10ad2eae61eed612099a7a42">SPELL_OOZE_FLOOD_VISUAL</a></div><div class="ttdeci">@ SPELL_OOZE_FLOOD_VISUAL</div><div class="ttdef"><b>Definition:</b> boss_rotface.cpp:52</div></div>
+<div class="ttc" id="aboss__rotface_8cpp_html_a5bd342133be8c2137b831460acc9298ca164d610da19edfc1dd3a64b11dc7ea8c"><div class="ttname"><a href="../../d7/d2b/boss__rotface_8cpp.html#a5bd342133be8c2137b831460acc9298ca164d610da19edfc1dd3a64b11dc7ea8c">SPELL_LARGE_OOZE_COMBINE</a></div><div class="ttdeci">@ SPELL_LARGE_OOZE_COMBINE</div><div class="ttdef"><b>Definition:</b> boss_rotface.cpp:57</div></div>
+<div class="ttc" id="aboss__rotface_8cpp_html_a5bd342133be8c2137b831460acc9298ca21ced53c24796c215b0dbfe9bd31a2d2"><div class="ttname"><a href="../../d7/d2b/boss__rotface_8cpp.html#a5bd342133be8c2137b831460acc9298ca21ced53c24796c215b0dbfe9bd31a2d2">SPELL_UNSTABLE_OOZE_EXPLOSION</a></div><div class="ttdeci">@ SPELL_UNSTABLE_OOZE_EXPLOSION</div><div class="ttdef"><b>Definition:</b> boss_rotface.cpp:64</div></div>
+<div class="ttc" id="aboss__rotface_8cpp_html_a5bd342133be8c2137b831460acc9298ca2757fcab73fa4d7f236bfa57db45f650"><div class="ttname"><a href="../../d7/d2b/boss__rotface_8cpp.html#a5bd342133be8c2137b831460acc9298ca2757fcab73fa4d7f236bfa57db45f650">SPELL_UNSTABLE_OOZE</a></div><div class="ttdeci">@ SPELL_UNSTABLE_OOZE</div><div class="ttdef"><b>Definition:</b> boss_rotface.cpp:62</div></div>
+<div class="ttc" id="aboss__rotface_8cpp_html_a5bd342133be8c2137b831460acc9298ca307c028c73ad97c95b07e5449a1cb170"><div class="ttname"><a href="../../d7/d2b/boss__rotface_8cpp.html#a5bd342133be8c2137b831460acc9298ca307c028c73ad97c95b07e5449a1cb170">SPELL_UNSTABLE_OOZE_EXPLOSION_TRIGGER</a></div><div class="ttdeci">@ SPELL_UNSTABLE_OOZE_EXPLOSION_TRIGGER</div><div class="ttdef"><b>Definition:</b> boss_rotface.cpp:66</div></div>
+<div class="ttc" id="aboss__rotface_8cpp_html_a5bd342133be8c2137b831460acc9298ca4debec0e0a5b1b0ebedfdeb032def43c"><div class="ttname"><a href="../../d7/d2b/boss__rotface_8cpp.html#a5bd342133be8c2137b831460acc9298ca4debec0e0a5b1b0ebedfdeb032def43c">SPELL_RADIATING_OOZE</a></div><div class="ttdeci">@ SPELL_RADIATING_OOZE</div><div class="ttdef"><b>Definition:</b> boss_rotface.cpp:61</div></div>
+<div class="ttc" id="aboss__rotface_8cpp_html_a5bd342133be8c2137b831460acc9298ca50ad689b2f503dce3a43384f6a4b3267"><div class="ttname"><a href="../../d7/d2b/boss__rotface_8cpp.html#a5bd342133be8c2137b831460acc9298ca50ad689b2f503dce3a43384f6a4b3267">SPELL_AWAKEN_PLAGUED_ZOMBIES</a></div><div class="ttdeci">@ SPELL_AWAKEN_PLAGUED_ZOMBIES</div><div class="ttdef"><b>Definition:</b> boss_rotface.cpp:71</div></div>
+<div class="ttc" id="aboss__rotface_8cpp_html_a5bd342133be8c2137b831460acc9298ca9c5d1f42537cacfa5399c0fad0c3e9e4"><div class="ttname"><a href="../../d7/d2b/boss__rotface_8cpp.html#a5bd342133be8c2137b831460acc9298ca9c5d1f42537cacfa5399c0fad0c3e9e4">SPELL_SLIME_SPRAY</a></div><div class="ttdeci">@ SPELL_SLIME_SPRAY</div><div class="ttdef"><b>Definition:</b> boss_rotface.cpp:46</div></div>
+<div class="ttc" id="aboss__rotface_8cpp_html_a5bd342133be8c2137b831460acc9298caba1e6515747bf8031d80a79c33bf0969"><div class="ttname"><a href="../../d7/d2b/boss__rotface_8cpp.html#a5bd342133be8c2137b831460acc9298caba1e6515747bf8031d80a79c33bf0969">SPELL_WEAK_RADIATING_OOZE</a></div><div class="ttdeci">@ SPELL_WEAK_RADIATING_OOZE</div><div class="ttdef"><b>Definition:</b> boss_rotface.cpp:60</div></div>
+<div class="ttc" id="aboss__rotface_8cpp_html_a5bd342133be8c2137b831460acc9298cabf5964d8547068bb4af165c9a81cd2e4"><div class="ttname"><a href="../../d7/d2b/boss__rotface_8cpp.html#a5bd342133be8c2137b831460acc9298cabf5964d8547068bb4af165c9a81cd2e4">SPELL_OOZE_FLOOD_PERIODIC</a></div><div class="ttdeci">@ SPELL_OOZE_FLOOD_PERIODIC</div><div class="ttdef"><b>Definition:</b> boss_rotface.cpp:53</div></div>
+<div class="ttc" id="aboss__rotface_8cpp_html_a5bd342133be8c2137b831460acc9298cac4e03f3e6d6650e974e1ad899dfb2d56"><div class="ttname"><a href="../../d7/d2b/boss__rotface_8cpp.html#a5bd342133be8c2137b831460acc9298cac4e03f3e6d6650e974e1ad899dfb2d56">SPELL_DECIMATE</a></div><div class="ttdeci">@ SPELL_DECIMATE</div><div class="ttdef"><b>Definition:</b> boss_rotface.cpp:70</div></div>
+<div class="ttc" id="aboss__rotface_8cpp_html_a5bd342133be8c2137b831460acc9298cac6d290a2f854fba413e19bc45b196baf"><div class="ttname"><a href="../../d7/d2b/boss__rotface_8cpp.html#a5bd342133be8c2137b831460acc9298cac6d290a2f854fba413e19bc45b196baf">SPELL_VILE_GAS_H</a></div><div class="ttdeci">@ SPELL_VILE_GAS_H</div><div class="ttdef"><b>Definition:</b> boss_rotface.cpp:49</div></div>
+<div class="ttc" id="aboss__rotface_8cpp_html_a5bd342133be8c2137b831460acc9298cac98e51577a60674a52fbd4e388437493"><div class="ttname"><a href="../../d7/d2b/boss__rotface_8cpp.html#a5bd342133be8c2137b831460acc9298cac98e51577a60674a52fbd4e388437493">SPELL_STICKY_OOZE</a></div><div class="ttdeci">@ SPELL_STICKY_OOZE</div><div class="ttdef"><b>Definition:</b> boss_rotface.cpp:65</div></div>
+<div class="ttc" id="aboss__rotface_8cpp_html_a5bd342133be8c2137b831460acc9298cace637208b829cd09ea4d1583c4648e5b"><div class="ttname"><a href="../../d7/d2b/boss__rotface_8cpp.html#a5bd342133be8c2137b831460acc9298cace637208b829cd09ea4d1583c4648e5b">SPELL_LITTLE_OOZE_COMBINE</a></div><div class="ttdeci">@ SPELL_LITTLE_OOZE_COMBINE</div><div class="ttdef"><b>Definition:</b> boss_rotface.cpp:56</div></div>
+<div class="ttc" id="aboss__rotface_8cpp_html_a5bd342133be8c2137b831460acc9298cade4f4dd4b7799e3729980832dbc60e4c"><div class="ttname"><a href="../../d7/d2b/boss__rotface_8cpp.html#a5bd342133be8c2137b831460acc9298cade4f4dd4b7799e3729980832dbc60e4c">SPELL_MORTAL_WOUND</a></div><div class="ttdeci">@ SPELL_MORTAL_WOUND</div><div class="ttdef"><b>Definition:</b> boss_rotface.cpp:69</div></div>
+<div class="ttc" id="aboss__rotface_8cpp_html_a5bd342133be8c2137b831460acc9298cae3033625357769b2a8f88d68692a2e61"><div class="ttname"><a href="../../d7/d2b/boss__rotface_8cpp.html#a5bd342133be8c2137b831460acc9298cae3033625357769b2a8f88d68692a2e61">SPELL_GREEN_ABOMINATION_HITTIN__YA_PROC</a></div><div class="ttdeci">@ SPELL_GREEN_ABOMINATION_HITTIN__YA_PROC</div><div class="ttdef"><b>Definition:</b> boss_rotface.cpp:63</div></div>
+<div class="ttc" id="aboss__rotface_8cpp_html_a5bd342133be8c2137b831460acc9298cae4f31dc0284b8a2171b718a657bc32cd"><div class="ttname"><a href="../../d7/d2b/boss__rotface_8cpp.html#a5bd342133be8c2137b831460acc9298cae4f31dc0284b8a2171b718a657bc32cd">SPELL_LARGE_OOZE_BUFF_COMBINE</a></div><div class="ttdeci">@ SPELL_LARGE_OOZE_BUFF_COMBINE</div><div class="ttdef"><b>Definition:</b> boss_rotface.cpp:58</div></div>
+<div class="ttc" id="aboss__rotface_8cpp_html_a5bd342133be8c2137b831460acc9298cafc32d04454cbb030d53f15f291abce3e"><div class="ttname"><a href="../../d7/d2b/boss__rotface_8cpp.html#a5bd342133be8c2137b831460acc9298cafc32d04454cbb030d53f15f291abce3e">SPELL_OOZE_MERGE</a></div><div class="ttdeci">@ SPELL_OOZE_MERGE</div><div class="ttdef"><b>Definition:</b> boss_rotface.cpp:59</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aa80bce1d0ea05213c0d6c327126caf31" name="aa80bce1d0ea05213c0d6c327126caf31"></a>
@@ -15001,7 +15079,35 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="aa80bce1d0ea05213c0d6c327126caf31a9e64f6e600dd42567d18006912811f75" name="aa80bce1d0ea05213c0d6c327126caf31a9e64f6e600dd42567d18006912811f75"></a>SAY_SLAY&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aa80bce1d0ea05213c0d6c327126caf31a04c962d9b6aaafde54ff92a54369135e" name="aa80bce1d0ea05213c0d6c327126caf31a04c962d9b6aaafde54ff92a54369135e"></a>SAY_DEATH&#160;</td><td class="fielddoc"></td></tr>
 </table>
-
+<div class="fragment"><div class="line"><span class="lineno">   26</span>{</div>
+<div class="line"><span class="lineno">   27</span>    <a class="code hl_enumvalue" href="../../d7/d2b/boss__rotface_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31aeb2e769aad7571a9d68da85def270da4">SAY_PRECIOUS_DIES</a>           = 0,</div>
+<div class="line"><span class="lineno">   28</span>    <a class="code hl_enumvalue" href="../../d7/d2b/boss__rotface_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31a47c752fff069f3e55065795eef2a9bfe">SAY_AGGRO</a>                   = 1,</div>
+<div class="line"><span class="lineno">   29</span>    <a class="code hl_enumvalue" href="../../d7/d2b/boss__rotface_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31a2e046d15941ed68f99bca6fa8116be5a">EMOTE_SLIME_SPRAY</a>           = 2,</div>
+<div class="line"><span class="lineno">   30</span>    <a class="code hl_enumvalue" href="../../d7/d2b/boss__rotface_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31a8f12a16b3e3dae8d24d4489c49607093">SAY_SLIME_SPRAY</a>             = 3,</div>
+<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../d7/d2b/boss__rotface_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31abcda23063a588c2b95d1210e578f4220">EMOTE_UNSTABLE_EXPLOSION</a>    = 4,</div>
+<div class="line"><span class="lineno">   32</span>    <a class="code hl_enumvalue" href="../../d7/d2b/boss__rotface_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31a43f114c348d9ef7c4ce745c8e268e638">SAY_UNSTABLE_EXPLOSION</a>      = 5,</div>
+<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../d7/d2b/boss__rotface_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31a7f4f26c3b97b953fd229ac5d308024d5">SAY_KILL</a>                    = 6,</div>
+<div class="line"><span class="lineno">   34</span>    <a class="code hl_enumvalue" href="../../d7/d2b/boss__rotface_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31ada55f761193c5ce51964480004c8462b">SAY_BERSERK</a>                 = 7,</div>
+<div class="line"><span class="lineno">   35</span>    <a class="code hl_enumvalue" href="../../d7/d2b/boss__rotface_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31a04c962d9b6aaafde54ff92a54369135e">SAY_DEATH</a>                   = 8,</div>
+<div class="line"><span class="lineno">   36</span>    <a class="code hl_enumvalue" href="../../d7/d2b/boss__rotface_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31a02da6af9d47e85b3bc84386186c16328">EMOTE_MUTATED_INFECTION</a>     = 9,</div>
+<div class="line"><span class="lineno">   37</span> </div>
+<div class="line"><span class="lineno">   38</span>    <a class="code hl_enumvalue" href="../../d7/d2b/boss__rotface_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31ad391024e6fdd7a216255ef00a1cd6825">SAY_ROTFACE_OOZE_FLOOD</a>      = 2, <span class="comment">// professor</span></div>
+<div class="line"><span class="lineno">   39</span> </div>
+<div class="line"><span class="lineno">   40</span>    <a class="code hl_enumvalue" href="../../d7/d2b/boss__rotface_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31ab9e50d083a2130c1389b929e748f7ba0">EMOTE_PRECIOUS_ZOMBIES</a>      = 0,</div>
+<div class="line"><span class="lineno">   41</span>};</div>
+<div class="ttc" id="aboss__rotface_8cpp_html_aa80bce1d0ea05213c0d6c327126caf31a02da6af9d47e85b3bc84386186c16328"><div class="ttname"><a href="../../d7/d2b/boss__rotface_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31a02da6af9d47e85b3bc84386186c16328">EMOTE_MUTATED_INFECTION</a></div><div class="ttdeci">@ EMOTE_MUTATED_INFECTION</div><div class="ttdef"><b>Definition:</b> boss_rotface.cpp:36</div></div>
+<div class="ttc" id="aboss__rotface_8cpp_html_aa80bce1d0ea05213c0d6c327126caf31a04c962d9b6aaafde54ff92a54369135e"><div class="ttname"><a href="../../d7/d2b/boss__rotface_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31a04c962d9b6aaafde54ff92a54369135e">SAY_DEATH</a></div><div class="ttdeci">@ SAY_DEATH</div><div class="ttdef"><b>Definition:</b> boss_rotface.cpp:35</div></div>
+<div class="ttc" id="aboss__rotface_8cpp_html_aa80bce1d0ea05213c0d6c327126caf31a2e046d15941ed68f99bca6fa8116be5a"><div class="ttname"><a href="../../d7/d2b/boss__rotface_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31a2e046d15941ed68f99bca6fa8116be5a">EMOTE_SLIME_SPRAY</a></div><div class="ttdeci">@ EMOTE_SLIME_SPRAY</div><div class="ttdef"><b>Definition:</b> boss_rotface.cpp:29</div></div>
+<div class="ttc" id="aboss__rotface_8cpp_html_aa80bce1d0ea05213c0d6c327126caf31a43f114c348d9ef7c4ce745c8e268e638"><div class="ttname"><a href="../../d7/d2b/boss__rotface_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31a43f114c348d9ef7c4ce745c8e268e638">SAY_UNSTABLE_EXPLOSION</a></div><div class="ttdeci">@ SAY_UNSTABLE_EXPLOSION</div><div class="ttdef"><b>Definition:</b> boss_rotface.cpp:32</div></div>
+<div class="ttc" id="aboss__rotface_8cpp_html_aa80bce1d0ea05213c0d6c327126caf31a47c752fff069f3e55065795eef2a9bfe"><div class="ttname"><a href="../../d7/d2b/boss__rotface_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31a47c752fff069f3e55065795eef2a9bfe">SAY_AGGRO</a></div><div class="ttdeci">@ SAY_AGGRO</div><div class="ttdef"><b>Definition:</b> boss_rotface.cpp:28</div></div>
+<div class="ttc" id="aboss__rotface_8cpp_html_aa80bce1d0ea05213c0d6c327126caf31a7f4f26c3b97b953fd229ac5d308024d5"><div class="ttname"><a href="../../d7/d2b/boss__rotface_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31a7f4f26c3b97b953fd229ac5d308024d5">SAY_KILL</a></div><div class="ttdeci">@ SAY_KILL</div><div class="ttdef"><b>Definition:</b> boss_rotface.cpp:33</div></div>
+<div class="ttc" id="aboss__rotface_8cpp_html_aa80bce1d0ea05213c0d6c327126caf31a8f12a16b3e3dae8d24d4489c49607093"><div class="ttname"><a href="../../d7/d2b/boss__rotface_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31a8f12a16b3e3dae8d24d4489c49607093">SAY_SLIME_SPRAY</a></div><div class="ttdeci">@ SAY_SLIME_SPRAY</div><div class="ttdef"><b>Definition:</b> boss_rotface.cpp:30</div></div>
+<div class="ttc" id="aboss__rotface_8cpp_html_aa80bce1d0ea05213c0d6c327126caf31ab9e50d083a2130c1389b929e748f7ba0"><div class="ttname"><a href="../../d7/d2b/boss__rotface_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31ab9e50d083a2130c1389b929e748f7ba0">EMOTE_PRECIOUS_ZOMBIES</a></div><div class="ttdeci">@ EMOTE_PRECIOUS_ZOMBIES</div><div class="ttdef"><b>Definition:</b> boss_rotface.cpp:40</div></div>
+<div class="ttc" id="aboss__rotface_8cpp_html_aa80bce1d0ea05213c0d6c327126caf31abcda23063a588c2b95d1210e578f4220"><div class="ttname"><a href="../../d7/d2b/boss__rotface_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31abcda23063a588c2b95d1210e578f4220">EMOTE_UNSTABLE_EXPLOSION</a></div><div class="ttdeci">@ EMOTE_UNSTABLE_EXPLOSION</div><div class="ttdef"><b>Definition:</b> boss_rotface.cpp:31</div></div>
+<div class="ttc" id="aboss__rotface_8cpp_html_aa80bce1d0ea05213c0d6c327126caf31ad391024e6fdd7a216255ef00a1cd6825"><div class="ttname"><a href="../../d7/d2b/boss__rotface_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31ad391024e6fdd7a216255ef00a1cd6825">SAY_ROTFACE_OOZE_FLOOD</a></div><div class="ttdeci">@ SAY_ROTFACE_OOZE_FLOOD</div><div class="ttdef"><b>Definition:</b> boss_rotface.cpp:38</div></div>
+<div class="ttc" id="aboss__rotface_8cpp_html_aa80bce1d0ea05213c0d6c327126caf31ada55f761193c5ce51964480004c8462b"><div class="ttname"><a href="../../d7/d2b/boss__rotface_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31ada55f761193c5ce51964480004c8462b">SAY_BERSERK</a></div><div class="ttdeci">@ SAY_BERSERK</div><div class="ttdef"><b>Definition:</b> boss_rotface.cpp:34</div></div>
+<div class="ttc" id="aboss__rotface_8cpp_html_aa80bce1d0ea05213c0d6c327126caf31aeb2e769aad7571a9d68da85def270da4"><div class="ttname"><a href="../../d7/d2b/boss__rotface_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31aeb2e769aad7571a9d68da85def270da4">SAY_PRECIOUS_DIES</a></div><div class="ttdeci">@ SAY_PRECIOUS_DIES</div><div class="ttdef"><b>Definition:</b> boss_rotface.cpp:27</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
@@ -15019,7 +15125,32 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  966</span>{</div>
+<div class="line"><span class="lineno">  967</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d2/d3c/classboss__rotface.html">boss_rotface</a>();</div>
+<div class="line"><span class="lineno">  968</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../db/d7f/classnpc__little__ooze.html">npc_little_ooze</a>();</div>
+<div class="line"><span class="lineno">  969</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d4/d35/classnpc__big__ooze.html">npc_big_ooze</a>();</div>
+<div class="line"><span class="lineno">  970</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d3/d96/classspell__rotface__mutated__infection.html">spell_rotface_mutated_infection</a>();</div>
+<div class="line"><span class="lineno">  971</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d2/d1b/classspell__rotface__little__ooze__combine.html">spell_rotface_little_ooze_combine</a>();</div>
+<div class="line"><span class="lineno">  972</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d2/d57/classspell__rotface__large__ooze__combine.html">spell_rotface_large_ooze_combine</a>();</div>
+<div class="line"><span class="lineno">  973</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d3/d05/classspell__rotface__large__ooze__buff__combine.html">spell_rotface_large_ooze_buff_combine</a>();</div>
+<div class="line"><span class="lineno">  974</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../da/d65/classspell__rotface__unstable__ooze__explosion__init.html">spell_rotface_unstable_ooze_explosion_init</a>();</div>
+<div class="line"><span class="lineno">  975</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d9/d89/classspell__rotface__unstable__ooze__explosion.html">spell_rotface_unstable_ooze_explosion</a>();</div>
+<div class="line"><span class="lineno">  976</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../dd/db4/classspell__rotface__unstable__ooze__explosion__suicide.html">spell_rotface_unstable_ooze_explosion_suicide</a>();</div>
+<div class="line"><span class="lineno">  977</span> </div>
+<div class="line"><span class="lineno">  978</span>    <span class="keyword">new</span> <a class="code hl_class" href="../../d7/d43/classnpc__precious__icc.html">npc_precious_icc</a>();</div>
+<div class="line"><span class="lineno">  979</span>}</div>
+<div class="ttc" id="aclassboss__rotface_html"><div class="ttname"><a href="../../d2/d3c/classboss__rotface.html">boss_rotface</a></div><div class="ttdef"><b>Definition:</b> boss_rotface.cpp:123</div></div>
+<div class="ttc" id="aclassnpc__big__ooze_html"><div class="ttname"><a href="../../d4/d35/classnpc__big__ooze.html">npc_big_ooze</a></div><div class="ttdef"><b>Definition:</b> boss_rotface.cpp:423</div></div>
+<div class="ttc" id="aclassnpc__little__ooze_html"><div class="ttname"><a href="../../db/d7f/classnpc__little__ooze.html">npc_little_ooze</a></div><div class="ttdef"><b>Definition:</b> boss_rotface.cpp:344</div></div>
+<div class="ttc" id="aclassnpc__precious__icc_html"><div class="ttname"><a href="../../d7/d43/classnpc__precious__icc.html">npc_precious_icc</a></div><div class="ttdef"><b>Definition:</b> boss_rotface.cpp:875</div></div>
+<div class="ttc" id="aclassspell__rotface__large__ooze__buff__combine_html"><div class="ttname"><a href="../../d3/d05/classspell__rotface__large__ooze__buff__combine.html">spell_rotface_large_ooze_buff_combine</a></div><div class="ttdef"><b>Definition:</b> boss_rotface.cpp:703</div></div>
+<div class="ttc" id="aclassspell__rotface__large__ooze__combine_html"><div class="ttname"><a href="../../d2/d57/classspell__rotface__large__ooze__combine.html">spell_rotface_large_ooze_combine</a></div><div class="ttdef"><b>Definition:</b> boss_rotface.cpp:625</div></div>
+<div class="ttc" id="aclassspell__rotface__little__ooze__combine_html"><div class="ttname"><a href="../../d2/d1b/classspell__rotface__little__ooze__combine.html">spell_rotface_little_ooze_combine</a></div><div class="ttdef"><b>Definition:</b> boss_rotface.cpp:589</div></div>
+<div class="ttc" id="aclassspell__rotface__mutated__infection_html"><div class="ttname"><a href="../../d3/d96/classspell__rotface__mutated__infection.html">spell_rotface_mutated_infection</a></div><div class="ttdef"><b>Definition:</b> boss_rotface.cpp:508</div></div>
+<div class="ttc" id="aclassspell__rotface__unstable__ooze__explosion__init_html"><div class="ttname"><a href="../../da/d65/classspell__rotface__unstable__ooze__explosion__init.html">spell_rotface_unstable_ooze_explosion_init</a></div><div class="ttdef"><b>Definition:</b> boss_rotface.cpp:766</div></div>
+<div class="ttc" id="aclassspell__rotface__unstable__ooze__explosion__suicide_html"><div class="ttname"><a href="../../dd/db4/classspell__rotface__unstable__ooze__explosion__suicide.html">spell_rotface_unstable_ooze_explosion_suicide</a></div><div class="ttdef"><b>Definition:</b> boss_rotface.cpp:841</div></div>
+<div class="ttc" id="aclassspell__rotface__unstable__ooze__explosion_html"><div class="ttname"><a href="../../d9/d89/classspell__rotface__unstable__ooze__explosion.html">spell_rotface_unstable_ooze_explosion</a></div><div class="ttdef"><b>Definition:</b> boss_rotface.cpp:804</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a3440b8f90693bcd2729d81618dc9410b" name="a3440b8f90693bcd2729d81618dc9410b"></a>
@@ -15037,7 +15168,21 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   97</span>{</div>
+<div class="line"><span class="lineno">   98</span>    <span class="keywordflow">switch</span> (<span class="keywordtype">id</span>)</div>
+<div class="line"><span class="lineno">   99</span>    {</div>
+<div class="line"><span class="lineno">  100</span>        <span class="keywordflow">case</span> 69782:</div>
+<div class="line"><span class="lineno">  101</span>            <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">  102</span>        <span class="keywordflow">case</span> 69796:</div>
+<div class="line"><span class="lineno">  103</span>            <span class="keywordflow">return</span> 1;</div>
+<div class="line"><span class="lineno">  104</span>        <span class="keywordflow">case</span> 69798:</div>
+<div class="line"><span class="lineno">  105</span>            <span class="keywordflow">return</span> 2;</div>
+<div class="line"><span class="lineno">  106</span>        <span class="keywordflow">case</span> 69801:</div>
+<div class="line"><span class="lineno">  107</span>            <span class="keywordflow">return</span> 3;</div>
+<div class="line"><span class="lineno">  108</span>    }</div>
+<div class="line"><span class="lineno">  109</span>    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">  110</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
@@ -15061,7 +15206,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_81f27dfa25f27c55a8e8044b1a11fbfb.html">Northrend</a></li><li class="navelem"><a class="el" href="../../dir_49de9ff38e0063bf9846434b8d63cf58.html">IcecrownCitadel</a></li><li class="navelem"><a class="el" href="../../d7/d2b/boss__rotface_8cpp.html">boss_rotface.cpp</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:29 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:41 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

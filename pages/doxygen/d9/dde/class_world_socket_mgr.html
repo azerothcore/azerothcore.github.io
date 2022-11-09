@@ -120,7 +120,7 @@ $(document).ready(function(){initNavTree('d9/dde/class_world_socket_mgr.html','.
 <p>Manages all sockets connected to peers and network threads.  
  <a href="../../d9/dde/class_world_socket_mgr.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../da/d74/_world_socket_mgr_8h_source.html">WorldSocketMgr.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">WorldSocketMgr.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for WorldSocketMgr:</div>
 <div class="dyncontent">
@@ -255,7 +255,15 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   40</span>                               :</div>
+<div class="line"><span class="lineno">   41</span>    <a class="code hl_typedef" href="../../d9/dde/class_world_socket_mgr.html#a6f9671b94ae64c0c3482e085cb2a252f">BaseSocketMgr</a>(), <a class="code hl_variable" href="../../d9/dde/class_world_socket_mgr.html#a043da77b04a29c4c5fe81698ae279985">_socketSystemSendBufferSize</a>(-1), <a class="code hl_variable" href="../../d9/dde/class_world_socket_mgr.html#a7a5ca8c2c9165d3cb1f46adbdfe917b0">_socketApplicationSendBufferSize</a>(65536), <a class="code hl_variable" href="../../d9/dde/class_world_socket_mgr.html#a6f440c4cde2deaa72cbc5dbd348a00b6">_tcpNoDelay</a>(<span class="keyword">true</span>)</div>
+<div class="line"><span class="lineno">   42</span>{</div>
+<div class="line"><span class="lineno">   43</span>}</div>
+<div class="ttc" id="aclass_world_socket_mgr_html_a043da77b04a29c4c5fe81698ae279985"><div class="ttname"><a href="../../d9/dde/class_world_socket_mgr.html#a043da77b04a29c4c5fe81698ae279985">WorldSocketMgr::_socketSystemSendBufferSize</a></div><div class="ttdeci">int32 _socketSystemSendBufferSize</div><div class="ttdef"><b>Definition:</b> WorldSocketMgr.h:59</div></div>
+<div class="ttc" id="aclass_world_socket_mgr_html_a6f440c4cde2deaa72cbc5dbd348a00b6"><div class="ttname"><a href="../../d9/dde/class_world_socket_mgr.html#a6f440c4cde2deaa72cbc5dbd348a00b6">WorldSocketMgr::_tcpNoDelay</a></div><div class="ttdeci">bool _tcpNoDelay</div><div class="ttdef"><b>Definition:</b> WorldSocketMgr.h:61</div></div>
+<div class="ttc" id="aclass_world_socket_mgr_html_a6f9671b94ae64c0c3482e085cb2a252f"><div class="ttname"><a href="../../d9/dde/class_world_socket_mgr.html#a6f9671b94ae64c0c3482e085cb2a252f">WorldSocketMgr::BaseSocketMgr</a></div><div class="ttdeci">SocketMgr&lt; WorldSocket &gt; BaseSocketMgr</div><div class="ttdef"><b>Definition:</b> WorldSocketMgr.h:33</div></div>
+<div class="ttc" id="aclass_world_socket_mgr_html_a7a5ca8c2c9165d3cb1f46adbdfe917b0"><div class="ttname"><a href="../../d9/dde/class_world_socket_mgr.html#a7a5ca8c2c9165d3cb1f46adbdfe917b0">WorldSocketMgr::_socketApplicationSendBufferSize</a></div><div class="ttdeci">int32 _socketApplicationSendBufferSize</div><div class="ttdef"><b>Definition:</b> WorldSocketMgr.h:60</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -283,7 +291,12 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d54/class_socket_mgr.html#ac712a459d409da9e8f21603da8aa0305">SocketMgr&lt; WorldSocket &gt;</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  116</span>{</div>
+<div class="line"><span class="lineno">  117</span>    <span class="keywordflow">return</span> <span class="keyword">new</span> <a class="code hl_class" href="../../d1/dc2/class_world_socket_thread.html">WorldSocketThread</a>[<a class="code hl_function" href="../../d7/d54/class_socket_mgr.html#ac1afac1d7f3e5092e9fe4425412186fc">GetNetworkThreadCount</a>()];</div>
+<div class="line"><span class="lineno">  118</span>}</div>
+<div class="ttc" id="aclass_socket_mgr_html_ac1afac1d7f3e5092e9fe4425412186fc"><div class="ttname"><a href="../../d7/d54/class_socket_mgr.html#ac1afac1d7f3e5092e9fe4425412186fc">SocketMgr&lt; WorldSocket &gt;::GetNetworkThreadCount</a></div><div class="ttdeci">int32 GetNetworkThreadCount() const</div><div class="ttdef"><b>Definition:</b> SocketMgr.h:113</div></div>
+<div class="ttc" id="aclass_world_socket_thread_html"><div class="ttname"><a href="../../d1/dc2/class_world_socket_thread.html">WorldSocketThread</a></div><div class="ttdef"><b>Definition:</b> WorldSocketMgr.cpp:26</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a8deeaffd7d25bacd8bfa15d29dff6aeb" name="a8deeaffd7d25bacd8bfa15d29dff6aeb"></a>
@@ -308,7 +321,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   46</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d9/dde/class_world_socket_mgr.html#a7a5ca8c2c9165d3cb1f46adbdfe917b0">_socketApplicationSendBufferSize</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aaa32a527707cb66916b1499a2e283250" name="aaa32a527707cb66916b1499a2e283250"></a>
@@ -333,7 +347,12 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   46</span>{</div>
+<div class="line"><span class="lineno">   47</span>    <span class="keyword">static</span> <a class="code hl_class" href="../../d9/dde/class_world_socket_mgr.html">WorldSocketMgr</a> instance;</div>
+<div class="line"><span class="lineno">   48</span>    <span class="keywordflow">return</span> instance;</div>
+<div class="line"><span class="lineno">   49</span>}</div>
+<div class="ttc" id="aclass_world_socket_mgr_html"><div class="ttname"><a href="../../d9/dde/class_world_socket_mgr.html">WorldSocketMgr</a></div><div class="ttdoc">Manages all sockets connected to peers and network threads.</div><div class="ttdef"><b>Definition:</b> WorldSocketMgr.h:32</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aec088639145bbea3fcb69714ac5b5b67" name="aec088639145bbea3fcb69714ac5b5b67"></a>
@@ -369,7 +388,12 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   54</span>    {</div>
+<div class="line"><span class="lineno">   55</span>        <a class="code hl_function" href="../../d9/dde/class_world_socket_mgr.html#aaa32a527707cb66916b1499a2e283250">Instance</a>().<a class="code hl_function" href="../../d9/dde/class_world_socket_mgr.html#a308aacca5450fca4a4b35009ddd6142f">OnSocketOpen</a>(std::forward&lt;tcp::socket&gt;(sock), threadIndex);</div>
+<div class="line"><span class="lineno">   56</span>    }</div>
+<div class="ttc" id="aclass_world_socket_mgr_html_a308aacca5450fca4a4b35009ddd6142f"><div class="ttname"><a href="../../d9/dde/class_world_socket_mgr.html#a308aacca5450fca4a4b35009ddd6142f">WorldSocketMgr::OnSocketOpen</a></div><div class="ttdeci">void OnSocketOpen(tcp::socket &amp;&amp;sock, uint32 threadIndex) override</div><div class="ttdef"><b>Definition:</b> WorldSocketMgr.cpp:84</div></div>
+<div class="ttc" id="aclass_world_socket_mgr_html_aaa32a527707cb66916b1499a2e283250"><div class="ttname"><a href="../../d9/dde/class_world_socket_mgr.html#aaa32a527707cb66916b1499a2e283250">WorldSocketMgr::Instance</a></div><div class="ttdeci">static WorldSocketMgr &amp; Instance()</div><div class="ttdef"><b>Definition:</b> WorldSocketMgr.cpp:45</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a308aacca5450fca4a4b35009ddd6142f" name="a308aacca5450fca4a4b35009ddd6142f"></a>
@@ -407,7 +431,38 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d7/d54/class_socket_mgr.html#a83b2b85da48d4ffb0e1ed7577dde75c4">SocketMgr&lt; WorldSocket &gt;</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   85</span>{</div>
+<div class="line"><span class="lineno">   86</span>    <span class="comment">// set some options here</span></div>
+<div class="line"><span class="lineno">   87</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d9/dde/class_world_socket_mgr.html#a043da77b04a29c4c5fe81698ae279985">_socketSystemSendBufferSize</a> &gt;= 0)</div>
+<div class="line"><span class="lineno">   88</span>    {</div>
+<div class="line"><span class="lineno">   89</span>        boost::system::error_code err;</div>
+<div class="line"><span class="lineno">   90</span>        sock.set_option(boost::asio::socket_base::send_buffer_size(<a class="code hl_variable" href="../../d9/dde/class_world_socket_mgr.html#a043da77b04a29c4c5fe81698ae279985">_socketSystemSendBufferSize</a>), err);</div>
+<div class="line"><span class="lineno">   91</span> </div>
+<div class="line"><span class="lineno">   92</span>        <span class="keywordflow">if</span> (err &amp;&amp; err != boost::system::errc::not_supported)</div>
+<div class="line"><span class="lineno">   93</span>        {</div>
+<div class="line"><span class="lineno">   94</span>            <a class="code hl_define" href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;network&quot;</span>, <span class="stringliteral">&quot;WorldSocketMgr::OnSocketOpen sock.set_option(boost::asio::socket_base::send_buffer_size) err = {}&quot;</span>, err.message());</div>
+<div class="line"><span class="lineno">   95</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   96</span>        }</div>
+<div class="line"><span class="lineno">   97</span>    }</div>
+<div class="line"><span class="lineno">   98</span> </div>
+<div class="line"><span class="lineno">   99</span>    <span class="comment">// Set TCP_NODELAY.</span></div>
+<div class="line"><span class="lineno">  100</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d9/dde/class_world_socket_mgr.html#a6f440c4cde2deaa72cbc5dbd348a00b6">_tcpNoDelay</a>)</div>
+<div class="line"><span class="lineno">  101</span>    {</div>
+<div class="line"><span class="lineno">  102</span>        boost::system::error_code err;</div>
+<div class="line"><span class="lineno">  103</span>        sock.set_option(boost::asio::ip::tcp::no_delay(<span class="keyword">true</span>), err);</div>
+<div class="line"><span class="lineno">  104</span> </div>
+<div class="line"><span class="lineno">  105</span>        <span class="keywordflow">if</span> (err)</div>
+<div class="line"><span class="lineno">  106</span>        {</div>
+<div class="line"><span class="lineno">  107</span>            <a class="code hl_define" href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;network&quot;</span>, <span class="stringliteral">&quot;WorldSocketMgr::OnSocketOpen sock.set_option(boost::asio::ip::tcp::no_delay) err = {}&quot;</span>, err.message());</div>
+<div class="line"><span class="lineno">  108</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  109</span>        }</div>
+<div class="line"><span class="lineno">  110</span>    }</div>
+<div class="line"><span class="lineno">  111</span> </div>
+<div class="line"><span class="lineno">  112</span>    <a class="code hl_function" href="../../d7/d54/class_socket_mgr.html#a83b2b85da48d4ffb0e1ed7577dde75c4">BaseSocketMgr::OnSocketOpen</a>(std::forward&lt;tcp::socket&gt;(sock), threadIndex);</div>
+<div class="line"><span class="lineno">  113</span>}</div>
+<div class="ttc" id="a_log_8h_html_a43832e3fa8508deb4ce43e520005fcd9"><div class="ttname"><a href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a></div><div class="ttdeci">#define LOG_ERROR(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:159</div></div>
+<div class="ttc" id="aclass_socket_mgr_html_a83b2b85da48d4ffb0e1ed7577dde75c4"><div class="ttname"><a href="../../d7/d54/class_socket_mgr.html#a83b2b85da48d4ffb0e1ed7577dde75c4">SocketMgr&lt; WorldSocket &gt;::OnSocketOpen</a></div><div class="ttdeci">virtual void OnSocketOpen(tcp::socket &amp;&amp;sock, uint32 threadIndex)</div><div class="ttdef"><b>Definition:</b> SocketMgr.h:98</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="acaf85b16b490bfda8532b49456a38b71" name="acaf85b16b490bfda8532b49456a38b71"></a>
@@ -449,7 +504,40 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Start network, listen at address:port . </p>
-
+<div class="fragment"><div class="line"><span class="lineno">   52</span>{</div>
+<div class="line"><span class="lineno">   53</span>    <a class="code hl_variable" href="../../d9/dde/class_world_socket_mgr.html#a6f440c4cde2deaa72cbc5dbd348a00b6">_tcpNoDelay</a> = <a class="code hl_define" href="../../d4/d71/_config_8h.html#a7236988e98bdd405bf435a029b70a26f">sConfigMgr</a>-&gt;GetOption&lt;<span class="keywordtype">bool</span>&gt;(<span class="stringliteral">&quot;Network.TcpNodelay&quot;</span>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">   54</span> </div>
+<div class="line"><span class="lineno">   55</span>    <span class="keywordtype">int</span> <span class="keyword">const</span> max_connections = <a class="code hl_define" href="../../d0/de0/_async_acceptor_8h.html#afdd2f2e5a7ce624326cddb8f94c32b89">ACORE_MAX_LISTEN_CONNECTIONS</a>;</div>
+<div class="line"><span class="lineno">   56</span>    <a class="code hl_define" href="../../da/df4/_log_8h.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a>(<span class="stringliteral">&quot;network&quot;</span>, <span class="stringliteral">&quot;Max allowed socket connections {}&quot;</span>, max_connections);</div>
+<div class="line"><span class="lineno">   57</span> </div>
+<div class="line"><span class="lineno">   58</span>    <span class="comment">// -1 means use default</span></div>
+<div class="line"><span class="lineno">   59</span>    <a class="code hl_variable" href="../../d9/dde/class_world_socket_mgr.html#a043da77b04a29c4c5fe81698ae279985">_socketSystemSendBufferSize</a> = <a class="code hl_define" href="../../d4/d71/_config_8h.html#a7236988e98bdd405bf435a029b70a26f">sConfigMgr</a>-&gt;GetOption&lt;<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&gt;(<span class="stringliteral">&quot;Network.OutKBuff&quot;</span>, -1);</div>
+<div class="line"><span class="lineno">   60</span>    <a class="code hl_variable" href="../../d9/dde/class_world_socket_mgr.html#a7a5ca8c2c9165d3cb1f46adbdfe917b0">_socketApplicationSendBufferSize</a> = <a class="code hl_define" href="../../d4/d71/_config_8h.html#a7236988e98bdd405bf435a029b70a26f">sConfigMgr</a>-&gt;GetOption&lt;<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&gt;(<span class="stringliteral">&quot;Network.OutUBuff&quot;</span>, 65536);</div>
+<div class="line"><span class="lineno">   61</span> </div>
+<div class="line"><span class="lineno">   62</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d9/dde/class_world_socket_mgr.html#a7a5ca8c2c9165d3cb1f46adbdfe917b0">_socketApplicationSendBufferSize</a> &lt;= 0)</div>
+<div class="line"><span class="lineno">   63</span>    {</div>
+<div class="line"><span class="lineno">   64</span>        <a class="code hl_define" href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;network&quot;</span>, <span class="stringliteral">&quot;Network.OutUBuff is wrong in your config file&quot;</span>);</div>
+<div class="line"><span class="lineno">   65</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   66</span>    }</div>
+<div class="line"><span class="lineno">   67</span> </div>
+<div class="line"><span class="lineno">   68</span>    <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d7/d54/class_socket_mgr.html#a81fc5b0c7bc9750b67ca607ae0cf2c81">BaseSocketMgr::StartNetwork</a>(ioContext, bindIp, port, threadCount))</div>
+<div class="line"><span class="lineno">   69</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   70</span> </div>
+<div class="line"><span class="lineno">   71</span>    <a class="code hl_variable" href="../../d7/d54/class_socket_mgr.html#a20c428e8f98da964430ddd0c0f2564cb">_acceptor</a>-&gt;<a class="code hl_function" href="../../d7/d65/class_async_acceptor.html#ae2443c046b245262497e407c9a5b7b3f">AsyncAcceptWithCallback</a>&lt;&amp;<a class="code hl_function" href="../../d9/dde/class_world_socket_mgr.html#aec088639145bbea3fcb69714ac5b5b67">WorldSocketMgr::OnSocketAccept</a>&gt;();</div>
+<div class="line"><span class="lineno">   72</span> </div>
+<div class="line"><span class="lineno">   73</span>    <a class="code hl_define" href="../../d0/d7d/_script_mgr_8h.html#ae8161e629869974bc49b1cbfc73c1087">sScriptMgr</a>-&gt;OnNetworkStart();</div>
+<div class="line"><span class="lineno">   74</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   75</span>}</div>
+<div class="ttc" id="a_async_acceptor_8h_html_afdd2f2e5a7ce624326cddb8f94c32b89"><div class="ttname"><a href="../../d0/de0/_async_acceptor_8h.html#afdd2f2e5a7ce624326cddb8f94c32b89">ACORE_MAX_LISTEN_CONNECTIONS</a></div><div class="ttdeci">#define ACORE_MAX_LISTEN_CONNECTIONS</div><div class="ttdef"><b>Definition:</b> AsyncAcceptor.h:33</div></div>
+<div class="ttc" id="a_config_8h_html_a7236988e98bdd405bf435a029b70a26f"><div class="ttname"><a href="../../d4/d71/_config_8h.html#a7236988e98bdd405bf435a029b70a26f">sConfigMgr</a></div><div class="ttdeci">#define sConfigMgr</div><div class="ttdef"><b>Definition:</b> Config.h:92</div></div>
+<div class="ttc" id="a_define_8h_html_a0bf9964a3ce962c07ad3d8b5432bbbcd"><div class="ttname"><a href="../../db/d35/_define_8h.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a></div><div class="ttdeci">std::int32_t int32</div><div class="ttdef"><b>Definition:</b> Define.h:104</div></div>
+<div class="ttc" id="a_log_8h_html_a47ac782b14a7531c6232777165a1a161"><div class="ttname"><a href="../../da/df4/_log_8h.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a></div><div class="ttdeci">#define LOG_DEBUG(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:171</div></div>
+<div class="ttc" id="a_script_mgr_8h_html_ae8161e629869974bc49b1cbfc73c1087"><div class="ttname"><a href="../../d0/d7d/_script_mgr_8h.html#ae8161e629869974bc49b1cbfc73c1087">sScriptMgr</a></div><div class="ttdeci">#define sScriptMgr</div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:2690</div></div>
+<div class="ttc" id="aclass_async_acceptor_html_ae2443c046b245262497e407c9a5b7b3f"><div class="ttname"><a href="../../d7/d65/class_async_acceptor.html#ae2443c046b245262497e407c9a5b7b3f">AsyncAcceptor::AsyncAcceptWithCallback</a></div><div class="ttdeci">void AsyncAcceptWithCallback()</div><div class="ttdef"><b>Definition:</b> AsyncAcceptor.h:51</div></div>
+<div class="ttc" id="aclass_socket_mgr_html_a20c428e8f98da964430ddd0c0f2564cb"><div class="ttname"><a href="../../d7/d54/class_socket_mgr.html#a20c428e8f98da964430ddd0c0f2564cb">SocketMgr&lt; WorldSocket &gt;::_acceptor</a></div><div class="ttdeci">AsyncAcceptor * _acceptor</div><div class="ttdef"><b>Definition:</b> SocketMgr.h:138</div></div>
+<div class="ttc" id="aclass_socket_mgr_html_a81fc5b0c7bc9750b67ca607ae0cf2c81"><div class="ttname"><a href="../../d7/d54/class_socket_mgr.html#a81fc5b0c7bc9750b67ca607ae0cf2c81">SocketMgr&lt; WorldSocket &gt;::StartNetwork</a></div><div class="ttdeci">virtual bool StartNetwork(Acore::Asio::IoContext &amp;ioContext, std::string const &amp;bindIp, uint16 port, int threadCount)</div><div class="ttdef"><b>Definition:</b> SocketMgr.h:38</div></div>
+<div class="ttc" id="aclass_world_socket_mgr_html_aec088639145bbea3fcb69714ac5b5b67"><div class="ttname"><a href="../../d9/dde/class_world_socket_mgr.html#aec088639145bbea3fcb69714ac5b5b67">WorldSocketMgr::OnSocketAccept</a></div><div class="ttdeci">static void OnSocketAccept(tcp::socket &amp;&amp;sock, uint32 threadIndex)</div><div class="ttdef"><b>Definition:</b> WorldSocketMgr.h:53</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aede126ecfe75f2917aaf730330ea3b82" name="aede126ecfe75f2917aaf730330ea3b82"></a>
@@ -478,7 +566,13 @@ Additional Inherited Members</h2></td></tr>
 <p>Stops all network threads, It will wait for all running threads . </p>
 
 <p>Reimplemented from <a class="el" href="../../d7/d54/class_socket_mgr.html#a7966832a9ef2151033ac9eeeadffff34">SocketMgr&lt; WorldSocket &gt;</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   78</span>{</div>
+<div class="line"><span class="lineno">   79</span>    <a class="code hl_function" href="../../d7/d54/class_socket_mgr.html#a7966832a9ef2151033ac9eeeadffff34">BaseSocketMgr::StopNetwork</a>();</div>
+<div class="line"><span class="lineno">   80</span> </div>
+<div class="line"><span class="lineno">   81</span>    <a class="code hl_define" href="../../d0/d7d/_script_mgr_8h.html#ae8161e629869974bc49b1cbfc73c1087">sScriptMgr</a>-&gt;OnNetworkStop();</div>
+<div class="line"><span class="lineno">   82</span>}</div>
+<div class="ttc" id="aclass_socket_mgr_html_a7966832a9ef2151033ac9eeeadffff34"><div class="ttname"><a href="../../d7/d54/class_socket_mgr.html#a7966832a9ef2151033ac9eeeadffff34">SocketMgr&lt; WorldSocket &gt;::StopNetwork</a></div><div class="ttdeci">virtual void StopNetwork()</div><div class="ttdef"><b>Definition:</b> SocketMgr.h:74</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -549,8 +643,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Server/<a class="el" href="../../da/d74/_world_socket_mgr_8h_source.html">WorldSocketMgr.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/Server/<a class="el" href="../../d1/d71/_world_socket_mgr_8cpp.html">WorldSocketMgr.cpp</a></li>
+<li><a class="el" href="../../">WorldSocketMgr.h</a></li>
+<li><a class="el" href="../../">WorldSocketMgr.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -558,7 +652,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d9/dde/class_world_socket_mgr.html">WorldSocketMgr</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:12 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:31 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

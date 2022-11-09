@@ -396,7 +396,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ad1a5de140e171c8de6f5152f84cfed0f" name="ad1a5de140e171c8de6f5152f84cfed0f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad1a5de140e171c8de6f5152f84cfed0f">&#9670;&#160;</a></span>npc_demonic_vapor_trailAI()</h2>
 
@@ -420,7 +421,13 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  440</span>                                                      : <a class="code hl_class" href="../../d6/df7/class_null_creature_a_i.html">NullCreatureAI</a>(creature)</div>
+<div class="line"><span class="lineno">  441</span>        {</div>
+<div class="line"><span class="lineno">  442</span>            <a class="code hl_variable" href="../../d7/dca/structnpc__demonic__vapor__trail_1_1npc__demonic__vapor__trail_a_i.html#a1c19faff5d18583c90c9977f7b03ddaa">timer</a> = 1;</div>
+<div class="line"><span class="lineno">  443</span>        }</div>
+<div class="ttc" id="aclass_null_creature_a_i_html"><div class="ttname"><a href="../../d6/df7/class_null_creature_a_i.html">NullCreatureAI</a></div><div class="ttdef"><b>Definition:</b> PassiveAI.h:53</div></div>
+<div class="ttc" id="astructnpc__demonic__vapor__trail_1_1npc__demonic__vapor__trail_a_i_html_a1c19faff5d18583c90c9977f7b03ddaa"><div class="ttname"><a href="../../d7/dca/structnpc__demonic__vapor__trail_1_1npc__demonic__vapor__trail_a_i.html#a1c19faff5d18583c90c9977f7b03ddaa">npc_demonic_vapor_trail::npc_demonic_vapor_trailAI::timer</a></div><div class="ttdeci">uint32 timer</div><div class="ttdef"><b>Definition:</b> boss_felmyst.cpp:445</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -449,7 +456,15 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d2/d68/class_creature_a_i.html#a3a55253d96d72f1df305b2ccfa7284ca">CreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  471</span>        {</div>
+<div class="line"><span class="lineno">  472</span>            summon-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a01ccacf28df6336a774bf1672caf3571">SetInCombatWithZone</a>();</div>
+<div class="line"><span class="lineno">  473</span>            summon-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">AI</a>()-&gt;<a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#ae120634c255d365f1567e341e2cf1feb">AttackStart</a>(summon-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">AI</a>()-&gt;<a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6daed910a7666394bcbf8abd2f20096e">SelectTarget</a>(SelectTargetMethod::Random, 0, 100.0f));</div>
+<div class="line"><span class="lineno">  474</span>        }</div>
+<div class="ttc" id="aclass_creature_html_a01ccacf28df6336a774bf1672caf3571"><div class="ttname"><a href="../../d1/dac/class_creature.html#a01ccacf28df6336a774bf1672caf3571">Creature::SetInCombatWithZone</a></div><div class="ttdeci">void SetInCombatWithZone()</div><div class="ttdef"><b>Definition:</b> Creature.cpp:2705</div></div>
+<div class="ttc" id="aclass_creature_html_af2188eef9620b5af52ef2d3ac142db67"><div class="ttname"><a href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">Creature::AI</a></div><div class="ttdeci">CreatureAI * AI() const</div><div class="ttdef"><b>Definition:</b> Creature.h:134</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a6daed910a7666394bcbf8abd2f20096e"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a6daed910a7666394bcbf8abd2f20096e">UnitAI::SelectTarget</a></div><div class="ttdeci">Unit * SelectTarget(SelectTargetMethod targetType, uint32 position=0, float dist=0.0f, bool playerOnly=false, int32 aura=0)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:111</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_ae120634c255d365f1567e341e2cf1feb"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#ae120634c255d365f1567e341e2cf1feb">UnitAI::AttackStart</a></div><div class="ttdeci">virtual void AttackStart(Unit *)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:28</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a71e3fde121e72e0cc4a1e07d17799a53" name="a71e3fde121e72e0cc4a1e07d17799a53"></a>
@@ -476,7 +491,13 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d9c/class_unit_a_i.html#a43eb9ef68b977d98f6618d69a0d62115">UnitAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  447</span>        {</div>
+<div class="line"><span class="lineno">  448</span>            <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>, <a class="code hl_enumvalue" href="../../d6/de9/boss__felmyst_8cpp.html#a5bd342133be8c2137b831460acc9298ca3d42ce1be721513f7f1cd5f283d900cf">SPELL_DEMONIC_VAPOR_TRAIL_PERIODIC</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  449</span>        }</div>
+<div class="ttc" id="aboss__felmyst_8cpp_html_a5bd342133be8c2137b831460acc9298ca3d42ce1be721513f7f1cd5f283d900cf"><div class="ttname"><a href="../../d6/de9/boss__felmyst_8cpp.html#a5bd342133be8c2137b831460acc9298ca3d42ce1be721513f7f1cd5f283d900cf">SPELL_DEMONIC_VAPOR_TRAIL_PERIODIC</a></div><div class="ttdeci">@ SPELL_DEMONIC_VAPOR_TRAIL_PERIODIC</div><div class="ttdef"><b>Definition:</b> boss_felmyst.cpp:52</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_aee5bf3d421199445de241a34798ae819"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">CreatureAI::me</a></div><div class="ttdeci">Creature *const me</div><div class="ttdef"><b>Definition:</b> CreatureAI.h:72</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2de56cd29096804b72861ed1718d28dc" name="a2de56cd29096804b72861ed1718d28dc"></a>
@@ -514,7 +535,13 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d2/d68/class_creature_a_i.html#a1e545b8b2c9f8538d8663ef06c2c1030">CreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  452</span>        {</div>
+<div class="line"><span class="lineno">  453</span>            <span class="keywordflow">if</span> (spellInfo-&gt;Id == <a class="code hl_enumvalue" href="../../d6/de9/boss__felmyst_8cpp.html#a5bd342133be8c2137b831460acc9298ca422840d814bc81a60a9882a064129ccd">SPELL_DEMONIC_VAPOR</a>)</div>
+<div class="line"><span class="lineno">  454</span>                <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>, <a class="code hl_enumvalue" href="../../d6/de9/boss__felmyst_8cpp.html#a5bd342133be8c2137b831460acc9298cac89cc3226cea6f95f18f27773a94e097">SPELL_SUMMON_BLAZING_DEAD</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  455</span>        }</div>
+<div class="ttc" id="aboss__felmyst_8cpp_html_a5bd342133be8c2137b831460acc9298ca422840d814bc81a60a9882a064129ccd"><div class="ttname"><a href="../../d6/de9/boss__felmyst_8cpp.html#a5bd342133be8c2137b831460acc9298ca422840d814bc81a60a9882a064129ccd">SPELL_DEMONIC_VAPOR</a></div><div class="ttdeci">@ SPELL_DEMONIC_VAPOR</div><div class="ttdef"><b>Definition:</b> boss_felmyst.cpp:53</div></div>
+<div class="ttc" id="aboss__felmyst_8cpp_html_a5bd342133be8c2137b831460acc9298cac89cc3226cea6f95f18f27773a94e097"><div class="ttname"><a href="../../d6/de9/boss__felmyst_8cpp.html#a5bd342133be8c2137b831460acc9298cac89cc3226cea6f95f18f27773a94e097">SPELL_SUMMON_BLAZING_DEAD</a></div><div class="ttdeci">@ SPELL_SUMMON_BLAZING_DEAD</div><div class="ttdef"><b>Definition:</b> boss_felmyst.cpp:54</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a1762dc6690f7cb2ad579dc0fbe6383b7" name="a1762dc6690f7cb2ad579dc0fbe6383b7"></a>
@@ -542,7 +569,18 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d6/df7/class_null_creature_a_i.html#ab200fcf78dee74a2ec808c01f5855236">NullCreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  458</span>        {</div>
+<div class="line"><span class="lineno">  459</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d7/dca/structnpc__demonic__vapor__trail_1_1npc__demonic__vapor__trail_a_i.html#a1c19faff5d18583c90c9977f7b03ddaa">timer</a>)</div>
+<div class="line"><span class="lineno">  460</span>            {</div>
+<div class="line"><span class="lineno">  461</span>                <a class="code hl_variable" href="../../d7/dca/structnpc__demonic__vapor__trail_1_1npc__demonic__vapor__trail_a_i.html#a1c19faff5d18583c90c9977f7b03ddaa">timer</a> += diff;</div>
+<div class="line"><span class="lineno">  462</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d7/dca/structnpc__demonic__vapor__trail_1_1npc__demonic__vapor__trail_a_i.html#a1c19faff5d18583c90c9977f7b03ddaa">timer</a> &gt;= 6000)</div>
+<div class="line"><span class="lineno">  463</span>                {</div>
+<div class="line"><span class="lineno">  464</span>                    <a class="code hl_variable" href="../../d7/dca/structnpc__demonic__vapor__trail_1_1npc__demonic__vapor__trail_a_i.html#a1c19faff5d18583c90c9977f7b03ddaa">timer</a> = 0;</div>
+<div class="line"><span class="lineno">  465</span>                    <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>, <a class="code hl_enumvalue" href="../../d6/de9/boss__felmyst_8cpp.html#a5bd342133be8c2137b831460acc9298cac89cc3226cea6f95f18f27773a94e097">SPELL_SUMMON_BLAZING_DEAD</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  466</span>                }</div>
+<div class="line"><span class="lineno">  467</span>            }</div>
+<div class="line"><span class="lineno">  468</span>        }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -561,7 +599,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/EasternKingdoms/SunwellPlateau/<a class="el" href="../../d6/de9/boss__felmyst_8cpp.html">boss_felmyst.cpp</a></li>
+<li><a class="el" href="../../">boss_felmyst.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -569,7 +607,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../da/d9f/classnpc__demonic__vapor__trail.html">npc_demonic_vapor_trail</a></li><li class="navelem"><a class="el" href="../../d7/dca/structnpc__demonic__vapor__trail_1_1npc__demonic__vapor__trail_a_i.html">npc_demonic_vapor_trailAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:49 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:04 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

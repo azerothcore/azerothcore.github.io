@@ -196,7 +196,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a22a51a980875ccae8a285d7804967747 inherit pro_attribs_class_game_object_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/dd1/class_game_object.html">GameObject</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db8/class_game_object_a_i.html#a22a51a980875ccae8a285d7804967747">me</a></td></tr>
 <tr class="separator:a22a51a980875ccae8a285d7804967747 inherit pro_attribs_class_game_object_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ae4d3c0c2cff08bd9fe86cbfee2cbb980" name="ae4d3c0c2cff08bd9fe86cbfee2cbb980"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae4d3c0c2cff08bd9fe86cbfee2cbb980">&#9670;&#160;</a></span>go_ossirian_crystalAI()</h2>
 
@@ -220,7 +221,11 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  317</span>: <a class="code hl_class" href="../../d7/db8/class_game_object_a_i.html">GameObjectAI</a>(go), <a class="code hl_variable" href="../../df/d1f/structgo__ossirian__crystal_1_1go__ossirian__crystal_a_i.html#aa2c83296cbe8d49de7bc7262b792e8b3">_instance</a>(go-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">GetInstanceScript</a>()) { }</div>
+<div class="ttc" id="aclass_game_object_a_i_html"><div class="ttname"><a href="../../d7/db8/class_game_object_a_i.html">GameObjectAI</a></div><div class="ttdef"><b>Definition:</b> GameObjectAI.h:33</div></div>
+<div class="ttc" id="aclass_world_object_html_a29762f86d0726e4d229df51281b9d710"><div class="ttname"><a href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">WorldObject::GetInstanceScript</a></div><div class="ttdeci">InstanceScript * GetInstanceScript() const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1192</div></div>
+<div class="ttc" id="astructgo__ossirian__crystal_1_1go__ossirian__crystal_a_i_html_aa2c83296cbe8d49de7bc7262b792e8b3"><div class="ttname"><a href="../../df/d1f/structgo__ossirian__crystal_1_1go__ossirian__crystal_a_i.html#aa2c83296cbe8d49de7bc7262b792e8b3">go_ossirian_crystal::go_ossirian_crystalAI::_instance</a></div><div class="ttdeci">InstanceScript * _instance</div><div class="ttdef"><b>Definition:</b> boss_ossirian.cpp:363</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -249,7 +254,21 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d7/db8/class_game_object_a_i.html#a2f4505971257f8a7335b6ca1a7d60b21">GameObjectAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  352</span>        {</div>
+<div class="line"><span class="lineno">  353</span>            <span class="keywordflow">if</span> (action == <a class="code hl_enumvalue" href="../../db/d4e/boss__ossirian_8cpp.html#a250372292659bed7ae290d8621f88ccfa35b17668e233eb44f3bf7350ceac9b7f">ACTION_DESPAWN_TRIGGER</a>)</div>
+<div class="line"><span class="lineno">  354</span>            {</div>
+<div class="line"><span class="lineno">  355</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* trigger = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a>(*<a class="code hl_variable" href="../../d7/db8/class_game_object_a_i.html#a22a51a980875ccae8a285d7804967747">me</a>, <a class="code hl_variable" href="../../df/d1f/structgo__ossirian__crystal_1_1go__ossirian__crystal_a_i.html#abd96d9b4f2c5f41e4a85606b22e1b0cf">_triggerGUID</a>))</div>
+<div class="line"><span class="lineno">  356</span>                {</div>
+<div class="line"><span class="lineno">  357</span>                    trigger-&gt;DespawnOrUnsummon();</div>
+<div class="line"><span class="lineno">  358</span>                }</div>
+<div class="line"><span class="lineno">  359</span>            }</div>
+<div class="line"><span class="lineno">  360</span>        }</div>
+<div class="ttc" id="aboss__ossirian_8cpp_html_a250372292659bed7ae290d8621f88ccfa35b17668e233eb44f3bf7350ceac9b7f"><div class="ttname"><a href="../../db/d4e/boss__ossirian_8cpp.html#a250372292659bed7ae290d8621f88ccfa35b17668e233eb44f3bf7350ceac9b7f">ACTION_DESPAWN_TRIGGER</a></div><div class="ttdeci">@ ACTION_DESPAWN_TRIGGER</div><div class="ttdef"><b>Definition:</b> boss_ossirian.cpp:60</div></div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_game_object_a_i_html_a22a51a980875ccae8a285d7804967747"><div class="ttname"><a href="../../d7/db8/class_game_object_a_i.html#a22a51a980875ccae8a285d7804967747">GameObjectAI::me</a></div><div class="ttdeci">GameObject *const me</div><div class="ttdef"><b>Definition:</b> GameObjectAI.h:35</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_ae42e503fe79bbeaea1aaa665418c43f8"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a></div><div class="ttdeci">Creature * GetCreature(WorldObject const &amp;u, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:215</div></div>
+<div class="ttc" id="astructgo__ossirian__crystal_1_1go__ossirian__crystal_a_i_html_abd96d9b4f2c5f41e4a85606b22e1b0cf"><div class="ttname"><a href="../../df/d1f/structgo__ossirian__crystal_1_1go__ossirian__crystal_a_i.html#abd96d9b4f2c5f41e4a85606b22e1b0cf">go_ossirian_crystal::go_ossirian_crystalAI::_triggerGUID</a></div><div class="ttdeci">ObjectGuid _triggerGUID</div><div class="ttdef"><b>Definition:</b> boss_ossirian.cpp:364</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad1aff0e18d8f4ef7fe5d4cfa7ef17875" name="ad1aff0e18d8f4ef7fe5d4cfa7ef17875"></a>
@@ -287,7 +306,38 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d7/db8/class_game_object_a_i.html#a7d26ef498d0e88030dde9543da9c80f5">GameObjectAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  328</span>        {</div>
+<div class="line"><span class="lineno">  329</span>            <span class="keywordflow">if</span> (reportUse)</div>
+<div class="line"><span class="lineno">  330</span>            {</div>
+<div class="line"><span class="lineno">  331</span>                <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../df/d1f/structgo__ossirian__crystal_1_1go__ossirian__crystal_a_i.html#aa2c83296cbe8d49de7bc7262b792e8b3">_instance</a>)</div>
+<div class="line"><span class="lineno">  332</span>                    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  333</span> </div>
+<div class="line"><span class="lineno">  334</span>                <a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* ossirian = <a class="code hl_variable" href="../../df/d1f/structgo__ossirian__crystal_1_1go__ossirian__crystal_a_i.html#aa2c83296cbe8d49de7bc7262b792e8b3">_instance</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_instance_script.html#a1541c403bcc65b54c0a2c523c8eaf0b1">GetCreature</a>(<a class="code hl_enumvalue" href="../../d4/d01/ruins__of__ahnqiraj_8h.html#afb6eb4f28419b652027fad41104a6d22a4ec4dde275d9c661adaebca87e6d125e">DATA_OSSIRIAN</a>);</div>
+<div class="line"><span class="lineno">  335</span>                <span class="keywordflow">if</span> (!ossirian)</div>
+<div class="line"><span class="lineno">  336</span>                    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  337</span> </div>
+<div class="line"><span class="lineno">  338</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* trigger = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a>(*<a class="code hl_variable" href="../../d7/db8/class_game_object_a_i.html#a22a51a980875ccae8a285d7804967747">me</a>, <a class="code hl_variable" href="../../df/d1f/structgo__ossirian__crystal_1_1go__ossirian__crystal_a_i.html#abd96d9b4f2c5f41e4a85606b22e1b0cf">_triggerGUID</a>))</div>
+<div class="line"><span class="lineno">  339</span>                {</div>
+<div class="line"><span class="lineno">  340</span>                    <span class="keywordflow">if</span> (!trigger-&gt;HasUnitState(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54">UNIT_STATE_CASTING</a>))</div>
+<div class="line"><span class="lineno">  341</span>                    {</div>
+<div class="line"><span class="lineno">  342</span>                        ossirian-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">AI</a>()-&gt;<a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aed57e805b8792eda265a1a426fcf152a">SetGUID</a>(<a class="code hl_variable" href="../../d7/db8/class_game_object_a_i.html#a22a51a980875ccae8a285d7804967747">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>(), <a class="code hl_enumvalue" href="../../db/d4e/boss__ossirian_8cpp.html#a250372292659bed7ae290d8621f88ccfabe9697b88f8a315d3fa35240283b2897">ACTION_TRIGGER_WEAKNESS</a>);</div>
+<div class="line"><span class="lineno">  343</span>                        trigger-&gt;CastSpell(trigger, <a class="code hl_variable" href="../../db/d4e/boss__ossirian_8cpp.html#ac86b3e59390c49f2b3127e68221c46d3">spellWeakness</a>[<a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(0, 4)], <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  344</span>                    }</div>
+<div class="line"><span class="lineno">  345</span>                }</div>
+<div class="line"><span class="lineno">  346</span>            }</div>
+<div class="line"><span class="lineno">  347</span> </div>
+<div class="line"><span class="lineno">  348</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  349</span>        }</div>
+<div class="ttc" id="a_random_8cpp_html_ab17def34ccbbd868dc87a16bf35acdbd"><div class="ttname"><a href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a></div><div class="ttdeci">uint32 urand(uint32 min, uint32 max)</div><div class="ttdef"><b>Definition:</b> Random.cpp:44</div></div>
+<div class="ttc" id="a_unit_8h_html_ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54">UNIT_STATE_CASTING</a></div><div class="ttdeci">@ UNIT_STATE_CASTING</div><div class="ttdef"><b>Definition:</b> Unit.h:340</div></div>
+<div class="ttc" id="aboss__ossirian_8cpp_html_a250372292659bed7ae290d8621f88ccfabe9697b88f8a315d3fa35240283b2897"><div class="ttname"><a href="../../db/d4e/boss__ossirian_8cpp.html#a250372292659bed7ae290d8621f88ccfabe9697b88f8a315d3fa35240283b2897">ACTION_TRIGGER_WEAKNESS</a></div><div class="ttdeci">@ ACTION_TRIGGER_WEAKNESS</div><div class="ttdef"><b>Definition:</b> boss_ossirian.cpp:59</div></div>
+<div class="ttc" id="aboss__ossirian_8cpp_html_ac86b3e59390c49f2b3127e68221c46d3"><div class="ttname"><a href="../../db/d4e/boss__ossirian_8cpp.html#ac86b3e59390c49f2b3127e68221c46d3">spellWeakness</a></div><div class="ttdeci">uint32 const spellWeakness[NUM_WEAKNESS]</div><div class="ttdef"><b>Definition:</b> boss_ossirian.cpp:100</div></div>
+<div class="ttc" id="aclass_creature_html_af2188eef9620b5af52ef2d3ac142db67"><div class="ttname"><a href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">Creature::AI</a></div><div class="ttdeci">CreatureAI * AI() const</div><div class="ttdef"><b>Definition:</b> Creature.h:134</div></div>
+<div class="ttc" id="aclass_instance_script_html_a1541c403bcc65b54c0a2c523c8eaf0b1"><div class="ttname"><a href="../../d8/d83/class_instance_script.html#a1541c403bcc65b54c0a2c523c8eaf0b1">InstanceScript::GetCreature</a></div><div class="ttdeci">Creature * GetCreature(uint32 type)</div><div class="ttdef"><b>Definition:</b> InstanceScript.cpp:98</div></div>
+<div class="ttc" id="aclass_object_html_ad23b997e2442fa6a6228ba73a7ecc138"><div class="ttname"><a href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">Object::GetGUID</a></div><div class="ttdeci">static ObjectGuid GetGUID(Object const *o)</div><div class="ttdef"><b>Definition:</b> Object.h:106</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_aed57e805b8792eda265a1a426fcf152a"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#aed57e805b8792eda265a1a426fcf152a">UnitAI::SetGUID</a></div><div class="ttdeci">virtual void SetGUID(ObjectGuid, int32=0)</div><div class="ttdef"><b>Definition:</b> UnitAI.h:199</div></div>
+<div class="ttc" id="aruins__of__ahnqiraj_8h_html_afb6eb4f28419b652027fad41104a6d22a4ec4dde275d9c661adaebca87e6d125e"><div class="ttname"><a href="../../d4/d01/ruins__of__ahnqiraj_8h.html#afb6eb4f28419b652027fad41104a6d22a4ec4dde275d9c661adaebca87e6d125e">DATA_OSSIRIAN</a></div><div class="ttdeci">@ DATA_OSSIRIAN</div><div class="ttdef"><b>Definition:</b> ruins_of_ahnqiraj.h:32</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a9c983aa02285dbebc545b4056191200c" name="a9c983aa02285dbebc545b4056191200c"></a>
@@ -325,7 +375,14 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d7/db8/class_game_object_a_i.html#a17bfc941a0c59cabe122b0b62a834bb1">GameObjectAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  320</span>        {</div>
+<div class="line"><span class="lineno">  321</span>            <span class="keywordflow">if</span> (type == <a class="code hl_enumvalue" href="../../db/d4e/boss__ossirian_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a6e9ad9b4da35ddb2c277c0f133c846c0">GUID_TRIGGER_PAIR</a>)</div>
+<div class="line"><span class="lineno">  322</span>            {</div>
+<div class="line"><span class="lineno">  323</span>                <a class="code hl_variable" href="../../df/d1f/structgo__ossirian__crystal_1_1go__ossirian__crystal_a_i.html#abd96d9b4f2c5f41e4a85606b22e1b0cf">_triggerGUID</a> = guid;</div>
+<div class="line"><span class="lineno">  324</span>            }</div>
+<div class="line"><span class="lineno">  325</span>        }</div>
+<div class="ttc" id="aboss__ossirian_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a6e9ad9b4da35ddb2c277c0f133c846c0"><div class="ttname"><a href="../../db/d4e/boss__ossirian_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a6e9ad9b4da35ddb2c277c0f133c846c0">GUID_TRIGGER_PAIR</a></div><div class="ttdeci">@ GUID_TRIGGER_PAIR</div><div class="ttdef"><b>Definition:</b> boss_ossirian.cpp:73</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -374,7 +431,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Kalimdor/RuinsOfAhnQiraj/<a class="el" href="../../db/d4e/boss__ossirian_8cpp.html">boss_ossirian.cpp</a></li>
+<li><a class="el" href="../../">boss_ossirian.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -382,7 +439,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d7/d05/classgo__ossirian__crystal.html">go_ossirian_crystal</a></li><li class="navelem"><a class="el" href="../../df/d1f/structgo__ossirian__crystal_1_1go__ossirian__crystal_a_i.html">go_ossirian_crystalAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:45 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:59 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

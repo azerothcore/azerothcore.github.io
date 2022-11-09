@@ -314,7 +314,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="ab47e32087020f14d53ab23bfd6039216" name="ab47e32087020f14d53ab23bfd6039216"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab47e32087020f14d53ab23bfd6039216">&#9670;&#160;</a></span>CheckProc()</h2>
 
@@ -338,7 +339,63 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  164</span>        {</div>
+<div class="line"><span class="lineno">  165</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d4/d7d/class_spell_info.html">SpellInfo</a> <span class="keyword">const</span>* spellInfo = eventInfo.<a class="code hl_function" href="../../df/def/class_proc_event_info.html#a759add2c89e786125196eb6bd3b20c6d">GetSpellInfo</a>())</div>
+<div class="line"><span class="lineno">  166</span>            {</div>
+<div class="line"><span class="lineno">  167</span>                <span class="keywordflow">if</span> ((spellInfo-&gt;GetSchoolMask() &amp; <a class="code hl_variable" href="../../d2/dc8/classspell__botanica__shift__form_1_1spell__botanica__shift__form___aura_script.html#aa62e63c331cd393e28269e2b8a8c32b5">_lastSchool</a>) &amp;&amp; <a class="code hl_variable" href="../../d2/dc8/classspell__botanica__shift__form_1_1spell__botanica__shift__form___aura_script.html#ae8d66879eacf191808925b0baa03b175">_swapTime</a> &gt; <a class="code hl_function" href="../../d4/d1c/namespace_game_time.html#adbe1785d1327dedf2ac403b7cc8e99c2">GameTime::GetGameTime</a>().count())</div>
+<div class="line"><span class="lineno">  168</span>                    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  169</span> </div>
+<div class="line"><span class="lineno">  170</span>                <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> form = 0;</div>
+<div class="line"><span class="lineno">  171</span>                <span class="keywordflow">switch</span> (<a class="code hl_function" href="../../df/d0b/_shared_defines_8h.html#a6606234724aae83ff057f648f96c2ada">GetFirstSchoolInMask</a>(spellInfo-&gt;GetSchoolMask()))</div>
+<div class="line"><span class="lineno">  172</span>                {</div>
+<div class="line"><span class="lineno">  173</span>                    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a25263e3e283b54e5280d5af1fd16da4ca81fa2e882b9ff91d97f1966ecec53cc5">SPELL_SCHOOL_FIRE</a>:</div>
+<div class="line"><span class="lineno">  174</span>                        form = <a class="code hl_enumvalue" href="../../dc/d56/the__botanica_8h.html#a2cd0f1a61f215e1bdcde5cbbd34da57eae79530671a5f0f569a679ff8017fe7a6">SPELL_FIRE_FORM</a>;</div>
+<div class="line"><span class="lineno">  175</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  176</span>                    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a25263e3e283b54e5280d5af1fd16da4ca0f89e62868c910d070db0ce176e7e4ad">SPELL_SCHOOL_FROST</a>:</div>
+<div class="line"><span class="lineno">  177</span>                        form = <a class="code hl_enumvalue" href="../../dc/d56/the__botanica_8h.html#a2cd0f1a61f215e1bdcde5cbbd34da57ea8870ee908e189b299d97dec0da566017">SPELL_FROST_FORM</a>;</div>
+<div class="line"><span class="lineno">  178</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  179</span>                    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a25263e3e283b54e5280d5af1fd16da4ca5fffe6beea5302fef06839a6b1ff3bb0">SPELL_SCHOOL_ARCANE</a>:</div>
+<div class="line"><span class="lineno">  180</span>                        form = <a class="code hl_enumvalue" href="../../dc/d56/the__botanica_8h.html#a2cd0f1a61f215e1bdcde5cbbd34da57ea5eb8b318e75f7fafb22bd9fbc40ed420">SPELL_ARCANE_FORM</a>;</div>
+<div class="line"><span class="lineno">  181</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  182</span>                    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a25263e3e283b54e5280d5af1fd16da4ca012e4eaa4bc0f0534aa45cec3f854193">SPELL_SCHOOL_SHADOW</a>:</div>
+<div class="line"><span class="lineno">  183</span>                        form = <a class="code hl_enumvalue" href="../../dc/d56/the__botanica_8h.html#a2cd0f1a61f215e1bdcde5cbbd34da57ea2e23df1f4d8b45ea8f7c0460f0e298f9">SPELL_SHADOW_FORM</a>;</div>
+<div class="line"><span class="lineno">  184</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  185</span>                    <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  186</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  187</span>                }</div>
+<div class="line"><span class="lineno">  188</span> </div>
+<div class="line"><span class="lineno">  189</span>                <span class="keywordflow">if</span> (form)</div>
+<div class="line"><span class="lineno">  190</span>                {</div>
+<div class="line"><span class="lineno">  191</span>                    <a class="code hl_variable" href="../../d2/dc8/classspell__botanica__shift__form_1_1spell__botanica__shift__form___aura_script.html#ae8d66879eacf191808925b0baa03b175">_swapTime</a> = <a class="code hl_function" href="../../d4/d1c/namespace_game_time.html#adbe1785d1327dedf2ac403b7cc8e99c2">GameTime::GetGameTime</a>().count() + 6;</div>
+<div class="line"><span class="lineno">  192</span>                    <a class="code hl_variable" href="../../d2/dc8/classspell__botanica__shift__form_1_1spell__botanica__shift__form___aura_script.html#aa62e63c331cd393e28269e2b8a8c32b5">_lastSchool</a> = spellInfo-&gt;GetSchoolMask();</div>
+<div class="line"><span class="lineno">  193</span>                    <a class="code hl_function" href="../../d4/d72/class_aura_script.html#ae0ce7b7a97c6bcb2734ac79f8fa86a15">GetUnitOwner</a>()-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aac612f06e84142d92dcfc432b5feb4ac">RemoveAurasDueToSpell</a>(<a class="code hl_variable" href="../../d2/dc8/classspell__botanica__shift__form_1_1spell__botanica__shift__form___aura_script.html#a4d29316fa7fcc26acaea032297efcebb">_lastForm</a>);</div>
+<div class="line"><span class="lineno">  194</span>                    <a class="code hl_variable" href="../../d2/dc8/classspell__botanica__shift__form_1_1spell__botanica__shift__form___aura_script.html#a4d29316fa7fcc26acaea032297efcebb">_lastForm</a> = form;</div>
+<div class="line"><span class="lineno">  195</span>                    <a class="code hl_function" href="../../d4/d72/class_aura_script.html#ae0ce7b7a97c6bcb2734ac79f8fa86a15">GetUnitOwner</a>()-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_function" href="../../d4/d72/class_aura_script.html#ae0ce7b7a97c6bcb2734ac79f8fa86a15">GetUnitOwner</a>(), <a class="code hl_variable" href="../../d2/dc8/classspell__botanica__shift__form_1_1spell__botanica__shift__form___aura_script.html#a4d29316fa7fcc26acaea032297efcebb">_lastForm</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  196</span>                }</div>
+<div class="line"><span class="lineno">  197</span>            }</div>
+<div class="line"><span class="lineno">  198</span> </div>
+<div class="line"><span class="lineno">  199</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  200</span>        }</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a25263e3e283b54e5280d5af1fd16da4ca012e4eaa4bc0f0534aa45cec3f854193"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a25263e3e283b54e5280d5af1fd16da4ca012e4eaa4bc0f0534aa45cec3f854193">SPELL_SCHOOL_SHADOW</a></div><div class="ttdeci">@ SPELL_SCHOOL_SHADOW</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:260</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a25263e3e283b54e5280d5af1fd16da4ca0f89e62868c910d070db0ce176e7e4ad"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a25263e3e283b54e5280d5af1fd16da4ca0f89e62868c910d070db0ce176e7e4ad">SPELL_SCHOOL_FROST</a></div><div class="ttdeci">@ SPELL_SCHOOL_FROST</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:259</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a25263e3e283b54e5280d5af1fd16da4ca5fffe6beea5302fef06839a6b1ff3bb0"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a25263e3e283b54e5280d5af1fd16da4ca5fffe6beea5302fef06839a6b1ff3bb0">SPELL_SCHOOL_ARCANE</a></div><div class="ttdeci">@ SPELL_SCHOOL_ARCANE</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:261</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a25263e3e283b54e5280d5af1fd16da4ca81fa2e882b9ff91d97f1966ecec53cc5"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a25263e3e283b54e5280d5af1fd16da4ca81fa2e882b9ff91d97f1966ecec53cc5">SPELL_SCHOOL_FIRE</a></div><div class="ttdeci">@ SPELL_SCHOOL_FIRE</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:257</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a6606234724aae83ff057f648f96c2ada"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a6606234724aae83ff057f648f96c2ada">GetFirstSchoolInMask</a></div><div class="ttdeci">SpellSchools GetFirstSchoolInMask(SpellSchoolMask mask)</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:290</div></div>
+<div class="ttc" id="aclass_aura_script_html_ae0ce7b7a97c6bcb2734ac79f8fa86a15"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#ae0ce7b7a97c6bcb2734ac79f8fa86a15">AuraScript::GetUnitOwner</a></div><div class="ttdeci">Unit * GetUnitOwner() const</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:1020</div></div>
+<div class="ttc" id="aclass_proc_event_info_html_a759add2c89e786125196eb6bd3b20c6d"><div class="ttname"><a href="../../df/def/class_proc_event_info.html#a759add2c89e786125196eb6bd3b20c6d">ProcEventInfo::GetSpellInfo</a></div><div class="ttdeci">SpellInfo const * GetSpellInfo() const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:186</div></div>
+<div class="ttc" id="aclass_spell_info_html"><div class="ttname"><a href="../../d4/d7d/class_spell_info.html">SpellInfo</a></div><div class="ttdef"><b>Definition:</b> SpellInfo.h:314</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+<div class="ttc" id="aclass_unit_html_aac612f06e84142d92dcfc432b5feb4ac"><div class="ttname"><a href="../../da/db7/class_unit.html#aac612f06e84142d92dcfc432b5feb4ac">Unit::RemoveAurasDueToSpell</a></div><div class="ttdeci">void RemoveAurasDueToSpell(uint32 spellId, ObjectGuid casterGUID=ObjectGuid::Empty, uint8 reqEffMask=0, AuraRemoveMode removeMode=AURA_REMOVE_BY_DEFAULT)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:4823</div></div>
+<div class="ttc" id="aclassspell__botanica__shift__form_1_1spell__botanica__shift__form___aura_script_html_a4d29316fa7fcc26acaea032297efcebb"><div class="ttname"><a href="../../d2/dc8/classspell__botanica__shift__form_1_1spell__botanica__shift__form___aura_script.html#a4d29316fa7fcc26acaea032297efcebb">spell_botanica_shift_form::spell_botanica_shift_form_AuraScript::_lastForm</a></div><div class="ttdeci">uint32 _lastForm</div><div class="ttdef"><b>Definition:</b> instance_the_botanica.cpp:209</div></div>
+<div class="ttc" id="aclassspell__botanica__shift__form_1_1spell__botanica__shift__form___aura_script_html_aa62e63c331cd393e28269e2b8a8c32b5"><div class="ttname"><a href="../../d2/dc8/classspell__botanica__shift__form_1_1spell__botanica__shift__form___aura_script.html#aa62e63c331cd393e28269e2b8a8c32b5">spell_botanica_shift_form::spell_botanica_shift_form_AuraScript::_lastSchool</a></div><div class="ttdeci">uint32 _lastSchool</div><div class="ttdef"><b>Definition:</b> instance_the_botanica.cpp:208</div></div>
+<div class="ttc" id="aclassspell__botanica__shift__form_1_1spell__botanica__shift__form___aura_script_html_ae8d66879eacf191808925b0baa03b175"><div class="ttname"><a href="../../d2/dc8/classspell__botanica__shift__form_1_1spell__botanica__shift__form___aura_script.html#ae8d66879eacf191808925b0baa03b175">spell_botanica_shift_form::spell_botanica_shift_form_AuraScript::_swapTime</a></div><div class="ttdeci">uint32 _swapTime</div><div class="ttdef"><b>Definition:</b> instance_the_botanica.cpp:210</div></div>
+<div class="ttc" id="anamespace_game_time_html_adbe1785d1327dedf2ac403b7cc8e99c2"><div class="ttname"><a href="../../d4/d1c/namespace_game_time.html#adbe1785d1327dedf2ac403b7cc8e99c2">GameTime::GetGameTime</a></div><div class="ttdeci">Seconds GetGameTime()</div><div class="ttdef"><b>Definition:</b> GameTime.cpp:38</div></div>
+<div class="ttc" id="athe__botanica_8h_html_a2cd0f1a61f215e1bdcde5cbbd34da57ea2e23df1f4d8b45ea8f7c0460f0e298f9"><div class="ttname"><a href="../../dc/d56/the__botanica_8h.html#a2cd0f1a61f215e1bdcde5cbbd34da57ea2e23df1f4d8b45ea8f7c0460f0e298f9">SPELL_SHADOW_FORM</a></div><div class="ttdeci">@ SPELL_SHADOW_FORM</div><div class="ttdef"><b>Definition:</b> the_botanica.h:52</div></div>
+<div class="ttc" id="athe__botanica_8h_html_a2cd0f1a61f215e1bdcde5cbbd34da57ea5eb8b318e75f7fafb22bd9fbc40ed420"><div class="ttname"><a href="../../dc/d56/the__botanica_8h.html#a2cd0f1a61f215e1bdcde5cbbd34da57ea5eb8b318e75f7fafb22bd9fbc40ed420">SPELL_ARCANE_FORM</a></div><div class="ttdeci">@ SPELL_ARCANE_FORM</div><div class="ttdef"><b>Definition:</b> the_botanica.h:49</div></div>
+<div class="ttc" id="athe__botanica_8h_html_a2cd0f1a61f215e1bdcde5cbbd34da57ea8870ee908e189b299d97dec0da566017"><div class="ttname"><a href="../../dc/d56/the__botanica_8h.html#a2cd0f1a61f215e1bdcde5cbbd34da57ea8870ee908e189b299d97dec0da566017">SPELL_FROST_FORM</a></div><div class="ttdeci">@ SPELL_FROST_FORM</div><div class="ttdef"><b>Definition:</b> the_botanica.h:51</div></div>
+<div class="ttc" id="athe__botanica_8h_html_a2cd0f1a61f215e1bdcde5cbbd34da57eae79530671a5f0f569a679ff8017fe7a6"><div class="ttname"><a href="../../dc/d56/the__botanica_8h.html#a2cd0f1a61f215e1bdcde5cbbd34da57eae79530671a5f0f569a679ff8017fe7a6">SPELL_FIRE_FORM</a></div><div class="ttdeci">@ SPELL_FIRE_FORM</div><div class="ttdef"><b>Definition:</b> the_botanica.h:50</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="af233d3c262c24a6ab5f3cf287b28f5fc" name="af233d3c262c24a6ab5f3cf287b28f5fc"></a>
@@ -365,7 +422,13 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d7/d13/class___spell_script.html#ad3b8fb5dd2bc5ca4dd34da5a98a76443">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  156</span>        {</div>
+<div class="line"><span class="lineno">  157</span>            <a class="code hl_variable" href="../../d2/dc8/classspell__botanica__shift__form_1_1spell__botanica__shift__form___aura_script.html#aa62e63c331cd393e28269e2b8a8c32b5">_lastSchool</a> = 0;</div>
+<div class="line"><span class="lineno">  158</span>            <a class="code hl_variable" href="../../d2/dc8/classspell__botanica__shift__form_1_1spell__botanica__shift__form___aura_script.html#a4d29316fa7fcc26acaea032297efcebb">_lastForm</a> = 0;</div>
+<div class="line"><span class="lineno">  159</span>            <a class="code hl_variable" href="../../d2/dc8/classspell__botanica__shift__form_1_1spell__botanica__shift__form___aura_script.html#ae8d66879eacf191808925b0baa03b175">_swapTime</a> = 0;</div>
+<div class="line"><span class="lineno">  160</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  161</span>        }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a360cc1939c87ef75f2cfc1771b64ccef" name="a360cc1939c87ef75f2cfc1771b64ccef"></a>
@@ -418,7 +481,13 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  203</span>        {</div>
+<div class="line"><span class="lineno">  204</span>            <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#ab771dd972497502e5202fd48a1d6c17d">DoCheckProc</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#ad25bcd0c3aa73ba267fa87ea50bc1780">AuraCheckProcFn</a>(<a class="code hl_function" href="../../d2/dc8/classspell__botanica__shift__form_1_1spell__botanica__shift__form___aura_script.html#ab47e32087020f14d53ab23bfd6039216">spell_botanica_shift_form_AuraScript::CheckProc</a>);</div>
+<div class="line"><span class="lineno">  205</span>        }</div>
+<div class="ttc" id="a_spell_script_8h_html_ad25bcd0c3aa73ba267fa87ea50bc1780"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#ad25bcd0c3aa73ba267fa87ea50bc1780">AuraCheckProcFn</a></div><div class="ttdeci">#define AuraCheckProcFn(F)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:812</div></div>
+<div class="ttc" id="aclass_aura_script_html_ab771dd972497502e5202fd48a1d6c17d"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#ab771dd972497502e5202fd48a1d6c17d">AuraScript::DoCheckProc</a></div><div class="ttdeci">HookList&lt; CheckProcHandler &gt; DoCheckProc</div><div class="ttdef"><b>Definition:</b> SpellScript.h:807</div></div>
+<div class="ttc" id="aclassspell__botanica__shift__form_1_1spell__botanica__shift__form___aura_script_html_ab47e32087020f14d53ab23bfd6039216"><div class="ttname"><a href="../../d2/dc8/classspell__botanica__shift__form_1_1spell__botanica__shift__form___aura_script.html#ab47e32087020f14d53ab23bfd6039216">spell_botanica_shift_form::spell_botanica_shift_form_AuraScript::CheckProc</a></div><div class="ttdeci">bool CheckProc(ProcEventInfo &amp;eventInfo)</div><div class="ttdef"><b>Definition:</b> instance_the_botanica.cpp:163</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -489,7 +558,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Outland/TempestKeep/botanica/<a class="el" href="../../d0/d06/instance__the__botanica_8cpp.html">instance_the_botanica.cpp</a></li>
+<li><a class="el" href="../../">instance_the_botanica.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -497,7 +566,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/d92/classspell__botanica__shift__form.html">spell_botanica_shift_form</a></li><li class="navelem"><a class="el" href="../../d2/dc8/classspell__botanica__shift__form_1_1spell__botanica__shift__form___aura_script.html">spell_botanica_shift_form_AuraScript</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:59 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:16 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -306,7 +306,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="ad35d90e5cdd68f4c1d3172a0860274bd" name="ad35d90e5cdd68f4c1d3172a0860274bd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad35d90e5cdd68f4c1d3172a0860274bd">&#9670;&#160;</a></span>HandleDummyTick()</h2>
 
@@ -330,7 +331,36 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  836</span>    {</div>
+<div class="line"><span class="lineno">  837</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d0/dd1/class_game_object.html">GameObject</a>* circle = <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">GetTarget</a>()-&gt;<a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#a424a63829a446dac6f97a464cc64ed48">GetGameObject</a>(<a class="code hl_function" href="../../d4/d72/class_aura_script.html#afca894c30f544ccf512e0966eb7e10ce">GetId</a>()))</div>
+<div class="line"><span class="lineno">  838</span>        {</div>
+<div class="line"><span class="lineno">  839</span>            <span class="comment">// Here we check if player is in demonic circle teleport range, if so add</span></div>
+<div class="line"><span class="lineno">  840</span>            <span class="comment">// WARLOCK_DEMONIC_CIRCLE_ALLOW_CAST; allowing him to cast the WARLOCK_DEMONIC_CIRCLE_TELEPORT.</span></div>
+<div class="line"><span class="lineno">  841</span>            <span class="comment">// If not in range remove the WARLOCK_DEMONIC_CIRCLE_ALLOW_CAST.</span></div>
+<div class="line"><span class="lineno">  842</span> </div>
+<div class="line"><span class="lineno">  843</span>            <a class="code hl_class" href="../../d4/d7d/class_spell_info.html">SpellInfo</a> <span class="keyword">const</span>* spellInfo = <a class="code hl_define" href="../../d3/d75/_spell_mgr_8h.html#aa21e14d8e1145507b746a69b5487109d">sSpellMgr</a>-&gt;AssertSpellInfo(<a class="code hl_enumvalue" href="../../d1/dd5/spell__warlock_8cpp.html#a4245c2f90407b49fba1c8eb66fd58570a177e4014b31635578a8b6eb587abc3a4">SPELL_WARLOCK_DEMONIC_CIRCLE_TELEPORT</a>);</div>
+<div class="line"><span class="lineno">  844</span> </div>
+<div class="line"><span class="lineno">  845</span>            <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d4/d72/class_aura_script.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">GetTarget</a>()-&gt;IsWithinDist(circle, spellInfo-&gt;<a class="code hl_function" href="../../d4/d7d/class_spell_info.html#ab2a598820f94464fba55f9706449ce25">GetMaxRange</a>(<span class="keyword">true</span>)))</div>
+<div class="line"><span class="lineno">  846</span>            {</div>
+<div class="line"><span class="lineno">  847</span>                <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d4/d72/class_aura_script.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">GetTarget</a>()-&gt;HasAura(<a class="code hl_enumvalue" href="../../d1/dd5/spell__warlock_8cpp.html#a4245c2f90407b49fba1c8eb66fd58570aa3eca9ef2979d1b58513dea6557fb559">SPELL_WARLOCK_DEMONIC_CIRCLE_ALLOW_CAST</a>))</div>
+<div class="line"><span class="lineno">  848</span>                    <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">GetTarget</a>()-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_function" href="../../d4/d72/class_aura_script.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">GetTarget</a>(), <a class="code hl_enumvalue" href="../../d1/dd5/spell__warlock_8cpp.html#a4245c2f90407b49fba1c8eb66fd58570aa3eca9ef2979d1b58513dea6557fb559">SPELL_WARLOCK_DEMONIC_CIRCLE_ALLOW_CAST</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  849</span>            }</div>
+<div class="line"><span class="lineno">  850</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  851</span>                <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">GetTarget</a>()-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a1be09c524dfdd2c3538f2ae977c58399">RemoveAura</a>(<a class="code hl_enumvalue" href="../../d1/dd5/spell__warlock_8cpp.html#a4245c2f90407b49fba1c8eb66fd58570aa3eca9ef2979d1b58513dea6557fb559">SPELL_WARLOCK_DEMONIC_CIRCLE_ALLOW_CAST</a>);</div>
+<div class="line"><span class="lineno">  852</span>        }</div>
+<div class="line"><span class="lineno">  853</span>    }</div>
+<div class="ttc" id="a_spell_mgr_8h_html_aa21e14d8e1145507b746a69b5487109d"><div class="ttname"><a href="../../d3/d75/_spell_mgr_8h.html#aa21e14d8e1145507b746a69b5487109d">sSpellMgr</a></div><div class="ttdeci">#define sSpellMgr</div><div class="ttdef"><b>Definition:</b> SpellMgr.h:803</div></div>
+<div class="ttc" id="aclass_aura_script_html_a9b2ee1254bdbef7f6ee93f6fae6eb912"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">AuraScript::GetTarget</a></div><div class="ttdeci">Unit * GetTarget() const</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:1155</div></div>
+<div class="ttc" id="aclass_aura_script_html_afca894c30f544ccf512e0966eb7e10ce"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#afca894c30f544ccf512e0966eb7e10ce">AuraScript::GetId</a></div><div class="ttdeci">uint32 GetId() const</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:1000</div></div>
+<div class="ttc" id="aclass_game_object_html"><div class="ttname"><a href="../../d0/dd1/class_game_object.html">GameObject</a></div><div class="ttdef"><b>Definition:</b> GameObject.h:813</div></div>
+<div class="ttc" id="aclass_spell_info_html"><div class="ttname"><a href="../../d4/d7d/class_spell_info.html">SpellInfo</a></div><div class="ttdef"><b>Definition:</b> SpellInfo.h:314</div></div>
+<div class="ttc" id="aclass_spell_info_html_ab2a598820f94464fba55f9706449ce25"><div class="ttname"><a href="../../d4/d7d/class_spell_info.html#ab2a598820f94464fba55f9706449ce25">SpellInfo::GetMaxRange</a></div><div class="ttdeci">float GetMaxRange(bool positive=false, Unit *caster=nullptr, Spell *spell=nullptr) const</div><div class="ttdef"><b>Definition:</b> SpellInfo.cpp:2303</div></div>
+<div class="ttc" id="aclass_unit_html_a1be09c524dfdd2c3538f2ae977c58399"><div class="ttname"><a href="../../da/db7/class_unit.html#a1be09c524dfdd2c3538f2ae977c58399">Unit::RemoveAura</a></div><div class="ttdeci">void RemoveAura(AuraApplicationMap::iterator &amp;i, AuraRemoveMode mode=AURA_REMOVE_BY_DEFAULT)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:4696</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_a424a63829a446dac6f97a464cc64ed48"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#a424a63829a446dac6f97a464cc64ed48">ObjectAccessor::GetGameObject</a></div><div class="ttdeci">GameObject * GetGameObject(WorldObject const &amp;u, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:189</div></div>
+<div class="ttc" id="aspell__warlock_8cpp_html_a4245c2f90407b49fba1c8eb66fd58570a177e4014b31635578a8b6eb587abc3a4"><div class="ttname"><a href="../../d1/dd5/spell__warlock_8cpp.html#a4245c2f90407b49fba1c8eb66fd58570a177e4014b31635578a8b6eb587abc3a4">SPELL_WARLOCK_DEMONIC_CIRCLE_TELEPORT</a></div><div class="ttdeci">@ SPELL_WARLOCK_DEMONIC_CIRCLE_TELEPORT</div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:39</div></div>
+<div class="ttc" id="aspell__warlock_8cpp_html_a4245c2f90407b49fba1c8eb66fd58570aa3eca9ef2979d1b58513dea6557fb559"><div class="ttname"><a href="../../d1/dd5/spell__warlock_8cpp.html#a4245c2f90407b49fba1c8eb66fd58570aa3eca9ef2979d1b58513dea6557fb559">SPELL_WARLOCK_DEMONIC_CIRCLE_ALLOW_CAST</a></div><div class="ttdeci">@ SPELL_WARLOCK_DEMONIC_CIRCLE_ALLOW_CAST</div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:40</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a92f2bb73ec58832eaada3c7140f7868d" name="a92f2bb73ec58832eaada3c7140f7868d"></a>
@@ -366,7 +396,16 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  827</span>    {</div>
+<div class="line"><span class="lineno">  828</span>        <span class="comment">// If effect is removed by expire remove the summoned demonic circle too.</span></div>
+<div class="line"><span class="lineno">  829</span>        <span class="keywordflow">if</span> (!(mode &amp; <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a82ebee9e3cf7eaf2ab892a6eb7796288a9aed024920a7d989c9b024d1c7b00f0b">AURA_EFFECT_HANDLE_REAPPLY</a>))</div>
+<div class="line"><span class="lineno">  830</span>            <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">GetTarget</a>()-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a0abdc922cb68a81459935b54b59fad2e">RemoveGameObject</a>(<a class="code hl_function" href="../../d4/d72/class_aura_script.html#afca894c30f544ccf512e0966eb7e10ce">GetId</a>(), <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  831</span> </div>
+<div class="line"><span class="lineno">  832</span>        <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">GetTarget</a>()-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a1be09c524dfdd2c3538f2ae977c58399">RemoveAura</a>(<a class="code hl_enumvalue" href="../../d1/dd5/spell__warlock_8cpp.html#a4245c2f90407b49fba1c8eb66fd58570aa3eca9ef2979d1b58513dea6557fb559">SPELL_WARLOCK_DEMONIC_CIRCLE_ALLOW_CAST</a>);</div>
+<div class="line"><span class="lineno">  833</span>    }</div>
+<div class="ttc" id="a_spell_aura_defines_8h_html_a82ebee9e3cf7eaf2ab892a6eb7796288a9aed024920a7d989c9b024d1c7b00f0b"><div class="ttname"><a href="../../d7/d5a/_spell_aura_defines_8h.html#a82ebee9e3cf7eaf2ab892a6eb7796288a9aed024920a7d989c9b024d1c7b00f0b">AURA_EFFECT_HANDLE_REAPPLY</a></div><div class="ttdeci">@ AURA_EFFECT_HANDLE_REAPPLY</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:45</div></div>
+<div class="ttc" id="aclass_unit_html_a0abdc922cb68a81459935b54b59fad2e"><div class="ttname"><a href="../../da/db7/class_unit.html#a0abdc922cb68a81459935b54b59fad2e">Unit::RemoveGameObject</a></div><div class="ttdeci">void RemoveGameObject(GameObject *gameObj, bool del)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:6097</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a06e45d5f63ef1395b5949482e8393098" name="a06e45d5f63ef1395b5949482e8393098"></a>
@@ -419,7 +458,20 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  856</span>    {</div>
+<div class="line"><span class="lineno">  857</span>        <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#ab9127bc3610a6a30fa9bbf22f7339bcc">OnEffectRemove</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#af8f20adad60abdb901d6e7310afea31b">AuraEffectRemoveFn</a>(<a class="code hl_function" href="../../d9/dc6/classspell__warl__demonic__circle__summon.html#a92f2bb73ec58832eaada3c7140f7868d">spell_warl_demonic_circle_summon::HandleRemove</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799add498157825d0faca2c013bbcdfbae56">SPELL_AURA_PERIODIC_DUMMY</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a82ebee9e3cf7eaf2ab892a6eb7796288a4ba94c36d138e079c354b69fe20d3d91">AURA_EFFECT_HANDLE_REAL_OR_REAPPLY_MASK</a>);</div>
+<div class="line"><span class="lineno">  858</span>        <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a491e7fc0a1acd202b60fa1aed79a9377">OnEffectPeriodic</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a63dd33eaa91292bfb53b1d9f2b0eba29">AuraEffectPeriodicFn</a>(<a class="code hl_function" href="../../d9/dc6/classspell__warl__demonic__circle__summon.html#ad35d90e5cdd68f4c1d3172a0860274bd">spell_warl_demonic_circle_summon::HandleDummyTick</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799add498157825d0faca2c013bbcdfbae56">SPELL_AURA_PERIODIC_DUMMY</a>);</div>
+<div class="line"><span class="lineno">  859</span>    }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a></div><div class="ttdeci">@ EFFECT_0</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:30</div></div>
+<div class="ttc" id="a_spell_aura_defines_8h_html_a538cdc259460b365f406fe0b3a981799add498157825d0faca2c013bbcdfbae56"><div class="ttname"><a href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799add498157825d0faca2c013bbcdfbae56">SPELL_AURA_PERIODIC_DUMMY</a></div><div class="ttdeci">@ SPELL_AURA_PERIODIC_DUMMY</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:289</div></div>
+<div class="ttc" id="a_spell_aura_defines_8h_html_a82ebee9e3cf7eaf2ab892a6eb7796288a4ba94c36d138e079c354b69fe20d3d91"><div class="ttname"><a href="../../d7/d5a/_spell_aura_defines_8h.html#a82ebee9e3cf7eaf2ab892a6eb7796288a4ba94c36d138e079c354b69fe20d3d91">AURA_EFFECT_HANDLE_REAL_OR_REAPPLY_MASK</a></div><div class="ttdeci">@ AURA_EFFECT_HANDLE_REAL_OR_REAPPLY_MASK</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:51</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a63dd33eaa91292bfb53b1d9f2b0eba29"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a63dd33eaa91292bfb53b1d9f2b0eba29">AuraEffectPeriodicFn</a></div><div class="ttdeci">#define AuraEffectPeriodicFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:750</div></div>
+<div class="ttc" id="a_spell_script_8h_html_af8f20adad60abdb901d6e7310afea31b"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#af8f20adad60abdb901d6e7310afea31b">AuraEffectRemoveFn</a></div><div class="ttdeci">#define AuraEffectRemoveFn(F, I, N, M)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:744</div></div>
+<div class="ttc" id="aclass_aura_script_html_a491e7fc0a1acd202b60fa1aed79a9377"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a491e7fc0a1acd202b60fa1aed79a9377">AuraScript::OnEffectPeriodic</a></div><div class="ttdeci">HookList&lt; EffectPeriodicHandler &gt; OnEffectPeriodic</div><div class="ttdef"><b>Definition:</b> SpellScript.h:749</div></div>
+<div class="ttc" id="aclass_aura_script_html_ab9127bc3610a6a30fa9bbf22f7339bcc"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#ab9127bc3610a6a30fa9bbf22f7339bcc">AuraScript::OnEffectRemove</a></div><div class="ttdeci">HookList&lt; EffectApplyHandler &gt; OnEffectRemove</div><div class="ttdef"><b>Definition:</b> SpellScript.h:739</div></div>
+<div class="ttc" id="aclassspell__warl__demonic__circle__summon_html_a92f2bb73ec58832eaada3c7140f7868d"><div class="ttname"><a href="../../d9/dc6/classspell__warl__demonic__circle__summon.html#a92f2bb73ec58832eaada3c7140f7868d">spell_warl_demonic_circle_summon::HandleRemove</a></div><div class="ttdeci">void HandleRemove(AuraEffect const *, AuraEffectHandleModes mode)</div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:826</div></div>
+<div class="ttc" id="aclassspell__warl__demonic__circle__summon_html_ad35d90e5cdd68f4c1d3172a0860274bd"><div class="ttname"><a href="../../d9/dc6/classspell__warl__demonic__circle__summon.html#ad35d90e5cdd68f4c1d3172a0860274bd">spell_warl_demonic_circle_summon::HandleDummyTick</a></div><div class="ttdeci">void HandleDummyTick(AuraEffect const *)</div><div class="ttdef"><b>Definition:</b> spell_warlock.cpp:835</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a9a2da4d163a96526e14f5de76798a784" name="a9a2da4d163a96526e14f5de76798a784"></a>
@@ -447,11 +499,15 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d7/d13/class___spell_script.html#a95e7862a5807bff409f13aea8306077e">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  822</span>    {</div>
+<div class="line"><span class="lineno">  823</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../d7/d13/class___spell_script.html#a9f7c76ac56838fbe61bf67d534979159">ValidateSpellInfo</a>({ <a class="code hl_enumvalue" href="../../d1/dd5/spell__warlock_8cpp.html#a4245c2f90407b49fba1c8eb66fd58570aa3eca9ef2979d1b58513dea6557fb559">SPELL_WARLOCK_DEMONIC_CIRCLE_ALLOW_CAST</a>, <a class="code hl_enumvalue" href="../../d1/dd5/spell__warlock_8cpp.html#a4245c2f90407b49fba1c8eb66fd58570a177e4014b31635578a8b6eb587abc3a4">SPELL_WARLOCK_DEMONIC_CIRCLE_TELEPORT</a> });</div>
+<div class="line"><span class="lineno">  824</span>    }</div>
+<div class="ttc" id="aclass___spell_script_html_a9f7c76ac56838fbe61bf67d534979159"><div class="ttname"><a href="../../d7/d13/class___spell_script.html#a9f7c76ac56838fbe61bf67d534979159">_SpellScript::ValidateSpellInfo</a></div><div class="ttdeci">static bool ValidateSpellInfo(std::initializer_list&lt; uint32 &gt; spellIds)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:125</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Spells/<a class="el" href="../../d1/dd5/spell__warlock_8cpp.html">spell_warlock.cpp</a></li>
+<li><a class="el" href="../../">spell_warlock.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -459,7 +515,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d9/dc6/classspell__warl__demonic__circle__summon.html">spell_warl_demonic_circle_summon</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:10 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:26 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

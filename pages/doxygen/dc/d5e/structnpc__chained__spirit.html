@@ -497,7 +497,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a5f407e700a2086f971bed0e8c0def0db" name="a5f407e700a2086f971bed0e8c0def0db"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5f407e700a2086f971bed0e8c0def0db">&#9670;&#160;</a></span>npc_chained_spirit()</h2>
 
@@ -521,7 +522,18 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  603</span>                                           : <a class="code hl_struct" href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a>(creature)</div>
+<div class="line"><span class="lineno">  604</span>    {</div>
+<div class="line"><span class="lineno">  605</span>        <a class="code hl_variable" href="../../dc/d5e/structnpc__chained__spirit.html#ad5dd92208d6a23954fef6348f4abbd23">instance</a> = <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">GetInstanceScript</a>();</div>
+<div class="line"><span class="lineno">  606</span>        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a8d2a3d05cd1a2d041a021ef5ce0a560c">AddUnitMovementFlag</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#a083358a25d084fb928e170c453128f9dad99274c9fbcc04a252602c23366698d9">MOVEMENTFLAG_HOVER</a>);</div>
+<div class="line"><span class="lineno">  607</span>    }</div>
+<div class="ttc" id="a_unit_8h_html_a083358a25d084fb928e170c453128f9dad99274c9fbcc04a252602c23366698d9"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#a083358a25d084fb928e170c453128f9dad99274c9fbcc04a252602c23366698d9">MOVEMENTFLAG_HOVER</a></div><div class="ttdeci">@ MOVEMENTFLAG_HOVER</div><div class="ttdef"><b>Definition:</b> Unit.h:582</div></div>
+<div class="ttc" id="aclass_unit_html_a8d2a3d05cd1a2d041a021ef5ce0a560c"><div class="ttname"><a href="../../da/db7/class_unit.html#a8d2a3d05cd1a2d041a021ef5ce0a560c">Unit::AddUnitMovementFlag</a></div><div class="ttdeci">void AddUnitMovementFlag(uint32 f)</div><div class="ttdef"><b>Definition:</b> Unit.h:2267</div></div>
+<div class="ttc" id="aclass_world_object_html_a29762f86d0726e4d229df51281b9d710"><div class="ttname"><a href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">WorldObject::GetInstanceScript</a></div><div class="ttdeci">InstanceScript * GetInstanceScript() const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1192</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+<div class="ttc" id="astructnpc__chained__spirit_html_ad5dd92208d6a23954fef6348f4abbd23"><div class="ttname"><a href="../../dc/d5e/structnpc__chained__spirit.html#ad5dd92208d6a23954fef6348f4abbd23">npc_chained_spirit::instance</a></div><div class="ttdeci">InstanceScript * instance</div><div class="ttdef"><b>Definition:</b> boss_mandokir.cpp:655</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -550,7 +562,29 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d9c/class_unit_a_i.html#a165d336cb3423f9665ed612d2dec76ed">UnitAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  620</span>    {</div>
+<div class="line"><span class="lineno">  621</span>        <span class="keywordflow">if</span> (action == <a class="code hl_enumvalue" href="../../dc/dbc/boss__mandokir_8cpp.html#a8bb1ef53467e4f61410d12822d922498ae4cd22dece403cdfe2b94719ca179265">ACTION_REVIVE</a>)</div>
+<div class="line"><span class="lineno">  622</span>        {</div>
+<div class="line"><span class="lineno">  623</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* target = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#aeb3657e7ad09335b9a9ffa50473aa216">ObjectAccessor::GetPlayer</a>(*<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_variable" href="../../dc/d5e/structnpc__chained__spirit.html#a193fddae1d3eb84bc36842adbb1fe86a">revivePlayerGUID</a>))</div>
+<div class="line"><span class="lineno">  624</span>            {</div>
+<div class="line"><span class="lineno">  625</span>                <a class="code hl_struct" href="../../d1/d26/struct_position.html">Position</a> pos;</div>
+<div class="line"><span class="lineno">  626</span>                target-&gt;GetNearPoint(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, pos.<a class="code hl_variable" href="../../d1/d26/struct_position.html#a4d45ff71d05bb3ff3d570905460f61cd">m_positionX</a>, pos.<a class="code hl_variable" href="../../d1/d26/struct_position.html#a4f8bb54eef056fd5a230c314d24c2ca6">m_positionY</a>, pos.<a class="code hl_variable" href="../../d1/d26/struct_position.html#a0d2305604dd27c15fd2d969f18c15b3e">m_positionZ</a>, 0.0f, 0.0f, target-&gt;GetAbsoluteAngle(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>));</div>
+<div class="line"><span class="lineno">  627</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../df/d4d/class_motion_master.html#a903a48c63482ebbd45d63272b218df7f">MovePoint</a>(<a class="code hl_enumvalue" href="../../dc/dbc/boss__mandokir_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ade15fd8617e1a8945c9bdba0eae63efa">POINT_START_REVIVE</a>, pos);</div>
+<div class="line"><span class="lineno">  628</span>            }</div>
+<div class="line"><span class="lineno">  629</span>        }</div>
+<div class="line"><span class="lineno">  630</span>    }</div>
+<div class="ttc" id="aboss__mandokir_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6ade15fd8617e1a8945c9bdba0eae63efa"><div class="ttname"><a href="../../dc/dbc/boss__mandokir_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ade15fd8617e1a8945c9bdba0eae63efa">POINT_START_REVIVE</a></div><div class="ttdeci">@ POINT_START_REVIVE</div><div class="ttdef"><b>Definition:</b> boss_mandokir.cpp:78</div></div>
+<div class="ttc" id="aboss__mandokir_8cpp_html_a8bb1ef53467e4f61410d12822d922498ae4cd22dece403cdfe2b94719ca179265"><div class="ttname"><a href="../../dc/dbc/boss__mandokir_8cpp.html#a8bb1ef53467e4f61410d12822d922498ae4cd22dece403cdfe2b94719ca179265">ACTION_REVIVE</a></div><div class="ttdeci">@ ACTION_REVIVE</div><div class="ttdef"><b>Definition:</b> boss_mandokir.cpp:73</div></div>
+<div class="ttc" id="aclass_motion_master_html_a903a48c63482ebbd45d63272b218df7f"><div class="ttname"><a href="../../df/d4d/class_motion_master.html#a903a48c63482ebbd45d63272b218df7f">MotionMaster::MovePoint</a></div><div class="ttdeci">void MovePoint(uint32 id, const Position &amp;pos, bool generatePath=true, bool forceDestination=true)</div><div class="ttdef"><b>Definition:</b> MotionMaster.h:210</div></div>
+<div class="ttc" id="aclass_player_html"><div class="ttname"><a href="../../d8/d53/class_player.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1046</div></div>
+<div class="ttc" id="aclass_unit_html_a4a04a3f22c3b0d6f4933993ac0cc7aa4"><div class="ttname"><a href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">Unit::GetMotionMaster</a></div><div class="ttdeci">MotionMaster * GetMotionMaster()</div><div class="ttdef"><b>Definition:</b> Unit.h:2257</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_aeb3657e7ad09335b9a9ffa50473aa216"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#aeb3657e7ad09335b9a9ffa50473aa216">ObjectAccessor::GetPlayer</a></div><div class="ttdeci">Player * GetPlayer(Map const *, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:225</div></div>
+<div class="ttc" id="astruct_position_html"><div class="ttname"><a href="../../d1/d26/struct_position.html">Position</a></div><div class="ttdef"><b>Definition:</b> Position.h:28</div></div>
+<div class="ttc" id="astruct_position_html_a0d2305604dd27c15fd2d969f18c15b3e"><div class="ttname"><a href="../../d1/d26/struct_position.html#a0d2305604dd27c15fd2d969f18c15b3e">Position::m_positionZ</a></div><div class="ttdeci">float m_positionZ</div><div class="ttdef"><b>Definition:</b> Position.h:58</div></div>
+<div class="ttc" id="astruct_position_html_a4d45ff71d05bb3ff3d570905460f61cd"><div class="ttname"><a href="../../d1/d26/struct_position.html#a4d45ff71d05bb3ff3d570905460f61cd">Position::m_positionX</a></div><div class="ttdeci">float m_positionX</div><div class="ttdef"><b>Definition:</b> Position.h:56</div></div>
+<div class="ttc" id="astruct_position_html_a4f8bb54eef056fd5a230c314d24c2ca6"><div class="ttname"><a href="../../d1/d26/struct_position.html#a4f8bb54eef056fd5a230c314d24c2ca6">Position::m_positionY</a></div><div class="ttdeci">float m_positionY</div><div class="ttdef"><b>Definition:</b> Position.h:57</div></div>
+<div class="ttc" id="astructnpc__chained__spirit_html_a193fddae1d3eb84bc36842adbb1fe86a"><div class="ttname"><a href="../../dc/d5e/structnpc__chained__spirit.html#a193fddae1d3eb84bc36842adbb1fe86a">npc_chained_spirit::revivePlayerGUID</a></div><div class="ttdeci">ObjectGuid revivePlayerGUID</div><div class="ttdef"><b>Definition:</b> boss_mandokir.cpp:656</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a3b405503231173e7ff7aa52e34f63da5" name="a3b405503231173e7ff7aa52e34f63da5"></a>
@@ -578,7 +612,11 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a4cc209e047dcbd29cf57e689e3945ff7">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  648</span>    {</div>
+<div class="line"><span class="lineno">  649</span>        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#abce66404f36b926cf403555911bcb9f7">DespawnOrUnsummon</a>();</div>
+<div class="line"><span class="lineno">  650</span>    }</div>
+<div class="ttc" id="aclass_creature_html_abce66404f36b926cf403555911bcb9f7"><div class="ttname"><a href="../../d1/dac/class_creature.html#abce66404f36b926cf403555911bcb9f7">Creature::DespawnOrUnsummon</a></div><div class="ttdeci">void DespawnOrUnsummon(Milliseconds msTimeToDespawn, Seconds forcedRespawnTimer)</div><div class="ttdef"><b>Definition:</b> Creature.cpp:2092</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a469a8fdc4a40857ff1dc0af9ead74d3c" name="a469a8fdc4a40857ff1dc0af9ead74d3c"></a>
@@ -616,7 +654,23 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#ac737070ba7a8645d0e0ccf6bd6107004">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  633</span>    {</div>
+<div class="line"><span class="lineno">  634</span>        <span class="keywordflow">if</span> (type != <a class="code hl_enumvalue" href="../../d8/dea/_motion_master_8h.html#a4f12806b915efea564eae942207002f9ad05105e19ca15912eceb8a1d856c7467">POINT_MOTION_TYPE</a> || !<a class="code hl_variable" href="../../dc/d5e/structnpc__chained__spirit.html#a193fddae1d3eb84bc36842adbb1fe86a">revivePlayerGUID</a>)</div>
+<div class="line"><span class="lineno">  635</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  636</span> </div>
+<div class="line"><span class="lineno">  637</span>        <span class="keywordflow">if</span> (pointId == <a class="code hl_enumvalue" href="../../dc/dbc/boss__mandokir_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ade15fd8617e1a8945c9bdba0eae63efa">POINT_START_REVIVE</a>)</div>
+<div class="line"><span class="lineno">  638</span>        {</div>
+<div class="line"><span class="lineno">  639</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* target = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#aeb3657e7ad09335b9a9ffa50473aa216">ObjectAccessor::GetPlayer</a>(*<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_variable" href="../../dc/d5e/structnpc__chained__spirit.html#a193fddae1d3eb84bc36842adbb1fe86a">revivePlayerGUID</a>))</div>
+<div class="line"><span class="lineno">  640</span>            {</div>
+<div class="line"><span class="lineno">  641</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(target, <a class="code hl_enumvalue" href="../../dc/dbc/boss__mandokir_8cpp.html#a5bd342133be8c2137b831460acc9298ca3d8bf8576afa397124a60457a9fdfc38">SPELL_REVIVE</a>);</div>
+<div class="line"><span class="lineno">  642</span>            }</div>
+<div class="line"><span class="lineno">  643</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#abce66404f36b926cf403555911bcb9f7">DespawnOrUnsummon</a>(1000);</div>
+<div class="line"><span class="lineno">  644</span>        }</div>
+<div class="line"><span class="lineno">  645</span>    }</div>
+<div class="ttc" id="a_motion_master_8h_html_a4f12806b915efea564eae942207002f9ad05105e19ca15912eceb8a1d856c7467"><div class="ttname"><a href="../../d8/dea/_motion_master_8h.html#a4f12806b915efea564eae942207002f9ad05105e19ca15912eceb8a1d856c7467">POINT_MOTION_TYPE</a></div><div class="ttdeci">@ POINT_MOTION_TYPE</div><div class="ttdef"><b>Definition:</b> MotionMaster.h:46</div></div>
+<div class="ttc" id="aboss__mandokir_8cpp_html_a5bd342133be8c2137b831460acc9298ca3d8bf8576afa397124a60457a9fdfc38"><div class="ttname"><a href="../../dc/dbc/boss__mandokir_8cpp.html#a5bd342133be8c2137b831460acc9298ca3d8bf8576afa397124a60457a9fdfc38">SPELL_REVIVE</a></div><div class="ttdeci">@ SPELL_REVIVE</div><div class="ttdef"><b>Definition:</b> boss_mandokir.cpp:52</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_aeebcad9b6effa45145c50f06af60b23d"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">UnitAI::DoCast</a></div><div class="ttdeci">SpellCastResult DoCast(uint32 spellId)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:178</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2a8a8a429492511aac697878b5dc4cc3" name="a2a8a8a429492511aac697878b5dc4cc3"></a>
@@ -643,7 +697,11 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a26600c116d20a33461fc884bdb82eda9">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  610</span>    {</div>
+<div class="line"><span class="lineno">  611</span>        <a class="code hl_variable" href="../../dc/d5e/structnpc__chained__spirit.html#a193fddae1d3eb84bc36842adbb1fe86a">revivePlayerGUID</a>.<a class="code hl_function" href="../../d8/d03/class_object_guid.html#af6aafb4610723c7f14523fef243b1b65">Clear</a>();</div>
+<div class="line"><span class="lineno">  612</span>    }</div>
+<div class="ttc" id="aclass_object_guid_html_af6aafb4610723c7f14523fef243b1b65"><div class="ttname"><a href="../../d8/d03/class_object_guid.html#af6aafb4610723c7f14523fef243b1b65">ObjectGuid::Clear</a></div><div class="ttdeci">void Clear()</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:140</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="acbe42c0692e8c1d671f2745ff8c2f9bb" name="acbe42c0692e8c1d671f2745ff8c2f9bb"></a>
@@ -681,7 +739,10 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d9c/class_unit_a_i.html#aed57e805b8792eda265a1a426fcf152a">UnitAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  615</span>    {</div>
+<div class="line"><span class="lineno">  616</span>        <a class="code hl_variable" href="../../dc/d5e/structnpc__chained__spirit.html#a193fddae1d3eb84bc36842adbb1fe86a">revivePlayerGUID</a> = guid;</div>
+<div class="line"><span class="lineno">  617</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a38d14b69c71bf2902a916028580fbfad" name="a38d14b69c71bf2902a916028580fbfad"></a>
@@ -709,7 +770,8 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#aff5fd4e142a5cf930ffacbfc7259cce5">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  652</span>{ }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -758,7 +820,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/EasternKingdoms/ZulGurub/<a class="el" href="../../dc/dbc/boss__mandokir_8cpp.html">boss_mandokir.cpp</a></li>
+<li><a class="el" href="../../">boss_mandokir.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -766,7 +828,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/d5e/structnpc__chained__spirit.html">npc_chained_spirit</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:48 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:03 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

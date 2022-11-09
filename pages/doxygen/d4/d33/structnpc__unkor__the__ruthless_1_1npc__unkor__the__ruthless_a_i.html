@@ -497,7 +497,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a965b0f182570a54ee4c0a6a54ba8fafb" name="a965b0f182570a54ee4c0a6a54ba8fafb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a965b0f182570a54ee4c0a6a54ba8fafb">&#9670;&#160;</a></span>npc_unkor_the_ruthlessAI()</h2>
 
@@ -521,7 +522,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  354</span>: <a class="code hl_struct" href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a>(creature) { }</div>
+<div class="ttc" id="astruct_scripted_a_i_html"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -572,7 +575,52 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a0d572a234f887646543620c847bd61cd">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  383</span>        {</div>
+<div class="line"><span class="lineno">  384</span>            <span class="keywordflow">if</span> (!done_by)</div>
+<div class="line"><span class="lineno">  385</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  386</span> </div>
+<div class="line"><span class="lineno">  387</span>            <a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* player = done_by-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a328d5f752cc33ed398b3d9861ef6929d">ToPlayer</a>();</div>
+<div class="line"><span class="lineno">  388</span>            <span class="keywordflow">if</span> (player &amp;&amp; <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ad08665e79b8df4fd5339b05ae1538dd9">HealthBelowPctDamaged</a>(30, damage))</div>
+<div class="line"><span class="lineno">  389</span>            {</div>
+<div class="line"><span class="lineno">  390</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/d50/class_group.html">Group</a>* group = player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a99fc00f9ac903dbe9adcadc5f7415abb">GetGroup</a>())</div>
+<div class="line"><span class="lineno">  391</span>                {</div>
+<div class="line"><span class="lineno">  392</span>                    <span class="keywordflow">for</span> (<a class="code hl_class" href="../../de/dc3/class_group_reference.html">GroupReference</a>* itr = group-&gt;GetFirstMember(); itr != <span class="keyword">nullptr</span>; itr = itr-&gt;<a class="code hl_function" href="../../de/dc3/class_group_reference.html#a6f8f406f1209dd7060904d40f5424b41">next</a>())</div>
+<div class="line"><span class="lineno">  393</span>                    {</div>
+<div class="line"><span class="lineno">  394</span>                        <a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* groupie = itr-&gt;GetSource();</div>
+<div class="line"><span class="lineno">  395</span>                        <span class="keywordflow">if</span> (groupie &amp;&amp; groupie-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#aedc362bb48f474ee7291f4c82f585837">IsInMap</a>(player) &amp;&amp;</div>
+<div class="line"><span class="lineno">  396</span>                                groupie-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#ab98c62b0161d702e4219c8277f8f5349">GetQuestStatus</a>(<a class="code hl_enumvalue" href="../../d6/d75/zone__terokkar__forest_8cpp.html#a88cc97a269783b482b7b90a366327e02ac9b055761d26e7020af8fca0ad0914e8">QUEST_DONTKILLTHEFATONE</a>) == <a class="code hl_enumvalue" href="../../d2/dc8/_quest_def_8h.html#abfc87d39d69176ad25e800fb4aa6f0d8a9d062f65bead287785d9b540987bb484">QUEST_STATUS_INCOMPLETE</a> &amp;&amp;</div>
+<div class="line"><span class="lineno">  397</span>                                groupie-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a6313d888ff224476aa988bd1f0f2ea3c">GetReqKillOrCastCurrentCount</a>(<a class="code hl_enumvalue" href="../../d6/d75/zone__terokkar__forest_8cpp.html#a88cc97a269783b482b7b90a366327e02ac9b055761d26e7020af8fca0ad0914e8">QUEST_DONTKILLTHEFATONE</a>, 18260) == 10)</div>
+<div class="line"><span class="lineno">  398</span>                        {</div>
+<div class="line"><span class="lineno">  399</span>                            groupie-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#ab3b4eddc001341bfc294817c8b23d824">AreaExploredOrEventHappens</a>(<a class="code hl_enumvalue" href="../../d6/d75/zone__terokkar__forest_8cpp.html#a88cc97a269783b482b7b90a366327e02ac9b055761d26e7020af8fca0ad0914e8">QUEST_DONTKILLTHEFATONE</a>);</div>
+<div class="line"><span class="lineno">  400</span>                            <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d4/d33/structnpc__unkor__the__ruthless_1_1npc__unkor__the__ruthless_a_i.html#a98d7d45b450f3464291ecbc05ab31f21">CanDoQuest</a>)</div>
+<div class="line"><span class="lineno">  401</span>                                <a class="code hl_variable" href="../../d4/d33/structnpc__unkor__the__ruthless_1_1npc__unkor__the__ruthless_a_i.html#a98d7d45b450f3464291ecbc05ab31f21">CanDoQuest</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  402</span>                        }</div>
+<div class="line"><span class="lineno">  403</span>                    }</div>
+<div class="line"><span class="lineno">  404</span>                }</div>
+<div class="line"><span class="lineno">  405</span>                <span class="keywordflow">else</span> <span class="keywordflow">if</span> (player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#ab98c62b0161d702e4219c8277f8f5349">GetQuestStatus</a>(<a class="code hl_enumvalue" href="../../d6/d75/zone__terokkar__forest_8cpp.html#a88cc97a269783b482b7b90a366327e02ac9b055761d26e7020af8fca0ad0914e8">QUEST_DONTKILLTHEFATONE</a>) == <a class="code hl_enumvalue" href="../../d2/dc8/_quest_def_8h.html#abfc87d39d69176ad25e800fb4aa6f0d8a9d062f65bead287785d9b540987bb484">QUEST_STATUS_INCOMPLETE</a> &amp;&amp;</div>
+<div class="line"><span class="lineno">  406</span>                         player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a6313d888ff224476aa988bd1f0f2ea3c">GetReqKillOrCastCurrentCount</a>(<a class="code hl_enumvalue" href="../../d6/d75/zone__terokkar__forest_8cpp.html#a88cc97a269783b482b7b90a366327e02ac9b055761d26e7020af8fca0ad0914e8">QUEST_DONTKILLTHEFATONE</a>, 18260) == 10)</div>
+<div class="line"><span class="lineno">  407</span>                {</div>
+<div class="line"><span class="lineno">  408</span>                    player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#ab3b4eddc001341bfc294817c8b23d824">AreaExploredOrEventHappens</a>(<a class="code hl_enumvalue" href="../../d6/d75/zone__terokkar__forest_8cpp.html#a88cc97a269783b482b7b90a366327e02ac9b055761d26e7020af8fca0ad0914e8">QUEST_DONTKILLTHEFATONE</a>);</div>
+<div class="line"><span class="lineno">  409</span>                    <a class="code hl_variable" href="../../d4/d33/structnpc__unkor__the__ruthless_1_1npc__unkor__the__ruthless_a_i.html#a98d7d45b450f3464291ecbc05ab31f21">CanDoQuest</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  410</span>                }</div>
+<div class="line"><span class="lineno">  411</span>            }</div>
+<div class="line"><span class="lineno">  412</span>        }</div>
+<div class="ttc" id="a_quest_def_8h_html_abfc87d39d69176ad25e800fb4aa6f0d8a9d062f65bead287785d9b540987bb484"><div class="ttname"><a href="../../d2/dc8/_quest_def_8h.html#abfc87d39d69176ad25e800fb4aa6f0d8a9d062f65bead287785d9b540987bb484">QUEST_STATUS_INCOMPLETE</a></div><div class="ttdeci">@ QUEST_STATUS_INCOMPLETE</div><div class="ttdef"><b>Definition:</b> QuestDef.h:103</div></div>
+<div class="ttc" id="aclass_group_html"><div class="ttname"><a href="../../da/d50/class_group.html">Group</a></div><div class="ttdef"><b>Definition:</b> Group.h:168</div></div>
+<div class="ttc" id="aclass_group_reference_html"><div class="ttname"><a href="../../de/dc3/class_group_reference.html">GroupReference</a></div><div class="ttdef"><b>Definition:</b> GroupReference.h:27</div></div>
+<div class="ttc" id="aclass_group_reference_html_a6f8f406f1209dd7060904d40f5424b41"><div class="ttname"><a href="../../de/dc3/class_group_reference.html#a6f8f406f1209dd7060904d40f5424b41">GroupReference::next</a></div><div class="ttdeci">GroupReference * next()</div><div class="ttdef"><b>Definition:</b> GroupReference.h:36</div></div>
+<div class="ttc" id="aclass_object_html_a328d5f752cc33ed398b3d9861ef6929d"><div class="ttname"><a href="../../d8/d83/class_object.html#a328d5f752cc33ed398b3d9861ef6929d">Object::ToPlayer</a></div><div class="ttdeci">Player * ToPlayer()</div><div class="ttdef"><b>Definition:</b> Object.h:195</div></div>
+<div class="ttc" id="aclass_player_html"><div class="ttname"><a href="../../d8/d53/class_player.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1046</div></div>
+<div class="ttc" id="aclass_player_html_a6313d888ff224476aa988bd1f0f2ea3c"><div class="ttname"><a href="../../d8/d53/class_player.html#a6313d888ff224476aa988bd1f0f2ea3c">Player::GetReqKillOrCastCurrentCount</a></div><div class="ttdeci">uint16 GetReqKillOrCastCurrentCount(uint32 quest_id, int32 entry)</div><div class="ttdef"><b>Definition:</b> PlayerQuest.cpp:1728</div></div>
+<div class="ttc" id="aclass_player_html_a99fc00f9ac903dbe9adcadc5f7415abb"><div class="ttname"><a href="../../d8/d53/class_player.html#a99fc00f9ac903dbe9adcadc5f7415abb">Player::GetGroup</a></div><div class="ttdeci">Group * GetGroup()</div><div class="ttdef"><b>Definition:</b> Player.h:2417</div></div>
+<div class="ttc" id="aclass_player_html_ab3b4eddc001341bfc294817c8b23d824"><div class="ttname"><a href="../../d8/d53/class_player.html#ab3b4eddc001341bfc294817c8b23d824">Player::AreaExploredOrEventHappens</a></div><div class="ttdeci">void AreaExploredOrEventHappens(uint32 questId)</div><div class="ttdef"><b>Definition:</b> PlayerQuest.cpp:1768</div></div>
+<div class="ttc" id="aclass_player_html_ab98c62b0161d702e4219c8277f8f5349"><div class="ttname"><a href="../../d8/d53/class_player.html#ab98c62b0161d702e4219c8277f8f5349">Player::GetQuestStatus</a></div><div class="ttdeci">QuestStatus GetQuestStatus(uint32 quest_id) const</div><div class="ttdef"><b>Definition:</b> PlayerQuest.cpp:1407</div></div>
+<div class="ttc" id="aclass_unit_html_ad08665e79b8df4fd5339b05ae1538dd9"><div class="ttname"><a href="../../da/db7/class_unit.html#ad08665e79b8df4fd5339b05ae1538dd9">Unit::HealthBelowPctDamaged</a></div><div class="ttdeci">bool HealthBelowPctDamaged(int32 pct, uint32 damage) const</div><div class="ttdef"><b>Definition:</b> Unit.h:1443</div></div>
+<div class="ttc" id="aclass_world_object_html_aedc362bb48f474ee7291f4c82f585837"><div class="ttname"><a href="../../db/df7/class_world_object.html#aedc362bb48f474ee7291f4c82f585837">WorldObject::IsInMap</a></div><div class="ttdeci">bool IsInMap(WorldObject const *obj) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1285</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+<div class="ttc" id="astructnpc__unkor__the__ruthless_1_1npc__unkor__the__ruthless_a_i_html_a98d7d45b450f3464291ecbc05ab31f21"><div class="ttname"><a href="../../d4/d33/structnpc__unkor__the__ruthless_1_1npc__unkor__the__ruthless_a_i.html#a98d7d45b450f3464291ecbc05ab31f21">npc_unkor_the_ruthless::npc_unkor_the_ruthlessAI::CanDoQuest</a></div><div class="ttdeci">bool CanDoQuest</div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:356</div></div>
+<div class="ttc" id="azone__terokkar__forest_8cpp_html_a88cc97a269783b482b7b90a366327e02ac9b055761d26e7020af8fca0ad0914e8"><div class="ttname"><a href="../../d6/d75/zone__terokkar__forest_8cpp.html#a88cc97a269783b482b7b90a366327e02ac9b055761d26e7020af8fca0ad0914e8">QUEST_DONTKILLTHEFATONE</a></div><div class="ttdeci">@ QUEST_DONTKILLTHEFATONE</div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:337</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aa673fc892b9c0d59b2789271140e6054" name="aa673fc892b9c0d59b2789271140e6054"></a>
@@ -597,7 +645,27 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  372</span>        {</div>
+<div class="line"><span class="lineno">  373</span>            <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d6/d75/zone__terokkar__forest_8cpp.html#a88cc97a269783b482b7b90a366327e02ac438d344c95f2fc9bceaf8955f07a62c">SAY_SUBMIT</a>);</div>
+<div class="line"><span class="lineno">  374</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a2579e2b71959daec99048b4bcf7f6bf3">SetFaction</a>(<a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#ac5c8e776fe109c83a63abe41eb5e80f2a5cf4abb6724ef933fed2820a2dce8b42">FACTION_FRIENDLY</a>);</div>
+<div class="line"><span class="lineno">  375</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aeae261b4b6d3ccacc8819ca19b4ef0cc">SetStandState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#a809d475cf0ffeaa1ddad86f73e24a7c1af96be269aa2444d2b7108eb4e531c9f1">UNIT_STAND_STATE_SIT</a>);</div>
+<div class="line"><span class="lineno">  376</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aca967faa985dbe4062dd23360cdb607c">RemoveAllAuras</a>();</div>
+<div class="line"><span class="lineno">  377</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ad56089c61bf09419bedbb4edd2d94aeb">GetThreatMgr</a>().<a class="code hl_function" href="../../d0/db1/class_threat_mgr.html#a6e1716a276a5c87fa37d5aff81501b83">ClearAllThreat</a>();</div>
+<div class="line"><span class="lineno">  378</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a18f77484ed2acc7be7fa29d1df7a0c12">CombatStop</a>(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  379</span>            <a class="code hl_variable" href="../../d4/d33/structnpc__unkor__the__ruthless_1_1npc__unkor__the__ruthless_a_i.html#ae6eeb6177d655f5a0bede45183758f1f">UnkorUnfriendly_Timer</a> = 60000;</div>
+<div class="line"><span class="lineno">  380</span>        }</div>
+<div class="ttc" id="a_shared_defines_8h_html_ac5c8e776fe109c83a63abe41eb5e80f2a5cf4abb6724ef933fed2820a2dce8b42"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#ac5c8e776fe109c83a63abe41eb5e80f2a5cf4abb6724ef933fed2820a2dce8b42">FACTION_FRIENDLY</a></div><div class="ttdeci">@ FACTION_FRIENDLY</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:173</div></div>
+<div class="ttc" id="a_unit_8h_html_a809d475cf0ffeaa1ddad86f73e24a7c1af96be269aa2444d2b7108eb4e531c9f1"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#a809d475cf0ffeaa1ddad86f73e24a7c1af96be269aa2444d2b7108eb4e531c9f1">UNIT_STAND_STATE_SIT</a></div><div class="ttdeci">@ UNIT_STAND_STATE_SIT</div><div class="ttdef"><b>Definition:</b> Unit.h:54</div></div>
+<div class="ttc" id="aboss__fathomlord__karathress_8cpp_html_a747a224b6b3195f9a33c56ddc6c7e268"><div class="ttname"><a href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a></div><div class="ttdeci">Talk</div><div class="ttdef"><b>Definition:</b> boss_fathomlord_karathress.cpp:23</div></div>
+<div class="ttc" id="aclass_threat_mgr_html_a6e1716a276a5c87fa37d5aff81501b83"><div class="ttname"><a href="../../d0/db1/class_threat_mgr.html#a6e1716a276a5c87fa37d5aff81501b83">ThreatMgr::ClearAllThreat</a></div><div class="ttdeci">void ClearAllThreat()</div><div class="ttdef"><b>Definition:</b> ThreatMgr.cpp:418</div></div>
+<div class="ttc" id="aclass_unit_html_a18f77484ed2acc7be7fa29d1df7a0c12"><div class="ttname"><a href="../../da/db7/class_unit.html#a18f77484ed2acc7be7fa29d1df7a0c12">Unit::CombatStop</a></div><div class="ttdeci">void CombatStop(bool includingCast=false)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:10389</div></div>
+<div class="ttc" id="aclass_unit_html_a2579e2b71959daec99048b4bcf7f6bf3"><div class="ttname"><a href="../../da/db7/class_unit.html#a2579e2b71959daec99048b4bcf7f6bf3">Unit::SetFaction</a></div><div class="ttdeci">void SetFaction(uint32 faction)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:10017</div></div>
+<div class="ttc" id="aclass_unit_html_aca967faa985dbe4062dd23360cdb607c"><div class="ttname"><a href="../../da/db7/class_unit.html#aca967faa985dbe4062dd23360cdb607c">Unit::RemoveAllAuras</a></div><div class="ttdeci">void RemoveAllAuras()</div><div class="ttdef"><b>Definition:</b> Unit.cpp:5227</div></div>
+<div class="ttc" id="aclass_unit_html_ad56089c61bf09419bedbb4edd2d94aeb"><div class="ttname"><a href="../../da/db7/class_unit.html#ad56089c61bf09419bedbb4edd2d94aeb">Unit::GetThreatMgr</a></div><div class="ttdeci">ThreatMgr &amp; GetThreatMgr()</div><div class="ttdef"><b>Definition:</b> Unit.h:2142</div></div>
+<div class="ttc" id="aclass_unit_html_aeae261b4b6d3ccacc8819ca19b4ef0cc"><div class="ttname"><a href="../../da/db7/class_unit.html#aeae261b4b6d3ccacc8819ca19b4ef0cc">Unit::SetStandState</a></div><div class="ttdeci">void SetStandState(uint8 state)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:16812</div></div>
+<div class="ttc" id="astructnpc__unkor__the__ruthless_1_1npc__unkor__the__ruthless_a_i_html_ae6eeb6177d655f5a0bede45183758f1f"><div class="ttname"><a href="../../d4/d33/structnpc__unkor__the__ruthless_1_1npc__unkor__the__ruthless_a_i.html#ae6eeb6177d655f5a0bede45183758f1f">npc_unkor_the_ruthless::npc_unkor_the_ruthlessAI::UnkorUnfriendly_Timer</a></div><div class="ttdeci">uint32 UnkorUnfriendly_Timer</div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:357</div></div>
+<div class="ttc" id="azone__terokkar__forest_8cpp_html_a88cc97a269783b482b7b90a366327e02ac438d344c95f2fc9bceaf8955f07a62c"><div class="ttname"><a href="../../d6/d75/zone__terokkar__forest_8cpp.html#a88cc97a269783b482b7b90a366327e02ac438d344c95f2fc9bceaf8955f07a62c">SAY_SUBMIT</a></div><div class="ttdeci">@ SAY_SUBMIT</div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:334</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aa9405945d8802d08e36509190593ebdb" name="aa9405945d8802d08e36509190593ebdb"></a>
@@ -625,7 +693,8 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a35a9ca7c140474598325b0f2073f9bcd">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  369</span>{ }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a14ca75417c623d6d6e5fce50521963da" name="a14ca75417c623d6d6e5fce50521963da"></a>
@@ -652,7 +721,17 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a26600c116d20a33461fc884bdb82eda9">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  361</span>        {</div>
+<div class="line"><span class="lineno">  362</span>            <a class="code hl_variable" href="../../d4/d33/structnpc__unkor__the__ruthless_1_1npc__unkor__the__ruthless_a_i.html#a98d7d45b450f3464291ecbc05ab31f21">CanDoQuest</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  363</span>            <a class="code hl_variable" href="../../d4/d33/structnpc__unkor__the__ruthless_1_1npc__unkor__the__ruthless_a_i.html#ae6eeb6177d655f5a0bede45183758f1f">UnkorUnfriendly_Timer</a> = 0;</div>
+<div class="line"><span class="lineno">  364</span>            <a class="code hl_variable" href="../../d4/d33/structnpc__unkor__the__ruthless_1_1npc__unkor__the__ruthless_a_i.html#a2ddc09c9241bbf95cddb6c1c4ddfc6bd">Pulverize_Timer</a> = 3000;</div>
+<div class="line"><span class="lineno">  365</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aeae261b4b6d3ccacc8819ca19b4ef0cc">SetStandState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#a809d475cf0ffeaa1ddad86f73e24a7c1ae36b6864d89399e04b14123d3194e224">UNIT_STAND_STATE_STAND</a>);</div>
+<div class="line"><span class="lineno">  366</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a2579e2b71959daec99048b4bcf7f6bf3">SetFaction</a>(<a class="code hl_enumvalue" href="../../d6/d75/zone__terokkar__forest_8cpp.html#a88cc97a269783b482b7b90a366327e02a9f091068e93fe04fde1b2d77d34d5fcf">FACTION_HOSTILE</a>);</div>
+<div class="line"><span class="lineno">  367</span>        }</div>
+<div class="ttc" id="a_unit_8h_html_a809d475cf0ffeaa1ddad86f73e24a7c1ae36b6864d89399e04b14123d3194e224"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#a809d475cf0ffeaa1ddad86f73e24a7c1ae36b6864d89399e04b14123d3194e224">UNIT_STAND_STATE_STAND</a></div><div class="ttdeci">@ UNIT_STAND_STATE_STAND</div><div class="ttdef"><b>Definition:</b> Unit.h:53</div></div>
+<div class="ttc" id="astructnpc__unkor__the__ruthless_1_1npc__unkor__the__ruthless_a_i_html_a2ddc09c9241bbf95cddb6c1c4ddfc6bd"><div class="ttname"><a href="../../d4/d33/structnpc__unkor__the__ruthless_1_1npc__unkor__the__ruthless_a_i.html#a2ddc09c9241bbf95cddb6c1c4ddfc6bd">npc_unkor_the_ruthless::npc_unkor_the_ruthlessAI::Pulverize_Timer</a></div><div class="ttdeci">uint32 Pulverize_Timer</div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:358</div></div>
+<div class="ttc" id="azone__terokkar__forest_8cpp_html_a88cc97a269783b482b7b90a366327e02a9f091068e93fe04fde1b2d77d34d5fcf"><div class="ttname"><a href="../../d6/d75/zone__terokkar__forest_8cpp.html#a88cc97a269783b482b7b90a366327e02a9f091068e93fe04fde1b2d77d34d5fcf">FACTION_HOSTILE</a></div><div class="ttdeci">@ FACTION_HOSTILE</div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:336</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a744ea41d7f9450965419085a296c8df2" name="a744ea41d7f9450965419085a296c8df2"></a>
@@ -680,7 +759,44 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#aff5fd4e142a5cf930ffacbfc7259cce5">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  415</span>        {</div>
+<div class="line"><span class="lineno">  416</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d4/d33/structnpc__unkor__the__ruthless_1_1npc__unkor__the__ruthless_a_i.html#a98d7d45b450f3464291ecbc05ab31f21">CanDoQuest</a>)</div>
+<div class="line"><span class="lineno">  417</span>            {</div>
+<div class="line"><span class="lineno">  418</span>                <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d4/d33/structnpc__unkor__the__ruthless_1_1npc__unkor__the__ruthless_a_i.html#ae6eeb6177d655f5a0bede45183758f1f">UnkorUnfriendly_Timer</a>)</div>
+<div class="line"><span class="lineno">  419</span>                {</div>
+<div class="line"><span class="lineno">  420</span>                    <span class="comment">//DoCast(me, SPELL_QUID9889);        //not using spell for now</span></div>
+<div class="line"><span class="lineno">  421</span>                    <a class="code hl_function" href="../../d4/d33/structnpc__unkor__the__ruthless_1_1npc__unkor__the__ruthless_a_i.html#aa673fc892b9c0d59b2789271140e6054">DoNice</a>();</div>
+<div class="line"><span class="lineno">  422</span>                }</div>
+<div class="line"><span class="lineno">  423</span>                <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  424</span>                {</div>
+<div class="line"><span class="lineno">  425</span>                    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d4/d33/structnpc__unkor__the__ruthless_1_1npc__unkor__the__ruthless_a_i.html#ae6eeb6177d655f5a0bede45183758f1f">UnkorUnfriendly_Timer</a> &lt;= diff)</div>
+<div class="line"><span class="lineno">  426</span>                    {</div>
+<div class="line"><span class="lineno">  427</span>                        <a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#afe5dd68e11d20028510eca29d4184778">EnterEvadeMode</a>();</div>
+<div class="line"><span class="lineno">  428</span>                        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  429</span>                    }</div>
+<div class="line"><span class="lineno">  430</span>                    <span class="keywordflow">else</span> <a class="code hl_variable" href="../../d4/d33/structnpc__unkor__the__ruthless_1_1npc__unkor__the__ruthless_a_i.html#ae6eeb6177d655f5a0bede45183758f1f">UnkorUnfriendly_Timer</a> -= diff;</div>
+<div class="line"><span class="lineno">  431</span>                }</div>
+<div class="line"><span class="lineno">  432</span>            }</div>
+<div class="line"><span class="lineno">  433</span> </div>
+<div class="line"><span class="lineno">  434</span>            <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">UpdateVictim</a>())</div>
+<div class="line"><span class="lineno">  435</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  436</span> </div>
+<div class="line"><span class="lineno">  437</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d4/d33/structnpc__unkor__the__ruthless_1_1npc__unkor__the__ruthless_a_i.html#a2ddc09c9241bbf95cddb6c1c4ddfc6bd">Pulverize_Timer</a> &lt;= diff)</div>
+<div class="line"><span class="lineno">  438</span>            {</div>
+<div class="line"><span class="lineno">  439</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_enumvalue" href="../../d6/d75/zone__terokkar__forest_8cpp.html#a88cc97a269783b482b7b90a366327e02a69dd71f7b0eefec5bcdd15cddbb128d6">SPELL_PULVERIZE</a>);</div>
+<div class="line"><span class="lineno">  440</span>                <a class="code hl_variable" href="../../d4/d33/structnpc__unkor__the__ruthless_1_1npc__unkor__the__ruthless_a_i.html#a2ddc09c9241bbf95cddb6c1c4ddfc6bd">Pulverize_Timer</a> = 9000;</div>
+<div class="line"><span class="lineno">  441</span>            }</div>
+<div class="line"><span class="lineno">  442</span>            <span class="keywordflow">else</span> <a class="code hl_variable" href="../../d4/d33/structnpc__unkor__the__ruthless_1_1npc__unkor__the__ruthless_a_i.html#a2ddc09c9241bbf95cddb6c1c4ddfc6bd">Pulverize_Timer</a> -= diff;</div>
+<div class="line"><span class="lineno">  443</span> </div>
+<div class="line"><span class="lineno">  444</span>            <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">DoMeleeAttackIfReady</a>();</div>
+<div class="line"><span class="lineno">  445</span>        }</div>
+<div class="ttc" id="aclass_creature_a_i_html_ae03ccfe1e27501ed9ccbfecdbd3c4e39"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">CreatureAI::UpdateVictim</a></div><div class="ttdeci">bool UpdateVictim()</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:268</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_afe5dd68e11d20028510eca29d4184778"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#afe5dd68e11d20028510eca29d4184778">CreatureAI::EnterEvadeMode</a></div><div class="ttdeci">virtual void EnterEvadeMode(EvadeReason why=EVADE_REASON_OTHER)</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:195</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a348a472089a9be6210b58aace8fafa9f"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">UnitAI::DoMeleeAttackIfReady</a></div><div class="ttdeci">void DoMeleeAttackIfReady()</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:40</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_aeebcad9b6effa45145c50f06af60b23d"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">UnitAI::DoCast</a></div><div class="ttdeci">SpellCastResult DoCast(uint32 spellId)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:178</div></div>
+<div class="ttc" id="astructnpc__unkor__the__ruthless_1_1npc__unkor__the__ruthless_a_i_html_aa673fc892b9c0d59b2789271140e6054"><div class="ttname"><a href="../../d4/d33/structnpc__unkor__the__ruthless_1_1npc__unkor__the__ruthless_a_i.html#aa673fc892b9c0d59b2789271140e6054">npc_unkor_the_ruthless::npc_unkor_the_ruthlessAI::DoNice</a></div><div class="ttdeci">void DoNice()</div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:371</div></div>
+<div class="ttc" id="azone__terokkar__forest_8cpp_html_a88cc97a269783b482b7b90a366327e02a69dd71f7b0eefec5bcdd15cddbb128d6"><div class="ttname"><a href="../../d6/d75/zone__terokkar__forest_8cpp.html#a88cc97a269783b482b7b90a366327e02a69dd71f7b0eefec5bcdd15cddbb128d6">SPELL_PULVERIZE</a></div><div class="ttdeci">@ SPELL_PULVERIZE</div><div class="ttdef"><b>Definition:</b> zone_terokkar_forest.cpp:339</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -727,7 +843,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Outland/<a class="el" href="../../d6/d75/zone__terokkar__forest_8cpp.html">zone_terokkar_forest.cpp</a></li>
+<li><a class="el" href="../../">zone_terokkar_forest.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -735,7 +851,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d0/d79/classnpc__unkor__the__ruthless.html">npc_unkor_the_ruthless</a></li><li class="navelem"><a class="el" href="../../d4/d33/structnpc__unkor__the__ruthless_1_1npc__unkor__the__ruthless_a_i.html">npc_unkor_the_ruthlessAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:55 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:11 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

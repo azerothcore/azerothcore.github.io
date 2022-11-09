@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('d7/d22/class_wintergrasp_capture_point
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../db/dbf/_battlefield_w_g_8h_source.html">BattlefieldWG.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">BattlefieldWG.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for WintergraspCapturePoint:</div>
 <div class="dyncontent">
@@ -202,7 +202,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a67d01513cc9f41ce103f214a85bcf5c6 inherit pro_methods_class_bf_capture_point"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d90/class_bf_capture_point.html#a67d01513cc9f41ce103f214a85bcf5c6">DelCapturePoint</a> ()</td></tr>
 <tr class="separator:a67d01513cc9f41ce103f214a85bcf5c6 inherit pro_methods_class_bf_capture_point"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a36090feb3626e204e0029ea45f1d8136" name="a36090feb3626e204e0029ea45f1d8136"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a36090feb3626e204e0029ea45f1d8136">&#9670;&#160;</a></span>WintergraspCapturePoint()</h2>
 
@@ -228,7 +229,17 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1191</span>                                                                                                 : <a class="code hl_class" href="../../de/d90/class_bf_capture_point.html">BfCapturePoint</a>(battlefield)</div>
+<div class="line"><span class="lineno"> 1192</span>{</div>
+<div class="line"><span class="lineno"> 1193</span>    <a class="code hl_variable" href="../../de/d90/class_bf_capture_point.html#a1f857e79dde01c3d966f7c7981e5f190">m_Bf</a> = battlefield;</div>
+<div class="line"><span class="lineno"> 1194</span>    <a class="code hl_variable" href="../../de/d90/class_bf_capture_point.html#acd3c8e8fe970c160670bd5a7cdb9b1c4">m_team</a> = teamInControl;</div>
+<div class="line"><span class="lineno"> 1195</span>    <a class="code hl_variable" href="../../d7/d22/class_wintergrasp_capture_point.html#a1e780ccd3759538fe4c9d7e3fc5447ed">m_Workshop</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno"> 1196</span>}</div>
+<div class="ttc" id="aclass_bf_capture_point_html"><div class="ttname"><a href="../../de/d90/class_bf_capture_point.html">BfCapturePoint</a></div><div class="ttdef"><b>Definition:</b> Battlefield.h:80</div></div>
+<div class="ttc" id="aclass_bf_capture_point_html_a1f857e79dde01c3d966f7c7981e5f190"><div class="ttname"><a href="../../de/d90/class_bf_capture_point.html#a1f857e79dde01c3d966f7c7981e5f190">BfCapturePoint::m_Bf</a></div><div class="ttdeci">Battlefield * m_Bf</div><div class="ttdef"><b>Definition:</b> Battlefield.h:137</div></div>
+<div class="ttc" id="aclass_bf_capture_point_html_acd3c8e8fe970c160670bd5a7cdb9b1c4"><div class="ttname"><a href="../../de/d90/class_bf_capture_point.html#acd3c8e8fe970c160670bd5a7cdb9b1c4">BfCapturePoint::m_team</a></div><div class="ttdeci">TeamId m_team</div><div class="ttdef"><b>Definition:</b> Battlefield.h:127</div></div>
+<div class="ttc" id="aclass_wintergrasp_capture_point_html_a1e780ccd3759538fe4c9d7e3fc5447ed"><div class="ttname"><a href="../../d7/d22/class_wintergrasp_capture_point.html#a1e780ccd3759538fe4c9d7e3fc5447ed">WintergraspCapturePoint::m_Workshop</a></div><div class="ttdeci">WGWorkshop * m_Workshop</div><div class="ttdef"><b>Definition:</b> BattlefieldWG.h:269</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -257,7 +268,13 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d90/class_bf_capture_point.html#a429037910b1a3108cdb753ba91230bf7">BfCapturePoint</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1199</span>{</div>
+<div class="line"><span class="lineno"> 1200</span>    <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(<a class="code hl_variable" href="../../d7/d22/class_wintergrasp_capture_point.html#a1e780ccd3759538fe4c9d7e3fc5447ed">m_Workshop</a>);</div>
+<div class="line"><span class="lineno"> 1201</span>    <a class="code hl_variable" href="../../d7/d22/class_wintergrasp_capture_point.html#a1e780ccd3759538fe4c9d7e3fc5447ed">m_Workshop</a>-&gt;<a class="code hl_function" href="../../dc/d30/struct_w_g_workshop.html#a6b69312f4ffa562b0e8fdcf5da3568d3">GiveControlTo</a>(<a class="code hl_variable" href="../../de/d90/class_bf_capture_point.html#acd3c8e8fe970c160670bd5a7cdb9b1c4">m_team</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno"> 1202</span>}</div>
+<div class="ttc" id="a_errors_8h_html_af343b20373ba49a92fce523e948f2ab3"><div class="ttname"><a href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a></div><div class="ttdeci">#define ASSERT</div><div class="ttdef"><b>Definition:</b> Errors.h:68</div></div>
+<div class="ttc" id="astruct_w_g_workshop_html_a6b69312f4ffa562b0e8fdcf5da3568d3"><div class="ttname"><a href="../../dc/d30/struct_w_g_workshop.html#a6b69312f4ffa562b0e8fdcf5da3568d3">WGWorkshop::GiveControlTo</a></div><div class="ttdeci">void GiveControlTo(TeamId team, bool init)</div><div class="ttdef"><b>Definition:</b> BattlefieldWG.h:1468</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a7ff4106591a5aac1ea8820016b8164bb" name="a7ff4106591a5aac1ea8820016b8164bb"></a>
@@ -282,7 +299,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  266</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/d90/class_bf_capture_point.html#acd3c8e8fe970c160670bd5a7cdb9b1c4">m_team</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a32d378eba7f0eea0f011b8ea8c7e6eee" name="a32d378eba7f0eea0f011b8ea8c7e6eee"></a>
@@ -308,7 +326,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  263</span>{ <a class="code hl_variable" href="../../d7/d22/class_wintergrasp_capture_point.html#a1e780ccd3759538fe4c9d7e3fc5447ed">m_Workshop</a> = workshop; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -335,8 +354,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Battlefield/Zones/<a class="el" href="../../db/dbf/_battlefield_w_g_8h_source.html">BattlefieldWG.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/Battlefield/Zones/<a class="el" href="../../d8/da1/_battlefield_w_g_8cpp.html">BattlefieldWG.cpp</a></li>
+<li><a class="el" href="../../">BattlefieldWG.h</a></li>
+<li><a class="el" href="../../">BattlefieldWG.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -344,7 +363,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d7/d22/class_wintergrasp_capture_point.html">WintergraspCapturePoint</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:12 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:30 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

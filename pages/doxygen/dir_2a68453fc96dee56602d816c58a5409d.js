@@ -1,8 +1,8 @@
 var dir_2a68453fc96dee56602d816c58a5409d =
 [
-    [ "boss_nethekurse.cpp", "d6/dee/boss__nethekurse_8cpp.html", "d6/dee/boss__nethekurse_8cpp" ],
-    [ "boss_warbringer_omrogg.cpp", "d9/d60/boss__warbringer__omrogg_8cpp.html", "d9/d60/boss__warbringer__omrogg_8cpp" ],
-    [ "boss_warchief_kargath_bladefist.cpp", "d4/d22/boss__warchief__kargath__bladefist_8cpp.html", "d4/d22/boss__warchief__kargath__bladefist_8cpp" ],
-    [ "instance_shattered_halls.cpp", "d8/d14/instance__shattered__halls_8cpp.html", "d8/d14/instance__shattered__halls_8cpp" ],
-    [ "shattered_halls.h", "de/dae/shattered__halls_8h.html", "de/dae/shattered__halls_8h" ]
+    [ "boss_nethekurse.cpp", "d9/d0d/a03995.html", "d9/d0d/a03995" ],
+    [ "boss_warbringer_omrogg.cpp", "df/d58/a03998.html", "df/d58/a03998" ],
+    [ "boss_warchief_kargath_bladefist.cpp", "dd/d81/a04001.html", "dd/d81/a04001" ],
+    [ "instance_shattered_halls.cpp", "d9/def/a04004.html", "d9/def/a04004" ],
+    [ "shattered_halls.h", "d2/dfc/a04007.html", "d2/dfc/a04007" ]
 ];

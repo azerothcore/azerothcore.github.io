@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('d7/da9/class_conflagrate_aura_state_de
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d5/d32/_unit_8h_source.html">Unit.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">Unit.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for ConflagrateAuraStateDelayEvent:</div>
 <div class="dyncontent">
@@ -151,7 +151,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a5dc5804fac74e92400106f97f96253e1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/d03/class_object_guid.html">ObjectGuid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/da9/class_conflagrate_aura_state_delay_event.html#a5dc5804fac74e92400106f97f96253e1">m_casterGUID</a></td></tr>
 <tr class="separator:a5dc5804fac74e92400106f97f96253e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a874b61345e6a48a8dc622a13e58fb719" name="a874b61345e6a48a8dc622a13e58fb719"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a874b61345e6a48a8dc622a13e58fb719">&#9670;&#160;</a></span>ConflagrateAuraStateDelayEvent()</h2>
 
@@ -185,7 +186,11 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 2653</span>: <a class="code hl_function" href="../../d0/df3/class_basic_event.html#a9c3cd17edab7fc410f88bb680d756975">BasicEvent</a>(), <a class="code hl_variable" href="../../d7/da9/class_conflagrate_aura_state_delay_event.html#ab76e0300de4bdbeb311ef4b33a3076a3">m_owner</a>(owner), <a class="code hl_variable" href="../../d7/da9/class_conflagrate_aura_state_delay_event.html#a5dc5804fac74e92400106f97f96253e1">m_casterGUID</a>(casterGUID) { }</div>
+<div class="ttc" id="aclass_basic_event_html_a9c3cd17edab7fc410f88bb680d756975"><div class="ttname"><a href="../../d0/df3/class_basic_event.html#a9c3cd17edab7fc410f88bb680d756975">BasicEvent::BasicEvent</a></div><div class="ttdeci">BasicEvent()=default</div></div>
+<div class="ttc" id="aclass_conflagrate_aura_state_delay_event_html_a5dc5804fac74e92400106f97f96253e1"><div class="ttname"><a href="../../d7/da9/class_conflagrate_aura_state_delay_event.html#a5dc5804fac74e92400106f97f96253e1">ConflagrateAuraStateDelayEvent::m_casterGUID</a></div><div class="ttdeci">ObjectGuid m_casterGUID</div><div class="ttdef"><b>Definition:</b> Unit.h:2658</div></div>
+<div class="ttc" id="aclass_conflagrate_aura_state_delay_event_html_ab76e0300de4bdbeb311ef4b33a3076a3"><div class="ttname"><a href="../../d7/da9/class_conflagrate_aura_state_delay_event.html#ab76e0300de4bdbeb311ef4b33a3076a3">ConflagrateAuraStateDelayEvent::m_owner</a></div><div class="ttdeci">Unit * m_owner</div><div class="ttdef"><b>Definition:</b> Unit.h:2657</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -224,7 +229,21 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d0/df3/class_basic_event.html#a89297a10b64d01895332655122ed8ccb">BasicEvent</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">20486</span>{</div>
+<div class="line"><span class="lineno">20487</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d7/da9/class_conflagrate_aura_state_delay_event.html#ab76e0300de4bdbeb311ef4b33a3076a3">m_owner</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a3aeab7def818ba6c50249f197ad2f9ca">IsInWorld</a>())</div>
+<div class="line"><span class="lineno">20488</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d7/da9/class_conflagrate_aura_state_delay_event.html#ab76e0300de4bdbeb311ef4b33a3076a3">m_owner</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a520e229dc1a93ea4a53d0ba81e586d11">GetAuraEffect</a>(<a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799a11166673929d2fda5967add284832fad">SPELL_AURA_PERIODIC_DAMAGE</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a9264ae6b0ef1b61a6eeb7fdac9fbab1ba0a134bc75d430da10f6c1df4977c29cf">SPELLFAMILY_WARLOCK</a>, 0x4, 0, 0, <a class="code hl_variable" href="../../d7/da9/class_conflagrate_aura_state_delay_event.html#a5dc5804fac74e92400106f97f96253e1">m_casterGUID</a>) || <span class="comment">// immolate</span></div>
+<div class="line"><span class="lineno">20489</span>                <a class="code hl_variable" href="../../d7/da9/class_conflagrate_aura_state_delay_event.html#ab76e0300de4bdbeb311ef4b33a3076a3">m_owner</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a520e229dc1a93ea4a53d0ba81e586d11">GetAuraEffect</a>(<a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799a11166673929d2fda5967add284832fad">SPELL_AURA_PERIODIC_DAMAGE</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a9264ae6b0ef1b61a6eeb7fdac9fbab1ba0a134bc75d430da10f6c1df4977c29cf">SPELLFAMILY_WARLOCK</a>, 0, 0, 0x2, <a class="code hl_variable" href="../../d7/da9/class_conflagrate_aura_state_delay_event.html#a5dc5804fac74e92400106f97f96253e1">m_casterGUID</a>)) <span class="comment">// shadowflame</span></div>
+<div class="line"><span class="lineno">20490</span>            <a class="code hl_variable" href="../../d7/da9/class_conflagrate_aura_state_delay_event.html#ab76e0300de4bdbeb311ef4b33a3076a3">m_owner</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a8835b1038889d9d037840ad570203b67">ModifyAuraState</a>(<a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#ac94bd5b366099f43ad3260724e538ec3aeef5f84d4faacd8f75d6f415bdaee391">AURA_STATE_CONFLAGRATE</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">20491</span> </div>
+<div class="line"><span class="lineno">20492</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">20493</span>}</div>
+<div class="ttc" id="a_shared_defines_8h_html_a9264ae6b0ef1b61a6eeb7fdac9fbab1ba0a134bc75d430da10f6c1df4977c29cf"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a9264ae6b0ef1b61a6eeb7fdac9fbab1ba0a134bc75d430da10f6c1df4977c29cf">SPELLFAMILY_WARLOCK</a></div><div class="ttdeci">@ SPELLFAMILY_WARLOCK</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3505</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_ac94bd5b366099f43ad3260724e538ec3aeef5f84d4faacd8f75d6f415bdaee391"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#ac94bd5b366099f43ad3260724e538ec3aeef5f84d4faacd8f75d6f415bdaee391">AURA_STATE_CONFLAGRATE</a></div><div class="ttdeci">@ AURA_STATE_CONFLAGRATE</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1278</div></div>
+<div class="ttc" id="a_spell_aura_defines_8h_html_a538cdc259460b365f406fe0b3a981799a11166673929d2fda5967add284832fad"><div class="ttname"><a href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799a11166673929d2fda5967add284832fad">SPELL_AURA_PERIODIC_DAMAGE</a></div><div class="ttdeci">@ SPELL_AURA_PERIODIC_DAMAGE</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:66</div></div>
+<div class="ttc" id="aclass_object_html_a3aeab7def818ba6c50249f197ad2f9ca"><div class="ttname"><a href="../../d8/d83/class_object.html#a3aeab7def818ba6c50249f197ad2f9ca">Object::IsInWorld</a></div><div class="ttdeci">bool IsInWorld() const</div><div class="ttdef"><b>Definition:</b> Object.h:101</div></div>
+<div class="ttc" id="aclass_unit_html_a520e229dc1a93ea4a53d0ba81e586d11"><div class="ttname"><a href="../../da/db7/class_unit.html#a520e229dc1a93ea4a53d0ba81e586d11">Unit::GetAuraEffect</a></div><div class="ttdeci">AuraEffect * GetAuraEffect(uint32 spellId, uint8 effIndex, ObjectGuid casterGUID=ObjectGuid::Empty) const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:5400</div></div>
+<div class="ttc" id="aclass_unit_html_a8835b1038889d9d037840ad570203b67"><div class="ttname"><a href="../../da/db7/class_unit.html#a8835b1038889d9d037840ad570203b67">Unit::ModifyAuraState</a></div><div class="ttdeci">void ModifyAuraState(AuraStateType flag, bool apply)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:10445</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -273,8 +292,8 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Entities/Unit/<a class="el" href="../../d5/d32/_unit_8h_source.html">Unit.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/Entities/Unit/<a class="el" href="../../d2/d2e/_unit_8cpp.html">Unit.cpp</a></li>
+<li><a class="el" href="../../">Unit.h</a></li>
+<li><a class="el" href="../../">Unit.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -282,7 +301,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d7/da9/class_conflagrate_aura_state_delay_event.html">ConflagrateAuraStateDelayEvent</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:44 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:57 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

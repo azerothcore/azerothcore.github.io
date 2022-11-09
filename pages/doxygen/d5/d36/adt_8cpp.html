@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzeorthCore: D:/azerothcore-wotlk/src/tools/map_extractor/adt.cpp File Reference</title>
+<title>AzeorthCore: adt.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -112,8 +112,10 @@ $(document).ready(function(){initNavTree('d5/d36/adt_8cpp.html','../../'); initR
   <div class="headertitle"><div class="title">adt.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../d3/df0/adt_8h_source.html">adt.h</a>&quot;</code><br />
-</div><table class="memberdecls">
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">adt.h</a>&quot;</code><br />
+</div>
+<p><a href="">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
 <tr class="memitem:a411c46599e926f8cdf49c63957255359"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d36/adt_8cpp.html#a411c46599e926f8cdf49c63957255359">_CRT_SECURE_NO_DEPRECATE</a></td></tr>
@@ -192,7 +194,17 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   35</span>{</div>
+<div class="line"><span class="lineno">   36</span>    <span class="keywordtype">int</span> testi = i / 2;</div>
+<div class="line"><span class="lineno">   37</span>    <span class="keywordtype">int</span> testj = j / 4;</div>
+<div class="line"><span class="lineno">   38</span>    <span class="keywordflow">if</span> (testi &gt; 3) testi = 3;</div>
+<div class="line"><span class="lineno">   39</span>    <span class="keywordflow">if</span> (testj &gt; 3) testj = 3;</div>
+<div class="line"><span class="lineno">   40</span>    <span class="keywordflow">return</span> (<a class="code hl_variable" href="../../d8/de5/_system_8cpp.html#a0dd5ee5c0a7fa0dacf58e50adf0e3803">holes</a> &amp; <a class="code hl_variable" href="../../d5/d36/adt_8cpp.html#a7424dd5c858116f845a676e31fe5ae5d">holetab_h</a>[testi] &amp; <a class="code hl_variable" href="../../d5/d36/adt_8cpp.html#a2b1bf69bcdb58ff1605821d486da3acb">holetab_v</a>[testj]) != 0;</div>
+<div class="line"><span class="lineno">   41</span>}</div>
+<div class="ttc" id="a_system_8cpp_html_a0dd5ee5c0a7fa0dacf58e50adf0e3803"><div class="ttname"><a href="../../d8/de5/_system_8cpp.html#a0dd5ee5c0a7fa0dacf58e50adf0e3803">holes</a></div><div class="ttdeci">uint16 holes[ADT_CELLS_PER_GRID][ADT_CELLS_PER_GRID]</div><div class="ttdef"><b>Definition:</b> System.cpp:404</div></div>
+<div class="ttc" id="aadt_8cpp_html_a2b1bf69bcdb58ff1605821d486da3acb"><div class="ttname"><a href="../../d5/d36/adt_8cpp.html#a2b1bf69bcdb58ff1605821d486da3acb">holetab_v</a></div><div class="ttdeci">int holetab_v[4]</div><div class="ttdef"><b>Definition:</b> adt.cpp:24</div></div>
+<div class="ttc" id="aadt_8cpp_html_a7424dd5c858116f845a676e31fe5ae5d"><div class="ttname"><a href="../../d5/d36/adt_8cpp.html#a7424dd5c858116f845a676e31fe5ae5d">holetab_h</a></div><div class="ttdeci">int holetab_h[4]</div><div class="ttdef"><b>Definition:</b> adt.cpp:23</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
@@ -328,7 +340,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_ac5beb3152ba3ce8038adbba12e192c7.html">tools</a></li><li class="navelem"><a class="el" href="../../dir_816589248c496bc2270bc4e83dc7035c.html">map_extractor</a></li><li class="navelem"><a class="el" href="../../d5/d36/adt_8cpp.html">adt.cpp</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:35 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:47 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -292,7 +292,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="abcce31480eac400044cc62eb888151d8" name="abcce31480eac400044cc62eb888151d8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abcce31480eac400044cc62eb888151d8">&#9670;&#160;</a></span>HandleActivateObject()</h2>
 
@@ -316,7 +317,39 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  417</span>        {</div>
+<div class="line"><span class="lineno">  418</span>            <a class="code hl_function" href="../../dc/d62/class_spell_script.html#a56ed3ad5cf4ebc848946a9d8f1c35d5f">PreventHitDefaultEffect</a>(effIndex);</div>
+<div class="line"><span class="lineno">  419</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d0/dd1/class_game_object.html">GameObject</a>* go = <a class="code hl_function" href="../../dc/d62/class_spell_script.html#a96ba2eed3fb3e3c62b3d68f3676a7062">GetHitGObj</a>())</div>
+<div class="line"><span class="lineno">  420</span>            {</div>
+<div class="line"><span class="lineno">  421</span>                go-&gt;SetGoState(<a class="code hl_enumvalue" href="../../df/d91/_game_object_8h.html#ac17cd142af80da019367bb796b15e5aba8dd2dd7e5c1dda64ff6d0d06d623b650">GO_STATE_READY</a>);</div>
+<div class="line"><span class="lineno">  422</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../dd/d11/class_map.html">Map</a>* map = go-&gt;GetMap())</div>
+<div class="line"><span class="lineno">  423</span>                {</div>
+<div class="line"><span class="lineno">  424</span>                    <a class="code hl_class" href="../../db/d87/class_map_ref_mgr.html">Map::PlayerList</a> <span class="keyword">const</span>&amp; PlayerList = map-&gt;GetPlayers();</div>
+<div class="line"><span class="lineno">  425</span>                    <span class="keywordflow">for</span> (<a class="code hl_class" href="../../db/dfe/class_linked_list_head_1_1_iterator.html">Map::PlayerList::const_iterator</a> i = PlayerList.<a class="code hl_function" href="../../db/d87/class_map_ref_mgr.html#a6774b551f0d64628e33594c7b486a872">begin</a>(); i != PlayerList.<a class="code hl_function" href="../../db/d87/class_map_ref_mgr.html#af488c0096775085791b5fbc89e5851a0">end</a>(); ++i)</div>
+<div class="line"><span class="lineno">  426</span>                        <span class="keywordflow">if</span> (i-&gt;GetSource())</div>
+<div class="line"><span class="lineno">  427</span>                        {</div>
+<div class="line"><span class="lineno">  428</span>                            <a class="code hl_class" href="../../dc/d19/class_update_data.html">UpdateData</a> data;</div>
+<div class="line"><span class="lineno">  429</span>                            <a class="code hl_class" href="../../d6/d1a/class_world_packet.html">WorldPacket</a> pkt;</div>
+<div class="line"><span class="lineno">  430</span>                            go-&gt;BuildValuesUpdateBlockForPlayer(&amp;data, i-&gt;GetSource());</div>
+<div class="line"><span class="lineno">  431</span>                            data.<a class="code hl_function" href="../../dc/d19/class_update_data.html#aa1f082636adfd5afc614ff0622f0bf38">BuildPacket</a>(&amp;pkt);</div>
+<div class="line"><span class="lineno">  432</span>                            i-&gt;GetSource()-&gt;GetSession()-&gt;SendPacket(&amp;pkt);</div>
+<div class="line"><span class="lineno">  433</span>                        }</div>
+<div class="line"><span class="lineno">  434</span>                }</div>
+<div class="line"><span class="lineno">  435</span>            }</div>
+<div class="line"><span class="lineno">  436</span>        }</div>
+<div class="ttc" id="a_game_object_8h_html_ac17cd142af80da019367bb796b15e5aba8dd2dd7e5c1dda64ff6d0d06d623b650"><div class="ttname"><a href="../../df/d91/_game_object_8h.html#ac17cd142af80da019367bb796b15e5aba8dd2dd7e5c1dda64ff6d0d06d623b650">GO_STATE_READY</a></div><div class="ttdeci">@ GO_STATE_READY</div><div class="ttdef"><b>Definition:</b> GameObject.h:735</div></div>
+<div class="ttc" id="aclass_game_object_html"><div class="ttname"><a href="../../d0/dd1/class_game_object.html">GameObject</a></div><div class="ttdef"><b>Definition:</b> GameObject.h:813</div></div>
+<div class="ttc" id="aclass_linked_list_head_1_1_iterator_html"><div class="ttname"><a href="../../db/dfe/class_linked_list_head_1_1_iterator.html">LinkedListHead::Iterator</a></div><div class="ttdef"><b>Definition:</b> LinkedList.h:139</div></div>
+<div class="ttc" id="aclass_map_html"><div class="ttname"><a href="../../dd/d11/class_map.html">Map</a></div><div class="ttdef"><b>Definition:</b> Map.h:312</div></div>
+<div class="ttc" id="aclass_map_ref_mgr_html"><div class="ttname"><a href="../../db/d87/class_map_ref_mgr.html">MapRefMgr</a></div><div class="ttdef"><b>Definition:</b> MapRefMgr.h:26</div></div>
+<div class="ttc" id="aclass_map_ref_mgr_html_a6774b551f0d64628e33594c7b486a872"><div class="ttname"><a href="../../db/d87/class_map_ref_mgr.html#a6774b551f0d64628e33594c7b486a872">MapRefMgr::begin</a></div><div class="ttdeci">iterator begin()</div><div class="ttdef"><b>Definition:</b> MapRefMgr.h:36</div></div>
+<div class="ttc" id="aclass_map_ref_mgr_html_af488c0096775085791b5fbc89e5851a0"><div class="ttname"><a href="../../db/d87/class_map_ref_mgr.html#af488c0096775085791b5fbc89e5851a0">MapRefMgr::end</a></div><div class="ttdeci">iterator end()</div><div class="ttdef"><b>Definition:</b> MapRefMgr.h:37</div></div>
+<div class="ttc" id="aclass_spell_script_html_a56ed3ad5cf4ebc848946a9d8f1c35d5f"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a56ed3ad5cf4ebc848946a9d8f1c35d5f">SpellScript::PreventHitDefaultEffect</a></div><div class="ttdeci">void PreventHitDefaultEffect(SpellEffIndex effIndex)</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:590</div></div>
+<div class="ttc" id="aclass_spell_script_html_a96ba2eed3fb3e3c62b3d68f3676a7062"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a96ba2eed3fb3e3c62b3d68f3676a7062">SpellScript::GetHitGObj</a></div><div class="ttdeci">GameObject * GetHitGObj()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:494</div></div>
+<div class="ttc" id="aclass_update_data_html"><div class="ttname"><a href="../../dc/d19/class_update_data.html">UpdateData</a></div><div class="ttdef"><b>Definition:</b> UpdateData.h:52</div></div>
+<div class="ttc" id="aclass_update_data_html_aa1f082636adfd5afc614ff0622f0bf38"><div class="ttname"><a href="../../dc/d19/class_update_data.html#aa1f082636adfd5afc614ff0622f0bf38">UpdateData::BuildPacket</a></div><div class="ttdeci">bool BuildPacket(WorldPacket *packet)</div><div class="ttdef"><b>Definition:</b> UpdateData.cpp:105</div></div>
+<div class="ttc" id="aclass_world_packet_html"><div class="ttname"><a href="../../d6/d1a/class_world_packet.html">WorldPacket</a></div><div class="ttdef"><b>Definition:</b> WorldPacket.h:27</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a634ff3fae960dc2ecb7acde3e505df52" name="a634ff3fae960dc2ecb7acde3e505df52"></a>
@@ -369,11 +402,19 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  439</span>        {</div>
+<div class="line"><span class="lineno">  440</span>            <a class="code hl_variable" href="../../dc/d62/class_spell_script.html#a6f11356f7a28793e6053bfbc4e2dacf3">OnEffectHitTarget</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a551b0adb8eaf82985a7e55cef0695dcb">SpellEffectFn</a>(<a class="code hl_function" href="../../d0/d13/classspell__madrigosa__activate__barrier_1_1spell__madrigosa__activate__barrier___spell_script.html#abcce31480eac400044cc62eb888151d8">spell_madrigosa_activate_barrier_SpellScript::HandleActivateObject</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97a75ebdb5aa699b7818da5fcbb8685225e">SPELL_EFFECT_ACTIVATE_OBJECT</a>);</div>
+<div class="line"><span class="lineno">  441</span>        }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a></div><div class="ttdeci">@ EFFECT_0</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:30</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a292c893150c454dd75628b719db1fe97a75ebdb5aa699b7818da5fcbb8685225e"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97a75ebdb5aa699b7818da5fcbb8685225e">SPELL_EFFECT_ACTIVATE_OBJECT</a></div><div class="ttdeci">@ SPELL_EFFECT_ACTIVATE_OBJECT</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:836</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a551b0adb8eaf82985a7e55cef0695dcb"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a551b0adb8eaf82985a7e55cef0695dcb">SpellEffectFn</a></div><div class="ttdeci">#define SpellEffectFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:337</div></div>
+<div class="ttc" id="aclass_spell_script_html_a6f11356f7a28793e6053bfbc4e2dacf3"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a6f11356f7a28793e6053bfbc4e2dacf3">SpellScript::OnEffectHitTarget</a></div><div class="ttdeci">HookList&lt; EffectHandler &gt; OnEffectHitTarget</div><div class="ttdef"><b>Definition:</b> SpellScript.h:336</div></div>
+<div class="ttc" id="aclassspell__madrigosa__activate__barrier_1_1spell__madrigosa__activate__barrier___spell_script_html_abcce31480eac400044cc62eb888151d8"><div class="ttname"><a href="../../d0/d13/classspell__madrigosa__activate__barrier_1_1spell__madrigosa__activate__barrier___spell_script.html#abcce31480eac400044cc62eb888151d8">spell_madrigosa_activate_barrier::spell_madrigosa_activate_barrier_SpellScript::HandleActivateObject</a></div><div class="ttdeci">void HandleActivateObject(SpellEffIndex effIndex)</div><div class="ttdef"><b>Definition:</b> boss_brutallus.cpp:416</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/EasternKingdoms/SunwellPlateau/<a class="el" href="../../d8/d11/boss__brutallus_8cpp.html">boss_brutallus.cpp</a></li>
+<li><a class="el" href="../../">boss_brutallus.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -381,7 +422,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d2/d31/classspell__madrigosa__activate__barrier.html">spell_madrigosa_activate_barrier</a></li><li class="navelem"><a class="el" href="../../d0/d13/classspell__madrigosa__activate__barrier_1_1spell__madrigosa__activate__barrier___spell_script.html">spell_madrigosa_activate_barrier_SpellScript</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:04 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:21 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -555,7 +555,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="acbbe1a2e6ffcb00a28f7ae5413cd02c1" name="acbbe1a2e6ffcb00a28f7ae5413cd02c1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acbbe1a2e6ffcb00a28f7ae5413cd02c1">&#9670;&#160;</a></span>boss_veklor()</h2>
 
@@ -579,7 +580,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  330</span>: <a class="code hl_struct" href="../../d9/daa/structboss__twinemperors_a_i.html">boss_twinemperorsAI</a>(creature) { }</div>
+<div class="ttc" id="astructboss__twinemperors_a_i_html"><div class="ttname"><a href="../../d9/daa/structboss__twinemperors_a_i.html">boss_twinemperorsAI</a></div><div class="ttdef"><b>Definition:</b> boss_twinemperors.cpp:87</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -608,7 +611,26 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a4c91d8d2c1a6e8b234c1c4f15936c7a4">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  406</span>    {</div>
+<div class="line"><span class="lineno">  407</span>        <span class="keywordflow">if</span> (who &amp;&amp; who-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ac7b8b4896478ec239a547d99ef4d4c9d">isTargetableForAttack</a>() &amp;&amp; <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#ac8053a37866fdc948648683c358498a3">GetReactState</a>() != <a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37a8b5a7f923cba80ea3a429286eb38d0a0">REACT_PASSIVE</a>)</div>
+<div class="line"><span class="lineno">  408</span>        {</div>
+<div class="line"><span class="lineno">  409</span>            <span class="comment">// VL doesn&#39;t melee</span></div>
+<div class="line"><span class="lineno">  410</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a8d910c36ac5d61171ee5ddaeb696292c">Attack</a>(who, <span class="keyword">false</span>))</div>
+<div class="line"><span class="lineno">  411</span>            {</div>
+<div class="line"><span class="lineno">  412</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../df/d4d/class_motion_master.html#a3ff14061961bcc5cf1d34842683d90ac">MoveChase</a>(who, 45.0f, 0);</div>
+<div class="line"><span class="lineno">  413</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a3b4dad985e3b5dde28d89afc956999e4">AddThreat</a>(who, 0.0f);</div>
+<div class="line"><span class="lineno">  414</span>            }</div>
+<div class="line"><span class="lineno">  415</span>        }</div>
+<div class="line"><span class="lineno">  416</span>    }</div>
+<div class="ttc" id="a_unit_8h_html_a5e9099d162ad74df5a3e3f5c0f056c37a8b5a7f923cba80ea3a429286eb38d0a0"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37a8b5a7f923cba80ea3a429286eb38d0a0">REACT_PASSIVE</a></div><div class="ttdeci">@ REACT_PASSIVE</div><div class="ttdef"><b>Definition:</b> Unit.h:1023</div></div>
+<div class="ttc" id="aclass_creature_html_ac8053a37866fdc948648683c358498a3"><div class="ttname"><a href="../../d1/dac/class_creature.html#ac8053a37866fdc948648683c358498a3">Creature::GetReactState</a></div><div class="ttdeci">ReactStates GetReactState() const</div><div class="ttdef"><b>Definition:</b> Creature.h:89</div></div>
+<div class="ttc" id="aclass_motion_master_html_a3ff14061961bcc5cf1d34842683d90ac"><div class="ttname"><a href="../../df/d4d/class_motion_master.html#a3ff14061961bcc5cf1d34842683d90ac">MotionMaster::MoveChase</a></div><div class="ttdeci">void MoveChase(Unit *target, std::optional&lt; ChaseRange &gt; dist={}, std::optional&lt; ChaseAngle &gt; angle={})</div><div class="ttdef"><b>Definition:</b> MotionMaster.cpp:299</div></div>
+<div class="ttc" id="aclass_unit_html_a3b4dad985e3b5dde28d89afc956999e4"><div class="ttname"><a href="../../da/db7/class_unit.html#a3b4dad985e3b5dde28d89afc956999e4">Unit::AddThreat</a></div><div class="ttdeci">void AddThreat(Unit *victim, float fThreat, SpellSchoolMask schoolMask=SPELL_SCHOOL_MASK_NORMAL, SpellInfo const *threatSpell=nullptr)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:14523</div></div>
+<div class="ttc" id="aclass_unit_html_a4a04a3f22c3b0d6f4933993ac0cc7aa4"><div class="ttname"><a href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">Unit::GetMotionMaster</a></div><div class="ttdeci">MotionMaster * GetMotionMaster()</div><div class="ttdef"><b>Definition:</b> Unit.h:2257</div></div>
+<div class="ttc" id="aclass_unit_html_a8d910c36ac5d61171ee5ddaeb696292c"><div class="ttname"><a href="../../da/db7/class_unit.html#a8d910c36ac5d61171ee5ddaeb696292c">Unit::Attack</a></div><div class="ttdeci">bool Attack(Unit *victim, bool meleeAttack)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:10233</div></div>
+<div class="ttc" id="aclass_unit_html_ac7b8b4896478ec239a547d99ef4d4c9d"><div class="ttname"><a href="../../da/db7/class_unit.html#ac7b8b4896478ec239a547d99ef4d4c9d">Unit::isTargetableForAttack</a></div><div class="ttdeci">bool isTargetableForAttack(bool checkFakeDeath=true, Unit const *byWho=nullptr) const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:13747</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad0083f0dac818ee7c669204a67d7f713" name="ad0083f0dac818ee7c669204a67d7f713"></a>
@@ -636,7 +658,72 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d9/daa/structboss__twinemperors_a_i.html#a21a6023da6636a706ebd0ec244add51e">boss_twinemperorsAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  335</span>    {</div>
+<div class="line"><span class="lineno">  336</span>        <a class="code hl_function" href="../../d9/daa/structboss__twinemperors_a_i.html#a21a6023da6636a706ebd0ec244add51e">boss_twinemperorsAI::EnterCombat</a>(who);</div>
+<div class="line"><span class="lineno">  337</span> </div>
+<div class="line"><span class="lineno">  338</span>        <a class="code hl_function" href="../../de/d83/struct_scripted_a_i.html#af5c4c2aa7107593244f0d4cf02c47dcb">DoPlaySoundToSet</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_enumvalue" href="../../dd/d58/boss__twinemperors_8cpp.html#a378d5c1c6cef9f24f253a041e207663ca0edcc266fe5c93b2c8928b48e4e6743e">SOUND_VK_AGGRO</a>);</div>
+<div class="line"><span class="lineno">  339</span> </div>
+<div class="line"><span class="lineno">  340</span>        <a class="code hl_variable" href="../../d9/daa/structboss__twinemperors_a_i.html#ab2e8f151e538577c05e8487e8063d50f">_scheduler</a></div>
+<div class="line"><span class="lineno">  341</span>            .<a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#a0e0579d2a2397de5a79c756d5e59a830">Schedule</a>(4s, [<span class="keyword">this</span>](<a class="code hl_class" href="../../d2/dd9/class_task_context.html">TaskContext</a> context)</div>
+<div class="line"><span class="lineno">  342</span>            {</div>
+<div class="line"><span class="lineno">  343</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">GetVictim</a>())</div>
+<div class="line"><span class="lineno">  344</span>                {</div>
+<div class="line"><span class="lineno">  345</span>                    if (!me-&gt;IsWithinDist(me-&gt;GetVictim(), 45.0f))</div>
+<div class="line"><span class="lineno">  346</span>                    {</div>
+<div class="line"><span class="lineno">  347</span>                        me-&gt;GetMotionMaster()-&gt;MoveChase(me-&gt;GetVictim(), 45.0f, 0);</div>
+<div class="line"><span class="lineno">  348</span>                    }</div>
+<div class="line"><span class="lineno">  349</span>                    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  350</span>                    {</div>
+<div class="line"><span class="lineno">  351</span>                        me-&gt;StopMoving();</div>
+<div class="line"><span class="lineno">  352</span>                        me-&gt;GetMotionMaster()-&gt;Clear();</div>
+<div class="line"><span class="lineno">  353</span>                    }</div>
+<div class="line"><span class="lineno">  354</span>                }</div>
+<div class="line"><span class="lineno">  355</span> </div>
+<div class="line"><span class="lineno">  356</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a361b6f4e71e9c74595bdf3d7e3b29a82">DoCastVictim</a>(<a class="code hl_enumvalue" href="../../dd/d58/boss__twinemperors_8cpp.html#a5bd342133be8c2137b831460acc9298ca8872edea8a2ac8c4e895c975482b9413">SPELL_SHADOW_BOLT</a>);</div>
+<div class="line"><span class="lineno">  357</span>                context.<a class="code hl_function" href="../../d2/dd9/class_task_context.html#a380c596857dd0030414db5e8d28a3dda">Repeat</a>(2500ms);</div>
+<div class="line"><span class="lineno">  358</span>            })</div>
+<div class="line"><span class="lineno">  359</span>            .Schedule(10s, 15s, [<span class="keyword">this</span>](<a class="code hl_class" href="../../d2/dd9/class_task_context.html">TaskContext</a> context)</div>
+<div class="line"><span class="lineno">  360</span>            {</div>
+<div class="line"><span class="lineno">  361</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#ab0dadfc6e68d67b01c1156e8439fe0f8">DoCastRandomTarget</a>(<a class="code hl_enumvalue" href="../../dd/d58/boss__twinemperors_8cpp.html#a5bd342133be8c2137b831460acc9298ca8271bf723a74d49c9a4cf81f134cf956">SPELL_BLIZZARD</a>, 0, 45.f);</div>
+<div class="line"><span class="lineno">  362</span>                context.<a class="code hl_function" href="../../d2/dd9/class_task_context.html#a380c596857dd0030414db5e8d28a3dda">Repeat</a>(5s, 12s);</div>
+<div class="line"><span class="lineno">  363</span>            })</div>
+<div class="line"><span class="lineno">  364</span>            .Schedule(1s, [<span class="keyword">this</span>](<a class="code hl_class" href="../../d2/dd9/class_task_context.html">TaskContext</a> context)</div>
+<div class="line"><span class="lineno">  365</span>            {</div>
+<div class="line"><span class="lineno">  366</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a8bcd0563ce34a4ed2336034e762ce7fb">SelectNearestPlayer</a>(<a class="code hl_define" href="../../de/daf/_object_defines_8h.html#a9417df9da24d43d6fc32162e559e0b71">NOMINAL_MELEE_RANGE</a>))</div>
+<div class="line"><span class="lineno">  367</span>                    <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a1e37cbb75f91c247b04131afc7ce35f5">DoCastAOE</a>(<a class="code hl_enumvalue" href="../../dd/d58/boss__twinemperors_8cpp.html#a5bd342133be8c2137b831460acc9298ca93d7e60cfcfaf823d896f6d2af4b4160">SPELL_ARCANE_BURST</a>);</div>
+<div class="line"><span class="lineno">  368</span>                context.<a class="code hl_function" href="../../d2/dd9/class_task_context.html#a380c596857dd0030414db5e8d28a3dda">Repeat</a>(7s, 12s);</div>
+<div class="line"><span class="lineno">  369</span>            })</div>
+<div class="line"><span class="lineno">  370</span>            .Schedule(30s, 40s, [<span class="keyword">this</span>](<a class="code hl_class" href="../../d2/dd9/class_task_context.html">TaskContext</a> context)</div>
+<div class="line"><span class="lineno">  371</span>            {</div>
+<div class="line"><span class="lineno">  372</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6ae5c7d15b747433f4d94f80bcebd215">DoCastSelf</a>(<a class="code hl_enumvalue" href="../../dd/d58/boss__twinemperors_8cpp.html#a5bd342133be8c2137b831460acc9298ca4d76dcd66530919c4247f5f4ef1c475c">SPELL_TWIN_TELEPORT_0</a>);</div>
+<div class="line"><span class="lineno">  373</span>                context.<a class="code hl_function" href="../../d2/dd9/class_task_context.html#a380c596857dd0030414db5e8d28a3dda">Repeat</a>();</div>
+<div class="line"><span class="lineno">  374</span>            })</div>
+<div class="line"><span class="lineno">  375</span>            .Schedule(5s, [<span class="keyword">this</span>](<a class="code hl_class" href="../../d2/dd9/class_task_context.html">TaskContext</a> context)</div>
+<div class="line"><span class="lineno">  376</span>            {</div>
+<div class="line"><span class="lineno">  377</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a1e37cbb75f91c247b04131afc7ce35f5">DoCastAOE</a>(<a class="code hl_enumvalue" href="../../dd/d58/boss__twinemperors_8cpp.html#a5bd342133be8c2137b831460acc9298ca4f9bd22959b15fbf1cbdbf4ed3e70578">SPELL_EXPLODE_BUG</a>);</div>
+<div class="line"><span class="lineno">  378</span>                context.<a class="code hl_function" href="../../d2/dd9/class_task_context.html#a380c596857dd0030414db5e8d28a3dda">Repeat</a>(4500ms, 10s);</div>
+<div class="line"><span class="lineno">  379</span>            });</div>
+<div class="line"><span class="lineno">  380</span>    }</div>
+<div class="ttc" id="a_object_defines_8h_html_a9417df9da24d43d6fc32162e559e0b71"><div class="ttname"><a href="../../de/daf/_object_defines_8h.html#a9417df9da24d43d6fc32162e559e0b71">NOMINAL_MELEE_RANGE</a></div><div class="ttdeci">#define NOMINAL_MELEE_RANGE</div><div class="ttdef"><b>Definition:</b> ObjectDefines.h:48</div></div>
+<div class="ttc" id="aboss__twinemperors_8cpp_html_a378d5c1c6cef9f24f253a041e207663ca0edcc266fe5c93b2c8928b48e4e6743e"><div class="ttname"><a href="../../dd/d58/boss__twinemperors_8cpp.html#a378d5c1c6cef9f24f253a041e207663ca0edcc266fe5c93b2c8928b48e4e6743e">SOUND_VK_AGGRO</a></div><div class="ttdeci">@ SOUND_VK_AGGRO</div><div class="ttdef"><b>Definition:</b> boss_twinemperors.cpp:69</div></div>
+<div class="ttc" id="aboss__twinemperors_8cpp_html_a5bd342133be8c2137b831460acc9298ca4d76dcd66530919c4247f5f4ef1c475c"><div class="ttname"><a href="../../dd/d58/boss__twinemperors_8cpp.html#a5bd342133be8c2137b831460acc9298ca4d76dcd66530919c4247f5f4ef1c475c">SPELL_TWIN_TELEPORT_0</a></div><div class="ttdeci">@ SPELL_TWIN_TELEPORT_0</div><div class="ttdef"><b>Definition:</b> boss_twinemperors.cpp:38</div></div>
+<div class="ttc" id="aboss__twinemperors_8cpp_html_a5bd342133be8c2137b831460acc9298ca4f9bd22959b15fbf1cbdbf4ed3e70578"><div class="ttname"><a href="../../dd/d58/boss__twinemperors_8cpp.html#a5bd342133be8c2137b831460acc9298ca4f9bd22959b15fbf1cbdbf4ed3e70578">SPELL_EXPLODE_BUG</a></div><div class="ttdeci">@ SPELL_EXPLODE_BUG</div><div class="ttdef"><b>Definition:</b> boss_twinemperors.cpp:37</div></div>
+<div class="ttc" id="aboss__twinemperors_8cpp_html_a5bd342133be8c2137b831460acc9298ca8271bf723a74d49c9a4cf81f134cf956"><div class="ttname"><a href="../../dd/d58/boss__twinemperors_8cpp.html#a5bd342133be8c2137b831460acc9298ca8271bf723a74d49c9a4cf81f134cf956">SPELL_BLIZZARD</a></div><div class="ttdeci">@ SPELL_BLIZZARD</div><div class="ttdef"><b>Definition:</b> boss_twinemperors.cpp:34</div></div>
+<div class="ttc" id="aboss__twinemperors_8cpp_html_a5bd342133be8c2137b831460acc9298ca8872edea8a2ac8c4e895c975482b9413"><div class="ttname"><a href="../../dd/d58/boss__twinemperors_8cpp.html#a5bd342133be8c2137b831460acc9298ca8872edea8a2ac8c4e895c975482b9413">SPELL_SHADOW_BOLT</a></div><div class="ttdeci">@ SPELL_SHADOW_BOLT</div><div class="ttdef"><b>Definition:</b> boss_twinemperors.cpp:33</div></div>
+<div class="ttc" id="aboss__twinemperors_8cpp_html_a5bd342133be8c2137b831460acc9298ca93d7e60cfcfaf823d896f6d2af4b4160"><div class="ttname"><a href="../../dd/d58/boss__twinemperors_8cpp.html#a5bd342133be8c2137b831460acc9298ca93d7e60cfcfaf823d896f6d2af4b4160">SPELL_ARCANE_BURST</a></div><div class="ttdeci">@ SPELL_ARCANE_BURST</div><div class="ttdef"><b>Definition:</b> boss_twinemperors.cpp:36</div></div>
+<div class="ttc" id="aclass_task_context_html"><div class="ttname"><a href="../../d2/dd9/class_task_context.html">TaskContext</a></div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:400</div></div>
+<div class="ttc" id="aclass_task_context_html_a380c596857dd0030414db5e8d28a3dda"><div class="ttname"><a href="../../d2/dd9/class_task_context.html#a380c596857dd0030414db5e8d28a3dda">TaskContext::Repeat</a></div><div class="ttdeci">TaskContext &amp; Repeat(std::chrono::duration&lt; _Rep, _Period &gt; const &amp;duration)</div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:470</div></div>
+<div class="ttc" id="aclass_task_scheduler_html_a0e0579d2a2397de5a79c756d5e59a830"><div class="ttname"><a href="../../d7/dc4/class_task_scheduler.html#a0e0579d2a2397de5a79c756d5e59a830">TaskScheduler::Schedule</a></div><div class="ttdeci">TaskScheduler &amp; Schedule(std::chrono::duration&lt; _Rep, _Period &gt; const &amp;time, task_handler_t const &amp;task)</div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:217</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a1e37cbb75f91c247b04131afc7ce35f5"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a1e37cbb75f91c247b04131afc7ce35f5">UnitAI::DoCastAOE</a></div><div class="ttdeci">SpellCastResult DoCastAOE(uint32 spellId, bool triggered=false)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:249</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a361b6f4e71e9c74595bdf3d7e3b29a82"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a361b6f4e71e9c74595bdf3d7e3b29a82">UnitAI::DoCastVictim</a></div><div class="ttdeci">SpellCastResult DoCastVictim(uint32 spellId, bool triggered=false)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:241</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a6ae5c7d15b747433f4d94f80bcebd215"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a6ae5c7d15b747433f4d94f80bcebd215">UnitAI::DoCastSelf</a></div><div class="ttdeci">SpellCastResult DoCastSelf(uint32 spellId, bool triggered=false)</div><div class="ttdef"><b>Definition:</b> UnitAI.h:323</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_ab0dadfc6e68d67b01c1156e8439fe0f8"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#ab0dadfc6e68d67b01c1156e8439fe0f8">UnitAI::DoCastRandomTarget</a></div><div class="ttdeci">SpellCastResult DoCastRandomTarget(uint32 spellId, uint32 threatTablePosition=0, float dist=0.0f, bool playerOnly=true, bool triggered=false)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:257</div></div>
+<div class="ttc" id="aclass_unit_html_aae09d03a474ea5517d671e64dc393739"><div class="ttname"><a href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">Unit::GetVictim</a></div><div class="ttdeci">Unit * GetVictim() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1386</div></div>
+<div class="ttc" id="aclass_world_object_html_a8bcd0563ce34a4ed2336034e762ce7fb"><div class="ttname"><a href="../../db/df7/class_world_object.html#a8bcd0563ce34a4ed2336034e762ce7fb">WorldObject::SelectNearestPlayer</a></div><div class="ttdeci">Player * SelectNearestPlayer(float distance=0) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:2419</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_af5c4c2aa7107593244f0d4cf02c47dcb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#af5c4c2aa7107593244f0d4cf02c47dcb">ScriptedAI::DoPlaySoundToSet</a></div><div class="ttdeci">void DoPlaySoundToSet(WorldObject *source, uint32 soundId)</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.cpp:252</div></div>
+<div class="ttc" id="astructboss__twinemperors_a_i_html_a21a6023da6636a706ebd0ec244add51e"><div class="ttname"><a href="../../d9/daa/structboss__twinemperors_a_i.html#a21a6023da6636a706ebd0ec244add51e">boss_twinemperorsAI::EnterCombat</a></div><div class="ttdeci">void EnterCombat(Unit *who) override</div><div class="ttdef"><b>Definition:</b> boss_twinemperors.cpp:240</div></div>
+<div class="ttc" id="astructboss__twinemperors_a_i_html_ab2e8f151e538577c05e8487e8063d50f"><div class="ttname"><a href="../../d9/daa/structboss__twinemperors_a_i.html#ab2e8f151e538577c05e8487e8063d50f">boss_twinemperorsAI::_scheduler</a></div><div class="ttdeci">TaskScheduler _scheduler</div><div class="ttdef"><b>Definition:</b> boss_twinemperors.cpp:293</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a4c43713c24b5537f292be1e0fcaee703" name="a4c43713c24b5537f292be1e0fcaee703"></a>
@@ -663,7 +750,8 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d9/daa/structboss__twinemperors_a_i.html#acdccdde2ee573f51e1783ea493577258">boss_twinemperorsAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  332</span>{ <span class="keywordflow">return</span> <span class="keyword">true</span>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ab5d9ec12c18e360ce2c8749dd97f2ab0" name="ab5d9ec12c18e360ce2c8749dd97f2ab0"></a>
@@ -701,11 +789,42 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a7c4ff5a7547e75576c127ba4a514e548">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  383</span>    {</div>
+<div class="line"><span class="lineno">  384</span>        <span class="keywordflow">if</span> (spellInfo-&gt;Id == <a class="code hl_enumvalue" href="../../dd/d58/boss__twinemperors_8cpp.html#a5bd342133be8c2137b831460acc9298ca4d76dcd66530919c4247f5f4ef1c475c">SPELL_TWIN_TELEPORT_0</a>)</div>
+<div class="line"><span class="lineno">  385</span>        {</div>
+<div class="line"><span class="lineno">  386</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* veknilash = <a class="code hl_function" href="../../d9/daa/structboss__twinemperors_a_i.html#af23aa54bca9752c242e80331862ace4d">GetTwin</a>())</div>
+<div class="line"><span class="lineno">  387</span>            {</div>
+<div class="line"><span class="lineno">  388</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6ae5c7d15b747433f4d94f80bcebd215">DoCastSelf</a>(<a class="code hl_enumvalue" href="../../dd/d58/boss__twinemperors_8cpp.html#a5bd342133be8c2137b831460acc9298caadca9e3f7a259baf7c4c346388e9cb4a">SPELL_TWIN_TELEPORT_1</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  389</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a2903449b4183e13866c6e98d77578887">SetControlled</a>(<span class="keyword">true</span>, <a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544a50d4f70d273dc4674d4f56fcab462a14">UNIT_STATE_ROOT</a>);</div>
+<div class="line"><span class="lineno">  390</span> </div>
+<div class="line"><span class="lineno">  391</span>                <a class="code hl_struct" href="../../d1/d26/struct_position.html">Position</a> veklorPos = <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#ad8e55f9b39618093aa625abe3a06e1ed">GetPosition</a>();</div>
+<div class="line"><span class="lineno">  392</span>                <a class="code hl_struct" href="../../d1/d26/struct_position.html">Position</a> veknilashPos = veknilash-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#ad8e55f9b39618093aa625abe3a06e1ed">GetPosition</a>();</div>
+<div class="line"><span class="lineno">  393</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ad7e3be9254fa877659ca467929dc612a">NearTeleportTo</a>(veknilashPos);</div>
+<div class="line"><span class="lineno">  394</span> </div>
+<div class="line"><span class="lineno">  395</span>                veknilash-&gt;CastSpell(veknilash, <a class="code hl_enumvalue" href="../../dd/d58/boss__twinemperors_8cpp.html#a5bd342133be8c2137b831460acc9298caadca9e3f7a259baf7c4c346388e9cb4a">SPELL_TWIN_TELEPORT_1</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  396</span>                veknilash-&gt;SetControlled(<span class="keyword">true</span>, <a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544a50d4f70d273dc4674d4f56fcab462a14">UNIT_STATE_ROOT</a>);</div>
+<div class="line"><span class="lineno">  397</span>                veknilash-&gt;NearTeleportTo(veklorPos);</div>
+<div class="line"><span class="lineno">  398</span> </div>
+<div class="line"><span class="lineno">  399</span>                veknilash-&gt;AI()-&gt;DoAction(<a class="code hl_enumvalue" href="../../dd/d58/boss__twinemperors_8cpp.html#a250372292659bed7ae290d8621f88ccfa2a6f93312cdceafcc291181de3ec2e53">ACTION_AFTER_TELEPORT</a>);</div>
+<div class="line"><span class="lineno">  400</span>                <a class="code hl_function" href="../../d9/daa/structboss__twinemperors_a_i.html#a2b5e585749b7a59663813c7a9d56c223">DoAction</a>(<a class="code hl_enumvalue" href="../../dd/d58/boss__twinemperors_8cpp.html#a250372292659bed7ae290d8621f88ccfa2a6f93312cdceafcc291181de3ec2e53">ACTION_AFTER_TELEPORT</a>);</div>
+<div class="line"><span class="lineno">  401</span>            }</div>
+<div class="line"><span class="lineno">  402</span>        }</div>
+<div class="line"><span class="lineno">  403</span>    }</div>
+<div class="ttc" id="a_unit_8h_html_ae51d2ecb71f7a5cb3882982a622c9544a50d4f70d273dc4674d4f56fcab462a14"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544a50d4f70d273dc4674d4f56fcab462a14">UNIT_STATE_ROOT</a></div><div class="ttdeci">@ UNIT_STATE_ROOT</div><div class="ttdef"><b>Definition:</b> Unit.h:335</div></div>
+<div class="ttc" id="aboss__twinemperors_8cpp_html_a250372292659bed7ae290d8621f88ccfa2a6f93312cdceafcc291181de3ec2e53"><div class="ttname"><a href="../../dd/d58/boss__twinemperors_8cpp.html#a250372292659bed7ae290d8621f88ccfa2a6f93312cdceafcc291181de3ec2e53">ACTION_AFTER_TELEPORT</a></div><div class="ttdeci">@ ACTION_AFTER_TELEPORT</div><div class="ttdef"><b>Definition:</b> boss_twinemperors.cpp:52</div></div>
+<div class="ttc" id="aboss__twinemperors_8cpp_html_a5bd342133be8c2137b831460acc9298caadca9e3f7a259baf7c4c346388e9cb4a"><div class="ttname"><a href="../../dd/d58/boss__twinemperors_8cpp.html#a5bd342133be8c2137b831460acc9298caadca9e3f7a259baf7c4c346388e9cb4a">SPELL_TWIN_TELEPORT_1</a></div><div class="ttdeci">@ SPELL_TWIN_TELEPORT_1</div><div class="ttdef"><b>Definition:</b> boss_twinemperors.cpp:29</div></div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_unit_html_a2903449b4183e13866c6e98d77578887"><div class="ttname"><a href="../../da/db7/class_unit.html#a2903449b4183e13866c6e98d77578887">Unit::SetControlled</a></div><div class="ttdeci">void SetControlled(bool apply, UnitState state)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:18071</div></div>
+<div class="ttc" id="aclass_unit_html_ad7e3be9254fa877659ca467929dc612a"><div class="ttname"><a href="../../da/db7/class_unit.html#ad7e3be9254fa877659ca467929dc612a">Unit::NearTeleportTo</a></div><div class="ttdeci">void NearTeleportTo(Position &amp;pos, bool casting=false, bool vehicleTeleport=false, bool withPet=false, bool removeTransport=false)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:19988</div></div>
+<div class="ttc" id="astruct_position_html"><div class="ttname"><a href="../../d1/d26/struct_position.html">Position</a></div><div class="ttdef"><b>Definition:</b> Position.h:28</div></div>
+<div class="ttc" id="astruct_position_html_ad8e55f9b39618093aa625abe3a06e1ed"><div class="ttname"><a href="../../d1/d26/struct_position.html#ad8e55f9b39618093aa625abe3a06e1ed">Position::GetPosition</a></div><div class="ttdeci">void GetPosition(float &amp;x, float &amp;y) const</div><div class="ttdef"><b>Definition:</b> Position.h:122</div></div>
+<div class="ttc" id="astructboss__twinemperors_a_i_html_a2b5e585749b7a59663813c7a9d56c223"><div class="ttname"><a href="../../d9/daa/structboss__twinemperors_a_i.html#a2b5e585749b7a59663813c7a9d56c223">boss_twinemperorsAI::DoAction</a></div><div class="ttdeci">void DoAction(int32 action) override</div><div class="ttdef"><b>Definition:</b> boss_twinemperors.cpp:150</div></div>
+<div class="ttc" id="astructboss__twinemperors_a_i_html_af23aa54bca9752c242e80331862ace4d"><div class="ttname"><a href="../../d9/daa/structboss__twinemperors_a_i.html#af23aa54bca9752c242e80331862ace4d">boss_twinemperorsAI::GetTwin</a></div><div class="ttdeci">Creature * GetTwin()</div><div class="ttdef"><b>Definition:</b> boss_twinemperors.cpp:98</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Kalimdor/TempleOfAhnQiraj/<a class="el" href="../../dd/d58/boss__twinemperors_8cpp.html">boss_twinemperors.cpp</a></li>
+<li><a class="el" href="../../">boss_twinemperors.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -713,7 +832,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d8/d34/structboss__veklor.html">boss_veklor</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:43 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:56 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

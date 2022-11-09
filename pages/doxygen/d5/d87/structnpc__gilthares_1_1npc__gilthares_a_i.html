@@ -552,7 +552,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="af22e42b2180987febd964784b6d49b5e" name="af22e42b2180987febd964784b6d49b5e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af22e42b2180987febd964784b6d49b5e">&#9670;&#160;</a></span>npc_giltharesAI()</h2>
 
@@ -576,7 +577,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   87</span>: <a class="code hl_struct" href="../../dd/d7f/structnpc__escort_a_i.html">npc_escortAI</a>(creature) { }</div>
+<div class="ttc" id="astructnpc__escort_a_i_html"><div class="ttname"><a href="../../dd/d7f/structnpc__escort_a_i.html">npc_escortAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedEscortAI.h:53</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -605,7 +608,26 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a35a9ca7c140474598325b0f2073f9bcd">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  122</span>        {</div>
+<div class="line"><span class="lineno">  123</span>            <span class="comment">//not always use</span></div>
+<div class="line"><span class="lineno">  124</span>            <span class="keywordflow">if</span> (rand() % 4)</div>
+<div class="line"><span class="lineno">  125</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  126</span> </div>
+<div class="line"><span class="lineno">  127</span>            <span class="comment">//only aggro text if not player and only in this area</span></div>
+<div class="line"><span class="lineno">  128</span>            <span class="keywordflow">if</span> (who-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">GetTypeId</a>() != <a class="code hl_enumvalue" href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a> &amp;&amp; <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#acdd585ef58eb876c506389ff96a4fbd9">GetAreaId</a>() == <a class="code hl_enumvalue" href="../../d9/ddc/zone__the__barrens_8cpp.html#aa3e172c8a560dd0d92fb1d8f79b90716ac33cd2802c9cc2abf8e1359985861f5b">AREA_MERCHANT_COAST</a>)</div>
+<div class="line"><span class="lineno">  129</span>            {</div>
+<div class="line"><span class="lineno">  130</span>                <span class="comment">//appears to be pretty much random (possible only if escorter not in combat with who yet?)</span></div>
+<div class="line"><span class="lineno">  131</span>                <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d9/ddc/zone__the__barrens_8cpp.html#aa3e172c8a560dd0d92fb1d8f79b90716a189c2478bea56968035dc5626a361ad9">SAY_GIL_AGGRO</a>, who);</div>
+<div class="line"><span class="lineno">  132</span>            }</div>
+<div class="line"><span class="lineno">  133</span>        }</div>
+<div class="ttc" id="a_object_guid_8h_html_a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c"><div class="ttname"><a href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a></div><div class="ttdeci">@ TYPEID_PLAYER</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:38</div></div>
+<div class="ttc" id="aboss__fathomlord__karathress_8cpp_html_a747a224b6b3195f9a33c56ddc6c7e268"><div class="ttname"><a href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a></div><div class="ttdeci">Talk</div><div class="ttdef"><b>Definition:</b> boss_fathomlord_karathress.cpp:23</div></div>
+<div class="ttc" id="aclass_object_html_a621a345fc34deed6d3a4e1e498a652da"><div class="ttname"><a href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">Object::GetTypeId</a></div><div class="ttdeci">TypeID GetTypeId() const</div><div class="ttdef"><b>Definition:</b> Object.h:121</div></div>
+<div class="ttc" id="aclass_world_object_html_acdd585ef58eb876c506389ff96a4fbd9"><div class="ttname"><a href="../../db/df7/class_world_object.html#acdd585ef58eb876c506389ff96a4fbd9">WorldObject::GetAreaId</a></div><div class="ttdeci">uint32 GetAreaId() const</div><div class="ttdef"><b>Definition:</b> Object.cpp:3066</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+<div class="ttc" id="azone__the__barrens_8cpp_html_aa3e172c8a560dd0d92fb1d8f79b90716a189c2478bea56968035dc5626a361ad9"><div class="ttname"><a href="../../d9/ddc/zone__the__barrens_8cpp.html#aa3e172c8a560dd0d92fb1d8f79b90716a189c2478bea56968035dc5626a361ad9">SAY_GIL_AGGRO</a></div><div class="ttdeci">@ SAY_GIL_AGGRO</div><div class="ttdef"><b>Definition:</b> zone_the_barrens.cpp:51</div></div>
+<div class="ttc" id="azone__the__barrens_8cpp_html_aa3e172c8a560dd0d92fb1d8f79b90716ac33cd2802c9cc2abf8e1359985861f5b"><div class="ttname"><a href="../../d9/ddc/zone__the__barrens_8cpp.html#aa3e172c8a560dd0d92fb1d8f79b90716ac33cd2802c9cc2abf8e1359985861f5b">AREA_MERCHANT_COAST</a></div><div class="ttdeci">@ AREA_MERCHANT_COAST</div><div class="ttdef"><b>Definition:</b> zone_the_barrens.cpp:57</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a34d57ef71b60fe71c749f790cecf70b2" name="a34d57ef71b60fe71c749f790cecf70b2"></a>
@@ -632,7 +654,8 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a26600c116d20a33461fc884bdb82eda9">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   89</span>{ }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a9308c73760e50e0f3d04031b508526d1" name="a9308c73760e50e0f3d04031b508526d1"></a>
@@ -660,11 +683,49 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../dd/d7f/structnpc__escort_a_i.html#a59830f742b9967303df22f5bcf0d2b9d">npc_escortAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   92</span>        {</div>
+<div class="line"><span class="lineno">   93</span>            <a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* player = <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#a689a50e0af6c80ef59ee207ac518df45">GetPlayerForEscort</a>();</div>
+<div class="line"><span class="lineno">   94</span>            <span class="keywordflow">if</span> (!player)</div>
+<div class="line"><span class="lineno">   95</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   96</span> </div>
+<div class="line"><span class="lineno">   97</span>            <span class="keywordflow">switch</span> (waypointId)</div>
+<div class="line"><span class="lineno">   98</span>            {</div>
+<div class="line"><span class="lineno">   99</span>                <span class="keywordflow">case</span> 16:</div>
+<div class="line"><span class="lineno">  100</span>                    <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d9/ddc/zone__the__barrens_8cpp.html#aa3e172c8a560dd0d92fb1d8f79b90716a74625b1d5af887cffe07cc6889f66f94">SAY_GIL_AT_LAST</a>, player);</div>
+<div class="line"><span class="lineno">  101</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  102</span>                <span class="keywordflow">case</span> 17:</div>
+<div class="line"><span class="lineno">  103</span>                    <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d9/ddc/zone__the__barrens_8cpp.html#aa3e172c8a560dd0d92fb1d8f79b90716a83573efbb4a65334a79436dadb172c25">SAY_GIL_PROCEED</a>, player);</div>
+<div class="line"><span class="lineno">  104</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  105</span>                <span class="keywordflow">case</span> 18:</div>
+<div class="line"><span class="lineno">  106</span>                    <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d9/ddc/zone__the__barrens_8cpp.html#aa3e172c8a560dd0d92fb1d8f79b90716add548aa464c97165ed4e9a07e2d26b76">SAY_GIL_FREEBOOTERS</a>, player);</div>
+<div class="line"><span class="lineno">  107</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  108</span>                <span class="keywordflow">case</span> 37:</div>
+<div class="line"><span class="lineno">  109</span>                    <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d9/ddc/zone__the__barrens_8cpp.html#aa3e172c8a560dd0d92fb1d8f79b90716af98466d2079315f8451fe5fd010cfd86">SAY_GIL_ALMOST</a>, player);</div>
+<div class="line"><span class="lineno">  110</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  111</span>                <span class="keywordflow">case</span> 47:</div>
+<div class="line"><span class="lineno">  112</span>                    <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d9/ddc/zone__the__barrens_8cpp.html#aa3e172c8a560dd0d92fb1d8f79b90716a53a6c4cad1fc536662a170117dab1f9b">SAY_GIL_SWEET</a>, player);</div>
+<div class="line"><span class="lineno">  113</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  114</span>                <span class="keywordflow">case</span> 53:</div>
+<div class="line"><span class="lineno">  115</span>                    <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d9/ddc/zone__the__barrens_8cpp.html#aa3e172c8a560dd0d92fb1d8f79b90716af0bf3f928b89fe85bfd73f9973f02046">SAY_GIL_FREED</a>, player);</div>
+<div class="line"><span class="lineno">  116</span>                    player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a5407b30447c557eb4bcb441d0e4df355">GroupEventHappens</a>(<a class="code hl_enumvalue" href="../../d9/ddc/zone__the__barrens_8cpp.html#aa3e172c8a560dd0d92fb1d8f79b90716a406ffd8f7c4e1a504188c50f2743b36a">QUEST_FREE_FROM_HOLD</a>, <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>);</div>
+<div class="line"><span class="lineno">  117</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  118</span>            }</div>
+<div class="line"><span class="lineno">  119</span>        }</div>
+<div class="ttc" id="aclass_player_html"><div class="ttname"><a href="../../d8/d53/class_player.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1046</div></div>
+<div class="ttc" id="aclass_player_html_a5407b30447c557eb4bcb441d0e4df355"><div class="ttname"><a href="../../d8/d53/class_player.html#a5407b30447c557eb4bcb441d0e4df355">Player::GroupEventHappens</a></div><div class="ttdeci">void GroupEventHappens(uint32 questId, WorldObject const *pEventObject)</div><div class="ttdef"><b>Definition:</b> PlayerQuest.cpp:1795</div></div>
+<div class="ttc" id="astructnpc__escort_a_i_html_a689a50e0af6c80ef59ee207ac518df45"><div class="ttname"><a href="../../dd/d7f/structnpc__escort_a_i.html#a689a50e0af6c80ef59ee207ac518df45">npc_escortAI::GetPlayerForEscort</a></div><div class="ttdeci">Player * GetPlayerForEscort()</div><div class="ttdef"><b>Definition:</b> ScriptedEscortAI.h:114</div></div>
+<div class="ttc" id="azone__the__barrens_8cpp_html_aa3e172c8a560dd0d92fb1d8f79b90716a406ffd8f7c4e1a504188c50f2743b36a"><div class="ttname"><a href="../../d9/ddc/zone__the__barrens_8cpp.html#aa3e172c8a560dd0d92fb1d8f79b90716a406ffd8f7c4e1a504188c50f2743b36a">QUEST_FREE_FROM_HOLD</a></div><div class="ttdeci">@ QUEST_FREE_FROM_HOLD</div><div class="ttdef"><b>Definition:</b> zone_the_barrens.cpp:56</div></div>
+<div class="ttc" id="azone__the__barrens_8cpp_html_aa3e172c8a560dd0d92fb1d8f79b90716a53a6c4cad1fc536662a170117dab1f9b"><div class="ttname"><a href="../../d9/ddc/zone__the__barrens_8cpp.html#aa3e172c8a560dd0d92fb1d8f79b90716a53a6c4cad1fc536662a170117dab1f9b">SAY_GIL_SWEET</a></div><div class="ttdeci">@ SAY_GIL_SWEET</div><div class="ttdef"><b>Definition:</b> zone_the_barrens.cpp:53</div></div>
+<div class="ttc" id="azone__the__barrens_8cpp_html_aa3e172c8a560dd0d92fb1d8f79b90716a74625b1d5af887cffe07cc6889f66f94"><div class="ttname"><a href="../../d9/ddc/zone__the__barrens_8cpp.html#aa3e172c8a560dd0d92fb1d8f79b90716a74625b1d5af887cffe07cc6889f66f94">SAY_GIL_AT_LAST</a></div><div class="ttdeci">@ SAY_GIL_AT_LAST</div><div class="ttdef"><b>Definition:</b> zone_the_barrens.cpp:48</div></div>
+<div class="ttc" id="azone__the__barrens_8cpp_html_aa3e172c8a560dd0d92fb1d8f79b90716a83573efbb4a65334a79436dadb172c25"><div class="ttname"><a href="../../d9/ddc/zone__the__barrens_8cpp.html#aa3e172c8a560dd0d92fb1d8f79b90716a83573efbb4a65334a79436dadb172c25">SAY_GIL_PROCEED</a></div><div class="ttdeci">@ SAY_GIL_PROCEED</div><div class="ttdef"><b>Definition:</b> zone_the_barrens.cpp:49</div></div>
+<div class="ttc" id="azone__the__barrens_8cpp_html_aa3e172c8a560dd0d92fb1d8f79b90716add548aa464c97165ed4e9a07e2d26b76"><div class="ttname"><a href="../../d9/ddc/zone__the__barrens_8cpp.html#aa3e172c8a560dd0d92fb1d8f79b90716add548aa464c97165ed4e9a07e2d26b76">SAY_GIL_FREEBOOTERS</a></div><div class="ttdeci">@ SAY_GIL_FREEBOOTERS</div><div class="ttdef"><b>Definition:</b> zone_the_barrens.cpp:50</div></div>
+<div class="ttc" id="azone__the__barrens_8cpp_html_aa3e172c8a560dd0d92fb1d8f79b90716af0bf3f928b89fe85bfd73f9973f02046"><div class="ttname"><a href="../../d9/ddc/zone__the__barrens_8cpp.html#aa3e172c8a560dd0d92fb1d8f79b90716af0bf3f928b89fe85bfd73f9973f02046">SAY_GIL_FREED</a></div><div class="ttdeci">@ SAY_GIL_FREED</div><div class="ttdef"><b>Definition:</b> zone_the_barrens.cpp:54</div></div>
+<div class="ttc" id="azone__the__barrens_8cpp_html_aa3e172c8a560dd0d92fb1d8f79b90716af98466d2079315f8451fe5fd010cfd86"><div class="ttname"><a href="../../d9/ddc/zone__the__barrens_8cpp.html#aa3e172c8a560dd0d92fb1d8f79b90716af98466d2079315f8451fe5fd010cfd86">SAY_GIL_ALMOST</a></div><div class="ttdeci">@ SAY_GIL_ALMOST</div><div class="ttdef"><b>Definition:</b> zone_the_barrens.cpp:52</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Kalimdor/<a class="el" href="../../d9/ddc/zone__the__barrens_8cpp.html">zone_the_barrens.cpp</a></li>
+<li><a class="el" href="../../">zone_the_barrens.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -672,7 +733,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../de/d5e/classnpc__gilthares.html">npc_gilthares</a></li><li class="navelem"><a class="el" href="../../d5/d87/structnpc__gilthares_1_1npc__gilthares_a_i.html">npc_giltharesAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:50 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:05 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

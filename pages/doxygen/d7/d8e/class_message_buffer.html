@@ -114,7 +114,7 @@ $(document).ready(function(){initNavTree('d7/d8e/class_message_buffer.html','../
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d1/de9/_message_buffer_8h_source.html">MessageBuffer.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">MessageBuffer.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -173,7 +173,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a8a2738459d80d70a1b02a5a93ebad1d4"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d8e/class_message_buffer.html#a8a2738459d80d70a1b02a5a93ebad1d4">_storage</a></td></tr>
 <tr class="separator:a8a2738459d80d70a1b02a5a93ebad1d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Typedef Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a63e35ae42b261707be96b6366579f141" name="a63e35ae42b261707be96b6366579f141"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a63e35ae42b261707be96b6366579f141">&#9670;&#160;</a></span>size_type</h2>
 
@@ -219,7 +220,12 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   30</span>                    :  <a class="code hl_variable" href="../../d7/d8e/class_message_buffer.html#a8a2738459d80d70a1b02a5a93ebad1d4">_storage</a>()</div>
+<div class="line"><span class="lineno">   31</span>    {</div>
+<div class="line"><span class="lineno">   32</span>        <a class="code hl_variable" href="../../d7/d8e/class_message_buffer.html#a8a2738459d80d70a1b02a5a93ebad1d4">_storage</a>.resize(4096);</div>
+<div class="line"><span class="lineno">   33</span>    }</div>
+<div class="ttc" id="aclass_message_buffer_html_a8a2738459d80d70a1b02a5a93ebad1d4"><div class="ttname"><a href="../../d7/d8e/class_message_buffer.html#a8a2738459d80d70a1b02a5a93ebad1d4">MessageBuffer::_storage</a></div><div class="ttdeci">std::vector&lt; uint8 &gt; _storage</div><div class="ttdef"><b>Definition:</b> MessageBuffer.h:137</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a5e5827a47181f545590df32ec86100b8" name="a5e5827a47181f545590df32ec86100b8"></a>
@@ -245,7 +251,13 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   35</span>                                                  : <a class="code hl_variable" href="../../d7/d8e/class_message_buffer.html#a3eff504d5c954e7d5fcaa386bdbf2bb9">_wpos</a>(0), <a class="code hl_variable" href="../../d7/d8e/class_message_buffer.html#a042a4b72f69338a44f20f11454bec374">_rpos</a>(0), <a class="code hl_variable" href="../../d7/d8e/class_message_buffer.html#a8a2738459d80d70a1b02a5a93ebad1d4">_storage</a>()</div>
+<div class="line"><span class="lineno">   36</span>    {</div>
+<div class="line"><span class="lineno">   37</span>        <a class="code hl_variable" href="../../d7/d8e/class_message_buffer.html#a8a2738459d80d70a1b02a5a93ebad1d4">_storage</a>.resize(initialSize);</div>
+<div class="line"><span class="lineno">   38</span>    }</div>
+<div class="ttc" id="aclass_message_buffer_html_a042a4b72f69338a44f20f11454bec374"><div class="ttname"><a href="../../d7/d8e/class_message_buffer.html#a042a4b72f69338a44f20f11454bec374">MessageBuffer::_rpos</a></div><div class="ttdeci">size_type _rpos</div><div class="ttdef"><b>Definition:</b> MessageBuffer.h:136</div></div>
+<div class="ttc" id="aclass_message_buffer_html_a3eff504d5c954e7d5fcaa386bdbf2bb9"><div class="ttname"><a href="../../d7/d8e/class_message_buffer.html#a3eff504d5c954e7d5fcaa386bdbf2bb9">MessageBuffer::_wpos</a></div><div class="ttdeci">size_type _wpos</div><div class="ttdef"><b>Definition:</b> MessageBuffer.h:135</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a9a9bf51f87346e42a4765b72d78dc7f6" name="a9a9bf51f87346e42a4765b72d78dc7f6"></a>
@@ -271,7 +283,9 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   40</span>                                              :</div>
+<div class="line"><span class="lineno">   41</span>        <a class="code hl_variable" href="../../d7/d8e/class_message_buffer.html#a3eff504d5c954e7d5fcaa386bdbf2bb9">_wpos</a>(right._wpos), <a class="code hl_variable" href="../../d7/d8e/class_message_buffer.html#a042a4b72f69338a44f20f11454bec374">_rpos</a>(right._rpos), <a class="code hl_variable" href="../../d7/d8e/class_message_buffer.html#a8a2738459d80d70a1b02a5a93ebad1d4">_storage</a>(right._storage) { }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a466f6fde17f5a239307cec5ec1fffb6d" name="a466f6fde17f5a239307cec5ec1fffb6d"></a>
@@ -297,7 +311,10 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   43</span>                                                  :</div>
+<div class="line"><span class="lineno">   44</span>        <a class="code hl_variable" href="../../d7/d8e/class_message_buffer.html#a3eff504d5c954e7d5fcaa386bdbf2bb9">_wpos</a>(right.<a class="code hl_variable" href="../../d7/d8e/class_message_buffer.html#a3eff504d5c954e7d5fcaa386bdbf2bb9">_wpos</a>), <a class="code hl_variable" href="../../d7/d8e/class_message_buffer.html#a042a4b72f69338a44f20f11454bec374">_rpos</a>(right.<a class="code hl_variable" href="../../d7/d8e/class_message_buffer.html#a042a4b72f69338a44f20f11454bec374">_rpos</a>), <a class="code hl_variable" href="../../d7/d8e/class_message_buffer.html#a8a2738459d80d70a1b02a5a93ebad1d4">_storage</a>(right.<a class="code hl_function" href="../../d7/d8e/class_message_buffer.html#acc13033dd688408760116899ca38f94e">Move</a>()) { }</div>
+<div class="ttc" id="aclass_message_buffer_html_acc13033dd688408760116899ca38f94e"><div class="ttname"><a href="../../d7/d8e/class_message_buffer.html#acc13033dd688408760116899ca38f94e">MessageBuffer::Move</a></div><div class="ttdeci">std::vector&lt; uint8 &gt; &amp;&amp; Move()</div><div class="ttdef"><b>Definition:</b> MessageBuffer.h:102</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -323,7 +340,15 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   85</span>    {</div>
+<div class="line"><span class="lineno">   86</span>        <span class="comment">// resize buffer if it&#39;s already full</span></div>
+<div class="line"><span class="lineno">   87</span>        <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d7/d8e/class_message_buffer.html#a3cfe272533d018af34b8e83cf7a05138">GetRemainingSpace</a>() == 0)</div>
+<div class="line"><span class="lineno">   88</span>        {</div>
+<div class="line"><span class="lineno">   89</span>            <a class="code hl_variable" href="../../d7/d8e/class_message_buffer.html#a8a2738459d80d70a1b02a5a93ebad1d4">_storage</a>.resize(<a class="code hl_variable" href="../../d7/d8e/class_message_buffer.html#a8a2738459d80d70a1b02a5a93ebad1d4">_storage</a>.size() * 3 / 2);</div>
+<div class="line"><span class="lineno">   90</span>        }</div>
+<div class="line"><span class="lineno">   91</span>    }</div>
+<div class="ttc" id="aclass_message_buffer_html_a3cfe272533d018af34b8e83cf7a05138"><div class="ttname"><a href="../../d7/d8e/class_message_buffer.html#a3cfe272533d018af34b8e83cf7a05138">MessageBuffer::GetRemainingSpace</a></div><div class="ttdeci">size_type GetRemainingSpace() const</div><div class="ttdef"><b>Definition:</b> MessageBuffer.h:65</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a8ae995ff5da60ca581e3539a511780be" name="a8ae995ff5da60ca581e3539a511780be"></a>
@@ -348,7 +373,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   64</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d7/d8e/class_message_buffer.html#a3eff504d5c954e7d5fcaa386bdbf2bb9">_wpos</a> - <a class="code hl_variable" href="../../d7/d8e/class_message_buffer.html#a042a4b72f69338a44f20f11454bec374">_rpos</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aff68a6f579650f642ef3919046583391" name="aff68a6f579650f642ef3919046583391"></a>
@@ -373,7 +399,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   57</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d7/d8e/class_message_buffer.html#a8a2738459d80d70a1b02a5a93ebad1d4">_storage</a>.data(); }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad5765765420af77b236d61f3c7bdadfa" name="ad5765765420af77b236d61f3c7bdadfa"></a>
@@ -398,7 +425,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   66</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d7/d8e/class_message_buffer.html#a8a2738459d80d70a1b02a5a93ebad1d4">_storage</a>.size(); }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a78f07c4d5aaa7d405ddf8ca2c6d39f11" name="a78f07c4d5aaa7d405ddf8ca2c6d39f11"></a>
@@ -423,7 +451,9 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   58</span>{ <span class="keywordflow">return</span> <a class="code hl_function" href="../../d7/d8e/class_message_buffer.html#aff68a6f579650f642ef3919046583391">GetBasePointer</a>() + <a class="code hl_variable" href="../../d7/d8e/class_message_buffer.html#a042a4b72f69338a44f20f11454bec374">_rpos</a>; }</div>
+<div class="ttc" id="aclass_message_buffer_html_aff68a6f579650f642ef3919046583391"><div class="ttname"><a href="../../d7/d8e/class_message_buffer.html#aff68a6f579650f642ef3919046583391">MessageBuffer::GetBasePointer</a></div><div class="ttdeci">uint8 * GetBasePointer()</div><div class="ttdef"><b>Definition:</b> MessageBuffer.h:57</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a3cfe272533d018af34b8e83cf7a05138" name="a3cfe272533d018af34b8e83cf7a05138"></a>
@@ -448,7 +478,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   65</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d7/d8e/class_message_buffer.html#a8a2738459d80d70a1b02a5a93ebad1d4">_storage</a>.size() - <a class="code hl_variable" href="../../d7/d8e/class_message_buffer.html#a3eff504d5c954e7d5fcaa386bdbf2bb9">_wpos</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a960c58291dd38003298dbcf85d649568" name="a960c58291dd38003298dbcf85d649568"></a>
@@ -473,7 +504,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   59</span>{ <span class="keywordflow">return</span> <a class="code hl_function" href="../../d7/d8e/class_message_buffer.html#aff68a6f579650f642ef3919046583391">GetBasePointer</a>() + <a class="code hl_variable" href="../../d7/d8e/class_message_buffer.html#a3eff504d5c954e7d5fcaa386bdbf2bb9">_wpos</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="acc13033dd688408760116899ca38f94e" name="acc13033dd688408760116899ca38f94e"></a>
@@ -498,7 +530,13 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  103</span>    {</div>
+<div class="line"><span class="lineno">  104</span>        <a class="code hl_variable" href="../../d7/d8e/class_message_buffer.html#a3eff504d5c954e7d5fcaa386bdbf2bb9">_wpos</a> = 0;</div>
+<div class="line"><span class="lineno">  105</span>        <a class="code hl_variable" href="../../d7/d8e/class_message_buffer.html#a042a4b72f69338a44f20f11454bec374">_rpos</a> = 0;</div>
+<div class="line"><span class="lineno">  106</span> </div>
+<div class="line"><span class="lineno">  107</span>        <span class="keywordflow">return</span> std::move(<a class="code hl_variable" href="../../d7/d8e/class_message_buffer.html#a8a2738459d80d70a1b02a5a93ebad1d4">_storage</a>);</div>
+<div class="line"><span class="lineno">  108</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ae323e0a33bb1fa30100aa1e63a2cc6b8" name="ae323e0a33bb1fa30100aa1e63a2cc6b8"></a>
@@ -523,7 +561,21 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   70</span>    {</div>
+<div class="line"><span class="lineno">   71</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d7/d8e/class_message_buffer.html#a042a4b72f69338a44f20f11454bec374">_rpos</a>)</div>
+<div class="line"><span class="lineno">   72</span>        {</div>
+<div class="line"><span class="lineno">   73</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d7/d8e/class_message_buffer.html#a042a4b72f69338a44f20f11454bec374">_rpos</a> != <a class="code hl_variable" href="../../d7/d8e/class_message_buffer.html#a3eff504d5c954e7d5fcaa386bdbf2bb9">_wpos</a>)</div>
+<div class="line"><span class="lineno">   74</span>            {</div>
+<div class="line"><span class="lineno">   75</span>                memmove(<a class="code hl_function" href="../../d7/d8e/class_message_buffer.html#aff68a6f579650f642ef3919046583391">GetBasePointer</a>(), <a class="code hl_function" href="../../d7/d8e/class_message_buffer.html#a78f07c4d5aaa7d405ddf8ca2c6d39f11">GetReadPointer</a>(), <a class="code hl_function" href="../../d7/d8e/class_message_buffer.html#a8ae995ff5da60ca581e3539a511780be">GetActiveSize</a>());</div>
+<div class="line"><span class="lineno">   76</span>            }</div>
+<div class="line"><span class="lineno">   77</span> </div>
+<div class="line"><span class="lineno">   78</span>            <a class="code hl_variable" href="../../d7/d8e/class_message_buffer.html#a3eff504d5c954e7d5fcaa386bdbf2bb9">_wpos</a> -= <a class="code hl_variable" href="../../d7/d8e/class_message_buffer.html#a042a4b72f69338a44f20f11454bec374">_rpos</a>;</div>
+<div class="line"><span class="lineno">   79</span>            <a class="code hl_variable" href="../../d7/d8e/class_message_buffer.html#a042a4b72f69338a44f20f11454bec374">_rpos</a> = 0;</div>
+<div class="line"><span class="lineno">   80</span>        }</div>
+<div class="line"><span class="lineno">   81</span>    }</div>
+<div class="ttc" id="aclass_message_buffer_html_a78f07c4d5aaa7d405ddf8ca2c6d39f11"><div class="ttname"><a href="../../d7/d8e/class_message_buffer.html#a78f07c4d5aaa7d405ddf8ca2c6d39f11">MessageBuffer::GetReadPointer</a></div><div class="ttdeci">uint8 * GetReadPointer()</div><div class="ttdef"><b>Definition:</b> MessageBuffer.h:58</div></div>
+<div class="ttc" id="aclass_message_buffer_html_a8ae995ff5da60ca581e3539a511780be"><div class="ttname"><a href="../../d7/d8e/class_message_buffer.html#a8ae995ff5da60ca581e3539a511780be">MessageBuffer::GetActiveSize</a></div><div class="ttdeci">size_type GetActiveSize() const</div><div class="ttdef"><b>Definition:</b> MessageBuffer.h:64</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a729a6f451f90716249a806e5c3a02b9c" name="a729a6f451f90716249a806e5c3a02b9c"></a>
@@ -549,7 +601,17 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  123</span>    {</div>
+<div class="line"><span class="lineno">  124</span>        <span class="keywordflow">if</span> (<span class="keyword">this</span> != &amp;right)</div>
+<div class="line"><span class="lineno">  125</span>        {</div>
+<div class="line"><span class="lineno">  126</span>            <a class="code hl_variable" href="../../d7/d8e/class_message_buffer.html#a3eff504d5c954e7d5fcaa386bdbf2bb9">_wpos</a> = right.<a class="code hl_variable" href="../../d7/d8e/class_message_buffer.html#a3eff504d5c954e7d5fcaa386bdbf2bb9">_wpos</a>;</div>
+<div class="line"><span class="lineno">  127</span>            <a class="code hl_variable" href="../../d7/d8e/class_message_buffer.html#a042a4b72f69338a44f20f11454bec374">_rpos</a> = right.<a class="code hl_variable" href="../../d7/d8e/class_message_buffer.html#a042a4b72f69338a44f20f11454bec374">_rpos</a>;</div>
+<div class="line"><span class="lineno">  128</span>            <a class="code hl_variable" href="../../d7/d8e/class_message_buffer.html#a8a2738459d80d70a1b02a5a93ebad1d4">_storage</a> = right.<a class="code hl_function" href="../../d7/d8e/class_message_buffer.html#acc13033dd688408760116899ca38f94e">Move</a>();</div>
+<div class="line"><span class="lineno">  129</span>        }</div>
+<div class="line"><span class="lineno">  130</span> </div>
+<div class="line"><span class="lineno">  131</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">  132</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a1b6f18821fdf7688de020adfef80760b" name="a1b6f18821fdf7688de020adfef80760b"></a>
@@ -575,7 +637,17 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  111</span>    {</div>
+<div class="line"><span class="lineno">  112</span>        <span class="keywordflow">if</span> (<span class="keyword">this</span> != &amp;right)</div>
+<div class="line"><span class="lineno">  113</span>        {</div>
+<div class="line"><span class="lineno">  114</span>            <a class="code hl_variable" href="../../d7/d8e/class_message_buffer.html#a3eff504d5c954e7d5fcaa386bdbf2bb9">_wpos</a> = right._wpos;</div>
+<div class="line"><span class="lineno">  115</span>            <a class="code hl_variable" href="../../d7/d8e/class_message_buffer.html#a042a4b72f69338a44f20f11454bec374">_rpos</a> = right._rpos;</div>
+<div class="line"><span class="lineno">  116</span>            <a class="code hl_variable" href="../../d7/d8e/class_message_buffer.html#a8a2738459d80d70a1b02a5a93ebad1d4">_storage</a> = right._storage;</div>
+<div class="line"><span class="lineno">  117</span>        }</div>
+<div class="line"><span class="lineno">  118</span> </div>
+<div class="line"><span class="lineno">  119</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">  120</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a4e1d57cb13b6e270e336a36e21959c94" name="a4e1d57cb13b6e270e336a36e21959c94"></a>
@@ -601,7 +673,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   61</span>{ <a class="code hl_variable" href="../../d7/d8e/class_message_buffer.html#a042a4b72f69338a44f20f11454bec374">_rpos</a> += bytes; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ace3b4c6c430e225cccf5119467721735" name="ace3b4c6c430e225cccf5119467721735"></a>
@@ -626,7 +699,11 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   47</span>    {</div>
+<div class="line"><span class="lineno">   48</span>        <a class="code hl_variable" href="../../d7/d8e/class_message_buffer.html#a3eff504d5c954e7d5fcaa386bdbf2bb9">_wpos</a> = 0;</div>
+<div class="line"><span class="lineno">   49</span>        <a class="code hl_variable" href="../../d7/d8e/class_message_buffer.html#a042a4b72f69338a44f20f11454bec374">_rpos</a> = 0;</div>
+<div class="line"><span class="lineno">   50</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a38f46c8d6dd9a13ee51d4a429837ae9b" name="a38f46c8d6dd9a13ee51d4a429837ae9b"></a>
@@ -652,7 +729,10 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   53</span>    {</div>
+<div class="line"><span class="lineno">   54</span>        <a class="code hl_variable" href="../../d7/d8e/class_message_buffer.html#a8a2738459d80d70a1b02a5a93ebad1d4">_storage</a>.resize(bytes);</div>
+<div class="line"><span class="lineno">   55</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ab9c9b5422fff1450c98c2241344631e9" name="ab9c9b5422fff1450c98c2241344631e9"></a>
@@ -688,7 +768,16 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   94</span>    {</div>
+<div class="line"><span class="lineno">   95</span>        <span class="keywordflow">if</span> (size)</div>
+<div class="line"><span class="lineno">   96</span>        {</div>
+<div class="line"><span class="lineno">   97</span>            memcpy(<a class="code hl_function" href="../../d7/d8e/class_message_buffer.html#a960c58291dd38003298dbcf85d649568">GetWritePointer</a>(), data, size);</div>
+<div class="line"><span class="lineno">   98</span>            <a class="code hl_function" href="../../d7/d8e/class_message_buffer.html#a5287bc1c7f82e3abcf3ee0d8daf8798b">WriteCompleted</a>(size);</div>
+<div class="line"><span class="lineno">   99</span>        }</div>
+<div class="line"><span class="lineno">  100</span>    }</div>
+<div class="ttc" id="aclass_message_buffer_html_a5287bc1c7f82e3abcf3ee0d8daf8798b"><div class="ttname"><a href="../../d7/d8e/class_message_buffer.html#a5287bc1c7f82e3abcf3ee0d8daf8798b">MessageBuffer::WriteCompleted</a></div><div class="ttdeci">void WriteCompleted(size_type bytes)</div><div class="ttdef"><b>Definition:</b> MessageBuffer.h:62</div></div>
+<div class="ttc" id="aclass_message_buffer_html_a960c58291dd38003298dbcf85d649568"><div class="ttname"><a href="../../d7/d8e/class_message_buffer.html#a960c58291dd38003298dbcf85d649568">MessageBuffer::GetWritePointer</a></div><div class="ttdeci">uint8 * GetWritePointer()</div><div class="ttdef"><b>Definition:</b> MessageBuffer.h:59</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a5287bc1c7f82e3abcf3ee0d8daf8798b" name="a5287bc1c7f82e3abcf3ee0d8daf8798b"></a>
@@ -714,7 +803,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   62</span>{ <a class="code hl_variable" href="../../d7/d8e/class_message_buffer.html#a3eff504d5c954e7d5fcaa386bdbf2bb9">_wpos</a> += bytes; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -785,7 +875,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/common/Utilities/<a class="el" href="../../d1/de9/_message_buffer_8h_source.html">MessageBuffer.h</a></li>
+<li><a class="el" href="../../">MessageBuffer.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -793,7 +883,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d7/d8e/class_message_buffer.html">MessageBuffer</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:47 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:02 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

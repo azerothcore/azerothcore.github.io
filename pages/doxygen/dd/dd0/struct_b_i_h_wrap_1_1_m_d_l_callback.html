@@ -133,7 +133,10 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a92fa352db4ba43afd590677d0ae1e5d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd0/struct_b_i_h_wrap_1_1_m_d_l_callback.html#a92fa352db4ba43afd590677d0ae1e5d9">objects_size</a></td></tr>
 <tr class="separator:a92fa352db4ba43afd590677d0ae1e5d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;class T, class BoundsFunc = BoundsTrait&lt;T&gt;&gt;<br />
+template&lt;class RayCallback&gt;<br />
+struct BIHWrap&lt; T, BoundsFunc &gt;::MDLCallback&lt; RayCallback &gt;</div></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a241899d601778892a72080cceaa96318" name="a241899d601778892a72080cceaa96318"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a241899d601778892a72080cceaa96318">&#9670;&#160;</a></span>MDLCallback()</h2>
 
@@ -177,7 +180,11 @@ template&lt;class RayCallback &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   36</span>: <a class="code hl_variable" href="../../dd/dd0/struct_b_i_h_wrap_1_1_m_d_l_callback.html#a297d43aa55ffbb4f69f8e5888c8e116f">objects</a>(objects_array), <a class="code hl_variable" href="../../dd/dd0/struct_b_i_h_wrap_1_1_m_d_l_callback.html#a8eae05fc208dcc7f50147bf55c47764c">_callback</a>(callback), <a class="code hl_variable" href="../../dd/dd0/struct_b_i_h_wrap_1_1_m_d_l_callback.html#a92fa352db4ba43afd590677d0ae1e5d9">objects_size</a>(<a class="code hl_variable" href="../../dd/dd0/struct_b_i_h_wrap_1_1_m_d_l_callback.html#a92fa352db4ba43afd590677d0ae1e5d9">objects_size</a>) { }</div>
+<div class="ttc" id="astruct_b_i_h_wrap_1_1_m_d_l_callback_html_a297d43aa55ffbb4f69f8e5888c8e116f"><div class="ttname"><a href="../../dd/dd0/struct_b_i_h_wrap_1_1_m_d_l_callback.html#a297d43aa55ffbb4f69f8e5888c8e116f">BIHWrap::MDLCallback::objects</a></div><div class="ttdeci">const T *const  * objects</div><div class="ttdef"><b>Definition:</b> BoundingIntervalHierarchyWrapper.h:32</div></div>
+<div class="ttc" id="astruct_b_i_h_wrap_1_1_m_d_l_callback_html_a8eae05fc208dcc7f50147bf55c47764c"><div class="ttname"><a href="../../dd/dd0/struct_b_i_h_wrap_1_1_m_d_l_callback.html#a8eae05fc208dcc7f50147bf55c47764c">BIHWrap::MDLCallback::_callback</a></div><div class="ttdeci">RayCallback &amp; _callback</div><div class="ttdef"><b>Definition:</b> BoundingIntervalHierarchyWrapper.h:33</div></div>
+<div class="ttc" id="astruct_b_i_h_wrap_1_1_m_d_l_callback_html_a92fa352db4ba43afd590677d0ae1e5d9"><div class="ttname"><a href="../../dd/dd0/struct_b_i_h_wrap_1_1_m_d_l_callback.html#a92fa352db4ba43afd590677d0ae1e5d9">BIHWrap::MDLCallback::objects_size</a></div><div class="ttdeci">uint32 objects_size</div><div class="ttdef"><b>Definition:</b> BoundingIntervalHierarchyWrapper.h:34</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -232,7 +239,18 @@ template&lt;class RayCallback &gt; </div>
 </div><div class="memdoc">
 
 <p>Intersect ray. </p>
-
+<div class="fragment"><div class="line"><span class="lineno">   40</span>        {</div>
+<div class="line"><span class="lineno">   41</span>            <span class="keywordflow">if</span> (idx &gt;= <a class="code hl_variable" href="../../dd/dd0/struct_b_i_h_wrap_1_1_m_d_l_callback.html#a92fa352db4ba43afd590677d0ae1e5d9">objects_size</a>)</div>
+<div class="line"><span class="lineno">   42</span>            {</div>
+<div class="line"><span class="lineno">   43</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   44</span>            }</div>
+<div class="line"><span class="lineno">   45</span>            <span class="keywordflow">if</span> (<span class="keyword">const</span> T* obj = <a class="code hl_variable" href="../../dd/dd0/struct_b_i_h_wrap_1_1_m_d_l_callback.html#a297d43aa55ffbb4f69f8e5888c8e116f">objects</a>[idx])</div>
+<div class="line"><span class="lineno">   46</span>            {</div>
+<div class="line"><span class="lineno">   47</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dd/dd0/struct_b_i_h_wrap_1_1_m_d_l_callback.html#a8eae05fc208dcc7f50147bf55c47764c">_callback</a>(ray, *obj, maxDist, stopAtFirstHit);</div>
+<div class="line"><span class="lineno">   48</span>            }</div>
+<div class="line"><span class="lineno">   49</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   50</span>        }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2130223692a9d0f8491f7ea7ae24270c" name="a2130223692a9d0f8491f7ea7ae24270c"></a>
@@ -274,7 +292,17 @@ template&lt;class RayCallback &gt; </div>
 </div><div class="memdoc">
 
 <p>Intersect point. </p>
-
+<div class="fragment"><div class="line"><span class="lineno">   54</span>        {</div>
+<div class="line"><span class="lineno">   55</span>            <span class="keywordflow">if</span> (idx &gt;= <a class="code hl_variable" href="../../dd/dd0/struct_b_i_h_wrap_1_1_m_d_l_callback.html#a92fa352db4ba43afd590677d0ae1e5d9">objects_size</a>)</div>
+<div class="line"><span class="lineno">   56</span>            {</div>
+<div class="line"><span class="lineno">   57</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   58</span>            }</div>
+<div class="line"><span class="lineno">   59</span>            <span class="keywordflow">if</span> (<span class="keyword">const</span> T* obj = <a class="code hl_variable" href="../../dd/dd0/struct_b_i_h_wrap_1_1_m_d_l_callback.html#a297d43aa55ffbb4f69f8e5888c8e116f">objects</a>[idx])</div>
+<div class="line"><span class="lineno">   60</span>            {</div>
+<div class="line"><span class="lineno">   61</span>                <a class="code hl_variable" href="../../dd/dd0/struct_b_i_h_wrap_1_1_m_d_l_callback.html#a8eae05fc208dcc7f50147bf55c47764c">_callback</a>(p, *obj);</div>
+<div class="line"><span class="lineno">   62</span>            }</div>
+<div class="line"><span class="lineno">   63</span>        }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -333,7 +361,7 @@ template&lt;class RayCallback &gt; </div>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/common/Collision/<a class="el" href="../../d7/dda/_bounding_interval_hierarchy_wrapper_8h_source.html">BoundingIntervalHierarchyWrapper.h</a></li>
+<li><a class="el" href="../../">BoundingIntervalHierarchyWrapper.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -341,7 +369,7 @@ template&lt;class RayCallback &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d7/dd9/class_b_i_h_wrap.html">BIHWrap</a></li><li class="navelem"><a class="el" href="../../dd/dd0/struct_b_i_h_wrap_1_1_m_d_l_callback.html">MDLCallback</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:38 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:49 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

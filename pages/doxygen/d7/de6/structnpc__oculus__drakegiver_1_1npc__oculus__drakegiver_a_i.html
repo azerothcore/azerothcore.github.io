@@ -493,7 +493,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a4bba380256a0ede70b8d90611249b444" name="a4bba380256a0ede70b8d90611249b444"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4bba380256a0ede70b8d90611249b444">&#9670;&#160;</a></span>npc_oculus_drakegiverAI()</h2>
 
@@ -517,7 +518,31 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   88</span>                                                    : <a class="code hl_struct" href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a>(creature)</div>
+<div class="line"><span class="lineno">   89</span>        {</div>
+<div class="line"><span class="lineno">   90</span>            <a class="code hl_variable" href="../../d7/de6/structnpc__oculus__drakegiver_1_1npc__oculus__drakegiver_a_i.html#a04e43a623d16b4cf8d80552d649d90ca">m_pInstance</a> = <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">GetInstanceScript</a>();</div>
+<div class="line"><span class="lineno">   91</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d7/de6/structnpc__oculus__drakegiver_1_1npc__oculus__drakegiver_a_i.html#a04e43a623d16b4cf8d80552d649d90ca">m_pInstance</a>-&gt;<a class="code hl_function" href="../../df/dad/class_zone_script.html#a8997612fdbdacbf5e28e4de60d03e805">GetData</a>(<a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#af5baa506e65b4caa6be6d1c6661dfe63a62efa54814a33a4d3e67aef578a5893b">DATA_DRAKOS</a>) == <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749">DONE</a>)</div>
+<div class="line"><span class="lineno">   92</span>            {</div>
+<div class="line"><span class="lineno">   93</span>                <a class="code hl_variable" href="../../d7/de6/structnpc__oculus__drakegiver_1_1npc__oculus__drakegiver_a_i.html#a8ef6c480846d08d8a6225a7124320cbf">resetPosition</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   94</span>                <a class="code hl_variable" href="../../d7/de6/structnpc__oculus__drakegiver_1_1npc__oculus__drakegiver_a_i.html#a069e202a84d99cd757862bd1a43b5562">moved</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   95</span>            }</div>
+<div class="line"><span class="lineno">   96</span>            <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">   97</span>                <a class="code hl_variable" href="../../d7/de6/structnpc__oculus__drakegiver_1_1npc__oculus__drakegiver_a_i.html#a069e202a84d99cd757862bd1a43b5562">moved</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   98</span>                <a class="code hl_variable" href="../../d7/de6/structnpc__oculus__drakegiver_1_1npc__oculus__drakegiver_a_i.html#a8ef6c480846d08d8a6225a7124320cbf">resetPosition</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   99</span>            }</div>
+<div class="line"><span class="lineno">  100</span>            <a class="code hl_variable" href="../../d7/de6/structnpc__oculus__drakegiver_1_1npc__oculus__drakegiver_a_i.html#a461b45ab959e71699cf1543ecbcbd91f">timer</a> = 0;</div>
+<div class="line"><span class="lineno">  101</span>        }</div>
+<div class="ttc" id="a_instance_script_8h_html_a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749">DONE</a></div><div class="ttdeci">@ DONE</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:59</div></div>
+<div class="ttc" id="aclass_world_object_html_a29762f86d0726e4d229df51281b9d710"><div class="ttname"><a href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">WorldObject::GetInstanceScript</a></div><div class="ttdeci">InstanceScript * GetInstanceScript() const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1192</div></div>
+<div class="ttc" id="aclass_zone_script_html_a8997612fdbdacbf5e28e4de60d03e805"><div class="ttname"><a href="../../df/dad/class_zone_script.html#a8997612fdbdacbf5e28e4de60d03e805">ZoneScript::GetData</a></div><div class="ttdeci">virtual uint32 GetData(uint32) const</div><div class="ttdef"><b>Definition:</b> ZoneScript.h:52</div></div>
+<div class="ttc" id="aoculus_8h_html_af5baa506e65b4caa6be6d1c6661dfe63a62efa54814a33a4d3e67aef578a5893b"><div class="ttname"><a href="../../df/d29/oculus_8h.html#af5baa506e65b4caa6be6d1c6661dfe63a62efa54814a33a4d3e67aef578a5893b">DATA_DRAKOS</a></div><div class="ttdeci">@ DATA_DRAKOS</div><div class="ttdef"><b>Definition:</b> oculus.h:34</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+<div class="ttc" id="astructnpc__oculus__drakegiver_1_1npc__oculus__drakegiver_a_i_html_a04e43a623d16b4cf8d80552d649d90ca"><div class="ttname"><a href="../../d7/de6/structnpc__oculus__drakegiver_1_1npc__oculus__drakegiver_a_i.html#a04e43a623d16b4cf8d80552d649d90ca">npc_oculus_drakegiver::npc_oculus_drakegiverAI::m_pInstance</a></div><div class="ttdeci">InstanceScript * m_pInstance</div><div class="ttdef"><b>Definition:</b> oculus.cpp:103</div></div>
+<div class="ttc" id="astructnpc__oculus__drakegiver_1_1npc__oculus__drakegiver_a_i_html_a069e202a84d99cd757862bd1a43b5562"><div class="ttname"><a href="../../d7/de6/structnpc__oculus__drakegiver_1_1npc__oculus__drakegiver_a_i.html#a069e202a84d99cd757862bd1a43b5562">npc_oculus_drakegiver::npc_oculus_drakegiverAI::moved</a></div><div class="ttdeci">bool moved</div><div class="ttdef"><b>Definition:</b> oculus.cpp:104</div></div>
+<div class="ttc" id="astructnpc__oculus__drakegiver_1_1npc__oculus__drakegiver_a_i_html_a461b45ab959e71699cf1543ecbcbd91f"><div class="ttname"><a href="../../d7/de6/structnpc__oculus__drakegiver_1_1npc__oculus__drakegiver_a_i.html#a461b45ab959e71699cf1543ecbcbd91f">npc_oculus_drakegiver::npc_oculus_drakegiverAI::timer</a></div><div class="ttdeci">uint32 timer</div><div class="ttdef"><b>Definition:</b> oculus.cpp:105</div></div>
+<div class="ttc" id="astructnpc__oculus__drakegiver_1_1npc__oculus__drakegiver_a_i_html_a8ef6c480846d08d8a6225a7124320cbf"><div class="ttname"><a href="../../d7/de6/structnpc__oculus__drakegiver_1_1npc__oculus__drakegiver_a_i.html#a8ef6c480846d08d8a6225a7124320cbf">npc_oculus_drakegiver::npc_oculus_drakegiverAI::resetPosition</a></div><div class="ttdeci">bool resetPosition</div><div class="ttdef"><b>Definition:</b> oculus.cpp:104</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -556,7 +581,27 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#ac737070ba7a8645d0e0ccf6bd6107004">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  154</span>        {</div>
+<div class="line"><span class="lineno">  155</span>            <span class="keywordflow">if</span> (<span class="keywordtype">id</span> != <a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#a43a1dd34b31d53516e253abdd0fb4ea5abd041da1251b7871ca94f63c74114a76">POINT_MOVE_DRAKES</a>)</div>
+<div class="line"><span class="lineno">  156</span>            {</div>
+<div class="line"><span class="lineno">  157</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  158</span>            }</div>
+<div class="line"><span class="lineno">  159</span> </div>
+<div class="line"><span class="lineno">  160</span>            <span class="keywordflow">if</span>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>() == <a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#a6986ec7b2d3274669934af9795f26d5ca400712dc10909267a6b0ac4bc1701d80">NPC_BELGARISTRASZ</a>)</div>
+<div class="line"><span class="lineno">  161</span>            {</div>
+<div class="line"><span class="lineno">  162</span>                <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#acb9ca3a790c820be5cc99570142bda22a44828bc65efdb599d5574c7e02b6582f">SAY_BELGARISTRASZ</a>);</div>
+<div class="line"><span class="lineno">  163</span>            }</div>
+<div class="line"><span class="lineno">  164</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a9c5739d268705d03fc40799b7c3d3239">SetNpcFlag</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ab054baf099d873bce22a0e84ae1090e2a7d2d4d09dd0b5ba2b977f74bf55a3fd0">UNIT_NPC_FLAG_GOSSIP</a> | <a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ab054baf099d873bce22a0e84ae1090e2aa6620004c6d23c46e0472598d5ab0b5d">UNIT_NPC_FLAG_QUESTGIVER</a>);</div>
+<div class="line"><span class="lineno">  165</span>        }</div>
+<div class="ttc" id="a_unit_8h_html_ab054baf099d873bce22a0e84ae1090e2a7d2d4d09dd0b5ba2b977f74bf55a3fd0"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#ab054baf099d873bce22a0e84ae1090e2a7d2d4d09dd0b5ba2b977f74bf55a3fd0">UNIT_NPC_FLAG_GOSSIP</a></div><div class="ttdeci">@ UNIT_NPC_FLAG_GOSSIP</div><div class="ttdef"><b>Definition:</b> Unit.h:516</div></div>
+<div class="ttc" id="a_unit_8h_html_ab054baf099d873bce22a0e84ae1090e2aa6620004c6d23c46e0472598d5ab0b5d"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#ab054baf099d873bce22a0e84ae1090e2aa6620004c6d23c46e0472598d5ab0b5d">UNIT_NPC_FLAG_QUESTGIVER</a></div><div class="ttdeci">@ UNIT_NPC_FLAG_QUESTGIVER</div><div class="ttdef"><b>Definition:</b> Unit.h:517</div></div>
+<div class="ttc" id="aboss__fathomlord__karathress_8cpp_html_a747a224b6b3195f9a33c56ddc6c7e268"><div class="ttname"><a href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a></div><div class="ttdeci">Talk</div><div class="ttdef"><b>Definition:</b> boss_fathomlord_karathress.cpp:23</div></div>
+<div class="ttc" id="aclass_object_html_aa627fe2967ed0e0ed1d8aeeb4365a961"><div class="ttname"><a href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">Object::GetEntry</a></div><div class="ttdeci">uint32 GetEntry() const</div><div class="ttdef"><b>Definition:</b> Object.h:109</div></div>
+<div class="ttc" id="aclass_unit_html_a9c5739d268705d03fc40799b7c3d3239"><div class="ttname"><a href="../../da/db7/class_unit.html#a9c5739d268705d03fc40799b7c3d3239">Unit::SetNpcFlag</a></div><div class="ttdeci">void SetNpcFlag(NPCFlags flags)</div><div class="ttdef"><b>Definition:</b> Unit.h:1644</div></div>
+<div class="ttc" id="aoculus_8h_html_a43a1dd34b31d53516e253abdd0fb4ea5abd041da1251b7871ca94f63c74114a76"><div class="ttname"><a href="../../df/d29/oculus_8h.html#a43a1dd34b31d53516e253abdd0fb4ea5abd041da1251b7871ca94f63c74114a76">POINT_MOVE_DRAKES</a></div><div class="ttdeci">@ POINT_MOVE_DRAKES</div><div class="ttdef"><b>Definition:</b> oculus.h:108</div></div>
+<div class="ttc" id="aoculus_8h_html_a6986ec7b2d3274669934af9795f26d5ca400712dc10909267a6b0ac4bc1701d80"><div class="ttname"><a href="../../df/d29/oculus_8h.html#a6986ec7b2d3274669934af9795f26d5ca400712dc10909267a6b0ac4bc1701d80">NPC_BELGARISTRASZ</a></div><div class="ttdeci">@ NPC_BELGARISTRASZ</div><div class="ttdef"><b>Definition:</b> oculus.h:56</div></div>
+<div class="ttc" id="aoculus_8h_html_acb9ca3a790c820be5cc99570142bda22a44828bc65efdb599d5574c7e02b6582f"><div class="ttname"><a href="../../df/d29/oculus_8h.html#acb9ca3a790c820be5cc99570142bda22a44828bc65efdb599d5574c7e02b6582f">SAY_BELGARISTRASZ</a></div><div class="ttdeci">@ SAY_BELGARISTRASZ</div><div class="ttdef"><b>Definition:</b> oculus.h:70</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a652a8c364687d51de62356964f6f33f9" name="a652a8c364687d51de62356964f6f33f9"></a>
@@ -584,7 +629,60 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#aff5fd4e142a5cf930ffacbfc7259cce5">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  108</span>        {</div>
+<div class="line"><span class="lineno">  109</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d7/de6/structnpc__oculus__drakegiver_1_1npc__oculus__drakegiver_a_i.html#a04e43a623d16b4cf8d80552d649d90ca">m_pInstance</a>-&gt;<a class="code hl_function" href="../../df/dad/class_zone_script.html#a8997612fdbdacbf5e28e4de60d03e805">GetData</a>(<a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#af5baa506e65b4caa6be6d1c6661dfe63a62efa54814a33a4d3e67aef578a5893b">DATA_DRAKOS</a>) == <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749">DONE</a>)</div>
+<div class="line"><span class="lineno">  110</span>            {</div>
+<div class="line"><span class="lineno">  111</span>                <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d7/de6/structnpc__oculus__drakegiver_1_1npc__oculus__drakegiver_a_i.html#a069e202a84d99cd757862bd1a43b5562">moved</a>)</div>
+<div class="line"><span class="lineno">  112</span>                {</div>
+<div class="line"><span class="lineno">  113</span>                    <a class="code hl_variable" href="../../d7/de6/structnpc__oculus__drakegiver_1_1npc__oculus__drakegiver_a_i.html#a461b45ab959e71699cf1543ecbcbd91f">timer</a> += diff;</div>
+<div class="line"><span class="lineno">  114</span> </div>
+<div class="line"><span class="lineno">  115</span>                    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d7/de6/structnpc__oculus__drakegiver_1_1npc__oculus__drakegiver_a_i.html#a461b45ab959e71699cf1543ecbcbd91f">timer</a> &gt; 3000)</div>
+<div class="line"><span class="lineno">  116</span>                    {</div>
+<div class="line"><span class="lineno">  117</span>                        <a class="code hl_variable" href="../../d7/de6/structnpc__oculus__drakegiver_1_1npc__oculus__drakegiver_a_i.html#a069e202a84d99cd757862bd1a43b5562">moved</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  118</span>                        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#acb4a26180cdcb2266736f6aea4a695d8">SetWalk</a>(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  119</span>                        <span class="keywordflow">switch</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>())</div>
+<div class="line"><span class="lineno">  120</span>                        {</div>
+<div class="line"><span class="lineno">  121</span>                        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#a6986ec7b2d3274669934af9795f26d5ca359710ec72bcbf796e2b6a78e30b725c">NPC_VERDISA</a>:</div>
+<div class="line"><span class="lineno">  122</span>                            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../df/d4d/class_motion_master.html#a903a48c63482ebbd45d63272b218df7f">MovePoint</a>(<a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#a43a1dd34b31d53516e253abdd0fb4ea5abd041da1251b7871ca94f63c74114a76">POINT_MOVE_DRAKES</a>, <a class="code hl_variable" href="../../df/d29/oculus_8h.html#a71f02d1c97d8ff7b90f1e34db5b84aff">VerdisaPOS</a>);</div>
+<div class="line"><span class="lineno">  123</span>                            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  124</span>                        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#a6986ec7b2d3274669934af9795f26d5ca400712dc10909267a6b0ac4bc1701d80">NPC_BELGARISTRASZ</a>:</div>
+<div class="line"><span class="lineno">  125</span>                            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../df/d4d/class_motion_master.html#a903a48c63482ebbd45d63272b218df7f">MovePoint</a>(<a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#a43a1dd34b31d53516e253abdd0fb4ea5abd041da1251b7871ca94f63c74114a76">POINT_MOVE_DRAKES</a>, <a class="code hl_variable" href="../../df/d29/oculus_8h.html#a32a1723002ca04a85898f7274cd4dec7">BelgaristraszPOS</a>);</div>
+<div class="line"><span class="lineno">  126</span>                            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  127</span>                        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#a6986ec7b2d3274669934af9795f26d5ca2ce72b4c6c6a26113697fa23efa44b48">NPC_ETERNOS</a>:</div>
+<div class="line"><span class="lineno">  128</span>                            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../df/d4d/class_motion_master.html#a903a48c63482ebbd45d63272b218df7f">MovePoint</a>(<a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#a43a1dd34b31d53516e253abdd0fb4ea5abd041da1251b7871ca94f63c74114a76">POINT_MOVE_DRAKES</a>, <a class="code hl_variable" href="../../df/d29/oculus_8h.html#a94bf697c818d14cdd636f8b753fcfe41">EternosPOS</a>);</div>
+<div class="line"><span class="lineno">  129</span>                            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  130</span>                        }</div>
+<div class="line"><span class="lineno">  131</span>                    }</div>
+<div class="line"><span class="lineno">  132</span>                }</div>
+<div class="line"><span class="lineno">  133</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d7/de6/structnpc__oculus__drakegiver_1_1npc__oculus__drakegiver_a_i.html#a8ef6c480846d08d8a6225a7124320cbf">resetPosition</a>)</div>
+<div class="line"><span class="lineno">  134</span>                {</div>
+<div class="line"><span class="lineno">  135</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a9c5739d268705d03fc40799b7c3d3239">SetNpcFlag</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ab054baf099d873bce22a0e84ae1090e2a7d2d4d09dd0b5ba2b977f74bf55a3fd0">UNIT_NPC_FLAG_GOSSIP</a> | <a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ab054baf099d873bce22a0e84ae1090e2aa6620004c6d23c46e0472598d5ab0b5d">UNIT_NPC_FLAG_QUESTGIVER</a>);</div>
+<div class="line"><span class="lineno">  136</span>                    <span class="keywordflow">switch</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>())</div>
+<div class="line"><span class="lineno">  137</span>                    {</div>
+<div class="line"><span class="lineno">  138</span>                    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#a6986ec7b2d3274669934af9795f26d5ca359710ec72bcbf796e2b6a78e30b725c">NPC_VERDISA</a>:</div>
+<div class="line"><span class="lineno">  139</span>                        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a73a7d3d9c51705f6e06d3cb8149a0212">SetPosition</a>(<a class="code hl_variable" href="../../df/d29/oculus_8h.html#a71f02d1c97d8ff7b90f1e34db5b84aff">VerdisaPOS</a>);</div>
+<div class="line"><span class="lineno">  140</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  141</span>                    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#a6986ec7b2d3274669934af9795f26d5ca400712dc10909267a6b0ac4bc1701d80">NPC_BELGARISTRASZ</a>:</div>
+<div class="line"><span class="lineno">  142</span>                        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a73a7d3d9c51705f6e06d3cb8149a0212">SetPosition</a>(<a class="code hl_variable" href="../../df/d29/oculus_8h.html#a32a1723002ca04a85898f7274cd4dec7">BelgaristraszPOS</a>);</div>
+<div class="line"><span class="lineno">  143</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  144</span>                    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d29/oculus_8h.html#a6986ec7b2d3274669934af9795f26d5ca2ce72b4c6c6a26113697fa23efa44b48">NPC_ETERNOS</a>:</div>
+<div class="line"><span class="lineno">  145</span>                        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a73a7d3d9c51705f6e06d3cb8149a0212">SetPosition</a>(<a class="code hl_variable" href="../../df/d29/oculus_8h.html#a94bf697c818d14cdd636f8b753fcfe41">EternosPOS</a>);</div>
+<div class="line"><span class="lineno">  146</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  147</span>                    }</div>
+<div class="line"><span class="lineno">  148</span>                    <a class="code hl_variable" href="../../d7/de6/structnpc__oculus__drakegiver_1_1npc__oculus__drakegiver_a_i.html#a8ef6c480846d08d8a6225a7124320cbf">resetPosition</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  149</span>                }</div>
+<div class="line"><span class="lineno">  150</span>            }</div>
+<div class="line"><span class="lineno">  151</span>        }</div>
+<div class="ttc" id="aclass_creature_html_a73a7d3d9c51705f6e06d3cb8149a0212"><div class="ttname"><a href="../../d1/dac/class_creature.html#a73a7d3d9c51705f6e06d3cb8149a0212">Creature::SetPosition</a></div><div class="ttdeci">void SetPosition(float x, float y, float z, float o)</div><div class="ttdef"><b>Definition:</b> Creature.cpp:3027</div></div>
+<div class="ttc" id="aclass_creature_html_acb4a26180cdcb2266736f6aea4a695d8"><div class="ttname"><a href="../../d1/dac/class_creature.html#acb4a26180cdcb2266736f6aea4a695d8">Creature::SetWalk</a></div><div class="ttdeci">bool SetWalk(bool enable) override</div><div class="ttdef"><b>Definition:</b> Creature.cpp:3053</div></div>
+<div class="ttc" id="aclass_motion_master_html_a903a48c63482ebbd45d63272b218df7f"><div class="ttname"><a href="../../df/d4d/class_motion_master.html#a903a48c63482ebbd45d63272b218df7f">MotionMaster::MovePoint</a></div><div class="ttdeci">void MovePoint(uint32 id, const Position &amp;pos, bool generatePath=true, bool forceDestination=true)</div><div class="ttdef"><b>Definition:</b> MotionMaster.h:210</div></div>
+<div class="ttc" id="aclass_unit_html_a4a04a3f22c3b0d6f4933993ac0cc7aa4"><div class="ttname"><a href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">Unit::GetMotionMaster</a></div><div class="ttdeci">MotionMaster * GetMotionMaster()</div><div class="ttdef"><b>Definition:</b> Unit.h:2257</div></div>
+<div class="ttc" id="aoculus_8h_html_a32a1723002ca04a85898f7274cd4dec7"><div class="ttname"><a href="../../df/d29/oculus_8h.html#a32a1723002ca04a85898f7274cd4dec7">BelgaristraszPOS</a></div><div class="ttdeci">Position const BelgaristraszPOS</div><div class="ttdef"><b>Definition:</b> oculus.h:29</div></div>
+<div class="ttc" id="aoculus_8h_html_a6986ec7b2d3274669934af9795f26d5ca2ce72b4c6c6a26113697fa23efa44b48"><div class="ttname"><a href="../../df/d29/oculus_8h.html#a6986ec7b2d3274669934af9795f26d5ca2ce72b4c6c6a26113697fa23efa44b48">NPC_ETERNOS</a></div><div class="ttdeci">@ NPC_ETERNOS</div><div class="ttdef"><b>Definition:</b> oculus.h:57</div></div>
+<div class="ttc" id="aoculus_8h_html_a6986ec7b2d3274669934af9795f26d5ca359710ec72bcbf796e2b6a78e30b725c"><div class="ttname"><a href="../../df/d29/oculus_8h.html#a6986ec7b2d3274669934af9795f26d5ca359710ec72bcbf796e2b6a78e30b725c">NPC_VERDISA</a></div><div class="ttdeci">@ NPC_VERDISA</div><div class="ttdef"><b>Definition:</b> oculus.h:55</div></div>
+<div class="ttc" id="aoculus_8h_html_a71f02d1c97d8ff7b90f1e34db5b84aff"><div class="ttname"><a href="../../df/d29/oculus_8h.html#a71f02d1c97d8ff7b90f1e34db5b84aff">VerdisaPOS</a></div><div class="ttdeci">Position const VerdisaPOS</div><div class="ttdef"><b>Definition:</b> oculus.h:28</div></div>
+<div class="ttc" id="aoculus_8h_html_a94bf697c818d14cdd636f8b753fcfe41"><div class="ttname"><a href="../../df/d29/oculus_8h.html#a94bf697c818d14cdd636f8b753fcfe41">EternosPOS</a></div><div class="ttdeci">Position const EternosPOS</div><div class="ttdef"><b>Definition:</b> oculus.h:30</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -645,7 +743,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/Nexus/Oculus/<a class="el" href="../../d5/d4c/oculus_8cpp.html">oculus.cpp</a></li>
+<li><a class="el" href="../../">oculus.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -653,7 +751,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d9/d75/classnpc__oculus__drakegiver.html">npc_oculus_drakegiver</a></li><li class="navelem"><a class="el" href="../../d7/de6/structnpc__oculus__drakegiver_1_1npc__oculus__drakegiver_a_i.html">npc_oculus_drakegiverAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:52 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:08 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

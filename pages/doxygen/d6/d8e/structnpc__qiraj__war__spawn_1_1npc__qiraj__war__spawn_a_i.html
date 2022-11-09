@@ -505,7 +505,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a1122bc3961300ba39c02613ba0fcd909" name="a1122bc3961300ba39c02613ba0fcd909"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1122bc3961300ba39c02613ba0fcd909">&#9670;&#160;</a></span>npc_qiraj_war_spawnAI()</h2>
 
@@ -529,7 +530,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  643</span>: <a class="code hl_struct" href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a>(creature) { }</div>
+<div class="ttc" id="astruct_scripted_a_i_html"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -558,7 +561,8 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a35a9ca7c140474598325b0f2073f9bcd">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  659</span>{ }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ada3362722a2f7a4ac5e3e807385c30fc" name="ada3362722a2f7a4ac5e3e807385c30fc"></a>
@@ -586,7 +590,24 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a4cc209e047dcbd29cf57e689e3945ff7">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  890</span>{</div>
+<div class="line"><span class="lineno">  891</span>    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a6f6a5dc263a9c68e7712b01da2065dd9">RemoveCorpse</a>();</div>
+<div class="line"><span class="lineno">  892</span> </div>
+<div class="line"><span class="lineno">  893</span>    <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d6/d8e/structnpc__qiraj__war__spawn_1_1npc__qiraj__war__spawn_a_i.html#a4148121a56275770ee84744a0288b6c5">MobGUID</a>)</div>
+<div class="line"><span class="lineno">  894</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  895</span> </div>
+<div class="line"><span class="lineno">  896</span>    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* mob = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a>(*<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_variable" href="../../d6/d8e/structnpc__qiraj__war__spawn_1_1npc__qiraj__war__spawn_a_i.html#a4148121a56275770ee84744a0288b6c5">MobGUID</a>))</div>
+<div class="line"><span class="lineno">  897</span>        <span class="keywordflow">if</span> (<a class="code hl_struct" href="../../d9/da9/structnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i.html">npc_anachronos_quest_trigger::npc_anachronos_quest_triggerAI</a>* triggerAI = <a class="code hl_define" href="../../d3/dad/_scripted_creature_8h.html#a0476b18cfebeb691aabb4344ec4f8af3">CAST_AI</a>(<a class="code hl_struct" href="../../d9/da9/structnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i.html">npc_anachronos_quest_trigger::npc_anachronos_quest_triggerAI</a>, mob-&gt;AI()))</div>
+<div class="line"><span class="lineno">  898</span>            triggerAI-&gt;LiveCounter();</div>
+<div class="line"><span class="lineno">  899</span>}</div>
+<div class="ttc" id="a_scripted_creature_8h_html_a0476b18cfebeb691aabb4344ec4f8af3"><div class="ttname"><a href="../../d3/dad/_scripted_creature_8h.html#a0476b18cfebeb691aabb4344ec4f8af3">CAST_AI</a></div><div class="ttdeci">#define CAST_AI(a, b)</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:27</div></div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_creature_html_a6f6a5dc263a9c68e7712b01da2065dd9"><div class="ttname"><a href="../../d1/dac/class_creature.html#a6f6a5dc263a9c68e7712b01da2065dd9">Creature::RemoveCorpse</a></div><div class="ttdeci">void RemoveCorpse(bool setSpawnTime=true, bool skipVisibility=false)</div><div class="ttdef"><b>Definition:</b> Creature.cpp:347</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_ae42e503fe79bbeaea1aaa665418c43f8"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a></div><div class="ttdeci">Creature * GetCreature(WorldObject const &amp;u, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:215</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+<div class="ttc" id="astructnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i_html"><div class="ttname"><a href="../../d9/da9/structnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i.html">npc_anachronos_quest_trigger::npc_anachronos_quest_triggerAI</a></div><div class="ttdef"><b>Definition:</b> zone_silithus.cpp:758</div></div>
+<div class="ttc" id="astructnpc__qiraj__war__spawn_1_1npc__qiraj__war__spawn_a_i_html_a4148121a56275770ee84744a0288b6c5"><div class="ttname"><a href="../../d6/d8e/structnpc__qiraj__war__spawn_1_1npc__qiraj__war__spawn_a_i.html#a4148121a56275770ee84744a0288b6c5">npc_qiraj_war_spawn::npc_qiraj_war_spawnAI::MobGUID</a></div><div class="ttdeci">ObjectGuid MobGUID</div><div class="ttdef"><b>Definition:</b> zone_silithus.cpp:645</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a617104afe4d5cca5cd0d98fe12cb1608" name="a617104afe4d5cca5cd0d98fe12cb1608"></a>
@@ -613,7 +634,17 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a26600c116d20a33461fc884bdb82eda9">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  652</span>        {</div>
+<div class="line"><span class="lineno">  653</span>            <a class="code hl_variable" href="../../d6/d8e/structnpc__qiraj__war__spawn_1_1npc__qiraj__war__spawn_a_i.html#a4148121a56275770ee84744a0288b6c5">MobGUID</a>.<a class="code hl_function" href="../../d8/d03/class_object_guid.html#af6aafb4610723c7f14523fef243b1b65">Clear</a>();</div>
+<div class="line"><span class="lineno">  654</span>            <a class="code hl_variable" href="../../d6/d8e/structnpc__qiraj__war__spawn_1_1npc__qiraj__war__spawn_a_i.html#a9e4294e9b7ce773263e0bd16512602ce">PlayerGUID</a>.<a class="code hl_function" href="../../d8/d03/class_object_guid.html#af6aafb4610723c7f14523fef243b1b65">Clear</a>();</div>
+<div class="line"><span class="lineno">  655</span>            <a class="code hl_enumeration" href="../../d8/df3/boss__anubshiah_8cpp.html#ab4d1592137d12427d186be538badd18b">Timers</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  656</span>            <a class="code hl_variable" href="../../d6/d8e/structnpc__qiraj__war__spawn_1_1npc__qiraj__war__spawn_a_i.html#ad36ad196f757d6014f7aa7cf7afb167b">hasTarget</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  657</span>        }</div>
+<div class="ttc" id="aboss__anubshiah_8cpp_html_ab4d1592137d12427d186be538badd18b"><div class="ttname"><a href="../../d8/df3/boss__anubshiah_8cpp.html#ab4d1592137d12427d186be538badd18b">Timers</a></div><div class="ttdeci">Timers</div><div class="ttdef"><b>Definition:</b> boss_anubshiah.cpp:32</div></div>
+<div class="ttc" id="aclass_object_guid_html_af6aafb4610723c7f14523fef243b1b65"><div class="ttname"><a href="../../d8/d03/class_object_guid.html#af6aafb4610723c7f14523fef243b1b65">ObjectGuid::Clear</a></div><div class="ttdeci">void Clear()</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:140</div></div>
+<div class="ttc" id="astructnpc__qiraj__war__spawn_1_1npc__qiraj__war__spawn_a_i_html_a9e4294e9b7ce773263e0bd16512602ce"><div class="ttname"><a href="../../d6/d8e/structnpc__qiraj__war__spawn_1_1npc__qiraj__war__spawn_a_i.html#a9e4294e9b7ce773263e0bd16512602ce">npc_qiraj_war_spawn::npc_qiraj_war_spawnAI::PlayerGUID</a></div><div class="ttdeci">ObjectGuid PlayerGUID</div><div class="ttdef"><b>Definition:</b> zone_silithus.cpp:646</div></div>
+<div class="ttc" id="astructnpc__qiraj__war__spawn_1_1npc__qiraj__war__spawn_a_i_html_ad36ad196f757d6014f7aa7cf7afb167b"><div class="ttname"><a href="../../d6/d8e/structnpc__qiraj__war__spawn_1_1npc__qiraj__war__spawn_a_i.html#ad36ad196f757d6014f7aa7cf7afb167b">npc_qiraj_war_spawn::npc_qiraj_war_spawnAI::hasTarget</a></div><div class="ttdeci">bool hasTarget</div><div class="ttdef"><b>Definition:</b> zone_silithus.cpp:649</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="afeed6ddc214d7d6ba6156a90e4465cb2" name="afeed6ddc214d7d6ba6156a90e4465cb2"></a>
@@ -641,7 +672,102 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#aff5fd4e142a5cf930ffacbfc7259cce5">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  663</span>        {</div>
+<div class="line"><span class="lineno">  664</span>            <span class="keywordflow">if</span> (!<a class="code hl_enumeration" href="../../d8/df3/boss__anubshiah_8cpp.html#ab4d1592137d12427d186be538badd18b">Timers</a>)</div>
+<div class="line"><span class="lineno">  665</span>            {</div>
+<div class="line"><span class="lineno">  666</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>() == 15424 || <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>() == 15422 || <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>() == 15414) <span class="comment">//all but Kaldorei Soldiers</span></div>
+<div class="line"><span class="lineno">  667</span>                {</div>
+<div class="line"><span class="lineno">  668</span>                    <a class="code hl_variable" href="../../d6/d8e/structnpc__qiraj__war__spawn_1_1npc__qiraj__war__spawn_a_i.html#a8979a90473c62aad604857d92574e5f1">SpellTimer1</a> = <a class="code hl_variable" href="../../d3/d9d/zone__silithus_8cpp.html#af5b8990a489280bda89e738cb3648330">SpawnCast</a>[1].<a class="code hl_variable" href="../../d4/d57/struct_spawn_spells.html#a9a35c148286e88f48b174be8b74fc5d0">Timer1</a>;</div>
+<div class="line"><span class="lineno">  669</span>                    <a class="code hl_variable" href="../../d6/d8e/structnpc__qiraj__war__spawn_1_1npc__qiraj__war__spawn_a_i.html#a91cb2356a92ef987bd1ba6d31b560ec1">SpellTimer2</a> = <a class="code hl_variable" href="../../d3/d9d/zone__silithus_8cpp.html#af5b8990a489280bda89e738cb3648330">SpawnCast</a>[2].<a class="code hl_variable" href="../../d4/d57/struct_spawn_spells.html#a9a35c148286e88f48b174be8b74fc5d0">Timer1</a>;</div>
+<div class="line"><span class="lineno">  670</span>                    <a class="code hl_variable" href="../../d6/d8e/structnpc__qiraj__war__spawn_1_1npc__qiraj__war__spawn_a_i.html#aeea20bb2f78ece03df38a3e9aa5d8b59">SpellTimer3</a> = <a class="code hl_variable" href="../../d3/d9d/zone__silithus_8cpp.html#af5b8990a489280bda89e738cb3648330">SpawnCast</a>[3].<a class="code hl_variable" href="../../d4/d57/struct_spawn_spells.html#a9a35c148286e88f48b174be8b74fc5d0">Timer1</a>;</div>
+<div class="line"><span class="lineno">  671</span>                }</div>
+<div class="line"><span class="lineno">  672</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>() == 15423 || <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>() == 15424 || <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>() == 15422 || <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>() == 15414)</div>
+<div class="line"><span class="lineno">  673</span>                    <a class="code hl_variable" href="../../d6/d8e/structnpc__qiraj__war__spawn_1_1npc__qiraj__war__spawn_a_i.html#a301971cf821e68e6be3223d4076f8b49">SpellTimer4</a> = <a class="code hl_variable" href="../../d3/d9d/zone__silithus_8cpp.html#af5b8990a489280bda89e738cb3648330">SpawnCast</a>[0].<a class="code hl_variable" href="../../d4/d57/struct_spawn_spells.html#a9a35c148286e88f48b174be8b74fc5d0">Timer1</a>;</div>
+<div class="line"><span class="lineno">  674</span>                <a class="code hl_enumeration" href="../../d8/df3/boss__anubshiah_8cpp.html#ab4d1592137d12427d186be538badd18b">Timers</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  675</span>            }</div>
+<div class="line"><span class="lineno">  676</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>() == 15424 || <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>() == 15422 || <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>() == 15414)</div>
+<div class="line"><span class="lineno">  677</span>            {</div>
+<div class="line"><span class="lineno">  678</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d6/d8e/structnpc__qiraj__war__spawn_1_1npc__qiraj__war__spawn_a_i.html#a8979a90473c62aad604857d92574e5f1">SpellTimer1</a> &lt;= diff)</div>
+<div class="line"><span class="lineno">  679</span>                {</div>
+<div class="line"><span class="lineno">  680</span>                    <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_variable" href="../../d3/d9d/zone__silithus_8cpp.html#af5b8990a489280bda89e738cb3648330">SpawnCast</a>[1].SpellId);</div>
+<div class="line"><span class="lineno">  681</span>                    <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, 24319);</div>
+<div class="line"><span class="lineno">  682</span>                    <a class="code hl_variable" href="../../d6/d8e/structnpc__qiraj__war__spawn_1_1npc__qiraj__war__spawn_a_i.html#a8979a90473c62aad604857d92574e5f1">SpellTimer1</a> = <a class="code hl_variable" href="../../d3/d9d/zone__silithus_8cpp.html#af5b8990a489280bda89e738cb3648330">SpawnCast</a>[1].<a class="code hl_variable" href="../../d4/d57/struct_spawn_spells.html#a108dee679b1f5d9fb8351f7b4b4f3a56">Timer2</a>;</div>
+<div class="line"><span class="lineno">  683</span>                }</div>
+<div class="line"><span class="lineno">  684</span>                <span class="keywordflow">else</span> <a class="code hl_variable" href="../../d6/d8e/structnpc__qiraj__war__spawn_1_1npc__qiraj__war__spawn_a_i.html#a8979a90473c62aad604857d92574e5f1">SpellTimer1</a> -= diff;</div>
+<div class="line"><span class="lineno">  685</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d6/d8e/structnpc__qiraj__war__spawn_1_1npc__qiraj__war__spawn_a_i.html#a91cb2356a92ef987bd1ba6d31b560ec1">SpellTimer2</a> &lt;= diff)</div>
+<div class="line"><span class="lineno">  686</span>                {</div>
+<div class="line"><span class="lineno">  687</span>                    <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_variable" href="../../d3/d9d/zone__silithus_8cpp.html#af5b8990a489280bda89e738cb3648330">SpawnCast</a>[2].SpellId);</div>
+<div class="line"><span class="lineno">  688</span>                    <a class="code hl_variable" href="../../d6/d8e/structnpc__qiraj__war__spawn_1_1npc__qiraj__war__spawn_a_i.html#a91cb2356a92ef987bd1ba6d31b560ec1">SpellTimer2</a> = <a class="code hl_variable" href="../../d3/d9d/zone__silithus_8cpp.html#af5b8990a489280bda89e738cb3648330">SpawnCast</a>[2].<a class="code hl_variable" href="../../d4/d57/struct_spawn_spells.html#a108dee679b1f5d9fb8351f7b4b4f3a56">Timer2</a>;</div>
+<div class="line"><span class="lineno">  689</span>                }</div>
+<div class="line"><span class="lineno">  690</span>                <span class="keywordflow">else</span> <a class="code hl_variable" href="../../d6/d8e/structnpc__qiraj__war__spawn_1_1npc__qiraj__war__spawn_a_i.html#a91cb2356a92ef987bd1ba6d31b560ec1">SpellTimer2</a> -= diff;</div>
+<div class="line"><span class="lineno">  691</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d6/d8e/structnpc__qiraj__war__spawn_1_1npc__qiraj__war__spawn_a_i.html#aeea20bb2f78ece03df38a3e9aa5d8b59">SpellTimer3</a> &lt;= diff)</div>
+<div class="line"><span class="lineno">  692</span>                {</div>
+<div class="line"><span class="lineno">  693</span>                    <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_variable" href="../../d3/d9d/zone__silithus_8cpp.html#af5b8990a489280bda89e738cb3648330">SpawnCast</a>[3].SpellId);</div>
+<div class="line"><span class="lineno">  694</span>                    <a class="code hl_variable" href="../../d6/d8e/structnpc__qiraj__war__spawn_1_1npc__qiraj__war__spawn_a_i.html#aeea20bb2f78ece03df38a3e9aa5d8b59">SpellTimer3</a> = <a class="code hl_variable" href="../../d3/d9d/zone__silithus_8cpp.html#af5b8990a489280bda89e738cb3648330">SpawnCast</a>[3].<a class="code hl_variable" href="../../d4/d57/struct_spawn_spells.html#a108dee679b1f5d9fb8351f7b4b4f3a56">Timer2</a>;</div>
+<div class="line"><span class="lineno">  695</span>                }</div>
+<div class="line"><span class="lineno">  696</span>                <span class="keywordflow">else</span> <a class="code hl_variable" href="../../d6/d8e/structnpc__qiraj__war__spawn_1_1npc__qiraj__war__spawn_a_i.html#aeea20bb2f78ece03df38a3e9aa5d8b59">SpellTimer3</a> -= diff;</div>
+<div class="line"><span class="lineno">  697</span>            }</div>
+<div class="line"><span class="lineno">  698</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>() == 15423 || <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>() == 15424 || <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>() == 15422 || <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>() == 15414)</div>
+<div class="line"><span class="lineno">  699</span>            {</div>
+<div class="line"><span class="lineno">  700</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d6/d8e/structnpc__qiraj__war__spawn_1_1npc__qiraj__war__spawn_a_i.html#a301971cf821e68e6be3223d4076f8b49">SpellTimer4</a> &lt;= diff)</div>
+<div class="line"><span class="lineno">  701</span>                {</div>
+<div class="line"><span class="lineno">  702</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ac10ce49db853cbab9f0c56444c9ecd25">RemoveAllAttackers</a>();</div>
+<div class="line"><span class="lineno">  703</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aee07e22b70ed433a845b0673579d5fee">AttackStop</a>();</div>
+<div class="line"><span class="lineno">  704</span>                    <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, 15533);</div>
+<div class="line"><span class="lineno">  705</span>                    <a class="code hl_variable" href="../../d6/d8e/structnpc__qiraj__war__spawn_1_1npc__qiraj__war__spawn_a_i.html#a301971cf821e68e6be3223d4076f8b49">SpellTimer4</a> = <a class="code hl_variable" href="../../d3/d9d/zone__silithus_8cpp.html#af5b8990a489280bda89e738cb3648330">SpawnCast</a>[0].<a class="code hl_variable" href="../../d4/d57/struct_spawn_spells.html#a108dee679b1f5d9fb8351f7b4b4f3a56">Timer2</a>;</div>
+<div class="line"><span class="lineno">  706</span>                }</div>
+<div class="line"><span class="lineno">  707</span>                <span class="keywordflow">else</span> <a class="code hl_variable" href="../../d6/d8e/structnpc__qiraj__war__spawn_1_1npc__qiraj__war__spawn_a_i.html#a301971cf821e68e6be3223d4076f8b49">SpellTimer4</a> -= diff;</div>
+<div class="line"><span class="lineno">  708</span>            }</div>
+<div class="line"><span class="lineno">  709</span>            <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d6/d8e/structnpc__qiraj__war__spawn_1_1npc__qiraj__war__spawn_a_i.html#ad36ad196f757d6014f7aa7cf7afb167b">hasTarget</a>)</div>
+<div class="line"><span class="lineno">  710</span>            {</div>
+<div class="line"><span class="lineno">  711</span>                <a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  712</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>() == 15424 || <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>() == 15422 || <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>() == 15414)</div>
+<div class="line"><span class="lineno">  713</span>                    target = <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#aa7cc61d571dbc39ca8ac6ac10ffd18ab">FindNearestCreature</a>(15423, 20, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  714</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>() == 15423)</div>
+<div class="line"><span class="lineno">  715</span>                {</div>
+<div class="line"><span class="lineno">  716</span>                    <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> tar = <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(0, 2);</div>
+<div class="line"><span class="lineno">  717</span> </div>
+<div class="line"><span class="lineno">  718</span>                    <span class="keywordflow">if</span> (tar == 0)</div>
+<div class="line"><span class="lineno">  719</span>                        target = <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#aa7cc61d571dbc39ca8ac6ac10ffd18ab">FindNearestCreature</a>(15422, 20, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  720</span>                    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (tar == 1)</div>
+<div class="line"><span class="lineno">  721</span>                        target = <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#aa7cc61d571dbc39ca8ac6ac10ffd18ab">FindNearestCreature</a>(15424, 20, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  722</span>                    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (tar == 2)</div>
+<div class="line"><span class="lineno">  723</span>                        target = <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#aa7cc61d571dbc39ca8ac6ac10ffd18ab">FindNearestCreature</a>(15414, 20, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  724</span>                }</div>
+<div class="line"><span class="lineno">  725</span>                <a class="code hl_variable" href="../../d6/d8e/structnpc__qiraj__war__spawn_1_1npc__qiraj__war__spawn_a_i.html#ad36ad196f757d6014f7aa7cf7afb167b">hasTarget</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  726</span>                <span class="keywordflow">if</span> (target)</div>
+<div class="line"><span class="lineno">  727</span>                    <a class="code hl_function" href="../../de/d83/struct_scripted_a_i.html#a4c91d8d2c1a6e8b234c1c4f15936c7a4">AttackStart</a>(target);</div>
+<div class="line"><span class="lineno">  728</span>            }</div>
+<div class="line"><span class="lineno">  729</span>            <span class="keywordflow">if</span> (!(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#aa7cc61d571dbc39ca8ac6ac10ffd18ab">FindNearestCreature</a>(15379, 60)))</div>
+<div class="line"><span class="lineno">  730</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, 33652);</div>
+<div class="line"><span class="lineno">  731</span> </div>
+<div class="line"><span class="lineno">  732</span>            <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">UpdateVictim</a>())</div>
+<div class="line"><span class="lineno">  733</span>            {</div>
+<div class="line"><span class="lineno">  734</span>                <a class="code hl_variable" href="../../d6/d8e/structnpc__qiraj__war__spawn_1_1npc__qiraj__war__spawn_a_i.html#ad36ad196f757d6014f7aa7cf7afb167b">hasTarget</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  735</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  736</span>            }</div>
+<div class="line"><span class="lineno">  737</span> </div>
+<div class="line"><span class="lineno">  738</span>            <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">DoMeleeAttackIfReady</a>();</div>
+<div class="line"><span class="lineno">  739</span>        }</div>
+<div class="ttc" id="a_define_8h_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:110</div></div>
+<div class="ttc" id="a_random_8cpp_html_ab17def34ccbbd868dc87a16bf35acdbd"><div class="ttname"><a href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a></div><div class="ttdeci">uint32 urand(uint32 min, uint32 max)</div><div class="ttdef"><b>Definition:</b> Random.cpp:44</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_ae03ccfe1e27501ed9ccbfecdbd3c4e39"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">CreatureAI::UpdateVictim</a></div><div class="ttdeci">bool UpdateVictim()</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:268</div></div>
+<div class="ttc" id="aclass_object_html_aa627fe2967ed0e0ed1d8aeeb4365a961"><div class="ttname"><a href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">Object::GetEntry</a></div><div class="ttdeci">uint32 GetEntry() const</div><div class="ttdef"><b>Definition:</b> Object.h:109</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a348a472089a9be6210b58aace8fafa9f"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">UnitAI::DoMeleeAttackIfReady</a></div><div class="ttdeci">void DoMeleeAttackIfReady()</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:40</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_aeebcad9b6effa45145c50f06af60b23d"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">UnitAI::DoCast</a></div><div class="ttdeci">SpellCastResult DoCast(uint32 spellId)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:178</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_ac10ce49db853cbab9f0c56444c9ecd25"><div class="ttname"><a href="../../da/db7/class_unit.html#ac10ce49db853cbab9f0c56444c9ecd25">Unit::RemoveAllAttackers</a></div><div class="ttdeci">void RemoveAllAttackers()</div><div class="ttdef"><b>Definition:</b> Unit.cpp:10432</div></div>
+<div class="ttc" id="aclass_unit_html_aee07e22b70ed433a845b0673579d5fee"><div class="ttname"><a href="../../da/db7/class_unit.html#aee07e22b70ed433a845b0673579d5fee">Unit::AttackStop</a></div><div class="ttdeci">bool AttackStop()</div><div class="ttdef"><b>Definition:</b> Unit.cpp:10356</div></div>
+<div class="ttc" id="aclass_world_object_html_aa7cc61d571dbc39ca8ac6ac10ffd18ab"><div class="ttname"><a href="../../db/df7/class_world_object.html#aa7cc61d571dbc39ca8ac6ac10ffd18ab">WorldObject::FindNearestCreature</a></div><div class="ttdeci">Creature * FindNearestCreature(uint32 entry, float range, bool alive=true) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:2392</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a4c91d8d2c1a6e8b234c1c4f15936c7a4"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a4c91d8d2c1a6e8b234c1c4f15936c7a4">ScriptedAI::AttackStart</a></div><div class="ttdeci">void AttackStart(Unit *) override</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.cpp:206</div></div>
+<div class="ttc" id="astruct_spawn_spells_html_a108dee679b1f5d9fb8351f7b4b4f3a56"><div class="ttname"><a href="../../d4/d57/struct_spawn_spells.html#a108dee679b1f5d9fb8351f7b4b4f3a56">SpawnSpells::Timer2</a></div><div class="ttdeci">uint32 Timer2</div><div class="ttdef"><b>Definition:</b> zone_silithus.cpp:284</div></div>
+<div class="ttc" id="astruct_spawn_spells_html_a9a35c148286e88f48b174be8b74fc5d0"><div class="ttname"><a href="../../d4/d57/struct_spawn_spells.html#a9a35c148286e88f48b174be8b74fc5d0">SpawnSpells::Timer1</a></div><div class="ttdeci">uint32 Timer1</div><div class="ttdef"><b>Definition:</b> zone_silithus.cpp:284</div></div>
+<div class="ttc" id="astructnpc__qiraj__war__spawn_1_1npc__qiraj__war__spawn_a_i_html_a301971cf821e68e6be3223d4076f8b49"><div class="ttname"><a href="../../d6/d8e/structnpc__qiraj__war__spawn_1_1npc__qiraj__war__spawn_a_i.html#a301971cf821e68e6be3223d4076f8b49">npc_qiraj_war_spawn::npc_qiraj_war_spawnAI::SpellTimer4</a></div><div class="ttdeci">uint32 SpellTimer4</div><div class="ttdef"><b>Definition:</b> zone_silithus.cpp:647</div></div>
+<div class="ttc" id="astructnpc__qiraj__war__spawn_1_1npc__qiraj__war__spawn_a_i_html_a8979a90473c62aad604857d92574e5f1"><div class="ttname"><a href="../../d6/d8e/structnpc__qiraj__war__spawn_1_1npc__qiraj__war__spawn_a_i.html#a8979a90473c62aad604857d92574e5f1">npc_qiraj_war_spawn::npc_qiraj_war_spawnAI::SpellTimer1</a></div><div class="ttdeci">uint32 SpellTimer1</div><div class="ttdef"><b>Definition:</b> zone_silithus.cpp:647</div></div>
+<div class="ttc" id="astructnpc__qiraj__war__spawn_1_1npc__qiraj__war__spawn_a_i_html_a91cb2356a92ef987bd1ba6d31b560ec1"><div class="ttname"><a href="../../d6/d8e/structnpc__qiraj__war__spawn_1_1npc__qiraj__war__spawn_a_i.html#a91cb2356a92ef987bd1ba6d31b560ec1">npc_qiraj_war_spawn::npc_qiraj_war_spawnAI::SpellTimer2</a></div><div class="ttdeci">uint32 SpellTimer2</div><div class="ttdef"><b>Definition:</b> zone_silithus.cpp:647</div></div>
+<div class="ttc" id="astructnpc__qiraj__war__spawn_1_1npc__qiraj__war__spawn_a_i_html_aeea20bb2f78ece03df38a3e9aa5d8b59"><div class="ttname"><a href="../../d6/d8e/structnpc__qiraj__war__spawn_1_1npc__qiraj__war__spawn_a_i.html#aeea20bb2f78ece03df38a3e9aa5d8b59">npc_qiraj_war_spawn::npc_qiraj_war_spawnAI::SpellTimer3</a></div><div class="ttdeci">uint32 SpellTimer3</div><div class="ttdef"><b>Definition:</b> zone_silithus.cpp:647</div></div>
+<div class="ttc" id="azone__silithus_8cpp_html_af5b8990a489280bda89e738cb3648330"><div class="ttname"><a href="../../d3/d9d/zone__silithus_8cpp.html#af5b8990a489280bda89e738cb3648330">SpawnCast</a></div><div class="ttdeci">static SpawnSpells SpawnCast[4]</div><div class="ttdef"><b>Definition:</b> zone_silithus.cpp:287</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -758,7 +884,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Kalimdor/<a class="el" href="../../d3/d9d/zone__silithus_8cpp.html">zone_silithus.cpp</a></li>
+<li><a class="el" href="../../">zone_silithus.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -766,7 +892,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d7/df4/classnpc__qiraj__war__spawn.html">npc_qiraj_war_spawn</a></li><li class="navelem"><a class="el" href="../../d6/d8e/structnpc__qiraj__war__spawn_1_1npc__qiraj__war__spawn_a_i.html">npc_qiraj_war_spawnAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:53 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:09 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

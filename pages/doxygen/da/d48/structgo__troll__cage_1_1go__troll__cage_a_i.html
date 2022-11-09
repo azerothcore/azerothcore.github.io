@@ -196,7 +196,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a22a51a980875ccae8a285d7804967747 inherit pro_attribs_class_game_object_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/dd1/class_game_object.html">GameObject</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db8/class_game_object_a_i.html#a22a51a980875ccae8a285d7804967747">me</a></td></tr>
 <tr class="separator:a22a51a980875ccae8a285d7804967747 inherit pro_attribs_class_game_object_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ae742afdb7a37d64bb852b7ecd076d007" name="ae742afdb7a37d64bb852b7ecd076d007"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae742afdb7a37d64bb852b7ecd076d007">&#9670;&#160;</a></span>go_troll_cageAI()</h2>
 
@@ -220,7 +221,11 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  251</span>: <a class="code hl_class" href="../../d7/db8/class_game_object_a_i.html">GameObjectAI</a>(go), <a class="code hl_variable" href="../../da/d48/structgo__troll__cage_1_1go__troll__cage_a_i.html#ad5d736dd6cbe7a23d03f21004cae530d">instance</a>(go-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">GetInstanceScript</a>()) { }</div>
+<div class="ttc" id="aclass_game_object_a_i_html"><div class="ttname"><a href="../../d7/db8/class_game_object_a_i.html">GameObjectAI</a></div><div class="ttdef"><b>Definition:</b> GameObjectAI.h:33</div></div>
+<div class="ttc" id="aclass_world_object_html_a29762f86d0726e4d229df51281b9d710"><div class="ttname"><a href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">WorldObject::GetInstanceScript</a></div><div class="ttdeci">InstanceScript * GetInstanceScript() const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1192</div></div>
+<div class="ttc" id="astructgo__troll__cage_1_1go__troll__cage_a_i_html_ad5d736dd6cbe7a23d03f21004cae530d"><div class="ttname"><a href="../../da/d48/structgo__troll__cage_1_1go__troll__cage_a_i.html#ad5d736dd6cbe7a23d03f21004cae530d">go_troll_cage::go_troll_cageAI::instance</a></div><div class="ttdeci">InstanceScript * instance</div><div class="ttdef"><b>Definition:</b> zulfarrak.cpp:253</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -259,7 +264,32 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d7/db8/class_game_object_a_i.html#a7d26ef498d0e88030dde9543da9c80f5">GameObjectAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  256</span>        {</div>
+<div class="line"><span class="lineno">  257</span>            <span class="keywordflow">if</span> (reportUse)</div>
+<div class="line"><span class="lineno">  258</span>            {</div>
+<div class="line"><span class="lineno">  259</span>                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  260</span>            }</div>
+<div class="line"><span class="lineno">  261</span> </div>
+<div class="line"><span class="lineno">  262</span>            <a class="code hl_variable" href="../../da/d48/structgo__troll__cage_1_1go__troll__cage_a_i.html#ad5d736dd6cbe7a23d03f21004cae530d">instance</a>-&gt;<a class="code hl_function" href="../../df/dad/class_zone_script.html#a949e67ea24c7e4b70a20806952735576">SetData</a>(<a class="code hl_enumvalue" href="../../dd/dcb/zulfarrak_8h.html#a66cc3be5310a2efbacb38d2398d8af24ab1d90dc5c239d55044f1bed8e5e823e3">DATA_PYRAMID</a>, <a class="code hl_enumvalue" href="../../dd/dcb/zulfarrak_8h.html#a8774900db93cf3aa38b2e231417d6cc3a733f4b4c341a7c12cea4da96f394e238">PYRAMID_CAGES_OPEN</a>);</div>
+<div class="line"><span class="lineno">  263</span> </div>
+<div class="line"><span class="lineno">  264</span>            <span class="comment">//set bly &amp; co to aggressive &amp; start moving to top of stairs</span></div>
+<div class="line"><span class="lineno">  265</span>            <a class="code hl_function" href="../../da/d48/structgo__troll__cage_1_1go__troll__cage_a_i.html#a6bfb77ec97367d8704885acfef801b74">initBlyCrewMember</a>(<a class="code hl_enumvalue" href="../../dd/dcb/zulfarrak_8h.html#ab6a75cae3d5218b7c02408d5c4fb4b81aeeeaf82fbf41331373955f22de91c48d">NPC_BLY</a>, 1884.99f, 1263, 41.52f);</div>
+<div class="line"><span class="lineno">  266</span>            <a class="code hl_function" href="../../da/d48/structgo__troll__cage_1_1go__troll__cage_a_i.html#a6bfb77ec97367d8704885acfef801b74">initBlyCrewMember</a>(<a class="code hl_enumvalue" href="../../dd/dcb/zulfarrak_8h.html#ab6a75cae3d5218b7c02408d5c4fb4b81af7eec9c0500aedfefe9bbbbaeb5d73b8">NPC_RAVEN</a>, 1882.5f, 1263, 41.52f);</div>
+<div class="line"><span class="lineno">  267</span>            <a class="code hl_function" href="../../da/d48/structgo__troll__cage_1_1go__troll__cage_a_i.html#a6bfb77ec97367d8704885acfef801b74">initBlyCrewMember</a>(<a class="code hl_enumvalue" href="../../dd/dcb/zulfarrak_8h.html#ab6a75cae3d5218b7c02408d5c4fb4b81add85ada339b5a0d2a412756a1032799b">NPC_ORO</a>, 1886.47f, 1270.68f, 41.68f);</div>
+<div class="line"><span class="lineno">  268</span>            <a class="code hl_function" href="../../da/d48/structgo__troll__cage_1_1go__troll__cage_a_i.html#a6bfb77ec97367d8704885acfef801b74">initBlyCrewMember</a>(<a class="code hl_enumvalue" href="../../dd/dcb/zulfarrak_8h.html#ab6a75cae3d5218b7c02408d5c4fb4b81a3a660c0cbddbbd8650c9632e52d7b178">NPC_WEEGLI</a>, 1890, 1263, 41.52f);</div>
+<div class="line"><span class="lineno">  269</span>            <a class="code hl_function" href="../../da/d48/structgo__troll__cage_1_1go__troll__cage_a_i.html#a6bfb77ec97367d8704885acfef801b74">initBlyCrewMember</a>(<a class="code hl_enumvalue" href="../../dd/dcb/zulfarrak_8h.html#ab6a75cae3d5218b7c02408d5c4fb4b81ae2ffa4447246d4d51f2339edf2164b7a">NPC_MURTA</a>, 1891.19f, 1272.03f, 41.60f);</div>
+<div class="line"><span class="lineno">  270</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  271</span>        }</div>
+<div class="ttc" id="aclass_zone_script_html_a949e67ea24c7e4b70a20806952735576"><div class="ttname"><a href="../../df/dad/class_zone_script.html#a949e67ea24c7e4b70a20806952735576">ZoneScript::SetData</a></div><div class="ttdeci">virtual void SetData(uint32, uint32)</div><div class="ttdef"><b>Definition:</b> ZoneScript.h:53</div></div>
+<div class="ttc" id="astructgo__troll__cage_1_1go__troll__cage_a_i_html_a6bfb77ec97367d8704885acfef801b74"><div class="ttname"><a href="../../da/d48/structgo__troll__cage_1_1go__troll__cage_a_i.html#a6bfb77ec97367d8704885acfef801b74">go_troll_cage::go_troll_cageAI::initBlyCrewMember</a></div><div class="ttdeci">void initBlyCrewMember(uint32 entry, float x, float y, float z)</div><div class="ttdef"><b>Definition:</b> zulfarrak.cpp:274</div></div>
+<div class="ttc" id="azulfarrak_8h_html_a66cc3be5310a2efbacb38d2398d8af24ab1d90dc5c239d55044f1bed8e5e823e3"><div class="ttname"><a href="../../dd/dcb/zulfarrak_8h.html#a66cc3be5310a2efbacb38d2398d8af24ab1d90dc5c239d55044f1bed8e5e823e3">DATA_PYRAMID</a></div><div class="ttdeci">@ DATA_PYRAMID</div><div class="ttdef"><b>Definition:</b> zulfarrak.h:51</div></div>
+<div class="ttc" id="azulfarrak_8h_html_a8774900db93cf3aa38b2e231417d6cc3a733f4b4c341a7c12cea4da96f394e238"><div class="ttname"><a href="../../dd/dcb/zulfarrak_8h.html#a8774900db93cf3aa38b2e231417d6cc3a733f4b4c341a7c12cea4da96f394e238">PYRAMID_CAGES_OPEN</a></div><div class="ttdeci">@ PYRAMID_CAGES_OPEN</div><div class="ttdef"><b>Definition:</b> zulfarrak.h:58</div></div>
+<div class="ttc" id="azulfarrak_8h_html_ab6a75cae3d5218b7c02408d5c4fb4b81a3a660c0cbddbbd8650c9632e52d7b178"><div class="ttname"><a href="../../dd/dcb/zulfarrak_8h.html#ab6a75cae3d5218b7c02408d5c4fb4b81a3a660c0cbddbbd8650c9632e52d7b178">NPC_WEEGLI</a></div><div class="ttdeci">@ NPC_WEEGLI</div><div class="ttdef"><b>Definition:</b> zulfarrak.h:40</div></div>
+<div class="ttc" id="azulfarrak_8h_html_ab6a75cae3d5218b7c02408d5c4fb4b81add85ada339b5a0d2a412756a1032799b"><div class="ttname"><a href="../../dd/dcb/zulfarrak_8h.html#ab6a75cae3d5218b7c02408d5c4fb4b81add85ada339b5a0d2a412756a1032799b">NPC_ORO</a></div><div class="ttdeci">@ NPC_ORO</div><div class="ttdef"><b>Definition:</b> zulfarrak.h:39</div></div>
+<div class="ttc" id="azulfarrak_8h_html_ab6a75cae3d5218b7c02408d5c4fb4b81ae2ffa4447246d4d51f2339edf2164b7a"><div class="ttname"><a href="../../dd/dcb/zulfarrak_8h.html#ab6a75cae3d5218b7c02408d5c4fb4b81ae2ffa4447246d4d51f2339edf2164b7a">NPC_MURTA</a></div><div class="ttdeci">@ NPC_MURTA</div><div class="ttdef"><b>Definition:</b> zulfarrak.h:41</div></div>
+<div class="ttc" id="azulfarrak_8h_html_ab6a75cae3d5218b7c02408d5c4fb4b81aeeeaf82fbf41331373955f22de91c48d"><div class="ttname"><a href="../../dd/dcb/zulfarrak_8h.html#ab6a75cae3d5218b7c02408d5c4fb4b81aeeeaf82fbf41331373955f22de91c48d">NPC_BLY</a></div><div class="ttdeci">@ NPC_BLY</div><div class="ttdef"><b>Definition:</b> zulfarrak.h:37</div></div>
+<div class="ttc" id="azulfarrak_8h_html_ab6a75cae3d5218b7c02408d5c4fb4b81af7eec9c0500aedfefe9bbbbaeb5d73b8"><div class="ttname"><a href="../../dd/dcb/zulfarrak_8h.html#ab6a75cae3d5218b7c02408d5c4fb4b81af7eec9c0500aedfefe9bbbbaeb5d73b8">NPC_RAVEN</a></div><div class="ttdeci">@ NPC_RAVEN</div><div class="ttdef"><b>Definition:</b> zulfarrak.h:38</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a6bfb77ec97367d8704885acfef801b74" name="a6bfb77ec97367d8704885acfef801b74"></a>
@@ -307,7 +337,34 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  275</span>        {</div>
+<div class="line"><span class="lineno">  276</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* crew = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a>(*<a class="code hl_variable" href="../../d7/db8/class_game_object_a_i.html#a22a51a980875ccae8a285d7804967747">me</a>, <a class="code hl_variable" href="../../da/d48/structgo__troll__cage_1_1go__troll__cage_a_i.html#ad5d736dd6cbe7a23d03f21004cae530d">instance</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_instance_script.html#a3be7f24ca31c9433aca546e1087109b4">GetGuidData</a>(entry)))</div>
+<div class="line"><span class="lineno">  277</span>            {</div>
+<div class="line"><span class="lineno">  278</span>                crew-&gt;SetReactState(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37ab0d46448581f9ac821fb076f185661fc">REACT_AGGRESSIVE</a>);</div>
+<div class="line"><span class="lineno">  279</span>                crew-&gt;SetWalk(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  280</span>                crew-&gt;SetHomePosition(x, y, z, 4.78f);</div>
+<div class="line"><span class="lineno">  281</span>                crew-&gt;GetMotionMaster()-&gt;MovePoint(1, { x, y, z, 4.78f });</div>
+<div class="line"><span class="lineno">  282</span>                crew-&gt;SetFaction(<a class="code hl_enumvalue" href="../../d5/d9a/_script_system_8h.html#a3c2424ea523bc5d5e44a7fa49a67f476aed8fe9002c1d3c315038f7df31c6f7ae">FACTION_ESCORT_N_NEUTRAL_ACTIVE</a>);</div>
+<div class="line"><span class="lineno">  283</span> </div>
+<div class="line"><span class="lineno">  284</span>                <span class="keywordflow">switch</span> (entry)</div>
+<div class="line"><span class="lineno">  285</span>                {</div>
+<div class="line"><span class="lineno">  286</span>                    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dd/dcb/zulfarrak_8h.html#ab6a75cae3d5218b7c02408d5c4fb4b81aeeeaf82fbf41331373955f22de91c48d">NPC_BLY</a>:</div>
+<div class="line"><span class="lineno">  287</span>                    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dd/dcb/zulfarrak_8h.html#ab6a75cae3d5218b7c02408d5c4fb4b81a3a660c0cbddbbd8650c9632e52d7b178">NPC_WEEGLI</a>:</div>
+<div class="line"><span class="lineno">  288</span>                        crew-&gt;RemoveNpcFlag(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ab054baf099d873bce22a0e84ae1090e2a7d2d4d09dd0b5ba2b977f74bf55a3fd0">UNIT_NPC_FLAG_GOSSIP</a>);</div>
+<div class="line"><span class="lineno">  289</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  290</span>                    <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  291</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  292</span>                }</div>
+<div class="line"><span class="lineno">  293</span>            }</div>
+<div class="line"><span class="lineno">  294</span>        }</div>
+<div class="ttc" id="a_script_system_8h_html_a3c2424ea523bc5d5e44a7fa49a67f476aed8fe9002c1d3c315038f7df31c6f7ae"><div class="ttname"><a href="../../d5/d9a/_script_system_8h.html#a3c2424ea523bc5d5e44a7fa49a67f476aed8fe9002c1d3c315038f7df31c6f7ae">FACTION_ESCORT_N_NEUTRAL_ACTIVE</a></div><div class="ttdeci">@ FACTION_ESCORT_N_NEUTRAL_ACTIVE</div><div class="ttdef"><b>Definition:</b> ScriptSystem.h:37</div></div>
+<div class="ttc" id="a_unit_8h_html_a5e9099d162ad74df5a3e3f5c0f056c37ab0d46448581f9ac821fb076f185661fc"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#a5e9099d162ad74df5a3e3f5c0f056c37ab0d46448581f9ac821fb076f185661fc">REACT_AGGRESSIVE</a></div><div class="ttdeci">@ REACT_AGGRESSIVE</div><div class="ttdef"><b>Definition:</b> Unit.h:1025</div></div>
+<div class="ttc" id="a_unit_8h_html_ab054baf099d873bce22a0e84ae1090e2a7d2d4d09dd0b5ba2b977f74bf55a3fd0"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#ab054baf099d873bce22a0e84ae1090e2a7d2d4d09dd0b5ba2b977f74bf55a3fd0">UNIT_NPC_FLAG_GOSSIP</a></div><div class="ttdeci">@ UNIT_NPC_FLAG_GOSSIP</div><div class="ttdef"><b>Definition:</b> Unit.h:516</div></div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_game_object_a_i_html_a22a51a980875ccae8a285d7804967747"><div class="ttname"><a href="../../d7/db8/class_game_object_a_i.html#a22a51a980875ccae8a285d7804967747">GameObjectAI::me</a></div><div class="ttdeci">GameObject *const me</div><div class="ttdef"><b>Definition:</b> GameObjectAI.h:35</div></div>
+<div class="ttc" id="aclass_instance_script_html_a3be7f24ca31c9433aca546e1087109b4"><div class="ttname"><a href="../../d8/d83/class_instance_script.html#a3be7f24ca31c9433aca546e1087109b4">InstanceScript::GetGuidData</a></div><div class="ttdeci">ObjectGuid GetGuidData(uint32 type) const override</div><div class="ttdef"><b>Definition:</b> InstanceScript.cpp:93</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_ae42e503fe79bbeaea1aaa665418c43f8"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a></div><div class="ttdeci">Creature * GetCreature(WorldObject const &amp;u, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:215</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -326,7 +383,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Kalimdor/ZulFarrak/<a class="el" href="../../d1/d38/zulfarrak_8cpp.html">zulfarrak.cpp</a></li>
+<li><a class="el" href="../../">zulfarrak.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -334,7 +391,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d4/df5/classgo__troll__cage.html">go_troll_cage</a></li><li class="navelem"><a class="el" href="../../da/d48/structgo__troll__cage_1_1go__troll__cage_a_i.html">go_troll_cageAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:45 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:59 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

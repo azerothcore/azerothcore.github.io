@@ -125,7 +125,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:af9089e566905b885887a5714ad5b0741"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/df8/class_abomination_despawner.html#af9089e566905b885887a5714ad5b0741">_owner</a></td></tr>
 <tr class="separator:af9089e566905b885887a5714ad5b0741"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a3bbf8c5d4e42569ffe993a3c3b8ff95e" name="a3bbf8c5d4e42569ffe993a3c3b8ff95e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3bbf8c5d4e42569ffe993a3c3b8ff95e">&#9670;&#160;</a></span>AbominationDespawner()</h2>
 
@@ -149,7 +150,9 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  154</span>: <a class="code hl_variable" href="../../d7/df8/class_abomination_despawner.html#af9089e566905b885887a5714ad5b0741">_owner</a>(owner) { }</div>
+<div class="ttc" id="aclass_abomination_despawner_html_af9089e566905b885887a5714ad5b0741"><div class="ttname"><a href="../../d7/df8/class_abomination_despawner.html#af9089e566905b885887a5714ad5b0741">AbominationDespawner::_owner</a></div><div class="ttdeci">Unit * _owner</div><div class="ttdef"><b>Definition:</b> boss_professor_putricide.cpp:178</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -176,7 +179,31 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  157</span>    {</div>
+<div class="line"><span class="lineno">  158</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* summon = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#a02c2dfb59db7d7e2501dcc9a4f9baf07">ObjectAccessor::GetUnit</a>(*<a class="code hl_variable" href="../../d7/df8/class_abomination_despawner.html#af9089e566905b885887a5714ad5b0741">_owner</a>, guid))</div>
+<div class="line"><span class="lineno">  159</span>        {</div>
+<div class="line"><span class="lineno">  160</span>            <span class="keywordflow">if</span> (summon-&gt;GetEntry() == <a class="code hl_enumvalue" href="../../d9/d6a/icecrown__citadel_8h.html#a23860b8d9499fb400f8921261b19efd2ac5f89d4f904ce7f99a3be51a0bd8413c">NPC_MUTATED_ABOMINATION_10</a> || summon-&gt;GetEntry() == <a class="code hl_enumvalue" href="../../d9/d6a/icecrown__citadel_8h.html#a23860b8d9499fb400f8921261b19efd2a343129309b0c8eeb0a8a0577d1cef104">NPC_MUTATED_ABOMINATION_25</a>)</div>
+<div class="line"><span class="lineno">  161</span>            {</div>
+<div class="line"><span class="lineno">  162</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../dd/df6/class_vehicle.html">Vehicle</a>* veh = summon-&gt;GetVehicleKit())</div>
+<div class="line"><span class="lineno">  163</span>                    veh-&gt;RemoveAllPassengers(); <span class="comment">// also despawns the vehicle</span></div>
+<div class="line"><span class="lineno">  164</span> </div>
+<div class="line"><span class="lineno">  165</span>                <span class="comment">// Found unit is Mutated Abomination, remove it</span></div>
+<div class="line"><span class="lineno">  166</span>                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  167</span>            }</div>
+<div class="line"><span class="lineno">  168</span> </div>
+<div class="line"><span class="lineno">  169</span>            <span class="comment">// Found unit is not Mutated Abomintaion, leave it</span></div>
+<div class="line"><span class="lineno">  170</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  171</span>        }</div>
+<div class="line"><span class="lineno">  172</span> </div>
+<div class="line"><span class="lineno">  173</span>        <span class="comment">// No unit found, remove from SummonList</span></div>
+<div class="line"><span class="lineno">  174</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  175</span>    }</div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_vehicle_html"><div class="ttname"><a href="../../dd/df6/class_vehicle.html">Vehicle</a></div><div class="ttdef"><b>Definition:</b> Vehicle.h:30</div></div>
+<div class="ttc" id="aicecrown__citadel_8h_html_a23860b8d9499fb400f8921261b19efd2a343129309b0c8eeb0a8a0577d1cef104"><div class="ttname"><a href="../../d9/d6a/icecrown__citadel_8h.html#a23860b8d9499fb400f8921261b19efd2a343129309b0c8eeb0a8a0577d1cef104">NPC_MUTATED_ABOMINATION_25</a></div><div class="ttdeci">@ NPC_MUTATED_ABOMINATION_25</div><div class="ttdef"><b>Definition:</b> icecrown_citadel.h:267</div></div>
+<div class="ttc" id="aicecrown__citadel_8h_html_a23860b8d9499fb400f8921261b19efd2ac5f89d4f904ce7f99a3be51a0bd8413c"><div class="ttname"><a href="../../d9/d6a/icecrown__citadel_8h.html#a23860b8d9499fb400f8921261b19efd2ac5f89d4f904ce7f99a3be51a0bd8413c">NPC_MUTATED_ABOMINATION_10</a></div><div class="ttdeci">@ NPC_MUTATED_ABOMINATION_10</div><div class="ttdef"><b>Definition:</b> icecrown_citadel.h:266</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_a02c2dfb59db7d7e2501dcc9a4f9baf07"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#a02c2dfb59db7d7e2501dcc9a4f9baf07">ObjectAccessor::GetUnit</a></div><div class="ttdeci">Unit * GetUnit(WorldObject const &amp;, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:204</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -203,7 +230,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/IcecrownCitadel/<a class="el" href="../../d8/ddf/boss__professor__putricide_8cpp.html">boss_professor_putricide.cpp</a></li>
+<li><a class="el" href="../../">boss_professor_putricide.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -211,7 +238,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d7/df8/class_abomination_despawner.html">AbominationDespawner</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:36 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:47 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

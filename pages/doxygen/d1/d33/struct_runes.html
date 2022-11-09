@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('d1/d33/struct_runes.html','../../'); i
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d1/d39/_player_8h_source.html">Player.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">Player.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -129,7 +129,8 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a88c702716eb3032c20ae5ed74922d923"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d39/_player_8h.html#a2377260993cd4a14aaab6f5771385e11">RuneType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d33/struct_runes.html#a88c702716eb3032c20ae5ed74922d923">lastUsedRune</a></td></tr>
 <tr class="separator:a88c702716eb3032c20ae5ed74922d923"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a920d32d04ec7e872680a89b0c0a9b0ef" name="a920d32d04ec7e872680a89b0c0a9b0ef"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a920d32d04ec7e872680a89b0c0a9b0ef">&#9670;&#160;</a></span>SetRuneState()</h2>
 
@@ -163,7 +164,14 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  433</span>    {</div>
+<div class="line"><span class="lineno">  434</span>        <span class="keywordflow">if</span> (set)</div>
+<div class="line"><span class="lineno">  435</span>            <a class="code hl_variable" href="../../d1/d33/struct_runes.html#ae58297e0766578b234604a97641501a1">runeState</a> |= (1 &lt;&lt; index);                      <span class="comment">// usable</span></div>
+<div class="line"><span class="lineno">  436</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  437</span>            <a class="code hl_variable" href="../../d1/d33/struct_runes.html#ae58297e0766578b234604a97641501a1">runeState</a> &amp;= ~(1 &lt;&lt; index);                     <span class="comment">// on cooldown</span></div>
+<div class="line"><span class="lineno">  438</span>    }</div>
+<div class="ttc" id="astruct_runes_html_ae58297e0766578b234604a97641501a1"><div class="ttname"><a href="../../d1/d33/struct_runes.html#ae58297e0766578b234604a97641501a1">Runes::runeState</a></div><div class="ttdeci">uint8 runeState</div><div class="ttdef"><b>Definition:</b> Player.h:429</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -210,7 +218,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Entities/Player/<a class="el" href="../../d1/d39/_player_8h_source.html">Player.h</a></li>
+<li><a class="el" href="../../">Player.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -218,7 +226,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d33/struct_runes.html">Runes</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:57 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:14 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

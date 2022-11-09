@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('d0/dbe/class_flagged_values_array32.ht
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../df/d30/_object_8h_source.html">Object.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">Object.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -141,7 +141,9 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:abab31b77efb46fa796275c36964eab91"><td class="memItemLeft" align="right" valign="top">T_FLAGS&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dbe/class_flagged_values_array32.html#abab31b77efb46fa796275c36964eab91">m_flags</a></td></tr>
 <tr class="separator:abab31b77efb46fa796275c36964eab91"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;class T_VALUES, class T_FLAGS, class FLAG_TYPE, <a class="el" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> ARRAY_SIZE&gt;<br />
+class FlaggedValuesArray32&lt; T_VALUES, T_FLAGS, FLAG_TYPE, ARRAY_SIZE &gt;</div></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a0680f7b67001783f20d89989a49cbead" name="a0680f7b67001783f20d89989a49cbead"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0680f7b67001783f20d89989a49cbead">&#9670;&#160;</a></span>FlaggedValuesArray32()</h2>
 
@@ -166,7 +168,13 @@ template&lt;class T_VALUES , class T_FLAGS , class FLAG_TYPE , <a class="el" hre
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  349</span>    {</div>
+<div class="line"><span class="lineno">  350</span>        memset(&amp;<a class="code hl_variable" href="../../d0/dbe/class_flagged_values_array32.html#aabd025f47ad522e574f603eb559500f0">m_values</a>, 0x00, <span class="keyword">sizeof</span>(T_VALUES) * ARRAY_SIZE);</div>
+<div class="line"><span class="lineno">  351</span>        <a class="code hl_variable" href="../../d0/dbe/class_flagged_values_array32.html#abab31b77efb46fa796275c36964eab91">m_flags</a> = 0;</div>
+<div class="line"><span class="lineno">  352</span>    }</div>
+<div class="ttc" id="aclass_flagged_values_array32_html_aabd025f47ad522e574f603eb559500f0"><div class="ttname"><a href="../../d0/dbe/class_flagged_values_array32.html#aabd025f47ad522e574f603eb559500f0">FlaggedValuesArray32::m_values</a></div><div class="ttdeci">T_VALUES m_values[ARRAY_SIZE]</div><div class="ttdef"><b>Definition:</b> Object.h:364</div></div>
+<div class="ttc" id="aclass_flagged_values_array32_html_abab31b77efb46fa796275c36964eab91"><div class="ttname"><a href="../../d0/dbe/class_flagged_values_array32.html#abab31b77efb46fa796275c36964eab91">FlaggedValuesArray32::m_flags</a></div><div class="ttdeci">T_FLAGS m_flags</div><div class="ttdef"><b>Definition:</b> Object.h:365</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -195,7 +203,8 @@ template&lt;class T_VALUES , class T_FLAGS , class FLAG_TYPE , <a class="el" hre
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  356</span>{ <a class="code hl_variable" href="../../d0/dbe/class_flagged_values_array32.html#abab31b77efb46fa796275c36964eab91">m_flags</a> |= (1 &lt;&lt; flag); }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aacca1261b2a22525e5fd40e5f479aa06" name="aacca1261b2a22525e5fd40e5f479aa06"></a>
@@ -233,7 +242,8 @@ template&lt;class T_VALUES , class T_FLAGS , class FLAG_TYPE , <a class="el" hre
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  361</span>{ <a class="code hl_variable" href="../../d0/dbe/class_flagged_values_array32.html#aabd025f47ad522e574f603eb559500f0">m_values</a>[flag] += value; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a3a674b2a7b8d5874f7210372b3e92123" name="a3a674b2a7b8d5874f7210372b3e92123"></a>
@@ -261,7 +271,8 @@ template&lt;class T_VALUES , class T_FLAGS , class FLAG_TYPE , <a class="el" hre
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  357</span>{ <a class="code hl_variable" href="../../d0/dbe/class_flagged_values_array32.html#abab31b77efb46fa796275c36964eab91">m_flags</a> &amp;= ~(1 &lt;&lt; flag); }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a314a315eb1c1a76116fe3a31f7be9c68" name="a314a315eb1c1a76116fe3a31f7be9c68"></a>
@@ -288,7 +299,8 @@ template&lt;class T_VALUES , class T_FLAGS , class FLAG_TYPE , <a class="el" hre
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  354</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d0/dbe/class_flagged_values_array32.html#abab31b77efb46fa796275c36964eab91">m_flags</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a87e5949bc041f15449331aceb277e8c4" name="a87e5949bc041f15449331aceb277e8c4"></a>
@@ -316,7 +328,8 @@ template&lt;class T_VALUES , class T_FLAGS , class FLAG_TYPE , <a class="el" hre
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  359</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d0/dbe/class_flagged_values_array32.html#aabd025f47ad522e574f603eb559500f0">m_values</a>[flag]; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a0ea5d977caef5152c71c515259a91f06" name="a0ea5d977caef5152c71c515259a91f06"></a>
@@ -344,7 +357,8 @@ template&lt;class T_VALUES , class T_FLAGS , class FLAG_TYPE , <a class="el" hre
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  355</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d0/dbe/class_flagged_values_array32.html#abab31b77efb46fa796275c36964eab91">m_flags</a> &amp; (1 &lt;&lt; flag); }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad0d385589befe52103f077723fa2463c" name="ad0d385589befe52103f077723fa2463c"></a>
@@ -382,7 +396,8 @@ template&lt;class T_VALUES , class T_FLAGS , class FLAG_TYPE , <a class="el" hre
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  360</span>{ <a class="code hl_variable" href="../../d0/dbe/class_flagged_values_array32.html#aabd025f47ad522e574f603eb559500f0">m_values</a>[flag] = value; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -435,7 +450,7 @@ template&lt;class T_VALUES , class T_FLAGS , class FLAG_TYPE , <a class="el" hre
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Entities/Object/<a class="el" href="../../df/d30/_object_8h_source.html">Object.h</a></li>
+<li><a class="el" href="../../">Object.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -443,7 +458,7 @@ template&lt;class T_VALUES , class T_FLAGS , class FLAG_TYPE , <a class="el" hre
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d0/dbe/class_flagged_values_array32.html">FlaggedValuesArray32</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:45 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:58 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

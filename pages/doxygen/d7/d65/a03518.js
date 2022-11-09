@@ -1,0 +1,48 @@
+var a03518 =
+[
+    [ "NexusScriptName", "d7/d65/a03518.html#afdcad7f9a20767953bc82e6b885d1bee", null ],
+    [ "eTypes", "d7/d65/a03518.html#a31365a35c315c6cb485bcd31f5ba77fd", [
+      [ "DATA_MAGUS_TELESTRA_EVENT", "d7/d65/a03518.html#a31365a35c315c6cb485bcd31f5ba77fda097adced7c95a2c9718c2c785bee7f83", null ],
+      [ "DATA_ANOMALUS_EVENT", "d7/d65/a03518.html#a31365a35c315c6cb485bcd31f5ba77fdaaf86ee46d11b318ef5caffe5d123342a", null ],
+      [ "DATA_ORMOROK_EVENT", "d7/d65/a03518.html#a31365a35c315c6cb485bcd31f5ba77fda521150b4f00d388d28870138ef89029a", null ],
+      [ "DATA_KERISTRASZA_EVENT", "d7/d65/a03518.html#a31365a35c315c6cb485bcd31f5ba77fdacc731df49caf259ade6ae981d7b6fffa", null ],
+      [ "DATA_COMMANDER_EVENT", "d7/d65/a03518.html#a31365a35c315c6cb485bcd31f5ba77fdaeec4cc47ddf1f8b45982ab9b09609204", null ],
+      [ "DATA_TELESTRA_ORB", "d7/d65/a03518.html#a31365a35c315c6cb485bcd31f5ba77fda6070c92aa13cfc41ea707f2e4f317c49", null ],
+      [ "DATA_ANOMALUS_ORB", "d7/d65/a03518.html#a31365a35c315c6cb485bcd31f5ba77fda7ca67e2df8f6c5ba3b64a58ffe838f79", null ],
+      [ "DATA_ORMOROK_ORB", "d7/d65/a03518.html#a31365a35c315c6cb485bcd31f5ba77fda04925ab93b3def016402fa3d6c763cb8", null ],
+      [ "MAX_ENCOUNTERS", "d7/d65/a03518.html#a31365a35c315c6cb485bcd31f5ba77fda9cfa5bdc17e1d5a590d300b530b36a25", null ],
+      [ "DATA_IKISSDOOREVENT", "d2/db0/a03827.html#a31365a35c315c6cb485bcd31f5ba77fda4254e5b20964fa4c45d7bed553c3cb95", null ],
+      [ "TYPE_ANZU_ENCOUNTER", "d2/db0/a03827.html#a31365a35c315c6cb485bcd31f5ba77fda7184f794bd903d92cba3eb6fa7297784", null ]
+    ] ],
+    [ "Npcs", "d7/d65/a03518.html#a213e9ce155baf17b6147afe6a069d54d", [
+      [ "NPC_TM_GUARDSMAN", "d1/df2/a02990.html#a213e9ce155baf17b6147afe6a069d54da21f261d22a0cd419e2febe6c2604502e", null ],
+      [ "NPC_TM_PROTECTOR", "d1/df2/a02990.html#a213e9ce155baf17b6147afe6a069d54da78f045556089f7be512b4bc38abc558f", null ],
+      [ "NPC_TM_LOOKOUT", "d1/df2/a02990.html#a213e9ce155baf17b6147afe6a069d54daeaef87d09091ab42ae06ccc0779a3d33", null ],
+      [ "NPC_EPOCH_GUARDSMAN", "d1/df2/a02990.html#a213e9ce155baf17b6147afe6a069d54da0176066c40dff7f3997b52bf0ca3c924", null ],
+      [ "NPC_EPOCH_PROTECTOR", "d1/df2/a02990.html#a213e9ce155baf17b6147afe6a069d54da7f9ac60e98ad3912810272c0b6da151b", null ],
+      [ "NPC_EPOCH_LOOKOUT", "d1/df2/a02990.html#a213e9ce155baf17b6147afe6a069d54da2588841ed1cfe1f5a83be87bdad10c0e", null ],
+      [ "NPC_INFINITE_DEFILER", "d1/df2/a02990.html#a213e9ce155baf17b6147afe6a069d54da0fc93af30c0b1cb79a0fa8a1436aaf5b", null ],
+      [ "NPC_INFINITE_SABOTEUR", "d1/df2/a02990.html#a213e9ce155baf17b6147afe6a069d54da78a0d4e9b67f6d1602e796713d4d220e", null ],
+      [ "NPC_INFINITE_SLAYER", "d1/df2/a02990.html#a213e9ce155baf17b6147afe6a069d54dafebb39906d957efcb9f4238abe3a3f54", null ],
+      [ "NPC_WATCHER_NARJIL", "d3/d1b/a03227.html#a213e9ce155baf17b6147afe6a069d54dac6d1845d4f2671edf7f06681bfacf66f", null ],
+      [ "NPC_WATCHER_GASHRA", "d3/d1b/a03227.html#a213e9ce155baf17b6147afe6a069d54da59e8c7ae56d3d0267c69c0e2e39b5cc8", null ],
+      [ "NPC_WATCHER_SILTHIK", "d3/d1b/a03227.html#a213e9ce155baf17b6147afe6a069d54daf4f603f77d6847952388c5dce5d0de08", null ],
+      [ "NPC_WARRIOR", "d3/d1b/a03227.html#a213e9ce155baf17b6147afe6a069d54dacdb3246d728c6e467634890e653f3cda", null ],
+      [ "NPC_SKIRMISHER", "d3/d1b/a03227.html#a213e9ce155baf17b6147afe6a069d54da21dc5a50c8bbbd61c7bd647ce2b393da", null ],
+      [ "NPC_SHADOWCASTER", "d3/d1b/a03227.html#a213e9ce155baf17b6147afe6a069d54da48b15de6dc6c9a99d82d899306aed502", null ],
+      [ "NPC_ALLIANCE_RANGER", "d7/d65/a03518.html#a213e9ce155baf17b6147afe6a069d54da5e17334f80da4220f17fdc0d56c782c8", null ],
+      [ "NPC_ALLIANCE_BERSERKER", "d7/d65/a03518.html#a213e9ce155baf17b6147afe6a069d54dae4fca92f29b9412c3bf4071379b29517", null ],
+      [ "NPC_ALLIANCE_COMMANDER", "d7/d65/a03518.html#a213e9ce155baf17b6147afe6a069d54da50fefd2b15bbd1c749e83a64e0edd6ce", null ],
+      [ "NPC_ALLIANCE_CLERIC", "d7/d65/a03518.html#a213e9ce155baf17b6147afe6a069d54daebb24d597c6a19870c2729bebcd6392c", null ],
+      [ "NPC_HORDE_RANGER", "d7/d65/a03518.html#a213e9ce155baf17b6147afe6a069d54da517e1ae1820c3ab00a7ea2dff3af0857", null ],
+      [ "NPC_HORDE_BERSERKER", "d7/d65/a03518.html#a213e9ce155baf17b6147afe6a069d54dacc4ffe7b205218ccc654348ce28d4f35", null ],
+      [ "NPC_HORDE_COMMANDER", "d7/d65/a03518.html#a213e9ce155baf17b6147afe6a069d54da2f64c5a243eabc62db6af7bcd33cc958", null ],
+      [ "NPC_HORDE_CLERIC", "d7/d65/a03518.html#a213e9ce155baf17b6147afe6a069d54da58336a1a1f4d7eaddbac94a5c13c8724", null ],
+      [ "NPC_COMMANDER_STOUTBEARD", "d7/d65/a03518.html#a213e9ce155baf17b6147afe6a069d54da568a2459d3a7841412df12615c767067", null ],
+      [ "NPC_COMMANDER_KOLURG", "d7/d65/a03518.html#a213e9ce155baf17b6147afe6a069d54da0425e79c992c887c8b446fadf58d5c75", null ],
+      [ "GO_TELESTRA_SPHERE", "d7/d65/a03518.html#a213e9ce155baf17b6147afe6a069d54da089f33ffb46bc05ba1c96f5a35945ee2", null ],
+      [ "GO_ANOMALUS_SPHERE", "d7/d65/a03518.html#a213e9ce155baf17b6147afe6a069d54da5cb804bef6d740c87c8d774813209b30", null ],
+      [ "GO_ORMOROK_SPHERE", "d7/d65/a03518.html#a213e9ce155baf17b6147afe6a069d54daf5b0aa3e69e1cde75a96eea26041c666", null ]
+    ] ],
+    [ "GetNexusAI", "d7/d65/a03518.html#a467643f2454a6fc20835ae836ff759b1", null ]
+];

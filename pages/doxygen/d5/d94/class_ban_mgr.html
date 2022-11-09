@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('d5/d94/class_ban_mgr.html','../../'); 
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../dd/d30/_ban_mgr_8h_source.html">BanMgr.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">BanMgr.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -147,7 +147,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:aa495dfaab6af98c43f645acf516a5630"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d5/d94/class_ban_mgr.html">BanMgr</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d94/class_ban_mgr.html#aa495dfaab6af98c43f645acf516a5630">instance</a> ()</td></tr>
 <tr class="separator:aa495dfaab6af98c43f645acf516a5630"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="af85ceffee2ae6a143df5e36f6a004f07" name="af85ceffee2ae6a143df5e36f6a004f07"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af85ceffee2ae6a143df5e36f6a004f07">&#9670;&#160;</a></span>BanAccount()</h2>
 
@@ -190,7 +191,87 @@ Static Public Member Functions</h2></td></tr>
 <ul>
 <li>Disconnect all affected players (for IP it can be several)</li>
 </ul>
-
+<div class="fragment"><div class="line"><span class="lineno">   37</span>{</div>
+<div class="line"><span class="lineno">   38</span>    <span class="keywordflow">if</span> (AccountName.empty() || Duration.empty())</div>
+<div class="line"><span class="lineno">   39</span>        <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../dd/d30/_ban_mgr_8h.html#a4dd4670ead55e2780d09a66ab39943a7a7ec21f8f8ea6d0904423dded4b8f0dc8">BAN_SYNTAX_ERROR</a>;</div>
+<div class="line"><span class="lineno">   40</span> </div>
+<div class="line"><span class="lineno">   41</span>    <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> DurationSecs = <a class="code hl_function" href="../../db/d35/_util_8cpp.html#a6afbc7b52fa1fe844f66ffcf8230ff93">TimeStringToSecs</a>(Duration);</div>
+<div class="line"><span class="lineno">   42</span> </div>
+<div class="line"><span class="lineno">   43</span>    <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> AccountID = <a class="code hl_function" href="../../df/d1b/namespace_account_mgr.html#aa215c9a96c37b8a5d76d980ecf8de114">AccountMgr::GetId</a>(AccountName);</div>
+<div class="line"><span class="lineno">   44</span>    <span class="keywordflow">if</span> (!AccountID)</div>
+<div class="line"><span class="lineno">   45</span>        <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../dd/d30/_ban_mgr_8h.html#a4dd4670ead55e2780d09a66ab39943a7aaefc3ea320005c27d70704fb92aed7ad">BAN_NOTFOUND</a>;</div>
+<div class="line"><span class="lineno">   46</span> </div>
+<div class="line"><span class="lineno">   48</span>    <a class="code hl_typedef" href="../../db/d04/_database_env_fwd_8h.html#aa0ef7192ac59bc820849e5e21e3e08b7">LoginDatabaseTransaction</a> trans = <a class="code hl_variable" href="../../d6/d2e/_database_env_8cpp.html#a2cf25eafe7f2f73b61ccde11d55daf0c">LoginDatabase</a>.BeginTransaction();</div>
+<div class="line"><span class="lineno">   49</span> </div>
+<div class="line"><span class="lineno">   50</span>    <span class="comment">// pussywizard: check existing ban to prevent overriding by a shorter one! &gt;_&gt;</span></div>
+<div class="line"><span class="lineno">   51</span>    <a class="code hl_class" href="../../da/d37/class_prepared_statement.html">LoginDatabasePreparedStatement</a>* stmtAccountBanned = <a class="code hl_variable" href="../../d6/d2e/_database_env_8cpp.html#a2cf25eafe7f2f73b61ccde11d55daf0c">LoginDatabase</a>.GetPreparedStatement(<a class="code hl_enumvalue" href="../../d8/d1e/_login_database_8h.html#a2bc6eef17d8ecd1b7027058f5fecc9fbad22cfaa6a4905fcb6dfc4dd564bbb306">LOGIN_SEL_ACCOUNT_BANNED</a>);</div>
+<div class="line"><span class="lineno">   52</span>    stmtAccountBanned-&gt;<a class="code hl_function" href="../../dd/d6a/class_prepared_statement_base.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(0, AccountID);</div>
+<div class="line"><span class="lineno">   53</span> </div>
+<div class="line"><span class="lineno">   54</span>    <a class="code hl_typedef" href="../../db/d04/_database_env_fwd_8h.html#ac6110b8d867b5f84f677555d07037acb">PreparedQueryResult</a> banresult = <a class="code hl_variable" href="../../d6/d2e/_database_env_8cpp.html#a2cf25eafe7f2f73b61ccde11d55daf0c">LoginDatabase</a>.Query(stmtAccountBanned);</div>
+<div class="line"><span class="lineno">   55</span>    <span class="keywordflow">if</span> (banresult &amp;&amp; ((*banresult)[0].Get&lt;uint32&gt;() == (*banresult)[1].Get&lt;uint32&gt;() || ((*banresult)[1].Get&lt;uint32&gt;() &gt; <a class="code hl_function" href="../../d4/d1c/namespace_game_time.html#adbe1785d1327dedf2ac403b7cc8e99c2">GameTime::GetGameTime</a>().count() + DurationSecs &amp;&amp; DurationSecs)))</div>
+<div class="line"><span class="lineno">   56</span>        <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../dd/d30/_ban_mgr_8h.html#a4dd4670ead55e2780d09a66ab39943a7ac441589615fb2fe9c7decb985f6f0d3c">BAN_LONGER_EXISTS</a>;</div>
+<div class="line"><span class="lineno">   57</span> </div>
+<div class="line"><span class="lineno">   58</span>    <span class="comment">// make sure there is only one active ban</span></div>
+<div class="line"><span class="lineno">   59</span>    <a class="code hl_class" href="../../da/d37/class_prepared_statement.html">LoginDatabasePreparedStatement</a>* stmt = <a class="code hl_variable" href="../../d6/d2e/_database_env_8cpp.html#a2cf25eafe7f2f73b61ccde11d55daf0c">LoginDatabase</a>.GetPreparedStatement(<a class="code hl_enumvalue" href="../../d8/d1e/_login_database_8h.html#a2bc6eef17d8ecd1b7027058f5fecc9fba74ac1e9842b4804970938519b4bd2505">LOGIN_UPD_ACCOUNT_NOT_BANNED</a>);</div>
+<div class="line"><span class="lineno">   60</span>    stmt-&gt;<a class="code hl_function" href="../../dd/d6a/class_prepared_statement_base.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(0, AccountID);</div>
+<div class="line"><span class="lineno">   61</span>    trans-&gt;Append(stmt);</div>
+<div class="line"><span class="lineno">   62</span> </div>
+<div class="line"><span class="lineno">   63</span>    <span class="comment">// No SQL injection with prepared statements</span></div>
+<div class="line"><span class="lineno">   64</span>    stmt = <a class="code hl_variable" href="../../d6/d2e/_database_env_8cpp.html#a2cf25eafe7f2f73b61ccde11d55daf0c">LoginDatabase</a>.GetPreparedStatement(<a class="code hl_enumvalue" href="../../d8/d1e/_login_database_8h.html#a2bc6eef17d8ecd1b7027058f5fecc9fba0095c50c29091e57b4d3841ff4750f06">LOGIN_INS_ACCOUNT_BANNED</a>);</div>
+<div class="line"><span class="lineno">   65</span>    stmt-&gt;<a class="code hl_function" href="../../dd/d6a/class_prepared_statement_base.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(0, AccountID);</div>
+<div class="line"><span class="lineno">   66</span>    stmt-&gt;<a class="code hl_function" href="../../dd/d6a/class_prepared_statement_base.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(1, DurationSecs);</div>
+<div class="line"><span class="lineno">   67</span>    stmt-&gt;<a class="code hl_function" href="../../dd/d6a/class_prepared_statement_base.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(2, Author);</div>
+<div class="line"><span class="lineno">   68</span>    stmt-&gt;<a class="code hl_function" href="../../dd/d6a/class_prepared_statement_base.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(3, Reason);</div>
+<div class="line"><span class="lineno">   69</span>    trans-&gt;Append(stmt);</div>
+<div class="line"><span class="lineno">   70</span> </div>
+<div class="line"><span class="lineno">   71</span>    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/d47/class_world_session.html">WorldSession</a>* session = <a class="code hl_define" href="../../df/d17/group__world.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;FindSession(AccountID))</div>
+<div class="line"><span class="lineno">   72</span>        <span class="keywordflow">if</span> (session-&gt;GetPlayerName() != Author)</div>
+<div class="line"><span class="lineno">   73</span>            session-&gt;KickPlayer(<span class="stringliteral">&quot;Ban Account at condition &#39;FindSession(account)-&gt;GetPlayerName() != author&#39;&quot;</span>);</div>
+<div class="line"><span class="lineno">   74</span> </div>
+<div class="line"><span class="lineno">   75</span>    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/d47/class_world_session.html">WorldSession</a>* session = <a class="code hl_define" href="../../df/d17/group__world.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;FindOfflineSession(AccountID))</div>
+<div class="line"><span class="lineno">   76</span>        <span class="keywordflow">if</span> (session-&gt;GetPlayerName() != Author)</div>
+<div class="line"><span class="lineno">   77</span>            session-&gt;KickPlayer(<span class="stringliteral">&quot;Ban Account at condition &#39;FindOfflineSession(account)-&gt;GetPlayerName() != author&#39;&quot;</span>);</div>
+<div class="line"><span class="lineno">   78</span> </div>
+<div class="line"><span class="lineno">   79</span>    <a class="code hl_variable" href="../../d6/d2e/_database_env_8cpp.html#a2cf25eafe7f2f73b61ccde11d55daf0c">LoginDatabase</a>.CommitTransaction(trans);</div>
+<div class="line"><span class="lineno">   80</span> </div>
+<div class="line"><span class="lineno">   81</span>    <span class="keywordflow">if</span> (<a class="code hl_define" href="../../df/d17/group__world.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;getBoolConfig(<a class="code hl_enumvalue" href="../../d2/d80/_i_world_8h.html#a1b4b88c03b7d0124998b4c22e957baf0a4463b22c0e6785166b85aae72b0d6b07">CONFIG_SHOW_BAN_IN_WORLD</a>))</div>
+<div class="line"><span class="lineno">   82</span>    {</div>
+<div class="line"><span class="lineno">   83</span>        <span class="keywordtype">bool</span> IsPermanetly = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   84</span> </div>
+<div class="line"><span class="lineno">   85</span>        <span class="keywordflow">if</span> (<a class="code hl_function" href="../../db/d35/_util_8cpp.html#a6afbc7b52fa1fe844f66ffcf8230ff93">TimeStringToSecs</a>(Duration) &gt; 0)</div>
+<div class="line"><span class="lineno">   86</span>            IsPermanetly = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   87</span> </div>
+<div class="line"><span class="lineno">   88</span>        <span class="keywordflow">if</span> (!IsPermanetly)</div>
+<div class="line"><span class="lineno">   89</span>            <a class="code hl_define" href="../../df/d17/group__world.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;SendWorldText(<a class="code hl_enumvalue" href="../../dc/d4b/_language_8h.html#af9ee42b1cf006ecb2d2e74fe71c0761aa8c0d3147880580ac3821f4658200bfc5">LANG_BAN_ACCOUNT_YOUBANNEDMESSAGE_WORLD</a>, Author.c_str(), AccountName.c_str(), <a class="code hl_function" href="../../db/d35/_util_8cpp.html#a0b4910c611cea4a1b2812dac5456c5a8">secsToTimeString</a>(<a class="code hl_function" href="../../db/d35/_util_8cpp.html#a6afbc7b52fa1fe844f66ffcf8230ff93">TimeStringToSecs</a>(Duration), <span class="keyword">true</span>).c_str(), Reason.c_str());</div>
+<div class="line"><span class="lineno">   90</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">   91</span>            <a class="code hl_define" href="../../df/d17/group__world.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;SendWorldText(<a class="code hl_enumvalue" href="../../dc/d4b/_language_8h.html#af9ee42b1cf006ecb2d2e74fe71c0761aacb19456cba9633b51edbabf6e94f4cd6">LANG_BAN_ACCOUNT_YOUPERMBANNEDMESSAGE_WORLD</a>, Author.c_str(), AccountName.c_str(), Reason.c_str());</div>
+<div class="line"><span class="lineno">   92</span>    }</div>
+<div class="line"><span class="lineno">   93</span> </div>
+<div class="line"><span class="lineno">   94</span>    <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../dd/d30/_ban_mgr_8h.html#a4dd4670ead55e2780d09a66ab39943a7ab48bdf9afe21b115b7550bf103d1dc28">BAN_SUCCESS</a>;</div>
+<div class="line"><span class="lineno">   95</span>}</div>
+<div class="ttc" id="a_ban_mgr_8h_html_a4dd4670ead55e2780d09a66ab39943a7a7ec21f8f8ea6d0904423dded4b8f0dc8"><div class="ttname"><a href="../../dd/d30/_ban_mgr_8h.html#a4dd4670ead55e2780d09a66ab39943a7a7ec21f8f8ea6d0904423dded4b8f0dc8">BAN_SYNTAX_ERROR</a></div><div class="ttdeci">@ BAN_SYNTAX_ERROR</div><div class="ttdef"><b>Definition:</b> BanMgr.h:27</div></div>
+<div class="ttc" id="a_ban_mgr_8h_html_a4dd4670ead55e2780d09a66ab39943a7aaefc3ea320005c27d70704fb92aed7ad"><div class="ttname"><a href="../../dd/d30/_ban_mgr_8h.html#a4dd4670ead55e2780d09a66ab39943a7aaefc3ea320005c27d70704fb92aed7ad">BAN_NOTFOUND</a></div><div class="ttdeci">@ BAN_NOTFOUND</div><div class="ttdef"><b>Definition:</b> BanMgr.h:28</div></div>
+<div class="ttc" id="a_ban_mgr_8h_html_a4dd4670ead55e2780d09a66ab39943a7ab48bdf9afe21b115b7550bf103d1dc28"><div class="ttname"><a href="../../dd/d30/_ban_mgr_8h.html#a4dd4670ead55e2780d09a66ab39943a7ab48bdf9afe21b115b7550bf103d1dc28">BAN_SUCCESS</a></div><div class="ttdeci">@ BAN_SUCCESS</div><div class="ttdef"><b>Definition:</b> BanMgr.h:26</div></div>
+<div class="ttc" id="a_ban_mgr_8h_html_a4dd4670ead55e2780d09a66ab39943a7ac441589615fb2fe9c7decb985f6f0d3c"><div class="ttname"><a href="../../dd/d30/_ban_mgr_8h.html#a4dd4670ead55e2780d09a66ab39943a7ac441589615fb2fe9c7decb985f6f0d3c">BAN_LONGER_EXISTS</a></div><div class="ttdeci">@ BAN_LONGER_EXISTS</div><div class="ttdef"><b>Definition:</b> BanMgr.h:29</div></div>
+<div class="ttc" id="a_database_env_8cpp_html_a2cf25eafe7f2f73b61ccde11d55daf0c"><div class="ttname"><a href="../../d6/d2e/_database_env_8cpp.html#a2cf25eafe7f2f73b61ccde11d55daf0c">LoginDatabase</a></div><div class="ttdeci">DatabaseWorkerPool&lt; LoginDatabaseConnection &gt; LoginDatabase</div><div class="ttdoc">Accessor to the realm/login database.</div><div class="ttdef"><b>Definition:</b> DatabaseEnv.cpp:22</div></div>
+<div class="ttc" id="a_database_env_fwd_8h_html_aa0ef7192ac59bc820849e5e21e3e08b7"><div class="ttname"><a href="../../db/d04/_database_env_fwd_8h.html#aa0ef7192ac59bc820849e5e21e3e08b7">LoginDatabaseTransaction</a></div><div class="ttdeci">SQLTransaction&lt; LoginDatabaseConnection &gt; LoginDatabaseTransaction</div><div class="ttdef"><b>Definition:</b> DatabaseEnvFwd.h:71</div></div>
+<div class="ttc" id="a_database_env_fwd_8h_html_ac6110b8d867b5f84f677555d07037acb"><div class="ttname"><a href="../../db/d04/_database_env_fwd_8h.html#ac6110b8d867b5f84f677555d07037acb">PreparedQueryResult</a></div><div class="ttdeci">std::shared_ptr&lt; PreparedResultSet &gt; PreparedQueryResult</div><div class="ttdef"><b>Definition:</b> DatabaseEnvFwd.h:46</div></div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="a_i_world_8h_html_a1b4b88c03b7d0124998b4c22e957baf0a4463b22c0e6785166b85aae72b0d6b07"><div class="ttname"><a href="../../d2/d80/_i_world_8h.html#a1b4b88c03b7d0124998b4c22e957baf0a4463b22c0e6785166b85aae72b0d6b07">CONFIG_SHOW_BAN_IN_WORLD</a></div><div class="ttdeci">@ CONFIG_SHOW_BAN_IN_WORLD</div><div class="ttdef"><b>Definition:</b> IWorld.h:137</div></div>
+<div class="ttc" id="a_language_8h_html_af9ee42b1cf006ecb2d2e74fe71c0761aa8c0d3147880580ac3821f4658200bfc5"><div class="ttname"><a href="../../dc/d4b/_language_8h.html#af9ee42b1cf006ecb2d2e74fe71c0761aa8c0d3147880580ac3821f4658200bfc5">LANG_BAN_ACCOUNT_YOUBANNEDMESSAGE_WORLD</a></div><div class="ttdeci">@ LANG_BAN_ACCOUNT_YOUBANNEDMESSAGE_WORLD</div><div class="ttdef"><b>Definition:</b> Language.h:1295</div></div>
+<div class="ttc" id="a_language_8h_html_af9ee42b1cf006ecb2d2e74fe71c0761aacb19456cba9633b51edbabf6e94f4cd6"><div class="ttname"><a href="../../dc/d4b/_language_8h.html#af9ee42b1cf006ecb2d2e74fe71c0761aacb19456cba9633b51edbabf6e94f4cd6">LANG_BAN_ACCOUNT_YOUPERMBANNEDMESSAGE_WORLD</a></div><div class="ttdeci">@ LANG_BAN_ACCOUNT_YOUPERMBANNEDMESSAGE_WORLD</div><div class="ttdef"><b>Definition:</b> Language.h:1296</div></div>
+<div class="ttc" id="a_login_database_8h_html_a2bc6eef17d8ecd1b7027058f5fecc9fba0095c50c29091e57b4d3841ff4750f06"><div class="ttname"><a href="../../d8/d1e/_login_database_8h.html#a2bc6eef17d8ecd1b7027058f5fecc9fba0095c50c29091e57b4d3841ff4750f06">LOGIN_INS_ACCOUNT_BANNED</a></div><div class="ttdeci">@ LOGIN_INS_ACCOUNT_BANNED</div><div class="ttdef"><b>Definition:</b> LoginDatabase.h:60</div></div>
+<div class="ttc" id="a_login_database_8h_html_a2bc6eef17d8ecd1b7027058f5fecc9fba74ac1e9842b4804970938519b4bd2505"><div class="ttname"><a href="../../d8/d1e/_login_database_8h.html#a2bc6eef17d8ecd1b7027058f5fecc9fba74ac1e9842b4804970938519b4bd2505">LOGIN_UPD_ACCOUNT_NOT_BANNED</a></div><div class="ttdeci">@ LOGIN_UPD_ACCOUNT_NOT_BANNED</div><div class="ttdef"><b>Definition:</b> LoginDatabase.h:61</div></div>
+<div class="ttc" id="a_login_database_8h_html_a2bc6eef17d8ecd1b7027058f5fecc9fbad22cfaa6a4905fcb6dfc4dd564bbb306"><div class="ttname"><a href="../../d8/d1e/_login_database_8h.html#a2bc6eef17d8ecd1b7027058f5fecc9fbad22cfaa6a4905fcb6dfc4dd564bbb306">LOGIN_SEL_ACCOUNT_BANNED</a></div><div class="ttdeci">@ LOGIN_SEL_ACCOUNT_BANNED</div><div class="ttdef"><b>Definition:</b> LoginDatabase.h:37</div></div>
+<div class="ttc" id="a_util_8cpp_html_a0b4910c611cea4a1b2812dac5456c5a8"><div class="ttname"><a href="../../db/d35/_util_8cpp.html#a0b4910c611cea4a1b2812dac5456c5a8">secsToTimeString</a></div><div class="ttdeci">std::string secsToTimeString(uint64 timeInSecs, bool shortText)</div><div class="ttdef"><b>Definition:</b> Util.cpp:74</div></div>
+<div class="ttc" id="a_util_8cpp_html_a6afbc7b52fa1fe844f66ffcf8230ff93"><div class="ttname"><a href="../../db/d35/_util_8cpp.html#a6afbc7b52fa1fe844f66ffcf8230ff93">TimeStringToSecs</a></div><div class="ttdeci">uint32 TimeStringToSecs(const std::string &amp;timestring)</div><div class="ttdef"><b>Definition:</b> Util.cpp:164</div></div>
+<div class="ttc" id="aclass_prepared_statement_base_html_a52fc2e65042c1db51f0923725a0f0ed0"><div class="ttname"><a href="../../dd/d6a/class_prepared_statement_base.html#a52fc2e65042c1db51f0923725a0f0ed0">PreparedStatementBase::SetData</a></div><div class="ttdeci">Acore::Types::is_default&lt; T &gt; SetData(const uint8 index, T value)</div><div class="ttdef"><b>Definition:</b> PreparedStatement.h:78</div></div>
+<div class="ttc" id="aclass_prepared_statement_html"><div class="ttname"><a href="../../da/d37/class_prepared_statement.html">PreparedStatement</a></div><div class="ttdef"><b>Definition:</b> PreparedStatement.h:158</div></div>
+<div class="ttc" id="aclass_world_session_html"><div class="ttname"><a href="../../d1/d47/class_world_session.html">WorldSession</a></div><div class="ttdoc">Player session in the World.</div><div class="ttdef"><b>Definition:</b> WorldSession.h:330</div></div>
+<div class="ttc" id="agroup__world_html_ga05dfb35c344e5b947a19e4284e7f5fa7"><div class="ttname"><a href="../../df/d17/group__world.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a></div><div class="ttdeci">#define sWorld</div><div class="ttdef"><b>Definition:</b> World.h:458</div></div>
+<div class="ttc" id="anamespace_account_mgr_html_aa215c9a96c37b8a5d76d980ecf8de114"><div class="ttname"><a href="../../df/d1b/namespace_account_mgr.html#aa215c9a96c37b8a5d76d980ecf8de114">AccountMgr::GetId</a></div><div class="ttdeci">uint32 GetId(std::string const &amp;username)</div><div class="ttdef"><b>Definition:</b> AccountMgr.cpp:200</div></div>
+<div class="ttc" id="anamespace_game_time_html_adbe1785d1327dedf2ac403b7cc8e99c2"><div class="ttname"><a href="../../d4/d1c/namespace_game_time.html#adbe1785d1327dedf2ac403b7cc8e99c2">GameTime::GetGameTime</a></div><div class="ttdeci">Seconds GetGameTime()</div><div class="ttdef"><b>Definition:</b> GameTime.cpp:38</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a35f92762d69fe32e49b9b239c74e4734" name="a35f92762d69fe32e49b9b239c74e4734"></a>
@@ -235,7 +316,71 @@ Static Public Member Functions</h2></td></tr>
 <ul>
 <li>Disconnect all affected players (for IP it can be several)</li>
 </ul>
-
+<div class="fragment"><div class="line"><span class="lineno">   99</span>{</div>
+<div class="line"><span class="lineno">  100</span>    <span class="keywordflow">if</span> (CharacterName.empty() || Duration.empty())</div>
+<div class="line"><span class="lineno">  101</span>        <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../dd/d30/_ban_mgr_8h.html#a4dd4670ead55e2780d09a66ab39943a7a7ec21f8f8ea6d0904423dded4b8f0dc8">BAN_SYNTAX_ERROR</a>;</div>
+<div class="line"><span class="lineno">  102</span> </div>
+<div class="line"><span class="lineno">  103</span>    <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> DurationSecs = <a class="code hl_function" href="../../db/d35/_util_8cpp.html#a6afbc7b52fa1fe844f66ffcf8230ff93">TimeStringToSecs</a>(Duration);</div>
+<div class="line"><span class="lineno">  104</span> </div>
+<div class="line"><span class="lineno">  105</span>    <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> AccountID = <a class="code hl_define" href="../../d0/d2a/_character_cache_8h.html#a7a32c898b33d6163d83a32f46d58517c">sCharacterCache</a>-&gt;GetCharacterAccountIdByName(CharacterName);</div>
+<div class="line"><span class="lineno">  106</span>    <span class="keywordflow">if</span> (!AccountID)</div>
+<div class="line"><span class="lineno">  107</span>        <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../dd/d30/_ban_mgr_8h.html#a4dd4670ead55e2780d09a66ab39943a7aaefc3ea320005c27d70704fb92aed7ad">BAN_NOTFOUND</a>;</div>
+<div class="line"><span class="lineno">  108</span> </div>
+<div class="line"><span class="lineno">  110</span>    <a class="code hl_typedef" href="../../db/d04/_database_env_fwd_8h.html#aa0ef7192ac59bc820849e5e21e3e08b7">LoginDatabaseTransaction</a> trans = <a class="code hl_variable" href="../../d6/d2e/_database_env_8cpp.html#a2cf25eafe7f2f73b61ccde11d55daf0c">LoginDatabase</a>.BeginTransaction();</div>
+<div class="line"><span class="lineno">  111</span> </div>
+<div class="line"><span class="lineno">  112</span>    <span class="comment">// pussywizard: check existing ban to prevent overriding by a shorter one! &gt;_&gt;</span></div>
+<div class="line"><span class="lineno">  113</span>    <a class="code hl_class" href="../../da/d37/class_prepared_statement.html">LoginDatabasePreparedStatement</a>* stmtAccountBanned = <a class="code hl_variable" href="../../d6/d2e/_database_env_8cpp.html#a2cf25eafe7f2f73b61ccde11d55daf0c">LoginDatabase</a>.GetPreparedStatement(<a class="code hl_enumvalue" href="../../d8/d1e/_login_database_8h.html#a2bc6eef17d8ecd1b7027058f5fecc9fbad22cfaa6a4905fcb6dfc4dd564bbb306">LOGIN_SEL_ACCOUNT_BANNED</a>);</div>
+<div class="line"><span class="lineno">  114</span>    stmtAccountBanned-&gt;<a class="code hl_function" href="../../dd/d6a/class_prepared_statement_base.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(0, AccountID);</div>
+<div class="line"><span class="lineno">  115</span> </div>
+<div class="line"><span class="lineno">  116</span>    <a class="code hl_typedef" href="../../db/d04/_database_env_fwd_8h.html#ac6110b8d867b5f84f677555d07037acb">PreparedQueryResult</a> banresult = <a class="code hl_variable" href="../../d6/d2e/_database_env_8cpp.html#a2cf25eafe7f2f73b61ccde11d55daf0c">LoginDatabase</a>.Query(stmtAccountBanned);</div>
+<div class="line"><span class="lineno">  117</span>    <span class="keywordflow">if</span> (banresult &amp;&amp; ((*banresult)[0].Get&lt;uint32&gt;() == (*banresult)[1].Get&lt;uint32&gt;() || ((*banresult)[1].Get&lt;uint32&gt;() &gt; <a class="code hl_function" href="../../d4/d1c/namespace_game_time.html#adbe1785d1327dedf2ac403b7cc8e99c2">GameTime::GetGameTime</a>().count() + DurationSecs &amp;&amp; DurationSecs)))</div>
+<div class="line"><span class="lineno">  118</span>        <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../dd/d30/_ban_mgr_8h.html#a4dd4670ead55e2780d09a66ab39943a7ac441589615fb2fe9c7decb985f6f0d3c">BAN_LONGER_EXISTS</a>;</div>
+<div class="line"><span class="lineno">  119</span> </div>
+<div class="line"><span class="lineno">  120</span>    <span class="comment">// make sure there is only one active ban</span></div>
+<div class="line"><span class="lineno">  121</span>    <a class="code hl_class" href="../../da/d37/class_prepared_statement.html">LoginDatabasePreparedStatement</a>* stmt = <a class="code hl_variable" href="../../d6/d2e/_database_env_8cpp.html#a2cf25eafe7f2f73b61ccde11d55daf0c">LoginDatabase</a>.GetPreparedStatement(<a class="code hl_enumvalue" href="../../d8/d1e/_login_database_8h.html#a2bc6eef17d8ecd1b7027058f5fecc9fba74ac1e9842b4804970938519b4bd2505">LOGIN_UPD_ACCOUNT_NOT_BANNED</a>);</div>
+<div class="line"><span class="lineno">  122</span>    stmt-&gt;<a class="code hl_function" href="../../dd/d6a/class_prepared_statement_base.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(0, AccountID);</div>
+<div class="line"><span class="lineno">  123</span>    trans-&gt;Append(stmt);</div>
+<div class="line"><span class="lineno">  124</span> </div>
+<div class="line"><span class="lineno">  125</span>    <span class="comment">// No SQL injection with prepared statements</span></div>
+<div class="line"><span class="lineno">  126</span>    stmt = <a class="code hl_variable" href="../../d6/d2e/_database_env_8cpp.html#a2cf25eafe7f2f73b61ccde11d55daf0c">LoginDatabase</a>.GetPreparedStatement(<a class="code hl_enumvalue" href="../../d8/d1e/_login_database_8h.html#a2bc6eef17d8ecd1b7027058f5fecc9fba0095c50c29091e57b4d3841ff4750f06">LOGIN_INS_ACCOUNT_BANNED</a>);</div>
+<div class="line"><span class="lineno">  127</span>    stmt-&gt;<a class="code hl_function" href="../../dd/d6a/class_prepared_statement_base.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(0, AccountID);</div>
+<div class="line"><span class="lineno">  128</span>    stmt-&gt;<a class="code hl_function" href="../../dd/d6a/class_prepared_statement_base.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(1, DurationSecs);</div>
+<div class="line"><span class="lineno">  129</span>    stmt-&gt;<a class="code hl_function" href="../../dd/d6a/class_prepared_statement_base.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(2, Author);</div>
+<div class="line"><span class="lineno">  130</span>    stmt-&gt;<a class="code hl_function" href="../../dd/d6a/class_prepared_statement_base.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(3, Reason);</div>
+<div class="line"><span class="lineno">  131</span>    trans-&gt;Append(stmt);</div>
+<div class="line"><span class="lineno">  132</span> </div>
+<div class="line"><span class="lineno">  133</span>    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/d47/class_world_session.html">WorldSession</a>* session = <a class="code hl_define" href="../../df/d17/group__world.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;FindSession(AccountID))</div>
+<div class="line"><span class="lineno">  134</span>        <span class="keywordflow">if</span> (session-&gt;GetPlayerName() != Author)</div>
+<div class="line"><span class="lineno">  135</span>            session-&gt;KickPlayer(<span class="stringliteral">&quot;Ban Account at condition &#39;FindSession(account)-&gt;GetPlayerName() != author&#39;&quot;</span>);</div>
+<div class="line"><span class="lineno">  136</span> </div>
+<div class="line"><span class="lineno">  137</span>    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/d47/class_world_session.html">WorldSession</a>* session = <a class="code hl_define" href="../../df/d17/group__world.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;FindOfflineSession(AccountID))</div>
+<div class="line"><span class="lineno">  138</span>        <span class="keywordflow">if</span> (session-&gt;GetPlayerName() != Author)</div>
+<div class="line"><span class="lineno">  139</span>            session-&gt;KickPlayer(<span class="stringliteral">&quot;Ban Account at condition &#39;FindOfflineSession(account)-&gt;GetPlayerName() != author&#39;&quot;</span>);</div>
+<div class="line"><span class="lineno">  140</span> </div>
+<div class="line"><span class="lineno">  141</span>    <a class="code hl_variable" href="../../d6/d2e/_database_env_8cpp.html#a2cf25eafe7f2f73b61ccde11d55daf0c">LoginDatabase</a>.CommitTransaction(trans);</div>
+<div class="line"><span class="lineno">  142</span> </div>
+<div class="line"><span class="lineno">  143</span>    <span class="keywordflow">if</span> (<a class="code hl_define" href="../../df/d17/group__world.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;getBoolConfig(<a class="code hl_enumvalue" href="../../d2/d80/_i_world_8h.html#a1b4b88c03b7d0124998b4c22e957baf0a4463b22c0e6785166b85aae72b0d6b07">CONFIG_SHOW_BAN_IN_WORLD</a>))</div>
+<div class="line"><span class="lineno">  144</span>    {</div>
+<div class="line"><span class="lineno">  145</span>        <span class="keywordtype">bool</span> IsPermanetly = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  146</span> </div>
+<div class="line"><span class="lineno">  147</span>        <span class="keywordflow">if</span> (<a class="code hl_function" href="../../db/d35/_util_8cpp.html#a6afbc7b52fa1fe844f66ffcf8230ff93">TimeStringToSecs</a>(Duration) &gt; 0)</div>
+<div class="line"><span class="lineno">  148</span>            IsPermanetly = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  149</span> </div>
+<div class="line"><span class="lineno">  150</span>        std::string AccountName;</div>
+<div class="line"><span class="lineno">  151</span> </div>
+<div class="line"><span class="lineno">  152</span>        <a class="code hl_function" href="../../df/d1b/namespace_account_mgr.html#af911e3860ec519c541d6df35468ee41b">AccountMgr::GetName</a>(AccountID, AccountName);</div>
+<div class="line"><span class="lineno">  153</span> </div>
+<div class="line"><span class="lineno">  154</span>        <span class="keywordflow">if</span> (!IsPermanetly)</div>
+<div class="line"><span class="lineno">  155</span>            <a class="code hl_define" href="../../df/d17/group__world.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;SendWorldText(<a class="code hl_enumvalue" href="../../dc/d4b/_language_8h.html#af9ee42b1cf006ecb2d2e74fe71c0761aa8c0d3147880580ac3821f4658200bfc5">LANG_BAN_ACCOUNT_YOUBANNEDMESSAGE_WORLD</a>, Author.c_str(), AccountName.c_str(), <a class="code hl_function" href="../../db/d35/_util_8cpp.html#a0b4910c611cea4a1b2812dac5456c5a8">secsToTimeString</a>(<a class="code hl_function" href="../../db/d35/_util_8cpp.html#a6afbc7b52fa1fe844f66ffcf8230ff93">TimeStringToSecs</a>(Duration), <span class="keyword">true</span>).c_str(), Reason.c_str());</div>
+<div class="line"><span class="lineno">  156</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  157</span>            <a class="code hl_define" href="../../df/d17/group__world.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;SendWorldText(<a class="code hl_enumvalue" href="../../dc/d4b/_language_8h.html#af9ee42b1cf006ecb2d2e74fe71c0761aacb19456cba9633b51edbabf6e94f4cd6">LANG_BAN_ACCOUNT_YOUPERMBANNEDMESSAGE_WORLD</a>, Author.c_str(), AccountName.c_str(), Reason.c_str());</div>
+<div class="line"><span class="lineno">  158</span>    }</div>
+<div class="line"><span class="lineno">  159</span> </div>
+<div class="line"><span class="lineno">  160</span>    <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../dd/d30/_ban_mgr_8h.html#a4dd4670ead55e2780d09a66ab39943a7ab48bdf9afe21b115b7550bf103d1dc28">BAN_SUCCESS</a>;</div>
+<div class="line"><span class="lineno">  161</span>}</div>
+<div class="ttc" id="a_character_cache_8h_html_a7a32c898b33d6163d83a32f46d58517c"><div class="ttname"><a href="../../d0/d2a/_character_cache_8h.html#a7a32c898b33d6163d83a32f46d58517c">sCharacterCache</a></div><div class="ttdeci">#define sCharacterCache</div><div class="ttdef"><b>Definition:</b> CharacterCache.h:83</div></div>
+<div class="ttc" id="anamespace_account_mgr_html_af911e3860ec519c541d6df35468ee41b"><div class="ttname"><a href="../../df/d1b/namespace_account_mgr.html#af911e3860ec519c541d6df35468ee41b">AccountMgr::GetName</a></div><div class="ttdeci">bool GetName(uint32 accountId, std::string &amp;name)</div><div class="ttdef"><b>Definition:</b> AccountMgr.cpp:228</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad5048b36828bfe20a95dfb85515de831" name="ad5048b36828bfe20a95dfb85515de831"></a>
@@ -278,7 +423,63 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Ban an character, duration will be parsed using TimeStringToSecs if it is positive, otherwise permban. </p>
 <p >Pick a player to ban if not online</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  223</span>{</div>
+<div class="line"><span class="lineno">  224</span>    <a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* target = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#af5cb6806842c9689cf1d5f43ffdc4b0a">ObjectAccessor::FindPlayerByName</a>(CharacterName, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  225</span>    <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> DurationSecs = <a class="code hl_function" href="../../db/d35/_util_8cpp.html#a6afbc7b52fa1fe844f66ffcf8230ff93">TimeStringToSecs</a>(Duration);</div>
+<div class="line"><span class="lineno">  226</span>    <a class="code hl_class" href="../../d8/d03/class_object_guid.html">ObjectGuid</a> TargetGUID;</div>
+<div class="line"><span class="lineno">  227</span> </div>
+<div class="line"><span class="lineno">  229</span>    <span class="keywordflow">if</span> (!target)</div>
+<div class="line"><span class="lineno">  230</span>    {</div>
+<div class="line"><span class="lineno">  231</span>        TargetGUID = <a class="code hl_define" href="../../d0/d2a/_character_cache_8h.html#a7a32c898b33d6163d83a32f46d58517c">sCharacterCache</a>-&gt;GetCharacterGuidByName(CharacterName);</div>
+<div class="line"><span class="lineno">  232</span>        <span class="keywordflow">if</span> (!TargetGUID)</div>
+<div class="line"><span class="lineno">  233</span>            <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../dd/d30/_ban_mgr_8h.html#a4dd4670ead55e2780d09a66ab39943a7aaefc3ea320005c27d70704fb92aed7ad">BAN_NOTFOUND</a>;</div>
+<div class="line"><span class="lineno">  234</span>    }</div>
+<div class="line"><span class="lineno">  235</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  236</span>        TargetGUID = target-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>();</div>
+<div class="line"><span class="lineno">  237</span> </div>
+<div class="line"><span class="lineno">  238</span>    <span class="comment">// make sure there is only one active ban</span></div>
+<div class="line"><span class="lineno">  239</span>    <a class="code hl_class" href="../../da/d37/class_prepared_statement.html">CharacterDatabasePreparedStatement</a>* stmt = <a class="code hl_variable" href="../../d6/d2e/_database_env_8cpp.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.GetPreparedStatement(<a class="code hl_enumvalue" href="../../d7/d54/_character_database_8h.html#a76116b4fa282d8e35bf8f8e940b5cba7a37f7c2469f8b641e5299c21f53405ea8">CHAR_UPD_CHARACTER_BAN</a>);</div>
+<div class="line"><span class="lineno">  240</span>    stmt-&gt;<a class="code hl_function" href="../../dd/d6a/class_prepared_statement_base.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(0, TargetGUID.<a class="code hl_function" href="../../d8/d03/class_object_guid.html#a0df27b85c91a2c619e8f1d9c2cb31677">GetCounter</a>());</div>
+<div class="line"><span class="lineno">  241</span>    <a class="code hl_variable" href="../../d6/d2e/_database_env_8cpp.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.Execute(stmt);</div>
+<div class="line"><span class="lineno">  242</span> </div>
+<div class="line"><span class="lineno">  243</span>    stmt = <a class="code hl_variable" href="../../d6/d2e/_database_env_8cpp.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.GetPreparedStatement(<a class="code hl_enumvalue" href="../../d7/d54/_character_database_8h.html#a76116b4fa282d8e35bf8f8e940b5cba7a28fd4b7969831aaac8a3398daacdfbdf">CHAR_INS_CHARACTER_BAN</a>);</div>
+<div class="line"><span class="lineno">  244</span>    stmt-&gt;<a class="code hl_function" href="../../dd/d6a/class_prepared_statement_base.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(0, TargetGUID.<a class="code hl_function" href="../../d8/d03/class_object_guid.html#a0df27b85c91a2c619e8f1d9c2cb31677">GetCounter</a>());</div>
+<div class="line"><span class="lineno">  245</span>    stmt-&gt;<a class="code hl_function" href="../../dd/d6a/class_prepared_statement_base.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(1, DurationSecs);</div>
+<div class="line"><span class="lineno">  246</span>    stmt-&gt;<a class="code hl_function" href="../../dd/d6a/class_prepared_statement_base.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(2, Author);</div>
+<div class="line"><span class="lineno">  247</span>    stmt-&gt;<a class="code hl_function" href="../../dd/d6a/class_prepared_statement_base.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(3, Reason);</div>
+<div class="line"><span class="lineno">  248</span>    <a class="code hl_variable" href="../../d6/d2e/_database_env_8cpp.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.Execute(stmt);</div>
+<div class="line"><span class="lineno">  249</span> </div>
+<div class="line"><span class="lineno">  250</span>    <span class="keywordflow">if</span> (target)</div>
+<div class="line"><span class="lineno">  251</span>        target-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a6ab11ca64cde7c5cde1f53998a6f7253">GetSession</a>()-&gt;<a class="code hl_function" href="../../d1/d47/class_world_session.html#ad84e1251e6fb43fe3aed0ea2a27f018b">KickPlayer</a>(<span class="stringliteral">&quot;Ban&quot;</span>);</div>
+<div class="line"><span class="lineno">  252</span> </div>
+<div class="line"><span class="lineno">  253</span>    <span class="keywordflow">if</span> (<a class="code hl_define" href="../../df/d17/group__world.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;getBoolConfig(<a class="code hl_enumvalue" href="../../d2/d80/_i_world_8h.html#a1b4b88c03b7d0124998b4c22e957baf0a4463b22c0e6785166b85aae72b0d6b07">CONFIG_SHOW_BAN_IN_WORLD</a>))</div>
+<div class="line"><span class="lineno">  254</span>    {</div>
+<div class="line"><span class="lineno">  255</span>        <span class="keywordtype">bool</span> IsPermanetly = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  256</span> </div>
+<div class="line"><span class="lineno">  257</span>        <span class="keywordflow">if</span> (<a class="code hl_function" href="../../db/d35/_util_8cpp.html#a6afbc7b52fa1fe844f66ffcf8230ff93">TimeStringToSecs</a>(Duration) &gt; 0)</div>
+<div class="line"><span class="lineno">  258</span>            IsPermanetly = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  259</span> </div>
+<div class="line"><span class="lineno">  260</span>        <span class="keywordflow">if</span> (!IsPermanetly)</div>
+<div class="line"><span class="lineno">  261</span>            <a class="code hl_define" href="../../df/d17/group__world.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;SendWorldText(<a class="code hl_enumvalue" href="../../dc/d4b/_language_8h.html#af9ee42b1cf006ecb2d2e74fe71c0761aa623b6ea2abd788f90b930fa14bc2aab1">LANG_BAN_CHARACTER_YOUBANNEDMESSAGE_WORLD</a>, Author.c_str(), CharacterName.c_str(), <a class="code hl_function" href="../../db/d35/_util_8cpp.html#a0b4910c611cea4a1b2812dac5456c5a8">secsToTimeString</a>(<a class="code hl_function" href="../../db/d35/_util_8cpp.html#a6afbc7b52fa1fe844f66ffcf8230ff93">TimeStringToSecs</a>(Duration), <span class="keyword">true</span>).c_str(), Reason.c_str());</div>
+<div class="line"><span class="lineno">  262</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  263</span>            <a class="code hl_define" href="../../df/d17/group__world.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;SendWorldText(<a class="code hl_enumvalue" href="../../dc/d4b/_language_8h.html#af9ee42b1cf006ecb2d2e74fe71c0761aa9efa538c88a76c335874b275ef2976c1">LANG_BAN_CHARACTER_YOUPERMBANNEDMESSAGE_WORLD</a>, Author.c_str(), CharacterName.c_str(), Reason.c_str());</div>
+<div class="line"><span class="lineno">  264</span>    }</div>
+<div class="line"><span class="lineno">  265</span> </div>
+<div class="line"><span class="lineno">  266</span>    <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../dd/d30/_ban_mgr_8h.html#a4dd4670ead55e2780d09a66ab39943a7ab48bdf9afe21b115b7550bf103d1dc28">BAN_SUCCESS</a>;</div>
+<div class="line"><span class="lineno">  267</span>}</div>
+<div class="ttc" id="a_character_database_8h_html_a76116b4fa282d8e35bf8f8e940b5cba7a28fd4b7969831aaac8a3398daacdfbdf"><div class="ttname"><a href="../../d7/d54/_character_database_8h.html#a76116b4fa282d8e35bf8f8e940b5cba7a28fd4b7969831aaac8a3398daacdfbdf">CHAR_INS_CHARACTER_BAN</a></div><div class="ttdeci">@ CHAR_INS_CHARACTER_BAN</div><div class="ttdef"><b>Definition:</b> CharacterDatabase.h:41</div></div>
+<div class="ttc" id="a_character_database_8h_html_a76116b4fa282d8e35bf8f8e940b5cba7a37f7c2469f8b641e5299c21f53405ea8"><div class="ttname"><a href="../../d7/d54/_character_database_8h.html#a76116b4fa282d8e35bf8f8e940b5cba7a37f7c2469f8b641e5299c21f53405ea8">CHAR_UPD_CHARACTER_BAN</a></div><div class="ttdeci">@ CHAR_UPD_CHARACTER_BAN</div><div class="ttdef"><b>Definition:</b> CharacterDatabase.h:42</div></div>
+<div class="ttc" id="a_database_env_8cpp_html_a7e7534bc66d79434bd280b77cb124eec"><div class="ttname"><a href="../../d6/d2e/_database_env_8cpp.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a></div><div class="ttdeci">DatabaseWorkerPool&lt; CharacterDatabaseConnection &gt; CharacterDatabase</div><div class="ttdoc">Accessor to the character database.</div><div class="ttdef"><b>Definition:</b> DatabaseEnv.cpp:21</div></div>
+<div class="ttc" id="a_language_8h_html_af9ee42b1cf006ecb2d2e74fe71c0761aa623b6ea2abd788f90b930fa14bc2aab1"><div class="ttname"><a href="../../dc/d4b/_language_8h.html#af9ee42b1cf006ecb2d2e74fe71c0761aa623b6ea2abd788f90b930fa14bc2aab1">LANG_BAN_CHARACTER_YOUBANNEDMESSAGE_WORLD</a></div><div class="ttdeci">@ LANG_BAN_CHARACTER_YOUBANNEDMESSAGE_WORLD</div><div class="ttdef"><b>Definition:</b> Language.h:1293</div></div>
+<div class="ttc" id="a_language_8h_html_af9ee42b1cf006ecb2d2e74fe71c0761aa9efa538c88a76c335874b275ef2976c1"><div class="ttname"><a href="../../dc/d4b/_language_8h.html#af9ee42b1cf006ecb2d2e74fe71c0761aa9efa538c88a76c335874b275ef2976c1">LANG_BAN_CHARACTER_YOUPERMBANNEDMESSAGE_WORLD</a></div><div class="ttdeci">@ LANG_BAN_CHARACTER_YOUPERMBANNEDMESSAGE_WORLD</div><div class="ttdef"><b>Definition:</b> Language.h:1294</div></div>
+<div class="ttc" id="aclass_object_guid_html"><div class="ttname"><a href="../../d8/d03/class_object_guid.html">ObjectGuid</a></div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:120</div></div>
+<div class="ttc" id="aclass_object_guid_html_a0df27b85c91a2c619e8f1d9c2cb31677"><div class="ttname"><a href="../../d8/d03/class_object_guid.html#a0df27b85c91a2c619e8f1d9c2cb31677">ObjectGuid::GetCounter</a></div><div class="ttdeci">LowType GetCounter() const</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:147</div></div>
+<div class="ttc" id="aclass_object_html_ad23b997e2442fa6a6228ba73a7ecc138"><div class="ttname"><a href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">Object::GetGUID</a></div><div class="ttdeci">static ObjectGuid GetGUID(Object const *o)</div><div class="ttdef"><b>Definition:</b> Object.h:106</div></div>
+<div class="ttc" id="aclass_player_html"><div class="ttname"><a href="../../d8/d53/class_player.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1046</div></div>
+<div class="ttc" id="aclass_player_html_a6ab11ca64cde7c5cde1f53998a6f7253"><div class="ttname"><a href="../../d8/d53/class_player.html#a6ab11ca64cde7c5cde1f53998a6f7253">Player::GetSession</a></div><div class="ttdeci">WorldSession * GetSession() const</div><div class="ttdef"><b>Definition:</b> Player.h:1947</div></div>
+<div class="ttc" id="aclass_world_session_html_ad84e1251e6fb43fe3aed0ea2a27f018b"><div class="ttname"><a href="../../d1/d47/class_world_session.html#ad84e1251e6fb43fe3aed0ea2a27f018b">WorldSession::KickPlayer</a></div><div class="ttdeci">void KickPlayer(bool setKicked=true)</div><div class="ttdef"><b>Definition:</b> WorldSession.h:397</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_af5cb6806842c9689cf1d5f43ffdc4b0a"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#af5cb6806842c9689cf1d5f43ffdc4b0a">ObjectAccessor::FindPlayerByName</a></div><div class="ttdeci">Player * FindPlayerByName(std::string const &amp;name, bool checkInWorld=true)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:276</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a404890eab19b97773e6c9aef8cc65707" name="a404890eab19b97773e6c9aef8cc65707"></a>
@@ -323,7 +524,67 @@ Static Public Member Functions</h2></td></tr>
 <ul>
 <li>Disconnect all affected players (for IP it can be several)</li>
 </ul>
-
+<div class="fragment"><div class="line"><span class="lineno">  165</span>{</div>
+<div class="line"><span class="lineno">  166</span>    <span class="keywordflow">if</span> (IP.empty() || Duration.empty())</div>
+<div class="line"><span class="lineno">  167</span>        <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../dd/d30/_ban_mgr_8h.html#a4dd4670ead55e2780d09a66ab39943a7a7ec21f8f8ea6d0904423dded4b8f0dc8">BAN_SYNTAX_ERROR</a>;</div>
+<div class="line"><span class="lineno">  168</span> </div>
+<div class="line"><span class="lineno">  169</span>    <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> DurationSecs = <a class="code hl_function" href="../../db/d35/_util_8cpp.html#a6afbc7b52fa1fe844f66ffcf8230ff93">TimeStringToSecs</a>(Duration);</div>
+<div class="line"><span class="lineno">  170</span> </div>
+<div class="line"><span class="lineno">  171</span>    <span class="comment">// No SQL injection with prepared statements</span></div>
+<div class="line"><span class="lineno">  172</span>    <a class="code hl_class" href="../../da/d37/class_prepared_statement.html">LoginDatabasePreparedStatement</a>* stmt = <a class="code hl_variable" href="../../d6/d2e/_database_env_8cpp.html#a2cf25eafe7f2f73b61ccde11d55daf0c">LoginDatabase</a>.GetPreparedStatement(<a class="code hl_enumvalue" href="../../d8/d1e/_login_database_8h.html#a2bc6eef17d8ecd1b7027058f5fecc9fba0e2f944c309ca24a8702e71aa7643a45">LOGIN_SEL_ACCOUNT_BY_IP</a>);</div>
+<div class="line"><span class="lineno">  173</span>    stmt-&gt;<a class="code hl_function" href="../../dd/d6a/class_prepared_statement_base.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(0, IP);</div>
+<div class="line"><span class="lineno">  174</span>    <a class="code hl_typedef" href="../../db/d04/_database_env_fwd_8h.html#ac6110b8d867b5f84f677555d07037acb">PreparedQueryResult</a> resultAccounts = <a class="code hl_variable" href="../../d6/d2e/_database_env_8cpp.html#a2cf25eafe7f2f73b61ccde11d55daf0c">LoginDatabase</a>.Query(stmt);</div>
+<div class="line"><span class="lineno">  175</span> </div>
+<div class="line"><span class="lineno">  176</span>    stmt = <a class="code hl_variable" href="../../d6/d2e/_database_env_8cpp.html#a2cf25eafe7f2f73b61ccde11d55daf0c">LoginDatabase</a>.GetPreparedStatement(<a class="code hl_enumvalue" href="../../d8/d1e/_login_database_8h.html#a2bc6eef17d8ecd1b7027058f5fecc9fba5c1264159410cb73b61635879083b394">LOGIN_INS_IP_BANNED</a>);</div>
+<div class="line"><span class="lineno">  177</span>    stmt-&gt;<a class="code hl_function" href="../../dd/d6a/class_prepared_statement_base.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(0, IP);</div>
+<div class="line"><span class="lineno">  178</span>    stmt-&gt;<a class="code hl_function" href="../../dd/d6a/class_prepared_statement_base.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(1, DurationSecs);</div>
+<div class="line"><span class="lineno">  179</span>    stmt-&gt;<a class="code hl_function" href="../../dd/d6a/class_prepared_statement_base.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(2, Author);</div>
+<div class="line"><span class="lineno">  180</span>    stmt-&gt;<a class="code hl_function" href="../../dd/d6a/class_prepared_statement_base.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(3, Reason);</div>
+<div class="line"><span class="lineno">  181</span>    <a class="code hl_variable" href="../../d6/d2e/_database_env_8cpp.html#a2cf25eafe7f2f73b61ccde11d55daf0c">LoginDatabase</a>.Execute(stmt);</div>
+<div class="line"><span class="lineno">  182</span> </div>
+<div class="line"><span class="lineno">  183</span>    <span class="keywordflow">if</span> (<a class="code hl_define" href="../../df/d17/group__world.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;getBoolConfig(<a class="code hl_enumvalue" href="../../d2/d80/_i_world_8h.html#a1b4b88c03b7d0124998b4c22e957baf0a4463b22c0e6785166b85aae72b0d6b07">CONFIG_SHOW_BAN_IN_WORLD</a>))</div>
+<div class="line"><span class="lineno">  184</span>    {</div>
+<div class="line"><span class="lineno">  185</span>        <span class="keywordtype">bool</span> IsPermanetly = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  186</span> </div>
+<div class="line"><span class="lineno">  187</span>        <span class="keywordflow">if</span> (<a class="code hl_function" href="../../db/d35/_util_8cpp.html#a6afbc7b52fa1fe844f66ffcf8230ff93">TimeStringToSecs</a>(Duration) &gt; 0)</div>
+<div class="line"><span class="lineno">  188</span>            IsPermanetly = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  189</span> </div>
+<div class="line"><span class="lineno">  190</span>        <span class="keywordflow">if</span> (IsPermanetly)</div>
+<div class="line"><span class="lineno">  191</span>            <a class="code hl_define" href="../../df/d17/group__world.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;SendWorldText(<a class="code hl_enumvalue" href="../../dc/d4b/_language_8h.html#af9ee42b1cf006ecb2d2e74fe71c0761aa6f0b7a8a3baa951554aab2aafeb720ea">LANG_BAN_IP_YOUPERMBANNEDMESSAGE_WORLD</a>, Author.c_str(), IP.c_str(), Reason.c_str());</div>
+<div class="line"><span class="lineno">  192</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  193</span>            <a class="code hl_define" href="../../df/d17/group__world.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;SendWorldText(<a class="code hl_enumvalue" href="../../dc/d4b/_language_8h.html#af9ee42b1cf006ecb2d2e74fe71c0761aa70c17c2b9baf99fd3e7776625b5af50b">LANG_BAN_IP_YOUBANNEDMESSAGE_WORLD</a>, Author.c_str(), IP.c_str(), <a class="code hl_function" href="../../db/d35/_util_8cpp.html#a0b4910c611cea4a1b2812dac5456c5a8">secsToTimeString</a>(<a class="code hl_function" href="../../db/d35/_util_8cpp.html#a6afbc7b52fa1fe844f66ffcf8230ff93">TimeStringToSecs</a>(Duration), <span class="keyword">true</span>).c_str(), Reason.c_str());</div>
+<div class="line"><span class="lineno">  194</span>    }</div>
+<div class="line"><span class="lineno">  195</span> </div>
+<div class="line"><span class="lineno">  196</span>    <span class="keywordflow">if</span> (!resultAccounts)</div>
+<div class="line"><span class="lineno">  197</span>        <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../dd/d30/_ban_mgr_8h.html#a4dd4670ead55e2780d09a66ab39943a7ab48bdf9afe21b115b7550bf103d1dc28">BAN_SUCCESS</a>;</div>
+<div class="line"><span class="lineno">  198</span> </div>
+<div class="line"><span class="lineno">  200</span>    <a class="code hl_typedef" href="../../db/d04/_database_env_fwd_8h.html#aa0ef7192ac59bc820849e5e21e3e08b7">LoginDatabaseTransaction</a> trans = <a class="code hl_variable" href="../../d6/d2e/_database_env_8cpp.html#a2cf25eafe7f2f73b61ccde11d55daf0c">LoginDatabase</a>.BeginTransaction();</div>
+<div class="line"><span class="lineno">  201</span> </div>
+<div class="line"><span class="lineno">  202</span>    <span class="keywordflow">do</span></div>
+<div class="line"><span class="lineno">  203</span>    {</div>
+<div class="line"><span class="lineno">  204</span>        <a class="code hl_class" href="../../dc/d67/class_field.html">Field</a>* fields = resultAccounts-&gt;Fetch();</div>
+<div class="line"><span class="lineno">  205</span>        <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> AccountID = fields[0].<a class="code hl_function" href="../../dc/d67/class_field.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&gt;();</div>
+<div class="line"><span class="lineno">  206</span> </div>
+<div class="line"><span class="lineno">  207</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/d47/class_world_session.html">WorldSession</a>* session = <a class="code hl_define" href="../../df/d17/group__world.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;FindSession(AccountID))</div>
+<div class="line"><span class="lineno">  208</span>            <span class="keywordflow">if</span> (session-&gt;GetPlayerName() != Author)</div>
+<div class="line"><span class="lineno">  209</span>                session-&gt;KickPlayer(<span class="stringliteral">&quot;Ban IP at condition &#39;FindSession(account)-&gt;GetPlayerName() != author&#39;&quot;</span>);</div>
+<div class="line"><span class="lineno">  210</span> </div>
+<div class="line"><span class="lineno">  211</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/d47/class_world_session.html">WorldSession</a>* session = <a class="code hl_define" href="../../df/d17/group__world.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;FindOfflineSession(AccountID))</div>
+<div class="line"><span class="lineno">  212</span>            <span class="keywordflow">if</span> (session-&gt;GetPlayerName() != Author)</div>
+<div class="line"><span class="lineno">  213</span>                session-&gt;KickPlayer(<span class="stringliteral">&quot;Ban IP at condition &#39;FindOfflineSession(account)-&gt;GetPlayerName() != author&#39;&quot;</span>);</div>
+<div class="line"><span class="lineno">  214</span>    } <span class="keywordflow">while</span> (resultAccounts-&gt;NextRow());</div>
+<div class="line"><span class="lineno">  215</span> </div>
+<div class="line"><span class="lineno">  216</span>    <a class="code hl_variable" href="../../d6/d2e/_database_env_8cpp.html#a2cf25eafe7f2f73b61ccde11d55daf0c">LoginDatabase</a>.CommitTransaction(trans);</div>
+<div class="line"><span class="lineno">  217</span> </div>
+<div class="line"><span class="lineno">  218</span>    <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../dd/d30/_ban_mgr_8h.html#a4dd4670ead55e2780d09a66ab39943a7ab48bdf9afe21b115b7550bf103d1dc28">BAN_SUCCESS</a>;</div>
+<div class="line"><span class="lineno">  219</span>}</div>
+<div class="ttc" id="a_language_8h_html_af9ee42b1cf006ecb2d2e74fe71c0761aa6f0b7a8a3baa951554aab2aafeb720ea"><div class="ttname"><a href="../../dc/d4b/_language_8h.html#af9ee42b1cf006ecb2d2e74fe71c0761aa6f0b7a8a3baa951554aab2aafeb720ea">LANG_BAN_IP_YOUPERMBANNEDMESSAGE_WORLD</a></div><div class="ttdeci">@ LANG_BAN_IP_YOUPERMBANNEDMESSAGE_WORLD</div><div class="ttdef"><b>Definition:</b> Language.h:1311</div></div>
+<div class="ttc" id="a_language_8h_html_af9ee42b1cf006ecb2d2e74fe71c0761aa70c17c2b9baf99fd3e7776625b5af50b"><div class="ttname"><a href="../../dc/d4b/_language_8h.html#af9ee42b1cf006ecb2d2e74fe71c0761aa70c17c2b9baf99fd3e7776625b5af50b">LANG_BAN_IP_YOUBANNEDMESSAGE_WORLD</a></div><div class="ttdeci">@ LANG_BAN_IP_YOUBANNEDMESSAGE_WORLD</div><div class="ttdef"><b>Definition:</b> Language.h:1310</div></div>
+<div class="ttc" id="a_login_database_8h_html_a2bc6eef17d8ecd1b7027058f5fecc9fba0e2f944c309ca24a8702e71aa7643a45"><div class="ttname"><a href="../../d8/d1e/_login_database_8h.html#a2bc6eef17d8ecd1b7027058f5fecc9fba0e2f944c309ca24a8702e71aa7643a45">LOGIN_SEL_ACCOUNT_BY_IP</a></div><div class="ttdeci">@ LOGIN_SEL_ACCOUNT_BY_IP</div><div class="ttdef"><b>Definition:</b> LoginDatabase.h:54</div></div>
+<div class="ttc" id="a_login_database_8h_html_a2bc6eef17d8ecd1b7027058f5fecc9fba5c1264159410cb73b61635879083b394"><div class="ttname"><a href="../../d8/d1e/_login_database_8h.html#a2bc6eef17d8ecd1b7027058f5fecc9fba5c1264159410cb73b61635879083b394">LOGIN_INS_IP_BANNED</a></div><div class="ttdeci">@ LOGIN_INS_IP_BANNED</div><div class="ttdef"><b>Definition:</b> LoginDatabase.h:55</div></div>
+<div class="ttc" id="aclass_field_html"><div class="ttname"><a href="../../dc/d67/class_field.html">Field</a></div><div class="ttdoc">Class used to access individual fields of database query result.</div><div class="ttdef"><b>Definition:</b> Field.h:99</div></div>
+<div class="ttc" id="aclass_field_html_aae507d21d3570ffdaf1643ba02946f01"><div class="ttname"><a href="../../dc/d67/class_field.html#aae507d21d3570ffdaf1643ba02946f01">Field::Get</a></div><div class="ttdeci">std::enable_if_t&lt; std::is_arithmetic_v&lt; T &gt;, T &gt; Get() const</div><div class="ttdef"><b>Definition:</b> Field.h:113</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aa495dfaab6af98c43f645acf516a5630" name="aa495dfaab6af98c43f645acf516a5630"></a>
@@ -348,7 +609,13 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   30</span>{</div>
+<div class="line"><span class="lineno">   31</span>    <span class="keyword">static</span> <a class="code hl_class" href="../../d5/d94/class_ban_mgr.html">BanMgr</a> <a class="code hl_function" href="../../d5/d94/class_ban_mgr.html#aa495dfaab6af98c43f645acf516a5630">instance</a>;</div>
+<div class="line"><span class="lineno">   32</span>    <span class="keywordflow">return</span> &amp;<a class="code hl_function" href="../../d5/d94/class_ban_mgr.html#aa495dfaab6af98c43f645acf516a5630">instance</a>;</div>
+<div class="line"><span class="lineno">   33</span>}</div>
+<div class="ttc" id="aclass_ban_mgr_html"><div class="ttname"><a href="../../d5/d94/class_ban_mgr.html">BanMgr</a></div><div class="ttdef"><b>Definition:</b> BanMgr.h:33</div></div>
+<div class="ttc" id="aclass_ban_mgr_html_aa495dfaab6af98c43f645acf516a5630"><div class="ttname"><a href="../../d5/d94/class_ban_mgr.html#aa495dfaab6af98c43f645acf516a5630">BanMgr::instance</a></div><div class="ttdeci">static BanMgr * instance()</div><div class="ttdef"><b>Definition:</b> BanMgr.cpp:29</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ae831e6227442edc70469229d5d73fa3f" name="ae831e6227442edc70469229d5d73fa3f"></a>
@@ -368,7 +635,19 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Remove a ban from an account. </p>
-
+<div class="fragment"><div class="line"><span class="lineno">  271</span>{</div>
+<div class="line"><span class="lineno">  272</span>    <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> AccountID = <a class="code hl_function" href="../../df/d1b/namespace_account_mgr.html#aa215c9a96c37b8a5d76d980ecf8de114">AccountMgr::GetId</a>(AccountName);</div>
+<div class="line"><span class="lineno">  273</span>    <span class="keywordflow">if</span> (!AccountID)</div>
+<div class="line"><span class="lineno">  274</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  275</span> </div>
+<div class="line"><span class="lineno">  276</span>    <span class="comment">// NO SQL injection as account is uint32</span></div>
+<div class="line"><span class="lineno">  277</span>    <a class="code hl_class" href="../../da/d37/class_prepared_statement.html">LoginDatabasePreparedStatement</a>* stmt = <a class="code hl_variable" href="../../d6/d2e/_database_env_8cpp.html#a2cf25eafe7f2f73b61ccde11d55daf0c">LoginDatabase</a>.GetPreparedStatement(<a class="code hl_enumvalue" href="../../d8/d1e/_login_database_8h.html#a2bc6eef17d8ecd1b7027058f5fecc9fba74ac1e9842b4804970938519b4bd2505">LOGIN_UPD_ACCOUNT_NOT_BANNED</a>);</div>
+<div class="line"><span class="lineno">  278</span>    stmt-&gt;<a class="code hl_function" href="../../dd/d6a/class_prepared_statement_base.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(0, AccountID);</div>
+<div class="line"><span class="lineno">  279</span>    <a class="code hl_variable" href="../../d6/d2e/_database_env_8cpp.html#a2cf25eafe7f2f73b61ccde11d55daf0c">LoginDatabase</a>.Execute(stmt);</div>
+<div class="line"><span class="lineno">  280</span> </div>
+<div class="line"><span class="lineno">  281</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  282</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a7b5e1ae6d34ae4f6a15e03c434953aea" name="a7b5e1ae6d34ae4f6a15e03c434953aea"></a>
@@ -388,7 +667,19 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Remove a ban from an player name. </p>
-
+<div class="fragment"><div class="line"><span class="lineno">  286</span>{</div>
+<div class="line"><span class="lineno">  287</span>    <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> AccountID = <a class="code hl_define" href="../../d0/d2a/_character_cache_8h.html#a7a32c898b33d6163d83a32f46d58517c">sCharacterCache</a>-&gt;GetCharacterAccountIdByName(CharacterName);</div>
+<div class="line"><span class="lineno">  288</span>    <span class="keywordflow">if</span> (!AccountID)</div>
+<div class="line"><span class="lineno">  289</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  290</span> </div>
+<div class="line"><span class="lineno">  291</span>    <span class="comment">// NO SQL injection as account is uint32</span></div>
+<div class="line"><span class="lineno">  292</span>    <a class="code hl_class" href="../../da/d37/class_prepared_statement.html">LoginDatabasePreparedStatement</a>* stmt = <a class="code hl_variable" href="../../d6/d2e/_database_env_8cpp.html#a2cf25eafe7f2f73b61ccde11d55daf0c">LoginDatabase</a>.GetPreparedStatement(<a class="code hl_enumvalue" href="../../d8/d1e/_login_database_8h.html#a2bc6eef17d8ecd1b7027058f5fecc9fba74ac1e9842b4804970938519b4bd2505">LOGIN_UPD_ACCOUNT_NOT_BANNED</a>);</div>
+<div class="line"><span class="lineno">  293</span>    stmt-&gt;<a class="code hl_function" href="../../dd/d6a/class_prepared_statement_base.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(0, AccountID);</div>
+<div class="line"><span class="lineno">  294</span>    <a class="code hl_variable" href="../../d6/d2e/_database_env_8cpp.html#a2cf25eafe7f2f73b61ccde11d55daf0c">LoginDatabase</a>.Execute(stmt);</div>
+<div class="line"><span class="lineno">  295</span> </div>
+<div class="line"><span class="lineno">  296</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  297</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="afbde6c0b26802f684ecf78c2f493cc67" name="afbde6c0b26802f684ecf78c2f493cc67"></a>
@@ -409,7 +700,24 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Remove a ban from a character. </p>
 <p >Pick a player to ban if not online</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  311</span>{</div>
+<div class="line"><span class="lineno">  312</span>    <a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* pBanned = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#af5cb6806842c9689cf1d5f43ffdc4b0a">ObjectAccessor::FindPlayerByName</a>(CharacterName, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  313</span>    <a class="code hl_class" href="../../d8/d03/class_object_guid.html">ObjectGuid</a> guid;</div>
+<div class="line"><span class="lineno">  314</span> </div>
+<div class="line"><span class="lineno">  316</span>    <span class="keywordflow">if</span> (!pBanned)</div>
+<div class="line"><span class="lineno">  317</span>        guid = <a class="code hl_define" href="../../d0/d2a/_character_cache_8h.html#a7a32c898b33d6163d83a32f46d58517c">sCharacterCache</a>-&gt;GetCharacterGuidByName(CharacterName);</div>
+<div class="line"><span class="lineno">  318</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  319</span>        guid = pBanned-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>();</div>
+<div class="line"><span class="lineno">  320</span> </div>
+<div class="line"><span class="lineno">  321</span>    <span class="keywordflow">if</span> (!guid)</div>
+<div class="line"><span class="lineno">  322</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  323</span> </div>
+<div class="line"><span class="lineno">  324</span>    <a class="code hl_class" href="../../da/d37/class_prepared_statement.html">CharacterDatabasePreparedStatement</a>* stmt = <a class="code hl_variable" href="../../d6/d2e/_database_env_8cpp.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.GetPreparedStatement(<a class="code hl_enumvalue" href="../../d7/d54/_character_database_8h.html#a76116b4fa282d8e35bf8f8e940b5cba7a37f7c2469f8b641e5299c21f53405ea8">CHAR_UPD_CHARACTER_BAN</a>);</div>
+<div class="line"><span class="lineno">  325</span>    stmt-&gt;<a class="code hl_function" href="../../dd/d6a/class_prepared_statement_base.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(0, guid.<a class="code hl_function" href="../../d8/d03/class_object_guid.html#a0df27b85c91a2c619e8f1d9c2cb31677">GetCounter</a>());</div>
+<div class="line"><span class="lineno">  326</span>    <a class="code hl_variable" href="../../d6/d2e/_database_env_8cpp.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.Execute(stmt);</div>
+<div class="line"><span class="lineno">  327</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  328</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="afcf4857007432ebff042c85c5daf2325" name="afcf4857007432ebff042c85c5daf2325"></a>
@@ -429,12 +737,20 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Remove a ban from an account. </p>
-
+<div class="fragment"><div class="line"><span class="lineno">  301</span>{</div>
+<div class="line"><span class="lineno">  302</span>    <a class="code hl_class" href="../../da/d37/class_prepared_statement.html">LoginDatabasePreparedStatement</a>* stmt = <a class="code hl_variable" href="../../d6/d2e/_database_env_8cpp.html#a2cf25eafe7f2f73b61ccde11d55daf0c">LoginDatabase</a>.GetPreparedStatement(<a class="code hl_enumvalue" href="../../d8/d1e/_login_database_8h.html#a2bc6eef17d8ecd1b7027058f5fecc9fba29964e05308b2507b0a7c427c5c81ae9">LOGIN_DEL_IP_NOT_BANNED</a>);</div>
+<div class="line"><span class="lineno">  303</span>    stmt-&gt;<a class="code hl_function" href="../../dd/d6a/class_prepared_statement_base.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(0, IP);</div>
+<div class="line"><span class="lineno">  304</span>    <a class="code hl_variable" href="../../d6/d2e/_database_env_8cpp.html#a2cf25eafe7f2f73b61ccde11d55daf0c">LoginDatabase</a>.Execute(stmt);</div>
+<div class="line"><span class="lineno">  305</span> </div>
+<div class="line"><span class="lineno">  306</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  307</span>}</div>
+<div class="ttc" id="a_login_database_8h_html_a2bc6eef17d8ecd1b7027058f5fecc9fba29964e05308b2507b0a7c427c5c81ae9"><div class="ttname"><a href="../../d8/d1e/_login_database_8h.html#a2bc6eef17d8ecd1b7027058f5fecc9fba29964e05308b2507b0a7c427c5c81ae9">LOGIN_DEL_IP_NOT_BANNED</a></div><div class="ttdeci">@ LOGIN_DEL_IP_NOT_BANNED</div><div class="ttdef"><b>Definition:</b> LoginDatabase.h:56</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Misc/<a class="el" href="../../dd/d30/_ban_mgr_8h_source.html">BanMgr.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/Misc/<a class="el" href="../../d3/d6a/_ban_mgr_8cpp.html">BanMgr.cpp</a></li>
+<li><a class="el" href="../../">BanMgr.h</a></li>
+<li><a class="el" href="../../">BanMgr.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -442,7 +758,7 @@ Static Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d5/d94/class_ban_mgr.html">BanMgr</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:37 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:49 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

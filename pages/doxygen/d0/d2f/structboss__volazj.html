@@ -554,7 +554,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ac1f0bc7b55a554d29e55a376680bf747" name="ac1f0bc7b55a554d29e55a376680bf747"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac1f0bc7b55a554d29e55a376680bf747">&#9670;&#160;</a></span>boss_volazj()</h2>
 
@@ -578,7 +579,15 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   91</span>                                     : <a class="code hl_class" href="../../d4/d0e/class_boss_a_i.html">BossAI</a>(pCreature, <a class="code hl_enumvalue" href="../../da/dfd/ahnkahet_8h.html#aff905f3bb30004af8919ddfe3d29e8dda30b8528fb302a8f32b4db9e72b4889e5">DATA_HERALD_VOLAZJ</a>),</div>
+<div class="line"><span class="lineno">   92</span>        <a class="code hl_variable" href="../../d0/d2f/structboss__volazj.html#a7d2693147f9cb20a45ff2e5b6a2ca209">insanityTimes</a>(0),</div>
+<div class="line"><span class="lineno">   93</span>        <a class="code hl_variable" href="../../d0/d2f/structboss__volazj.html#ae90de1e956eb3653c8c2f0c04d89585b">insanityPhase</a>(<span class="keyword">false</span>)</div>
+<div class="line"><span class="lineno">   94</span>        { }</div>
+<div class="ttc" id="aahnkahet_8h_html_aff905f3bb30004af8919ddfe3d29e8dda30b8528fb302a8f32b4db9e72b4889e5"><div class="ttname"><a href="../../da/dfd/ahnkahet_8h.html#aff905f3bb30004af8919ddfe3d29e8dda30b8528fb302a8f32b4db9e72b4889e5">DATA_HERALD_VOLAZJ</a></div><div class="ttdeci">@ DATA_HERALD_VOLAZJ</div><div class="ttdef"><b>Definition:</b> ahnkahet.h:29</div></div>
+<div class="ttc" id="aclass_boss_a_i_html"><div class="ttname"><a href="../../d4/d0e/class_boss_a_i.html">BossAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:424</div></div>
+<div class="ttc" id="astructboss__volazj_html_a7d2693147f9cb20a45ff2e5b6a2ca209"><div class="ttname"><a href="../../d0/d2f/structboss__volazj.html#a7d2693147f9cb20a45ff2e5b6a2ca209">boss_volazj::insanityTimes</a></div><div class="ttdeci">uint8 insanityTimes</div><div class="ttdef"><b>Definition:</b> boss_herald_volazj.cpp:275</div></div>
+<div class="ttc" id="astructboss__volazj_html_ae90de1e956eb3653c8c2f0c04d89585b"><div class="ttname"><a href="../../d0/d2f/structboss__volazj.html#ae90de1e956eb3653c8c2f0c04d89585b">boss_volazj::insanityPhase</a></div><div class="ttdeci">bool insanityPhase</div><div class="ttdef"><b>Definition:</b> boss_herald_volazj.cpp:276</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -604,7 +613,53 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  313</span>    {</div>
+<div class="line"><span class="lineno">  314</span>        <a class="code hl_variable" href="../../d4/d0e/class_boss_a_i.html#a9deaaae20cd3bd12dcc3889f79b2c6cc">summons</a>.<a class="code hl_function" href="../../d8/d7a/class_summon_list.html#a486ecae3693d06083f85c25f15392c15">RemoveNotExisting</a>();</div>
+<div class="line"><span class="lineno">  315</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d4/d0e/class_boss_a_i.html#a9deaaae20cd3bd12dcc3889f79b2c6cc">summons</a>.<a class="code hl_function" href="../../d8/d7a/class_summon_list.html#a10b29ba099a9b99fde54101358dea8dc">empty</a>())</div>
+<div class="line"><span class="lineno">  316</span>        {</div>
+<div class="line"><span class="lineno">  317</span>            <a class="code hl_function" href="../../d0/d2f/structboss__volazj.html#afbfa62f2b72a95434348f74fdda46da6">ResetPlayersPhaseMask</a>();</div>
+<div class="line"><span class="lineno">  318</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  319</span>        }</div>
+<div class="line"><span class="lineno">  320</span> </div>
+<div class="line"><span class="lineno">  321</span>        <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> <a class="code hl_enumeration" href="../../d6/dd9/boss__skadi_8cpp.html#a4432ad5c680b2372adf2f56998516c6d">phase</a> = 1;</div>
+<div class="line"><span class="lineno">  322</span>        <span class="keywordflow">for</span> (<a class="code hl_class" href="../../d8/d03/class_object_guid.html">ObjectGuid</a> <span class="keyword">const</span>&amp; summonGUID : <a class="code hl_variable" href="../../d4/d0e/class_boss_a_i.html#a9deaaae20cd3bd12dcc3889f79b2c6cc">summons</a>)</div>
+<div class="line"><span class="lineno">  323</span>        {</div>
+<div class="line"><span class="lineno">  324</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* summon = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a>(*<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, summonGUID))</div>
+<div class="line"><span class="lineno">  325</span>            {</div>
+<div class="line"><span class="lineno">  326</span>                <a class="code hl_enumeration" href="../../d6/dd9/boss__skadi_8cpp.html#a4432ad5c680b2372adf2f56998516c6d">phase</a> |= summon-&gt;GetPhaseMask();</div>
+<div class="line"><span class="lineno">  327</span>            }</div>
+<div class="line"><span class="lineno">  328</span>        }</div>
+<div class="line"><span class="lineno">  329</span> </div>
+<div class="line"><span class="lineno">  330</span>        <a class="code hl_class" href="../../db/d87/class_map_ref_mgr.html">Map::PlayerList</a> <span class="keyword">const</span>&amp; players = <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a1013c27be4347a1b1a4a986a07456deb">GetMap</a>()-&gt;<a class="code hl_function" href="../../dd/d11/class_map.html#ae37764185b1adf2c6438025e4fa9091a">GetPlayers</a>();</div>
+<div class="line"><span class="lineno">  331</span>        <span class="keywordflow">for</span> (<span class="keyword">auto</span> <span class="keyword">const</span>&amp; i : players)</div>
+<div class="line"><span class="lineno">  332</span>        {</div>
+<div class="line"><span class="lineno">  333</span>            <a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* pPlayer = i.GetSource();</div>
+<div class="line"><span class="lineno">  334</span>            <span class="keywordflow">if</span> (pPlayer &amp;&amp; !(pPlayer-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a0a471b58ac8905281008aa4a730c4093">GetPhaseMask</a>() &amp; <a class="code hl_enumeration" href="../../d6/dd9/boss__skadi_8cpp.html#a4432ad5c680b2372adf2f56998516c6d">phase</a>))</div>
+<div class="line"><span class="lineno">  335</span>            {</div>
+<div class="line"><span class="lineno">  336</span>                pPlayer-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aac612f06e84142d92dcfc432b5feb4ac">RemoveAurasDueToSpell</a>(<a class="code hl_function" href="../../d0/d2f/structboss__volazj.html#a5b6936cedb3fc411ae58f3dc3f6b689a">GetPlrInsanityAuraId</a>(pPlayer-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a0a471b58ac8905281008aa4a730c4093">GetPhaseMask</a>()));</div>
+<div class="line"><span class="lineno">  337</span>            }</div>
+<div class="line"><span class="lineno">  338</span>        }</div>
+<div class="line"><span class="lineno">  339</span> </div>
+<div class="line"><span class="lineno">  340</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  341</span>    }</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="aboss__skadi_8cpp_html_a4432ad5c680b2372adf2f56998516c6d"><div class="ttname"><a href="../../d6/dd9/boss__skadi_8cpp.html#a4432ad5c680b2372adf2f56998516c6d">phase</a></div><div class="ttdeci">phase</div><div class="ttdef"><b>Definition:</b> boss_skadi.cpp:102</div></div>
+<div class="ttc" id="aclass_boss_a_i_html_a9deaaae20cd3bd12dcc3889f79b2c6cc"><div class="ttname"><a href="../../d4/d0e/class_boss_a_i.html#a9deaaae20cd3bd12dcc3889f79b2c6cc">BossAI::summons</a></div><div class="ttdeci">SummonList summons</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:457</div></div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_map_html_ae37764185b1adf2c6438025e4fa9091a"><div class="ttname"><a href="../../dd/d11/class_map.html#ae37764185b1adf2c6438025e4fa9091a">Map::GetPlayers</a></div><div class="ttdeci">PlayerList const &amp; GetPlayers() const</div><div class="ttdef"><b>Definition:</b> Map.h:484</div></div>
+<div class="ttc" id="aclass_map_ref_mgr_html"><div class="ttname"><a href="../../db/d87/class_map_ref_mgr.html">MapRefMgr</a></div><div class="ttdef"><b>Definition:</b> MapRefMgr.h:26</div></div>
+<div class="ttc" id="aclass_object_guid_html"><div class="ttname"><a href="../../d8/d03/class_object_guid.html">ObjectGuid</a></div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:120</div></div>
+<div class="ttc" id="aclass_player_html"><div class="ttname"><a href="../../d8/d53/class_player.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1046</div></div>
+<div class="ttc" id="aclass_summon_list_html_a10b29ba099a9b99fde54101358dea8dc"><div class="ttname"><a href="../../d8/d7a/class_summon_list.html#a10b29ba099a9b99fde54101358dea8dc">SummonList::empty</a></div><div class="ttdeci">bool empty() const</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:74</div></div>
+<div class="ttc" id="aclass_summon_list_html_a486ecae3693d06083f85c25f15392c15"><div class="ttname"><a href="../../d8/d7a/class_summon_list.html#a486ecae3693d06083f85c25f15392c15">SummonList::RemoveNotExisting</a></div><div class="ttdeci">void RemoveNotExisting()</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.cpp:78</div></div>
+<div class="ttc" id="aclass_unit_html_aac612f06e84142d92dcfc432b5feb4ac"><div class="ttname"><a href="../../da/db7/class_unit.html#aac612f06e84142d92dcfc432b5feb4ac">Unit::RemoveAurasDueToSpell</a></div><div class="ttdeci">void RemoveAurasDueToSpell(uint32 spellId, ObjectGuid casterGUID=ObjectGuid::Empty, uint8 reqEffMask=0, AuraRemoveMode removeMode=AURA_REMOVE_BY_DEFAULT)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:4823</div></div>
+<div class="ttc" id="aclass_world_object_html_a0a471b58ac8905281008aa4a730c4093"><div class="ttname"><a href="../../db/df7/class_world_object.html#a0a471b58ac8905281008aa4a730c4093">WorldObject::GetPhaseMask</a></div><div class="ttdeci">uint32 GetPhaseMask() const</div><div class="ttdef"><b>Definition:</b> Object.h:434</div></div>
+<div class="ttc" id="aclass_world_object_html_a1013c27be4347a1b1a4a986a07456deb"><div class="ttname"><a href="../../db/df7/class_world_object.html#a1013c27be4347a1b1a4a986a07456deb">WorldObject::GetMap</a></div><div class="ttdeci">Map * GetMap() const</div><div class="ttdef"><b>Definition:</b> Object.h:517</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_ae42e503fe79bbeaea1aaa665418c43f8"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a></div><div class="ttdeci">Creature * GetCreature(WorldObject const &amp;u, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:215</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+<div class="ttc" id="astructboss__volazj_html_a5b6936cedb3fc411ae58f3dc3f6b689a"><div class="ttname"><a href="../../d0/d2f/structboss__volazj.html#a5b6936cedb3fc411ae58f3dc3f6b689a">boss_volazj::GetPlrInsanityAuraId</a></div><div class="ttdeci">uint32 GetPlrInsanityAuraId(uint32 phaseMask) const</div><div class="ttdef"><b>Definition:</b> boss_herald_volazj.cpp:278</div></div>
+<div class="ttc" id="astructboss__volazj_html_afbfa62f2b72a95434348f74fdda46da6"><div class="ttname"><a href="../../d0/d2f/structboss__volazj.html#afbfa62f2b72a95434348f74fdda46da6">boss_volazj::ResetPlayersPhaseMask</a></div><div class="ttdeci">void ResetPlayersPhaseMask()</div><div class="ttdef"><b>Definition:</b> boss_herald_volazj.cpp:297</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a494d78875526d878421b995145b74a12" name="a494d78875526d878421b995145b74a12"></a>
@@ -654,7 +709,33 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a0d572a234f887646543620c847bd61cd">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  188</span>    {</div>
+<div class="line"><span class="lineno">  189</span>        <span class="comment">// Do not perform insanity recast if boss is casting Insanity already</span></div>
+<div class="line"><span class="lineno">  190</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a2e9a4c70bb5a75e546c63acf5242b6f0">FindCurrentSpellBySpellId</a>(<a class="code hl_enumvalue" href="../../da/d66/boss__herald__volazj_8cpp.html#a5bd342133be8c2137b831460acc9298ca1d88e5b9cac1abe32f0941d9e9825d44">SPELL_INSANITY</a>))</div>
+<div class="line"><span class="lineno">  191</span>        {</div>
+<div class="line"><span class="lineno">  192</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  193</span>        }</div>
+<div class="line"><span class="lineno">  194</span> </div>
+<div class="line"><span class="lineno">  195</span>        <span class="comment">// First insanity</span></div>
+<div class="line"><span class="lineno">  196</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d0/d2f/structboss__volazj.html#a7d2693147f9cb20a45ff2e5b6a2ca209">insanityTimes</a> == 0 &amp;&amp; <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ad08665e79b8df4fd5339b05ae1538dd9">HealthBelowPctDamaged</a>(66, damage))</div>
+<div class="line"><span class="lineno">  197</span>        {</div>
+<div class="line"><span class="lineno">  198</span>            <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6ae5c7d15b747433f4d94f80bcebd215">DoCastSelf</a>(<a class="code hl_enumvalue" href="../../da/d66/boss__herald__volazj_8cpp.html#a5bd342133be8c2137b831460acc9298ca1d88e5b9cac1abe32f0941d9e9825d44">SPELL_INSANITY</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  199</span>            ++<a class="code hl_variable" href="../../d0/d2f/structboss__volazj.html#a7d2693147f9cb20a45ff2e5b6a2ca209">insanityTimes</a>;</div>
+<div class="line"><span class="lineno">  200</span>        }</div>
+<div class="line"><span class="lineno">  201</span>        <span class="comment">// Second insanity</span></div>
+<div class="line"><span class="lineno">  202</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d0/d2f/structboss__volazj.html#a7d2693147f9cb20a45ff2e5b6a2ca209">insanityTimes</a> == 1 &amp;&amp; <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ad08665e79b8df4fd5339b05ae1538dd9">HealthBelowPctDamaged</a>(33, damage))</div>
+<div class="line"><span class="lineno">  203</span>        {</div>
+<div class="line"><span class="lineno">  204</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a2bdfe38bdc28869a9002094e4341d56e">InterruptNonMeleeSpells</a>(<span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  205</span>            <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6ae5c7d15b747433f4d94f80bcebd215">DoCastSelf</a>(<a class="code hl_enumvalue" href="../../da/d66/boss__herald__volazj_8cpp.html#a5bd342133be8c2137b831460acc9298ca1d88e5b9cac1abe32f0941d9e9825d44">SPELL_INSANITY</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  206</span>            ++<a class="code hl_variable" href="../../d0/d2f/structboss__volazj.html#a7d2693147f9cb20a45ff2e5b6a2ca209">insanityTimes</a>;</div>
+<div class="line"><span class="lineno">  207</span>        }</div>
+<div class="line"><span class="lineno">  208</span>    }</div>
+<div class="ttc" id="aboss__herald__volazj_8cpp_html_a5bd342133be8c2137b831460acc9298ca1d88e5b9cac1abe32f0941d9e9825d44"><div class="ttname"><a href="../../da/d66/boss__herald__volazj_8cpp.html#a5bd342133be8c2137b831460acc9298ca1d88e5b9cac1abe32f0941d9e9825d44">SPELL_INSANITY</a></div><div class="ttdeci">@ SPELL_INSANITY</div><div class="ttdef"><b>Definition:</b> boss_herald_volazj.cpp:33</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a6ae5c7d15b747433f4d94f80bcebd215"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a6ae5c7d15b747433f4d94f80bcebd215">UnitAI::DoCastSelf</a></div><div class="ttdeci">SpellCastResult DoCastSelf(uint32 spellId, bool triggered=false)</div><div class="ttdef"><b>Definition:</b> UnitAI.h:323</div></div>
+<div class="ttc" id="aclass_unit_html_a2bdfe38bdc28869a9002094e4341d56e"><div class="ttname"><a href="../../da/db7/class_unit.html#a2bdfe38bdc28869a9002094e4341d56e">Unit::InterruptNonMeleeSpells</a></div><div class="ttdeci">void InterruptNonMeleeSpells(bool withDelayed, uint32 spellid=0, bool withInstant=true, bool bySelf=false)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:4057</div></div>
+<div class="ttc" id="aclass_unit_html_a2e9a4c70bb5a75e546c63acf5242b6f0"><div class="ttname"><a href="../../da/db7/class_unit.html#a2e9a4c70bb5a75e546c63acf5242b6f0">Unit::FindCurrentSpellBySpellId</a></div><div class="ttdeci">Spell * FindCurrentSpellBySpellId(uint32 spell_id) const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:4072</div></div>
+<div class="ttc" id="aclass_unit_html_ad08665e79b8df4fd5339b05ae1538dd9"><div class="ttname"><a href="../../da/db7/class_unit.html#ad08665e79b8df4fd5339b05ae1538dd9">Unit::HealthBelowPctDamaged</a></div><div class="ttdeci">bool HealthBelowPctDamaged(int32 pct, uint32 damage) const</div><div class="ttdef"><b>Definition:</b> Unit.h:1443</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a3f37ad9e1b99e23e16f36e4630d62511" name="a3f37ad9e1b99e23e16f36e4630d62511"></a>
@@ -682,7 +763,30 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d4/d0e/class_boss_a_i.html#a2f3d2c15114cff26b92dedd45dff0905">BossAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  116</span>    {</div>
+<div class="line"><span class="lineno">  117</span>        <a class="code hl_function" href="../../d4/d0e/class_boss_a_i.html#adbdded8bea1d5cf779f2aed9bc2a4821">_EnterCombat</a>();</div>
+<div class="line"><span class="lineno">  118</span>        <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../da/d66/boss__herald__volazj_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a7fc0a708d1fb35eda35aebc202624487">EVENT_HERALD_MIND_FLAY</a>, 8000);</div>
+<div class="line"><span class="lineno">  119</span>        <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../da/d66/boss__herald__volazj_8cpp.html#af60e00b78607064c5be6aa9397ea49c1ae1bcd15a1bfa0fdfdf92a2dfcd8b04b0">EVENT_HERALD_SHADOW</a>, 5000);</div>
+<div class="line"><span class="lineno">  120</span>        <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../da/d66/boss__herald__volazj_8cpp.html#af60e00b78607064c5be6aa9397ea49c1afede975d97d911ee40656b1d8d7603fe">EVENT_HERALD_SHIVER</a>, 15000);</div>
+<div class="line"><span class="lineno">  121</span>        <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../da/d66/boss__herald__volazj_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31a47c752fff069f3e55065795eef2a9bfe">SAY_AGGRO</a>);</div>
+<div class="line"><span class="lineno">  122</span>        <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6ae5c7d15b747433f4d94f80bcebd215">DoCastSelf</a>(<a class="code hl_enumvalue" href="../../da/d66/boss__herald__volazj_8cpp.html#a5bd342133be8c2137b831460acc9298ca8aa86d318577ddec09becfd357eed5aa">SPELL_WHISPER_AGGRO</a>);</div>
+<div class="line"><span class="lineno">  123</span>        <a class="code hl_variable" href="../../d4/d0e/class_boss_a_i.html#a05890dbd00c482b204af44f69d3efdc0">instance</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_instance_script.html#ac01ba61e0495829df66878fca191f7eb">DoStartTimedAchievement</a>(<a class="code hl_enumvalue" href="../../dc/d6e/_d_b_c_enums_8h.html#a282f094fb8ee80177dd57d2086ddd35bac02bba0f3ad69a2fc8ccde1efade56a3">ACHIEVEMENT_TIMED_TYPE_EVENT</a>, <a class="code hl_enumvalue" href="../../da/d66/boss__herald__volazj_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a15e2c595fdcb683265e35485a434b7d1">ACHIEV_QUICK_DEMISE_START_EVENT</a>);</div>
+<div class="line"><span class="lineno">  124</span>        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a01ccacf28df6336a774bf1672caf3571">SetInCombatWithZone</a>();</div>
+<div class="line"><span class="lineno">  125</span>    }</div>
+<div class="ttc" id="a_d_b_c_enums_8h_html_a282f094fb8ee80177dd57d2086ddd35bac02bba0f3ad69a2fc8ccde1efade56a3"><div class="ttname"><a href="../../dc/d6e/_d_b_c_enums_8h.html#a282f094fb8ee80177dd57d2086ddd35bac02bba0f3ad69a2fc8ccde1efade56a3">ACHIEVEMENT_TIMED_TYPE_EVENT</a></div><div class="ttdeci">@ ACHIEVEMENT_TIMED_TYPE_EVENT</div><div class="ttdef"><b>Definition:</b> DBCEnums.h:116</div></div>
+<div class="ttc" id="aboss__fathomlord__karathress_8cpp_html_a747a224b6b3195f9a33c56ddc6c7e268"><div class="ttname"><a href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a></div><div class="ttdeci">Talk</div><div class="ttdef"><b>Definition:</b> boss_fathomlord_karathress.cpp:23</div></div>
+<div class="ttc" id="aboss__herald__volazj_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6a15e2c595fdcb683265e35485a434b7d1"><div class="ttname"><a href="../../da/d66/boss__herald__volazj_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a15e2c595fdcb683265e35485a434b7d1">ACHIEV_QUICK_DEMISE_START_EVENT</a></div><div class="ttdeci">@ ACHIEV_QUICK_DEMISE_START_EVENT</div><div class="ttdef"><b>Definition:</b> boss_herald_volazj.cpp:74</div></div>
+<div class="ttc" id="aboss__herald__volazj_8cpp_html_a5bd342133be8c2137b831460acc9298ca8aa86d318577ddec09becfd357eed5aa"><div class="ttname"><a href="../../da/d66/boss__herald__volazj_8cpp.html#a5bd342133be8c2137b831460acc9298ca8aa86d318577ddec09becfd357eed5aa">SPELL_WHISPER_AGGRO</a></div><div class="ttdeci">@ SPELL_WHISPER_AGGRO</div><div class="ttdef"><b>Definition:</b> boss_herald_volazj.cpp:43</div></div>
+<div class="ttc" id="aboss__herald__volazj_8cpp_html_aa80bce1d0ea05213c0d6c327126caf31a47c752fff069f3e55065795eef2a9bfe"><div class="ttname"><a href="../../da/d66/boss__herald__volazj_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31a47c752fff069f3e55065795eef2a9bfe">SAY_AGGRO</a></div><div class="ttdeci">@ SAY_AGGRO</div><div class="ttdef"><b>Definition:</b> boss_herald_volazj.cpp:54</div></div>
+<div class="ttc" id="aboss__herald__volazj_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a7fc0a708d1fb35eda35aebc202624487"><div class="ttname"><a href="../../da/d66/boss__herald__volazj_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a7fc0a708d1fb35eda35aebc202624487">EVENT_HERALD_MIND_FLAY</a></div><div class="ttdeci">@ EVENT_HERALD_MIND_FLAY</div><div class="ttdef"><b>Definition:</b> boss_herald_volazj.cpp:82</div></div>
+<div class="ttc" id="aboss__herald__volazj_8cpp_html_af60e00b78607064c5be6aa9397ea49c1ae1bcd15a1bfa0fdfdf92a2dfcd8b04b0"><div class="ttname"><a href="../../da/d66/boss__herald__volazj_8cpp.html#af60e00b78607064c5be6aa9397ea49c1ae1bcd15a1bfa0fdfdf92a2dfcd8b04b0">EVENT_HERALD_SHADOW</a></div><div class="ttdeci">@ EVENT_HERALD_SHADOW</div><div class="ttdef"><b>Definition:</b> boss_herald_volazj.cpp:83</div></div>
+<div class="ttc" id="aboss__herald__volazj_8cpp_html_af60e00b78607064c5be6aa9397ea49c1afede975d97d911ee40656b1d8d7603fe"><div class="ttname"><a href="../../da/d66/boss__herald__volazj_8cpp.html#af60e00b78607064c5be6aa9397ea49c1afede975d97d911ee40656b1d8d7603fe">EVENT_HERALD_SHIVER</a></div><div class="ttdeci">@ EVENT_HERALD_SHIVER</div><div class="ttdef"><b>Definition:</b> boss_herald_volazj.cpp:84</div></div>
+<div class="ttc" id="aboss__sartura_8cpp_html_ad29858f6d8ab73f2970f41cb21a76b84"><div class="ttname"><a href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a></div><div class="ttdeci">events</div><div class="ttdef"><b>Definition:</b> boss_sartura.cpp:43</div></div>
+<div class="ttc" id="aclass_boss_a_i_html_a05890dbd00c482b204af44f69d3efdc0"><div class="ttname"><a href="../../d4/d0e/class_boss_a_i.html#a05890dbd00c482b204af44f69d3efdc0">BossAI::instance</a></div><div class="ttdeci">InstanceScript *const instance</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:429</div></div>
+<div class="ttc" id="aclass_boss_a_i_html_adbdded8bea1d5cf779f2aed9bc2a4821"><div class="ttname"><a href="../../d4/d0e/class_boss_a_i.html#adbdded8bea1d5cf779f2aed9bc2a4821">BossAI::_EnterCombat</a></div><div class="ttdeci">void _EnterCombat()</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.cpp:562</div></div>
+<div class="ttc" id="aclass_creature_html_a01ccacf28df6336a774bf1672caf3571"><div class="ttname"><a href="../../d1/dac/class_creature.html#a01ccacf28df6336a774bf1672caf3571">Creature::SetInCombatWithZone</a></div><div class="ttdeci">void SetInCombatWithZone()</div><div class="ttdef"><b>Definition:</b> Creature.cpp:2705</div></div>
+<div class="ttc" id="aclass_instance_script_html_ac01ba61e0495829df66878fca191f7eb"><div class="ttname"><a href="../../d8/d83/class_instance_script.html#ac01ba61e0495829df66878fca191f7eb">InstanceScript::DoStartTimedAchievement</a></div><div class="ttdeci">void DoStartTimedAchievement(AchievementCriteriaTimedTypes type, uint32 entry)</div><div class="ttdef"><b>Definition:</b> InstanceScript.cpp:464</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a5b6936cedb3fc411ae58f3dc3f6b689a" name="a5b6936cedb3fc411ae58f3dc3f6b689a"></a>
@@ -708,7 +812,29 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  279</span>    {</div>
+<div class="line"><span class="lineno">  280</span>        <span class="keywordflow">switch</span> (phaseMask)</div>
+<div class="line"><span class="lineno">  281</span>        {</div>
+<div class="line"><span class="lineno">  282</span>            <span class="keywordflow">case</span> 16:</div>
+<div class="line"><span class="lineno">  283</span>                <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../da/d66/boss__herald__volazj_8cpp.html#a5bd342133be8c2137b831460acc9298ca045717f4c6d22c9ffa8d175b66a74447">SPELL_INSANITY_PHASING_1</a>;</div>
+<div class="line"><span class="lineno">  284</span>            <span class="keywordflow">case</span> 32:</div>
+<div class="line"><span class="lineno">  285</span>                <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../da/d66/boss__herald__volazj_8cpp.html#a5bd342133be8c2137b831460acc9298caf38f3162525e81888a09ec42b5e27632">SPELL_INSANITY_PHASING_2</a>;</div>
+<div class="line"><span class="lineno">  286</span>            <span class="keywordflow">case</span> 64:</div>
+<div class="line"><span class="lineno">  287</span>                <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../da/d66/boss__herald__volazj_8cpp.html#a5bd342133be8c2137b831460acc9298caf47a3020d38dcff15edb6d12f37304ff">SPELL_INSANITY_PHASING_3</a>;</div>
+<div class="line"><span class="lineno">  288</span>            <span class="keywordflow">case</span> 128:</div>
+<div class="line"><span class="lineno">  289</span>                <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../da/d66/boss__herald__volazj_8cpp.html#a5bd342133be8c2137b831460acc9298caaf4379fb6add5837b00a386a16ca3ecf">SPELL_INSANITY_PHASING_4</a>;</div>
+<div class="line"><span class="lineno">  290</span>            <span class="keywordflow">case</span> 256:</div>
+<div class="line"><span class="lineno">  291</span>                <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../da/d66/boss__herald__volazj_8cpp.html#a5bd342133be8c2137b831460acc9298ca3bafb648fec13c59a61053cb15b776c9">SPELL_INSANITY_PHASING_5</a>;</div>
+<div class="line"><span class="lineno">  292</span>        }</div>
+<div class="line"><span class="lineno">  293</span> </div>
+<div class="line"><span class="lineno">  294</span>        <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">  295</span>    }</div>
+<div class="ttc" id="aboss__herald__volazj_8cpp_html_a5bd342133be8c2137b831460acc9298ca045717f4c6d22c9ffa8d175b66a74447"><div class="ttname"><a href="../../da/d66/boss__herald__volazj_8cpp.html#a5bd342133be8c2137b831460acc9298ca045717f4c6d22c9ffa8d175b66a74447">SPELL_INSANITY_PHASING_1</a></div><div class="ttdeci">@ SPELL_INSANITY_PHASING_1</div><div class="ttdef"><b>Definition:</b> boss_herald_volazj.cpp:37</div></div>
+<div class="ttc" id="aboss__herald__volazj_8cpp_html_a5bd342133be8c2137b831460acc9298ca3bafb648fec13c59a61053cb15b776c9"><div class="ttname"><a href="../../da/d66/boss__herald__volazj_8cpp.html#a5bd342133be8c2137b831460acc9298ca3bafb648fec13c59a61053cb15b776c9">SPELL_INSANITY_PHASING_5</a></div><div class="ttdeci">@ SPELL_INSANITY_PHASING_5</div><div class="ttdef"><b>Definition:</b> boss_herald_volazj.cpp:41</div></div>
+<div class="ttc" id="aboss__herald__volazj_8cpp_html_a5bd342133be8c2137b831460acc9298caaf4379fb6add5837b00a386a16ca3ecf"><div class="ttname"><a href="../../da/d66/boss__herald__volazj_8cpp.html#a5bd342133be8c2137b831460acc9298caaf4379fb6add5837b00a386a16ca3ecf">SPELL_INSANITY_PHASING_4</a></div><div class="ttdeci">@ SPELL_INSANITY_PHASING_4</div><div class="ttdef"><b>Definition:</b> boss_herald_volazj.cpp:40</div></div>
+<div class="ttc" id="aboss__herald__volazj_8cpp_html_a5bd342133be8c2137b831460acc9298caf38f3162525e81888a09ec42b5e27632"><div class="ttname"><a href="../../da/d66/boss__herald__volazj_8cpp.html#a5bd342133be8c2137b831460acc9298caf38f3162525e81888a09ec42b5e27632">SPELL_INSANITY_PHASING_2</a></div><div class="ttdeci">@ SPELL_INSANITY_PHASING_2</div><div class="ttdef"><b>Definition:</b> boss_herald_volazj.cpp:38</div></div>
+<div class="ttc" id="aboss__herald__volazj_8cpp_html_a5bd342133be8c2137b831460acc9298caf47a3020d38dcff15edb6d12f37304ff"><div class="ttname"><a href="../../da/d66/boss__herald__volazj_8cpp.html#a5bd342133be8c2137b831460acc9298caf47a3020d38dcff15edb6d12f37304ff">SPELL_INSANITY_PHASING_3</a></div><div class="ttdeci">@ SPELL_INSANITY_PHASING_3</div><div class="ttdef"><b>Definition:</b> boss_herald_volazj.cpp:39</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a9480c4294b18c5417895e5070be9a455" name="a9480c4294b18c5417895e5070be9a455"></a>
@@ -735,7 +861,14 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d9c/class_unit_a_i.html#aa88ecdf57b44fb013c3fed4ff59aec0d">UnitAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   97</span>    {</div>
+<div class="line"><span class="lineno">   98</span>        <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aa88ecdf57b44fb013c3fed4ff59aec0d">BossAI::InitializeAI</a>();</div>
+<div class="line"><span class="lineno">   99</span>        <span class="comment">// Visible for all players in insanity</span></div>
+<div class="line"><span class="lineno">  100</span>        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3f511c51aa1082be9d4777c770a3485">SetPhaseMask</a>((1 | 16 | 32 | 64 | 128 | 256), <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  101</span>    }</div>
+<div class="ttc" id="aclass_unit_a_i_html_aa88ecdf57b44fb013c3fed4ff59aec0d"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#aa88ecdf57b44fb013c3fed4ff59aec0d">UnitAI::InitializeAI</a></div><div class="ttdeci">virtual void InitializeAI()</div><div class="ttdef"><b>Definition:</b> UnitAI.h:188</div></div>
+<div class="ttc" id="aclass_unit_html_aa3f511c51aa1082be9d4777c770a3485"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3f511c51aa1082be9d4777c770a3485">Unit::SetPhaseMask</a></div><div class="ttdeci">void SetPhaseMask(uint32 newPhaseMask, bool update) override</div><div class="ttdef"><b>Definition:</b> Unit.cpp:19081</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a6c85c56c2483c3e8b4de67b94a45e0a6" name="a6c85c56c2483c3e8b4de67b94a45e0a6"></a>
@@ -763,7 +896,39 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d4/d0e/class_boss_a_i.html#a3980e3c1e8e9992034c9ec35a8b3e298">BossAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  128</span>    {</div>
+<div class="line"><span class="lineno">  129</span>        <a class="code hl_function" href="../../d4/d0e/class_boss_a_i.html#acb0ee118bdfc7f7aef660e44b5fb18ae">_JustDied</a>();</div>
+<div class="line"><span class="lineno">  130</span>        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#af9a5a43c2d7940c38f8b101409666a0d">RemoveUnitFlag</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a8b7b8fe906282847f5f337728d4a534f">UNIT_FLAG_NOT_SELECTABLE</a>);</div>
+<div class="line"><span class="lineno">  131</span>        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a2903449b4183e13866c6e98d77578887">SetControlled</a>(<span class="keyword">false</span>, <a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544aefe799c73ede1e5d5ffed28f69074106">UNIT_STATE_STUNNED</a>);</div>
+<div class="line"><span class="lineno">  132</span>        <a class="code hl_function" href="../../d0/d2f/structboss__volazj.html#afbfa62f2b72a95434348f74fdda46da6">ResetPlayersPhaseMask</a>();</div>
+<div class="line"><span class="lineno">  133</span> </div>
+<div class="line"><span class="lineno">  134</span>        <span class="keywordflow">switch</span> (<a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(0, 1))</div>
+<div class="line"><span class="lineno">  135</span>        {</div>
+<div class="line"><span class="lineno">  136</span>            <span class="keywordflow">case</span> 0:</div>
+<div class="line"><span class="lineno">  137</span>            {</div>
+<div class="line"><span class="lineno">  138</span>                <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../da/d66/boss__herald__volazj_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31add979b80187102866dc2b53726c40f64">SAY_DEATH_1</a>);</div>
+<div class="line"><span class="lineno">  139</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6ae5c7d15b747433f4d94f80bcebd215">DoCastSelf</a>(<a class="code hl_enumvalue" href="../../da/d66/boss__herald__volazj_8cpp.html#a5bd342133be8c2137b831460acc9298cad350644bac142d18071cece89af926b9">SPELL_WHISPER_DEATH_1</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  140</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  141</span>            }</div>
+<div class="line"><span class="lineno">  142</span>            <span class="keywordflow">case</span> 1:</div>
+<div class="line"><span class="lineno">  143</span>            {</div>
+<div class="line"><span class="lineno">  144</span>                <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../da/d66/boss__herald__volazj_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31a38f8713ecf5f33c0d9a5bd3d3933200e">SAY_DEATH_2</a>);</div>
+<div class="line"><span class="lineno">  145</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6ae5c7d15b747433f4d94f80bcebd215">DoCastSelf</a>(<a class="code hl_enumvalue" href="../../da/d66/boss__herald__volazj_8cpp.html#a5bd342133be8c2137b831460acc9298caf8bb36a7029171b42364e7f516cae5d1">SPELL_WHISPER_DEATH_2</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  146</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  147</span>            }</div>
+<div class="line"><span class="lineno">  148</span>        }</div>
+<div class="line"><span class="lineno">  149</span>    }</div>
+<div class="ttc" id="a_random_8cpp_html_ab17def34ccbbd868dc87a16bf35acdbd"><div class="ttname"><a href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a></div><div class="ttdeci">uint32 urand(uint32 min, uint32 max)</div><div class="ttdef"><b>Definition:</b> Random.cpp:44</div></div>
+<div class="ttc" id="a_unit_8h_html_ae51d2ecb71f7a5cb3882982a622c9544aefe799c73ede1e5d5ffed28f69074106"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544aefe799c73ede1e5d5ffed28f69074106">UNIT_STATE_STUNNED</a></div><div class="ttdeci">@ UNIT_STATE_STUNNED</div><div class="ttdef"><b>Definition:</b> Unit.h:328</div></div>
+<div class="ttc" id="a_unit_8h_html_affdd0d554c8bcaaa85a879f5a9d60934a8b7b8fe906282847f5f337728d4a534f"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a8b7b8fe906282847f5f337728d4a534f">UNIT_FLAG_NOT_SELECTABLE</a></div><div class="ttdeci">@ UNIT_FLAG_NOT_SELECTABLE</div><div class="ttdef"><b>Definition:</b> Unit.h:473</div></div>
+<div class="ttc" id="aboss__herald__volazj_8cpp_html_a5bd342133be8c2137b831460acc9298cad350644bac142d18071cece89af926b9"><div class="ttname"><a href="../../da/d66/boss__herald__volazj_8cpp.html#a5bd342133be8c2137b831460acc9298cad350644bac142d18071cece89af926b9">SPELL_WHISPER_DEATH_1</a></div><div class="ttdeci">@ SPELL_WHISPER_DEATH_1</div><div class="ttdef"><b>Definition:</b> boss_herald_volazj.cpp:48</div></div>
+<div class="ttc" id="aboss__herald__volazj_8cpp_html_a5bd342133be8c2137b831460acc9298caf8bb36a7029171b42364e7f516cae5d1"><div class="ttname"><a href="../../da/d66/boss__herald__volazj_8cpp.html#a5bd342133be8c2137b831460acc9298caf8bb36a7029171b42364e7f516cae5d1">SPELL_WHISPER_DEATH_2</a></div><div class="ttdeci">@ SPELL_WHISPER_DEATH_2</div><div class="ttdef"><b>Definition:</b> boss_herald_volazj.cpp:49</div></div>
+<div class="ttc" id="aboss__herald__volazj_8cpp_html_aa80bce1d0ea05213c0d6c327126caf31a38f8713ecf5f33c0d9a5bd3d3933200e"><div class="ttname"><a href="../../da/d66/boss__herald__volazj_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31a38f8713ecf5f33c0d9a5bd3d3933200e">SAY_DEATH_2</a></div><div class="ttdeci">@ SAY_DEATH_2</div><div class="ttdef"><b>Definition:</b> boss_herald_volazj.cpp:60</div></div>
+<div class="ttc" id="aboss__herald__volazj_8cpp_html_aa80bce1d0ea05213c0d6c327126caf31add979b80187102866dc2b53726c40f64"><div class="ttname"><a href="../../da/d66/boss__herald__volazj_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31add979b80187102866dc2b53726c40f64">SAY_DEATH_1</a></div><div class="ttdeci">@ SAY_DEATH_1</div><div class="ttdef"><b>Definition:</b> boss_herald_volazj.cpp:59</div></div>
+<div class="ttc" id="aclass_boss_a_i_html_acb0ee118bdfc7f7aef660e44b5fb18ae"><div class="ttname"><a href="../../d4/d0e/class_boss_a_i.html#acb0ee118bdfc7f7aef660e44b5fb18ae">BossAI::_JustDied</a></div><div class="ttdeci">void _JustDied()</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.cpp:551</div></div>
+<div class="ttc" id="aclass_unit_html_a2903449b4183e13866c6e98d77578887"><div class="ttname"><a href="../../da/db7/class_unit.html#a2903449b4183e13866c6e98d77578887">Unit::SetControlled</a></div><div class="ttdeci">void SetControlled(bool apply, UnitState state)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:18071</div></div>
+<div class="ttc" id="aclass_unit_html_af9a5a43c2d7940c38f8b101409666a0d"><div class="ttname"><a href="../../da/db7/class_unit.html#af9a5a43c2d7940c38f8b101409666a0d">Unit::RemoveUnitFlag</a></div><div class="ttdeci">void RemoveUnitFlag(UnitFlags flags)</div><div class="ttdef"><b>Definition:</b> Unit.h:1480</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="abdf2cb95f0d3d7756584c338f2e2db25" name="abdf2cb95f0d3d7756584c338f2e2db25"></a>
@@ -791,7 +956,41 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a8d6c7fd71269453c229326c9785006e8">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  152</span>    {</div>
+<div class="line"><span class="lineno">  153</span>        <span class="keywordflow">if</span> (victim-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">GetTypeId</a>() == <a class="code hl_enumvalue" href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a>)</div>
+<div class="line"><span class="lineno">  154</span>        {</div>
+<div class="line"><span class="lineno">  155</span>            <span class="keywordflow">switch</span> (<a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(0, 2))</div>
+<div class="line"><span class="lineno">  156</span>            {</div>
+<div class="line"><span class="lineno">  157</span>                <span class="keywordflow">case</span> 0:</div>
+<div class="line"><span class="lineno">  158</span>                {</div>
+<div class="line"><span class="lineno">  159</span>                    <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../da/d66/boss__herald__volazj_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31ac5900dca1c9e43651f167acfadbb1f1d">SAY_SLAY_1</a>);</div>
+<div class="line"><span class="lineno">  160</span>                    <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6ae5c7d15b747433f4d94f80bcebd215">DoCastSelf</a>(<a class="code hl_enumvalue" href="../../da/d66/boss__herald__volazj_8cpp.html#a5bd342133be8c2137b831460acc9298ca3a26e8314736a6388986b8a3ad535bc6">SPELL_WHISPER_SLAY_1</a>);</div>
+<div class="line"><span class="lineno">  161</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  162</span>                }</div>
+<div class="line"><span class="lineno">  163</span>                <span class="keywordflow">case</span> 1:</div>
+<div class="line"><span class="lineno">  164</span>                {</div>
+<div class="line"><span class="lineno">  165</span>                    <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../da/d66/boss__herald__volazj_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31a1d7af5cf992be03b889476445364182c">SAY_SLAY_2</a>);</div>
+<div class="line"><span class="lineno">  166</span>                    <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6ae5c7d15b747433f4d94f80bcebd215">DoCastSelf</a>(<a class="code hl_enumvalue" href="../../da/d66/boss__herald__volazj_8cpp.html#a5bd342133be8c2137b831460acc9298cae9809ed7204d6a6a1641a535f96b2dd8">SPELL_WHISPER_SLAY_2</a>);</div>
+<div class="line"><span class="lineno">  167</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  168</span>                }</div>
+<div class="line"><span class="lineno">  169</span>                <span class="keywordflow">case</span> 2:</div>
+<div class="line"><span class="lineno">  170</span>                {</div>
+<div class="line"><span class="lineno">  171</span>                    <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../da/d66/boss__herald__volazj_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31a57ce953f4604345ec5bb4fa07f4c0536">SAY_SLAY_3</a>);</div>
+<div class="line"><span class="lineno">  172</span>                    <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6ae5c7d15b747433f4d94f80bcebd215">DoCastSelf</a>(<a class="code hl_enumvalue" href="../../da/d66/boss__herald__volazj_8cpp.html#a5bd342133be8c2137b831460acc9298ca318b13ec3f7b8fab0bb2044df24efd1d">SPELL_WHISPER_SLAY_3</a>);</div>
+<div class="line"><span class="lineno">  173</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  174</span>                }</div>
+<div class="line"><span class="lineno">  175</span>            }</div>
+<div class="line"><span class="lineno">  176</span>        }</div>
+<div class="line"><span class="lineno">  177</span>    }</div>
+<div class="ttc" id="a_object_guid_8h_html_a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c"><div class="ttname"><a href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a></div><div class="ttdeci">@ TYPEID_PLAYER</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:38</div></div>
+<div class="ttc" id="aboss__herald__volazj_8cpp_html_a5bd342133be8c2137b831460acc9298ca318b13ec3f7b8fab0bb2044df24efd1d"><div class="ttname"><a href="../../da/d66/boss__herald__volazj_8cpp.html#a5bd342133be8c2137b831460acc9298ca318b13ec3f7b8fab0bb2044df24efd1d">SPELL_WHISPER_SLAY_3</a></div><div class="ttdeci">@ SPELL_WHISPER_SLAY_3</div><div class="ttdef"><b>Definition:</b> boss_herald_volazj.cpp:47</div></div>
+<div class="ttc" id="aboss__herald__volazj_8cpp_html_a5bd342133be8c2137b831460acc9298ca3a26e8314736a6388986b8a3ad535bc6"><div class="ttname"><a href="../../da/d66/boss__herald__volazj_8cpp.html#a5bd342133be8c2137b831460acc9298ca3a26e8314736a6388986b8a3ad535bc6">SPELL_WHISPER_SLAY_1</a></div><div class="ttdeci">@ SPELL_WHISPER_SLAY_1</div><div class="ttdef"><b>Definition:</b> boss_herald_volazj.cpp:45</div></div>
+<div class="ttc" id="aboss__herald__volazj_8cpp_html_a5bd342133be8c2137b831460acc9298cae9809ed7204d6a6a1641a535f96b2dd8"><div class="ttname"><a href="../../da/d66/boss__herald__volazj_8cpp.html#a5bd342133be8c2137b831460acc9298cae9809ed7204d6a6a1641a535f96b2dd8">SPELL_WHISPER_SLAY_2</a></div><div class="ttdeci">@ SPELL_WHISPER_SLAY_2</div><div class="ttdef"><b>Definition:</b> boss_herald_volazj.cpp:46</div></div>
+<div class="ttc" id="aboss__herald__volazj_8cpp_html_aa80bce1d0ea05213c0d6c327126caf31a1d7af5cf992be03b889476445364182c"><div class="ttname"><a href="../../da/d66/boss__herald__volazj_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31a1d7af5cf992be03b889476445364182c">SAY_SLAY_2</a></div><div class="ttdeci">@ SAY_SLAY_2</div><div class="ttdef"><b>Definition:</b> boss_herald_volazj.cpp:57</div></div>
+<div class="ttc" id="aboss__herald__volazj_8cpp_html_aa80bce1d0ea05213c0d6c327126caf31a57ce953f4604345ec5bb4fa07f4c0536"><div class="ttname"><a href="../../da/d66/boss__herald__volazj_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31a57ce953f4604345ec5bb4fa07f4c0536">SAY_SLAY_3</a></div><div class="ttdeci">@ SAY_SLAY_3</div><div class="ttdef"><b>Definition:</b> boss_herald_volazj.cpp:58</div></div>
+<div class="ttc" id="aboss__herald__volazj_8cpp_html_aa80bce1d0ea05213c0d6c327126caf31ac5900dca1c9e43651f167acfadbb1f1d"><div class="ttname"><a href="../../da/d66/boss__herald__volazj_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31ac5900dca1c9e43651f167acfadbb1f1d">SAY_SLAY_1</a></div><div class="ttdeci">@ SAY_SLAY_1</div><div class="ttdef"><b>Definition:</b> boss_herald_volazj.cpp:56</div></div>
+<div class="ttc" id="aclass_object_html_a621a345fc34deed6d3a4e1e498a652da"><div class="ttname"><a href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">Object::GetTypeId</a></div><div class="ttdeci">TypeID GetTypeId() const</div><div class="ttdef"><b>Definition:</b> Object.h:121</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a0377375b89b02db3cae01390fdd13ee2" name="a0377375b89b02db3cae01390fdd13ee2"></a>
@@ -818,7 +1017,19 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d4/d0e/class_boss_a_i.html#abe75353ec3f0c86502696b8ccb059cb7">BossAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  104</span>    {</div>
+<div class="line"><span class="lineno">  105</span>        <a class="code hl_function" href="../../d4/d0e/class_boss_a_i.html#acdc89a1df0e62952becf83d9e1bd6299">_Reset</a>();</div>
+<div class="line"><span class="lineno">  106</span>        <a class="code hl_variable" href="../../d0/d2f/structboss__volazj.html#a7d2693147f9cb20a45ff2e5b6a2ca209">insanityTimes</a> = 0;</div>
+<div class="line"><span class="lineno">  107</span>        <a class="code hl_variable" href="../../d0/d2f/structboss__volazj.html#ae90de1e956eb3653c8c2f0c04d89585b">insanityPhase</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  108</span> </div>
+<div class="line"><span class="lineno">  109</span>        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#af9a5a43c2d7940c38f8b101409666a0d">RemoveUnitFlag</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a8b7b8fe906282847f5f337728d4a534f">UNIT_FLAG_NOT_SELECTABLE</a>);</div>
+<div class="line"><span class="lineno">  110</span>        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a2903449b4183e13866c6e98d77578887">SetControlled</a>(<span class="keyword">false</span>, <a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544aefe799c73ede1e5d5ffed28f69074106">UNIT_STATE_STUNNED</a>);</div>
+<div class="line"><span class="lineno">  111</span>        <a class="code hl_function" href="../../d0/d2f/structboss__volazj.html#afbfa62f2b72a95434348f74fdda46da6">ResetPlayersPhaseMask</a>();</div>
+<div class="line"><span class="lineno">  112</span>        <a class="code hl_variable" href="../../d4/d0e/class_boss_a_i.html#a05890dbd00c482b204af44f69d3efdc0">instance</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_instance_script.html#ae9b6369a3b84cf474f74265c8c97f1fd">DoStopTimedAchievement</a>(<a class="code hl_enumvalue" href="../../dc/d6e/_d_b_c_enums_8h.html#a282f094fb8ee80177dd57d2086ddd35bac02bba0f3ad69a2fc8ccde1efade56a3">ACHIEVEMENT_TIMED_TYPE_EVENT</a>, <a class="code hl_enumvalue" href="../../da/d66/boss__herald__volazj_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a15e2c595fdcb683265e35485a434b7d1">ACHIEV_QUICK_DEMISE_START_EVENT</a>);</div>
+<div class="line"><span class="lineno">  113</span>    }</div>
+<div class="ttc" id="aclass_boss_a_i_html_acdc89a1df0e62952becf83d9e1bd6299"><div class="ttname"><a href="../../d4/d0e/class_boss_a_i.html#acdc89a1df0e62952becf83d9e1bd6299">BossAI::_Reset</a></div><div class="ttdeci">void _Reset()</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.cpp:539</div></div>
+<div class="ttc" id="aclass_instance_script_html_ae9b6369a3b84cf474f74265c8c97f1fd"><div class="ttname"><a href="../../d8/d83/class_instance_script.html#ae9b6369a3b84cf474f74265c8c97f1fd">InstanceScript::DoStopTimedAchievement</a></div><div class="ttdeci">void DoStopTimedAchievement(AchievementCriteriaTimedTypes type, uint32 entry)</div><div class="ttdef"><b>Definition:</b> InstanceScript.cpp:475</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="afbfa62f2b72a95434348f74fdda46da6" name="afbfa62f2b72a95434348f74fdda46da6"></a>
@@ -843,7 +1054,20 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  298</span>    {</div>
+<div class="line"><span class="lineno">  299</span>        <a class="code hl_class" href="../../db/d87/class_map_ref_mgr.html">Map::PlayerList</a> <span class="keyword">const</span>&amp; players = <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a1013c27be4347a1b1a4a986a07456deb">GetMap</a>()-&gt;<a class="code hl_function" href="../../dd/d11/class_map.html#ae37764185b1adf2c6438025e4fa9091a">GetPlayers</a>();</div>
+<div class="line"><span class="lineno">  300</span>        <span class="keywordflow">for</span> (<span class="keyword">auto</span> <span class="keyword">const</span>&amp; i : players)</div>
+<div class="line"><span class="lineno">  301</span>        {</div>
+<div class="line"><span class="lineno">  302</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* pPlayer = i.GetSource())</div>
+<div class="line"><span class="lineno">  303</span>            {</div>
+<div class="line"><span class="lineno">  304</span>                <span class="keywordflow">if</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> <span class="keyword">const</span> insanityAura = <a class="code hl_function" href="../../d0/d2f/structboss__volazj.html#a5b6936cedb3fc411ae58f3dc3f6b689a">GetPlrInsanityAuraId</a>(pPlayer-&gt;GetPhaseMask()))</div>
+<div class="line"><span class="lineno">  305</span>                {</div>
+<div class="line"><span class="lineno">  306</span>                    pPlayer-&gt;RemoveAurasDueToSpell(insanityAura);</div>
+<div class="line"><span class="lineno">  307</span>                }</div>
+<div class="line"><span class="lineno">  308</span>            }</div>
+<div class="line"><span class="lineno">  309</span>        }</div>
+<div class="line"><span class="lineno">  310</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aa8b5ae6214f0c764f15b096876d614d7" name="aa8b5ae6214f0c764f15b096876d614d7"></a>
@@ -881,7 +1105,14 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d9c/class_unit_a_i.html#a14c40dcfec28989cc630fa571c67ebb7">UnitAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  180</span>    {</div>
+<div class="line"><span class="lineno">  181</span>        <span class="keywordflow">if</span> (type == <a class="code hl_enumvalue" href="../../da/d66/boss__herald__volazj_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6aeb178c32a6d363ef9de8926712495401">DATA_SET_INSANITY_PHASE</a>)</div>
+<div class="line"><span class="lineno">  182</span>        {</div>
+<div class="line"><span class="lineno">  183</span>            <a class="code hl_variable" href="../../d0/d2f/structboss__volazj.html#ae90de1e956eb3653c8c2f0c04d89585b">insanityPhase</a> = (value != 0);</div>
+<div class="line"><span class="lineno">  184</span>        }</div>
+<div class="line"><span class="lineno">  185</span>    }</div>
+<div class="ttc" id="aboss__herald__volazj_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6aeb178c32a6d363ef9de8926712495401"><div class="ttname"><a href="../../da/d66/boss__herald__volazj_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6aeb178c32a6d363ef9de8926712495401">DATA_SET_INSANITY_PHASE</a></div><div class="ttdeci">@ DATA_SET_INSANITY_PHASE</div><div class="ttdef"><b>Definition:</b> boss_herald_volazj.cpp:77</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aceac85fb06c81ccd171b024ad0d57ffe" name="aceac85fb06c81ccd171b024ad0d57ffe"></a>
@@ -909,7 +1140,82 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d4/d0e/class_boss_a_i.html#a840cc108b3135ee19402e61d591f18d0">BossAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  211</span>    {</div>
+<div class="line"><span class="lineno">  212</span>        <span class="comment">//Return since we have no target</span></div>
+<div class="line"><span class="lineno">  213</span>        <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">UpdateVictim</a>())</div>
+<div class="line"><span class="lineno">  214</span>        {</div>
+<div class="line"><span class="lineno">  215</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  216</span>        }</div>
+<div class="line"><span class="lineno">  217</span> </div>
+<div class="line"><span class="lineno">  218</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d0/d2f/structboss__volazj.html#ae90de1e956eb3653c8c2f0c04d89585b">insanityPhase</a>)</div>
+<div class="line"><span class="lineno">  219</span>        {</div>
+<div class="line"><span class="lineno">  220</span>            <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d0/d2f/structboss__volazj.html#aa79bf97b6772956795bd2f16b85e061f">CheckPhaseMinions</a>())</div>
+<div class="line"><span class="lineno">  221</span>            {</div>
+<div class="line"><span class="lineno">  222</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  223</span>            }</div>
+<div class="line"><span class="lineno">  224</span> </div>
+<div class="line"><span class="lineno">  225</span>            <a class="code hl_variable" href="../../d0/d2f/structboss__volazj.html#ae90de1e956eb3653c8c2f0c04d89585b">insanityPhase</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  226</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#af9a5a43c2d7940c38f8b101409666a0d">RemoveUnitFlag</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a8b7b8fe906282847f5f337728d4a534f">UNIT_FLAG_NOT_SELECTABLE</a>);</div>
+<div class="line"><span class="lineno">  227</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a2903449b4183e13866c6e98d77578887">SetControlled</a>(<span class="keyword">false</span>, <a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544aefe799c73ede1e5d5ffed28f69074106">UNIT_STATE_STUNNED</a>);</div>
+<div class="line"><span class="lineno">  228</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aac612f06e84142d92dcfc432b5feb4ac">RemoveAurasDueToSpell</a>(<a class="code hl_enumvalue" href="../../da/d66/boss__herald__volazj_8cpp.html#a5bd342133be8c2137b831460acc9298ca1dd358090e37609e7e28076ee8b1279f">INSANITY_VISUAL</a>);</div>
+<div class="line"><span class="lineno">  229</span>        }</div>
+<div class="line"><span class="lineno">  230</span> </div>
+<div class="line"><span class="lineno">  231</span>        <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.Update(diff);</div>
+<div class="line"><span class="lineno">  232</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ab78147cd520d2dac6be709b4c80a7de3">HasUnitState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54">UNIT_STATE_CASTING</a>))</div>
+<div class="line"><span class="lineno">  233</span>        {</div>
+<div class="line"><span class="lineno">  234</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  235</span>        }</div>
+<div class="line"><span class="lineno">  236</span> </div>
+<div class="line"><span class="lineno">  237</span>        <span class="keywordflow">while</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> <span class="keyword">const</span> eventId = <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ExecuteEvent())</div>
+<div class="line"><span class="lineno">  238</span>        {</div>
+<div class="line"><span class="lineno">  239</span>            <span class="keywordflow">switch</span> (eventId)</div>
+<div class="line"><span class="lineno">  240</span>            {</div>
+<div class="line"><span class="lineno">  241</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../da/d66/boss__herald__volazj_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a7fc0a708d1fb35eda35aebc202624487">EVENT_HERALD_MIND_FLAY</a>:</div>
+<div class="line"><span class="lineno">  242</span>                {</div>
+<div class="line"><span class="lineno">  243</span>                    <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a361b6f4e71e9c74595bdf3d7e3b29a82">DoCastVictim</a>(<a class="code hl_enumvalue" href="../../da/d66/boss__herald__volazj_8cpp.html#a5bd342133be8c2137b831460acc9298cab185f75f6c2631c722c6f418e887f826">SPELL_MIND_FLAY</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  244</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.RepeatEvent(20000);</div>
+<div class="line"><span class="lineno">  245</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  246</span>                }</div>
+<div class="line"><span class="lineno">  247</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../da/d66/boss__herald__volazj_8cpp.html#af60e00b78607064c5be6aa9397ea49c1ae1bcd15a1bfa0fdfdf92a2dfcd8b04b0">EVENT_HERALD_SHADOW</a>:</div>
+<div class="line"><span class="lineno">  248</span>                {</div>
+<div class="line"><span class="lineno">  249</span>                    <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a361b6f4e71e9c74595bdf3d7e3b29a82">DoCastVictim</a>(<a class="code hl_enumvalue" href="../../da/d66/boss__herald__volazj_8cpp.html#a5bd342133be8c2137b831460acc9298ca04a753f9853968682b9643fa1de110fd">SPELL_SHADOW_BOLT_VOLLEY</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  250</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.RepeatEvent(5000);</div>
+<div class="line"><span class="lineno">  251</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  252</span>                }</div>
+<div class="line"><span class="lineno">  253</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../da/d66/boss__herald__volazj_8cpp.html#af60e00b78607064c5be6aa9397ea49c1afede975d97d911ee40656b1d8d7603fe">EVENT_HERALD_SHIVER</a>:</div>
+<div class="line"><span class="lineno">  254</span>                {</div>
+<div class="line"><span class="lineno">  255</span>                    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* pTarget = <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6daed910a7666394bcbf8abd2f20096e">SelectTarget</a>(SelectTargetMethod::Random, 0, 0.0f, <span class="keyword">true</span>))</div>
+<div class="line"><span class="lineno">  256</span>                    {</div>
+<div class="line"><span class="lineno">  257</span>                        <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(pTarget, <a class="code hl_enumvalue" href="../../da/d66/boss__herald__volazj_8cpp.html#a5bd342133be8c2137b831460acc9298caefbdc1fb880dd3586e5f87acaa155760">SPELL_SHIVER</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  258</span>                    }</div>
+<div class="line"><span class="lineno">  259</span> </div>
+<div class="line"><span class="lineno">  260</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.RepeatEvent(15000);</div>
+<div class="line"><span class="lineno">  261</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  262</span>                }</div>
+<div class="line"><span class="lineno">  263</span>            }</div>
+<div class="line"><span class="lineno">  264</span> </div>
+<div class="line"><span class="lineno">  265</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ab78147cd520d2dac6be709b4c80a7de3">HasUnitState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54">UNIT_STATE_CASTING</a>))</div>
+<div class="line"><span class="lineno">  266</span>            {</div>
+<div class="line"><span class="lineno">  267</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  268</span>            }</div>
+<div class="line"><span class="lineno">  269</span>        }</div>
+<div class="line"><span class="lineno">  270</span> </div>
+<div class="line"><span class="lineno">  271</span>        <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">DoMeleeAttackIfReady</a>();</div>
+<div class="line"><span class="lineno">  272</span>    }</div>
+<div class="ttc" id="a_unit_8h_html_ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54">UNIT_STATE_CASTING</a></div><div class="ttdeci">@ UNIT_STATE_CASTING</div><div class="ttdef"><b>Definition:</b> Unit.h:340</div></div>
+<div class="ttc" id="aboss__herald__volazj_8cpp_html_a5bd342133be8c2137b831460acc9298ca04a753f9853968682b9643fa1de110fd"><div class="ttname"><a href="../../da/d66/boss__herald__volazj_8cpp.html#a5bd342133be8c2137b831460acc9298ca04a753f9853968682b9643fa1de110fd">SPELL_SHADOW_BOLT_VOLLEY</a></div><div class="ttdeci">@ SPELL_SHADOW_BOLT_VOLLEY</div><div class="ttdef"><b>Definition:</b> boss_herald_volazj.cpp:29</div></div>
+<div class="ttc" id="aboss__herald__volazj_8cpp_html_a5bd342133be8c2137b831460acc9298ca1dd358090e37609e7e28076ee8b1279f"><div class="ttname"><a href="../../da/d66/boss__herald__volazj_8cpp.html#a5bd342133be8c2137b831460acc9298ca1dd358090e37609e7e28076ee8b1279f">INSANITY_VISUAL</a></div><div class="ttdeci">@ INSANITY_VISUAL</div><div class="ttdef"><b>Definition:</b> boss_herald_volazj.cpp:34</div></div>
+<div class="ttc" id="aboss__herald__volazj_8cpp_html_a5bd342133be8c2137b831460acc9298cab185f75f6c2631c722c6f418e887f826"><div class="ttname"><a href="../../da/d66/boss__herald__volazj_8cpp.html#a5bd342133be8c2137b831460acc9298cab185f75f6c2631c722c6f418e887f826">SPELL_MIND_FLAY</a></div><div class="ttdeci">@ SPELL_MIND_FLAY</div><div class="ttdef"><b>Definition:</b> boss_herald_volazj.cpp:28</div></div>
+<div class="ttc" id="aboss__herald__volazj_8cpp_html_a5bd342133be8c2137b831460acc9298caefbdc1fb880dd3586e5f87acaa155760"><div class="ttname"><a href="../../da/d66/boss__herald__volazj_8cpp.html#a5bd342133be8c2137b831460acc9298caefbdc1fb880dd3586e5f87acaa155760">SPELL_SHIVER</a></div><div class="ttdeci">@ SPELL_SHIVER</div><div class="ttdef"><b>Definition:</b> boss_herald_volazj.cpp:30</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_ae03ccfe1e27501ed9ccbfecdbd3c4e39"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">CreatureAI::UpdateVictim</a></div><div class="ttdeci">bool UpdateVictim()</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:268</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a348a472089a9be6210b58aace8fafa9f"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">UnitAI::DoMeleeAttackIfReady</a></div><div class="ttdeci">void DoMeleeAttackIfReady()</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:40</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a361b6f4e71e9c74595bdf3d7e3b29a82"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a361b6f4e71e9c74595bdf3d7e3b29a82">UnitAI::DoCastVictim</a></div><div class="ttdeci">SpellCastResult DoCastVictim(uint32 spellId, bool triggered=false)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:241</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a6daed910a7666394bcbf8abd2f20096e"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a6daed910a7666394bcbf8abd2f20096e">UnitAI::SelectTarget</a></div><div class="ttdeci">Unit * SelectTarget(SelectTargetMethod targetType, uint32 position=0, float dist=0.0f, bool playerOnly=false, int32 aura=0)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:111</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_aeebcad9b6effa45145c50f06af60b23d"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">UnitAI::DoCast</a></div><div class="ttdeci">SpellCastResult DoCast(uint32 spellId)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:178</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_ab78147cd520d2dac6be709b4c80a7de3"><div class="ttname"><a href="../../da/db7/class_unit.html#ab78147cd520d2dac6be709b4c80a7de3">Unit::HasUnitState</a></div><div class="ttdeci">bool HasUnitState(const uint32 f) const</div><div class="ttdef"><b>Definition:</b> Unit.h:1398</div></div>
+<div class="ttc" id="astructboss__volazj_html_aa79bf97b6772956795bd2f16b85e061f"><div class="ttname"><a href="../../d0/d2f/structboss__volazj.html#aa79bf97b6772956795bd2f16b85e061f">boss_volazj::CheckPhaseMinions</a></div><div class="ttdeci">bool CheckPhaseMinions()</div><div class="ttdef"><b>Definition:</b> boss_herald_volazj.cpp:312</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -958,7 +1264,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/AzjolNerub/ahnkahet/<a class="el" href="../../da/d66/boss__herald__volazj_8cpp.html">boss_herald_volazj.cpp</a></li>
+<li><a class="el" href="../../">boss_herald_volazj.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -966,7 +1272,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d0/d2f/structboss__volazj.html">boss_volazj</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:43 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:56 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

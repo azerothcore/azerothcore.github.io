@@ -114,7 +114,7 @@ $(document).ready(function(){initNavTree('d6/dbd/class_boundary_union_boundary.h
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d1/da8/_area_boundary_8h_source.html">AreaBoundary.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">AreaBoundary.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for BoundaryUnionBoundary:</div>
 <div class="dyncontent">
@@ -156,7 +156,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:ae70530673803bd2ee85bf722fe42718b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d81/class_area_boundary.html">AreaBoundary</a> const  *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dbd/class_boundary_union_boundary.html#ae70530673803bd2ee85bf722fe42718b">_b2</a></td></tr>
 <tr class="separator:ae70530673803bd2ee85bf722fe42718b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a074536112fffc805dec44bd9cd602642" name="a074536112fffc805dec44bd9cd602642"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a074536112fffc805dec44bd9cd602642">&#9670;&#160;</a></span>BoundaryUnionBoundary()</h2>
 
@@ -188,7 +189,16 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   98</span>                                                                                                            :</div>
+<div class="line"><span class="lineno">   99</span>    <a class="code hl_class" href="../../dd/d81/class_area_boundary.html">AreaBoundary</a>(isInverted), <a class="code hl_variable" href="../../d6/dbd/class_boundary_union_boundary.html#a40fcd847f38703dfe5174267fbfd81ee">_b1</a>(b1), <a class="code hl_variable" href="../../d6/dbd/class_boundary_union_boundary.html#ae70530673803bd2ee85bf722fe42718b">_b2</a>(b2)</div>
+<div class="line"><span class="lineno">  100</span>{</div>
+<div class="line"><span class="lineno">  101</span>    <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(b1 &amp;&amp; b2);</div>
+<div class="line"><span class="lineno">  102</span>}</div>
+<div class="ttc" id="a_errors_8h_html_af343b20373ba49a92fce523e948f2ab3"><div class="ttname"><a href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a></div><div class="ttdeci">#define ASSERT</div><div class="ttdef"><b>Definition:</b> Errors.h:68</div></div>
+<div class="ttc" id="aclass_area_boundary_html"><div class="ttname"><a href="../../dd/d81/class_area_boundary.html">AreaBoundary</a></div><div class="ttdef"><b>Definition:</b> AreaBoundary.h:24</div></div>
+<div class="ttc" id="aclass_boundary_union_boundary_html_a40fcd847f38703dfe5174267fbfd81ee"><div class="ttname"><a href="../../d6/dbd/class_boundary_union_boundary.html#a40fcd847f38703dfe5174267fbfd81ee">BoundaryUnionBoundary::_b1</a></div><div class="ttdeci">AreaBoundary const  *const _b1</div><div class="ttdef"><b>Definition:</b> AreaBoundary.h:164</div></div>
+<div class="ttc" id="aclass_boundary_union_boundary_html_ae70530673803bd2ee85bf722fe42718b"><div class="ttname"><a href="../../d6/dbd/class_boundary_union_boundary.html#ae70530673803bd2ee85bf722fe42718b">BoundaryUnionBoundary::_b2</a></div><div class="ttdeci">AreaBoundary const  *const _b2</div><div class="ttdef"><b>Definition:</b> AreaBoundary.h:165</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a96450fc020bfad7b9f1f7be64490ad46" name="a96450fc020bfad7b9f1f7be64490ad46"></a>
@@ -213,7 +223,11 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  105</span>{</div>
+<div class="line"><span class="lineno">  106</span>    <span class="keyword">delete</span> <a class="code hl_variable" href="../../d6/dbd/class_boundary_union_boundary.html#a40fcd847f38703dfe5174267fbfd81ee">_b1</a>;</div>
+<div class="line"><span class="lineno">  107</span>    <span class="keyword">delete</span> <a class="code hl_variable" href="../../d6/dbd/class_boundary_union_boundary.html#ae70530673803bd2ee85bf722fe42718b">_b2</a>;</div>
+<div class="line"><span class="lineno">  108</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -242,7 +256,11 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../dd/d81/class_area_boundary.html#ae5580b0044dba24d100831fe51ee1abc">AreaBoundary</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  111</span>{</div>
+<div class="line"><span class="lineno">  112</span>    <span class="keywordflow">return</span> (<a class="code hl_variable" href="../../d6/dbd/class_boundary_union_boundary.html#a40fcd847f38703dfe5174267fbfd81ee">_b1</a>-&gt;<a class="code hl_function" href="../../dd/d81/class_area_boundary.html#a1d407f77ce0388263fc0ee6224734213">IsWithinBoundary</a>(pos) || <a class="code hl_variable" href="../../d6/dbd/class_boundary_union_boundary.html#ae70530673803bd2ee85bf722fe42718b">_b2</a>-&gt;<a class="code hl_function" href="../../dd/d81/class_area_boundary.html#a1d407f77ce0388263fc0ee6224734213">IsWithinBoundary</a>(pos));</div>
+<div class="line"><span class="lineno">  113</span>}</div>
+<div class="ttc" id="aclass_area_boundary_html_a1d407f77ce0388263fc0ee6224734213"><div class="ttname"><a href="../../dd/d81/class_area_boundary.html#a1d407f77ce0388263fc0ee6224734213">AreaBoundary::IsWithinBoundary</a></div><div class="ttdeci">bool IsWithinBoundary(Position const *pos) const</div><div class="ttdef"><b>Definition:</b> AreaBoundary.h:26</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -291,8 +309,8 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Maps/<a class="el" href="../../d1/da8/_area_boundary_8h_source.html">AreaBoundary.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/Maps/<a class="el" href="../../d5/d62/_area_boundary_8cpp.html">AreaBoundary.cpp</a></li>
+<li><a class="el" href="../../">AreaBoundary.h</a></li>
+<li><a class="el" href="../../">AreaBoundary.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -300,7 +318,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d6/dbd/class_boundary_union_boundary.html">BoundaryUnionBoundary</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:44 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:57 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

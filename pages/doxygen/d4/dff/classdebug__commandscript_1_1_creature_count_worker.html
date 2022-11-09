@@ -130,7 +130,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a3a6f946c40b1006164793dbaed2b3948"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; <a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dff/classdebug__commandscript_1_1_creature_count_worker.html#a3a6f946c40b1006164793dbaed2b3948">creatureIds</a></td></tr>
 <tr class="separator:a3a6f946c40b1006164793dbaed2b3948"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ad01e947d97d03a10ea3a891d24cb05b7" name="ad01e947d97d03a10ea3a891d24cb05b7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad01e947d97d03a10ea3a891d24cb05b7">&#9670;&#160;</a></span>CreatureCountWorker()</h2>
 
@@ -153,7 +154,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1298</span>{ }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -180,7 +182,22 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1313</span>        {</div>
+<div class="line"><span class="lineno"> 1314</span>            <span class="keyword">auto</span> comp = [](std::pair&lt;uint32, uint32&gt; <span class="keyword">const</span>&amp; a, std::pair&lt;uint32, uint32&gt; <span class="keyword">const</span>&amp; b)</div>
+<div class="line"><span class="lineno"> 1315</span>            {</div>
+<div class="line"><span class="lineno"> 1316</span>                <span class="keywordflow">return</span> a.second &gt; b.second;</div>
+<div class="line"><span class="lineno"> 1317</span>            };</div>
+<div class="line"><span class="lineno"> 1318</span>            std::set&lt;std::pair&lt;uint32, uint32&gt;, <span class="keyword">decltype</span>(comp)&gt; set(<a class="code hl_variable" href="../../d4/dff/classdebug__commandscript_1_1_creature_count_worker.html#a3a6f946c40b1006164793dbaed2b3948">creatureIds</a>.begin(), <a class="code hl_variable" href="../../d4/dff/classdebug__commandscript_1_1_creature_count_worker.html#a3a6f946c40b1006164793dbaed2b3948">creatureIds</a>.end(), comp);</div>
+<div class="line"><span class="lineno"> 1319</span> </div>
+<div class="line"><span class="lineno"> 1320</span>            count = std::min(count, <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(set.size()));</div>
+<div class="line"><span class="lineno"> 1321</span>            std::vector&lt;std::pair&lt;uint32, uint32&gt;&gt; result(count);</div>
+<div class="line"><span class="lineno"> 1322</span>            std::copy_n(set.begin(), count, result.begin());</div>
+<div class="line"><span class="lineno"> 1323</span> </div>
+<div class="line"><span class="lineno"> 1324</span>            <span class="keywordflow">return</span> result;</div>
+<div class="line"><span class="lineno"> 1325</span>        }</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="aclassdebug__commandscript_1_1_creature_count_worker_html_a3a6f946c40b1006164793dbaed2b3948"><div class="ttname"><a href="../../d4/dff/classdebug__commandscript_1_1_creature_count_worker.html#a3a6f946c40b1006164793dbaed2b3948">debug_commandscript::CreatureCountWorker::creatureIds</a></div><div class="ttdeci">std::unordered_map&lt; uint32, uint32 &gt; creatureIds</div><div class="ttdef"><b>Definition:</b> cs_debug.cpp:1328</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a786d95d42f7711235e60a4f54cc3b4be" name="a786d95d42f7711235e60a4f54cc3b4be"></a>
@@ -206,7 +223,14 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1301</span>        {</div>
+<div class="line"><span class="lineno"> 1302</span>            <span class="keywordflow">for</span> (<span class="keyword">auto</span> <span class="keyword">const</span>&amp; p : creatureMap)</div>
+<div class="line"><span class="lineno"> 1303</span>            {</div>
+<div class="line"><span class="lineno"> 1304</span>                <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&amp; count = <a class="code hl_variable" href="../../d4/dff/classdebug__commandscript_1_1_creature_count_worker.html#a3a6f946c40b1006164793dbaed2b3948">creatureIds</a>[p.second-&gt;GetEntry()];</div>
+<div class="line"><span class="lineno"> 1305</span>                ++count;</div>
+<div class="line"><span class="lineno"> 1306</span>            }</div>
+<div class="line"><span class="lineno"> 1307</span>        }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="afa72c0c1f905f4277d650ad0cfef281d" name="afa72c0c1f905f4277d650ad0cfef281d"></a>
@@ -234,7 +258,8 @@ template&lt;class T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1310</span>{ }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -261,7 +286,7 @@ template&lt;class T &gt; </div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Commands/<a class="el" href="../../dd/d77/cs__debug_8cpp.html">cs_debug.cpp</a></li>
+<li><a class="el" href="../../">cs_debug.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -269,7 +294,7 @@ template&lt;class T &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/dae/classdebug__commandscript.html">debug_commandscript</a></li><li class="navelem"><a class="el" href="../../d4/dff/classdebug__commandscript_1_1_creature_count_worker.html">CreatureCountWorker</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:44 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:58 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

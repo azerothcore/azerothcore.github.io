@@ -501,7 +501,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a8766dcf9afd6d26d619bead82b549a8f" name="a8766dcf9afd6d26d619bead82b549a8f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8766dcf9afd6d26d619bead82b549a8f">&#9670;&#160;</a></span>npc_draenei_survivorAI()</h2>
 
@@ -525,7 +526,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   62</span>: <a class="code hl_struct" href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a>(creature) { }</div>
+<div class="ttc" id="astruct_scripted_a_i_html"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -554,7 +557,8 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a35a9ca7c140474598325b0f2073f9bcd">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   90</span>{ }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2b3f0a595fde04ad1e054331a596e225" name="a2b3f0a595fde04ad1e054331a596e225"></a>
@@ -582,7 +586,26 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d2/d68/class_creature_a_i.html#a1280f8bcf72254ad31c453b810615f87">CreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   93</span>        {</div>
+<div class="line"><span class="lineno">   94</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d5/d26/structnpc__draenei__survivor_1_1npc__draenei__survivor_a_i.html#a6bf8c4eb06fe661da0c850424843bd42">CanSayHelp</a> &amp;&amp; who-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">GetTypeId</a>() == <a class="code hl_enumvalue" href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a> &amp;&amp; <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#abdfe022523c40277d917754f75edb722">IsFriendlyTo</a>(who) &amp;&amp; <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#ab73407bcdf13a30519a953d24773ed02">IsWithinDistInMap</a>(who, 25.0f))</div>
+<div class="line"><span class="lineno">   95</span>            {</div>
+<div class="line"><span class="lineno">   96</span>                <span class="comment">//Random switch between 4 texts</span></div>
+<div class="line"><span class="lineno">   97</span>                <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d5/d8c/zone__azuremyst__isle_8cpp.html#a4312325b44ff42e455a1955a0a0d0ce0a13e3c4fbf4ffac2b5a7fc5c14d049293">SAY_HELP</a>, who);</div>
+<div class="line"><span class="lineno">   98</span> </div>
+<div class="line"><span class="lineno">   99</span>                <a class="code hl_variable" href="../../d5/d26/structnpc__draenei__survivor_1_1npc__draenei__survivor_a_i.html#a8d77b110c6af6615d5d39e0870cbe890">SayHelpTimer</a> = 20000;</div>
+<div class="line"><span class="lineno">  100</span>                <a class="code hl_variable" href="../../d5/d26/structnpc__draenei__survivor_1_1npc__draenei__survivor_a_i.html#a6bf8c4eb06fe661da0c850424843bd42">CanSayHelp</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  101</span>            }</div>
+<div class="line"><span class="lineno">  102</span>        }</div>
+<div class="ttc" id="a_object_guid_8h_html_a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c"><div class="ttname"><a href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a></div><div class="ttdeci">@ TYPEID_PLAYER</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:38</div></div>
+<div class="ttc" id="aboss__fathomlord__karathress_8cpp_html_a747a224b6b3195f9a33c56ddc6c7e268"><div class="ttname"><a href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a></div><div class="ttdeci">Talk</div><div class="ttdef"><b>Definition:</b> boss_fathomlord_karathress.cpp:23</div></div>
+<div class="ttc" id="aclass_object_html_a621a345fc34deed6d3a4e1e498a652da"><div class="ttname"><a href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">Object::GetTypeId</a></div><div class="ttdeci">TypeID GetTypeId() const</div><div class="ttdef"><b>Definition:</b> Object.h:121</div></div>
+<div class="ttc" id="aclass_unit_html_abdfe022523c40277d917754f75edb722"><div class="ttname"><a href="../../da/db7/class_unit.html#abdfe022523c40277d917754f75edb722">Unit::IsFriendlyTo</a></div><div class="ttdeci">bool IsFriendlyTo(Unit const *unit) const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:10202</div></div>
+<div class="ttc" id="aclass_world_object_html_ab73407bcdf13a30519a953d24773ed02"><div class="ttname"><a href="../../db/df7/class_world_object.html#ab73407bcdf13a30519a953d24773ed02">WorldObject::IsWithinDistInMap</a></div><div class="ttdeci">bool IsWithinDistInMap(WorldObject const *obj, float dist2compare, bool is3D=true, bool useBoundingRadius=true) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1321</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+<div class="ttc" id="astructnpc__draenei__survivor_1_1npc__draenei__survivor_a_i_html_a6bf8c4eb06fe661da0c850424843bd42"><div class="ttname"><a href="../../d5/d26/structnpc__draenei__survivor_1_1npc__draenei__survivor_a_i.html#a6bf8c4eb06fe661da0c850424843bd42">npc_draenei_survivor::npc_draenei_survivorAI::CanSayHelp</a></div><div class="ttdeci">bool CanSayHelp</div><div class="ttdef"><b>Definition:</b> zone_azuremyst_isle.cpp:70</div></div>
+<div class="ttc" id="astructnpc__draenei__survivor_1_1npc__draenei__survivor_a_i_html_a8d77b110c6af6615d5d39e0870cbe890"><div class="ttname"><a href="../../d5/d26/structnpc__draenei__survivor_1_1npc__draenei__survivor_a_i.html#a8d77b110c6af6615d5d39e0870cbe890">npc_draenei_survivor::npc_draenei_survivorAI::SayHelpTimer</a></div><div class="ttdeci">uint32 SayHelpTimer</div><div class="ttdef"><b>Definition:</b> zone_azuremyst_isle.cpp:68</div></div>
+<div class="ttc" id="azone__azuremyst__isle_8cpp_html_a4312325b44ff42e455a1955a0a0d0ce0a13e3c4fbf4ffac2b5a7fc5c14d049293"><div class="ttname"><a href="../../d5/d8c/zone__azuremyst__isle_8cpp.html#a4312325b44ff42e455a1955a0a0d0ce0a13e3c4fbf4ffac2b5a7fc5c14d049293">SAY_HELP</a></div><div class="ttdeci">@ SAY_HELP</div><div class="ttdef"><b>Definition:</b> zone_azuremyst_isle.cpp:50</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a3db19a846ce3b4810321eb02d314633f" name="a3db19a846ce3b4810321eb02d314633f"></a>
@@ -609,7 +632,36 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a26600c116d20a33461fc884bdb82eda9">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   73</span>        {</div>
+<div class="line"><span class="lineno">   74</span>            <a class="code hl_variable" href="../../d5/d26/structnpc__draenei__survivor_1_1npc__draenei__survivor_a_i.html#a35ad8350e51fd520b75cd0289f19cb09">pCaster</a>.<a class="code hl_function" href="../../d8/d03/class_object_guid.html#af6aafb4610723c7f14523fef243b1b65">Clear</a>();</div>
+<div class="line"><span class="lineno">   75</span> </div>
+<div class="line"><span class="lineno">   76</span>            <a class="code hl_variable" href="../../d5/d26/structnpc__draenei__survivor_1_1npc__draenei__survivor_a_i.html#a4f2d829af97d6fb5ef13e3922ebe99e8">SayThanksTimer</a> = 0;</div>
+<div class="line"><span class="lineno">   77</span>            <a class="code hl_variable" href="../../d5/d26/structnpc__draenei__survivor_1_1npc__draenei__survivor_a_i.html#a233885b12615bfbc927d8845d0cff3fd">RunAwayTimer</a> = 0;</div>
+<div class="line"><span class="lineno">   78</span>            <a class="code hl_variable" href="../../d5/d26/structnpc__draenei__survivor_1_1npc__draenei__survivor_a_i.html#a8d77b110c6af6615d5d39e0870cbe890">SayHelpTimer</a> = 10000;</div>
+<div class="line"><span class="lineno">   79</span> </div>
+<div class="line"><span class="lineno">   80</span>            <a class="code hl_variable" href="../../d5/d26/structnpc__draenei__survivor_1_1npc__draenei__survivor_a_i.html#a6bf8c4eb06fe661da0c850424843bd42">CanSayHelp</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   81</span> </div>
+<div class="line"><span class="lineno">   82</span>            <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_enumvalue" href="../../d5/d8c/zone__azuremyst__isle_8cpp.html#a4312325b44ff42e455a1955a0a0d0ce0a75ebf4ca85d16446e34a15b18cdf38ef">SPELL_IRRIDATION</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">   83</span> </div>
+<div class="line"><span class="lineno">   84</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a375c07471b5dd9708337960e21ca5b28">SetPvP</a>(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">   85</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ad9f2d48b20f62e17abf5c1892cebe296">SetUnitFlag</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a4126a52e61912b60b131ebf6c0ccf384">UNIT_FLAG_IN_COMBAT</a>);</div>
+<div class="line"><span class="lineno">   86</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a6548d4bfff73fad6df63a0bd0d806e2e">SetHealth</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ac6fc3f50b72cb6f2fd8bb988d48a8dba">CountPctFromMaxHealth</a>(10));</div>
+<div class="line"><span class="lineno">   87</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aeae261b4b6d3ccacc8819ca19b4ef0cc">SetStandState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#a809d475cf0ffeaa1ddad86f73e24a7c1a05e8449eb681731f65fe60937dfc7f8f">UNIT_STAND_STATE_SLEEP</a>);</div>
+<div class="line"><span class="lineno">   88</span>        }</div>
+<div class="ttc" id="a_unit_8h_html_a809d475cf0ffeaa1ddad86f73e24a7c1a05e8449eb681731f65fe60937dfc7f8f"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#a809d475cf0ffeaa1ddad86f73e24a7c1a05e8449eb681731f65fe60937dfc7f8f">UNIT_STAND_STATE_SLEEP</a></div><div class="ttdeci">@ UNIT_STAND_STATE_SLEEP</div><div class="ttdef"><b>Definition:</b> Unit.h:56</div></div>
+<div class="ttc" id="a_unit_8h_html_affdd0d554c8bcaaa85a879f5a9d60934a4126a52e61912b60b131ebf6c0ccf384"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a4126a52e61912b60b131ebf6c0ccf384">UNIT_FLAG_IN_COMBAT</a></div><div class="ttdeci">@ UNIT_FLAG_IN_COMBAT</div><div class="ttdef"><b>Definition:</b> Unit.h:467</div></div>
+<div class="ttc" id="aclass_object_guid_html_af6aafb4610723c7f14523fef243b1b65"><div class="ttname"><a href="../../d8/d03/class_object_guid.html#af6aafb4610723c7f14523fef243b1b65">ObjectGuid::Clear</a></div><div class="ttdeci">void Clear()</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:140</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_aeebcad9b6effa45145c50f06af60b23d"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">UnitAI::DoCast</a></div><div class="ttdeci">SpellCastResult DoCast(uint32 spellId)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:178</div></div>
+<div class="ttc" id="aclass_unit_html_a375c07471b5dd9708337960e21ca5b28"><div class="ttname"><a href="../../da/db7/class_unit.html#a375c07471b5dd9708337960e21ca5b28">Unit::SetPvP</a></div><div class="ttdeci">void SetPvP(bool state)</div><div class="ttdef"><b>Definition:</b> Unit.h:1517</div></div>
+<div class="ttc" id="aclass_unit_html_a6548d4bfff73fad6df63a0bd0d806e2e"><div class="ttname"><a href="../../da/db7/class_unit.html#a6548d4bfff73fad6df63a0bd0d806e2e">Unit::SetHealth</a></div><div class="ttdeci">void SetHealth(uint32 val)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:15335</div></div>
+<div class="ttc" id="aclass_unit_html_ac6fc3f50b72cb6f2fd8bb988d48a8dba"><div class="ttname"><a href="../../da/db7/class_unit.html#ac6fc3f50b72cb6f2fd8bb988d48a8dba">Unit::CountPctFromMaxHealth</a></div><div class="ttdeci">uint32 CountPctFromMaxHealth(int32 pct) const</div><div class="ttdef"><b>Definition:</b> Unit.h:1447</div></div>
+<div class="ttc" id="aclass_unit_html_ad9f2d48b20f62e17abf5c1892cebe296"><div class="ttname"><a href="../../da/db7/class_unit.html#ad9f2d48b20f62e17abf5c1892cebe296">Unit::SetUnitFlag</a></div><div class="ttdeci">void SetUnitFlag(UnitFlags flags)</div><div class="ttdef"><b>Definition:</b> Unit.h:1479</div></div>
+<div class="ttc" id="aclass_unit_html_aeae261b4b6d3ccacc8819ca19b4ef0cc"><div class="ttname"><a href="../../da/db7/class_unit.html#aeae261b4b6d3ccacc8819ca19b4ef0cc">Unit::SetStandState</a></div><div class="ttdeci">void SetStandState(uint8 state)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:16812</div></div>
+<div class="ttc" id="astructnpc__draenei__survivor_1_1npc__draenei__survivor_a_i_html_a233885b12615bfbc927d8845d0cff3fd"><div class="ttname"><a href="../../d5/d26/structnpc__draenei__survivor_1_1npc__draenei__survivor_a_i.html#a233885b12615bfbc927d8845d0cff3fd">npc_draenei_survivor::npc_draenei_survivorAI::RunAwayTimer</a></div><div class="ttdeci">uint32 RunAwayTimer</div><div class="ttdef"><b>Definition:</b> zone_azuremyst_isle.cpp:67</div></div>
+<div class="ttc" id="astructnpc__draenei__survivor_1_1npc__draenei__survivor_a_i_html_a35ad8350e51fd520b75cd0289f19cb09"><div class="ttname"><a href="../../d5/d26/structnpc__draenei__survivor_1_1npc__draenei__survivor_a_i.html#a35ad8350e51fd520b75cd0289f19cb09">npc_draenei_survivor::npc_draenei_survivorAI::pCaster</a></div><div class="ttdeci">ObjectGuid pCaster</div><div class="ttdef"><b>Definition:</b> zone_azuremyst_isle.cpp:64</div></div>
+<div class="ttc" id="astructnpc__draenei__survivor_1_1npc__draenei__survivor_a_i_html_a4f2d829af97d6fb5ef13e3922ebe99e8"><div class="ttname"><a href="../../d5/d26/structnpc__draenei__survivor_1_1npc__draenei__survivor_a_i.html#a4f2d829af97d6fb5ef13e3922ebe99e8">npc_draenei_survivor::npc_draenei_survivorAI::SayThanksTimer</a></div><div class="ttdeci">uint32 SayThanksTimer</div><div class="ttdef"><b>Definition:</b> zone_azuremyst_isle.cpp:66</div></div>
+<div class="ttc" id="azone__azuremyst__isle_8cpp_html_a4312325b44ff42e455a1955a0a0d0ce0a75ebf4ca85d16446e34a15b18cdf38ef"><div class="ttname"><a href="../../d5/d8c/zone__azuremyst__isle_8cpp.html#a4312325b44ff42e455a1955a0a0d0ce0a75ebf4ca85d16446e34a15b18cdf38ef">SPELL_IRRIDATION</a></div><div class="ttdeci">@ SPELL_IRRIDATION</div><div class="ttdef"><b>Definition:</b> zone_azuremyst_isle.cpp:51</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a079789d2f6a03b1c7b0ac7dc43a2550a" name="a079789d2f6a03b1c7b0ac7dc43a2550a"></a>
@@ -647,7 +699,26 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a7c4ff5a7547e75576c127ba4a514e548">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  105</span>        {</div>
+<div class="line"><span class="lineno">  106</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d0d/class_spell.html">Spell</a>-&gt;SpellFamilyFlags[2] &amp; 0x080000000)</div>
+<div class="line"><span class="lineno">  107</span>            {</div>
+<div class="line"><span class="lineno">  108</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#af9a5a43c2d7940c38f8b101409666a0d">RemoveUnitFlag</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934ac75aa2eacc0e809ae582c85d245c1e4c">UNIT_FLAG_PLAYER_CONTROLLED</a>);</div>
+<div class="line"><span class="lineno">  109</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aeae261b4b6d3ccacc8819ca19b4ef0cc">SetStandState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#a809d475cf0ffeaa1ddad86f73e24a7c1ae36b6864d89399e04b14123d3194e224">UNIT_STAND_STATE_STAND</a>);</div>
+<div class="line"><span class="lineno">  110</span> </div>
+<div class="line"><span class="lineno">  111</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_enumvalue" href="../../d5/d8c/zone__azuremyst__isle_8cpp.html#a4312325b44ff42e455a1955a0a0d0ce0acf37fb2b5fa94a29d651d4b9364de3b1">SPELL_STUNNED</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  112</span> </div>
+<div class="line"><span class="lineno">  113</span>                <a class="code hl_variable" href="../../d5/d26/structnpc__draenei__survivor_1_1npc__draenei__survivor_a_i.html#a35ad8350e51fd520b75cd0289f19cb09">pCaster</a> = Caster-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>();</div>
+<div class="line"><span class="lineno">  114</span> </div>
+<div class="line"><span class="lineno">  115</span>                <a class="code hl_variable" href="../../d5/d26/structnpc__draenei__survivor_1_1npc__draenei__survivor_a_i.html#a4f2d829af97d6fb5ef13e3922ebe99e8">SayThanksTimer</a> = 5000;</div>
+<div class="line"><span class="lineno">  116</span>            }</div>
+<div class="line"><span class="lineno">  117</span>        }</div>
+<div class="ttc" id="a_unit_8h_html_a809d475cf0ffeaa1ddad86f73e24a7c1ae36b6864d89399e04b14123d3194e224"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#a809d475cf0ffeaa1ddad86f73e24a7c1ae36b6864d89399e04b14123d3194e224">UNIT_STAND_STATE_STAND</a></div><div class="ttdeci">@ UNIT_STAND_STATE_STAND</div><div class="ttdef"><b>Definition:</b> Unit.h:53</div></div>
+<div class="ttc" id="a_unit_8h_html_affdd0d554c8bcaaa85a879f5a9d60934ac75aa2eacc0e809ae582c85d245c1e4c"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934ac75aa2eacc0e809ae582c85d245c1e4c">UNIT_FLAG_PLAYER_CONTROLLED</a></div><div class="ttdeci">@ UNIT_FLAG_PLAYER_CONTROLLED</div><div class="ttdef"><b>Definition:</b> Unit.h:451</div></div>
+<div class="ttc" id="aclass_object_html_ad23b997e2442fa6a6228ba73a7ecc138"><div class="ttname"><a href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">Object::GetGUID</a></div><div class="ttdeci">static ObjectGuid GetGUID(Object const *o)</div><div class="ttdef"><b>Definition:</b> Object.h:106</div></div>
+<div class="ttc" id="aclass_spell_html"><div class="ttname"><a href="../../d8/d0d/class_spell.html">Spell</a></div><div class="ttdef"><b>Definition:</b> Spell.h:284</div></div>
+<div class="ttc" id="aclass_unit_html_af9a5a43c2d7940c38f8b101409666a0d"><div class="ttname"><a href="../../da/db7/class_unit.html#af9a5a43c2d7940c38f8b101409666a0d">Unit::RemoveUnitFlag</a></div><div class="ttdeci">void RemoveUnitFlag(UnitFlags flags)</div><div class="ttdef"><b>Definition:</b> Unit.h:1480</div></div>
+<div class="ttc" id="azone__azuremyst__isle_8cpp_html_a4312325b44ff42e455a1955a0a0d0ce0acf37fb2b5fa94a29d651d4b9364de3b1"><div class="ttname"><a href="../../d5/d8c/zone__azuremyst__isle_8cpp.html#a4312325b44ff42e455a1955a0a0d0ce0acf37fb2b5fa94a29d651d4b9364de3b1">SPELL_STUNNED</a></div><div class="ttdeci">@ SPELL_STUNNED</div><div class="ttdef"><b>Definition:</b> zone_azuremyst_isle.cpp:52</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aa3fd8e3747fa69b5156e932fddaf6fa7" name="aa3fd8e3747fa69b5156e932fddaf6fa7"></a>
@@ -675,7 +746,58 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#aff5fd4e142a5cf930ffacbfc7259cce5">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  120</span>        {</div>
+<div class="line"><span class="lineno">  121</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d5/d26/structnpc__draenei__survivor_1_1npc__draenei__survivor_a_i.html#a4f2d829af97d6fb5ef13e3922ebe99e8">SayThanksTimer</a>)</div>
+<div class="line"><span class="lineno">  122</span>            {</div>
+<div class="line"><span class="lineno">  123</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d5/d26/structnpc__draenei__survivor_1_1npc__draenei__survivor_a_i.html#a4f2d829af97d6fb5ef13e3922ebe99e8">SayThanksTimer</a> &lt;= diff)</div>
+<div class="line"><span class="lineno">  124</span>                {</div>
+<div class="line"><span class="lineno">  125</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aac612f06e84142d92dcfc432b5feb4ac">RemoveAurasDueToSpell</a>(<a class="code hl_enumvalue" href="../../d5/d8c/zone__azuremyst__isle_8cpp.html#a4312325b44ff42e455a1955a0a0d0ce0a75ebf4ca85d16446e34a15b18cdf38ef">SPELL_IRRIDATION</a>);</div>
+<div class="line"><span class="lineno">  126</span> </div>
+<div class="line"><span class="lineno">  127</span>                    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* player = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#aeb3657e7ad09335b9a9ffa50473aa216">ObjectAccessor::GetPlayer</a>(*<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_variable" href="../../d5/d26/structnpc__draenei__survivor_1_1npc__draenei__survivor_a_i.html#a35ad8350e51fd520b75cd0289f19cb09">pCaster</a>))</div>
+<div class="line"><span class="lineno">  128</span>                    {</div>
+<div class="line"><span class="lineno">  129</span>                        <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d5/d8c/zone__azuremyst__isle_8cpp.html#a4312325b44ff42e455a1955a0a0d0ce0a3bb81f47f40ebbd45afd95991300a0b6">SAY_HEAL</a>, player);</div>
+<div class="line"><span class="lineno">  130</span> </div>
+<div class="line"><span class="lineno">  131</span>                        player-&gt;TalkedToCreature(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>(), <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>());</div>
+<div class="line"><span class="lineno">  132</span>                    }</div>
+<div class="line"><span class="lineno">  133</span> </div>
+<div class="line"><span class="lineno">  134</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../df/d4d/class_motion_master.html#afa6ffa9c5d6897f3aad3ac524c7bb35a">Clear</a>();</div>
+<div class="line"><span class="lineno">  135</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../df/d4d/class_motion_master.html#a903a48c63482ebbd45d63272b218df7f">MovePoint</a>(0, -4115.053711f, -13754.831055f, 73.508949f);</div>
+<div class="line"><span class="lineno">  136</span> </div>
+<div class="line"><span class="lineno">  137</span>                    <a class="code hl_variable" href="../../d5/d26/structnpc__draenei__survivor_1_1npc__draenei__survivor_a_i.html#a233885b12615bfbc927d8845d0cff3fd">RunAwayTimer</a> = 10000;</div>
+<div class="line"><span class="lineno">  138</span>                    <a class="code hl_variable" href="../../d5/d26/structnpc__draenei__survivor_1_1npc__draenei__survivor_a_i.html#a4f2d829af97d6fb5ef13e3922ebe99e8">SayThanksTimer</a> = 0;</div>
+<div class="line"><span class="lineno">  139</span>                }</div>
+<div class="line"><span class="lineno">  140</span>                <span class="keywordflow">else</span> <a class="code hl_variable" href="../../d5/d26/structnpc__draenei__survivor_1_1npc__draenei__survivor_a_i.html#a4f2d829af97d6fb5ef13e3922ebe99e8">SayThanksTimer</a> -= diff;</div>
+<div class="line"><span class="lineno">  141</span> </div>
+<div class="line"><span class="lineno">  142</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  143</span>            }</div>
+<div class="line"><span class="lineno">  144</span> </div>
+<div class="line"><span class="lineno">  145</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d5/d26/structnpc__draenei__survivor_1_1npc__draenei__survivor_a_i.html#a233885b12615bfbc927d8845d0cff3fd">RunAwayTimer</a>)</div>
+<div class="line"><span class="lineno">  146</span>            {</div>
+<div class="line"><span class="lineno">  147</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d5/d26/structnpc__draenei__survivor_1_1npc__draenei__survivor_a_i.html#a233885b12615bfbc927d8845d0cff3fd">RunAwayTimer</a> &lt;= diff)</div>
+<div class="line"><span class="lineno">  148</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#abce66404f36b926cf403555911bcb9f7">DespawnOrUnsummon</a>();</div>
+<div class="line"><span class="lineno">  149</span>                <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  150</span>                    <a class="code hl_variable" href="../../d5/d26/structnpc__draenei__survivor_1_1npc__draenei__survivor_a_i.html#a233885b12615bfbc927d8845d0cff3fd">RunAwayTimer</a> -= diff;</div>
+<div class="line"><span class="lineno">  151</span> </div>
+<div class="line"><span class="lineno">  152</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  153</span>            }</div>
+<div class="line"><span class="lineno">  154</span> </div>
+<div class="line"><span class="lineno">  155</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d5/d26/structnpc__draenei__survivor_1_1npc__draenei__survivor_a_i.html#a8d77b110c6af6615d5d39e0870cbe890">SayHelpTimer</a> &lt;= diff)</div>
+<div class="line"><span class="lineno">  156</span>            {</div>
+<div class="line"><span class="lineno">  157</span>                <a class="code hl_variable" href="../../d5/d26/structnpc__draenei__survivor_1_1npc__draenei__survivor_a_i.html#a6bf8c4eb06fe661da0c850424843bd42">CanSayHelp</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  158</span>                <a class="code hl_variable" href="../../d5/d26/structnpc__draenei__survivor_1_1npc__draenei__survivor_a_i.html#a8d77b110c6af6615d5d39e0870cbe890">SayHelpTimer</a> = 20000;</div>
+<div class="line"><span class="lineno">  159</span>            }</div>
+<div class="line"><span class="lineno">  160</span>            <span class="keywordflow">else</span> <a class="code hl_variable" href="../../d5/d26/structnpc__draenei__survivor_1_1npc__draenei__survivor_a_i.html#a8d77b110c6af6615d5d39e0870cbe890">SayHelpTimer</a> -= diff;</div>
+<div class="line"><span class="lineno">  161</span>        }</div>
+<div class="ttc" id="aclass_creature_html_abce66404f36b926cf403555911bcb9f7"><div class="ttname"><a href="../../d1/dac/class_creature.html#abce66404f36b926cf403555911bcb9f7">Creature::DespawnOrUnsummon</a></div><div class="ttdeci">void DespawnOrUnsummon(Milliseconds msTimeToDespawn, Seconds forcedRespawnTimer)</div><div class="ttdef"><b>Definition:</b> Creature.cpp:2092</div></div>
+<div class="ttc" id="aclass_motion_master_html_a903a48c63482ebbd45d63272b218df7f"><div class="ttname"><a href="../../df/d4d/class_motion_master.html#a903a48c63482ebbd45d63272b218df7f">MotionMaster::MovePoint</a></div><div class="ttdeci">void MovePoint(uint32 id, const Position &amp;pos, bool generatePath=true, bool forceDestination=true)</div><div class="ttdef"><b>Definition:</b> MotionMaster.h:210</div></div>
+<div class="ttc" id="aclass_motion_master_html_afa6ffa9c5d6897f3aad3ac524c7bb35a"><div class="ttname"><a href="../../df/d4d/class_motion_master.html#afa6ffa9c5d6897f3aad3ac524c7bb35a">MotionMaster::Clear</a></div><div class="ttdeci">void Clear(bool reset=true)</div><div class="ttdef"><b>Definition:</b> MotionMaster.h:165</div></div>
+<div class="ttc" id="aclass_object_html_aa627fe2967ed0e0ed1d8aeeb4365a961"><div class="ttname"><a href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">Object::GetEntry</a></div><div class="ttdeci">uint32 GetEntry() const</div><div class="ttdef"><b>Definition:</b> Object.h:109</div></div>
+<div class="ttc" id="aclass_player_html"><div class="ttname"><a href="../../d8/d53/class_player.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1046</div></div>
+<div class="ttc" id="aclass_unit_html_a4a04a3f22c3b0d6f4933993ac0cc7aa4"><div class="ttname"><a href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">Unit::GetMotionMaster</a></div><div class="ttdeci">MotionMaster * GetMotionMaster()</div><div class="ttdef"><b>Definition:</b> Unit.h:2257</div></div>
+<div class="ttc" id="aclass_unit_html_aac612f06e84142d92dcfc432b5feb4ac"><div class="ttname"><a href="../../da/db7/class_unit.html#aac612f06e84142d92dcfc432b5feb4ac">Unit::RemoveAurasDueToSpell</a></div><div class="ttdeci">void RemoveAurasDueToSpell(uint32 spellId, ObjectGuid casterGUID=ObjectGuid::Empty, uint8 reqEffMask=0, AuraRemoveMode removeMode=AURA_REMOVE_BY_DEFAULT)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:4823</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_aeb3657e7ad09335b9a9ffa50473aa216"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#aeb3657e7ad09335b9a9ffa50473aa216">ObjectAccessor::GetPlayer</a></div><div class="ttdeci">Player * GetPlayer(Map const *, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:225</div></div>
+<div class="ttc" id="azone__azuremyst__isle_8cpp_html_a4312325b44ff42e455a1955a0a0d0ce0a3bb81f47f40ebbd45afd95991300a0b6"><div class="ttname"><a href="../../d5/d8c/zone__azuremyst__isle_8cpp.html#a4312325b44ff42e455a1955a0a0d0ce0a3bb81f47f40ebbd45afd95991300a0b6">SAY_HEAL</a></div><div class="ttdeci">@ SAY_HEAL</div><div class="ttdef"><b>Definition:</b> zone_azuremyst_isle.cpp:49</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -750,7 +872,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Kalimdor/<a class="el" href="../../d5/d8c/zone__azuremyst__isle_8cpp.html">zone_azuremyst_isle.cpp</a></li>
+<li><a class="el" href="../../">zone_azuremyst_isle.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -758,7 +880,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d3/d3d/classnpc__draenei__survivor.html">npc_draenei_survivor</a></li><li class="navelem"><a class="el" href="../../d5/d26/structnpc__draenei__survivor_1_1npc__draenei__survivor_a_i.html">npc_draenei_survivorAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:49 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:04 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

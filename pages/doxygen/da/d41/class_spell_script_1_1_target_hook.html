@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('da/d41/class_spell_script_1_1_target_h
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d1/df6/_spell_script_8h_source.html">SpellScript.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">SpellScript.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for SpellScript::TargetHook:</div>
 <div class="dyncontent">
@@ -163,7 +163,8 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:ab5eb48ef7ac903938f92db0e856e0295 inherit pro_attribs_class___spell_script_1_1_effect_hook"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dbc/class___spell_script_1_1_effect_hook.html#ab5eb48ef7ac903938f92db0e856e0295">effIndex</a></td></tr>
 <tr class="separator:ab5eb48ef7ac903938f92db0e856e0295 inherit pro_attribs_class___spell_script_1_1_effect_hook"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="afcada203ddd8752107c74bbf0e7c24eb" name="afcada203ddd8752107c74bbf0e7c24eb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afcada203ddd8752107c74bbf0e7c24eb">&#9670;&#160;</a></span>TargetHook()</h2>
 
@@ -201,7 +202,12 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  228</span>    : <a class="code hl_class" href="../../db/dbc/class___spell_script_1_1_effect_hook.html">_SpellScript::EffectHook</a>(_effectIndex), <a class="code hl_variable" href="../../da/d41/class_spell_script_1_1_target_hook.html#aed2e0e651bdd5453d716db464ac0ab55">targetType</a>(_targetType), <a class="code hl_variable" href="../../da/d41/class_spell_script_1_1_target_hook.html#aceec6f0ea91d45a11233122c3bc843ed">area</a>(_area), <a class="code hl_variable" href="../../da/d41/class_spell_script_1_1_target_hook.html#a28f2f6f3338a2c261ee754508ee48e60">dest</a>(_dest) { }</div>
+<div class="ttc" id="aclass___spell_script_1_1_effect_hook_html"><div class="ttname"><a href="../../db/dbc/class___spell_script_1_1_effect_hook.html">_SpellScript::EffectHook</a></div><div class="ttdef"><b>Definition:</b> SpellScript.h:72</div></div>
+<div class="ttc" id="aclass_spell_script_1_1_target_hook_html_a28f2f6f3338a2c261ee754508ee48e60"><div class="ttname"><a href="../../da/d41/class_spell_script_1_1_target_hook.html#a28f2f6f3338a2c261ee754508ee48e60">SpellScript::TargetHook::dest</a></div><div class="ttdeci">bool dest</div><div class="ttdef"><b>Definition:</b> SpellScript.h:256</div></div>
+<div class="ttc" id="aclass_spell_script_1_1_target_hook_html_aceec6f0ea91d45a11233122c3bc843ed"><div class="ttname"><a href="../../da/d41/class_spell_script_1_1_target_hook.html#aceec6f0ea91d45a11233122c3bc843ed">SpellScript::TargetHook::area</a></div><div class="ttdeci">bool area</div><div class="ttdef"><b>Definition:</b> SpellScript.h:255</div></div>
+<div class="ttc" id="aclass_spell_script_1_1_target_hook_html_aed2e0e651bdd5453d716db464ac0ab55"><div class="ttname"><a href="../../da/d41/class_spell_script_1_1_target_hook.html#aed2e0e651bdd5453d716db464ac0ab55">SpellScript::TargetHook::targetType</a></div><div class="ttdeci">uint16 targetType</div><div class="ttdef"><b>Definition:</b> SpellScript.h:254</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -240,7 +246,62 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../db/dbc/class___spell_script_1_1_effect_hook.html#a01ab6726fb1c6ac3d8e0982d0639b34a">_SpellScript::EffectHook</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  238</span>{</div>
+<div class="line"><span class="lineno">  239</span>    <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../da/d41/class_spell_script_1_1_target_hook.html#aed2e0e651bdd5453d716db464ac0ab55">targetType</a>)</div>
+<div class="line"><span class="lineno">  240</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  241</span> </div>
+<div class="line"><span class="lineno">  242</span>    <span class="keywordflow">if</span> (spellEntry-&gt;Effects[<a class="code hl_variable" href="../../db/dbc/class___spell_script_1_1_effect_hook.html#ab5eb48ef7ac903938f92db0e856e0295">effIndex</a>].TargetA.GetTarget() != <a class="code hl_variable" href="../../da/d41/class_spell_script_1_1_target_hook.html#aed2e0e651bdd5453d716db464ac0ab55">targetType</a> &amp;&amp;</div>
+<div class="line"><span class="lineno">  243</span>            spellEntry-&gt;Effects[<a class="code hl_variable" href="../../db/dbc/class___spell_script_1_1_effect_hook.html#ab5eb48ef7ac903938f92db0e856e0295">effIndex</a>].TargetB.GetTarget() != <a class="code hl_variable" href="../../da/d41/class_spell_script_1_1_target_hook.html#aed2e0e651bdd5453d716db464ac0ab55">targetType</a>)</div>
+<div class="line"><span class="lineno">  244</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  245</span> </div>
+<div class="line"><span class="lineno">  246</span>    <a class="code hl_class" href="../../d0/dc1/class_spell_implicit_target_info.html">SpellImplicitTargetInfo</a> targetInfo(<a class="code hl_variable" href="../../da/d41/class_spell_script_1_1_target_hook.html#aed2e0e651bdd5453d716db464ac0ab55">targetType</a>);</div>
+<div class="line"><span class="lineno">  247</span>    <span class="keywordflow">switch</span> (targetInfo.GetSelectionCategory())</div>
+<div class="line"><span class="lineno">  248</span>    {</div>
+<div class="line"><span class="lineno">  249</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/d70/_spell_info_8h.html#a1552887f0f9abf22f5e7af1064b8c213afd05dcc79a05b4acc26f4e5fcfab3699">TARGET_SELECT_CATEGORY_CHANNEL</a>: <span class="comment">// SINGLE</span></div>
+<div class="line"><span class="lineno">  250</span>            <span class="keywordflow">return</span> !<a class="code hl_variable" href="../../da/d41/class_spell_script_1_1_target_hook.html#aceec6f0ea91d45a11233122c3bc843ed">area</a>;</div>
+<div class="line"><span class="lineno">  251</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/d70/_spell_info_8h.html#a1552887f0f9abf22f5e7af1064b8c213a636fd6cfcc1d0311082f09207564554d">TARGET_SELECT_CATEGORY_NEARBY</a>: <span class="comment">// BOTH</span></div>
+<div class="line"><span class="lineno">  252</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  253</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/d70/_spell_info_8h.html#a1552887f0f9abf22f5e7af1064b8c213a1f88db49aeb89b11c7cabba4080903d2">TARGET_SELECT_CATEGORY_CONE</a>: <span class="comment">// AREA</span></div>
+<div class="line"><span class="lineno">  254</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/d70/_spell_info_8h.html#a1552887f0f9abf22f5e7af1064b8c213a33f431bb237477f3653cc4db15d3cdf2">TARGET_SELECT_CATEGORY_AREA</a>: <span class="comment">// AREA</span></div>
+<div class="line"><span class="lineno">  255</span>            <span class="keywordflow">return</span> <a class="code hl_variable" href="../../da/d41/class_spell_script_1_1_target_hook.html#aceec6f0ea91d45a11233122c3bc843ed">area</a>;</div>
+<div class="line"><span class="lineno">  256</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/d70/_spell_info_8h.html#a1552887f0f9abf22f5e7af1064b8c213a475b21339389f50a94233789b5352f97">TARGET_SELECT_CATEGORY_DEFAULT</a>:</div>
+<div class="line"><span class="lineno">  257</span>            <span class="keywordflow">switch</span> (targetInfo.GetObjectType())</div>
+<div class="line"><span class="lineno">  258</span>            {</div>
+<div class="line"><span class="lineno">  259</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/d70/_spell_info_8h.html#abd452c9e8451ab6d47620dbda77f087aac72748d4f14d4084a7c612af3f08da51">TARGET_OBJECT_TYPE_SRC</a>: <span class="comment">// EMPTY</span></div>
+<div class="line"><span class="lineno">  260</span>                    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  261</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/d70/_spell_info_8h.html#abd452c9e8451ab6d47620dbda77f087aa64ac37e702bffc0ec975dbf66daefe06">TARGET_OBJECT_TYPE_DEST</a>: <span class="comment">// DEST</span></div>
+<div class="line"><span class="lineno">  262</span>                    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../da/d41/class_spell_script_1_1_target_hook.html#a28f2f6f3338a2c261ee754508ee48e60">dest</a>;</div>
+<div class="line"><span class="lineno">  263</span>                <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  264</span>                    <span class="keywordflow">switch</span> (targetInfo.GetReferenceType())</div>
+<div class="line"><span class="lineno">  265</span>                    {</div>
+<div class="line"><span class="lineno">  266</span>                        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/d70/_spell_info_8h.html#ae160272dac6c37cf297c68db99d9c987aba1fa2b8ede36a4ce60ee903eb8eeda5">TARGET_REFERENCE_TYPE_CASTER</a>: <span class="comment">// SINGLE</span></div>
+<div class="line"><span class="lineno">  267</span>                            <span class="keywordflow">return</span> !<a class="code hl_variable" href="../../da/d41/class_spell_script_1_1_target_hook.html#aceec6f0ea91d45a11233122c3bc843ed">area</a>;</div>
+<div class="line"><span class="lineno">  268</span>                        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/d70/_spell_info_8h.html#ae160272dac6c37cf297c68db99d9c987a3f2d34d5c6b2cc3fa0354ec9c5d72094">TARGET_REFERENCE_TYPE_TARGET</a>: <span class="comment">// BOTH</span></div>
+<div class="line"><span class="lineno">  269</span>                            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  270</span>                        <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  271</span>                            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  272</span>                    }</div>
+<div class="line"><span class="lineno">  273</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  274</span>            }</div>
+<div class="line"><span class="lineno">  275</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  276</span>        <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  277</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  278</span>    }</div>
+<div class="line"><span class="lineno">  279</span> </div>
+<div class="line"><span class="lineno">  280</span>    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  281</span>}</div>
+<div class="ttc" id="a_spell_info_8h_html_a1552887f0f9abf22f5e7af1064b8c213a1f88db49aeb89b11c7cabba4080903d2"><div class="ttname"><a href="../../dc/d70/_spell_info_8h.html#a1552887f0f9abf22f5e7af1064b8c213a1f88db49aeb89b11c7cabba4080903d2">TARGET_SELECT_CATEGORY_CONE</a></div><div class="ttdeci">@ TARGET_SELECT_CATEGORY_CONE</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:81</div></div>
+<div class="ttc" id="a_spell_info_8h_html_a1552887f0f9abf22f5e7af1064b8c213a33f431bb237477f3653cc4db15d3cdf2"><div class="ttname"><a href="../../dc/d70/_spell_info_8h.html#a1552887f0f9abf22f5e7af1064b8c213a33f431bb237477f3653cc4db15d3cdf2">TARGET_SELECT_CATEGORY_AREA</a></div><div class="ttdeci">@ TARGET_SELECT_CATEGORY_AREA</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:82</div></div>
+<div class="ttc" id="a_spell_info_8h_html_a1552887f0f9abf22f5e7af1064b8c213a475b21339389f50a94233789b5352f97"><div class="ttname"><a href="../../dc/d70/_spell_info_8h.html#a1552887f0f9abf22f5e7af1064b8c213a475b21339389f50a94233789b5352f97">TARGET_SELECT_CATEGORY_DEFAULT</a></div><div class="ttdeci">@ TARGET_SELECT_CATEGORY_DEFAULT</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:78</div></div>
+<div class="ttc" id="a_spell_info_8h_html_a1552887f0f9abf22f5e7af1064b8c213a636fd6cfcc1d0311082f09207564554d"><div class="ttname"><a href="../../dc/d70/_spell_info_8h.html#a1552887f0f9abf22f5e7af1064b8c213a636fd6cfcc1d0311082f09207564554d">TARGET_SELECT_CATEGORY_NEARBY</a></div><div class="ttdeci">@ TARGET_SELECT_CATEGORY_NEARBY</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:80</div></div>
+<div class="ttc" id="a_spell_info_8h_html_a1552887f0f9abf22f5e7af1064b8c213afd05dcc79a05b4acc26f4e5fcfab3699"><div class="ttname"><a href="../../dc/d70/_spell_info_8h.html#a1552887f0f9abf22f5e7af1064b8c213afd05dcc79a05b4acc26f4e5fcfab3699">TARGET_SELECT_CATEGORY_CHANNEL</a></div><div class="ttdeci">@ TARGET_SELECT_CATEGORY_CHANNEL</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:79</div></div>
+<div class="ttc" id="a_spell_info_8h_html_abd452c9e8451ab6d47620dbda77f087aa64ac37e702bffc0ec975dbf66daefe06"><div class="ttname"><a href="../../dc/d70/_spell_info_8h.html#abd452c9e8451ab6d47620dbda77f087aa64ac37e702bffc0ec975dbf66daefe06">TARGET_OBJECT_TYPE_DEST</a></div><div class="ttdeci">@ TARGET_OBJECT_TYPE_DEST</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:100</div></div>
+<div class="ttc" id="a_spell_info_8h_html_abd452c9e8451ab6d47620dbda77f087aac72748d4f14d4084a7c612af3f08da51"><div class="ttname"><a href="../../dc/d70/_spell_info_8h.html#abd452c9e8451ab6d47620dbda77f087aac72748d4f14d4084a7c612af3f08da51">TARGET_OBJECT_TYPE_SRC</a></div><div class="ttdeci">@ TARGET_OBJECT_TYPE_SRC</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:99</div></div>
+<div class="ttc" id="a_spell_info_8h_html_ae160272dac6c37cf297c68db99d9c987a3f2d34d5c6b2cc3fa0354ec9c5d72094"><div class="ttname"><a href="../../dc/d70/_spell_info_8h.html#ae160272dac6c37cf297c68db99d9c987a3f2d34d5c6b2cc3fa0354ec9c5d72094">TARGET_REFERENCE_TYPE_TARGET</a></div><div class="ttdeci">@ TARGET_REFERENCE_TYPE_TARGET</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:90</div></div>
+<div class="ttc" id="a_spell_info_8h_html_ae160272dac6c37cf297c68db99d9c987aba1fa2b8ede36a4ce60ee903eb8eeda5"><div class="ttname"><a href="../../dc/d70/_spell_info_8h.html#ae160272dac6c37cf297c68db99d9c987aba1fa2b8ede36a4ce60ee903eb8eeda5">TARGET_REFERENCE_TYPE_CASTER</a></div><div class="ttdeci">@ TARGET_REFERENCE_TYPE_CASTER</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:89</div></div>
+<div class="ttc" id="aclass___spell_script_1_1_effect_hook_html_ab5eb48ef7ac903938f92db0e856e0295"><div class="ttname"><a href="../../db/dbc/class___spell_script_1_1_effect_hook.html#ab5eb48ef7ac903938f92db0e856e0295">_SpellScript::EffectHook::effIndex</a></div><div class="ttdeci">uint8 effIndex</div><div class="ttdef"><b>Definition:</b> SpellScript.h:82</div></div>
+<div class="ttc" id="aclass_spell_implicit_target_info_html"><div class="ttname"><a href="../../d0/dc1/class_spell_implicit_target_info.html">SpellImplicitTargetInfo</a></div><div class="ttdef"><b>Definition:</b> SpellInfo.h:215</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a238979ffaaa644bd65ffd4e7cb20d797" name="a238979ffaaa644bd65ffd4e7cb20d797"></a>
@@ -265,7 +326,8 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  252</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../da/d41/class_spell_script_1_1_target_hook.html#aed2e0e651bdd5453d716db464ac0ab55">targetType</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a424e03e457dc15a2689f344e614a882f" name="a424e03e457dc15a2689f344e614a882f"></a>
@@ -282,7 +344,13 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  231</span>{</div>
+<div class="line"><span class="lineno">  232</span>    std::ostringstream oss;</div>
+<div class="line"><span class="lineno">  233</span>    oss &lt;&lt; <span class="stringliteral">&quot;Index: &quot;</span> &lt;&lt; <a class="code hl_function" href="../../db/dbc/class___spell_script_1_1_effect_hook.html#ab818ed274cfd66ecc565b8535b751517">EffIndexToString</a>() &lt;&lt; <span class="stringliteral">&quot; Target: &quot;</span> &lt;&lt; <a class="code hl_variable" href="../../da/d41/class_spell_script_1_1_target_hook.html#aed2e0e651bdd5453d716db464ac0ab55">targetType</a>;</div>
+<div class="line"><span class="lineno">  234</span>    <span class="keywordflow">return</span> oss.str();</div>
+<div class="line"><span class="lineno">  235</span>}</div>
+<div class="ttc" id="aclass___spell_script_1_1_effect_hook_html_ab818ed274cfd66ecc565b8535b751517"><div class="ttname"><a href="../../db/dbc/class___spell_script_1_1_effect_hook.html#ab818ed274cfd66ecc565b8535b751517">_SpellScript::EffectHook::EffIndexToString</a></div><div class="ttdeci">std::string EffIndexToString()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:104</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -353,8 +421,8 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Spells/<a class="el" href="../../d1/df6/_spell_script_8h_source.html">SpellScript.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/Spells/<a class="el" href="../../d8/db9/_spell_script_8cpp.html">SpellScript.cpp</a></li>
+<li><a class="el" href="../../">SpellScript.h</a></li>
+<li><a class="el" href="../../">SpellScript.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -362,7 +430,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/d62/class_spell_script.html">SpellScript</a></li><li class="navelem"><a class="el" href="../../da/d41/class_spell_script_1_1_target_hook.html">TargetHook</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:11 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:28 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

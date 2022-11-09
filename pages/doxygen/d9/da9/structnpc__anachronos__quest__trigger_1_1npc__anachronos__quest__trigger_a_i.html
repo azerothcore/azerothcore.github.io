@@ -507,7 +507,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aec19da0dd982c643b15dd3f9fae7338e" name="aec19da0dd982c643b15dd3f9fae7338e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aec19da0dd982c643b15dd3f9fae7338e">&#9670;&#160;</a></span>npc_anachronos_quest_triggerAI()</h2>
 
@@ -531,7 +532,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  759</span>: <a class="code hl_struct" href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a>(creature) { }</div>
+<div class="ttc" id="astruct_scripted_a_i_html"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -557,7 +560,57 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  823</span>        {</div>
+<div class="line"><span class="lineno">  824</span>            <a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* player = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#aeb3657e7ad09335b9a9ffa50473aa216">ObjectAccessor::GetPlayer</a>(*<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_variable" href="../../d9/da9/structnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i.html#a2c459e96b3599cda8560582a4fb4253a">PlayerGUID</a>);</div>
+<div class="line"><span class="lineno">  825</span>            <span class="keywordflow">if</span> (!player)</div>
+<div class="line"><span class="lineno">  826</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  827</span> </div>
+<div class="line"><span class="lineno">  828</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/d50/class_group.html">Group</a>* EventGroup = player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a99fc00f9ac903dbe9adcadc5f7415abb">GetGroup</a>())</div>
+<div class="line"><span class="lineno">  829</span>            {</div>
+<div class="line"><span class="lineno">  830</span>                <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> GroupMemberCount = 0;</div>
+<div class="line"><span class="lineno">  831</span>                <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> DeadMemberCount = 0;</div>
+<div class="line"><span class="lineno">  832</span>                <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> FailedMemberCount = 0;</div>
+<div class="line"><span class="lineno">  833</span> </div>
+<div class="line"><span class="lineno">  834</span>                <a class="code hl_typedef" href="../../da/d50/class_group.html#a4d8e5cbe8212d17dcdce9950344026dc">Group::MemberSlotList</a> <span class="keyword">const</span>&amp; members = EventGroup-&gt;GetMemberSlots();</div>
+<div class="line"><span class="lineno">  835</span> </div>
+<div class="line"><span class="lineno">  836</span>                <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../da/d50/class_group.html#acf674ef40632cc826df77bc2e0d4896f">Group::member_citerator</a> itr = members.begin(); itr != members.end(); ++itr)</div>
+<div class="line"><span class="lineno">  837</span>                {</div>
+<div class="line"><span class="lineno">  838</span>                    <a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* groupMember = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#aeb3657e7ad09335b9a9ffa50473aa216">ObjectAccessor::GetPlayer</a>(*<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, itr-&gt;guid);</div>
+<div class="line"><span class="lineno">  839</span>                    <span class="keywordflow">if</span> (!groupMember)</div>
+<div class="line"><span class="lineno">  840</span>                        <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  841</span>                    <span class="keywordflow">if</span> (!groupMember-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#ab73407bcdf13a30519a953d24773ed02">IsWithinDistInMap</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_define" href="../../d3/d9d/zone__silithus_8cpp.html#ab69ef601d31d0264381d9af5e06f7769">EVENT_AREA_RADIUS</a>) &amp;&amp; groupMember-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#ab98c62b0161d702e4219c8277f8f5349">GetQuestStatus</a>(<a class="code hl_enumvalue" href="../../d3/d9d/zone__silithus_8cpp.html#a923a77705fa4d0950a83d540db7d23b3ab5ce278c974470bab6da2fa29899b223">QUEST_A_PAWN_ON_THE_ETERNAL_BOARD</a>) == <a class="code hl_enumvalue" href="../../d2/dc8/_quest_def_8h.html#abfc87d39d69176ad25e800fb4aa6f0d8a9d062f65bead287785d9b540987bb484">QUEST_STATUS_INCOMPLETE</a>)</div>
+<div class="line"><span class="lineno">  842</span>                    {</div>
+<div class="line"><span class="lineno">  843</span>                        groupMember-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#ac66aea564f92c5f3c38d5819a0a0b4e4">FailQuest</a>(<a class="code hl_enumvalue" href="../../d3/d9d/zone__silithus_8cpp.html#a923a77705fa4d0950a83d540db7d23b3ab5ce278c974470bab6da2fa29899b223">QUEST_A_PAWN_ON_THE_ETERNAL_BOARD</a>);</div>
+<div class="line"><span class="lineno">  844</span>                        ++FailedMemberCount;</div>
+<div class="line"><span class="lineno">  845</span>                    }</div>
+<div class="line"><span class="lineno">  846</span>                    ++GroupMemberCount;</div>
+<div class="line"><span class="lineno">  847</span> </div>
+<div class="line"><span class="lineno">  848</span>                    <span class="keywordflow">if</span> (groupMember-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#afd7aa5f7719cba4d967bb7f009582d2f">isDead</a>())</div>
+<div class="line"><span class="lineno">  849</span>                        ++DeadMemberCount;</div>
+<div class="line"><span class="lineno">  850</span>                }</div>
+<div class="line"><span class="lineno">  851</span> </div>
+<div class="line"><span class="lineno">  852</span>                <span class="keywordflow">if</span> (GroupMemberCount == FailedMemberCount || !player-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#ab73407bcdf13a30519a953d24773ed02">IsWithinDistInMap</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_define" href="../../d3/d9d/zone__silithus_8cpp.html#ab69ef601d31d0264381d9af5e06f7769">EVENT_AREA_RADIUS</a>))</div>
+<div class="line"><span class="lineno">  853</span>                    <a class="code hl_variable" href="../../d9/da9/structnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i.html#a60af9e06e872adfab6e7dbac73dfbece">Failed</a> = <span class="keyword">true</span>; <span class="comment">//only so event can restart</span></div>
+<div class="line"><span class="lineno">  854</span>            }</div>
+<div class="line"><span class="lineno">  855</span>        }</div>
+<div class="ttc" id="a_define_8h_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:110</div></div>
+<div class="ttc" id="a_quest_def_8h_html_abfc87d39d69176ad25e800fb4aa6f0d8a9d062f65bead287785d9b540987bb484"><div class="ttname"><a href="../../d2/dc8/_quest_def_8h.html#abfc87d39d69176ad25e800fb4aa6f0d8a9d062f65bead287785d9b540987bb484">QUEST_STATUS_INCOMPLETE</a></div><div class="ttdeci">@ QUEST_STATUS_INCOMPLETE</div><div class="ttdef"><b>Definition:</b> QuestDef.h:103</div></div>
+<div class="ttc" id="aclass_group_html"><div class="ttname"><a href="../../da/d50/class_group.html">Group</a></div><div class="ttdef"><b>Definition:</b> Group.h:168</div></div>
+<div class="ttc" id="aclass_group_html_a4d8e5cbe8212d17dcdce9950344026dc"><div class="ttname"><a href="../../da/d50/class_group.html#a4d8e5cbe8212d17dcdce9950344026dc">Group::MemberSlotList</a></div><div class="ttdeci">std::list&lt; MemberSlot &gt; MemberSlotList</div><div class="ttdef"><b>Definition:</b> Group.h:178</div></div>
+<div class="ttc" id="aclass_group_html_acf674ef40632cc826df77bc2e0d4896f"><div class="ttname"><a href="../../da/d50/class_group.html#acf674ef40632cc826df77bc2e0d4896f">Group::member_citerator</a></div><div class="ttdeci">MemberSlotList::const_iterator member_citerator</div><div class="ttdef"><b>Definition:</b> Group.h:179</div></div>
+<div class="ttc" id="aclass_player_html"><div class="ttname"><a href="../../d8/d53/class_player.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1046</div></div>
+<div class="ttc" id="aclass_player_html_a99fc00f9ac903dbe9adcadc5f7415abb"><div class="ttname"><a href="../../d8/d53/class_player.html#a99fc00f9ac903dbe9adcadc5f7415abb">Player::GetGroup</a></div><div class="ttdeci">Group * GetGroup()</div><div class="ttdef"><b>Definition:</b> Player.h:2417</div></div>
+<div class="ttc" id="aclass_player_html_ab98c62b0161d702e4219c8277f8f5349"><div class="ttname"><a href="../../d8/d53/class_player.html#ab98c62b0161d702e4219c8277f8f5349">Player::GetQuestStatus</a></div><div class="ttdeci">QuestStatus GetQuestStatus(uint32 quest_id) const</div><div class="ttdef"><b>Definition:</b> PlayerQuest.cpp:1407</div></div>
+<div class="ttc" id="aclass_player_html_ac66aea564f92c5f3c38d5819a0a0b4e4"><div class="ttname"><a href="../../d8/d53/class_player.html#ac66aea564f92c5f3c38d5819a0a0b4e4">Player::FailQuest</a></div><div class="ttdeci">void FailQuest(uint32 quest_id)</div><div class="ttdef"><b>Definition:</b> PlayerQuest.cpp:877</div></div>
+<div class="ttc" id="aclass_unit_html_afd7aa5f7719cba4d967bb7f009582d2f"><div class="ttname"><a href="../../da/db7/class_unit.html#afd7aa5f7719cba4d967bb7f009582d2f">Unit::isDead</a></div><div class="ttdeci">bool isDead() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1807</div></div>
+<div class="ttc" id="aclass_world_object_html_ab73407bcdf13a30519a953d24773ed02"><div class="ttname"><a href="../../db/df7/class_world_object.html#ab73407bcdf13a30519a953d24773ed02">WorldObject::IsWithinDistInMap</a></div><div class="ttdeci">bool IsWithinDistInMap(WorldObject const *obj, float dist2compare, bool is3D=true, bool useBoundingRadius=true) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1321</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_aeb3657e7ad09335b9a9ffa50473aa216"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#aeb3657e7ad09335b9a9ffa50473aa216">ObjectAccessor::GetPlayer</a></div><div class="ttdeci">Player * GetPlayer(Map const *, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:225</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+<div class="ttc" id="astructnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i_html_a2c459e96b3599cda8560582a4fb4253a"><div class="ttname"><a href="../../d9/da9/structnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i.html#a2c459e96b3599cda8560582a4fb4253a">npc_anachronos_quest_trigger::npc_anachronos_quest_triggerAI::PlayerGUID</a></div><div class="ttdeci">ObjectGuid PlayerGUID</div><div class="ttdef"><b>Definition:</b> zone_silithus.cpp:761</div></div>
+<div class="ttc" id="astructnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i_html_a60af9e06e872adfab6e7dbac73dfbece"><div class="ttname"><a href="../../d9/da9/structnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i.html#a60af9e06e872adfab6e7dbac73dfbece">npc_anachronos_quest_trigger::npc_anachronos_quest_triggerAI::Failed</a></div><div class="ttdeci">bool Failed</div><div class="ttdef"><b>Definition:</b> zone_silithus.cpp:771</div></div>
+<div class="ttc" id="azone__silithus_8cpp_html_a923a77705fa4d0950a83d540db7d23b3ab5ce278c974470bab6da2fa29899b223"><div class="ttname"><a href="../../d3/d9d/zone__silithus_8cpp.html#a923a77705fa4d0950a83d540db7d23b3ab5ce278c974470bab6da2fa29899b223">QUEST_A_PAWN_ON_THE_ETERNAL_BOARD</a></div><div class="ttdeci">@ QUEST_A_PAWN_ON_THE_ETERNAL_BOARD</div><div class="ttdef"><b>Definition:</b> zone_silithus.cpp:47</div></div>
+<div class="ttc" id="azone__silithus_8cpp_html_ab69ef601d31d0264381d9af5e06f7769"><div class="ttname"><a href="../../d3/d9d/zone__silithus_8cpp.html#ab69ef601d31d0264381d9af5e06f7769">EVENT_AREA_RADIUS</a></div><div class="ttdeci">#define EVENT_AREA_RADIUS</div><div class="ttdef"><b>Definition:</b> zone_silithus.cpp:109</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aa19310d516a578dcd2d13d4298da0f58" name="aa19310d516a578dcd2d13d4298da0f58"></a>
@@ -582,7 +635,14 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  858</span>        {</div>
+<div class="line"><span class="lineno">  859</span>            --<a class="code hl_variable" href="../../d9/da9/structnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i.html#ae959e46865951c2783fe97e824180050">LiveCount</a>;</div>
+<div class="line"><span class="lineno">  860</span>            <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d9/da9/structnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i.html#ae959e46865951c2783fe97e824180050">LiveCount</a>)</div>
+<div class="line"><span class="lineno">  861</span>                <a class="code hl_variable" href="../../d9/da9/structnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i.html#a4e516705efff20a62124514ba14c8161">Announced</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  862</span>        }</div>
+<div class="ttc" id="astructnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i_html_a4e516705efff20a62124514ba14c8161"><div class="ttname"><a href="../../d9/da9/structnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i.html#a4e516705efff20a62124514ba14c8161">npc_anachronos_quest_trigger::npc_anachronos_quest_triggerAI::Announced</a></div><div class="ttdeci">bool Announced</div><div class="ttdef"><b>Definition:</b> zone_silithus.cpp:770</div></div>
+<div class="ttc" id="astructnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i_html_ae959e46865951c2783fe97e824180050"><div class="ttname"><a href="../../d9/da9/structnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i.html#ae959e46865951c2783fe97e824180050">npc_anachronos_quest_trigger::npc_anachronos_quest_triggerAI::LiveCount</a></div><div class="ttdeci">int8 LiveCount</div><div class="ttdef"><b>Definition:</b> zone_silithus.cpp:766</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ab69245d2f874bef9796c151e5a27aaf7" name="ab69245d2f874bef9796c151e5a27aaf7"></a>
@@ -609,7 +669,27 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a26600c116d20a33461fc884bdb82eda9">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  774</span>        {</div>
+<div class="line"><span class="lineno">  775</span>            <a class="code hl_variable" href="../../d9/da9/structnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i.html#a2c459e96b3599cda8560582a4fb4253a">PlayerGUID</a>.<a class="code hl_function" href="../../d8/d03/class_object_guid.html#af6aafb4610723c7f14523fef243b1b65">Clear</a>();</div>
+<div class="line"><span class="lineno">  776</span> </div>
+<div class="line"><span class="lineno">  777</span>            <a class="code hl_variable" href="../../d9/da9/structnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i.html#a5294c9cd61713bc209a1b65f3b0a252e">WaveTimer</a> = 2000;</div>
+<div class="line"><span class="lineno">  778</span>            <a class="code hl_variable" href="../../d9/da9/structnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i.html#a7772c5b4f80b75ffe7b0641321029059">AnnounceTimer</a> = 1000;</div>
+<div class="line"><span class="lineno">  779</span>            <a class="code hl_variable" href="../../d9/da9/structnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i.html#ae959e46865951c2783fe97e824180050">LiveCount</a> = 0;</div>
+<div class="line"><span class="lineno">  780</span>            <a class="code hl_variable" href="../../d9/da9/structnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i.html#ac3a32a11e5f99d081371c49363509deb">WaveCount</a> = 0;</div>
+<div class="line"><span class="lineno">  781</span> </div>
+<div class="line"><span class="lineno">  782</span>            <a class="code hl_variable" href="../../d9/da9/structnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i.html#ad70b899bedb2b338a306f45e2b4eafd4">EventStarted</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  783</span>            <a class="code hl_variable" href="../../d9/da9/structnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i.html#a4e516705efff20a62124514ba14c8161">Announced</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  784</span>            <a class="code hl_variable" href="../../d9/da9/structnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i.html#a60af9e06e872adfab6e7dbac73dfbece">Failed</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  785</span> </div>
+<div class="line"><span class="lineno">  786</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a08f6c21ed1d05cf54e8351b80e152c90">SetVisible</a>(<span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  787</span>        }</div>
+<div class="ttc" id="aclass_object_guid_html_af6aafb4610723c7f14523fef243b1b65"><div class="ttname"><a href="../../d8/d03/class_object_guid.html#af6aafb4610723c7f14523fef243b1b65">ObjectGuid::Clear</a></div><div class="ttdeci">void Clear()</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:140</div></div>
+<div class="ttc" id="aclass_unit_html_a08f6c21ed1d05cf54e8351b80e152c90"><div class="ttname"><a href="../../da/db7/class_unit.html#a08f6c21ed1d05cf54e8351b80e152c90">Unit::SetVisible</a></div><div class="ttdeci">void SetVisible(bool x)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:14117</div></div>
+<div class="ttc" id="astructnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i_html_a5294c9cd61713bc209a1b65f3b0a252e"><div class="ttname"><a href="../../d9/da9/structnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i.html#a5294c9cd61713bc209a1b65f3b0a252e">npc_anachronos_quest_trigger::npc_anachronos_quest_triggerAI::WaveTimer</a></div><div class="ttdeci">uint32 WaveTimer</div><div class="ttdef"><b>Definition:</b> zone_silithus.cpp:763</div></div>
+<div class="ttc" id="astructnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i_html_a7772c5b4f80b75ffe7b0641321029059"><div class="ttname"><a href="../../d9/da9/structnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i.html#a7772c5b4f80b75ffe7b0641321029059">npc_anachronos_quest_trigger::npc_anachronos_quest_triggerAI::AnnounceTimer</a></div><div class="ttdeci">uint32 AnnounceTimer</div><div class="ttdef"><b>Definition:</b> zone_silithus.cpp:764</div></div>
+<div class="ttc" id="astructnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i_html_ac3a32a11e5f99d081371c49363509deb"><div class="ttname"><a href="../../d9/da9/structnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i.html#ac3a32a11e5f99d081371c49363509deb">npc_anachronos_quest_trigger::npc_anachronos_quest_triggerAI::WaveCount</a></div><div class="ttdeci">uint8 WaveCount</div><div class="ttdef"><b>Definition:</b> zone_silithus.cpp:767</div></div>
+<div class="ttc" id="astructnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i_html_ad70b899bedb2b338a306f45e2b4eafd4"><div class="ttname"><a href="../../d9/da9/structnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i.html#ad70b899bedb2b338a306f45e2b4eafd4">npc_anachronos_quest_trigger::npc_anachronos_quest_triggerAI::EventStarted</a></div><div class="ttdeci">bool EventStarted</div><div class="ttdef"><b>Definition:</b> zone_silithus.cpp:769</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="af2cc55a3f35a70a4a9630b4b843f8db7" name="af2cc55a3f35a70a4a9630b4b843f8db7"></a>
@@ -634,7 +714,54 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  790</span>        {</div>
+<div class="line"><span class="lineno">  791</span>            <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> locIndex = <a class="code hl_variable" href="../../d3/d9d/zone__silithus_8cpp.html#a7fa1a2862836adbfa22d734ffb4d3a28">WavesInfo</a>[<a class="code hl_variable" href="../../d9/da9/structnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i.html#ac3a32a11e5f99d081371c49363509deb">WaveCount</a>].<a class="code hl_variable" href="../../d6/d25/struct_wave_data.html#a7db57df5da62ebb3b52ecd70ec3d45f2">UsedSpawnPoint</a>;</div>
+<div class="line"><span class="lineno">  792</span>            <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> count = locIndex + <a class="code hl_variable" href="../../d3/d9d/zone__silithus_8cpp.html#a7fa1a2862836adbfa22d734ffb4d3a28">WavesInfo</a>[<a class="code hl_variable" href="../../d9/da9/structnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i.html#ac3a32a11e5f99d081371c49363509deb">WaveCount</a>].<a class="code hl_variable" href="../../d6/d25/struct_wave_data.html#ad5347ee83eaa00fe0721279099c48433">SpawnCount</a>;</div>
+<div class="line"><span class="lineno">  793</span> </div>
+<div class="line"><span class="lineno">  794</span>            <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> i = locIndex; i &lt;= count; ++i)</div>
+<div class="line"><span class="lineno">  795</span>            {</div>
+<div class="line"><span class="lineno">  796</span>                <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> desptimer = <a class="code hl_variable" href="../../d3/d9d/zone__silithus_8cpp.html#a7fa1a2862836adbfa22d734ffb4d3a28">WavesInfo</a>[<a class="code hl_variable" href="../../d9/da9/structnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i.html#ac3a32a11e5f99d081371c49363509deb">WaveCount</a>].<a class="code hl_variable" href="../../d6/d25/struct_wave_data.html#a0dfec745982b346ac1cd0af672be31fb">DespTimer</a>;</div>
+<div class="line"><span class="lineno">  797</span> </div>
+<div class="line"><span class="lineno">  798</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* spawn = <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#aaf7058bd6b40bbfd38cbcd4f740c0344">SummonCreature</a>(<a class="code hl_variable" href="../../d3/d9d/zone__silithus_8cpp.html#a7fa1a2862836adbfa22d734ffb4d3a28">WavesInfo</a>[<a class="code hl_variable" href="../../d9/da9/structnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i.html#ac3a32a11e5f99d081371c49363509deb">WaveCount</a>].<a class="code hl_variable" href="../../d6/d25/struct_wave_data.html#a09f696e37f96e7da259fc026a7c4fd83">CreatureId</a>, <a class="code hl_variable" href="../../d3/d9d/zone__silithus_8cpp.html#ab2605f1616e14016c8e3b390d3dbf720">SpawnLocation</a>[i], <a class="code hl_enumvalue" href="../../df/d30/_object_8h.html#a38c6d8d01cbe0c49b035f348f7724148a7fcc17b9aac93c81619414e6af366e39">TEMPSUMMON_TIMED_OR_DEAD_DESPAWN</a>, desptimer))</div>
+<div class="line"><span class="lineno">  799</span>                {</div>
+<div class="line"><span class="lineno">  800</span>                    <span class="keywordflow">if</span> (spawn-&gt;GetEntry() == 15423)</div>
+<div class="line"><span class="lineno">  801</span>                        spawn-&gt;SetUInt32Value(<a class="code hl_enumvalue" href="../../dd/d65/_update_fields_8h.html#a0e42dc606678c9df7884e1aad621e881a457fdb5cc1a5e88757e62eca03a88a70">UNIT_FIELD_DISPLAYID</a>, 15427 + rand() % 4);</div>
+<div class="line"><span class="lineno">  802</span>                    <span class="keywordflow">if</span> (i &gt;= 30) <a class="code hl_variable" href="../../d9/da9/structnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i.html#ac3a32a11e5f99d081371c49363509deb">WaveCount</a> = 1;</div>
+<div class="line"><span class="lineno">  803</span>                    <span class="keywordflow">if</span> (i &gt;= 33) <a class="code hl_variable" href="../../d9/da9/structnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i.html#ac3a32a11e5f99d081371c49363509deb">WaveCount</a> = 2;</div>
+<div class="line"><span class="lineno">  804</span>                    <span class="keywordflow">if</span> (i &gt;= 45) <a class="code hl_variable" href="../../d9/da9/structnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i.html#ac3a32a11e5f99d081371c49363509deb">WaveCount</a> = 3;</div>
+<div class="line"><span class="lineno">  805</span>                    <span class="keywordflow">if</span> (i &gt;= 51) <a class="code hl_variable" href="../../d9/da9/structnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i.html#ac3a32a11e5f99d081371c49363509deb">WaveCount</a> = 4;</div>
+<div class="line"><span class="lineno">  806</span> </div>
+<div class="line"><span class="lineno">  807</span>                    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d9/da9/structnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i.html#ac3a32a11e5f99d081371c49363509deb">WaveCount</a> &lt; 5) <span class="comment">//1-4 Wave</span></div>
+<div class="line"><span class="lineno">  808</span>                    {</div>
+<div class="line"><span class="lineno">  809</span>                        <span class="keywordflow">if</span> (<a class="code hl_struct" href="../../d6/d8e/structnpc__qiraj__war__spawn_1_1npc__qiraj__war__spawn_a_i.html">npc_qiraj_war_spawn::npc_qiraj_war_spawnAI</a>* spawnAI = <a class="code hl_define" href="../../d3/dad/_scripted_creature_8h.html#a0476b18cfebeb691aabb4344ec4f8af3">CAST_AI</a>(<a class="code hl_struct" href="../../d6/d8e/structnpc__qiraj__war__spawn_1_1npc__qiraj__war__spawn_a_i.html">npc_qiraj_war_spawn::npc_qiraj_war_spawnAI</a>, spawn-&gt;AI()))</div>
+<div class="line"><span class="lineno">  810</span>                        {</div>
+<div class="line"><span class="lineno">  811</span>                            spawnAI-&gt;MobGUID = <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>();</div>
+<div class="line"><span class="lineno">  812</span>                            spawnAI-&gt;PlayerGUID = <a class="code hl_variable" href="../../d9/da9/structnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i.html#a2c459e96b3599cda8560582a4fb4253a">PlayerGUID</a>;</div>
+<div class="line"><span class="lineno">  813</span>                        }</div>
+<div class="line"><span class="lineno">  814</span>                    }</div>
+<div class="line"><span class="lineno">  815</span>                }</div>
+<div class="line"><span class="lineno">  816</span>            }</div>
+<div class="line"><span class="lineno">  817</span> </div>
+<div class="line"><span class="lineno">  818</span>            <a class="code hl_variable" href="../../d9/da9/structnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i.html#a5294c9cd61713bc209a1b65f3b0a252e">WaveTimer</a> = <a class="code hl_variable" href="../../d3/d9d/zone__silithus_8cpp.html#a7fa1a2862836adbfa22d734ffb4d3a28">WavesInfo</a>[<a class="code hl_variable" href="../../d9/da9/structnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i.html#ac3a32a11e5f99d081371c49363509deb">WaveCount</a>].<a class="code hl_variable" href="../../d6/d25/struct_wave_data.html#ab1720ffe0aeeb5669ab49fc32cb24750">SpawnTimer</a>;</div>
+<div class="line"><span class="lineno">  819</span>            <a class="code hl_variable" href="../../d9/da9/structnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i.html#a7772c5b4f80b75ffe7b0641321029059">AnnounceTimer</a> = <a class="code hl_variable" href="../../d3/d9d/zone__silithus_8cpp.html#a7fa1a2862836adbfa22d734ffb4d3a28">WavesInfo</a>[<a class="code hl_variable" href="../../d9/da9/structnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i.html#ac3a32a11e5f99d081371c49363509deb">WaveCount</a>].<a class="code hl_variable" href="../../d6/d25/struct_wave_data.html#ac3f9997775f34babc79d4321fd1a6d6d">YellTimer</a>;</div>
+<div class="line"><span class="lineno">  820</span>        }</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="a_object_8h_html_a38c6d8d01cbe0c49b035f348f7724148a7fcc17b9aac93c81619414e6af366e39"><div class="ttname"><a href="../../df/d30/_object_8h.html#a38c6d8d01cbe0c49b035f348f7724148a7fcc17b9aac93c81619414e6af366e39">TEMPSUMMON_TIMED_OR_DEAD_DESPAWN</a></div><div class="ttdeci">@ TEMPSUMMON_TIMED_OR_DEAD_DESPAWN</div><div class="ttdef"><b>Definition:</b> Object.h:42</div></div>
+<div class="ttc" id="a_scripted_creature_8h_html_a0476b18cfebeb691aabb4344ec4f8af3"><div class="ttname"><a href="../../d3/dad/_scripted_creature_8h.html#a0476b18cfebeb691aabb4344ec4f8af3">CAST_AI</a></div><div class="ttdeci">#define CAST_AI(a, b)</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:27</div></div>
+<div class="ttc" id="a_update_fields_8h_html_a0e42dc606678c9df7884e1aad621e881a457fdb5cc1a5e88757e62eca03a88a70"><div class="ttname"><a href="../../dd/d65/_update_fields_8h.html#a0e42dc606678c9df7884e1aad621e881a457fdb5cc1a5e88757e62eca03a88a70">UNIT_FIELD_DISPLAYID</a></div><div class="ttdeci">@ UNIT_FIELD_DISPLAYID</div><div class="ttdef"><b>Definition:</b> UpdateFields.h:124</div></div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_object_html_ad23b997e2442fa6a6228ba73a7ecc138"><div class="ttname"><a href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">Object::GetGUID</a></div><div class="ttdeci">static ObjectGuid GetGUID(Object const *o)</div><div class="ttdef"><b>Definition:</b> Object.h:106</div></div>
+<div class="ttc" id="aclass_world_object_html_aaf7058bd6b40bbfd38cbcd4f740c0344"><div class="ttname"><a href="../../db/df7/class_world_object.html#aaf7058bd6b40bbfd38cbcd4f740c0344">WorldObject::SummonCreature</a></div><div class="ttdeci">TempSummon * SummonCreature(uint32 id, const Position &amp;pos, TempSummonType spwtype=TEMPSUMMON_MANUAL_DESPAWN, uint32 despwtime=0, uint32 vehId=0, SummonPropertiesEntry const *properties=nullptr) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:2301</div></div>
+<div class="ttc" id="astruct_wave_data_html_a09f696e37f96e7da259fc026a7c4fd83"><div class="ttname"><a href="../../d6/d25/struct_wave_data.html#a09f696e37f96e7da259fc026a7c4fd83">WaveData::CreatureId</a></div><div class="ttdeci">uint32 CreatureId</div><div class="ttdef"><b>Definition:</b> zone_silithus.cpp:269</div></div>
+<div class="ttc" id="astruct_wave_data_html_a0dfec745982b346ac1cd0af672be31fb"><div class="ttname"><a href="../../d6/d25/struct_wave_data.html#a0dfec745982b346ac1cd0af672be31fb">WaveData::DespTimer</a></div><div class="ttdeci">uint32 DespTimer</div><div class="ttdef"><b>Definition:</b> zone_silithus.cpp:269</div></div>
+<div class="ttc" id="astruct_wave_data_html_a7db57df5da62ebb3b52ecd70ec3d45f2"><div class="ttname"><a href="../../d6/d25/struct_wave_data.html#a7db57df5da62ebb3b52ecd70ec3d45f2">WaveData::UsedSpawnPoint</a></div><div class="ttdeci">uint8 UsedSpawnPoint</div><div class="ttdef"><b>Definition:</b> zone_silithus.cpp:268</div></div>
+<div class="ttc" id="astruct_wave_data_html_ab1720ffe0aeeb5669ab49fc32cb24750"><div class="ttname"><a href="../../d6/d25/struct_wave_data.html#ab1720ffe0aeeb5669ab49fc32cb24750">WaveData::SpawnTimer</a></div><div class="ttdeci">uint32 SpawnTimer</div><div class="ttdef"><b>Definition:</b> zone_silithus.cpp:269</div></div>
+<div class="ttc" id="astruct_wave_data_html_ac3f9997775f34babc79d4321fd1a6d6d"><div class="ttname"><a href="../../d6/d25/struct_wave_data.html#ac3f9997775f34babc79d4321fd1a6d6d">WaveData::YellTimer</a></div><div class="ttdeci">uint32 YellTimer</div><div class="ttdef"><b>Definition:</b> zone_silithus.cpp:269</div></div>
+<div class="ttc" id="astruct_wave_data_html_ad5347ee83eaa00fe0721279099c48433"><div class="ttname"><a href="../../d6/d25/struct_wave_data.html#ad5347ee83eaa00fe0721279099c48433">WaveData::SpawnCount</a></div><div class="ttdeci">uint8 SpawnCount</div><div class="ttdef"><b>Definition:</b> zone_silithus.cpp:268</div></div>
+<div class="ttc" id="astructnpc__qiraj__war__spawn_1_1npc__qiraj__war__spawn_a_i_html"><div class="ttname"><a href="../../d6/d8e/structnpc__qiraj__war__spawn_1_1npc__qiraj__war__spawn_a_i.html">npc_qiraj_war_spawn::npc_qiraj_war_spawnAI</a></div><div class="ttdef"><b>Definition:</b> zone_silithus.cpp:642</div></div>
+<div class="ttc" id="azone__silithus_8cpp_html_a7fa1a2862836adbfa22d734ffb4d3a28"><div class="ttname"><a href="../../d3/d9d/zone__silithus_8cpp.html#a7fa1a2862836adbfa22d734ffb4d3a28">WavesInfo</a></div><div class="ttdeci">static WaveData WavesInfo[5]</div><div class="ttdef"><b>Definition:</b> zone_silithus.cpp:273</div></div>
+<div class="ttc" id="azone__silithus_8cpp_html_ab2605f1616e14016c8e3b390d3dbf720"><div class="ttname"><a href="../../d3/d9d/zone__silithus_8cpp.html#ab2605f1616e14016c8e3b390d3dbf720">SpawnLocation</a></div><div class="ttdeci">Position const SpawnLocation[]</div><div class="ttdef"><b>Definition:</b> zone_silithus.cpp:192</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="af8aa57d58c05da9a8194bc6565d7a096" name="af8aa57d58c05da9a8194bc6565d7a096"></a>
@@ -662,7 +789,32 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#aff5fd4e142a5cf930ffacbfc7259cce5">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  865</span>        {</div>
+<div class="line"><span class="lineno">  866</span>            <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d9/da9/structnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i.html#a2c459e96b3599cda8560582a4fb4253a">PlayerGUID</a> || !<a class="code hl_variable" href="../../d9/da9/structnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i.html#ad70b899bedb2b338a306f45e2b4eafd4">EventStarted</a>)</div>
+<div class="line"><span class="lineno">  867</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  868</span> </div>
+<div class="line"><span class="lineno">  869</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d9/da9/structnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i.html#ac3a32a11e5f99d081371c49363509deb">WaveCount</a> &lt; 4)</div>
+<div class="line"><span class="lineno">  870</span>            {</div>
+<div class="line"><span class="lineno">  871</span>                <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d9/da9/structnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i.html#a4e516705efff20a62124514ba14c8161">Announced</a> &amp;&amp; <a class="code hl_variable" href="../../d9/da9/structnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i.html#a7772c5b4f80b75ffe7b0641321029059">AnnounceTimer</a> &lt;= diff)</div>
+<div class="line"><span class="lineno">  872</span>                {</div>
+<div class="line"><span class="lineno">  873</span>                    <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_variable" href="../../d3/d9d/zone__silithus_8cpp.html#a7fa1a2862836adbfa22d734ffb4d3a28">WavesInfo</a>[<a class="code hl_variable" href="../../d9/da9/structnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i.html#ac3a32a11e5f99d081371c49363509deb">WaveCount</a>].WaveTextId);</div>
+<div class="line"><span class="lineno">  874</span>                    <a class="code hl_variable" href="../../d9/da9/structnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i.html#a4e516705efff20a62124514ba14c8161">Announced</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  875</span>                }</div>
+<div class="line"><span class="lineno">  876</span>                <span class="keywordflow">else</span> <a class="code hl_variable" href="../../d9/da9/structnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i.html#a7772c5b4f80b75ffe7b0641321029059">AnnounceTimer</a> -= diff;</div>
+<div class="line"><span class="lineno">  877</span> </div>
+<div class="line"><span class="lineno">  878</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d9/da9/structnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i.html#a5294c9cd61713bc209a1b65f3b0a252e">WaveTimer</a> &lt;= diff)</div>
+<div class="line"><span class="lineno">  879</span>                    <a class="code hl_function" href="../../d9/da9/structnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i.html#af2cc55a3f35a70a4a9630b4b843f8db7">SummonNextWave</a>();</div>
+<div class="line"><span class="lineno">  880</span>                <span class="keywordflow">else</span> <a class="code hl_variable" href="../../d9/da9/structnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i.html#a5294c9cd61713bc209a1b65f3b0a252e">WaveTimer</a> -= diff;</div>
+<div class="line"><span class="lineno">  881</span>            }</div>
+<div class="line"><span class="lineno">  882</span>            <a class="code hl_function" href="../../d9/da9/structnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i.html#a9cb72ea49977b65c42c80f6e53cfa021">CheckEventFail</a>();</div>
+<div class="line"><span class="lineno">  883</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d9/da9/structnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i.html#ac3a32a11e5f99d081371c49363509deb">WaveCount</a> == 4 || <a class="code hl_variable" href="../../d9/da9/structnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i.html#a60af9e06e872adfab6e7dbac73dfbece">Failed</a>)</div>
+<div class="line"><span class="lineno">  884</span>                <a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#afe5dd68e11d20028510eca29d4184778">EnterEvadeMode</a>();</div>
+<div class="line"><span class="lineno">  885</span>        };</div>
+<div class="ttc" id="aboss__fathomlord__karathress_8cpp_html_a747a224b6b3195f9a33c56ddc6c7e268"><div class="ttname"><a href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a></div><div class="ttdeci">Talk</div><div class="ttdef"><b>Definition:</b> boss_fathomlord_karathress.cpp:23</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_afe5dd68e11d20028510eca29d4184778"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#afe5dd68e11d20028510eca29d4184778">CreatureAI::EnterEvadeMode</a></div><div class="ttdeci">virtual void EnterEvadeMode(EvadeReason why=EVADE_REASON_OTHER)</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:195</div></div>
+<div class="ttc" id="astructnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i_html_a9cb72ea49977b65c42c80f6e53cfa021"><div class="ttname"><a href="../../d9/da9/structnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i.html#a9cb72ea49977b65c42c80f6e53cfa021">npc_anachronos_quest_trigger::npc_anachronos_quest_triggerAI::CheckEventFail</a></div><div class="ttdeci">void CheckEventFail()</div><div class="ttdef"><b>Definition:</b> zone_silithus.cpp:822</div></div>
+<div class="ttc" id="astructnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i_html_af2cc55a3f35a70a4a9630b4b843f8db7"><div class="ttname"><a href="../../d9/da9/structnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i.html#af2cc55a3f35a70a4a9630b4b843f8db7">npc_anachronos_quest_trigger::npc_anachronos_quest_triggerAI::SummonNextWave</a></div><div class="ttdeci">void SummonNextWave()</div><div class="ttdef"><b>Definition:</b> zone_silithus.cpp:789</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -779,7 +931,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Kalimdor/<a class="el" href="../../d3/d9d/zone__silithus_8cpp.html">zone_silithus.cpp</a></li>
+<li><a class="el" href="../../">zone_silithus.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -787,7 +939,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../df/d18/classnpc__anachronos__quest__trigger.html">npc_anachronos_quest_trigger</a></li><li class="navelem"><a class="el" href="../../d9/da9/structnpc__anachronos__quest__trigger_1_1npc__anachronos__quest__trigger_a_i.html">npc_anachronos_quest_triggerAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:47 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:02 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

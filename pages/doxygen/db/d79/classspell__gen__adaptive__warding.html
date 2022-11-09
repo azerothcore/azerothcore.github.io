@@ -306,7 +306,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a88cdab428be20027d939fe4765afc9e0" name="a88cdab428be20027d939fe4765afc9e0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a88cdab428be20027d939fe4765afc9e0">&#9670;&#160;</a></span>CheckProc()</h2>
 
@@ -330,7 +331,33 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1201</span>    {</div>
+<div class="line"><span class="lineno"> 1202</span>        <span class="keywordflow">if</span> (!eventInfo.<a class="code hl_function" href="../../df/def/class_proc_event_info.html#a759add2c89e786125196eb6bd3b20c6d">GetSpellInfo</a>())</div>
+<div class="line"><span class="lineno"> 1203</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1204</span> </div>
+<div class="line"><span class="lineno"> 1205</span>        <span class="comment">// find Mage Armor</span></div>
+<div class="line"><span class="lineno"> 1206</span>        <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d4/d72/class_aura_script.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">GetTarget</a>()-&gt;GetAuraEffect(<a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799a79405eecbad1b57e309d03b99afc8be1">SPELL_AURA_MOD_MANA_REGEN_INTERRUPT</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a9264ae6b0ef1b61a6eeb7fdac9fbab1ba0e4b88db8be01ea5d62cc08d07b28aae">SPELLFAMILY_MAGE</a>, 0x10000000, 0x0, 0x0))</div>
+<div class="line"><span class="lineno"> 1207</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1208</span> </div>
+<div class="line"><span class="lineno"> 1209</span>        <span class="keywordflow">switch</span> (<a class="code hl_function" href="../../df/d0b/_shared_defines_8h.html#a6606234724aae83ff057f648f96c2ada">GetFirstSchoolInMask</a>(eventInfo.<a class="code hl_function" href="../../df/def/class_proc_event_info.html#a175351e318f9066e28a8d106e9c9e1f9">GetSchoolMask</a>()))</div>
+<div class="line"><span class="lineno"> 1210</span>        {</div>
+<div class="line"><span class="lineno"> 1211</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a25263e3e283b54e5280d5af1fd16da4ca0599bcfa52d292c58e15ac0f081bb5af">SPELL_SCHOOL_NORMAL</a>:</div>
+<div class="line"><span class="lineno"> 1212</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a25263e3e283b54e5280d5af1fd16da4cad4192a372d6a664e2a3c50e186b2ed62">SPELL_SCHOOL_HOLY</a>:</div>
+<div class="line"><span class="lineno"> 1213</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1214</span>            <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno"> 1215</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1216</span>        }</div>
+<div class="line"><span class="lineno"> 1217</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 1218</span>    }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a25263e3e283b54e5280d5af1fd16da4ca0599bcfa52d292c58e15ac0f081bb5af"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a25263e3e283b54e5280d5af1fd16da4ca0599bcfa52d292c58e15ac0f081bb5af">SPELL_SCHOOL_NORMAL</a></div><div class="ttdeci">@ SPELL_SCHOOL_NORMAL</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:255</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a25263e3e283b54e5280d5af1fd16da4cad4192a372d6a664e2a3c50e186b2ed62"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a25263e3e283b54e5280d5af1fd16da4cad4192a372d6a664e2a3c50e186b2ed62">SPELL_SCHOOL_HOLY</a></div><div class="ttdeci">@ SPELL_SCHOOL_HOLY</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:256</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a6606234724aae83ff057f648f96c2ada"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a6606234724aae83ff057f648f96c2ada">GetFirstSchoolInMask</a></div><div class="ttdeci">SpellSchools GetFirstSchoolInMask(SpellSchoolMask mask)</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:290</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a9264ae6b0ef1b61a6eeb7fdac9fbab1ba0e4b88db8be01ea5d62cc08d07b28aae"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a9264ae6b0ef1b61a6eeb7fdac9fbab1ba0e4b88db8be01ea5d62cc08d07b28aae">SPELLFAMILY_MAGE</a></div><div class="ttdeci">@ SPELLFAMILY_MAGE</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3503</div></div>
+<div class="ttc" id="a_spell_aura_defines_8h_html_a538cdc259460b365f406fe0b3a981799a79405eecbad1b57e309d03b99afc8be1"><div class="ttname"><a href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799a79405eecbad1b57e309d03b99afc8be1">SPELL_AURA_MOD_MANA_REGEN_INTERRUPT</a></div><div class="ttdeci">@ SPELL_AURA_MOD_MANA_REGEN_INTERRUPT</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:197</div></div>
+<div class="ttc" id="aclass_aura_script_html_a9b2ee1254bdbef7f6ee93f6fae6eb912"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">AuraScript::GetTarget</a></div><div class="ttdeci">Unit * GetTarget() const</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:1155</div></div>
+<div class="ttc" id="aclass_proc_event_info_html_a175351e318f9066e28a8d106e9c9e1f9"><div class="ttname"><a href="../../df/def/class_proc_event_info.html#a175351e318f9066e28a8d106e9c9e1f9">ProcEventInfo::GetSchoolMask</a></div><div class="ttdeci">SpellSchoolMask GetSchoolMask() const</div><div class="ttdef"><b>Definition:</b> Unit.h:866</div></div>
+<div class="ttc" id="aclass_proc_event_info_html_a759add2c89e786125196eb6bd3b20c6d"><div class="ttname"><a href="../../df/def/class_proc_event_info.html#a759add2c89e786125196eb6bd3b20c6d">ProcEventInfo::GetSpellInfo</a></div><div class="ttdeci">SpellInfo const * GetSpellInfo() const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:186</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a8e49a1bc11fdfc1b7d3f8225c890206f" name="a8e49a1bc11fdfc1b7d3f8225c890206f"></a>
@@ -366,7 +393,46 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1221</span>    {</div>
+<div class="line"><span class="lineno"> 1222</span>        <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a19e0ed231d33245849ef31acb0f2bca3">PreventDefaultAction</a>();</div>
+<div class="line"><span class="lineno"> 1223</span> </div>
+<div class="line"><span class="lineno"> 1224</span>        <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> spellId = 0;</div>
+<div class="line"><span class="lineno"> 1225</span>        <span class="keywordflow">switch</span> (<a class="code hl_function" href="../../df/d0b/_shared_defines_8h.html#a6606234724aae83ff057f648f96c2ada">GetFirstSchoolInMask</a>(eventInfo.<a class="code hl_function" href="../../df/def/class_proc_event_info.html#a175351e318f9066e28a8d106e9c9e1f9">GetSchoolMask</a>()))</div>
+<div class="line"><span class="lineno"> 1226</span>        {</div>
+<div class="line"><span class="lineno"> 1227</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a25263e3e283b54e5280d5af1fd16da4ca81fa2e882b9ff91d97f1966ecec53cc5">SPELL_SCHOOL_FIRE</a>:</div>
+<div class="line"><span class="lineno"> 1228</span>                spellId = <a class="code hl_enumvalue" href="../../d1/de4/spell__generic_8cpp.html#a79ff609ca4141ec4d6a457edc207fa59a4facfb8d4581572904cb314fde2a66f0">SPELL_GEN_ADAPTIVE_WARDING_FIRE</a>;</div>
+<div class="line"><span class="lineno"> 1229</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1230</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a25263e3e283b54e5280d5af1fd16da4ca09fc89d828412bd44caab029414ef572">SPELL_SCHOOL_NATURE</a>:</div>
+<div class="line"><span class="lineno"> 1231</span>                spellId = <a class="code hl_enumvalue" href="../../d1/de4/spell__generic_8cpp.html#a79ff609ca4141ec4d6a457edc207fa59a6e5208fa2df777e0c38c675c037ce7c4">SPELL_GEN_ADAPTIVE_WARDING_NATURE</a>;</div>
+<div class="line"><span class="lineno"> 1232</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1233</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a25263e3e283b54e5280d5af1fd16da4ca0f89e62868c910d070db0ce176e7e4ad">SPELL_SCHOOL_FROST</a>:</div>
+<div class="line"><span class="lineno"> 1234</span>                spellId = <a class="code hl_enumvalue" href="../../d1/de4/spell__generic_8cpp.html#a79ff609ca4141ec4d6a457edc207fa59a6f4c8b301fef2f5de96178bcbf296a1b">SPELL_GEN_ADAPTIVE_WARDING_FROST</a>;</div>
+<div class="line"><span class="lineno"> 1235</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1236</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a25263e3e283b54e5280d5af1fd16da4ca012e4eaa4bc0f0534aa45cec3f854193">SPELL_SCHOOL_SHADOW</a>:</div>
+<div class="line"><span class="lineno"> 1237</span>                spellId = <a class="code hl_enumvalue" href="../../d1/de4/spell__generic_8cpp.html#a79ff609ca4141ec4d6a457edc207fa59ac6809d11f7eb7e0ac2a2524666cd92f1">SPELL_GEN_ADAPTIVE_WARDING_SHADOW</a>;</div>
+<div class="line"><span class="lineno"> 1238</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1239</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a25263e3e283b54e5280d5af1fd16da4ca5fffe6beea5302fef06839a6b1ff3bb0">SPELL_SCHOOL_ARCANE</a>:</div>
+<div class="line"><span class="lineno"> 1240</span>                spellId = <a class="code hl_enumvalue" href="../../d1/de4/spell__generic_8cpp.html#a79ff609ca4141ec4d6a457edc207fa59a28c8fb2ced35033a0f9ca7175860e067">SPELL_GEN_ADAPTIVE_WARDING_ARCANE</a>;</div>
+<div class="line"><span class="lineno"> 1241</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1242</span>            <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno"> 1243</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 1244</span>        }</div>
+<div class="line"><span class="lineno"> 1245</span>        <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">GetTarget</a>()-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_function" href="../../d4/d72/class_aura_script.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">GetTarget</a>(), spellId, <span class="keyword">true</span>, <span class="keyword">nullptr</span>, aurEff);</div>
+<div class="line"><span class="lineno"> 1246</span>    }</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a25263e3e283b54e5280d5af1fd16da4ca012e4eaa4bc0f0534aa45cec3f854193"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a25263e3e283b54e5280d5af1fd16da4ca012e4eaa4bc0f0534aa45cec3f854193">SPELL_SCHOOL_SHADOW</a></div><div class="ttdeci">@ SPELL_SCHOOL_SHADOW</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:260</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a25263e3e283b54e5280d5af1fd16da4ca09fc89d828412bd44caab029414ef572"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a25263e3e283b54e5280d5af1fd16da4ca09fc89d828412bd44caab029414ef572">SPELL_SCHOOL_NATURE</a></div><div class="ttdeci">@ SPELL_SCHOOL_NATURE</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:258</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a25263e3e283b54e5280d5af1fd16da4ca0f89e62868c910d070db0ce176e7e4ad"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a25263e3e283b54e5280d5af1fd16da4ca0f89e62868c910d070db0ce176e7e4ad">SPELL_SCHOOL_FROST</a></div><div class="ttdeci">@ SPELL_SCHOOL_FROST</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:259</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a25263e3e283b54e5280d5af1fd16da4ca5fffe6beea5302fef06839a6b1ff3bb0"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a25263e3e283b54e5280d5af1fd16da4ca5fffe6beea5302fef06839a6b1ff3bb0">SPELL_SCHOOL_ARCANE</a></div><div class="ttdeci">@ SPELL_SCHOOL_ARCANE</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:261</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a25263e3e283b54e5280d5af1fd16da4ca81fa2e882b9ff91d97f1966ecec53cc5"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a25263e3e283b54e5280d5af1fd16da4ca81fa2e882b9ff91d97f1966ecec53cc5">SPELL_SCHOOL_FIRE</a></div><div class="ttdeci">@ SPELL_SCHOOL_FIRE</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:257</div></div>
+<div class="ttc" id="aclass_aura_script_html_a19e0ed231d33245849ef31acb0f2bca3"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a19e0ed231d33245849ef31acb0f2bca3">AuraScript::PreventDefaultAction</a></div><div class="ttdeci">void PreventDefaultAction()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:975</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+<div class="ttc" id="aspell__generic_8cpp_html_a79ff609ca4141ec4d6a457edc207fa59a28c8fb2ced35033a0f9ca7175860e067"><div class="ttname"><a href="../../d1/de4/spell__generic_8cpp.html#a79ff609ca4141ec4d6a457edc207fa59a28c8fb2ced35033a0f9ca7175860e067">SPELL_GEN_ADAPTIVE_WARDING_ARCANE</a></div><div class="ttdeci">@ SPELL_GEN_ADAPTIVE_WARDING_ARCANE</div><div class="ttdef"><b>Definition:</b> spell_generic.cpp:1180</div></div>
+<div class="ttc" id="aspell__generic_8cpp_html_a79ff609ca4141ec4d6a457edc207fa59a4facfb8d4581572904cb314fde2a66f0"><div class="ttname"><a href="../../d1/de4/spell__generic_8cpp.html#a79ff609ca4141ec4d6a457edc207fa59a4facfb8d4581572904cb314fde2a66f0">SPELL_GEN_ADAPTIVE_WARDING_FIRE</a></div><div class="ttdeci">@ SPELL_GEN_ADAPTIVE_WARDING_FIRE</div><div class="ttdef"><b>Definition:</b> spell_generic.cpp:1176</div></div>
+<div class="ttc" id="aspell__generic_8cpp_html_a79ff609ca4141ec4d6a457edc207fa59a6e5208fa2df777e0c38c675c037ce7c4"><div class="ttname"><a href="../../d1/de4/spell__generic_8cpp.html#a79ff609ca4141ec4d6a457edc207fa59a6e5208fa2df777e0c38c675c037ce7c4">SPELL_GEN_ADAPTIVE_WARDING_NATURE</a></div><div class="ttdeci">@ SPELL_GEN_ADAPTIVE_WARDING_NATURE</div><div class="ttdef"><b>Definition:</b> spell_generic.cpp:1177</div></div>
+<div class="ttc" id="aspell__generic_8cpp_html_a79ff609ca4141ec4d6a457edc207fa59a6f4c8b301fef2f5de96178bcbf296a1b"><div class="ttname"><a href="../../d1/de4/spell__generic_8cpp.html#a79ff609ca4141ec4d6a457edc207fa59a6f4c8b301fef2f5de96178bcbf296a1b">SPELL_GEN_ADAPTIVE_WARDING_FROST</a></div><div class="ttdeci">@ SPELL_GEN_ADAPTIVE_WARDING_FROST</div><div class="ttdef"><b>Definition:</b> spell_generic.cpp:1178</div></div>
+<div class="ttc" id="aspell__generic_8cpp_html_a79ff609ca4141ec4d6a457edc207fa59ac6809d11f7eb7e0ac2a2524666cd92f1"><div class="ttname"><a href="../../d1/de4/spell__generic_8cpp.html#a79ff609ca4141ec4d6a457edc207fa59ac6809d11f7eb7e0ac2a2524666cd92f1">SPELL_GEN_ADAPTIVE_WARDING_SHADOW</a></div><div class="ttdeci">@ SPELL_GEN_ADAPTIVE_WARDING_SHADOW</div><div class="ttdef"><b>Definition:</b> spell_generic.cpp:1179</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a33f53dc5834a3be78e24a1a58bdfd15a" name="a33f53dc5834a3be78e24a1a58bdfd15a"></a>
@@ -419,7 +485,19 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1249</span>    {</div>
+<div class="line"><span class="lineno"> 1250</span>        <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#ab771dd972497502e5202fd48a1d6c17d">DoCheckProc</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#ad25bcd0c3aa73ba267fa87ea50bc1780">AuraCheckProcFn</a>(<a class="code hl_function" href="../../db/d79/classspell__gen__adaptive__warding.html#a88cdab428be20027d939fe4765afc9e0">spell_gen_adaptive_warding::CheckProc</a>);</div>
+<div class="line"><span class="lineno"> 1251</span>        <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#ae01a6d3f559913b72bd67a145c668457">OnEffectProc</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a477ed5ca0e8da0b293428f4596802c0b">AuraEffectProcFn</a>(<a class="code hl_function" href="../../db/d79/classspell__gen__adaptive__warding.html#a8e49a1bc11fdfc1b7d3f8225c890206f">spell_gen_adaptive_warding::HandleProc</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799a66cca11731d68512cb0bb652cb1e7caf">SPELL_AURA_DUMMY</a>);</div>
+<div class="line"><span class="lineno"> 1252</span>    }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a></div><div class="ttdeci">@ EFFECT_0</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:30</div></div>
+<div class="ttc" id="a_spell_aura_defines_8h_html_a538cdc259460b365f406fe0b3a981799a66cca11731d68512cb0bb652cb1e7caf"><div class="ttname"><a href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799a66cca11731d68512cb0bb652cb1e7caf">SPELL_AURA_DUMMY</a></div><div class="ttdeci">@ SPELL_AURA_DUMMY</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:67</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a477ed5ca0e8da0b293428f4596802c0b"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a477ed5ca0e8da0b293428f4596802c0b">AuraEffectProcFn</a></div><div class="ttdeci">#define AuraEffectProcFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:836</div></div>
+<div class="ttc" id="a_spell_script_8h_html_ad25bcd0c3aa73ba267fa87ea50bc1780"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#ad25bcd0c3aa73ba267fa87ea50bc1780">AuraCheckProcFn</a></div><div class="ttdeci">#define AuraCheckProcFn(F)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:812</div></div>
+<div class="ttc" id="aclass_aura_script_html_ab771dd972497502e5202fd48a1d6c17d"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#ab771dd972497502e5202fd48a1d6c17d">AuraScript::DoCheckProc</a></div><div class="ttdeci">HookList&lt; CheckProcHandler &gt; DoCheckProc</div><div class="ttdef"><b>Definition:</b> SpellScript.h:807</div></div>
+<div class="ttc" id="aclass_aura_script_html_ae01a6d3f559913b72bd67a145c668457"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#ae01a6d3f559913b72bd67a145c668457">AuraScript::OnEffectProc</a></div><div class="ttdeci">HookList&lt; EffectProcHandler &gt; OnEffectProc</div><div class="ttdef"><b>Definition:</b> SpellScript.h:831</div></div>
+<div class="ttc" id="aclassspell__gen__adaptive__warding_html_a88cdab428be20027d939fe4765afc9e0"><div class="ttname"><a href="../../db/d79/classspell__gen__adaptive__warding.html#a88cdab428be20027d939fe4765afc9e0">spell_gen_adaptive_warding::CheckProc</a></div><div class="ttdeci">bool CheckProc(ProcEventInfo &amp;eventInfo)</div><div class="ttdef"><b>Definition:</b> spell_generic.cpp:1200</div></div>
+<div class="ttc" id="aclassspell__gen__adaptive__warding_html_a8e49a1bc11fdfc1b7d3f8225c890206f"><div class="ttname"><a href="../../db/d79/classspell__gen__adaptive__warding.html#a8e49a1bc11fdfc1b7d3f8225c890206f">spell_gen_adaptive_warding::HandleProc</a></div><div class="ttdeci">void HandleProc(AuraEffect const *aurEff, ProcEventInfo &amp;eventInfo)</div><div class="ttdef"><b>Definition:</b> spell_generic.cpp:1220</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aa81adc61bd1149d9c43c4670f02a91ba" name="aa81adc61bd1149d9c43c4670f02a91ba"></a>
@@ -447,11 +525,22 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d7/d13/class___spell_script.html#a95e7862a5807bff409f13aea8306077e">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1189</span>    {</div>
+<div class="line"><span class="lineno"> 1190</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../d7/d13/class___spell_script.html#a9f7c76ac56838fbe61bf67d534979159">ValidateSpellInfo</a>(</div>
+<div class="line"><span class="lineno"> 1191</span>            {</div>
+<div class="line"><span class="lineno"> 1192</span>                <a class="code hl_enumvalue" href="../../d1/de4/spell__generic_8cpp.html#a79ff609ca4141ec4d6a457edc207fa59a4facfb8d4581572904cb314fde2a66f0">SPELL_GEN_ADAPTIVE_WARDING_FIRE</a>,</div>
+<div class="line"><span class="lineno"> 1193</span>                <a class="code hl_enumvalue" href="../../d1/de4/spell__generic_8cpp.html#a79ff609ca4141ec4d6a457edc207fa59a6e5208fa2df777e0c38c675c037ce7c4">SPELL_GEN_ADAPTIVE_WARDING_NATURE</a>,</div>
+<div class="line"><span class="lineno"> 1194</span>                <a class="code hl_enumvalue" href="../../d1/de4/spell__generic_8cpp.html#a79ff609ca4141ec4d6a457edc207fa59a6f4c8b301fef2f5de96178bcbf296a1b">SPELL_GEN_ADAPTIVE_WARDING_FROST</a>,</div>
+<div class="line"><span class="lineno"> 1195</span>                <a class="code hl_enumvalue" href="../../d1/de4/spell__generic_8cpp.html#a79ff609ca4141ec4d6a457edc207fa59ac6809d11f7eb7e0ac2a2524666cd92f1">SPELL_GEN_ADAPTIVE_WARDING_SHADOW</a>,</div>
+<div class="line"><span class="lineno"> 1196</span>                <a class="code hl_enumvalue" href="../../d1/de4/spell__generic_8cpp.html#a79ff609ca4141ec4d6a457edc207fa59a28c8fb2ced35033a0f9ca7175860e067">SPELL_GEN_ADAPTIVE_WARDING_ARCANE</a></div>
+<div class="line"><span class="lineno"> 1197</span>            });</div>
+<div class="line"><span class="lineno"> 1198</span>    }</div>
+<div class="ttc" id="aclass___spell_script_html_a9f7c76ac56838fbe61bf67d534979159"><div class="ttname"><a href="../../d7/d13/class___spell_script.html#a9f7c76ac56838fbe61bf67d534979159">_SpellScript::ValidateSpellInfo</a></div><div class="ttdeci">static bool ValidateSpellInfo(std::initializer_list&lt; uint32 &gt; spellIds)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:125</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Spells/<a class="el" href="../../d1/de4/spell__generic_8cpp.html">spell_generic.cpp</a></li>
+<li><a class="el" href="../../">spell_generic.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -459,7 +548,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../db/d79/classspell__gen__adaptive__warding.html">spell_gen_adaptive_warding</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:01 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:18 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

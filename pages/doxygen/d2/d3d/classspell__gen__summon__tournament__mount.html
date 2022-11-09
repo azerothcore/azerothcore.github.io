@@ -294,7 +294,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a3bf3a98f1eff2b2229603228a470a701" name="a3bf3a98f1eff2b2229603228a470a701"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3bf3a98f1eff2b2229603228a470a701">&#9670;&#160;</a></span>CheckIfLanceEquiped()</h2>
 
@@ -317,7 +318,27 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 3142</span>    {</div>
+<div class="line"><span class="lineno"> 3143</span>        <span class="keywordflow">if</span> (<a class="code hl_function" href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>()-&gt;IsInDisallowedMountForm())</div>
+<div class="line"><span class="lineno"> 3144</span>            <a class="code hl_function" href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>()-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ad6df47a81f5f5f147e68211ee935b398">RemoveAurasByType</a>(<a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799a1c3516bb8442ba5d970c928ffc976689">SPELL_AURA_MOD_SHAPESHIFT</a>);</div>
+<div class="line"><span class="lineno"> 3145</span> </div>
+<div class="line"><span class="lineno"> 3146</span>        <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>()-&gt;HasAura(<a class="code hl_enumvalue" href="../../d1/de4/spell__generic_8cpp.html#adb69aca968f74c530fdc344076643275a44d017273aef98fe3f421440c8b3265e">SPELL_LANCE_EQUIPPED</a>))</div>
+<div class="line"><span class="lineno"> 3147</span>        {</div>
+<div class="line"><span class="lineno"> 3148</span>            <a class="code hl_function" href="../../dc/d62/class_spell_script.html#a94442322faef9f04890b18a421067150">SetCustomCastResultMessage</a>(<a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a9c096b84b85e3654d920bcf353d0946faab11613f0dbd6b518905510aacb42676">SPELL_CUSTOM_ERROR_MUST_HAVE_LANCE_EQUIPPED</a>);</div>
+<div class="line"><span class="lineno"> 3149</span>            <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#ade9b4e913a84079f5311c2817e3de9daa3edca33213e571cce6e1c1039ee33751">SPELL_FAILED_CUSTOM_ERROR</a>;</div>
+<div class="line"><span class="lineno"> 3150</span>        }</div>
+<div class="line"><span class="lineno"> 3151</span> </div>
+<div class="line"><span class="lineno"> 3152</span>        <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#ade9b4e913a84079f5311c2817e3de9daadb56426fd2113c3ff3ff3d1815d79fa6">SPELL_CAST_OK</a>;</div>
+<div class="line"><span class="lineno"> 3153</span>    }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a9c096b84b85e3654d920bcf353d0946faab11613f0dbd6b518905510aacb42676"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a9c096b84b85e3654d920bcf353d0946faab11613f0dbd6b518905510aacb42676">SPELL_CUSTOM_ERROR_MUST_HAVE_LANCE_EQUIPPED</a></div><div class="ttdeci">@ SPELL_CUSTOM_ERROR_MUST_HAVE_LANCE_EQUIPPED</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1175</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_ade9b4e913a84079f5311c2817e3de9daa3edca33213e571cce6e1c1039ee33751"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#ade9b4e913a84079f5311c2817e3de9daa3edca33213e571cce6e1c1039ee33751">SPELL_FAILED_CUSTOM_ERROR</a></div><div class="ttdeci">@ SPELL_FAILED_CUSTOM_ERROR</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1093</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_ade9b4e913a84079f5311c2817e3de9daadb56426fd2113c3ff3ff3d1815d79fa6"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#ade9b4e913a84079f5311c2817e3de9daadb56426fd2113c3ff3ff3d1815d79fa6">SPELL_CAST_OK</a></div><div class="ttdeci">@ SPELL_CAST_OK</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1110</div></div>
+<div class="ttc" id="a_spell_aura_defines_8h_html_a538cdc259460b365f406fe0b3a981799a1c3516bb8442ba5d970c928ffc976689"><div class="ttname"><a href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799a1c3516bb8442ba5d970c928ffc976689">SPELL_AURA_MOD_SHAPESHIFT</a></div><div class="ttdeci">@ SPELL_AURA_MOD_SHAPESHIFT</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:99</div></div>
+<div class="ttc" id="aclass_spell_script_html_a94442322faef9f04890b18a421067150"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a94442322faef9f04890b18a421067150">SpellScript::SetCustomCastResultMessage</a></div><div class="ttdeci">void SetCustomCastResultMessage(SpellCustomErrors result)</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:646</div></div>
+<div class="ttc" id="aclass_spell_script_html_ae630e2d388177707e28cecd5fa5a2b48"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">SpellScript::GetCaster</a></div><div class="ttdeci">Unit * GetCaster()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:401</div></div>
+<div class="ttc" id="aclass_unit_html_ad6df47a81f5f5f147e68211ee935b398"><div class="ttname"><a href="../../da/db7/class_unit.html#ad6df47a81f5f5f147e68211ee935b398">Unit::RemoveAurasByType</a></div><div class="ttdeci">void RemoveAurasByType(AuraType auraType, ObjectGuid casterGUID=ObjectGuid::Empty, Aura *except=nullptr, bool negative=true, bool positive=true)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:5013</div></div>
+<div class="ttc" id="aspell__generic_8cpp_html_adb69aca968f74c530fdc344076643275a44d017273aef98fe3f421440c8b3265e"><div class="ttname"><a href="../../d1/de4/spell__generic_8cpp.html#adb69aca968f74c530fdc344076643275a44d017273aef98fe3f421440c8b3265e">SPELL_LANCE_EQUIPPED</a></div><div class="ttdeci">@ SPELL_LANCE_EQUIPPED</div><div class="ttdef"><b>Definition:</b> spell_generic.cpp:3116</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2af9ee2ccd34c97734c58bfcbb83c8b5" name="a2af9ee2ccd34c97734c58bfcbb83c8b5"></a>
@@ -370,7 +391,13 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 3156</span>    {</div>
+<div class="line"><span class="lineno"> 3157</span>        <a class="code hl_variable" href="../../dc/d62/class_spell_script.html#a1212a7fd9c9b531c13d5781f60b05590">OnCheckCast</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a44cc78b7e05a8f3b83e430f5115a2183">SpellCheckCastFn</a>(<a class="code hl_function" href="../../d2/d3d/classspell__gen__summon__tournament__mount.html#a3bf3a98f1eff2b2229603228a470a701">spell_gen_summon_tournament_mount::CheckIfLanceEquiped</a>);</div>
+<div class="line"><span class="lineno"> 3158</span>    }</div>
+<div class="ttc" id="a_spell_script_8h_html_a44cc78b7e05a8f3b83e430f5115a2183"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a44cc78b7e05a8f3b83e430f5115a2183">SpellCheckCastFn</a></div><div class="ttdeci">#define SpellCheckCastFn(F)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:329</div></div>
+<div class="ttc" id="aclass_spell_script_html_a1212a7fd9c9b531c13d5781f60b05590"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a1212a7fd9c9b531c13d5781f60b05590">SpellScript::OnCheckCast</a></div><div class="ttdeci">HookList&lt; CheckCastHandler &gt; OnCheckCast</div><div class="ttdef"><b>Definition:</b> SpellScript.h:328</div></div>
+<div class="ttc" id="aclassspell__gen__summon__tournament__mount_html_a3bf3a98f1eff2b2229603228a470a701"><div class="ttname"><a href="../../d2/d3d/classspell__gen__summon__tournament__mount.html#a3bf3a98f1eff2b2229603228a470a701">spell_gen_summon_tournament_mount::CheckIfLanceEquiped</a></div><div class="ttdeci">SpellCastResult CheckIfLanceEquiped()</div><div class="ttdef"><b>Definition:</b> spell_generic.cpp:3141</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ab0908d7a15e7554c735d8e5554f7cd65" name="ab0908d7a15e7554c735d8e5554f7cd65"></a>
@@ -398,11 +425,15 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d7/d13/class___spell_script.html#a95e7862a5807bff409f13aea8306077e">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 3137</span>    {</div>
+<div class="line"><span class="lineno"> 3138</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../d7/d13/class___spell_script.html#a9f7c76ac56838fbe61bf67d534979159">ValidateSpellInfo</a>({ <a class="code hl_enumvalue" href="../../d1/de4/spell__generic_8cpp.html#adb69aca968f74c530fdc344076643275a44d017273aef98fe3f421440c8b3265e">SPELL_LANCE_EQUIPPED</a> });</div>
+<div class="line"><span class="lineno"> 3139</span>    }</div>
+<div class="ttc" id="aclass___spell_script_html_a9f7c76ac56838fbe61bf67d534979159"><div class="ttname"><a href="../../d7/d13/class___spell_script.html#a9f7c76ac56838fbe61bf67d534979159">_SpellScript::ValidateSpellInfo</a></div><div class="ttdeci">static bool ValidateSpellInfo(std::initializer_list&lt; uint32 &gt; spellIds)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:125</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Spells/<a class="el" href="../../d1/de4/spell__generic_8cpp.html">spell_generic.cpp</a></li>
+<li><a class="el" href="../../">spell_generic.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -410,7 +441,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d2/d3d/classspell__gen__summon__tournament__mount.html">spell_gen_summon_tournament_mount</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:01 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:18 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

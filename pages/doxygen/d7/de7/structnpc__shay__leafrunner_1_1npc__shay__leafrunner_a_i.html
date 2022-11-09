@@ -505,7 +505,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a6a531fa8a88711a7f4606d8fa5ea35ef" name="a6a531fa8a88711a7f4606d8fa5ea35ef"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6a531fa8a88711a7f4606d8fa5ea35ef">&#9670;&#160;</a></span>npc_shay_leafrunnerAI()</h2>
 
@@ -529,7 +530,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   97</span>: <a class="code hl_struct" href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a>(creature) {}</div>
+<div class="ttc" id="astruct_scripted_a_i_html"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -558,7 +561,22 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d2/d68/class_creature_a_i.html#afe5dd68e11d20028510eca29d4184778">CreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  153</span>        {</div>
+<div class="line"><span class="lineno">  154</span>            <a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#a7cd0b6bf7ee616d4d4e98045f7b808c0">_EnterEvadeMode</a>(why);</div>
+<div class="line"><span class="lineno">  155</span> </div>
+<div class="line"><span class="lineno">  156</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* player = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#aeb3657e7ad09335b9a9ffa50473aa216">ObjectAccessor::GetPlayer</a>(*<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_variable" href="../../d7/de7/structnpc__shay__leafrunner_1_1npc__shay__leafrunner_a_i.html#a13684c54cf84703af9cbf1328eecdd3c">_playerGUID</a>))</div>
+<div class="line"><span class="lineno">  157</span>            {</div>
+<div class="line"><span class="lineno">  158</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../df/d4d/class_motion_master.html#a5c4f6d1163174b909c83901d7f770d72">MoveFollow</a>(player, 3.f, M_PI);</div>
+<div class="line"><span class="lineno">  159</span>            }</div>
+<div class="line"><span class="lineno">  160</span>        }</div>
+<div class="ttc" id="aclass_creature_a_i_html_a7cd0b6bf7ee616d4d4e98045f7b808c0"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#a7cd0b6bf7ee616d4d4e98045f7b808c0">CreatureAI::_EnterEvadeMode</a></div><div class="ttdeci">bool _EnterEvadeMode(EvadeReason why=EVADE_REASON_OTHER)</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:291</div></div>
+<div class="ttc" id="aclass_motion_master_html_a5c4f6d1163174b909c83901d7f770d72"><div class="ttname"><a href="../../df/d4d/class_motion_master.html#a5c4f6d1163174b909c83901d7f770d72">MotionMaster::MoveFollow</a></div><div class="ttdeci">void MoveFollow(Unit *target, float dist, float angle, MovementSlot slot=MOTION_SLOT_ACTIVE)</div><div class="ttdef"><b>Definition:</b> MotionMaster.cpp:367</div></div>
+<div class="ttc" id="aclass_player_html"><div class="ttname"><a href="../../d8/d53/class_player.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1046</div></div>
+<div class="ttc" id="aclass_unit_html_a4a04a3f22c3b0d6f4933993ac0cc7aa4"><div class="ttname"><a href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">Unit::GetMotionMaster</a></div><div class="ttdeci">MotionMaster * GetMotionMaster()</div><div class="ttdef"><b>Definition:</b> Unit.h:2257</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_aeb3657e7ad09335b9a9ffa50473aa216"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#aeb3657e7ad09335b9a9ffa50473aa216">ObjectAccessor::GetPlayer</a></div><div class="ttdeci">Player * GetPlayer(Map const *, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:225</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+<div class="ttc" id="astructnpc__shay__leafrunner_1_1npc__shay__leafrunner_a_i_html_a13684c54cf84703af9cbf1328eecdd3c"><div class="ttname"><a href="../../d7/de7/structnpc__shay__leafrunner_1_1npc__shay__leafrunner_a_i.html#a13684c54cf84703af9cbf1328eecdd3c">npc_shay_leafrunner::npc_shay_leafrunnerAI::_playerGUID</a></div><div class="ttdeci">ObjectGuid _playerGUID</div><div class="ttdef"><b>Definition:</b> zone_feralas.cpp:281</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a6198c2040ec231db158dce9e71e5efd2" name="a6198c2040ec231db158dce9e71e5efd2"></a>
@@ -594,7 +612,40 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  163</span>        {</div>
+<div class="line"><span class="lineno">  164</span>            <span class="keywordflow">if</span> (player)</div>
+<div class="line"><span class="lineno">  165</span>            {</div>
+<div class="line"><span class="lineno">  166</span>                player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#ac66aea564f92c5f3c38d5819a0a0b4e4">FailQuest</a>(<a class="code hl_enumvalue" href="../../d3/daf/zone__feralas_8cpp.html#a6f255b9271bca59c87ee56e1212e2cbcaca7ba6c97759bd44f5541d067c6dd35d">QUEST_WANDERING_SHAY</a>);</div>
+<div class="line"><span class="lineno">  167</span> </div>
+<div class="line"><span class="lineno">  168</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/d50/class_group.html">Group</a>* group = player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a99fc00f9ac903dbe9adcadc5f7415abb">GetGroup</a>())</div>
+<div class="line"><span class="lineno">  169</span>                {</div>
+<div class="line"><span class="lineno">  170</span>                    <span class="keywordflow">for</span> (<a class="code hl_class" href="../../de/dc3/class_group_reference.html">GroupReference</a>* groupRef = group-&gt;GetFirstMember(); groupRef != <span class="keyword">nullptr</span>; groupRef = groupRef-&gt;<a class="code hl_function" href="../../de/dc3/class_group_reference.html#a6f8f406f1209dd7060904d40f5424b41">next</a>())</div>
+<div class="line"><span class="lineno">  171</span>                    {</div>
+<div class="line"><span class="lineno">  172</span>                        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* member = groupRef-&gt;GetSource())</div>
+<div class="line"><span class="lineno">  173</span>                        {</div>
+<div class="line"><span class="lineno">  174</span>                            <span class="keywordflow">if</span> (member-&gt;GetGUID() != player-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>())</div>
+<div class="line"><span class="lineno">  175</span>                            {</div>
+<div class="line"><span class="lineno">  176</span>                                member-&gt;FailQuest(<a class="code hl_enumvalue" href="../../d3/daf/zone__feralas_8cpp.html#a6f255b9271bca59c87ee56e1212e2cbcaca7ba6c97759bd44f5541d067c6dd35d">QUEST_WANDERING_SHAY</a>);</div>
+<div class="line"><span class="lineno">  177</span>                            }</div>
+<div class="line"><span class="lineno">  178</span>                        }</div>
+<div class="line"><span class="lineno">  179</span>                    }</div>
+<div class="line"><span class="lineno">  180</span>                }</div>
+<div class="line"><span class="lineno">  181</span>            }</div>
+<div class="line"><span class="lineno">  182</span> </div>
+<div class="line"><span class="lineno">  183</span>            <span class="keywordflow">if</span> (despawn)</div>
+<div class="line"><span class="lineno">  184</span>            {</div>
+<div class="line"><span class="lineno">  185</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#abce66404f36b926cf403555911bcb9f7">DespawnOrUnsummon</a>(1);</div>
+<div class="line"><span class="lineno">  186</span>            }</div>
+<div class="line"><span class="lineno">  187</span>        }</div>
+<div class="ttc" id="aclass_creature_html_abce66404f36b926cf403555911bcb9f7"><div class="ttname"><a href="../../d1/dac/class_creature.html#abce66404f36b926cf403555911bcb9f7">Creature::DespawnOrUnsummon</a></div><div class="ttdeci">void DespawnOrUnsummon(Milliseconds msTimeToDespawn, Seconds forcedRespawnTimer)</div><div class="ttdef"><b>Definition:</b> Creature.cpp:2092</div></div>
+<div class="ttc" id="aclass_group_html"><div class="ttname"><a href="../../da/d50/class_group.html">Group</a></div><div class="ttdef"><b>Definition:</b> Group.h:168</div></div>
+<div class="ttc" id="aclass_group_reference_html"><div class="ttname"><a href="../../de/dc3/class_group_reference.html">GroupReference</a></div><div class="ttdef"><b>Definition:</b> GroupReference.h:27</div></div>
+<div class="ttc" id="aclass_group_reference_html_a6f8f406f1209dd7060904d40f5424b41"><div class="ttname"><a href="../../de/dc3/class_group_reference.html#a6f8f406f1209dd7060904d40f5424b41">GroupReference::next</a></div><div class="ttdeci">GroupReference * next()</div><div class="ttdef"><b>Definition:</b> GroupReference.h:36</div></div>
+<div class="ttc" id="aclass_object_html_ad23b997e2442fa6a6228ba73a7ecc138"><div class="ttname"><a href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">Object::GetGUID</a></div><div class="ttdeci">static ObjectGuid GetGUID(Object const *o)</div><div class="ttdef"><b>Definition:</b> Object.h:106</div></div>
+<div class="ttc" id="aclass_player_html_a99fc00f9ac903dbe9adcadc5f7415abb"><div class="ttname"><a href="../../d8/d53/class_player.html#a99fc00f9ac903dbe9adcadc5f7415abb">Player::GetGroup</a></div><div class="ttdeci">Group * GetGroup()</div><div class="ttdef"><b>Definition:</b> Player.h:2417</div></div>
+<div class="ttc" id="aclass_player_html_ac66aea564f92c5f3c38d5819a0a0b4e4"><div class="ttname"><a href="../../d8/d53/class_player.html#ac66aea564f92c5f3c38d5819a0a0b4e4">Player::FailQuest</a></div><div class="ttdeci">void FailQuest(uint32 quest_id)</div><div class="ttdef"><b>Definition:</b> PlayerQuest.cpp:877</div></div>
+<div class="ttc" id="azone__feralas_8cpp_html_a6f255b9271bca59c87ee56e1212e2cbcaca7ba6c97759bd44f5541d067c6dd35d"><div class="ttname"><a href="../../d3/daf/zone__feralas_8cpp.html#a6f255b9271bca59c87ee56e1212e2cbcaca7ba6c97759bd44f5541d067c6dd35d">QUEST_WANDERING_SHAY</a></div><div class="ttdeci">@ QUEST_WANDERING_SHAY</div><div class="ttdef"><b>Definition:</b> zone_feralas.cpp:71</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="afb5e240cd715320015c1d3093102bfbe" name="afb5e240cd715320015c1d3093102bfbe"></a>
@@ -621,7 +672,24 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d9c/class_unit_a_i.html#aa88ecdf57b44fb013c3fed4ff59aec0d">UnitAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  100</span>        {</div>
+<div class="line"><span class="lineno">  101</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a9c5739d268705d03fc40799b7c3d3239">SetNpcFlag</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ab054baf099d873bce22a0e84ae1090e2aa6620004c6d23c46e0472598d5ab0b5d">UNIT_NPC_FLAG_QUESTGIVER</a>);</div>
+<div class="line"><span class="lineno">  102</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#af11c4cb6be962a4162cc987c69a7884f">SetImmuneToAll</a>(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  103</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a25e4ba3fa47df09bb0492dd70c17c841">RestoreFaction</a>();</div>
+<div class="line"><span class="lineno">  104</span> </div>
+<div class="line"><span class="lineno">  105</span>            <a class="code hl_variable" href="../../d7/de7/structnpc__shay__leafrunner_1_1npc__shay__leafrunner_a_i.html#abdde41a4be4f14a0e70a400f9f4883d9">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#afd6b5b23aa26797b6de1275c70268808">Reset</a>();</div>
+<div class="line"><span class="lineno">  106</span>            <a class="code hl_variable" href="../../d7/de7/structnpc__shay__leafrunner_1_1npc__shay__leafrunner_a_i.html#a13684c54cf84703af9cbf1328eecdd3c">_playerGUID</a>.<a class="code hl_function" href="../../d8/d03/class_object_guid.html#af6aafb4610723c7f14523fef243b1b65">Clear</a>();</div>
+<div class="line"><span class="lineno">  107</span>            <a class="code hl_variable" href="../../d7/de7/structnpc__shay__leafrunner_1_1npc__shay__leafrunner_a_i.html#a39ddc90baf03281551cfcc92f0296e62">_rockbiterGUID</a>.<a class="code hl_function" href="../../d8/d03/class_object_guid.html#af6aafb4610723c7f14523fef243b1b65">Clear</a>();</div>
+<div class="line"><span class="lineno">  108</span>        }</div>
+<div class="ttc" id="a_unit_8h_html_ab054baf099d873bce22a0e84ae1090e2aa6620004c6d23c46e0472598d5ab0b5d"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#ab054baf099d873bce22a0e84ae1090e2aa6620004c6d23c46e0472598d5ab0b5d">UNIT_NPC_FLAG_QUESTGIVER</a></div><div class="ttdeci">@ UNIT_NPC_FLAG_QUESTGIVER</div><div class="ttdef"><b>Definition:</b> Unit.h:517</div></div>
+<div class="ttc" id="aclass_event_map_html_afd6b5b23aa26797b6de1275c70268808"><div class="ttname"><a href="../../d8/d8f/class_event_map.html#afd6b5b23aa26797b6de1275c70268808">EventMap::Reset</a></div><div class="ttdeci">void Reset()</div><div class="ttdef"><b>Definition:</b> EventMap.cpp:21</div></div>
+<div class="ttc" id="aclass_object_guid_html_af6aafb4610723c7f14523fef243b1b65"><div class="ttname"><a href="../../d8/d03/class_object_guid.html#af6aafb4610723c7f14523fef243b1b65">ObjectGuid::Clear</a></div><div class="ttdeci">void Clear()</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:140</div></div>
+<div class="ttc" id="aclass_unit_html_a25e4ba3fa47df09bb0492dd70c17c841"><div class="ttname"><a href="../../da/db7/class_unit.html#a25e4ba3fa47df09bb0492dd70c17c841">Unit::RestoreFaction</a></div><div class="ttdeci">void RestoreFaction()</div><div class="ttdef"><b>Definition:</b> Unit.cpp:18727</div></div>
+<div class="ttc" id="aclass_unit_html_a9c5739d268705d03fc40799b7c3d3239"><div class="ttname"><a href="../../da/db7/class_unit.html#a9c5739d268705d03fc40799b7c3d3239">Unit::SetNpcFlag</a></div><div class="ttdeci">void SetNpcFlag(NPCFlags flags)</div><div class="ttdef"><b>Definition:</b> Unit.h:1644</div></div>
+<div class="ttc" id="aclass_unit_html_af11c4cb6be962a4162cc987c69a7884f"><div class="ttname"><a href="../../da/db7/class_unit.html#af11c4cb6be962a4162cc987c69a7884f">Unit::SetImmuneToAll</a></div><div class="ttdeci">void SetImmuneToAll(bool apply, bool keepCombat=false)</div><div class="ttdef"><b>Definition:</b> Unit.h:1675</div></div>
+<div class="ttc" id="astructnpc__shay__leafrunner_1_1npc__shay__leafrunner_a_i_html_a39ddc90baf03281551cfcc92f0296e62"><div class="ttname"><a href="../../d7/de7/structnpc__shay__leafrunner_1_1npc__shay__leafrunner_a_i.html#a39ddc90baf03281551cfcc92f0296e62">npc_shay_leafrunner::npc_shay_leafrunnerAI::_rockbiterGUID</a></div><div class="ttdeci">ObjectGuid _rockbiterGUID</div><div class="ttdef"><b>Definition:</b> zone_feralas.cpp:282</div></div>
+<div class="ttc" id="astructnpc__shay__leafrunner_1_1npc__shay__leafrunner_a_i_html_abdde41a4be4f14a0e70a400f9f4883d9"><div class="ttname"><a href="../../d7/de7/structnpc__shay__leafrunner_1_1npc__shay__leafrunner_a_i.html#abdde41a4be4f14a0e70a400f9f4883d9">npc_shay_leafrunner::npc_shay_leafrunnerAI::_events</a></div><div class="ttdeci">EventMap _events</div><div class="ttdef"><b>Definition:</b> zone_feralas.cpp:283</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a9872cc372ac026845e7e189fd4bc26a6" name="a9872cc372ac026845e7e189fd4bc26a6"></a>
@@ -649,7 +717,14 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a4cc209e047dcbd29cf57e689e3945ff7">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  190</span>        {</div>
+<div class="line"><span class="lineno">  191</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* player = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#aeb3657e7ad09335b9a9ffa50473aa216">ObjectAccessor::GetPlayer</a>(*<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_variable" href="../../d7/de7/structnpc__shay__leafrunner_1_1npc__shay__leafrunner_a_i.html#a13684c54cf84703af9cbf1328eecdd3c">_playerGUID</a>))</div>
+<div class="line"><span class="lineno">  192</span>            {</div>
+<div class="line"><span class="lineno">  193</span>                <a class="code hl_function" href="../../d7/de7/structnpc__shay__leafrunner_1_1npc__shay__leafrunner_a_i.html#a6198c2040ec231db158dce9e71e5efd2">FailQuest</a>(player, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  194</span>            }</div>
+<div class="line"><span class="lineno">  195</span>        }</div>
+<div class="ttc" id="astructnpc__shay__leafrunner_1_1npc__shay__leafrunner_a_i_html_a6198c2040ec231db158dce9e71e5efd2"><div class="ttname"><a href="../../d7/de7/structnpc__shay__leafrunner_1_1npc__shay__leafrunner_a_i.html#a6198c2040ec231db158dce9e71e5efd2">npc_shay_leafrunner::npc_shay_leafrunnerAI::FailQuest</a></div><div class="ttdeci">void FailQuest(Player *player, bool despawn)</div><div class="ttdef"><b>Definition:</b> zone_feralas.cpp:162</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a18a9ff2f93fc39e404289e1fe5fceea4" name="a18a9ff2f93fc39e404289e1fe5fceea4"></a>
@@ -676,7 +751,14 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d2/d68/class_creature_a_i.html#a7c039b3df20368e5dc6aca4811ca9084">CreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  111</span>        {</div>
+<div class="line"><span class="lineno">  112</span>            <a class="code hl_function" href="../../d7/de7/structnpc__shay__leafrunner_1_1npc__shay__leafrunner_a_i.html#afb5e240cd715320015c1d3093102bfbe">InitializeAI</a>();</div>
+<div class="line"><span class="lineno">  113</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a0ab9e2649cc4b0103aea6a52e8f1a5ea">SetHomePosition</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#ad8e55f9b39618093aa625abe3a06e1ed">GetPosition</a>());</div>
+<div class="line"><span class="lineno">  114</span>        }</div>
+<div class="ttc" id="aclass_creature_html_a0ab9e2649cc4b0103aea6a52e8f1a5ea"><div class="ttname"><a href="../../d1/dac/class_creature.html#a0ab9e2649cc4b0103aea6a52e8f1a5ea">Creature::SetHomePosition</a></div><div class="ttdeci">void SetHomePosition(float x, float y, float z, float o)</div><div class="ttdef"><b>Definition:</b> Creature.h:320</div></div>
+<div class="ttc" id="astruct_position_html_ad8e55f9b39618093aa625abe3a06e1ed"><div class="ttname"><a href="../../d1/d26/struct_position.html#ad8e55f9b39618093aa625abe3a06e1ed">Position::GetPosition</a></div><div class="ttdeci">void GetPosition(float &amp;x, float &amp;y) const</div><div class="ttdef"><b>Definition:</b> Position.h:122</div></div>
+<div class="ttc" id="astructnpc__shay__leafrunner_1_1npc__shay__leafrunner_a_i_html_afb5e240cd715320015c1d3093102bfbe"><div class="ttname"><a href="../../d7/de7/structnpc__shay__leafrunner_1_1npc__shay__leafrunner_a_i.html#afb5e240cd715320015c1d3093102bfbe">npc_shay_leafrunner::npc_shay_leafrunnerAI::InitializeAI</a></div><div class="ttdeci">void InitializeAI() override</div><div class="ttdef"><b>Definition:</b> zone_feralas.cpp:99</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a194eb03249d617fd2a56401bb74d37d2" name="a194eb03249d617fd2a56401bb74d37d2"></a>
@@ -704,7 +786,58 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d2/d68/class_creature_a_i.html#a1280f8bcf72254ad31c453b810615f87">CreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  117</span>        {</div>
+<div class="line"><span class="lineno">  118</span>            <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d7/de7/structnpc__shay__leafrunner_1_1npc__shay__leafrunner_a_i.html#a13684c54cf84703af9cbf1328eecdd3c">_playerGUID</a> || target-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>() != <a class="code hl_enumvalue" href="../../d3/daf/zone__feralas_8cpp.html#a6f255b9271bca59c87ee56e1212e2cbca48d876200e50571b8337e2b654181040">NPC_ROCKBITER</a> || !<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#ab79ebfcc3ba4247ccfeb95eee63dc01a">IsInRange</a>(target, 0.f, 10.f))</div>
+<div class="line"><span class="lineno">  119</span>            {</div>
+<div class="line"><span class="lineno">  120</span>                <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#af5e75d013dfa8a8b888d7714992e3f2a">IsInCombat</a>() &amp;&amp; !<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">GetVictim</a>())</div>
+<div class="line"><span class="lineno">  121</span>                {</div>
+<div class="line"><span class="lineno">  122</span>                    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* player = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#aeb3657e7ad09335b9a9ffa50473aa216">ObjectAccessor::GetPlayer</a>(*<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_variable" href="../../d7/de7/structnpc__shay__leafrunner_1_1npc__shay__leafrunner_a_i.html#a13684c54cf84703af9cbf1328eecdd3c">_playerGUID</a>))</div>
+<div class="line"><span class="lineno">  123</span>                    {</div>
+<div class="line"><span class="lineno">  124</span>                        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* victim = player-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">GetVictim</a>())</div>
+<div class="line"><span class="lineno">  125</span>                        {</div>
+<div class="line"><span class="lineno">  126</span>                            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a44d11d16e2cbdb8316790cc8550df75c">CanStartAttack</a>(victim))</div>
+<div class="line"><span class="lineno">  127</span>                            {</div>
+<div class="line"><span class="lineno">  128</span>                                <a class="code hl_function" href="../../de/d83/struct_scripted_a_i.html#a4c91d8d2c1a6e8b234c1c4f15936c7a4">AttackStart</a>(victim);</div>
+<div class="line"><span class="lineno">  129</span>                            }</div>
+<div class="line"><span class="lineno">  130</span>                        }</div>
+<div class="line"><span class="lineno">  131</span>                    }</div>
+<div class="line"><span class="lineno">  132</span>                }</div>
+<div class="line"><span class="lineno">  133</span> </div>
+<div class="line"><span class="lineno">  134</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  135</span>            }</div>
+<div class="line"><span class="lineno">  136</span> </div>
+<div class="line"><span class="lineno">  137</span>            <a class="code hl_variable" href="../../d7/de7/structnpc__shay__leafrunner_1_1npc__shay__leafrunner_a_i.html#a39ddc90baf03281551cfcc92f0296e62">_rockbiterGUID</a> = target-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>();</div>
+<div class="line"><span class="lineno">  138</span> </div>
+<div class="line"><span class="lineno">  139</span>            <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d3/daf/zone__feralas_8cpp.html#a6f255b9271bca59c87ee56e1212e2cbcacf0627bbfe403e4a5f729784263db0a9">TALK_4</a>, target);</div>
+<div class="line"><span class="lineno">  140</span> </div>
+<div class="line"><span class="lineno">  141</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a2903449b4183e13866c6e98d77578887">SetControlled</a>(<span class="keyword">true</span>, <a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544a50d4f70d273dc4674d4f56fcab462a14">UNIT_STATE_ROOT</a>);</div>
+<div class="line"><span class="lineno">  142</span> </div>
+<div class="line"><span class="lineno">  143</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* player = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#aeb3657e7ad09335b9a9ffa50473aa216">ObjectAccessor::GetPlayer</a>(*<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_variable" href="../../d7/de7/structnpc__shay__leafrunner_1_1npc__shay__leafrunner_a_i.html#a13684c54cf84703af9cbf1328eecdd3c">_playerGUID</a>))</div>
+<div class="line"><span class="lineno">  144</span>            {</div>
+<div class="line"><span class="lineno">  145</span>                player-&gt;GroupEventHappens(<a class="code hl_enumvalue" href="../../d3/daf/zone__feralas_8cpp.html#a6f255b9271bca59c87ee56e1212e2cbcaca7ba6c97759bd44f5541d067c6dd35d">QUEST_WANDERING_SHAY</a>, <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>);</div>
+<div class="line"><span class="lineno">  146</span>            }</div>
+<div class="line"><span class="lineno">  147</span> </div>
+<div class="line"><span class="lineno">  148</span>            <a class="code hl_variable" href="../../d7/de7/structnpc__shay__leafrunner_1_1npc__shay__leafrunner_a_i.html#abdde41a4be4f14a0e70a400f9f4883d9">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#abbc964023a1653828c42fc11d69c88a2">CancelEvent</a>(<a class="code hl_enumvalue" href="../../d3/daf/zone__feralas_8cpp.html#a6f255b9271bca59c87ee56e1212e2cbca1a0ac902ce295c69a59112e9da8d5323">EVENT_WANDERING_START</a>);</div>
+<div class="line"><span class="lineno">  149</span>            <a class="code hl_variable" href="../../d7/de7/structnpc__shay__leafrunner_1_1npc__shay__leafrunner_a_i.html#abdde41a4be4f14a0e70a400f9f4883d9">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a5e6081bda8828001c0ed8677b2aecd65">ScheduleEvent</a>(<a class="code hl_enumvalue" href="../../d3/daf/zone__feralas_8cpp.html#a6f255b9271bca59c87ee56e1212e2cbcab9acd335c886c5767aacfb26109306a4">EVENT_FINAL_TALK</a>, 5 * <a class="code hl_variable" href="../../db/d1f/_common_8h.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a>);</div>
+<div class="line"><span class="lineno">  150</span>        }</div>
+<div class="ttc" id="a_common_8h_html_a84190f79c8167211609f67284e066c58"><div class="ttname"><a href="../../db/d1f/_common_8h.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a></div><div class="ttdeci">constexpr auto IN_MILLISECONDS</div><div class="ttdef"><b>Definition:</b> Common.h:62</div></div>
+<div class="ttc" id="a_unit_8h_html_ae51d2ecb71f7a5cb3882982a622c9544a50d4f70d273dc4674d4f56fcab462a14"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544a50d4f70d273dc4674d4f56fcab462a14">UNIT_STATE_ROOT</a></div><div class="ttdeci">@ UNIT_STATE_ROOT</div><div class="ttdef"><b>Definition:</b> Unit.h:335</div></div>
+<div class="ttc" id="aboss__fathomlord__karathress_8cpp_html_a747a224b6b3195f9a33c56ddc6c7e268"><div class="ttname"><a href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a></div><div class="ttdeci">Talk</div><div class="ttdef"><b>Definition:</b> boss_fathomlord_karathress.cpp:23</div></div>
+<div class="ttc" id="aclass_creature_html_a44d11d16e2cbdb8316790cc8550df75c"><div class="ttname"><a href="../../d1/dac/class_creature.html#a44d11d16e2cbdb8316790cc8550df75c">Creature::CanStartAttack</a></div><div class="ttdeci">bool CanStartAttack(Unit const *u) const</div><div class="ttdef"><b>Definition:</b> Creature.cpp:1871</div></div>
+<div class="ttc" id="aclass_event_map_html_a5e6081bda8828001c0ed8677b2aecd65"><div class="ttname"><a href="../../d8/d8f/class_event_map.html#a5e6081bda8828001c0ed8677b2aecd65">EventMap::ScheduleEvent</a></div><div class="ttdeci">void ScheduleEvent(uint32 eventId, uint32 time, uint32 group=0, uint32 phase=0)</div><div class="ttdef"><b>Definition:</b> EventMap.cpp:56</div></div>
+<div class="ttc" id="aclass_event_map_html_abbc964023a1653828c42fc11d69c88a2"><div class="ttname"><a href="../../d8/d8f/class_event_map.html#abbc964023a1653828c42fc11d69c88a2">EventMap::CancelEvent</a></div><div class="ttdeci">void CancelEvent(uint32 eventId)</div><div class="ttdef"><b>Definition:</b> EventMap.cpp:190</div></div>
+<div class="ttc" id="aclass_object_html_aa627fe2967ed0e0ed1d8aeeb4365a961"><div class="ttname"><a href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">Object::GetEntry</a></div><div class="ttdeci">uint32 GetEntry() const</div><div class="ttdef"><b>Definition:</b> Object.h:109</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_a2903449b4183e13866c6e98d77578887"><div class="ttname"><a href="../../da/db7/class_unit.html#a2903449b4183e13866c6e98d77578887">Unit::SetControlled</a></div><div class="ttdeci">void SetControlled(bool apply, UnitState state)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:18071</div></div>
+<div class="ttc" id="aclass_unit_html_aae09d03a474ea5517d671e64dc393739"><div class="ttname"><a href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">Unit::GetVictim</a></div><div class="ttdeci">Unit * GetVictim() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1386</div></div>
+<div class="ttc" id="aclass_unit_html_af5e75d013dfa8a8b888d7714992e3f2a"><div class="ttname"><a href="../../da/db7/class_unit.html#af5e75d013dfa8a8b888d7714992e3f2a">Unit::IsInCombat</a></div><div class="ttdeci">bool IsInCombat() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1685</div></div>
+<div class="ttc" id="aclass_world_object_html_ab79ebfcc3ba4247ccfeb95eee63dc01a"><div class="ttname"><a href="../../db/df7/class_world_object.html#ab79ebfcc3ba4247ccfeb95eee63dc01a">WorldObject::IsInRange</a></div><div class="ttdeci">bool IsInRange(WorldObject const *obj, float minRange, float maxRange, bool is3D=true) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1404</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a4c91d8d2c1a6e8b234c1c4f15936c7a4"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a4c91d8d2c1a6e8b234c1c4f15936c7a4">ScriptedAI::AttackStart</a></div><div class="ttdeci">void AttackStart(Unit *) override</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.cpp:206</div></div>
+<div class="ttc" id="azone__feralas_8cpp_html_a6f255b9271bca59c87ee56e1212e2cbca1a0ac902ce295c69a59112e9da8d5323"><div class="ttname"><a href="../../d3/daf/zone__feralas_8cpp.html#a6f255b9271bca59c87ee56e1212e2cbca1a0ac902ce295c69a59112e9da8d5323">EVENT_WANDERING_START</a></div><div class="ttdeci">@ EVENT_WANDERING_START</div><div class="ttdef"><b>Definition:</b> zone_feralas.cpp:83</div></div>
+<div class="ttc" id="azone__feralas_8cpp_html_a6f255b9271bca59c87ee56e1212e2cbca48d876200e50571b8337e2b654181040"><div class="ttname"><a href="../../d3/daf/zone__feralas_8cpp.html#a6f255b9271bca59c87ee56e1212e2cbca48d876200e50571b8337e2b654181040">NPC_ROCKBITER</a></div><div class="ttdeci">@ NPC_ROCKBITER</div><div class="ttdef"><b>Definition:</b> zone_feralas.cpp:75</div></div>
+<div class="ttc" id="azone__feralas_8cpp_html_a6f255b9271bca59c87ee56e1212e2cbcab9acd335c886c5767aacfb26109306a4"><div class="ttname"><a href="../../d3/daf/zone__feralas_8cpp.html#a6f255b9271bca59c87ee56e1212e2cbcab9acd335c886c5767aacfb26109306a4">EVENT_FINAL_TALK</a></div><div class="ttdeci">@ EVENT_FINAL_TALK</div><div class="ttdef"><b>Definition:</b> zone_feralas.cpp:86</div></div>
+<div class="ttc" id="azone__feralas_8cpp_html_a6f255b9271bca59c87ee56e1212e2cbcacf0627bbfe403e4a5f729784263db0a9"><div class="ttname"><a href="../../d3/daf/zone__feralas_8cpp.html#a6f255b9271bca59c87ee56e1212e2cbcacf0627bbfe403e4a5f729784263db0a9">TALK_4</a></div><div class="ttdeci">@ TALK_4</div><div class="ttdef"><b>Definition:</b> zone_feralas.cpp:81</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a75934ecbda88e0af3cb71f3b1574aae6" name="a75934ecbda88e0af3cb71f3b1574aae6"></a>
@@ -742,7 +875,21 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a7c4ff5a7547e75576c127ba4a514e548">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  216</span>        {</div>
+<div class="line"><span class="lineno">  217</span>            <span class="keywordflow">if</span> (spellInfo-&gt;Id == <a class="code hl_enumvalue" href="../../d3/daf/zone__feralas_8cpp.html#a6f255b9271bca59c87ee56e1212e2cbca7ff251e265fadfd190821883c164ca20">SPELL_SHAY_BELL</a>)</div>
+<div class="line"><span class="lineno">  218</span>            {</div>
+<div class="line"><span class="lineno">  219</span>                <a class="code hl_variable" href="../../d7/de7/structnpc__shay__leafrunner_1_1npc__shay__leafrunner_a_i.html#a13684c54cf84703af9cbf1328eecdd3c">_playerGUID</a> = caster-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>();</div>
+<div class="line"><span class="lineno">  220</span> </div>
+<div class="line"><span class="lineno">  221</span>                <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d3/daf/zone__feralas_8cpp.html#a6f255b9271bca59c87ee56e1212e2cbcaeef4078f48b1e463af21a702f2dca05d">TALK_1</a>, caster);</div>
+<div class="line"><span class="lineno">  222</span> </div>
+<div class="line"><span class="lineno">  223</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../df/d4d/class_motion_master.html#ad0697d75ff06afb1247424100c99619f">MoveIdle</a>();</div>
+<div class="line"><span class="lineno">  224</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../df/d4d/class_motion_master.html#a5c4f6d1163174b909c83901d7f770d72">MoveFollow</a>(caster, 3.f, M_PI);</div>
+<div class="line"><span class="lineno">  225</span>            }</div>
+<div class="line"><span class="lineno">  226</span>        }</div>
+<div class="ttc" id="aclass_motion_master_html_ad0697d75ff06afb1247424100c99619f"><div class="ttname"><a href="../../df/d4d/class_motion_master.html#ad0697d75ff06afb1247424100c99619f">MotionMaster::MoveIdle</a></div><div class="ttdeci">void MoveIdle()</div><div class="ttdef"><b>Definition:</b> MotionMaster.cpp:231</div></div>
+<div class="ttc" id="azone__feralas_8cpp_html_a6f255b9271bca59c87ee56e1212e2cbca7ff251e265fadfd190821883c164ca20"><div class="ttname"><a href="../../d3/daf/zone__feralas_8cpp.html#a6f255b9271bca59c87ee56e1212e2cbca7ff251e265fadfd190821883c164ca20">SPELL_SHAY_BELL</a></div><div class="ttdeci">@ SPELL_SHAY_BELL</div><div class="ttdef"><b>Definition:</b> zone_feralas.cpp:73</div></div>
+<div class="ttc" id="azone__feralas_8cpp_html_a6f255b9271bca59c87ee56e1212e2cbcaeef4078f48b1e463af21a702f2dca05d"><div class="ttname"><a href="../../d3/daf/zone__feralas_8cpp.html#a6f255b9271bca59c87ee56e1212e2cbcaeef4078f48b1e463af21a702f2dca05d">TALK_1</a></div><div class="ttdeci">@ TALK_1</div><div class="ttdef"><b>Definition:</b> zone_feralas.cpp:78</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a47d5ee3a41709a506890a460713d8a6b" name="a47d5ee3a41709a506890a460713d8a6b"></a>
@@ -780,7 +927,29 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d9c/class_unit_a_i.html#a03076e2d142052af78e6d9e85f390fd1">UnitAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  198</span>        {</div>
+<div class="line"><span class="lineno">  199</span>            <span class="keywordflow">if</span> (quest-&gt;GetQuestId() == <a class="code hl_enumvalue" href="../../d3/daf/zone__feralas_8cpp.html#a6f255b9271bca59c87ee56e1212e2cbcaca7ba6c97759bd44f5541d067c6dd35d">QUEST_WANDERING_SHAY</a>)</div>
+<div class="line"><span class="lineno">  200</span>            {</div>
+<div class="line"><span class="lineno">  201</span>                <a class="code hl_variable" href="../../d7/de7/structnpc__shay__leafrunner_1_1npc__shay__leafrunner_a_i.html#a13684c54cf84703af9cbf1328eecdd3c">_playerGUID</a> = player-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>();</div>
+<div class="line"><span class="lineno">  202</span> </div>
+<div class="line"><span class="lineno">  203</span>                <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d3/daf/zone__feralas_8cpp.html#a6f255b9271bca59c87ee56e1212e2cbcaef64d042937eee1c43302ffcab65d040">TALK_0</a>, player);</div>
+<div class="line"><span class="lineno">  204</span> </div>
+<div class="line"><span class="lineno">  205</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a629e9a4f8c5987b034e409c9c74297b9">RemoveNpcFlag</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ab054baf099d873bce22a0e84ae1090e2aa6620004c6d23c46e0472598d5ab0b5d">UNIT_NPC_FLAG_QUESTGIVER</a>);</div>
+<div class="line"><span class="lineno">  206</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#af11c4cb6be962a4162cc987c69a7884f">SetImmuneToAll</a>(<span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  207</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a2579e2b71959daec99048b4bcf7f6bf3">SetFaction</a>(<a class="code hl_enumvalue" href="../../d5/d9a/_script_system_8h.html#a3c2424ea523bc5d5e44a7fa49a67f476aed8fe9002c1d3c315038f7df31c6f7ae">FACTION_ESCORT_N_NEUTRAL_ACTIVE</a>);</div>
+<div class="line"><span class="lineno">  208</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../df/d4d/class_motion_master.html#a5c4f6d1163174b909c83901d7f770d72">MoveFollow</a>(player, 3.f, M_PI);</div>
+<div class="line"><span class="lineno">  209</span> </div>
+<div class="line"><span class="lineno">  210</span>                <a class="code hl_variable" href="../../d7/de7/structnpc__shay__leafrunner_1_1npc__shay__leafrunner_a_i.html#abdde41a4be4f14a0e70a400f9f4883d9">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a5e6081bda8828001c0ed8677b2aecd65">ScheduleEvent</a>(<a class="code hl_enumvalue" href="../../d3/daf/zone__feralas_8cpp.html#a6f255b9271bca59c87ee56e1212e2cbca1a0ac902ce295c69a59112e9da8d5323">EVENT_WANDERING_START</a>, <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(40 * <a class="code hl_variable" href="../../db/d1f/_common_8h.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a>, 70 * <a class="code hl_variable" href="../../db/d1f/_common_8h.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a>));</div>
+<div class="line"><span class="lineno">  211</span>                <a class="code hl_variable" href="../../d7/de7/structnpc__shay__leafrunner_1_1npc__shay__leafrunner_a_i.html#abdde41a4be4f14a0e70a400f9f4883d9">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a5e6081bda8828001c0ed8677b2aecd65">ScheduleEvent</a>(<a class="code hl_enumvalue" href="../../d3/daf/zone__feralas_8cpp.html#a6f255b9271bca59c87ee56e1212e2cbcadcbaf965d73a91e5e2ec9bde7eb700f5">EVENT_CHECK_FOLLOWER</a>, 30 * <a class="code hl_variable" href="../../db/d1f/_common_8h.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a>);</div>
+<div class="line"><span class="lineno">  212</span>            }</div>
+<div class="line"><span class="lineno">  213</span>        }</div>
+<div class="ttc" id="a_random_8cpp_html_ab17def34ccbbd868dc87a16bf35acdbd"><div class="ttname"><a href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a></div><div class="ttdeci">uint32 urand(uint32 min, uint32 max)</div><div class="ttdef"><b>Definition:</b> Random.cpp:44</div></div>
+<div class="ttc" id="a_script_system_8h_html_a3c2424ea523bc5d5e44a7fa49a67f476aed8fe9002c1d3c315038f7df31c6f7ae"><div class="ttname"><a href="../../d5/d9a/_script_system_8h.html#a3c2424ea523bc5d5e44a7fa49a67f476aed8fe9002c1d3c315038f7df31c6f7ae">FACTION_ESCORT_N_NEUTRAL_ACTIVE</a></div><div class="ttdeci">@ FACTION_ESCORT_N_NEUTRAL_ACTIVE</div><div class="ttdef"><b>Definition:</b> ScriptSystem.h:37</div></div>
+<div class="ttc" id="aclass_unit_html_a2579e2b71959daec99048b4bcf7f6bf3"><div class="ttname"><a href="../../da/db7/class_unit.html#a2579e2b71959daec99048b4bcf7f6bf3">Unit::SetFaction</a></div><div class="ttdeci">void SetFaction(uint32 faction)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:10017</div></div>
+<div class="ttc" id="aclass_unit_html_a629e9a4f8c5987b034e409c9c74297b9"><div class="ttname"><a href="../../da/db7/class_unit.html#a629e9a4f8c5987b034e409c9c74297b9">Unit::RemoveNpcFlag</a></div><div class="ttdeci">void RemoveNpcFlag(NPCFlags flags)</div><div class="ttdef"><b>Definition:</b> Unit.h:1645</div></div>
+<div class="ttc" id="azone__feralas_8cpp_html_a6f255b9271bca59c87ee56e1212e2cbcadcbaf965d73a91e5e2ec9bde7eb700f5"><div class="ttname"><a href="../../d3/daf/zone__feralas_8cpp.html#a6f255b9271bca59c87ee56e1212e2cbcadcbaf965d73a91e5e2ec9bde7eb700f5">EVENT_CHECK_FOLLOWER</a></div><div class="ttdeci">@ EVENT_CHECK_FOLLOWER</div><div class="ttdef"><b>Definition:</b> zone_feralas.cpp:87</div></div>
+<div class="ttc" id="azone__feralas_8cpp_html_a6f255b9271bca59c87ee56e1212e2cbcaef64d042937eee1c43302ffcab65d040"><div class="ttname"><a href="../../d3/daf/zone__feralas_8cpp.html#a6f255b9271bca59c87ee56e1212e2cbcaef64d042937eee1c43302ffcab65d040">TALK_0</a></div><div class="ttdeci">@ TALK_0</div><div class="ttdef"><b>Definition:</b> zone_feralas.cpp:77</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2d181a75cf09ece1b48e118b9f482bf1" name="a2d181a75cf09ece1b48e118b9f482bf1"></a>
@@ -808,7 +977,74 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#aff5fd4e142a5cf930ffacbfc7259cce5">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  229</span>        {</div>
+<div class="line"><span class="lineno">  230</span>            <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">UpdateVictim</a>())</div>
+<div class="line"><span class="lineno">  231</span>            {</div>
+<div class="line"><span class="lineno">  232</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">DoMeleeAttackIfReady</a>();</div>
+<div class="line"><span class="lineno">  233</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  234</span>            }</div>
+<div class="line"><span class="lineno">  235</span> </div>
+<div class="line"><span class="lineno">  236</span>            <a class="code hl_variable" href="../../d7/de7/structnpc__shay__leafrunner_1_1npc__shay__leafrunner_a_i.html#abdde41a4be4f14a0e70a400f9f4883d9">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a33ba1058edd639c98258ba3e123ac2f9">Update</a>(diff);</div>
+<div class="line"><span class="lineno">  237</span>            <span class="keywordflow">while</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> eventId = <a class="code hl_variable" href="../../d7/de7/structnpc__shay__leafrunner_1_1npc__shay__leafrunner_a_i.html#abdde41a4be4f14a0e70a400f9f4883d9">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a07764662d7571ae0e1c44203d189ba44">ExecuteEvent</a>())</div>
+<div class="line"><span class="lineno">  238</span>            {</div>
+<div class="line"><span class="lineno">  239</span>                <span class="keywordflow">switch</span> (eventId)</div>
+<div class="line"><span class="lineno">  240</span>                {</div>
+<div class="line"><span class="lineno">  241</span>                    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d3/daf/zone__feralas_8cpp.html#a6f255b9271bca59c87ee56e1212e2cbca1a0ac902ce295c69a59112e9da8d5323">EVENT_WANDERING_START</a>:</div>
+<div class="line"><span class="lineno">  242</span>                    {</div>
+<div class="line"><span class="lineno">  243</span>                        <a class="code hl_struct" href="../../d1/d26/struct_position.html">Position</a> pos = <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a40c87362a137976ff1a46388793c5122">GetFirstCollisionPosition</a>(15.f, <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#af2f9363ceebb6f78067b4a146d1de9df">rand_norm</a>() * <span class="keyword">static_cast&lt;</span><span class="keywordtype">float</span><span class="keyword">&gt;</span>(2 * M_PI));</div>
+<div class="line"><span class="lineno">  244</span>                        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../df/d4d/class_motion_master.html#a903a48c63482ebbd45d63272b218df7f">MovePoint</a>(0, pos);</div>
+<div class="line"><span class="lineno">  245</span>                        <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d3/daf/zone__feralas_8cpp.html#a6f255b9271bca59c87ee56e1212e2cbca405322125d9520830df92480fb2e4c81">TALK_2</a>);</div>
+<div class="line"><span class="lineno">  246</span>                        <a class="code hl_variable" href="../../d7/de7/structnpc__shay__leafrunner_1_1npc__shay__leafrunner_a_i.html#abdde41a4be4f14a0e70a400f9f4883d9">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a5e6081bda8828001c0ed8677b2aecd65">ScheduleEvent</a>(<a class="code hl_enumvalue" href="../../d3/daf/zone__feralas_8cpp.html#a6f255b9271bca59c87ee56e1212e2cbca1a0ac902ce295c69a59112e9da8d5323">EVENT_WANDERING_START</a>, <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(60 * <a class="code hl_variable" href="../../db/d1f/_common_8h.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a>, 70 * <a class="code hl_variable" href="../../db/d1f/_common_8h.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a>));</div>
+<div class="line"><span class="lineno">  247</span>                        <a class="code hl_variable" href="../../d7/de7/structnpc__shay__leafrunner_1_1npc__shay__leafrunner_a_i.html#abdde41a4be4f14a0e70a400f9f4883d9">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a5e6081bda8828001c0ed8677b2aecd65">ScheduleEvent</a>(<a class="code hl_enumvalue" href="../../d3/daf/zone__feralas_8cpp.html#a6f255b9271bca59c87ee56e1212e2cbcab08594044c105d6abf1a0affaec523b2">EVENT_WANDERING_TALK</a>, 3 * <a class="code hl_variable" href="../../db/d1f/_common_8h.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a>);</div>
+<div class="line"><span class="lineno">  248</span>                        <a class="code hl_variable" href="../../d7/de7/structnpc__shay__leafrunner_1_1npc__shay__leafrunner_a_i.html#abdde41a4be4f14a0e70a400f9f4883d9">_events</a>.<a class="code hl_function" href="../../d8/d8f/class_event_map.html#a5e6081bda8828001c0ed8677b2aecd65">ScheduleEvent</a>(<a class="code hl_enumvalue" href="../../d3/daf/zone__feralas_8cpp.html#a6f255b9271bca59c87ee56e1212e2cbca6a311575b43b26a0b63481fcc41f986d">EVENT_WANDERING_RANDOM</a>, 8 * <a class="code hl_variable" href="../../db/d1f/_common_8h.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a>);</div>
+<div class="line"><span class="lineno">  249</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  250</span>                    }</div>
+<div class="line"><span class="lineno">  251</span>                    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d3/daf/zone__feralas_8cpp.html#a6f255b9271bca59c87ee56e1212e2cbcab08594044c105d6abf1a0affaec523b2">EVENT_WANDERING_TALK</a>:</div>
+<div class="line"><span class="lineno">  252</span>                        <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d3/daf/zone__feralas_8cpp.html#a6f255b9271bca59c87ee56e1212e2cbcad3826674c8818276ccfef168adb40f1f">TALK_3</a>);</div>
+<div class="line"><span class="lineno">  253</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  254</span>                    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d3/daf/zone__feralas_8cpp.html#a6f255b9271bca59c87ee56e1212e2cbca6a311575b43b26a0b63481fcc41f986d">EVENT_WANDERING_RANDOM</a>:</div>
+<div class="line"><span class="lineno">  255</span>                        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a0ab9e2649cc4b0103aea6a52e8f1a5ea">SetHomePosition</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#ad8e55f9b39618093aa625abe3a06e1ed">GetPosition</a>());</div>
+<div class="line"><span class="lineno">  256</span>                        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../df/d4d/class_motion_master.html#afffbc53c2b9aff673a784898bbed3e54">MoveRandom</a>(15.f);</div>
+<div class="line"><span class="lineno">  257</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  258</span>                    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d3/daf/zone__feralas_8cpp.html#a6f255b9271bca59c87ee56e1212e2cbcab9acd335c886c5767aacfb26109306a4">EVENT_FINAL_TALK</a>:</div>
+<div class="line"><span class="lineno">  259</span>                        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* robckbiter = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a>(*<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_variable" href="../../d7/de7/structnpc__shay__leafrunner_1_1npc__shay__leafrunner_a_i.html#a39ddc90baf03281551cfcc92f0296e62">_rockbiterGUID</a>))</div>
+<div class="line"><span class="lineno">  260</span>                        {</div>
+<div class="line"><span class="lineno">  261</span>                            robckbiter-&gt;AI()-&gt;Talk(<a class="code hl_enumvalue" href="../../d3/daf/zone__feralas_8cpp.html#a6f255b9271bca59c87ee56e1212e2cbcaef64d042937eee1c43302ffcab65d040">TALK_0</a>, <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>);</div>
+<div class="line"><span class="lineno">  262</span>                        }</div>
+<div class="line"><span class="lineno">  263</span>                        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#abce66404f36b926cf403555911bcb9f7">DespawnOrUnsummon</a>(10 * <a class="code hl_variable" href="../../db/d1f/_common_8h.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a>);</div>
+<div class="line"><span class="lineno">  264</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  265</span>                    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d3/daf/zone__feralas_8cpp.html#a6f255b9271bca59c87ee56e1212e2cbcadcbaf965d73a91e5e2ec9bde7eb700f5">EVENT_CHECK_FOLLOWER</a>:</div>
+<div class="line"><span class="lineno">  266</span>                    {</div>
+<div class="line"><span class="lineno">  267</span>                        <a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* player = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#aeb3657e7ad09335b9a9ffa50473aa216">ObjectAccessor::GetPlayer</a>(*<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_variable" href="../../d7/de7/structnpc__shay__leafrunner_1_1npc__shay__leafrunner_a_i.html#a13684c54cf84703af9cbf1328eecdd3c">_playerGUID</a>);</div>
+<div class="line"><span class="lineno">  268</span>                        <span class="keywordflow">if</span> (!player || !player-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a5ea3f54af571493f7889220724667189">IsAlive</a>() || !<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#ab79ebfcc3ba4247ccfeb95eee63dc01a">IsInRange</a>(player, 0.f, 50.f))</div>
+<div class="line"><span class="lineno">  269</span>                        {</div>
+<div class="line"><span class="lineno">  270</span>                            <a class="code hl_function" href="../../d7/de7/structnpc__shay__leafrunner_1_1npc__shay__leafrunner_a_i.html#a6198c2040ec231db158dce9e71e5efd2">FailQuest</a>(player, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  271</span>                        }</div>
+<div class="line"><span class="lineno">  272</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  273</span>                    }</div>
+<div class="line"><span class="lineno">  274</span>                    <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  275</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  276</span>                }</div>
+<div class="line"><span class="lineno">  277</span>            }</div>
+<div class="line"><span class="lineno">  278</span>        }</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="a_random_8cpp_html_af2f9363ceebb6f78067b4a146d1de9df"><div class="ttname"><a href="../../d9/d1e/_random_8cpp.html#af2f9363ceebb6f78067b4a146d1de9df">rand_norm</a></div><div class="ttdeci">double rand_norm()</div><div class="ttdef"><b>Definition:</b> Random.cpp:77</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_ae03ccfe1e27501ed9ccbfecdbd3c4e39"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">CreatureAI::UpdateVictim</a></div><div class="ttdeci">bool UpdateVictim()</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:268</div></div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_event_map_html_a07764662d7571ae0e1c44203d189ba44"><div class="ttname"><a href="../../d8/d8f/class_event_map.html#a07764662d7571ae0e1c44203d189ba44">EventMap::ExecuteEvent</a></div><div class="ttdeci">uint32 ExecuteEvent()</div><div class="ttdef"><b>Definition:</b> EventMap.cpp:114</div></div>
+<div class="ttc" id="aclass_event_map_html_a33ba1058edd639c98258ba3e123ac2f9"><div class="ttname"><a href="../../d8/d8f/class_event_map.html#a33ba1058edd639c98258ba3e123ac2f9">EventMap::Update</a></div><div class="ttdeci">void Update(uint32 time)</div><div class="ttdef"><b>Definition:</b> EventMap.h:54</div></div>
+<div class="ttc" id="aclass_motion_master_html_a903a48c63482ebbd45d63272b218df7f"><div class="ttname"><a href="../../df/d4d/class_motion_master.html#a903a48c63482ebbd45d63272b218df7f">MotionMaster::MovePoint</a></div><div class="ttdeci">void MovePoint(uint32 id, const Position &amp;pos, bool generatePath=true, bool forceDestination=true)</div><div class="ttdef"><b>Definition:</b> MotionMaster.h:210</div></div>
+<div class="ttc" id="aclass_motion_master_html_afffbc53c2b9aff673a784898bbed3e54"><div class="ttname"><a href="../../df/d4d/class_motion_master.html#afffbc53c2b9aff673a784898bbed3e54">MotionMaster::MoveRandom</a></div><div class="ttdeci">void MoveRandom(float wanderDistance=0.0f)</div><div class="ttdef"><b>Definition:</b> MotionMaster.cpp:238</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a348a472089a9be6210b58aace8fafa9f"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">UnitAI::DoMeleeAttackIfReady</a></div><div class="ttdeci">void DoMeleeAttackIfReady()</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:40</div></div>
+<div class="ttc" id="aclass_unit_html_a5ea3f54af571493f7889220724667189"><div class="ttname"><a href="../../da/db7/class_unit.html#a5ea3f54af571493f7889220724667189">Unit::IsAlive</a></div><div class="ttdeci">bool IsAlive() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1805</div></div>
+<div class="ttc" id="aclass_world_object_html_a40c87362a137976ff1a46388793c5122"><div class="ttname"><a href="../../db/df7/class_world_object.html#a40c87362a137976ff1a46388793c5122">WorldObject::GetFirstCollisionPosition</a></div><div class="ttdeci">Position GetFirstCollisionPosition(float startX, float startY, float startZ, float destX, float destY)</div><div class="ttdef"><b>Definition:</b> Object.cpp:2767</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_ae42e503fe79bbeaea1aaa665418c43f8"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a></div><div class="ttdeci">Creature * GetCreature(WorldObject const &amp;u, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:215</div></div>
+<div class="ttc" id="astruct_position_html"><div class="ttname"><a href="../../d1/d26/struct_position.html">Position</a></div><div class="ttdef"><b>Definition:</b> Position.h:28</div></div>
+<div class="ttc" id="azone__feralas_8cpp_html_a6f255b9271bca59c87ee56e1212e2cbca405322125d9520830df92480fb2e4c81"><div class="ttname"><a href="../../d3/daf/zone__feralas_8cpp.html#a6f255b9271bca59c87ee56e1212e2cbca405322125d9520830df92480fb2e4c81">TALK_2</a></div><div class="ttdeci">@ TALK_2</div><div class="ttdef"><b>Definition:</b> zone_feralas.cpp:79</div></div>
+<div class="ttc" id="azone__feralas_8cpp_html_a6f255b9271bca59c87ee56e1212e2cbca6a311575b43b26a0b63481fcc41f986d"><div class="ttname"><a href="../../d3/daf/zone__feralas_8cpp.html#a6f255b9271bca59c87ee56e1212e2cbca6a311575b43b26a0b63481fcc41f986d">EVENT_WANDERING_RANDOM</a></div><div class="ttdeci">@ EVENT_WANDERING_RANDOM</div><div class="ttdef"><b>Definition:</b> zone_feralas.cpp:85</div></div>
+<div class="ttc" id="azone__feralas_8cpp_html_a6f255b9271bca59c87ee56e1212e2cbcab08594044c105d6abf1a0affaec523b2"><div class="ttname"><a href="../../d3/daf/zone__feralas_8cpp.html#a6f255b9271bca59c87ee56e1212e2cbcab08594044c105d6abf1a0affaec523b2">EVENT_WANDERING_TALK</a></div><div class="ttdeci">@ EVENT_WANDERING_TALK</div><div class="ttdef"><b>Definition:</b> zone_feralas.cpp:84</div></div>
+<div class="ttc" id="azone__feralas_8cpp_html_a6f255b9271bca59c87ee56e1212e2cbcad3826674c8818276ccfef168adb40f1f"><div class="ttname"><a href="../../d3/daf/zone__feralas_8cpp.html#a6f255b9271bca59c87ee56e1212e2cbcad3826674c8818276ccfef168adb40f1f">TALK_3</a></div><div class="ttdeci">@ TALK_3</div><div class="ttdef"><b>Definition:</b> zone_feralas.cpp:80</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -879,7 +1115,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Kalimdor/<a class="el" href="../../d3/daf/zone__feralas_8cpp.html">zone_feralas.cpp</a></li>
+<li><a class="el" href="../../">zone_feralas.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -887,7 +1123,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/d19/classnpc__shay__leafrunner.html">npc_shay_leafrunner</a></li><li class="navelem"><a class="el" href="../../d7/de7/structnpc__shay__leafrunner_1_1npc__shay__leafrunner_a_i.html">npc_shay_leafrunnerAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:54 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:09 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

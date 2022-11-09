@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('db/dd5/class_type_map_container.html',
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../de/d44/_type_container_8h_source.html">TypeContainer.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">TypeContainer.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -135,7 +135,9 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a8ef4a180d448dcba2141fc389621433d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df8/struct_container_map_list.html">ContainerMapList</a>&lt; OBJECT_TYPES &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dd5/class_type_map_container.html#a8ef4a180d448dcba2141fc389621433d">i_elements</a></td></tr>
 <tr class="separator:a8ef4a180d448dcba2141fc389621433d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;class OBJECT_TYPES&gt;<br />
+class TypeMapContainer&lt; OBJECT_TYPES &gt;</div></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a89c3c7b5a565a0bd087664b77d04589f" name="a89c3c7b5a565a0bd087664b77d04589f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a89c3c7b5a565a0bd087664b77d04589f">&#9670;&#160;</a></span>Count()</h2>
 
@@ -162,7 +164,10 @@ template&lt;class SPECIFIC_TYPE &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  105</span>{ <span class="keywordflow">return</span> <a class="code hl_function" href="../../d1/d7d/namespace_acore.html#ad6c8350ec2c81b221d7a53b7fef910f9">Acore::Count</a>(<a class="code hl_variable" href="../../db/dd5/class_type_map_container.html#a8ef4a180d448dcba2141fc389621433d">i_elements</a>, (SPECIFIC_TYPE*)<span class="keyword">nullptr</span>); }</div>
+<div class="ttc" id="aclass_type_map_container_html_a8ef4a180d448dcba2141fc389621433d"><div class="ttname"><a href="../../db/dd5/class_type_map_container.html#a8ef4a180d448dcba2141fc389621433d">TypeMapContainer::i_elements</a></div><div class="ttdeci">ContainerMapList&lt; OBJECT_TYPES &gt; i_elements</div><div class="ttdef"><b>Definition:</b> TypeContainer.h:127</div></div>
+<div class="ttc" id="anamespace_acore_html_ad6c8350ec2c81b221d7a53b7fef910f9"><div class="ttname"><a href="../../d1/d7d/namespace_acore.html#ad6c8350ec2c81b221d7a53b7fef910f9">Acore::Count</a></div><div class="ttdeci">size_t Count(const ContainerMapList&lt; SPECIFIC_TYPE &gt; &amp;elements, SPECIFIC_TYPE *)</div><div class="ttdef"><b>Definition:</b> TypeContainerFunctions.h:162</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="af75467b56830b1447bebbf974b2747b6" name="af75467b56830b1447bebbf974b2747b6"></a>
@@ -191,7 +196,8 @@ template&lt;class OBJECT_TYPES &gt; </div>
 </div><div class="memdoc">
 
 <p>Removes the object from the container, and returns the removed object. </p>
-
+<div class="fragment"><div class="line"><span class="lineno">  123</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../db/dd5/class_type_map_container.html#a8ef4a180d448dcba2141fc389621433d">i_elements</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="abbdfddc576af5f2d49dddf5e49ad2864" name="abbdfddc576af5f2d49dddf5e49ad2864"></a>
@@ -218,7 +224,8 @@ template&lt;class OBJECT_TYPES &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  124</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../db/dd5/class_type_map_container.html#a8ef4a180d448dcba2141fc389621433d">i_elements</a>;}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a026880bb3378687143ed19fa7b99b41b" name="a026880bb3378687143ed19fa7b99b41b"></a>
@@ -250,7 +257,12 @@ template&lt;class SPECIFIC_TYPE &gt; </div>
 </div><div class="memdoc">
 
 <p>inserts a specific object into the container </p>
-
+<div class="fragment"><div class="line"><span class="lineno">  110</span>    {</div>
+<div class="line"><span class="lineno">  111</span>        SPECIFIC_TYPE* t = <a class="code hl_function" href="../../d1/d7d/namespace_acore.html#aa25dd64d4a28b7d93e2c8bf4cf93d888">Acore::Insert</a>(<a class="code hl_variable" href="../../db/dd5/class_type_map_container.html#a8ef4a180d448dcba2141fc389621433d">i_elements</a>, obj);</div>
+<div class="line"><span class="lineno">  112</span>        <span class="keywordflow">return</span> (t != <span class="keyword">nullptr</span>);</div>
+<div class="line"><span class="lineno">  113</span>    }</div>
+<div class="ttc" id="anamespace_acore_html_aa25dd64d4a28b7d93e2c8bf4cf93d888"><div class="ttname"><a href="../../d1/d7d/namespace_acore.html#aa25dd64d4a28b7d93e2c8bf4cf93d888">Acore::Insert</a></div><div class="ttdeci">bool Insert(ContainerUnorderedMap&lt; SPECIFIC_TYPE, KEY_TYPE &gt; &amp;elements, KEY_TYPE const &amp;handle, SPECIFIC_TYPE *obj)</div><div class="ttdef"><b>Definition:</b> TypeContainerFunctions.h:37</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -279,7 +291,7 @@ template&lt;class OBJECT_TYPES &gt; </div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/common/Dynamic/<a class="el" href="../../de/d44/_type_container_8h_source.html">TypeContainer.h</a></li>
+<li><a class="el" href="../../">TypeContainer.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -287,7 +299,7 @@ template&lt;class OBJECT_TYPES &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../db/dd5/class_type_map_container.html">TypeMapContainer</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:12 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:29 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

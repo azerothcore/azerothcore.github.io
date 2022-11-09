@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzeorthCore: D:/azerothcore-wotlk/src/common/Utilities/MathUtil.h File Reference</title>
+<title>AzeorthCore: MathUtil.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -115,7 +115,7 @@ $(document).ready(function(){initNavTree('dc/d89/_math_util_8h.html','../../'); 
 <code>#include &lt;numeric&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
 </div>
-<p><a href="../../dc/d89/_math_util_8h_source.html">Go to the source code of this file.</a></p>
+<p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -155,7 +155,13 @@ template&lt;typename <a class="el" href="../../d9/d83/_object_guid_8h.html#abe86
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   50</span>{</div>
+<div class="line"><span class="lineno">   51</span>    <span class="keyword">auto</span> b = std::begin(c), e = std::end(c);</div>
+<div class="line"><span class="lineno">   52</span>    <span class="keyword">auto</span> size = std::distance(b, e);</div>
+<div class="line"><span class="lineno">   53</span>    <span class="keyword">auto</span> sum = std::accumulate(b, e, T());</div>
+<div class="line"><span class="lineno">   54</span>    <span class="keywordflow">return</span> sum / size;</div>
+<div class="line"><span class="lineno">   55</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a4840fd449eb626bea901860e4c1be22a" name="a4840fd449eb626bea901860e4c1be22a"></a>
@@ -183,7 +189,47 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   60</span>{</div>
+<div class="line"><span class="lineno">   61</span>    <span class="keywordtype">size_t</span> n = a.size();</div>
+<div class="line"><span class="lineno">   62</span>    <span class="comment">// If size of the arr[] is even</span></div>
+<div class="line"><span class="lineno">   63</span>    <span class="keywordflow">if</span> (n % 2 == 0)</div>
+<div class="line"><span class="lineno">   64</span>    {</div>
+<div class="line"><span class="lineno">   65</span> </div>
+<div class="line"><span class="lineno">   66</span>        <span class="comment">// Applying nth_element</span></div>
+<div class="line"><span class="lineno">   67</span>        <span class="comment">// on n/2th index</span></div>
+<div class="line"><span class="lineno">   68</span>        std::nth_element(a.begin(),</div>
+<div class="line"><span class="lineno">   69</span>            a.begin() + n / 2,</div>
+<div class="line"><span class="lineno">   70</span>            a.end());</div>
+<div class="line"><span class="lineno">   71</span> </div>
+<div class="line"><span class="lineno">   72</span>        <span class="comment">// Applying nth_element</span></div>
+<div class="line"><span class="lineno">   73</span>        <span class="comment">// on (n-1)/2 th index</span></div>
+<div class="line"><span class="lineno">   74</span>        std::nth_element(a.begin(),</div>
+<div class="line"><span class="lineno">   75</span>            a.begin() + (n - 1) / 2,</div>
+<div class="line"><span class="lineno">   76</span>            a.end());</div>
+<div class="line"><span class="lineno">   77</span> </div>
+<div class="line"><span class="lineno">   78</span>        <span class="comment">// Find the average of value at</span></div>
+<div class="line"><span class="lineno">   79</span>        <span class="comment">// index N/2 and (N-1)/2</span></div>
+<div class="line"><span class="lineno">   80</span>        <span class="keywordflow">return</span> (T)(a[(n - 1) / 2]</div>
+<div class="line"><span class="lineno">   81</span>            + a[n / 2])</div>
+<div class="line"><span class="lineno">   82</span>            / 2.0;</div>
+<div class="line"><span class="lineno">   83</span>    }</div>
+<div class="line"><span class="lineno">   84</span> </div>
+<div class="line"><span class="lineno">   85</span>    <span class="comment">// If size of the arr[] is odd</span></div>
+<div class="line"><span class="lineno">   86</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">   87</span>    {</div>
+<div class="line"><span class="lineno">   88</span> </div>
+<div class="line"><span class="lineno">   89</span>        <span class="comment">// Applying nth_element</span></div>
+<div class="line"><span class="lineno">   90</span>        <span class="comment">// on n/2</span></div>
+<div class="line"><span class="lineno">   91</span>        std::nth_element(a.begin(),</div>
+<div class="line"><span class="lineno">   92</span>            a.begin() + n / 2,</div>
+<div class="line"><span class="lineno">   93</span>            a.end());</div>
+<div class="line"><span class="lineno">   94</span> </div>
+<div class="line"><span class="lineno">   95</span>        <span class="comment">// Value at index (N/2)th</span></div>
+<div class="line"><span class="lineno">   96</span>        <span class="comment">// is the median</span></div>
+<div class="line"><span class="lineno">   97</span>        <span class="keywordflow">return</span> (T)a[n / 2];</div>
+<div class="line"><span class="lineno">   98</span>    }</div>
+<div class="line"><span class="lineno">   99</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a60ce9c7718ec2901f037e2368f93026d" name="a60ce9c7718ec2901f037e2368f93026d"></a>
@@ -211,7 +257,26 @@ template&lt;typename <a class="el" href="../../d9/d83/_object_guid_8h.html#abe86
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   29</span>{</div>
+<div class="line"><span class="lineno">   30</span>    <span class="keyword">auto</span> b = std::begin(c), e = std::end(c);</div>
+<div class="line"><span class="lineno">   31</span>    <span class="keyword">auto</span> size = std::distance(b, e);</div>
+<div class="line"><span class="lineno">   32</span>    <span class="keyword">auto</span> sum = std::accumulate(b, e, T());</div>
+<div class="line"><span class="lineno">   33</span>    <span class="keyword">auto</span> <a class="code hl_function" href="../../dc/d89/_math_util_8h.html#a64ba279a3d3edca415239118167c0206">mean</a> = sum / size;</div>
+<div class="line"><span class="lineno">   34</span> </div>
+<div class="line"><span class="lineno">   35</span>    <span class="keywordflow">if</span> (size == 1)</div>
+<div class="line"><span class="lineno">   36</span>    {</div>
+<div class="line"><span class="lineno">   37</span>        <span class="keywordflow">return</span> (T) 0;</div>
+<div class="line"><span class="lineno">   38</span>    }</div>
+<div class="line"><span class="lineno">   39</span> </div>
+<div class="line"><span class="lineno">   40</span>    T accum = T();</div>
+<div class="line"><span class="lineno">   41</span>    <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> d : c)</div>
+<div class="line"><span class="lineno">   42</span>    {</div>
+<div class="line"><span class="lineno">   43</span>        accum += (d - <a class="code hl_function" href="../../dc/d89/_math_util_8h.html#a64ba279a3d3edca415239118167c0206">mean</a>) * (d - <a class="code hl_function" href="../../dc/d89/_math_util_8h.html#a64ba279a3d3edca415239118167c0206">mean</a>);</div>
+<div class="line"><span class="lineno">   44</span>    }</div>
+<div class="line"><span class="lineno">   45</span>    <span class="keywordflow">return</span> std::sqrt(accum / (size - 1));</div>
+<div class="line"><span class="lineno">   46</span>}</div>
+<div class="ttc" id="a_math_util_8h_html_a64ba279a3d3edca415239118167c0206"><div class="ttname"><a href="../../dc/d89/_math_util_8h.html#a64ba279a3d3edca415239118167c0206">mean</a></div><div class="ttdeci">T mean(Container &amp;&amp;c)</div><div class="ttdef"><b>Definition:</b> MathUtil.h:49</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
@@ -220,7 +285,7 @@ template&lt;typename <a class="el" href="../../d9/d83/_object_guid_8h.html#abe86
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_1070012e9e40376f8468ff0aa5b77c71.html">common</a></li><li class="navelem"><a class="el" href="../../dir_5b60c41b3dc3977dce15646b3e6a9085.html">Utilities</a></li><li class="navelem"><a class="el" href="../../dc/d89/_math_util_8h.html">MathUtil.h</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:18 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:31 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

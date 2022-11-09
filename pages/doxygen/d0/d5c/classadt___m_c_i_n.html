@@ -115,7 +115,7 @@ $(document).ready(function(){initNavTree('d0/d5c/classadt___m_c_i_n.html','../..
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d3/df0/adt_8h_source.html">adt.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">adt.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -150,7 +150,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a4d24499a9d7b7290a0c92db807c53567"><td class="memItemLeft" valign="top">};&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
 <tr class="separator:a4d24499a9d7b7290a0c92db807c53567"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a8330b7cb405146399d3d20e6952a8b40" name="a8330b7cb405146399d3d20e6952a8b40"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8330b7cb405146399d3d20e6952a8b40">&#9670;&#160;</a></span>getMCNK()</h2>
 
@@ -184,7 +185,15 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  173</span>    {</div>
+<div class="line"><span class="lineno">  174</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d0/d5c/classadt___m_c_i_n.html#a434ed0ca354ec27d5334cc63e5650038">cells</a>[x][y].offsMCNK)</div>
+<div class="line"><span class="lineno">  175</span>            <span class="keywordflow">return</span> (<a class="code hl_class" href="../../d4/da2/classadt___m_c_n_k.html">adt_MCNK</a>*)((<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>*)<span class="keyword">this</span> + <a class="code hl_variable" href="../../d0/d5c/classadt___m_c_i_n.html#a434ed0ca354ec27d5334cc63e5650038">cells</a>[x][y].offsMCNK - 84);</div>
+<div class="line"><span class="lineno">  176</span>        <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  177</span>    }</div>
+<div class="ttc" id="a_define_8h_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:110</div></div>
+<div class="ttc" id="aclassadt___m_c_i_n_html_a434ed0ca354ec27d5334cc63e5650038"><div class="ttname"><a href="../../d0/d5c/classadt___m_c_i_n.html#a434ed0ca354ec27d5334cc63e5650038">adt_MCIN::cells</a></div><div class="ttdeci">struct adt_MCIN::adt_CELLS cells[ADT_CELLS_PER_GRID][ADT_CELLS_PER_GRID]</div></div>
+<div class="ttc" id="aclassadt___m_c_n_k_html"><div class="ttname"><a href="../../d4/da2/classadt___m_c_n_k.html">adt_MCNK</a></div><div class="ttdef"><b>Definition:</b> adt.h:94</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="adc7346499aa51f4422c810b7e757f835" name="adc7346499aa51f4422c810b7e757f835"></a>
@@ -201,7 +210,25 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  102</span>{</div>
+<div class="line"><span class="lineno">  103</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d0/d5c/classadt___m_c_i_n.html#ae7d4acf20e102b6b8f19ded3fe219a7d">fcc</a> != <a class="code hl_variable" href="../../d5/d36/adt_8cpp.html#a6f946547b65d321100fd6efa2966180c">MCINMagic</a>.<a class="code hl_variable" href="../../dd/d66/unionu__map__fcc.html#a828a2845e666d6eb47d6d4705a663a3d">fcc</a>)</div>
+<div class="line"><span class="lineno">  104</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  105</span> </div>
+<div class="line"><span class="lineno">  106</span>    <span class="comment">// Check cells data</span></div>
+<div class="line"><span class="lineno">  107</span>    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; <a class="code hl_define" href="../../d3/df0/adt_8h.html#aaa17abcdb17267fda5cd146bec40af39">ADT_CELLS_PER_GRID</a>; i++)</div>
+<div class="line"><span class="lineno">  108</span>        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j = 0; j &lt; <a class="code hl_define" href="../../d3/df0/adt_8h.html#aaa17abcdb17267fda5cd146bec40af39">ADT_CELLS_PER_GRID</a>; j++)</div>
+<div class="line"><span class="lineno">  109</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d0/d5c/classadt___m_c_i_n.html#a434ed0ca354ec27d5334cc63e5650038">cells</a>[i][j].offsMCNK &amp;&amp; !<a class="code hl_function" href="../../d0/d5c/classadt___m_c_i_n.html#a8330b7cb405146399d3d20e6952a8b40">getMCNK</a>(i, j)-&gt;<a class="code hl_function" href="../../d0/d5c/classadt___m_c_i_n.html#adc7346499aa51f4422c810b7e757f835">prepareLoadedData</a>())</div>
+<div class="line"><span class="lineno">  110</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  111</span> </div>
+<div class="line"><span class="lineno">  112</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  113</span>}</div>
+<div class="ttc" id="aadt_8cpp_html_a6f946547b65d321100fd6efa2966180c"><div class="ttname"><a href="../../d5/d36/adt_8cpp.html#a6f946547b65d321100fd6efa2966180c">MCINMagic</a></div><div class="ttdeci">u_map_fcc MCINMagic</div><div class="ttdef"><b>Definition:</b> adt.cpp:27</div></div>
+<div class="ttc" id="aadt_8h_html_aaa17abcdb17267fda5cd146bec40af39"><div class="ttname"><a href="../../d3/df0/adt_8h.html#aaa17abcdb17267fda5cd146bec40af39">ADT_CELLS_PER_GRID</a></div><div class="ttdeci">#define ADT_CELLS_PER_GRID</div><div class="ttdef"><b>Definition:</b> adt.h:38</div></div>
+<div class="ttc" id="aclassadt___m_c_i_n_html_a8330b7cb405146399d3d20e6952a8b40"><div class="ttname"><a href="../../d0/d5c/classadt___m_c_i_n.html#a8330b7cb405146399d3d20e6952a8b40">adt_MCIN::getMCNK</a></div><div class="ttdeci">adt_MCNK * getMCNK(int x, int y)</div><div class="ttdef"><b>Definition:</b> adt.h:172</div></div>
+<div class="ttc" id="aclassadt___m_c_i_n_html_adc7346499aa51f4422c810b7e757f835"><div class="ttname"><a href="../../d0/d5c/classadt___m_c_i_n.html#adc7346499aa51f4422c810b7e757f835">adt_MCIN::prepareLoadedData</a></div><div class="ttdeci">bool prepareLoadedData()</div><div class="ttdef"><b>Definition:</b> adt.cpp:101</div></div>
+<div class="ttc" id="aclassadt___m_c_i_n_html_ae7d4acf20e102b6b8f19ded3fe219a7d"><div class="ttname"><a href="../../d0/d5c/classadt___m_c_i_n.html#ae7d4acf20e102b6b8f19ded3fe219a7d">adt_MCIN::fcc</a></div><div class="ttdeci">uint32 fcc</div><div class="ttdef"><b>Definition:</b> adt.h:157</div></div>
+<div class="ttc" id="aunionu__map__fcc_html_a828a2845e666d6eb47d6d4705a663a3d"><div class="ttname"><a href="../../dd/d66/unionu__map__fcc.html#a828a2845e666d6eb47d6d4705a663a3d">u_map_fcc::fcc</a></div><div class="ttdeci">uint32 fcc</div><div class="ttdef"><b>Definition:</b> map_extractor/loadlib/loadlib.h:29</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -276,8 +303,8 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/tools/map_extractor/<a class="el" href="../../d3/df0/adt_8h_source.html">adt.h</a></li>
-<li>D:/azerothcore-wotlk/src/tools/map_extractor/<a class="el" href="../../d5/d36/adt_8cpp.html">adt.cpp</a></li>
+<li><a class="el" href="../../">adt.h</a></li>
+<li><a class="el" href="../../">adt.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -285,7 +312,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d0/d5c/classadt___m_c_i_n.html">adt_MCIN</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:36 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:48 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('d3/df1/struct_n_p_c_stave_quest_a_i.ht
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d8/d19/npc__stave__of__ancients_8h_source.html">npc_stave_of_ancients.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">npc_stave_of_ancients.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for NPCStaveQuestAI:</div>
 <div class="dyncontent">
@@ -542,7 +542,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a2bd2185cd62cc725324c9cc4ab3dfcbc" name="a2bd2185cd62cc725324c9cc4ab3dfcbc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2bd2185cd62cc725324c9cc4ab3dfcbc">&#9670;&#160;</a></span>NPCStaveQuestAI()</h2>
 
@@ -566,7 +567,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  136</span>: <a class="code hl_struct" href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a>(creature) { }</div>
+<div class="ttc" id="astruct_scripted_a_i_html"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -595,7 +598,11 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d2/d68/class_creature_a_i.html#a57b18b733f139df7116009c73a78fd4b">CreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  262</span>{</div>
+<div class="line"><span class="lineno">  263</span>    <a class="code hl_function" href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#af18005dd457c320709921bcdd0f7895d">StoreAttackerGuidValue</a>(attacker);</div>
+<div class="line"><span class="lineno">  264</span>}</div>
+<div class="ttc" id="astruct_n_p_c_stave_quest_a_i_html_af18005dd457c320709921bcdd0f7895d"><div class="ttname"><a href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#af18005dd457c320709921bcdd0f7895d">NPCStaveQuestAI::StoreAttackerGuidValue</a></div><div class="ttdeci">void StoreAttackerGuidValue(Unit *attacker)</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.cpp:192</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a0b2b9c251344f27d75a01e2ebc53dd5d" name="a0b2b9c251344f27d75a01e2ebc53dd5d"></a>
@@ -623,7 +630,20 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a4c91d8d2c1a6e8b234c1c4f15936c7a4">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  252</span>{</div>
+<div class="line"><span class="lineno">  253</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#a81644c431d107dda59c726fdbc4b671c">playerGUID</a>.<a class="code hl_function" href="../../d8/d03/class_object_guid.html#a32695a11f47a244236e7bce277fcf3a8">IsEmpty</a>() &amp;&amp; !<a class="code hl_function" href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#a4ac102757e65c86433b7a758aeb248ba">InNormalForm</a>())</div>
+<div class="line"><span class="lineno">  254</span>    {</div>
+<div class="line"><span class="lineno">  255</span>        <a class="code hl_function" href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#aca5c4a4b283b1fdffd646807a1002e42">StorePlayerGUID</a>();</div>
+<div class="line"><span class="lineno">  256</span>    }</div>
+<div class="line"><span class="lineno">  257</span> </div>
+<div class="line"><span class="lineno">  258</span>    <a class="code hl_function" href="../../de/d83/struct_scripted_a_i.html#a4c91d8d2c1a6e8b234c1c4f15936c7a4">ScriptedAI::AttackStart</a>(target);</div>
+<div class="line"><span class="lineno">  259</span>}</div>
+<div class="ttc" id="aclass_object_guid_html_a32695a11f47a244236e7bce277fcf3a8"><div class="ttname"><a href="../../d8/d03/class_object_guid.html#a32695a11f47a244236e7bce277fcf3a8">ObjectGuid::IsEmpty</a></div><div class="ttdeci">bool IsEmpty() const</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:163</div></div>
+<div class="ttc" id="astruct_n_p_c_stave_quest_a_i_html_a4ac102757e65c86433b7a758aeb248ba"><div class="ttname"><a href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#a4ac102757e65c86433b7a758aeb248ba">NPCStaveQuestAI::InNormalForm</a></div><div class="ttdeci">bool InNormalForm()</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.cpp:34</div></div>
+<div class="ttc" id="astruct_n_p_c_stave_quest_a_i_html_a81644c431d107dda59c726fdbc4b671c"><div class="ttname"><a href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#a81644c431d107dda59c726fdbc4b671c">NPCStaveQuestAI::playerGUID</a></div><div class="ttdeci">ObjectGuid playerGUID</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:139</div></div>
+<div class="ttc" id="astruct_n_p_c_stave_quest_a_i_html_aca5c4a4b283b1fdffd646807a1002e42"><div class="ttname"><a href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#aca5c4a4b283b1fdffd646807a1002e42">NPCStaveQuestAI::StorePlayerGUID</a></div><div class="ttdeci">void StorePlayerGUID()</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.cpp:49</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a4c91d8d2c1a6e8b234c1c4f15936c7a4"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a4c91d8d2c1a6e8b234c1c4f15936c7a4">ScriptedAI::AttackStart</a></div><div class="ttdeci">void AttackStart(Unit *) override</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.cpp:206</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="adf1af974ba78d33dba14847d075cb40b" name="adf1af974ba78d33dba14847d075cb40b"></a>
@@ -641,7 +661,21 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  164</span>{</div>
+<div class="line"><span class="lineno">  165</span>    <span class="comment">// Remove loot if there is more than 1 attacker or Player doesn&#39;t have the quest</span></div>
+<div class="line"><span class="lineno">  166</span>    <span class="comment">// this should prevent party kills and looting the quest item without putting any effort</span></div>
+<div class="line"><span class="lineno">  167</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#a03e24a838a78c445f55618e66f0387d4">attackerGuids</a>.size() &gt; 1 || !<a class="code hl_function" href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#a073e4e3a7f303ea632dc2c4770c556d4">PlayerEligibleForReward</a>(killer))</div>
+<div class="line"><span class="lineno">  168</span>    {</div>
+<div class="line"><span class="lineno">  169</span>        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_variable" href="../../d1/dac/class_creature.html#a0b996fcbb33cdea5a47addc244fdd7eb">loot</a>.<a class="code hl_function" href="../../df/d9e/struct_loot.html#a3445fd5274565dbd58fa7933124628c7">clear</a>();</div>
+<div class="line"><span class="lineno">  170</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  171</span>    }</div>
+<div class="line"><span class="lineno">  172</span>}</div>
+<div class="ttc" id="aclass_creature_html_a0b996fcbb33cdea5a47addc244fdd7eb"><div class="ttname"><a href="../../d1/dac/class_creature.html#a0b996fcbb33cdea5a47addc244fdd7eb">Creature::loot</a></div><div class="ttdeci">Loot loot</div><div class="ttdef"><b>Definition:</b> Creature.h:217</div></div>
+<div class="ttc" id="astruct_loot_html_a3445fd5274565dbd58fa7933124628c7"><div class="ttname"><a href="../../df/d9e/struct_loot.html#a3445fd5274565dbd58fa7933124628c7">Loot::clear</a></div><div class="ttdeci">void clear()</div><div class="ttdef"><b>Definition:</b> LootMgr.h:343</div></div>
+<div class="ttc" id="astruct_n_p_c_stave_quest_a_i_html_a03e24a838a78c445f55618e66f0387d4"><div class="ttname"><a href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#a03e24a838a78c445f55618e66f0387d4">NPCStaveQuestAI::attackerGuids</a></div><div class="ttdeci">std::vector&lt; uint64 &gt; attackerGuids</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:187</div></div>
+<div class="ttc" id="astruct_n_p_c_stave_quest_a_i_html_a073e4e3a7f303ea632dc2c4770c556d4"><div class="ttname"><a href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#a073e4e3a7f303ea632dc2c4770c556d4">NPCStaveQuestAI::PlayerEligibleForReward</a></div><div class="ttdeci">bool PlayerEligibleForReward(Unit *killer)</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.cpp:174</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2f6e72696b409907a367c13f2207127b" name="a2f6e72696b409907a367c13f2207127b"></a>
@@ -658,7 +692,19 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  243</span>{</div>
+<div class="line"><span class="lineno">  244</span>    <a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* player = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#aeb3657e7ad09335b9a9ffa50473aa216">ObjectAccessor::GetPlayer</a>(*<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_variable" href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#a81644c431d107dda59c726fdbc4b671c">playerGUID</a>);</div>
+<div class="line"><span class="lineno">  245</span>    <span class="keywordflow">if</span> (player &amp;&amp; player-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a69c5ac45b65cf0dede6e0ee837361f61">HasAura</a>(<a class="code hl_enumvalue" href="../../d8/d19/npc__stave__of__ancients_8h.html#a2898ea5b5bdc6f6ebd68c36327a6cecda882c4c20d663e5bbdb81fc74aacf77c8">SPELL_FEIGN_DEATH</a>))</div>
+<div class="line"><span class="lineno">  246</span>    {</div>
+<div class="line"><span class="lineno">  247</span>        <a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#afe5dd68e11d20028510eca29d4184778">EnterEvadeMode</a>();</div>
+<div class="line"><span class="lineno">  248</span>    }</div>
+<div class="line"><span class="lineno">  249</span>}</div>
+<div class="ttc" id="aclass_creature_a_i_html_afe5dd68e11d20028510eca29d4184778"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#afe5dd68e11d20028510eca29d4184778">CreatureAI::EnterEvadeMode</a></div><div class="ttdeci">virtual void EnterEvadeMode(EvadeReason why=EVADE_REASON_OTHER)</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:195</div></div>
+<div class="ttc" id="aclass_player_html"><div class="ttname"><a href="../../d8/d53/class_player.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1046</div></div>
+<div class="ttc" id="aclass_unit_html_a69c5ac45b65cf0dede6e0ee837361f61"><div class="ttname"><a href="../../da/db7/class_unit.html#a69c5ac45b65cf0dede6e0ee837361f61">Unit::HasAura</a></div><div class="ttdeci">bool HasAura(uint32 spellId, ObjectGuid casterGUID=ObjectGuid::Empty, ObjectGuid itemCasterGUID=ObjectGuid::Empty, uint8 reqEffMask=0) const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:5598</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_aeb3657e7ad09335b9a9ffa50473aa216"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#aeb3657e7ad09335b9a9ffa50473aa216">ObjectAccessor::GetPlayer</a></div><div class="ttdeci">Player * GetPlayer(Map const *, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:225</div></div>
+<div class="ttc" id="anpc__stave__of__ancients_8h_html_a2898ea5b5bdc6f6ebd68c36327a6cecda882c4c20d663e5bbdb81fc74aacf77c8"><div class="ttname"><a href="../../d8/d19/npc__stave__of__ancients_8h.html#a2898ea5b5bdc6f6ebd68c36327a6cecda882c4c20d663e5bbdb81fc74aacf77c8">SPELL_FEIGN_DEATH</a></div><div class="ttdeci">@ SPELL_FEIGN_DEATH</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:40</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a7c1442ba2f7e31b72942a61f0d0f716c" name="a7c1442ba2f7e31b72942a61f0d0f716c"></a>
@@ -676,7 +722,16 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   28</span>{</div>
+<div class="line"><span class="lineno">   29</span>    <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> currentEntry = <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>();</div>
+<div class="line"><span class="lineno">   30</span>    <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> entryKey = <a class="code hl_variable" href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#a0ea30f49ac6a9f78a9c0429f2c20c4c5">entryKeys</a>[currentEntry];</div>
+<div class="line"><span class="lineno">   31</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#a1a9ccd1d254bdb80b87d997d91afd6d7">entryList</a>[entryKey][type];</div>
+<div class="line"><span class="lineno">   32</span>}</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="aclass_object_html_aa627fe2967ed0e0ed1d8aeeb4365a961"><div class="ttname"><a href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">Object::GetEntry</a></div><div class="ttdeci">uint32 GetEntry() const</div><div class="ttdef"><b>Definition:</b> Object.h:109</div></div>
+<div class="ttc" id="astruct_n_p_c_stave_quest_a_i_html_a0ea30f49ac6a9f78a9c0429f2c20c4c5"><div class="ttname"><a href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#a0ea30f49ac6a9f78a9c0429f2c20c4c5">NPCStaveQuestAI::entryKeys</a></div><div class="ttdeci">std::map&lt; int, int &gt; entryKeys</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:143</div></div>
+<div class="ttc" id="astruct_n_p_c_stave_quest_a_i_html_a1a9ccd1d254bdb80b87d997d91afd6d7"><div class="ttname"><a href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#a1a9ccd1d254bdb80b87d997d91afd6d7">NPCStaveQuestAI::entryList</a></div><div class="ttdeci">std::map&lt; int, std::map&lt; std::string, int &gt; &gt; entryList</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:155</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a47582d2c7207f3461057feb5e0a4c189" name="a47582d2c7207f3461057feb5e0a4c189"></a>
@@ -693,7 +748,11 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   66</span>{</div>
+<div class="line"><span class="lineno">   67</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#aeb3657e7ad09335b9a9ffa50473aa216">ObjectAccessor::GetPlayer</a>(*<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_variable" href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#a286967eb3806c73746bcb8524ecbda24">gossipPlayerGUID</a>);</div>
+<div class="line"><span class="lineno">   68</span>}</div>
+<div class="ttc" id="astruct_n_p_c_stave_quest_a_i_html_a286967eb3806c73746bcb8524ecbda24"><div class="ttname"><a href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#a286967eb3806c73746bcb8524ecbda24">NPCStaveQuestAI::gossipPlayerGUID</a></div><div class="ttdeci">ObjectGuid gossipPlayerGUID</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:138</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a4ac102757e65c86433b7a758aeb248ba" name="a4ac102757e65c86433b7a758aeb248ba"></a>
@@ -710,7 +769,11 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   35</span>{</div>
+<div class="line"><span class="lineno">   36</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>() == <a class="code hl_function" href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#a7c1442ba2f7e31b72942a61f0d0f716c">GetFormEntry</a>(<span class="stringliteral">&quot;normal&quot;</span>);</div>
+<div class="line"><span class="lineno">   37</span>}</div>
+<div class="ttc" id="astruct_n_p_c_stave_quest_a_i_html_a7c1442ba2f7e31b72942a61f0d0f716c"><div class="ttname"><a href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#a7c1442ba2f7e31b72942a61f0d0f716c">NPCStaveQuestAI::GetFormEntry</a></div><div class="ttdeci">uint32 GetFormEntry(std::string)</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.cpp:27</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="af7100039ab5cf60a27ead73cc928da32" name="af7100039ab5cf60a27ead73cc928da32"></a>
@@ -728,7 +791,12 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   71</span>{</div>
+<div class="line"><span class="lineno">   72</span>    <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> allowedEntries[4] = { 0, 12999, 19833, 19921 }; <span class="comment">//player, World Invisible Trigger(traps) and snake trap snakes</span></div>
+<div class="line"><span class="lineno">   73</span>    <span class="keywordtype">bool</span> isAllowed = std::find(std::begin(allowedEntries), std::end(allowedEntries), entry) != std::end(allowedEntries);</div>
+<div class="line"><span class="lineno">   74</span>    <span class="keywordflow">return</span> isAllowed;</div>
+<div class="line"><span class="lineno">   75</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a04bf19c0b79e443edea58210f597db1a" name="a04bf19c0b79e443edea58210f597db1a"></a>
@@ -745,7 +813,31 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  109</span>{</div>
+<div class="line"><span class="lineno">  110</span>    <span class="keywordflow">for</span> (ThreatContainer::StorageType::const_iterator itr = <a class="code hl_variable" href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#a29dfd88e9b3a32f596b834bc793225ce">threatList</a>.begin(); itr != <a class="code hl_variable" href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#a29dfd88e9b3a32f596b834bc793225ce">threatList</a>.end(); ++itr)</div>
+<div class="line"><span class="lineno">  111</span>    {</div>
+<div class="line"><span class="lineno">  112</span>        <a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* unit = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#a02c2dfb59db7d7e2501dcc9a4f9baf07">ObjectAccessor::GetUnit</a>(*<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, (*itr)-&gt;getUnitGuid());</div>
+<div class="line"><span class="lineno">  113</span> </div>
+<div class="line"><span class="lineno">  114</span>        <span class="keywordflow">if</span> (!(*itr)-&gt;GetThreat())</div>
+<div class="line"><span class="lineno">  115</span>        {</div>
+<div class="line"><span class="lineno">  116</span>            <span class="comment">// if target threat is 0 its fair, this prevents despawn in the case when</span></div>
+<div class="line"><span class="lineno">  117</span>            <span class="comment">// there is a bystander since UpdateVictim adds nearby enemies to the threatlist</span></div>
+<div class="line"><span class="lineno">  118</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  119</span>        }</div>
+<div class="line"><span class="lineno">  120</span> </div>
+<div class="line"><span class="lineno">  121</span>        <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#ad830292fa123bd4bf2057eadb07fb60b">UnitIsUnfair</a>(unit))</div>
+<div class="line"><span class="lineno">  122</span>        {</div>
+<div class="line"><span class="lineno">  123</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  124</span>        }</div>
+<div class="line"><span class="lineno">  125</span>    }</div>
+<div class="line"><span class="lineno">  126</span> </div>
+<div class="line"><span class="lineno">  127</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  128</span>}</div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_a02c2dfb59db7d7e2501dcc9a4f9baf07"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#a02c2dfb59db7d7e2501dcc9a4f9baf07">ObjectAccessor::GetUnit</a></div><div class="ttdeci">Unit * GetUnit(WorldObject const &amp;, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:204</div></div>
+<div class="ttc" id="astruct_n_p_c_stave_quest_a_i_html_a29dfd88e9b3a32f596b834bc793225ce"><div class="ttname"><a href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#a29dfd88e9b3a32f596b834bc793225ce">NPCStaveQuestAI::threatList</a></div><div class="ttdeci">ThreatContainer::StorageType const  &amp; threatList</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:141</div></div>
+<div class="ttc" id="astruct_n_p_c_stave_quest_a_i_html_ad830292fa123bd4bf2057eadb07fb60b"><div class="ttname"><a href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#ad830292fa123bd4bf2057eadb07fb60b">NPCStaveQuestAI::UnitIsUnfair</a></div><div class="ttdeci">bool UnitIsUnfair(Unit *unit)</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.cpp:77</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a220e3c50c24ebfd33e368c159665076d" name="a220e3c50c24ebfd33e368c159665076d"></a>
@@ -775,7 +867,12 @@ Additional Inherited Members</h2></td></tr>
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a4cc209e047dcbd29cf57e689e3945ff7">ScriptedAI</a>.</p>
 
 <p>Reimplemented in <a class="el" href="../../da/d09/structnpc__simone_1_1npc__simone_a_i.html#a1c275b32a6d4730657e26e5a9c305eb6">npc_simone::npc_simoneAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  267</span>{</div>
+<div class="line"><span class="lineno">  268</span>    <span class="comment">// Prevent looting if killer doesn&#39;t have the quest</span></div>
+<div class="line"><span class="lineno">  269</span>    <a class="code hl_function" href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#adf1af974ba78d33dba14847d075cb40b">ClearLootIfUnfair</a>(killer);</div>
+<div class="line"><span class="lineno">  270</span>}</div>
+<div class="ttc" id="astruct_n_p_c_stave_quest_a_i_html_adf1af974ba78d33dba14847d075cb40b"><div class="ttname"><a href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#adf1af974ba78d33dba14847d075cb40b">NPCStaveQuestAI::ClearLootIfUnfair</a></div><div class="ttdeci">void ClearLootIfUnfair(Unit *killer)</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.cpp:163</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a073e4e3a7f303ea632dc2c4770c556d4" name="a073e4e3a7f303ea632dc2c4770c556d4"></a>
@@ -793,7 +890,26 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  175</span>{</div>
+<div class="line"><span class="lineno">  176</span>    <span class="keywordflow">if</span> (!killer)</div>
+<div class="line"><span class="lineno">  177</span>    {</div>
+<div class="line"><span class="lineno">  178</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  179</span>    }</div>
+<div class="line"><span class="lineno">  180</span> </div>
+<div class="line"><span class="lineno">  181</span>    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* player = killer-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a328d5f752cc33ed398b3d9861ef6929d">ToPlayer</a>())</div>
+<div class="line"><span class="lineno">  182</span>    {</div>
+<div class="line"><span class="lineno">  183</span>        <span class="keywordflow">if</span> (player-&gt;GetQuestStatus(<a class="code hl_enumvalue" href="../../d8/d19/npc__stave__of__ancients_8h.html#a2898ea5b5bdc6f6ebd68c36327a6cecdaf1e382929ce37d0beeb97fd31eaed5e2">QUEST_STAVE_OF_THE_ANCIENTS</a>) != <a class="code hl_enumvalue" href="../../d2/dc8/_quest_def_8h.html#abfc87d39d69176ad25e800fb4aa6f0d8a9d062f65bead287785d9b540987bb484">QUEST_STATUS_INCOMPLETE</a>)</div>
+<div class="line"><span class="lineno">  184</span>        {</div>
+<div class="line"><span class="lineno">  185</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  186</span>        }</div>
+<div class="line"><span class="lineno">  187</span>    }</div>
+<div class="line"><span class="lineno">  188</span> </div>
+<div class="line"><span class="lineno">  189</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  190</span>}</div>
+<div class="ttc" id="a_quest_def_8h_html_abfc87d39d69176ad25e800fb4aa6f0d8a9d062f65bead287785d9b540987bb484"><div class="ttname"><a href="../../d2/dc8/_quest_def_8h.html#abfc87d39d69176ad25e800fb4aa6f0d8a9d062f65bead287785d9b540987bb484">QUEST_STATUS_INCOMPLETE</a></div><div class="ttdeci">@ QUEST_STATUS_INCOMPLETE</div><div class="ttdef"><b>Definition:</b> QuestDef.h:103</div></div>
+<div class="ttc" id="aclass_object_html_a328d5f752cc33ed398b3d9861ef6929d"><div class="ttname"><a href="../../d8/d83/class_object.html#a328d5f752cc33ed398b3d9861ef6929d">Object::ToPlayer</a></div><div class="ttdeci">Player * ToPlayer()</div><div class="ttdef"><b>Definition:</b> Object.h:195</div></div>
+<div class="ttc" id="anpc__stave__of__ancients_8h_html_a2898ea5b5bdc6f6ebd68c36327a6cecdaf1e382929ce37d0beeb97fd31eaed5e2"><div class="ttname"><a href="../../d8/d19/npc__stave__of__ancients_8h.html#a2898ea5b5bdc6f6ebd68c36327a6cecdaf1e382929ce37d0beeb97fd31eaed5e2">QUEST_STAVE_OF_THE_ANCIENTS</a></div><div class="ttdeci">@ QUEST_STAVE_OF_THE_ANCIENTS</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:36</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a5adddedf655d743566adc76e4a1a9dc6" name="a5adddedf655d743566adc76e4a1a9dc6"></a>
@@ -810,7 +926,25 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  153</span>{</div>
+<div class="line"><span class="lineno">  154</span>    <a class="code hl_variable" href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#a22bd1b0b08fac1e91c5e07db7b93c548">encounterStarted</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  155</span>    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../df/d4d/class_motion_master.html#ad0697d75ff06afb1247424100c99619f">MoveIdle</a>();</div>
+<div class="line"><span class="lineno">  156</span>    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../df/d4d/class_motion_master.html#afa6ffa9c5d6897f3aad3ac524c7bb35a">Clear</a>();</div>
+<div class="line"><span class="lineno">  157</span>    <a class="code hl_function" href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#a803fd42a51521c869b2e734f124eca9d">SetHomePosition</a>();</div>
+<div class="line"><span class="lineno">  158</span> </div>
+<div class="line"><span class="lineno">  159</span>    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ad9f2d48b20f62e17abf5c1892cebe296">SetUnitFlag</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a2ecf000dcea1c08aeb8721570707f922">UNIT_FLAG_NON_ATTACKABLE</a>);</div>
+<div class="line"><span class="lineno">  160</span>    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a629e9a4f8c5987b034e409c9c74297b9">RemoveNpcFlag</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ab054baf099d873bce22a0e84ae1090e2a7d2d4d09dd0b5ba2b977f74bf55a3fd0">UNIT_NPC_FLAG_GOSSIP</a>);</div>
+<div class="line"><span class="lineno">  161</span>}</div>
+<div class="ttc" id="a_unit_8h_html_ab054baf099d873bce22a0e84ae1090e2a7d2d4d09dd0b5ba2b977f74bf55a3fd0"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#ab054baf099d873bce22a0e84ae1090e2a7d2d4d09dd0b5ba2b977f74bf55a3fd0">UNIT_NPC_FLAG_GOSSIP</a></div><div class="ttdeci">@ UNIT_NPC_FLAG_GOSSIP</div><div class="ttdef"><b>Definition:</b> Unit.h:516</div></div>
+<div class="ttc" id="a_unit_8h_html_affdd0d554c8bcaaa85a879f5a9d60934a2ecf000dcea1c08aeb8721570707f922"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a2ecf000dcea1c08aeb8721570707f922">UNIT_FLAG_NON_ATTACKABLE</a></div><div class="ttdeci">@ UNIT_FLAG_NON_ATTACKABLE</div><div class="ttdef"><b>Definition:</b> Unit.h:449</div></div>
+<div class="ttc" id="aclass_motion_master_html_ad0697d75ff06afb1247424100c99619f"><div class="ttname"><a href="../../df/d4d/class_motion_master.html#ad0697d75ff06afb1247424100c99619f">MotionMaster::MoveIdle</a></div><div class="ttdeci">void MoveIdle()</div><div class="ttdef"><b>Definition:</b> MotionMaster.cpp:231</div></div>
+<div class="ttc" id="aclass_motion_master_html_afa6ffa9c5d6897f3aad3ac524c7bb35a"><div class="ttname"><a href="../../df/d4d/class_motion_master.html#afa6ffa9c5d6897f3aad3ac524c7bb35a">MotionMaster::Clear</a></div><div class="ttdeci">void Clear(bool reset=true)</div><div class="ttdef"><b>Definition:</b> MotionMaster.h:165</div></div>
+<div class="ttc" id="aclass_unit_html_a4a04a3f22c3b0d6f4933993ac0cc7aa4"><div class="ttname"><a href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">Unit::GetMotionMaster</a></div><div class="ttdeci">MotionMaster * GetMotionMaster()</div><div class="ttdef"><b>Definition:</b> Unit.h:2257</div></div>
+<div class="ttc" id="aclass_unit_html_a629e9a4f8c5987b034e409c9c74297b9"><div class="ttname"><a href="../../da/db7/class_unit.html#a629e9a4f8c5987b034e409c9c74297b9">Unit::RemoveNpcFlag</a></div><div class="ttdeci">void RemoveNpcFlag(NPCFlags flags)</div><div class="ttdef"><b>Definition:</b> Unit.h:1645</div></div>
+<div class="ttc" id="aclass_unit_html_ad9f2d48b20f62e17abf5c1892cebe296"><div class="ttname"><a href="../../da/db7/class_unit.html#ad9f2d48b20f62e17abf5c1892cebe296">Unit::SetUnitFlag</a></div><div class="ttdeci">void SetUnitFlag(UnitFlags flags)</div><div class="ttdef"><b>Definition:</b> Unit.h:1479</div></div>
+<div class="ttc" id="astruct_n_p_c_stave_quest_a_i_html_a22bd1b0b08fac1e91c5e07db7b93c548"><div class="ttname"><a href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#a22bd1b0b08fac1e91c5e07db7b93c548">NPCStaveQuestAI::encounterStarted</a></div><div class="ttdeci">bool encounterStarted</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.h:140</div></div>
+<div class="ttc" id="astruct_n_p_c_stave_quest_a_i_html_a803fd42a51521c869b2e734f124eca9d"><div class="ttname"><a href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#a803fd42a51521c869b2e734f124eca9d">NPCStaveQuestAI::SetHomePosition</a></div><div class="ttdeci">void SetHomePosition()</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.cpp:142</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a41eb9c433d6b5afff7620fc22953e858" name="a41eb9c433d6b5afff7620fc22953e858"></a>
@@ -838,7 +972,23 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  214</span>{</div>
+<div class="line"><span class="lineno">  215</span>    <span class="keywordflow">if</span> (!unit || !unit-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a1b9ed00e8d7ac5fed698ef6431905296">IsPlayer</a>())</div>
+<div class="line"><span class="lineno">  216</span>    {</div>
+<div class="line"><span class="lineno">  217</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  218</span>    }</div>
+<div class="line"><span class="lineno">  219</span> </div>
+<div class="line"><span class="lineno">  220</span>    <a class="code hl_enumeration" href="../../d2/dc8/_quest_def_8h.html#abfc87d39d69176ad25e800fb4aa6f0d8">QuestStatus</a> questStatus = unit-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a328d5f752cc33ed398b3d9861ef6929d">ToPlayer</a>()-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#ab98c62b0161d702e4219c8277f8f5349">GetQuestStatus</a>(<a class="code hl_enumvalue" href="../../d8/d19/npc__stave__of__ancients_8h.html#a2898ea5b5bdc6f6ebd68c36327a6cecdaf1e382929ce37d0beeb97fd31eaed5e2">QUEST_STAVE_OF_THE_ANCIENTS</a>);</div>
+<div class="line"><span class="lineno">  221</span>    <span class="keywordtype">bool</span> hasQuestItem = unit-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a328d5f752cc33ed398b3d9861ef6929d">ToPlayer</a>()-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a3b6b7692a9496e07088b96315decc78c">HasItemCount</a>(questItem, 1, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  222</span>    <span class="keywordtype">bool</span> isIncomplete = questStatus == <a class="code hl_enumvalue" href="../../d2/dc8/_quest_def_8h.html#abfc87d39d69176ad25e800fb4aa6f0d8a9d062f65bead287785d9b540987bb484">QUEST_STATUS_INCOMPLETE</a> &amp;&amp; !hasQuestItem;</div>
+<div class="line"><span class="lineno">  223</span> </div>
+<div class="line"><span class="lineno">  224</span>    <span class="keywordflow">return</span> isIncomplete;</div>
+<div class="line"><span class="lineno">  225</span>}</div>
+<div class="ttc" id="a_quest_def_8h_html_abfc87d39d69176ad25e800fb4aa6f0d8"><div class="ttname"><a href="../../d2/dc8/_quest_def_8h.html#abfc87d39d69176ad25e800fb4aa6f0d8">QuestStatus</a></div><div class="ttdeci">QuestStatus</div><div class="ttdef"><b>Definition:</b> QuestDef.h:99</div></div>
+<div class="ttc" id="aclass_object_html_a1b9ed00e8d7ac5fed698ef6431905296"><div class="ttname"><a href="../../d8/d83/class_object.html#a1b9ed00e8d7ac5fed698ef6431905296">Object::IsPlayer</a></div><div class="ttdeci">bool IsPlayer() const</div><div class="ttdef"><b>Definition:</b> Object.h:194</div></div>
+<div class="ttc" id="aclass_player_html_a3b6b7692a9496e07088b96315decc78c"><div class="ttname"><a href="../../d8/d53/class_player.html#a3b6b7692a9496e07088b96315decc78c">Player::HasItemCount</a></div><div class="ttdeci">bool HasItemCount(uint32 item, uint32 count=1, bool inBankAlso=false) const</div><div class="ttdef"><b>Definition:</b> PlayerStorage.cpp:686</div></div>
+<div class="ttc" id="aclass_player_html_ab98c62b0161d702e4219c8277f8f5349"><div class="ttname"><a href="../../d8/d53/class_player.html#ab98c62b0161d702e4219c8277f8f5349">Player::GetQuestStatus</a></div><div class="ttdeci">QuestStatus GetQuestStatus(uint32 quest_id) const</div><div class="ttdef"><b>Definition:</b> PlayerQuest.cpp:1407</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad134dbf9931d2d7f3d9c2b7d14fcb76c" name="ad134dbf9931d2d7f3d9c2b7d14fcb76c"></a>
@@ -856,7 +1006,25 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  228</span>{</div>
+<div class="line"><span class="lineno">  229</span>    <a class="code hl_variable" href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#a22bd1b0b08fac1e91c5e07db7b93c548">encounterStarted</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  230</span>    <a class="code hl_variable" href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#a81644c431d107dda59c726fdbc4b671c">playerGUID</a>.<a class="code hl_function" href="../../d8/d03/class_object_guid.html#af6aafb4610723c7f14523fef243b1b65">Clear</a>();</div>
+<div class="line"><span class="lineno">  231</span>    <a class="code hl_variable" href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#a03e24a838a78c445f55618e66f0387d4">attackerGuids</a>.clear();</div>
+<div class="line"><span class="lineno">  232</span> </div>
+<div class="line"><span class="lineno">  233</span>    <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#a4ac102757e65c86433b7a758aeb248ba">InNormalForm</a>())</div>
+<div class="line"><span class="lineno">  234</span>    {</div>
+<div class="line"><span class="lineno">  235</span>        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_variable" href="../../da/db7/class_unit.html#a8ca8fcc886a2cea2c235514644e7e2a0">m_Events</a>.<a class="code hl_function" href="../../d6/d65/class_event_processor.html#a15a65ecc2391f505266176cfc7f29c39">KillAllEvents</a>(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  236</span>        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a9c5739d268705d03fc40799b7c3d3239">SetNpcFlag</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ab054baf099d873bce22a0e84ae1090e2a7d2d4d09dd0b5ba2b977f74bf55a3fd0">UNIT_NPC_FLAG_GOSSIP</a>);</div>
+<div class="line"><span class="lineno">  237</span>    }</div>
+<div class="line"><span class="lineno">  238</span> </div>
+<div class="line"><span class="lineno">  239</span>    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a1be09c524dfdd2c3538f2ae977c58399">RemoveAura</a>(aura);</div>
+<div class="line"><span class="lineno">  240</span>}</div>
+<div class="ttc" id="aclass_event_processor_html_a15a65ecc2391f505266176cfc7f29c39"><div class="ttname"><a href="../../d6/d65/class_event_processor.html#a15a65ecc2391f505266176cfc7f29c39">EventProcessor::KillAllEvents</a></div><div class="ttdeci">void KillAllEvents(bool force)</div><div class="ttdef"><b>Definition:</b> EventProcessor.cpp:82</div></div>
+<div class="ttc" id="aclass_object_guid_html_af6aafb4610723c7f14523fef243b1b65"><div class="ttname"><a href="../../d8/d03/class_object_guid.html#af6aafb4610723c7f14523fef243b1b65">ObjectGuid::Clear</a></div><div class="ttdeci">void Clear()</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:140</div></div>
+<div class="ttc" id="aclass_unit_html_a1be09c524dfdd2c3538f2ae977c58399"><div class="ttname"><a href="../../da/db7/class_unit.html#a1be09c524dfdd2c3538f2ae977c58399">Unit::RemoveAura</a></div><div class="ttdeci">void RemoveAura(AuraApplicationMap::iterator &amp;i, AuraRemoveMode mode=AURA_REMOVE_BY_DEFAULT)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:4696</div></div>
+<div class="ttc" id="aclass_unit_html_a8ca8fcc886a2cea2c235514644e7e2a0"><div class="ttname"><a href="../../da/db7/class_unit.html#a8ca8fcc886a2cea2c235514644e7e2a0">Unit::m_Events</a></div><div class="ttdeci">EventProcessor m_Events</div><div class="ttdef"><b>Definition:</b> Unit.h:2091</div></div>
+<div class="ttc" id="aclass_unit_html_a9c5739d268705d03fc40799b7c3d3239"><div class="ttname"><a href="../../da/db7/class_unit.html#a9c5739d268705d03fc40799b7c3d3239">Unit::SetNpcFlag</a></div><div class="ttdeci">void SetNpcFlag(NPCFlags flags)</div><div class="ttdef"><b>Definition:</b> Unit.h:1644</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ab1f2c4d3673ced2eec226741d73f38b0" name="ab1f2c4d3673ced2eec226741d73f38b0"></a>
@@ -873,7 +1041,18 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   40</span>{</div>
+<div class="line"><span class="lineno">   41</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#a22bd1b0b08fac1e91c5e07db7b93c548">encounterStarted</a> &amp;&amp; <a class="code hl_function" href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#a4ac102757e65c86433b7a758aeb248ba">InNormalForm</a>())</div>
+<div class="line"><span class="lineno">   42</span>    {</div>
+<div class="line"><span class="lineno">   43</span>        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a9446df6b2f65a4a845330ecb3904f75e">UpdateEntry</a>(<a class="code hl_function" href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#a7c1442ba2f7e31b72942a61f0d0f716c">GetFormEntry</a>(<span class="stringliteral">&quot;evil&quot;</span>));</div>
+<div class="line"><span class="lineno">   44</span>        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a1d52e887c40e087252647958a47e933c">SetFullHealth</a>();</div>
+<div class="line"><span class="lineno">   45</span>        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#abce66404f36b926cf403555911bcb9f7">DespawnOrUnsummon</a>(900000);</div>
+<div class="line"><span class="lineno">   46</span>    }</div>
+<div class="line"><span class="lineno">   47</span>}</div>
+<div class="ttc" id="aclass_creature_html_a9446df6b2f65a4a845330ecb3904f75e"><div class="ttname"><a href="../../d1/dac/class_creature.html#a9446df6b2f65a4a845330ecb3904f75e">Creature::UpdateEntry</a></div><div class="ttdeci">bool UpdateEntry(uint32 entry, const CreatureData *data=nullptr, bool changelevel=true, bool updateAI=false)</div><div class="ttdef"><b>Definition:</b> Creature.cpp:492</div></div>
+<div class="ttc" id="aclass_creature_html_abce66404f36b926cf403555911bcb9f7"><div class="ttname"><a href="../../d1/dac/class_creature.html#abce66404f36b926cf403555911bcb9f7">Creature::DespawnOrUnsummon</a></div><div class="ttdeci">void DespawnOrUnsummon(Milliseconds msTimeToDespawn, Seconds forcedRespawnTimer)</div><div class="ttdef"><b>Definition:</b> Creature.cpp:2092</div></div>
+<div class="ttc" id="aclass_unit_html_a1d52e887c40e087252647958a47e933c"><div class="ttname"><a href="../../da/db7/class_unit.html#a1d52e887c40e087252647958a47e933c">Unit::SetFullHealth</a></div><div class="ttdeci">void SetFullHealth()</div><div class="ttdef"><b>Definition:</b> Unit.h:1453</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a803fd42a51521c869b2e734f124eca9d" name="a803fd42a51521c869b2e734f124eca9d"></a>
@@ -890,7 +1069,20 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  143</span>{</div>
+<div class="line"><span class="lineno">  144</span>    <a class="code hl_struct" href="../../d1/d26/struct_position.html">Position</a> <a class="code hl_variable" href="../../de/dac/boss__jeklik_8cpp.html#ae46f314591d32fb20ccde2ab539cdb3d">homePosition</a> = <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#ad8e55f9b39618093aa625abe3a06e1ed">GetPosition</a>();</div>
+<div class="line"><span class="lineno">  145</span> </div>
+<div class="line"><span class="lineno">  146</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/dac/boss__jeklik_8cpp.html#ae46f314591d32fb20ccde2ab539cdb3d">homePosition</a>.<a class="code hl_function" href="../../d1/d26/struct_position.html#a9a6eb63315f36a1aa56943cc6c6d0b12">IsPositionValid</a>())</div>
+<div class="line"><span class="lineno">  147</span>    {</div>
+<div class="line"><span class="lineno">  148</span>        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a0ab9e2649cc4b0103aea6a52e8f1a5ea">SetHomePosition</a>(<a class="code hl_variable" href="../../de/dac/boss__jeklik_8cpp.html#ae46f314591d32fb20ccde2ab539cdb3d">homePosition</a>);</div>
+<div class="line"><span class="lineno">  149</span>    }</div>
+<div class="line"><span class="lineno">  150</span>}</div>
+<div class="ttc" id="aboss__jeklik_8cpp_html_ae46f314591d32fb20ccde2ab539cdb3d"><div class="ttname"><a href="../../de/dac/boss__jeklik_8cpp.html#ae46f314591d32fb20ccde2ab539cdb3d">homePosition</a></div><div class="ttdeci">Position const homePosition</div><div class="ttdef"><b>Definition:</b> boss_jeklik.cpp:105</div></div>
+<div class="ttc" id="aclass_creature_html_a0ab9e2649cc4b0103aea6a52e8f1a5ea"><div class="ttname"><a href="../../d1/dac/class_creature.html#a0ab9e2649cc4b0103aea6a52e8f1a5ea">Creature::SetHomePosition</a></div><div class="ttdeci">void SetHomePosition(float x, float y, float z, float o)</div><div class="ttdef"><b>Definition:</b> Creature.h:320</div></div>
+<div class="ttc" id="astruct_position_html"><div class="ttname"><a href="../../d1/d26/struct_position.html">Position</a></div><div class="ttdef"><b>Definition:</b> Position.h:28</div></div>
+<div class="ttc" id="astruct_position_html_a9a6eb63315f36a1aa56943cc6c6d0b12"><div class="ttname"><a href="../../d1/d26/struct_position.html#a9a6eb63315f36a1aa56943cc6c6d0b12">Position::IsPositionValid</a></div><div class="ttdeci">bool IsPositionValid() const</div><div class="ttdef"><b>Definition:</b> Position.cpp:175</div></div>
+<div class="ttc" id="astruct_position_html_ad8e55f9b39618093aa625abe3a06e1ed"><div class="ttname"><a href="../../d1/d26/struct_position.html#ad8e55f9b39618093aa625abe3a06e1ed">Position::GetPosition</a></div><div class="ttdeci">void GetPosition(float &amp;x, float &amp;y) const</div><div class="ttdef"><b>Definition:</b> Position.h:122</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="af18005dd457c320709921bcdd0f7895d" name="af18005dd457c320709921bcdd0f7895d"></a>
@@ -908,7 +1100,32 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  193</span>{</div>
+<div class="line"><span class="lineno">  194</span>    <span class="keywordflow">if</span> (!attacker)</div>
+<div class="line"><span class="lineno">  195</span>    {</div>
+<div class="line"><span class="lineno">  196</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  197</span>    }</div>
+<div class="line"><span class="lineno">  198</span> </div>
+<div class="line"><span class="lineno">  199</span>    <a class="code hl_typedef" href="../../db/d35/_define_8h.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a> guidValue = attacker-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>().<a class="code hl_function" href="../../d8/d03/class_object_guid.html#a65626f4640cb4f79c66ce9d5dda8ab27">GetRawValue</a>();</div>
+<div class="line"><span class="lineno">  200</span>    <span class="keywordtype">bool</span> isGUIDPresent = std::find(<a class="code hl_variable" href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#a03e24a838a78c445f55618e66f0387d4">attackerGuids</a>.begin(), <a class="code hl_variable" href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#a03e24a838a78c445f55618e66f0387d4">attackerGuids</a>.end(), guidValue) != <a class="code hl_variable" href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#a03e24a838a78c445f55618e66f0387d4">attackerGuids</a>.end();</div>
+<div class="line"><span class="lineno">  201</span> </div>
+<div class="line"><span class="lineno">  202</span>    <span class="comment">// don&#39;t store snaketrap&#39;s snakes and trap triggers</span></div>
+<div class="line"><span class="lineno">  203</span>    <span class="keywordflow">if</span> (isGUIDPresent || (<a class="code hl_function" href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#af7100039ab5cf60a27ead73cc928da32">IsAllowedEntry</a>(attacker-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>()) &amp;&amp; attacker-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">GetTypeId</a>() != <a class="code hl_enumvalue" href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a>))</div>
+<div class="line"><span class="lineno">  204</span>    {</div>
+<div class="line"><span class="lineno">  205</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  206</span>    }</div>
+<div class="line"><span class="lineno">  207</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  208</span>    {</div>
+<div class="line"><span class="lineno">  209</span>        <a class="code hl_variable" href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#a03e24a838a78c445f55618e66f0387d4">attackerGuids</a>.push_back(guidValue);</div>
+<div class="line"><span class="lineno">  210</span>    }</div>
+<div class="line"><span class="lineno">  211</span>}</div>
+<div class="ttc" id="a_define_8h_html_ac4dd6ce78ce3b840c53bd4b3c63ed09b"><div class="ttname"><a href="../../db/d35/_define_8h.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a></div><div class="ttdeci">std::uint64_t uint64</div><div class="ttdef"><b>Definition:</b> Define.h:107</div></div>
+<div class="ttc" id="a_object_guid_8h_html_a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c"><div class="ttname"><a href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a></div><div class="ttdeci">@ TYPEID_PLAYER</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:38</div></div>
+<div class="ttc" id="aclass_object_guid_html_a65626f4640cb4f79c66ce9d5dda8ab27"><div class="ttname"><a href="../../d8/d03/class_object_guid.html#a65626f4640cb4f79c66ce9d5dda8ab27">ObjectGuid::GetRawValue</a></div><div class="ttdeci">uint64 GetRawValue() const</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:144</div></div>
+<div class="ttc" id="aclass_object_html_a621a345fc34deed6d3a4e1e498a652da"><div class="ttname"><a href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">Object::GetTypeId</a></div><div class="ttdeci">TypeID GetTypeId() const</div><div class="ttdef"><b>Definition:</b> Object.h:121</div></div>
+<div class="ttc" id="aclass_object_html_ad23b997e2442fa6a6228ba73a7ecc138"><div class="ttname"><a href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">Object::GetGUID</a></div><div class="ttdeci">static ObjectGuid GetGUID(Object const *o)</div><div class="ttdef"><b>Definition:</b> Object.h:106</div></div>
+<div class="ttc" id="astruct_n_p_c_stave_quest_a_i_html_af7100039ab5cf60a27ead73cc928da32"><div class="ttname"><a href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#af7100039ab5cf60a27ead73cc928da32">NPCStaveQuestAI::IsAllowedEntry</a></div><div class="ttdeci">bool IsAllowedEntry(uint32)</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.cpp:70</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aca5c4a4b283b1fdffd646807a1002e42" name="aca5c4a4b283b1fdffd646807a1002e42"></a>
@@ -925,7 +1142,21 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   50</span>{</div>
+<div class="line"><span class="lineno">   51</span>    <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#a81644c431d107dda59c726fdbc4b671c">playerGUID</a>.<a class="code hl_function" href="../../d8/d03/class_object_guid.html#a32695a11f47a244236e7bce277fcf3a8">IsEmpty</a>())</div>
+<div class="line"><span class="lineno">   52</span>    {</div>
+<div class="line"><span class="lineno">   53</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   54</span>    }</div>
+<div class="line"><span class="lineno">   55</span> </div>
+<div class="line"><span class="lineno">   56</span>    <span class="keywordflow">for</span> (ThreatContainer::StorageType::const_iterator itr = <a class="code hl_variable" href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#a29dfd88e9b3a32f596b834bc793225ce">threatList</a>.begin(); itr != <a class="code hl_variable" href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#a29dfd88e9b3a32f596b834bc793225ce">threatList</a>.end(); ++itr)</div>
+<div class="line"><span class="lineno">   57</span>    {</div>
+<div class="line"><span class="lineno">   58</span>        <span class="keywordflow">if</span> ((*itr)-&gt;getTarget()-&gt;GetTypeId() == <a class="code hl_enumvalue" href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a>)</div>
+<div class="line"><span class="lineno">   59</span>        {</div>
+<div class="line"><span class="lineno">   60</span>            <a class="code hl_variable" href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#a81644c431d107dda59c726fdbc4b671c">playerGUID</a> = (*itr)-&gt;getUnitGuid();</div>
+<div class="line"><span class="lineno">   61</span>        }</div>
+<div class="line"><span class="lineno">   62</span>    }</div>
+<div class="line"><span class="lineno">   63</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad830292fa123bd4bf2057eadb07fb60b" name="ad830292fa123bd4bf2057eadb07fb60b"></a>
@@ -943,7 +1174,37 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   78</span>{</div>
+<div class="line"><span class="lineno">   79</span>    <span class="keywordflow">if</span> (!unit || <a class="code hl_variable" href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#a81644c431d107dda59c726fdbc4b671c">playerGUID</a>.<a class="code hl_function" href="../../d8/d03/class_object_guid.html#a32695a11f47a244236e7bce277fcf3a8">IsEmpty</a>())</div>
+<div class="line"><span class="lineno">   80</span>    {</div>
+<div class="line"><span class="lineno">   81</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   82</span>    }</div>
+<div class="line"><span class="lineno">   83</span> </div>
+<div class="line"><span class="lineno">   84</span>    <span class="keywordflow">if</span> (unit-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a1b9ed00e8d7ac5fed698ef6431905296">IsPlayer</a>())</div>
+<div class="line"><span class="lineno">   85</span>    {</div>
+<div class="line"><span class="lineno">   86</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#a81644c431d107dda59c726fdbc4b671c">playerGUID</a> != unit-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>())</div>
+<div class="line"><span class="lineno">   87</span>        {</div>
+<div class="line"><span class="lineno">   88</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   89</span>        }</div>
+<div class="line"><span class="lineno">   90</span>    }</div>
+<div class="line"><span class="lineno">   91</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">   92</span>    {</div>
+<div class="line"><span class="lineno">   93</span>        <span class="keywordflow">if</span> (unit-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ac0f51b4cac0b9ad35347a50a91826785">GetOwnerGUID</a>() != <a class="code hl_variable" href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#a81644c431d107dda59c726fdbc4b671c">playerGUID</a>)</div>
+<div class="line"><span class="lineno">   94</span>        {</div>
+<div class="line"><span class="lineno">   95</span>            <span class="comment">// if a creature attacking isn&#39;t owned by the player its unfair</span></div>
+<div class="line"><span class="lineno">   96</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   97</span>        }</div>
+<div class="line"><span class="lineno">   98</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#af7100039ab5cf60a27ead73cc928da32">IsAllowedEntry</a>(unit-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>()))</div>
+<div class="line"><span class="lineno">   99</span>        {</div>
+<div class="line"><span class="lineno">  100</span>            <span class="comment">// if not in the whitelist its unfair</span></div>
+<div class="line"><span class="lineno">  101</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  102</span>        }</div>
+<div class="line"><span class="lineno">  103</span>    }</div>
+<div class="line"><span class="lineno">  104</span> </div>
+<div class="line"><span class="lineno">  105</span>    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  106</span>}</div>
+<div class="ttc" id="aclass_unit_html_ac0f51b4cac0b9ad35347a50a91826785"><div class="ttname"><a href="../../da/db7/class_unit.html#ac0f51b4cac0b9ad35347a50a91826785">Unit::GetOwnerGUID</a></div><div class="ttdeci">ObjectGuid GetOwnerGUID() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1811</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a3a3158ab28c9a199100f91362694d691" name="a3a3158ab28c9a199100f91362694d691"></a>
@@ -960,7 +1221,18 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  131</span>{</div>
+<div class="line"><span class="lineno">  132</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#a29dfd88e9b3a32f596b834bc793225ce">threatList</a>.size() == 1)</div>
+<div class="line"><span class="lineno">  133</span>    {</div>
+<div class="line"><span class="lineno">  134</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  135</span>    }</div>
+<div class="line"><span class="lineno">  136</span> </div>
+<div class="line"><span class="lineno">  137</span>    <span class="keywordtype">bool</span> isFair = <a class="code hl_function" href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#a04bf19c0b79e443edea58210f597db1a">IsFairFight</a>();</div>
+<div class="line"><span class="lineno">  138</span> </div>
+<div class="line"><span class="lineno">  139</span>    <span class="keywordflow">return</span> isFair;</div>
+<div class="line"><span class="lineno">  140</span>}</div>
+<div class="ttc" id="astruct_n_p_c_stave_quest_a_i_html_a04bf19c0b79e443edea58210f597db1a"><div class="ttname"><a href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html#a04bf19c0b79e443edea58210f597db1a">NPCStaveQuestAI::IsFairFight</a></div><div class="ttdeci">bool IsFairFight()</div><div class="ttdef"><b>Definition:</b> npc_stave_of_ancients.cpp:108</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -1085,8 +1357,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/World/<a class="el" href="../../d8/d19/npc__stave__of__ancients_8h_source.html">npc_stave_of_ancients.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/scripts/World/<a class="el" href="../../d7/d93/npc__stave__of__ancients_8cpp.html">npc_stave_of_ancients.cpp</a></li>
+<li><a class="el" href="../../">npc_stave_of_ancients.h</a></li>
+<li><a class="el" href="../../">npc_stave_of_ancients.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -1094,7 +1366,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d3/df1/struct_n_p_c_stave_quest_a_i.html">NPCStaveQuestAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:56 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:12 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

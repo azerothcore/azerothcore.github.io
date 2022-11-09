@@ -398,7 +398,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a1b54aaa7b5ed142561fbc02e9593e87c" name="a1b54aaa7b5ed142561fbc02e9593e87c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1b54aaa7b5ed142561fbc02e9593e87c">&#9670;&#160;</a></span>npc_bone_spikeAI()</h2>
 
@@ -422,7 +423,12 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  371</span>                                             : <a class="code hl_class" href="../../d6/df7/class_null_creature_a_i.html">NullCreatureAI</a>(creature), <a class="code hl_variable" href="../../d2/d11/structnpc__bone__spike_1_1npc__bone__spike_a_i.html#aeb7236ef0d313fd3799458f3d50276f7">hasTrappedUnit</a>(<span class="keyword">false</span>)</div>
+<div class="line"><span class="lineno">  372</span>        {</div>
+<div class="line"><span class="lineno">  373</span>        }</div>
+<div class="ttc" id="aclass_null_creature_a_i_html"><div class="ttname"><a href="../../d6/df7/class_null_creature_a_i.html">NullCreatureAI</a></div><div class="ttdef"><b>Definition:</b> PassiveAI.h:53</div></div>
+<div class="ttc" id="astructnpc__bone__spike_1_1npc__bone__spike_a_i_html_aeb7236ef0d313fd3799458f3d50276f7"><div class="ttname"><a href="../../d2/d11/structnpc__bone__spike_1_1npc__bone__spike_a_i.html#aeb7236ef0d313fd3799458f3d50276f7">npc_bone_spike::npc_bone_spikeAI::hasTrappedUnit</a></div><div class="ttdeci">bool hasTrappedUnit</div><div class="ttdef"><b>Definition:</b> boss_lord_marrowgar.cpp:376</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -451,7 +457,43 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d9c/class_unit_a_i.html#a165d336cb3423f9665ed612d2dec76ed">UnitAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  379</span>        {</div>
+<div class="line"><span class="lineno">  380</span>            <span class="keywordflow">if</span> (action != -1337)</div>
+<div class="line"><span class="lineno">  381</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  382</span> </div>
+<div class="line"><span class="lineno">  383</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d2/d6e/class_temp_summon.html">TempSummon</a>* summ = <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a6649e9ba10948d634bc0ac9c4a5800e5">ToTempSummon</a>())</div>
+<div class="line"><span class="lineno">  384</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* trapped = summ-&gt;GetSummonerUnit())</div>
+<div class="line"><span class="lineno">  385</span>                {</div>
+<div class="line"><span class="lineno">  386</span>                    <a class="code hl_struct" href="../../d1/d26/struct_position.html">Position</a> exitPos = {<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#ad5577c934d9e845b44759b67c534c3e8">GetPositionX</a>(), <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">GetPositionY</a>(), 60.0f, <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#a74cabfb8f441acb38e1abd5bf6ecdc84">GetOrientation</a>()};</div>
+<div class="line"><span class="lineno">  387</span>                    trapped-&gt;UpdateAllowedPositionZ(exitPos.<a class="code hl_function" href="../../d1/d26/struct_position.html#ad5577c934d9e845b44759b67c534c3e8">GetPositionX</a>(), exitPos.<a class="code hl_function" href="../../d1/d26/struct_position.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">GetPositionY</a>(), exitPos.<a class="code hl_variable" href="../../d1/d26/struct_position.html#a0d2305604dd27c15fd2d969f18c15b3e">m_positionZ</a>);</div>
+<div class="line"><span class="lineno">  388</span>                    exitPos.<a class="code hl_variable" href="../../d1/d26/struct_position.html#a0d2305604dd27c15fd2d969f18c15b3e">m_positionZ</a> += 1.0f;</div>
+<div class="line"><span class="lineno">  389</span>                    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* vehBase = trapped-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a49c625cae45ad90bb1bcddec39b5b388">GetVehicleBase</a>())</div>
+<div class="line"><span class="lineno">  390</span>                        vehBase-&gt;RemoveAurasByType(<a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799a583bf7e94825b7252010ad12dd50ed6f">SPELL_AURA_CONTROL_VEHICLE</a>, trapped-&gt;GetGUID());</div>
+<div class="line"><span class="lineno">  391</span>                    trapped-&gt;_ExitVehicle(&amp;exitPos);</div>
+<div class="line"><span class="lineno">  392</span>                    trapped-&gt;RemoveAurasDueToSpell(<a class="code hl_enumvalue" href="../../d4/dac/boss__lord__marrowgar_8cpp.html#a5bd342133be8c2137b831460acc9298cab7e03756d6e92addf82c91c4333c69dc">SPELL_IMPALED</a>);</div>
+<div class="line"><span class="lineno">  393</span>                    trapped-&gt;GetMotionMaster()-&gt;Clear();</div>
+<div class="line"><span class="lineno">  394</span>                    trapped-&gt;UpdatePosition(exitPos, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  395</span>                    trapped-&gt;StopMovingOnCurrentPos();</div>
+<div class="line"><span class="lineno">  396</span>                    trapped-&gt;NearTeleportTo(exitPos.<a class="code hl_function" href="../../d1/d26/struct_position.html#ad5577c934d9e845b44759b67c534c3e8">GetPositionX</a>(), exitPos.<a class="code hl_function" href="../../d1/d26/struct_position.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">GetPositionY</a>(), exitPos.<a class="code hl_function" href="../../d1/d26/struct_position.html#a4e813a59345a6275e8b87b96be03e60b">GetPositionZ</a>(), exitPos.<a class="code hl_function" href="../../d1/d26/struct_position.html#a74cabfb8f441acb38e1abd5bf6ecdc84">GetOrientation</a>(), <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  397</span>                }</div>
+<div class="line"><span class="lineno">  398</span> </div>
+<div class="line"><span class="lineno">  399</span>            <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#abce66404f36b926cf403555911bcb9f7">DespawnOrUnsummon</a>(1);</div>
+<div class="line"><span class="lineno">  400</span>        }</div>
+<div class="ttc" id="a_spell_aura_defines_8h_html_a538cdc259460b365f406fe0b3a981799a583bf7e94825b7252010ad12dd50ed6f"><div class="ttname"><a href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799a583bf7e94825b7252010ad12dd50ed6f">SPELL_AURA_CONTROL_VEHICLE</a></div><div class="ttdeci">@ SPELL_AURA_CONTROL_VEHICLE</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:299</div></div>
+<div class="ttc" id="aboss__lord__marrowgar_8cpp_html_a5bd342133be8c2137b831460acc9298cab7e03756d6e92addf82c91c4333c69dc"><div class="ttname"><a href="../../d4/dac/boss__lord__marrowgar_8cpp.html#a5bd342133be8c2137b831460acc9298cab7e03756d6e92addf82c91c4333c69dc">SPELL_IMPALED</a></div><div class="ttdeci">@ SPELL_IMPALED</div><div class="ttdef"><b>Definition:</b> boss_lord_marrowgar.cpp:51</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_aee5bf3d421199445de241a34798ae819"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">CreatureAI::me</a></div><div class="ttdeci">Creature *const me</div><div class="ttdef"><b>Definition:</b> CreatureAI.h:72</div></div>
+<div class="ttc" id="aclass_creature_html_abce66404f36b926cf403555911bcb9f7"><div class="ttname"><a href="../../d1/dac/class_creature.html#abce66404f36b926cf403555911bcb9f7">Creature::DespawnOrUnsummon</a></div><div class="ttdeci">void DespawnOrUnsummon(Milliseconds msTimeToDespawn, Seconds forcedRespawnTimer)</div><div class="ttdef"><b>Definition:</b> Creature.cpp:2092</div></div>
+<div class="ttc" id="aclass_temp_summon_html"><div class="ttname"><a href="../../d2/d6e/class_temp_summon.html">TempSummon</a></div><div class="ttdef"><b>Definition:</b> TemporarySummon.h:40</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_a49c625cae45ad90bb1bcddec39b5b388"><div class="ttname"><a href="../../da/db7/class_unit.html#a49c625cae45ad90bb1bcddec39b5b388">Unit::GetVehicleBase</a></div><div class="ttdeci">Unit * GetVehicleBase() const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:18774</div></div>
+<div class="ttc" id="aclass_unit_html_a6649e9ba10948d634bc0ac9c4a5800e5"><div class="ttname"><a href="../../da/db7/class_unit.html#a6649e9ba10948d634bc0ac9c4a5800e5">Unit::ToTempSummon</a></div><div class="ttdeci">TempSummon * ToTempSummon()</div><div class="ttdef"><b>Definition:</b> Unit.h:2395</div></div>
+<div class="ttc" id="astruct_position_html"><div class="ttname"><a href="../../d1/d26/struct_position.html">Position</a></div><div class="ttdef"><b>Definition:</b> Position.h:28</div></div>
+<div class="ttc" id="astruct_position_html_a0d2305604dd27c15fd2d969f18c15b3e"><div class="ttname"><a href="../../d1/d26/struct_position.html#a0d2305604dd27c15fd2d969f18c15b3e">Position::m_positionZ</a></div><div class="ttdeci">float m_positionZ</div><div class="ttdef"><b>Definition:</b> Position.h:58</div></div>
+<div class="ttc" id="astruct_position_html_a4e813a59345a6275e8b87b96be03e60b"><div class="ttname"><a href="../../d1/d26/struct_position.html#a4e813a59345a6275e8b87b96be03e60b">Position::GetPositionZ</a></div><div class="ttdeci">float GetPositionZ() const</div><div class="ttdef"><b>Definition:</b> Position.h:119</div></div>
+<div class="ttc" id="astruct_position_html_a74cabfb8f441acb38e1abd5bf6ecdc84"><div class="ttname"><a href="../../d1/d26/struct_position.html#a74cabfb8f441acb38e1abd5bf6ecdc84">Position::GetOrientation</a></div><div class="ttdeci">float GetOrientation() const</div><div class="ttdef"><b>Definition:</b> Position.h:120</div></div>
+<div class="ttc" id="astruct_position_html_ad5577c934d9e845b44759b67c534c3e8"><div class="ttname"><a href="../../d1/d26/struct_position.html#ad5577c934d9e845b44759b67c534c3e8">Position::GetPositionX</a></div><div class="ttdeci">float GetPositionX() const</div><div class="ttdef"><b>Definition:</b> Position.h:117</div></div>
+<div class="ttc" id="astruct_position_html_ae79fc664f6cd027f5d49f6c7df8e4c9e"><div class="ttname"><a href="../../d1/d26/struct_position.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">Position::GetPositionY</a></div><div class="ttdeci">float GetPositionY() const</div><div class="ttdef"><b>Definition:</b> Position.h:118</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aabbb76b618df4d1a7bffbabfabfe59c9" name="aabbb76b618df4d1a7bffbabfabfe59c9"></a>
@@ -479,7 +521,41 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d2/d68/class_creature_a_i.html#a717b3431bd49e191fc77afe0fa50d827">CreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  408</span>        {</div>
+<div class="line"><span class="lineno">  409</span>            <span class="keywordflow">if</span> (!summoner)</div>
+<div class="line"><span class="lineno">  410</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  411</span> </div>
+<div class="line"><span class="lineno">  412</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../dd/df6/class_vehicle.html">Vehicle</a>* v = summoner-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a0839378167049038c2857252d3b14738">GetVehicle</a>())</div>
+<div class="line"><span class="lineno">  413</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* u = v-&gt;GetBase())</div>
+<div class="line"><span class="lineno">  414</span>                    <span class="keywordflow">if</span> (u-&gt;GetEntry() == <a class="code hl_enumvalue" href="../../d9/d6a/icecrown__citadel_8h.html#a23860b8d9499fb400f8921261b19efd2ab60d122b7cbf0f8e2394ddc97608c334">NPC_BONE_SPIKE</a> &amp;&amp; u-&gt;GetTypeId() == <a class="code hl_enumvalue" href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2a93dfa528ffc48db4993fb7ac62696db9">TYPEID_UNIT</a>)</div>
+<div class="line"><span class="lineno">  415</span>                        u-&gt;ToCreature()-&gt;AI()-&gt;DoAction(-1337);</div>
+<div class="line"><span class="lineno">  416</span> </div>
+<div class="line"><span class="lineno">  417</span>            <a class="code hl_class" href="../../d8/d03/class_object_guid.html">ObjectGuid</a> petGUID = summoner-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#afd46bcfcf94e3c6bdbd7b23730a0b1ca">GetPetGUID</a>();</div>
+<div class="line"><span class="lineno">  418</span>            summoner-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ad0a01647320db6c68f05cc6df4045598">SetPetGUID</a>(<a class="code hl_variable" href="../../d8/d03/class_object_guid.html#a14039d3f3df79203693f713495503165">ObjectGuid::Empty</a>);</div>
+<div class="line"><span class="lineno">  419</span>            <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(summoner, <a class="code hl_enumvalue" href="../../d4/dac/boss__lord__marrowgar_8cpp.html#a5bd342133be8c2137b831460acc9298cab7e03756d6e92addf82c91c4333c69dc">SPELL_IMPALED</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  420</span>            summoner-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>, <a class="code hl_enumvalue" href="../../d4/dac/boss__lord__marrowgar_8cpp.html#a5bd342133be8c2137b831460acc9298ca3aa7dd30f9eeea1e9280a23f00a5ce76">SPELL_RIDE_VEHICLE</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  421</span>            <span class="comment">//summoner-&gt;ClearUnitState(UNIT_STATE_ONVEHICLE);</span></div>
+<div class="line"><span class="lineno">  422</span>            summoner-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ad0a01647320db6c68f05cc6df4045598">SetPetGUID</a>(petGUID);</div>
+<div class="line"><span class="lineno">  423</span>            summoner-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../df/d4d/class_motion_master.html#afa6ffa9c5d6897f3aad3ac524c7bb35a">Clear</a>();</div>
+<div class="line"><span class="lineno">  424</span>            summoner-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a61edf6ab694fa8f7ed6ef194fd4dd103">StopMoving</a>();</div>
+<div class="line"><span class="lineno">  425</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(1, 8000);</div>
+<div class="line"><span class="lineno">  426</span>            <a class="code hl_variable" href="../../d2/d11/structnpc__bone__spike_1_1npc__bone__spike_a_i.html#aeb7236ef0d313fd3799458f3d50276f7">hasTrappedUnit</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  427</span>        }</div>
+<div class="ttc" id="a_object_guid_8h_html_a183c40b2ba67065929d70b3987da4cc2a93dfa528ffc48db4993fb7ac62696db9"><div class="ttname"><a href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2a93dfa528ffc48db4993fb7ac62696db9">TYPEID_UNIT</a></div><div class="ttdeci">@ TYPEID_UNIT</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:37</div></div>
+<div class="ttc" id="aboss__lord__marrowgar_8cpp_html_a5bd342133be8c2137b831460acc9298ca3aa7dd30f9eeea1e9280a23f00a5ce76"><div class="ttname"><a href="../../d4/dac/boss__lord__marrowgar_8cpp.html#a5bd342133be8c2137b831460acc9298ca3aa7dd30f9eeea1e9280a23f00a5ce76">SPELL_RIDE_VEHICLE</a></div><div class="ttdeci">@ SPELL_RIDE_VEHICLE</div><div class="ttdef"><b>Definition:</b> boss_lord_marrowgar.cpp:52</div></div>
+<div class="ttc" id="aboss__sartura_8cpp_html_ad29858f6d8ab73f2970f41cb21a76b84"><div class="ttname"><a href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a></div><div class="ttdeci">events</div><div class="ttdef"><b>Definition:</b> boss_sartura.cpp:43</div></div>
+<div class="ttc" id="aclass_motion_master_html_afa6ffa9c5d6897f3aad3ac524c7bb35a"><div class="ttname"><a href="../../df/d4d/class_motion_master.html#afa6ffa9c5d6897f3aad3ac524c7bb35a">MotionMaster::Clear</a></div><div class="ttdeci">void Clear(bool reset=true)</div><div class="ttdef"><b>Definition:</b> MotionMaster.h:165</div></div>
+<div class="ttc" id="aclass_object_guid_html"><div class="ttname"><a href="../../d8/d03/class_object_guid.html">ObjectGuid</a></div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:120</div></div>
+<div class="ttc" id="aclass_object_guid_html_a14039d3f3df79203693f713495503165"><div class="ttname"><a href="../../d8/d03/class_object_guid.html#a14039d3f3df79203693f713495503165">ObjectGuid::Empty</a></div><div class="ttdeci">static ObjectGuid const Empty</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:122</div></div>
+<div class="ttc" id="aclass_unit_html_a0839378167049038c2857252d3b14738"><div class="ttname"><a href="../../da/db7/class_unit.html#a0839378167049038c2857252d3b14738">Unit::GetVehicle</a></div><div class="ttdeci">Vehicle * GetVehicle() const</div><div class="ttdef"><b>Definition:</b> Unit.h:2349</div></div>
+<div class="ttc" id="aclass_unit_html_a4a04a3f22c3b0d6f4933993ac0cc7aa4"><div class="ttname"><a href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">Unit::GetMotionMaster</a></div><div class="ttdeci">MotionMaster * GetMotionMaster()</div><div class="ttdef"><b>Definition:</b> Unit.h:2257</div></div>
+<div class="ttc" id="aclass_unit_html_a61edf6ab694fa8f7ed6ef194fd4dd103"><div class="ttname"><a href="../../da/db7/class_unit.html#a61edf6ab694fa8f7ed6ef194fd4dd103">Unit::StopMoving</a></div><div class="ttdeci">void StopMoving()</div><div class="ttdef"><b>Definition:</b> Unit.cpp:16736</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+<div class="ttc" id="aclass_unit_html_ad0a01647320db6c68f05cc6df4045598"><div class="ttname"><a href="../../da/db7/class_unit.html#ad0a01647320db6c68f05cc6df4045598">Unit::SetPetGUID</a></div><div class="ttdeci">void SetPetGUID(ObjectGuid guid)</div><div class="ttdef"><b>Definition:</b> Unit.h:1820</div></div>
+<div class="ttc" id="aclass_unit_html_afd46bcfcf94e3c6bdbd7b23730a0b1ca"><div class="ttname"><a href="../../da/db7/class_unit.html#afd46bcfcf94e3c6bdbd7b23730a0b1ca">Unit::GetPetGUID</a></div><div class="ttdeci">ObjectGuid GetPetGUID() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1821</div></div>
+<div class="ttc" id="aclass_vehicle_html"><div class="ttname"><a href="../../dd/df6/class_vehicle.html">Vehicle</a></div><div class="ttdef"><b>Definition:</b> Vehicle.h:30</div></div>
+<div class="ttc" id="aicecrown__citadel_8h_html_a23860b8d9499fb400f8921261b19efd2ab60d122b7cbf0f8e2394ddc97608c334"><div class="ttname"><a href="../../d9/d6a/icecrown__citadel_8h.html#a23860b8d9499fb400f8921261b19efd2ab60d122b7cbf0f8e2394ddc97608c334">NPC_BONE_SPIKE</a></div><div class="ttdeci">@ NPC_BONE_SPIKE</div><div class="ttdef"><b>Definition:</b> icecrown_citadel.h:195</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ae9c8fa649ba9fac74187913d29be9dd6" name="ae9c8fa649ba9fac74187913d29be9dd6"></a>
@@ -507,7 +583,11 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d2/d68/class_creature_a_i.html#a8c0eee7b55a8cf3cd5f99cf6fa41b00b">CreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  403</span>        {</div>
+<div class="line"><span class="lineno">  404</span>            <a class="code hl_function" href="../../d2/d11/structnpc__bone__spike_1_1npc__bone__spike_a_i.html#a38b2944fb4e9d7fcc7205423faa8a994">DoAction</a>(-1337);</div>
+<div class="line"><span class="lineno">  405</span>        }</div>
+<div class="ttc" id="astructnpc__bone__spike_1_1npc__bone__spike_a_i_html_a38b2944fb4e9d7fcc7205423faa8a994"><div class="ttname"><a href="../../d2/d11/structnpc__bone__spike_1_1npc__bone__spike_a_i.html#a38b2944fb4e9d7fcc7205423faa8a994">npc_bone_spike::npc_bone_spikeAI::DoAction</a></div><div class="ttdeci">void DoAction(int32 action) override</div><div class="ttdef"><b>Definition:</b> boss_lord_marrowgar.cpp:378</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a8eff2bcc6507c65e563ed272977f224e" name="a8eff2bcc6507c65e563ed272977f224e"></a>
@@ -535,7 +615,48 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d6/df7/class_null_creature_a_i.html#ab200fcf78dee74a2ec808c01f5855236">NullCreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  430</span>        {</div>
+<div class="line"><span class="lineno">  431</span>            <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d2/d11/structnpc__bone__spike_1_1npc__bone__spike_a_i.html#aeb7236ef0d313fd3799458f3d50276f7">hasTrappedUnit</a> || !<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a5ea3f54af571493f7889220724667189">IsAlive</a>())</div>
+<div class="line"><span class="lineno">  432</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  433</span> </div>
+<div class="line"><span class="lineno">  434</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d2/d6e/class_temp_summon.html">TempSummon</a>* summ = <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a6649e9ba10948d634bc0ac9c4a5800e5">ToTempSummon</a>())</div>
+<div class="line"><span class="lineno">  435</span>            {</div>
+<div class="line"><span class="lineno">  436</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* trapped = summ-&gt;GetSummonerUnit())</div>
+<div class="line"><span class="lineno">  437</span>                {</div>
+<div class="line"><span class="lineno">  438</span>                    <span class="keywordflow">if</span> (!trapped-&gt;IsOnVehicle(<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>) || !trapped-&gt;IsAlive() || !<a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">GetInstanceScript</a>() || <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">GetInstanceScript</a>()-&gt;<a class="code hl_function" href="../../d8/d83/class_instance_script.html#a776dbfd3b5c48f29ea0ccf8f3cf659e2">GetBossState</a>(<a class="code hl_enumvalue" href="../../d9/d6a/icecrown__citadel_8h.html#afb6eb4f28419b652027fad41104a6d22a7b8aca3c33e08c9a79087d2b51d9a7d3">DATA_LORD_MARROWGAR</a>) != <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012">IN_PROGRESS</a> || trapped-&gt;HasAuraType(<a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799a5b09d71c8d286bff5c7cfd7ccec9a5f3">SPELL_AURA_SPIRIT_OF_REDEMPTION</a>))</div>
+<div class="line"><span class="lineno">  439</span>                    {</div>
+<div class="line"><span class="lineno">  440</span>                        <a class="code hl_function" href="../../d2/d11/structnpc__bone__spike_1_1npc__bone__spike_a_i.html#a38b2944fb4e9d7fcc7205423faa8a994">DoAction</a>(-1337);</div>
+<div class="line"><span class="lineno">  441</span>                        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  442</span>                    }</div>
+<div class="line"><span class="lineno">  443</span>                }</div>
+<div class="line"><span class="lineno">  444</span>                <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  445</span>                {</div>
+<div class="line"><span class="lineno">  446</span>                    <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#abce66404f36b926cf403555911bcb9f7">DespawnOrUnsummon</a>(1);</div>
+<div class="line"><span class="lineno">  447</span>                    <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  448</span>                }</div>
+<div class="line"><span class="lineno">  449</span>            }</div>
+<div class="line"><span class="lineno">  450</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  451</span>            {</div>
+<div class="line"><span class="lineno">  452</span>                <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#abce66404f36b926cf403555911bcb9f7">DespawnOrUnsummon</a>(1);</div>
+<div class="line"><span class="lineno">  453</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  454</span>            }</div>
+<div class="line"><span class="lineno">  455</span> </div>
+<div class="line"><span class="lineno">  456</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.Update(diff);</div>
+<div class="line"><span class="lineno">  457</span> </div>
+<div class="line"><span class="lineno">  458</span>            <span class="keywordflow">if</span> (<a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ExecuteEvent() == 1)</div>
+<div class="line"><span class="lineno">  459</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d83/class_instance_script.html">InstanceScript</a>* instance = <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">GetInstanceScript</a>())</div>
+<div class="line"><span class="lineno">  460</span>                    instance-&gt;SetData(<a class="code hl_enumvalue" href="../../d9/d6a/icecrown__citadel_8h.html#afb6eb4f28419b652027fad41104a6d22ae2c2281179d8029ec34578030f6e74d8">DATA_BONED_ACHIEVEMENT</a>, <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(<span class="keyword">false</span>));</div>
+<div class="line"><span class="lineno">  461</span>        }</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="a_instance_script_8h_html_a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012">IN_PROGRESS</a></div><div class="ttdeci">@ IN_PROGRESS</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:57</div></div>
+<div class="ttc" id="a_spell_aura_defines_8h_html_a538cdc259460b365f406fe0b3a981799a5b09d71c8d286bff5c7cfd7ccec9a5f3"><div class="ttname"><a href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799a5b09d71c8d286bff5c7cfd7ccec9a5f3">SPELL_AURA_SPIRIT_OF_REDEMPTION</a></div><div class="ttdeci">@ SPELL_AURA_SPIRIT_OF_REDEMPTION</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:239</div></div>
+<div class="ttc" id="aclass_instance_script_html"><div class="ttname"><a href="../../d8/d83/class_instance_script.html">InstanceScript</a></div><div class="ttdef"><b>Definition:</b> InstanceScript.h:140</div></div>
+<div class="ttc" id="aclass_instance_script_html_a776dbfd3b5c48f29ea0ccf8f3cf659e2"><div class="ttname"><a href="../../d8/d83/class_instance_script.html#a776dbfd3b5c48f29ea0ccf8f3cf659e2">InstanceScript::GetBossState</a></div><div class="ttdeci">EncounterState GetBossState(uint32 id) const</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:227</div></div>
+<div class="ttc" id="aclass_unit_html_a5ea3f54af571493f7889220724667189"><div class="ttname"><a href="../../da/db7/class_unit.html#a5ea3f54af571493f7889220724667189">Unit::IsAlive</a></div><div class="ttdeci">bool IsAlive() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1805</div></div>
+<div class="ttc" id="aclass_world_object_html_a29762f86d0726e4d229df51281b9d710"><div class="ttname"><a href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">WorldObject::GetInstanceScript</a></div><div class="ttdeci">InstanceScript * GetInstanceScript() const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1192</div></div>
+<div class="ttc" id="aicecrown__citadel_8h_html_afb6eb4f28419b652027fad41104a6d22a7b8aca3c33e08c9a79087d2b51d9a7d3"><div class="ttname"><a href="../../d9/d6a/icecrown__citadel_8h.html#afb6eb4f28419b652027fad41104a6d22a7b8aca3c33e08c9a79087d2b51d9a7d3">DATA_LORD_MARROWGAR</a></div><div class="ttdeci">@ DATA_LORD_MARROWGAR</div><div class="ttdef"><b>Definition:</b> icecrown_citadel.h:91</div></div>
+<div class="ttc" id="aicecrown__citadel_8h_html_afb6eb4f28419b652027fad41104a6d22ae2c2281179d8029ec34578030f6e74d8"><div class="ttname"><a href="../../d9/d6a/icecrown__citadel_8h.html#afb6eb4f28419b652027fad41104a6d22ae2c2281179d8029ec34578030f6e74d8">DATA_BONED_ACHIEVEMENT</a></div><div class="ttdeci">@ DATA_BONED_ACHIEVEMENT</div><div class="ttdef"><b>Definition:</b> icecrown_citadel.h:110</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -568,7 +689,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/IcecrownCitadel/<a class="el" href="../../d4/dac/boss__lord__marrowgar_8cpp.html">boss_lord_marrowgar.cpp</a></li>
+<li><a class="el" href="../../">boss_lord_marrowgar.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -576,7 +697,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d95/classnpc__bone__spike.html">npc_bone_spike</a></li><li class="navelem"><a class="el" href="../../d2/d11/structnpc__bone__spike_1_1npc__bone__spike_a_i.html">npc_bone_spikeAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:48 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:03 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

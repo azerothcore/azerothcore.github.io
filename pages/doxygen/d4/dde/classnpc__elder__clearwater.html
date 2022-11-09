@@ -189,7 +189,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a2d6cf85d1eb98438b5022804296eff11 inherit pro_methods_class_updatable_script"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dff/class_updatable_script.html#a2d6cf85d1eb98438b5022804296eff11">UpdatableScript</a> ()=default</td></tr>
 <tr class="separator:a2d6cf85d1eb98438b5022804296eff11 inherit pro_methods_class_updatable_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="abeee1650938a71762bb0c148ea9834d1" name="abeee1650938a71762bb0c148ea9834d1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abeee1650938a71762bb0c148ea9834d1">&#9670;&#160;</a></span>npc_elder_clearwater()</h2>
 
@@ -212,7 +213,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   82</span>: <a class="code hl_class" href="../../d5/dca/class_creature_script.html">CreatureScript</a>(<span class="stringliteral">&quot;npc_elder_clearwater&quot;</span>) { }</div>
+<div class="ttc" id="aclass_creature_script_html"><div class="ttname"><a href="../../d5/dca/class_creature_script.html">CreatureScript</a></div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:718</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -241,7 +244,10 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d5/dca/class_creature_script.html#a24ba3529655943afdf6598450d14e6c2">CreatureScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  205</span>    {</div>
+<div class="line"><span class="lineno">  206</span>        <span class="keywordflow">return</span> <span class="keyword">new</span> npc_elder_clearwaterAI (pCreature);</div>
+<div class="line"><span class="lineno">  207</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aae382c0a386b8bacd39c6e7a586519e4" name="aae382c0a386b8bacd39c6e7a586519e4"></a>
@@ -279,7 +285,60 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d5/dca/class_creature_script.html#a6268b132444845302ada504f48629a4f">CreatureScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  155</span>    {</div>
+<div class="line"><span class="lineno">  156</span>        <a class="code hl_typedef" href="../../d9/d77/_object_mgr_8h.html#a4d2e936df987ca3457dc1cff99fd3394">QuestRelationBounds</a> pObjectQR;</div>
+<div class="line"><span class="lineno">  157</span>        <a class="code hl_typedef" href="../../d9/d77/_object_mgr_8h.html#a4d2e936df987ca3457dc1cff99fd3394">QuestRelationBounds</a> pObjectQIR;</div>
+<div class="line"><span class="lineno">  158</span> </div>
+<div class="line"><span class="lineno">  159</span>        <span class="comment">// pets also can have quests</span></div>
+<div class="line"><span class="lineno">  160</span>        <span class="keywordflow">if</span> (creature)</div>
+<div class="line"><span class="lineno">  161</span>        {</div>
+<div class="line"><span class="lineno">  162</span>            pObjectQR  = <a class="code hl_define" href="../../d9/d77/_object_mgr_8h.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetCreatureQuestRelationBounds(creature-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>());</div>
+<div class="line"><span class="lineno">  163</span>            pObjectQIR = <a class="code hl_define" href="../../d9/d77/_object_mgr_8h.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetCreatureQuestInvolvedRelationBounds(creature-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>());</div>
+<div class="line"><span class="lineno">  164</span>        }</div>
+<div class="line"><span class="lineno">  165</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  166</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  167</span> </div>
+<div class="line"><span class="lineno">  168</span>        <a class="code hl_class" href="../../da/de0/class_quest_menu.html">QuestMenu</a>&amp; qm = player-&gt;<a class="code hl_variable" href="../../d8/d53/class_player.html#af9651858db4302e3dff8ec5bff131f72">PlayerTalkClass</a>-&gt;<a class="code hl_function" href="../../d1/d29/class_player_menu.html#a6129e728a42a0d74e462073ba7219eb1">GetQuestMenu</a>();</div>
+<div class="line"><span class="lineno">  169</span>        qm.<a class="code hl_function" href="../../da/de0/class_quest_menu.html#ab3d3881aabe000694acab37a3774507e">ClearMenu</a>();</div>
+<div class="line"><span class="lineno">  170</span> </div>
+<div class="line"><span class="lineno">  171</span>        <span class="keywordflow">for</span> (QuestRelations::const_iterator i = pObjectQIR.first; i != pObjectQIR.second; ++i)</div>
+<div class="line"><span class="lineno">  172</span>        {</div>
+<div class="line"><span class="lineno">  173</span>            <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> quest_id = i-&gt;second;</div>
+<div class="line"><span class="lineno">  174</span>            <a class="code hl_class" href="../../d8/d63/class_quest.html">Quest</a> <span class="keyword">const</span>* quest = <a class="code hl_define" href="../../d9/d77/_object_mgr_8h.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetQuestTemplate(quest_id);</div>
+<div class="line"><span class="lineno">  175</span>            <span class="keywordflow">if</span> (!quest)</div>
+<div class="line"><span class="lineno">  176</span>                <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  177</span> </div>
+<div class="line"><span class="lineno">  178</span>            <span class="keywordflow">if</span> (!creature-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">AI</a>()-&gt;<a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6905aa5db0b3501623c040689946350e">GetData</a>(<a class="code hl_enumvalue" href="../../db/dae/npcs__special_8cpp.html#af50bef9d3527931a86ff2289526e2d8eaaac450decd6de636b2fa27fad3e7f055">DATA_DERBY_FINISHED</a>))</div>
+<div class="line"><span class="lineno">  179</span>            {</div>
+<div class="line"><span class="lineno">  180</span>                <span class="keywordflow">if</span> (quest_id == <a class="code hl_enumvalue" href="../../db/dae/npcs__special_8cpp.html#af50bef9d3527931a86ff2289526e2d8eaa424f79bd2b4e44c29deb94f210d008e">QUEST_FISHING_DERBY</a>)</div>
+<div class="line"><span class="lineno">  181</span>                    player-&gt;<a class="code hl_variable" href="../../d8/d53/class_player.html#af9651858db4302e3dff8ec5bff131f72">PlayerTalkClass</a>-&gt;<a class="code hl_function" href="../../d1/d29/class_player_menu.html#a61a5f8d9b8b9c4baa511028884011f89">SendQuestGiverRequestItems</a>(quest, creature-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>(), player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a541838bee904b263239f051505a1498b">CanRewardQuest</a>(quest, <span class="keyword">false</span>), <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  182</span>            }</div>
+<div class="line"><span class="lineno">  183</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  184</span>            {</div>
+<div class="line"><span class="lineno">  185</span>                <span class="keywordflow">if</span> (quest_id != <a class="code hl_enumvalue" href="../../db/dae/npcs__special_8cpp.html#af50bef9d3527931a86ff2289526e2d8eaa424f79bd2b4e44c29deb94f210d008e">QUEST_FISHING_DERBY</a>)</div>
+<div class="line"><span class="lineno">  186</span>                    player-&gt;<a class="code hl_variable" href="../../d8/d53/class_player.html#af9651858db4302e3dff8ec5bff131f72">PlayerTalkClass</a>-&gt;<a class="code hl_function" href="../../d1/d29/class_player_menu.html#a61a5f8d9b8b9c4baa511028884011f89">SendQuestGiverRequestItems</a>(quest, creature-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>(), player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a541838bee904b263239f051505a1498b">CanRewardQuest</a>(quest, <span class="keyword">false</span>), <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  187</span>            }</div>
+<div class="line"><span class="lineno">  188</span>        }</div>
+<div class="line"><span class="lineno">  189</span> </div>
+<div class="line"><span class="lineno">  190</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  191</span>    }</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="a_object_mgr_8h_html_a4d2e936df987ca3457dc1cff99fd3394"><div class="ttname"><a href="../../d9/d77/_object_mgr_8h.html#a4d2e936df987ca3457dc1cff99fd3394">QuestRelationBounds</a></div><div class="ttdeci">std::pair&lt; QuestRelations::const_iterator, QuestRelations::const_iterator &gt; QuestRelationBounds</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:519</div></div>
+<div class="ttc" id="a_object_mgr_8h_html_a736e30da2b5261060ac6cdbb5de3b787"><div class="ttname"><a href="../../d9/d77/_object_mgr_8h.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a></div><div class="ttdeci">#define sObjectMgr</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:1606</div></div>
+<div class="ttc" id="aclass_creature_html_af2188eef9620b5af52ef2d3ac142db67"><div class="ttname"><a href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">Creature::AI</a></div><div class="ttdeci">CreatureAI * AI() const</div><div class="ttdef"><b>Definition:</b> Creature.h:134</div></div>
+<div class="ttc" id="aclass_object_html_aa627fe2967ed0e0ed1d8aeeb4365a961"><div class="ttname"><a href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">Object::GetEntry</a></div><div class="ttdeci">uint32 GetEntry() const</div><div class="ttdef"><b>Definition:</b> Object.h:109</div></div>
+<div class="ttc" id="aclass_object_html_ad23b997e2442fa6a6228ba73a7ecc138"><div class="ttname"><a href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">Object::GetGUID</a></div><div class="ttdeci">static ObjectGuid GetGUID(Object const *o)</div><div class="ttdef"><b>Definition:</b> Object.h:106</div></div>
+<div class="ttc" id="aclass_player_html_a541838bee904b263239f051505a1498b"><div class="ttname"><a href="../../d8/d53/class_player.html#a541838bee904b263239f051505a1498b">Player::CanRewardQuest</a></div><div class="ttdeci">bool CanRewardQuest(Quest const *quest, bool msg)</div><div class="ttdef"><b>Definition:</b> PlayerQuest.cpp:383</div></div>
+<div class="ttc" id="aclass_player_html_af9651858db4302e3dff8ec5bff131f72"><div class="ttname"><a href="../../d8/d53/class_player.html#af9651858db4302e3dff8ec5bff131f72">Player::PlayerTalkClass</a></div><div class="ttdeci">PlayerMenu * PlayerTalkClass</div><div class="ttdef"><b>Definition:</b> Player.h:2187</div></div>
+<div class="ttc" id="aclass_player_menu_html_a6129e728a42a0d74e462073ba7219eb1"><div class="ttname"><a href="../../d1/d29/class_player_menu.html#a6129e728a42a0d74e462073ba7219eb1">PlayerMenu::GetQuestMenu</a></div><div class="ttdeci">QuestMenu &amp; GetQuestMenu()</div><div class="ttdef"><b>Definition:</b> GossipDef.h:264</div></div>
+<div class="ttc" id="aclass_player_menu_html_a61a5f8d9b8b9c4baa511028884011f89"><div class="ttname"><a href="../../d1/d29/class_player_menu.html#a61a5f8d9b8b9c4baa511028884011f89">PlayerMenu::SendQuestGiverRequestItems</a></div><div class="ttdeci">void SendQuestGiverRequestItems(Quest const *quest, ObjectGuid npcGUID, bool canComplete, bool closeOnCancel) const</div><div class="ttdef"><b>Definition:</b> GossipDef.cpp:713</div></div>
+<div class="ttc" id="aclass_quest_html"><div class="ttname"><a href="../../d8/d63/class_quest.html">Quest</a></div><div class="ttdef"><b>Definition:</b> QuestDef.h:207</div></div>
+<div class="ttc" id="aclass_quest_menu_html"><div class="ttname"><a href="../../da/de0/class_quest_menu.html">QuestMenu</a></div><div class="ttdef"><b>Definition:</b> GossipDef.h:228</div></div>
+<div class="ttc" id="aclass_quest_menu_html_ab3d3881aabe000694acab37a3774507e"><div class="ttname"><a href="../../da/de0/class_quest_menu.html#ab3d3881aabe000694acab37a3774507e">QuestMenu::ClearMenu</a></div><div class="ttdeci">void ClearMenu()</div><div class="ttdef"><b>Definition:</b> GossipDef.cpp:311</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a6905aa5db0b3501623c040689946350e"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a6905aa5db0b3501623c040689946350e">UnitAI::GetData</a></div><div class="ttdeci">virtual uint32 GetData(uint32) const</div><div class="ttdef"><b>Definition:</b> UnitAI.h:197</div></div>
+<div class="ttc" id="anpcs__special_8cpp_html_af50bef9d3527931a86ff2289526e2d8eaa424f79bd2b4e44c29deb94f210d008e"><div class="ttname"><a href="../../db/dae/npcs__special_8cpp.html#af50bef9d3527931a86ff2289526e2d8eaa424f79bd2b4e44c29deb94f210d008e">QUEST_FISHING_DERBY</a></div><div class="ttdeci">@ QUEST_FISHING_DERBY</div><div class="ttdef"><b>Definition:</b> npcs_special.cpp:74</div></div>
+<div class="ttc" id="anpcs__special_8cpp_html_af50bef9d3527931a86ff2289526e2d8eaaac450decd6de636b2fa27fad3e7f055"><div class="ttname"><a href="../../db/dae/npcs__special_8cpp.html#af50bef9d3527931a86ff2289526e2d8eaaac450decd6de636b2fa27fad3e7f055">DATA_DERBY_FINISHED</a></div><div class="ttdeci">@ DATA_DERBY_FINISHED</div><div class="ttdef"><b>Definition:</b> npcs_special.cpp:76</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2d316a2d2c892cecc134cea46b5bf2a8" name="a2d316a2d2c892cecc134cea46b5bf2a8"></a>
@@ -329,11 +388,26 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d5/dca/class_creature_script.html#aba2be0f342cb9811bd0ebee954d7d36e">CreatureScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  194</span>    {</div>
+<div class="line"><span class="lineno">  195</span>        <span class="keywordflow">if</span> (!creature-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">AI</a>()-&gt;<a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6905aa5db0b3501623c040689946350e">GetData</a>(<a class="code hl_enumvalue" href="../../db/dae/npcs__special_8cpp.html#af50bef9d3527931a86ff2289526e2d8eaaac450decd6de636b2fa27fad3e7f055">DATA_DERBY_FINISHED</a>) &amp;&amp; quest-&gt;GetQuestId() == <a class="code hl_enumvalue" href="../../db/dae/npcs__special_8cpp.html#af50bef9d3527931a86ff2289526e2d8eaa424f79bd2b4e44c29deb94f210d008e">QUEST_FISHING_DERBY</a>)</div>
+<div class="line"><span class="lineno">  196</span>        {</div>
+<div class="line"><span class="lineno">  197</span>            creature-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">AI</a>()-&gt;<a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a165d336cb3423f9665ed612d2dec76ed">DoAction</a>(<a class="code hl_enumvalue" href="../../db/dae/npcs__special_8cpp.html#af50bef9d3527931a86ff2289526e2d8eaaac450decd6de636b2fa27fad3e7f055">DATA_DERBY_FINISHED</a>);</div>
+<div class="line"><span class="lineno">  198</span>            <a class="code hl_define" href="../../d0/d99/_creature_text_mgr_8h.html#a2dc428da007cefe454220dcb355a1cde">sCreatureTextMgr</a>-&gt;SendChat(creature, <a class="code hl_enumvalue" href="../../db/dae/npcs__special_8cpp.html#af50bef9d3527931a86ff2289526e2d8ea1315cbff4c24e366d8ed972a2f926e4d">CLEARWATER_SAY_WINNER</a>, player, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16ac49b0083a9c7ab8e1540b1e6c8e7f615">CHAT_MSG_MONSTER_YELL</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a315ca917ad583797f709ea477dd28705a15adb0ab094ffe068674ecc6ea720d3a">LANG_UNIVERSAL</a>, <a class="code hl_enumvalue" href="../../d0/d99/_creature_text_mgr_8h.html#adf847039afbebeda9e21210c1f4eb052a90bf8cfe8ac6e4bac224bd3dd9fbc3a3">TEXT_RANGE_MAP</a>);</div>
+<div class="line"><span class="lineno">  199</span>        }</div>
+<div class="line"><span class="lineno">  200</span> </div>
+<div class="line"><span class="lineno">  201</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  202</span>    }</div>
+<div class="ttc" id="a_creature_text_mgr_8h_html_a2dc428da007cefe454220dcb355a1cde"><div class="ttname"><a href="../../d0/d99/_creature_text_mgr_8h.html#a2dc428da007cefe454220dcb355a1cde">sCreatureTextMgr</a></div><div class="ttdeci">#define sCreatureTextMgr</div><div class="ttdef"><b>Definition:</b> CreatureTextMgr.h:119</div></div>
+<div class="ttc" id="a_creature_text_mgr_8h_html_adf847039afbebeda9e21210c1f4eb052a90bf8cfe8ac6e4bac224bd3dd9fbc3a3"><div class="ttname"><a href="../../d0/d99/_creature_text_mgr_8h.html#adf847039afbebeda9e21210c1f4eb052a90bf8cfe8ac6e4bac224bd3dd9fbc3a3">TEXT_RANGE_MAP</a></div><div class="ttdeci">@ TEXT_RANGE_MAP</div><div class="ttdef"><b>Definition:</b> CreatureTextMgr.h:33</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a249e68b260c9857b5d0d4cf4697fae16ac49b0083a9c7ab8e1540b1e6c8e7f615"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16ac49b0083a9c7ab8e1540b1e6c8e7f615">CHAT_MSG_MONSTER_YELL</a></div><div class="ttdeci">@ CHAT_MSG_MONSTER_YELL</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3138</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a315ca917ad583797f709ea477dd28705a15adb0ab094ffe068674ecc6ea720d3a"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a315ca917ad583797f709ea477dd28705a15adb0ab094ffe068674ecc6ea720d3a">LANG_UNIVERSAL</a></div><div class="ttdeci">@ LANG_UNIVERSAL</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:707</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a165d336cb3423f9665ed612d2dec76ed"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a165d336cb3423f9665ed612d2dec76ed">UnitAI::DoAction</a></div><div class="ttdeci">virtual void DoAction(int32)</div><div class="ttdef"><b>Definition:</b> UnitAI.h:196</div></div>
+<div class="ttc" id="anpcs__special_8cpp_html_af50bef9d3527931a86ff2289526e2d8ea1315cbff4c24e366d8ed972a2f926e4d"><div class="ttname"><a href="../../db/dae/npcs__special_8cpp.html#af50bef9d3527931a86ff2289526e2d8ea1315cbff4c24e366d8ed972a2f926e4d">CLEARWATER_SAY_WINNER</a></div><div class="ttdeci">@ CLEARWATER_SAY_WINNER</div><div class="ttdef"><b>Definition:</b> npcs_special.cpp:71</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/World/<a class="el" href="../../db/dae/npcs__special_8cpp.html">npcs_special.cpp</a></li>
+<li><a class="el" href="../../">npcs_special.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -341,7 +415,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d4/dde/classnpc__elder__clearwater.html">npc_elder_clearwater</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:49 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:04 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

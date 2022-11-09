@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('d4/d01/class_world_packets_1_1_guild_1
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d3/d9c/_guild_packets_8h_source.html">GuildPackets.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">GuildPackets.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for WorldPackets::Guild::GuildInfoResponse:</div>
 <div class="dyncontent">
@@ -178,7 +178,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ab85f1c9f20117bc5015180165c7b458a inherit pub_attribs_class_world_packets_1_1_packet"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d1a/class_world_packet.html">WorldPacket</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d4e/class_world_packets_1_1_packet.html#ab85f1c9f20117bc5015180165c7b458a">_worldPacket</a></td></tr>
 <tr class="separator:ab85f1c9f20117bc5015180165c7b458a inherit pub_attribs_class_world_packets_1_1_packet"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a256cb81ad2e08050be99c9e1061c2009" name="a256cb81ad2e08050be99c9e1061c2009"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a256cb81ad2e08050be99c9e1061c2009">&#9670;&#160;</a></span>GuildInfoResponse()</h2>
 
@@ -201,7 +202,10 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   87</span>: <a class="code hl_function" href="../../d6/d50/class_world_packets_1_1_server_packet.html#ad2222011e1251791799f97b149cef8b9">ServerPacket</a>(<a class="code hl_enumvalue" href="../../d2/dec/group__u2w.html#gga1073b6abb3a749f18bf1633020879e9bacf8a6e731017d3b51111350e550e0119">SMSG_GUILD_INFO</a>, 123) { }</div>
+<div class="ttc" id="aclass_world_packets_1_1_server_packet_html_ad2222011e1251791799f97b149cef8b9"><div class="ttname"><a href="../../d6/d50/class_world_packets_1_1_server_packet.html#ad2222011e1251791799f97b149cef8b9">WorldPackets::ServerPacket::ServerPacket</a></div><div class="ttdeci">ServerPacket(OpcodeServer opcode, size_t initialSize=200)</div><div class="ttdef"><b>Definition:</b> Packet.cpp:25</div></div>
+<div class="ttc" id="agroup__u2w_html_gga1073b6abb3a749f18bf1633020879e9bacf8a6e731017d3b51111350e550e0119"><div class="ttname"><a href="../../d2/dec/group__u2w.html#gga1073b6abb3a749f18bf1633020879e9bacf8a6e731017d3b51111350e550e0119">SMSG_GUILD_INFO</a></div><div class="ttdeci">@ SMSG_GUILD_INFO</div><div class="ttdef"><b>Definition:</b> Opcodes.h:166</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -229,7 +233,22 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d4e/class_world_packets_1_1_packet.html#af7c79156d7b6cfe3142fc530f9ed262a">WorldPackets::Packet</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   51</span>{</div>
+<div class="line"><span class="lineno">   52</span>    <a class="code hl_variable" href="../../d7/d4e/class_world_packets_1_1_packet.html#ab85f1c9f20117bc5015180165c7b458a">_worldPacket</a> &lt;&lt; <a class="code hl_variable" href="../../d4/d01/class_world_packets_1_1_guild_1_1_guild_info_response.html#ad8efc926197e955ed0cf8df6a74b41e8">GuildName</a>;</div>
+<div class="line"><span class="lineno">   53</span>    <a class="code hl_variable" href="../../d7/d4e/class_world_packets_1_1_packet.html#ab85f1c9f20117bc5015180165c7b458a">_worldPacket</a>.<a class="code hl_function" href="../../dd/d44/class_byte_buffer.html#aa7b1246e84bc9010cf14a66385b85e07">AppendPackedTime</a>(<a class="code hl_variable" href="../../d4/d01/class_world_packets_1_1_guild_1_1_guild_info_response.html#a1a0acf334d88751e94257ff76c9e3fd8">CreateDate</a>);</div>
+<div class="line"><span class="lineno">   54</span>    <a class="code hl_variable" href="../../d7/d4e/class_world_packets_1_1_packet.html#ab85f1c9f20117bc5015180165c7b458a">_worldPacket</a> &lt;&lt; <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>(<a class="code hl_variable" href="../../d4/d01/class_world_packets_1_1_guild_1_1_guild_info_response.html#a7e748a70029e867ba8c90eaba85bf8c9">NumMembers</a>);</div>
+<div class="line"><span class="lineno">   55</span>    <a class="code hl_variable" href="../../d7/d4e/class_world_packets_1_1_packet.html#ab85f1c9f20117bc5015180165c7b458a">_worldPacket</a> &lt;&lt; <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>(<a class="code hl_variable" href="../../d4/d01/class_world_packets_1_1_guild_1_1_guild_info_response.html#a21b42f1654aa10f7872d87635fea66ac">NumAccounts</a>);</div>
+<div class="line"><span class="lineno">   56</span> </div>
+<div class="line"><span class="lineno">   57</span>    <span class="keywordflow">return</span> &amp;<a class="code hl_variable" href="../../d7/d4e/class_world_packets_1_1_packet.html#ab85f1c9f20117bc5015180165c7b458a">_worldPacket</a>;</div>
+<div class="line"><span class="lineno">   58</span>}</div>
+<div class="ttc" id="a_define_8h_html_a0bf9964a3ce962c07ad3d8b5432bbbcd"><div class="ttname"><a href="../../db/d35/_define_8h.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a></div><div class="ttdeci">std::int32_t int32</div><div class="ttdef"><b>Definition:</b> Define.h:104</div></div>
+<div class="ttc" id="aclass_byte_buffer_html_aa7b1246e84bc9010cf14a66385b85e07"><div class="ttname"><a href="../../dd/d44/class_byte_buffer.html#aa7b1246e84bc9010cf14a66385b85e07">ByteBuffer::AppendPackedTime</a></div><div class="ttdeci">void AppendPackedTime(time_t time)</div><div class="ttdef"><b>Definition:</b> ByteBuffer.cpp:138</div></div>
+<div class="ttc" id="aclass_world_packets_1_1_guild_1_1_guild_info_response_html_a1a0acf334d88751e94257ff76c9e3fd8"><div class="ttname"><a href="../../d4/d01/class_world_packets_1_1_guild_1_1_guild_info_response.html#a1a0acf334d88751e94257ff76c9e3fd8">WorldPackets::Guild::GuildInfoResponse::CreateDate</a></div><div class="ttdeci">time_t CreateDate</div><div class="ttdef"><b>Definition:</b> GuildPackets.h:92</div></div>
+<div class="ttc" id="aclass_world_packets_1_1_guild_1_1_guild_info_response_html_a21b42f1654aa10f7872d87635fea66ac"><div class="ttname"><a href="../../d4/d01/class_world_packets_1_1_guild_1_1_guild_info_response.html#a21b42f1654aa10f7872d87635fea66ac">WorldPackets::Guild::GuildInfoResponse::NumAccounts</a></div><div class="ttdeci">int32 NumAccounts</div><div class="ttdef"><b>Definition:</b> GuildPackets.h:94</div></div>
+<div class="ttc" id="aclass_world_packets_1_1_guild_1_1_guild_info_response_html_a7e748a70029e867ba8c90eaba85bf8c9"><div class="ttname"><a href="../../d4/d01/class_world_packets_1_1_guild_1_1_guild_info_response.html#a7e748a70029e867ba8c90eaba85bf8c9">WorldPackets::Guild::GuildInfoResponse::NumMembers</a></div><div class="ttdeci">int32 NumMembers</div><div class="ttdef"><b>Definition:</b> GuildPackets.h:93</div></div>
+<div class="ttc" id="aclass_world_packets_1_1_guild_1_1_guild_info_response_html_ad8efc926197e955ed0cf8df6a74b41e8"><div class="ttname"><a href="../../d4/d01/class_world_packets_1_1_guild_1_1_guild_info_response.html#ad8efc926197e955ed0cf8df6a74b41e8">WorldPackets::Guild::GuildInfoResponse::GuildName</a></div><div class="ttdeci">std::string GuildName</div><div class="ttdef"><b>Definition:</b> GuildPackets.h:91</div></div>
+<div class="ttc" id="aclass_world_packets_1_1_packet_html_ab85f1c9f20117bc5015180165c7b458a"><div class="ttname"><a href="../../d7/d4e/class_world_packets_1_1_packet.html#ab85f1c9f20117bc5015180165c7b458a">WorldPackets::Packet::_worldPacket</a></div><div class="ttdeci">WorldPacket _worldPacket</div><div class="ttdef"><b>Definition:</b> Packet.h:42</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -290,8 +309,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Server/Packets/<a class="el" href="../../d3/d9c/_guild_packets_8h_source.html">GuildPackets.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/Server/Packets/<a class="el" href="../../d6/d21/_guild_packets_8cpp.html">GuildPackets.cpp</a></li>
+<li><a class="el" href="../../">GuildPackets.h</a></li>
+<li><a class="el" href="../../">GuildPackets.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -299,7 +318,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d3/d87/namespace_world_packets.html">WorldPackets</a></li><li class="navelem"><a class="el" href="../../da/d28/namespace_world_packets_1_1_guild.html">Guild</a></li><li class="navelem"><a class="el" href="../../d4/d01/class_world_packets_1_1_guild_1_1_guild_info_response.html">GuildInfoResponse</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:14 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:32 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

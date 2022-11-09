@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzeorthCore: D:/azerothcore-wotlk/src/server/scripts/Kalimdor/CavernsOfTime/BattleForMountHyjal/hyjalAI.cpp File Reference</title>
+<title>AzeorthCore: hyjalAI.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -112,15 +112,17 @@ $(document).ready(function(){initNavTree('db/d91/hyjal_a_i_8cpp.html','../../');
   <div class="headertitle"><div class="title">hyjalAI.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../d6/d51/hyjal_a_i_8h_source.html">hyjalAI.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dd/dcf/_cell_8h_source.html">Cell.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d4/d39/_cell_impl_8h_source.html">CellImpl.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d0/dc9/_grid_notifiers_8h_source.html">GridNotifiers.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dd/df9/_grid_notifiers_impl_8h_source.html">GridNotifiersImpl.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d3/dad/_scripted_creature_8h_source.html">ScriptedCreature.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d9/dc1/_scripted_escort_a_i_8h_source.html">ScriptedEscortAI.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d1/d05/hyjal__trash_8h_source.html">hyjal_trash.h</a>&quot;</code><br />
-</div><table class="memberdecls">
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">hyjalAI.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Cell.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">CellImpl.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GridNotifiers.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GridNotifiersImpl.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptedCreature.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptedEscortAI.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">hyjal_trash.h</a>&quot;</code><br />
+</div>
+<p><a href="">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
 <tr class="memitem:ade1e749ab92c002d55a23b4973167d8a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d91/hyjal_a_i_8cpp.html#ade1e749ab92c002d55a23b4973167d8a">YELL_HURRY</a>&#160;&#160;&#160;&quot;Hurry, we don't have much time&quot;</td></tr>
@@ -195,7 +197,15 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="a9731a101a1cfb5ceeb1b6ad65e2a719daf75d9f0c70149eeaf6d14d2c0c569434" name="a9731a101a1cfb5ceeb1b6ad65e2a719daf75d9f0c70149eeaf6d14d2c0c569434"></a>SPAWN_WYRM_GATE&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a9731a101a1cfb5ceeb1b6ad65e2a719da5e8baba3fd56995377885fc5cd37d4da" name="a9731a101a1cfb5ceeb1b6ad65e2a719da5e8baba3fd56995377885fc5cd37d4da"></a>SPAWN_NEAR_TOWER&#160;</td><td class="fielddoc"></td></tr>
 </table>
-
+<div class="fragment"><div class="line"><span class="lineno">   35</span>{</div>
+<div class="line"><span class="lineno">   36</span>    <a class="code hl_enumvalue" href="../../db/d91/hyjal_a_i_8cpp.html#a9731a101a1cfb5ceeb1b6ad65e2a719dad268b123b87b8e352d1292354dd23281">SPAWN_GARG_GATE</a>     = 0,</div>
+<div class="line"><span class="lineno">   37</span>    <a class="code hl_enumvalue" href="../../db/d91/hyjal_a_i_8cpp.html#a9731a101a1cfb5ceeb1b6ad65e2a719daf75d9f0c70149eeaf6d14d2c0c569434">SPAWN_WYRM_GATE</a>     = 1,</div>
+<div class="line"><span class="lineno">   38</span>    <a class="code hl_enumvalue" href="../../db/d91/hyjal_a_i_8cpp.html#a9731a101a1cfb5ceeb1b6ad65e2a719da5e8baba3fd56995377885fc5cd37d4da">SPAWN_NEAR_TOWER</a>    = 2,</div>
+<div class="line"><span class="lineno">   39</span>};</div>
+<div class="ttc" id="ahyjal_a_i_8cpp_html_a9731a101a1cfb5ceeb1b6ad65e2a719da5e8baba3fd56995377885fc5cd37d4da"><div class="ttname"><a href="../../db/d91/hyjal_a_i_8cpp.html#a9731a101a1cfb5ceeb1b6ad65e2a719da5e8baba3fd56995377885fc5cd37d4da">SPAWN_NEAR_TOWER</a></div><div class="ttdeci">@ SPAWN_NEAR_TOWER</div><div class="ttdef"><b>Definition:</b> hyjalAI.cpp:38</div></div>
+<div class="ttc" id="ahyjal_a_i_8cpp_html_a9731a101a1cfb5ceeb1b6ad65e2a719dad268b123b87b8e352d1292354dd23281"><div class="ttname"><a href="../../db/d91/hyjal_a_i_8cpp.html#a9731a101a1cfb5ceeb1b6ad65e2a719dad268b123b87b8e352d1292354dd23281">SPAWN_GARG_GATE</a></div><div class="ttdeci">@ SPAWN_GARG_GATE</div><div class="ttdef"><b>Definition:</b> hyjalAI.cpp:36</div></div>
+<div class="ttc" id="ahyjal_a_i_8cpp_html_a9731a101a1cfb5ceeb1b6ad65e2a719daf75d9f0c70149eeaf6d14d2c0c569434"><div class="ttname"><a href="../../db/d91/hyjal_a_i_8cpp.html#a9731a101a1cfb5ceeb1b6ad65e2a719daf75d9f0c70149eeaf6d14d2c0c569434">SPAWN_WYRM_GATE</a></div><div class="ttdeci">@ SPAWN_WYRM_GATE</div><div class="ttdef"><b>Definition:</b> hyjalAI.cpp:37</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
@@ -454,7 +464,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c606529abee686f44b65a2777767c446.html">scripts</a></li><li class="navelem"><a class="el" href="../../dir_5ee14a0f6ab8ad29bd27b6821baacc69.html">Kalimdor</a></li><li class="navelem"><a class="el" href="../../dir_5833980719a36b6f6a864b11e72f0bc7.html">CavernsOfTime</a></li><li class="navelem"><a class="el" href="../../dir_e068b882fd581e5818b3e126213c1b22.html">BattleForMountHyjal</a></li><li class="navelem"><a class="el" href="../../db/d91/hyjal_a_i_8cpp.html">hyjalAI.cpp</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:25 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:38 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

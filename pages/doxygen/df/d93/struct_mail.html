@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('df/d93/struct_mail.html','../../'); in
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d8/d23/_mail_8h_source.html">Mail.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">Mail.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -167,7 +167,8 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ae81b243e0ef55683b282e8bfae1d7a42"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/d23/_mail_8h.html#a38d587a785c6fa4c4342574233684a20">MailState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d93/struct_mail.html#ae81b243e0ef55683b282e8bfae1d7a42">state</a></td></tr>
 <tr class="separator:ae81b243e0ef55683b282e8bfae1d7a42"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="ab39b529b190bafe093a7931311c24626" name="ab39b529b190bafe093a7931311c24626"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab39b529b190bafe093a7931311c24626">&#9670;&#160;</a></span>AddItem()</h2>
 
@@ -201,7 +202,17 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  187</span>    {</div>
+<div class="line"><span class="lineno">  188</span>        <a class="code hl_struct" href="../../d8/d79/struct_mail_item_info.html">MailItemInfo</a> mii;</div>
+<div class="line"><span class="lineno">  189</span>        mii.<a class="code hl_variable" href="../../d8/d79/struct_mail_item_info.html#a4033ef7b03b28881e28434ae796fb6ed">item_guid</a> = itemGuidLow;</div>
+<div class="line"><span class="lineno">  190</span>        mii.<a class="code hl_variable" href="../../d8/d79/struct_mail_item_info.html#ac7e05ac4dcc5d4f94b3291d819c7c86b">item_template</a> = item_template;</div>
+<div class="line"><span class="lineno">  191</span>        <a class="code hl_variable" href="../../df/d93/struct_mail.html#aab1074d26d11d3216df8f7e6e9b8c1f7">items</a>.push_back(mii);</div>
+<div class="line"><span class="lineno">  192</span>    }</div>
+<div class="ttc" id="astruct_mail_html_aab1074d26d11d3216df8f7e6e9b8c1f7"><div class="ttname"><a href="../../df/d93/struct_mail.html#aab1074d26d11d3216df8f7e6e9b8c1f7">Mail::items</a></div><div class="ttdeci">std::vector&lt; MailItemInfo &gt; items</div><div class="ttdef"><b>Definition:</b> Mail.h:177</div></div>
+<div class="ttc" id="astruct_mail_item_info_html"><div class="ttname"><a href="../../d8/d79/struct_mail_item_info.html">MailItemInfo</a></div><div class="ttdef"><b>Definition:</b> Mail.h:161</div></div>
+<div class="ttc" id="astruct_mail_item_info_html_a4033ef7b03b28881e28434ae796fb6ed"><div class="ttname"><a href="../../d8/d79/struct_mail_item_info.html#a4033ef7b03b28881e28434ae796fb6ed">MailItemInfo::item_guid</a></div><div class="ttdeci">ObjectGuid::LowType item_guid</div><div class="ttdef"><b>Definition:</b> Mail.h:162</div></div>
+<div class="ttc" id="astruct_mail_item_info_html_ac7e05ac4dcc5d4f94b3291d819c7c86b"><div class="ttname"><a href="../../d8/d79/struct_mail_item_info.html#ac7e05ac4dcc5d4f94b3291d819c7c86b">MailItemInfo::item_template</a></div><div class="ttdeci">uint32 item_template</div><div class="ttdef"><b>Definition:</b> Mail.h:163</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a0997971db668abca530f1869d71828dc" name="a0997971db668abca530f1869d71828dc"></a>
@@ -226,7 +237,8 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  207</span>{ <span class="keywordflow">return</span> !<a class="code hl_variable" href="../../df/d93/struct_mail.html#aab1074d26d11d3216df8f7e6e9b8c1f7">items</a>.empty(); }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a113aef1ace737f4bf119ee9cec9d69bd" name="a113aef1ace737f4bf119ee9cec9d69bd"></a>
@@ -251,7 +263,10 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  210</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../df/d93/struct_mail.html#ae3198d4379f7f783aa40b180311ca970">checked</a> &amp; <a class="code hl_enumvalue" href="../../d8/d23/_mail_8h.html#a0409511b5ca7192d457a7e550a1c6e26a4cef0afe6ff002d8e7089cb2eddf1468">MAIL_CHECK_MASK_COD_PAYMENT</a>; }</div>
+<div class="ttc" id="a_mail_8h_html_a0409511b5ca7192d457a7e550a1c6e26a4cef0afe6ff002d8e7089cb2eddf1468"><div class="ttname"><a href="../../d8/d23/_mail_8h.html#a0409511b5ca7192d457a7e550a1c6e26a4cef0afe6ff002d8e7089cb2eddf1468">MAIL_CHECK_MASK_COD_PAYMENT</a></div><div class="ttdeci">@ MAIL_CHECK_MASK_COD_PAYMENT</div><div class="ttdoc">This mail was copied. Do not allow making a copy of items in mail.</div><div class="ttdef"><b>Definition:</b> Mail.h:51</div></div>
+<div class="ttc" id="astruct_mail_html_ae3198d4379f7f783aa40b180311ca970"><div class="ttname"><a href="../../df/d93/struct_mail.html#ae3198d4379f7f783aa40b180311ca970">Mail::checked</a></div><div class="ttdeci">uint32 checked</div><div class="ttdef"><b>Definition:</b> Mail.h:183</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="adb7b77433c2ac76939d3fa9aa7ba5972" name="adb7b77433c2ac76939d3fa9aa7ba5972"></a>
@@ -276,7 +291,9 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  211</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../df/d93/struct_mail.html#ae3198d4379f7f783aa40b180311ca970">checked</a> &amp; <a class="code hl_enumvalue" href="../../d8/d23/_mail_8h.html#a0409511b5ca7192d457a7e550a1c6e26a5f7f5d671d1137cc0dd8b88a6579454a">MAIL_CHECK_MASK_RETURNED</a>; }</div>
+<div class="ttc" id="a_mail_8h_html_a0409511b5ca7192d457a7e550a1c6e26a5f7f5d671d1137cc0dd8b88a6579454a"><div class="ttname"><a href="../../d8/d23/_mail_8h.html#a0409511b5ca7192d457a7e550a1c6e26a5f7f5d671d1137cc0dd8b88a6579454a">MAIL_CHECK_MASK_RETURNED</a></div><div class="ttdeci">@ MAIL_CHECK_MASK_RETURNED</div><div class="ttdef"><b>Definition:</b> Mail.h:49</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a0e07f4b90ae44b9dc2a2cac9589196db" name="a0e07f4b90ae44b9dc2a2cac9589196db"></a>
@@ -301,7 +318,10 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  209</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../df/d93/struct_mail.html#a88588149be95899c2fc30b144c4425a6">stationery</a> == <a class="code hl_enumvalue" href="../../d8/d23/_mail_8h.html#a97c589393fcefa82854f195693493094a39230800d1e1c4dbd3c46fbaaba39541">MAIL_STATIONERY_GM</a>; }</div>
+<div class="ttc" id="a_mail_8h_html_a97c589393fcefa82854f195693493094a39230800d1e1c4dbd3c46fbaaba39541"><div class="ttname"><a href="../../d8/d23/_mail_8h.html#a97c589393fcefa82854f195693493094a39230800d1e1c4dbd3c46fbaaba39541">MAIL_STATIONERY_GM</a></div><div class="ttdeci">@ MAIL_STATIONERY_GM</div><div class="ttdef"><b>Definition:</b> Mail.h:60</div></div>
+<div class="ttc" id="astruct_mail_html_a88588149be95899c2fc30b144c4425a6"><div class="ttname"><a href="../../df/d93/struct_mail.html#a88588149be95899c2fc30b144c4425a6">Mail::stationery</a></div><div class="ttdeci">uint8 stationery</div><div class="ttdef"><b>Definition:</b> Mail.h:171</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a387fbf2f51eb9414bbcead134f59fa53" name="a387fbf2f51eb9414bbcead134f59fa53"></a>
@@ -326,7 +346,10 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  208</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../df/d93/struct_mail.html#a240dfdc4b89b7cb806330460d5256a44">messageType</a> == <a class="code hl_enumvalue" href="../../d8/d23/_mail_8h.html#afb83216fd8c410f5d4bdfef0f9b302edaad2526a166df2caa50762ff348a2f54a">MAIL_NORMAL</a>; }</div>
+<div class="ttc" id="a_mail_8h_html_afb83216fd8c410f5d4bdfef0f9b302edaad2526a166df2caa50762ff348a2f54a"><div class="ttname"><a href="../../d8/d23/_mail_8h.html#afb83216fd8c410f5d4bdfef0f9b302edaad2526a166df2caa50762ff348a2f54a">MAIL_NORMAL</a></div><div class="ttdeci">@ MAIL_NORMAL</div><div class="ttdef"><b>Definition:</b> Mail.h:38</div></div>
+<div class="ttc" id="astruct_mail_html_a240dfdc4b89b7cb806330460d5256a44"><div class="ttname"><a href="../../df/d93/struct_mail.html#a240dfdc4b89b7cb806330460d5256a44">Mail::messageType</a></div><div class="ttdeci">uint8 messageType</div><div class="ttdef"><b>Definition:</b> Mail.h:170</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ab96701f1ab95184d78a1a91c87d0076c" name="ab96701f1ab95184d78a1a91c87d0076c"></a>
@@ -352,7 +375,18 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  195</span>    {</div>
+<div class="line"><span class="lineno">  196</span>        <span class="keywordflow">for</span> (MailItemInfoVec::iterator itr = <a class="code hl_variable" href="../../df/d93/struct_mail.html#aab1074d26d11d3216df8f7e6e9b8c1f7">items</a>.begin(); itr != <a class="code hl_variable" href="../../df/d93/struct_mail.html#aab1074d26d11d3216df8f7e6e9b8c1f7">items</a>.end(); ++itr)</div>
+<div class="line"><span class="lineno">  197</span>        {</div>
+<div class="line"><span class="lineno">  198</span>            <span class="keywordflow">if</span> (itr-&gt;item_guid == item_guid)</div>
+<div class="line"><span class="lineno">  199</span>            {</div>
+<div class="line"><span class="lineno">  200</span>                <a class="code hl_variable" href="../../df/d93/struct_mail.html#aab1074d26d11d3216df8f7e6e9b8c1f7">items</a>.erase(itr);</div>
+<div class="line"><span class="lineno">  201</span>                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  202</span>            }</div>
+<div class="line"><span class="lineno">  203</span>        }</div>
+<div class="line"><span class="lineno">  204</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  205</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -581,7 +615,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Mails/<a class="el" href="../../d8/d23/_mail_8h_source.html">Mail.h</a></li>
+<li><a class="el" href="../../">Mail.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -589,7 +623,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../df/d93/struct_mail.html">Mail</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:47 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:01 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

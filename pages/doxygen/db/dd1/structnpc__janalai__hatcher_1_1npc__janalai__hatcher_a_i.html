@@ -509,7 +509,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a3d270cf467a6e015022c35e82e54dc28" name="a3d270cf467a6e015022c35e82e54dc28"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3d270cf467a6e015022c35e82e54dc28">&#9670;&#160;</a></span>npc_janalai_hatcherAI()</h2>
 
@@ -533,7 +534,14 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  479</span>                                                  : <a class="code hl_struct" href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a>(creature)</div>
+<div class="line"><span class="lineno">  480</span>        {</div>
+<div class="line"><span class="lineno">  481</span>            <a class="code hl_variable" href="../../db/dd1/structnpc__janalai__hatcher_1_1npc__janalai__hatcher_a_i.html#ad61229797775c8ef843b0bfcd43fa892">instance</a> = creature-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">GetInstanceScript</a>();</div>
+<div class="line"><span class="lineno">  482</span>        }</div>
+<div class="ttc" id="aclass_world_object_html_a29762f86d0726e4d229df51281b9d710"><div class="ttname"><a href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">WorldObject::GetInstanceScript</a></div><div class="ttdeci">InstanceScript * GetInstanceScript() const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1192</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
+<div class="ttc" id="astructnpc__janalai__hatcher_1_1npc__janalai__hatcher_a_i_html_ad61229797775c8ef843b0bfcd43fa892"><div class="ttname"><a href="../../db/dd1/structnpc__janalai__hatcher_1_1npc__janalai__hatcher_a_i.html#ad61229797775c8ef843b0bfcd43fa892">npc_janalai_hatcher::npc_janalai_hatcherAI::instance</a></div><div class="ttdeci">InstanceScript * instance</div><div class="ttdef"><b>Definition:</b> boss_janalai.cpp:484</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -562,7 +570,8 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a4c91d8d2c1a6e8b234c1c4f15936c7a4">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  528</span>{ }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a1c438efa408937c1868b60ebb9ab5db7" name="a1c438efa408937c1868b60ebb9ab5db7"></a>
@@ -590,7 +599,8 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a35a9ca7c140474598325b0f2073f9bcd">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  527</span>{ }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a928f1303e78f72bd2042efa8401d0ef9" name="a928f1303e78f72bd2042efa8401d0ef9"></a>
@@ -616,7 +626,34 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  506</span>        {</div>
+<div class="line"><span class="lineno">  507</span>            std::list&lt;Creature*&gt; templist;</div>
+<div class="line"><span class="lineno">  508</span>            <span class="keywordtype">float</span> x, y, z;</div>
+<div class="line"><span class="lineno">  509</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#ad8e55f9b39618093aa625abe3a06e1ed">GetPosition</a>(x, y, z);</div>
+<div class="line"><span class="lineno">  510</span> </div>
+<div class="line"><span class="lineno">  511</span>            <a class="code hl_class" href="../../d9/df0/class_acore_1_1_all_creatures_of_entry_in_range.html">Acore::AllCreaturesOfEntryInRange</a> check(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, 23817, 50);</div>
+<div class="line"><span class="lineno">  512</span>            <a class="code hl_struct" href="../../de/d88/struct_acore_1_1_creature_list_searcher.html">Acore::CreatureListSearcher&lt;Acore::AllCreaturesOfEntryInRange&gt;</a> searcher(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, templist, check);</div>
+<div class="line"><span class="lineno">  513</span>            <a class="code hl_function" href="../../dc/d9f/struct_cell.html#a7040fac6edc9c2b742ff1d91f786afa0">Cell::VisitGridObjects</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, searcher, <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a3cce686d74d3ab3890a7de391698a106">GetGridActivationRange</a>());</div>
+<div class="line"><span class="lineno">  514</span> </div>
+<div class="line"><span class="lineno">  515</span>            <span class="comment">//LOG_ERROR(&quot;scripts&quot;, &quot;Eggs {} at {}&quot;, templist.size(), side);</span></div>
+<div class="line"><span class="lineno">  516</span> </div>
+<div class="line"><span class="lineno">  517</span>            <span class="keywordflow">for</span> (std::list&lt;Creature*&gt;::const_iterator i = templist.begin(); i != templist.end() &amp;&amp; num &gt; 0; ++i)</div>
+<div class="line"><span class="lineno">  518</span>                <span class="keywordflow">if</span> ((*i)-&gt;GetDisplayId() != 11686)</div>
+<div class="line"><span class="lineno">  519</span>                {</div>
+<div class="line"><span class="lineno">  520</span>                    (*i)-&gt;CastSpell(*i, <a class="code hl_enumvalue" href="../../d9/df1/boss__janalai_8cpp.html#a5bd342133be8c2137b831460acc9298cab10793ff9351cbc8570b0466a8bf5ba7">SPELL_HATCH_EGG</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  521</span>                    num--;</div>
+<div class="line"><span class="lineno">  522</span>                }</div>
+<div class="line"><span class="lineno">  523</span> </div>
+<div class="line"><span class="lineno">  524</span>            <span class="keywordflow">return</span> num == 0;   <span class="comment">// if num == 0, no more templist</span></div>
+<div class="line"><span class="lineno">  525</span>        }</div>
+<div class="ttc" id="aboss__janalai_8cpp_html_a5bd342133be8c2137b831460acc9298cab10793ff9351cbc8570b0466a8bf5ba7"><div class="ttname"><a href="../../d9/df1/boss__janalai_8cpp.html#a5bd342133be8c2137b831460acc9298cab10793ff9351cbc8570b0466a8bf5ba7">SPELL_HATCH_EGG</a></div><div class="ttdeci">@ SPELL_HATCH_EGG</div><div class="ttdef"><b>Definition:</b> boss_janalai.cpp:63</div></div>
+<div class="ttc" id="aclass_acore_1_1_all_creatures_of_entry_in_range_html"><div class="ttname"><a href="../../d9/df0/class_acore_1_1_all_creatures_of_entry_in_range.html">Acore::AllCreaturesOfEntryInRange</a></div><div class="ttdef"><b>Definition:</b> GridNotifiers.h:1460</div></div>
+<div class="ttc" id="aclass_world_object_html_a3cce686d74d3ab3890a7de391698a106"><div class="ttname"><a href="../../db/df7/class_world_object.html#a3cce686d74d3ab3890a7de391698a106">WorldObject::GetGridActivationRange</a></div><div class="ttdeci">float GetGridActivationRange() const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1623</div></div>
+<div class="ttc" id="astruct_acore_1_1_creature_list_searcher_html"><div class="ttname"><a href="../../de/d88/struct_acore_1_1_creature_list_searcher.html">Acore::CreatureListSearcher</a></div><div class="ttdef"><b>Definition:</b> GridNotifiers.h:470</div></div>
+<div class="ttc" id="astruct_cell_html_a7040fac6edc9c2b742ff1d91f786afa0"><div class="ttname"><a href="../../dc/d9f/struct_cell.html#a7040fac6edc9c2b742ff1d91f786afa0">Cell::VisitGridObjects</a></div><div class="ttdeci">static void VisitGridObjects(WorldObject const *obj, T &amp;visitor, float radius, bool dont_load=true)</div><div class="ttdef"><b>Definition:</b> CellImpl.h:179</div></div>
+<div class="ttc" id="astruct_position_html_ad8e55f9b39618093aa625abe3a06e1ed"><div class="ttname"><a href="../../d1/d26/struct_position.html#ad8e55f9b39618093aa625abe3a06e1ed">Position::GetPosition</a></div><div class="ttdeci">void GetPosition(float &amp;x, float &amp;y) const</div><div class="ttdef"><b>Definition:</b> Position.h:122</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="af7addf303a271cfa9019595feae81736" name="af7addf303a271cfa9019595feae81736"></a>
@@ -644,7 +681,8 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d2/d68/class_creature_a_i.html#a1280f8bcf72254ad31c453b810615f87">CreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  529</span>{ }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a7f2cf441c0e907c70522b669ef4ca0c0" name="a7f2cf441c0e907c70522b669ef4ca0c0"></a>
@@ -682,7 +720,21 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#ac737070ba7a8645d0e0ccf6bd6107004">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  532</span>        {</div>
+<div class="line"><span class="lineno">  533</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../db/dd1/structnpc__janalai__hatcher_1_1npc__janalai__hatcher_a_i.html#a8b70f745b04b89d2a5d0b26e13d8547d">waypoint</a> == 5)</div>
+<div class="line"><span class="lineno">  534</span>            {</div>
+<div class="line"><span class="lineno">  535</span>                <a class="code hl_variable" href="../../db/dd1/structnpc__janalai__hatcher_1_1npc__janalai__hatcher_a_i.html#a900cd2df92613299588e610b746110e3">isHatching</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  536</span>                <a class="code hl_variable" href="../../db/dd1/structnpc__janalai__hatcher_1_1npc__janalai__hatcher_a_i.html#af6b2e42ea3079a03939e372da4f8da0e">HatchNum</a> = 1;</div>
+<div class="line"><span class="lineno">  537</span>                <a class="code hl_variable" href="../../db/dd1/structnpc__janalai__hatcher_1_1npc__janalai__hatcher_a_i.html#a693413b4c513ce4bd226fde74ac5fb33">WaitTimer</a> = 5000;</div>
+<div class="line"><span class="lineno">  538</span>            }</div>
+<div class="line"><span class="lineno">  539</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  540</span>                <a class="code hl_variable" href="../../db/dd1/structnpc__janalai__hatcher_1_1npc__janalai__hatcher_a_i.html#a693413b4c513ce4bd226fde74ac5fb33">WaitTimer</a> = 1;</div>
+<div class="line"><span class="lineno">  541</span>        }</div>
+<div class="ttc" id="astructnpc__janalai__hatcher_1_1npc__janalai__hatcher_a_i_html_a693413b4c513ce4bd226fde74ac5fb33"><div class="ttname"><a href="../../db/dd1/structnpc__janalai__hatcher_1_1npc__janalai__hatcher_a_i.html#a693413b4c513ce4bd226fde74ac5fb33">npc_janalai_hatcher::npc_janalai_hatcherAI::WaitTimer</a></div><div class="ttdeci">uint32 WaitTimer</div><div class="ttdef"><b>Definition:</b> boss_janalai.cpp:488</div></div>
+<div class="ttc" id="astructnpc__janalai__hatcher_1_1npc__janalai__hatcher_a_i_html_a8b70f745b04b89d2a5d0b26e13d8547d"><div class="ttname"><a href="../../db/dd1/structnpc__janalai__hatcher_1_1npc__janalai__hatcher_a_i.html#a8b70f745b04b89d2a5d0b26e13d8547d">npc_janalai_hatcher::npc_janalai_hatcherAI::waypoint</a></div><div class="ttdeci">uint32 waypoint</div><div class="ttdef"><b>Definition:</b> boss_janalai.cpp:486</div></div>
+<div class="ttc" id="astructnpc__janalai__hatcher_1_1npc__janalai__hatcher_a_i_html_a900cd2df92613299588e610b746110e3"><div class="ttname"><a href="../../db/dd1/structnpc__janalai__hatcher_1_1npc__janalai__hatcher_a_i.html#a900cd2df92613299588e610b746110e3">npc_janalai_hatcher::npc_janalai_hatcherAI::isHatching</a></div><div class="ttdeci">bool isHatching</div><div class="ttdef"><b>Definition:</b> boss_janalai.cpp:492</div></div>
+<div class="ttc" id="astructnpc__janalai__hatcher_1_1npc__janalai__hatcher_a_i_html_af6b2e42ea3079a03939e372da4f8da0e"><div class="ttname"><a href="../../db/dd1/structnpc__janalai__hatcher_1_1npc__janalai__hatcher_a_i.html#af6b2e42ea3079a03939e372da4f8da0e">npc_janalai_hatcher::npc_janalai_hatcherAI::HatchNum</a></div><div class="ttdeci">uint32 HatchNum</div><div class="ttdef"><b>Definition:</b> boss_janalai.cpp:487</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="afe49715188823a34cfdf89765cd36c22" name="afe49715188823a34cfdf89765cd36c22"></a>
@@ -709,7 +761,20 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a26600c116d20a33461fc884bdb82eda9">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  495</span>        {</div>
+<div class="line"><span class="lineno">  496</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#acb4a26180cdcb2266736f6aea4a695d8">SetWalk</a>(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  497</span>            <a class="code hl_variable" href="../../db/dd1/structnpc__janalai__hatcher_1_1npc__janalai__hatcher_a_i.html#af14ebc131255abea247614fd5c8a122a">side</a> = (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">GetPositionY</a>() &lt; 1150);</div>
+<div class="line"><span class="lineno">  498</span>            <a class="code hl_variable" href="../../db/dd1/structnpc__janalai__hatcher_1_1npc__janalai__hatcher_a_i.html#a8b70f745b04b89d2a5d0b26e13d8547d">waypoint</a> = 0;</div>
+<div class="line"><span class="lineno">  499</span>            <a class="code hl_variable" href="../../db/dd1/structnpc__janalai__hatcher_1_1npc__janalai__hatcher_a_i.html#a900cd2df92613299588e610b746110e3">isHatching</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  500</span>            <a class="code hl_variable" href="../../db/dd1/structnpc__janalai__hatcher_1_1npc__janalai__hatcher_a_i.html#a170b861c8de7f09583c3e7ad5f1a44d9">hasChangedSide</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  501</span>            <a class="code hl_variable" href="../../db/dd1/structnpc__janalai__hatcher_1_1npc__janalai__hatcher_a_i.html#a693413b4c513ce4bd226fde74ac5fb33">WaitTimer</a> = 1;</div>
+<div class="line"><span class="lineno">  502</span>            <a class="code hl_variable" href="../../db/dd1/structnpc__janalai__hatcher_1_1npc__janalai__hatcher_a_i.html#af6b2e42ea3079a03939e372da4f8da0e">HatchNum</a> = 0;</div>
+<div class="line"><span class="lineno">  503</span>        }</div>
+<div class="ttc" id="aclass_creature_html_acb4a26180cdcb2266736f6aea4a695d8"><div class="ttname"><a href="../../d1/dac/class_creature.html#acb4a26180cdcb2266736f6aea4a695d8">Creature::SetWalk</a></div><div class="ttdeci">bool SetWalk(bool enable) override</div><div class="ttdef"><b>Definition:</b> Creature.cpp:3053</div></div>
+<div class="ttc" id="astruct_position_html_ae79fc664f6cd027f5d49f6c7df8e4c9e"><div class="ttname"><a href="../../d1/d26/struct_position.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">Position::GetPositionY</a></div><div class="ttdeci">float GetPositionY() const</div><div class="ttdef"><b>Definition:</b> Position.h:118</div></div>
+<div class="ttc" id="astructnpc__janalai__hatcher_1_1npc__janalai__hatcher_a_i_html_a170b861c8de7f09583c3e7ad5f1a44d9"><div class="ttname"><a href="../../db/dd1/structnpc__janalai__hatcher_1_1npc__janalai__hatcher_a_i.html#a170b861c8de7f09583c3e7ad5f1a44d9">npc_janalai_hatcher::npc_janalai_hatcherAI::hasChangedSide</a></div><div class="ttdeci">bool hasChangedSide</div><div class="ttdef"><b>Definition:</b> boss_janalai.cpp:491</div></div>
+<div class="ttc" id="astructnpc__janalai__hatcher_1_1npc__janalai__hatcher_a_i_html_af14ebc131255abea247614fd5c8a122a"><div class="ttname"><a href="../../db/dd1/structnpc__janalai__hatcher_1_1npc__janalai__hatcher_a_i.html#af14ebc131255abea247614fd5c8a122a">npc_janalai_hatcher::npc_janalai_hatcherAI::side</a></div><div class="ttdeci">bool side</div><div class="ttdef"><b>Definition:</b> boss_janalai.cpp:490</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a3d4bad056219a9028ab77ea66a23faac" name="a3d4bad056219a9028ab77ea66a23faac"></a>
@@ -737,7 +802,56 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#aff5fd4e142a5cf930ffacbfc7259cce5">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  544</span>        {</div>
+<div class="line"><span class="lineno">  545</span>            <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../db/dd1/structnpc__janalai__hatcher_1_1npc__janalai__hatcher_a_i.html#ad61229797775c8ef843b0bfcd43fa892">instance</a> || <a class="code hl_variable" href="../../db/dd1/structnpc__janalai__hatcher_1_1npc__janalai__hatcher_a_i.html#ad61229797775c8ef843b0bfcd43fa892">instance</a>-&gt;<a class="code hl_function" href="../../df/dad/class_zone_script.html#a8997612fdbdacbf5e28e4de60d03e805">GetData</a>(<a class="code hl_enumvalue" href="../../d9/d98/zulaman_8h.html#afb6eb4f28419b652027fad41104a6d22a29a5f1b91c8ce6e5ded592bc1a15e16f">DATA_JANALAIEVENT</a>) != <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012">IN_PROGRESS</a>)</div>
+<div class="line"><span class="lineno">  546</span>            {</div>
+<div class="line"><span class="lineno">  547</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#afb2c9a581a6cb7f5e4ad66e3f5086002">DisappearAndDie</a>();</div>
+<div class="line"><span class="lineno">  548</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  549</span>            }</div>
+<div class="line"><span class="lineno">  550</span> </div>
+<div class="line"><span class="lineno">  551</span>            <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../db/dd1/structnpc__janalai__hatcher_1_1npc__janalai__hatcher_a_i.html#a900cd2df92613299588e610b746110e3">isHatching</a>)</div>
+<div class="line"><span class="lineno">  552</span>            {</div>
+<div class="line"><span class="lineno">  553</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../db/dd1/structnpc__janalai__hatcher_1_1npc__janalai__hatcher_a_i.html#a693413b4c513ce4bd226fde74ac5fb33">WaitTimer</a>)</div>
+<div class="line"><span class="lineno">  554</span>                {</div>
+<div class="line"><span class="lineno">  555</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../df/d4d/class_motion_master.html#afa6ffa9c5d6897f3aad3ac524c7bb35a">Clear</a>();</div>
+<div class="line"><span class="lineno">  556</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../df/d4d/class_motion_master.html#a903a48c63482ebbd45d63272b218df7f">MovePoint</a>(0, <a class="code hl_variable" href="../../d9/df1/boss__janalai_8cpp.html#a00800b4fe993abdc191ef3018b058ecb">hatcherway</a>[<a class="code hl_variable" href="../../db/dd1/structnpc__janalai__hatcher_1_1npc__janalai__hatcher_a_i.html#af14ebc131255abea247614fd5c8a122a">side</a>][<a class="code hl_variable" href="../../db/dd1/structnpc__janalai__hatcher_1_1npc__janalai__hatcher_a_i.html#a8b70f745b04b89d2a5d0b26e13d8547d">waypoint</a>][0], <a class="code hl_variable" href="../../d9/df1/boss__janalai_8cpp.html#a00800b4fe993abdc191ef3018b058ecb">hatcherway</a>[<a class="code hl_variable" href="../../db/dd1/structnpc__janalai__hatcher_1_1npc__janalai__hatcher_a_i.html#af14ebc131255abea247614fd5c8a122a">side</a>][<a class="code hl_variable" href="../../db/dd1/structnpc__janalai__hatcher_1_1npc__janalai__hatcher_a_i.html#a8b70f745b04b89d2a5d0b26e13d8547d">waypoint</a>][1], <a class="code hl_variable" href="../../d9/df1/boss__janalai_8cpp.html#a00800b4fe993abdc191ef3018b058ecb">hatcherway</a>[<a class="code hl_variable" href="../../db/dd1/structnpc__janalai__hatcher_1_1npc__janalai__hatcher_a_i.html#af14ebc131255abea247614fd5c8a122a">side</a>][<a class="code hl_variable" href="../../db/dd1/structnpc__janalai__hatcher_1_1npc__janalai__hatcher_a_i.html#a8b70f745b04b89d2a5d0b26e13d8547d">waypoint</a>][2]);</div>
+<div class="line"><span class="lineno">  557</span>                    ++<a class="code hl_variable" href="../../db/dd1/structnpc__janalai__hatcher_1_1npc__janalai__hatcher_a_i.html#a8b70f745b04b89d2a5d0b26e13d8547d">waypoint</a>;</div>
+<div class="line"><span class="lineno">  558</span>                    <a class="code hl_variable" href="../../db/dd1/structnpc__janalai__hatcher_1_1npc__janalai__hatcher_a_i.html#a693413b4c513ce4bd226fde74ac5fb33">WaitTimer</a> = 0;</div>
+<div class="line"><span class="lineno">  559</span>                }</div>
+<div class="line"><span class="lineno">  560</span>            }</div>
+<div class="line"><span class="lineno">  561</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  562</span>            {</div>
+<div class="line"><span class="lineno">  563</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../db/dd1/structnpc__janalai__hatcher_1_1npc__janalai__hatcher_a_i.html#a693413b4c513ce4bd226fde74ac5fb33">WaitTimer</a> &lt;= diff)</div>
+<div class="line"><span class="lineno">  564</span>                {</div>
+<div class="line"><span class="lineno">  565</span>                    <span class="keywordflow">if</span> (<a class="code hl_function" href="../../db/dd1/structnpc__janalai__hatcher_1_1npc__janalai__hatcher_a_i.html#a928f1303e78f72bd2042efa8401d0ef9">HatchEggs</a>(<a class="code hl_variable" href="../../db/dd1/structnpc__janalai__hatcher_1_1npc__janalai__hatcher_a_i.html#af6b2e42ea3079a03939e372da4f8da0e">HatchNum</a>))</div>
+<div class="line"><span class="lineno">  566</span>                    {</div>
+<div class="line"><span class="lineno">  567</span>                        ++<a class="code hl_variable" href="../../db/dd1/structnpc__janalai__hatcher_1_1npc__janalai__hatcher_a_i.html#af6b2e42ea3079a03939e372da4f8da0e">HatchNum</a>;</div>
+<div class="line"><span class="lineno">  568</span>                        <a class="code hl_variable" href="../../db/dd1/structnpc__janalai__hatcher_1_1npc__janalai__hatcher_a_i.html#a693413b4c513ce4bd226fde74ac5fb33">WaitTimer</a> = 10000;</div>
+<div class="line"><span class="lineno">  569</span>                    }</div>
+<div class="line"><span class="lineno">  570</span>                    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../db/dd1/structnpc__janalai__hatcher_1_1npc__janalai__hatcher_a_i.html#a170b861c8de7f09583c3e7ad5f1a44d9">hasChangedSide</a>)</div>
+<div class="line"><span class="lineno">  571</span>                    {</div>
+<div class="line"><span class="lineno">  572</span>                        <a class="code hl_variable" href="../../db/dd1/structnpc__janalai__hatcher_1_1npc__janalai__hatcher_a_i.html#af14ebc131255abea247614fd5c8a122a">side</a> = <a class="code hl_variable" href="../../db/dd1/structnpc__janalai__hatcher_1_1npc__janalai__hatcher_a_i.html#af14ebc131255abea247614fd5c8a122a">side</a> ? 0 : 1;</div>
+<div class="line"><span class="lineno">  573</span>                        <a class="code hl_variable" href="../../db/dd1/structnpc__janalai__hatcher_1_1npc__janalai__hatcher_a_i.html#a900cd2df92613299588e610b746110e3">isHatching</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  574</span>                        <a class="code hl_variable" href="../../db/dd1/structnpc__janalai__hatcher_1_1npc__janalai__hatcher_a_i.html#a8b70f745b04b89d2a5d0b26e13d8547d">waypoint</a> = 3;</div>
+<div class="line"><span class="lineno">  575</span>                        <a class="code hl_variable" href="../../db/dd1/structnpc__janalai__hatcher_1_1npc__janalai__hatcher_a_i.html#a693413b4c513ce4bd226fde74ac5fb33">WaitTimer</a> = 1;</div>
+<div class="line"><span class="lineno">  576</span>                        <a class="code hl_variable" href="../../db/dd1/structnpc__janalai__hatcher_1_1npc__janalai__hatcher_a_i.html#a170b861c8de7f09583c3e7ad5f1a44d9">hasChangedSide</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  577</span>                    }</div>
+<div class="line"><span class="lineno">  578</span>                    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  579</span>                        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#afb2c9a581a6cb7f5e4ad66e3f5086002">DisappearAndDie</a>();</div>
+<div class="line"><span class="lineno">  580</span>                }</div>
+<div class="line"><span class="lineno">  581</span>                <span class="keywordflow">else</span> <a class="code hl_variable" href="../../db/dd1/structnpc__janalai__hatcher_1_1npc__janalai__hatcher_a_i.html#a693413b4c513ce4bd226fde74ac5fb33">WaitTimer</a> -= diff;</div>
+<div class="line"><span class="lineno">  582</span>            }</div>
+<div class="line"><span class="lineno">  583</span>        }</div>
+<div class="ttc" id="a_instance_script_8h_html_a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012">IN_PROGRESS</a></div><div class="ttdeci">@ IN_PROGRESS</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:57</div></div>
+<div class="ttc" id="aboss__janalai_8cpp_html_a00800b4fe993abdc191ef3018b058ecb"><div class="ttname"><a href="../../d9/df1/boss__janalai_8cpp.html#a00800b4fe993abdc191ef3018b058ecb">hatcherway</a></div><div class="ttdeci">float hatcherway[2][5][3]</div><div class="ttdef"><b>Definition:</b> boss_janalai.cpp:94</div></div>
+<div class="ttc" id="aclass_creature_html_afb2c9a581a6cb7f5e4ad66e3f5086002"><div class="ttname"><a href="../../d1/dac/class_creature.html#afb2c9a581a6cb7f5e4ad66e3f5086002">Creature::DisappearAndDie</a></div><div class="ttdeci">void DisappearAndDie()</div><div class="ttdef"><b>Definition:</b> Creature.cpp:317</div></div>
+<div class="ttc" id="aclass_motion_master_html_a903a48c63482ebbd45d63272b218df7f"><div class="ttname"><a href="../../df/d4d/class_motion_master.html#a903a48c63482ebbd45d63272b218df7f">MotionMaster::MovePoint</a></div><div class="ttdeci">void MovePoint(uint32 id, const Position &amp;pos, bool generatePath=true, bool forceDestination=true)</div><div class="ttdef"><b>Definition:</b> MotionMaster.h:210</div></div>
+<div class="ttc" id="aclass_motion_master_html_afa6ffa9c5d6897f3aad3ac524c7bb35a"><div class="ttname"><a href="../../df/d4d/class_motion_master.html#afa6ffa9c5d6897f3aad3ac524c7bb35a">MotionMaster::Clear</a></div><div class="ttdeci">void Clear(bool reset=true)</div><div class="ttdef"><b>Definition:</b> MotionMaster.h:165</div></div>
+<div class="ttc" id="aclass_unit_html_a4a04a3f22c3b0d6f4933993ac0cc7aa4"><div class="ttname"><a href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">Unit::GetMotionMaster</a></div><div class="ttdeci">MotionMaster * GetMotionMaster()</div><div class="ttdef"><b>Definition:</b> Unit.h:2257</div></div>
+<div class="ttc" id="aclass_zone_script_html_a8997612fdbdacbf5e28e4de60d03e805"><div class="ttname"><a href="../../df/dad/class_zone_script.html#a8997612fdbdacbf5e28e4de60d03e805">ZoneScript::GetData</a></div><div class="ttdeci">virtual uint32 GetData(uint32) const</div><div class="ttdef"><b>Definition:</b> ZoneScript.h:52</div></div>
+<div class="ttc" id="astructnpc__janalai__hatcher_1_1npc__janalai__hatcher_a_i_html_a928f1303e78f72bd2042efa8401d0ef9"><div class="ttname"><a href="../../db/dd1/structnpc__janalai__hatcher_1_1npc__janalai__hatcher_a_i.html#a928f1303e78f72bd2042efa8401d0ef9">npc_janalai_hatcher::npc_janalai_hatcherAI::HatchEggs</a></div><div class="ttdeci">bool HatchEggs(uint32 num)</div><div class="ttdef"><b>Definition:</b> boss_janalai.cpp:505</div></div>
+<div class="ttc" id="azulaman_8h_html_afb6eb4f28419b652027fad41104a6d22a29a5f1b91c8ce6e5ded592bc1a15e16f"><div class="ttname"><a href="../../d9/d98/zulaman_8h.html#afb6eb4f28419b652027fad41104a6d22a29a5f1b91c8ce6e5ded592bc1a15e16f">DATA_JANALAIEVENT</a></div><div class="ttdeci">@ DATA_JANALAIEVENT</div><div class="ttdef"><b>Definition:</b> zulaman.h:30</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -840,7 +954,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/EasternKingdoms/ZulAman/<a class="el" href="../../d9/df1/boss__janalai_8cpp.html">boss_janalai.cpp</a></li>
+<li><a class="el" href="../../">boss_janalai.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -848,7 +962,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../da/d22/classnpc__janalai__hatcher.html">npc_janalai_hatcher</a></li><li class="navelem"><a class="el" href="../../db/dd1/structnpc__janalai__hatcher_1_1npc__janalai__hatcher_a_i.html">npc_janalai_hatcherAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:51 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:07 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

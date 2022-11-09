@@ -189,7 +189,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a2d6cf85d1eb98438b5022804296eff11 inherit pro_methods_class_updatable_script"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dff/class_updatable_script.html#a2d6cf85d1eb98438b5022804296eff11">UpdatableScript</a> ()=default</td></tr>
 <tr class="separator:a2d6cf85d1eb98438b5022804296eff11 inherit pro_methods_class_updatable_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ad6ca047a51547203ee2c5f69efb6f2d3" name="ad6ca047a51547203ee2c5f69efb6f2d3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad6ca047a51547203ee2c5f69efb6f2d3">&#9670;&#160;</a></span>npc_wg_spirit_guide()</h2>
 
@@ -212,7 +213,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  210</span>: <a class="code hl_class" href="../../d5/dca/class_creature_script.html">CreatureScript</a>(<span class="stringliteral">&quot;npc_wg_spirit_guide&quot;</span>) { }</div>
+<div class="ttc" id="aclass_creature_script_html"><div class="ttname"><a href="../../d5/dca/class_creature_script.html">CreatureScript</a></div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:718</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -241,7 +244,10 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d5/dca/class_creature_script.html#a24ba3529655943afdf6598450d14e6c2">CreatureScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  261</span>    {</div>
+<div class="line"><span class="lineno">  262</span>        <span class="keywordflow">return</span> <span class="keyword">new</span> npc_wg_spirit_guideAI(creature);</div>
+<div class="line"><span class="lineno">  263</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2d46078cb47f817239685d168f7f2e35" name="a2d46078cb47f817239685d168f7f2e35"></a>
@@ -279,7 +285,41 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d5/dca/class_creature_script.html#a6268b132444845302ada504f48629a4f">CreatureScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  213</span>    {</div>
+<div class="line"><span class="lineno">  214</span>        <span class="keywordflow">if</span> (creature-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a66aca559340b09926d956b58773398cb">IsQuestGiver</a>())</div>
+<div class="line"><span class="lineno">  215</span>            player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#aa352798726d935f9e76f97137e47ee33">PrepareQuestMenu</a>(creature-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>());</div>
+<div class="line"><span class="lineno">  216</span> </div>
+<div class="line"><span class="lineno">  217</span>        <a class="code hl_class" href="../../d3/d42/class_battlefield.html">Battlefield</a>* wintergrasp = <a class="code hl_define" href="../../dc/df4/_battlefield_mgr_8h.html#a4545b2a440043037e8dad52c0f644f48">sBattlefieldMgr</a>-&gt;GetBattlefieldByBattleId(<a class="code hl_enumvalue" href="../../d0/d88/_battlefield_8h.html#aff53bf428d550c270744c9a188d4187fa38e75e8c40750cb29f0d478d19974010">BATTLEFIELD_BATTLEID_WG</a>);</div>
+<div class="line"><span class="lineno">  218</span>        <span class="keywordflow">if</span> (!wintergrasp)</div>
+<div class="line"><span class="lineno">  219</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  220</span> </div>
+<div class="line"><span class="lineno">  221</span>        <a class="code hl_typedef" href="../../d0/d88/_battlefield_8h.html#a3c001cdd2e1b762c5c2bdd6814e59f6c">GraveyardVect</a> graveyard = wintergrasp-&gt;<a class="code hl_function" href="../../d3/d42/class_battlefield.html#ad440f93620c9d4965aad3562b9078a8f">GetGraveyardVector</a>();</div>
+<div class="line"><span class="lineno">  222</span>        <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> i = 0; i &lt; graveyard.size(); i++)</div>
+<div class="line"><span class="lineno">  223</span>            <span class="keywordflow">if</span> (graveyard[i]-&gt;GetControlTeamId() == player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a4874f5c152e187c381c2a349f16aa0d4">GetTeamId</a>())</div>
+<div class="line"><span class="lineno">  224</span>                <a class="code hl_function" href="../../d6/df2/_scripted_gossip_8cpp.html#a1d54254ae4ddb1bb0e9e2c74dffe5bf5">AddGossipItemFor</a>(player, <a class="code hl_enumvalue" href="../../de/d79/_gossip_def_8h.html#a31ddf0cc0674d4ee32d9c78aa90b097ea1a460e97e269ca0a62d06279484d4428">GOSSIP_ICON_CHAT</a>, <a class="code hl_define" href="../../d9/d77/_object_mgr_8h.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetAcoreStringForDBCLocale(((<a class="code hl_class" href="../../d5/def/class_bf_graveyard_w_g.html">BfGraveyardWG</a>*)graveyard[i])-&gt;GetTextId()), <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da650f01832933ccb3735a38413b779452">GOSSIP_SENDER_MAIN</a>, <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36daf5e2b26c787b79ef696a69604bb85fd8">GOSSIP_ACTION_INFO_DEF</a> + i);</div>
+<div class="line"><span class="lineno">  225</span> </div>
+<div class="line"><span class="lineno">  226</span>        <a class="code hl_function" href="../../d6/df2/_scripted_gossip_8cpp.html#a18599cfc6649557de0d505ed4d4a0210">SendGossipMenuFor</a>(player, player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#ae22a64659346d2a5017d4b47e796146c">GetGossipTextId</a>(creature), creature-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>());</div>
+<div class="line"><span class="lineno">  227</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  228</span>    }</div>
+<div class="ttc" id="a_battlefield_8h_html_a3c001cdd2e1b762c5c2bdd6814e59f6c"><div class="ttname"><a href="../../d0/d88/_battlefield_8h.html#a3c001cdd2e1b762c5c2bdd6814e59f6c">GraveyardVect</a></div><div class="ttdeci">std::vector&lt; BfGraveyard * &gt; GraveyardVect</div><div class="ttdef"><b>Definition:</b> Battlefield.h:76</div></div>
+<div class="ttc" id="a_battlefield_8h_html_aff53bf428d550c270744c9a188d4187fa38e75e8c40750cb29f0d478d19974010"><div class="ttname"><a href="../../d0/d88/_battlefield_8h.html#aff53bf428d550c270744c9a188d4187fa38e75e8c40750cb29f0d478d19974010">BATTLEFIELD_BATTLEID_WG</a></div><div class="ttdeci">@ BATTLEFIELD_BATTLEID_WG</div><div class="ttdef"><b>Definition:</b> Battlefield.h:37</div></div>
+<div class="ttc" id="a_battlefield_mgr_8h_html_a4545b2a440043037e8dad52c0f644f48"><div class="ttname"><a href="../../dc/df4/_battlefield_mgr_8h.html#a4545b2a440043037e8dad52c0f644f48">sBattlefieldMgr</a></div><div class="ttdeci">#define sBattlefieldMgr</div><div class="ttdef"><b>Definition:</b> BattlefieldMgr.h:77</div></div>
+<div class="ttc" id="a_define_8h_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:110</div></div>
+<div class="ttc" id="a_gossip_def_8h_html_a31ddf0cc0674d4ee32d9c78aa90b097ea1a460e97e269ca0a62d06279484d4428"><div class="ttname"><a href="../../de/d79/_gossip_def_8h.html#a31ddf0cc0674d4ee32d9c78aa90b097ea1a460e97e269ca0a62d06279484d4428">GOSSIP_ICON_CHAT</a></div><div class="ttdeci">@ GOSSIP_ICON_CHAT</div><div class="ttdef"><b>Definition:</b> GossipDef.h:60</div></div>
+<div class="ttc" id="a_object_mgr_8h_html_a736e30da2b5261060ac6cdbb5de3b787"><div class="ttname"><a href="../../d9/d77/_object_mgr_8h.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a></div><div class="ttdeci">#define sObjectMgr</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:1606</div></div>
+<div class="ttc" id="a_scripted_gossip_8cpp_html_a18599cfc6649557de0d505ed4d4a0210"><div class="ttname"><a href="../../d6/df2/_scripted_gossip_8cpp.html#a18599cfc6649557de0d505ed4d4a0210">SendGossipMenuFor</a></div><div class="ttdeci">void SendGossipMenuFor(Player *player, uint32 npcTextID, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.cpp:45</div></div>
+<div class="ttc" id="a_scripted_gossip_8cpp_html_a1d54254ae4ddb1bb0e9e2c74dffe5bf5"><div class="ttname"><a href="../../d6/df2/_scripted_gossip_8cpp.html#a1d54254ae4ddb1bb0e9e2c74dffe5bf5">AddGossipItemFor</a></div><div class="ttdeci">void AddGossipItemFor(Player *player, uint32 icon, std::string const &amp;text, uint32 sender, uint32 action)</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.cpp:28</div></div>
+<div class="ttc" id="a_scripted_gossip_8h_html_ac61a667541c1c7c94a9aeb407e34d36da650f01832933ccb3735a38413b779452"><div class="ttname"><a href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da650f01832933ccb3735a38413b779452">GOSSIP_SENDER_MAIN</a></div><div class="ttdeci">@ GOSSIP_SENDER_MAIN</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.h:70</div></div>
+<div class="ttc" id="a_scripted_gossip_8h_html_ac61a667541c1c7c94a9aeb407e34d36daf5e2b26c787b79ef696a69604bb85fd8"><div class="ttname"><a href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36daf5e2b26c787b79ef696a69604bb85fd8">GOSSIP_ACTION_INFO_DEF</a></div><div class="ttdeci">@ GOSSIP_ACTION_INFO_DEF</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.h:68</div></div>
+<div class="ttc" id="aclass_battlefield_html"><div class="ttname"><a href="../../d3/d42/class_battlefield.html">Battlefield</a></div><div class="ttdef"><b>Definition:</b> Battlefield.h:205</div></div>
+<div class="ttc" id="aclass_battlefield_html_ad440f93620c9d4965aad3562b9078a8f"><div class="ttname"><a href="../../d3/d42/class_battlefield.html#ad440f93620c9d4965aad3562b9078a8f">Battlefield::GetGraveyardVector</a></div><div class="ttdeci">GraveyardVect GetGraveyardVector()</div><div class="ttdef"><b>Definition:</b> Battlefield.h:351</div></div>
+<div class="ttc" id="aclass_bf_graveyard_w_g_html"><div class="ttname"><a href="../../d5/def/class_bf_graveyard_w_g.html">BfGraveyardWG</a></div><div class="ttdef"><b>Definition:</b> BattlefieldWG.h:134</div></div>
+<div class="ttc" id="aclass_object_html_ad23b997e2442fa6a6228ba73a7ecc138"><div class="ttname"><a href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">Object::GetGUID</a></div><div class="ttdeci">static ObjectGuid GetGUID(Object const *o)</div><div class="ttdef"><b>Definition:</b> Object.h:106</div></div>
+<div class="ttc" id="aclass_player_html_a4874f5c152e187c381c2a349f16aa0d4"><div class="ttname"><a href="../../d8/d53/class_player.html#a4874f5c152e187c381c2a349f16aa0d4">Player::GetTeamId</a></div><div class="ttdeci">TeamId GetTeamId(bool original=false) const</div><div class="ttdef"><b>Definition:</b> Player.h:2058</div></div>
+<div class="ttc" id="aclass_player_html_aa352798726d935f9e76f97137e47ee33"><div class="ttname"><a href="../../d8/d53/class_player.html#aa352798726d935f9e76f97137e47ee33">Player::PrepareQuestMenu</a></div><div class="ttdeci">void PrepareQuestMenu(ObjectGuid guid)</div><div class="ttdef"><b>Definition:</b> PlayerQuest.cpp:38</div></div>
+<div class="ttc" id="aclass_player_html_ae22a64659346d2a5017d4b47e796146c"><div class="ttname"><a href="../../d8/d53/class_player.html#ae22a64659346d2a5017d4b47e796146c">Player::GetGossipTextId</a></div><div class="ttdeci">uint32 GetGossipTextId(uint32 menuId, WorldObject *source)</div><div class="ttdef"><b>Definition:</b> PlayerGossip.cpp:405</div></div>
+<div class="ttc" id="aclass_unit_html_a66aca559340b09926d956b58773398cb"><div class="ttname"><a href="../../da/db7/class_unit.html#a66aca559340b09926d956b58773398cb">Unit::IsQuestGiver</a></div><div class="ttdeci">bool IsQuestGiver() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1650</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aae050d38b9fa9c16d398d2733b1e5faf" name="aae050d38b9fa9c16d398d2733b1e5faf"></a>
@@ -329,11 +369,29 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d5/dca/class_creature_script.html#a30f160576b4cb97d940ecf3468834667">CreatureScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  231</span>    {</div>
+<div class="line"><span class="lineno">  232</span>        <a class="code hl_function" href="../../d6/df2/_scripted_gossip_8cpp.html#af8f7e54dac5ecc86e92d780c3918cb09">CloseGossipMenuFor</a>(player);</div>
+<div class="line"><span class="lineno">  233</span> </div>
+<div class="line"><span class="lineno">  234</span>        <a class="code hl_class" href="../../d3/d42/class_battlefield.html">Battlefield</a>* wintergrasp = <a class="code hl_define" href="../../dc/df4/_battlefield_mgr_8h.html#a4545b2a440043037e8dad52c0f644f48">sBattlefieldMgr</a>-&gt;GetBattlefieldByBattleId(<a class="code hl_enumvalue" href="../../d0/d88/_battlefield_8h.html#aff53bf428d550c270744c9a188d4187fa38e75e8c40750cb29f0d478d19974010">BATTLEFIELD_BATTLEID_WG</a>);</div>
+<div class="line"><span class="lineno">  235</span>        <span class="keywordflow">if</span> (wintergrasp)</div>
+<div class="line"><span class="lineno">  236</span>        {</div>
+<div class="line"><span class="lineno">  237</span>            <a class="code hl_typedef" href="../../d0/d88/_battlefield_8h.html#a3c001cdd2e1b762c5c2bdd6814e59f6c">GraveyardVect</a> gy = wintergrasp-&gt;<a class="code hl_function" href="../../d3/d42/class_battlefield.html#ad440f93620c9d4965aad3562b9078a8f">GetGraveyardVector</a>();</div>
+<div class="line"><span class="lineno">  238</span>            <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> i = 0; i &lt; gy.size(); i++)</div>
+<div class="line"><span class="lineno">  239</span>                <span class="keywordflow">if</span> (action - <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36daf5e2b26c787b79ef696a69604bb85fd8">GOSSIP_ACTION_INFO_DEF</a> == i &amp;&amp; gy[i]-&gt;GetControlTeamId() == player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a4874f5c152e187c381c2a349f16aa0d4">GetTeamId</a>())</div>
+<div class="line"><span class="lineno">  240</span>                    <span class="keywordflow">if</span> (<a class="code hl_struct" href="../../d5/d7a/struct_graveyard_struct.html">GraveyardStruct</a> <span class="keyword">const</span>* safeLoc = <a class="code hl_define" href="../../d4/d05/_game_graveyard_8h.html#ac68c2a63982a6142e1931450d7b6115c">sGraveyard</a>-&gt;GetGraveyard(gy[i]-&gt;GetGraveyardId()))</div>
+<div class="line"><span class="lineno">  241</span>                        player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#aa2eae30c1e0af118b9a6b5db0a1929b7">TeleportTo</a>(safeLoc-&gt;Map, safeLoc-&gt;x, safeLoc-&gt;y, safeLoc-&gt;z, 0);</div>
+<div class="line"><span class="lineno">  242</span>        }</div>
+<div class="line"><span class="lineno">  243</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  244</span>    }</div>
+<div class="ttc" id="a_game_graveyard_8h_html_ac68c2a63982a6142e1931450d7b6115c"><div class="ttname"><a href="../../d4/d05/_game_graveyard_8h.html#ac68c2a63982a6142e1931450d7b6115c">sGraveyard</a></div><div class="ttdeci">#define sGraveyard</div><div class="ttdef"><b>Definition:</b> GameGraveyard.h:75</div></div>
+<div class="ttc" id="a_scripted_gossip_8cpp_html_af8f7e54dac5ecc86e92d780c3918cb09"><div class="ttname"><a href="../../d6/df2/_scripted_gossip_8cpp.html#af8f7e54dac5ecc86e92d780c3918cb09">CloseGossipMenuFor</a></div><div class="ttdeci">void CloseGossipMenuFor(Player *player)</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.cpp:56</div></div>
+<div class="ttc" id="aclass_player_html_aa2eae30c1e0af118b9a6b5db0a1929b7"><div class="ttname"><a href="../../d8/d53/class_player.html#aa2eae30c1e0af118b9a6b5db0a1929b7">Player::TeleportTo</a></div><div class="ttdeci">bool TeleportTo(uint32 mapid, float x, float y, float z, float orientation, uint32 options=0, Unit *target=nullptr, bool newInstance=false)</div><div class="ttdef"><b>Definition:</b> Player.cpp:1311</div></div>
+<div class="ttc" id="astruct_graveyard_struct_html"><div class="ttname"><a href="../../d5/d7a/struct_graveyard_struct.html">GraveyardStruct</a></div><div class="ttdef"><b>Definition:</b> GameGraveyard.h:28</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/<a class="el" href="../../d8/dd9/zone__wintergrasp_8cpp.html">zone_wintergrasp.cpp</a></li>
+<li><a class="el" href="../../">zone_wintergrasp.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -341,7 +399,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../da/d89/classnpc__wg__spirit__guide.html">npc_wg_spirit_guide</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:56 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:12 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

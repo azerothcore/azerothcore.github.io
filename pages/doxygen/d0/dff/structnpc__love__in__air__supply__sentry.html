@@ -487,7 +487,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ab2742c3be0ed661a509b9eb32326bee5" name="ab2742c3be0ed661a509b9eb32326bee5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab2742c3be0ed661a509b9eb32326bee5">&#9670;&#160;</a></span>npc_love_in_air_supply_sentry()</h2>
 
@@ -511,7 +512,12 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   59</span>                                                      : <a class="code hl_struct" href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a>(creature), <a class="code hl_variable" href="../../d0/dff/structnpc__love__in__air__supply__sentry.html#a59bf67b114014542538165c21aa109a6">lock</a>(0)</div>
+<div class="line"><span class="lineno">   60</span>    {</div>
+<div class="line"><span class="lineno">   61</span>    }</div>
+<div class="ttc" id="astruct_scripted_a_i_html"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
+<div class="ttc" id="astructnpc__love__in__air__supply__sentry_html_a59bf67b114014542538165c21aa109a6"><div class="ttname"><a href="../../d0/dff/structnpc__love__in__air__supply__sentry.html#a59bf67b114014542538165c21aa109a6">npc_love_in_air_supply_sentry::lock</a></div><div class="ttdeci">uint32 lock</div><div class="ttdef"><b>Definition:</b> love_in_air.cpp:63</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -540,7 +546,50 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d2/d68/class_creature_a_i.html#a1280f8bcf72254ad31c453b810615f87">CreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   66</span>    {</div>
+<div class="line"><span class="lineno">   67</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d0/dff/structnpc__love__in__air__supply__sentry.html#a59bf67b114014542538165c21aa109a6">lock</a> &gt; 1000 &amp;&amp; <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#acaa0cccbbb9cac74080c8279a571a68c">GetDistance</a>(who) &lt; 10.0f &amp;&amp; who-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">GetTypeId</a>() == <a class="code hl_enumvalue" href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a> &amp;&amp; who-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a69c5ac45b65cf0dede6e0ee837361f61">HasAura</a>(<a class="code hl_enumvalue" href="../../db/d67/love__in__air_8cpp.html#a5bd342133be8c2137b831460acc9298cabdefc9e5e372c961e5ecc8c9f08597ee">SPELL_GOBLIN_DISGUISE</a>) &amp;&amp; !who-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a69c5ac45b65cf0dede6e0ee837361f61">HasAura</a>(<a class="code hl_enumvalue" href="../../db/d67/love__in__air_8cpp.html#a5bd342133be8c2137b831460acc9298cad28761dfb703f44ae25049e2ef29e226">SPELL_GOBLIN_CARRY_CRATE</a>))</div>
+<div class="line"><span class="lineno">   68</span>        {</div>
+<div class="line"><span class="lineno">   69</span>            <a class="code hl_variable" href="../../d0/dff/structnpc__love__in__air__supply__sentry.html#a59bf67b114014542538165c21aa109a6">lock</a> = 0;</div>
+<div class="line"><span class="lineno">   70</span>            <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(0, 1))</div>
+<div class="line"><span class="lineno">   71</span>            {</div>
+<div class="line"><span class="lineno">   72</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">AI</a>()-&gt;<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#a96b82ee318c4d46f16b94192de654bed">Talk</a>(<a class="code hl_enumvalue" href="../../db/d67/love__in__air_8cpp.html#aeb8e3d0c03c141a665db8837acb2e62aa6668b7f8877a127f35110f5e7d871ee3">SAY_SUPPLY_SENTRY_0</a>, who-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a328d5f752cc33ed398b3d9861ef6929d">ToPlayer</a>());</div>
+<div class="line"><span class="lineno">   73</span>            }</div>
+<div class="line"><span class="lineno">   74</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">   75</span>            {</div>
+<div class="line"><span class="lineno">   76</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">AI</a>()-&gt;<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#a96b82ee318c4d46f16b94192de654bed">Talk</a>(<a class="code hl_enumvalue" href="../../db/d67/love__in__air_8cpp.html#aeb8e3d0c03c141a665db8837acb2e62aa6668b7f8877a127f35110f5e7d871ee3">SAY_SUPPLY_SENTRY_0</a>, who-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a328d5f752cc33ed398b3d9861ef6929d">ToPlayer</a>());</div>
+<div class="line"><span class="lineno">   77</span>            }</div>
+<div class="line"><span class="lineno">   78</span> </div>
+<div class="line"><span class="lineno">   79</span>            <span class="keywordflow">if</span> (who-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a328d5f752cc33ed398b3d9861ef6929d">ToPlayer</a>()-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a4874f5c152e187c381c2a349f16aa0d4">GetTeamId</a>() == <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a7513eda5ac39f7f649b82c80de7c324da77ec52d5d5f9771c1ac94fddaf7fb84e">TEAM_ALLIANCE</a>)</div>
+<div class="line"><span class="lineno">   80</span>            {</div>
+<div class="line"><span class="lineno">   81</span>                who-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a328d5f752cc33ed398b3d9861ef6929d">ToPlayer</a>()-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a67b53af432006bf83e80cb6991b6e146">CompleteQuest</a>(<a class="code hl_enumvalue" href="../../db/d67/love__in__air_8cpp.html#a2f2591166460d6d958c50f3317939e22a15504bac7b72645bf0225868cb56579d">QUEST_PILGRIM_ALLIANCE</a>);</div>
+<div class="line"><span class="lineno">   82</span>            }</div>
+<div class="line"><span class="lineno">   83</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">   84</span>            {</div>
+<div class="line"><span class="lineno">   85</span>                who-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a328d5f752cc33ed398b3d9861ef6929d">ToPlayer</a>()-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a67b53af432006bf83e80cb6991b6e146">CompleteQuest</a>(<a class="code hl_enumvalue" href="../../db/d67/love__in__air_8cpp.html#a2f2591166460d6d958c50f3317939e22aa7a5ca87110275c2bbd772e1befc5ef7">QUEST_PILGRIM_HORDE</a>);</div>
+<div class="line"><span class="lineno">   86</span>            }</div>
+<div class="line"><span class="lineno">   87</span> </div>
+<div class="line"><span class="lineno">   88</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(who, <a class="code hl_enumvalue" href="../../db/d67/love__in__air_8cpp.html#a5bd342133be8c2137b831460acc9298cad28761dfb703f44ae25049e2ef29e226">SPELL_GOBLIN_CARRY_CRATE</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">   89</span>        }</div>
+<div class="line"><span class="lineno">   90</span>    }</div>
+<div class="ttc" id="a_object_guid_8h_html_a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c"><div class="ttname"><a href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a></div><div class="ttdeci">@ TYPEID_PLAYER</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:38</div></div>
+<div class="ttc" id="a_random_8cpp_html_ab17def34ccbbd868dc87a16bf35acdbd"><div class="ttname"><a href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a></div><div class="ttdeci">uint32 urand(uint32 min, uint32 max)</div><div class="ttdef"><b>Definition:</b> Random.cpp:44</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a7513eda5ac39f7f649b82c80de7c324da77ec52d5d5f9771c1ac94fddaf7fb84e"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a7513eda5ac39f7f649b82c80de7c324da77ec52d5d5f9771c1ac94fddaf7fb84e">TEAM_ALLIANCE</a></div><div class="ttdeci">@ TEAM_ALLIANCE</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:732</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_a96b82ee318c4d46f16b94192de654bed"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#a96b82ee318c4d46f16b94192de654bed">CreatureAI::Talk</a></div><div class="ttdeci">void Talk(uint8 id, WorldObject const *whisperTarget=nullptr)</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:58</div></div>
+<div class="ttc" id="aclass_creature_html_af2188eef9620b5af52ef2d3ac142db67"><div class="ttname"><a href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">Creature::AI</a></div><div class="ttdeci">CreatureAI * AI() const</div><div class="ttdef"><b>Definition:</b> Creature.h:134</div></div>
+<div class="ttc" id="aclass_object_html_a328d5f752cc33ed398b3d9861ef6929d"><div class="ttname"><a href="../../d8/d83/class_object.html#a328d5f752cc33ed398b3d9861ef6929d">Object::ToPlayer</a></div><div class="ttdeci">Player * ToPlayer()</div><div class="ttdef"><b>Definition:</b> Object.h:195</div></div>
+<div class="ttc" id="aclass_object_html_a621a345fc34deed6d3a4e1e498a652da"><div class="ttname"><a href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">Object::GetTypeId</a></div><div class="ttdeci">TypeID GetTypeId() const</div><div class="ttdef"><b>Definition:</b> Object.h:121</div></div>
+<div class="ttc" id="aclass_player_html_a4874f5c152e187c381c2a349f16aa0d4"><div class="ttname"><a href="../../d8/d53/class_player.html#a4874f5c152e187c381c2a349f16aa0d4">Player::GetTeamId</a></div><div class="ttdeci">TeamId GetTeamId(bool original=false) const</div><div class="ttdef"><b>Definition:</b> Player.h:2058</div></div>
+<div class="ttc" id="aclass_player_html_a67b53af432006bf83e80cb6991b6e146"><div class="ttname"><a href="../../d8/d53/class_player.html#a67b53af432006bf83e80cb6991b6e146">Player::CompleteQuest</a></div><div class="ttdeci">void CompleteQuest(uint32 quest_id)</div><div class="ttdef"><b>Definition:</b> PlayerQuest.cpp:596</div></div>
+<div class="ttc" id="aclass_unit_html_a69c5ac45b65cf0dede6e0ee837361f61"><div class="ttname"><a href="../../da/db7/class_unit.html#a69c5ac45b65cf0dede6e0ee837361f61">Unit::HasAura</a></div><div class="ttdeci">bool HasAura(uint32 spellId, ObjectGuid casterGUID=ObjectGuid::Empty, ObjectGuid itemCasterGUID=ObjectGuid::Empty, uint8 reqEffMask=0) const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:5598</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+<div class="ttc" id="aclass_world_object_html_acaa0cccbbb9cac74080c8279a571a68c"><div class="ttname"><a href="../../db/df7/class_world_object.html#acaa0cccbbb9cac74080c8279a571a68c">WorldObject::GetDistance</a></div><div class="ttdeci">float GetDistance(WorldObject const *obj) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1245</div></div>
+<div class="ttc" id="alove__in__air_8cpp_html_a2f2591166460d6d958c50f3317939e22a15504bac7b72645bf0225868cb56579d"><div class="ttname"><a href="../../db/d67/love__in__air_8cpp.html#a2f2591166460d6d958c50f3317939e22a15504bac7b72645bf0225868cb56579d">QUEST_PILGRIM_ALLIANCE</a></div><div class="ttdeci">@ QUEST_PILGRIM_ALLIANCE</div><div class="ttdef"><b>Definition:</b> love_in_air.cpp:49</div></div>
+<div class="ttc" id="alove__in__air_8cpp_html_a2f2591166460d6d958c50f3317939e22aa7a5ca87110275c2bbd772e1befc5ef7"><div class="ttname"><a href="../../db/d67/love__in__air_8cpp.html#a2f2591166460d6d958c50f3317939e22aa7a5ca87110275c2bbd772e1befc5ef7">QUEST_PILGRIM_HORDE</a></div><div class="ttdeci">@ QUEST_PILGRIM_HORDE</div><div class="ttdef"><b>Definition:</b> love_in_air.cpp:48</div></div>
+<div class="ttc" id="alove__in__air_8cpp_html_a5bd342133be8c2137b831460acc9298cabdefc9e5e372c961e5ecc8c9f08597ee"><div class="ttname"><a href="../../db/d67/love__in__air_8cpp.html#a5bd342133be8c2137b831460acc9298cabdefc9e5e372c961e5ecc8c9f08597ee">SPELL_GOBLIN_DISGUISE</a></div><div class="ttdeci">@ SPELL_GOBLIN_DISGUISE</div><div class="ttdef"><b>Definition:</b> love_in_air.cpp:40</div></div>
+<div class="ttc" id="alove__in__air_8cpp_html_a5bd342133be8c2137b831460acc9298cad28761dfb703f44ae25049e2ef29e226"><div class="ttname"><a href="../../db/d67/love__in__air_8cpp.html#a5bd342133be8c2137b831460acc9298cad28761dfb703f44ae25049e2ef29e226">SPELL_GOBLIN_CARRY_CRATE</a></div><div class="ttdeci">@ SPELL_GOBLIN_CARRY_CRATE</div><div class="ttdef"><b>Definition:</b> love_in_air.cpp:41</div></div>
+<div class="ttc" id="alove__in__air_8cpp_html_aeb8e3d0c03c141a665db8837acb2e62aa6668b7f8877a127f35110f5e7d871ee3"><div class="ttname"><a href="../../db/d67/love__in__air_8cpp.html#aeb8e3d0c03c141a665db8837acb2e62aa6668b7f8877a127f35110f5e7d871ee3">SAY_SUPPLY_SENTRY_0</a></div><div class="ttdeci">@ SAY_SUPPLY_SENTRY_0</div><div class="ttdef"><b>Definition:</b> love_in_air.cpp:54</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aaa658222954f96d45b75daf83555f6f8" name="aaa658222954f96d45b75daf83555f6f8"></a>
@@ -568,7 +617,10 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#aff5fd4e142a5cf930ffacbfc7259cce5">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   93</span>    {</div>
+<div class="line"><span class="lineno">   94</span>        <a class="code hl_variable" href="../../d0/dff/structnpc__love__in__air__supply__sentry.html#a59bf67b114014542538165c21aa109a6">lock</a> += diff;</div>
+<div class="line"><span class="lineno">   95</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -587,7 +639,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Events/<a class="el" href="../../db/d67/love__in__air_8cpp.html">love_in_air.cpp</a></li>
+<li><a class="el" href="../../">love_in_air.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -595,7 +647,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d0/dff/structnpc__love__in__air__supply__sentry.html">npc_love_in_air_supply_sentry</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:52 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:07 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

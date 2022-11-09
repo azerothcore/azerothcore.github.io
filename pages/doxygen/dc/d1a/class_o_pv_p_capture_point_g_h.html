@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('dc/d1a/class_o_pv_p_capture_point_g_h.
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d2/dab/_outdoor_pv_p_g_h_8h_source.html">OutdoorPvPGH.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">OutdoorPvPGH.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for OPvPCapturePointGH:</div>
 <div class="dyncontent">
@@ -229,7 +229,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a6008a21b753a57b5867db6df28e8fa75 inherit pro_attribs_class_o_pv_p_capture_point"><td class="memItemLeft" align="right" valign="top">std::map&lt; <a class="el" href="../../d8/d03/class_object_guid.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a>, <a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d95/class_o_pv_p_capture_point.html#a6008a21b753a57b5867db6df28e8fa75">m_CreatureTypes</a></td></tr>
 <tr class="separator:a6008a21b753a57b5867db6df28e8fa75 inherit pro_attribs_class_o_pv_p_capture_point"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a6e46100e50212310af4301c492d5773e" name="a6e46100e50212310af4301c492d5773e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6e46100e50212310af4301c492d5773e">&#9670;&#160;</a></span>OPvPCapturePointGH()</h2>
 
@@ -245,7 +246,13 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   47</span>                                                      : <a class="code hl_class" href="../../d4/d95/class_o_pv_p_capture_point.html">OPvPCapturePoint</a>(pvp)</div>
+<div class="line"><span class="lineno">   48</span>{</div>
+<div class="line"><span class="lineno">   49</span>    <a class="code hl_function" href="../../d4/d95/class_o_pv_p_capture_point.html#a379095aef155e6cdd69938eab30d7c65">SetCapturePointData</a>(189310, 571, 2483.68f, -1873.6f, 10.6877f, -0.104719f, 0.0f, 0.0f, 0.0f, 1.0f);</div>
+<div class="line"><span class="lineno">   50</span>}</div>
+<div class="ttc" id="aclass_o_pv_p_capture_point_html"><div class="ttname"><a href="../../d4/d95/class_o_pv_p_capture_point.html">OPvPCapturePoint</a></div><div class="ttdef"><b>Definition:</b> OutdoorPvP.h:89</div></div>
+<div class="ttc" id="aclass_o_pv_p_capture_point_html_a379095aef155e6cdd69938eab30d7c65"><div class="ttname"><a href="../../d4/d95/class_o_pv_p_capture_point.html#a379095aef155e6cdd69938eab30d7c65">OPvPCapturePoint::SetCapturePointData</a></div><div class="ttdeci">bool SetCapturePointData(uint32 entry, uint32 map, float x, float y, float z, float o=0, float rotation0=0, float rotation1=0, float rotation2=0, float rotation3=0)</div><div class="ttdef"><b>Definition:</b> OutdoorPvP.cpp:115</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -273,7 +280,43 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d4/d95/class_o_pv_p_capture_point.html#a2c8be3012fa53c7e166cb8d4072cc858">OPvPCapturePoint</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   89</span>{</div>
+<div class="line"><span class="lineno">   90</span>    <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> artkit = 21;</div>
+<div class="line"><span class="lineno">   91</span>    <span class="keywordflow">switch</span> (<a class="code hl_variable" href="../../d4/d95/class_o_pv_p_capture_point.html#a68cf2566a8bce4f11ac27c85ef8521aa">m_State</a>)</div>
+<div class="line"><span class="lineno">   92</span>    {</div>
+<div class="line"><span class="lineno">   93</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../da/d03/_outdoor_pv_p_8h.html#a7908847b61cb33598912d94a2c0d153aa6ba9fe25fdad4f881923232927d51e01">OBJECTIVESTATE_ALLIANCE</a>:</div>
+<div class="line"><span class="lineno">   94</span>            <a class="code hl_define" href="../../d8/d13/_game_event_mgr_8h.html#a3c1c916d94272dfe845b9cc5e8fc292a">sGameEventMgr</a>-&gt;StopEvent(<a class="code hl_enumvalue" href="../../d2/dab/_outdoor_pv_p_g_h_8h.html#a68fd4e51a6ab53a5f6bc93fe7800623ba4d9e1d2fb4e064d2ec502e86046044c3">GH_ALLIANCE_DEFENSE_EVENT</a>);</div>
+<div class="line"><span class="lineno">   95</span>            <a class="code hl_define" href="../../d8/d13/_game_event_mgr_8h.html#a3c1c916d94272dfe845b9cc5e8fc292a">sGameEventMgr</a>-&gt;StopEvent(<a class="code hl_enumvalue" href="../../d2/dab/_outdoor_pv_p_g_h_8h.html#a68fd4e51a6ab53a5f6bc93fe7800623babf83508167d0dcdfb12a95048d098d10">GH_HORDE_DEFENSE_EVENT</a>);</div>
+<div class="line"><span class="lineno">   96</span>            <a class="code hl_define" href="../../d8/d13/_game_event_mgr_8h.html#a3c1c916d94272dfe845b9cc5e8fc292a">sGameEventMgr</a>-&gt;StartEvent(<a class="code hl_enumvalue" href="../../d2/dab/_outdoor_pv_p_g_h_8h.html#a68fd4e51a6ab53a5f6bc93fe7800623ba4d9e1d2fb4e064d2ec502e86046044c3">GH_ALLIANCE_DEFENSE_EVENT</a>);</div>
+<div class="line"><span class="lineno">   97</span>            artkit = 2;</div>
+<div class="line"><span class="lineno">   98</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   99</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../da/d03/_outdoor_pv_p_8h.html#a7908847b61cb33598912d94a2c0d153aa1c56fbf67a59f2723d09b72a2526e545">OBJECTIVESTATE_HORDE</a>:</div>
+<div class="line"><span class="lineno">  100</span>            <a class="code hl_define" href="../../d8/d13/_game_event_mgr_8h.html#a3c1c916d94272dfe845b9cc5e8fc292a">sGameEventMgr</a>-&gt;StopEvent(<a class="code hl_enumvalue" href="../../d2/dab/_outdoor_pv_p_g_h_8h.html#a68fd4e51a6ab53a5f6bc93fe7800623ba4d9e1d2fb4e064d2ec502e86046044c3">GH_ALLIANCE_DEFENSE_EVENT</a>);</div>
+<div class="line"><span class="lineno">  101</span>            <a class="code hl_define" href="../../d8/d13/_game_event_mgr_8h.html#a3c1c916d94272dfe845b9cc5e8fc292a">sGameEventMgr</a>-&gt;StopEvent(<a class="code hl_enumvalue" href="../../d2/dab/_outdoor_pv_p_g_h_8h.html#a68fd4e51a6ab53a5f6bc93fe7800623babf83508167d0dcdfb12a95048d098d10">GH_HORDE_DEFENSE_EVENT</a>);</div>
+<div class="line"><span class="lineno">  102</span>            <a class="code hl_define" href="../../d8/d13/_game_event_mgr_8h.html#a3c1c916d94272dfe845b9cc5e8fc292a">sGameEventMgr</a>-&gt;StartEvent(<a class="code hl_enumvalue" href="../../d2/dab/_outdoor_pv_p_g_h_8h.html#a68fd4e51a6ab53a5f6bc93fe7800623babf83508167d0dcdfb12a95048d098d10">GH_HORDE_DEFENSE_EVENT</a>);</div>
+<div class="line"><span class="lineno">  103</span>            artkit = 1;</div>
+<div class="line"><span class="lineno">  104</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  105</span>        <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  106</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  107</span>    }</div>
+<div class="line"><span class="lineno">  108</span> </div>
+<div class="line"><span class="lineno">  109</span>    <a class="code hl_class" href="../../dd/d11/class_map.html">Map</a>* map = <a class="code hl_define" href="../../dd/dca/_map_mgr_8h.html#a9132749f8376c48b0ca7212eb3293905">sMapMgr</a>-&gt;FindMap(571, 0);</div>
+<div class="line"><span class="lineno">  110</span>    <span class="keyword">auto</span> bounds = map-&gt;<a class="code hl_function" href="../../dd/d11/class_map.html#aac4872f039e434e42170fb5eb45691f2">GetGameObjectBySpawnIdStore</a>().equal_range(<a class="code hl_variable" href="../../d4/d95/class_o_pv_p_capture_point.html#a9af622a7653d0782c27fff686e3ad7a0">m_capturePointSpawnId</a>);</div>
+<div class="line"><span class="lineno">  111</span>    <span class="keywordflow">for</span> (<span class="keyword">auto</span> itr = bounds.first; itr != bounds.second; ++itr)</div>
+<div class="line"><span class="lineno">  112</span>        itr-&gt;second-&gt;SetGoArtKit(artkit);</div>
+<div class="line"><span class="lineno">  113</span>}</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="a_game_event_mgr_8h_html_a3c1c916d94272dfe845b9cc5e8fc292a"><div class="ttname"><a href="../../d8/d13/_game_event_mgr_8h.html#a3c1c916d94272dfe845b9cc5e8fc292a">sGameEventMgr</a></div><div class="ttdeci">#define sGameEventMgr</div><div class="ttdef"><b>Definition:</b> GameEventMgr.h:186</div></div>
+<div class="ttc" id="a_map_mgr_8h_html_a9132749f8376c48b0ca7212eb3293905"><div class="ttname"><a href="../../dd/dca/_map_mgr_8h.html#a9132749f8376c48b0ca7212eb3293905">sMapMgr</a></div><div class="ttdeci">#define sMapMgr</div><div class="ttdef"><b>Definition:</b> MapMgr.h:212</div></div>
+<div class="ttc" id="a_outdoor_pv_p_8h_html_a7908847b61cb33598912d94a2c0d153aa1c56fbf67a59f2723d09b72a2526e545"><div class="ttname"><a href="../../da/d03/_outdoor_pv_p_8h.html#a7908847b61cb33598912d94a2c0d153aa1c56fbf67a59f2723d09b72a2526e545">OBJECTIVESTATE_HORDE</a></div><div class="ttdeci">@ OBJECTIVESTATE_HORDE</div><div class="ttdef"><b>Definition:</b> OutdoorPvP.h:44</div></div>
+<div class="ttc" id="a_outdoor_pv_p_8h_html_a7908847b61cb33598912d94a2c0d153aa6ba9fe25fdad4f881923232927d51e01"><div class="ttname"><a href="../../da/d03/_outdoor_pv_p_8h.html#a7908847b61cb33598912d94a2c0d153aa6ba9fe25fdad4f881923232927d51e01">OBJECTIVESTATE_ALLIANCE</a></div><div class="ttdeci">@ OBJECTIVESTATE_ALLIANCE</div><div class="ttdef"><b>Definition:</b> OutdoorPvP.h:43</div></div>
+<div class="ttc" id="a_outdoor_pv_p_g_h_8h_html_a68fd4e51a6ab53a5f6bc93fe7800623ba4d9e1d2fb4e064d2ec502e86046044c3"><div class="ttname"><a href="../../d2/dab/_outdoor_pv_p_g_h_8h.html#a68fd4e51a6ab53a5f6bc93fe7800623ba4d9e1d2fb4e064d2ec502e86046044c3">GH_ALLIANCE_DEFENSE_EVENT</a></div><div class="ttdeci">@ GH_ALLIANCE_DEFENSE_EVENT</div><div class="ttdef"><b>Definition:</b> OutdoorPvPGH.h:25</div></div>
+<div class="ttc" id="a_outdoor_pv_p_g_h_8h_html_a68fd4e51a6ab53a5f6bc93fe7800623babf83508167d0dcdfb12a95048d098d10"><div class="ttname"><a href="../../d2/dab/_outdoor_pv_p_g_h_8h.html#a68fd4e51a6ab53a5f6bc93fe7800623babf83508167d0dcdfb12a95048d098d10">GH_HORDE_DEFENSE_EVENT</a></div><div class="ttdeci">@ GH_HORDE_DEFENSE_EVENT</div><div class="ttdef"><b>Definition:</b> OutdoorPvPGH.h:26</div></div>
+<div class="ttc" id="aclass_map_html"><div class="ttname"><a href="../../dd/d11/class_map.html">Map</a></div><div class="ttdef"><b>Definition:</b> Map.h:312</div></div>
+<div class="ttc" id="aclass_map_html_aac4872f039e434e42170fb5eb45691f2"><div class="ttname"><a href="../../dd/d11/class_map.html#aac4872f039e434e42170fb5eb45691f2">Map::GetGameObjectBySpawnIdStore</a></div><div class="ttdeci">GameObjectBySpawnIdContainer &amp; GetGameObjectBySpawnIdStore()</div><div class="ttdef"><b>Definition:</b> Map.h:521</div></div>
+<div class="ttc" id="aclass_o_pv_p_capture_point_html_a68cf2566a8bce4f11ac27c85ef8521aa"><div class="ttname"><a href="../../d4/d95/class_o_pv_p_capture_point.html#a68cf2566a8bce4f11ac27c85ef8521aa">OPvPCapturePoint::m_State</a></div><div class="ttdeci">ObjectiveStates m_State</div><div class="ttdef"><b>Definition:</b> OutdoorPvP.h:169</div></div>
+<div class="ttc" id="aclass_o_pv_p_capture_point_html_a9af622a7653d0782c27fff686e3ad7a0"><div class="ttname"><a href="../../d4/d95/class_o_pv_p_capture_point.html#a9af622a7653d0782c27fff686e3ad7a0">OPvPCapturePoint::m_capturePointSpawnId</a></div><div class="ttdeci">ObjectGuid::LowType m_capturePointSpawnId</div><div class="ttdef"><b>Definition:</b> OutdoorPvP.h:131</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad1c3ece363da12750c851cf510228a06" name="ad1c3ece363da12750c851cf510228a06"></a>
@@ -301,7 +344,15 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d4/d95/class_o_pv_p_capture_point.html#a1678c2913f53578bbfff558232bcd16f">OPvPCapturePoint</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   53</span>{</div>
+<div class="line"><span class="lineno">   54</span>    data &lt;&lt; <a class="code hl_enumvalue" href="../../d2/dab/_outdoor_pv_p_g_h_8h.html#a68fd4e51a6ab53a5f6bc93fe7800623ba645403f643483d0cac92332aa51b77bd">GH_UI_SLIDER_DISPLAY</a> &lt;&lt; <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(0);</div>
+<div class="line"><span class="lineno">   55</span>    data &lt;&lt; <a class="code hl_enumvalue" href="../../d2/dab/_outdoor_pv_p_g_h_8h.html#a68fd4e51a6ab53a5f6bc93fe7800623baa45bc7342ad5ac9b73578034a648f460">GH_UI_SLIDER_POS</a> &lt;&lt; <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(50);</div>
+<div class="line"><span class="lineno">   56</span>    data &lt;&lt; <a class="code hl_enumvalue" href="../../d2/dab/_outdoor_pv_p_g_h_8h.html#a68fd4e51a6ab53a5f6bc93fe7800623ba44cb783273dce4056ade8dafd3ea3bc0">GH_UI_SLIDER_N</a> &lt;&lt; <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(20);</div>
+<div class="line"><span class="lineno">   57</span>}</div>
+<div class="ttc" id="a_outdoor_pv_p_g_h_8h_html_a68fd4e51a6ab53a5f6bc93fe7800623ba44cb783273dce4056ade8dafd3ea3bc0"><div class="ttname"><a href="../../d2/dab/_outdoor_pv_p_g_h_8h.html#a68fd4e51a6ab53a5f6bc93fe7800623ba44cb783273dce4056ade8dafd3ea3bc0">GH_UI_SLIDER_N</a></div><div class="ttdeci">@ GH_UI_SLIDER_N</div><div class="ttdef"><b>Definition:</b> OutdoorPvPGH.h:32</div></div>
+<div class="ttc" id="a_outdoor_pv_p_g_h_8h_html_a68fd4e51a6ab53a5f6bc93fe7800623ba645403f643483d0cac92332aa51b77bd"><div class="ttname"><a href="../../d2/dab/_outdoor_pv_p_g_h_8h.html#a68fd4e51a6ab53a5f6bc93fe7800623ba645403f643483d0cac92332aa51b77bd">GH_UI_SLIDER_DISPLAY</a></div><div class="ttdeci">@ GH_UI_SLIDER_DISPLAY</div><div class="ttdef"><b>Definition:</b> OutdoorPvPGH.h:30</div></div>
+<div class="ttc" id="a_outdoor_pv_p_g_h_8h_html_a68fd4e51a6ab53a5f6bc93fe7800623baa45bc7342ad5ac9b73578034a648f460"><div class="ttname"><a href="../../d2/dab/_outdoor_pv_p_g_h_8h.html#a68fd4e51a6ab53a5f6bc93fe7800623baa45bc7342ad5ac9b73578034a648f460">GH_UI_SLIDER_POS</a></div><div class="ttdeci">@ GH_UI_SLIDER_POS</div><div class="ttdef"><b>Definition:</b> OutdoorPvPGH.h:31</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="afea733c44d129d9a5af78a8337d9e04a" name="afea733c44d129d9a5af78a8337d9e04a"></a>
@@ -329,7 +380,24 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d4/d95/class_o_pv_p_capture_point.html#aa6d1f930f50d302bca878bc508913edf">OPvPCapturePoint</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   70</span>{</div>
+<div class="line"><span class="lineno">   71</span>    <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d4/d95/class_o_pv_p_capture_point.html#aa6d1f930f50d302bca878bc508913edf">OPvPCapturePoint::HandlePlayerEnter</a>(player))</div>
+<div class="line"><span class="lineno">   72</span>    {</div>
+<div class="line"><span class="lineno">   73</span>        player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a2a12863caf54ad9a8af56bda556d7a4b">SendUpdateWorldState</a>(<a class="code hl_enumvalue" href="../../d2/dab/_outdoor_pv_p_g_h_8h.html#a68fd4e51a6ab53a5f6bc93fe7800623ba645403f643483d0cac92332aa51b77bd">GH_UI_SLIDER_DISPLAY</a>, 1);</div>
+<div class="line"><span class="lineno">   74</span>        <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> <a class="code hl_enumeration" href="../../d6/dd9/boss__skadi_8cpp.html#a4432ad5c680b2372adf2f56998516c6d">phase</a> = (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>)ceil((<a class="code hl_variable" href="../../d4/d95/class_o_pv_p_capture_point.html#a319a4fcdbd3eb933f655eb7af96b77d1">m_value</a> + <a class="code hl_variable" href="../../d4/d95/class_o_pv_p_capture_point.html#a9e088089c5c679c46b599593daa80554">m_maxValue</a>) / (2 * <a class="code hl_variable" href="../../d4/d95/class_o_pv_p_capture_point.html#a9e088089c5c679c46b599593daa80554">m_maxValue</a>) * 100.0f);</div>
+<div class="line"><span class="lineno">   75</span>        player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a2a12863caf54ad9a8af56bda556d7a4b">SendUpdateWorldState</a>(<a class="code hl_enumvalue" href="../../d2/dab/_outdoor_pv_p_g_h_8h.html#a68fd4e51a6ab53a5f6bc93fe7800623baa45bc7342ad5ac9b73578034a648f460">GH_UI_SLIDER_POS</a>, <a class="code hl_enumeration" href="../../d6/dd9/boss__skadi_8cpp.html#a4432ad5c680b2372adf2f56998516c6d">phase</a>);</div>
+<div class="line"><span class="lineno">   76</span>        player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a2a12863caf54ad9a8af56bda556d7a4b">SendUpdateWorldState</a>(<a class="code hl_enumvalue" href="../../d2/dab/_outdoor_pv_p_g_h_8h.html#a68fd4e51a6ab53a5f6bc93fe7800623ba44cb783273dce4056ade8dafd3ea3bc0">GH_UI_SLIDER_N</a>, <a class="code hl_variable" href="../../d4/d95/class_o_pv_p_capture_point.html#a6ebf77468309aa32d3a55094c350134d">m_neutralValuePct</a>);</div>
+<div class="line"><span class="lineno">   77</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   78</span>    }</div>
+<div class="line"><span class="lineno">   79</span>    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   80</span>}</div>
+<div class="ttc" id="aboss__skadi_8cpp_html_a4432ad5c680b2372adf2f56998516c6d"><div class="ttname"><a href="../../d6/dd9/boss__skadi_8cpp.html#a4432ad5c680b2372adf2f56998516c6d">phase</a></div><div class="ttdeci">phase</div><div class="ttdef"><b>Definition:</b> boss_skadi.cpp:102</div></div>
+<div class="ttc" id="aclass_o_pv_p_capture_point_html_a319a4fcdbd3eb933f655eb7af96b77d1"><div class="ttname"><a href="../../d4/d95/class_o_pv_p_capture_point.html#a319a4fcdbd3eb933f655eb7af96b77d1">OPvPCapturePoint::m_value</a></div><div class="ttdeci">float m_value</div><div class="ttdef"><b>Definition:</b> OutdoorPvP.h:163</div></div>
+<div class="ttc" id="aclass_o_pv_p_capture_point_html_a6ebf77468309aa32d3a55094c350134d"><div class="ttname"><a href="../../d4/d95/class_o_pv_p_capture_point.html#a6ebf77468309aa32d3a55094c350134d">OPvPCapturePoint::m_neutralValuePct</a></div><div class="ttdeci">uint32 m_neutralValuePct</div><div class="ttdef"><b>Definition:</b> OutdoorPvP.h:172</div></div>
+<div class="ttc" id="aclass_o_pv_p_capture_point_html_a9e088089c5c679c46b599593daa80554"><div class="ttname"><a href="../../d4/d95/class_o_pv_p_capture_point.html#a9e088089c5c679c46b599593daa80554">OPvPCapturePoint::m_maxValue</a></div><div class="ttdeci">float m_maxValue</div><div class="ttdef"><b>Definition:</b> OutdoorPvP.h:156</div></div>
+<div class="ttc" id="aclass_o_pv_p_capture_point_html_aa6d1f930f50d302bca878bc508913edf"><div class="ttname"><a href="../../d4/d95/class_o_pv_p_capture_point.html#aa6d1f930f50d302bca878bc508913edf">OPvPCapturePoint::HandlePlayerEnter</a></div><div class="ttdeci">virtual bool HandlePlayerEnter(Player *player)</div><div class="ttdef"><b>Definition:</b> OutdoorPvP.cpp:36</div></div>
+<div class="ttc" id="aclass_player_html_a2a12863caf54ad9a8af56bda556d7a4b"><div class="ttname"><a href="../../d8/d53/class_player.html#a2a12863caf54ad9a8af56bda556d7a4b">Player::SendUpdateWorldState</a></div><div class="ttdeci">void SendUpdateWorldState(uint32 variable, uint32 value) const</div><div class="ttdef"><b>Definition:</b> PlayerUpdates.cpp:2189</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a1e5d9c6f02eb02dfed654078c910635b" name="a1e5d9c6f02eb02dfed654078c910635b"></a>
@@ -357,7 +425,12 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d4/d95/class_o_pv_p_capture_point.html#a8ddce56a5ea26767577156a14ee07a65">OPvPCapturePoint</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   83</span>{</div>
+<div class="line"><span class="lineno">   84</span>    player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a2a12863caf54ad9a8af56bda556d7a4b">SendUpdateWorldState</a>(<a class="code hl_enumvalue" href="../../d2/dab/_outdoor_pv_p_g_h_8h.html#a68fd4e51a6ab53a5f6bc93fe7800623ba645403f643483d0cac92332aa51b77bd">GH_UI_SLIDER_DISPLAY</a>, 0);</div>
+<div class="line"><span class="lineno">   85</span>    <a class="code hl_function" href="../../d4/d95/class_o_pv_p_capture_point.html#a8ddce56a5ea26767577156a14ee07a65">OPvPCapturePoint::HandlePlayerLeave</a>(player);</div>
+<div class="line"><span class="lineno">   86</span>}</div>
+<div class="ttc" id="aclass_o_pv_p_capture_point_html_a8ddce56a5ea26767577156a14ee07a65"><div class="ttname"><a href="../../d4/d95/class_o_pv_p_capture_point.html#a8ddce56a5ea26767577156a14ee07a65">OPvPCapturePoint::HandlePlayerLeave</a></div><div class="ttdeci">virtual void HandlePlayerLeave(Player *player)</div><div class="ttdef"><b>Definition:</b> OutdoorPvP.cpp:47</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aec741b9102829bf77850dc06a49bb8da" name="aec741b9102829bf77850dc06a49bb8da"></a>
@@ -384,12 +457,21 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d4/d95/class_o_pv_p_capture_point.html#af70161f1b035f3ba55bb1dbcb4480746">OPvPCapturePoint</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   60</span>{</div>
+<div class="line"><span class="lineno">   61</span>    <span class="comment">// send this too, sometimes the slider disappears, dunno why :(</span></div>
+<div class="line"><span class="lineno">   62</span>    <a class="code hl_function" href="../../d4/d95/class_o_pv_p_capture_point.html#a8cb769bf871ad8cc83cbf7918e05271c">SendUpdateWorldState</a>(<a class="code hl_enumvalue" href="../../d2/dab/_outdoor_pv_p_g_h_8h.html#a68fd4e51a6ab53a5f6bc93fe7800623ba645403f643483d0cac92332aa51b77bd">GH_UI_SLIDER_DISPLAY</a>, 1);</div>
+<div class="line"><span class="lineno">   63</span>    <span class="comment">// send these updates to only the ones in this objective</span></div>
+<div class="line"><span class="lineno">   64</span>    <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> <a class="code hl_enumeration" href="../../d6/dd9/boss__skadi_8cpp.html#a4432ad5c680b2372adf2f56998516c6d">phase</a> = (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>)ceil((<a class="code hl_variable" href="../../d4/d95/class_o_pv_p_capture_point.html#a319a4fcdbd3eb933f655eb7af96b77d1">m_value</a> + <a class="code hl_variable" href="../../d4/d95/class_o_pv_p_capture_point.html#a9e088089c5c679c46b599593daa80554">m_maxValue</a>) / (2 * <a class="code hl_variable" href="../../d4/d95/class_o_pv_p_capture_point.html#a9e088089c5c679c46b599593daa80554">m_maxValue</a>) * 100.0f);</div>
+<div class="line"><span class="lineno">   65</span>    <a class="code hl_function" href="../../d4/d95/class_o_pv_p_capture_point.html#a8cb769bf871ad8cc83cbf7918e05271c">SendUpdateWorldState</a>(<a class="code hl_enumvalue" href="../../d2/dab/_outdoor_pv_p_g_h_8h.html#a68fd4e51a6ab53a5f6bc93fe7800623baa45bc7342ad5ac9b73578034a648f460">GH_UI_SLIDER_POS</a>, <a class="code hl_enumeration" href="../../d6/dd9/boss__skadi_8cpp.html#a4432ad5c680b2372adf2f56998516c6d">phase</a>);</div>
+<div class="line"><span class="lineno">   66</span>    <a class="code hl_function" href="../../d4/d95/class_o_pv_p_capture_point.html#a8cb769bf871ad8cc83cbf7918e05271c">SendUpdateWorldState</a>(<a class="code hl_enumvalue" href="../../d2/dab/_outdoor_pv_p_g_h_8h.html#a68fd4e51a6ab53a5f6bc93fe7800623ba44cb783273dce4056ade8dafd3ea3bc0">GH_UI_SLIDER_N</a>, <a class="code hl_variable" href="../../d4/d95/class_o_pv_p_capture_point.html#a6ebf77468309aa32d3a55094c350134d">m_neutralValuePct</a>);</div>
+<div class="line"><span class="lineno">   67</span>}</div>
+<div class="ttc" id="aclass_o_pv_p_capture_point_html_a8cb769bf871ad8cc83cbf7918e05271c"><div class="ttname"><a href="../../d4/d95/class_o_pv_p_capture_point.html#a8cb769bf871ad8cc83cbf7918e05271c">OPvPCapturePoint::SendUpdateWorldState</a></div><div class="ttdeci">void SendUpdateWorldState(uint32 field, uint32 value)</div><div class="ttdef"><b>Definition:</b> OutdoorPvP.cpp:420</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/OutdoorPvP/<a class="el" href="../../d2/dab/_outdoor_pv_p_g_h_8h_source.html">OutdoorPvPGH.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/scripts/OutdoorPvP/<a class="el" href="../../d9/d2c/_outdoor_pv_p_g_h_8cpp.html">OutdoorPvPGH.cpp</a></li>
+<li><a class="el" href="../../">OutdoorPvPGH.h</a></li>
+<li><a class="el" href="../../">OutdoorPvPGH.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -397,7 +479,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/d1a/class_o_pv_p_capture_point_g_h.html">OPvPCapturePointGH</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:56 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:12 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

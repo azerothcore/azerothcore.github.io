@@ -308,7 +308,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a1a612d0b35ed6e67042b4d038f8927ca" name="a1a612d0b35ed6e67042b4d038f8927ca"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1a612d0b35ed6e67042b4d038f8927ca">&#9670;&#160;</a></span>HandleApply()</h2>
 
@@ -342,7 +343,36 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  417</span>    {</div>
+<div class="line"><span class="lineno">  418</span>        <a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target = <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">GetTarget</a>();</div>
+<div class="line"><span class="lineno">  419</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/df1/class_aura_effect.html">AuraEffect</a> <span class="keyword">const</span>* aurEff = target-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a9a5d1b838ff5996c29f34026c2bd4758">GetAuraEffectOfRankedSpell</a>(<a class="code hl_enumvalue" href="../../db/d55/spell__druid_8cpp.html#aeec0f89a5dcaf62f9b5fd1225eb6eb1aa16b4870dab6a2db9c385e81846da44ce">SPELL_DRUID_KING_OF_THE_JUNGLE</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>))</div>
+<div class="line"><span class="lineno">  420</span>        {</div>
+<div class="line"><span class="lineno">  421</span>            target-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a51ec81e114bf82a2485ba9f66200afd2">CastCustomSpell</a>(<a class="code hl_enumvalue" href="../../db/d55/spell__druid_8cpp.html#aeec0f89a5dcaf62f9b5fd1225eb6eb1aafd1e1ce959d89c122214d1fb3e0c7e19">SPELL_DRUID_ENRAGE_MOD_DAMAGE</a>, <a class="code hl_enumvalue" href="../../d2/d6d/_spell_defines_8h.html#a4ad87b8c967acbbcb154a32bc123371bae5c19f392b2ebda372a39538fa9b592a">SPELLVALUE_BASE_POINT0</a>, aurEff-&gt;GetAmount(), target, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  422</span>        }</div>
+<div class="line"><span class="lineno">  423</span> </div>
+<div class="line"><span class="lineno">  424</span>        <span class="comment">// Item - Druid T10 Feral 4P Bonus</span></div>
+<div class="line"><span class="lineno">  425</span>        <span class="keywordflow">if</span> (target-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a69c5ac45b65cf0dede6e0ee837361f61">HasAura</a>(<a class="code hl_enumvalue" href="../../db/d55/spell__druid_8cpp.html#aeec0f89a5dcaf62f9b5fd1225eb6eb1aa91d73263b7be89766a9ae47e448062ea">SPELL_DRUID_ITEM_T10_FERAL_4P_BONUS</a>))</div>
+<div class="line"><span class="lineno">  426</span>        {</div>
+<div class="line"><span class="lineno">  427</span>            target-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(target, <a class="code hl_enumvalue" href="../../db/d55/spell__druid_8cpp.html#aeec0f89a5dcaf62f9b5fd1225eb6eb1aa8836a7dd192185fba9a8bfdb2617c92a">SPELL_DRUID_ENRAGED_DEFENSE</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  428</span>        }</div>
+<div class="line"><span class="lineno">  429</span> </div>
+<div class="line"><span class="lineno">  430</span>        <a class="code hl_function" href="../../d4/d31/classspell__dru__enrage.html#a693720558c7b2b22c41a49a402522014">RecalculateBaseArmor</a>();</div>
+<div class="line"><span class="lineno">  431</span>    }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a></div><div class="ttdeci">@ EFFECT_0</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:30</div></div>
+<div class="ttc" id="a_spell_defines_8h_html_a4ad87b8c967acbbcb154a32bc123371bae5c19f392b2ebda372a39538fa9b592a"><div class="ttname"><a href="../../d2/d6d/_spell_defines_8h.html#a4ad87b8c967acbbcb154a32bc123371bae5c19f392b2ebda372a39538fa9b592a">SPELLVALUE_BASE_POINT0</a></div><div class="ttdeci">@ SPELLVALUE_BASE_POINT0</div><div class="ttdef"><b>Definition:</b> SpellDefines.h:114</div></div>
+<div class="ttc" id="aclass_aura_effect_html"><div class="ttname"><a href="../../da/df1/class_aura_effect.html">AuraEffect</a></div><div class="ttdef"><b>Definition:</b> SpellAuraEffects.h:39</div></div>
+<div class="ttc" id="aclass_aura_script_html_a9b2ee1254bdbef7f6ee93f6fae6eb912"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">AuraScript::GetTarget</a></div><div class="ttdeci">Unit * GetTarget() const</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:1155</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_a51ec81e114bf82a2485ba9f66200afd2"><div class="ttname"><a href="../../da/db7/class_unit.html#a51ec81e114bf82a2485ba9f66200afd2">Unit::CastCustomSpell</a></div><div class="ttdeci">SpellCastResult CastCustomSpell(Unit *victim, uint32 spellId, int32 const *bp0, int32 const *bp1, int32 const *bp2, bool triggered, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1225</div></div>
+<div class="ttc" id="aclass_unit_html_a69c5ac45b65cf0dede6e0ee837361f61"><div class="ttname"><a href="../../da/db7/class_unit.html#a69c5ac45b65cf0dede6e0ee837361f61">Unit::HasAura</a></div><div class="ttdeci">bool HasAura(uint32 spellId, ObjectGuid casterGUID=ObjectGuid::Empty, ObjectGuid itemCasterGUID=ObjectGuid::Empty, uint8 reqEffMask=0) const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:5598</div></div>
+<div class="ttc" id="aclass_unit_html_a9a5d1b838ff5996c29f34026c2bd4758"><div class="ttname"><a href="../../da/db7/class_unit.html#a9a5d1b838ff5996c29f34026c2bd4758">Unit::GetAuraEffectOfRankedSpell</a></div><div class="ttdeci">AuraEffect * GetAuraEffectOfRankedSpell(uint32 spellId, uint8 effIndex, ObjectGuid casterGUID=ObjectGuid::Empty) const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:5414</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+<div class="ttc" id="aclassspell__dru__enrage_html_a693720558c7b2b22c41a49a402522014"><div class="ttname"><a href="../../d4/d31/classspell__dru__enrage.html#a693720558c7b2b22c41a49a402522014">spell_dru_enrage::RecalculateBaseArmor</a></div><div class="ttdeci">void RecalculateBaseArmor()</div><div class="ttdef"><b>Definition:</b> spell_druid.cpp:402</div></div>
+<div class="ttc" id="aspell__druid_8cpp_html_aeec0f89a5dcaf62f9b5fd1225eb6eb1aa16b4870dab6a2db9c385e81846da44ce"><div class="ttname"><a href="../../db/d55/spell__druid_8cpp.html#aeec0f89a5dcaf62f9b5fd1225eb6eb1aa16b4870dab6a2db9c385e81846da44ce">SPELL_DRUID_KING_OF_THE_JUNGLE</a></div><div class="ttdeci">@ SPELL_DRUID_KING_OF_THE_JUNGLE</div><div class="ttdef"><b>Definition:</b> spell_druid.cpp:49</div></div>
+<div class="ttc" id="aspell__druid_8cpp_html_aeec0f89a5dcaf62f9b5fd1225eb6eb1aa8836a7dd192185fba9a8bfdb2617c92a"><div class="ttname"><a href="../../db/d55/spell__druid_8cpp.html#aeec0f89a5dcaf62f9b5fd1225eb6eb1aa8836a7dd192185fba9a8bfdb2617c92a">SPELL_DRUID_ENRAGED_DEFENSE</a></div><div class="ttdeci">@ SPELL_DRUID_ENRAGED_DEFENSE</div><div class="ttdef"><b>Definition:</b> spell_druid.cpp:62</div></div>
+<div class="ttc" id="aspell__druid_8cpp_html_aeec0f89a5dcaf62f9b5fd1225eb6eb1aa91d73263b7be89766a9ae47e448062ea"><div class="ttname"><a href="../../db/d55/spell__druid_8cpp.html#aeec0f89a5dcaf62f9b5fd1225eb6eb1aa91d73263b7be89766a9ae47e448062ea">SPELL_DRUID_ITEM_T10_FERAL_4P_BONUS</a></div><div class="ttdeci">@ SPELL_DRUID_ITEM_T10_FERAL_4P_BONUS</div><div class="ttdef"><b>Definition:</b> spell_druid.cpp:63</div></div>
+<div class="ttc" id="aspell__druid_8cpp_html_aeec0f89a5dcaf62f9b5fd1225eb6eb1aafd1e1ce959d89c122214d1fb3e0c7e19"><div class="ttname"><a href="../../db/d55/spell__druid_8cpp.html#aeec0f89a5dcaf62f9b5fd1225eb6eb1aafd1e1ce959d89c122214d1fb3e0c7e19">SPELL_DRUID_ENRAGE_MOD_DAMAGE</a></div><div class="ttdeci">@ SPELL_DRUID_ENRAGE_MOD_DAMAGE</div><div class="ttdef"><b>Definition:</b> spell_druid.cpp:44</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a54b5ffcf247f7385b50b401bc82f43ce" name="a54b5ffcf247f7385b50b401bc82f43ce"></a>
@@ -378,7 +408,14 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  434</span>    {</div>
+<div class="line"><span class="lineno">  435</span>        <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">GetTarget</a>()-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aac612f06e84142d92dcfc432b5feb4ac">RemoveAurasDueToSpell</a>(<a class="code hl_enumvalue" href="../../db/d55/spell__druid_8cpp.html#aeec0f89a5dcaf62f9b5fd1225eb6eb1aafd1e1ce959d89c122214d1fb3e0c7e19">SPELL_DRUID_ENRAGE_MOD_DAMAGE</a>);</div>
+<div class="line"><span class="lineno">  436</span>        <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">GetTarget</a>()-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aac612f06e84142d92dcfc432b5feb4ac">RemoveAurasDueToSpell</a>(<a class="code hl_enumvalue" href="../../db/d55/spell__druid_8cpp.html#aeec0f89a5dcaf62f9b5fd1225eb6eb1aa8836a7dd192185fba9a8bfdb2617c92a">SPELL_DRUID_ENRAGED_DEFENSE</a>);</div>
+<div class="line"><span class="lineno">  437</span> </div>
+<div class="line"><span class="lineno">  438</span>        <a class="code hl_function" href="../../d4/d31/classspell__dru__enrage.html#a693720558c7b2b22c41a49a402522014">RecalculateBaseArmor</a>();</div>
+<div class="line"><span class="lineno">  439</span>    }</div>
+<div class="ttc" id="aclass_unit_html_aac612f06e84142d92dcfc432b5feb4ac"><div class="ttname"><a href="../../da/db7/class_unit.html#aac612f06e84142d92dcfc432b5feb4ac">Unit::RemoveAurasDueToSpell</a></div><div class="ttdeci">void RemoveAurasDueToSpell(uint32 spellId, ObjectGuid casterGUID=ObjectGuid::Empty, uint8 reqEffMask=0, AuraRemoveMode removeMode=AURA_REMOVE_BY_DEFAULT)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:4823</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="af2b8e669737cd4282beb6a5035f496fc" name="af2b8e669737cd4282beb6a5035f496fc"></a>
@@ -429,7 +466,27 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  403</span>    {</div>
+<div class="line"><span class="lineno">  404</span>        <a class="code hl_typedef" href="../../da/db7/class_unit.html#adcdd87d0c137619dfc869536c1315dd7">Unit::AuraEffectList</a> <span class="keyword">const</span>&amp; auras = <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">GetTarget</a>()-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a0b6417e1489c3f2e1ced1e0384d48ff8">GetAuraEffectsByType</a>(<a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799ac249005d97d7714006fc479189308fb9">SPELL_AURA_MOD_BASE_RESISTANCE_PCT</a>);</div>
+<div class="line"><span class="lineno">  405</span>        <span class="keywordflow">for</span> (Unit::AuraEffectList::const_iterator i = auras.begin(); i != auras.end(); ++i)</div>
+<div class="line"><span class="lineno">  406</span>        {</div>
+<div class="line"><span class="lineno">  407</span>            <a class="code hl_class" href="../../d4/d7d/class_spell_info.html">SpellInfo</a> <span class="keyword">const</span>* spellInfo = (*i)-&gt;GetSpellInfo();</div>
+<div class="line"><span class="lineno">  408</span>            <span class="comment">// Dire- / Bear Form (Passive)</span></div>
+<div class="line"><span class="lineno">  409</span>            <span class="keywordflow">if</span> (spellInfo-&gt;<a class="code hl_variable" href="../../d4/d7d/class_spell_info.html#af6ec577353f7d3cc59badd7d332153b0">SpellFamilyName</a> == <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a9264ae6b0ef1b61a6eeb7fdac9fbab1bac3788ce010075b8bd4e6083638d8cd40">SPELLFAMILY_DRUID</a> &amp;&amp; spellInfo-&gt;<a class="code hl_variable" href="../../d4/d7d/class_spell_info.html#a30452de2bd62607418f3962d00124144">SpellFamilyFlags</a>.<a class="code hl_function" href="../../dc/dd4/classflag96.html#a2c9141d8a8ecb0d83097a3a3a53de579">HasFlag</a>(0x0, 0x0, 0x2))</div>
+<div class="line"><span class="lineno">  410</span>            {</div>
+<div class="line"><span class="lineno">  411</span>                (*i)-&gt;RecalculateAmount();</div>
+<div class="line"><span class="lineno">  412</span>            }</div>
+<div class="line"><span class="lineno">  413</span>        }</div>
+<div class="line"><span class="lineno">  414</span>    }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a9264ae6b0ef1b61a6eeb7fdac9fbab1bac3788ce010075b8bd4e6083638d8cd40"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a9264ae6b0ef1b61a6eeb7fdac9fbab1bac3788ce010075b8bd4e6083638d8cd40">SPELLFAMILY_DRUID</a></div><div class="ttdeci">@ SPELLFAMILY_DRUID</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3507</div></div>
+<div class="ttc" id="a_spell_aura_defines_8h_html_a538cdc259460b365f406fe0b3a981799ac249005d97d7714006fc479189308fb9"><div class="ttname"><a href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799ac249005d97d7714006fc479189308fb9">SPELL_AURA_MOD_BASE_RESISTANCE_PCT</a></div><div class="ttdeci">@ SPELL_AURA_MOD_BASE_RESISTANCE_PCT</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:205</div></div>
+<div class="ttc" id="aclass_spell_info_html"><div class="ttname"><a href="../../d4/d7d/class_spell_info.html">SpellInfo</a></div><div class="ttdef"><b>Definition:</b> SpellInfo.h:314</div></div>
+<div class="ttc" id="aclass_spell_info_html_a30452de2bd62607418f3962d00124144"><div class="ttname"><a href="../../d4/d7d/class_spell_info.html#a30452de2bd62607418f3962d00124144">SpellInfo::SpellFamilyFlags</a></div><div class="ttdeci">flag96 SpellFamilyFlags</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:386</div></div>
+<div class="ttc" id="aclass_spell_info_html_af6ec577353f7d3cc59badd7d332153b0"><div class="ttname"><a href="../../d4/d7d/class_spell_info.html#af6ec577353f7d3cc59badd7d332153b0">SpellInfo::SpellFamilyName</a></div><div class="ttdeci">uint32 SpellFamilyName</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:385</div></div>
+<div class="ttc" id="aclass_unit_html_a0b6417e1489c3f2e1ced1e0384d48ff8"><div class="ttname"><a href="../../da/db7/class_unit.html#a0b6417e1489c3f2e1ced1e0384d48ff8">Unit::GetAuraEffectsByType</a></div><div class="ttdeci">AuraEffectList const &amp; GetAuraEffectsByType(AuraType type) const</div><div class="ttdef"><b>Definition:</b> Unit.h:1964</div></div>
+<div class="ttc" id="aclass_unit_html_adcdd87d0c137619dfc869536c1315dd7"><div class="ttname"><a href="../../da/db7/class_unit.html#adcdd87d0c137619dfc869536c1315dd7">Unit::AuraEffectList</a></div><div class="ttdeci">std::list&lt; AuraEffect * &gt; AuraEffectList</div><div class="ttdef"><b>Definition:</b> Unit.h:1306</div></div>
+<div class="ttc" id="aclassflag96_html_a2c9141d8a8ecb0d83097a3a3a53de579"><div class="ttname"><a href="../../dc/dd4/classflag96.html#a2c9141d8a8ecb0d83097a3a3a53de579">flag96::HasFlag</a></div><div class="ttdeci">bool HasFlag(uint32 p1=0, uint32 p2=0, uint32 p3=0) const</div><div class="ttdef"><b>Definition:</b> Util.h:463</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aff9bc58342383afe5a08be696cddedf6" name="aff9bc58342383afe5a08be696cddedf6"></a>
@@ -456,7 +513,19 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  442</span>    {</div>
+<div class="line"><span class="lineno">  443</span>        <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a509262d9721d83783e19142eee1645df">AfterEffectApply</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#ac47070c5a13a5436cc5d204a1445c993">AuraEffectApplyFn</a>(<a class="code hl_function" href="../../d4/d31/classspell__dru__enrage.html#a1a612d0b35ed6e67042b4d038f8927ca">spell_dru_enrage::HandleApply</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799ab9f377f6e107ad1633d32a22da2ec7d2">SPELL_AURA_PERIODIC_ENERGIZE</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a82ebee9e3cf7eaf2ab892a6eb7796288a9db592566b0111486336c591e7a06e2b">AURA_EFFECT_HANDLE_REAL</a>);</div>
+<div class="line"><span class="lineno">  444</span>        <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a2bfb775dfbe8cfc3cff876469c78ddcf">AfterEffectRemove</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#af8f20adad60abdb901d6e7310afea31b">AuraEffectRemoveFn</a>(<a class="code hl_function" href="../../d4/d31/classspell__dru__enrage.html#a54b5ffcf247f7385b50b401bc82f43ce">spell_dru_enrage::HandleRemove</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799ab9f377f6e107ad1633d32a22da2ec7d2">SPELL_AURA_PERIODIC_ENERGIZE</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a82ebee9e3cf7eaf2ab892a6eb7796288a9db592566b0111486336c591e7a06e2b">AURA_EFFECT_HANDLE_REAL</a>);</div>
+<div class="line"><span class="lineno">  445</span>    }</div>
+<div class="ttc" id="a_spell_aura_defines_8h_html_a538cdc259460b365f406fe0b3a981799ab9f377f6e107ad1633d32a22da2ec7d2"><div class="ttname"><a href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799ab9f377f6e107ad1633d32a22da2ec7d2">SPELL_AURA_PERIODIC_ENERGIZE</a></div><div class="ttdeci">@ SPELL_AURA_PERIODIC_ENERGIZE</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:87</div></div>
+<div class="ttc" id="a_spell_aura_defines_8h_html_a82ebee9e3cf7eaf2ab892a6eb7796288a9db592566b0111486336c591e7a06e2b"><div class="ttname"><a href="../../d7/d5a/_spell_aura_defines_8h.html#a82ebee9e3cf7eaf2ab892a6eb7796288a9db592566b0111486336c591e7a06e2b">AURA_EFFECT_HANDLE_REAL</a></div><div class="ttdeci">@ AURA_EFFECT_HANDLE_REAL</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:42</div></div>
+<div class="ttc" id="a_spell_script_8h_html_ac47070c5a13a5436cc5d204a1445c993"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#ac47070c5a13a5436cc5d204a1445c993">AuraEffectApplyFn</a></div><div class="ttdeci">#define AuraEffectApplyFn(F, I, N, M)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:733</div></div>
+<div class="ttc" id="a_spell_script_8h_html_af8f20adad60abdb901d6e7310afea31b"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#af8f20adad60abdb901d6e7310afea31b">AuraEffectRemoveFn</a></div><div class="ttdeci">#define AuraEffectRemoveFn(F, I, N, M)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:744</div></div>
+<div class="ttc" id="aclass_aura_script_html_a2bfb775dfbe8cfc3cff876469c78ddcf"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a2bfb775dfbe8cfc3cff876469c78ddcf">AuraScript::AfterEffectRemove</a></div><div class="ttdeci">HookList&lt; EffectApplyHandler &gt; AfterEffectRemove</div><div class="ttdef"><b>Definition:</b> SpellScript.h:743</div></div>
+<div class="ttc" id="aclass_aura_script_html_a509262d9721d83783e19142eee1645df"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a509262d9721d83783e19142eee1645df">AuraScript::AfterEffectApply</a></div><div class="ttdeci">HookList&lt; EffectApplyHandler &gt; AfterEffectApply</div><div class="ttdef"><b>Definition:</b> SpellScript.h:732</div></div>
+<div class="ttc" id="aclassspell__dru__enrage_html_a1a612d0b35ed6e67042b4d038f8927ca"><div class="ttname"><a href="../../d4/d31/classspell__dru__enrage.html#a1a612d0b35ed6e67042b4d038f8927ca">spell_dru_enrage::HandleApply</a></div><div class="ttdeci">void HandleApply(AuraEffect const *, AuraEffectHandleModes)</div><div class="ttdef"><b>Definition:</b> spell_druid.cpp:416</div></div>
+<div class="ttc" id="aclassspell__dru__enrage_html_a54b5ffcf247f7385b50b401bc82f43ce"><div class="ttname"><a href="../../d4/d31/classspell__dru__enrage.html#a54b5ffcf247f7385b50b401bc82f43ce">spell_dru_enrage::HandleRemove</a></div><div class="ttdeci">void HandleRemove(AuraEffect const *, AuraEffectHandleModes)</div><div class="ttdef"><b>Definition:</b> spell_druid.cpp:433</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad712e1e05d94372defdfa4fe67e65716" name="ad712e1e05d94372defdfa4fe67e65716"></a>
@@ -484,11 +553,15 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d7/d13/class___spell_script.html#a95e7862a5807bff409f13aea8306077e">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  398</span>    {</div>
+<div class="line"><span class="lineno">  399</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../d7/d13/class___spell_script.html#a9f7c76ac56838fbe61bf67d534979159">ValidateSpellInfo</a>({ <a class="code hl_enumvalue" href="../../db/d55/spell__druid_8cpp.html#aeec0f89a5dcaf62f9b5fd1225eb6eb1aa16b4870dab6a2db9c385e81846da44ce">SPELL_DRUID_KING_OF_THE_JUNGLE</a>, <a class="code hl_enumvalue" href="../../db/d55/spell__druid_8cpp.html#aeec0f89a5dcaf62f9b5fd1225eb6eb1aafd1e1ce959d89c122214d1fb3e0c7e19">SPELL_DRUID_ENRAGE_MOD_DAMAGE</a>, <a class="code hl_enumvalue" href="../../db/d55/spell__druid_8cpp.html#aeec0f89a5dcaf62f9b5fd1225eb6eb1aa8836a7dd192185fba9a8bfdb2617c92a">SPELL_DRUID_ENRAGED_DEFENSE</a>, <a class="code hl_enumvalue" href="../../db/d55/spell__druid_8cpp.html#aeec0f89a5dcaf62f9b5fd1225eb6eb1aa91d73263b7be89766a9ae47e448062ea">SPELL_DRUID_ITEM_T10_FERAL_4P_BONUS</a> });</div>
+<div class="line"><span class="lineno">  400</span>    }</div>
+<div class="ttc" id="aclass___spell_script_html_a9f7c76ac56838fbe61bf67d534979159"><div class="ttname"><a href="../../d7/d13/class___spell_script.html#a9f7c76ac56838fbe61bf67d534979159">_SpellScript::ValidateSpellInfo</a></div><div class="ttdeci">static bool ValidateSpellInfo(std::initializer_list&lt; uint32 &gt; spellIds)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:125</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Spells/<a class="el" href="../../db/d55/spell__druid_8cpp.html">spell_druid.cpp</a></li>
+<li><a class="el" href="../../">spell_druid.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -496,7 +569,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d4/d31/classspell__dru__enrage.html">spell_dru_enrage</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:00 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:17 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

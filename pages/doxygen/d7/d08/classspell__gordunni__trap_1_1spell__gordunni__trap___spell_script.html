@@ -292,7 +292,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a8131f09a63ee74bb43f310f0894d13d2" name="a8131f09a63ee74bb43f310f0894d13d2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8131f09a63ee74bb43f310f0894d13d2">&#9670;&#160;</a></span>HandleDummy()</h2>
 
@@ -315,7 +316,21 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   48</span>        {</div>
+<div class="line"><span class="lineno">   49</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* caster = <a class="code hl_function" href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>())</div>
+<div class="line"><span class="lineno">   50</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d0/dd1/class_game_object.html">GameObject</a>* chest = caster-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#ae5570989260234d213323c44ab5fb44c">SummonGameObject</a>(<a class="code hl_enumvalue" href="../../d3/daf/zone__feralas_8cpp.html#ae11511f5835ecdfec73fde1f9f29431ca12df131fc84f6cc9bcf7d02eaf65e1ab">GO_GORDUNNI_DIRT_MOUND</a>, caster-&gt;GetPositionX(), caster-&gt;GetPositionY(), caster-&gt;GetPositionZ(), 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0))</div>
+<div class="line"><span class="lineno">   51</span>                {</div>
+<div class="line"><span class="lineno">   52</span>                    chest-&gt;SetSpellId(<a class="code hl_function" href="../../dc/d62/class_spell_script.html#a3fa31d3b29c52993d3561fad3cd12af3">GetSpellInfo</a>()-&gt;Id);</div>
+<div class="line"><span class="lineno">   53</span>                    caster-&gt;RemoveGameObject(chest, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">   54</span>                }</div>
+<div class="line"><span class="lineno">   55</span>        }</div>
+<div class="ttc" id="aclass_game_object_html"><div class="ttname"><a href="../../d0/dd1/class_game_object.html">GameObject</a></div><div class="ttdef"><b>Definition:</b> GameObject.h:813</div></div>
+<div class="ttc" id="aclass_spell_script_html_a3fa31d3b29c52993d3561fad3cd12af3"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a3fa31d3b29c52993d3561fad3cd12af3">SpellScript::GetSpellInfo</a></div><div class="ttdeci">SpellInfo const * GetSpellInfo()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:411</div></div>
+<div class="ttc" id="aclass_spell_script_html_ae630e2d388177707e28cecd5fa5a2b48"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">SpellScript::GetCaster</a></div><div class="ttdeci">Unit * GetCaster()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:401</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_world_object_html_ae5570989260234d213323c44ab5fb44c"><div class="ttname"><a href="../../db/df7/class_world_object.html#ae5570989260234d213323c44ab5fb44c">WorldObject::SummonGameObject</a></div><div class="ttdeci">GameObject * SummonGameObject(uint32 entry, float x, float y, float z, float ang, float rotation0, float rotation1, float rotation2, float rotation3, uint32 respawnTime, bool checkTransport=true, GOSummonType summonType=GO_SUMMON_TIMED_OR_CORPSE_DESPAWN)</div><div class="ttdef"><b>Definition:</b> Object.cpp:2315</div></div>
+<div class="ttc" id="azone__feralas_8cpp_html_ae11511f5835ecdfec73fde1f9f29431ca12df131fc84f6cc9bcf7d02eaf65e1ab"><div class="ttname"><a href="../../d3/daf/zone__feralas_8cpp.html#ae11511f5835ecdfec73fde1f9f29431ca12df131fc84f6cc9bcf7d02eaf65e1ab">GO_GORDUNNI_DIRT_MOUND</a></div><div class="ttdeci">@ GO_GORDUNNI_DIRT_MOUND</div><div class="ttdef"><b>Definition:</b> zone_feralas.cpp:35</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a00a554334d64c44ba44925264fc72472" name="a00a554334d64c44ba44925264fc72472"></a>
@@ -368,11 +383,17 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   58</span>        {</div>
+<div class="line"><span class="lineno">   59</span>            <a class="code hl_variable" href="../../dc/d62/class_spell_script.html#a7effb149f3d70abf83a46673d6e7705d">OnCast</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#aa0eb707cdfb0f2fafeafd6ab32274654">SpellCastFn</a>(<a class="code hl_function" href="../../d7/d08/classspell__gordunni__trap_1_1spell__gordunni__trap___spell_script.html#a8131f09a63ee74bb43f310f0894d13d2">spell_gordunni_trap_SpellScript::HandleDummy</a>);</div>
+<div class="line"><span class="lineno">   60</span>        }</div>
+<div class="ttc" id="a_spell_script_8h_html_aa0eb707cdfb0f2fafeafd6ab32274654"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#aa0eb707cdfb0f2fafeafd6ab32274654">SpellCastFn</a></div><div class="ttdeci">#define SpellCastFn(F)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:324</div></div>
+<div class="ttc" id="aclass_spell_script_html_a7effb149f3d70abf83a46673d6e7705d"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a7effb149f3d70abf83a46673d6e7705d">SpellScript::OnCast</a></div><div class="ttdeci">HookList&lt; CastHandler &gt; OnCast</div><div class="ttdef"><b>Definition:</b> SpellScript.h:321</div></div>
+<div class="ttc" id="aclassspell__gordunni__trap_1_1spell__gordunni__trap___spell_script_html_a8131f09a63ee74bb43f310f0894d13d2"><div class="ttname"><a href="../../d7/d08/classspell__gordunni__trap_1_1spell__gordunni__trap___spell_script.html#a8131f09a63ee74bb43f310f0894d13d2">spell_gordunni_trap::spell_gordunni_trap_SpellScript::HandleDummy</a></div><div class="ttdeci">void HandleDummy()</div><div class="ttdef"><b>Definition:</b> zone_feralas.cpp:47</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Kalimdor/<a class="el" href="../../d3/daf/zone__feralas_8cpp.html">zone_feralas.cpp</a></li>
+<li><a class="el" href="../../">zone_feralas.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -380,7 +401,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../de/d34/classspell__gordunni__trap.html">spell_gordunni_trap</a></li><li class="navelem"><a class="el" href="../../d7/d08/classspell__gordunni__trap_1_1spell__gordunni__trap___spell_script.html">spell_gordunni_trap_SpellScript</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:01 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:18 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

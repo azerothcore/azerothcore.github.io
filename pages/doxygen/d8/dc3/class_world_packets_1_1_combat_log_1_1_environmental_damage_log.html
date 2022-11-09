@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('d8/dc3/class_world_packets_1_1_combat_
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../da/dfa/_combat_log_packets_8h_source.html">CombatLogPackets.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">CombatLogPackets.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for WorldPackets::CombatLog::EnvironmentalDamageLog:</div>
 <div class="dyncontent">
@@ -181,7 +181,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ab85f1c9f20117bc5015180165c7b458a inherit pro_attribs_class_world_packets_1_1_packet"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d1a/class_world_packet.html">WorldPacket</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d4e/class_world_packets_1_1_packet.html#ab85f1c9f20117bc5015180165c7b458a">_worldPacket</a></td></tr>
 <tr class="separator:ab85f1c9f20117bc5015180165c7b458a inherit pro_attribs_class_world_packets_1_1_packet"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ab4311f6516d9b7491abf5cb2ba9a0ee0" name="ab4311f6516d9b7491abf5cb2ba9a0ee0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab4311f6516d9b7491abf5cb2ba9a0ee0">&#9670;&#160;</a></span>EnvironmentalDamageLog()</h2>
 
@@ -204,7 +205,10 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   31</span>: <a class="code hl_function" href="../../d6/d50/class_world_packets_1_1_server_packet.html#ad2222011e1251791799f97b149cef8b9">ServerPacket</a>(<a class="code hl_enumvalue" href="../../d2/dec/group__u2w.html#gga1073b6abb3a749f18bf1633020879e9baa76dabb24a5dca4bbc6af28e8f06a2d6">SMSG_ENVIRONMENTAL_DAMAGE_LOG</a>, 21) { }</div>
+<div class="ttc" id="aclass_world_packets_1_1_server_packet_html_ad2222011e1251791799f97b149cef8b9"><div class="ttname"><a href="../../d6/d50/class_world_packets_1_1_server_packet.html#ad2222011e1251791799f97b149cef8b9">WorldPackets::ServerPacket::ServerPacket</a></div><div class="ttdeci">ServerPacket(OpcodeServer opcode, size_t initialSize=200)</div><div class="ttdef"><b>Definition:</b> Packet.cpp:25</div></div>
+<div class="ttc" id="agroup__u2w_html_gga1073b6abb3a749f18bf1633020879e9baa76dabb24a5dca4bbc6af28e8f06a2d6"><div class="ttname"><a href="../../d2/dec/group__u2w.html#gga1073b6abb3a749f18bf1633020879e9baa76dabb24a5dca4bbc6af28e8f06a2d6">SMSG_ENVIRONMENTAL_DAMAGE_LOG</a></div><div class="ttdeci">@ SMSG_ENVIRONMENTAL_DAMAGE_LOG</div><div class="ttdef"><b>Definition:</b> Opcodes.h:538</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -232,7 +236,24 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d4e/class_world_packets_1_1_packet.html#af7c79156d7b6cfe3142fc530f9ed262a">WorldPackets::Packet</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   21</span>{</div>
+<div class="line"><span class="lineno">   22</span>    <a class="code hl_variable" href="../../d7/d4e/class_world_packets_1_1_packet.html#ab85f1c9f20117bc5015180165c7b458a">_worldPacket</a> &lt;&lt; <a class="code hl_variable" href="../../d8/dc3/class_world_packets_1_1_combat_log_1_1_environmental_damage_log.html#a020fffe9517d30e965a4d6f6602dd05f">Victim</a>;</div>
+<div class="line"><span class="lineno">   23</span>    <a class="code hl_variable" href="../../d7/d4e/class_world_packets_1_1_packet.html#ab85f1c9f20117bc5015180165c7b458a">_worldPacket</a> &lt;&lt; <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>(<a class="code hl_variable" href="../../d8/dc3/class_world_packets_1_1_combat_log_1_1_environmental_damage_log.html#a51df177d9ce6a8459bc8fa41f80cdb7a">Type</a>);</div>
+<div class="line"><span class="lineno">   24</span>    <a class="code hl_variable" href="../../d7/d4e/class_world_packets_1_1_packet.html#ab85f1c9f20117bc5015180165c7b458a">_worldPacket</a> &lt;&lt; <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(<a class="code hl_variable" href="../../d8/dc3/class_world_packets_1_1_combat_log_1_1_environmental_damage_log.html#a073e22176d44f5806313c2a4bd3e263a">Amount</a>);</div>
+<div class="line"><span class="lineno">   25</span>    <a class="code hl_variable" href="../../d7/d4e/class_world_packets_1_1_packet.html#ab85f1c9f20117bc5015180165c7b458a">_worldPacket</a> &lt;&lt; <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(<a class="code hl_variable" href="../../d8/dc3/class_world_packets_1_1_combat_log_1_1_environmental_damage_log.html#ad20a9730af3088d93ac56d89b6f66b12">Resisted</a>);</div>
+<div class="line"><span class="lineno">   26</span>    <a class="code hl_variable" href="../../d7/d4e/class_world_packets_1_1_packet.html#ab85f1c9f20117bc5015180165c7b458a">_worldPacket</a> &lt;&lt; <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(<a class="code hl_variable" href="../../d8/dc3/class_world_packets_1_1_combat_log_1_1_environmental_damage_log.html#a443df04be3afe2021532716140ffb099">Absorbed</a>);</div>
+<div class="line"><span class="lineno">   27</span> </div>
+<div class="line"><span class="lineno">   28</span>    <span class="keywordflow">return</span> &amp;<a class="code hl_variable" href="../../d7/d4e/class_world_packets_1_1_packet.html#ab85f1c9f20117bc5015180165c7b458a">_worldPacket</a>;</div>
+<div class="line"><span class="lineno">   29</span>}</div>
+<div class="ttc" id="a_define_8h_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:110</div></div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="aclass_world_packets_1_1_combat_log_1_1_environmental_damage_log_html_a020fffe9517d30e965a4d6f6602dd05f"><div class="ttname"><a href="../../d8/dc3/class_world_packets_1_1_combat_log_1_1_environmental_damage_log.html#a020fffe9517d30e965a4d6f6602dd05f">WorldPackets::CombatLog::EnvironmentalDamageLog::Victim</a></div><div class="ttdeci">ObjectGuid Victim</div><div class="ttdef"><b>Definition:</b> CombatLogPackets.h:35</div></div>
+<div class="ttc" id="aclass_world_packets_1_1_combat_log_1_1_environmental_damage_log_html_a073e22176d44f5806313c2a4bd3e263a"><div class="ttname"><a href="../../d8/dc3/class_world_packets_1_1_combat_log_1_1_environmental_damage_log.html#a073e22176d44f5806313c2a4bd3e263a">WorldPackets::CombatLog::EnvironmentalDamageLog::Amount</a></div><div class="ttdeci">uint32 Amount</div><div class="ttdef"><b>Definition:</b> CombatLogPackets.h:37</div></div>
+<div class="ttc" id="aclass_world_packets_1_1_combat_log_1_1_environmental_damage_log_html_a443df04be3afe2021532716140ffb099"><div class="ttname"><a href="../../d8/dc3/class_world_packets_1_1_combat_log_1_1_environmental_damage_log.html#a443df04be3afe2021532716140ffb099">WorldPackets::CombatLog::EnvironmentalDamageLog::Absorbed</a></div><div class="ttdeci">uint32 Absorbed</div><div class="ttdef"><b>Definition:</b> CombatLogPackets.h:39</div></div>
+<div class="ttc" id="aclass_world_packets_1_1_combat_log_1_1_environmental_damage_log_html_a51df177d9ce6a8459bc8fa41f80cdb7a"><div class="ttname"><a href="../../d8/dc3/class_world_packets_1_1_combat_log_1_1_environmental_damage_log.html#a51df177d9ce6a8459bc8fa41f80cdb7a">WorldPackets::CombatLog::EnvironmentalDamageLog::Type</a></div><div class="ttdeci">EnviromentalDamage Type</div><div class="ttdef"><b>Definition:</b> CombatLogPackets.h:36</div></div>
+<div class="ttc" id="aclass_world_packets_1_1_combat_log_1_1_environmental_damage_log_html_ad20a9730af3088d93ac56d89b6f66b12"><div class="ttname"><a href="../../d8/dc3/class_world_packets_1_1_combat_log_1_1_environmental_damage_log.html#ad20a9730af3088d93ac56d89b6f66b12">WorldPackets::CombatLog::EnvironmentalDamageLog::Resisted</a></div><div class="ttdeci">uint32 Resisted</div><div class="ttdef"><b>Definition:</b> CombatLogPackets.h:38</div></div>
+<div class="ttc" id="aclass_world_packets_1_1_packet_html_ab85f1c9f20117bc5015180165c7b458a"><div class="ttname"><a href="../../d7/d4e/class_world_packets_1_1_packet.html#ab85f1c9f20117bc5015180165c7b458a">WorldPackets::Packet::_worldPacket</a></div><div class="ttdeci">WorldPacket _worldPacket</div><div class="ttdef"><b>Definition:</b> Packet.h:42</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -307,8 +328,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Server/Packets/<a class="el" href="../../da/dfa/_combat_log_packets_8h_source.html">CombatLogPackets.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/Server/Packets/<a class="el" href="../../d5/dab/_combat_log_packets_8cpp.html">CombatLogPackets.cpp</a></li>
+<li><a class="el" href="../../">CombatLogPackets.h</a></li>
+<li><a class="el" href="../../">CombatLogPackets.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -316,7 +337,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d3/d87/namespace_world_packets.html">WorldPackets</a></li><li class="navelem"><a class="el" href="../../da/d48/namespace_world_packets_1_1_combat_log.html">CombatLog</a></li><li class="navelem"><a class="el" href="../../d8/dc3/class_world_packets_1_1_combat_log_1_1_environmental_damage_log.html">EnvironmentalDamageLog</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:14 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:32 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

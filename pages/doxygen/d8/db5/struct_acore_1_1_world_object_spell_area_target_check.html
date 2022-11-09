@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('d8/db5/struct_acore_1_1_world_object_s
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d5/dfa/_spell_8h_source.html">Spell.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">Spell.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for Acore::WorldObjectSpellAreaTargetCheck:</div>
 <div class="dyncontent">
@@ -160,7 +160,8 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a70b9331b5871e2e4d92d642715c8192a inherit pub_attribs_struct_acore_1_1_world_object_spell_target_check"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d62/_condition_mgr_8h.html#ae942a8e25dc24ce42e62625bb583c0dd">ConditionList</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d8a/struct_acore_1_1_world_object_spell_target_check.html#a70b9331b5871e2e4d92d642715c8192a">_condList</a></td></tr>
 <tr class="separator:a70b9331b5871e2e4d92d642715c8192a inherit pub_attribs_struct_acore_1_1_world_object_spell_target_check"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a2b017300220426ac42de18e3a8699219" name="a2b017300220426ac42de18e3a8699219"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2b017300220426ac42de18e3a8699219">&#9670;&#160;</a></span>WorldObjectSpellAreaTargetCheck()</h2>
 
@@ -216,7 +217,13 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 8989</span>        : <a class="code hl_function" href="../../d4/d8a/struct_acore_1_1_world_object_spell_target_check.html#a370a66c484d486ac6d2d3419a019c7cd">WorldObjectSpellTargetCheck</a>(caster, referer, spellInfo, selectionType, condList), <a class="code hl_variable" href="../../d8/db5/struct_acore_1_1_world_object_spell_area_target_check.html#a4ee3762b4a7f35d252cbb5337d61d92c">_range</a>(range), <a class="code hl_variable" href="../../d8/db5/struct_acore_1_1_world_object_spell_area_target_check.html#a680c45dd148161657da011a1772375ca">_position</a>(position)</div>
+<div class="line"><span class="lineno"> 8990</span>    {</div>
+<div class="line"><span class="lineno"> 8991</span>    }</div>
+<div class="ttc" id="astruct_acore_1_1_world_object_spell_area_target_check_html_a4ee3762b4a7f35d252cbb5337d61d92c"><div class="ttname"><a href="../../d8/db5/struct_acore_1_1_world_object_spell_area_target_check.html#a4ee3762b4a7f35d252cbb5337d61d92c">Acore::WorldObjectSpellAreaTargetCheck::_range</a></div><div class="ttdeci">float _range</div><div class="ttdef"><b>Definition:</b> Spell.h:819</div></div>
+<div class="ttc" id="astruct_acore_1_1_world_object_spell_area_target_check_html_a680c45dd148161657da011a1772375ca"><div class="ttname"><a href="../../d8/db5/struct_acore_1_1_world_object_spell_area_target_check.html#a680c45dd148161657da011a1772375ca">Acore::WorldObjectSpellAreaTargetCheck::_position</a></div><div class="ttdeci">Position const  * _position</div><div class="ttdef"><b>Definition:</b> Spell.h:820</div></div>
+<div class="ttc" id="astruct_acore_1_1_world_object_spell_target_check_html_a370a66c484d486ac6d2d3419a019c7cd"><div class="ttname"><a href="../../d4/d8a/struct_acore_1_1_world_object_spell_target_check.html#a370a66c484d486ac6d2d3419a019c7cd">Acore::WorldObjectSpellTargetCheck::WorldObjectSpellTargetCheck</a></div><div class="ttdeci">WorldObjectSpellTargetCheck(Unit *caster, Unit *referer, SpellInfo const *spellInfo, SpellTargetCheckTypes selectionType, ConditionList *condList)</div><div class="ttdef"><b>Definition:</b> Spell.cpp:8891</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -235,7 +242,31 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 8994</span>    {</div>
+<div class="line"><span class="lineno"> 8995</span>        <span class="keywordflow">if</span> (target-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">GetTypeId</a>() == <a class="code hl_enumvalue" href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2a91b74ac7ebfe7909332a6eec5054c60d">TYPEID_GAMEOBJECT</a>)</div>
+<div class="line"><span class="lineno"> 8996</span>        {</div>
+<div class="line"><span class="lineno"> 8997</span>            <span class="keywordflow">if</span> (!target-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a96b380b13acdb406d552053cf775180f">ToGameObject</a>()-&gt;<a class="code hl_function" href="../../d0/dd1/class_game_object.html#a745a0423be225a755ce40f93a6f0284c">IsInRange</a>(<a class="code hl_variable" href="../../d8/db5/struct_acore_1_1_world_object_spell_area_target_check.html#a680c45dd148161657da011a1772375ca">_position</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#ad5577c934d9e845b44759b67c534c3e8">GetPositionX</a>(), <a class="code hl_variable" href="../../d8/db5/struct_acore_1_1_world_object_spell_area_target_check.html#a680c45dd148161657da011a1772375ca">_position</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">GetPositionY</a>(), <a class="code hl_variable" href="../../d8/db5/struct_acore_1_1_world_object_spell_area_target_check.html#a680c45dd148161657da011a1772375ca">_position</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#a4e813a59345a6275e8b87b96be03e60b">GetPositionZ</a>(), <a class="code hl_variable" href="../../d8/db5/struct_acore_1_1_world_object_spell_area_target_check.html#a4ee3762b4a7f35d252cbb5337d61d92c">_range</a>))</div>
+<div class="line"><span class="lineno"> 8998</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 8999</span>        }</div>
+<div class="line"><span class="lineno"> 9000</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (!target-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a0f50be7888e7adb64d542c540b7f5675">IsWithinDist3d</a>(<a class="code hl_variable" href="../../d8/db5/struct_acore_1_1_world_object_spell_area_target_check.html#a680c45dd148161657da011a1772375ca">_position</a>, <a class="code hl_variable" href="../../d8/db5/struct_acore_1_1_world_object_spell_area_target_check.html#a4ee3762b4a7f35d252cbb5337d61d92c">_range</a>))</div>
+<div class="line"><span class="lineno"> 9001</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 9002</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (target-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">GetTypeId</a>() == <a class="code hl_enumvalue" href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2a93dfa528ffc48db4993fb7ac62696db9">TYPEID_UNIT</a> &amp;&amp; target-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ab0e2ef1ac1daa91476f749e0ec6ad3c6">ToCreature</a>()-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a4f6d3cf41d5f547bbcc37034e16bfb94">IsAvoidingAOE</a>()) <span class="comment">// pussywizard</span></div>
+<div class="line"><span class="lineno"> 9003</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 9004</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../d4/d8a/struct_acore_1_1_world_object_spell_target_check.html#a2ae263977948d2195b22a737c36bad20">WorldObjectSpellTargetCheck::operator ()</a>(target);</div>
+<div class="line"><span class="lineno"> 9005</span>    }</div>
+<div class="ttc" id="a_object_guid_8h_html_a183c40b2ba67065929d70b3987da4cc2a91b74ac7ebfe7909332a6eec5054c60d"><div class="ttname"><a href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2a91b74ac7ebfe7909332a6eec5054c60d">TYPEID_GAMEOBJECT</a></div><div class="ttdeci">@ TYPEID_GAMEOBJECT</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:39</div></div>
+<div class="ttc" id="a_object_guid_8h_html_a183c40b2ba67065929d70b3987da4cc2a93dfa528ffc48db4993fb7ac62696db9"><div class="ttname"><a href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2a93dfa528ffc48db4993fb7ac62696db9">TYPEID_UNIT</a></div><div class="ttdeci">@ TYPEID_UNIT</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:37</div></div>
+<div class="ttc" id="aclass_creature_html_a4f6d3cf41d5f547bbcc37034e16bfb94"><div class="ttname"><a href="../../d1/dac/class_creature.html#a4f6d3cf41d5f547bbcc37034e16bfb94">Creature::IsAvoidingAOE</a></div><div class="ttdeci">bool IsAvoidingAOE() const</div><div class="ttdef"><b>Definition:</b> Creature.h:124</div></div>
+<div class="ttc" id="aclass_game_object_html_a745a0423be225a755ce40f93a6f0284c"><div class="ttname"><a href="../../d0/dd1/class_game_object.html#a745a0423be225a755ce40f93a6f0284c">GameObject::IsInRange</a></div><div class="ttdeci">bool IsInRange(float x, float y, float z, float radius) const</div><div class="ttdef"><b>Definition:</b> GameObject.cpp:2127</div></div>
+<div class="ttc" id="aclass_object_html_a621a345fc34deed6d3a4e1e498a652da"><div class="ttname"><a href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">Object::GetTypeId</a></div><div class="ttdeci">TypeID GetTypeId() const</div><div class="ttdef"><b>Definition:</b> Object.h:121</div></div>
+<div class="ttc" id="aclass_object_html_a96b380b13acdb406d552053cf775180f"><div class="ttname"><a href="../../d8/d83/class_object.html#a96b380b13acdb406d552053cf775180f">Object::ToGameObject</a></div><div class="ttdeci">GameObject * ToGameObject()</div><div class="ttdef"><b>Definition:</b> Object.h:202</div></div>
+<div class="ttc" id="aclass_object_html_ab0e2ef1ac1daa91476f749e0ec6ad3c6"><div class="ttname"><a href="../../d8/d83/class_object.html#ab0e2ef1ac1daa91476f749e0ec6ad3c6">Object::ToCreature</a></div><div class="ttdeci">Creature * ToCreature()</div><div class="ttdef"><b>Definition:</b> Object.h:197</div></div>
+<div class="ttc" id="aclass_world_object_html_a0f50be7888e7adb64d542c540b7f5675"><div class="ttname"><a href="../../db/df7/class_world_object.html#a0f50be7888e7adb64d542c540b7f5675">WorldObject::IsWithinDist3d</a></div><div class="ttdeci">bool IsWithinDist3d(float x, float y, float z, float dist) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1295</div></div>
+<div class="ttc" id="astruct_acore_1_1_world_object_spell_target_check_html_a2ae263977948d2195b22a737c36bad20"><div class="ttname"><a href="../../d4/d8a/struct_acore_1_1_world_object_spell_target_check.html#a2ae263977948d2195b22a737c36bad20">Acore::WorldObjectSpellTargetCheck::operator()</a></div><div class="ttdeci">bool operator()(WorldObject *target)</div><div class="ttdef"><b>Definition:</b> Spell.cpp:8907</div></div>
+<div class="ttc" id="astruct_position_html_a4e813a59345a6275e8b87b96be03e60b"><div class="ttname"><a href="../../d1/d26/struct_position.html#a4e813a59345a6275e8b87b96be03e60b">Position::GetPositionZ</a></div><div class="ttdeci">float GetPositionZ() const</div><div class="ttdef"><b>Definition:</b> Position.h:119</div></div>
+<div class="ttc" id="astruct_position_html_ad5577c934d9e845b44759b67c534c3e8"><div class="ttname"><a href="../../d1/d26/struct_position.html#ad5577c934d9e845b44759b67c534c3e8">Position::GetPositionX</a></div><div class="ttdeci">float GetPositionX() const</div><div class="ttdef"><b>Definition:</b> Position.h:117</div></div>
+<div class="ttc" id="astruct_position_html_ae79fc664f6cd027f5d49f6c7df8e4c9e"><div class="ttname"><a href="../../d1/d26/struct_position.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">Position::GetPositionY</a></div><div class="ttdeci">float GetPositionY() const</div><div class="ttdef"><b>Definition:</b> Position.h:118</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -268,8 +299,8 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Spells/<a class="el" href="../../d5/dfa/_spell_8h_source.html">Spell.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/Spells/<a class="el" href="../../d8/d41/_spell_8cpp.html">Spell.cpp</a></li>
+<li><a class="el" href="../../">Spell.h</a></li>
+<li><a class="el" href="../../">Spell.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -277,7 +308,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d7d/namespace_acore.html">Acore</a></li><li class="navelem"><a class="el" href="../../d8/db5/struct_acore_1_1_world_object_spell_area_target_check.html">WorldObjectSpellAreaTargetCheck</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:13 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:31 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

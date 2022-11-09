@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzeorthCore: D:/azerothcore-wotlk/src/server/game/AI/ScriptedAI/ScriptedGossip.h File Reference</title>
+<title>AzeorthCore: ScriptedGossip.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -112,10 +112,10 @@ $(document).ready(function(){initNavTree('dc/d28/_scripted_gossip_8h.html','../.
   <div class="headertitle"><div class="title">ScriptedGossip.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../de/d79/_gossip_def_8h_source.html">GossipDef.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d2/dc8/_quest_def_8h_source.html">QuestDef.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">GossipDef.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">QuestDef.h</a>&quot;</code><br />
 </div>
-<p><a href="../../dc/d28/_scripted_gossip_8h_source.html">Go to the source code of this file.</a></p>
+<p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
@@ -325,7 +325,104 @@ Functions</h2></td></tr>
 <tr><td class="fieldname"><a id="ac61a667541c1c7c94a9aeb407e34d36da3789bebe4ac5d7307d977ba3921b21e3" name="ac61a667541c1c7c94a9aeb407e34d36da3789bebe4ac5d7307d977ba3921b21e3"></a>GOSSIP_SENDER_SEC_MAILBOX&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ac61a667541c1c7c94a9aeb407e34d36da2a9e52407de64c5ac23bf3ff6faefd5d" name="ac61a667541c1c7c94a9aeb407e34d36da2a9e52407de64c5ac23bf3ff6faefd5d"></a>GOSSIP_SENDER_SEC_STABLEMASTER&#160;</td><td class="fielddoc"></td></tr>
 </table>
-
+<div class="fragment"><div class="line"><span class="lineno">   29</span>{</div>
+<div class="line"><span class="lineno">   30</span>    <span class="comment">// Skill defines</span></div>
+<div class="line"><span class="lineno">   31</span>    <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da475964fdc4fa9938f5419a8e78f77362">TRADESKILL_ALCHEMY</a>                  = 1,</div>
+<div class="line"><span class="lineno">   32</span>    <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da969ee5a77a9d373de407cd6081cfaa86">TRADESKILL_BLACKSMITHING</a>            = 2,</div>
+<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36dab3561e17018ebfb293c600b647cdb413">TRADESKILL_COOKING</a>                  = 3,</div>
+<div class="line"><span class="lineno">   34</span>    <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36dac87393e700307eb79dd0cad567eba0dd">TRADESKILL_ENCHANTING</a>               = 4,</div>
+<div class="line"><span class="lineno">   35</span>    <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36dafe00db1fb0f6339d638a4721c9067e86">TRADESKILL_ENGINEERING</a>              = 5,</div>
+<div class="line"><span class="lineno">   36</span>    <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da4516cbe2e6e543c7edaafad4a168934b">TRADESKILL_FIRSTAID</a>                 = 6,</div>
+<div class="line"><span class="lineno">   37</span>    <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36dac76c8a1af68ff8d6f33c3be3fef900e3">TRADESKILL_HERBALISM</a>                = 7,</div>
+<div class="line"><span class="lineno">   38</span>    <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da106ee3584da0b1c7d4f83a7f5197e64b">TRADESKILL_LEATHERWORKING</a>           = 8,</div>
+<div class="line"><span class="lineno">   39</span>    <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36dac98e22b65d418e957b04a382fbe1b12f">TRADESKILL_POISONS</a>                  = 9,</div>
+<div class="line"><span class="lineno">   40</span>    <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da74961cb9067998b73aede1dc91568735">TRADESKILL_TAILORING</a>                = 10,</div>
+<div class="line"><span class="lineno">   41</span>    <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da6fc5e747d47f0ce1484abb1e308bf950">TRADESKILL_MINING</a>                   = 11,</div>
+<div class="line"><span class="lineno">   42</span>    <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36dad6d50dc8dc6de123eee0d2e67f12a40f">TRADESKILL_FISHING</a>                  = 12,</div>
+<div class="line"><span class="lineno">   43</span>    <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da689c5f60276c8789b50634715d718f83">TRADESKILL_SKINNING</a>                 = 13,</div>
+<div class="line"><span class="lineno">   44</span>    <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da204da8f945fc6490fd6c2a809db31d7f">TRADESKILL_JEWLCRAFTING</a>             = 14,</div>
+<div class="line"><span class="lineno">   45</span>    <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da9fe57220661e02241ca068c1a60a0a4e">TRADESKILL_INSCRIPTION</a>              = 15,</div>
+<div class="line"><span class="lineno">   46</span> </div>
+<div class="line"><span class="lineno">   47</span>    <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36dab31d1186fd7ded851c9f1dee7489a698">TRADESKILL_LEVEL_NONE</a>               = 0,</div>
+<div class="line"><span class="lineno">   48</span>    <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36daeb88157fb28855d72a3a04a83d9d0380">TRADESKILL_LEVEL_APPRENTICE</a>         = 1,</div>
+<div class="line"><span class="lineno">   49</span>    <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da7a4af19043e1f22c82c28362fd3478cf">TRADESKILL_LEVEL_JOURNEYMAN</a>         = 2,</div>
+<div class="line"><span class="lineno">   50</span>    <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da4972fdbcc028529cda907dd1670396f2">TRADESKILL_LEVEL_EXPERT</a>             = 3,</div>
+<div class="line"><span class="lineno">   51</span>    <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da833d8525e868dcd26cce8daebd02df7c">TRADESKILL_LEVEL_ARTISAN</a>            = 4,</div>
+<div class="line"><span class="lineno">   52</span>    <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36dab1f3c262e02c455f78c2406cfeab3366">TRADESKILL_LEVEL_MASTER</a>             = 5,</div>
+<div class="line"><span class="lineno">   53</span>    <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da18b54e6197749c5468eb0fe7fefb474f">TRADESKILL_LEVEL_GRAND_MASTER</a>       = 6,</div>
+<div class="line"><span class="lineno">   54</span> </div>
+<div class="line"><span class="lineno">   55</span>    <span class="comment">// Gossip defines</span></div>
+<div class="line"><span class="lineno">   56</span>    <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da965006e32a608bd52f612167dec46573">GOSSIP_ACTION_TRADE</a>                 = 1,</div>
+<div class="line"><span class="lineno">   57</span>    <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36dab64daef30e35b637b27050fbc3a5b6dd">GOSSIP_ACTION_TRAIN</a>                 = 2,</div>
+<div class="line"><span class="lineno">   58</span>    <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da30589eb787232d92c8e4c5a2d3fca4bc">GOSSIP_ACTION_TAXI</a>                  = 3,</div>
+<div class="line"><span class="lineno">   59</span>    <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da62a035d38f6092d2badda54f2d756799">GOSSIP_ACTION_GUILD</a>                 = 4,</div>
+<div class="line"><span class="lineno">   60</span>    <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da5b04f7b4c549c433df0c70d5d01c129b">GOSSIP_ACTION_BATTLE</a>                = 5,</div>
+<div class="line"><span class="lineno">   61</span>    <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da7802b547c7676b008f552f2dec200cdf">GOSSIP_ACTION_BANK</a>                  = 6,</div>
+<div class="line"><span class="lineno">   62</span>    <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da738bff94bbc7c86e115443b973af6972">GOSSIP_ACTION_INN</a>                   = 7,</div>
+<div class="line"><span class="lineno">   63</span>    <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da7a7ed9b1fb3198fefb6efbc1521c51b5">GOSSIP_ACTION_HEAL</a>                  = 8,</div>
+<div class="line"><span class="lineno">   64</span>    <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da75b76c4f028f36930e50b0a5f7fc968c">GOSSIP_ACTION_TABARD</a>                = 9,</div>
+<div class="line"><span class="lineno">   65</span>    <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36daa1d4ae0f2197dd4f0fda2005242b7d37">GOSSIP_ACTION_AUCTION</a>               = 10,</div>
+<div class="line"><span class="lineno">   66</span>    <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36dad3334f5105a2cd0b9e4d176bf087c4e9">GOSSIP_ACTION_INN_INFO</a>              = 11,</div>
+<div class="line"><span class="lineno">   67</span>    <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36daa654aa5772147c5c6c188647fddc6c93">GOSSIP_ACTION_UNLEARN</a>               = 12,</div>
+<div class="line"><span class="lineno">   68</span>    <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36daf5e2b26c787b79ef696a69604bb85fd8">GOSSIP_ACTION_INFO_DEF</a>              = 1000,</div>
+<div class="line"><span class="lineno">   69</span> </div>
+<div class="line"><span class="lineno">   70</span>    <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da650f01832933ccb3735a38413b779452">GOSSIP_SENDER_MAIN</a>                  = 1,</div>
+<div class="line"><span class="lineno">   71</span>    <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da96d9f9858cba2a025b806aae59736ad1">GOSSIP_SENDER_INN_INFO</a>              = 2,</div>
+<div class="line"><span class="lineno">   72</span>    <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36dafc9d96c9e0b2a2aa34752431211d108d">GOSSIP_SENDER_INFO</a>                  = 3,</div>
+<div class="line"><span class="lineno">   73</span>    <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36dafb71aeff9ec1a18f1ea4975287e8c512">GOSSIP_SENDER_SEC_PROFTRAIN</a>         = 4,</div>
+<div class="line"><span class="lineno">   74</span>    <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da324319e2f62ad6934dde6147523895d9">GOSSIP_SENDER_SEC_CLASSTRAIN</a>        = 5,</div>
+<div class="line"><span class="lineno">   75</span>    <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da10797f5fe97497c60d029b535f5cdd85">GOSSIP_SENDER_SEC_BATTLEINFO</a>        = 6,</div>
+<div class="line"><span class="lineno">   76</span>    <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da3426957cb278a246f58666bc72532b4f">GOSSIP_SENDER_SEC_BANK</a>              = 7,</div>
+<div class="line"><span class="lineno">   77</span>    <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36dac95576395bb99cc16cd14c471ba25091">GOSSIP_SENDER_SEC_INN</a>               = 8,</div>
+<div class="line"><span class="lineno">   78</span>    <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da3789bebe4ac5d7307d977ba3921b21e3">GOSSIP_SENDER_SEC_MAILBOX</a>           = 9,</div>
+<div class="line"><span class="lineno">   79</span>    <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da2a9e52407de64c5ac23bf3ff6faefd5d">GOSSIP_SENDER_SEC_STABLEMASTER</a>      = 10</div>
+<div class="line"><span class="lineno">   80</span>};</div>
+<div class="ttc" id="a_scripted_gossip_8h_html_ac61a667541c1c7c94a9aeb407e34d36da106ee3584da0b1c7d4f83a7f5197e64b"><div class="ttname"><a href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da106ee3584da0b1c7d4f83a7f5197e64b">TRADESKILL_LEATHERWORKING</a></div><div class="ttdeci">@ TRADESKILL_LEATHERWORKING</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.h:38</div></div>
+<div class="ttc" id="a_scripted_gossip_8h_html_ac61a667541c1c7c94a9aeb407e34d36da10797f5fe97497c60d029b535f5cdd85"><div class="ttname"><a href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da10797f5fe97497c60d029b535f5cdd85">GOSSIP_SENDER_SEC_BATTLEINFO</a></div><div class="ttdeci">@ GOSSIP_SENDER_SEC_BATTLEINFO</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.h:75</div></div>
+<div class="ttc" id="a_scripted_gossip_8h_html_ac61a667541c1c7c94a9aeb407e34d36da18b54e6197749c5468eb0fe7fefb474f"><div class="ttname"><a href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da18b54e6197749c5468eb0fe7fefb474f">TRADESKILL_LEVEL_GRAND_MASTER</a></div><div class="ttdeci">@ TRADESKILL_LEVEL_GRAND_MASTER</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.h:53</div></div>
+<div class="ttc" id="a_scripted_gossip_8h_html_ac61a667541c1c7c94a9aeb407e34d36da204da8f945fc6490fd6c2a809db31d7f"><div class="ttname"><a href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da204da8f945fc6490fd6c2a809db31d7f">TRADESKILL_JEWLCRAFTING</a></div><div class="ttdeci">@ TRADESKILL_JEWLCRAFTING</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.h:44</div></div>
+<div class="ttc" id="a_scripted_gossip_8h_html_ac61a667541c1c7c94a9aeb407e34d36da2a9e52407de64c5ac23bf3ff6faefd5d"><div class="ttname"><a href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da2a9e52407de64c5ac23bf3ff6faefd5d">GOSSIP_SENDER_SEC_STABLEMASTER</a></div><div class="ttdeci">@ GOSSIP_SENDER_SEC_STABLEMASTER</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.h:79</div></div>
+<div class="ttc" id="a_scripted_gossip_8h_html_ac61a667541c1c7c94a9aeb407e34d36da30589eb787232d92c8e4c5a2d3fca4bc"><div class="ttname"><a href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da30589eb787232d92c8e4c5a2d3fca4bc">GOSSIP_ACTION_TAXI</a></div><div class="ttdeci">@ GOSSIP_ACTION_TAXI</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.h:58</div></div>
+<div class="ttc" id="a_scripted_gossip_8h_html_ac61a667541c1c7c94a9aeb407e34d36da324319e2f62ad6934dde6147523895d9"><div class="ttname"><a href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da324319e2f62ad6934dde6147523895d9">GOSSIP_SENDER_SEC_CLASSTRAIN</a></div><div class="ttdeci">@ GOSSIP_SENDER_SEC_CLASSTRAIN</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.h:74</div></div>
+<div class="ttc" id="a_scripted_gossip_8h_html_ac61a667541c1c7c94a9aeb407e34d36da3426957cb278a246f58666bc72532b4f"><div class="ttname"><a href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da3426957cb278a246f58666bc72532b4f">GOSSIP_SENDER_SEC_BANK</a></div><div class="ttdeci">@ GOSSIP_SENDER_SEC_BANK</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.h:76</div></div>
+<div class="ttc" id="a_scripted_gossip_8h_html_ac61a667541c1c7c94a9aeb407e34d36da3789bebe4ac5d7307d977ba3921b21e3"><div class="ttname"><a href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da3789bebe4ac5d7307d977ba3921b21e3">GOSSIP_SENDER_SEC_MAILBOX</a></div><div class="ttdeci">@ GOSSIP_SENDER_SEC_MAILBOX</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.h:78</div></div>
+<div class="ttc" id="a_scripted_gossip_8h_html_ac61a667541c1c7c94a9aeb407e34d36da4516cbe2e6e543c7edaafad4a168934b"><div class="ttname"><a href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da4516cbe2e6e543c7edaafad4a168934b">TRADESKILL_FIRSTAID</a></div><div class="ttdeci">@ TRADESKILL_FIRSTAID</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.h:36</div></div>
+<div class="ttc" id="a_scripted_gossip_8h_html_ac61a667541c1c7c94a9aeb407e34d36da475964fdc4fa9938f5419a8e78f77362"><div class="ttname"><a href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da475964fdc4fa9938f5419a8e78f77362">TRADESKILL_ALCHEMY</a></div><div class="ttdeci">@ TRADESKILL_ALCHEMY</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.h:31</div></div>
+<div class="ttc" id="a_scripted_gossip_8h_html_ac61a667541c1c7c94a9aeb407e34d36da4972fdbcc028529cda907dd1670396f2"><div class="ttname"><a href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da4972fdbcc028529cda907dd1670396f2">TRADESKILL_LEVEL_EXPERT</a></div><div class="ttdeci">@ TRADESKILL_LEVEL_EXPERT</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.h:50</div></div>
+<div class="ttc" id="a_scripted_gossip_8h_html_ac61a667541c1c7c94a9aeb407e34d36da5b04f7b4c549c433df0c70d5d01c129b"><div class="ttname"><a href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da5b04f7b4c549c433df0c70d5d01c129b">GOSSIP_ACTION_BATTLE</a></div><div class="ttdeci">@ GOSSIP_ACTION_BATTLE</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.h:60</div></div>
+<div class="ttc" id="a_scripted_gossip_8h_html_ac61a667541c1c7c94a9aeb407e34d36da62a035d38f6092d2badda54f2d756799"><div class="ttname"><a href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da62a035d38f6092d2badda54f2d756799">GOSSIP_ACTION_GUILD</a></div><div class="ttdeci">@ GOSSIP_ACTION_GUILD</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.h:59</div></div>
+<div class="ttc" id="a_scripted_gossip_8h_html_ac61a667541c1c7c94a9aeb407e34d36da650f01832933ccb3735a38413b779452"><div class="ttname"><a href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da650f01832933ccb3735a38413b779452">GOSSIP_SENDER_MAIN</a></div><div class="ttdeci">@ GOSSIP_SENDER_MAIN</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.h:70</div></div>
+<div class="ttc" id="a_scripted_gossip_8h_html_ac61a667541c1c7c94a9aeb407e34d36da689c5f60276c8789b50634715d718f83"><div class="ttname"><a href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da689c5f60276c8789b50634715d718f83">TRADESKILL_SKINNING</a></div><div class="ttdeci">@ TRADESKILL_SKINNING</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.h:43</div></div>
+<div class="ttc" id="a_scripted_gossip_8h_html_ac61a667541c1c7c94a9aeb407e34d36da6fc5e747d47f0ce1484abb1e308bf950"><div class="ttname"><a href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da6fc5e747d47f0ce1484abb1e308bf950">TRADESKILL_MINING</a></div><div class="ttdeci">@ TRADESKILL_MINING</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.h:41</div></div>
+<div class="ttc" id="a_scripted_gossip_8h_html_ac61a667541c1c7c94a9aeb407e34d36da738bff94bbc7c86e115443b973af6972"><div class="ttname"><a href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da738bff94bbc7c86e115443b973af6972">GOSSIP_ACTION_INN</a></div><div class="ttdeci">@ GOSSIP_ACTION_INN</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.h:62</div></div>
+<div class="ttc" id="a_scripted_gossip_8h_html_ac61a667541c1c7c94a9aeb407e34d36da74961cb9067998b73aede1dc91568735"><div class="ttname"><a href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da74961cb9067998b73aede1dc91568735">TRADESKILL_TAILORING</a></div><div class="ttdeci">@ TRADESKILL_TAILORING</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.h:40</div></div>
+<div class="ttc" id="a_scripted_gossip_8h_html_ac61a667541c1c7c94a9aeb407e34d36da75b76c4f028f36930e50b0a5f7fc968c"><div class="ttname"><a href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da75b76c4f028f36930e50b0a5f7fc968c">GOSSIP_ACTION_TABARD</a></div><div class="ttdeci">@ GOSSIP_ACTION_TABARD</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.h:64</div></div>
+<div class="ttc" id="a_scripted_gossip_8h_html_ac61a667541c1c7c94a9aeb407e34d36da7802b547c7676b008f552f2dec200cdf"><div class="ttname"><a href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da7802b547c7676b008f552f2dec200cdf">GOSSIP_ACTION_BANK</a></div><div class="ttdeci">@ GOSSIP_ACTION_BANK</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.h:61</div></div>
+<div class="ttc" id="a_scripted_gossip_8h_html_ac61a667541c1c7c94a9aeb407e34d36da7a4af19043e1f22c82c28362fd3478cf"><div class="ttname"><a href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da7a4af19043e1f22c82c28362fd3478cf">TRADESKILL_LEVEL_JOURNEYMAN</a></div><div class="ttdeci">@ TRADESKILL_LEVEL_JOURNEYMAN</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.h:49</div></div>
+<div class="ttc" id="a_scripted_gossip_8h_html_ac61a667541c1c7c94a9aeb407e34d36da7a7ed9b1fb3198fefb6efbc1521c51b5"><div class="ttname"><a href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da7a7ed9b1fb3198fefb6efbc1521c51b5">GOSSIP_ACTION_HEAL</a></div><div class="ttdeci">@ GOSSIP_ACTION_HEAL</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.h:63</div></div>
+<div class="ttc" id="a_scripted_gossip_8h_html_ac61a667541c1c7c94a9aeb407e34d36da833d8525e868dcd26cce8daebd02df7c"><div class="ttname"><a href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da833d8525e868dcd26cce8daebd02df7c">TRADESKILL_LEVEL_ARTISAN</a></div><div class="ttdeci">@ TRADESKILL_LEVEL_ARTISAN</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.h:51</div></div>
+<div class="ttc" id="a_scripted_gossip_8h_html_ac61a667541c1c7c94a9aeb407e34d36da965006e32a608bd52f612167dec46573"><div class="ttname"><a href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da965006e32a608bd52f612167dec46573">GOSSIP_ACTION_TRADE</a></div><div class="ttdeci">@ GOSSIP_ACTION_TRADE</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.h:56</div></div>
+<div class="ttc" id="a_scripted_gossip_8h_html_ac61a667541c1c7c94a9aeb407e34d36da969ee5a77a9d373de407cd6081cfaa86"><div class="ttname"><a href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da969ee5a77a9d373de407cd6081cfaa86">TRADESKILL_BLACKSMITHING</a></div><div class="ttdeci">@ TRADESKILL_BLACKSMITHING</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.h:32</div></div>
+<div class="ttc" id="a_scripted_gossip_8h_html_ac61a667541c1c7c94a9aeb407e34d36da96d9f9858cba2a025b806aae59736ad1"><div class="ttname"><a href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da96d9f9858cba2a025b806aae59736ad1">GOSSIP_SENDER_INN_INFO</a></div><div class="ttdeci">@ GOSSIP_SENDER_INN_INFO</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.h:71</div></div>
+<div class="ttc" id="a_scripted_gossip_8h_html_ac61a667541c1c7c94a9aeb407e34d36da9fe57220661e02241ca068c1a60a0a4e"><div class="ttname"><a href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da9fe57220661e02241ca068c1a60a0a4e">TRADESKILL_INSCRIPTION</a></div><div class="ttdeci">@ TRADESKILL_INSCRIPTION</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.h:45</div></div>
+<div class="ttc" id="a_scripted_gossip_8h_html_ac61a667541c1c7c94a9aeb407e34d36daa1d4ae0f2197dd4f0fda2005242b7d37"><div class="ttname"><a href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36daa1d4ae0f2197dd4f0fda2005242b7d37">GOSSIP_ACTION_AUCTION</a></div><div class="ttdeci">@ GOSSIP_ACTION_AUCTION</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.h:65</div></div>
+<div class="ttc" id="a_scripted_gossip_8h_html_ac61a667541c1c7c94a9aeb407e34d36daa654aa5772147c5c6c188647fddc6c93"><div class="ttname"><a href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36daa654aa5772147c5c6c188647fddc6c93">GOSSIP_ACTION_UNLEARN</a></div><div class="ttdeci">@ GOSSIP_ACTION_UNLEARN</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.h:67</div></div>
+<div class="ttc" id="a_scripted_gossip_8h_html_ac61a667541c1c7c94a9aeb407e34d36dab1f3c262e02c455f78c2406cfeab3366"><div class="ttname"><a href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36dab1f3c262e02c455f78c2406cfeab3366">TRADESKILL_LEVEL_MASTER</a></div><div class="ttdeci">@ TRADESKILL_LEVEL_MASTER</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.h:52</div></div>
+<div class="ttc" id="a_scripted_gossip_8h_html_ac61a667541c1c7c94a9aeb407e34d36dab31d1186fd7ded851c9f1dee7489a698"><div class="ttname"><a href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36dab31d1186fd7ded851c9f1dee7489a698">TRADESKILL_LEVEL_NONE</a></div><div class="ttdeci">@ TRADESKILL_LEVEL_NONE</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.h:47</div></div>
+<div class="ttc" id="a_scripted_gossip_8h_html_ac61a667541c1c7c94a9aeb407e34d36dab3561e17018ebfb293c600b647cdb413"><div class="ttname"><a href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36dab3561e17018ebfb293c600b647cdb413">TRADESKILL_COOKING</a></div><div class="ttdeci">@ TRADESKILL_COOKING</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.h:33</div></div>
+<div class="ttc" id="a_scripted_gossip_8h_html_ac61a667541c1c7c94a9aeb407e34d36dab64daef30e35b637b27050fbc3a5b6dd"><div class="ttname"><a href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36dab64daef30e35b637b27050fbc3a5b6dd">GOSSIP_ACTION_TRAIN</a></div><div class="ttdeci">@ GOSSIP_ACTION_TRAIN</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.h:57</div></div>
+<div class="ttc" id="a_scripted_gossip_8h_html_ac61a667541c1c7c94a9aeb407e34d36dac76c8a1af68ff8d6f33c3be3fef900e3"><div class="ttname"><a href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36dac76c8a1af68ff8d6f33c3be3fef900e3">TRADESKILL_HERBALISM</a></div><div class="ttdeci">@ TRADESKILL_HERBALISM</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.h:37</div></div>
+<div class="ttc" id="a_scripted_gossip_8h_html_ac61a667541c1c7c94a9aeb407e34d36dac87393e700307eb79dd0cad567eba0dd"><div class="ttname"><a href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36dac87393e700307eb79dd0cad567eba0dd">TRADESKILL_ENCHANTING</a></div><div class="ttdeci">@ TRADESKILL_ENCHANTING</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.h:34</div></div>
+<div class="ttc" id="a_scripted_gossip_8h_html_ac61a667541c1c7c94a9aeb407e34d36dac95576395bb99cc16cd14c471ba25091"><div class="ttname"><a href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36dac95576395bb99cc16cd14c471ba25091">GOSSIP_SENDER_SEC_INN</a></div><div class="ttdeci">@ GOSSIP_SENDER_SEC_INN</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.h:77</div></div>
+<div class="ttc" id="a_scripted_gossip_8h_html_ac61a667541c1c7c94a9aeb407e34d36dac98e22b65d418e957b04a382fbe1b12f"><div class="ttname"><a href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36dac98e22b65d418e957b04a382fbe1b12f">TRADESKILL_POISONS</a></div><div class="ttdeci">@ TRADESKILL_POISONS</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.h:39</div></div>
+<div class="ttc" id="a_scripted_gossip_8h_html_ac61a667541c1c7c94a9aeb407e34d36dad3334f5105a2cd0b9e4d176bf087c4e9"><div class="ttname"><a href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36dad3334f5105a2cd0b9e4d176bf087c4e9">GOSSIP_ACTION_INN_INFO</a></div><div class="ttdeci">@ GOSSIP_ACTION_INN_INFO</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.h:66</div></div>
+<div class="ttc" id="a_scripted_gossip_8h_html_ac61a667541c1c7c94a9aeb407e34d36dad6d50dc8dc6de123eee0d2e67f12a40f"><div class="ttname"><a href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36dad6d50dc8dc6de123eee0d2e67f12a40f">TRADESKILL_FISHING</a></div><div class="ttdeci">@ TRADESKILL_FISHING</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.h:42</div></div>
+<div class="ttc" id="a_scripted_gossip_8h_html_ac61a667541c1c7c94a9aeb407e34d36daeb88157fb28855d72a3a04a83d9d0380"><div class="ttname"><a href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36daeb88157fb28855d72a3a04a83d9d0380">TRADESKILL_LEVEL_APPRENTICE</a></div><div class="ttdeci">@ TRADESKILL_LEVEL_APPRENTICE</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.h:48</div></div>
+<div class="ttc" id="a_scripted_gossip_8h_html_ac61a667541c1c7c94a9aeb407e34d36daf5e2b26c787b79ef696a69604bb85fd8"><div class="ttname"><a href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36daf5e2b26c787b79ef696a69604bb85fd8">GOSSIP_ACTION_INFO_DEF</a></div><div class="ttdeci">@ GOSSIP_ACTION_INFO_DEF</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.h:68</div></div>
+<div class="ttc" id="a_scripted_gossip_8h_html_ac61a667541c1c7c94a9aeb407e34d36dafb71aeff9ec1a18f1ea4975287e8c512"><div class="ttname"><a href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36dafb71aeff9ec1a18f1ea4975287e8c512">GOSSIP_SENDER_SEC_PROFTRAIN</a></div><div class="ttdeci">@ GOSSIP_SENDER_SEC_PROFTRAIN</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.h:73</div></div>
+<div class="ttc" id="a_scripted_gossip_8h_html_ac61a667541c1c7c94a9aeb407e34d36dafc9d96c9e0b2a2aa34752431211d108d"><div class="ttname"><a href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36dafc9d96c9e0b2a2aa34752431211d108d">GOSSIP_SENDER_INFO</a></div><div class="ttdeci">@ GOSSIP_SENDER_INFO</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.h:72</div></div>
+<div class="ttc" id="a_scripted_gossip_8h_html_ac61a667541c1c7c94a9aeb407e34d36dafe00db1fb0f6339d638a4721c9067e86"><div class="ttname"><a href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36dafe00db1fb0f6339d638a4721c9067e86">TRADESKILL_ENGINEERING</a></div><div class="ttdeci">@ TRADESKILL_ENGINEERING</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.h:35</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
@@ -378,7 +475,13 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   41</span>{</div>
+<div class="line"><span class="lineno">   42</span>    player-&gt;<a class="code hl_variable" href="../../d8/d53/class_player.html#af9651858db4302e3dff8ec5bff131f72">PlayerTalkClass</a>-&gt;<a class="code hl_function" href="../../d1/d29/class_player_menu.html#acc519746fa45290cde3967dc5f604158">GetGossipMenu</a>().<a class="code hl_function" href="../../da/d41/class_gossip_menu.html#a47c99098962324ba20efb029df24fd3e">AddMenuItem</a>(gossipMenuID, gossipMenuItemID, sender, action, boxMoney);</div>
+<div class="line"><span class="lineno">   43</span>}</div>
+<div class="ttc" id="aclass_gossip_menu_html_a47c99098962324ba20efb029df24fd3e"><div class="ttname"><a href="../../da/d41/class_gossip_menu.html#a47c99098962324ba20efb029df24fd3e">GossipMenu::AddMenuItem</a></div><div class="ttdeci">void AddMenuItem(int32 menuItemId, uint8 icon, std::string const &amp;message, uint32 sender, uint32 action, std::string const &amp;boxMessage, uint32 boxMoney, bool coded=false)</div><div class="ttdef"><b>Definition:</b> GossipDef.cpp:40</div></div>
+<div class="ttc" id="aclass_player_html_af9651858db4302e3dff8ec5bff131f72"><div class="ttname"><a href="../../d8/d53/class_player.html#af9651858db4302e3dff8ec5bff131f72">Player::PlayerTalkClass</a></div><div class="ttdeci">PlayerMenu * PlayerTalkClass</div><div class="ttdef"><b>Definition:</b> Player.h:2187</div></div>
+<div class="ttc" id="aclass_player_menu_html_acc519746fa45290cde3967dc5f604158"><div class="ttname"><a href="../../d1/d29/class_player_menu.html#acc519746fa45290cde3967dc5f604158">PlayerMenu::GetGossipMenu</a></div><div class="ttdeci">GossipMenu &amp; GetGossipMenu()</div><div class="ttdef"><b>Definition:</b> GossipDef.h:263</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a1d54254ae4ddb1bb0e9e2c74dffe5bf5" name="a1d54254ae4ddb1bb0e9e2c74dffe5bf5"></a>
@@ -424,7 +527,10 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   29</span>{</div>
+<div class="line"><span class="lineno">   30</span>    player-&gt;<a class="code hl_variable" href="../../d8/d53/class_player.html#af9651858db4302e3dff8ec5bff131f72">PlayerTalkClass</a>-&gt;<a class="code hl_function" href="../../d1/d29/class_player_menu.html#acc519746fa45290cde3967dc5f604158">GetGossipMenu</a>().<a class="code hl_function" href="../../da/d41/class_gossip_menu.html#a47c99098962324ba20efb029df24fd3e">AddMenuItem</a>(-1, icon, text, sender, action, <span class="stringliteral">&quot;&quot;</span>, 0);</div>
+<div class="line"><span class="lineno">   31</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="acd7e8e52a911742a99728cf9408e23b8" name="acd7e8e52a911742a99728cf9408e23b8"></a>
@@ -488,7 +594,10 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   35</span>{</div>
+<div class="line"><span class="lineno">   36</span>    player-&gt;<a class="code hl_variable" href="../../d8/d53/class_player.html#af9651858db4302e3dff8ec5bff131f72">PlayerTalkClass</a>-&gt;<a class="code hl_function" href="../../d1/d29/class_player_menu.html#acc519746fa45290cde3967dc5f604158">GetGossipMenu</a>().<a class="code hl_function" href="../../da/d41/class_gossip_menu.html#a47c99098962324ba20efb029df24fd3e">AddMenuItem</a>(-1, icon, text, sender, action, popupText, popupMoney, coded);</div>
+<div class="line"><span class="lineno">   37</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="af077a82741577a63a075c7d40b3b3dc5" name="af077a82741577a63a075c7d40b3b3dc5"></a>
@@ -506,7 +615,11 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   23</span>{</div>
+<div class="line"><span class="lineno">   24</span>    player-&gt;<a class="code hl_variable" href="../../d8/d53/class_player.html#af9651858db4302e3dff8ec5bff131f72">PlayerTalkClass</a>-&gt;<a class="code hl_function" href="../../d1/d29/class_player_menu.html#a64e6ddbdb6e894f56578339efa62e752">ClearMenus</a>();</div>
+<div class="line"><span class="lineno">   25</span>}</div>
+<div class="ttc" id="aclass_player_menu_html_a64e6ddbdb6e894f56578339efa62e752"><div class="ttname"><a href="../../d1/d29/class_player_menu.html#a64e6ddbdb6e894f56578339efa62e752">PlayerMenu::ClearMenus</a></div><div class="ttdeci">void ClearMenus()</div><div class="ttdef"><b>Definition:</b> GossipDef.cpp:186</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="af8f7e54dac5ecc86e92d780c3918cb09" name="af8f7e54dac5ecc86e92d780c3918cb09"></a>
@@ -524,7 +637,11 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   57</span>{</div>
+<div class="line"><span class="lineno">   58</span>    player-&gt;<a class="code hl_variable" href="../../d8/d53/class_player.html#af9651858db4302e3dff8ec5bff131f72">PlayerTalkClass</a>-&gt;<a class="code hl_function" href="../../d1/d29/class_player_menu.html#a1071f28b7138ecbd7e94d95175059ba1">SendCloseGossip</a>();</div>
+<div class="line"><span class="lineno">   59</span>}</div>
+<div class="ttc" id="aclass_player_menu_html_a1071f28b7138ecbd7e94d95175059ba1"><div class="ttname"><a href="../../d1/d29/class_player_menu.html#a1071f28b7138ecbd7e94d95175059ba1">PlayerMenu::SendCloseGossip</a></div><div class="ttdeci">void SendCloseGossip()</div><div class="ttdef"><b>Definition:</b> GossipDef.cpp:240</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad893abf2b09592b57715ef4a3222a2b3" name="ad893abf2b09592b57715ef4a3222a2b3"></a>
@@ -558,7 +675,12 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   51</span>{</div>
+<div class="line"><span class="lineno">   52</span>    <span class="keywordflow">if</span> (creature)</div>
+<div class="line"><span class="lineno">   53</span>        <a class="code hl_function" href="../../d6/df2/_scripted_gossip_8cpp.html#a18599cfc6649557de0d505ed4d4a0210">SendGossipMenuFor</a>(player, npcTextID, creature-&gt;GetGUID());</div>
+<div class="line"><span class="lineno">   54</span>}</div>
+<div class="ttc" id="a_scripted_gossip_8cpp_html_a18599cfc6649557de0d505ed4d4a0210"><div class="ttname"><a href="../../d6/df2/_scripted_gossip_8cpp.html#a18599cfc6649557de0d505ed4d4a0210">SendGossipMenuFor</a></div><div class="ttdeci">void SendGossipMenuFor(Player *player, uint32 npcTextID, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.cpp:45</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a18599cfc6649557de0d505ed4d4a0210" name="a18599cfc6649557de0d505ed4d4a0210"></a>
@@ -592,7 +714,11 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   46</span>{</div>
+<div class="line"><span class="lineno">   47</span>    player-&gt;<a class="code hl_variable" href="../../d8/d53/class_player.html#af9651858db4302e3dff8ec5bff131f72">PlayerTalkClass</a>-&gt;<a class="code hl_function" href="../../d1/d29/class_player_menu.html#a78a00a19e9e55fe5582dd70183b01e8b">SendGossipMenu</a>(npcTextID, guid);</div>
+<div class="line"><span class="lineno">   48</span>}</div>
+<div class="ttc" id="aclass_player_menu_html_a78a00a19e9e55fe5582dd70183b01e8b"><div class="ttname"><a href="../../d1/d29/class_player_menu.html#a78a00a19e9e55fe5582dd70183b01e8b">PlayerMenu::SendGossipMenu</a></div><div class="ttdeci">void SendGossipMenu(uint32 titleTextId, ObjectGuid objectGUID)</div><div class="ttdef"><b>Definition:</b> GossipDef.cpp:192</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
@@ -601,7 +727,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_5e5741f7891ede41bef7ecc492194021.html">AI</a></li><li class="navelem"><a class="el" href="../../dir_1f3214457037742cde290c7511bc5bd6.html">ScriptedAI</a></li><li class="navelem"><a class="el" href="../../dc/d28/_scripted_gossip_8h.html">ScriptedGossip.h</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:18 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:32 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

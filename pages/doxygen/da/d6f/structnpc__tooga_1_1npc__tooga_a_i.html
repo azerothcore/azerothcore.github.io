@@ -530,7 +530,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a4db363c7e787f5fbbd61b418cfa87367" name="a4db363c7e787f5fbbd61b418cfa87367"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4db363c7e787f5fbbd61b418cfa87367">&#9670;&#160;</a></span>npc_toogaAI()</h2>
 
@@ -554,7 +555,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  436</span>: <a class="code hl_class" href="../../d2/dad/class_follower_a_i.html">FollowerAI</a>(creature) { }</div>
+<div class="ttc" id="aclass_follower_a_i_html"><div class="ttname"><a href="../../d2/dad/class_follower_a_i.html">FollowerAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedFollowerAI.h:36</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -583,7 +586,42 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d2/dad/class_follower_a_i.html#a83dec5983277d0b59980b44593332b8f">FollowerAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  455</span>        {</div>
+<div class="line"><span class="lineno">  456</span>            <a class="code hl_function" href="../../d2/dad/class_follower_a_i.html#a83dec5983277d0b59980b44593332b8f">FollowerAI::MoveInLineOfSight</a>(who);</div>
+<div class="line"><span class="lineno">  457</span> </div>
+<div class="line"><span class="lineno">  458</span>            <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">GetVictim</a>() &amp;&amp; !<a class="code hl_function" href="../../d2/dad/class_follower_a_i.html#a68a341874cb3cdb095e9221261c51ce2">HasFollowState</a>(<a class="code hl_enumvalue" href="../../d5/d27/_scripted_follower_a_i_8h.html#a1ec9c3a60a913ecbf16778626ccf0138a73636e044fe9883bf259a17bc617e7c9">STATE_FOLLOW_COMPLETE</a> | <a class="code hl_enumvalue" href="../../d5/d27/_scripted_follower_a_i_8h.html#a1ec9c3a60a913ecbf16778626ccf0138a77b50e5da22490d74b38dcebae6e6c6a">STATE_FOLLOW_POSTEVENT</a>) &amp;&amp; who-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>() == <a class="code hl_enumvalue" href="../../de/d14/zone__tanaris_8cpp.html#ae0596032f6a7ef3f5e96279535462629a19a2b5b25e017a5c600fd55148cad421">NPC_TORTA</a>)</div>
+<div class="line"><span class="lineno">  459</span>            {</div>
+<div class="line"><span class="lineno">  460</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#ab73407bcdf13a30519a953d24773ed02">IsWithinDistInMap</a>(who, <a class="code hl_define" href="../../de/daf/_object_defines_8h.html#a54eb9ac4fb3942c956544c22e84743d4">INTERACTION_DISTANCE</a>))</div>
+<div class="line"><span class="lineno">  461</span>                {</div>
+<div class="line"><span class="lineno">  462</span>                    <a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* player = <a class="code hl_function" href="../../d2/dad/class_follower_a_i.html#a9d6c390022beeac0777e73062ad73b73">GetLeaderForFollower</a>();</div>
+<div class="line"><span class="lineno">  463</span>                    <span class="keywordflow">if</span> (player &amp;&amp; player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#ab98c62b0161d702e4219c8277f8f5349">GetQuestStatus</a>(<a class="code hl_enumvalue" href="../../de/d14/zone__tanaris_8cpp.html#ae0596032f6a7ef3f5e96279535462629aa7fd99bb32abd80385f2ce67dab6271c">QUEST_TOOGA</a>) == <a class="code hl_enumvalue" href="../../d2/dc8/_quest_def_8h.html#abfc87d39d69176ad25e800fb4aa6f0d8a9d062f65bead287785d9b540987bb484">QUEST_STATUS_INCOMPLETE</a>)</div>
+<div class="line"><span class="lineno">  464</span>                        player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a5407b30447c557eb4bcb441d0e4df355">GroupEventHappens</a>(<a class="code hl_enumvalue" href="../../de/d14/zone__tanaris_8cpp.html#ae0596032f6a7ef3f5e96279535462629aa7fd99bb32abd80385f2ce67dab6271c">QUEST_TOOGA</a>, <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>);</div>
+<div class="line"><span class="lineno">  465</span> </div>
+<div class="line"><span class="lineno">  466</span>                    <a class="code hl_variable" href="../../da/d6f/structnpc__tooga_1_1npc__tooga_a_i.html#a4531aa0e2c7fe7f3207e56fc2ed67c25">TortaGUID</a> = who-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>();</div>
+<div class="line"><span class="lineno">  467</span>                    <a class="code hl_function" href="../../d2/dad/class_follower_a_i.html#aa23547887bf44a222987bcde93fc8b32">SetFollowComplete</a>(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  468</span>                }</div>
+<div class="line"><span class="lineno">  469</span>            }</div>
+<div class="line"><span class="lineno">  470</span>        }</div>
+<div class="ttc" id="a_object_defines_8h_html_a54eb9ac4fb3942c956544c22e84743d4"><div class="ttname"><a href="../../de/daf/_object_defines_8h.html#a54eb9ac4fb3942c956544c22e84743d4">INTERACTION_DISTANCE</a></div><div class="ttdeci">#define INTERACTION_DISTANCE</div><div class="ttdef"><b>Definition:</b> ObjectDefines.h:24</div></div>
+<div class="ttc" id="a_quest_def_8h_html_abfc87d39d69176ad25e800fb4aa6f0d8a9d062f65bead287785d9b540987bb484"><div class="ttname"><a href="../../d2/dc8/_quest_def_8h.html#abfc87d39d69176ad25e800fb4aa6f0d8a9d062f65bead287785d9b540987bb484">QUEST_STATUS_INCOMPLETE</a></div><div class="ttdeci">@ QUEST_STATUS_INCOMPLETE</div><div class="ttdef"><b>Definition:</b> QuestDef.h:103</div></div>
+<div class="ttc" id="a_scripted_follower_a_i_8h_html_a1ec9c3a60a913ecbf16778626ccf0138a73636e044fe9883bf259a17bc617e7c9"><div class="ttname"><a href="../../d5/d27/_scripted_follower_a_i_8h.html#a1ec9c3a60a913ecbf16778626ccf0138a73636e044fe9883bf259a17bc617e7c9">STATE_FOLLOW_COMPLETE</a></div><div class="ttdeci">@ STATE_FOLLOW_COMPLETE</div><div class="ttdef"><b>Definition:</b> ScriptedFollowerAI.h:30</div></div>
+<div class="ttc" id="a_scripted_follower_a_i_8h_html_a1ec9c3a60a913ecbf16778626ccf0138a77b50e5da22490d74b38dcebae6e6c6a"><div class="ttname"><a href="../../d5/d27/_scripted_follower_a_i_8h.html#a1ec9c3a60a913ecbf16778626ccf0138a77b50e5da22490d74b38dcebae6e6c6a">STATE_FOLLOW_POSTEVENT</a></div><div class="ttdeci">@ STATE_FOLLOW_POSTEVENT</div><div class="ttdef"><b>Definition:</b> ScriptedFollowerAI.h:32</div></div>
+<div class="ttc" id="aclass_follower_a_i_html_a68a341874cb3cdb095e9221261c51ce2"><div class="ttname"><a href="../../d2/dad/class_follower_a_i.html#a68a341874cb3cdb095e9221261c51ce2">FollowerAI::HasFollowState</a></div><div class="ttdeci">bool HasFollowState(uint32 uiFollowState)</div><div class="ttdef"><b>Definition:</b> ScriptedFollowerAI.h:63</div></div>
+<div class="ttc" id="aclass_follower_a_i_html_a83dec5983277d0b59980b44593332b8f"><div class="ttname"><a href="../../d2/dad/class_follower_a_i.html#a83dec5983277d0b59980b44593332b8f">FollowerAI::MoveInLineOfSight</a></div><div class="ttdeci">void MoveInLineOfSight(Unit *) override</div><div class="ttdef"><b>Definition:</b> ScriptedFollowerAI.cpp:93</div></div>
+<div class="ttc" id="aclass_follower_a_i_html_a9d6c390022beeac0777e73062ad73b73"><div class="ttname"><a href="../../d2/dad/class_follower_a_i.html#a9d6c390022beeac0777e73062ad73b73">FollowerAI::GetLeaderForFollower</a></div><div class="ttdeci">Player * GetLeaderForFollower()</div><div class="ttdef"><b>Definition:</b> ScriptedFollowerAI.cpp:305</div></div>
+<div class="ttc" id="aclass_follower_a_i_html_aa23547887bf44a222987bcde93fc8b32"><div class="ttname"><a href="../../d2/dad/class_follower_a_i.html#aa23547887bf44a222987bcde93fc8b32">FollowerAI::SetFollowComplete</a></div><div class="ttdeci">void SetFollowComplete(bool bWithEndEvent=false)</div><div class="ttdef"><b>Definition:</b> ScriptedFollowerAI.cpp:334</div></div>
+<div class="ttc" id="aclass_object_html_aa627fe2967ed0e0ed1d8aeeb4365a961"><div class="ttname"><a href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">Object::GetEntry</a></div><div class="ttdeci">uint32 GetEntry() const</div><div class="ttdef"><b>Definition:</b> Object.h:109</div></div>
+<div class="ttc" id="aclass_object_html_ad23b997e2442fa6a6228ba73a7ecc138"><div class="ttname"><a href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">Object::GetGUID</a></div><div class="ttdeci">static ObjectGuid GetGUID(Object const *o)</div><div class="ttdef"><b>Definition:</b> Object.h:106</div></div>
+<div class="ttc" id="aclass_player_html"><div class="ttname"><a href="../../d8/d53/class_player.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1046</div></div>
+<div class="ttc" id="aclass_player_html_a5407b30447c557eb4bcb441d0e4df355"><div class="ttname"><a href="../../d8/d53/class_player.html#a5407b30447c557eb4bcb441d0e4df355">Player::GroupEventHappens</a></div><div class="ttdeci">void GroupEventHappens(uint32 questId, WorldObject const *pEventObject)</div><div class="ttdef"><b>Definition:</b> PlayerQuest.cpp:1795</div></div>
+<div class="ttc" id="aclass_player_html_ab98c62b0161d702e4219c8277f8f5349"><div class="ttname"><a href="../../d8/d53/class_player.html#ab98c62b0161d702e4219c8277f8f5349">Player::GetQuestStatus</a></div><div class="ttdeci">QuestStatus GetQuestStatus(uint32 quest_id) const</div><div class="ttdef"><b>Definition:</b> PlayerQuest.cpp:1407</div></div>
+<div class="ttc" id="aclass_unit_html_aae09d03a474ea5517d671e64dc393739"><div class="ttname"><a href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">Unit::GetVictim</a></div><div class="ttdeci">Unit * GetVictim() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1386</div></div>
+<div class="ttc" id="aclass_world_object_html_ab73407bcdf13a30519a953d24773ed02"><div class="ttname"><a href="../../db/df7/class_world_object.html#ab73407bcdf13a30519a953d24773ed02">WorldObject::IsWithinDistInMap</a></div><div class="ttdeci">bool IsWithinDistInMap(WorldObject const *obj, float dist2compare, bool is3D=true, bool useBoundingRadius=true) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1321</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+<div class="ttc" id="astructnpc__tooga_1_1npc__tooga_a_i_html_a4531aa0e2c7fe7f3207e56fc2ed67c25"><div class="ttname"><a href="../../da/d6f/structnpc__tooga_1_1npc__tooga_a_i.html#a4531aa0e2c7fe7f3207e56fc2ed67c25">npc_tooga::npc_toogaAI::TortaGUID</a></div><div class="ttdeci">ObjectGuid TortaGUID</div><div class="ttdef"><b>Definition:</b> zone_tanaris.cpp:442</div></div>
+<div class="ttc" id="azone__tanaris_8cpp_html_ae0596032f6a7ef3f5e96279535462629a19a2b5b25e017a5c600fd55148cad421"><div class="ttname"><a href="../../de/d14/zone__tanaris_8cpp.html#ae0596032f6a7ef3f5e96279535462629a19a2b5b25e017a5c600fd55148cad421">NPC_TORTA</a></div><div class="ttdeci">@ NPC_TORTA</div><div class="ttdef"><b>Definition:</b> zone_tanaris.cpp:405</div></div>
+<div class="ttc" id="azone__tanaris_8cpp_html_ae0596032f6a7ef3f5e96279535462629aa7fd99bb32abd80385f2ce67dab6271c"><div class="ttname"><a href="../../de/d14/zone__tanaris_8cpp.html#ae0596032f6a7ef3f5e96279535462629aa7fd99bb32abd80385f2ce67dab6271c">QUEST_TOOGA</a></div><div class="ttdeci">@ QUEST_TOOGA</div><div class="ttdef"><b>Definition:</b> zone_tanaris.cpp:404</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a9315e8ba2688903aaf5b871a7490a700" name="a9315e8ba2688903aaf5b871a7490a700"></a>
@@ -621,7 +659,19 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d2/dad/class_follower_a_i.html#a8594920db87044310ab710e0296be488">FollowerAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  473</span>        {</div>
+<div class="line"><span class="lineno">  474</span>            <a class="code hl_function" href="../../d2/dad/class_follower_a_i.html#a8594920db87044310ab710e0296be488">FollowerAI::MovementInform</a>(MotionType, PointId);</div>
+<div class="line"><span class="lineno">  475</span> </div>
+<div class="line"><span class="lineno">  476</span>            <span class="keywordflow">if</span> (MotionType != <a class="code hl_enumvalue" href="../../d8/dea/_motion_master_8h.html#a4f12806b915efea564eae942207002f9ad05105e19ca15912eceb8a1d856c7467">POINT_MOTION_TYPE</a>)</div>
+<div class="line"><span class="lineno">  477</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  478</span> </div>
+<div class="line"><span class="lineno">  479</span>            <span class="keywordflow">if</span> (PointId == <a class="code hl_enumvalue" href="../../de/d14/zone__tanaris_8cpp.html#ae0596032f6a7ef3f5e96279535462629afa7d708cb04f36a055f8e17403d6ba98">POINT_ID_TO_WATER</a>)</div>
+<div class="line"><span class="lineno">  480</span>                <a class="code hl_function" href="../../d2/dad/class_follower_a_i.html#aa23547887bf44a222987bcde93fc8b32">SetFollowComplete</a>();</div>
+<div class="line"><span class="lineno">  481</span>        }</div>
+<div class="ttc" id="a_motion_master_8h_html_a4f12806b915efea564eae942207002f9ad05105e19ca15912eceb8a1d856c7467"><div class="ttname"><a href="../../d8/dea/_motion_master_8h.html#a4f12806b915efea564eae942207002f9ad05105e19ca15912eceb8a1d856c7467">POINT_MOTION_TYPE</a></div><div class="ttdeci">@ POINT_MOTION_TYPE</div><div class="ttdef"><b>Definition:</b> MotionMaster.h:46</div></div>
+<div class="ttc" id="aclass_follower_a_i_html_a8594920db87044310ab710e0296be488"><div class="ttname"><a href="../../d2/dad/class_follower_a_i.html#a8594920db87044310ab710e0296be488">FollowerAI::MovementInform</a></div><div class="ttdeci">void MovementInform(uint32 motionType, uint32 pointId) override</div><div class="ttdef"><b>Definition:</b> ScriptedFollowerAI.cpp:250</div></div>
+<div class="ttc" id="azone__tanaris_8cpp_html_ae0596032f6a7ef3f5e96279535462629afa7d708cb04f36a055f8e17403d6ba98"><div class="ttname"><a href="../../de/d14/zone__tanaris_8cpp.html#ae0596032f6a7ef3f5e96279535462629afa7d708cb04f36a055f8e17403d6ba98">POINT_ID_TO_WATER</a></div><div class="ttdeci">@ POINT_ID_TO_WATER</div><div class="ttdef"><b>Definition:</b> zone_tanaris.cpp:407</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="acfedaf5cc989451a4259a65661685f66" name="acfedaf5cc989451a4259a65661685f66"></a>
@@ -648,7 +698,18 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a26600c116d20a33461fc884bdb82eda9">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  445</span>        {</div>
+<div class="line"><span class="lineno">  446</span>            <a class="code hl_variable" href="../../da/d6f/structnpc__tooga_1_1npc__tooga_a_i.html#a938852d834c5eb8ba4abceaf49e9a5da">CheckSpeechTimer</a> = 2500;</div>
+<div class="line"><span class="lineno">  447</span>            <a class="code hl_variable" href="../../da/d6f/structnpc__tooga_1_1npc__tooga_a_i.html#abea9fa4d2623dab4f14978a7f94b595f">PostEventTimer</a> = 1000;</div>
+<div class="line"><span class="lineno">  448</span>            <a class="code hl_variable" href="../../da/d6f/structnpc__tooga_1_1npc__tooga_a_i.html#a4996291afa64e35f3604b2a85ea03dda">PhasePostEvent</a> = 0;</div>
+<div class="line"><span class="lineno">  449</span> </div>
+<div class="line"><span class="lineno">  450</span>            <a class="code hl_variable" href="../../da/d6f/structnpc__tooga_1_1npc__tooga_a_i.html#a4531aa0e2c7fe7f3207e56fc2ed67c25">TortaGUID</a>.<a class="code hl_function" href="../../d8/d03/class_object_guid.html#af6aafb4610723c7f14523fef243b1b65">Clear</a>();</div>
+<div class="line"><span class="lineno">  451</span>        }</div>
+<div class="ttc" id="aclass_object_guid_html_af6aafb4610723c7f14523fef243b1b65"><div class="ttname"><a href="../../d8/d03/class_object_guid.html#af6aafb4610723c7f14523fef243b1b65">ObjectGuid::Clear</a></div><div class="ttdeci">void Clear()</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:140</div></div>
+<div class="ttc" id="astructnpc__tooga_1_1npc__tooga_a_i_html_a4996291afa64e35f3604b2a85ea03dda"><div class="ttname"><a href="../../da/d6f/structnpc__tooga_1_1npc__tooga_a_i.html#a4996291afa64e35f3604b2a85ea03dda">npc_tooga::npc_toogaAI::PhasePostEvent</a></div><div class="ttdeci">uint32 PhasePostEvent</div><div class="ttdef"><b>Definition:</b> zone_tanaris.cpp:440</div></div>
+<div class="ttc" id="astructnpc__tooga_1_1npc__tooga_a_i_html_a938852d834c5eb8ba4abceaf49e9a5da"><div class="ttname"><a href="../../da/d6f/structnpc__tooga_1_1npc__tooga_a_i.html#a938852d834c5eb8ba4abceaf49e9a5da">npc_tooga::npc_toogaAI::CheckSpeechTimer</a></div><div class="ttdeci">uint32 CheckSpeechTimer</div><div class="ttdef"><b>Definition:</b> zone_tanaris.cpp:438</div></div>
+<div class="ttc" id="astructnpc__tooga_1_1npc__tooga_a_i_html_abea9fa4d2623dab4f14978a7f94b595f"><div class="ttname"><a href="../../da/d6f/structnpc__tooga_1_1npc__tooga_a_i.html#abea9fa4d2623dab4f14978a7f94b595f">npc_tooga::npc_toogaAI::PostEventTimer</a></div><div class="ttdeci">uint32 PostEventTimer</div><div class="ttdef"><b>Definition:</b> zone_tanaris.cpp:439</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a742791e714be1ff713ab87e7d515bd9e" name="a742791e714be1ff713ab87e7d515bd9e"></a>
@@ -676,7 +737,92 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d2/dad/class_follower_a_i.html#a6381f756645b8c4a9dc4c30b8c431694">FollowerAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  484</span>        {</div>
+<div class="line"><span class="lineno">  485</span>            <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">UpdateVictim</a>())</div>
+<div class="line"><span class="lineno">  486</span>            {</div>
+<div class="line"><span class="lineno">  487</span>                <span class="comment">//we are doing the post-event, or...</span></div>
+<div class="line"><span class="lineno">  488</span>                <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d2/dad/class_follower_a_i.html#a68a341874cb3cdb095e9221261c51ce2">HasFollowState</a>(<a class="code hl_enumvalue" href="../../d5/d27/_scripted_follower_a_i_8h.html#a1ec9c3a60a913ecbf16778626ccf0138a77b50e5da22490d74b38dcebae6e6c6a">STATE_FOLLOW_POSTEVENT</a>))</div>
+<div class="line"><span class="lineno">  489</span>                {</div>
+<div class="line"><span class="lineno">  490</span>                    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../da/d6f/structnpc__tooga_1_1npc__tooga_a_i.html#abea9fa4d2623dab4f14978a7f94b595f">PostEventTimer</a> &lt;= Diff)</div>
+<div class="line"><span class="lineno">  491</span>                    {</div>
+<div class="line"><span class="lineno">  492</span>                        <a class="code hl_variable" href="../../da/d6f/structnpc__tooga_1_1npc__tooga_a_i.html#abea9fa4d2623dab4f14978a7f94b595f">PostEventTimer</a> = 5000;</div>
+<div class="line"><span class="lineno">  493</span> </div>
+<div class="line"><span class="lineno">  494</span>                        <a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* torta = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a>(*<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_variable" href="../../da/d6f/structnpc__tooga_1_1npc__tooga_a_i.html#a4531aa0e2c7fe7f3207e56fc2ed67c25">TortaGUID</a>);</div>
+<div class="line"><span class="lineno">  495</span>                        <span class="keywordflow">if</span> (!torta || !torta-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a5ea3f54af571493f7889220724667189">IsAlive</a>())</div>
+<div class="line"><span class="lineno">  496</span>                        {</div>
+<div class="line"><span class="lineno">  497</span>                            <span class="comment">//something happened, so just complete</span></div>
+<div class="line"><span class="lineno">  498</span>                            <a class="code hl_function" href="../../d2/dad/class_follower_a_i.html#aa23547887bf44a222987bcde93fc8b32">SetFollowComplete</a>();</div>
+<div class="line"><span class="lineno">  499</span>                            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  500</span>                        }</div>
+<div class="line"><span class="lineno">  501</span> </div>
+<div class="line"><span class="lineno">  502</span>                        <span class="keywordflow">switch</span> (<a class="code hl_variable" href="../../da/d6f/structnpc__tooga_1_1npc__tooga_a_i.html#a4996291afa64e35f3604b2a85ea03dda">PhasePostEvent</a>)</div>
+<div class="line"><span class="lineno">  503</span>                        {</div>
+<div class="line"><span class="lineno">  504</span>                            <span class="keywordflow">case</span> 1:</div>
+<div class="line"><span class="lineno">  505</span>                                <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../de/d14/zone__tanaris_8cpp.html#ae0596032f6a7ef3f5e96279535462629a4238ab12002edc45629b758df841bd73">SAY_TOOG_POST_1</a>);</div>
+<div class="line"><span class="lineno">  506</span>                                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  507</span>                            <span class="keywordflow">case</span> 2:</div>
+<div class="line"><span class="lineno">  508</span>                                torta-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">AI</a>()-&gt;<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#a96b82ee318c4d46f16b94192de654bed">Talk</a>(<a class="code hl_enumvalue" href="../../de/d14/zone__tanaris_8cpp.html#ae0596032f6a7ef3f5e96279535462629a5dfaa68e10085dafec6d4f97cb9cedfc">SAY_TORT_POST_2</a>);</div>
+<div class="line"><span class="lineno">  509</span>                                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  510</span>                            <span class="keywordflow">case</span> 3:</div>
+<div class="line"><span class="lineno">  511</span>                                <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../de/d14/zone__tanaris_8cpp.html#ae0596032f6a7ef3f5e96279535462629adafc2f58d5120a13bf01183d6feeaf9c">SAY_TOOG_POST_3</a>);</div>
+<div class="line"><span class="lineno">  512</span>                                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  513</span>                            <span class="keywordflow">case</span> 4:</div>
+<div class="line"><span class="lineno">  514</span>                                torta-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">AI</a>()-&gt;<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#a96b82ee318c4d46f16b94192de654bed">Talk</a>(<a class="code hl_enumvalue" href="../../de/d14/zone__tanaris_8cpp.html#ae0596032f6a7ef3f5e96279535462629a94e61a4f152705539aae94bb20ba457d">SAY_TORT_POST_4</a>);</div>
+<div class="line"><span class="lineno">  515</span>                                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  516</span>                            <span class="keywordflow">case</span> 5:</div>
+<div class="line"><span class="lineno">  517</span>                                <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../de/d14/zone__tanaris_8cpp.html#ae0596032f6a7ef3f5e96279535462629ae2f254cfc020d86b4bcf78e25bb09cf6">SAY_TOOG_POST_5</a>);</div>
+<div class="line"><span class="lineno">  518</span>                                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  519</span>                            <span class="keywordflow">case</span> 6:</div>
+<div class="line"><span class="lineno">  520</span>                                torta-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">AI</a>()-&gt;<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#a96b82ee318c4d46f16b94192de654bed">Talk</a>(<a class="code hl_enumvalue" href="../../de/d14/zone__tanaris_8cpp.html#ae0596032f6a7ef3f5e96279535462629a8774c87d4b15b03b2f521d3f8551f473">SAY_TORT_POST_6</a>);</div>
+<div class="line"><span class="lineno">  521</span>                                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../df/d4d/class_motion_master.html#a903a48c63482ebbd45d63272b218df7f">MovePoint</a>(<a class="code hl_enumvalue" href="../../de/d14/zone__tanaris_8cpp.html#ae0596032f6a7ef3f5e96279535462629afa7d708cb04f36a055f8e17403d6ba98">POINT_ID_TO_WATER</a>, <a class="code hl_variable" href="../../de/d14/zone__tanaris_8cpp.html#a637f2ece77285feff35a76f446e13296">ToWaterLoc</a>);</div>
+<div class="line"><span class="lineno">  522</span>                                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  523</span>                        }</div>
+<div class="line"><span class="lineno">  524</span> </div>
+<div class="line"><span class="lineno">  525</span>                        ++<a class="code hl_variable" href="../../da/d6f/structnpc__tooga_1_1npc__tooga_a_i.html#a4996291afa64e35f3604b2a85ea03dda">PhasePostEvent</a>;</div>
+<div class="line"><span class="lineno">  526</span>                    }</div>
+<div class="line"><span class="lineno">  527</span>                    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  528</span>                        <a class="code hl_variable" href="../../da/d6f/structnpc__tooga_1_1npc__tooga_a_i.html#abea9fa4d2623dab4f14978a7f94b595f">PostEventTimer</a> -= Diff;</div>
+<div class="line"><span class="lineno">  529</span>                }</div>
+<div class="line"><span class="lineno">  530</span>                <span class="comment">//...we are doing regular speech check</span></div>
+<div class="line"><span class="lineno">  531</span>                <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d2/dad/class_follower_a_i.html#a68a341874cb3cdb095e9221261c51ce2">HasFollowState</a>(<a class="code hl_enumvalue" href="../../d5/d27/_scripted_follower_a_i_8h.html#a1ec9c3a60a913ecbf16778626ccf0138aa4c302e4ec6ca00eb8d737e1b43e9e0b">STATE_FOLLOW_INPROGRESS</a>))</div>
+<div class="line"><span class="lineno">  532</span>                {</div>
+<div class="line"><span class="lineno">  533</span>                    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../da/d6f/structnpc__tooga_1_1npc__tooga_a_i.html#a938852d834c5eb8ba4abceaf49e9a5da">CheckSpeechTimer</a> &lt;= Diff)</div>
+<div class="line"><span class="lineno">  534</span>                    {</div>
+<div class="line"><span class="lineno">  535</span>                        <a class="code hl_variable" href="../../da/d6f/structnpc__tooga_1_1npc__tooga_a_i.html#a938852d834c5eb8ba4abceaf49e9a5da">CheckSpeechTimer</a> = 5000;</div>
+<div class="line"><span class="lineno">  536</span> </div>
+<div class="line"><span class="lineno">  537</span>                        <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(0, 9) &gt; 8)</div>
+<div class="line"><span class="lineno">  538</span>                            <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../de/d14/zone__tanaris_8cpp.html#ae0596032f6a7ef3f5e96279535462629a9a83c37dc7eb5238cefd3bd723fe62e6">SAY_TOOG_WORRIED</a>);</div>
+<div class="line"><span class="lineno">  539</span>                    }</div>
+<div class="line"><span class="lineno">  540</span>                    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  541</span>                        <a class="code hl_variable" href="../../da/d6f/structnpc__tooga_1_1npc__tooga_a_i.html#a938852d834c5eb8ba4abceaf49e9a5da">CheckSpeechTimer</a> -= Diff;</div>
+<div class="line"><span class="lineno">  542</span>                }</div>
+<div class="line"><span class="lineno">  543</span> </div>
+<div class="line"><span class="lineno">  544</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  545</span>            }</div>
+<div class="line"><span class="lineno">  546</span> </div>
+<div class="line"><span class="lineno">  547</span>            <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">DoMeleeAttackIfReady</a>();</div>
+<div class="line"><span class="lineno">  548</span>        }</div>
+<div class="ttc" id="a_random_8cpp_html_ab17def34ccbbd868dc87a16bf35acdbd"><div class="ttname"><a href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a></div><div class="ttdeci">uint32 urand(uint32 min, uint32 max)</div><div class="ttdef"><b>Definition:</b> Random.cpp:44</div></div>
+<div class="ttc" id="a_scripted_follower_a_i_8h_html_a1ec9c3a60a913ecbf16778626ccf0138aa4c302e4ec6ca00eb8d737e1b43e9e0b"><div class="ttname"><a href="../../d5/d27/_scripted_follower_a_i_8h.html#a1ec9c3a60a913ecbf16778626ccf0138aa4c302e4ec6ca00eb8d737e1b43e9e0b">STATE_FOLLOW_INPROGRESS</a></div><div class="ttdeci">@ STATE_FOLLOW_INPROGRESS</div><div class="ttdef"><b>Definition:</b> ScriptedFollowerAI.h:27</div></div>
+<div class="ttc" id="aboss__fathomlord__karathress_8cpp_html_a747a224b6b3195f9a33c56ddc6c7e268"><div class="ttname"><a href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a></div><div class="ttdeci">Talk</div><div class="ttdef"><b>Definition:</b> boss_fathomlord_karathress.cpp:23</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_a96b82ee318c4d46f16b94192de654bed"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#a96b82ee318c4d46f16b94192de654bed">CreatureAI::Talk</a></div><div class="ttdeci">void Talk(uint8 id, WorldObject const *whisperTarget=nullptr)</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:58</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_ae03ccfe1e27501ed9ccbfecdbd3c4e39"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">CreatureAI::UpdateVictim</a></div><div class="ttdeci">bool UpdateVictim()</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:268</div></div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_creature_html_af2188eef9620b5af52ef2d3ac142db67"><div class="ttname"><a href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">Creature::AI</a></div><div class="ttdeci">CreatureAI * AI() const</div><div class="ttdef"><b>Definition:</b> Creature.h:134</div></div>
+<div class="ttc" id="aclass_motion_master_html_a903a48c63482ebbd45d63272b218df7f"><div class="ttname"><a href="../../df/d4d/class_motion_master.html#a903a48c63482ebbd45d63272b218df7f">MotionMaster::MovePoint</a></div><div class="ttdeci">void MovePoint(uint32 id, const Position &amp;pos, bool generatePath=true, bool forceDestination=true)</div><div class="ttdef"><b>Definition:</b> MotionMaster.h:210</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a348a472089a9be6210b58aace8fafa9f"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">UnitAI::DoMeleeAttackIfReady</a></div><div class="ttdeci">void DoMeleeAttackIfReady()</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:40</div></div>
+<div class="ttc" id="aclass_unit_html_a4a04a3f22c3b0d6f4933993ac0cc7aa4"><div class="ttname"><a href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">Unit::GetMotionMaster</a></div><div class="ttdeci">MotionMaster * GetMotionMaster()</div><div class="ttdef"><b>Definition:</b> Unit.h:2257</div></div>
+<div class="ttc" id="aclass_unit_html_a5ea3f54af571493f7889220724667189"><div class="ttname"><a href="../../da/db7/class_unit.html#a5ea3f54af571493f7889220724667189">Unit::IsAlive</a></div><div class="ttdeci">bool IsAlive() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1805</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_ae42e503fe79bbeaea1aaa665418c43f8"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a></div><div class="ttdeci">Creature * GetCreature(WorldObject const &amp;u, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:215</div></div>
+<div class="ttc" id="azone__tanaris_8cpp_html_a637f2ece77285feff35a76f446e13296"><div class="ttname"><a href="../../de/d14/zone__tanaris_8cpp.html#a637f2ece77285feff35a76f446e13296">ToWaterLoc</a></div><div class="ttdeci">Position const ToWaterLoc</div><div class="ttdef"><b>Definition:</b> zone_tanaris.cpp:411</div></div>
+<div class="ttc" id="azone__tanaris_8cpp_html_ae0596032f6a7ef3f5e96279535462629a4238ab12002edc45629b758df841bd73"><div class="ttname"><a href="../../de/d14/zone__tanaris_8cpp.html#ae0596032f6a7ef3f5e96279535462629a4238ab12002edc45629b758df841bd73">SAY_TOOG_POST_1</a></div><div class="ttdeci">@ SAY_TOOG_POST_1</div><div class="ttdef"><b>Definition:</b> zone_tanaris.cpp:397</div></div>
+<div class="ttc" id="azone__tanaris_8cpp_html_ae0596032f6a7ef3f5e96279535462629a5dfaa68e10085dafec6d4f97cb9cedfc"><div class="ttname"><a href="../../de/d14/zone__tanaris_8cpp.html#ae0596032f6a7ef3f5e96279535462629a5dfaa68e10085dafec6d4f97cb9cedfc">SAY_TORT_POST_2</a></div><div class="ttdeci">@ SAY_TORT_POST_2</div><div class="ttdef"><b>Definition:</b> zone_tanaris.cpp:398</div></div>
+<div class="ttc" id="azone__tanaris_8cpp_html_ae0596032f6a7ef3f5e96279535462629a8774c87d4b15b03b2f521d3f8551f473"><div class="ttname"><a href="../../de/d14/zone__tanaris_8cpp.html#ae0596032f6a7ef3f5e96279535462629a8774c87d4b15b03b2f521d3f8551f473">SAY_TORT_POST_6</a></div><div class="ttdeci">@ SAY_TORT_POST_6</div><div class="ttdef"><b>Definition:</b> zone_tanaris.cpp:402</div></div>
+<div class="ttc" id="azone__tanaris_8cpp_html_ae0596032f6a7ef3f5e96279535462629a94e61a4f152705539aae94bb20ba457d"><div class="ttname"><a href="../../de/d14/zone__tanaris_8cpp.html#ae0596032f6a7ef3f5e96279535462629a94e61a4f152705539aae94bb20ba457d">SAY_TORT_POST_4</a></div><div class="ttdeci">@ SAY_TORT_POST_4</div><div class="ttdef"><b>Definition:</b> zone_tanaris.cpp:400</div></div>
+<div class="ttc" id="azone__tanaris_8cpp_html_ae0596032f6a7ef3f5e96279535462629a9a83c37dc7eb5238cefd3bd723fe62e6"><div class="ttname"><a href="../../de/d14/zone__tanaris_8cpp.html#ae0596032f6a7ef3f5e96279535462629a9a83c37dc7eb5238cefd3bd723fe62e6">SAY_TOOG_WORRIED</a></div><div class="ttdeci">@ SAY_TOOG_WORRIED</div><div class="ttdef"><b>Definition:</b> zone_tanaris.cpp:396</div></div>
+<div class="ttc" id="azone__tanaris_8cpp_html_ae0596032f6a7ef3f5e96279535462629adafc2f58d5120a13bf01183d6feeaf9c"><div class="ttname"><a href="../../de/d14/zone__tanaris_8cpp.html#ae0596032f6a7ef3f5e96279535462629adafc2f58d5120a13bf01183d6feeaf9c">SAY_TOOG_POST_3</a></div><div class="ttdeci">@ SAY_TOOG_POST_3</div><div class="ttdef"><b>Definition:</b> zone_tanaris.cpp:399</div></div>
+<div class="ttc" id="azone__tanaris_8cpp_html_ae0596032f6a7ef3f5e96279535462629ae2f254cfc020d86b4bcf78e25bb09cf6"><div class="ttname"><a href="../../de/d14/zone__tanaris_8cpp.html#ae0596032f6a7ef3f5e96279535462629ae2f254cfc020d86b4bcf78e25bb09cf6">SAY_TOOG_POST_5</a></div><div class="ttdeci">@ SAY_TOOG_POST_5</div><div class="ttdef"><b>Definition:</b> zone_tanaris.cpp:401</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -737,7 +883,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Kalimdor/<a class="el" href="../../de/d14/zone__tanaris_8cpp.html">zone_tanaris.cpp</a></li>
+<li><a class="el" href="../../">zone_tanaris.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -745,7 +891,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../da/d53/classnpc__tooga.html">npc_tooga</a></li><li class="navelem"><a class="el" href="../../da/d6f/structnpc__tooga_1_1npc__tooga_a_i.html">npc_toogaAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:55 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:10 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

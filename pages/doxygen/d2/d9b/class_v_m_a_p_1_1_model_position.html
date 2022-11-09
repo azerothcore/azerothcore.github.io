@@ -114,7 +114,7 @@ $(document).ready(function(){initNavTree('d2/d9b/class_v_m_a_p_1_1_model_positio
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d0/de4/_tile_assembler_8h_source.html">TileAssembler.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">TileAssembler.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -166,7 +166,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   42</span>{ }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -192,7 +193,12 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   47</span>        {</div>
+<div class="line"><span class="lineno">   48</span>            <a class="code hl_variable" href="../../d2/d9b/class_v_m_a_p_1_1_model_position.html#ae53c5b044021f5ef04ecb5d8898fd8b3">iRotation</a> = G3D::Matrix3::fromEulerAnglesZYX(G3D::pif() * <a class="code hl_variable" href="../../d2/d9b/class_v_m_a_p_1_1_model_position.html#a24ba62281166e60036ac8a57b26c6abd">iDir</a>.y / 180.f, G3D::pif() * <a class="code hl_variable" href="../../d2/d9b/class_v_m_a_p_1_1_model_position.html#a24ba62281166e60036ac8a57b26c6abd">iDir</a>.x / 180.f, G3D::pif() * <a class="code hl_variable" href="../../d2/d9b/class_v_m_a_p_1_1_model_position.html#a24ba62281166e60036ac8a57b26c6abd">iDir</a>.z / 180.f);</div>
+<div class="line"><span class="lineno">   49</span>        }</div>
+<div class="ttc" id="aclass_v_m_a_p_1_1_model_position_html_a24ba62281166e60036ac8a57b26c6abd"><div class="ttname"><a href="../../d2/d9b/class_v_m_a_p_1_1_model_position.html#a24ba62281166e60036ac8a57b26c6abd">VMAP::ModelPosition::iDir</a></div><div class="ttdeci">G3D::Vector3 iDir</div><div class="ttdef"><b>Definition:</b> TileAssembler.h:44</div></div>
+<div class="ttc" id="aclass_v_m_a_p_1_1_model_position_html_ae53c5b044021f5ef04ecb5d8898fd8b3"><div class="ttname"><a href="../../d2/d9b/class_v_m_a_p_1_1_model_position.html#ae53c5b044021f5ef04ecb5d8898fd8b3">VMAP::ModelPosition::iRotation</a></div><div class="ttdeci">G3D::Matrix3 iRotation</div><div class="ttdef"><b>Definition:</b> TileAssembler.h:40</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2fe1b48319a056f110ef700877257731" name="a2fe1b48319a056f110ef700877257731"></a>
@@ -218,7 +224,9 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   51</span>{ <a class="code hl_variable" href="../../d2/d9b/class_v_m_a_p_1_1_model_position.html#a36a3bd930273e0313e3b09c1289e9317">iPos</a> -= pBasePos; }</div>
+<div class="ttc" id="aclass_v_m_a_p_1_1_model_position_html_a36a3bd930273e0313e3b09c1289e9317"><div class="ttname"><a href="../../d2/d9b/class_v_m_a_p_1_1_model_position.html#a36a3bd930273e0313e3b09c1289e9317">VMAP::ModelPosition::iPos</a></div><div class="ttdeci">G3D::Vector3 iPos</div><div class="ttdef"><b>Definition:</b> TileAssembler.h:43</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="add4c2efec70be75d8ffcd1009b6c2699" name="add4c2efec70be75d8ffcd1009b6c2699"></a>
@@ -236,7 +244,13 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   47</span>    {</div>
+<div class="line"><span class="lineno">   48</span>        Vector3 out = pIn * <a class="code hl_variable" href="../../d2/d9b/class_v_m_a_p_1_1_model_position.html#a81bb029dce2aadec2f147a1329ee285e">iScale</a>;</div>
+<div class="line"><span class="lineno">   49</span>        out = <a class="code hl_variable" href="../../d2/d9b/class_v_m_a_p_1_1_model_position.html#ae53c5b044021f5ef04ecb5d8898fd8b3">iRotation</a> * out;</div>
+<div class="line"><span class="lineno">   50</span>        <span class="keywordflow">return</span> (out);</div>
+<div class="line"><span class="lineno">   51</span>    }</div>
+<div class="ttc" id="aclass_v_m_a_p_1_1_model_position_html_a81bb029dce2aadec2f147a1329ee285e"><div class="ttname"><a href="../../d2/d9b/class_v_m_a_p_1_1_model_position.html#a81bb029dce2aadec2f147a1329ee285e">VMAP::ModelPosition::iScale</a></div><div class="ttdeci">float iScale</div><div class="ttdef"><b>Definition:</b> TileAssembler.h:45</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -305,8 +319,8 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/common/Collision/Maps/<a class="el" href="../../d0/de4/_tile_assembler_8h_source.html">TileAssembler.h</a></li>
-<li>D:/azerothcore-wotlk/src/common/Collision/Maps/<a class="el" href="../../dc/d5d/_tile_assembler_8cpp.html">TileAssembler.cpp</a></li>
+<li><a class="el" href="../../">TileAssembler.h</a></li>
+<li><a class="el" href="../../">TileAssembler.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -314,7 +328,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d6/d39/namespace_v_m_a_p.html">VMAP</a></li><li class="navelem"><a class="el" href="../../d2/d9b/class_v_m_a_p_1_1_model_position.html">ModelPosition</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:14 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:32 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

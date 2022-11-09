@@ -114,7 +114,7 @@ $(document).ready(function(){initNavTree('d4/d88/class_acore_1_1_nearest_assist_
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d0/dc9/_grid_notifiers_8h_source.html">GridNotifiers.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">GridNotifiers.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -137,7 +137,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:ab82a4b97ebb2bef047ae85404b0e3da0"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d88/class_acore_1_1_nearest_assist_creature_in_creature_range_check.html#ab82a4b97ebb2bef047ae85404b0e3da0">i_range</a></td></tr>
 <tr class="separator:ab82a4b97ebb2bef047ae85404b0e3da0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ac9e380add6c9df4afc707007528c7434" name="ac9e380add6c9df4afc707007528c7434"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac9e380add6c9df4afc707007528c7434">&#9670;&#160;</a></span>NearestAssistCreatureInCreatureRangeCheck() <span class="overload">[1/2]</span></h2>
 
@@ -177,7 +178,11 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1299</span>            : <a class="code hl_variable" href="../../d4/d88/class_acore_1_1_nearest_assist_creature_in_creature_range_check.html#a905ea6b07b97ed23de4f4cf9946642af">i_obj</a>(obj), <a class="code hl_variable" href="../../d4/d88/class_acore_1_1_nearest_assist_creature_in_creature_range_check.html#a0ba09da942c48e523c278cff0e0a4139">i_enemy</a>(enemy), <a class="code hl_variable" href="../../d4/d88/class_acore_1_1_nearest_assist_creature_in_creature_range_check.html#ab82a4b97ebb2bef047ae85404b0e3da0">i_range</a>(range) {}</div>
+<div class="ttc" id="aclass_acore_1_1_nearest_assist_creature_in_creature_range_check_html_a0ba09da942c48e523c278cff0e0a4139"><div class="ttname"><a href="../../d4/d88/class_acore_1_1_nearest_assist_creature_in_creature_range_check.html#a0ba09da942c48e523c278cff0e0a4139">Acore::NearestAssistCreatureInCreatureRangeCheck::i_enemy</a></div><div class="ttdeci">Unit *const i_enemy</div><div class="ttdef"><b>Definition:</b> GridNotifiers.h:1319</div></div>
+<div class="ttc" id="aclass_acore_1_1_nearest_assist_creature_in_creature_range_check_html_a905ea6b07b97ed23de4f4cf9946642af"><div class="ttname"><a href="../../d4/d88/class_acore_1_1_nearest_assist_creature_in_creature_range_check.html#a905ea6b07b97ed23de4f4cf9946642af">Acore::NearestAssistCreatureInCreatureRangeCheck::i_obj</a></div><div class="ttdeci">Creature *const i_obj</div><div class="ttdef"><b>Definition:</b> GridNotifiers.h:1318</div></div>
+<div class="ttc" id="aclass_acore_1_1_nearest_assist_creature_in_creature_range_check_html_ab82a4b97ebb2bef047ae85404b0e3da0"><div class="ttname"><a href="../../d4/d88/class_acore_1_1_nearest_assist_creature_in_creature_range_check.html#ab82a4b97ebb2bef047ae85404b0e3da0">Acore::NearestAssistCreatureInCreatureRangeCheck::i_range</a></div><div class="ttdeci">float i_range</div><div class="ttdef"><b>Definition:</b> GridNotifiers.h:1320</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aa26e19df606a366147e1db4fd1aa6eac" name="aa26e19df606a366147e1db4fd1aa6eac"></a>
@@ -230,7 +235,26 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1302</span>        {</div>
+<div class="line"><span class="lineno"> 1303</span>            <span class="keywordflow">if</span> (u == <a class="code hl_variable" href="../../d4/d88/class_acore_1_1_nearest_assist_creature_in_creature_range_check.html#a905ea6b07b97ed23de4f4cf9946642af">i_obj</a>)</div>
+<div class="line"><span class="lineno"> 1304</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1305</span>            <span class="keywordflow">if</span> (!u-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#ab6b53aeb869c6542525bddfad563098a">CanAssistTo</a>(<a class="code hl_variable" href="../../d4/d88/class_acore_1_1_nearest_assist_creature_in_creature_range_check.html#a905ea6b07b97ed23de4f4cf9946642af">i_obj</a>, <a class="code hl_variable" href="../../d4/d88/class_acore_1_1_nearest_assist_creature_in_creature_range_check.html#a0ba09da942c48e523c278cff0e0a4139">i_enemy</a>))</div>
+<div class="line"><span class="lineno"> 1306</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1307</span> </div>
+<div class="line"><span class="lineno"> 1308</span>            <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d4/d88/class_acore_1_1_nearest_assist_creature_in_creature_range_check.html#a905ea6b07b97ed23de4f4cf9946642af">i_obj</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#ab73407bcdf13a30519a953d24773ed02">IsWithinDistInMap</a>(u, <a class="code hl_variable" href="../../d4/d88/class_acore_1_1_nearest_assist_creature_in_creature_range_check.html#ab82a4b97ebb2bef047ae85404b0e3da0">i_range</a>))</div>
+<div class="line"><span class="lineno"> 1309</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1310</span> </div>
+<div class="line"><span class="lineno"> 1311</span>            <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d4/d88/class_acore_1_1_nearest_assist_creature_in_creature_range_check.html#a905ea6b07b97ed23de4f4cf9946642af">i_obj</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a3b4bf64ce1648c214c4f049cfff8eb93">IsWithinLOSInMap</a>(u))</div>
+<div class="line"><span class="lineno"> 1312</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1313</span> </div>
+<div class="line"><span class="lineno"> 1314</span>            <a class="code hl_variable" href="../../d4/d88/class_acore_1_1_nearest_assist_creature_in_creature_range_check.html#ab82a4b97ebb2bef047ae85404b0e3da0">i_range</a> = <a class="code hl_variable" href="../../d4/d88/class_acore_1_1_nearest_assist_creature_in_creature_range_check.html#a905ea6b07b97ed23de4f4cf9946642af">i_obj</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#acaa0cccbbb9cac74080c8279a571a68c">GetDistance</a>(u);            <span class="comment">// use found unit range as new range limit for next check</span></div>
+<div class="line"><span class="lineno"> 1315</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 1316</span>        }</div>
+<div class="ttc" id="aclass_creature_html_ab6b53aeb869c6542525bddfad563098a"><div class="ttname"><a href="../../d1/dac/class_creature.html#ab6b53aeb869c6542525bddfad563098a">Creature::CanAssistTo</a></div><div class="ttdeci">bool CanAssistTo(Unit const *u, Unit const *enemy, bool checkfaction=true) const</div><div class="ttdef"><b>Definition:</b> Creature.cpp:2397</div></div>
+<div class="ttc" id="aclass_world_object_html_a3b4bf64ce1648c214c4f049cfff8eb93"><div class="ttname"><a href="../../db/df7/class_world_object.html#a3b4bf64ce1648c214c4f049cfff8eb93">WorldObject::IsWithinLOSInMap</a></div><div class="ttdeci">bool IsWithinLOSInMap(WorldObject const *obj, VMAP::ModelIgnoreFlags ignoreFlags=VMAP::ModelIgnoreFlags::Nothing, LineOfSightChecks checks=LINEOFSIGHT_ALL_CHECKS, Optional&lt; float &gt; collisionHeight={ }) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1347</div></div>
+<div class="ttc" id="aclass_world_object_html_ab73407bcdf13a30519a953d24773ed02"><div class="ttname"><a href="../../db/df7/class_world_object.html#ab73407bcdf13a30519a953d24773ed02">WorldObject::IsWithinDistInMap</a></div><div class="ttdeci">bool IsWithinDistInMap(WorldObject const *obj, float dist2compare, bool is3D=true, bool useBoundingRadius=true) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1321</div></div>
+<div class="ttc" id="aclass_world_object_html_acaa0cccbbb9cac74080c8279a571a68c"><div class="ttname"><a href="../../db/df7/class_world_object.html#acaa0cccbbb9cac74080c8279a571a68c">WorldObject::GetDistance</a></div><div class="ttdeci">float GetDistance(WorldObject const *obj) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1245</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -301,7 +325,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Grids/Notifiers/<a class="el" href="../../d0/dc9/_grid_notifiers_8h_source.html">GridNotifiers.h</a></li>
+<li><a class="el" href="../../">GridNotifiers.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -309,7 +333,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d7d/namespace_acore.html">Acore</a></li><li class="navelem"><a class="el" href="../../d4/d88/class_acore_1_1_nearest_assist_creature_in_creature_range_check.html">NearestAssistCreatureInCreatureRangeCheck</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:13 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:31 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

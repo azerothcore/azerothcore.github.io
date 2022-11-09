@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('db/de3/struct_acore_1_1_world_object_l
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d0/dc9/_grid_notifiers_8h_source.html">GridNotifiers.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">GridNotifiers.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -144,7 +144,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a66afc21dd0fd740c2723516b8c33a319"><td class="memItemLeft" align="right" valign="top">Check &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de3/struct_acore_1_1_world_object_last_searcher.html#a66afc21dd0fd740c2723516b8c33a319">i_check</a></td></tr>
 <tr class="separator:a66afc21dd0fd740c2723516b8c33a319"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;class Check&gt;<br />
+struct Acore::WorldObjectLastSearcher&lt; Check &gt;</div></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="af8baf5ff23a3167a963ade43faec09fc" name="af8baf5ff23a3167a963ade43faec09fc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af8baf5ff23a3167a963ade43faec09fc">&#9670;&#160;</a></span>WorldObjectLastSearcher()</h2>
 
@@ -192,7 +194,12 @@ template&lt;class Check &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  223</span>            :  <a class="code hl_variable" href="../../db/de3/struct_acore_1_1_world_object_last_searcher.html#a5689c8aa9120bc545c98ec0916d78d56">i_mapTypeMask</a>(mapTypeMask), <a class="code hl_variable" href="../../db/de3/struct_acore_1_1_world_object_last_searcher.html#a966213d495a613f33aebaa8ebda7c380">i_phaseMask</a>(searcher-&gt;GetPhaseMask()), <a class="code hl_variable" href="../../db/de3/struct_acore_1_1_world_object_last_searcher.html#a765d65a90639b34a8cf9f42fdd6ae653">i_object</a>(result), <a class="code hl_variable" href="../../db/de3/struct_acore_1_1_world_object_last_searcher.html#a66afc21dd0fd740c2723516b8c33a319">i_check</a>(check) {}</div>
+<div class="ttc" id="astruct_acore_1_1_world_object_last_searcher_html_a5689c8aa9120bc545c98ec0916d78d56"><div class="ttname"><a href="../../db/de3/struct_acore_1_1_world_object_last_searcher.html#a5689c8aa9120bc545c98ec0916d78d56">Acore::WorldObjectLastSearcher::i_mapTypeMask</a></div><div class="ttdeci">uint32 i_mapTypeMask</div><div class="ttdef"><b>Definition:</b> GridNotifiers.h:217</div></div>
+<div class="ttc" id="astruct_acore_1_1_world_object_last_searcher_html_a66afc21dd0fd740c2723516b8c33a319"><div class="ttname"><a href="../../db/de3/struct_acore_1_1_world_object_last_searcher.html#a66afc21dd0fd740c2723516b8c33a319">Acore::WorldObjectLastSearcher::i_check</a></div><div class="ttdeci">Check &amp; i_check</div><div class="ttdef"><b>Definition:</b> GridNotifiers.h:220</div></div>
+<div class="ttc" id="astruct_acore_1_1_world_object_last_searcher_html_a765d65a90639b34a8cf9f42fdd6ae653"><div class="ttname"><a href="../../db/de3/struct_acore_1_1_world_object_last_searcher.html#a765d65a90639b34a8cf9f42fdd6ae653">Acore::WorldObjectLastSearcher::i_object</a></div><div class="ttdeci">WorldObject *&amp; i_object</div><div class="ttdef"><b>Definition:</b> GridNotifiers.h:219</div></div>
+<div class="ttc" id="astruct_acore_1_1_world_object_last_searcher_html_a966213d495a613f33aebaa8ebda7c380"><div class="ttname"><a href="../../db/de3/struct_acore_1_1_world_object_last_searcher.html#a966213d495a613f33aebaa8ebda7c380">Acore::WorldObjectLastSearcher::i_phaseMask</a></div><div class="ttdeci">uint32 i_phaseMask</div><div class="ttdef"><b>Definition:</b> GridNotifiers.h:218</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -213,7 +220,24 @@ template&lt;class Check &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  218</span>{</div>
+<div class="line"><span class="lineno">  219</span>    <span class="keywordflow">if</span> (!(<a class="code hl_variable" href="../../db/de3/struct_acore_1_1_world_object_last_searcher.html#a5689c8aa9120bc545c98ec0916d78d56">i_mapTypeMask</a> &amp; <a class="code hl_enumvalue" href="../../df/d7d/_grid_defines_8h.html#ab566123309f520dd2c1cc7388816c0f1acfb3c6070b685ab5b76dd056f220e84f">GRID_MAP_TYPE_MASK_CORPSE</a>))</div>
+<div class="line"><span class="lineno">  220</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  221</span> </div>
+<div class="line"><span class="lineno">  222</span>    <span class="keywordflow">for</span> (<a class="code hl_class" href="../../db/dfe/class_linked_list_head_1_1_iterator.html">CorpseMapType::iterator</a> itr = m.<a class="code hl_function" href="../../d6/d85/class_grid_ref_mgr.html#a1e4e67ba11ac8da077942a6581647bf3">begin</a>(); itr != m.<a class="code hl_function" href="../../d6/d85/class_grid_ref_mgr.html#a266acb421cfc6ccc56dc2acff3202971">end</a>(); ++itr)</div>
+<div class="line"><span class="lineno">  223</span>    {</div>
+<div class="line"><span class="lineno">  224</span>        <span class="keywordflow">if</span> (!itr-&gt;GetSource()-&gt;InSamePhase(<a class="code hl_variable" href="../../db/de3/struct_acore_1_1_world_object_last_searcher.html#a966213d495a613f33aebaa8ebda7c380">i_phaseMask</a>))</div>
+<div class="line"><span class="lineno">  225</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  226</span> </div>
+<div class="line"><span class="lineno">  227</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../db/de3/struct_acore_1_1_world_object_last_searcher.html#a66afc21dd0fd740c2723516b8c33a319">i_check</a>(itr-&gt;GetSource()))</div>
+<div class="line"><span class="lineno">  228</span>            <a class="code hl_variable" href="../../db/de3/struct_acore_1_1_world_object_last_searcher.html#a765d65a90639b34a8cf9f42fdd6ae653">i_object</a> = itr-&gt;GetSource();</div>
+<div class="line"><span class="lineno">  229</span>    }</div>
+<div class="line"><span class="lineno">  230</span>}</div>
+<div class="ttc" id="a_grid_defines_8h_html_ab566123309f520dd2c1cc7388816c0f1acfb3c6070b685ab5b76dd056f220e84f"><div class="ttname"><a href="../../df/d7d/_grid_defines_8h.html#ab566123309f520dd2c1cc7388816c0f1acfb3c6070b685ab5b76dd056f220e84f">GRID_MAP_TYPE_MASK_CORPSE</a></div><div class="ttdeci">@ GRID_MAP_TYPE_MASK_CORPSE</div><div class="ttdef"><b>Definition:</b> GridDefines.h:69</div></div>
+<div class="ttc" id="aclass_grid_ref_mgr_html_a1e4e67ba11ac8da077942a6581647bf3"><div class="ttname"><a href="../../d6/d85/class_grid_ref_mgr.html#a1e4e67ba11ac8da077942a6581647bf3">GridRefMgr::begin</a></div><div class="ttdeci">iterator begin()</div><div class="ttdef"><b>Definition:</b> GridRefMgr.h:35</div></div>
+<div class="ttc" id="aclass_grid_ref_mgr_html_a266acb421cfc6ccc56dc2acff3202971"><div class="ttname"><a href="../../d6/d85/class_grid_ref_mgr.html#a266acb421cfc6ccc56dc2acff3202971">GridRefMgr::end</a></div><div class="ttdeci">iterator end()</div><div class="ttdef"><b>Definition:</b> GridRefMgr.h:36</div></div>
+<div class="ttc" id="aclass_linked_list_head_1_1_iterator_html"><div class="ttname"><a href="../../db/dfe/class_linked_list_head_1_1_iterator.html">LinkedListHead::Iterator</a></div><div class="ttdef"><b>Definition:</b> LinkedList.h:139</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="af5c5a533084c436e0d7de828e1ef82ad" name="af5c5a533084c436e0d7de828e1ef82ad"></a>
@@ -233,7 +257,21 @@ template&lt;class Check &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  202</span>{</div>
+<div class="line"><span class="lineno">  203</span>    <span class="keywordflow">if</span> (!(<a class="code hl_variable" href="../../db/de3/struct_acore_1_1_world_object_last_searcher.html#a5689c8aa9120bc545c98ec0916d78d56">i_mapTypeMask</a> &amp; <a class="code hl_enumvalue" href="../../df/d7d/_grid_defines_8h.html#ab566123309f520dd2c1cc7388816c0f1a5619b6974a16694495987197827dd1f7">GRID_MAP_TYPE_MASK_CREATURE</a>))</div>
+<div class="line"><span class="lineno">  204</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  205</span> </div>
+<div class="line"><span class="lineno">  206</span>    <span class="keywordflow">for</span> (<a class="code hl_class" href="../../db/dfe/class_linked_list_head_1_1_iterator.html">CreatureMapType::iterator</a> itr = m.<a class="code hl_function" href="../../d6/d85/class_grid_ref_mgr.html#a1e4e67ba11ac8da077942a6581647bf3">begin</a>(); itr != m.<a class="code hl_function" href="../../d6/d85/class_grid_ref_mgr.html#a266acb421cfc6ccc56dc2acff3202971">end</a>(); ++itr)</div>
+<div class="line"><span class="lineno">  207</span>    {</div>
+<div class="line"><span class="lineno">  208</span>        <span class="keywordflow">if</span> (!itr-&gt;GetSource()-&gt;InSamePhase(<a class="code hl_variable" href="../../db/de3/struct_acore_1_1_world_object_last_searcher.html#a966213d495a613f33aebaa8ebda7c380">i_phaseMask</a>))</div>
+<div class="line"><span class="lineno">  209</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  210</span> </div>
+<div class="line"><span class="lineno">  211</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../db/de3/struct_acore_1_1_world_object_last_searcher.html#a66afc21dd0fd740c2723516b8c33a319">i_check</a>(itr-&gt;GetSource()))</div>
+<div class="line"><span class="lineno">  212</span>            <a class="code hl_variable" href="../../db/de3/struct_acore_1_1_world_object_last_searcher.html#a765d65a90639b34a8cf9f42fdd6ae653">i_object</a> = itr-&gt;GetSource();</div>
+<div class="line"><span class="lineno">  213</span>    }</div>
+<div class="line"><span class="lineno">  214</span>}</div>
+<div class="ttc" id="a_grid_defines_8h_html_ab566123309f520dd2c1cc7388816c0f1a5619b6974a16694495987197827dd1f7"><div class="ttname"><a href="../../df/d7d/_grid_defines_8h.html#ab566123309f520dd2c1cc7388816c0f1a5619b6974a16694495987197827dd1f7">GRID_MAP_TYPE_MASK_CREATURE</a></div><div class="ttdeci">@ GRID_MAP_TYPE_MASK_CREATURE</div><div class="ttdef"><b>Definition:</b> GridDefines.h:70</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a962a050f568dab037a9a48879eae0f86" name="a962a050f568dab037a9a48879eae0f86"></a>
@@ -253,7 +291,21 @@ template&lt;class Check &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  234</span>{</div>
+<div class="line"><span class="lineno">  235</span>    <span class="keywordflow">if</span> (!(<a class="code hl_variable" href="../../db/de3/struct_acore_1_1_world_object_last_searcher.html#a5689c8aa9120bc545c98ec0916d78d56">i_mapTypeMask</a> &amp; <a class="code hl_enumvalue" href="../../df/d7d/_grid_defines_8h.html#ab566123309f520dd2c1cc7388816c0f1a983fc0e191fefd15850bb85a39cce5b8">GRID_MAP_TYPE_MASK_DYNAMICOBJECT</a>))</div>
+<div class="line"><span class="lineno">  236</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  237</span> </div>
+<div class="line"><span class="lineno">  238</span>    <span class="keywordflow">for</span> (<a class="code hl_class" href="../../db/dfe/class_linked_list_head_1_1_iterator.html">DynamicObjectMapType::iterator</a> itr = m.<a class="code hl_function" href="../../d6/d85/class_grid_ref_mgr.html#a1e4e67ba11ac8da077942a6581647bf3">begin</a>(); itr != m.<a class="code hl_function" href="../../d6/d85/class_grid_ref_mgr.html#a266acb421cfc6ccc56dc2acff3202971">end</a>(); ++itr)</div>
+<div class="line"><span class="lineno">  239</span>    {</div>
+<div class="line"><span class="lineno">  240</span>        <span class="keywordflow">if</span> (!itr-&gt;GetSource()-&gt;InSamePhase(<a class="code hl_variable" href="../../db/de3/struct_acore_1_1_world_object_last_searcher.html#a966213d495a613f33aebaa8ebda7c380">i_phaseMask</a>))</div>
+<div class="line"><span class="lineno">  241</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  242</span> </div>
+<div class="line"><span class="lineno">  243</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../db/de3/struct_acore_1_1_world_object_last_searcher.html#a66afc21dd0fd740c2723516b8c33a319">i_check</a>(itr-&gt;GetSource()))</div>
+<div class="line"><span class="lineno">  244</span>            <a class="code hl_variable" href="../../db/de3/struct_acore_1_1_world_object_last_searcher.html#a765d65a90639b34a8cf9f42fdd6ae653">i_object</a> = itr-&gt;GetSource();</div>
+<div class="line"><span class="lineno">  245</span>    }</div>
+<div class="line"><span class="lineno">  246</span>}</div>
+<div class="ttc" id="a_grid_defines_8h_html_ab566123309f520dd2c1cc7388816c0f1a983fc0e191fefd15850bb85a39cce5b8"><div class="ttname"><a href="../../df/d7d/_grid_defines_8h.html#ab566123309f520dd2c1cc7388816c0f1a983fc0e191fefd15850bb85a39cce5b8">GRID_MAP_TYPE_MASK_DYNAMICOBJECT</a></div><div class="ttdeci">@ GRID_MAP_TYPE_MASK_DYNAMICOBJECT</div><div class="ttdef"><b>Definition:</b> GridDefines.h:71</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a98967233e04c6223361897c02bc0edc5" name="a98967233e04c6223361897c02bc0edc5"></a>
@@ -273,7 +325,21 @@ template&lt;class Check &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  170</span>{</div>
+<div class="line"><span class="lineno">  171</span>    <span class="keywordflow">if</span> (!(<a class="code hl_variable" href="../../db/de3/struct_acore_1_1_world_object_last_searcher.html#a5689c8aa9120bc545c98ec0916d78d56">i_mapTypeMask</a> &amp; <a class="code hl_enumvalue" href="../../df/d7d/_grid_defines_8h.html#ab566123309f520dd2c1cc7388816c0f1a92e1b504e28568b364b7185cab2e7173">GRID_MAP_TYPE_MASK_GAMEOBJECT</a>))</div>
+<div class="line"><span class="lineno">  172</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  173</span> </div>
+<div class="line"><span class="lineno">  174</span>    <span class="keywordflow">for</span> (<a class="code hl_class" href="../../db/dfe/class_linked_list_head_1_1_iterator.html">GameObjectMapType::iterator</a> itr = m.<a class="code hl_function" href="../../d6/d85/class_grid_ref_mgr.html#a1e4e67ba11ac8da077942a6581647bf3">begin</a>(); itr != m.<a class="code hl_function" href="../../d6/d85/class_grid_ref_mgr.html#a266acb421cfc6ccc56dc2acff3202971">end</a>(); ++itr)</div>
+<div class="line"><span class="lineno">  175</span>    {</div>
+<div class="line"><span class="lineno">  176</span>        <span class="keywordflow">if</span> (!itr-&gt;GetSource()-&gt;InSamePhase(<a class="code hl_variable" href="../../db/de3/struct_acore_1_1_world_object_last_searcher.html#a966213d495a613f33aebaa8ebda7c380">i_phaseMask</a>))</div>
+<div class="line"><span class="lineno">  177</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  178</span> </div>
+<div class="line"><span class="lineno">  179</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../db/de3/struct_acore_1_1_world_object_last_searcher.html#a66afc21dd0fd740c2723516b8c33a319">i_check</a>(itr-&gt;GetSource()))</div>
+<div class="line"><span class="lineno">  180</span>            <a class="code hl_variable" href="../../db/de3/struct_acore_1_1_world_object_last_searcher.html#a765d65a90639b34a8cf9f42fdd6ae653">i_object</a> = itr-&gt;GetSource();</div>
+<div class="line"><span class="lineno">  181</span>    }</div>
+<div class="line"><span class="lineno">  182</span>}</div>
+<div class="ttc" id="a_grid_defines_8h_html_ab566123309f520dd2c1cc7388816c0f1a92e1b504e28568b364b7185cab2e7173"><div class="ttname"><a href="../../df/d7d/_grid_defines_8h.html#ab566123309f520dd2c1cc7388816c0f1a92e1b504e28568b364b7185cab2e7173">GRID_MAP_TYPE_MASK_GAMEOBJECT</a></div><div class="ttdeci">@ GRID_MAP_TYPE_MASK_GAMEOBJECT</div><div class="ttdef"><b>Definition:</b> GridDefines.h:72</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a94d30e81eb509ff4fd3dac7c207c819b" name="a94d30e81eb509ff4fd3dac7c207c819b"></a>
@@ -303,7 +369,8 @@ template&lt;class NOT_INTERESTED &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  231</span>{}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a39a9d66014df641c0cb08f619f9d8434" name="a39a9d66014df641c0cb08f619f9d8434"></a>
@@ -323,7 +390,21 @@ template&lt;class Check &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  186</span>{</div>
+<div class="line"><span class="lineno">  187</span>    <span class="keywordflow">if</span> (!(<a class="code hl_variable" href="../../db/de3/struct_acore_1_1_world_object_last_searcher.html#a5689c8aa9120bc545c98ec0916d78d56">i_mapTypeMask</a> &amp; <a class="code hl_enumvalue" href="../../df/d7d/_grid_defines_8h.html#ab566123309f520dd2c1cc7388816c0f1a21cae0e997f66481782878b049542c6e">GRID_MAP_TYPE_MASK_PLAYER</a>))</div>
+<div class="line"><span class="lineno">  188</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  189</span> </div>
+<div class="line"><span class="lineno">  190</span>    <span class="keywordflow">for</span> (<a class="code hl_class" href="../../db/dfe/class_linked_list_head_1_1_iterator.html">PlayerMapType::iterator</a> itr = m.<a class="code hl_function" href="../../d6/d85/class_grid_ref_mgr.html#a1e4e67ba11ac8da077942a6581647bf3">begin</a>(); itr != m.<a class="code hl_function" href="../../d6/d85/class_grid_ref_mgr.html#a266acb421cfc6ccc56dc2acff3202971">end</a>(); ++itr)</div>
+<div class="line"><span class="lineno">  191</span>    {</div>
+<div class="line"><span class="lineno">  192</span>        <span class="keywordflow">if</span> (!itr-&gt;GetSource()-&gt;InSamePhase(<a class="code hl_variable" href="../../db/de3/struct_acore_1_1_world_object_last_searcher.html#a966213d495a613f33aebaa8ebda7c380">i_phaseMask</a>))</div>
+<div class="line"><span class="lineno">  193</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  194</span> </div>
+<div class="line"><span class="lineno">  195</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../db/de3/struct_acore_1_1_world_object_last_searcher.html#a66afc21dd0fd740c2723516b8c33a319">i_check</a>(itr-&gt;GetSource()))</div>
+<div class="line"><span class="lineno">  196</span>            <a class="code hl_variable" href="../../db/de3/struct_acore_1_1_world_object_last_searcher.html#a765d65a90639b34a8cf9f42fdd6ae653">i_object</a> = itr-&gt;GetSource();</div>
+<div class="line"><span class="lineno">  197</span>    }</div>
+<div class="line"><span class="lineno">  198</span>}</div>
+<div class="ttc" id="a_grid_defines_8h_html_ab566123309f520dd2c1cc7388816c0f1a21cae0e997f66481782878b049542c6e"><div class="ttname"><a href="../../df/d7d/_grid_defines_8h.html#ab566123309f520dd2c1cc7388816c0f1a21cae0e997f66481782878b049542c6e">GRID_MAP_TYPE_MASK_PLAYER</a></div><div class="ttdeci">@ GRID_MAP_TYPE_MASK_PLAYER</div><div class="ttdef"><b>Definition:</b> GridDefines.h:73</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -392,8 +473,8 @@ template&lt;class Check &gt; </div>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Grids/Notifiers/<a class="el" href="../../d0/dc9/_grid_notifiers_8h_source.html">GridNotifiers.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/Grids/Notifiers/<a class="el" href="../../dd/df9/_grid_notifiers_impl_8h_source.html">GridNotifiersImpl.h</a></li>
+<li><a class="el" href="../../">GridNotifiers.h</a></li>
+<li><a class="el" href="../../">GridNotifiersImpl.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -401,7 +482,7 @@ template&lt;class Check &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d7d/namespace_acore.html">Acore</a></li><li class="navelem"><a class="el" href="../../db/de3/struct_acore_1_1_world_object_last_searcher.html">WorldObjectLastSearcher</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:13 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:31 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

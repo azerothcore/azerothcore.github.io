@@ -302,7 +302,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a50e7bec0224199fb293e011023d3a239" name="a50e7bec0224199fb293e011023d3a239"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a50e7bec0224199fb293e011023d3a239">&#9670;&#160;</a></span>HandlePeriodic()</h2>
 
@@ -326,7 +327,25 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  375</span>        {</div>
+<div class="line"><span class="lineno">  376</span>            <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a19e0ed231d33245849ef31acb0f2bca3">PreventDefaultAction</a>();</div>
+<div class="line"><span class="lineno">  377</span> </div>
+<div class="line"><span class="lineno">  378</span>            <span class="comment">// 24 spells in total</span></div>
+<div class="line"><span class="lineno">  379</span>            <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> i = 0; i &lt; 21; ++i)</div>
+<div class="line"><span class="lineno">  380</span>                <a class="code hl_function" href="../../d4/d72/class_aura_script.html#ae0ce7b7a97c6bcb2734ac79f8fa86a15">GetUnitOwner</a>()-&gt;<a class="code hl_variable" href="../../da/db7/class_unit.html#a8ca8fcc886a2cea2c235514644e7e2a0">m_Events</a>.<a class="code hl_function" href="../../d6/d65/class_event_processor.html#a0ecdf822624a632b7b3fad1e66228cfb">AddEvent</a>(<span class="keyword">new</span> <a class="code hl_class" href="../../d0/d42/class_cast_quill.html">CastQuill</a>(<a class="code hl_function" href="../../d4/d72/class_aura_script.html#ae0ce7b7a97c6bcb2734ac79f8fa86a15">GetUnitOwner</a>(), <a class="code hl_enumvalue" href="../../d2/df4/boss__alar_8cpp.html#a5bd342133be8c2137b831460acc9298ca501423372a047a0b1766a736cf773724">SPELL_QUILL_MISSILE_1</a> + i), <a class="code hl_function" href="../../d4/d72/class_aura_script.html#ae0ce7b7a97c6bcb2734ac79f8fa86a15">GetUnitOwner</a>()-&gt;m_Events.CalculateTime(i * 40));</div>
+<div class="line"><span class="lineno">  381</span>            <a class="code hl_function" href="../../d4/d72/class_aura_script.html#ae0ce7b7a97c6bcb2734ac79f8fa86a15">GetUnitOwner</a>()-&gt;<a class="code hl_variable" href="../../da/db7/class_unit.html#a8ca8fcc886a2cea2c235514644e7e2a0">m_Events</a>.<a class="code hl_function" href="../../d6/d65/class_event_processor.html#a0ecdf822624a632b7b3fad1e66228cfb">AddEvent</a>(<span class="keyword">new</span> <a class="code hl_class" href="../../d0/d42/class_cast_quill.html">CastQuill</a>(<a class="code hl_function" href="../../d4/d72/class_aura_script.html#ae0ce7b7a97c6bcb2734ac79f8fa86a15">GetUnitOwner</a>(), <a class="code hl_enumvalue" href="../../d2/df4/boss__alar_8cpp.html#a5bd342133be8c2137b831460acc9298caf3c1a1a8a3a60d767d9f61b056676cad">SPELL_QUILL_MISSILE_2</a> + 0), <a class="code hl_function" href="../../d4/d72/class_aura_script.html#ae0ce7b7a97c6bcb2734ac79f8fa86a15">GetUnitOwner</a>()-&gt;m_Events.CalculateTime(22 * 40));</div>
+<div class="line"><span class="lineno">  382</span>            <a class="code hl_function" href="../../d4/d72/class_aura_script.html#ae0ce7b7a97c6bcb2734ac79f8fa86a15">GetUnitOwner</a>()-&gt;<a class="code hl_variable" href="../../da/db7/class_unit.html#a8ca8fcc886a2cea2c235514644e7e2a0">m_Events</a>.<a class="code hl_function" href="../../d6/d65/class_event_processor.html#a0ecdf822624a632b7b3fad1e66228cfb">AddEvent</a>(<span class="keyword">new</span> <a class="code hl_class" href="../../d0/d42/class_cast_quill.html">CastQuill</a>(<a class="code hl_function" href="../../d4/d72/class_aura_script.html#ae0ce7b7a97c6bcb2734ac79f8fa86a15">GetUnitOwner</a>(), <a class="code hl_enumvalue" href="../../d2/df4/boss__alar_8cpp.html#a5bd342133be8c2137b831460acc9298caf3c1a1a8a3a60d767d9f61b056676cad">SPELL_QUILL_MISSILE_2</a> + 1), <a class="code hl_function" href="../../d4/d72/class_aura_script.html#ae0ce7b7a97c6bcb2734ac79f8fa86a15">GetUnitOwner</a>()-&gt;m_Events.CalculateTime(23 * 40));</div>
+<div class="line"><span class="lineno">  383</span>            <a class="code hl_function" href="../../d4/d72/class_aura_script.html#ae0ce7b7a97c6bcb2734ac79f8fa86a15">GetUnitOwner</a>()-&gt;<a class="code hl_variable" href="../../da/db7/class_unit.html#a8ca8fcc886a2cea2c235514644e7e2a0">m_Events</a>.<a class="code hl_function" href="../../d6/d65/class_event_processor.html#a0ecdf822624a632b7b3fad1e66228cfb">AddEvent</a>(<span class="keyword">new</span> <a class="code hl_class" href="../../d0/d42/class_cast_quill.html">CastQuill</a>(<a class="code hl_function" href="../../d4/d72/class_aura_script.html#ae0ce7b7a97c6bcb2734ac79f8fa86a15">GetUnitOwner</a>(), <a class="code hl_enumvalue" href="../../d2/df4/boss__alar_8cpp.html#a5bd342133be8c2137b831460acc9298caf3c1a1a8a3a60d767d9f61b056676cad">SPELL_QUILL_MISSILE_2</a> + 2), <a class="code hl_function" href="../../d4/d72/class_aura_script.html#ae0ce7b7a97c6bcb2734ac79f8fa86a15">GetUnitOwner</a>()-&gt;m_Events.CalculateTime(24 * 40));</div>
+<div class="line"><span class="lineno">  384</span>        }</div>
+<div class="ttc" id="a_define_8h_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:110</div></div>
+<div class="ttc" id="aboss__alar_8cpp_html_a5bd342133be8c2137b831460acc9298ca501423372a047a0b1766a736cf773724"><div class="ttname"><a href="../../d2/df4/boss__alar_8cpp.html#a5bd342133be8c2137b831460acc9298ca501423372a047a0b1766a736cf773724">SPELL_QUILL_MISSILE_1</a></div><div class="ttdeci">@ SPELL_QUILL_MISSILE_1</div><div class="ttdef"><b>Definition:</b> boss_alar.cpp:28</div></div>
+<div class="ttc" id="aboss__alar_8cpp_html_a5bd342133be8c2137b831460acc9298caf3c1a1a8a3a60d767d9f61b056676cad"><div class="ttname"><a href="../../d2/df4/boss__alar_8cpp.html#a5bd342133be8c2137b831460acc9298caf3c1a1a8a3a60d767d9f61b056676cad">SPELL_QUILL_MISSILE_2</a></div><div class="ttdeci">@ SPELL_QUILL_MISSILE_2</div><div class="ttdef"><b>Definition:</b> boss_alar.cpp:29</div></div>
+<div class="ttc" id="aclass_aura_script_html_a19e0ed231d33245849ef31acb0f2bca3"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a19e0ed231d33245849ef31acb0f2bca3">AuraScript::PreventDefaultAction</a></div><div class="ttdeci">void PreventDefaultAction()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:975</div></div>
+<div class="ttc" id="aclass_aura_script_html_ae0ce7b7a97c6bcb2734ac79f8fa86a15"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#ae0ce7b7a97c6bcb2734ac79f8fa86a15">AuraScript::GetUnitOwner</a></div><div class="ttdeci">Unit * GetUnitOwner() const</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:1020</div></div>
+<div class="ttc" id="aclass_cast_quill_html"><div class="ttname"><a href="../../d0/d42/class_cast_quill.html">CastQuill</a></div><div class="ttdef"><b>Definition:</b> boss_alar.cpp:348</div></div>
+<div class="ttc" id="aclass_event_processor_html_a0ecdf822624a632b7b3fad1e66228cfb"><div class="ttname"><a href="../../d6/d65/class_event_processor.html#a0ecdf822624a632b7b3fad1e66228cfb">EventProcessor::AddEvent</a></div><div class="ttdeci">void AddEvent(BasicEvent *Event, uint64 e_time, bool set_addtime=true)</div><div class="ttdef"><b>Definition:</b> EventProcessor.cpp:114</div></div>
+<div class="ttc" id="aclass_unit_html_a8ca8fcc886a2cea2c235514644e7e2a0"><div class="ttname"><a href="../../da/db7/class_unit.html#a8ca8fcc886a2cea2c235514644e7e2a0">Unit::m_Events</a></div><div class="ttdeci">EventProcessor m_Events</div><div class="ttdef"><b>Definition:</b> Unit.h:2091</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="abdd560c1a797bede164ab4e9a164edd5" name="abdd560c1a797bede164ab4e9a164edd5"></a>
@@ -379,11 +398,19 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  387</span>        {</div>
+<div class="line"><span class="lineno">  388</span>            <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a491e7fc0a1acd202b60fa1aed79a9377">OnEffectPeriodic</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a63dd33eaa91292bfb53b1d9f2b0eba29">AuraEffectPeriodicFn</a>(<a class="code hl_function" href="../../db/d7f/classspell__alar__flame__quills_1_1spell__alar__flame__quills___aura_script.html#a50e7bec0224199fb293e011023d3a239">spell_alar_flame_quills_AuraScript::HandlePeriodic</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799af51e1877e096bbfd69505e5ab4fc69ad">SPELL_AURA_PERIODIC_TRIGGER_SPELL</a>);</div>
+<div class="line"><span class="lineno">  389</span>        }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a></div><div class="ttdeci">@ EFFECT_0</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:30</div></div>
+<div class="ttc" id="a_spell_aura_defines_8h_html_a538cdc259460b365f406fe0b3a981799af51e1877e096bbfd69505e5ab4fc69ad"><div class="ttname"><a href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799af51e1877e096bbfd69505e5ab4fc69ad">SPELL_AURA_PERIODIC_TRIGGER_SPELL</a></div><div class="ttdeci">@ SPELL_AURA_PERIODIC_TRIGGER_SPELL</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:86</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a63dd33eaa91292bfb53b1d9f2b0eba29"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a63dd33eaa91292bfb53b1d9f2b0eba29">AuraEffectPeriodicFn</a></div><div class="ttdeci">#define AuraEffectPeriodicFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:750</div></div>
+<div class="ttc" id="aclass_aura_script_html_a491e7fc0a1acd202b60fa1aed79a9377"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a491e7fc0a1acd202b60fa1aed79a9377">AuraScript::OnEffectPeriodic</a></div><div class="ttdeci">HookList&lt; EffectPeriodicHandler &gt; OnEffectPeriodic</div><div class="ttdef"><b>Definition:</b> SpellScript.h:749</div></div>
+<div class="ttc" id="aclassspell__alar__flame__quills_1_1spell__alar__flame__quills___aura_script_html_a50e7bec0224199fb293e011023d3a239"><div class="ttname"><a href="../../db/d7f/classspell__alar__flame__quills_1_1spell__alar__flame__quills___aura_script.html#a50e7bec0224199fb293e011023d3a239">spell_alar_flame_quills::spell_alar_flame_quills_AuraScript::HandlePeriodic</a></div><div class="ttdeci">void HandlePeriodic(AuraEffect const *)</div><div class="ttdef"><b>Definition:</b> boss_alar.cpp:374</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Outland/TempestKeep/Eye/<a class="el" href="../../d2/df4/boss__alar_8cpp.html">boss_alar.cpp</a></li>
+<li><a class="el" href="../../">boss_alar.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -391,7 +418,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d0/d09/classspell__alar__flame__quills.html">spell_alar_flame_quills</a></li><li class="navelem"><a class="el" href="../../db/d7f/classspell__alar__flame__quills_1_1spell__alar__flame__quills___aura_script.html">spell_alar_flame_quills_AuraScript</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:58 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:15 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

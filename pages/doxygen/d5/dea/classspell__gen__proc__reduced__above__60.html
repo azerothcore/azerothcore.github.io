@@ -302,7 +302,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a21cda631d861161c370a44a2fd2fd2f7" name="a21cda631d861161c370a44a2fd2fd2f7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a21cda631d861161c370a44a2fd2fd2f7">&#9670;&#160;</a></span>CheckProc()</h2>
 
@@ -326,7 +327,18 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  929</span>    {</div>
+<div class="line"><span class="lineno">  930</span>        <span class="comment">// Xinef: mostly its 33.(3)% reduce by 70 and 66.(6)% by 80</span></div>
+<div class="line"><span class="lineno">  931</span>        <span class="keywordflow">if</span> (eventInfo.<a class="code hl_function" href="../../df/def/class_proc_event_info.html#a89d8ab0bf0b01e3e1ca4ae10a3cbde10">GetActor</a>() &amp;&amp; eventInfo.<a class="code hl_function" href="../../df/def/class_proc_event_info.html#a89d8ab0bf0b01e3e1ca4ae10a3cbde10">GetActor</a>()-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#adc6d98745d565970b4a89088ec5b5a42">getLevel</a>() &gt; 60)</div>
+<div class="line"><span class="lineno">  932</span>            <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d0/d80/_random_8h.html#a4b15099bc81731469c5078a778673c94">roll_chance_f</a>((eventInfo.<a class="code hl_function" href="../../df/def/class_proc_event_info.html#a89d8ab0bf0b01e3e1ca4ae10a3cbde10">GetActor</a>()-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#adc6d98745d565970b4a89088ec5b5a42">getLevel</a>() - 60) * 3.33f))</div>
+<div class="line"><span class="lineno">  933</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  934</span> </div>
+<div class="line"><span class="lineno">  935</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  936</span>    }</div>
+<div class="ttc" id="a_random_8h_html_a4b15099bc81731469c5078a778673c94"><div class="ttname"><a href="../../d0/d80/_random_8h.html#a4b15099bc81731469c5078a778673c94">roll_chance_f</a></div><div class="ttdeci">bool roll_chance_f(float chance)</div><div class="ttdef"><b>Definition:</b> Random.h:53</div></div>
+<div class="ttc" id="aclass_proc_event_info_html_a89d8ab0bf0b01e3e1ca4ae10a3cbde10"><div class="ttname"><a href="../../df/def/class_proc_event_info.html#a89d8ab0bf0b01e3e1ca4ae10a3cbde10">ProcEventInfo::GetActor</a></div><div class="ttdeci">Unit * GetActor()</div><div class="ttdef"><b>Definition:</b> Unit.h:858</div></div>
+<div class="ttc" id="aclass_unit_html_adc6d98745d565970b4a89088ec5b5a42"><div class="ttname"><a href="../../da/db7/class_unit.html#adc6d98745d565970b4a89088ec5b5a42">Unit::getLevel</a></div><div class="ttdeci">uint8 getLevel() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1418</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a861caa47c502c42fa84d9f9de74df024" name="a861caa47c502c42fa84d9f9de74df024"></a>
@@ -379,11 +391,17 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  939</span>    {</div>
+<div class="line"><span class="lineno">  940</span>        <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#ab771dd972497502e5202fd48a1d6c17d">DoCheckProc</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#ad25bcd0c3aa73ba267fa87ea50bc1780">AuraCheckProcFn</a>(<a class="code hl_function" href="../../d5/dea/classspell__gen__proc__reduced__above__60.html#a21cda631d861161c370a44a2fd2fd2f7">spell_gen_proc_reduced_above_60::CheckProc</a>);</div>
+<div class="line"><span class="lineno">  941</span>    }</div>
+<div class="ttc" id="a_spell_script_8h_html_ad25bcd0c3aa73ba267fa87ea50bc1780"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#ad25bcd0c3aa73ba267fa87ea50bc1780">AuraCheckProcFn</a></div><div class="ttdeci">#define AuraCheckProcFn(F)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:812</div></div>
+<div class="ttc" id="aclass_aura_script_html_ab771dd972497502e5202fd48a1d6c17d"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#ab771dd972497502e5202fd48a1d6c17d">AuraScript::DoCheckProc</a></div><div class="ttdeci">HookList&lt; CheckProcHandler &gt; DoCheckProc</div><div class="ttdef"><b>Definition:</b> SpellScript.h:807</div></div>
+<div class="ttc" id="aclassspell__gen__proc__reduced__above__60_html_a21cda631d861161c370a44a2fd2fd2f7"><div class="ttname"><a href="../../d5/dea/classspell__gen__proc__reduced__above__60.html#a21cda631d861161c370a44a2fd2fd2f7">spell_gen_proc_reduced_above_60::CheckProc</a></div><div class="ttdeci">bool CheckProc(ProcEventInfo &amp;eventInfo)</div><div class="ttdef"><b>Definition:</b> spell_generic.cpp:928</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Spells/<a class="el" href="../../d1/de4/spell__generic_8cpp.html">spell_generic.cpp</a></li>
+<li><a class="el" href="../../">spell_generic.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -391,7 +409,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d5/dea/classspell__gen__proc__reduced__above__60.html">spell_gen_proc_reduced_above_60</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:01 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:18 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

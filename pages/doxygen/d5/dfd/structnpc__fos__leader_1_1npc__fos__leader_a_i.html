@@ -489,7 +489,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ae6a80f77558e0f5a62efc3b5ef1f61d6" name="ae6a80f77558e0f5a62efc3b5ef1f61d6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae6a80f77558e0f5a62efc3b5ef1f61d6">&#9670;&#160;</a></span>npc_fos_leaderAI()</h2>
 
@@ -513,7 +514,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   60</span>: <a class="code hl_struct" href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a>(creature) {}</div>
+<div class="ttc" id="astruct_scripted_a_i_html"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -542,7 +545,21 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d9c/class_unit_a_i.html#a165d336cb3423f9665ed612d2dec76ed">UnitAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   70</span>        {</div>
+<div class="line"><span class="lineno">   71</span>            <span class="keywordflow">if</span> (a == 1)</div>
+<div class="line"><span class="lineno">   72</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa259415c642bf3a9c625bee6ae0a62e9">HasNpcFlag</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ab054baf099d873bce22a0e84ae1090e2a7d2d4d09dd0b5ba2b977f74bf55a3fd0">UNIT_NPC_FLAG_GOSSIP</a>))</div>
+<div class="line"><span class="lineno">   73</span>                {</div>
+<div class="line"><span class="lineno">   74</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a629e9a4f8c5987b034e409c9c74297b9">RemoveNpcFlag</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ab054baf099d873bce22a0e84ae1090e2a7d2d4d09dd0b5ba2b977f74bf55a3fd0">UNIT_NPC_FLAG_GOSSIP</a>);</div>
+<div class="line"><span class="lineno">   75</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.Reset();</div>
+<div class="line"><span class="lineno">   76</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(1, 1000);</div>
+<div class="line"><span class="lineno">   77</span>                }</div>
+<div class="line"><span class="lineno">   78</span>        }</div>
+<div class="ttc" id="a_unit_8h_html_ab054baf099d873bce22a0e84ae1090e2a7d2d4d09dd0b5ba2b977f74bf55a3fd0"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#ab054baf099d873bce22a0e84ae1090e2a7d2d4d09dd0b5ba2b977f74bf55a3fd0">UNIT_NPC_FLAG_GOSSIP</a></div><div class="ttdeci">@ UNIT_NPC_FLAG_GOSSIP</div><div class="ttdef"><b>Definition:</b> Unit.h:516</div></div>
+<div class="ttc" id="aboss__sartura_8cpp_html_ad29858f6d8ab73f2970f41cb21a76b84"><div class="ttname"><a href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a></div><div class="ttdeci">events</div><div class="ttdef"><b>Definition:</b> boss_sartura.cpp:43</div></div>
+<div class="ttc" id="aclass_unit_html_a629e9a4f8c5987b034e409c9c74297b9"><div class="ttname"><a href="../../da/db7/class_unit.html#a629e9a4f8c5987b034e409c9c74297b9">Unit::RemoveNpcFlag</a></div><div class="ttdeci">void RemoveNpcFlag(NPCFlags flags)</div><div class="ttdef"><b>Definition:</b> Unit.h:1645</div></div>
+<div class="ttc" id="aclass_unit_html_aa259415c642bf3a9c625bee6ae0a62e9"><div class="ttname"><a href="../../da/db7/class_unit.html#aa259415c642bf3a9c625bee6ae0a62e9">Unit::HasNpcFlag</a></div><div class="ttdeci">bool HasNpcFlag(NPCFlags flags) const</div><div class="ttdef"><b>Definition:</b> Unit.h:1643</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a33364da3af4681de9f9e21b9dcf7f16c" name="a33364da3af4681de9f9e21b9dcf7f16c"></a>
@@ -569,7 +586,10 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a26600c116d20a33461fc884bdb82eda9">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   65</span>        {</div>
+<div class="line"><span class="lineno">   66</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.Reset();</div>
+<div class="line"><span class="lineno">   67</span>        }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac6f2aedc40e415ac0f7e8c212d4deae5" name="ac6f2aedc40e415ac0f7e8c212d4deae5"></a>
@@ -597,7 +617,131 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#aff5fd4e142a5cf930ffacbfc7259cce5">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   81</span>        {</div>
+<div class="line"><span class="lineno">   82</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.Update(diff);</div>
+<div class="line"><span class="lineno">   83</span>            <span class="keywordflow">switch</span>(<a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ExecuteEvent())</div>
+<div class="line"><span class="lineno">   84</span>            {</div>
+<div class="line"><span class="lineno">   85</span>                <span class="keywordflow">case</span> 0:</div>
+<div class="line"><span class="lineno">   86</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   87</span>                <span class="keywordflow">case</span> 1:</div>
+<div class="line"><span class="lineno">   88</span> </div>
+<div class="line"><span class="lineno">   89</span>                    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>() == <a class="code hl_enumvalue" href="../../d7/d40/forge__of__souls_8h.html#a25a619e6b66096a4f05d048e4a96df08a015de55b22fad643111f67b59a73fbc2">NPC_JAINA_PART1</a>)</div>
+<div class="line"><span class="lineno">   90</span>                    {</div>
+<div class="line"><span class="lineno">   91</span>                        <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d5/d92/forge__of__souls_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3a6b281ebb353154d1e4c6b39eb83d65f4">SAY_JAINA_INTRO_1</a>);</div>
+<div class="line"><span class="lineno">   92</span>                        <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(2, 8000);</div>
+<div class="line"><span class="lineno">   93</span>                    }</div>
+<div class="line"><span class="lineno">   94</span>                    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">   95</span>                    {</div>
+<div class="line"><span class="lineno">   96</span>                        <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d5/d92/forge__of__souls_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3ae9359b4b2dd72c3fb1d3fb1494a7e3e5">SAY_SYLVANAS_INTRO_1</a>);</div>
+<div class="line"><span class="lineno">   97</span>                        <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(2, 11500);</div>
+<div class="line"><span class="lineno">   98</span>                    }</div>
+<div class="line"><span class="lineno">   99</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  100</span>                <span class="keywordflow">case</span> 2:</div>
+<div class="line"><span class="lineno">  101</span> </div>
+<div class="line"><span class="lineno">  102</span>                    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>() == <a class="code hl_enumvalue" href="../../d7/d40/forge__of__souls_8h.html#a25a619e6b66096a4f05d048e4a96df08a015de55b22fad643111f67b59a73fbc2">NPC_JAINA_PART1</a>)</div>
+<div class="line"><span class="lineno">  103</span>                    {</div>
+<div class="line"><span class="lineno">  104</span>                        <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d5/d92/forge__of__souls_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3a662b1bc3fd806908e129efc9e189f049">SAY_JAINA_INTRO_2</a>);</div>
+<div class="line"><span class="lineno">  105</span>                        <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(3, 9000);</div>
+<div class="line"><span class="lineno">  106</span>                    }</div>
+<div class="line"><span class="lineno">  107</span>                    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  108</span>                    {</div>
+<div class="line"><span class="lineno">  109</span>                        <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d5/d92/forge__of__souls_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3ab9edeb844c5791a853b9f6534e592979">SAY_SYLVANAS_INTRO_2</a>);</div>
+<div class="line"><span class="lineno">  110</span>                        <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(3, 10500);</div>
+<div class="line"><span class="lineno">  111</span>                    }</div>
+<div class="line"><span class="lineno">  112</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  113</span>                <span class="keywordflow">case</span> 3:</div>
+<div class="line"><span class="lineno">  114</span> </div>
+<div class="line"><span class="lineno">  115</span>                    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>() == <a class="code hl_enumvalue" href="../../d7/d40/forge__of__souls_8h.html#a25a619e6b66096a4f05d048e4a96df08a015de55b22fad643111f67b59a73fbc2">NPC_JAINA_PART1</a>)</div>
+<div class="line"><span class="lineno">  116</span>                    {</div>
+<div class="line"><span class="lineno">  117</span>                        <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d5/d92/forge__of__souls_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3addb8cc19e7c414f6b8300a33df2c5210">SAY_JAINA_INTRO_3</a>);</div>
+<div class="line"><span class="lineno">  118</span>                        <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(4, 8000);</div>
+<div class="line"><span class="lineno">  119</span>                    }</div>
+<div class="line"><span class="lineno">  120</span>                    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  121</span>                    {</div>
+<div class="line"><span class="lineno">  122</span>                        <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d5/d92/forge__of__souls_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3a1f3f894d5f6e6281e313b0257ccfbf31">SAY_SYLVANAS_INTRO_3</a>);</div>
+<div class="line"><span class="lineno">  123</span>                        <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(4, 10500);</div>
+<div class="line"><span class="lineno">  124</span>                    }</div>
+<div class="line"><span class="lineno">  125</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  126</span>                <span class="keywordflow">case</span> 4:</div>
+<div class="line"><span class="lineno">  127</span> </div>
+<div class="line"><span class="lineno">  128</span>                    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>() == <a class="code hl_enumvalue" href="../../d7/d40/forge__of__souls_8h.html#a25a619e6b66096a4f05d048e4a96df08a015de55b22fad643111f67b59a73fbc2">NPC_JAINA_PART1</a>)</div>
+<div class="line"><span class="lineno">  129</span>                    {</div>
+<div class="line"><span class="lineno">  130</span>                        <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d5/d92/forge__of__souls_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3a1417358a359f3199a37e9f5456ef338a">SAY_JAINA_INTRO_4</a>);</div>
+<div class="line"><span class="lineno">  131</span>                        <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(5, 10000);</div>
+<div class="line"><span class="lineno">  132</span>                    }</div>
+<div class="line"><span class="lineno">  133</span>                    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  134</span>                    {</div>
+<div class="line"><span class="lineno">  135</span>                        <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d5/d92/forge__of__souls_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3a445f42acb2e8c1bbf8b78c6c6c16de93">SAY_SYLVANAS_INTRO_4</a>);</div>
+<div class="line"><span class="lineno">  136</span>                        <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(5, 11000);</div>
+<div class="line"><span class="lineno">  137</span>                    }</div>
+<div class="line"><span class="lineno">  138</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  139</span>                <span class="keywordflow">case</span> 5:</div>
+<div class="line"><span class="lineno">  140</span> </div>
+<div class="line"><span class="lineno">  141</span>                    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>() == <a class="code hl_enumvalue" href="../../d7/d40/forge__of__souls_8h.html#a25a619e6b66096a4f05d048e4a96df08a015de55b22fad643111f67b59a73fbc2">NPC_JAINA_PART1</a>)</div>
+<div class="line"><span class="lineno">  142</span>                    {</div>
+<div class="line"><span class="lineno">  143</span>                        <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d5/d92/forge__of__souls_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3a2be6d46483e2fa3ec34f3173a32dfe67">SAY_JAINA_INTRO_5</a>);</div>
+<div class="line"><span class="lineno">  144</span>                        <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(6, 8000);</div>
+<div class="line"><span class="lineno">  145</span>                    }</div>
+<div class="line"><span class="lineno">  146</span>                    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  147</span>                    {</div>
+<div class="line"><span class="lineno">  148</span>                        <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d5/d92/forge__of__souls_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3ab3188e7760c55994214f4c7b52e00fb6">SAY_SYLVANAS_INTRO_5</a>);</div>
+<div class="line"><span class="lineno">  149</span>                        <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(6, 9500);</div>
+<div class="line"><span class="lineno">  150</span>                    }</div>
+<div class="line"><span class="lineno">  151</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  152</span>                <span class="keywordflow">case</span> 6:</div>
+<div class="line"><span class="lineno">  153</span> </div>
+<div class="line"><span class="lineno">  154</span>                    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>() == <a class="code hl_enumvalue" href="../../d7/d40/forge__of__souls_8h.html#a25a619e6b66096a4f05d048e4a96df08a015de55b22fad643111f67b59a73fbc2">NPC_JAINA_PART1</a>)</div>
+<div class="line"><span class="lineno">  155</span>                    {</div>
+<div class="line"><span class="lineno">  156</span>                        <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d5/d92/forge__of__souls_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3a517cdb754d36f7bcb1a30910e5b2fbe1">SAY_JAINA_INTRO_6</a>);</div>
+<div class="line"><span class="lineno">  157</span>                        <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(7, 12000);</div>
+<div class="line"><span class="lineno">  158</span>                    }</div>
+<div class="line"><span class="lineno">  159</span>                    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  160</span>                    {</div>
+<div class="line"><span class="lineno">  161</span>                        <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d5/d92/forge__of__souls_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3acf4b6235eb1baa60cb015f34a3de77dd">SAY_SYLVANAS_INTRO_6</a>);</div>
+<div class="line"><span class="lineno">  162</span>                    }</div>
+<div class="line"><span class="lineno">  163</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  164</span>                <span class="keywordflow">case</span> 7:</div>
+<div class="line"><span class="lineno">  165</span> </div>
+<div class="line"><span class="lineno">  166</span>                    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>() == <a class="code hl_enumvalue" href="../../d7/d40/forge__of__souls_8h.html#a25a619e6b66096a4f05d048e4a96df08a015de55b22fad643111f67b59a73fbc2">NPC_JAINA_PART1</a>)</div>
+<div class="line"><span class="lineno">  167</span>                    {</div>
+<div class="line"><span class="lineno">  168</span>                        <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d5/d92/forge__of__souls_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3ad1f3e57ea33782b3be88f9d0954f98b4">SAY_JAINA_INTRO_7</a>);</div>
+<div class="line"><span class="lineno">  169</span>                        <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(8, 8000);</div>
+<div class="line"><span class="lineno">  170</span>                    }</div>
+<div class="line"><span class="lineno">  171</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  172</span>                <span class="keywordflow">case</span> 8:</div>
+<div class="line"><span class="lineno">  173</span> </div>
+<div class="line"><span class="lineno">  174</span>                    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>() == <a class="code hl_enumvalue" href="../../d7/d40/forge__of__souls_8h.html#a25a619e6b66096a4f05d048e4a96df08a015de55b22fad643111f67b59a73fbc2">NPC_JAINA_PART1</a>)</div>
+<div class="line"><span class="lineno">  175</span>                    {</div>
+<div class="line"><span class="lineno">  176</span>                        <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d5/d92/forge__of__souls_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3a800fbab7d9796285b151916518d4ef8c">SAY_JAINA_INTRO_8</a>);</div>
+<div class="line"><span class="lineno">  177</span>                    }</div>
+<div class="line"><span class="lineno">  178</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  179</span>            }</div>
+<div class="line"><span class="lineno">  180</span> </div>
+<div class="line"><span class="lineno">  181</span>            <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">UpdateVictim</a>())</div>
+<div class="line"><span class="lineno">  182</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  183</span> </div>
+<div class="line"><span class="lineno">  184</span>            <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">DoMeleeAttackIfReady</a>();</div>
+<div class="line"><span class="lineno">  185</span>        }</div>
+<div class="ttc" id="aboss__fathomlord__karathress_8cpp_html_a747a224b6b3195f9a33c56ddc6c7e268"><div class="ttname"><a href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a></div><div class="ttdeci">Talk</div><div class="ttdef"><b>Definition:</b> boss_fathomlord_karathress.cpp:23</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_ae03ccfe1e27501ed9ccbfecdbd3c4e39"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">CreatureAI::UpdateVictim</a></div><div class="ttdeci">bool UpdateVictim()</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:268</div></div>
+<div class="ttc" id="aclass_object_html_aa627fe2967ed0e0ed1d8aeeb4365a961"><div class="ttname"><a href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">Object::GetEntry</a></div><div class="ttdeci">uint32 GetEntry() const</div><div class="ttdef"><b>Definition:</b> Object.h:109</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a348a472089a9be6210b58aace8fafa9f"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">UnitAI::DoMeleeAttackIfReady</a></div><div class="ttdeci">void DoMeleeAttackIfReady()</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:40</div></div>
+<div class="ttc" id="aforge__of__souls_8cpp_html_a34a1b224b8db54cacd01d75b910f04e3a1417358a359f3199a37e9f5456ef338a"><div class="ttname"><a href="../../d5/d92/forge__of__souls_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3a1417358a359f3199a37e9f5456ef338a">SAY_JAINA_INTRO_4</a></div><div class="ttdeci">@ SAY_JAINA_INTRO_4</div><div class="ttdef"><b>Definition:</b> forge_of_souls.cpp:30</div></div>
+<div class="ttc" id="aforge__of__souls_8cpp_html_a34a1b224b8db54cacd01d75b910f04e3a1f3f894d5f6e6281e313b0257ccfbf31"><div class="ttname"><a href="../../d5/d92/forge__of__souls_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3a1f3f894d5f6e6281e313b0257ccfbf31">SAY_SYLVANAS_INTRO_3</a></div><div class="ttdeci">@ SAY_SYLVANAS_INTRO_3</div><div class="ttdef"><b>Definition:</b> forge_of_souls.cpp:38</div></div>
+<div class="ttc" id="aforge__of__souls_8cpp_html_a34a1b224b8db54cacd01d75b910f04e3a2be6d46483e2fa3ec34f3173a32dfe67"><div class="ttname"><a href="../../d5/d92/forge__of__souls_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3a2be6d46483e2fa3ec34f3173a32dfe67">SAY_JAINA_INTRO_5</a></div><div class="ttdeci">@ SAY_JAINA_INTRO_5</div><div class="ttdef"><b>Definition:</b> forge_of_souls.cpp:31</div></div>
+<div class="ttc" id="aforge__of__souls_8cpp_html_a34a1b224b8db54cacd01d75b910f04e3a445f42acb2e8c1bbf8b78c6c6c16de93"><div class="ttname"><a href="../../d5/d92/forge__of__souls_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3a445f42acb2e8c1bbf8b78c6c6c16de93">SAY_SYLVANAS_INTRO_4</a></div><div class="ttdeci">@ SAY_SYLVANAS_INTRO_4</div><div class="ttdef"><b>Definition:</b> forge_of_souls.cpp:39</div></div>
+<div class="ttc" id="aforge__of__souls_8cpp_html_a34a1b224b8db54cacd01d75b910f04e3a517cdb754d36f7bcb1a30910e5b2fbe1"><div class="ttname"><a href="../../d5/d92/forge__of__souls_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3a517cdb754d36f7bcb1a30910e5b2fbe1">SAY_JAINA_INTRO_6</a></div><div class="ttdeci">@ SAY_JAINA_INTRO_6</div><div class="ttdef"><b>Definition:</b> forge_of_souls.cpp:32</div></div>
+<div class="ttc" id="aforge__of__souls_8cpp_html_a34a1b224b8db54cacd01d75b910f04e3a662b1bc3fd806908e129efc9e189f049"><div class="ttname"><a href="../../d5/d92/forge__of__souls_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3a662b1bc3fd806908e129efc9e189f049">SAY_JAINA_INTRO_2</a></div><div class="ttdeci">@ SAY_JAINA_INTRO_2</div><div class="ttdef"><b>Definition:</b> forge_of_souls.cpp:28</div></div>
+<div class="ttc" id="aforge__of__souls_8cpp_html_a34a1b224b8db54cacd01d75b910f04e3a6b281ebb353154d1e4c6b39eb83d65f4"><div class="ttname"><a href="../../d5/d92/forge__of__souls_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3a6b281ebb353154d1e4c6b39eb83d65f4">SAY_JAINA_INTRO_1</a></div><div class="ttdeci">@ SAY_JAINA_INTRO_1</div><div class="ttdef"><b>Definition:</b> forge_of_souls.cpp:27</div></div>
+<div class="ttc" id="aforge__of__souls_8cpp_html_a34a1b224b8db54cacd01d75b910f04e3a800fbab7d9796285b151916518d4ef8c"><div class="ttname"><a href="../../d5/d92/forge__of__souls_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3a800fbab7d9796285b151916518d4ef8c">SAY_JAINA_INTRO_8</a></div><div class="ttdeci">@ SAY_JAINA_INTRO_8</div><div class="ttdef"><b>Definition:</b> forge_of_souls.cpp:34</div></div>
+<div class="ttc" id="aforge__of__souls_8cpp_html_a34a1b224b8db54cacd01d75b910f04e3ab3188e7760c55994214f4c7b52e00fb6"><div class="ttname"><a href="../../d5/d92/forge__of__souls_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3ab3188e7760c55994214f4c7b52e00fb6">SAY_SYLVANAS_INTRO_5</a></div><div class="ttdeci">@ SAY_SYLVANAS_INTRO_5</div><div class="ttdef"><b>Definition:</b> forge_of_souls.cpp:40</div></div>
+<div class="ttc" id="aforge__of__souls_8cpp_html_a34a1b224b8db54cacd01d75b910f04e3ab9edeb844c5791a853b9f6534e592979"><div class="ttname"><a href="../../d5/d92/forge__of__souls_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3ab9edeb844c5791a853b9f6534e592979">SAY_SYLVANAS_INTRO_2</a></div><div class="ttdeci">@ SAY_SYLVANAS_INTRO_2</div><div class="ttdef"><b>Definition:</b> forge_of_souls.cpp:37</div></div>
+<div class="ttc" id="aforge__of__souls_8cpp_html_a34a1b224b8db54cacd01d75b910f04e3acf4b6235eb1baa60cb015f34a3de77dd"><div class="ttname"><a href="../../d5/d92/forge__of__souls_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3acf4b6235eb1baa60cb015f34a3de77dd">SAY_SYLVANAS_INTRO_6</a></div><div class="ttdeci">@ SAY_SYLVANAS_INTRO_6</div><div class="ttdef"><b>Definition:</b> forge_of_souls.cpp:41</div></div>
+<div class="ttc" id="aforge__of__souls_8cpp_html_a34a1b224b8db54cacd01d75b910f04e3ad1f3e57ea33782b3be88f9d0954f98b4"><div class="ttname"><a href="../../d5/d92/forge__of__souls_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3ad1f3e57ea33782b3be88f9d0954f98b4">SAY_JAINA_INTRO_7</a></div><div class="ttdeci">@ SAY_JAINA_INTRO_7</div><div class="ttdef"><b>Definition:</b> forge_of_souls.cpp:33</div></div>
+<div class="ttc" id="aforge__of__souls_8cpp_html_a34a1b224b8db54cacd01d75b910f04e3addb8cc19e7c414f6b8300a33df2c5210"><div class="ttname"><a href="../../d5/d92/forge__of__souls_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3addb8cc19e7c414f6b8300a33df2c5210">SAY_JAINA_INTRO_3</a></div><div class="ttdeci">@ SAY_JAINA_INTRO_3</div><div class="ttdef"><b>Definition:</b> forge_of_souls.cpp:29</div></div>
+<div class="ttc" id="aforge__of__souls_8cpp_html_a34a1b224b8db54cacd01d75b910f04e3ae9359b4b2dd72c3fb1d3fb1494a7e3e5"><div class="ttname"><a href="../../d5/d92/forge__of__souls_8cpp.html#a34a1b224b8db54cacd01d75b910f04e3ae9359b4b2dd72c3fb1d3fb1494a7e3e5">SAY_SYLVANAS_INTRO_1</a></div><div class="ttdeci">@ SAY_SYLVANAS_INTRO_1</div><div class="ttdef"><b>Definition:</b> forge_of_souls.cpp:36</div></div>
+<div class="ttc" id="aforge__of__souls_8h_html_a25a619e6b66096a4f05d048e4a96df08a015de55b22fad643111f67b59a73fbc2"><div class="ttname"><a href="../../d7/d40/forge__of__souls_8h.html#a25a619e6b66096a4f05d048e4a96df08a015de55b22fad643111f67b59a73fbc2">NPC_JAINA_PART1</a></div><div class="ttdeci">@ NPC_JAINA_PART1</div><div class="ttdef"><b>Definition:</b> forge_of_souls.h:40</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -616,7 +760,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/FrozenHalls/ForgeOfSouls/<a class="el" href="../../d5/d92/forge__of__souls_8cpp.html">forge_of_souls.cpp</a></li>
+<li><a class="el" href="../../">forge_of_souls.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -624,7 +768,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d8/d08/classnpc__fos__leader.html">npc_fos_leader</a></li><li class="navelem"><a class="el" href="../../d5/dfd/structnpc__fos__leader_1_1npc__fos__leader_a_i.html">npc_fos_leaderAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:50 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:05 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

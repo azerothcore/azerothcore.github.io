@@ -112,14 +112,15 @@ $(document).ready(function(){initNavTree('dc/d02/struct_acore_1_1_impl_1_1_chat_
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d8/d79/_chat_command_args_8h_source.html">ChatCommandArgs.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">ChatCommandArgs.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:afb6bc0250c190a2b52c031e3540ddf78"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d4/d2a/struct_acore_1_1_impl_1_1_chat_commands_1_1_chat_command_result.html">ChatCommandResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d02/struct_acore_1_1_impl_1_1_chat_commands_1_1_arg_info_3_01std_1_1string_00_01void_01_4.html#afb6bc0250c190a2b52c031e3540ddf78">TryConsume</a> (std::string &amp;val, <a class="el" href="../../d2/d04/class_chat_handler.html">ChatHandler</a> const *handler, std::string_view args)</td></tr>
 <tr class="separator:afb6bc0250c190a2b52c031e3540ddf78"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="afb6bc0250c190a2b52c031e3540ddf78" name="afb6bc0250c190a2b52c031e3540ddf78"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afb6bc0250c190a2b52c031e3540ddf78">&#9670;&#160;</a></span>TryConsume()</h2>
 
@@ -159,11 +160,19 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   96</span>        {</div>
+<div class="line"><span class="lineno">   97</span>            std::string_view view;</div>
+<div class="line"><span class="lineno">   98</span>            <a class="code hl_struct" href="../../d4/d2a/struct_acore_1_1_impl_1_1_chat_commands_1_1_chat_command_result.html">ChatCommandResult</a> next = ArgInfo&lt;std::string_view&gt;::TryConsume(view, handler, args);</div>
+<div class="line"><span class="lineno">   99</span>            <span class="keywordflow">if</span> (next)</div>
+<div class="line"><span class="lineno">  100</span>                val.assign(view);</div>
+<div class="line"><span class="lineno">  101</span>            <span class="keywordflow">return</span> next;</div>
+<div class="line"><span class="lineno">  102</span>        }</div>
+<div class="ttc" id="astruct_acore_1_1_impl_1_1_chat_commands_1_1_chat_command_result_html"><div class="ttname"><a href="../../d4/d2a/struct_acore_1_1_impl_1_1_chat_commands_1_1_chat_command_result.html">Acore::Impl::ChatCommands::ChatCommandResult</a></div><div class="ttdef"><b>Definition:</b> ChatCommandHelpers.h:101</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Chat/ChatCommands/<a class="el" href="../../d8/d79/_chat_command_args_8h_source.html">ChatCommandArgs.h</a></li>
+<li><a class="el" href="../../">ChatCommandArgs.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -171,7 +180,7 @@ Static Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d7d/namespace_acore.html">Acore</a></li><li class="navelem"><a class="el" href="../../d1/da6/namespace_acore_1_1_impl.html">Impl</a></li><li class="navelem"><a class="el" href="../../db/db5/namespace_acore_1_1_impl_1_1_chat_commands.html">ChatCommands</a></li><li class="navelem"><a class="el" href="../../dc/d02/struct_acore_1_1_impl_1_1_chat_commands_1_1_arg_info_3_01std_1_1string_00_01void_01_4.html">ArgInfo&lt; std::string, void &gt;</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:13 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:31 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -181,7 +181,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a2d6cf85d1eb98438b5022804296eff11 inherit pro_methods_class_updatable_script"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dff/class_updatable_script.html#a2d6cf85d1eb98438b5022804296eff11">UpdatableScript</a> ()=default</td></tr>
 <tr class="separator:a2d6cf85d1eb98438b5022804296eff11 inherit pro_methods_class_updatable_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ab41268b7d568e8f189338f27cd90a62c" name="ab41268b7d568e8f189338f27cd90a62c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab41268b7d568e8f189338f27cd90a62c">&#9670;&#160;</a></span>go_tele_to_dalaran_crystal()</h2>
 
@@ -204,7 +205,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1097</span>: <a class="code hl_class" href="../../d9/dc2/class_game_object_script.html">GameObjectScript</a>(<span class="stringliteral">&quot;go_tele_to_dalaran_crystal&quot;</span>) { }</div>
+<div class="ttc" id="aclass_game_object_script_html"><div class="ttname"><a href="../../d9/dc2/class_game_object_script.html">GameObjectScript</a></div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:758</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -243,11 +246,24 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d9/dc2/class_game_object_script.html#a58b56fc92ae87aea0530eceba1f3088d">GameObjectScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1100</span>    {</div>
+<div class="line"><span class="lineno"> 1101</span>        <span class="keywordflow">if</span> (player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a2f780cf8d581075515965d1de74cf789">GetQuestRewardStatus</a>(<a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#ade3a4e0d612bfa05079d991c96e29ceda3a62854b3a4bf50563697b1f3d8522e5">QUEST_TELE_CRYSTAL_FLAG</a>))</div>
+<div class="line"><span class="lineno"> 1102</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1103</span> </div>
+<div class="line"><span class="lineno"> 1104</span>        player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a6ab11ca64cde7c5cde1f53998a6f7253">GetSession</a>()-&gt;<a class="code hl_function" href="../../d1/d47/class_world_session.html#a2ddc739b3a6f948c1e2e4c86ab366326">SendNotification</a>(<a class="code hl_define" href="../../d6/d0c/go__scripts_8cpp.html#a251537f34eed1ef24db9d554dd02f6fc">GO_TELE_TO_DALARAN_CRYSTAL_FAILED</a>);</div>
+<div class="line"><span class="lineno"> 1105</span> </div>
+<div class="line"><span class="lineno"> 1106</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 1107</span>    }</div>
+<div class="ttc" id="aclass_player_html_a2f780cf8d581075515965d1de74cf789"><div class="ttname"><a href="../../d8/d53/class_player.html#a2f780cf8d581075515965d1de74cf789">Player::GetQuestRewardStatus</a></div><div class="ttdeci">bool GetQuestRewardStatus(uint32 quest_id) const</div><div class="ttdef"><b>Definition:</b> PlayerQuest.cpp:1392</div></div>
+<div class="ttc" id="aclass_player_html_a6ab11ca64cde7c5cde1f53998a6f7253"><div class="ttname"><a href="../../d8/d53/class_player.html#a6ab11ca64cde7c5cde1f53998a6f7253">Player::GetSession</a></div><div class="ttdeci">WorldSession * GetSession() const</div><div class="ttdef"><b>Definition:</b> Player.h:1947</div></div>
+<div class="ttc" id="aclass_world_session_html_a2ddc739b3a6f948c1e2e4c86ab366326"><div class="ttname"><a href="../../d1/d47/class_world_session.html#a2ddc739b3a6f948c1e2e4c86ab366326">WorldSession::SendNotification</a></div><div class="ttdeci">void SendNotification(const char *format,...) ATTR_PRINTF(2</div><div class="ttdef"><b>Definition:</b> WorldSession.cpp:763</div></div>
+<div class="ttc" id="ago__scripts_8cpp_html_a251537f34eed1ef24db9d554dd02f6fc"><div class="ttname"><a href="../../d6/d0c/go__scripts_8cpp.html#a251537f34eed1ef24db9d554dd02f6fc">GO_TELE_TO_DALARAN_CRYSTAL_FAILED</a></div><div class="ttdeci">#define GO_TELE_TO_DALARAN_CRYSTAL_FAILED</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1092</div></div>
+<div class="ttc" id="ago__scripts_8cpp_html_ade3a4e0d612bfa05079d991c96e29ceda3a62854b3a4bf50563697b1f3d8522e5"><div class="ttname"><a href="../../d6/d0c/go__scripts_8cpp.html#ade3a4e0d612bfa05079d991c96e29ceda3a62854b3a4bf50563697b1f3d8522e5">QUEST_TELE_CRYSTAL_FLAG</a></div><div class="ttdeci">@ QUEST_TELE_CRYSTAL_FLAG</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1089</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/World/<a class="el" href="../../d6/d0c/go__scripts_8cpp.html">go_scripts.cpp</a></li>
+<li><a class="el" href="../../">go_scripts.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -255,7 +271,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../de/d9e/classgo__tele__to__dalaran__crystal.html">go_tele_to_dalaran_crystal</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:45 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:59 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

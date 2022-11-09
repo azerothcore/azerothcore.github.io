@@ -127,7 +127,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a04b2913aae7fbf6547a960d0876d4d02"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d60/class_frostwing_vrykul_searcher.html#a04b2913aae7fbf6547a960d0876d4d02">_range</a></td></tr>
 <tr class="separator:a04b2913aae7fbf6547a960d0876d4d02"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a10aa54184b42a0538dc4f325204399e9" name="a10aa54184b42a0538dc4f325204399e9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a10aa54184b42a0538dc4f325204399e9">&#9670;&#160;</a></span>FrostwingVrykulSearcher()</h2>
 
@@ -161,7 +162,10 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  286</span>: <a class="code hl_variable" href="../../d6/d60/class_frostwing_vrykul_searcher.html#af5d3c93f41698e71c867336d0453d40a">_source</a>(source), <a class="code hl_variable" href="../../d6/d60/class_frostwing_vrykul_searcher.html#a04b2913aae7fbf6547a960d0876d4d02">_range</a>(range) {}</div>
+<div class="ttc" id="aclass_frostwing_vrykul_searcher_html_a04b2913aae7fbf6547a960d0876d4d02"><div class="ttname"><a href="../../d6/d60/class_frostwing_vrykul_searcher.html#a04b2913aae7fbf6547a960d0876d4d02">FrostwingVrykulSearcher::_range</a></div><div class="ttdeci">float _range</div><div class="ttdef"><b>Definition:</b> icecrown_citadel.cpp:313</div></div>
+<div class="ttc" id="aclass_frostwing_vrykul_searcher_html_af5d3c93f41698e71c867336d0453d40a"><div class="ttname"><a href="../../d6/d60/class_frostwing_vrykul_searcher.html#af5d3c93f41698e71c867336d0453d40a">FrostwingVrykulSearcher::_source</a></div><div class="ttdeci">Creature const  * _source</div><div class="ttdef"><b>Definition:</b> icecrown_citadel.cpp:312</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -188,7 +192,36 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  289</span>    {</div>
+<div class="line"><span class="lineno">  290</span>        <span class="keywordflow">if</span> (!unit-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a5ea3f54af571493f7889220724667189">IsAlive</a>())</div>
+<div class="line"><span class="lineno">  291</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  292</span> </div>
+<div class="line"><span class="lineno">  293</span>        <span class="keywordflow">switch</span> (unit-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>())</div>
+<div class="line"><span class="lineno">  294</span>        {</div>
+<div class="line"><span class="lineno">  295</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d9/d6a/icecrown__citadel_8h.html#a23860b8d9499fb400f8921261b19efd2a480fe7f69162cd52660749eebd95360e">NPC_YMIRJAR_BATTLE_MAIDEN</a>:</div>
+<div class="line"><span class="lineno">  296</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dd/dac/pit__of__saron_8h.html#a92f6fd626e1834a4cc509efc1186963ea734e5aae4cbf69a0956ff2267600348b">NPC_YMIRJAR_DEATHBRINGER</a>:</div>
+<div class="line"><span class="lineno">  297</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d9/d6a/icecrown__citadel_8h.html#a23860b8d9499fb400f8921261b19efd2ad98c797c06e7488bce4e755da7e8d5d9">NPC_YMIRJAR_FROSTBINDER</a>:</div>
+<div class="line"><span class="lineno">  298</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d9/d6a/icecrown__citadel_8h.html#a23860b8d9499fb400f8921261b19efd2a9da11d0458fc4c4b87c6a4223d156060">NPC_YMIRJAR_HUNTRESS</a>:</div>
+<div class="line"><span class="lineno">  299</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d9/d6a/icecrown__citadel_8h.html#a23860b8d9499fb400f8921261b19efd2a6b5a982fbbb944a03fb10c864487bf6f">NPC_YMIRJAR_WARLORD</a>:</div>
+<div class="line"><span class="lineno">  300</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  301</span>            <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  302</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  303</span>        }</div>
+<div class="line"><span class="lineno">  304</span> </div>
+<div class="line"><span class="lineno">  305</span>        <span class="keywordflow">if</span> (!unit-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a488ffb2c3d4f60c987706f93bc4db611">IsWithinDist</a>(<a class="code hl_variable" href="../../d6/d60/class_frostwing_vrykul_searcher.html#af5d3c93f41698e71c867336d0453d40a">_source</a>, <a class="code hl_variable" href="../../d6/d60/class_frostwing_vrykul_searcher.html#a04b2913aae7fbf6547a960d0876d4d02">_range</a>, <span class="keyword">false</span>))</div>
+<div class="line"><span class="lineno">  306</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  307</span> </div>
+<div class="line"><span class="lineno">  308</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  309</span>    }</div>
+<div class="ttc" id="aclass_object_html_aa627fe2967ed0e0ed1d8aeeb4365a961"><div class="ttname"><a href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">Object::GetEntry</a></div><div class="ttdeci">uint32 GetEntry() const</div><div class="ttdef"><b>Definition:</b> Object.h:109</div></div>
+<div class="ttc" id="aclass_unit_html_a5ea3f54af571493f7889220724667189"><div class="ttname"><a href="../../da/db7/class_unit.html#a5ea3f54af571493f7889220724667189">Unit::IsAlive</a></div><div class="ttdeci">bool IsAlive() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1805</div></div>
+<div class="ttc" id="aclass_world_object_html_a488ffb2c3d4f60c987706f93bc4db611"><div class="ttname"><a href="../../db/df7/class_world_object.html#a488ffb2c3d4f60c987706f93bc4db611">WorldObject::IsWithinDist</a></div><div class="ttdeci">bool IsWithinDist(WorldObject const *obj, float dist2compare, bool is3D=true, bool useBoundingRadius=true) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1316</div></div>
+<div class="ttc" id="aicecrown__citadel_8h_html_a23860b8d9499fb400f8921261b19efd2a480fe7f69162cd52660749eebd95360e"><div class="ttname"><a href="../../d9/d6a/icecrown__citadel_8h.html#a23860b8d9499fb400f8921261b19efd2a480fe7f69162cd52660749eebd95360e">NPC_YMIRJAR_BATTLE_MAIDEN</a></div><div class="ttdeci">@ NPC_YMIRJAR_BATTLE_MAIDEN</div><div class="ttdef"><b>Definition:</b> icecrown_citadel.h:295</div></div>
+<div class="ttc" id="aicecrown__citadel_8h_html_a23860b8d9499fb400f8921261b19efd2a6b5a982fbbb944a03fb10c864487bf6f"><div class="ttname"><a href="../../d9/d6a/icecrown__citadel_8h.html#a23860b8d9499fb400f8921261b19efd2a6b5a982fbbb944a03fb10c864487bf6f">NPC_YMIRJAR_WARLORD</a></div><div class="ttdeci">@ NPC_YMIRJAR_WARLORD</div><div class="ttdef"><b>Definition:</b> icecrown_citadel.h:299</div></div>
+<div class="ttc" id="aicecrown__citadel_8h_html_a23860b8d9499fb400f8921261b19efd2a9da11d0458fc4c4b87c6a4223d156060"><div class="ttname"><a href="../../d9/d6a/icecrown__citadel_8h.html#a23860b8d9499fb400f8921261b19efd2a9da11d0458fc4c4b87c6a4223d156060">NPC_YMIRJAR_HUNTRESS</a></div><div class="ttdeci">@ NPC_YMIRJAR_HUNTRESS</div><div class="ttdef"><b>Definition:</b> icecrown_citadel.h:298</div></div>
+<div class="ttc" id="aicecrown__citadel_8h_html_a23860b8d9499fb400f8921261b19efd2ad98c797c06e7488bce4e755da7e8d5d9"><div class="ttname"><a href="../../d9/d6a/icecrown__citadel_8h.html#a23860b8d9499fb400f8921261b19efd2ad98c797c06e7488bce4e755da7e8d5d9">NPC_YMIRJAR_FROSTBINDER</a></div><div class="ttdeci">@ NPC_YMIRJAR_FROSTBINDER</div><div class="ttdef"><b>Definition:</b> icecrown_citadel.h:297</div></div>
+<div class="ttc" id="apit__of__saron_8h_html_a92f6fd626e1834a4cc509efc1186963ea734e5aae4cbf69a0956ff2267600348b"><div class="ttname"><a href="../../dd/dac/pit__of__saron_8h.html#a92f6fd626e1834a4cc509efc1186963ea734e5aae4cbf69a0956ff2267600348b">NPC_YMIRJAR_DEATHBRINGER</a></div><div class="ttdeci">@ NPC_YMIRJAR_DEATHBRINGER</div><div class="ttdef"><b>Definition:</b> pit_of_saron.h:102</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -237,7 +270,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/IcecrownCitadel/<a class="el" href="../../db/dd3/icecrown__citadel_8cpp.html">icecrown_citadel.cpp</a></li>
+<li><a class="el" href="../../">icecrown_citadel.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -245,7 +278,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d6/d60/class_frostwing_vrykul_searcher.html">FrostwingVrykulSearcher</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:45 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:59 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

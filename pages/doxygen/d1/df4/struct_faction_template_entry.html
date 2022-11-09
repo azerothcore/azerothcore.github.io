@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('d1/df4/struct_faction_template_entry.h
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d1/d22/_d_b_c_structure_8h_source.html">DBCStructure.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">DBCStructure.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -147,7 +147,8 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a9c89b58067e28de89cedf2572b5e0e31"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/df4/struct_faction_template_entry.html#a9c89b58067e28de89cedf2572b5e0e31">friendFaction</a> [<a class="el" href="../../d1/d22/_d_b_c_structure_8h.html#aba26b8226744809f550efa818f10b186">MAX_FACTION_RELATIONS</a>]</td></tr>
 <tr class="separator:a9c89b58067e28de89cedf2572b5e0e31"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a52d5e1e5b01946a3d6d66158910e9f6d" name="a52d5e1e5b01946a3d6d66158910e9f6d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a52d5e1e5b01946a3d6d66158910e9f6d">&#9670;&#160;</a></span>IsContestedGuardFaction()</h2>
 
@@ -170,7 +171,10 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  980</span>{ <span class="keywordflow">return</span> (<a class="code hl_variable" href="../../d1/df4/struct_faction_template_entry.html#af20e4983d34c419b4a14c60d8049d9f4">factionFlags</a> &amp; <a class="code hl_enumvalue" href="../../dc/d6e/_d_b_c_enums_8h.html#aea9f1d659ec336b7f3975ea1e135f0b0ab0235f04f233e351bd4c2d897241af5b">FACTION_TEMPLATE_FLAG_ATTACK_PVP_ACTIVE_PLAYERS</a>) != 0; }</div>
+<div class="ttc" id="a_d_b_c_enums_8h_html_aea9f1d659ec336b7f3975ea1e135f0b0ab0235f04f233e351bd4c2d897241af5b"><div class="ttname"><a href="../../dc/d6e/_d_b_c_enums_8h.html#aea9f1d659ec336b7f3975ea1e135f0b0ab0235f04f233e351bd4c2d897241af5b">FACTION_TEMPLATE_FLAG_ATTACK_PVP_ACTIVE_PLAYERS</a></div><div class="ttdeci">@ FACTION_TEMPLATE_FLAG_ATTACK_PVP_ACTIVE_PLAYERS</div><div class="ttdef"><b>Definition:</b> DBCEnums.h:336</div></div>
+<div class="ttc" id="astruct_faction_template_entry_html_af20e4983d34c419b4a14c60d8049d9f4"><div class="ttname"><a href="../../d1/df4/struct_faction_template_entry.html#af20e4983d34c419b4a14c60d8049d9f4">FactionTemplateEntry::factionFlags</a></div><div class="ttdeci">uint32 factionFlags</div><div class="ttdef"><b>Definition:</b> DBCStructure.h:933</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac70cef62b2ec646d593d8742a3c02f08" name="ac70cef62b2ec646d593d8742a3c02f08"></a>
@@ -196,7 +200,28 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  943</span>    {</div>
+<div class="line"><span class="lineno">  944</span>        <span class="comment">// Xinef: Always friendly to self faction</span></div>
+<div class="line"><span class="lineno">  945</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d1/df4/struct_faction_template_entry.html#a2cb03ed38c15f6e6db7b556200282541">faction</a> == entry.faction)</div>
+<div class="line"><span class="lineno">  946</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  947</span> </div>
+<div class="line"><span class="lineno">  948</span>        <span class="keywordflow">if</span> (entry.faction)</div>
+<div class="line"><span class="lineno">  949</span>        {</div>
+<div class="line"><span class="lineno">  950</span>            <span class="keywordflow">for</span> (<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> i : <a class="code hl_variable" href="../../d1/df4/struct_faction_template_entry.html#ae53f6799be5ae4bf7ab047fd97a4a969">enemyFaction</a>)</div>
+<div class="line"><span class="lineno">  951</span>                <span class="keywordflow">if</span> (i == entry.faction)</div>
+<div class="line"><span class="lineno">  952</span>                    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  953</span>            <span class="keywordflow">for</span> (<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> i : <a class="code hl_variable" href="../../d1/df4/struct_faction_template_entry.html#a9c89b58067e28de89cedf2572b5e0e31">friendFaction</a>)</div>
+<div class="line"><span class="lineno">  954</span>                <span class="keywordflow">if</span> (i == entry.faction)</div>
+<div class="line"><span class="lineno">  955</span>                    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  956</span>        }</div>
+<div class="line"><span class="lineno">  957</span>        <span class="keywordflow">return</span> (<a class="code hl_variable" href="../../d1/df4/struct_faction_template_entry.html#a6842badfb5e7e0ad3a26d250426c64b6">friendlyMask</a> &amp; entry.ourMask) || (<a class="code hl_variable" href="../../d1/df4/struct_faction_template_entry.html#a822685376430441eeb85c24fd26473b0">ourMask</a> &amp; entry.friendlyMask);</div>
+<div class="line"><span class="lineno">  958</span>    }</div>
+<div class="ttc" id="astruct_faction_template_entry_html_a2cb03ed38c15f6e6db7b556200282541"><div class="ttname"><a href="../../d1/df4/struct_faction_template_entry.html#a2cb03ed38c15f6e6db7b556200282541">FactionTemplateEntry::faction</a></div><div class="ttdeci">uint32 faction</div><div class="ttdef"><b>Definition:</b> DBCStructure.h:932</div></div>
+<div class="ttc" id="astruct_faction_template_entry_html_a6842badfb5e7e0ad3a26d250426c64b6"><div class="ttname"><a href="../../d1/df4/struct_faction_template_entry.html#a6842badfb5e7e0ad3a26d250426c64b6">FactionTemplateEntry::friendlyMask</a></div><div class="ttdeci">uint32 friendlyMask</div><div class="ttdef"><b>Definition:</b> DBCStructure.h:935</div></div>
+<div class="ttc" id="astruct_faction_template_entry_html_a822685376430441eeb85c24fd26473b0"><div class="ttname"><a href="../../d1/df4/struct_faction_template_entry.html#a822685376430441eeb85c24fd26473b0">FactionTemplateEntry::ourMask</a></div><div class="ttdeci">uint32 ourMask</div><div class="ttdef"><b>Definition:</b> DBCStructure.h:934</div></div>
+<div class="ttc" id="astruct_faction_template_entry_html_a9c89b58067e28de89cedf2572b5e0e31"><div class="ttname"><a href="../../d1/df4/struct_faction_template_entry.html#a9c89b58067e28de89cedf2572b5e0e31">FactionTemplateEntry::friendFaction</a></div><div class="ttdeci">uint32 friendFaction[MAX_FACTION_RELATIONS]</div><div class="ttdef"><b>Definition:</b> DBCStructure.h:938</div></div>
+<div class="ttc" id="astruct_faction_template_entry_html_ae53f6799be5ae4bf7ab047fd97a4a969"><div class="ttname"><a href="../../d1/df4/struct_faction_template_entry.html#ae53f6799be5ae4bf7ab047fd97a4a969">FactionTemplateEntry::enemyFaction</a></div><div class="ttdeci">uint32 enemyFaction[MAX_FACTION_RELATIONS]</div><div class="ttdef"><b>Definition:</b> DBCStructure.h:937</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a1aadbf23c1c81a958665d96e5bf76093" name="a1aadbf23c1c81a958665d96e5bf76093"></a>
@@ -222,7 +247,20 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  960</span>    {</div>
+<div class="line"><span class="lineno">  961</span>        <span class="keywordflow">if</span> (entry.faction)</div>
+<div class="line"><span class="lineno">  962</span>        {</div>
+<div class="line"><span class="lineno">  963</span>            <span class="keywordflow">for</span> (<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> i : <a class="code hl_variable" href="../../d1/df4/struct_faction_template_entry.html#ae53f6799be5ae4bf7ab047fd97a4a969">enemyFaction</a>)</div>
+<div class="line"><span class="lineno">  964</span>                <span class="keywordflow">if</span> (i == entry.faction)</div>
+<div class="line"><span class="lineno">  965</span>                    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  966</span>            <span class="keywordflow">for</span> (<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> i : <a class="code hl_variable" href="../../d1/df4/struct_faction_template_entry.html#a9c89b58067e28de89cedf2572b5e0e31">friendFaction</a>)</div>
+<div class="line"><span class="lineno">  967</span>                <span class="keywordflow">if</span> (i == entry.faction)</div>
+<div class="line"><span class="lineno">  968</span>                    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  969</span>        }</div>
+<div class="line"><span class="lineno">  970</span>        <span class="keywordflow">return</span> (<a class="code hl_variable" href="../../d1/df4/struct_faction_template_entry.html#ab395ab86c3e553ea4a9b1ae901c6e7cb">hostileMask</a> &amp; entry.ourMask) != 0;</div>
+<div class="line"><span class="lineno">  971</span>    }</div>
+<div class="ttc" id="astruct_faction_template_entry_html_ab395ab86c3e553ea4a9b1ae901c6e7cb"><div class="ttname"><a href="../../d1/df4/struct_faction_template_entry.html#ab395ab86c3e553ea4a9b1ae901c6e7cb">FactionTemplateEntry::hostileMask</a></div><div class="ttdeci">uint32 hostileMask</div><div class="ttdef"><b>Definition:</b> DBCStructure.h:936</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a349650c7af717e3c67392a0b9d1970e1" name="a349650c7af717e3c67392a0b9d1970e1"></a>
@@ -247,7 +285,9 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  972</span>{ <span class="keywordflow">return</span> (<a class="code hl_variable" href="../../d1/df4/struct_faction_template_entry.html#ab395ab86c3e553ea4a9b1ae901c6e7cb">hostileMask</a> &amp; <a class="code hl_enumvalue" href="../../dc/d6e/_d_b_c_enums_8h.html#a45861e7675b910e0a8729e6f60dcea49af1089cd14cd54de38950846cdde850a8">FACTION_MASK_PLAYER</a>) != 0; }</div>
+<div class="ttc" id="a_d_b_c_enums_8h_html_a45861e7675b910e0a8729e6f60dcea49af1089cd14cd54de38950846cdde850a8"><div class="ttname"><a href="../../dc/d6e/_d_b_c_enums_8h.html#a45861e7675b910e0a8729e6f60dcea49af1089cd14cd54de38950846cdde850a8">FACTION_MASK_PLAYER</a></div><div class="ttdeci">@ FACTION_MASK_PLAYER</div><div class="ttdef"><b>Definition:</b> DBCEnums.h:342</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a99cb471bcc9071a3c152266caa4579ae" name="a99cb471bcc9071a3c152266caa4579ae"></a>
@@ -272,7 +312,13 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  974</span>    {</div>
+<div class="line"><span class="lineno">  975</span>        <span class="keywordflow">for</span> (<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> i : <a class="code hl_variable" href="../../d1/df4/struct_faction_template_entry.html#ae53f6799be5ae4bf7ab047fd97a4a969">enemyFaction</a>)</div>
+<div class="line"><span class="lineno">  976</span>            <span class="keywordflow">if</span> (i != 0)</div>
+<div class="line"><span class="lineno">  977</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  978</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d1/df4/struct_faction_template_entry.html#ab395ab86c3e553ea4a9b1ae901c6e7cb">hostileMask</a> == 0 &amp;&amp; <a class="code hl_variable" href="../../d1/df4/struct_faction_template_entry.html#a6842badfb5e7e0ad3a26d250426c64b6">friendlyMask</a> == 0;</div>
+<div class="line"><span class="lineno">  979</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -389,7 +435,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/shared/DataStores/<a class="el" href="../../d1/d22/_d_b_c_structure_8h_source.html">DBCStructure.h</a></li>
+<li><a class="el" href="../../">DBCStructure.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -397,7 +443,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/df4/struct_faction_template_entry.html">FactionTemplateEntry</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:45 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:58 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

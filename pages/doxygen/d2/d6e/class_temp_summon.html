@@ -114,7 +114,7 @@ $(document).ready(function(){initNavTree('d2/d6e/class_temp_summon.html','../../
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d6/db3/_temporary_summon_8h_source.html">TemporarySummon.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">TemporarySummon.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for TempSummon:</div>
 <div class="dyncontent">
@@ -3266,7 +3266,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:af2a0d1358ff1532ac3cdb78b357f2fd0 inherit pro_attribs_class_object"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d83/class_object.html#af2a0d1358ff1532ac3cdb78b357f2fd0">m_objectUpdated</a></td></tr>
 <tr class="separator:af2a0d1358ff1532ac3cdb78b357f2fd0 inherit pro_attribs_class_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ab383ea830621a69a83b070240342cb80" name="ab383ea830621a69a83b070240342cb80"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab383ea830621a69a83b070240342cb80">&#9670;&#160;</a></span>TempSummon()</h2>
 
@@ -3306,7 +3307,27 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   26</span>                                                                                                    :</div>
+<div class="line"><span class="lineno">   27</span>    <a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>(isWorldObject), <a class="code hl_variable" href="../../d2/d6e/class_temp_summon.html#a267f8af8ae1f496571569e8ec67faf73">m_Properties</a>(properties), <a class="code hl_variable" href="../../d2/d6e/class_temp_summon.html#aac572ed0079d43d9a706423aaeea91a7">m_type</a>(<a class="code hl_enumvalue" href="../../df/d30/_object_8h.html#a38c6d8d01cbe0c49b035f348f7724148a494d31263c972013b6b0e42f6c00e14a">TEMPSUMMON_MANUAL_DESPAWN</a>),</div>
+<div class="line"><span class="lineno">   28</span>    <a class="code hl_variable" href="../../d2/d6e/class_temp_summon.html#a19a3c747fabe3c2d788380b6b3aff5b5">m_timer</a>(0), <a class="code hl_variable" href="../../d2/d6e/class_temp_summon.html#aeabc5d0c876b818d247ec93a6a5fa6b4">m_lifetime</a>(0)</div>
+<div class="line"><span class="lineno">   29</span>{</div>
+<div class="line"><span class="lineno">   30</span>    <span class="keywordflow">if</span> (owner)</div>
+<div class="line"><span class="lineno">   31</span>    {</div>
+<div class="line"><span class="lineno">   32</span>        <a class="code hl_variable" href="../../d2/d6e/class_temp_summon.html#a9faee852e2cbc450ca043bda9ee906e3">m_summonerGUID</a> = owner;</div>
+<div class="line"><span class="lineno">   33</span>    }</div>
+<div class="line"><span class="lineno">   34</span> </div>
+<div class="line"><span class="lineno">   35</span>    <a class="code hl_variable" href="../../da/db7/class_unit.html#a61daa592a2e6ad5e4751df7410dfd5cf">m_unitTypeMask</a> |= <a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#a111db1c9ed7ec701bc06841238cd7b04a43386b5d6361ae876b4b6fd3b7f7e373">UNIT_MASK_SUMMON</a>;</div>
+<div class="line"><span class="lineno">   36</span>}</div>
+<div class="ttc" id="a_object_8h_html_a38c6d8d01cbe0c49b035f348f7724148a494d31263c972013b6b0e42f6c00e14a"><div class="ttname"><a href="../../df/d30/_object_8h.html#a38c6d8d01cbe0c49b035f348f7724148a494d31263c972013b6b0e42f6c00e14a">TEMPSUMMON_MANUAL_DESPAWN</a></div><div class="ttdeci">@ TEMPSUMMON_MANUAL_DESPAWN</div><div class="ttdef"><b>Definition:</b> Object.h:49</div></div>
+<div class="ttc" id="a_unit_8h_html_a111db1c9ed7ec701bc06841238cd7b04a43386b5d6361ae876b4b6fd3b7f7e373"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#a111db1c9ed7ec701bc06841238cd7b04a43386b5d6361ae876b4b6fd3b7f7e373">UNIT_MASK_SUMMON</a></div><div class="ttdeci">@ UNIT_MASK_SUMMON</div><div class="ttdef"><b>Definition:</b> Unit.h:675</div></div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_temp_summon_html_a19a3c747fabe3c2d788380b6b3aff5b5"><div class="ttname"><a href="../../d2/d6e/class_temp_summon.html#a19a3c747fabe3c2d788380b6b3aff5b5">TempSummon::m_timer</a></div><div class="ttdeci">uint32 m_timer</div><div class="ttdef"><b>Definition:</b> TemporarySummon.h:65</div></div>
+<div class="ttc" id="aclass_temp_summon_html_a267f8af8ae1f496571569e8ec67faf73"><div class="ttname"><a href="../../d2/d6e/class_temp_summon.html#a267f8af8ae1f496571569e8ec67faf73">TempSummon::m_Properties</a></div><div class="ttdeci">const SummonPropertiesEntry *const m_Properties</div><div class="ttdef"><b>Definition:</b> TemporarySummon.h:60</div></div>
+<div class="ttc" id="aclass_temp_summon_html_a9faee852e2cbc450ca043bda9ee906e3"><div class="ttname"><a href="../../d2/d6e/class_temp_summon.html#a9faee852e2cbc450ca043bda9ee906e3">TempSummon::m_summonerGUID</a></div><div class="ttdeci">ObjectGuid m_summonerGUID</div><div class="ttdef"><b>Definition:</b> TemporarySummon.h:67</div></div>
+<div class="ttc" id="aclass_temp_summon_html_aac572ed0079d43d9a706423aaeea91a7"><div class="ttname"><a href="../../d2/d6e/class_temp_summon.html#aac572ed0079d43d9a706423aaeea91a7">TempSummon::m_type</a></div><div class="ttdeci">TempSummonType m_type</div><div class="ttdef"><b>Definition:</b> TemporarySummon.h:64</div></div>
+<div class="ttc" id="aclass_temp_summon_html_aeabc5d0c876b818d247ec93a6a5fa6b4"><div class="ttname"><a href="../../d2/d6e/class_temp_summon.html#aeabc5d0c876b818d247ec93a6a5fa6b4">TempSummon::m_lifetime</a></div><div class="ttdeci">uint32 m_lifetime</div><div class="ttdef"><b>Definition:</b> TemporarySummon.h:66</div></div>
+<div class="ttc" id="aclass_unit_html_a61daa592a2e6ad5e4751df7410dfd5cf"><div class="ttname"><a href="../../da/db7/class_unit.html#a61daa592a2e6ad5e4751df7410dfd5cf">Unit::m_unitTypeMask</a></div><div class="ttdeci">uint32 m_unitTypeMask</div><div class="ttdef"><b>Definition:</b> Unit.h:2530</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a65a25081690a9820065680d94c15bd7f" name="a65a25081690a9820065680d94c15bd7f"></a>
@@ -3361,7 +3382,18 @@ Additional Inherited Members</h2></td></tr>
 <p>Reimplemented from <a class="el" href="../../d1/dac/class_creature.html#af6606a3e3973e312654a3901dc01f2d5">Creature</a>.</p>
 
 <p>Reimplemented in <a class="el" href="../../d3/d0f/class_minion.html#a1f9800abdfa2126e593a6ae169f20024">Minion</a>, <a class="el" href="../../dc/dd7/class_guardian.html#ace47e7d3fb3162786329cbcf1c6cab46">Guardian</a>, and <a class="el" href="../../d6/d98/class_pet.html#a782a0dd61ab205062011b5caae00884d">Pet</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  324</span>{</div>
+<div class="line"><span class="lineno">  325</span>    std::stringstream sstr;</div>
+<div class="line"><span class="lineno">  326</span>    sstr &lt;&lt; <a class="code hl_function" href="../../d1/dac/class_creature.html#af6606a3e3973e312654a3901dc01f2d5">Creature::GetDebugInfo</a>() &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span></div>
+<div class="line"><span class="lineno">  327</span>        &lt;&lt; std::boolalpha</div>
+<div class="line"><span class="lineno">  328</span>        &lt;&lt; <span class="stringliteral">&quot;TempSummonType : &quot;</span> &lt;&lt; std::to_string(<a class="code hl_function" href="../../d2/d6e/class_temp_summon.html#a331c63533ec0473a314bb16e696c849a">GetSummonType</a>()) &lt;&lt; <span class="stringliteral">&quot; Summoner: &quot;</span> &lt;&lt; <a class="code hl_function" href="../../d2/d6e/class_temp_summon.html#a4f1c054b1e80b1ae0b44e6f38951082e">GetSummonerGUID</a>().<a class="code hl_function" href="../../d8/d03/class_object_guid.html#a78f5fb47e3b35addf8984000c175125b">ToString</a>();</div>
+<div class="line"><span class="lineno">  329</span>    <span class="keywordflow">return</span> sstr.str();</div>
+<div class="line"><span class="lineno">  330</span>}</div>
+<div class="ttc" id="aclass_creature_html_af6606a3e3973e312654a3901dc01f2d5"><div class="ttname"><a href="../../d1/dac/class_creature.html#af6606a3e3973e312654a3901dc01f2d5">Creature::GetDebugInfo</a></div><div class="ttdeci">std::string GetDebugInfo() const override</div><div class="ttdef"><b>Definition:</b> Creature.cpp:3678</div></div>
+<div class="ttc" id="aclass_object_guid_html_a78f5fb47e3b35addf8984000c175125b"><div class="ttname"><a href="../../d8/d03/class_object_guid.html#a78f5fb47e3b35addf8984000c175125b">ObjectGuid::ToString</a></div><div class="ttdeci">std::string ToString() const</div><div class="ttdef"><b>Definition:</b> ObjectGuid.cpp:47</div></div>
+<div class="ttc" id="aclass_temp_summon_html_a331c63533ec0473a314bb16e696c849a"><div class="ttname"><a href="../../d2/d6e/class_temp_summon.html#a331c63533ec0473a314bb16e696c849a">TempSummon::GetSummonType</a></div><div class="ttdeci">TempSummonType GetSummonType() const</div><div class="ttdef"><b>Definition:</b> TemporarySummon.h:56</div></div>
+<div class="ttc" id="aclass_temp_summon_html_a4f1c054b1e80b1ae0b44e6f38951082e"><div class="ttname"><a href="../../d2/d6e/class_temp_summon.html#a4f1c054b1e80b1ae0b44e6f38951082e">TempSummon::GetSummonerGUID</a></div><div class="ttdeci">ObjectGuid GetSummonerGUID() const</div><div class="ttdef"><b>Definition:</b> TemporarySummon.h:55</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a0861c8d9d39586690b434056d2ee7e18" name="a0861c8d9d39586690b434056d2ee7e18"></a>
@@ -3378,7 +3410,11 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   39</span>{</div>
+<div class="line"><span class="lineno">   40</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d6e/class_temp_summon.html#a9faee852e2cbc450ca043bda9ee906e3">m_summonerGUID</a> ? <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#ade254f98439319c444ce701c75d4f93a">ObjectAccessor::GetWorldObject</a>(*<span class="keyword">this</span>, <a class="code hl_variable" href="../../d2/d6e/class_temp_summon.html#a9faee852e2cbc450ca043bda9ee906e3">m_summonerGUID</a>) : nullptr;</div>
+<div class="line"><span class="lineno">   41</span>}</div>
+<div class="ttc" id="anamespace_object_accessor_html_ade254f98439319c444ce701c75d4f93a"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#ade254f98439319c444ce701c75d4f93a">ObjectAccessor::GetWorldObject</a></div><div class="ttdeci">WorldObject * GetWorldObject(WorldObject const &amp;, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:120</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ae1b0b16d53bfe3a14a352343e07db6cb" name="ae1b0b16d53bfe3a14a352343e07db6cb"></a>
@@ -3395,7 +3431,11 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   54</span>{</div>
+<div class="line"><span class="lineno">   55</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d6e/class_temp_summon.html#a9faee852e2cbc450ca043bda9ee906e3">m_summonerGUID</a> ? <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a>(*<span class="keyword">this</span>, <a class="code hl_variable" href="../../d2/d6e/class_temp_summon.html#a9faee852e2cbc450ca043bda9ee906e3">m_summonerGUID</a>) : nullptr;</div>
+<div class="line"><span class="lineno">   56</span>}</div>
+<div class="ttc" id="anamespace_object_accessor_html_ae42e503fe79bbeaea1aaa665418c43f8"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a></div><div class="ttdeci">Creature * GetCreature(WorldObject const &amp;u, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:215</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a96cef2650b6ccfb07f2c05266f8d1f28" name="a96cef2650b6ccfb07f2c05266f8d1f28"></a>
@@ -3412,7 +3452,14 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   59</span>{</div>
+<div class="line"><span class="lineno">   60</span>    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../db/df7/class_world_object.html">WorldObject</a>* summoner = <a class="code hl_function" href="../../d2/d6e/class_temp_summon.html#a0861c8d9d39586690b434056d2ee7e18">GetSummoner</a>())</div>
+<div class="line"><span class="lineno">   61</span>        <span class="keywordflow">return</span> summoner-&gt;ToGameObject();</div>
+<div class="line"><span class="lineno">   62</span>    <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">   63</span>}</div>
+<div class="ttc" id="aclass_temp_summon_html_a0861c8d9d39586690b434056d2ee7e18"><div class="ttname"><a href="../../d2/d6e/class_temp_summon.html#a0861c8d9d39586690b434056d2ee7e18">TempSummon::GetSummoner</a></div><div class="ttdeci">WorldObject * GetSummoner() const</div><div class="ttdef"><b>Definition:</b> TemporarySummon.cpp:38</div></div>
+<div class="ttc" id="aclass_world_object_html"><div class="ttname"><a href="../../db/df7/class_world_object.html">WorldObject</a></div><div class="ttdef"><b>Definition:</b> Object.h:393</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a4f1c054b1e80b1ae0b44e6f38951082e" name="a4f1c054b1e80b1ae0b44e6f38951082e"></a>
@@ -3437,7 +3484,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   55</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d6e/class_temp_summon.html#a9faee852e2cbc450ca043bda9ee906e3">m_summonerGUID</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ae76cc9614974a4e0ae95c3715aab3a70" name="ae76cc9614974a4e0ae95c3715aab3a70"></a>
@@ -3454,7 +3502,15 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   44</span>{</div>
+<div class="line"><span class="lineno">   45</span>    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../db/df7/class_world_object.html">WorldObject</a>* summoner = <a class="code hl_function" href="../../d2/d6e/class_temp_summon.html#a0861c8d9d39586690b434056d2ee7e18">GetSummoner</a>())</div>
+<div class="line"><span class="lineno">   46</span>    {</div>
+<div class="line"><span class="lineno">   47</span>        <span class="keywordflow">return</span> summoner-&gt;ToUnit();</div>
+<div class="line"><span class="lineno">   48</span>    }</div>
+<div class="line"><span class="lineno">   49</span> </div>
+<div class="line"><span class="lineno">   50</span>    <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">   51</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a331c63533ec0473a314bb16e696c849a" name="a331c63533ec0473a314bb16e696c849a"></a>
@@ -3479,7 +3535,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   56</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d6e/class_temp_summon.html#aac572ed0079d43d9a706423aaeea91a7">m_type</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a29cd1896bf2fb92feb3b31cad1b38111" name="a29cd1896bf2fb92feb3b31cad1b38111"></a>
@@ -3504,7 +3561,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   57</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d6e/class_temp_summon.html#a19a3c747fabe3c2d788380b6b3aff5b5">m_timer</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a671477f035313e96517c1c92079d9911" name="a671477f035313e96517c1c92079d9911"></a>
@@ -3532,7 +3590,87 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented in <a class="el" href="../../d3/d0f/class_minion.html#ad11b2900e990e2b5ba7d10b811cd1e5d">Minion</a>, <a class="el" href="../../dc/dd7/class_guardian.html#a698ac009e39a2e8461b40135b75609ef">Guardian</a>, <a class="el" href="../../d7/d70/class_puppet.html#ac5dd23d7cf6d4b4a2ba073ae1128181b">Puppet</a>, and <a class="el" href="../../d0/d27/class_totem.html#a4661c91b5123862fc44e7a290cf70d1f">Totem</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  200</span>{</div>
+<div class="line"><span class="lineno">  201</span>    <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(!<a class="code hl_function" href="../../da/db7/class_unit.html#a4ad2fdcc45e2c3c85ad59ff49268b58c">IsPet</a>());</div>
+<div class="line"><span class="lineno">  202</span> </div>
+<div class="line"><span class="lineno">  203</span>    <a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* owner = <a class="code hl_function" href="../../d2/d6e/class_temp_summon.html#ae76cc9614974a4e0ae95c3715aab3a70">GetSummonerUnit</a>();</div>
+<div class="line"><span class="lineno">  204</span>    <span class="keywordflow">if</span> (owner)</div>
+<div class="line"><span class="lineno">  205</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* player = owner-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a328d5f752cc33ed398b3d9861ef6929d">ToPlayer</a>())</div>
+<div class="line"><span class="lineno">  206</span>            <a class="code hl_define" href="../../d0/d7d/_script_mgr_8h.html#ae8161e629869974bc49b1cbfc73c1087">sScriptMgr</a>-&gt;OnBeforeTempSummonInitStats(player, <span class="keyword">this</span>, duration);</div>
+<div class="line"><span class="lineno">  207</span> </div>
+<div class="line"><span class="lineno">  208</span>    <a class="code hl_variable" href="../../d2/d6e/class_temp_summon.html#a19a3c747fabe3c2d788380b6b3aff5b5">m_timer</a> = duration;</div>
+<div class="line"><span class="lineno">  209</span>    <a class="code hl_variable" href="../../d2/d6e/class_temp_summon.html#aeabc5d0c876b818d247ec93a6a5fa6b4">m_lifetime</a> = duration;</div>
+<div class="line"><span class="lineno">  210</span> </div>
+<div class="line"><span class="lineno">  211</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d2/d6e/class_temp_summon.html#aac572ed0079d43d9a706423aaeea91a7">m_type</a> == <a class="code hl_enumvalue" href="../../df/d30/_object_8h.html#a38c6d8d01cbe0c49b035f348f7724148a494d31263c972013b6b0e42f6c00e14a">TEMPSUMMON_MANUAL_DESPAWN</a>)</div>
+<div class="line"><span class="lineno">  212</span>        <a class="code hl_variable" href="../../d2/d6e/class_temp_summon.html#aac572ed0079d43d9a706423aaeea91a7">m_type</a> = (duration == 0) ? <a class="code hl_enumvalue" href="../../df/d30/_object_8h.html#a38c6d8d01cbe0c49b035f348f7724148a2ed37622e9cac6dbba3d2bb354307493">TEMPSUMMON_DEAD_DESPAWN</a> : <a class="code hl_enumvalue" href="../../df/d30/_object_8h.html#a38c6d8d01cbe0c49b035f348f7724148a68d0fa29801bfa0be2b983f167b0c0f2">TEMPSUMMON_TIMED_DESPAWN</a>;</div>
+<div class="line"><span class="lineno">  213</span> </div>
+<div class="line"><span class="lineno">  214</span>    <span class="keywordflow">if</span> (owner)</div>
+<div class="line"><span class="lineno">  215</span>    {</div>
+<div class="line"><span class="lineno">  216</span>        <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d1/dac/class_creature.html#a1264f98bce5d0365b1796401373425b7">IsTrigger</a>() &amp;&amp; <a class="code hl_variable" href="../../d1/dac/class_creature.html#a38727e1fc7443d11afa6e37598e932ea">m_spells</a>[0])</div>
+<div class="line"><span class="lineno">  217</span>        {</div>
+<div class="line"><span class="lineno">  218</span>            <a class="code hl_function" href="../../da/db7/class_unit.html#a2579e2b71959daec99048b4bcf7f6bf3">SetFaction</a>(owner-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a6727f9ef69f7cefb909dfc5db05df155">GetFaction</a>());</div>
+<div class="line"><span class="lineno">  219</span>            <a class="code hl_function" href="../../da/db7/class_unit.html#a815ff6e664524d768b65cc0428ad4d1f">SetLevel</a>(owner-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#adc6d98745d565970b4a89088ec5b5a42">getLevel</a>());</div>
+<div class="line"><span class="lineno">  220</span>            <span class="keywordflow">if</span> (owner-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">GetTypeId</a>() == <a class="code hl_enumvalue" href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a>)</div>
+<div class="line"><span class="lineno">  221</span>                <a class="code hl_variable" href="../../da/db7/class_unit.html#a7c5b46a0daec66c55e9fd32daf5caabd">m_ControlledByPlayer</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  222</span>        }</div>
+<div class="line"><span class="lineno">  223</span> </div>
+<div class="line"><span class="lineno">  224</span>        <span class="keywordflow">if</span> (owner-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">GetTypeId</a>() == <a class="code hl_enumvalue" href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a>)</div>
+<div class="line"><span class="lineno">  225</span>            <a class="code hl_variable" href="../../da/db7/class_unit.html#af4c07cf7dc9cf427053c2a60fb233750">m_CreatedByPlayer</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  226</span>    }</div>
+<div class="line"><span class="lineno">  227</span> </div>
+<div class="line"><span class="lineno">  228</span>    <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d2/d6e/class_temp_summon.html#a267f8af8ae1f496571569e8ec67faf73">m_Properties</a>)</div>
+<div class="line"><span class="lineno">  229</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  230</span> </div>
+<div class="line"><span class="lineno">  231</span>    <span class="keywordflow">if</span> (owner)</div>
+<div class="line"><span class="lineno">  232</span>    {</div>
+<div class="line"><span class="lineno">  233</span>        <span class="keywordflow">if</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> slot = <a class="code hl_variable" href="../../d2/d6e/class_temp_summon.html#a267f8af8ae1f496571569e8ec67faf73">m_Properties</a>-&gt;<a class="code hl_variable" href="../../dc/da8/struct_summon_properties_entry.html#a24449c3e3fd89ae3dbe4be3f64248115">Slot</a>)</div>
+<div class="line"><span class="lineno">  234</span>        {</div>
+<div class="line"><span class="lineno">  235</span>            <span class="keywordflow">if</span> (owner-&gt;<a class="code hl_variable" href="../../da/db7/class_unit.html#af017a26253fbc8757593b6629d50360c">m_SummonSlot</a>[slot] &amp;&amp; owner-&gt;<a class="code hl_variable" href="../../da/db7/class_unit.html#af017a26253fbc8757593b6629d50360c">m_SummonSlot</a>[slot] != <a class="code hl_function" href="../../d8/d83/class_object.html#ae65fbd7720a9aa448516f6cf494bda67">GetGUID</a>())</div>
+<div class="line"><span class="lineno">  236</span>            {</div>
+<div class="line"><span class="lineno">  237</span>                <a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* oldSummon = <a class="code hl_function" href="../../db/df7/class_world_object.html#a1013c27be4347a1b1a4a986a07456deb">GetMap</a>()-&gt;<a class="code hl_function" href="../../dd/d11/class_map.html#a9c20f696cb8109183fbd81b13848b050">GetCreature</a>(owner-&gt;<a class="code hl_variable" href="../../da/db7/class_unit.html#af017a26253fbc8757593b6629d50360c">m_SummonSlot</a>[slot]);</div>
+<div class="line"><span class="lineno">  238</span>                <span class="keywordflow">if</span> (oldSummon &amp;&amp; oldSummon-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a9534e161f94312c5ee5c81fd75cc16ee">IsSummon</a>())</div>
+<div class="line"><span class="lineno">  239</span>                    oldSummon-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a6649e9ba10948d634bc0ac9c4a5800e5">ToTempSummon</a>()-&gt;<a class="code hl_function" href="../../d2/d6e/class_temp_summon.html#a198ec16a2673b1e481427549b6029d56">UnSummon</a>();</div>
+<div class="line"><span class="lineno">  240</span>            }</div>
+<div class="line"><span class="lineno">  241</span>            owner-&gt;<a class="code hl_variable" href="../../da/db7/class_unit.html#af017a26253fbc8757593b6629d50360c">m_SummonSlot</a>[slot] = <a class="code hl_function" href="../../d8/d83/class_object.html#ae65fbd7720a9aa448516f6cf494bda67">GetGUID</a>();</div>
+<div class="line"><span class="lineno">  242</span>        }</div>
+<div class="line"><span class="lineno">  243</span>    }</div>
+<div class="line"><span class="lineno">  244</span> </div>
+<div class="line"><span class="lineno">  245</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d2/d6e/class_temp_summon.html#a267f8af8ae1f496571569e8ec67faf73">m_Properties</a>-&gt;<a class="code hl_variable" href="../../dc/da8/struct_summon_properties_entry.html#a4876df0f9a92e10634b7bc0b389ade00">Faction</a>)</div>
+<div class="line"><span class="lineno">  246</span>        <a class="code hl_function" href="../../da/db7/class_unit.html#a2579e2b71959daec99048b4bcf7f6bf3">SetFaction</a>(<a class="code hl_variable" href="../../d2/d6e/class_temp_summon.html#a267f8af8ae1f496571569e8ec67faf73">m_Properties</a>-&gt;<a class="code hl_variable" href="../../dc/da8/struct_summon_properties_entry.html#a4876df0f9a92e10634b7bc0b389ade00">Faction</a>);</div>
+<div class="line"><span class="lineno">  247</span>    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code hl_function" href="../../da/db7/class_unit.html#a0414b693087d7f3acc4a13eadb619660">IsVehicle</a>() &amp;&amp; owner) <span class="comment">// properties should be vehicle</span></div>
+<div class="line"><span class="lineno">  248</span>        <a class="code hl_function" href="../../da/db7/class_unit.html#a2579e2b71959daec99048b4bcf7f6bf3">SetFaction</a>(owner-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a6727f9ef69f7cefb909dfc5db05df155">GetFaction</a>());</div>
+<div class="line"><span class="lineno">  249</span>}</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="a_errors_8h_html_af343b20373ba49a92fce523e948f2ab3"><div class="ttname"><a href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a></div><div class="ttdeci">#define ASSERT</div><div class="ttdef"><b>Definition:</b> Errors.h:68</div></div>
+<div class="ttc" id="a_object_8h_html_a38c6d8d01cbe0c49b035f348f7724148a2ed37622e9cac6dbba3d2bb354307493"><div class="ttname"><a href="../../df/d30/_object_8h.html#a38c6d8d01cbe0c49b035f348f7724148a2ed37622e9cac6dbba3d2bb354307493">TEMPSUMMON_DEAD_DESPAWN</a></div><div class="ttdeci">@ TEMPSUMMON_DEAD_DESPAWN</div><div class="ttdef"><b>Definition:</b> Object.h:48</div></div>
+<div class="ttc" id="a_object_8h_html_a38c6d8d01cbe0c49b035f348f7724148a68d0fa29801bfa0be2b983f167b0c0f2"><div class="ttname"><a href="../../df/d30/_object_8h.html#a38c6d8d01cbe0c49b035f348f7724148a68d0fa29801bfa0be2b983f167b0c0f2">TEMPSUMMON_TIMED_DESPAWN</a></div><div class="ttdeci">@ TEMPSUMMON_TIMED_DESPAWN</div><div class="ttdef"><b>Definition:</b> Object.h:44</div></div>
+<div class="ttc" id="a_object_guid_8h_html_a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c"><div class="ttname"><a href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a></div><div class="ttdeci">@ TYPEID_PLAYER</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:38</div></div>
+<div class="ttc" id="a_script_mgr_8h_html_ae8161e629869974bc49b1cbfc73c1087"><div class="ttname"><a href="../../d0/d7d/_script_mgr_8h.html#ae8161e629869974bc49b1cbfc73c1087">sScriptMgr</a></div><div class="ttdeci">#define sScriptMgr</div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:2690</div></div>
+<div class="ttc" id="aclass_creature_html_a1264f98bce5d0365b1796401373425b7"><div class="ttname"><a href="../../d1/dac/class_creature.html#a1264f98bce5d0365b1796401373425b7">Creature::IsTrigger</a></div><div class="ttdeci">bool IsTrigger() const</div><div class="ttdef"><b>Definition:</b> Creature.h:76</div></div>
+<div class="ttc" id="aclass_creature_html_a38727e1fc7443d11afa6e37598e932ea"><div class="ttname"><a href="../../d1/dac/class_creature.html#a38727e1fc7443d11afa6e37598e932ea">Creature::m_spells</a></div><div class="ttdeci">uint32 m_spells[MAX_CREATURE_SPELLS]</div><div class="ttdef"><b>Definition:</b> Creature.h:241</div></div>
+<div class="ttc" id="aclass_map_html_a9c20f696cb8109183fbd81b13848b050"><div class="ttname"><a href="../../dd/d11/class_map.html#a9c20f696cb8109183fbd81b13848b050">Map::GetCreature</a></div><div class="ttdeci">Creature * GetCreature(ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> Map.cpp:3290</div></div>
+<div class="ttc" id="aclass_object_html_a328d5f752cc33ed398b3d9861ef6929d"><div class="ttname"><a href="../../d8/d83/class_object.html#a328d5f752cc33ed398b3d9861ef6929d">Object::ToPlayer</a></div><div class="ttdeci">Player * ToPlayer()</div><div class="ttdef"><b>Definition:</b> Object.h:195</div></div>
+<div class="ttc" id="aclass_object_html_a621a345fc34deed6d3a4e1e498a652da"><div class="ttname"><a href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">Object::GetTypeId</a></div><div class="ttdeci">TypeID GetTypeId() const</div><div class="ttdef"><b>Definition:</b> Object.h:121</div></div>
+<div class="ttc" id="aclass_object_html_ae65fbd7720a9aa448516f6cf494bda67"><div class="ttname"><a href="../../d8/d83/class_object.html#ae65fbd7720a9aa448516f6cf494bda67">Object::GetGUID</a></div><div class="ttdeci">ObjectGuid GetGUID() const</div><div class="ttdef"><b>Definition:</b> Object.h:107</div></div>
+<div class="ttc" id="aclass_player_html"><div class="ttname"><a href="../../d8/d53/class_player.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1046</div></div>
+<div class="ttc" id="aclass_temp_summon_html_a198ec16a2673b1e481427549b6029d56"><div class="ttname"><a href="../../d2/d6e/class_temp_summon.html#a198ec16a2673b1e481427549b6029d56">TempSummon::UnSummon</a></div><div class="ttdeci">virtual void UnSummon(uint32 msTime=0)</div><div class="ttdef"><b>Definition:</b> TemporarySummon.cpp:270</div></div>
+<div class="ttc" id="aclass_temp_summon_html_ae76cc9614974a4e0ae95c3715aab3a70"><div class="ttname"><a href="../../d2/d6e/class_temp_summon.html#ae76cc9614974a4e0ae95c3715aab3a70">TempSummon::GetSummonerUnit</a></div><div class="ttdeci">Unit * GetSummonerUnit() const</div><div class="ttdef"><b>Definition:</b> TemporarySummon.cpp:43</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_a0414b693087d7f3acc4a13eadb619660"><div class="ttname"><a href="../../da/db7/class_unit.html#a0414b693087d7f3acc4a13eadb619660">Unit::IsVehicle</a></div><div class="ttdeci">bool IsVehicle() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1416</div></div>
+<div class="ttc" id="aclass_unit_html_a2579e2b71959daec99048b4bcf7f6bf3"><div class="ttname"><a href="../../da/db7/class_unit.html#a2579e2b71959daec99048b4bcf7f6bf3">Unit::SetFaction</a></div><div class="ttdeci">void SetFaction(uint32 faction)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:10017</div></div>
+<div class="ttc" id="aclass_unit_html_a4ad2fdcc45e2c3c85ad59ff49268b58c"><div class="ttname"><a href="../../da/db7/class_unit.html#a4ad2fdcc45e2c3c85ad59ff49268b58c">Unit::IsPet</a></div><div class="ttdeci">bool IsPet() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1413</div></div>
+<div class="ttc" id="aclass_unit_html_a6649e9ba10948d634bc0ac9c4a5800e5"><div class="ttname"><a href="../../da/db7/class_unit.html#a6649e9ba10948d634bc0ac9c4a5800e5">Unit::ToTempSummon</a></div><div class="ttdeci">TempSummon * ToTempSummon()</div><div class="ttdef"><b>Definition:</b> Unit.h:2395</div></div>
+<div class="ttc" id="aclass_unit_html_a6727f9ef69f7cefb909dfc5db05df155"><div class="ttname"><a href="../../da/db7/class_unit.html#a6727f9ef69f7cefb909dfc5db05df155">Unit::GetFaction</a></div><div class="ttdeci">uint32 GetFaction() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1493</div></div>
+<div class="ttc" id="aclass_unit_html_a7c5b46a0daec66c55e9fd32daf5caabd"><div class="ttname"><a href="../../da/db7/class_unit.html#a7c5b46a0daec66c55e9fd32daf5caabd">Unit::m_ControlledByPlayer</a></div><div class="ttdeci">bool m_ControlledByPlayer</div><div class="ttdef"><b>Definition:</b> Unit.h:2357</div></div>
+<div class="ttc" id="aclass_unit_html_a815ff6e664524d768b65cc0428ad4d1f"><div class="ttname"><a href="../../da/db7/class_unit.html#a815ff6e664524d768b65cc0428ad4d1f">Unit::SetLevel</a></div><div class="ttdeci">void SetLevel(uint8 lvl, bool showLevelChange=true)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:15317</div></div>
+<div class="ttc" id="aclass_unit_html_a9534e161f94312c5ee5c81fd75cc16ee"><div class="ttname"><a href="../../da/db7/class_unit.html#a9534e161f94312c5ee5c81fd75cc16ee">Unit::IsSummon</a></div><div class="ttdeci">bool IsSummon() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1410</div></div>
+<div class="ttc" id="aclass_unit_html_adc6d98745d565970b4a89088ec5b5a42"><div class="ttname"><a href="../../da/db7/class_unit.html#adc6d98745d565970b4a89088ec5b5a42">Unit::getLevel</a></div><div class="ttdeci">uint8 getLevel() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1418</div></div>
+<div class="ttc" id="aclass_unit_html_af017a26253fbc8757593b6629d50360c"><div class="ttname"><a href="../../da/db7/class_unit.html#af017a26253fbc8757593b6629d50360c">Unit::m_SummonSlot</a></div><div class="ttdeci">ObjectGuid m_SummonSlot[MAX_SUMMON_SLOT]</div><div class="ttdef"><b>Definition:</b> Unit.h:2065</div></div>
+<div class="ttc" id="aclass_unit_html_af4c07cf7dc9cf427053c2a60fb233750"><div class="ttname"><a href="../../da/db7/class_unit.html#af4c07cf7dc9cf427053c2a60fb233750">Unit::m_CreatedByPlayer</a></div><div class="ttdeci">bool m_CreatedByPlayer</div><div class="ttdef"><b>Definition:</b> Unit.h:2358</div></div>
+<div class="ttc" id="aclass_world_object_html_a1013c27be4347a1b1a4a986a07456deb"><div class="ttname"><a href="../../db/df7/class_world_object.html#a1013c27be4347a1b1a4a986a07456deb">WorldObject::GetMap</a></div><div class="ttdeci">Map * GetMap() const</div><div class="ttdef"><b>Definition:</b> Object.h:517</div></div>
+<div class="ttc" id="astruct_summon_properties_entry_html_a24449c3e3fd89ae3dbe4be3f64248115"><div class="ttname"><a href="../../dc/da8/struct_summon_properties_entry.html#a24449c3e3fd89ae3dbe4be3f64248115">SummonPropertiesEntry::Slot</a></div><div class="ttdeci">uint32 Slot</div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1876</div></div>
+<div class="ttc" id="astruct_summon_properties_entry_html_a4876df0f9a92e10634b7bc0b389ade00"><div class="ttname"><a href="../../dc/da8/struct_summon_properties_entry.html#a4876df0f9a92e10634b7bc0b389ade00">SummonPropertiesEntry::Faction</a></div><div class="ttdeci">uint32 Faction</div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1874</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a55ec70ec7811303644caea24642cc94c" name="a55ec70ec7811303644caea24642cc94c"></a>
@@ -3559,7 +3697,25 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented in <a class="el" href="../../dc/dd7/class_guardian.html#a1d5ebfa5ac5754293172041dc3a2c47d">Guardian</a>, <a class="el" href="../../d7/d70/class_puppet.html#abfc97f1d25cb1ac27b1bed6f61867fa3">Puppet</a>, and <a class="el" href="../../d0/d27/class_totem.html#aaf87ce98ed8bfc42072228c9e39bfdf6">Totem</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  252</span>{</div>
+<div class="line"><span class="lineno">  253</span>    <a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* owner = <a class="code hl_function" href="../../d2/d6e/class_temp_summon.html#ae76cc9614974a4e0ae95c3715aab3a70">GetSummonerUnit</a>();</div>
+<div class="line"><span class="lineno">  254</span>    <span class="keywordflow">if</span> (owner)</div>
+<div class="line"><span class="lineno">  255</span>    {</div>
+<div class="line"><span class="lineno">  256</span>        <span class="keywordflow">if</span> (owner-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">GetTypeId</a>() == <a class="code hl_enumvalue" href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2a93dfa528ffc48db4993fb7ac62696db9">TYPEID_UNIT</a> &amp;&amp; owner-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ab0e2ef1ac1daa91476f749e0ec6ad3c6">ToCreature</a>()-&gt;<a class="code hl_variable" href="../../da/db7/class_unit.html#ab395fef0b407c0af40ba6274c32730a6">IsAIEnabled</a>)</div>
+<div class="line"><span class="lineno">  257</span>            owner-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ab0e2ef1ac1daa91476f749e0ec6ad3c6">ToCreature</a>()-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">AI</a>()-&gt;<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#a3a55253d96d72f1df305b2ccfa7284ca">JustSummoned</a>(<span class="keyword">this</span>);</div>
+<div class="line"><span class="lineno">  258</span>    }</div>
+<div class="line"><span class="lineno">  259</span> </div>
+<div class="line"><span class="lineno">  260</span>    <span class="comment">// Xinef: Allow to call this hook when npc is summoned by gameobject, in this case pass this as summoner to avoid possible null checks</span></div>
+<div class="line"><span class="lineno">  261</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../da/db7/class_unit.html#ab395fef0b407c0af40ba6274c32730a6">IsAIEnabled</a>)</div>
+<div class="line"><span class="lineno">  262</span>        <a class="code hl_function" href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">AI</a>()-&gt;<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#a717b3431bd49e191fc77afe0fa50d827">IsSummonedBy</a>(owner);</div>
+<div class="line"><span class="lineno">  263</span>}</div>
+<div class="ttc" id="a_object_guid_8h_html_a183c40b2ba67065929d70b3987da4cc2a93dfa528ffc48db4993fb7ac62696db9"><div class="ttname"><a href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2a93dfa528ffc48db4993fb7ac62696db9">TYPEID_UNIT</a></div><div class="ttdeci">@ TYPEID_UNIT</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:37</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_a3a55253d96d72f1df305b2ccfa7284ca"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#a3a55253d96d72f1df305b2ccfa7284ca">CreatureAI::JustSummoned</a></div><div class="ttdeci">virtual void JustSummoned(Creature *)</div><div class="ttdef"><b>Definition:</b> CreatureAI.h:128</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_a717b3431bd49e191fc77afe0fa50d827"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#a717b3431bd49e191fc77afe0fa50d827">CreatureAI::IsSummonedBy</a></div><div class="ttdeci">virtual void IsSummonedBy(Unit *)</div><div class="ttdef"><b>Definition:</b> CreatureAI.h:129</div></div>
+<div class="ttc" id="aclass_creature_html_af2188eef9620b5af52ef2d3ac142db67"><div class="ttname"><a href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">Creature::AI</a></div><div class="ttdeci">CreatureAI * AI() const</div><div class="ttdef"><b>Definition:</b> Creature.h:134</div></div>
+<div class="ttc" id="aclass_object_html_ab0e2ef1ac1daa91476f749e0ec6ad3c6"><div class="ttname"><a href="../../d8/d83/class_object.html#ab0e2ef1ac1daa91476f749e0ec6ad3c6">Object::ToCreature</a></div><div class="ttdeci">Creature * ToCreature()</div><div class="ttdef"><b>Definition:</b> Object.h:197</div></div>
+<div class="ttc" id="aclass_unit_html_ab395fef0b407c0af40ba6274c32730a6"><div class="ttname"><a href="../../da/db7/class_unit.html#ab395fef0b407c0af40ba6274c32730a6">Unit::IsAIEnabled</a></div><div class="ttdeci">bool IsAIEnabled</div><div class="ttdef"><b>Definition:</b> Unit.h:2345</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a6ed76ef6de27814adf38bce8666d2a15" name="a6ed76ef6de27814adf38bce8666d2a15"></a>
@@ -3588,7 +3744,24 @@ Additional Inherited Members</h2></td></tr>
 <p>Reimplemented from <a class="el" href="../../d1/dac/class_creature.html#a5e3a0a2c171f9b056431b86fdafe8993">Creature</a>.</p>
 
 <p>Reimplemented in <a class="el" href="../../d3/d0f/class_minion.html#a35f8314d0a4bafeba1987eb0b1ececf3">Minion</a>, <a class="el" href="../../d7/d70/class_puppet.html#a61dcfc821c2221d1747fcb2180e03bfd">Puppet</a>, and <a class="el" href="../../d6/d98/class_pet.html#a10d8a224dc5726395aa872a6caaf9429">Pet</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  307</span>{</div>
+<div class="line"><span class="lineno">  308</span>    <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d8/d83/class_object.html#a3aeab7def818ba6c50249f197ad2f9ca">IsInWorld</a>())</div>
+<div class="line"><span class="lineno">  309</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  310</span> </div>
+<div class="line"><span class="lineno">  311</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d2/d6e/class_temp_summon.html#a267f8af8ae1f496571569e8ec67faf73">m_Properties</a>)</div>
+<div class="line"><span class="lineno">  312</span>        <span class="keywordflow">if</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> slot = <a class="code hl_variable" href="../../d2/d6e/class_temp_summon.html#a267f8af8ae1f496571569e8ec67faf73">m_Properties</a>-&gt;<a class="code hl_variable" href="../../dc/da8/struct_summon_properties_entry.html#a24449c3e3fd89ae3dbe4be3f64248115">Slot</a>)</div>
+<div class="line"><span class="lineno">  313</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* owner = <a class="code hl_function" href="../../d2/d6e/class_temp_summon.html#ae76cc9614974a4e0ae95c3715aab3a70">GetSummonerUnit</a>())</div>
+<div class="line"><span class="lineno">  314</span>                <span class="keywordflow">if</span> (owner-&gt;m_SummonSlot[slot] == <a class="code hl_function" href="../../d8/d83/class_object.html#ae65fbd7720a9aa448516f6cf494bda67">GetGUID</a>())</div>
+<div class="line"><span class="lineno">  315</span>                    owner-&gt;m_SummonSlot[slot].Clear();</div>
+<div class="line"><span class="lineno">  316</span> </div>
+<div class="line"><span class="lineno">  317</span>    <span class="comment">//if (GetOwnerGUID())</span></div>
+<div class="line"><span class="lineno">  318</span>    <span class="comment">//    LOG_ERROR(&quot;entities.unit&quot;, &quot;Unit {} has owner guid when removed from world&quot;, GetEntry());</span></div>
+<div class="line"><span class="lineno">  319</span> </div>
+<div class="line"><span class="lineno">  320</span>    <a class="code hl_function" href="../../d1/dac/class_creature.html#a5e3a0a2c171f9b056431b86fdafe8993">Creature::RemoveFromWorld</a>();</div>
+<div class="line"><span class="lineno">  321</span>}</div>
+<div class="ttc" id="aclass_creature_html_a5e3a0a2c171f9b056431b86fdafe8993"><div class="ttname"><a href="../../d1/dac/class_creature.html#a5e3a0a2c171f9b056431b86fdafe8993">Creature::RemoveFromWorld</a></div><div class="ttdeci">void RemoveFromWorld() override</div><div class="ttdef"><b>Definition:</b> Creature.cpp:293</div></div>
+<div class="ttc" id="aclass_object_html_a3aeab7def818ba6c50249f197ad2f9ca"><div class="ttname"><a href="../../d8/d83/class_object.html#a3aeab7def818ba6c50249f197ad2f9ca">Object::IsInWorld</a></div><div class="ttdeci">bool IsInWorld() const</div><div class="ttdef"><b>Definition:</b> Object.h:101</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad1ad9eab83db2b811ef9831fb9d21f7c" name="ad1ad9eab83db2b811ef9831fb9d21f7c"></a>
@@ -3634,7 +3807,8 @@ Additional Inherited Members</h2></td></tr>
 <p>Reimplemented from <a class="el" href="../../d1/dac/class_creature.html#ab0f40825f30e8009bf07077052e234f7">Creature</a>.</p>
 
 <p>Reimplemented in <a class="el" href="../../d6/d98/class_pet.html#a8c7308b81b808c23b878b99cb78d6598">Pet</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   50</span>{}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a5b711bd3a4003da1507be950e4d33d0f" name="a5b711bd3a4003da1507be950e4d33d0f"></a>
@@ -3652,7 +3826,10 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  266</span>{</div>
+<div class="line"><span class="lineno">  267</span>    <a class="code hl_variable" href="../../d2/d6e/class_temp_summon.html#aac572ed0079d43d9a706423aaeea91a7">m_type</a> = type;</div>
+<div class="line"><span class="lineno">  268</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ab4a878bb7338a3b3a20b35a44a910235" name="ab4a878bb7338a3b3a20b35a44a910235"></a>
@@ -3678,7 +3855,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   58</span>{ <a class="code hl_variable" href="../../d2/d6e/class_temp_summon.html#a19a3c747fabe3c2d788380b6b3aff5b5">m_timer</a> = t; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a198ec16a2673b1e481427549b6029d56" name="a198ec16a2673b1e481427549b6029d56"></a>
@@ -3706,7 +3884,46 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented in <a class="el" href="../../d0/d27/class_totem.html#a0386ad240e6b7b9be1c744ac4a62d28e">Totem</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  271</span>{</div>
+<div class="line"><span class="lineno">  272</span>    <span class="keywordflow">if</span> (msTime)</div>
+<div class="line"><span class="lineno">  273</span>    {</div>
+<div class="line"><span class="lineno">  274</span>        <a class="code hl_class" href="../../d1/d24/class_forced_unsummon_delay_event.html">ForcedUnsummonDelayEvent</a>* pEvent = <span class="keyword">new</span> <a class="code hl_class" href="../../d1/d24/class_forced_unsummon_delay_event.html">ForcedUnsummonDelayEvent</a>(*<span class="keyword">this</span>);</div>
+<div class="line"><span class="lineno">  275</span> </div>
+<div class="line"><span class="lineno">  276</span>        <a class="code hl_variable" href="../../da/db7/class_unit.html#a8ca8fcc886a2cea2c235514644e7e2a0">m_Events</a>.<a class="code hl_function" href="../../d6/d65/class_event_processor.html#a0ecdf822624a632b7b3fad1e66228cfb">AddEvent</a>(pEvent, <a class="code hl_variable" href="../../da/db7/class_unit.html#a8ca8fcc886a2cea2c235514644e7e2a0">m_Events</a>.<a class="code hl_function" href="../../d6/d65/class_event_processor.html#a1a92f983f1dd415146c2875f80cba433">CalculateTime</a>(msTime));</div>
+<div class="line"><span class="lineno">  277</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  278</span>    }</div>
+<div class="line"><span class="lineno">  279</span> </div>
+<div class="line"><span class="lineno">  280</span>    <span class="comment">// Dont allow to call this function twice (possible)</span></div>
+<div class="line"><span class="lineno">  281</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d2/d6e/class_temp_summon.html#aac572ed0079d43d9a706423aaeea91a7">m_type</a> == <a class="code hl_enumvalue" href="../../df/d30/_object_8h.html#a38c6d8d01cbe0c49b035f348f7724148ab372a9ecde35043aa67d1ee162a37687">TEMPSUMMON_DESPAWNED</a>)</div>
+<div class="line"><span class="lineno">  282</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  283</span>    <a class="code hl_function" href="../../d2/d6e/class_temp_summon.html#a5b711bd3a4003da1507be950e4d33d0f">SetTempSummonType</a>(<a class="code hl_enumvalue" href="../../df/d30/_object_8h.html#a38c6d8d01cbe0c49b035f348f7724148ab372a9ecde35043aa67d1ee162a37687">TEMPSUMMON_DESPAWNED</a>);</div>
+<div class="line"><span class="lineno">  284</span> </div>
+<div class="line"><span class="lineno">  285</span>    <span class="comment">//ASSERT(!IsPet());</span></div>
+<div class="line"><span class="lineno">  286</span>    <span class="keywordflow">if</span> (<a class="code hl_function" href="../../da/db7/class_unit.html#a4ad2fdcc45e2c3c85ad59ff49268b58c">IsPet</a>())</div>
+<div class="line"><span class="lineno">  287</span>    {</div>
+<div class="line"><span class="lineno">  288</span>        <a class="code hl_function" href="../../da/db7/class_unit.html#a16c186b19f846fbce1252427943caefc">ToPet</a>()-&gt;<a class="code hl_function" href="../../d6/d98/class_pet.html#aad26ada9ab82a5ec5a327976f4f51167">Remove</a>(<a class="code hl_enumvalue" href="../../d7/d23/_pet_defines_8h.html#a6950071a5ecec4c8754d5fbb9908bc31ae55abbb64855962852c91fb8638ad6cd">PET_SAVE_NOT_IN_SLOT</a>);</div>
+<div class="line"><span class="lineno">  289</span>        <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(!<a class="code hl_function" href="../../d8/d83/class_object.html#a3aeab7def818ba6c50249f197ad2f9ca">IsInWorld</a>());</div>
+<div class="line"><span class="lineno">  290</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  291</span>    }</div>
+<div class="line"><span class="lineno">  292</span> </div>
+<div class="line"><span class="lineno">  293</span>    <a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* owner = <a class="code hl_function" href="../../d2/d6e/class_temp_summon.html#ae76cc9614974a4e0ae95c3715aab3a70">GetSummonerUnit</a>();</div>
+<div class="line"><span class="lineno">  294</span>    <span class="keywordflow">if</span> (owner &amp;&amp; owner-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">GetTypeId</a>() == <a class="code hl_enumvalue" href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2a93dfa528ffc48db4993fb7ac62696db9">TYPEID_UNIT</a> &amp;&amp; owner-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ab0e2ef1ac1daa91476f749e0ec6ad3c6">ToCreature</a>()-&gt;<a class="code hl_variable" href="../../da/db7/class_unit.html#ab395fef0b407c0af40ba6274c32730a6">IsAIEnabled</a>)</div>
+<div class="line"><span class="lineno">  295</span>        owner-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ab0e2ef1ac1daa91476f749e0ec6ad3c6">ToCreature</a>()-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">AI</a>()-&gt;<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#ad0850b634c283a045bd4448e93f99efe">SummonedCreatureDespawn</a>(<span class="keyword">this</span>);</div>
+<div class="line"><span class="lineno">  296</span> </div>
+<div class="line"><span class="lineno">  297</span>    <a class="code hl_function" href="../../db/df7/class_world_object.html#a8b5bf67b1f64fee748e20a147455c141">AddObjectToRemoveList</a>();</div>
+<div class="line"><span class="lineno">  298</span>}</div>
+<div class="ttc" id="a_object_8h_html_a38c6d8d01cbe0c49b035f348f7724148ab372a9ecde35043aa67d1ee162a37687"><div class="ttname"><a href="../../df/d30/_object_8h.html#a38c6d8d01cbe0c49b035f348f7724148ab372a9ecde35043aa67d1ee162a37687">TEMPSUMMON_DESPAWNED</a></div><div class="ttdeci">@ TEMPSUMMON_DESPAWNED</div><div class="ttdef"><b>Definition:</b> Object.h:50</div></div>
+<div class="ttc" id="a_pet_defines_8h_html_a6950071a5ecec4c8754d5fbb9908bc31ae55abbb64855962852c91fb8638ad6cd"><div class="ttname"><a href="../../d7/d23/_pet_defines_8h.html#a6950071a5ecec4c8754d5fbb9908bc31ae55abbb64855962852c91fb8638ad6cd">PET_SAVE_NOT_IN_SLOT</a></div><div class="ttdeci">@ PET_SAVE_NOT_IN_SLOT</div><div class="ttdef"><b>Definition:</b> PetDefines.h:45</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_ad0850b634c283a045bd4448e93f99efe"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#ad0850b634c283a045bd4448e93f99efe">CreatureAI::SummonedCreatureDespawn</a></div><div class="ttdeci">virtual void SummonedCreatureDespawn(Creature *)</div><div class="ttdef"><b>Definition:</b> CreatureAI.h:131</div></div>
+<div class="ttc" id="aclass_event_processor_html_a0ecdf822624a632b7b3fad1e66228cfb"><div class="ttname"><a href="../../d6/d65/class_event_processor.html#a0ecdf822624a632b7b3fad1e66228cfb">EventProcessor::AddEvent</a></div><div class="ttdeci">void AddEvent(BasicEvent *Event, uint64 e_time, bool set_addtime=true)</div><div class="ttdef"><b>Definition:</b> EventProcessor.cpp:114</div></div>
+<div class="ttc" id="aclass_event_processor_html_a1a92f983f1dd415146c2875f80cba433"><div class="ttname"><a href="../../d6/d65/class_event_processor.html#a1a92f983f1dd415146c2875f80cba433">EventProcessor::CalculateTime</a></div><div class="ttdeci">uint64 CalculateTime(uint64 t_offset) const</div><div class="ttdef"><b>Definition:</b> EventProcessor.cpp:136</div></div>
+<div class="ttc" id="aclass_forced_unsummon_delay_event_html"><div class="ttname"><a href="../../d1/d24/class_forced_unsummon_delay_event.html">ForcedUnsummonDelayEvent</a></div><div class="ttdef"><b>Definition:</b> TemporarySummon.h:122</div></div>
+<div class="ttc" id="aclass_pet_html_aad26ada9ab82a5ec5a327976f4f51167"><div class="ttname"><a href="../../d6/d98/class_pet.html#aad26ada9ab82a5ec5a327976f4f51167">Pet::Remove</a></div><div class="ttdeci">void Remove(PetSaveMode mode, bool returnreagent=false)</div><div class="ttdef"><b>Definition:</b> Pet.cpp:872</div></div>
+<div class="ttc" id="aclass_temp_summon_html_a5b711bd3a4003da1507be950e4d33d0f"><div class="ttname"><a href="../../d2/d6e/class_temp_summon.html#a5b711bd3a4003da1507be950e4d33d0f">TempSummon::SetTempSummonType</a></div><div class="ttdeci">void SetTempSummonType(TempSummonType type)</div><div class="ttdef"><b>Definition:</b> TemporarySummon.cpp:265</div></div>
+<div class="ttc" id="aclass_unit_html_a16c186b19f846fbce1252427943caefc"><div class="ttname"><a href="../../da/db7/class_unit.html#a16c186b19f846fbce1252427943caefc">Unit::ToPet</a></div><div class="ttdeci">Pet * ToPet()</div><div class="ttdef"><b>Definition:</b> Unit.h:2393</div></div>
+<div class="ttc" id="aclass_unit_html_a8ca8fcc886a2cea2c235514644e7e2a0"><div class="ttname"><a href="../../da/db7/class_unit.html#a8ca8fcc886a2cea2c235514644e7e2a0">Unit::m_Events</a></div><div class="ttdeci">EventProcessor m_Events</div><div class="ttdef"><b>Definition:</b> Unit.h:2091</div></div>
+<div class="ttc" id="aclass_world_object_html_a8b5bf67b1f64fee748e20a147455c141"><div class="ttname"><a href="../../db/df7/class_world_object.html#a8b5bf67b1f64fee748e20a147455c141">WorldObject::AddObjectToRemoveList</a></div><div class="ttdeci">void AddObjectToRemoveList()</div><div class="ttdef"><b>Definition:</b> Object.cpp:2101</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a7340f280c2550fc495d3045a06ef5536" name="a7340f280c2550fc495d3045a06ef5536"></a>
@@ -3736,7 +3953,153 @@ Additional Inherited Members</h2></td></tr>
 <p>Reimplemented from <a class="el" href="../../d1/dac/class_creature.html#a2aaf88eaaf8e376030dd034eff91bb37">Creature</a>.</p>
 
 <p>Reimplemented in <a class="el" href="../../d6/d98/class_pet.html#ac3613c8f36c300e05778b9a91ba28911">Pet</a>, <a class="el" href="../../d7/d70/class_puppet.html#a5281497d7689e1dd10f89b5a9f83006f">Puppet</a>, and <a class="el" href="../../d0/d27/class_totem.html#aa44d1386a44ade821cc6dfe5caee9b90">Totem</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   66</span>{</div>
+<div class="line"><span class="lineno">   67</span>    <a class="code hl_function" href="../../d1/dac/class_creature.html#a2aaf88eaaf8e376030dd034eff91bb37">Creature::Update</a>(diff);</div>
+<div class="line"><span class="lineno">   68</span> </div>
+<div class="line"><span class="lineno">   69</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../da/db7/class_unit.html#a6095270dbf0be2614592c880d455fa3c">m_deathState</a> == <a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#a671007e5c9d47b3ccb212f971e65baeda11fd9ca455f92c69c084484d5cd803c2">DEAD</a>)</div>
+<div class="line"><span class="lineno">   70</span>    {</div>
+<div class="line"><span class="lineno">   71</span>        <a class="code hl_function" href="../../d2/d6e/class_temp_summon.html#a198ec16a2673b1e481427549b6029d56">UnSummon</a>();</div>
+<div class="line"><span class="lineno">   72</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   73</span>    }</div>
+<div class="line"><span class="lineno">   74</span>    <span class="keywordflow">switch</span> (<a class="code hl_variable" href="../../d2/d6e/class_temp_summon.html#aac572ed0079d43d9a706423aaeea91a7">m_type</a>)</div>
+<div class="line"><span class="lineno">   75</span>    {</div>
+<div class="line"><span class="lineno">   76</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d30/_object_8h.html#a38c6d8d01cbe0c49b035f348f7724148a494d31263c972013b6b0e42f6c00e14a">TEMPSUMMON_MANUAL_DESPAWN</a>:</div>
+<div class="line"><span class="lineno">   77</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d30/_object_8h.html#a38c6d8d01cbe0c49b035f348f7724148ab372a9ecde35043aa67d1ee162a37687">TEMPSUMMON_DESPAWNED</a>:</div>
+<div class="line"><span class="lineno">   78</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   79</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d30/_object_8h.html#a38c6d8d01cbe0c49b035f348f7724148a68d0fa29801bfa0be2b983f167b0c0f2">TEMPSUMMON_TIMED_DESPAWN</a>:</div>
+<div class="line"><span class="lineno">   80</span>            {</div>
+<div class="line"><span class="lineno">   81</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d2/d6e/class_temp_summon.html#a19a3c747fabe3c2d788380b6b3aff5b5">m_timer</a> &lt;= diff)</div>
+<div class="line"><span class="lineno">   82</span>                {</div>
+<div class="line"><span class="lineno">   83</span>                    <a class="code hl_function" href="../../d2/d6e/class_temp_summon.html#a198ec16a2673b1e481427549b6029d56">UnSummon</a>();</div>
+<div class="line"><span class="lineno">   84</span>                    <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   85</span>                }</div>
+<div class="line"><span class="lineno">   86</span> </div>
+<div class="line"><span class="lineno">   87</span>                <a class="code hl_variable" href="../../d2/d6e/class_temp_summon.html#a19a3c747fabe3c2d788380b6b3aff5b5">m_timer</a> -= diff;</div>
+<div class="line"><span class="lineno">   88</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   89</span>            }</div>
+<div class="line"><span class="lineno">   90</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d30/_object_8h.html#a38c6d8d01cbe0c49b035f348f7724148a792ae85af0a6c91140415668fdfef99a">TEMPSUMMON_TIMED_DESPAWN_OUT_OF_COMBAT</a>:</div>
+<div class="line"><span class="lineno">   91</span>            {</div>
+<div class="line"><span class="lineno">   92</span>                <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../da/db7/class_unit.html#af5e75d013dfa8a8b888d7714992e3f2a">IsInCombat</a>())</div>
+<div class="line"><span class="lineno">   93</span>                {</div>
+<div class="line"><span class="lineno">   94</span>                    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d2/d6e/class_temp_summon.html#a19a3c747fabe3c2d788380b6b3aff5b5">m_timer</a> &lt;= diff)</div>
+<div class="line"><span class="lineno">   95</span>                    {</div>
+<div class="line"><span class="lineno">   96</span>                        <a class="code hl_function" href="../../d2/d6e/class_temp_summon.html#a198ec16a2673b1e481427549b6029d56">UnSummon</a>();</div>
+<div class="line"><span class="lineno">   97</span>                        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   98</span>                    }</div>
+<div class="line"><span class="lineno">   99</span> </div>
+<div class="line"><span class="lineno">  100</span>                    <a class="code hl_variable" href="../../d2/d6e/class_temp_summon.html#a19a3c747fabe3c2d788380b6b3aff5b5">m_timer</a> -= diff;</div>
+<div class="line"><span class="lineno">  101</span>                }</div>
+<div class="line"><span class="lineno">  102</span>                <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d2/d6e/class_temp_summon.html#a19a3c747fabe3c2d788380b6b3aff5b5">m_timer</a> != <a class="code hl_variable" href="../../d2/d6e/class_temp_summon.html#aeabc5d0c876b818d247ec93a6a5fa6b4">m_lifetime</a>)</div>
+<div class="line"><span class="lineno">  103</span>                    <a class="code hl_variable" href="../../d2/d6e/class_temp_summon.html#a19a3c747fabe3c2d788380b6b3aff5b5">m_timer</a> = <a class="code hl_variable" href="../../d2/d6e/class_temp_summon.html#aeabc5d0c876b818d247ec93a6a5fa6b4">m_lifetime</a>;</div>
+<div class="line"><span class="lineno">  104</span> </div>
+<div class="line"><span class="lineno">  105</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  106</span>            }</div>
+<div class="line"><span class="lineno">  107</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d30/_object_8h.html#a38c6d8d01cbe0c49b035f348f7724148a1e689534a035355813f5eac245564af7">TEMPSUMMON_TIMED_DESPAWN_OOC_ALIVE</a>:</div>
+<div class="line"><span class="lineno">  108</span>            {</div>
+<div class="line"><span class="lineno">  109</span>                <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../da/db7/class_unit.html#af5e75d013dfa8a8b888d7714992e3f2a">IsInCombat</a>() &amp;&amp; <a class="code hl_variable" href="../../da/db7/class_unit.html#a6095270dbf0be2614592c880d455fa3c">m_deathState</a> != <a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#a671007e5c9d47b3ccb212f971e65baeda067c6778cd7570678dc70dc2e8b09e68">CORPSE</a>)</div>
+<div class="line"><span class="lineno">  110</span>                {</div>
+<div class="line"><span class="lineno">  111</span>                    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d2/d6e/class_temp_summon.html#a19a3c747fabe3c2d788380b6b3aff5b5">m_timer</a> &lt;= diff)</div>
+<div class="line"><span class="lineno">  112</span>                    {</div>
+<div class="line"><span class="lineno">  113</span>                        <a class="code hl_function" href="../../d2/d6e/class_temp_summon.html#a198ec16a2673b1e481427549b6029d56">UnSummon</a>();</div>
+<div class="line"><span class="lineno">  114</span>                        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  115</span>                    }</div>
+<div class="line"><span class="lineno">  116</span> </div>
+<div class="line"><span class="lineno">  117</span>                    <a class="code hl_variable" href="../../d2/d6e/class_temp_summon.html#a19a3c747fabe3c2d788380b6b3aff5b5">m_timer</a> -= diff;</div>
+<div class="line"><span class="lineno">  118</span>                }</div>
+<div class="line"><span class="lineno">  119</span>                <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d2/d6e/class_temp_summon.html#a19a3c747fabe3c2d788380b6b3aff5b5">m_timer</a> != <a class="code hl_variable" href="../../d2/d6e/class_temp_summon.html#aeabc5d0c876b818d247ec93a6a5fa6b4">m_lifetime</a>)</div>
+<div class="line"><span class="lineno">  120</span>                    <a class="code hl_variable" href="../../d2/d6e/class_temp_summon.html#a19a3c747fabe3c2d788380b6b3aff5b5">m_timer</a> = <a class="code hl_variable" href="../../d2/d6e/class_temp_summon.html#aeabc5d0c876b818d247ec93a6a5fa6b4">m_lifetime</a>;</div>
+<div class="line"><span class="lineno">  121</span> </div>
+<div class="line"><span class="lineno">  122</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  123</span>            }</div>
+<div class="line"><span class="lineno">  124</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d30/_object_8h.html#a38c6d8d01cbe0c49b035f348f7724148ae10d0bfbb29fbbfe0e3c50203548d01a">TEMPSUMMON_CORPSE_TIMED_DESPAWN</a>:</div>
+<div class="line"><span class="lineno">  125</span>            {</div>
+<div class="line"><span class="lineno">  126</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../da/db7/class_unit.html#a6095270dbf0be2614592c880d455fa3c">m_deathState</a> == <a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#a671007e5c9d47b3ccb212f971e65baeda067c6778cd7570678dc70dc2e8b09e68">CORPSE</a>)</div>
+<div class="line"><span class="lineno">  127</span>                {</div>
+<div class="line"><span class="lineno">  128</span>                    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d2/d6e/class_temp_summon.html#a19a3c747fabe3c2d788380b6b3aff5b5">m_timer</a> &lt;= diff)</div>
+<div class="line"><span class="lineno">  129</span>                    {</div>
+<div class="line"><span class="lineno">  130</span>                        <a class="code hl_function" href="../../d2/d6e/class_temp_summon.html#a198ec16a2673b1e481427549b6029d56">UnSummon</a>();</div>
+<div class="line"><span class="lineno">  131</span>                        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  132</span>                    }</div>
+<div class="line"><span class="lineno">  133</span> </div>
+<div class="line"><span class="lineno">  134</span>                    <a class="code hl_variable" href="../../d2/d6e/class_temp_summon.html#a19a3c747fabe3c2d788380b6b3aff5b5">m_timer</a> -= diff;</div>
+<div class="line"><span class="lineno">  135</span>                }</div>
+<div class="line"><span class="lineno">  136</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  137</span>            }</div>
+<div class="line"><span class="lineno">  138</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d30/_object_8h.html#a38c6d8d01cbe0c49b035f348f7724148aca87dcb32ebfdc5d2d1acd159abe8fd9">TEMPSUMMON_CORPSE_DESPAWN</a>:</div>
+<div class="line"><span class="lineno">  139</span>            {</div>
+<div class="line"><span class="lineno">  140</span>                <span class="comment">// if m_deathState is DEAD, CORPSE was skipped</span></div>
+<div class="line"><span class="lineno">  141</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../da/db7/class_unit.html#a6095270dbf0be2614592c880d455fa3c">m_deathState</a> == <a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#a671007e5c9d47b3ccb212f971e65baeda067c6778cd7570678dc70dc2e8b09e68">CORPSE</a>)</div>
+<div class="line"><span class="lineno">  142</span>                {</div>
+<div class="line"><span class="lineno">  143</span>                    <a class="code hl_function" href="../../d2/d6e/class_temp_summon.html#a198ec16a2673b1e481427549b6029d56">UnSummon</a>();</div>
+<div class="line"><span class="lineno">  144</span>                    <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  145</span>                }</div>
+<div class="line"><span class="lineno">  146</span> </div>
+<div class="line"><span class="lineno">  147</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  148</span>            }</div>
+<div class="line"><span class="lineno">  149</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d30/_object_8h.html#a38c6d8d01cbe0c49b035f348f7724148a2ed37622e9cac6dbba3d2bb354307493">TEMPSUMMON_DEAD_DESPAWN</a>:</div>
+<div class="line"><span class="lineno">  150</span>            {</div>
+<div class="line"><span class="lineno">  151</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  152</span>            }</div>
+<div class="line"><span class="lineno">  153</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d30/_object_8h.html#a38c6d8d01cbe0c49b035f348f7724148a9d16b839c0bff9df1f7adfe701da0882">TEMPSUMMON_TIMED_OR_CORPSE_DESPAWN</a>:</div>
+<div class="line"><span class="lineno">  154</span>            {</div>
+<div class="line"><span class="lineno">  155</span>                <span class="comment">// if m_deathState is DEAD, CORPSE was skipped</span></div>
+<div class="line"><span class="lineno">  156</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../da/db7/class_unit.html#a6095270dbf0be2614592c880d455fa3c">m_deathState</a> == <a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#a671007e5c9d47b3ccb212f971e65baeda067c6778cd7570678dc70dc2e8b09e68">CORPSE</a>)</div>
+<div class="line"><span class="lineno">  157</span>                {</div>
+<div class="line"><span class="lineno">  158</span>                    <a class="code hl_function" href="../../d2/d6e/class_temp_summon.html#a198ec16a2673b1e481427549b6029d56">UnSummon</a>();</div>
+<div class="line"><span class="lineno">  159</span>                    <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  160</span>                }</div>
+<div class="line"><span class="lineno">  161</span> </div>
+<div class="line"><span class="lineno">  162</span>                <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../da/db7/class_unit.html#af5e75d013dfa8a8b888d7714992e3f2a">IsInCombat</a>())</div>
+<div class="line"><span class="lineno">  163</span>                {</div>
+<div class="line"><span class="lineno">  164</span>                    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d2/d6e/class_temp_summon.html#a19a3c747fabe3c2d788380b6b3aff5b5">m_timer</a> &lt;= diff)</div>
+<div class="line"><span class="lineno">  165</span>                    {</div>
+<div class="line"><span class="lineno">  166</span>                        <a class="code hl_function" href="../../d2/d6e/class_temp_summon.html#a198ec16a2673b1e481427549b6029d56">UnSummon</a>();</div>
+<div class="line"><span class="lineno">  167</span>                        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  168</span>                    }</div>
+<div class="line"><span class="lineno">  169</span>                    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  170</span>                        <a class="code hl_variable" href="../../d2/d6e/class_temp_summon.html#a19a3c747fabe3c2d788380b6b3aff5b5">m_timer</a> -= diff;</div>
+<div class="line"><span class="lineno">  171</span>                }</div>
+<div class="line"><span class="lineno">  172</span>                <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d2/d6e/class_temp_summon.html#a19a3c747fabe3c2d788380b6b3aff5b5">m_timer</a> != <a class="code hl_variable" href="../../d2/d6e/class_temp_summon.html#aeabc5d0c876b818d247ec93a6a5fa6b4">m_lifetime</a>)</div>
+<div class="line"><span class="lineno">  173</span>                    <a class="code hl_variable" href="../../d2/d6e/class_temp_summon.html#a19a3c747fabe3c2d788380b6b3aff5b5">m_timer</a> = <a class="code hl_variable" href="../../d2/d6e/class_temp_summon.html#aeabc5d0c876b818d247ec93a6a5fa6b4">m_lifetime</a>;</div>
+<div class="line"><span class="lineno">  174</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  175</span>            }</div>
+<div class="line"><span class="lineno">  176</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../df/d30/_object_8h.html#a38c6d8d01cbe0c49b035f348f7724148a7fcc17b9aac93c81619414e6af366e39">TEMPSUMMON_TIMED_OR_DEAD_DESPAWN</a>:</div>
+<div class="line"><span class="lineno">  177</span>            {</div>
+<div class="line"><span class="lineno">  178</span>                <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../da/db7/class_unit.html#af5e75d013dfa8a8b888d7714992e3f2a">IsInCombat</a>() &amp;&amp; <a class="code hl_function" href="../../da/db7/class_unit.html#a5ea3f54af571493f7889220724667189">IsAlive</a>())</div>
+<div class="line"><span class="lineno">  179</span>                {</div>
+<div class="line"><span class="lineno">  180</span>                    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d2/d6e/class_temp_summon.html#a19a3c747fabe3c2d788380b6b3aff5b5">m_timer</a> &lt;= diff)</div>
+<div class="line"><span class="lineno">  181</span>                    {</div>
+<div class="line"><span class="lineno">  182</span>                        <a class="code hl_function" href="../../d2/d6e/class_temp_summon.html#a198ec16a2673b1e481427549b6029d56">UnSummon</a>();</div>
+<div class="line"><span class="lineno">  183</span>                        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  184</span>                    }</div>
+<div class="line"><span class="lineno">  185</span>                    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  186</span>                        <a class="code hl_variable" href="../../d2/d6e/class_temp_summon.html#a19a3c747fabe3c2d788380b6b3aff5b5">m_timer</a> -= diff;</div>
+<div class="line"><span class="lineno">  187</span>                }</div>
+<div class="line"><span class="lineno">  188</span>                <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d2/d6e/class_temp_summon.html#a19a3c747fabe3c2d788380b6b3aff5b5">m_timer</a> != <a class="code hl_variable" href="../../d2/d6e/class_temp_summon.html#aeabc5d0c876b818d247ec93a6a5fa6b4">m_lifetime</a>)</div>
+<div class="line"><span class="lineno">  189</span>                    <a class="code hl_variable" href="../../d2/d6e/class_temp_summon.html#a19a3c747fabe3c2d788380b6b3aff5b5">m_timer</a> = <a class="code hl_variable" href="../../d2/d6e/class_temp_summon.html#aeabc5d0c876b818d247ec93a6a5fa6b4">m_lifetime</a>;</div>
+<div class="line"><span class="lineno">  190</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  191</span>            }</div>
+<div class="line"><span class="lineno">  192</span>        <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  193</span>            <a class="code hl_function" href="../../d2/d6e/class_temp_summon.html#a198ec16a2673b1e481427549b6029d56">UnSummon</a>();</div>
+<div class="line"><span class="lineno">  194</span>            <a class="code hl_define" href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;entities.unit&quot;</span>, <span class="stringliteral">&quot;Temporary summoned creature (entry: {}) have unknown type {} of &quot;</span>, <a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>(), <a class="code hl_variable" href="../../d2/d6e/class_temp_summon.html#aac572ed0079d43d9a706423aaeea91a7">m_type</a>);</div>
+<div class="line"><span class="lineno">  195</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  196</span>    }</div>
+<div class="line"><span class="lineno">  197</span>}</div>
+<div class="ttc" id="a_log_8h_html_a43832e3fa8508deb4ce43e520005fcd9"><div class="ttname"><a href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a></div><div class="ttdeci">#define LOG_ERROR(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:159</div></div>
+<div class="ttc" id="a_object_8h_html_a38c6d8d01cbe0c49b035f348f7724148a1e689534a035355813f5eac245564af7"><div class="ttname"><a href="../../df/d30/_object_8h.html#a38c6d8d01cbe0c49b035f348f7724148a1e689534a035355813f5eac245564af7">TEMPSUMMON_TIMED_DESPAWN_OOC_ALIVE</a></div><div class="ttdeci">@ TEMPSUMMON_TIMED_DESPAWN_OOC_ALIVE</div><div class="ttdef"><b>Definition:</b> Object.h:51</div></div>
+<div class="ttc" id="a_object_8h_html_a38c6d8d01cbe0c49b035f348f7724148a792ae85af0a6c91140415668fdfef99a"><div class="ttname"><a href="../../df/d30/_object_8h.html#a38c6d8d01cbe0c49b035f348f7724148a792ae85af0a6c91140415668fdfef99a">TEMPSUMMON_TIMED_DESPAWN_OUT_OF_COMBAT</a></div><div class="ttdeci">@ TEMPSUMMON_TIMED_DESPAWN_OUT_OF_COMBAT</div><div class="ttdef"><b>Definition:</b> Object.h:45</div></div>
+<div class="ttc" id="a_object_8h_html_a38c6d8d01cbe0c49b035f348f7724148a7fcc17b9aac93c81619414e6af366e39"><div class="ttname"><a href="../../df/d30/_object_8h.html#a38c6d8d01cbe0c49b035f348f7724148a7fcc17b9aac93c81619414e6af366e39">TEMPSUMMON_TIMED_OR_DEAD_DESPAWN</a></div><div class="ttdeci">@ TEMPSUMMON_TIMED_OR_DEAD_DESPAWN</div><div class="ttdef"><b>Definition:</b> Object.h:42</div></div>
+<div class="ttc" id="a_object_8h_html_a38c6d8d01cbe0c49b035f348f7724148a9d16b839c0bff9df1f7adfe701da0882"><div class="ttname"><a href="../../df/d30/_object_8h.html#a38c6d8d01cbe0c49b035f348f7724148a9d16b839c0bff9df1f7adfe701da0882">TEMPSUMMON_TIMED_OR_CORPSE_DESPAWN</a></div><div class="ttdeci">@ TEMPSUMMON_TIMED_OR_CORPSE_DESPAWN</div><div class="ttdef"><b>Definition:</b> Object.h:43</div></div>
+<div class="ttc" id="a_object_8h_html_a38c6d8d01cbe0c49b035f348f7724148aca87dcb32ebfdc5d2d1acd159abe8fd9"><div class="ttname"><a href="../../df/d30/_object_8h.html#a38c6d8d01cbe0c49b035f348f7724148aca87dcb32ebfdc5d2d1acd159abe8fd9">TEMPSUMMON_CORPSE_DESPAWN</a></div><div class="ttdeci">@ TEMPSUMMON_CORPSE_DESPAWN</div><div class="ttdef"><b>Definition:</b> Object.h:46</div></div>
+<div class="ttc" id="a_object_8h_html_a38c6d8d01cbe0c49b035f348f7724148ae10d0bfbb29fbbfe0e3c50203548d01a"><div class="ttname"><a href="../../df/d30/_object_8h.html#a38c6d8d01cbe0c49b035f348f7724148ae10d0bfbb29fbbfe0e3c50203548d01a">TEMPSUMMON_CORPSE_TIMED_DESPAWN</a></div><div class="ttdeci">@ TEMPSUMMON_CORPSE_TIMED_DESPAWN</div><div class="ttdef"><b>Definition:</b> Object.h:47</div></div>
+<div class="ttc" id="a_unit_8h_html_a671007e5c9d47b3ccb212f971e65baeda067c6778cd7570678dc70dc2e8b09e68"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#a671007e5c9d47b3ccb212f971e65baeda067c6778cd7570678dc70dc2e8b09e68">CORPSE</a></div><div class="ttdeci">@ CORPSE</div><div class="ttdef"><b>Definition:</b> Unit.h:318</div></div>
+<div class="ttc" id="a_unit_8h_html_a671007e5c9d47b3ccb212f971e65baeda11fd9ca455f92c69c084484d5cd803c2"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#a671007e5c9d47b3ccb212f971e65baeda11fd9ca455f92c69c084484d5cd803c2">DEAD</a></div><div class="ttdeci">@ DEAD</div><div class="ttdef"><b>Definition:</b> Unit.h:319</div></div>
+<div class="ttc" id="aclass_creature_html_a2aaf88eaaf8e376030dd034eff91bb37"><div class="ttname"><a href="../../d1/dac/class_creature.html#a2aaf88eaaf8e376030dd034eff91bb37">Creature::Update</a></div><div class="ttdeci">void Update(uint32 time) override</div><div class="ttdef"><b>Definition:</b> Creature.cpp:610</div></div>
+<div class="ttc" id="aclass_object_html_aa627fe2967ed0e0ed1d8aeeb4365a961"><div class="ttname"><a href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">Object::GetEntry</a></div><div class="ttdeci">uint32 GetEntry() const</div><div class="ttdef"><b>Definition:</b> Object.h:109</div></div>
+<div class="ttc" id="aclass_unit_html_a5ea3f54af571493f7889220724667189"><div class="ttname"><a href="../../da/db7/class_unit.html#a5ea3f54af571493f7889220724667189">Unit::IsAlive</a></div><div class="ttdeci">bool IsAlive() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1805</div></div>
+<div class="ttc" id="aclass_unit_html_a6095270dbf0be2614592c880d455fa3c"><div class="ttname"><a href="../../da/db7/class_unit.html#a6095270dbf0be2614592c880d455fa3c">Unit::m_deathState</a></div><div class="ttdeci">DeathState m_deathState</div><div class="ttdef"><b>Definition:</b> Unit.h:2483</div></div>
+<div class="ttc" id="aclass_unit_html_af5e75d013dfa8a8b888d7714992e3f2a"><div class="ttname"><a href="../../da/db7/class_unit.html#af5e75d013dfa8a8b888d7714992e3f2a">Unit::IsInCombat</a></div><div class="ttdeci">bool IsInCombat() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1685</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -3843,8 +4206,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Entities/Creature/<a class="el" href="../../d6/db3/_temporary_summon_8h_source.html">TemporarySummon.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/Entities/Creature/<a class="el" href="../../d2/d8f/_temporary_summon_8cpp.html">TemporarySummon.cpp</a></li>
+<li><a class="el" href="../../">TemporarySummon.h</a></li>
+<li><a class="el" href="../../">TemporarySummon.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -3852,7 +4215,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d2/d6e/class_temp_summon.html">TempSummon</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:12 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:28 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

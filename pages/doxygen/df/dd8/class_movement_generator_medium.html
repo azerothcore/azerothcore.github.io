@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('df/dd8/class_movement_generator_medium
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../de/df2/_movement_generator_8h_source.html">MovementGenerator.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">MovementGenerator.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for MovementGeneratorMedium&lt; T, D &gt;:</div>
 <div class="dyncontent">
@@ -161,7 +161,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a60ac9e99f41d1f5c320441cf78b4b46a inherit pub_methods_class_movement_generator"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d70/class_movement_generator.html#a60ac9e99f41d1f5c320441cf78b4b46a">GetResetPosition</a> (float &amp;, float &amp;, float &amp;)</td></tr>
 <tr class="separator:a60ac9e99f41d1f5c320441cf78b4b46a inherit pub_methods_class_movement_generator"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;class T, class D&gt;<br />
+class MovementGeneratorMedium&lt; T, D &gt;</div></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a90c8b42ef67968bf58acae5678dc7496" name="a90c8b42ef67968bf58acae5678dc7496"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a90c8b42ef67968bf58acae5678dc7496">&#9670;&#160;</a></span>Finalize()</h2>
 
@@ -191,7 +193,11 @@ template&lt;class T , class D &gt; </div>
 <p>Implements <a class="el" href="../../d9/d70/class_movement_generator.html#aef4cf800aa06dddac4efd36e3c058d2b">MovementGenerator</a>.</p>
 
 <p>Reimplemented in <a class="el" href="../../de/d8f/class_timed_fleeing_movement_generator.html#a1a18f033663fa93ef0b9885aae21f766">TimedFleeingMovementGenerator</a>, and <a class="el" href="../../dc/df0/class_assistance_movement_generator.html#a6fc296a5283726cca409d7df1137743d">AssistanceMovementGenerator</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   67</span>    {</div>
+<div class="line"><span class="lineno">   68</span>        <span class="comment">//u-&gt;AssertIsType&lt;T&gt;();</span></div>
+<div class="line"><span class="lineno">   69</span>        (<span class="keyword">static_cast&lt;</span>D*<span class="keyword">&gt;</span>(<span class="keyword">this</span>))-&gt;DoFinalize(<span class="keyword">static_cast&lt;</span>T*<span class="keyword">&gt;</span>(u));</div>
+<div class="line"><span class="lineno">   70</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad6b97c3e2884dfbe3f17e2579b31ac66" name="ad6b97c3e2884dfbe3f17e2579b31ac66"></a>
@@ -221,7 +227,11 @@ template&lt;class T , class D &gt; </div>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d9/d70/class_movement_generator.html#a0040e427ac4a09273641a96a13fd4c1f">MovementGenerator</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   61</span>    {</div>
+<div class="line"><span class="lineno">   62</span>        <span class="comment">//u-&gt;AssertIsType&lt;T&gt;();</span></div>
+<div class="line"><span class="lineno">   63</span>        (<span class="keyword">static_cast&lt;</span>D*<span class="keyword">&gt;</span>(<span class="keyword">this</span>))-&gt;DoInitialize(<span class="keyword">static_cast&lt;</span>T*<span class="keyword">&gt;</span>(u));</div>
+<div class="line"><span class="lineno">   64</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a6db99ea9863dc60d032bacda37afa078" name="a6db99ea9863dc60d032bacda37afa078"></a>
@@ -251,7 +261,11 @@ template&lt;class T , class D &gt; </div>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d9/d70/class_movement_generator.html#aa6641fa1182551421fc8572afad8e083">MovementGenerator</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   73</span>    {</div>
+<div class="line"><span class="lineno">   74</span>        <span class="comment">//u-&gt;AssertIsType&lt;T&gt;();</span></div>
+<div class="line"><span class="lineno">   75</span>        (<span class="keyword">static_cast&lt;</span>D*<span class="keyword">&gt;</span>(<span class="keyword">this</span>))-&gt;DoReset(<span class="keyword">static_cast&lt;</span>T*<span class="keyword">&gt;</span>(u));</div>
+<div class="line"><span class="lineno">   76</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="af044c8725ef11e8a152987225521ef8b" name="af044c8725ef11e8a152987225521ef8b"></a>
@@ -293,11 +307,15 @@ template&lt;class T , class D &gt; </div>
 <p>Implements <a class="el" href="../../d9/d70/class_movement_generator.html#ae3014d8c6e728799c86134ef64737ed5">MovementGenerator</a>.</p>
 
 <p>Reimplemented in <a class="el" href="../../de/d8f/class_timed_fleeing_movement_generator.html#a53688aae55bfdd3a33eb24484fcc157e">TimedFleeingMovementGenerator</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   79</span>    {</div>
+<div class="line"><span class="lineno">   80</span>        <span class="comment">//u-&gt;AssertIsType&lt;T&gt;();</span></div>
+<div class="line"><span class="lineno">   81</span>        <span class="keywordflow">return</span> (<span class="keyword">static_cast&lt;</span>D*<span class="keyword">&gt;</span>(<span class="keyword">this</span>))-&gt;DoUpdate(<span class="keyword">static_cast&lt;</span>T*<span class="keyword">&gt;</span>(u), time_diff);</div>
+<div class="line"><span class="lineno">   82</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Movement/<a class="el" href="../../de/df2/_movement_generator_8h_source.html">MovementGenerator.h</a></li>
+<li><a class="el" href="../../">MovementGenerator.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -305,7 +323,7 @@ template&lt;class T , class D &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../df/dd8/class_movement_generator_medium.html">MovementGeneratorMedium</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:47 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:02 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

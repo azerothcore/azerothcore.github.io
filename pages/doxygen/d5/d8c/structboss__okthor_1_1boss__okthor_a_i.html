@@ -530,7 +530,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a8007cfade5c04d8b4e0b787ac5a5beff" name="a8007cfade5c04d8b4e0b787ac5a5beff"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8007cfade5c04d8b4e0b787ac5a5beff">&#9670;&#160;</a></span>boss_okthorAI()</h2>
 
@@ -554,7 +555,10 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   50</span>: <a class="code hl_class" href="../../d4/d0e/class_boss_a_i.html">BossAI</a>(creature, <a class="code hl_enumvalue" href="../../d7/d26/blackrock__depths_8h.html#afb6eb4f28419b652027fad41104a6d22adfc705ac30f98bf3984da233e5c217ed">DATA_OKTHOR</a>) {}</div>
+<div class="ttc" id="ablackrock__depths_8h_html_afb6eb4f28419b652027fad41104a6d22adfc705ac30f98bf3984da233e5c217ed"><div class="ttname"><a href="../../d7/d26/blackrock__depths_8h.html#afb6eb4f28419b652027fad41104a6d22adfc705ac30f98bf3984da233e5c217ed">DATA_OKTHOR</a></div><div class="ttdeci">@ DATA_OKTHOR</div><div class="ttdef"><b>Definition:</b> blackrock_depths.h:80</div></div>
+<div class="ttc" id="aclass_boss_a_i_html"><div class="ttname"><a href="../../d4/d0e/class_boss_a_i.html">BossAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:424</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -583,7 +587,23 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d4/d0e/class_boss_a_i.html#a2f3d2c15114cff26b92dedd45dff0905">BossAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   55</span>        {</div>
+<div class="line"><span class="lineno">   56</span>            <a class="code hl_function" href="../../d4/d0e/class_boss_a_i.html#adbdded8bea1d5cf779f2aed9bc2a4821">_EnterCombat</a>();</div>
+<div class="line"><span class="lineno">   57</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d4/d76/boss__okthor_8cpp.html#a5bd342133be8c2137b831460acc9298cacc9efd3c20d926022e44fab28656b29c">SPELL_ARCANE_BOLT</a>, 0.2 * (<span class="keywordtype">int</span>) <a class="code hl_enumvalue" href="../../d4/d76/boss__okthor_8cpp.html#ab4d1592137d12427d186be538badd18baf091b9387e9cc48ce229952f91fbe4af">TIMER_ARCANE_BOLT</a>);</div>
+<div class="line"><span class="lineno">   58</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d4/d76/boss__okthor_8cpp.html#a5bd342133be8c2137b831460acc9298ca6cef4c5e88133771f6b27aec8b8cfdce">SPELL_ARCANE_EXPLOSION</a>, 0.2 * (<span class="keywordtype">int</span>) <a class="code hl_enumvalue" href="../../d4/d76/boss__okthor_8cpp.html#ab4d1592137d12427d186be538badd18bafc8a7eb8bea277a636f75e1b8ad24462">TIMER_ARCANE_EXPLOSION</a>);</div>
+<div class="line"><span class="lineno">   59</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d4/d76/boss__okthor_8cpp.html#a5bd342133be8c2137b831460acc9298cae5e7dc76db7aa286357183a1b529841f">SPELL_POLYMORPH</a>, 0.2 * (<span class="keywordtype">int</span>) <a class="code hl_enumvalue" href="../../d4/d76/boss__okthor_8cpp.html#ab4d1592137d12427d186be538badd18ba5546158bce555f0fd42306a800b838d6">TIMER_POLYMORPH</a>);</div>
+<div class="line"><span class="lineno">   60</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d4/d76/boss__okthor_8cpp.html#a5bd342133be8c2137b831460acc9298ca8c3d41eb1b68da0f3943e5df04bfcb5c">SPELL_SLOW</a>, 500);</div>
+<div class="line"><span class="lineno">   61</span>        }</div>
+<div class="ttc" id="aboss__okthor_8cpp_html_a5bd342133be8c2137b831460acc9298ca6cef4c5e88133771f6b27aec8b8cfdce"><div class="ttname"><a href="../../d4/d76/boss__okthor_8cpp.html#a5bd342133be8c2137b831460acc9298ca6cef4c5e88133771f6b27aec8b8cfdce">SPELL_ARCANE_EXPLOSION</a></div><div class="ttdeci">@ SPELL_ARCANE_EXPLOSION</div><div class="ttdef"><b>Definition:</b> boss_okthor.cpp:25</div></div>
+<div class="ttc" id="aboss__okthor_8cpp_html_a5bd342133be8c2137b831460acc9298ca8c3d41eb1b68da0f3943e5df04bfcb5c"><div class="ttname"><a href="../../d4/d76/boss__okthor_8cpp.html#a5bd342133be8c2137b831460acc9298ca8c3d41eb1b68da0f3943e5df04bfcb5c">SPELL_SLOW</a></div><div class="ttdeci">@ SPELL_SLOW</div><div class="ttdef"><b>Definition:</b> boss_okthor.cpp:27</div></div>
+<div class="ttc" id="aboss__okthor_8cpp_html_a5bd342133be8c2137b831460acc9298cacc9efd3c20d926022e44fab28656b29c"><div class="ttname"><a href="../../d4/d76/boss__okthor_8cpp.html#a5bd342133be8c2137b831460acc9298cacc9efd3c20d926022e44fab28656b29c">SPELL_ARCANE_BOLT</a></div><div class="ttdeci">@ SPELL_ARCANE_BOLT</div><div class="ttdef"><b>Definition:</b> boss_okthor.cpp:24</div></div>
+<div class="ttc" id="aboss__okthor_8cpp_html_a5bd342133be8c2137b831460acc9298cae5e7dc76db7aa286357183a1b529841f"><div class="ttname"><a href="../../d4/d76/boss__okthor_8cpp.html#a5bd342133be8c2137b831460acc9298cae5e7dc76db7aa286357183a1b529841f">SPELL_POLYMORPH</a></div><div class="ttdeci">@ SPELL_POLYMORPH</div><div class="ttdef"><b>Definition:</b> boss_okthor.cpp:26</div></div>
+<div class="ttc" id="aboss__okthor_8cpp_html_ab4d1592137d12427d186be538badd18ba5546158bce555f0fd42306a800b838d6"><div class="ttname"><a href="../../d4/d76/boss__okthor_8cpp.html#ab4d1592137d12427d186be538badd18ba5546158bce555f0fd42306a800b838d6">TIMER_POLYMORPH</a></div><div class="ttdeci">@ TIMER_POLYMORPH</div><div class="ttdef"><b>Definition:</b> boss_okthor.cpp:34</div></div>
+<div class="ttc" id="aboss__okthor_8cpp_html_ab4d1592137d12427d186be538badd18baf091b9387e9cc48ce229952f91fbe4af"><div class="ttname"><a href="../../d4/d76/boss__okthor_8cpp.html#ab4d1592137d12427d186be538badd18baf091b9387e9cc48ce229952f91fbe4af">TIMER_ARCANE_BOLT</a></div><div class="ttdeci">@ TIMER_ARCANE_BOLT</div><div class="ttdef"><b>Definition:</b> boss_okthor.cpp:32</div></div>
+<div class="ttc" id="aboss__okthor_8cpp_html_ab4d1592137d12427d186be538badd18bafc8a7eb8bea277a636f75e1b8ad24462"><div class="ttname"><a href="../../d4/d76/boss__okthor_8cpp.html#ab4d1592137d12427d186be538badd18bafc8a7eb8bea277a636f75e1b8ad24462">TIMER_ARCANE_EXPLOSION</a></div><div class="ttdeci">@ TIMER_ARCANE_EXPLOSION</div><div class="ttdef"><b>Definition:</b> boss_okthor.cpp:33</div></div>
+<div class="ttc" id="aboss__sartura_8cpp_html_ad29858f6d8ab73f2970f41cb21a76b84"><div class="ttname"><a href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a></div><div class="ttdeci">events</div><div class="ttdef"><b>Definition:</b> boss_sartura.cpp:43</div></div>
+<div class="ttc" id="aclass_boss_a_i_html_adbdded8bea1d5cf779f2aed9bc2a4821"><div class="ttname"><a href="../../d4/d0e/class_boss_a_i.html#adbdded8bea1d5cf779f2aed9bc2a4821">BossAI::_EnterCombat</a></div><div class="ttdeci">void _EnterCombat()</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.cpp:562</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a246c3bd9aa96eb11d2fa48be8654d726" name="a246c3bd9aa96eb11d2fa48be8654d726"></a>
@@ -611,7 +631,77 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d4/d0e/class_boss_a_i.html#a840cc108b3135ee19402e61d591f18d0">BossAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   64</span>        {</div>
+<div class="line"><span class="lineno">   65</span>            <span class="comment">//Return since we have no target</span></div>
+<div class="line"><span class="lineno">   66</span>            <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">UpdateVictim</a>())</div>
+<div class="line"><span class="lineno">   67</span>            {</div>
+<div class="line"><span class="lineno">   68</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   69</span>            }</div>
+<div class="line"><span class="lineno">   70</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.Update(diff);</div>
+<div class="line"><span class="lineno">   71</span> </div>
+<div class="line"><span class="lineno">   72</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ab78147cd520d2dac6be709b4c80a7de3">HasUnitState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54">UNIT_STATE_CASTING</a>))</div>
+<div class="line"><span class="lineno">   73</span>            {</div>
+<div class="line"><span class="lineno">   74</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   75</span>            }</div>
+<div class="line"><span class="lineno">   76</span>            <span class="keywordflow">while</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> eventId = <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ExecuteEvent())</div>
+<div class="line"><span class="lineno">   77</span>            {</div>
+<div class="line"><span class="lineno">   78</span>                <span class="keywordflow">switch</span> (eventId)</div>
+<div class="line"><span class="lineno">   79</span>                {</div>
+<div class="line"><span class="lineno">   80</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/d76/boss__okthor_8cpp.html#a5bd342133be8c2137b831460acc9298cacc9efd3c20d926022e44fab28656b29c">SPELL_ARCANE_BOLT</a>:</div>
+<div class="line"><span class="lineno">   81</span>                    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target = <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6daed910a7666394bcbf8abd2f20096e">SelectTarget</a>(SelectTargetMethod::Random, 0, 100, <span class="keyword">true</span>))</div>
+<div class="line"><span class="lineno">   82</span>                    {</div>
+<div class="line"><span class="lineno">   83</span>                        <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(target, <a class="code hl_enumvalue" href="../../d4/d76/boss__okthor_8cpp.html#a5bd342133be8c2137b831460acc9298cacc9efd3c20d926022e44fab28656b29c">SPELL_ARCANE_BOLT</a>);</div>
+<div class="line"><span class="lineno">   84</span>                    }</div>
+<div class="line"><span class="lineno">   85</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d4/d76/boss__okthor_8cpp.html#a5bd342133be8c2137b831460acc9298cacc9efd3c20d926022e44fab28656b29c">SPELL_ARCANE_BOLT</a>, <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(<a class="code hl_enumvalue" href="../../d4/d76/boss__okthor_8cpp.html#ab4d1592137d12427d186be538badd18baf091b9387e9cc48ce229952f91fbe4af">TIMER_ARCANE_BOLT</a> - 2000, <a class="code hl_enumvalue" href="../../d4/d76/boss__okthor_8cpp.html#ab4d1592137d12427d186be538badd18baf091b9387e9cc48ce229952f91fbe4af">TIMER_ARCANE_BOLT</a> + 2000));</div>
+<div class="line"><span class="lineno">   86</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   87</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/d76/boss__okthor_8cpp.html#a5bd342133be8c2137b831460acc9298ca6cef4c5e88133771f6b27aec8b8cfdce">SPELL_ARCANE_EXPLOSION</a>:</div>
+<div class="line"><span class="lineno">   88</span>                    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a73f3c7fa817faebff6b2752ba3bb1a50">GetDistance2d</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">GetVictim</a>()) &lt; 50.0f)</div>
+<div class="line"><span class="lineno">   89</span>                    {</div>
+<div class="line"><span class="lineno">   90</span>                        <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(<a class="code hl_enumvalue" href="../../d4/d76/boss__okthor_8cpp.html#a5bd342133be8c2137b831460acc9298ca6cef4c5e88133771f6b27aec8b8cfdce">SPELL_ARCANE_EXPLOSION</a>);</div>
+<div class="line"><span class="lineno">   91</span>                        <a class="code hl_variable" href="../../d5/d8c/structboss__okthor_1_1boss__okthor_a_i.html#a89d8cdd528775ee77caeac1d0465d4f2">nextArcaneExplosionTime</a> = <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(<a class="code hl_enumvalue" href="../../d4/d76/boss__okthor_8cpp.html#ab4d1592137d12427d186be538badd18bafc8a7eb8bea277a636f75e1b8ad24462">TIMER_ARCANE_EXPLOSION</a> - 2000, <a class="code hl_enumvalue" href="../../d4/d76/boss__okthor_8cpp.html#ab4d1592137d12427d186be538badd18bafc8a7eb8bea277a636f75e1b8ad24462">TIMER_ARCANE_EXPLOSION</a> + 2000);</div>
+<div class="line"><span class="lineno">   92</span>                    }</div>
+<div class="line"><span class="lineno">   93</span>                    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">   94</span>                    {</div>
+<div class="line"><span class="lineno">   95</span>                        <a class="code hl_variable" href="../../d5/d8c/structboss__okthor_1_1boss__okthor_a_i.html#a89d8cdd528775ee77caeac1d0465d4f2">nextArcaneExplosionTime</a> = 0.3*<a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(<a class="code hl_enumvalue" href="../../d4/d76/boss__okthor_8cpp.html#ab4d1592137d12427d186be538badd18bafc8a7eb8bea277a636f75e1b8ad24462">TIMER_ARCANE_EXPLOSION</a> - 2000, <a class="code hl_enumvalue" href="../../d4/d76/boss__okthor_8cpp.html#ab4d1592137d12427d186be538badd18bafc8a7eb8bea277a636f75e1b8ad24462">TIMER_ARCANE_EXPLOSION</a> + 2000);</div>
+<div class="line"><span class="lineno">   96</span>                    }</div>
+<div class="line"><span class="lineno">   97</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d4/d76/boss__okthor_8cpp.html#a5bd342133be8c2137b831460acc9298ca6cef4c5e88133771f6b27aec8b8cfdce">SPELL_ARCANE_EXPLOSION</a>, <a class="code hl_variable" href="../../d5/d8c/structboss__okthor_1_1boss__okthor_a_i.html#a89d8cdd528775ee77caeac1d0465d4f2">nextArcaneExplosionTime</a>);</div>
+<div class="line"><span class="lineno">   98</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   99</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/d76/boss__okthor_8cpp.html#a5bd342133be8c2137b831460acc9298cae5e7dc76db7aa286357183a1b529841f">SPELL_POLYMORPH</a>:</div>
+<div class="line"><span class="lineno">  100</span>                    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target = <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6daed910a7666394bcbf8abd2f20096e">SelectTarget</a>(SelectTargetMethod::Random, 0, 100, <span class="keyword">true</span>))</div>
+<div class="line"><span class="lineno">  101</span>                    {</div>
+<div class="line"><span class="lineno">  102</span>                        <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(target, <a class="code hl_enumvalue" href="../../d4/d76/boss__okthor_8cpp.html#a5bd342133be8c2137b831460acc9298cae5e7dc76db7aa286357183a1b529841f">SPELL_POLYMORPH</a>);</div>
+<div class="line"><span class="lineno">  103</span>                    }</div>
+<div class="line"><span class="lineno">  104</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d4/d76/boss__okthor_8cpp.html#a5bd342133be8c2137b831460acc9298cae5e7dc76db7aa286357183a1b529841f">SPELL_POLYMORPH</a>, <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(<a class="code hl_enumvalue" href="../../d4/d76/boss__okthor_8cpp.html#ab4d1592137d12427d186be538badd18ba5546158bce555f0fd42306a800b838d6">TIMER_POLYMORPH</a> - 2000, <a class="code hl_enumvalue" href="../../d4/d76/boss__okthor_8cpp.html#ab4d1592137d12427d186be538badd18ba5546158bce555f0fd42306a800b838d6">TIMER_POLYMORPH</a> + 2000));</div>
+<div class="line"><span class="lineno">  105</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  106</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/d76/boss__okthor_8cpp.html#a5bd342133be8c2137b831460acc9298ca8c3d41eb1b68da0f3943e5df04bfcb5c">SPELL_SLOW</a>:</div>
+<div class="line"><span class="lineno">  107</span>                    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a73f3c7fa817faebff6b2752ba3bb1a50">GetDistance2d</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">GetVictim</a>()) &lt; 50.0f)</div>
+<div class="line"><span class="lineno">  108</span>                    {</div>
+<div class="line"><span class="lineno">  109</span>                        <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(<a class="code hl_enumvalue" href="../../d4/d76/boss__okthor_8cpp.html#a5bd342133be8c2137b831460acc9298ca8c3d41eb1b68da0f3943e5df04bfcb5c">SPELL_SLOW</a>);</div>
+<div class="line"><span class="lineno">  110</span>                    }</div>
+<div class="line"><span class="lineno">  111</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d4/d76/boss__okthor_8cpp.html#a5bd342133be8c2137b831460acc9298ca8c3d41eb1b68da0f3943e5df04bfcb5c">SPELL_SLOW</a>, <a class="code hl_enumvalue" href="../../d4/d76/boss__okthor_8cpp.html#ab4d1592137d12427d186be538badd18ba439d42554249fd90a0394bf41d747c49">TIMER_SLOW</a>);</div>
+<div class="line"><span class="lineno">  112</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  113</span> </div>
+<div class="line"><span class="lineno">  114</span>                <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  115</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  116</span>                }</div>
+<div class="line"><span class="lineno">  117</span>            }</div>
+<div class="line"><span class="lineno">  118</span>            <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">DoMeleeAttackIfReady</a>();</div>
+<div class="line"><span class="lineno">  119</span>        }</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="a_random_8cpp_html_ab17def34ccbbd868dc87a16bf35acdbd"><div class="ttname"><a href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a></div><div class="ttdeci">uint32 urand(uint32 min, uint32 max)</div><div class="ttdef"><b>Definition:</b> Random.cpp:44</div></div>
+<div class="ttc" id="a_unit_8h_html_ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54">UNIT_STATE_CASTING</a></div><div class="ttdeci">@ UNIT_STATE_CASTING</div><div class="ttdef"><b>Definition:</b> Unit.h:340</div></div>
+<div class="ttc" id="aboss__okthor_8cpp_html_ab4d1592137d12427d186be538badd18ba439d42554249fd90a0394bf41d747c49"><div class="ttname"><a href="../../d4/d76/boss__okthor_8cpp.html#ab4d1592137d12427d186be538badd18ba439d42554249fd90a0394bf41d747c49">TIMER_SLOW</a></div><div class="ttdeci">@ TIMER_SLOW</div><div class="ttdef"><b>Definition:</b> boss_okthor.cpp:35</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_ae03ccfe1e27501ed9ccbfecdbd3c4e39"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">CreatureAI::UpdateVictim</a></div><div class="ttdeci">bool UpdateVictim()</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:268</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a348a472089a9be6210b58aace8fafa9f"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">UnitAI::DoMeleeAttackIfReady</a></div><div class="ttdeci">void DoMeleeAttackIfReady()</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:40</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a6daed910a7666394bcbf8abd2f20096e"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a6daed910a7666394bcbf8abd2f20096e">UnitAI::SelectTarget</a></div><div class="ttdeci">Unit * SelectTarget(SelectTargetMethod targetType, uint32 position=0, float dist=0.0f, bool playerOnly=false, int32 aura=0)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:111</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_aeebcad9b6effa45145c50f06af60b23d"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">UnitAI::DoCast</a></div><div class="ttdeci">SpellCastResult DoCast(uint32 spellId)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:178</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_aae09d03a474ea5517d671e64dc393739"><div class="ttname"><a href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">Unit::GetVictim</a></div><div class="ttdeci">Unit * GetVictim() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1386</div></div>
+<div class="ttc" id="aclass_unit_html_ab78147cd520d2dac6be709b4c80a7de3"><div class="ttname"><a href="../../da/db7/class_unit.html#ab78147cd520d2dac6be709b4c80a7de3">Unit::HasUnitState</a></div><div class="ttdeci">bool HasUnitState(const uint32 f) const</div><div class="ttdef"><b>Definition:</b> Unit.h:1398</div></div>
+<div class="ttc" id="aclass_world_object_html_a73f3c7fa817faebff6b2752ba3bb1a50"><div class="ttname"><a href="../../db/df7/class_world_object.html#a73f3c7fa817faebff6b2752ba3bb1a50">WorldObject::GetDistance2d</a></div><div class="ttdeci">float GetDistance2d(WorldObject const *obj) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1263</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+<div class="ttc" id="astructboss__okthor_1_1boss__okthor_a_i_html_a89d8cdd528775ee77caeac1d0465d4f2"><div class="ttname"><a href="../../d5/d8c/structboss__okthor_1_1boss__okthor_a_i.html#a89d8cdd528775ee77caeac1d0465d4f2">boss_okthor::boss_okthorAI::nextArcaneExplosionTime</a></div><div class="ttdeci">uint32 nextArcaneExplosionTime</div><div class="ttdef"><b>Definition:</b> boss_okthor.cpp:52</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -630,7 +720,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/<a class="el" href="../../d4/d76/boss__okthor_8cpp.html">boss_okthor.cpp</a></li>
+<li><a class="el" href="../../">boss_okthor.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -638,7 +728,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d3/dc8/classboss__okthor.html">boss_okthor</a></li><li class="navelem"><a class="el" href="../../d5/d8c/structboss__okthor_1_1boss__okthor_a_i.html">boss_okthorAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:41 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:54 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

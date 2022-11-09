@@ -162,7 +162,8 @@ Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   39</span>{ <span class="keywordflow">return</span> address.to_ulong(); }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="af75b2c10ca445dc89c53b7ed8d17eae0" name="af75b2c10ca445dc89c53b7ed8d17eae0"></a>
@@ -188,7 +189,23 @@ Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   44</span>    {</div>
+<div class="line"><span class="lineno">   45</span>        <span class="keywordflow">if</span> ((<a class="code hl_function" href="../../d8/d0e/namespace_acore_1_1_net.html#abb8b9761e1df323f5c258c0a12da7bd4">address_to_uint</a>(networkAddress) &amp; 0x80000000) == 0)</div>
+<div class="line"><span class="lineno">   46</span>        {</div>
+<div class="line"><span class="lineno">   47</span>            <span class="keywordflow">return</span> boost::asio::ip::address_v4(0xFF000000);</div>
+<div class="line"><span class="lineno">   48</span>        }</div>
+<div class="line"><span class="lineno">   49</span>        <span class="keywordflow">if</span> ((address_to_uint(networkAddress) &amp; 0xC0000000) == 0x80000000)</div>
+<div class="line"><span class="lineno">   50</span>        {</div>
+<div class="line"><span class="lineno">   51</span>            <span class="keywordflow">return</span> boost::asio::ip::address_v4(0xFFFF0000);</div>
+<div class="line"><span class="lineno">   52</span>        }</div>
+<div class="line"><span class="lineno">   53</span>        <span class="keywordflow">if</span> ((address_to_uint(networkAddress) &amp; 0xE0000000) == 0xC0000000)</div>
+<div class="line"><span class="lineno">   54</span>        {</div>
+<div class="line"><span class="lineno">   55</span>            <span class="keywordflow">return</span> boost::asio::ip::address_v4(0xFFFFFF00);</div>
+<div class="line"><span class="lineno">   56</span>        }</div>
+<div class="line"><span class="lineno">   57</span>        <span class="keywordflow">return</span> boost::asio::ip::address_v4(0xFFFFFFFF);</div>
+<div class="line"><span class="lineno">   58</span>    }</div>
+<div class="ttc" id="anamespace_acore_1_1_net_html_abb8b9761e1df323f5c258c0a12da7bd4"><div class="ttname"><a href="../../d8/d0e/namespace_acore_1_1_net.html#abb8b9761e1df323f5c258c0a12da7bd4">Acore::Net::address_to_uint</a></div><div class="ttdeci">uint32 address_to_uint(boost::asio::ip::address_v4 const &amp;address)</div><div class="ttdef"><b>Definition:</b> IpAddress.h:39</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="af108d05a57113d16ab9c8f3b26870be2" name="af108d05a57113d16ab9c8f3b26870be2"></a>
@@ -230,7 +247,16 @@ Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   33</span>    {</div>
+<div class="line"><span class="lineno">   34</span><span class="preprocessor">#if BOOST_VERSION &gt;= 106600</span></div>
+<div class="line"><span class="lineno">   35</span>        boost::asio::ip::network_v4 network = boost::asio::ip::make_network_v4(networkAddress, mask);</div>
+<div class="line"><span class="lineno">   36</span>        boost::asio::ip::address_v4_range hosts = network.hosts();</div>
+<div class="line"><span class="lineno">   37</span>        <span class="keywordflow">return</span> hosts.find(clientAddress) != hosts.end();</div>
+<div class="line"><span class="lineno">   38</span><span class="preprocessor">#else</span></div>
+<div class="line"><span class="lineno">   39</span>        <span class="keywordflow">return</span> (clientAddress.to_ulong() &amp; mask.to_ulong()) == (networkAddress.to_ulong() &amp; mask.to_ulong());</div>
+<div class="line"><span class="lineno">   40</span><span class="preprocessor">#endif</span></div>
+<div class="line"><span class="lineno">   41</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2617cb1c747a45e5af4e2c32cc29d5de" name="a2617cb1c747a45e5af4e2c32cc29d5de"></a>
@@ -272,7 +298,19 @@ Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   61</span>    {</div>
+<div class="line"><span class="lineno">   62</span><span class="preprocessor">#if BOOST_VERSION &gt;= 106600</span></div>
+<div class="line"><span class="lineno">   63</span>        boost::asio::ip::network_v6 network = boost::asio::ip::make_network_v6(networkAddress, prefixLength);</div>
+<div class="line"><span class="lineno">   64</span>        boost::asio::ip::address_v6_range hosts = network.hosts();</div>
+<div class="line"><span class="lineno">   65</span>        <span class="keywordflow">return</span> hosts.find(clientAddress) != hosts.end();</div>
+<div class="line"><span class="lineno">   66</span><span class="preprocessor">#else</span></div>
+<div class="line"><span class="lineno">   67</span>        (void)networkAddress;</div>
+<div class="line"><span class="lineno">   68</span>        (void)prefixLength;</div>
+<div class="line"><span class="lineno">   69</span>        (void)clientAddress;</div>
+<div class="line"><span class="lineno">   70</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   71</span><span class="preprocessor">#endif</span></div>
+<div class="line"><span class="lineno">   72</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac80c495c6580128a469eba313692d1cd" name="ac80c495c6580128a469eba313692d1cd"></a>
@@ -298,7 +336,8 @@ Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   31</span>{ <span class="keywordflow">return</span> boost::asio::ip::address::from_string(str); }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a343cf4089c9d51c02c94ffe0d4839202" name="a343cf4089c9d51c02c94ffe0d4839202"></a>
@@ -334,7 +373,8 @@ Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   32</span>{ <span class="keywordflow">return</span> boost::asio::ip::address::from_string(str, ec); }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aa8694b0a7f5d153bd9665fbaf7d1bf9e" name="aa8694b0a7f5d153bd9665fbaf7d1bf9e"></a>
@@ -360,7 +400,8 @@ Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   33</span>{ <span class="keywordflow">return</span> boost::asio::ip::address::from_string(str); }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ae75b341a89c6b5e5af9b874e18f0d68b" name="ae75b341a89c6b5e5af9b874e18f0d68b"></a>
@@ -396,7 +437,8 @@ Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   34</span>{ <span class="keywordflow">return</span> boost::asio::ip::address::from_string(str, ec); }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ab2f4b01d81930dc12b3843012d676953" name="ab2f4b01d81930dc12b3843012d676953"></a>
@@ -422,7 +464,8 @@ Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   35</span>{ <span class="keywordflow">return</span> boost::asio::ip::address_v4::from_string(str); }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aaa19a330638c4ebb60cf33897718402e" name="aaa19a330638c4ebb60cf33897718402e"></a>
@@ -458,7 +501,8 @@ Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   36</span>{ <span class="keywordflow">return</span> boost::asio::ip::address_v4::from_string(str, ec); }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2b8976497f6d80395aaa34e8485656b1" name="a2b8976497f6d80395aaa34e8485656b1"></a>
@@ -484,7 +528,8 @@ Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   37</span>{ <span class="keywordflow">return</span> boost::asio::ip::address_v4::from_string(str); }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a53a0c1a3dc9a8eab17cbee7bb36f81c9" name="a53a0c1a3dc9a8eab17cbee7bb36f81c9"></a>
@@ -520,7 +565,8 @@ Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   38</span>{ <span class="keywordflow">return</span> boost::asio::ip::address_v4::from_string(str, ec); }</div>
+</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
@@ -529,7 +575,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d7d/namespace_acore.html">Acore</a></li><li class="navelem"><a class="el" href="../../d8/d0e/namespace_acore_1_1_net.html">Net</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:13 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:32 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

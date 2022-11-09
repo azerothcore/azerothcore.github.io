@@ -114,7 +114,7 @@ $(document).ready(function(){initNavTree('df/d07/class_movement_1_1_move_spline_
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d6/d39/_move_spline_flag_8h_source.html">MoveSplineFlag.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">MoveSplineFlag.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
@@ -296,7 +296,8 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ae7259d3492907af0b2198a4e217687f5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d07/class_movement_1_1_move_spline_flag.html#ae7259d3492907af0b2198a4e217687f5">unknown13</a>: 1</td></tr>
 <tr class="separator:ae7259d3492907af0b2198a4e217687f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="a9a8b47cc7b2fe7a9cb43e89ed9010f3c" name="a9a8b47cc7b2fe7a9cb43e89ed9010f3c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9a8b47cc7b2fe7a9cb43e89ed9010f3c">&#9670;&#160;</a></span>eFlags</h2>
 
@@ -340,7 +341,76 @@ Public Attributes</h2></td></tr>
 <tr><td class="fieldname"><a id="a9a8b47cc7b2fe7a9cb43e89ed9010f3ca1ef583343de87bfa9866a64ca0506c8e" name="a9a8b47cc7b2fe7a9cb43e89ed9010f3ca1ef583343de87bfa9866a64ca0506c8e"></a>Mask_CatmullRom&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a9a8b47cc7b2fe7a9cb43e89ed9010f3caf03934d5cae89037c1c63aa1a80a4d88" name="a9a8b47cc7b2fe7a9cb43e89ed9010f3caf03934d5cae89037c1c63aa1a80a4d88"></a>Mask_Unused&#160;</td><td class="fielddoc"></td></tr>
 </table>
-
+<div class="fragment"><div class="line"><span class="lineno">   36</span>        {</div>
+<div class="line"><span class="lineno">   37</span>            <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca7f9de8e682260aaadfca7cdc810b9a7b">None</a>                = 0x00000000,</div>
+<div class="line"><span class="lineno">   38</span>            <span class="comment">// x00-xFF(first byte) used as animation Ids storage in pair with Animation flag</span></div>
+<div class="line"><span class="lineno">   39</span>            <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3cae8d6876026a8ec86863d8c865ca17d01">Done</a>                = 0x00000100,</div>
+<div class="line"><span class="lineno">   40</span>            <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3cac5a23746207a86ea9d433b3b22b97952">Falling</a>             = 0x00000200,           <span class="comment">// Affects elevation computation, can&#39;t be combined with Parabolic flag</span></div>
+<div class="line"><span class="lineno">   41</span>            <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca257d2a603ab0118301055cafe3e7d4e9">No_Spline</a>           = 0x00000400,</div>
+<div class="line"><span class="lineno">   42</span>            <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca341cef845b788d83646e1c8b32023c5f">Parabolic</a>           = 0x00000800,           <span class="comment">// Affects elevation computation, can&#39;t be combined with Falling flag</span></div>
+<div class="line"><span class="lineno">   43</span>            <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca364e60ed42b162880ed33baf297a4b97">Walkmode</a>            = 0x00001000,</div>
+<div class="line"><span class="lineno">   44</span>            <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca4b25bab9a77a4cbdbec035eb4e588a03">Flying</a>              = 0x00002000,           <span class="comment">// Smooth movement(Catmullrom interpolation mode), flying animation</span></div>
+<div class="line"><span class="lineno">   45</span>            <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca0cf97db19c690d86eaa289414799d66c">OrientationFixed</a>    = 0x00004000,           <span class="comment">// Model orientation fixed</span></div>
+<div class="line"><span class="lineno">   46</span>            <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3caacde39723fd9d2c711c6b7a6448bb1c4">Final_Point</a>         = 0x00008000,</div>
+<div class="line"><span class="lineno">   47</span>            <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3cac7be8873500e6257d241f9d867db0ccb">Final_Target</a>        = 0x00010000,</div>
+<div class="line"><span class="lineno">   48</span>            <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca1cbf089a1c0dc3ee118d3a049bfd8353">Final_Angle</a>         = 0x00020000,</div>
+<div class="line"><span class="lineno">   49</span>            <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca88f2f72ec3315e67028257a7f0e6425c">Catmullrom</a>          = 0x00040000,           <span class="comment">// Used Catmullrom interpolation mode</span></div>
+<div class="line"><span class="lineno">   50</span>            <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca593416e180d36af9ab09946e90800c0d">Cyclic</a>              = 0x00080000,           <span class="comment">// Movement by cycled spline</span></div>
+<div class="line"><span class="lineno">   51</span>            <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca7fe6d10bf82a655112a90ff47277d1bb">Enter_Cycle</a>         = 0x00100000,           <span class="comment">// Everytimes appears with cyclic flag in monster move packet, erases first spline vertex after first cycle done</span></div>
+<div class="line"><span class="lineno">   52</span>            <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3cafcfd18b5805043a54785fd29fb5de7ff">Animation</a>           = 0x00200000,           <span class="comment">// Plays animation after some time passed</span></div>
+<div class="line"><span class="lineno">   53</span>            <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca17ecf8dcb2ecc57225b5c1e59d3b64ad">Frozen</a>              = 0x00400000,           <span class="comment">// Will never arrive</span></div>
+<div class="line"><span class="lineno">   54</span>            <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3caee06e01fb65415c54a99913db4eea738">TransportEnter</a>      = 0x00800000,</div>
+<div class="line"><span class="lineno">   55</span>            <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca4ce199e7c9a3520cff17a5f2af8d19ee">TransportExit</a>       = 0x01000000,</div>
+<div class="line"><span class="lineno">   56</span>            <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca769fb40b8df9ccc561d0f3cd43951e63">Unknown7</a>            = 0x02000000,</div>
+<div class="line"><span class="lineno">   57</span>            <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca986b084d217dc089f4ec83daaabf878e">Unknown8</a>            = 0x04000000,</div>
+<div class="line"><span class="lineno">   58</span>            <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca99a6b0dd87640c4dbe331911a5dfa550">OrientationInversed</a> = 0x08000000,</div>
+<div class="line"><span class="lineno">   59</span>            <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca0b751746b109527c27b96e4953429eb8">Unknown10</a>           = 0x10000000,</div>
+<div class="line"><span class="lineno">   60</span>            <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca162d543ceed58903cbf079e269bd32c5">Unknown11</a>           = 0x20000000,</div>
+<div class="line"><span class="lineno">   61</span>            <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3caa8299aaf932b63e312117de2e21ff32f">Unknown12</a>           = 0x40000000,</div>
+<div class="line"><span class="lineno">   62</span>            <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca6890d55c656fe3e89e003edc00fbbb1e">Unknown13</a>           = 0x80000000,</div>
+<div class="line"><span class="lineno">   63</span> </div>
+<div class="line"><span class="lineno">   64</span>            <span class="comment">// Masks</span></div>
+<div class="line"><span class="lineno">   65</span>            <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3cad547bba0033d0763fda8be974bf3e61e">Mask_Final_Facing</a>   = <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3caacde39723fd9d2c711c6b7a6448bb1c4">Final_Point</a> | <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3cac7be8873500e6257d241f9d867db0ccb">Final_Target</a> | <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca1cbf089a1c0dc3ee118d3a049bfd8353">Final_Angle</a>,</div>
+<div class="line"><span class="lineno">   66</span>            <span class="comment">// animation ids stored here, see AnimType enum, used with Animation flag</span></div>
+<div class="line"><span class="lineno">   67</span>            <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3caba8cb8166baa50558f0a65d3d563c360">Mask_Animations</a>     = 0xFF,</div>
+<div class="line"><span class="lineno">   68</span>            <span class="comment">// flags that shouldn&#39;t be appended into SMSG_MONSTER_MOVE\SMSG_MONSTER_MOVE_TRANSPORT packet, should be more probably</span></div>
+<div class="line"><span class="lineno">   69</span>            <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3cac4493474709553948ff708a0ab8de06f">Mask_No_Monster_Move</a> = <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3cad547bba0033d0763fda8be974bf3e61e">Mask_Final_Facing</a> | <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3caba8cb8166baa50558f0a65d3d563c360">Mask_Animations</a> | <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3cae8d6876026a8ec86863d8c865ca17d01">Done</a>,</div>
+<div class="line"><span class="lineno">   70</span>            <span class="comment">// CatmullRom interpolation mode used</span></div>
+<div class="line"><span class="lineno">   71</span>            <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca1ef583343de87bfa9866a64ca0506c8e">Mask_CatmullRom</a>     = <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca4b25bab9a77a4cbdbec035eb4e588a03">Flying</a> | <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca88f2f72ec3315e67028257a7f0e6425c">Catmullrom</a>,</div>
+<div class="line"><span class="lineno">   72</span>            <span class="comment">// Unused, not suported flags</span></div>
+<div class="line"><span class="lineno">   73</span>            <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3caf03934d5cae89037c1c63aa1a80a4d88">Mask_Unused</a>         = <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca257d2a603ab0118301055cafe3e7d4e9">No_Spline</a> | <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca7fe6d10bf82a655112a90ff47277d1bb">Enter_Cycle</a> | <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca17ecf8dcb2ecc57225b5c1e59d3b64ad">Frozen</a> | <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca769fb40b8df9ccc561d0f3cd43951e63">Unknown7</a> | <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca986b084d217dc089f4ec83daaabf878e">Unknown8</a> | <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca0b751746b109527c27b96e4953429eb8">Unknown10</a> | <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca162d543ceed58903cbf079e269bd32c5">Unknown11</a> | <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3caa8299aaf932b63e312117de2e21ff32f">Unknown12</a> | <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca6890d55c656fe3e89e003edc00fbbb1e">Unknown13</a></div>
+<div class="line"><span class="lineno">   74</span>        };</div>
+<div class="ttc" id="aclass_movement_1_1_move_spline_flag_html_a9a8b47cc7b2fe7a9cb43e89ed9010f3ca0b751746b109527c27b96e4953429eb8"><div class="ttname"><a href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca0b751746b109527c27b96e4953429eb8">Movement::MoveSplineFlag::Unknown10</a></div><div class="ttdeci">@ Unknown10</div><div class="ttdef"><b>Definition:</b> MoveSplineFlag.h:59</div></div>
+<div class="ttc" id="aclass_movement_1_1_move_spline_flag_html_a9a8b47cc7b2fe7a9cb43e89ed9010f3ca0cf97db19c690d86eaa289414799d66c"><div class="ttname"><a href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca0cf97db19c690d86eaa289414799d66c">Movement::MoveSplineFlag::OrientationFixed</a></div><div class="ttdeci">@ OrientationFixed</div><div class="ttdef"><b>Definition:</b> MoveSplineFlag.h:45</div></div>
+<div class="ttc" id="aclass_movement_1_1_move_spline_flag_html_a9a8b47cc7b2fe7a9cb43e89ed9010f3ca162d543ceed58903cbf079e269bd32c5"><div class="ttname"><a href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca162d543ceed58903cbf079e269bd32c5">Movement::MoveSplineFlag::Unknown11</a></div><div class="ttdeci">@ Unknown11</div><div class="ttdef"><b>Definition:</b> MoveSplineFlag.h:60</div></div>
+<div class="ttc" id="aclass_movement_1_1_move_spline_flag_html_a9a8b47cc7b2fe7a9cb43e89ed9010f3ca17ecf8dcb2ecc57225b5c1e59d3b64ad"><div class="ttname"><a href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca17ecf8dcb2ecc57225b5c1e59d3b64ad">Movement::MoveSplineFlag::Frozen</a></div><div class="ttdeci">@ Frozen</div><div class="ttdef"><b>Definition:</b> MoveSplineFlag.h:53</div></div>
+<div class="ttc" id="aclass_movement_1_1_move_spline_flag_html_a9a8b47cc7b2fe7a9cb43e89ed9010f3ca1cbf089a1c0dc3ee118d3a049bfd8353"><div class="ttname"><a href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca1cbf089a1c0dc3ee118d3a049bfd8353">Movement::MoveSplineFlag::Final_Angle</a></div><div class="ttdeci">@ Final_Angle</div><div class="ttdef"><b>Definition:</b> MoveSplineFlag.h:48</div></div>
+<div class="ttc" id="aclass_movement_1_1_move_spline_flag_html_a9a8b47cc7b2fe7a9cb43e89ed9010f3ca1ef583343de87bfa9866a64ca0506c8e"><div class="ttname"><a href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca1ef583343de87bfa9866a64ca0506c8e">Movement::MoveSplineFlag::Mask_CatmullRom</a></div><div class="ttdeci">@ Mask_CatmullRom</div><div class="ttdef"><b>Definition:</b> MoveSplineFlag.h:71</div></div>
+<div class="ttc" id="aclass_movement_1_1_move_spline_flag_html_a9a8b47cc7b2fe7a9cb43e89ed9010f3ca257d2a603ab0118301055cafe3e7d4e9"><div class="ttname"><a href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca257d2a603ab0118301055cafe3e7d4e9">Movement::MoveSplineFlag::No_Spline</a></div><div class="ttdeci">@ No_Spline</div><div class="ttdef"><b>Definition:</b> MoveSplineFlag.h:41</div></div>
+<div class="ttc" id="aclass_movement_1_1_move_spline_flag_html_a9a8b47cc7b2fe7a9cb43e89ed9010f3ca341cef845b788d83646e1c8b32023c5f"><div class="ttname"><a href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca341cef845b788d83646e1c8b32023c5f">Movement::MoveSplineFlag::Parabolic</a></div><div class="ttdeci">@ Parabolic</div><div class="ttdef"><b>Definition:</b> MoveSplineFlag.h:42</div></div>
+<div class="ttc" id="aclass_movement_1_1_move_spline_flag_html_a9a8b47cc7b2fe7a9cb43e89ed9010f3ca364e60ed42b162880ed33baf297a4b97"><div class="ttname"><a href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca364e60ed42b162880ed33baf297a4b97">Movement::MoveSplineFlag::Walkmode</a></div><div class="ttdeci">@ Walkmode</div><div class="ttdef"><b>Definition:</b> MoveSplineFlag.h:43</div></div>
+<div class="ttc" id="aclass_movement_1_1_move_spline_flag_html_a9a8b47cc7b2fe7a9cb43e89ed9010f3ca4b25bab9a77a4cbdbec035eb4e588a03"><div class="ttname"><a href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca4b25bab9a77a4cbdbec035eb4e588a03">Movement::MoveSplineFlag::Flying</a></div><div class="ttdeci">@ Flying</div><div class="ttdef"><b>Definition:</b> MoveSplineFlag.h:44</div></div>
+<div class="ttc" id="aclass_movement_1_1_move_spline_flag_html_a9a8b47cc7b2fe7a9cb43e89ed9010f3ca4ce199e7c9a3520cff17a5f2af8d19ee"><div class="ttname"><a href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca4ce199e7c9a3520cff17a5f2af8d19ee">Movement::MoveSplineFlag::TransportExit</a></div><div class="ttdeci">@ TransportExit</div><div class="ttdef"><b>Definition:</b> MoveSplineFlag.h:55</div></div>
+<div class="ttc" id="aclass_movement_1_1_move_spline_flag_html_a9a8b47cc7b2fe7a9cb43e89ed9010f3ca593416e180d36af9ab09946e90800c0d"><div class="ttname"><a href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca593416e180d36af9ab09946e90800c0d">Movement::MoveSplineFlag::Cyclic</a></div><div class="ttdeci">@ Cyclic</div><div class="ttdef"><b>Definition:</b> MoveSplineFlag.h:50</div></div>
+<div class="ttc" id="aclass_movement_1_1_move_spline_flag_html_a9a8b47cc7b2fe7a9cb43e89ed9010f3ca6890d55c656fe3e89e003edc00fbbb1e"><div class="ttname"><a href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca6890d55c656fe3e89e003edc00fbbb1e">Movement::MoveSplineFlag::Unknown13</a></div><div class="ttdeci">@ Unknown13</div><div class="ttdef"><b>Definition:</b> MoveSplineFlag.h:62</div></div>
+<div class="ttc" id="aclass_movement_1_1_move_spline_flag_html_a9a8b47cc7b2fe7a9cb43e89ed9010f3ca769fb40b8df9ccc561d0f3cd43951e63"><div class="ttname"><a href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca769fb40b8df9ccc561d0f3cd43951e63">Movement::MoveSplineFlag::Unknown7</a></div><div class="ttdeci">@ Unknown7</div><div class="ttdef"><b>Definition:</b> MoveSplineFlag.h:56</div></div>
+<div class="ttc" id="aclass_movement_1_1_move_spline_flag_html_a9a8b47cc7b2fe7a9cb43e89ed9010f3ca7f9de8e682260aaadfca7cdc810b9a7b"><div class="ttname"><a href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca7f9de8e682260aaadfca7cdc810b9a7b">Movement::MoveSplineFlag::None</a></div><div class="ttdeci">@ None</div><div class="ttdef"><b>Definition:</b> MoveSplineFlag.h:37</div></div>
+<div class="ttc" id="aclass_movement_1_1_move_spline_flag_html_a9a8b47cc7b2fe7a9cb43e89ed9010f3ca7fe6d10bf82a655112a90ff47277d1bb"><div class="ttname"><a href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca7fe6d10bf82a655112a90ff47277d1bb">Movement::MoveSplineFlag::Enter_Cycle</a></div><div class="ttdeci">@ Enter_Cycle</div><div class="ttdef"><b>Definition:</b> MoveSplineFlag.h:51</div></div>
+<div class="ttc" id="aclass_movement_1_1_move_spline_flag_html_a9a8b47cc7b2fe7a9cb43e89ed9010f3ca88f2f72ec3315e67028257a7f0e6425c"><div class="ttname"><a href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca88f2f72ec3315e67028257a7f0e6425c">Movement::MoveSplineFlag::Catmullrom</a></div><div class="ttdeci">@ Catmullrom</div><div class="ttdef"><b>Definition:</b> MoveSplineFlag.h:49</div></div>
+<div class="ttc" id="aclass_movement_1_1_move_spline_flag_html_a9a8b47cc7b2fe7a9cb43e89ed9010f3ca986b084d217dc089f4ec83daaabf878e"><div class="ttname"><a href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca986b084d217dc089f4ec83daaabf878e">Movement::MoveSplineFlag::Unknown8</a></div><div class="ttdeci">@ Unknown8</div><div class="ttdef"><b>Definition:</b> MoveSplineFlag.h:57</div></div>
+<div class="ttc" id="aclass_movement_1_1_move_spline_flag_html_a9a8b47cc7b2fe7a9cb43e89ed9010f3ca99a6b0dd87640c4dbe331911a5dfa550"><div class="ttname"><a href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca99a6b0dd87640c4dbe331911a5dfa550">Movement::MoveSplineFlag::OrientationInversed</a></div><div class="ttdeci">@ OrientationInversed</div><div class="ttdef"><b>Definition:</b> MoveSplineFlag.h:58</div></div>
+<div class="ttc" id="aclass_movement_1_1_move_spline_flag_html_a9a8b47cc7b2fe7a9cb43e89ed9010f3caa8299aaf932b63e312117de2e21ff32f"><div class="ttname"><a href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3caa8299aaf932b63e312117de2e21ff32f">Movement::MoveSplineFlag::Unknown12</a></div><div class="ttdeci">@ Unknown12</div><div class="ttdef"><b>Definition:</b> MoveSplineFlag.h:61</div></div>
+<div class="ttc" id="aclass_movement_1_1_move_spline_flag_html_a9a8b47cc7b2fe7a9cb43e89ed9010f3caacde39723fd9d2c711c6b7a6448bb1c4"><div class="ttname"><a href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3caacde39723fd9d2c711c6b7a6448bb1c4">Movement::MoveSplineFlag::Final_Point</a></div><div class="ttdeci">@ Final_Point</div><div class="ttdef"><b>Definition:</b> MoveSplineFlag.h:46</div></div>
+<div class="ttc" id="aclass_movement_1_1_move_spline_flag_html_a9a8b47cc7b2fe7a9cb43e89ed9010f3caba8cb8166baa50558f0a65d3d563c360"><div class="ttname"><a href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3caba8cb8166baa50558f0a65d3d563c360">Movement::MoveSplineFlag::Mask_Animations</a></div><div class="ttdeci">@ Mask_Animations</div><div class="ttdef"><b>Definition:</b> MoveSplineFlag.h:67</div></div>
+<div class="ttc" id="aclass_movement_1_1_move_spline_flag_html_a9a8b47cc7b2fe7a9cb43e89ed9010f3cac4493474709553948ff708a0ab8de06f"><div class="ttname"><a href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3cac4493474709553948ff708a0ab8de06f">Movement::MoveSplineFlag::Mask_No_Monster_Move</a></div><div class="ttdeci">@ Mask_No_Monster_Move</div><div class="ttdef"><b>Definition:</b> MoveSplineFlag.h:69</div></div>
+<div class="ttc" id="aclass_movement_1_1_move_spline_flag_html_a9a8b47cc7b2fe7a9cb43e89ed9010f3cac5a23746207a86ea9d433b3b22b97952"><div class="ttname"><a href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3cac5a23746207a86ea9d433b3b22b97952">Movement::MoveSplineFlag::Falling</a></div><div class="ttdeci">@ Falling</div><div class="ttdef"><b>Definition:</b> MoveSplineFlag.h:40</div></div>
+<div class="ttc" id="aclass_movement_1_1_move_spline_flag_html_a9a8b47cc7b2fe7a9cb43e89ed9010f3cac7be8873500e6257d241f9d867db0ccb"><div class="ttname"><a href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3cac7be8873500e6257d241f9d867db0ccb">Movement::MoveSplineFlag::Final_Target</a></div><div class="ttdeci">@ Final_Target</div><div class="ttdef"><b>Definition:</b> MoveSplineFlag.h:47</div></div>
+<div class="ttc" id="aclass_movement_1_1_move_spline_flag_html_a9a8b47cc7b2fe7a9cb43e89ed9010f3cad547bba0033d0763fda8be974bf3e61e"><div class="ttname"><a href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3cad547bba0033d0763fda8be974bf3e61e">Movement::MoveSplineFlag::Mask_Final_Facing</a></div><div class="ttdeci">@ Mask_Final_Facing</div><div class="ttdef"><b>Definition:</b> MoveSplineFlag.h:65</div></div>
+<div class="ttc" id="aclass_movement_1_1_move_spline_flag_html_a9a8b47cc7b2fe7a9cb43e89ed9010f3cae8d6876026a8ec86863d8c865ca17d01"><div class="ttname"><a href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3cae8d6876026a8ec86863d8c865ca17d01">Movement::MoveSplineFlag::Done</a></div><div class="ttdeci">@ Done</div><div class="ttdef"><b>Definition:</b> MoveSplineFlag.h:39</div></div>
+<div class="ttc" id="aclass_movement_1_1_move_spline_flag_html_a9a8b47cc7b2fe7a9cb43e89ed9010f3caee06e01fb65415c54a99913db4eea738"><div class="ttname"><a href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3caee06e01fb65415c54a99913db4eea738">Movement::MoveSplineFlag::TransportEnter</a></div><div class="ttdeci">@ TransportEnter</div><div class="ttdef"><b>Definition:</b> MoveSplineFlag.h:54</div></div>
+<div class="ttc" id="aclass_movement_1_1_move_spline_flag_html_a9a8b47cc7b2fe7a9cb43e89ed9010f3caf03934d5cae89037c1c63aa1a80a4d88"><div class="ttname"><a href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3caf03934d5cae89037c1c63aa1a80a4d88">Movement::MoveSplineFlag::Mask_Unused</a></div><div class="ttdeci">@ Mask_Unused</div><div class="ttdef"><b>Definition:</b> MoveSplineFlag.h:73</div></div>
+<div class="ttc" id="aclass_movement_1_1_move_spline_flag_html_a9a8b47cc7b2fe7a9cb43e89ed9010f3cafcfd18b5805043a54785fd29fb5de7ff"><div class="ttname"><a href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3cafcfd18b5805043a54785fd29fb5de7ff">Movement::MoveSplineFlag::Animation</a></div><div class="ttdeci">@ Animation</div><div class="ttdef"><b>Definition:</b> MoveSplineFlag.h:52</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -366,7 +436,9 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   79</span>{ <a class="code hl_function" href="../../df/d07/class_movement_1_1_move_spline_flag.html#affc4f02a4c776e38346f8390e93cdb7d">raw</a>() = 0; }</div>
+<div class="ttc" id="aclass_movement_1_1_move_spline_flag_html_affc4f02a4c776e38346f8390e93cdb7d"><div class="ttname"><a href="../../df/d07/class_movement_1_1_move_spline_flag.html#affc4f02a4c776e38346f8390e93cdb7d">Movement::MoveSplineFlag::raw</a></div><div class="ttdeci">uint32 &amp; raw()</div><div class="ttdef"><b>Definition:</b> MoveSplineFlag.h:76</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aa5c3be263595a86d150c629fd8d8295f" name="aa5c3be263595a86d150c629fd8d8295f"></a>
@@ -392,7 +464,8 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   80</span>{ <a class="code hl_function" href="../../df/d07/class_movement_1_1_move_spline_flag.html#affc4f02a4c776e38346f8390e93cdb7d">raw</a>() = f; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ae4379be978b9dc1de688f51a374675f0" name="ae4379be978b9dc1de688f51a374675f0"></a>
@@ -418,7 +491,8 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   81</span>{ <a class="code hl_function" href="../../df/d07/class_movement_1_1_move_spline_flag.html#affc4f02a4c776e38346f8390e93cdb7d">raw</a>() = f.raw(); }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="afd772f31407cca037dc7e5135a7e122b" name="afd772f31407cca037dc7e5135a7e122b"></a>
@@ -471,7 +545,8 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  104</span>{ <a class="code hl_function" href="../../df/d07/class_movement_1_1_move_spline_flag.html#affc4f02a4c776e38346f8390e93cdb7d">raw</a>() = (<a class="code hl_function" href="../../df/d07/class_movement_1_1_move_spline_flag.html#affc4f02a4c776e38346f8390e93cdb7d">raw</a>() &amp; ~(<a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3caba8cb8166baa50558f0a65d3d563c360">Mask_Animations</a> | <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3cac5a23746207a86ea9d433b3b22b97952">Falling</a> | <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca341cef845b788d83646e1c8b32023c5f">Parabolic</a>)) | <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3cafcfd18b5805043a54785fd29fb5de7ff">Animation</a> | anim; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a910bd04a4b7f7c0fdd8efd5f2ab5cc8f" name="a910bd04a4b7f7c0fdd8efd5f2ab5cc8f"></a>
@@ -496,7 +571,8 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  108</span>{ <a class="code hl_function" href="../../df/d07/class_movement_1_1_move_spline_flag.html#affc4f02a4c776e38346f8390e93cdb7d">raw</a>() = (<a class="code hl_function" href="../../df/d07/class_movement_1_1_move_spline_flag.html#affc4f02a4c776e38346f8390e93cdb7d">raw</a>() &amp; ~Flying) | <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca88f2f72ec3315e67028257a7f0e6425c">Catmullrom</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a92aee9d9338b430f59016b572a0d1f01" name="a92aee9d9338b430f59016b572a0d1f01"></a>
@@ -521,7 +597,8 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  110</span>{ <a class="code hl_function" href="../../df/d07/class_movement_1_1_move_spline_flag.html#affc4f02a4c776e38346f8390e93cdb7d">raw</a>() = (<a class="code hl_function" href="../../df/d07/class_movement_1_1_move_spline_flag.html#affc4f02a4c776e38346f8390e93cdb7d">raw</a>() &amp; ~Mask_Final_Facing) | <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca1cbf089a1c0dc3ee118d3a049bfd8353">Final_Angle</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a952937a38a309aa58e4da285fc666351" name="a952937a38a309aa58e4da285fc666351"></a>
@@ -546,7 +623,8 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  109</span>{ <a class="code hl_function" href="../../df/d07/class_movement_1_1_move_spline_flag.html#affc4f02a4c776e38346f8390e93cdb7d">raw</a>() = (<a class="code hl_function" href="../../df/d07/class_movement_1_1_move_spline_flag.html#affc4f02a4c776e38346f8390e93cdb7d">raw</a>() &amp; ~Mask_Final_Facing) | <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3caacde39723fd9d2c711c6b7a6448bb1c4">Final_Point</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a6cee62e57b7634cbd0f9c1e32937a05a" name="a6cee62e57b7634cbd0f9c1e32937a05a"></a>
@@ -571,7 +649,8 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  111</span>{ <a class="code hl_function" href="../../df/d07/class_movement_1_1_move_spline_flag.html#affc4f02a4c776e38346f8390e93cdb7d">raw</a>() = (<a class="code hl_function" href="../../df/d07/class_movement_1_1_move_spline_flag.html#affc4f02a4c776e38346f8390e93cdb7d">raw</a>() &amp; ~Mask_Final_Facing) | <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3cac7be8873500e6257d241f9d867db0ccb">Final_Target</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a6c53cb3b6c36d1e7e058ce077d515fe2" name="a6c53cb3b6c36d1e7e058ce077d515fe2"></a>
@@ -596,7 +675,8 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  106</span>{ <a class="code hl_function" href="../../df/d07/class_movement_1_1_move_spline_flag.html#affc4f02a4c776e38346f8390e93cdb7d">raw</a>() = (<a class="code hl_function" href="../../df/d07/class_movement_1_1_move_spline_flag.html#affc4f02a4c776e38346f8390e93cdb7d">raw</a>() &amp; ~(<a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3caba8cb8166baa50558f0a65d3d563c360">Mask_Animations</a> | <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca341cef845b788d83646e1c8b32023c5f">Parabolic</a> | <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca4b25bab9a77a4cbdbec035eb4e588a03">Flying</a> | <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3cafcfd18b5805043a54785fd29fb5de7ff">Animation</a>)) | <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3cac5a23746207a86ea9d433b3b22b97952">Falling</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aa83b966b593d3df0ef88fe3811f4a757" name="aa83b966b593d3df0ef88fe3811f4a757"></a>
@@ -621,7 +701,8 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  107</span>{ <a class="code hl_function" href="../../df/d07/class_movement_1_1_move_spline_flag.html#affc4f02a4c776e38346f8390e93cdb7d">raw</a>() = (<a class="code hl_function" href="../../df/d07/class_movement_1_1_move_spline_flag.html#affc4f02a4c776e38346f8390e93cdb7d">raw</a>() &amp; ~(<a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3cac5a23746207a86ea9d433b3b22b97952">Falling</a> | <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca88f2f72ec3315e67028257a7f0e6425c">Catmullrom</a>)) | <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca4b25bab9a77a4cbdbec035eb4e588a03">Flying</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a894a75d2776218fb4c9ba01d0f1d49db" name="a894a75d2776218fb4c9ba01d0f1d49db"></a>
@@ -646,7 +727,8 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  105</span>{ <a class="code hl_function" href="../../df/d07/class_movement_1_1_move_spline_flag.html#affc4f02a4c776e38346f8390e93cdb7d">raw</a>() = (<a class="code hl_function" href="../../df/d07/class_movement_1_1_move_spline_flag.html#affc4f02a4c776e38346f8390e93cdb7d">raw</a>() &amp; ~(<a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3caba8cb8166baa50558f0a65d3d563c360">Mask_Animations</a> | <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3cac5a23746207a86ea9d433b3b22b97952">Falling</a> | <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3cafcfd18b5805043a54785fd29fb5de7ff">Animation</a>)) | <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca341cef845b788d83646e1c8b32023c5f">Parabolic</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aa1bd9e406d62eb6c01ad5f178976cfd2" name="aa1bd9e406d62eb6c01ad5f178976cfd2"></a>
@@ -671,7 +753,8 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  112</span>{ <a class="code hl_function" href="../../df/d07/class_movement_1_1_move_spline_flag.html#affc4f02a4c776e38346f8390e93cdb7d">raw</a>() = (<a class="code hl_function" href="../../df/d07/class_movement_1_1_move_spline_flag.html#affc4f02a4c776e38346f8390e93cdb7d">raw</a>() &amp; ~TransportExit) | <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3caee06e01fb65415c54a99913db4eea738">TransportEnter</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a8dccb18f8f580143f658a3a8548e37cc" name="a8dccb18f8f580143f658a3a8548e37cc"></a>
@@ -696,7 +779,8 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  113</span>{ <a class="code hl_function" href="../../df/d07/class_movement_1_1_move_spline_flag.html#affc4f02a4c776e38346f8390e93cdb7d">raw</a>() = (<a class="code hl_function" href="../../df/d07/class_movement_1_1_move_spline_flag.html#affc4f02a4c776e38346f8390e93cdb7d">raw</a>() &amp; ~TransportEnter) | <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca4ce199e7c9a3520cff17a5f2af8d19ee">TransportExit</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a4a1d2a9f0feacf751658141736d0b48a" name="a4a1d2a9f0feacf751658141736d0b48a"></a>
@@ -721,7 +805,9 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   92</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../df/d07/class_movement_1_1_move_spline_flag.html#ae13bafb8520acdabcb3537bac59a22bf">animId</a>; }</div>
+<div class="ttc" id="aclass_movement_1_1_move_spline_flag_html_ae13bafb8520acdabcb3537bac59a22bf"><div class="ttname"><a href="../../df/d07/class_movement_1_1_move_spline_flag.html#ae13bafb8520acdabcb3537bac59a22bf">Movement::MoveSplineFlag::animId</a></div><div class="ttdeci">uint8 animId</div><div class="ttdef"><b>Definition:</b> MoveSplineFlag.h:115</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a1ae2e7842f361d4b2dd31b5a6d6df2f6" name="a1ae2e7842f361d4b2dd31b5a6d6df2f6"></a>
@@ -747,7 +833,8 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   93</span>{ <span class="keywordflow">return</span> (<a class="code hl_function" href="../../df/d07/class_movement_1_1_move_spline_flag.html#affc4f02a4c776e38346f8390e93cdb7d">raw</a>() &amp; f) == f; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a80a2fb9c59013d7b465ea39d25b9316c" name="a80a2fb9c59013d7b465ea39d25b9316c"></a>
@@ -773,7 +860,8 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   94</span>{ <span class="keywordflow">return</span> (<a class="code hl_function" href="../../df/d07/class_movement_1_1_move_spline_flag.html#affc4f02a4c776e38346f8390e93cdb7d">raw</a>() &amp; f) != 0; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a6e571ca707464ceea929767573d202fb" name="a6e571ca707464ceea929767573d202fb"></a>
@@ -798,7 +886,8 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   90</span>{ <span class="keywordflow">return</span> <a class="code hl_function" href="../../df/d07/class_movement_1_1_move_spline_flag.html#affc4f02a4c776e38346f8390e93cdb7d">raw</a>() &amp; <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3cad547bba0033d0763fda8be974bf3e61e">Mask_Final_Facing</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a78edaaa058babbc490c052d3b802f026" name="a78edaaa058babbc490c052d3b802f026"></a>
@@ -823,7 +912,9 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   89</span>{ <span class="keywordflow">return</span> !<a class="code hl_function" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a4c78ea8e20a3ea9bc465083d2130dc19">isSmooth</a>(); }</div>
+<div class="ttc" id="aclass_movement_1_1_move_spline_flag_html_a4c78ea8e20a3ea9bc465083d2130dc19"><div class="ttname"><a href="../../df/d07/class_movement_1_1_move_spline_flag.html#a4c78ea8e20a3ea9bc465083d2130dc19">Movement::MoveSplineFlag::isSmooth</a></div><div class="ttdeci">bool isSmooth() const</div><div class="ttdef"><b>Definition:</b> MoveSplineFlag.h:88</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a4c78ea8e20a3ea9bc465083d2130dc19" name="a4c78ea8e20a3ea9bc465083d2130dc19"></a>
@@ -848,7 +939,8 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   88</span>{ <span class="keywordflow">return</span> <a class="code hl_function" href="../../df/d07/class_movement_1_1_move_spline_flag.html#affc4f02a4c776e38346f8390e93cdb7d">raw</a>() &amp; <a class="code hl_enumvalue" href="../../df/d07/class_movement_1_1_move_spline_flag.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca1ef583343de87bfa9866a64ca0506c8e">Mask_CatmullRom</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a25cac8e587b8eef74d2415fb80d0f7ba" name="a25cac8e587b8eef74d2415fb80d0f7ba"></a>
@@ -874,7 +966,8 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   95</span>{ <span class="keywordflow">return</span> (<a class="code hl_function" href="../../df/d07/class_movement_1_1_move_spline_flag.html#affc4f02a4c776e38346f8390e93cdb7d">raw</a>() &amp; f); }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a4551dc201957b0531ee4285303c1a31b" name="a4551dc201957b0531ee4285303c1a31b"></a>
@@ -900,7 +993,8 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  101</span>{ <a class="code hl_function" href="../../df/d07/class_movement_1_1_move_spline_flag.html#affc4f02a4c776e38346f8390e93cdb7d">raw</a>() &amp;= f; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a0314b083ec23ad81211f42515bd910e8" name="a0314b083ec23ad81211f42515bd910e8"></a>
@@ -978,7 +1072,8 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   96</span>{ <span class="keywordflow">return</span> (<a class="code hl_function" href="../../df/d07/class_movement_1_1_move_spline_flag.html#affc4f02a4c776e38346f8390e93cdb7d">raw</a>() | f); }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a85e840e3bc6bc742acd93816a8ecf39d" name="a85e840e3bc6bc742acd93816a8ecf39d"></a>
@@ -1004,7 +1099,8 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  102</span>{ <a class="code hl_function" href="../../df/d07/class_movement_1_1_move_spline_flag.html#affc4f02a4c776e38346f8390e93cdb7d">raw</a>() |= f; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="affc4f02a4c776e38346f8390e93cdb7d" name="affc4f02a4c776e38346f8390e93cdb7d"></a>
@@ -1029,7 +1125,9 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   76</span>{ <span class="keywordflow">return</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&amp;) * <span class="keyword">this</span>; }</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aeb304862f183a9c2033477af58a16543" name="aeb304862f183a9c2033477af58a16543"></a>
@@ -1054,7 +1152,8 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   77</span>{ <span class="keywordflow">return</span> (<span class="keyword">const</span> <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&amp;) * <span class="keyword">this</span>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a09410689b671e7f41cf63c85419cd423" name="a09410689b671e7f41cf63c85419cd423"></a>
@@ -1071,7 +1170,14 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  189</span>    {</div>
+<div class="line"><span class="lineno">  190</span>        std::string str;</div>
+<div class="line"><span class="lineno">  191</span>        <a class="code hl_function" href="../../d1/dc5/namespace_movement.html#a189485de5eba32c5b18dbb5c579b60d9">print_flags</a>(<a class="code hl_function" href="../../df/d07/class_movement_1_1_move_spline_flag.html#affc4f02a4c776e38346f8390e93cdb7d">raw</a>(), <a class="code hl_variable" href="../../d1/dc5/namespace_movement.html#aa6a1b38cb6e1507d88f0f45a4820990b">g_SplineFlag_names</a>, str);</div>
+<div class="line"><span class="lineno">  192</span>        <span class="keywordflow">return</span> str;</div>
+<div class="line"><span class="lineno">  193</span>    }</div>
+<div class="ttc" id="anamespace_movement_html_a189485de5eba32c5b18dbb5c579b60d9"><div class="ttname"><a href="../../d1/dc5/namespace_movement.html#a189485de5eba32c5b18dbb5c579b60d9">Movement::print_flags</a></div><div class="ttdeci">void print_flags(Flags t, char const *(&amp;names)[N], std::string &amp;str)</div><div class="ttdef"><b>Definition:</b> MovementUtil.cpp:179</div></div>
+<div class="ttc" id="anamespace_movement_html_aa6a1b38cb6e1507d88f0f45a4820990b"><div class="ttname"><a href="../../d1/dc5/namespace_movement.html#aa6a1b38cb6e1507d88f0f45a4820990b">Movement::g_SplineFlag_names</a></div><div class="ttdeci">char const  * g_SplineFlag_names[32]</div><div class="ttdef"><b>Definition:</b> MovementUtil.cpp:142</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -1426,8 +1532,8 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Movement/Spline/<a class="el" href="../../d6/d39/_move_spline_flag_8h_source.html">MoveSplineFlag.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/Movement/Spline/<a class="el" href="../../de/df0/_movement_util_8cpp.html">MovementUtil.cpp</a></li>
+<li><a class="el" href="../../">MoveSplineFlag.h</a></li>
+<li><a class="el" href="../../">MovementUtil.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -1435,7 +1541,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/dc5/namespace_movement.html">Movement</a></li><li class="navelem"><a class="el" href="../../df/d07/class_movement_1_1_move_spline_flag.html">MoveSplineFlag</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:14 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:32 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

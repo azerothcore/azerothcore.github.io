@@ -495,7 +495,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a86f5f3c3869e9fa7afcfc9425dfdfdde" name="a86f5f3c3869e9fa7afcfc9425dfdfdde"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a86f5f3c3869e9fa7afcfc9425dfdfdde">&#9670;&#160;</a></span>npc_high_oracle_soo_roo()</h2>
 
@@ -519,7 +520,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  397</span>: <a class="code hl_struct" href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a>(creature) { }</div>
+<div class="ttc" id="astruct_scripted_a_i_html"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -548,7 +551,29 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d2/d68/class_creature_a_i.html#a1280f8bcf72254ad31c453b810615f87">CreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  408</span>    {</div>
+<div class="line"><span class="lineno">  409</span>        <span class="keywordflow">if</span> (!<a class="code hl_enumeration" href="../../d6/dd9/boss__skadi_8cpp.html#a4432ad5c680b2372adf2f56998516c6d">phase</a> &amp;&amp; who &amp;&amp; who-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a73f3c7fa817faebff6b2752ba3bb1a50">GetDistance2d</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>) &lt; 10.0f)</div>
+<div class="line"><span class="lineno">  410</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* player = who-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a328d5f752cc33ed398b3d9861ef6929d">ToPlayer</a>())</div>
+<div class="line"><span class="lineno">  411</span>                <span class="keywordflow">if</span> (player-&gt;GetQuestStatus(<a class="code hl_enumvalue" href="../../dd/d7d/childrens__week_8cpp.html#a2f2591166460d6d958c50f3317939e22ae2d9ff24ac672eaa5152ba7a3f5d4a1d">QUEST_THE_BRONZE_DRAGONSHRINE_ORACLE</a>) == <a class="code hl_enumvalue" href="../../d2/dc8/_quest_def_8h.html#abfc87d39d69176ad25e800fb4aa6f0d8a9d062f65bead287785d9b540987bb484">QUEST_STATUS_INCOMPLETE</a>)</div>
+<div class="line"><span class="lineno">  412</span>                {</div>
+<div class="line"><span class="lineno">  413</span>                    <a class="code hl_variable" href="../../d1/d67/structnpc__high__oracle__soo__roo.html#a329832491f86c6fcc9ccc4c98b19991e">playerGUID</a> = player-&gt;GetGUID();</div>
+<div class="line"><span class="lineno">  414</span>                    <a class="code hl_variable" href="../../d1/d67/structnpc__high__oracle__soo__roo.html#acd6636eb290a2fe4470b04d467ff7fa1">orphanGUID</a> = <a class="code hl_function" href="../../dd/d7d/childrens__week_8cpp.html#a9fc37dedd34ecd790b25bb92cf68347c">getOrphanGUID</a>(player, <a class="code hl_enumvalue" href="../../dd/d7d/childrens__week_8cpp.html#adf0f5181a6e088ccac9a3576a13e2b70a2eefa757f529a3cb3e41da612d48b940">ORPHAN_ORACLE</a>);</div>
+<div class="line"><span class="lineno">  415</span>                    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d1/d67/structnpc__high__oracle__soo__roo.html#acd6636eb290a2fe4470b04d467ff7fa1">orphanGUID</a>)</div>
+<div class="line"><span class="lineno">  416</span>                        <a class="code hl_enumeration" href="../../d6/dd9/boss__skadi_8cpp.html#a4432ad5c680b2372adf2f56998516c6d">phase</a> = 1;</div>
+<div class="line"><span class="lineno">  417</span>                }</div>
+<div class="line"><span class="lineno">  418</span>    }</div>
+<div class="ttc" id="a_quest_def_8h_html_abfc87d39d69176ad25e800fb4aa6f0d8a9d062f65bead287785d9b540987bb484"><div class="ttname"><a href="../../d2/dc8/_quest_def_8h.html#abfc87d39d69176ad25e800fb4aa6f0d8a9d062f65bead287785d9b540987bb484">QUEST_STATUS_INCOMPLETE</a></div><div class="ttdeci">@ QUEST_STATUS_INCOMPLETE</div><div class="ttdef"><b>Definition:</b> QuestDef.h:103</div></div>
+<div class="ttc" id="aboss__skadi_8cpp_html_a4432ad5c680b2372adf2f56998516c6d"><div class="ttname"><a href="../../d6/dd9/boss__skadi_8cpp.html#a4432ad5c680b2372adf2f56998516c6d">phase</a></div><div class="ttdeci">phase</div><div class="ttdef"><b>Definition:</b> boss_skadi.cpp:102</div></div>
+<div class="ttc" id="achildrens__week_8cpp_html_a2f2591166460d6d958c50f3317939e22ae2d9ff24ac672eaa5152ba7a3f5d4a1d"><div class="ttname"><a href="../../dd/d7d/childrens__week_8cpp.html#a2f2591166460d6d958c50f3317939e22ae2d9ff24ac672eaa5152ba7a3f5d4a1d">QUEST_THE_BRONZE_DRAGONSHRINE_ORACLE</a></div><div class="ttdeci">@ QUEST_THE_BRONZE_DRAGONSHRINE_ORACLE</div><div class="ttdef"><b>Definition:</b> childrens_week.cpp:79</div></div>
+<div class="ttc" id="achildrens__week_8cpp_html_a9fc37dedd34ecd790b25bb92cf68347c"><div class="ttname"><a href="../../dd/d7d/childrens__week_8cpp.html#a9fc37dedd34ecd790b25bb92cf68347c">getOrphanGUID</a></div><div class="ttdeci">ObjectGuid getOrphanGUID(Player *player, uint32 orphan)</div><div class="ttdef"><b>Definition:</b> childrens_week.cpp:134</div></div>
+<div class="ttc" id="achildrens__week_8cpp_html_adf0f5181a6e088ccac9a3576a13e2b70a2eefa757f529a3cb3e41da612d48b940"><div class="ttname"><a href="../../dd/d7d/childrens__week_8cpp.html#adf0f5181a6e088ccac9a3576a13e2b70a2eefa757f529a3cb3e41da612d48b940">ORPHAN_ORACLE</a></div><div class="ttdeci">@ ORPHAN_ORACLE</div><div class="ttdef"><b>Definition:</b> childrens_week.cpp:25</div></div>
+<div class="ttc" id="aclass_object_html_a328d5f752cc33ed398b3d9861ef6929d"><div class="ttname"><a href="../../d8/d83/class_object.html#a328d5f752cc33ed398b3d9861ef6929d">Object::ToPlayer</a></div><div class="ttdeci">Player * ToPlayer()</div><div class="ttdef"><b>Definition:</b> Object.h:195</div></div>
+<div class="ttc" id="aclass_player_html"><div class="ttname"><a href="../../d8/d53/class_player.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1046</div></div>
+<div class="ttc" id="aclass_world_object_html_a73f3c7fa817faebff6b2752ba3bb1a50"><div class="ttname"><a href="../../db/df7/class_world_object.html#a73f3c7fa817faebff6b2752ba3bb1a50">WorldObject::GetDistance2d</a></div><div class="ttdeci">float GetDistance2d(WorldObject const *obj) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1263</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+<div class="ttc" id="astructnpc__high__oracle__soo__roo_html_a329832491f86c6fcc9ccc4c98b19991e"><div class="ttname"><a href="../../d1/d67/structnpc__high__oracle__soo__roo.html#a329832491f86c6fcc9ccc4c98b19991e">npc_high_oracle_soo_roo::playerGUID</a></div><div class="ttdeci">ObjectGuid playerGUID</div><div class="ttdef"><b>Definition:</b> childrens_week.cpp:464</div></div>
+<div class="ttc" id="astructnpc__high__oracle__soo__roo_html_acd6636eb290a2fe4470b04d467ff7fa1"><div class="ttname"><a href="../../d1/d67/structnpc__high__oracle__soo__roo.html#acd6636eb290a2fe4470b04d467ff7fa1">npc_high_oracle_soo_roo::orphanGUID</a></div><div class="ttdeci">ObjectGuid orphanGUID</div><div class="ttdef"><b>Definition:</b> childrens_week.cpp:465</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a89a60a83a46e0095045b2353e50483ed" name="a89a60a83a46e0095045b2353e50483ed"></a>
@@ -575,7 +600,15 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a26600c116d20a33461fc884bdb82eda9">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  400</span>    {</div>
+<div class="line"><span class="lineno">  401</span>        <a class="code hl_variable" href="../../d1/d67/structnpc__high__oracle__soo__roo.html#aa5238d3ee361374681947de874391a1f">timer</a> = 0;</div>
+<div class="line"><span class="lineno">  402</span>        <a class="code hl_enumeration" href="../../d6/dd9/boss__skadi_8cpp.html#a4432ad5c680b2372adf2f56998516c6d">phase</a> = 0;</div>
+<div class="line"><span class="lineno">  403</span>        <a class="code hl_variable" href="../../d1/d67/structnpc__high__oracle__soo__roo.html#a329832491f86c6fcc9ccc4c98b19991e">playerGUID</a>.<a class="code hl_function" href="../../d8/d03/class_object_guid.html#af6aafb4610723c7f14523fef243b1b65">Clear</a>();</div>
+<div class="line"><span class="lineno">  404</span>        <a class="code hl_variable" href="../../d1/d67/structnpc__high__oracle__soo__roo.html#acd6636eb290a2fe4470b04d467ff7fa1">orphanGUID</a>.<a class="code hl_function" href="../../d8/d03/class_object_guid.html#af6aafb4610723c7f14523fef243b1b65">Clear</a>();</div>
+<div class="line"><span class="lineno">  405</span>    }</div>
+<div class="ttc" id="aclass_object_guid_html_af6aafb4610723c7f14523fef243b1b65"><div class="ttname"><a href="../../d8/d03/class_object_guid.html#af6aafb4610723c7f14523fef243b1b65">ObjectGuid::Clear</a></div><div class="ttdeci">void Clear()</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:140</div></div>
+<div class="ttc" id="astructnpc__high__oracle__soo__roo_html_aa5238d3ee361374681947de874391a1f"><div class="ttname"><a href="../../d1/d67/structnpc__high__oracle__soo__roo.html#aa5238d3ee361374681947de874391a1f">npc_high_oracle_soo_roo::timer</a></div><div class="ttdeci">uint32 timer</div><div class="ttdef"><b>Definition:</b> childrens_week.cpp:462</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac22cfa519e478da643a51ae887f306fd" name="ac22cfa519e478da643a51ae887f306fd"></a>
@@ -603,7 +636,68 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#aff5fd4e142a5cf930ffacbfc7259cce5">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  421</span>    {</div>
+<div class="line"><span class="lineno">  422</span>        <span class="keywordflow">if</span> (!<a class="code hl_enumeration" href="../../d6/dd9/boss__skadi_8cpp.html#a4432ad5c680b2372adf2f56998516c6d">phase</a>)</div>
+<div class="line"><span class="lineno">  423</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  424</span> </div>
+<div class="line"><span class="lineno">  425</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d1/d67/structnpc__high__oracle__soo__roo.html#aa5238d3ee361374681947de874391a1f">timer</a> &lt;= diff)</div>
+<div class="line"><span class="lineno">  426</span>        {</div>
+<div class="line"><span class="lineno">  427</span>            <a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* player = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#aeb3657e7ad09335b9a9ffa50473aa216">ObjectAccessor::GetPlayer</a>(*<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_variable" href="../../d1/d67/structnpc__high__oracle__soo__roo.html#a329832491f86c6fcc9ccc4c98b19991e">playerGUID</a>);</div>
+<div class="line"><span class="lineno">  428</span>            <a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* orphan = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a>(*<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_variable" href="../../d1/d67/structnpc__high__oracle__soo__roo.html#acd6636eb290a2fe4470b04d467ff7fa1">orphanGUID</a>);</div>
+<div class="line"><span class="lineno">  429</span> </div>
+<div class="line"><span class="lineno">  430</span>            <span class="keywordflow">if</span> (!orphan || !player)</div>
+<div class="line"><span class="lineno">  431</span>            {</div>
+<div class="line"><span class="lineno">  432</span>                <a class="code hl_function" href="../../d1/d67/structnpc__high__oracle__soo__roo.html#a89a60a83a46e0095045b2353e50483ed">Reset</a>();</div>
+<div class="line"><span class="lineno">  433</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  434</span>            }</div>
+<div class="line"><span class="lineno">  435</span> </div>
+<div class="line"><span class="lineno">  436</span>            <span class="keywordflow">switch</span> (<a class="code hl_enumeration" href="../../d6/dd9/boss__skadi_8cpp.html#a4432ad5c680b2372adf2f56998516c6d">phase</a>)</div>
+<div class="line"><span class="lineno">  437</span>            {</div>
+<div class="line"><span class="lineno">  438</span>                <span class="keywordflow">case</span> 1:</div>
+<div class="line"><span class="lineno">  439</span>                    orphan-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../df/d4d/class_motion_master.html#a903a48c63482ebbd45d63272b218df7f">MovePoint</a>(0, <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#ad5577c934d9e845b44759b67c534c3e8">GetPositionX</a>() + cos(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#a74cabfb8f441acb38e1abd5bf6ecdc84">GetOrientation</a>()) * 5, <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">GetPositionY</a>() + std::sin(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#a74cabfb8f441acb38e1abd5bf6ecdc84">GetOrientation</a>()) * 5, <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#a4e813a59345a6275e8b87b96be03e60b">GetPositionZ</a>());</div>
+<div class="line"><span class="lineno">  440</span>                    orphan-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">AI</a>()-&gt;<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#a96b82ee318c4d46f16b94192de654bed">Talk</a>(<a class="code hl_enumvalue" href="../../dd/d7d/childrens__week_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31a0889804b4f38ce92deb3230c467e1d6e">TEXT_ORACLE_ORPHAN_5</a>);</div>
+<div class="line"><span class="lineno">  441</span>                    <a class="code hl_variable" href="../../d1/d67/structnpc__high__oracle__soo__roo.html#aa5238d3ee361374681947de874391a1f">timer</a> = 3000;</div>
+<div class="line"><span class="lineno">  442</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  443</span>                <span class="keywordflow">case</span> 2:</div>
+<div class="line"><span class="lineno">  444</span>                    orphan-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a549e721b14f15635bd6572505b366e78">SetFacingToObject</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>);</div>
+<div class="line"><span class="lineno">  445</span>                    <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../dd/d7d/childrens__week_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31a0b683a44d60bb465915fca9298a3be46">TEXT_SOO_ROO_1</a>);</div>
+<div class="line"><span class="lineno">  446</span>                    <a class="code hl_variable" href="../../d1/d67/structnpc__high__oracle__soo__roo.html#aa5238d3ee361374681947de874391a1f">timer</a> = 6000;</div>
+<div class="line"><span class="lineno">  447</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  448</span>                <span class="keywordflow">case</span> 3:</div>
+<div class="line"><span class="lineno">  449</span>                    orphan-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">AI</a>()-&gt;<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#a96b82ee318c4d46f16b94192de654bed">Talk</a>(<a class="code hl_enumvalue" href="../../dd/d7d/childrens__week_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31a1d58ee13338456da47be335281abd830">TEXT_ORACLE_ORPHAN_6</a>);</div>
+<div class="line"><span class="lineno">  450</span>                    player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a5407b30447c557eb4bcb441d0e4df355">GroupEventHappens</a>(<a class="code hl_enumvalue" href="../../dd/d7d/childrens__week_8cpp.html#a2f2591166460d6d958c50f3317939e22ae2d9ff24ac672eaa5152ba7a3f5d4a1d">QUEST_THE_BRONZE_DRAGONSHRINE_ORACLE</a>, <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>);</div>
+<div class="line"><span class="lineno">  451</span>                    orphan-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../df/d4d/class_motion_master.html#a5c4f6d1163174b909c83901d7f770d72">MoveFollow</a>(player, <a class="code hl_define" href="../../d7/d23/_pet_defines_8h.html#a83e96c6d024ceb5d1189baac7b823d5d">PET_FOLLOW_DIST</a>, <a class="code hl_define" href="../../d7/d23/_pet_defines_8h.html#a346068e848cb7777695f170d2c7958de">PET_FOLLOW_ANGLE</a>);</div>
+<div class="line"><span class="lineno">  452</span>                    <a class="code hl_function" href="../../d1/d67/structnpc__high__oracle__soo__roo.html#a89a60a83a46e0095045b2353e50483ed">Reset</a>();</div>
+<div class="line"><span class="lineno">  453</span>                    <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  454</span>            }</div>
+<div class="line"><span class="lineno">  455</span>            ++<a class="code hl_variable" href="../../d1/d67/structnpc__high__oracle__soo__roo.html#abeec923d25d21773f9d8f8ba1deb0148">phase</a>;</div>
+<div class="line"><span class="lineno">  456</span>        }</div>
+<div class="line"><span class="lineno">  457</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  458</span>            <a class="code hl_variable" href="../../d1/d67/structnpc__high__oracle__soo__roo.html#aa5238d3ee361374681947de874391a1f">timer</a> -= diff;</div>
+<div class="line"><span class="lineno">  459</span>    }</div>
+<div class="ttc" id="a_pet_defines_8h_html_a346068e848cb7777695f170d2c7958de"><div class="ttname"><a href="../../d7/d23/_pet_defines_8h.html#a346068e848cb7777695f170d2c7958de">PET_FOLLOW_ANGLE</a></div><div class="ttdeci">#define PET_FOLLOW_ANGLE</div><div class="ttdef"><b>Definition:</b> PetDefines.h:194</div></div>
+<div class="ttc" id="a_pet_defines_8h_html_a83e96c6d024ceb5d1189baac7b823d5d"><div class="ttname"><a href="../../d7/d23/_pet_defines_8h.html#a83e96c6d024ceb5d1189baac7b823d5d">PET_FOLLOW_DIST</a></div><div class="ttdeci">#define PET_FOLLOW_DIST</div><div class="ttdef"><b>Definition:</b> PetDefines.h:193</div></div>
+<div class="ttc" id="aboss__fathomlord__karathress_8cpp_html_a747a224b6b3195f9a33c56ddc6c7e268"><div class="ttname"><a href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a></div><div class="ttdeci">Talk</div><div class="ttdef"><b>Definition:</b> boss_fathomlord_karathress.cpp:23</div></div>
+<div class="ttc" id="achildrens__week_8cpp_html_aa80bce1d0ea05213c0d6c327126caf31a0889804b4f38ce92deb3230c467e1d6e"><div class="ttname"><a href="../../dd/d7d/childrens__week_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31a0889804b4f38ce92deb3230c467e1d6e">TEXT_ORACLE_ORPHAN_5</a></div><div class="ttdeci">@ TEXT_ORACLE_ORPHAN_5</div><div class="ttdef"><b>Definition:</b> childrens_week.cpp:39</div></div>
+<div class="ttc" id="achildrens__week_8cpp_html_aa80bce1d0ea05213c0d6c327126caf31a0b683a44d60bb465915fca9298a3be46"><div class="ttname"><a href="../../dd/d7d/childrens__week_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31a0b683a44d60bb465915fca9298a3be46">TEXT_SOO_ROO_1</a></div><div class="ttdeci">@ TEXT_SOO_ROO_1</div><div class="ttdef"><b>Definition:</b> childrens_week.cpp:67</div></div>
+<div class="ttc" id="achildrens__week_8cpp_html_aa80bce1d0ea05213c0d6c327126caf31a1d58ee13338456da47be335281abd830"><div class="ttname"><a href="../../dd/d7d/childrens__week_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31a1d58ee13338456da47be335281abd830">TEXT_ORACLE_ORPHAN_6</a></div><div class="ttdeci">@ TEXT_ORACLE_ORPHAN_6</div><div class="ttdef"><b>Definition:</b> childrens_week.cpp:40</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_a96b82ee318c4d46f16b94192de654bed"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#a96b82ee318c4d46f16b94192de654bed">CreatureAI::Talk</a></div><div class="ttdeci">void Talk(uint8 id, WorldObject const *whisperTarget=nullptr)</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:58</div></div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_creature_html_af2188eef9620b5af52ef2d3ac142db67"><div class="ttname"><a href="../../d1/dac/class_creature.html#af2188eef9620b5af52ef2d3ac142db67">Creature::AI</a></div><div class="ttdeci">CreatureAI * AI() const</div><div class="ttdef"><b>Definition:</b> Creature.h:134</div></div>
+<div class="ttc" id="aclass_motion_master_html_a5c4f6d1163174b909c83901d7f770d72"><div class="ttname"><a href="../../df/d4d/class_motion_master.html#a5c4f6d1163174b909c83901d7f770d72">MotionMaster::MoveFollow</a></div><div class="ttdeci">void MoveFollow(Unit *target, float dist, float angle, MovementSlot slot=MOTION_SLOT_ACTIVE)</div><div class="ttdef"><b>Definition:</b> MotionMaster.cpp:367</div></div>
+<div class="ttc" id="aclass_motion_master_html_a903a48c63482ebbd45d63272b218df7f"><div class="ttname"><a href="../../df/d4d/class_motion_master.html#a903a48c63482ebbd45d63272b218df7f">MotionMaster::MovePoint</a></div><div class="ttdeci">void MovePoint(uint32 id, const Position &amp;pos, bool generatePath=true, bool forceDestination=true)</div><div class="ttdef"><b>Definition:</b> MotionMaster.h:210</div></div>
+<div class="ttc" id="aclass_player_html_a5407b30447c557eb4bcb441d0e4df355"><div class="ttname"><a href="../../d8/d53/class_player.html#a5407b30447c557eb4bcb441d0e4df355">Player::GroupEventHappens</a></div><div class="ttdeci">void GroupEventHappens(uint32 questId, WorldObject const *pEventObject)</div><div class="ttdef"><b>Definition:</b> PlayerQuest.cpp:1795</div></div>
+<div class="ttc" id="aclass_unit_html_a4a04a3f22c3b0d6f4933993ac0cc7aa4"><div class="ttname"><a href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">Unit::GetMotionMaster</a></div><div class="ttdeci">MotionMaster * GetMotionMaster()</div><div class="ttdef"><b>Definition:</b> Unit.h:2257</div></div>
+<div class="ttc" id="aclass_unit_html_a549e721b14f15635bd6572505b366e78"><div class="ttname"><a href="../../da/db7/class_unit.html#a549e721b14f15635bd6572505b366e78">Unit::SetFacingToObject</a></div><div class="ttdeci">void SetFacingToObject(WorldObject *object)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:20629</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_ae42e503fe79bbeaea1aaa665418c43f8"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a></div><div class="ttdeci">Creature * GetCreature(WorldObject const &amp;u, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:215</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_aeb3657e7ad09335b9a9ffa50473aa216"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#aeb3657e7ad09335b9a9ffa50473aa216">ObjectAccessor::GetPlayer</a></div><div class="ttdeci">Player * GetPlayer(Map const *, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:225</div></div>
+<div class="ttc" id="astruct_position_html_a4e813a59345a6275e8b87b96be03e60b"><div class="ttname"><a href="../../d1/d26/struct_position.html#a4e813a59345a6275e8b87b96be03e60b">Position::GetPositionZ</a></div><div class="ttdeci">float GetPositionZ() const</div><div class="ttdef"><b>Definition:</b> Position.h:119</div></div>
+<div class="ttc" id="astruct_position_html_a74cabfb8f441acb38e1abd5bf6ecdc84"><div class="ttname"><a href="../../d1/d26/struct_position.html#a74cabfb8f441acb38e1abd5bf6ecdc84">Position::GetOrientation</a></div><div class="ttdeci">float GetOrientation() const</div><div class="ttdef"><b>Definition:</b> Position.h:120</div></div>
+<div class="ttc" id="astruct_position_html_ad5577c934d9e845b44759b67c534c3e8"><div class="ttname"><a href="../../d1/d26/struct_position.html#ad5577c934d9e845b44759b67c534c3e8">Position::GetPositionX</a></div><div class="ttdeci">float GetPositionX() const</div><div class="ttdef"><b>Definition:</b> Position.h:117</div></div>
+<div class="ttc" id="astruct_position_html_ae79fc664f6cd027f5d49f6c7df8e4c9e"><div class="ttname"><a href="../../d1/d26/struct_position.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">Position::GetPositionY</a></div><div class="ttdeci">float GetPositionY() const</div><div class="ttdef"><b>Definition:</b> Position.h:118</div></div>
+<div class="ttc" id="astructnpc__high__oracle__soo__roo_html_a89a60a83a46e0095045b2353e50483ed"><div class="ttname"><a href="../../d1/d67/structnpc__high__oracle__soo__roo.html#a89a60a83a46e0095045b2353e50483ed">npc_high_oracle_soo_roo::Reset</a></div><div class="ttdeci">void Reset() override</div><div class="ttdef"><b>Definition:</b> childrens_week.cpp:399</div></div>
+<div class="ttc" id="astructnpc__high__oracle__soo__roo_html_abeec923d25d21773f9d8f8ba1deb0148"><div class="ttname"><a href="../../d1/d67/structnpc__high__oracle__soo__roo.html#abeec923d25d21773f9d8f8ba1deb0148">npc_high_oracle_soo_roo::phase</a></div><div class="ttdeci">int8 phase</div><div class="ttdef"><b>Definition:</b> childrens_week.cpp:463</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -696,7 +790,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Events/<a class="el" href="../../dd/d7d/childrens__week_8cpp.html">childrens_week.cpp</a></li>
+<li><a class="el" href="../../">childrens_week.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -704,7 +798,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d67/structnpc__high__oracle__soo__roo.html">npc_high_oracle_soo_roo</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:50 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:06 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

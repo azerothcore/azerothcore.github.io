@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('d0/d9d/class_b_g_spam_protect.html','.
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d6/db7/_battleground_spam_protect_8h_source.html">BattlegroundSpamProtect.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">BattlegroundSpamProtect.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -125,7 +125,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ad76f570ce82ffcde5484e612c10c6f59"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d0/d9d/class_b_g_spam_protect.html">BGSpamProtect</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d9d/class_b_g_spam_protect.html#ad76f570ce82ffcde5484e612c10c6f59">instance</a> ()</td></tr>
 <tr class="separator:ad76f570ce82ffcde5484e612c10c6f59"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="ab791cf85fc2e08330d3f777e1797c01c" name="ab791cf85fc2e08330d3f777e1797c01c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab791cf85fc2e08330d3f777e1797c01c">&#9670;&#160;</a></span>CanAnnounce()</h2>
 
@@ -163,7 +164,45 @@ Static Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   59</span>{</div>
+<div class="line"><span class="lineno">   60</span>    <a class="code hl_class" href="../../d8/d03/class_object_guid.html">ObjectGuid</a> guid = player-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>();</div>
+<div class="line"><span class="lineno">   61</span> </div>
+<div class="line"><span class="lineno">   62</span>    <span class="comment">// Check prev time</span></div>
+<div class="line"><span class="lineno">   63</span>    <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../db/da9/namespaceanonymous__namespace_02_battleground_spam_protect_8cpp_03.html#a18121c73cd31656af9ee5e5da754e4bd">IsCorrectDelay</a>(guid))</div>
+<div class="line"><span class="lineno">   64</span>    {</div>
+<div class="line"><span class="lineno">   65</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   66</span>    }</div>
+<div class="line"><span class="lineno">   67</span> </div>
+<div class="line"><span class="lineno">   68</span>    <span class="keywordflow">if</span> (bg)</div>
+<div class="line"><span class="lineno">   69</span>    {</div>
+<div class="line"><span class="lineno">   70</span>        <span class="comment">// When limited, it announces only if there are at least CONFIG_BATTLEGROUND_QUEUE_ANNOUNCER_LIMIT_MIN_PLAYERS in queue</span></div>
+<div class="line"><span class="lineno">   71</span>        <span class="keyword">auto</span> limitQueueMinLevel = <a class="code hl_define" href="../../df/d17/group__world.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;getIntConfig(<a class="code hl_enumvalue" href="../../d2/d80/_i_world_8h.html#a17aac4c166ebe43e3b8fdccf9e012e41a09a2cfa5fc5ace4c6a0cee7415358dd8">CONFIG_BATTLEGROUND_QUEUE_ANNOUNCER_LIMIT_MIN_LEVEL</a>);</div>
+<div class="line"><span class="lineno">   72</span>        <span class="keywordflow">if</span> (limitQueueMinLevel &amp;&amp; minLevel &gt;= limitQueueMinLevel)</div>
+<div class="line"><span class="lineno">   73</span>        {</div>
+<div class="line"><span class="lineno">   74</span>            <span class="comment">// limit only RBG for 80, WSG for lower levels</span></div>
+<div class="line"><span class="lineno">   75</span>            <span class="keyword">auto</span> bgTypeToLimit = minLevel == 80 ? <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#aaef9ddb244c12d22800aee24c3b637a2ade253b1a8546a255cdccefa700b60300">BATTLEGROUND_RB</a> : <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#aaef9ddb244c12d22800aee24c3b637a2a117184e14f6dd8735bfb869a017801ac">BATTLEGROUND_WS</a>;</div>
+<div class="line"><span class="lineno">   76</span> </div>
+<div class="line"><span class="lineno">   77</span>            <span class="keywordflow">if</span> (bg-&gt;<a class="code hl_function" href="../../d6/ddc/class_battleground.html#adfd6af85ad435ecdab7129e810ba2319">GetBgTypeID</a>() == bgTypeToLimit &amp;&amp; queueTotal &lt; sWorld-&gt;getIntConfig(<a class="code hl_enumvalue" href="../../d2/d80/_i_world_8h.html#a17aac4c166ebe43e3b8fdccf9e012e41a5170836e93053218432bfbad3d5adc76">CONFIG_BATTLEGROUND_QUEUE_ANNOUNCER_LIMIT_MIN_PLAYERS</a>))</div>
+<div class="line"><span class="lineno">   78</span>            {</div>
+<div class="line"><span class="lineno">   79</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   80</span>            }</div>
+<div class="line"><span class="lineno">   81</span>        }</div>
+<div class="line"><span class="lineno">   82</span>    }</div>
+<div class="line"><span class="lineno">   83</span> </div>
+<div class="line"><span class="lineno">   84</span>    <a class="code hl_function" href="../../db/da9/namespaceanonymous__namespace_02_battleground_spam_protect_8cpp_03.html#aae074176c44fa3d99280320c869fde46">AddTime</a>(guid);</div>
+<div class="line"><span class="lineno">   85</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   86</span>}</div>
+<div class="ttc" id="a_i_world_8h_html_a17aac4c166ebe43e3b8fdccf9e012e41a09a2cfa5fc5ace4c6a0cee7415358dd8"><div class="ttname"><a href="../../d2/d80/_i_world_8h.html#a17aac4c166ebe43e3b8fdccf9e012e41a09a2cfa5fc5ace4c6a0cee7415358dd8">CONFIG_BATTLEGROUND_QUEUE_ANNOUNCER_LIMIT_MIN_LEVEL</a></div><div class="ttdeci">@ CONFIG_BATTLEGROUND_QUEUE_ANNOUNCER_LIMIT_MIN_LEVEL</div><div class="ttdef"><b>Definition:</b> IWorld.h:312</div></div>
+<div class="ttc" id="a_i_world_8h_html_a17aac4c166ebe43e3b8fdccf9e012e41a5170836e93053218432bfbad3d5adc76"><div class="ttname"><a href="../../d2/d80/_i_world_8h.html#a17aac4c166ebe43e3b8fdccf9e012e41a5170836e93053218432bfbad3d5adc76">CONFIG_BATTLEGROUND_QUEUE_ANNOUNCER_LIMIT_MIN_PLAYERS</a></div><div class="ttdeci">@ CONFIG_BATTLEGROUND_QUEUE_ANNOUNCER_LIMIT_MIN_PLAYERS</div><div class="ttdef"><b>Definition:</b> IWorld.h:313</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_aaef9ddb244c12d22800aee24c3b637a2a117184e14f6dd8735bfb869a017801ac"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#aaef9ddb244c12d22800aee24c3b637a2a117184e14f6dd8735bfb869a017801ac">BATTLEGROUND_WS</a></div><div class="ttdeci">@ BATTLEGROUND_WS</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3454</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_aaef9ddb244c12d22800aee24c3b637a2ade253b1a8546a255cdccefa700b60300"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#aaef9ddb244c12d22800aee24c3b637a2ade253b1a8546a255cdccefa700b60300">BATTLEGROUND_RB</a></div><div class="ttdeci">@ BATTLEGROUND_RB</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3465</div></div>
+<div class="ttc" id="aclass_battleground_html_adfd6af85ad435ecdab7129e810ba2319"><div class="ttname"><a href="../../d6/ddc/class_battleground.html#adfd6af85ad435ecdab7129e810ba2319">Battleground::GetBgTypeID</a></div><div class="ttdeci">BattlegroundTypeId GetBgTypeID(bool GetRandom=false) const</div><div class="ttdef"><b>Definition:</b> Battleground.h:319</div></div>
+<div class="ttc" id="aclass_object_guid_html"><div class="ttname"><a href="../../d8/d03/class_object_guid.html">ObjectGuid</a></div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:120</div></div>
+<div class="ttc" id="aclass_object_html_ad23b997e2442fa6a6228ba73a7ecc138"><div class="ttname"><a href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">Object::GetGUID</a></div><div class="ttdeci">static ObjectGuid GetGUID(Object const *o)</div><div class="ttdef"><b>Definition:</b> Object.h:106</div></div>
+<div class="ttc" id="agroup__world_html_ga05dfb35c344e5b947a19e4284e7f5fa7"><div class="ttname"><a href="../../df/d17/group__world.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a></div><div class="ttdeci">#define sWorld</div><div class="ttdef"><b>Definition:</b> World.h:458</div></div>
+<div class="ttc" id="anamespaceanonymous__namespace_02_battleground_spam_protect_8cpp_03_html_a18121c73cd31656af9ee5e5da754e4bd"><div class="ttname"><a href="../../db/da9/namespaceanonymous__namespace_02_battleground_spam_protect_8cpp_03.html#a18121c73cd31656af9ee5e5da754e4bd">anonymous_namespace{BattlegroundSpamProtect.cpp}::IsCorrectDelay</a></div><div class="ttdeci">bool IsCorrectDelay(ObjectGuid guid)</div><div class="ttdef"><b>Definition:</b> BattlegroundSpamProtect.cpp:45</div></div>
+<div class="ttc" id="anamespaceanonymous__namespace_02_battleground_spam_protect_8cpp_03_html_aae074176c44fa3d99280320c869fde46"><div class="ttname"><a href="../../db/da9/namespaceanonymous__namespace_02_battleground_spam_protect_8cpp_03.html#aae074176c44fa3d99280320c869fde46">anonymous_namespace{BattlegroundSpamProtect.cpp}::AddTime</a></div><div class="ttdeci">void AddTime(ObjectGuid guid)</div><div class="ttdef"><b>Definition:</b> BattlegroundSpamProtect.cpp:29</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad76f570ce82ffcde5484e612c10c6f59" name="ad76f570ce82ffcde5484e612c10c6f59"></a>
@@ -188,12 +227,18 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   53</span>{</div>
+<div class="line"><span class="lineno">   54</span>    <span class="keyword">static</span> <a class="code hl_class" href="../../d0/d9d/class_b_g_spam_protect.html">BGSpamProtect</a> <a class="code hl_function" href="../../d0/d9d/class_b_g_spam_protect.html#ad76f570ce82ffcde5484e612c10c6f59">instance</a>;</div>
+<div class="line"><span class="lineno">   55</span>    <span class="keywordflow">return</span> &amp;<a class="code hl_function" href="../../d0/d9d/class_b_g_spam_protect.html#ad76f570ce82ffcde5484e612c10c6f59">instance</a>;</div>
+<div class="line"><span class="lineno">   56</span>}</div>
+<div class="ttc" id="aclass_b_g_spam_protect_html"><div class="ttname"><a href="../../d0/d9d/class_b_g_spam_protect.html">BGSpamProtect</a></div><div class="ttdef"><b>Definition:</b> BattlegroundSpamProtect.h:27</div></div>
+<div class="ttc" id="aclass_b_g_spam_protect_html_ad76f570ce82ffcde5484e612c10c6f59"><div class="ttname"><a href="../../d0/d9d/class_b_g_spam_protect.html#ad76f570ce82ffcde5484e612c10c6f59">BGSpamProtect::instance</a></div><div class="ttdeci">static BGSpamProtect * instance()</div><div class="ttdef"><b>Definition:</b> BattlegroundSpamProtect.cpp:52</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Battlegrounds/<a class="el" href="../../d6/db7/_battleground_spam_protect_8h_source.html">BattlegroundSpamProtect.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/Battlegrounds/<a class="el" href="../../d5/d55/_battleground_spam_protect_8cpp.html">BattlegroundSpamProtect.cpp</a></li>
+<li><a class="el" href="../../">BattlegroundSpamProtect.h</a></li>
+<li><a class="el" href="../../">BattlegroundSpamProtect.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -201,7 +246,7 @@ Static Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d0/d9d/class_b_g_spam_protect.html">BGSpamProtect</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:38 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:49 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

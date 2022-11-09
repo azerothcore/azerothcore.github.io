@@ -114,7 +114,7 @@ $(document).ready(function(){initNavTree('d3/d7d/class_flight_path_movement_gene
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d4/d33/_waypoint_movement_generator_8h_source.html">WaypointMovementGenerator.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">WaypointMovementGenerator.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for FlightPathMovementGenerator:</div>
 <div class="dyncontent">
@@ -259,7 +259,19 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  106</span>        {</div>
+<div class="line"><span class="lineno">  107</span>            <a class="code hl_variable" href="../../d3/d4f/class_path_movement_base.html#a5420aef90d3529881ef41362ebb29934">i_currentNode</a> = startNode;</div>
+<div class="line"><span class="lineno">  108</span>            <a class="code hl_variable" href="../../d3/d7d/class_flight_path_movement_generator.html#a8dd2719a015fca9fe46c8b3586b0434c">_endGridX</a> = 0.0f;</div>
+<div class="line"><span class="lineno">  109</span>            <a class="code hl_variable" href="../../d3/d7d/class_flight_path_movement_generator.html#a1b0c069bcbcf3b13691b9ea80ac4c3a6">_endGridY</a> = 0.0f;</div>
+<div class="line"><span class="lineno">  110</span>            <a class="code hl_variable" href="../../d3/d7d/class_flight_path_movement_generator.html#aa83bc85f1b6cd6d5367d745ae31cc6fc">_endMapId</a> = 0;</div>
+<div class="line"><span class="lineno">  111</span>            <a class="code hl_variable" href="../../d3/d7d/class_flight_path_movement_generator.html#a3192e87bc06fa21ea01f99ba23fe6eb1">_preloadTargetNode</a> = 0;</div>
+<div class="line"><span class="lineno">  112</span>        }</div>
+<div class="ttc" id="aclass_flight_path_movement_generator_html_a1b0c069bcbcf3b13691b9ea80ac4c3a6"><div class="ttname"><a href="../../d3/d7d/class_flight_path_movement_generator.html#a1b0c069bcbcf3b13691b9ea80ac4c3a6">FlightPathMovementGenerator::_endGridY</a></div><div class="ttdeci">float _endGridY</div><div class="ttdoc">X coord of last node location.</div><div class="ttdef"><b>Definition:</b> WaypointMovementGenerator.h:135</div></div>
+<div class="ttc" id="aclass_flight_path_movement_generator_html_a3192e87bc06fa21ea01f99ba23fe6eb1"><div class="ttname"><a href="../../d3/d7d/class_flight_path_movement_generator.html#a3192e87bc06fa21ea01f99ba23fe6eb1">FlightPathMovementGenerator::_preloadTargetNode</a></div><div class="ttdeci">uint32 _preloadTargetNode</div><div class="ttdoc">map Id of last node location</div><div class="ttdef"><b>Definition:</b> WaypointMovementGenerator.h:137</div></div>
+<div class="ttc" id="aclass_flight_path_movement_generator_html_a8dd2719a015fca9fe46c8b3586b0434c"><div class="ttname"><a href="../../d3/d7d/class_flight_path_movement_generator.html#a8dd2719a015fca9fe46c8b3586b0434c">FlightPathMovementGenerator::_endGridX</a></div><div class="ttdeci">float _endGridX</div><div class="ttdef"><b>Definition:</b> WaypointMovementGenerator.h:134</div></div>
+<div class="ttc" id="aclass_flight_path_movement_generator_html_aa83bc85f1b6cd6d5367d745ae31cc6fc"><div class="ttname"><a href="../../d3/d7d/class_flight_path_movement_generator.html#aa83bc85f1b6cd6d5367d745ae31cc6fc">FlightPathMovementGenerator::_endMapId</a></div><div class="ttdeci">uint32 _endMapId</div><div class="ttdoc">Y coord of last node location.</div><div class="ttdef"><b>Definition:</b> WaypointMovementGenerator.h:136</div></div>
+<div class="ttc" id="aclass_path_movement_base_html_a5420aef90d3529881ef41362ebb29934"><div class="ttname"><a href="../../d3/d4f/class_path_movement_base.html#a5420aef90d3529881ef41362ebb29934">PathMovementBase&lt; Player, TaxiPathNodeList &gt;::i_currentNode</a></div><div class="ttdeci">uint32 i_currentNode</div><div class="ttdef"><b>Definition:</b> WaypointMovementGenerator.h:46</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -294,7 +306,20 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  460</span>{</div>
+<div class="line"><span class="lineno">  461</span>    <span class="keywordflow">if</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> eventid = departure ? node-&gt;departureEventID : node-&gt;arrivalEventID)</div>
+<div class="line"><span class="lineno">  462</span>    {</div>
+<div class="line"><span class="lineno">  463</span>        <a class="code hl_define" href="../../da/df4/_log_8h.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a>(<span class="stringliteral">&quot;maps.script&quot;</span>, <span class="stringliteral">&quot;Taxi {} event {} of node {} of path {} for player {}&quot;</span>, departure ? <span class="stringliteral">&quot;departure&quot;</span> : <span class="stringliteral">&quot;arrival&quot;</span>, eventid, node-&gt;index, node-&gt;path, player-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a7e67658eb5aa058bc7f46bf6b11a797c">GetName</a>().c_str());</div>
+<div class="line"><span class="lineno">  464</span>        player-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a1013c27be4347a1b1a4a986a07456deb">GetMap</a>()-&gt;<a class="code hl_function" href="../../dd/d11/class_map.html#a0fe34e1ebcf27ed7b47a29341720cbc4">ScriptsStart</a>(<a class="code hl_variable" href="../../df/d62/_object_mgr_8cpp.html#a99fc90e0f89dbe2684b6563324d8c23b">sEventScripts</a>, eventid, player, player);</div>
+<div class="line"><span class="lineno">  465</span>    }</div>
+<div class="line"><span class="lineno">  466</span>}</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="a_log_8h_html_a47ac782b14a7531c6232777165a1a161"><div class="ttname"><a href="../../da/df4/_log_8h.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a></div><div class="ttdeci">#define LOG_DEBUG(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:171</div></div>
+<div class="ttc" id="a_object_mgr_8cpp_html_a99fc90e0f89dbe2684b6563324d8c23b"><div class="ttname"><a href="../../df/d62/_object_mgr_8cpp.html#a99fc90e0f89dbe2684b6563324d8c23b">sEventScripts</a></div><div class="ttdeci">ScriptMapMap sEventScripts</div><div class="ttdef"><b>Definition:</b> ObjectMgr.cpp:58</div></div>
+<div class="ttc" id="aclass_map_html_a0fe34e1ebcf27ed7b47a29341720cbc4"><div class="ttname"><a href="../../dd/d11/class_map.html#a0fe34e1ebcf27ed7b47a29341720cbc4">Map::ScriptsStart</a></div><div class="ttdeci">void ScriptsStart(std::map&lt; uint32, std::multimap&lt; uint32, ScriptInfo &gt; &gt; const &amp;scripts, uint32 id, Object *source, Object *target)</div><div class="ttdoc">Put scripts in the execution queue.</div><div class="ttdef"><b>Definition:</b> MapScripts.cpp:34</div></div>
+<div class="ttc" id="aclass_world_object_html_a1013c27be4347a1b1a4a986a07456deb"><div class="ttname"><a href="../../db/df7/class_world_object.html#a1013c27be4347a1b1a4a986a07456deb">WorldObject::GetMap</a></div><div class="ttdeci">Map * GetMap() const</div><div class="ttdef"><b>Definition:</b> Object.h:517</div></div>
+<div class="ttc" id="aclass_world_object_html_a7e67658eb5aa058bc7f46bf6b11a797c"><div class="ttname"><a href="../../db/df7/class_world_object.html#a7e67658eb5aa058bc7f46bf6b11a797c">WorldObject::GetName</a></div><div class="ttdeci">std::string const &amp; GetName() const</div><div class="ttdef"><b>Definition:</b> Object.h:446</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="af4017ff6e47601f667587fb7dd6a721c" name="af4017ff6e47601f667587fb7dd6a721c"></a>
@@ -312,7 +337,46 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  346</span>{</div>
+<div class="line"><span class="lineno">  347</span>    <span class="comment">// remove flag to prevent send object build movement packets for flight state and crash (movement generator already not at top of stack)</span></div>
+<div class="line"><span class="lineno">  348</span>    player-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a0234fee1df2999bda3ca22449164f7b5">ClearUnitState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544acaa99b04af24f0d3e5adb2e92d82ffcc">UNIT_STATE_IN_FLIGHT</a>);</div>
+<div class="line"><span class="lineno">  349</span> </div>
+<div class="line"><span class="lineno">  350</span>    player-&gt;<a class="code hl_variable" href="../../d8/d53/class_player.html#aa9a124b487baed6b4d8330ac33d52162">m_taxi</a>.<a class="code hl_function" href="../../df/d98/class_player_taxi.html#ab4422be16e69b1f32bce002ab71ab5a5">ClearTaxiDestinations</a>();</div>
+<div class="line"><span class="lineno">  351</span>    player-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4c786d459751c90df99fb7f1526e43e7">Dismount</a>();</div>
+<div class="line"><span class="lineno">  352</span>    player-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#af9a5a43c2d7940c38f8b101409666a0d">RemoveUnitFlag</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a88d4148840a6a1106f35646a4580d6fe">UNIT_FLAG_DISABLE_MOVE</a> | <a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a019c7786d6185680d102be3d82d327b9">UNIT_FLAG_TAXI_FLIGHT</a>);</div>
+<div class="line"><span class="lineno">  353</span> </div>
+<div class="line"><span class="lineno">  354</span>    <span class="keywordflow">if</span> (player-&gt;<a class="code hl_variable" href="../../d8/d53/class_player.html#aa9a124b487baed6b4d8330ac33d52162">m_taxi</a>.<a class="code hl_function" href="../../df/d98/class_player_taxi.html#a76919e4ba603f6a1b88a3c213767e09d">empty</a>())</div>
+<div class="line"><span class="lineno">  355</span>    {</div>
+<div class="line"><span class="lineno">  356</span>        player-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a83fe30829a1470536e408efbf56dd5f5">getHostileRefMgr</a>().<a class="code hl_function" href="../../d9/d07/class_hostile_ref_mgr.html#a49753f69707cf223046784397c58d8c4">setOnlineOfflineState</a>(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  357</span>        <span class="comment">// update z position to ground and orientation for landing point</span></div>
+<div class="line"><span class="lineno">  358</span>        <span class="comment">// this prevent cheating with landing  point at lags</span></div>
+<div class="line"><span class="lineno">  359</span>        <span class="comment">// when client side flight end early in comparison server side</span></div>
+<div class="line"><span class="lineno">  360</span>        player-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a61edf6ab694fa8f7ed6ef194fd4dd103">StopMoving</a>();</div>
+<div class="line"><span class="lineno">  361</span> </div>
+<div class="line"><span class="lineno">  362</span>        <span class="comment">// When the player reaches the last flight point, teleport to destination taxi node location</span></div>
+<div class="line"><span class="lineno">  363</span>        player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a5314dca58905e9e6504d140a32a60599">SetFallInformation</a>(<a class="code hl_function" href="../../d4/d1c/namespace_game_time.html#adbe1785d1327dedf2ac403b7cc8e99c2">GameTime::GetGameTime</a>().count(), player-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#a4e813a59345a6275e8b87b96be03e60b">GetPositionZ</a>());</div>
+<div class="line"><span class="lineno">  364</span>    }</div>
+<div class="line"><span class="lineno">  365</span> </div>
+<div class="line"><span class="lineno">  366</span>    player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a202d37a0e6e6a63a82e71e53dec65059">RemovePlayerFlag</a>(<a class="code hl_enumvalue" href="../../d1/d39/_player_8h.html#a3ff501fa2c348b8887c3e9eac3ab7dcda9cf3750d7552ebb5c2801370a2d8cae6">PLAYER_FLAGS_TAXI_BENCHMARK</a>);</div>
+<div class="line"><span class="lineno">  367</span>}</div>
+<div class="ttc" id="a_player_8h_html_a3ff501fa2c348b8887c3e9eac3ab7dcda9cf3750d7552ebb5c2801370a2d8cae6"><div class="ttname"><a href="../../d1/d39/_player_8h.html#a3ff501fa2c348b8887c3e9eac3ab7dcda9cf3750d7552ebb5c2801370a2d8cae6">PLAYER_FLAGS_TAXI_BENCHMARK</a></div><div class="ttdeci">@ PLAYER_FLAGS_TAXI_BENCHMARK</div><div class="ttdef"><b>Definition:</b> Player.h:492</div></div>
+<div class="ttc" id="a_unit_8h_html_ae51d2ecb71f7a5cb3882982a622c9544acaa99b04af24f0d3e5adb2e92d82ffcc"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544acaa99b04af24f0d3e5adb2e92d82ffcc">UNIT_STATE_IN_FLIGHT</a></div><div class="ttdeci">@ UNIT_STATE_IN_FLIGHT</div><div class="ttdef"><b>Definition:</b> Unit.h:333</div></div>
+<div class="ttc" id="a_unit_8h_html_affdd0d554c8bcaaa85a879f5a9d60934a019c7786d6185680d102be3d82d327b9"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a019c7786d6185680d102be3d82d327b9">UNIT_FLAG_TAXI_FLIGHT</a></div><div class="ttdeci">@ UNIT_FLAG_TAXI_FLIGHT</div><div class="ttdef"><b>Definition:</b> Unit.h:468</div></div>
+<div class="ttc" id="a_unit_8h_html_affdd0d554c8bcaaa85a879f5a9d60934a88d4148840a6a1106f35646a4580d6fe"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a88d4148840a6a1106f35646a4580d6fe">UNIT_FLAG_DISABLE_MOVE</a></div><div class="ttdeci">@ UNIT_FLAG_DISABLE_MOVE</div><div class="ttdef"><b>Definition:</b> Unit.h:450</div></div>
+<div class="ttc" id="aclass_hostile_ref_mgr_html_a49753f69707cf223046784397c58d8c4"><div class="ttname"><a href="../../d9/d07/class_hostile_ref_mgr.html#a49753f69707cf223046784397c58d8c4">HostileRefMgr::setOnlineOfflineState</a></div><div class="ttdeci">void setOnlineOfflineState(bool isOnline)</div><div class="ttdef"><b>Definition:</b> HostileRefMgr.cpp:98</div></div>
+<div class="ttc" id="aclass_player_html_a202d37a0e6e6a63a82e71e53dec65059"><div class="ttname"><a href="../../d8/d53/class_player.html#a202d37a0e6e6a63a82e71e53dec65059">Player::RemovePlayerFlag</a></div><div class="ttdeci">void RemovePlayerFlag(PlayerFlags flags)</div><div class="ttdef"><b>Definition:</b> Player.h:1092</div></div>
+<div class="ttc" id="aclass_player_html_a5314dca58905e9e6504d140a32a60599"><div class="ttname"><a href="../../d8/d53/class_player.html#a5314dca58905e9e6504d140a32a60599">Player::SetFallInformation</a></div><div class="ttdeci">void SetFallInformation(uint32 time, float z)</div><div class="ttdef"><b>Definition:</b> Player.h:2284</div></div>
+<div class="ttc" id="aclass_player_html_aa9a124b487baed6b4d8330ac33d52162"><div class="ttname"><a href="../../d8/d53/class_player.html#aa9a124b487baed6b4d8330ac33d52162">Player::m_taxi</a></div><div class="ttdeci">PlayerTaxi m_taxi</div><div class="ttdef"><b>Definition:</b> Player.h:1123</div></div>
+<div class="ttc" id="aclass_player_taxi_html_a76919e4ba603f6a1b88a3c213767e09d"><div class="ttname"><a href="../../df/d98/class_player_taxi.html#a76919e4ba603f6a1b88a3c213767e09d">PlayerTaxi::empty</a></div><div class="ttdeci">bool empty() const</div><div class="ttdef"><b>Definition:</b> PlayerTaxi.h:74</div></div>
+<div class="ttc" id="aclass_player_taxi_html_ab4422be16e69b1f32bce002ab71ab5a5"><div class="ttname"><a href="../../df/d98/class_player_taxi.html#ab4422be16e69b1f32bce002ab71ab5a5">PlayerTaxi::ClearTaxiDestinations</a></div><div class="ttdeci">void ClearTaxiDestinations()</div><div class="ttdef"><b>Definition:</b> PlayerTaxi.h:62</div></div>
+<div class="ttc" id="aclass_unit_html_a0234fee1df2999bda3ca22449164f7b5"><div class="ttname"><a href="../../da/db7/class_unit.html#a0234fee1df2999bda3ca22449164f7b5">Unit::ClearUnitState</a></div><div class="ttdeci">void ClearUnitState(uint32 f)</div><div class="ttdef"><b>Definition:</b> Unit.h:1399</div></div>
+<div class="ttc" id="aclass_unit_html_a4c786d459751c90df99fb7f1526e43e7"><div class="ttname"><a href="../../da/db7/class_unit.html#a4c786d459751c90df99fb7f1526e43e7">Unit::Dismount</a></div><div class="ttdeci">void Dismount()</div><div class="ttdef"><b>Definition:</b> Unit.cpp:13428</div></div>
+<div class="ttc" id="aclass_unit_html_a61edf6ab694fa8f7ed6ef194fd4dd103"><div class="ttname"><a href="../../da/db7/class_unit.html#a61edf6ab694fa8f7ed6ef194fd4dd103">Unit::StopMoving</a></div><div class="ttdeci">void StopMoving()</div><div class="ttdef"><b>Definition:</b> Unit.cpp:16736</div></div>
+<div class="ttc" id="aclass_unit_html_a83fe30829a1470536e408efbf56dd5f5"><div class="ttname"><a href="../../da/db7/class_unit.html#a83fe30829a1470536e408efbf56dd5f5">Unit::getHostileRefMgr</a></div><div class="ttdeci">HostileRefMgr &amp; getHostileRefMgr()</div><div class="ttdef"><b>Definition:</b> Unit.h:2146</div></div>
+<div class="ttc" id="aclass_unit_html_af9a5a43c2d7940c38f8b101409666a0d"><div class="ttname"><a href="../../da/db7/class_unit.html#af9a5a43c2d7940c38f8b101409666a0d">Unit::RemoveUnitFlag</a></div><div class="ttdeci">void RemoveUnitFlag(UnitFlags flags)</div><div class="ttdef"><b>Definition:</b> Unit.h:1480</div></div>
+<div class="ttc" id="anamespace_game_time_html_adbe1785d1327dedf2ac403b7cc8e99c2"><div class="ttname"><a href="../../d4/d1c/namespace_game_time.html#adbe1785d1327dedf2ac403b7cc8e99c2">GameTime::GetGameTime</a></div><div class="ttdeci">Seconds GetGameTime()</div><div class="ttdef"><b>Definition:</b> GameTime.cpp:38</div></div>
+<div class="ttc" id="astruct_position_html_a4e813a59345a6275e8b87b96be03e60b"><div class="ttname"><a href="../../d1/d26/struct_position.html#a4e813a59345a6275e8b87b96be03e60b">Position::GetPositionZ</a></div><div class="ttdeci">float GetPositionZ() const</div><div class="ttdef"><b>Definition:</b> Position.h:119</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a4b0ab8a2be27b3640ff2155d734b467c" name="a4b0ab8a2be27b3640ff2155d734b467c"></a>
@@ -330,7 +394,13 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  340</span>{</div>
+<div class="line"><span class="lineno">  341</span>    <a class="code hl_function" href="../../df/dd8/class_movement_generator_medium.html#a6db99ea9863dc60d032bacda37afa078">Reset</a>(player);</div>
+<div class="line"><span class="lineno">  342</span>    <a class="code hl_function" href="../../d3/d7d/class_flight_path_movement_generator.html#a6cf74faed9b8609fa74932148b6b4948">InitEndGridInfo</a>();</div>
+<div class="line"><span class="lineno">  343</span>}</div>
+<div class="ttc" id="aclass_flight_path_movement_generator_html_a6cf74faed9b8609fa74932148b6b4948"><div class="ttname"><a href="../../d3/d7d/class_flight_path_movement_generator.html#a6cf74faed9b8609fa74932148b6b4948">FlightPathMovementGenerator::InitEndGridInfo</a></div><div class="ttdeci">void InitEndGridInfo()</div><div class="ttdef"><b>Definition:</b> WaypointMovementGenerator.cpp:477</div></div>
+<div class="ttc" id="aclass_movement_generator_medium_html_a6db99ea9863dc60d032bacda37afa078"><div class="ttname"><a href="../../df/dd8/class_movement_generator_medium.html#a6db99ea9863dc60d032bacda37afa078">MovementGeneratorMedium&lt; Player, FlightPathMovementGenerator &gt;::Reset</a></div><div class="ttdeci">void Reset(Unit *u) override</div><div class="ttdef"><b>Definition:</b> MovementGenerator.h:72</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="abd78eb2841908da8c3c18936d80f18e9" name="abd78eb2841908da8c3c18936d80f18e9"></a>
@@ -348,7 +418,45 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  372</span>{</div>
+<div class="line"><span class="lineno">  373</span>    <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> end = <a class="code hl_function" href="../../d3/d7d/class_flight_path_movement_generator.html#a0493824ba23608abcf98a156cf89bb5a">GetPathAtMapEnd</a>();</div>
+<div class="line"><span class="lineno">  374</span>    <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> currentNodeId = <a class="code hl_function" href="../../d3/d4f/class_path_movement_base.html#a7ceb52928f2198392980c3926516fd82">GetCurrentNode</a>();</div>
+<div class="line"><span class="lineno">  375</span> </div>
+<div class="line"><span class="lineno">  376</span>    <span class="keywordflow">if</span> (currentNodeId == end)</div>
+<div class="line"><span class="lineno">  377</span>    {</div>
+<div class="line"><span class="lineno">  378</span>        <a class="code hl_define" href="../../da/df4/_log_8h.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a>(<span class="stringliteral">&quot;movement.flightpath&quot;</span>, <span class="stringliteral">&quot;FlightPathMovementGenerator::DoReset: trying to start a flypath from the end point. {}&quot;</span>, player-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>().<a class="code hl_function" href="../../d8/d03/class_object_guid.html#a78f5fb47e3b35addf8984000c175125b">ToString</a>().c_str());</div>
+<div class="line"><span class="lineno">  379</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  380</span>    }</div>
+<div class="line"><span class="lineno">  381</span> </div>
+<div class="line"><span class="lineno">  382</span>    player-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a83fe30829a1470536e408efbf56dd5f5">getHostileRefMgr</a>().<a class="code hl_function" href="../../d9/d07/class_hostile_ref_mgr.html#a49753f69707cf223046784397c58d8c4">setOnlineOfflineState</a>(<span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  383</span>    player-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a752f5f516257bfdf139098c29a55c466">AddUnitState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544acaa99b04af24f0d3e5adb2e92d82ffcc">UNIT_STATE_IN_FLIGHT</a>);</div>
+<div class="line"><span class="lineno">  384</span>    player-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ad9f2d48b20f62e17abf5c1892cebe296">SetUnitFlag</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a88d4148840a6a1106f35646a4580d6fe">UNIT_FLAG_DISABLE_MOVE</a> | <a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#affdd0d554c8bcaaa85a879f5a9d60934a019c7786d6185680d102be3d82d327b9">UNIT_FLAG_TAXI_FLIGHT</a>);</div>
+<div class="line"><span class="lineno">  385</span> </div>
+<div class="line"><span class="lineno">  386</span>    <a class="code hl_class" href="../../d6/d88/class_movement_1_1_move_spline_init.html">Movement::MoveSplineInit</a> init(player);</div>
+<div class="line"><span class="lineno">  387</span>    <span class="comment">// Providing a starting vertex since the taxi paths do not provide such</span></div>
+<div class="line"><span class="lineno">  388</span>    init.Path().push_back(G3D::Vector3(player-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#ad5577c934d9e845b44759b67c534c3e8">GetPositionX</a>(), player-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">GetPositionY</a>(), player-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#a4e813a59345a6275e8b87b96be03e60b">GetPositionZ</a>()));</div>
+<div class="line"><span class="lineno">  389</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> i = currentNodeId; i != end; ++i)</div>
+<div class="line"><span class="lineno">  390</span>    {</div>
+<div class="line"><span class="lineno">  391</span>        G3D::Vector3 vertice(<a class="code hl_variable" href="../../d3/d4f/class_path_movement_base.html#a3dbc5e41e0c6245f369afc7a24081c83">i_path</a>[i]-&gt;x, <a class="code hl_variable" href="../../d3/d4f/class_path_movement_base.html#a3dbc5e41e0c6245f369afc7a24081c83">i_path</a>[i]-&gt;y, <a class="code hl_variable" href="../../d3/d4f/class_path_movement_base.html#a3dbc5e41e0c6245f369afc7a24081c83">i_path</a>[i]-&gt;z);</div>
+<div class="line"><span class="lineno">  392</span>        init.Path().push_back(vertice);</div>
+<div class="line"><span class="lineno">  393</span>    }</div>
+<div class="line"><span class="lineno">  394</span>    init.SetFirstPointId(<a class="code hl_function" href="../../d3/d4f/class_path_movement_base.html#a7ceb52928f2198392980c3926516fd82">GetCurrentNode</a>());</div>
+<div class="line"><span class="lineno">  395</span>    init.SetFly();</div>
+<div class="line"><span class="lineno">  396</span>    init.SetVelocity(<a class="code hl_define" href="../../d3/d61/_waypoint_movement_generator_8cpp.html#a2efde26aed42919892139c2ffb51b279">PLAYER_FLIGHT_SPEED</a>);</div>
+<div class="line"><span class="lineno">  397</span>    init.Launch();</div>
+<div class="line"><span class="lineno">  398</span>}</div>
+<div class="ttc" id="a_waypoint_movement_generator_8cpp_html_a2efde26aed42919892139c2ffb51b279"><div class="ttname"><a href="../../d3/d61/_waypoint_movement_generator_8cpp.html#a2efde26aed42919892139c2ffb51b279">PLAYER_FLIGHT_SPEED</a></div><div class="ttdeci">#define PLAYER_FLIGHT_SPEED</div><div class="ttdef"><b>Definition:</b> WaypointMovementGenerator.cpp:369</div></div>
+<div class="ttc" id="aclass_flight_path_movement_generator_html_a0493824ba23608abcf98a156cf89bb5a"><div class="ttname"><a href="../../d3/d7d/class_flight_path_movement_generator.html#a0493824ba23608abcf98a156cf89bb5a">FlightPathMovementGenerator::GetPathAtMapEnd</a></div><div class="ttdeci">uint32 GetPathAtMapEnd() const</div><div class="ttdef"><b>Definition:</b> WaypointMovementGenerator.cpp:270</div></div>
+<div class="ttc" id="aclass_movement_1_1_move_spline_init_html"><div class="ttname"><a href="../../d6/d88/class_movement_1_1_move_spline_init.html">Movement::MoveSplineInit</a></div><div class="ttdef"><b>Definition:</b> MoveSplineInit.h:71</div></div>
+<div class="ttc" id="aclass_object_guid_html_a78f5fb47e3b35addf8984000c175125b"><div class="ttname"><a href="../../d8/d03/class_object_guid.html#a78f5fb47e3b35addf8984000c175125b">ObjectGuid::ToString</a></div><div class="ttdeci">std::string ToString() const</div><div class="ttdef"><b>Definition:</b> ObjectGuid.cpp:47</div></div>
+<div class="ttc" id="aclass_object_html_ad23b997e2442fa6a6228ba73a7ecc138"><div class="ttname"><a href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">Object::GetGUID</a></div><div class="ttdeci">static ObjectGuid GetGUID(Object const *o)</div><div class="ttdef"><b>Definition:</b> Object.h:106</div></div>
+<div class="ttc" id="aclass_path_movement_base_html_a3dbc5e41e0c6245f369afc7a24081c83"><div class="ttname"><a href="../../d3/d4f/class_path_movement_base.html#a3dbc5e41e0c6245f369afc7a24081c83">PathMovementBase&lt; Player, TaxiPathNodeList &gt;::i_path</a></div><div class="ttdeci">TaxiPathNodeList i_path</div><div class="ttdef"><b>Definition:</b> WaypointMovementGenerator.h:45</div></div>
+<div class="ttc" id="aclass_path_movement_base_html_a7ceb52928f2198392980c3926516fd82"><div class="ttname"><a href="../../d3/d4f/class_path_movement_base.html#a7ceb52928f2198392980c3926516fd82">PathMovementBase&lt; Player, TaxiPathNodeList &gt;::GetCurrentNode</a></div><div class="ttdeci">uint32 GetCurrentNode() const</div><div class="ttdef"><b>Definition:</b> WaypointMovementGenerator.h:42</div></div>
+<div class="ttc" id="aclass_unit_html_a752f5f516257bfdf139098c29a55c466"><div class="ttname"><a href="../../da/db7/class_unit.html#a752f5f516257bfdf139098c29a55c466">Unit::AddUnitState</a></div><div class="ttdeci">void AddUnitState(uint32 f)</div><div class="ttdef"><b>Definition:</b> Unit.h:1397</div></div>
+<div class="ttc" id="aclass_unit_html_ad9f2d48b20f62e17abf5c1892cebe296"><div class="ttname"><a href="../../da/db7/class_unit.html#ad9f2d48b20f62e17abf5c1892cebe296">Unit::SetUnitFlag</a></div><div class="ttdeci">void SetUnitFlag(UnitFlags flags)</div><div class="ttdef"><b>Definition:</b> Unit.h:1479</div></div>
+<div class="ttc" id="astruct_position_html_ad5577c934d9e845b44759b67c534c3e8"><div class="ttname"><a href="../../d1/d26/struct_position.html#ad5577c934d9e845b44759b67c534c3e8">Position::GetPositionX</a></div><div class="ttdeci">float GetPositionX() const</div><div class="ttdef"><b>Definition:</b> Position.h:117</div></div>
+<div class="ttc" id="astruct_position_html_ae79fc664f6cd027f5d49f6c7df8e4c9e"><div class="ttname"><a href="../../d1/d26/struct_position.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">Position::GetPositionY</a></div><div class="ttdeci">float GetPositionY() const</div><div class="ttdef"><b>Definition:</b> Position.h:118</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a1e4b3d248c0021a3e2a1c1446f6b7073" name="a1e4b3d248c0021a3e2a1c1446f6b7073"></a>
@@ -376,7 +484,56 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  401</span>{</div>
+<div class="line"><span class="lineno">  402</span>    <span class="comment">// skipping the first spline path point because it&#39;s our starting point and not a taxi path point</span></div>
+<div class="line"><span class="lineno">  403</span>    <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> pointId = player-&gt;<a class="code hl_variable" href="../../da/db7/class_unit.html#a1805acabea4c9a75ad7c0bcab734f627">movespline</a>-&gt;<a class="code hl_function" href="../../df/dd4/class_movement_1_1_move_spline.html#a76e1f096005cddf6d43fea86b4bd4a88">currentPathIdx</a>() &lt;= 0 ? 0 : player-&gt;<a class="code hl_variable" href="../../da/db7/class_unit.html#a1805acabea4c9a75ad7c0bcab734f627">movespline</a>-&gt;<a class="code hl_function" href="../../df/dd4/class_movement_1_1_move_spline.html#a76e1f096005cddf6d43fea86b4bd4a88">currentPathIdx</a>() - 1;</div>
+<div class="line"><span class="lineno">  404</span>    <span class="keywordflow">if</span> (pointId &gt; <a class="code hl_variable" href="../../d3/d4f/class_path_movement_base.html#a5420aef90d3529881ef41362ebb29934">i_currentNode</a> &amp;&amp; <a class="code hl_variable" href="../../d3/d4f/class_path_movement_base.html#a5420aef90d3529881ef41362ebb29934">i_currentNode</a> &lt; <a class="code hl_variable" href="../../d3/d4f/class_path_movement_base.html#a3dbc5e41e0c6245f369afc7a24081c83">i_path</a>.size() - 1)</div>
+<div class="line"><span class="lineno">  405</span>    {</div>
+<div class="line"><span class="lineno">  406</span>        <span class="keywordtype">bool</span> departureEvent = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  407</span>        <span class="keywordflow">do</span></div>
+<div class="line"><span class="lineno">  408</span>        {</div>
+<div class="line"><span class="lineno">  409</span>            <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(<a class="code hl_variable" href="../../d3/d4f/class_path_movement_base.html#a5420aef90d3529881ef41362ebb29934">i_currentNode</a> &lt; <a class="code hl_variable" href="../../d3/d4f/class_path_movement_base.html#a3dbc5e41e0c6245f369afc7a24081c83">i_path</a>.size(), <span class="stringliteral">&quot;Point Id: {}\n{}&quot;</span>, pointId, player-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>().<a class="code hl_function" href="../../d8/d03/class_object_guid.html#a78f5fb47e3b35addf8984000c175125b">ToString</a>().c_str());</div>
+<div class="line"><span class="lineno">  410</span> </div>
+<div class="line"><span class="lineno">  411</span>            <a class="code hl_function" href="../../d3/d7d/class_flight_path_movement_generator.html#af7f2a72e9cf20bf105204b8de08400de">DoEventIfAny</a>(player, <a class="code hl_variable" href="../../d3/d4f/class_path_movement_base.html#a3dbc5e41e0c6245f369afc7a24081c83">i_path</a>[<a class="code hl_variable" href="../../d3/d4f/class_path_movement_base.html#a5420aef90d3529881ef41362ebb29934">i_currentNode</a>], departureEvent);</div>
+<div class="line"><span class="lineno">  412</span>            <span class="keywordflow">while</span> (!<a class="code hl_variable" href="../../d3/d7d/class_flight_path_movement_generator.html#a975eddf086fbd811fdebae405a62f2ea">_pointsForPathSwitch</a>.empty() &amp;&amp; <a class="code hl_variable" href="../../d3/d7d/class_flight_path_movement_generator.html#a975eddf086fbd811fdebae405a62f2ea">_pointsForPathSwitch</a>.front().PathIndex &lt;= <a class="code hl_variable" href="../../d3/d4f/class_path_movement_base.html#a5420aef90d3529881ef41362ebb29934">i_currentNode</a>)</div>
+<div class="line"><span class="lineno">  413</span>            {</div>
+<div class="line"><span class="lineno">  414</span>                <a class="code hl_variable" href="../../d3/d7d/class_flight_path_movement_generator.html#a975eddf086fbd811fdebae405a62f2ea">_pointsForPathSwitch</a>.pop_front();</div>
+<div class="line"><span class="lineno">  415</span>                player-&gt;<a class="code hl_variable" href="../../d8/d53/class_player.html#aa9a124b487baed6b4d8330ac33d52162">m_taxi</a>.<a class="code hl_function" href="../../df/d98/class_player_taxi.html#aa417f33d57d94db8c8aa9df56e329835">NextTaxiDestination</a>();</div>
+<div class="line"><span class="lineno">  416</span>                <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d3/d7d/class_flight_path_movement_generator.html#a975eddf086fbd811fdebae405a62f2ea">_pointsForPathSwitch</a>.empty())</div>
+<div class="line"><span class="lineno">  417</span>                {</div>
+<div class="line"><span class="lineno">  418</span>                    player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a04bc54fb5b9161aa37fc07524af92634">UpdateAchievementCriteria</a>(<a class="code hl_enumvalue" href="../../dc/d6e/_d_b_c_enums_8h.html#a796cde2fc6e2eaed4c657203ed43cd19a80a57777d13ea08ec74eec5c9243add8">ACHIEVEMENT_CRITERIA_TYPE_GOLD_SPENT_FOR_TRAVELLING</a>, <a class="code hl_variable" href="../../d3/d7d/class_flight_path_movement_generator.html#a975eddf086fbd811fdebae405a62f2ea">_pointsForPathSwitch</a>.front().Cost);</div>
+<div class="line"><span class="lineno">  419</span>                    player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a46351fb555db3b97fc531f215d2d2338">ModifyMoney</a>(-<a class="code hl_variable" href="../../d3/d7d/class_flight_path_movement_generator.html#a975eddf086fbd811fdebae405a62f2ea">_pointsForPathSwitch</a>.front().Cost);</div>
+<div class="line"><span class="lineno">  420</span>                }</div>
+<div class="line"><span class="lineno">  421</span>            }</div>
+<div class="line"><span class="lineno">  422</span> </div>
+<div class="line"><span class="lineno">  423</span>            <span class="keywordflow">if</span> (pointId == <a class="code hl_variable" href="../../d3/d4f/class_path_movement_base.html#a5420aef90d3529881ef41362ebb29934">i_currentNode</a>)</div>
+<div class="line"><span class="lineno">  424</span>            {</div>
+<div class="line"><span class="lineno">  425</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  426</span>            }</div>
+<div class="line"><span class="lineno">  427</span> </div>
+<div class="line"><span class="lineno">  428</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d3/d4f/class_path_movement_base.html#a5420aef90d3529881ef41362ebb29934">i_currentNode</a> == <a class="code hl_variable" href="../../d3/d7d/class_flight_path_movement_generator.html#a3192e87bc06fa21ea01f99ba23fe6eb1">_preloadTargetNode</a>)</div>
+<div class="line"><span class="lineno">  429</span>            {</div>
+<div class="line"><span class="lineno">  430</span>                <a class="code hl_function" href="../../d3/d7d/class_flight_path_movement_generator.html#ac7bb92b99dc57a2b53b0a55e0a797678">PreloadEndGrid</a>();</div>
+<div class="line"><span class="lineno">  431</span>            }</div>
+<div class="line"><span class="lineno">  432</span> </div>
+<div class="line"><span class="lineno">  433</span>            <a class="code hl_variable" href="../../d3/d4f/class_path_movement_base.html#a5420aef90d3529881ef41362ebb29934">i_currentNode</a> += departureEvent ? 1 : 0;</div>
+<div class="line"><span class="lineno">  434</span>            departureEvent = !departureEvent;</div>
+<div class="line"><span class="lineno">  435</span>        } <span class="keywordflow">while</span> (<a class="code hl_variable" href="../../d3/d4f/class_path_movement_base.html#a5420aef90d3529881ef41362ebb29934">i_currentNode</a> &lt; <a class="code hl_variable" href="../../d3/d4f/class_path_movement_base.html#a3dbc5e41e0c6245f369afc7a24081c83">i_path</a>.size() - 1);</div>
+<div class="line"><span class="lineno">  436</span>    }</div>
+<div class="line"><span class="lineno">  437</span> </div>
+<div class="line"><span class="lineno">  438</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d3/d4f/class_path_movement_base.html#a5420aef90d3529881ef41362ebb29934">i_currentNode</a> &lt; (<a class="code hl_variable" href="../../d3/d4f/class_path_movement_base.html#a3dbc5e41e0c6245f369afc7a24081c83">i_path</a>.size() - 1);</div>
+<div class="line"><span class="lineno">  439</span>}</div>
+<div class="ttc" id="a_d_b_c_enums_8h_html_a796cde2fc6e2eaed4c657203ed43cd19a80a57777d13ea08ec74eec5c9243add8"><div class="ttname"><a href="../../dc/d6e/_d_b_c_enums_8h.html#a796cde2fc6e2eaed4c657203ed43cd19a80a57777d13ea08ec74eec5c9243add8">ACHIEVEMENT_CRITERIA_TYPE_GOLD_SPENT_FOR_TRAVELLING</a></div><div class="ttdeci">@ ACHIEVEMENT_CRITERIA_TYPE_GOLD_SPENT_FOR_TRAVELLING</div><div class="ttdef"><b>Definition:</b> DBCEnums.h:182</div></div>
+<div class="ttc" id="a_errors_8h_html_af343b20373ba49a92fce523e948f2ab3"><div class="ttname"><a href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a></div><div class="ttdeci">#define ASSERT</div><div class="ttdef"><b>Definition:</b> Errors.h:68</div></div>
+<div class="ttc" id="aclass_flight_path_movement_generator_html_a975eddf086fbd811fdebae405a62f2ea"><div class="ttname"><a href="../../d3/d7d/class_flight_path_movement_generator.html#a975eddf086fbd811fdebae405a62f2ea">FlightPathMovementGenerator::_pointsForPathSwitch</a></div><div class="ttdeci">std::deque&lt; TaxiNodeChangeInfo &gt; _pointsForPathSwitch</div><div class="ttdef"><b>Definition:</b> WaypointMovementGenerator.h:145</div></div>
+<div class="ttc" id="aclass_flight_path_movement_generator_html_ac7bb92b99dc57a2b53b0a55e0a797678"><div class="ttname"><a href="../../d3/d7d/class_flight_path_movement_generator.html#ac7bb92b99dc57a2b53b0a55e0a797678">FlightPathMovementGenerator::PreloadEndGrid</a></div><div class="ttdeci">void PreloadEndGrid()</div><div class="ttdef"><b>Definition:</b> WaypointMovementGenerator.cpp:500</div></div>
+<div class="ttc" id="aclass_flight_path_movement_generator_html_af7f2a72e9cf20bf105204b8de08400de"><div class="ttname"><a href="../../d3/d7d/class_flight_path_movement_generator.html#af7f2a72e9cf20bf105204b8de08400de">FlightPathMovementGenerator::DoEventIfAny</a></div><div class="ttdeci">void DoEventIfAny(Player *player, TaxiPathNodeEntry const *node, bool departure)</div><div class="ttdef"><b>Definition:</b> WaypointMovementGenerator.cpp:459</div></div>
+<div class="ttc" id="aclass_movement_1_1_move_spline_html_a76e1f096005cddf6d43fea86b4bd4a88"><div class="ttname"><a href="../../df/dd4/class_movement_1_1_move_spline.html#a76e1f096005cddf6d43fea86b4bd4a88">Movement::MoveSpline::currentPathIdx</a></div><div class="ttdeci">int32 currentPathIdx() const</div><div class="ttdef"><b>Definition:</b> MoveSpline.cpp:317</div></div>
+<div class="ttc" id="aclass_player_html_a04bc54fb5b9161aa37fc07524af92634"><div class="ttname"><a href="../../d8/d53/class_player.html#a04bc54fb5b9161aa37fc07524af92634">Player::UpdateAchievementCriteria</a></div><div class="ttdeci">void UpdateAchievementCriteria(AchievementCriteriaTypes type, uint32 miscValue1=0, uint32 miscValue2=0, Unit *unit=nullptr)</div><div class="ttdef"><b>Definition:</b> PlayerUpdates.cpp:2123</div></div>
+<div class="ttc" id="aclass_player_html_a46351fb555db3b97fc531f215d2d2338"><div class="ttname"><a href="../../d8/d53/class_player.html#a46351fb555db3b97fc531f215d2d2338">Player::ModifyMoney</a></div><div class="ttdeci">bool ModifyMoney(int32 amount, bool sendError=true)</div><div class="ttdef"><b>Definition:</b> Player.cpp:11225</div></div>
+<div class="ttc" id="aclass_player_taxi_html_aa417f33d57d94db8c8aa9df56e329835"><div class="ttname"><a href="../../df/d98/class_player_taxi.html#aa417f33d57d94db8c8aa9df56e329835">PlayerTaxi::NextTaxiDestination</a></div><div class="ttdeci">uint32 NextTaxiDestination()</div><div class="ttdef"><b>Definition:</b> PlayerTaxi.h:67</div></div>
+<div class="ttc" id="aclass_unit_html_a1805acabea4c9a75ad7c0bcab734f627"><div class="ttname"><a href="../../da/db7/class_unit.html#a1805acabea4c9a75ad7c0bcab734f627">Unit::movespline</a></div><div class="ttdeci">Movement::MoveSpline * movespline</div><div class="ttdef"><b>Definition:</b> Unit.h:2435</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a8ef0966524b238a617487bde185de6f7" name="a8ef0966524b238a617487bde185de6f7"></a>
@@ -403,7 +560,9 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d9/d70/class_movement_generator.html#a60bac341b438ea7258986f234a952324">MovementGenerator</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  118</span>{ <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d8/dea/_motion_master_8h.html#a4f12806b915efea564eae942207002f9ad1cbffaeac9c9f09b8aeedbaadef54f4">FLIGHT_MOTION_TYPE</a>; }</div>
+<div class="ttc" id="a_motion_master_8h_html_a4f12806b915efea564eae942207002f9ad1cbffaeac9c9f09b8aeedbaadef54f4"><div class="ttname"><a href="../../d8/dea/_motion_master_8h.html#a4f12806b915efea564eae942207002f9ad1cbffaeac9c9f09b8aeedbaadef54f4">FLIGHT_MOTION_TYPE</a></div><div class="ttdeci">@ FLIGHT_MOTION_TYPE</div><div class="ttdef"><b>Definition:</b> MotionMaster.h:45</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a931a91b2e689d58098898f7b9533d632" name="a931a91b2e689d58098898f7b9533d632"></a>
@@ -428,7 +587,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  120</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d3/d4f/class_path_movement_base.html#a3dbc5e41e0c6245f369afc7a24081c83">i_path</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a0493824ba23608abcf98a156cf89bb5a" name="a0493824ba23608abcf98a156cf89bb5a"></a>
@@ -445,7 +605,24 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  271</span>{</div>
+<div class="line"><span class="lineno">  272</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d3/d4f/class_path_movement_base.html#a5420aef90d3529881ef41362ebb29934">i_currentNode</a> &gt;= <a class="code hl_variable" href="../../d3/d4f/class_path_movement_base.html#a3dbc5e41e0c6245f369afc7a24081c83">i_path</a>.size())</div>
+<div class="line"><span class="lineno">  273</span>    {</div>
+<div class="line"><span class="lineno">  274</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d3/d4f/class_path_movement_base.html#a3dbc5e41e0c6245f369afc7a24081c83">i_path</a>.size();</div>
+<div class="line"><span class="lineno">  275</span>    }</div>
+<div class="line"><span class="lineno">  276</span> </div>
+<div class="line"><span class="lineno">  277</span>    <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> curMapId = <a class="code hl_variable" href="../../d3/d4f/class_path_movement_base.html#a3dbc5e41e0c6245f369afc7a24081c83">i_path</a>[<a class="code hl_variable" href="../../d3/d4f/class_path_movement_base.html#a5420aef90d3529881ef41362ebb29934">i_currentNode</a>]-&gt;mapid;</div>
+<div class="line"><span class="lineno">  278</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> i = <a class="code hl_variable" href="../../d3/d4f/class_path_movement_base.html#a5420aef90d3529881ef41362ebb29934">i_currentNode</a>; i &lt; <a class="code hl_variable" href="../../d3/d4f/class_path_movement_base.html#a3dbc5e41e0c6245f369afc7a24081c83">i_path</a>.size(); ++i)</div>
+<div class="line"><span class="lineno">  279</span>    {</div>
+<div class="line"><span class="lineno">  280</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d3/d4f/class_path_movement_base.html#a3dbc5e41e0c6245f369afc7a24081c83">i_path</a>[i]-&gt;mapid != curMapId)</div>
+<div class="line"><span class="lineno">  281</span>        {</div>
+<div class="line"><span class="lineno">  282</span>            <span class="keywordflow">return</span> i;</div>
+<div class="line"><span class="lineno">  283</span>        }</div>
+<div class="line"><span class="lineno">  284</span>    }</div>
+<div class="line"><span class="lineno">  285</span> </div>
+<div class="line"><span class="lineno">  286</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d3/d4f/class_path_movement_base.html#a3dbc5e41e0c6245f369afc7a24081c83">i_path</a>.size();</div>
+<div class="line"><span class="lineno">  287</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ae2cc924b7dd5252c1cb8fcf8679b7786" name="ae2cc924b7dd5252c1cb8fcf8679b7786"></a>
@@ -485,7 +662,18 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  469</span>{</div>
+<div class="line"><span class="lineno">  470</span>    <a class="code hl_struct" href="../../d8/d86/struct_taxi_path_node_entry.html">TaxiPathNodeEntry</a> <span class="keyword">const</span>* node = <a class="code hl_variable" href="../../d3/d4f/class_path_movement_base.html#a3dbc5e41e0c6245f369afc7a24081c83">i_path</a>[<a class="code hl_variable" href="../../d3/d4f/class_path_movement_base.html#a5420aef90d3529881ef41362ebb29934">i_currentNode</a>];</div>
+<div class="line"><span class="lineno">  471</span>    x = node-&gt;<a class="code hl_variable" href="../../d8/d86/struct_taxi_path_node_entry.html#a9acd2aad6b8820c04f6749bd2944b54f">x</a>;</div>
+<div class="line"><span class="lineno">  472</span>    y = node-&gt;<a class="code hl_variable" href="../../d8/d86/struct_taxi_path_node_entry.html#a08778d3ef9a9a87fd731b54d5501daab">y</a>;</div>
+<div class="line"><span class="lineno">  473</span>    z = node-&gt;<a class="code hl_variable" href="../../d8/d86/struct_taxi_path_node_entry.html#af48d85940d7f204091e8438427a72e2d">z</a>;</div>
+<div class="line"><span class="lineno">  474</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  475</span>}</div>
+<div class="ttc" id="astruct_taxi_path_node_entry_html"><div class="ttname"><a href="../../d8/d86/struct_taxi_path_node_entry.html">TaxiPathNodeEntry</a></div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1935</div></div>
+<div class="ttc" id="astruct_taxi_path_node_entry_html_a08778d3ef9a9a87fd731b54d5501daab"><div class="ttname"><a href="../../d8/d86/struct_taxi_path_node_entry.html#a08778d3ef9a9a87fd731b54d5501daab">TaxiPathNodeEntry::y</a></div><div class="ttdeci">float y</div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1941</div></div>
+<div class="ttc" id="astruct_taxi_path_node_entry_html_a9acd2aad6b8820c04f6749bd2944b54f"><div class="ttname"><a href="../../d8/d86/struct_taxi_path_node_entry.html#a9acd2aad6b8820c04f6749bd2944b54f">TaxiPathNodeEntry::x</a></div><div class="ttdeci">float x</div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1940</div></div>
+<div class="ttc" id="astruct_taxi_path_node_entry_html_af48d85940d7f204091e8438427a72e2d"><div class="ttname"><a href="../../d8/d86/struct_taxi_path_node_entry.html#af48d85940d7f204091e8438427a72e2d">TaxiPathNodeEntry::z</a></div><div class="ttdeci">float z</div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1942</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad4a14cf3b7497cf30e6305d52d94ecdb" name="ad4a14cf3b7497cf30e6305d52d94ecdb"></a>
@@ -510,7 +698,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  122</span>{ <span class="keywordflow">return</span> (<a class="code hl_variable" href="../../d3/d4f/class_path_movement_base.html#a5420aef90d3529881ef41362ebb29934">i_currentNode</a> &gt;= <a class="code hl_variable" href="../../d3/d4f/class_path_movement_base.html#a3dbc5e41e0c6245f369afc7a24081c83">i_path</a>.size()); }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a6cf74faed9b8609fa74932148b6b4948" name="a6cf74faed9b8609fa74932148b6b4948"></a>
@@ -530,7 +719,27 @@ Additional Inherited Members</h2></td></tr>
 <p >Storage to preload flightmaster grid at end of flight. For multi-stop flights, this will be reinitialized for each flightmaster at the end of each spline (or stop) in the flight.</p>
 <p >Number of nodes in path.</p>
 <p >MapId of last node</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  478</span>{</div>
+<div class="line"><span class="lineno">  481</span>    <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> nodeCount = <a class="code hl_variable" href="../../d3/d4f/class_path_movement_base.html#a3dbc5e41e0c6245f369afc7a24081c83">i_path</a>.size();        </div>
+<div class="line"><span class="lineno">  482</span>    <a class="code hl_variable" href="../../d3/d7d/class_flight_path_movement_generator.html#aa83bc85f1b6cd6d5367d745ae31cc6fc">_endMapId</a> = <a class="code hl_variable" href="../../d3/d4f/class_path_movement_base.html#a3dbc5e41e0c6245f369afc7a24081c83">i_path</a>[nodeCount - 1]-&gt;mapid; </div>
+<div class="line"><span class="lineno">  483</span> </div>
+<div class="line"><span class="lineno">  484</span>    <span class="comment">// pussywizard:</span></div>
+<div class="line"><span class="lineno">  485</span>    {</div>
+<div class="line"><span class="lineno">  486</span>        <a class="code hl_variable" href="../../d3/d7d/class_flight_path_movement_generator.html#a3192e87bc06fa21ea01f99ba23fe6eb1">_preloadTargetNode</a> = nodeCount - 1;</div>
+<div class="line"><span class="lineno">  487</span>        <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> i = 3; i &gt; 0; --i)</div>
+<div class="line"><span class="lineno">  488</span>            <span class="keywordflow">if</span> (nodeCount &gt;= i &amp;&amp; <a class="code hl_variable" href="../../d3/d7d/class_flight_path_movement_generator.html#aa83bc85f1b6cd6d5367d745ae31cc6fc">_endMapId</a> == <a class="code hl_variable" href="../../d3/d4f/class_path_movement_base.html#a3dbc5e41e0c6245f369afc7a24081c83">i_path</a>[nodeCount - i]-&gt;mapid)</div>
+<div class="line"><span class="lineno">  489</span>            {</div>
+<div class="line"><span class="lineno">  490</span>                <a class="code hl_variable" href="../../d3/d7d/class_flight_path_movement_generator.html#a3192e87bc06fa21ea01f99ba23fe6eb1">_preloadTargetNode</a> = nodeCount - i;</div>
+<div class="line"><span class="lineno">  491</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  492</span>            }</div>
+<div class="line"><span class="lineno">  493</span>        <span class="comment">//_preloadTargetNode = nodeCount - 3; // pussywizard: this can be on other map</span></div>
+<div class="line"><span class="lineno">  494</span>    }</div>
+<div class="line"><span class="lineno">  495</span> </div>
+<div class="line"><span class="lineno">  496</span>    <a class="code hl_variable" href="../../d3/d7d/class_flight_path_movement_generator.html#a8dd2719a015fca9fe46c8b3586b0434c">_endGridX</a> = <a class="code hl_variable" href="../../d3/d4f/class_path_movement_base.html#a3dbc5e41e0c6245f369afc7a24081c83">i_path</a>[nodeCount - 1]-&gt;x;</div>
+<div class="line"><span class="lineno">  497</span>    <a class="code hl_variable" href="../../d3/d7d/class_flight_path_movement_generator.html#a1b0c069bcbcf3b13691b9ea80ac4c3a6">_endGridY</a> = <a class="code hl_variable" href="../../d3/d4f/class_path_movement_base.html#a3dbc5e41e0c6245f369afc7a24081c83">i_path</a>[nodeCount - 1]-&gt;y;</div>
+<div class="line"><span class="lineno">  498</span>}</div>
+<div class="ttc" id="a_define_8h_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:110</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ae21613bcea0003b186b08761aaf525aa" name="ae21613bcea0003b186b08761aaf525aa"></a>
@@ -548,7 +757,56 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  297</span>{</div>
+<div class="line"><span class="lineno">  298</span>    <a class="code hl_variable" href="../../d3/d7d/class_flight_path_movement_generator.html#a975eddf086fbd811fdebae405a62f2ea">_pointsForPathSwitch</a>.clear();</div>
+<div class="line"><span class="lineno">  299</span>    std::deque&lt;uint32&gt; <span class="keyword">const</span>&amp; taxi = player-&gt;<a class="code hl_variable" href="../../d8/d53/class_player.html#aa9a124b487baed6b4d8330ac33d52162">m_taxi</a>.<a class="code hl_function" href="../../df/d98/class_player_taxi.html#a031051c85f1ce8fb8ab172c86bb4382b">GetPath</a>();</div>
+<div class="line"><span class="lineno">  300</span>    <span class="keywordtype">float</span> discount = player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a4d96eb6028b833f31253458123af8813">GetReputationPriceDiscount</a>(player-&gt;<a class="code hl_variable" href="../../d8/d53/class_player.html#aa9a124b487baed6b4d8330ac33d52162">m_taxi</a>.<a class="code hl_function" href="../../df/d98/class_player_taxi.html#a487e2760da8446a3c34dddc2d4c5c0f5">GetFlightMasterFactionTemplate</a>());</div>
+<div class="line"><span class="lineno">  301</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> src = 0, dst = 1; dst &lt; taxi.size(); src = dst++)</div>
+<div class="line"><span class="lineno">  302</span>    {</div>
+<div class="line"><span class="lineno">  303</span>        <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> path, cost;</div>
+<div class="line"><span class="lineno">  304</span>        <a class="code hl_define" href="../../d9/d77/_object_mgr_8h.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetTaxiPath(taxi[src], taxi[dst], path, cost);</div>
+<div class="line"><span class="lineno">  305</span>        <span class="keywordflow">if</span> (path &gt; <a class="code hl_variable" href="../../dd/d17/_d_b_c_stores_8cpp.html#a4de0485823270e510b43721a20a38f68">sTaxiPathNodesByPath</a>.size())</div>
+<div class="line"><span class="lineno">  306</span>        {</div>
+<div class="line"><span class="lineno">  307</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  308</span>        }</div>
+<div class="line"><span class="lineno">  309</span> </div>
+<div class="line"><span class="lineno">  310</span>        <a class="code hl_typedef" href="../../d1/d22/_d_b_c_structure_8h.html#a696428ce320a7e4dd796c85fbf98b7f2">TaxiPathNodeList</a> <span class="keyword">const</span>&amp; nodes = <a class="code hl_variable" href="../../dd/d17/_d_b_c_stores_8cpp.html#a4de0485823270e510b43721a20a38f68">sTaxiPathNodesByPath</a>[path];</div>
+<div class="line"><span class="lineno">  311</span>        <span class="keywordflow">if</span> (!nodes.empty())</div>
+<div class="line"><span class="lineno">  312</span>        {</div>
+<div class="line"><span class="lineno">  313</span>            <a class="code hl_struct" href="../../d8/d86/struct_taxi_path_node_entry.html">TaxiPathNodeEntry</a> <span class="keyword">const</span>* start = nodes[0];</div>
+<div class="line"><span class="lineno">  314</span>            <a class="code hl_struct" href="../../d8/d86/struct_taxi_path_node_entry.html">TaxiPathNodeEntry</a> <span class="keyword">const</span>* end = nodes[nodes.size() - 1];</div>
+<div class="line"><span class="lineno">  315</span>            <span class="keywordtype">bool</span> passedPreviousSegmentProximityCheck = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  316</span>            <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> i = 0; i &lt; nodes.size(); ++i)</div>
+<div class="line"><span class="lineno">  317</span>            {</div>
+<div class="line"><span class="lineno">  318</span>                <span class="keywordflow">if</span> (passedPreviousSegmentProximityCheck || !src || <a class="code hl_variable" href="../../d3/d4f/class_path_movement_base.html#a3dbc5e41e0c6245f369afc7a24081c83">i_path</a>.empty() || <a class="code hl_function" href="../../d3/d61/_waypoint_movement_generator_8cpp.html#a47a5affa854677472690918c4d16f998">IsNodeIncludedInShortenedPath</a>(<a class="code hl_variable" href="../../d3/d4f/class_path_movement_base.html#a3dbc5e41e0c6245f369afc7a24081c83">i_path</a>[<a class="code hl_variable" href="../../d3/d4f/class_path_movement_base.html#a3dbc5e41e0c6245f369afc7a24081c83">i_path</a>.size() - 1], nodes[i]))</div>
+<div class="line"><span class="lineno">  319</span>                {</div>
+<div class="line"><span class="lineno">  320</span>                    <span class="keywordflow">if</span> ((!src || (<a class="code hl_function" href="../../d3/d61/_waypoint_movement_generator_8cpp.html#a47a5affa854677472690918c4d16f998">IsNodeIncludedInShortenedPath</a>(start, nodes[i]) &amp;&amp; i &gt;= 2)) &amp;&amp;</div>
+<div class="line"><span class="lineno">  321</span>                        (dst == taxi.size() - 1 || (<a class="code hl_function" href="../../d3/d61/_waypoint_movement_generator_8cpp.html#a47a5affa854677472690918c4d16f998">IsNodeIncludedInShortenedPath</a>(end, nodes[i]) &amp;&amp; i &lt; nodes.size() - 1)))</div>
+<div class="line"><span class="lineno">  322</span>                    {</div>
+<div class="line"><span class="lineno">  323</span>                        passedPreviousSegmentProximityCheck = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  324</span>                        <a class="code hl_variable" href="../../d3/d4f/class_path_movement_base.html#a3dbc5e41e0c6245f369afc7a24081c83">i_path</a>.push_back(nodes[i]);</div>
+<div class="line"><span class="lineno">  325</span>                    }</div>
+<div class="line"><span class="lineno">  326</span>                }</div>
+<div class="line"><span class="lineno">  327</span>                <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  328</span>                {</div>
+<div class="line"><span class="lineno">  329</span>                    <a class="code hl_variable" href="../../d3/d4f/class_path_movement_base.html#a3dbc5e41e0c6245f369afc7a24081c83">i_path</a>.pop_back();</div>
+<div class="line"><span class="lineno">  330</span>                    --<a class="code hl_variable" href="../../d3/d7d/class_flight_path_movement_generator.html#a975eddf086fbd811fdebae405a62f2ea">_pointsForPathSwitch</a>.back().PathIndex;</div>
+<div class="line"><span class="lineno">  331</span>                }</div>
+<div class="line"><span class="lineno">  332</span>            }</div>
+<div class="line"><span class="lineno">  333</span>        }</div>
+<div class="line"><span class="lineno">  334</span> </div>
+<div class="line"><span class="lineno">  335</span>        <a class="code hl_variable" href="../../d3/d7d/class_flight_path_movement_generator.html#a975eddf086fbd811fdebae405a62f2ea">_pointsForPathSwitch</a>.push_back({ <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(<a class="code hl_variable" href="../../d3/d4f/class_path_movement_base.html#a3dbc5e41e0c6245f369afc7a24081c83">i_path</a>.size() - 1), <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>(ceil(cost * discount)) });</div>
+<div class="line"><span class="lineno">  336</span>    }</div>
+<div class="line"><span class="lineno">  337</span>}</div>
+<div class="ttc" id="a_d_b_c_stores_8cpp_html_a4de0485823270e510b43721a20a38f68"><div class="ttname"><a href="../../dd/d17/_d_b_c_stores_8cpp.html#a4de0485823270e510b43721a20a38f68">sTaxiPathNodesByPath</a></div><div class="ttdeci">TaxiPathNodesByPath sTaxiPathNodesByPath</div><div class="ttdef"><b>Definition:</b> DBCStores.cpp:182</div></div>
+<div class="ttc" id="a_d_b_c_structure_8h_html_a696428ce320a7e4dd796c85fbf98b7f2"><div class="ttname"><a href="../../d1/d22/_d_b_c_structure_8h.html#a696428ce320a7e4dd796c85fbf98b7f2">TaxiPathNodeList</a></div><div class="ttdeci">std::vector&lt; TaxiPathNodeEntry const  * &gt; TaxiPathNodeList</div><div class="ttdef"><b>Definition:</b> DBCStructure.h:2204</div></div>
+<div class="ttc" id="a_define_8h_html_a0bf9964a3ce962c07ad3d8b5432bbbcd"><div class="ttname"><a href="../../db/d35/_define_8h.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a></div><div class="ttdeci">std::int32_t int32</div><div class="ttdef"><b>Definition:</b> Define.h:104</div></div>
+<div class="ttc" id="a_object_mgr_8h_html_a736e30da2b5261060ac6cdbb5de3b787"><div class="ttname"><a href="../../d9/d77/_object_mgr_8h.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a></div><div class="ttdeci">#define sObjectMgr</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:1606</div></div>
+<div class="ttc" id="a_waypoint_movement_generator_8cpp_html_a47a5affa854677472690918c4d16f998"><div class="ttname"><a href="../../d3/d61/_waypoint_movement_generator_8cpp.html#a47a5affa854677472690918c4d16f998">IsNodeIncludedInShortenedPath</a></div><div class="ttdeci">bool IsNodeIncludedInShortenedPath(TaxiPathNodeEntry const *p1, TaxiPathNodeEntry const *p2)</div><div class="ttdef"><b>Definition:</b> WaypointMovementGenerator.cpp:291</div></div>
+<div class="ttc" id="aclass_player_html_a4d96eb6028b833f31253458123af8813"><div class="ttname"><a href="../../d8/d53/class_player.html#a4d96eb6028b833f31253458123af8813">Player::GetReputationPriceDiscount</a></div><div class="ttdeci">float GetReputationPriceDiscount(Creature const *creature) const</div><div class="ttdef"><b>Definition:</b> Player.cpp:12053</div></div>
+<div class="ttc" id="aclass_player_taxi_html_a031051c85f1ce8fb8ab172c86bb4382b"><div class="ttname"><a href="../../df/d98/class_player_taxi.html#a031051c85f1ce8fb8ab172c86bb4382b">PlayerTaxi::GetPath</a></div><div class="ttdeci">std::deque&lt; uint32 &gt; const &amp; GetPath() const</div><div class="ttdef"><b>Definition:</b> PlayerTaxi.h:73</div></div>
+<div class="ttc" id="aclass_player_taxi_html_a487e2760da8446a3c34dddc2d4c5c0f5"><div class="ttname"><a href="../../df/d98/class_player_taxi.html#a487e2760da8446a3c34dddc2d4c5c0f5">PlayerTaxi::GetFlightMasterFactionTemplate</a></div><div class="ttdeci">FactionTemplateEntry const * GetFlightMasterFactionTemplate() const</div><div class="ttdef"><b>Definition:</b> PlayerTaxi.cpp:235</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac7bb92b99dc57a2b53b0a55e0a797678" name="ac7bb92b99dc57a2b53b0a55e0a797678"></a>
@@ -565,7 +823,25 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  501</span>{</div>
+<div class="line"><span class="lineno">  502</span>    <span class="comment">// used to preload the final grid where the flightmaster is</span></div>
+<div class="line"><span class="lineno">  503</span>    <a class="code hl_class" href="../../dd/d11/class_map.html">Map</a>* endMap = <a class="code hl_define" href="../../dd/dca/_map_mgr_8h.html#a9132749f8376c48b0ca7212eb3293905">sMapMgr</a>-&gt;FindBaseNonInstanceMap(<a class="code hl_variable" href="../../d3/d7d/class_flight_path_movement_generator.html#aa83bc85f1b6cd6d5367d745ae31cc6fc">_endMapId</a>);</div>
+<div class="line"><span class="lineno">  504</span> </div>
+<div class="line"><span class="lineno">  505</span>    <span class="comment">// Load the grid</span></div>
+<div class="line"><span class="lineno">  506</span>    <span class="keywordflow">if</span> (endMap)</div>
+<div class="line"><span class="lineno">  507</span>    {</div>
+<div class="line"><span class="lineno">  508</span>        <a class="code hl_define" href="../../da/df4/_log_8h.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a>(<span class="stringliteral">&quot;misc&quot;</span>, <span class="stringliteral">&quot;Preloading grid ({}, {}) for map %u at node index {}/{}&quot;</span>, <a class="code hl_variable" href="../../d3/d7d/class_flight_path_movement_generator.html#a8dd2719a015fca9fe46c8b3586b0434c">_endGridX</a>, <a class="code hl_variable" href="../../d3/d7d/class_flight_path_movement_generator.html#a1b0c069bcbcf3b13691b9ea80ac4c3a6">_endGridY</a>, <a class="code hl_variable" href="../../d3/d7d/class_flight_path_movement_generator.html#aa83bc85f1b6cd6d5367d745ae31cc6fc">_endMapId</a>, <a class="code hl_variable" href="../../d3/d7d/class_flight_path_movement_generator.html#a3192e87bc06fa21ea01f99ba23fe6eb1">_preloadTargetNode</a>, (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>)(<a class="code hl_variable" href="../../d3/d4f/class_path_movement_base.html#a3dbc5e41e0c6245f369afc7a24081c83">i_path</a>.size() - 1));</div>
+<div class="line"><span class="lineno">  509</span>        endMap-&gt;<a class="code hl_function" href="../../dd/d11/class_map.html#a2bde51e9e566b6752bbc03bfe3633700">LoadGrid</a>(<a class="code hl_variable" href="../../d3/d7d/class_flight_path_movement_generator.html#a8dd2719a015fca9fe46c8b3586b0434c">_endGridX</a>, <a class="code hl_variable" href="../../d3/d7d/class_flight_path_movement_generator.html#a1b0c069bcbcf3b13691b9ea80ac4c3a6">_endGridY</a>);</div>
+<div class="line"><span class="lineno">  510</span>    }</div>
+<div class="line"><span class="lineno">  511</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  512</span>    {</div>
+<div class="line"><span class="lineno">  513</span>        <a class="code hl_define" href="../../da/df4/_log_8h.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a>(<span class="stringliteral">&quot;misc&quot;</span>, <span class="stringliteral">&quot;Unable to determine map to preload flightmaster grid&quot;</span>);</div>
+<div class="line"><span class="lineno">  514</span>    }</div>
+<div class="line"><span class="lineno">  515</span>}</div>
+<div class="ttc" id="a_map_mgr_8h_html_a9132749f8376c48b0ca7212eb3293905"><div class="ttname"><a href="../../dd/dca/_map_mgr_8h.html#a9132749f8376c48b0ca7212eb3293905">sMapMgr</a></div><div class="ttdeci">#define sMapMgr</div><div class="ttdef"><b>Definition:</b> MapMgr.h:212</div></div>
+<div class="ttc" id="aclass_map_html"><div class="ttname"><a href="../../dd/d11/class_map.html">Map</a></div><div class="ttdef"><b>Definition:</b> Map.h:312</div></div>
+<div class="ttc" id="aclass_map_html_a2bde51e9e566b6752bbc03bfe3633700"><div class="ttname"><a href="../../dd/d11/class_map.html#a2bde51e9e566b6752bbc03bfe3633700">Map::LoadGrid</a></div><div class="ttdeci">void LoadGrid(float x, float y)</div><div class="ttdef"><b>Definition:</b> Map.cpp:494</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a7ed3028aa5d9d71cf0d889d4063fae2a" name="a7ed3028aa5d9d71cf0d889d4063fae2a"></a>
@@ -582,7 +858,23 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  442</span>{</div>
+<div class="line"><span class="lineno">  443</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d3/d4f/class_path_movement_base.html#a3dbc5e41e0c6245f369afc7a24081c83">i_path</a>.empty() || <a class="code hl_variable" href="../../d3/d4f/class_path_movement_base.html#a5420aef90d3529881ef41362ebb29934">i_currentNode</a> &gt;= <a class="code hl_variable" href="../../d3/d4f/class_path_movement_base.html#a3dbc5e41e0c6245f369afc7a24081c83">i_path</a>.size())</div>
+<div class="line"><span class="lineno">  444</span>    {</div>
+<div class="line"><span class="lineno">  445</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  446</span>    }</div>
+<div class="line"><span class="lineno">  447</span> </div>
+<div class="line"><span class="lineno">  448</span>    <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> map0 = <a class="code hl_variable" href="../../d3/d4f/class_path_movement_base.html#a3dbc5e41e0c6245f369afc7a24081c83">i_path</a>[<a class="code hl_variable" href="../../d3/d4f/class_path_movement_base.html#a5420aef90d3529881ef41362ebb29934">i_currentNode</a>]-&gt;mapid;</div>
+<div class="line"><span class="lineno">  449</span>    <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = <a class="code hl_variable" href="../../d3/d4f/class_path_movement_base.html#a5420aef90d3529881ef41362ebb29934">i_currentNode</a> + 1; i &lt; <a class="code hl_variable" href="../../d3/d4f/class_path_movement_base.html#a3dbc5e41e0c6245f369afc7a24081c83">i_path</a>.size(); ++i)</div>
+<div class="line"><span class="lineno">  450</span>    {</div>
+<div class="line"><span class="lineno">  451</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d3/d4f/class_path_movement_base.html#a3dbc5e41e0c6245f369afc7a24081c83">i_path</a>[i]-&gt;mapid != map0)</div>
+<div class="line"><span class="lineno">  452</span>        {</div>
+<div class="line"><span class="lineno">  453</span>            <a class="code hl_variable" href="../../d3/d4f/class_path_movement_base.html#a5420aef90d3529881ef41362ebb29934">i_currentNode</a> = i;</div>
+<div class="line"><span class="lineno">  454</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  455</span>        }</div>
+<div class="line"><span class="lineno">  456</span>    }</div>
+<div class="line"><span class="lineno">  457</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a080a68e435698a14288f62ea6576a730" name="a080a68e435698a14288f62ea6576a730"></a>
@@ -607,7 +899,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  124</span>{ ++<a class="code hl_variable" href="../../d3/d4f/class_path_movement_base.html#a5420aef90d3529881ef41362ebb29934">i_currentNode</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -728,8 +1021,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Movement/MovementGenerators/<a class="el" href="../../d4/d33/_waypoint_movement_generator_8h_source.html">WaypointMovementGenerator.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/Movement/MovementGenerators/<a class="el" href="../../d3/d61/_waypoint_movement_generator_8cpp.html">WaypointMovementGenerator.cpp</a></li>
+<li><a class="el" href="../../">WaypointMovementGenerator.h</a></li>
+<li><a class="el" href="../../">WaypointMovementGenerator.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -737,7 +1030,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d3/d7d/class_flight_path_movement_generator.html">FlightPathMovementGenerator</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:45 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:59 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('d9/d0d/class_world_packets_1_1_chat_1_
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d6/d48/_chat_packets_8h_source.html">ChatPackets.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">ChatPackets.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for WorldPackets::Chat::ChatServerMessage:</div>
 <div class="dyncontent">
@@ -175,7 +175,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ab85f1c9f20117bc5015180165c7b458a inherit pro_attribs_class_world_packets_1_1_packet"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d1a/class_world_packet.html">WorldPacket</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d4e/class_world_packets_1_1_packet.html#ab85f1c9f20117bc5015180165c7b458a">_worldPacket</a></td></tr>
 <tr class="separator:ab85f1c9f20117bc5015180165c7b458a inherit pro_attribs_class_world_packets_1_1_packet"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aa649857ceeba6b2f9e060f7d502cdb7a" name="aa649857ceeba6b2f9e060f7d502cdb7a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa649857ceeba6b2f9e060f7d502cdb7a">&#9670;&#160;</a></span>ChatServerMessage()</h2>
 
@@ -198,7 +199,10 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   52</span>: <a class="code hl_function" href="../../d6/d50/class_world_packets_1_1_server_packet.html#ad2222011e1251791799f97b149cef8b9">ServerPacket</a>(<a class="code hl_enumvalue" href="../../d2/dec/group__u2w.html#gga1073b6abb3a749f18bf1633020879e9ba5f67fe6f13cce2655f9b3682006b183a">SMSG_CHAT_SERVER_MESSAGE</a>, 4 + 20) { }</div>
+<div class="ttc" id="aclass_world_packets_1_1_server_packet_html_ad2222011e1251791799f97b149cef8b9"><div class="ttname"><a href="../../d6/d50/class_world_packets_1_1_server_packet.html#ad2222011e1251791799f97b149cef8b9">WorldPackets::ServerPacket::ServerPacket</a></div><div class="ttdeci">ServerPacket(OpcodeServer opcode, size_t initialSize=200)</div><div class="ttdef"><b>Definition:</b> Packet.cpp:25</div></div>
+<div class="ttc" id="agroup__u2w_html_gga1073b6abb3a749f18bf1633020879e9ba5f67fe6f13cce2655f9b3682006b183a"><div class="ttname"><a href="../../d2/dec/group__u2w.html#gga1073b6abb3a749f18bf1633020879e9ba5f67fe6f13cce2655f9b3682006b183a">SMSG_CHAT_SERVER_MESSAGE</a></div><div class="ttdeci">@ SMSG_CHAT_SERVER_MESSAGE</div><div class="ttdef"><b>Definition:</b> Opcodes.h:687</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -226,7 +230,17 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d4e/class_world_packets_1_1_packet.html#af7c79156d7b6cfe3142fc530f9ed262a">WorldPackets::Packet</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   34</span>{</div>
+<div class="line"><span class="lineno">   35</span>    <a class="code hl_variable" href="../../d7/d4e/class_world_packets_1_1_packet.html#ab85f1c9f20117bc5015180165c7b458a">_worldPacket</a> &lt;&lt; <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>(<a class="code hl_variable" href="../../d9/d0d/class_world_packets_1_1_chat_1_1_chat_server_message.html#afde854fc17313d214fa0f0cdc48ca9a9">MessageID</a>);</div>
+<div class="line"><span class="lineno">   36</span>    <a class="code hl_variable" href="../../d7/d4e/class_world_packets_1_1_packet.html#ab85f1c9f20117bc5015180165c7b458a">_worldPacket</a> &lt;&lt; <a class="code hl_variable" href="../../d9/d0d/class_world_packets_1_1_chat_1_1_chat_server_message.html#ac39a08d84c8f5934d0fe26e91809e60a">StringParam</a>;</div>
+<div class="line"><span class="lineno">   37</span> </div>
+<div class="line"><span class="lineno">   38</span>    <span class="keywordflow">return</span> &amp;<a class="code hl_variable" href="../../d7/d4e/class_world_packets_1_1_packet.html#ab85f1c9f20117bc5015180165c7b458a">_worldPacket</a>;</div>
+<div class="line"><span class="lineno">   39</span>}</div>
+<div class="ttc" id="a_define_8h_html_a0bf9964a3ce962c07ad3d8b5432bbbcd"><div class="ttname"><a href="../../db/d35/_define_8h.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a></div><div class="ttdeci">std::int32_t int32</div><div class="ttdef"><b>Definition:</b> Define.h:104</div></div>
+<div class="ttc" id="aclass_world_packets_1_1_chat_1_1_chat_server_message_html_ac39a08d84c8f5934d0fe26e91809e60a"><div class="ttname"><a href="../../d9/d0d/class_world_packets_1_1_chat_1_1_chat_server_message.html#ac39a08d84c8f5934d0fe26e91809e60a">WorldPackets::Chat::ChatServerMessage::StringParam</a></div><div class="ttdeci">std::string StringParam</div><div class="ttdef"><b>Definition:</b> ChatPackets.h:57</div></div>
+<div class="ttc" id="aclass_world_packets_1_1_chat_1_1_chat_server_message_html_afde854fc17313d214fa0f0cdc48ca9a9"><div class="ttname"><a href="../../d9/d0d/class_world_packets_1_1_chat_1_1_chat_server_message.html#afde854fc17313d214fa0f0cdc48ca9a9">WorldPackets::Chat::ChatServerMessage::MessageID</a></div><div class="ttdeci">int32 MessageID</div><div class="ttdef"><b>Definition:</b> ChatPackets.h:56</div></div>
+<div class="ttc" id="aclass_world_packets_1_1_packet_html_ab85f1c9f20117bc5015180165c7b458a"><div class="ttname"><a href="../../d7/d4e/class_world_packets_1_1_packet.html#ab85f1c9f20117bc5015180165c7b458a">WorldPackets::Packet::_worldPacket</a></div><div class="ttdeci">WorldPacket _worldPacket</div><div class="ttdef"><b>Definition:</b> Packet.h:42</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -259,8 +273,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Server/Packets/<a class="el" href="../../d6/d48/_chat_packets_8h_source.html">ChatPackets.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/Server/Packets/<a class="el" href="../../d9/d1d/_chat_packets_8cpp.html">ChatPackets.cpp</a></li>
+<li><a class="el" href="../../">ChatPackets.h</a></li>
+<li><a class="el" href="../../">ChatPackets.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -268,7 +282,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d3/d87/namespace_world_packets.html">WorldPackets</a></li><li class="navelem"><a class="el" href="../../dd/d8e/namespace_world_packets_1_1_chat.html">Chat</a></li><li class="navelem"><a class="el" href="../../d9/d0d/class_world_packets_1_1_chat_1_1_chat_server_message.html">ChatServerMessage</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:14 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:32 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

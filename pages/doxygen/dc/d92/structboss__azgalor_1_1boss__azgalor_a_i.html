@@ -609,7 +609,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="abfe2c28f1f5b2b756599e3f874bf516c" name="abfe2c28f1f5b2b756599e3f874bf516c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abfe2c28f1f5b2b756599e3f874bf516c">&#9670;&#160;</a></span>boss_azgalorAI()</h2>
 
@@ -633,7 +634,16 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   56</span>                                           : <a class="code hl_struct" href="../../d2/df2/structhyjal__trash_a_i.html">hyjal_trashAI</a>(creature)</div>
+<div class="line"><span class="lineno">   57</span>        {</div>
+<div class="line"><span class="lineno">   58</span>            <a class="code hl_variable" href="../../d2/df2/structhyjal__trash_a_i.html#aa402559aeeda4ba00d72529353e5df3e">instance</a> = creature-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">GetInstanceScript</a>();</div>
+<div class="line"><span class="lineno">   59</span>            <a class="code hl_variable" href="../../dc/d92/structboss__azgalor_1_1boss__azgalor_a_i.html#a6ab4b88e1c95e5cc0509d3894e38e268">go</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   60</span>        }</div>
+<div class="ttc" id="aclass_world_object_html_a29762f86d0726e4d229df51281b9d710"><div class="ttname"><a href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">WorldObject::GetInstanceScript</a></div><div class="ttdeci">InstanceScript * GetInstanceScript() const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1192</div></div>
+<div class="ttc" id="astructboss__azgalor_1_1boss__azgalor_a_i_html_a6ab4b88e1c95e5cc0509d3894e38e268"><div class="ttname"><a href="../../dc/d92/structboss__azgalor_1_1boss__azgalor_a_i.html#a6ab4b88e1c95e5cc0509d3894e38e268">boss_azgalor::boss_azgalorAI::go</a></div><div class="ttdeci">bool go</div><div class="ttdef"><b>Definition:</b> boss_azgalor.cpp:69</div></div>
+<div class="ttc" id="astructhyjal__trash_a_i_html"><div class="ttname"><a href="../../d2/df2/structhyjal__trash_a_i.html">hyjal_trashAI</a></div><div class="ttdef"><b>Definition:</b> hyjal_trash.h:27</div></div>
+<div class="ttc" id="astructhyjal__trash_a_i_html_aa402559aeeda4ba00d72529353e5df3e"><div class="ttname"><a href="../../d2/df2/structhyjal__trash_a_i.html#aa402559aeeda4ba00d72529353e5df3e">hyjal_trashAI::instance</a></div><div class="ttdeci">InstanceScript * instance</div><div class="ttdef"><b>Definition:</b> hyjal_trash.h:37</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -662,7 +672,19 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a35a9ca7c140474598325b0f2073f9bcd">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   86</span>        {</div>
+<div class="line"><span class="lineno">   87</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d2/df2/structhyjal__trash_a_i.html#ac02c112ce1f38a17123340057fccf867">IsEvent</a>)</div>
+<div class="line"><span class="lineno">   88</span>                <a class="code hl_variable" href="../../d2/df2/structhyjal__trash_a_i.html#aa402559aeeda4ba00d72529353e5df3e">instance</a>-&gt;<a class="code hl_function" href="../../df/dad/class_zone_script.html#a949e67ea24c7e4b70a20806952735576">SetData</a>(<a class="code hl_enumvalue" href="../../d0/dff/hyjal_8h.html#afb6eb4f28419b652027fad41104a6d22addeb5a37470937ea309024bd576c00b7">DATA_AZGALOREVENT</a>, <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012">IN_PROGRESS</a>);</div>
+<div class="line"><span class="lineno">   89</span> </div>
+<div class="line"><span class="lineno">   90</span>            <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../de/dc2/boss__azgalor_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31a5faa5beff47916de3a8ea9d3f16bbcdb">SAY_ONAGGRO</a>);</div>
+<div class="line"><span class="lineno">   91</span>        }</div>
+<div class="ttc" id="a_instance_script_8h_html_a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012">IN_PROGRESS</a></div><div class="ttdeci">@ IN_PROGRESS</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:57</div></div>
+<div class="ttc" id="aboss__azgalor_8cpp_html_aa80bce1d0ea05213c0d6c327126caf31a5faa5beff47916de3a8ea9d3f16bbcdb"><div class="ttname"><a href="../../de/dc2/boss__azgalor_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31a5faa5beff47916de3a8ea9d3f16bbcdb">SAY_ONAGGRO</a></div><div class="ttdeci">@ SAY_ONAGGRO</div><div class="ttdef"><b>Definition:</b> boss_azgalor.cpp:41</div></div>
+<div class="ttc" id="aboss__fathomlord__karathress_8cpp_html_a747a224b6b3195f9a33c56ddc6c7e268"><div class="ttname"><a href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a></div><div class="ttdeci">Talk</div><div class="ttdef"><b>Definition:</b> boss_fathomlord_karathress.cpp:23</div></div>
+<div class="ttc" id="aclass_zone_script_html_a949e67ea24c7e4b70a20806952735576"><div class="ttname"><a href="../../df/dad/class_zone_script.html#a949e67ea24c7e4b70a20806952735576">ZoneScript::SetData</a></div><div class="ttdeci">virtual void SetData(uint32, uint32)</div><div class="ttdef"><b>Definition:</b> ZoneScript.h:53</div></div>
+<div class="ttc" id="ahyjal_8h_html_afb6eb4f28419b652027fad41104a6d22addeb5a37470937ea309024bd576c00b7"><div class="ttname"><a href="../../d0/dff/hyjal_8h.html#afb6eb4f28419b652027fad41104a6d22addeb5a37470937ea309024bd576c00b7">DATA_AZGALOREVENT</a></div><div class="ttdeci">@ DATA_AZGALOREVENT</div><div class="ttdef"><b>Definition:</b> hyjal.h:40</div></div>
+<div class="ttc" id="astructhyjal__trash_a_i_html_ac02c112ce1f38a17123340057fccf867"><div class="ttname"><a href="../../d2/df2/structhyjal__trash_a_i.html#ac02c112ce1f38a17123340057fccf867">hyjal_trashAI::IsEvent</a></div><div class="ttdeci">bool IsEvent</div><div class="ttdef"><b>Definition:</b> hyjal_trash.h:38</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ae653dd67e0a6829c516f0b2ff2f40b5e" name="ae653dd67e0a6829c516f0b2ff2f40b5e"></a>
@@ -690,7 +712,16 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d7f/structnpc__escort_a_i.html#ae25140568b7dccf0ab73aa87452bd985">npc_escortAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  109</span>        {</div>
+<div class="line"><span class="lineno">  110</span>            <a class="code hl_function" href="../../d2/df2/structhyjal__trash_a_i.html#a5f1528ab0f32f9fbb593c06c7bf7b71f">hyjal_trashAI::JustDied</a>(killer);</div>
+<div class="line"><span class="lineno">  111</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d2/df2/structhyjal__trash_a_i.html#ac02c112ce1f38a17123340057fccf867">IsEvent</a>)</div>
+<div class="line"><span class="lineno">  112</span>                <a class="code hl_variable" href="../../d2/df2/structhyjal__trash_a_i.html#aa402559aeeda4ba00d72529353e5df3e">instance</a>-&gt;<a class="code hl_function" href="../../df/dad/class_zone_script.html#a949e67ea24c7e4b70a20806952735576">SetData</a>(<a class="code hl_enumvalue" href="../../d0/dff/hyjal_8h.html#afb6eb4f28419b652027fad41104a6d22addeb5a37470937ea309024bd576c00b7">DATA_AZGALOREVENT</a>, <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749">DONE</a>);</div>
+<div class="line"><span class="lineno">  113</span>            <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../de/dc2/boss__azgalor_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31ad35764f66527c79f568416706f54f562">SAY_ONDEATH</a>);</div>
+<div class="line"><span class="lineno">  114</span>        }</div>
+<div class="ttc" id="a_instance_script_8h_html_a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749">DONE</a></div><div class="ttdeci">@ DONE</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:59</div></div>
+<div class="ttc" id="aboss__azgalor_8cpp_html_aa80bce1d0ea05213c0d6c327126caf31ad35764f66527c79f568416706f54f562"><div class="ttname"><a href="../../de/dc2/boss__azgalor_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31ad35764f66527c79f568416706f54f562">SAY_ONDEATH</a></div><div class="ttdeci">@ SAY_ONDEATH</div><div class="ttdef"><b>Definition:</b> boss_azgalor.cpp:38</div></div>
+<div class="ttc" id="astructhyjal__trash_a_i_html_a5f1528ab0f32f9fbb593c06c7bf7b71f"><div class="ttname"><a href="../../d2/df2/structhyjal__trash_a_i.html#a5f1528ab0f32f9fbb593c06c7bf7b71f">hyjal_trashAI::JustDied</a></div><div class="ttdeci">void JustDied(Unit *) override</div><div class="ttdef"><b>Definition:</b> hyjal_trash.cpp:397</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a7f72d07fd1de3c9c1b7e028d65b4445a" name="a7f72d07fd1de3c9c1b7e028d65b4445a"></a>
@@ -718,7 +749,11 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a8d6c7fd71269453c229326c9785006e8">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   94</span>        {</div>
+<div class="line"><span class="lineno">   95</span>            <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../de/dc2/boss__azgalor_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31abe3ec15f85f2e2aac71b780624653fcc">SAY_ONSLAY</a>);</div>
+<div class="line"><span class="lineno">   96</span>        }</div>
+<div class="ttc" id="aboss__azgalor_8cpp_html_aa80bce1d0ea05213c0d6c327126caf31abe3ec15f85f2e2aac71b780624653fcc"><div class="ttname"><a href="../../de/dc2/boss__azgalor_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31abe3ec15f85f2e2aac71b780624653fcc">SAY_ONSLAY</a></div><div class="ttdeci">@ SAY_ONSLAY</div><div class="ttdef"><b>Definition:</b> boss_azgalor.cpp:39</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a07dc6d3286c792cbbe74cfb0e4c75585" name="a07dc6d3286c792cbbe74cfb0e4c75585"></a>
@@ -745,7 +780,27 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a26600c116d20a33461fc884bdb82eda9">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   72</span>        {</div>
+<div class="line"><span class="lineno">   73</span>            <a class="code hl_variable" href="../../d2/df2/structhyjal__trash_a_i.html#a9544098011a22b0ed7c838f6b246c72e">damageTaken</a> = 0;</div>
+<div class="line"><span class="lineno">   74</span>            <a class="code hl_variable" href="../../dc/d92/structboss__azgalor_1_1boss__azgalor_a_i.html#ad7b07662cfe460ab5d40d9f095e5d5d6">RainTimer</a> = 20000;</div>
+<div class="line"><span class="lineno">   75</span>            <a class="code hl_variable" href="../../dc/d92/structboss__azgalor_1_1boss__azgalor_a_i.html#ac1b4a8d4fee86cce3a018a6e09e2a41c">DoomTimer</a> = 50000;</div>
+<div class="line"><span class="lineno">   76</span>            <a class="code hl_variable" href="../../dc/d92/structboss__azgalor_1_1boss__azgalor_a_i.html#a299daf143535e66a06aaf3723c189463">HowlTimer</a> = 30000;</div>
+<div class="line"><span class="lineno">   77</span>            <a class="code hl_variable" href="../../dc/d92/structboss__azgalor_1_1boss__azgalor_a_i.html#a82acce0c4ad9cfd55724b1918f1eb91f">CleaveTimer</a> = 10000;</div>
+<div class="line"><span class="lineno">   78</span>            <a class="code hl_variable" href="../../dc/d92/structboss__azgalor_1_1boss__azgalor_a_i.html#ae9e1b65dee34fd1115d94306ab36cadf">EnrageTimer</a> = 600000;</div>
+<div class="line"><span class="lineno">   79</span>            <a class="code hl_variable" href="../../dc/d92/structboss__azgalor_1_1boss__azgalor_a_i.html#a3d9c4ef6d99b9ac7e78e0d4f22411a1b">enraged</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   80</span> </div>
+<div class="line"><span class="lineno">   81</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d2/df2/structhyjal__trash_a_i.html#ac02c112ce1f38a17123340057fccf867">IsEvent</a>)</div>
+<div class="line"><span class="lineno">   82</span>                <a class="code hl_variable" href="../../d2/df2/structhyjal__trash_a_i.html#aa402559aeeda4ba00d72529353e5df3e">instance</a>-&gt;<a class="code hl_function" href="../../df/dad/class_zone_script.html#a949e67ea24c7e4b70a20806952735576">SetData</a>(<a class="code hl_enumvalue" href="../../d0/dff/hyjal_8h.html#afb6eb4f28419b652027fad41104a6d22addeb5a37470937ea309024bd576c00b7">DATA_AZGALOREVENT</a>, <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694ae7d82dfe80ea0bd4feea8ee49ea2eab5">NOT_STARTED</a>);</div>
+<div class="line"><span class="lineno">   83</span>        }</div>
+<div class="ttc" id="a_instance_script_8h_html_a1c28341208eeb4bdc8237e8ceac88694ae7d82dfe80ea0bd4feea8ee49ea2eab5"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694ae7d82dfe80ea0bd4feea8ee49ea2eab5">NOT_STARTED</a></div><div class="ttdeci">@ NOT_STARTED</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:56</div></div>
+<div class="ttc" id="astructboss__azgalor_1_1boss__azgalor_a_i_html_a299daf143535e66a06aaf3723c189463"><div class="ttname"><a href="../../dc/d92/structboss__azgalor_1_1boss__azgalor_a_i.html#a299daf143535e66a06aaf3723c189463">boss_azgalor::boss_azgalorAI::HowlTimer</a></div><div class="ttdeci">uint32 HowlTimer</div><div class="ttdef"><b>Definition:</b> boss_azgalor.cpp:64</div></div>
+<div class="ttc" id="astructboss__azgalor_1_1boss__azgalor_a_i_html_a3d9c4ef6d99b9ac7e78e0d4f22411a1b"><div class="ttname"><a href="../../dc/d92/structboss__azgalor_1_1boss__azgalor_a_i.html#a3d9c4ef6d99b9ac7e78e0d4f22411a1b">boss_azgalor::boss_azgalorAI::enraged</a></div><div class="ttdeci">bool enraged</div><div class="ttdef"><b>Definition:</b> boss_azgalor.cpp:67</div></div>
+<div class="ttc" id="astructboss__azgalor_1_1boss__azgalor_a_i_html_a82acce0c4ad9cfd55724b1918f1eb91f"><div class="ttname"><a href="../../dc/d92/structboss__azgalor_1_1boss__azgalor_a_i.html#a82acce0c4ad9cfd55724b1918f1eb91f">boss_azgalor::boss_azgalorAI::CleaveTimer</a></div><div class="ttdeci">uint32 CleaveTimer</div><div class="ttdef"><b>Definition:</b> boss_azgalor.cpp:65</div></div>
+<div class="ttc" id="astructboss__azgalor_1_1boss__azgalor_a_i_html_ac1b4a8d4fee86cce3a018a6e09e2a41c"><div class="ttname"><a href="../../dc/d92/structboss__azgalor_1_1boss__azgalor_a_i.html#ac1b4a8d4fee86cce3a018a6e09e2a41c">boss_azgalor::boss_azgalorAI::DoomTimer</a></div><div class="ttdeci">uint32 DoomTimer</div><div class="ttdef"><b>Definition:</b> boss_azgalor.cpp:63</div></div>
+<div class="ttc" id="astructboss__azgalor_1_1boss__azgalor_a_i_html_ad7b07662cfe460ab5d40d9f095e5d5d6"><div class="ttname"><a href="../../dc/d92/structboss__azgalor_1_1boss__azgalor_a_i.html#ad7b07662cfe460ab5d40d9f095e5d5d6">boss_azgalor::boss_azgalorAI::RainTimer</a></div><div class="ttdeci">uint32 RainTimer</div><div class="ttdef"><b>Definition:</b> boss_azgalor.cpp:62</div></div>
+<div class="ttc" id="astructboss__azgalor_1_1boss__azgalor_a_i_html_ae9e1b65dee34fd1115d94306ab36cadf"><div class="ttname"><a href="../../dc/d92/structboss__azgalor_1_1boss__azgalor_a_i.html#ae9e1b65dee34fd1115d94306ab36cadf">boss_azgalor::boss_azgalorAI::EnrageTimer</a></div><div class="ttdeci">uint32 EnrageTimer</div><div class="ttdef"><b>Definition:</b> boss_azgalor.cpp:66</div></div>
+<div class="ttc" id="astructhyjal__trash_a_i_html_a9544098011a22b0ed7c838f6b246c72e"><div class="ttname"><a href="../../d2/df2/structhyjal__trash_a_i.html#a9544098011a22b0ed7c838f6b246c72e">hyjal_trashAI::damageTaken</a></div><div class="ttdeci">uint32 damageTaken</div><div class="ttdef"><b>Definition:</b> hyjal_trash.h:46</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a168d80d943d4dfcae4fed5b43c336aef" name="a168d80d943d4dfcae4fed5b43c336aef"></a>
@@ -773,7 +828,87 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d7f/structnpc__escort_a_i.html#a5e9c333411c54ff4d644812e53ba1831">npc_escortAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  117</span>        {</div>
+<div class="line"><span class="lineno">  118</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d2/df2/structhyjal__trash_a_i.html#ac02c112ce1f38a17123340057fccf867">IsEvent</a>)</div>
+<div class="line"><span class="lineno">  119</span>            {</div>
+<div class="line"><span class="lineno">  120</span>                <span class="comment">//Must update npc_escortAI</span></div>
+<div class="line"><span class="lineno">  121</span>                <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#a5e9c333411c54ff4d644812e53ba1831">npc_escortAI::UpdateAI</a>(diff);</div>
+<div class="line"><span class="lineno">  122</span>                <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../dc/d92/structboss__azgalor_1_1boss__azgalor_a_i.html#a6ab4b88e1c95e5cc0509d3894e38e268">go</a>)</div>
+<div class="line"><span class="lineno">  123</span>                {</div>
+<div class="line"><span class="lineno">  124</span>                    <a class="code hl_variable" href="../../dc/d92/structboss__azgalor_1_1boss__azgalor_a_i.html#a6ab4b88e1c95e5cc0509d3894e38e268">go</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  125</span>                    <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#af6676a7693026ce6a35975d2358ff3e6">AddWaypoint</a>(0, 5492.91f,    -2404.61f,    1462.63f);</div>
+<div class="line"><span class="lineno">  126</span>                    <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#af6676a7693026ce6a35975d2358ff3e6">AddWaypoint</a>(1, 5531.76f,    -2460.87f,    1469.55f);</div>
+<div class="line"><span class="lineno">  127</span>                    <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#af6676a7693026ce6a35975d2358ff3e6">AddWaypoint</a>(2, 5554.58f,    -2514.66f,    1476.12f);</div>
+<div class="line"><span class="lineno">  128</span>                    <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#af6676a7693026ce6a35975d2358ff3e6">AddWaypoint</a>(3, 5554.16f,    -2567.23f,    1479.90f);</div>
+<div class="line"><span class="lineno">  129</span>                    <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#af6676a7693026ce6a35975d2358ff3e6">AddWaypoint</a>(4, 5540.67f,    -2625.99f,    1480.89f);</div>
+<div class="line"><span class="lineno">  130</span>                    <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#af6676a7693026ce6a35975d2358ff3e6">AddWaypoint</a>(5, 5508.16f,    -2659.2f,    1480.15f);</div>
+<div class="line"><span class="lineno">  131</span>                    <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#af6676a7693026ce6a35975d2358ff3e6">AddWaypoint</a>(6, 5489.62f,    -2704.05f,    1482.18f);</div>
+<div class="line"><span class="lineno">  132</span>                    <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#af6676a7693026ce6a35975d2358ff3e6">AddWaypoint</a>(7, 5457.04f,    -2726.26f,    1485.10f);</div>
+<div class="line"><span class="lineno">  133</span>                    <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#a3af9ad016ba42ce06db5d2ba7cdb6a5f">Start</a>(<span class="keyword">false</span>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  134</span>                    <a class="code hl_function" href="../../dd/d7f/structnpc__escort_a_i.html#aa4c997f2f799be346c53299815720b36">SetDespawnAtEnd</a>(<span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  135</span>                }</div>
+<div class="line"><span class="lineno">  136</span>            }</div>
+<div class="line"><span class="lineno">  137</span> </div>
+<div class="line"><span class="lineno">  138</span>            <span class="comment">//Return since we have no target</span></div>
+<div class="line"><span class="lineno">  139</span>            <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">UpdateVictim</a>())</div>
+<div class="line"><span class="lineno">  140</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  141</span> </div>
+<div class="line"><span class="lineno">  142</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dc/d92/structboss__azgalor_1_1boss__azgalor_a_i.html#ad7b07662cfe460ab5d40d9f095e5d5d6">RainTimer</a> &lt;= diff)</div>
+<div class="line"><span class="lineno">  143</span>            {</div>
+<div class="line"><span class="lineno">  144</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(<a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6daed910a7666394bcbf8abd2f20096e">SelectTarget</a>(SelectTargetMethod::Random, 0, 30, <span class="keyword">true</span>), <a class="code hl_enumvalue" href="../../de/dc2/boss__azgalor_8cpp.html#a5bd342133be8c2137b831460acc9298ca770475c37ddfbb0a8c98a0c8a7c98f0d">SPELL_RAIN_OF_FIRE</a>);</div>
+<div class="line"><span class="lineno">  145</span>                <a class="code hl_variable" href="../../dc/d92/structboss__azgalor_1_1boss__azgalor_a_i.html#ad7b07662cfe460ab5d40d9f095e5d5d6">RainTimer</a> = 20000 + rand() % 15000;</div>
+<div class="line"><span class="lineno">  146</span>            }</div>
+<div class="line"><span class="lineno">  147</span>            <span class="keywordflow">else</span> <a class="code hl_variable" href="../../dc/d92/structboss__azgalor_1_1boss__azgalor_a_i.html#ad7b07662cfe460ab5d40d9f095e5d5d6">RainTimer</a> -= diff;</div>
+<div class="line"><span class="lineno">  148</span> </div>
+<div class="line"><span class="lineno">  149</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dc/d92/structboss__azgalor_1_1boss__azgalor_a_i.html#ac1b4a8d4fee86cce3a018a6e09e2a41c">DoomTimer</a> &lt;= diff)</div>
+<div class="line"><span class="lineno">  150</span>            {</div>
+<div class="line"><span class="lineno">  151</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(<a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6daed910a7666394bcbf8abd2f20096e">SelectTarget</a>(SelectTargetMethod::Random, 1, 100, <span class="keyword">true</span>), <a class="code hl_enumvalue" href="../../de/dc2/boss__azgalor_8cpp.html#a5bd342133be8c2137b831460acc9298ca78dd404ee86524d51bcd1ba5160da7be">SPELL_DOOM</a>);<span class="comment">//never on tank</span></div>
+<div class="line"><span class="lineno">  152</span>                <a class="code hl_variable" href="../../dc/d92/structboss__azgalor_1_1boss__azgalor_a_i.html#ac1b4a8d4fee86cce3a018a6e09e2a41c">DoomTimer</a> = 45000 + rand() % 5000;</div>
+<div class="line"><span class="lineno">  153</span>            }</div>
+<div class="line"><span class="lineno">  154</span>            <span class="keywordflow">else</span> <a class="code hl_variable" href="../../dc/d92/structboss__azgalor_1_1boss__azgalor_a_i.html#ac1b4a8d4fee86cce3a018a6e09e2a41c">DoomTimer</a> -= diff;</div>
+<div class="line"><span class="lineno">  155</span> </div>
+<div class="line"><span class="lineno">  156</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dc/d92/structboss__azgalor_1_1boss__azgalor_a_i.html#a299daf143535e66a06aaf3723c189463">HowlTimer</a> &lt;= diff)</div>
+<div class="line"><span class="lineno">  157</span>            {</div>
+<div class="line"><span class="lineno">  158</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_enumvalue" href="../../de/dc2/boss__azgalor_8cpp.html#a5bd342133be8c2137b831460acc9298ca938ccdbb9c9416feed54c170293796d8">SPELL_HOWL_OF_AZGALOR</a>);</div>
+<div class="line"><span class="lineno">  159</span>                <a class="code hl_variable" href="../../dc/d92/structboss__azgalor_1_1boss__azgalor_a_i.html#a299daf143535e66a06aaf3723c189463">HowlTimer</a> = 30000;</div>
+<div class="line"><span class="lineno">  160</span>            }</div>
+<div class="line"><span class="lineno">  161</span>            <span class="keywordflow">else</span> <a class="code hl_variable" href="../../dc/d92/structboss__azgalor_1_1boss__azgalor_a_i.html#a299daf143535e66a06aaf3723c189463">HowlTimer</a> -= diff;</div>
+<div class="line"><span class="lineno">  162</span> </div>
+<div class="line"><span class="lineno">  163</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dc/d92/structboss__azgalor_1_1boss__azgalor_a_i.html#a82acce0c4ad9cfd55724b1918f1eb91f">CleaveTimer</a> &lt;= diff)</div>
+<div class="line"><span class="lineno">  164</span>            {</div>
+<div class="line"><span class="lineno">  165</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a361b6f4e71e9c74595bdf3d7e3b29a82">DoCastVictim</a>(<a class="code hl_enumvalue" href="../../de/dc2/boss__azgalor_8cpp.html#a5bd342133be8c2137b831460acc9298ca0de0a536dbf18ec5c2e76cfee1d751eb">SPELL_CLEAVE</a>);</div>
+<div class="line"><span class="lineno">  166</span>                <a class="code hl_variable" href="../../dc/d92/structboss__azgalor_1_1boss__azgalor_a_i.html#a82acce0c4ad9cfd55724b1918f1eb91f">CleaveTimer</a> = 10000 + rand() % 5000;</div>
+<div class="line"><span class="lineno">  167</span>            }</div>
+<div class="line"><span class="lineno">  168</span>            <span class="keywordflow">else</span> <a class="code hl_variable" href="../../dc/d92/structboss__azgalor_1_1boss__azgalor_a_i.html#a82acce0c4ad9cfd55724b1918f1eb91f">CleaveTimer</a> -= diff;</div>
+<div class="line"><span class="lineno">  169</span> </div>
+<div class="line"><span class="lineno">  170</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dc/d92/structboss__azgalor_1_1boss__azgalor_a_i.html#ae9e1b65dee34fd1115d94306ab36cadf">EnrageTimer</a> &lt; diff &amp;&amp; !<a class="code hl_variable" href="../../dc/d92/structboss__azgalor_1_1boss__azgalor_a_i.html#a3d9c4ef6d99b9ac7e78e0d4f22411a1b">enraged</a>)</div>
+<div class="line"><span class="lineno">  171</span>            {</div>
+<div class="line"><span class="lineno">  172</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a2bdfe38bdc28869a9002094e4341d56e">InterruptNonMeleeSpells</a>(<span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  173</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_enumvalue" href="../../de/dc2/boss__azgalor_8cpp.html#a5bd342133be8c2137b831460acc9298cad7b3e50b45f9949cd0e4030ca19a6b4f">SPELL_BERSERK</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  174</span>                <a class="code hl_variable" href="../../dc/d92/structboss__azgalor_1_1boss__azgalor_a_i.html#a3d9c4ef6d99b9ac7e78e0d4f22411a1b">enraged</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  175</span>                <a class="code hl_variable" href="../../dc/d92/structboss__azgalor_1_1boss__azgalor_a_i.html#ae9e1b65dee34fd1115d94306ab36cadf">EnrageTimer</a> = 600000;</div>
+<div class="line"><span class="lineno">  176</span>            }</div>
+<div class="line"><span class="lineno">  177</span>            <span class="keywordflow">else</span> <a class="code hl_variable" href="../../dc/d92/structboss__azgalor_1_1boss__azgalor_a_i.html#ae9e1b65dee34fd1115d94306ab36cadf">EnrageTimer</a> -= diff;</div>
+<div class="line"><span class="lineno">  178</span> </div>
+<div class="line"><span class="lineno">  179</span>            <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">DoMeleeAttackIfReady</a>();</div>
+<div class="line"><span class="lineno">  180</span>        }</div>
+<div class="ttc" id="aboss__azgalor_8cpp_html_a5bd342133be8c2137b831460acc9298ca0de0a536dbf18ec5c2e76cfee1d751eb"><div class="ttname"><a href="../../de/dc2/boss__azgalor_8cpp.html#a5bd342133be8c2137b831460acc9298ca0de0a536dbf18ec5c2e76cfee1d751eb">SPELL_CLEAVE</a></div><div class="ttdeci">@ SPELL_CLEAVE</div><div class="ttdef"><b>Definition:</b> boss_azgalor.cpp:28</div></div>
+<div class="ttc" id="aboss__azgalor_8cpp_html_a5bd342133be8c2137b831460acc9298ca770475c37ddfbb0a8c98a0c8a7c98f0d"><div class="ttname"><a href="../../de/dc2/boss__azgalor_8cpp.html#a5bd342133be8c2137b831460acc9298ca770475c37ddfbb0a8c98a0c8a7c98f0d">SPELL_RAIN_OF_FIRE</a></div><div class="ttdeci">@ SPELL_RAIN_OF_FIRE</div><div class="ttdef"><b>Definition:</b> boss_azgalor.cpp:25</div></div>
+<div class="ttc" id="aboss__azgalor_8cpp_html_a5bd342133be8c2137b831460acc9298ca78dd404ee86524d51bcd1ba5160da7be"><div class="ttname"><a href="../../de/dc2/boss__azgalor_8cpp.html#a5bd342133be8c2137b831460acc9298ca78dd404ee86524d51bcd1ba5160da7be">SPELL_DOOM</a></div><div class="ttdeci">@ SPELL_DOOM</div><div class="ttdef"><b>Definition:</b> boss_azgalor.cpp:26</div></div>
+<div class="ttc" id="aboss__azgalor_8cpp_html_a5bd342133be8c2137b831460acc9298ca938ccdbb9c9416feed54c170293796d8"><div class="ttname"><a href="../../de/dc2/boss__azgalor_8cpp.html#a5bd342133be8c2137b831460acc9298ca938ccdbb9c9416feed54c170293796d8">SPELL_HOWL_OF_AZGALOR</a></div><div class="ttdeci">@ SPELL_HOWL_OF_AZGALOR</div><div class="ttdef"><b>Definition:</b> boss_azgalor.cpp:27</div></div>
+<div class="ttc" id="aboss__azgalor_8cpp_html_a5bd342133be8c2137b831460acc9298cad7b3e50b45f9949cd0e4030ca19a6b4f"><div class="ttname"><a href="../../de/dc2/boss__azgalor_8cpp.html#a5bd342133be8c2137b831460acc9298cad7b3e50b45f9949cd0e4030ca19a6b4f">SPELL_BERSERK</a></div><div class="ttdeci">@ SPELL_BERSERK</div><div class="ttdef"><b>Definition:</b> boss_azgalor.cpp:29</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_ae03ccfe1e27501ed9ccbfecdbd3c4e39"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">CreatureAI::UpdateVictim</a></div><div class="ttdeci">bool UpdateVictim()</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:268</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a348a472089a9be6210b58aace8fafa9f"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">UnitAI::DoMeleeAttackIfReady</a></div><div class="ttdeci">void DoMeleeAttackIfReady()</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:40</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a361b6f4e71e9c74595bdf3d7e3b29a82"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a361b6f4e71e9c74595bdf3d7e3b29a82">UnitAI::DoCastVictim</a></div><div class="ttdeci">SpellCastResult DoCastVictim(uint32 spellId, bool triggered=false)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:241</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a6daed910a7666394bcbf8abd2f20096e"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a6daed910a7666394bcbf8abd2f20096e">UnitAI::SelectTarget</a></div><div class="ttdeci">Unit * SelectTarget(SelectTargetMethod targetType, uint32 position=0, float dist=0.0f, bool playerOnly=false, int32 aura=0)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:111</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_aeebcad9b6effa45145c50f06af60b23d"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">UnitAI::DoCast</a></div><div class="ttdeci">SpellCastResult DoCast(uint32 spellId)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:178</div></div>
+<div class="ttc" id="aclass_unit_html_a2bdfe38bdc28869a9002094e4341d56e"><div class="ttname"><a href="../../da/db7/class_unit.html#a2bdfe38bdc28869a9002094e4341d56e">Unit::InterruptNonMeleeSpells</a></div><div class="ttdeci">void InterruptNonMeleeSpells(bool withDelayed, uint32 spellid=0, bool withInstant=true, bool bySelf=false)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:4057</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+<div class="ttc" id="astructnpc__escort_a_i_html_a3af9ad016ba42ce06db5d2ba7cdb6a5f"><div class="ttname"><a href="../../dd/d7f/structnpc__escort_a_i.html#a3af9ad016ba42ce06db5d2ba7cdb6a5f">npc_escortAI::Start</a></div><div class="ttdeci">void Start(bool isActiveAttacker=true, bool run=false, ObjectGuid playerGUID=ObjectGuid::Empty, Quest const *quest=nullptr, bool instantRespawn=false, bool canLoopPath=false, bool resetWaypoints=true)</div><div class="ttdef"><b>Definition:</b> ScriptedEscortAI.cpp:450</div></div>
+<div class="ttc" id="astructnpc__escort_a_i_html_a5e9c333411c54ff4d644812e53ba1831"><div class="ttname"><a href="../../dd/d7f/structnpc__escort_a_i.html#a5e9c333411c54ff4d644812e53ba1831">npc_escortAI::UpdateAI</a></div><div class="ttdeci">void UpdateAI(uint32 diff) override</div><div class="ttdef"><b>Definition:</b> ScriptedEscortAI.cpp:241</div></div>
+<div class="ttc" id="astructnpc__escort_a_i_html_aa4c997f2f799be346c53299815720b36"><div class="ttname"><a href="../../dd/d7f/structnpc__escort_a_i.html#aa4c997f2f799be346c53299815720b36">npc_escortAI::SetDespawnAtEnd</a></div><div class="ttdeci">void SetDespawnAtEnd(bool despawn)</div><div class="ttdef"><b>Definition:</b> ScriptedEscortAI.h:104</div></div>
+<div class="ttc" id="astructnpc__escort_a_i_html_af6676a7693026ce6a35975d2358ff3e6"><div class="ttname"><a href="../../dd/d7f/structnpc__escort_a_i.html#af6676a7693026ce6a35975d2358ff3e6">npc_escortAI::AddWaypoint</a></div><div class="ttdeci">void AddWaypoint(uint32 id, float x, float y, float z, uint32 waitTime=0)</div><div class="ttdef"><b>Definition:</b> ScriptedEscortAI.cpp:397</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="adf8df27db3a315e45432749f6a4fb526" name="adf8df27db3a315e45432749f6a4fb526"></a>
@@ -801,7 +936,21 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../dd/d7f/structnpc__escort_a_i.html#a59830f742b9967303df22f5bcf0d2b9d">npc_escortAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   99</span>        {</div>
+<div class="line"><span class="lineno">  100</span>            <span class="keywordflow">if</span> (waypointId == 7 &amp;&amp; <a class="code hl_variable" href="../../d2/df2/structhyjal__trash_a_i.html#aa402559aeeda4ba00d72529353e5df3e">instance</a>)</div>
+<div class="line"><span class="lineno">  101</span>            {</div>
+<div class="line"><span class="lineno">  102</span>                <a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#a02c2dfb59db7d7e2501dcc9a4f9baf07">ObjectAccessor::GetUnit</a>(*<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_variable" href="../../d2/df2/structhyjal__trash_a_i.html#aa402559aeeda4ba00d72529353e5df3e">instance</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_instance_script.html#a3be7f24ca31c9433aca546e1087109b4">GetGuidData</a>(<a class="code hl_enumvalue" href="../../d0/dff/hyjal_8h.html#afb6eb4f28419b652027fad41104a6d22a9c0f8b00a8caed9032b2171eebba98e8">DATA_THRALL</a>));</div>
+<div class="line"><span class="lineno">  103</span>                <span class="keywordflow">if</span> (target &amp;&amp; target-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a5ea3f54af571493f7889220724667189">IsAlive</a>())</div>
+<div class="line"><span class="lineno">  104</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a3b4dad985e3b5dde28d89afc956999e4">AddThreat</a>(target, 0.0f);</div>
+<div class="line"><span class="lineno">  105</span>            }</div>
+<div class="line"><span class="lineno">  106</span>        }</div>
+<div class="ttc" id="aclass_instance_script_html_a3be7f24ca31c9433aca546e1087109b4"><div class="ttname"><a href="../../d8/d83/class_instance_script.html#a3be7f24ca31c9433aca546e1087109b4">InstanceScript::GetGuidData</a></div><div class="ttdeci">ObjectGuid GetGuidData(uint32 type) const override</div><div class="ttdef"><b>Definition:</b> InstanceScript.cpp:93</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_a3b4dad985e3b5dde28d89afc956999e4"><div class="ttname"><a href="../../da/db7/class_unit.html#a3b4dad985e3b5dde28d89afc956999e4">Unit::AddThreat</a></div><div class="ttdeci">void AddThreat(Unit *victim, float fThreat, SpellSchoolMask schoolMask=SPELL_SCHOOL_MASK_NORMAL, SpellInfo const *threatSpell=nullptr)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:14523</div></div>
+<div class="ttc" id="aclass_unit_html_a5ea3f54af571493f7889220724667189"><div class="ttname"><a href="../../da/db7/class_unit.html#a5ea3f54af571493f7889220724667189">Unit::IsAlive</a></div><div class="ttdeci">bool IsAlive() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1805</div></div>
+<div class="ttc" id="ahyjal_8h_html_afb6eb4f28419b652027fad41104a6d22a9c0f8b00a8caed9032b2171eebba98e8"><div class="ttname"><a href="../../d0/dff/hyjal_8h.html#afb6eb4f28419b652027fad41104a6d22a9c0f8b00a8caed9032b2171eebba98e8">DATA_THRALL</a></div><div class="ttdeci">@ DATA_THRALL</div><div class="ttdef"><b>Definition:</b> hyjal.h:46</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_a02c2dfb59db7d7e2501dcc9a4f9baf07"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#a02c2dfb59db7d7e2501dcc9a4f9baf07">ObjectAccessor::GetUnit</a></div><div class="ttdeci">Unit * GetUnit(WorldObject const &amp;, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:204</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -904,7 +1053,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Kalimdor/CavernsOfTime/BattleForMountHyjal/<a class="el" href="../../de/dc2/boss__azgalor_8cpp.html">boss_azgalor.cpp</a></li>
+<li><a class="el" href="../../">boss_azgalor.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -912,7 +1061,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../da/de2/classboss__azgalor.html">boss_azgalor</a></li><li class="navelem"><a class="el" href="../../dc/d92/structboss__azgalor_1_1boss__azgalor_a_i.html">boss_azgalorAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:38 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:50 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

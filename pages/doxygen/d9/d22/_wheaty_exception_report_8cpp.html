@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzeorthCore: D:/azerothcore-wotlk/src/common/Debugging/WheatyExceptionReport.cpp File Reference</title>
+<title>AzeorthCore: WheatyExceptionReport.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -113,18 +113,20 @@ $(document).ready(function(){initNavTree('d9/d22/_wheaty_exception_report_8cpp.h
   <div class="headertitle"><div class="title">WheatyExceptionReport.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../d6/de7/_compiler_defs_8h_source.html">CompilerDefs.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">CompilerDefs.h</a>&quot;</code><br />
 <code>#include &lt;windows.h&gt;</code><br />
 <code>#include &lt;tlhelp32.h&gt;</code><br />
 <code>#include &lt;stdio.h&gt;</code><br />
 <code>#include &lt;tchar.h&gt;</code><br />
 <code>#include &lt;dbghelp.h&gt;</code><br />
-<code>#include &quot;<a class="el" href="../../db/da8/_wheaty_exception_report_8h_source.html">WheatyExceptionReport.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../db/d1f/_common_8h_source.html">Common.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../db/d16/_errors_8h_source.html">Errors.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d6/d00/_git_revision_8h_source.html">GitRevision.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">WheatyExceptionReport.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Common.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Errors.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GitRevision.h</a>&quot;</code><br />
 <code>#include &lt;algorithm&gt;</code><br />
-</div><table class="memberdecls">
+</div>
+<p><a href="">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/df1/struct_c_symbol_info_package.html">CSymbolInfoPackage</a></td></tr>
@@ -242,7 +244,28 @@ Variables</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   33</span>{</div>
+<div class="line"><span class="lineno">   34</span>    LPVOID lpMsgBuf;</div>
+<div class="line"><span class="lineno">   35</span>    DWORD formatResult = FormatMessage(</div>
+<div class="line"><span class="lineno">   36</span>                             FORMAT_MESSAGE_ALLOCATE_BUFFER |</div>
+<div class="line"><span class="lineno">   37</span>                             FORMAT_MESSAGE_FROM_SYSTEM,</div>
+<div class="line"><span class="lineno">   38</span>                             <span class="keyword">nullptr</span>,</div>
+<div class="line"><span class="lineno">   39</span>                             dw,</div>
+<div class="line"><span class="lineno">   40</span>                             MAKELANGID(LANG_NEUTRAL, SUBLANG_DEFAULT),</div>
+<div class="line"><span class="lineno">   41</span>                             (LPTSTR) &amp;lpMsgBuf,</div>
+<div class="line"><span class="lineno">   42</span>                             0, <span class="keyword">nullptr</span>);</div>
+<div class="line"><span class="lineno">   43</span>    <span class="keywordflow">if</span> (formatResult != 0)</div>
+<div class="line"><span class="lineno">   44</span>    {</div>
+<div class="line"><span class="lineno">   45</span>        <span class="keywordflow">return</span> (LPTSTR)lpMsgBuf;</div>
+<div class="line"><span class="lineno">   46</span>    }</div>
+<div class="line"><span class="lineno">   47</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">   48</span>    {</div>
+<div class="line"><span class="lineno">   49</span>        LPTSTR msgBuf = (LPTSTR)LocalAlloc(LPTR, 30);</div>
+<div class="line"><span class="lineno">   50</span>        sprintf(msgBuf, <span class="stringliteral">&quot;Unknown error: %u&quot;</span>, dw);</div>
+<div class="line"><span class="lineno">   51</span>        <span class="keywordflow">return</span> msgBuf;</div>
+<div class="line"><span class="lineno">   52</span>    }</div>
+<div class="line"><span class="lineno">   53</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a9f2ce59205c508258855d0568854e367" name="a9f2ce59205c508258855d0568854e367"></a>
@@ -278,7 +301,10 @@ template&lt;size_t size&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  271</span>{</div>
+<div class="line"><span class="lineno">  272</span>    wcscpy_s(dst, src);</div>
+<div class="line"><span class="lineno">  273</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a74d70382aec7501d6df3dcb969b85902" name="a74d70382aec7501d6df3dcb969b85902"></a>
@@ -314,7 +340,10 @@ template&lt;size_t size&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  265</span>{</div>
+<div class="line"><span class="lineno">  266</span>    wcstombs_s(<span class="keyword">nullptr</span>, dst, src, size);</div>
+<div class="line"><span class="lineno">  267</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
@@ -338,7 +367,7 @@ template&lt;size_t size&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_1070012e9e40376f8468ff0aa5b77c71.html">common</a></li><li class="navelem"><a class="el" href="../../dir_6c98940a6e08261f1f635365628c2cb0.html">Debugging</a></li><li class="navelem"><a class="el" href="../../d9/d22/_wheaty_exception_report_8cpp.html">WheatyExceptionReport.cpp</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:17 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:31 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

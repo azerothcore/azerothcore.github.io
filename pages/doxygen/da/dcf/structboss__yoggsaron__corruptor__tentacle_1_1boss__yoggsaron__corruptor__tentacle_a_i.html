@@ -483,7 +483,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a5f8fbd8ac772fad79f809de4d3128574" name="a5f8fbd8ac772fad79f809de4d3128574"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5f8fbd8ac772fad79f809de4d3128574">&#9670;&#160;</a></span>boss_yoggsaron_corruptor_tentacleAI()</h2>
 
@@ -507,7 +508,13 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1559</span>                                                                 : <a class="code hl_struct" href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a>(pCreature)</div>
+<div class="line"><span class="lineno"> 1560</span>        {</div>
+<div class="line"><span class="lineno"> 1561</span>            <a class="code hl_function" href="../../de/d83/struct_scripted_a_i.html#a4e491fe0db6bf156ba26fa64349ceab3">SetCombatMovement</a>(<span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno"> 1562</span>        }</div>
+<div class="ttc" id="astruct_scripted_a_i_html"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a4e491fe0db6bf156ba26fa64349ceab3"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a4e491fe0db6bf156ba26fa64349ceab3">ScriptedAI::SetCombatMovement</a></div><div class="ttdeci">void SetCombatMovement(bool allowMovement)</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.cpp:495</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -536,7 +543,15 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d9c/class_unit_a_i.html#a165d336cb3423f9665ed612d2dec76ed">UnitAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1565</span>        {</div>
+<div class="line"><span class="lineno"> 1566</span>            <span class="keywordflow">if</span> (param == <a class="code hl_enumvalue" href="../../d3/d32/boss__yoggsaron_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ab0ed2e0eb88c8091019dc7bf22e1cb2f">ACTION_REMOVE_STUN</a>)</div>
+<div class="line"><span class="lineno"> 1567</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a1be09c524dfdd2c3538f2ae977c58399">RemoveAura</a>(<a class="code hl_enumvalue" href="../../d3/d32/boss__yoggsaron_8cpp.html#a1b30ee7b66756f07902ec6940e772f08a9733d28569b14d2d60cee84beffb40a8">SPELL_SHATTERED_ILLUSION</a>);</div>
+<div class="line"><span class="lineno"> 1568</span>        }</div>
+<div class="ttc" id="aboss__yoggsaron_8cpp_html_a1b30ee7b66756f07902ec6940e772f08a9733d28569b14d2d60cee84beffb40a8"><div class="ttname"><a href="../../d3/d32/boss__yoggsaron_8cpp.html#a1b30ee7b66756f07902ec6940e772f08a9733d28569b14d2d60cee84beffb40a8">SPELL_SHATTERED_ILLUSION</a></div><div class="ttdeci">@ SPELL_SHATTERED_ILLUSION</div><div class="ttdef"><b>Definition:</b> boss_yoggsaron.cpp:118</div></div>
+<div class="ttc" id="aboss__yoggsaron_8cpp_html_a3329d9d369a4ae5cfa5d8eac33a0c0c6ab0ed2e0eb88c8091019dc7bf22e1cb2f"><div class="ttname"><a href="../../d3/d32/boss__yoggsaron_8cpp.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ab0ed2e0eb88c8091019dc7bf22e1cb2f">ACTION_REMOVE_STUN</a></div><div class="ttdeci">@ ACTION_REMOVE_STUN</div><div class="ttdef"><b>Definition:</b> boss_yoggsaron.cpp:291</div></div>
+<div class="ttc" id="aclass_unit_html_a1be09c524dfdd2c3538f2ae977c58399"><div class="ttname"><a href="../../da/db7/class_unit.html#a1be09c524dfdd2c3538f2ae977c58399">Unit::RemoveAura</a></div><div class="ttdeci">void RemoveAura(AuraApplicationMap::iterator &amp;i, AuraRemoveMode mode=AURA_REMOVE_BY_DEFAULT)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:4696</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a1d61b34d31794cd2bdcddfe91dc1103e" name="a1d61b34d31794cd2bdcddfe91dc1103e"></a>
@@ -561,7 +576,36 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1571</span>        {</div>
+<div class="line"><span class="lineno"> 1572</span>            <a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* target = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno"> 1573</span>            <a class="code hl_class" href="../../db/d87/class_map_ref_mgr.html">Map::PlayerList</a> <span class="keyword">const</span>&amp; pList = <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a1013c27be4347a1b1a4a986a07456deb">GetMap</a>()-&gt;<a class="code hl_function" href="../../dd/d11/class_map.html#ae37764185b1adf2c6438025e4fa9091a">GetPlayers</a>();</div>
+<div class="line"><span class="lineno"> 1574</span>            <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> num = <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(0, pList.<a class="code hl_function" href="../../db/d2f/class_linked_list_head.html#aa9c03e05aa61c1fc9fad84efd8f82db7">getSize</a>() - 1);</div>
+<div class="line"><span class="lineno"> 1575</span>            <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> count = 0;</div>
+<div class="line"><span class="lineno"> 1576</span>            <span class="keywordflow">for</span> (<a class="code hl_class" href="../../db/dfe/class_linked_list_head_1_1_iterator.html">Map::PlayerList::const_iterator</a> itr = pList.<a class="code hl_function" href="../../db/d87/class_map_ref_mgr.html#a6774b551f0d64628e33594c7b486a872">begin</a>(); itr != pList.<a class="code hl_function" href="../../db/d87/class_map_ref_mgr.html#af488c0096775085791b5fbc89e5851a0">end</a>(); ++itr, ++count)</div>
+<div class="line"><span class="lineno"> 1577</span>            {</div>
+<div class="line"><span class="lineno"> 1578</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#acaa0cccbbb9cac74080c8279a571a68c">GetDistance</a>(itr-&gt;GetSource()) &gt; 200 || itr-&gt;GetSource()-&gt;GetPositionZ() &lt; 300 || !itr-&gt;GetSource()-&gt;IsAlive() || itr-&gt;GetSource()-&gt;IsGameMaster())</div>
+<div class="line"><span class="lineno"> 1579</span>                    <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno"> 1580</span> </div>
+<div class="line"><span class="lineno"> 1581</span>                <span class="keywordflow">if</span> (count &lt;= num || !target)</div>
+<div class="line"><span class="lineno"> 1582</span>                    target = itr-&gt;GetSource();</div>
+<div class="line"><span class="lineno"> 1583</span>                <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 1584</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1585</span>            }</div>
+<div class="line"><span class="lineno"> 1586</span> </div>
+<div class="line"><span class="lineno"> 1587</span>            <span class="keywordflow">return</span> target;</div>
+<div class="line"><span class="lineno"> 1588</span>        }</div>
+<div class="ttc" id="a_define_8h_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:110</div></div>
+<div class="ttc" id="a_random_8cpp_html_ab17def34ccbbd868dc87a16bf35acdbd"><div class="ttname"><a href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a></div><div class="ttdeci">uint32 urand(uint32 min, uint32 max)</div><div class="ttdef"><b>Definition:</b> Random.cpp:44</div></div>
+<div class="ttc" id="aclass_linked_list_head_1_1_iterator_html"><div class="ttname"><a href="../../db/dfe/class_linked_list_head_1_1_iterator.html">LinkedListHead::Iterator</a></div><div class="ttdef"><b>Definition:</b> LinkedList.h:139</div></div>
+<div class="ttc" id="aclass_linked_list_head_html_aa9c03e05aa61c1fc9fad84efd8f82db7"><div class="ttname"><a href="../../db/d2f/class_linked_list_head.html#aa9c03e05aa61c1fc9fad84efd8f82db7">LinkedListHead::getSize</a></div><div class="ttdeci">uint32 getSize() const</div><div class="ttdef"><b>Definition:</b> LinkedList.h:115</div></div>
+<div class="ttc" id="aclass_map_html_ae37764185b1adf2c6438025e4fa9091a"><div class="ttname"><a href="../../dd/d11/class_map.html#ae37764185b1adf2c6438025e4fa9091a">Map::GetPlayers</a></div><div class="ttdeci">PlayerList const &amp; GetPlayers() const</div><div class="ttdef"><b>Definition:</b> Map.h:484</div></div>
+<div class="ttc" id="aclass_map_ref_mgr_html"><div class="ttname"><a href="../../db/d87/class_map_ref_mgr.html">MapRefMgr</a></div><div class="ttdef"><b>Definition:</b> MapRefMgr.h:26</div></div>
+<div class="ttc" id="aclass_map_ref_mgr_html_a6774b551f0d64628e33594c7b486a872"><div class="ttname"><a href="../../db/d87/class_map_ref_mgr.html#a6774b551f0d64628e33594c7b486a872">MapRefMgr::begin</a></div><div class="ttdeci">iterator begin()</div><div class="ttdef"><b>Definition:</b> MapRefMgr.h:36</div></div>
+<div class="ttc" id="aclass_map_ref_mgr_html_af488c0096775085791b5fbc89e5851a0"><div class="ttname"><a href="../../db/d87/class_map_ref_mgr.html#af488c0096775085791b5fbc89e5851a0">MapRefMgr::end</a></div><div class="ttdeci">iterator end()</div><div class="ttdef"><b>Definition:</b> MapRefMgr.h:37</div></div>
+<div class="ttc" id="aclass_player_html"><div class="ttname"><a href="../../d8/d53/class_player.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1046</div></div>
+<div class="ttc" id="aclass_world_object_html_a1013c27be4347a1b1a4a986a07456deb"><div class="ttname"><a href="../../db/df7/class_world_object.html#a1013c27be4347a1b1a4a986a07456deb">WorldObject::GetMap</a></div><div class="ttdeci">Map * GetMap() const</div><div class="ttdef"><b>Definition:</b> Object.h:517</div></div>
+<div class="ttc" id="aclass_world_object_html_acaa0cccbbb9cac74080c8279a571a68c"><div class="ttname"><a href="../../db/df7/class_world_object.html#acaa0cccbbb9cac74080c8279a571a68c">WorldObject::GetDistance</a></div><div class="ttdeci">float GetDistance(WorldObject const *obj) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1245</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a0269d1dc655af5680d7074cb093740b8" name="a0269d1dc655af5680d7074cb093740b8"></a>
@@ -589,11 +633,32 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#aff5fd4e142a5cf930ffacbfc7259cce5">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1591</span>        {</div>
+<div class="line"><span class="lineno"> 1592</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ab78147cd520d2dac6be709b4c80a7de3">HasUnitState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54">UNIT_STATE_CASTING</a>))</div>
+<div class="line"><span class="lineno"> 1593</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 1594</span> </div>
+<div class="line"><span class="lineno"> 1595</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target = <a class="code hl_function" href="../../da/dcf/structboss__yoggsaron__corruptor__tentacle_1_1boss__yoggsaron__corruptor__tentacle_a_i.html#a1d61b34d31794cd2bdcddfe91dc1103e">SelectCorruptionTarget</a>())</div>
+<div class="line"><span class="lineno"> 1596</span>            {</div>
+<div class="line"><span class="lineno"> 1597</span>                <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> spellid = <a class="code hl_function" href="../../d3/d01/_creature_a_i_impl_8h.html#a95d9a0c5ba0d54645670ba51c16ed33c">RAND</a>(<a class="code hl_enumvalue" href="../../d3/d32/boss__yoggsaron_8cpp.html#a1b30ee7b66756f07902ec6940e772f08a8c43942afa45ca4dc86220f95fcaf973">SPELL_APATHY</a>, <a class="code hl_enumvalue" href="../../d3/d32/boss__yoggsaron_8cpp.html#a1b30ee7b66756f07902ec6940e772f08ab18dd869b6e0b5fc1803d8d5ddfaf50a">SPELL_BLACK_PLAGUE</a>, <a class="code hl_enumvalue" href="../../d3/d32/boss__yoggsaron_8cpp.html#a1b30ee7b66756f07902ec6940e772f08abb7a1c3a5092c0ebd094ef0d705b4989">SPELL_DRAINING_POISON</a>, <a class="code hl_enumvalue" href="../../d3/d32/boss__yoggsaron_8cpp.html#a1b30ee7b66756f07902ec6940e772f08a80cc924a8f81b72364f0751488c4a6c7">SPELL_CURSE_OF_DOOM</a>);</div>
+<div class="line"><span class="lineno"> 1598</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(target, spellid, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno"> 1599</span>            }</div>
+<div class="line"><span class="lineno"> 1600</span>        }</div>
+<div class="ttc" id="a_creature_a_i_impl_8h_html_a95d9a0c5ba0d54645670ba51c16ed33c"><div class="ttname"><a href="../../d3/d01/_creature_a_i_impl_8h.html#a95d9a0c5ba0d54645670ba51c16ed33c">RAND</a></div><div class="ttdeci">static First const &amp; RAND(First const &amp;first, Second const &amp;second, Rest const &amp;... rest)</div><div class="ttdef"><b>Definition:</b> CreatureAIImpl.h:30</div></div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="a_unit_8h_html_ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54">UNIT_STATE_CASTING</a></div><div class="ttdeci">@ UNIT_STATE_CASTING</div><div class="ttdef"><b>Definition:</b> Unit.h:340</div></div>
+<div class="ttc" id="aboss__yoggsaron_8cpp_html_a1b30ee7b66756f07902ec6940e772f08a80cc924a8f81b72364f0751488c4a6c7"><div class="ttname"><a href="../../d3/d32/boss__yoggsaron_8cpp.html#a1b30ee7b66756f07902ec6940e772f08a80cc924a8f81b72364f0751488c4a6c7">SPELL_CURSE_OF_DOOM</a></div><div class="ttdeci">@ SPELL_CURSE_OF_DOOM</div><div class="ttdef"><b>Definition:</b> boss_yoggsaron.cpp:110</div></div>
+<div class="ttc" id="aboss__yoggsaron_8cpp_html_a1b30ee7b66756f07902ec6940e772f08a8c43942afa45ca4dc86220f95fcaf973"><div class="ttname"><a href="../../d3/d32/boss__yoggsaron_8cpp.html#a1b30ee7b66756f07902ec6940e772f08a8c43942afa45ca4dc86220f95fcaf973">SPELL_APATHY</a></div><div class="ttdeci">@ SPELL_APATHY</div><div class="ttdef"><b>Definition:</b> boss_yoggsaron.cpp:108</div></div>
+<div class="ttc" id="aboss__yoggsaron_8cpp_html_a1b30ee7b66756f07902ec6940e772f08ab18dd869b6e0b5fc1803d8d5ddfaf50a"><div class="ttname"><a href="../../d3/d32/boss__yoggsaron_8cpp.html#a1b30ee7b66756f07902ec6940e772f08ab18dd869b6e0b5fc1803d8d5ddfaf50a">SPELL_BLACK_PLAGUE</a></div><div class="ttdeci">@ SPELL_BLACK_PLAGUE</div><div class="ttdef"><b>Definition:</b> boss_yoggsaron.cpp:109</div></div>
+<div class="ttc" id="aboss__yoggsaron_8cpp_html_a1b30ee7b66756f07902ec6940e772f08abb7a1c3a5092c0ebd094ef0d705b4989"><div class="ttname"><a href="../../d3/d32/boss__yoggsaron_8cpp.html#a1b30ee7b66756f07902ec6940e772f08abb7a1c3a5092c0ebd094ef0d705b4989">SPELL_DRAINING_POISON</a></div><div class="ttdeci">@ SPELL_DRAINING_POISON</div><div class="ttdef"><b>Definition:</b> boss_yoggsaron.cpp:111</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+<div class="ttc" id="aclass_unit_html_ab78147cd520d2dac6be709b4c80a7de3"><div class="ttname"><a href="../../da/db7/class_unit.html#ab78147cd520d2dac6be709b4c80a7de3">Unit::HasUnitState</a></div><div class="ttdeci">bool HasUnitState(const uint32 f) const</div><div class="ttdef"><b>Definition:</b> Unit.h:1398</div></div>
+<div class="ttc" id="astructboss__yoggsaron__corruptor__tentacle_1_1boss__yoggsaron__corruptor__tentacle_a_i_html_a1d61b34d31794cd2bdcddfe91dc1103e"><div class="ttname"><a href="../../da/dcf/structboss__yoggsaron__corruptor__tentacle_1_1boss__yoggsaron__corruptor__tentacle_a_i.html#a1d61b34d31794cd2bdcddfe91dc1103e">boss_yoggsaron_corruptor_tentacle::boss_yoggsaron_corruptor_tentacleAI::SelectCorruptionTarget</a></div><div class="ttdeci">Unit * SelectCorruptionTarget()</div><div class="ttdef"><b>Definition:</b> boss_yoggsaron.cpp:1570</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/Ulduar/Ulduar/<a class="el" href="../../d3/d32/boss__yoggsaron_8cpp.html">boss_yoggsaron.cpp</a></li>
+<li><a class="el" href="../../">boss_yoggsaron.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -601,7 +666,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/d3a/classboss__yoggsaron__corruptor__tentacle.html">boss_yoggsaron_corruptor_tentacle</a></li><li class="navelem"><a class="el" href="../../da/dcf/structboss__yoggsaron__corruptor__tentacle_1_1boss__yoggsaron__corruptor__tentacle_a_i.html">boss_yoggsaron_corruptor_tentacleAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:43 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:57 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

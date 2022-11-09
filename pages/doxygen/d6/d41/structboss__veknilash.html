@@ -551,7 +551,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a73a4095c3dd0ffbd9d7ef5a8a837f13f" name="a73a4095c3dd0ffbd9d7ef5a8a837f13f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a73a4095c3dd0ffbd9d7ef5a8a837f13f">&#9670;&#160;</a></span>boss_veknilash()</h2>
 
@@ -575,7 +576,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  299</span>: <a class="code hl_struct" href="../../d9/daa/structboss__twinemperors_a_i.html">boss_twinemperorsAI</a>(creature) { }</div>
+<div class="ttc" id="astructboss__twinemperors_a_i_html"><div class="ttname"><a href="../../d9/daa/structboss__twinemperors_a_i.html">boss_twinemperorsAI</a></div><div class="ttdef"><b>Definition:</b> boss_twinemperors.cpp:87</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -604,7 +607,44 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d9/daa/structboss__twinemperors_a_i.html#a21a6023da6636a706ebd0ec244add51e">boss_twinemperorsAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  304</span>    {</div>
+<div class="line"><span class="lineno">  305</span>        <a class="code hl_function" href="../../d9/daa/structboss__twinemperors_a_i.html#a21a6023da6636a706ebd0ec244add51e">boss_twinemperorsAI::EnterCombat</a>(who);</div>
+<div class="line"><span class="lineno">  306</span> </div>
+<div class="line"><span class="lineno">  307</span>        <a class="code hl_function" href="../../de/d83/struct_scripted_a_i.html#af5c4c2aa7107593244f0d4cf02c47dcb">DoPlaySoundToSet</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_enumvalue" href="../../dd/d58/boss__twinemperors_8cpp.html#a378d5c1c6cef9f24f253a041e207663cac6237de5011c6cf28fa703e10d989e5b">SOUND_VN_AGGRO</a>);</div>
+<div class="line"><span class="lineno">  308</span> </div>
+<div class="line"><span class="lineno">  309</span>        <a class="code hl_variable" href="../../d9/daa/structboss__twinemperors_a_i.html#ab2e8f151e538577c05e8487e8063d50f">_scheduler</a></div>
+<div class="line"><span class="lineno">  310</span>            .<a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#a0e0579d2a2397de5a79c756d5e59a830">Schedule</a>(14s, [<span class="keyword">this</span>](<a class="code hl_class" href="../../d2/dd9/class_task_context.html">TaskContext</a> context)</div>
+<div class="line"><span class="lineno">  311</span>            {</div>
+<div class="line"><span class="lineno">  312</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#ab0dadfc6e68d67b01c1156e8439fe0f8">DoCastRandomTarget</a>(<a class="code hl_enumvalue" href="../../dd/d58/boss__twinemperors_8cpp.html#a5bd342133be8c2137b831460acc9298caec5ad6f4170f697acf9499e4e06bb065">SPELL_UPPERCUT</a>, 0, <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a80d0d5868274c709ef63a2f08774b0ce">GetMeleeReach</a>(), <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  313</span>                context.<a class="code hl_function" href="../../d2/dd9/class_task_context.html#a380c596857dd0030414db5e8d28a3dda">Repeat</a>(4s, 15s);</div>
+<div class="line"><span class="lineno">  314</span>            })</div>
+<div class="line"><span class="lineno">  315</span>            .Schedule(12s, [<span class="keyword">this</span>](<a class="code hl_class" href="../../d2/dd9/class_task_context.html">TaskContext</a> context)</div>
+<div class="line"><span class="lineno">  316</span>            {</div>
+<div class="line"><span class="lineno">  317</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a361b6f4e71e9c74595bdf3d7e3b29a82">DoCastVictim</a>(<a class="code hl_enumvalue" href="../../dd/d58/boss__twinemperors_8cpp.html#a5bd342133be8c2137b831460acc9298ca3b09d39dcbcaf3ef92fb024de1440f2a">SPELL_UNBALANCING_STRIKE</a>);</div>
+<div class="line"><span class="lineno">  318</span>                context.<a class="code hl_function" href="../../d2/dd9/class_task_context.html#a380c596857dd0030414db5e8d28a3dda">Repeat</a>(8s, 20s);</div>
+<div class="line"><span class="lineno">  319</span>            })</div>
+<div class="line"><span class="lineno">  320</span>            .Schedule(16s, [<span class="keyword">this</span>](<a class="code hl_class" href="../../d2/dd9/class_task_context.html">TaskContext</a> context)</div>
+<div class="line"><span class="lineno">  321</span>            {</div>
+<div class="line"><span class="lineno">  322</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a1e37cbb75f91c247b04131afc7ce35f5">DoCastAOE</a>(<a class="code hl_enumvalue" href="../../dd/d58/boss__twinemperors_8cpp.html#a5bd342133be8c2137b831460acc9298ca717f0f96796c5ba79a4cb9067e5abf9a">SPELL_MUTATE_BUG</a>);</div>
+<div class="line"><span class="lineno">  323</span>                context.<a class="code hl_function" href="../../d2/dd9/class_task_context.html#a380c596857dd0030414db5e8d28a3dda">Repeat</a>(10s, 20s);</div>
+<div class="line"><span class="lineno">  324</span>            });</div>
+<div class="line"><span class="lineno">  325</span>    }</div>
+<div class="ttc" id="aboss__twinemperors_8cpp_html_a378d5c1c6cef9f24f253a041e207663cac6237de5011c6cf28fa703e10d989e5b"><div class="ttname"><a href="../../dd/d58/boss__twinemperors_8cpp.html#a378d5c1c6cef9f24f253a041e207663cac6237de5011c6cf28fa703e10d989e5b">SOUND_VN_AGGRO</a></div><div class="ttdeci">@ SOUND_VN_AGGRO</div><div class="ttdef"><b>Definition:</b> boss_twinemperors.cpp:70</div></div>
+<div class="ttc" id="aboss__twinemperors_8cpp_html_a5bd342133be8c2137b831460acc9298ca3b09d39dcbcaf3ef92fb024de1440f2a"><div class="ttname"><a href="../../dd/d58/boss__twinemperors_8cpp.html#a5bd342133be8c2137b831460acc9298ca3b09d39dcbcaf3ef92fb024de1440f2a">SPELL_UNBALANCING_STRIKE</a></div><div class="ttdeci">@ SPELL_UNBALANCING_STRIKE</div><div class="ttdef"><b>Definition:</b> boss_twinemperors.cpp:41</div></div>
+<div class="ttc" id="aboss__twinemperors_8cpp_html_a5bd342133be8c2137b831460acc9298ca717f0f96796c5ba79a4cb9067e5abf9a"><div class="ttname"><a href="../../dd/d58/boss__twinemperors_8cpp.html#a5bd342133be8c2137b831460acc9298ca717f0f96796c5ba79a4cb9067e5abf9a">SPELL_MUTATE_BUG</a></div><div class="ttdeci">@ SPELL_MUTATE_BUG</div><div class="ttdef"><b>Definition:</b> boss_twinemperors.cpp:43</div></div>
+<div class="ttc" id="aboss__twinemperors_8cpp_html_a5bd342133be8c2137b831460acc9298caec5ad6f4170f697acf9499e4e06bb065"><div class="ttname"><a href="../../dd/d58/boss__twinemperors_8cpp.html#a5bd342133be8c2137b831460acc9298caec5ad6f4170f697acf9499e4e06bb065">SPELL_UPPERCUT</a></div><div class="ttdeci">@ SPELL_UPPERCUT</div><div class="ttdef"><b>Definition:</b> boss_twinemperors.cpp:40</div></div>
+<div class="ttc" id="aclass_task_context_html"><div class="ttname"><a href="../../d2/dd9/class_task_context.html">TaskContext</a></div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:400</div></div>
+<div class="ttc" id="aclass_task_context_html_a380c596857dd0030414db5e8d28a3dda"><div class="ttname"><a href="../../d2/dd9/class_task_context.html#a380c596857dd0030414db5e8d28a3dda">TaskContext::Repeat</a></div><div class="ttdeci">TaskContext &amp; Repeat(std::chrono::duration&lt; _Rep, _Period &gt; const &amp;duration)</div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:470</div></div>
+<div class="ttc" id="aclass_task_scheduler_html_a0e0579d2a2397de5a79c756d5e59a830"><div class="ttname"><a href="../../d7/dc4/class_task_scheduler.html#a0e0579d2a2397de5a79c756d5e59a830">TaskScheduler::Schedule</a></div><div class="ttdeci">TaskScheduler &amp; Schedule(std::chrono::duration&lt; _Rep, _Period &gt; const &amp;time, task_handler_t const &amp;task)</div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:217</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a1e37cbb75f91c247b04131afc7ce35f5"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a1e37cbb75f91c247b04131afc7ce35f5">UnitAI::DoCastAOE</a></div><div class="ttdeci">SpellCastResult DoCastAOE(uint32 spellId, bool triggered=false)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:249</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a361b6f4e71e9c74595bdf3d7e3b29a82"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a361b6f4e71e9c74595bdf3d7e3b29a82">UnitAI::DoCastVictim</a></div><div class="ttdeci">SpellCastResult DoCastVictim(uint32 spellId, bool triggered=false)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:241</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_ab0dadfc6e68d67b01c1156e8439fe0f8"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#ab0dadfc6e68d67b01c1156e8439fe0f8">UnitAI::DoCastRandomTarget</a></div><div class="ttdeci">SpellCastResult DoCastRandomTarget(uint32 spellId, uint32 threatTablePosition=0, float dist=0.0f, bool playerOnly=true, bool triggered=false)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:257</div></div>
+<div class="ttc" id="aclass_unit_html_a80d0d5868274c709ef63a2f08774b0ce"><div class="ttname"><a href="../../da/db7/class_unit.html#a80d0d5868274c709ef63a2f08774b0ce">Unit::GetMeleeReach</a></div><div class="ttdeci">float GetMeleeReach() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1348</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_af5c4c2aa7107593244f0d4cf02c47dcb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#af5c4c2aa7107593244f0d4cf02c47dcb">ScriptedAI::DoPlaySoundToSet</a></div><div class="ttdeci">void DoPlaySoundToSet(WorldObject *source, uint32 soundId)</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.cpp:252</div></div>
+<div class="ttc" id="astructboss__twinemperors_a_i_html_a21a6023da6636a706ebd0ec244add51e"><div class="ttname"><a href="../../d9/daa/structboss__twinemperors_a_i.html#a21a6023da6636a706ebd0ec244add51e">boss_twinemperorsAI::EnterCombat</a></div><div class="ttdeci">void EnterCombat(Unit *who) override</div><div class="ttdef"><b>Definition:</b> boss_twinemperors.cpp:240</div></div>
+<div class="ttc" id="astructboss__twinemperors_a_i_html_ab2e8f151e538577c05e8487e8063d50f"><div class="ttname"><a href="../../d9/daa/structboss__twinemperors_a_i.html#ab2e8f151e538577c05e8487e8063d50f">boss_twinemperorsAI::_scheduler</a></div><div class="ttdeci">TaskScheduler _scheduler</div><div class="ttdef"><b>Definition:</b> boss_twinemperors.cpp:293</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a454027d829b962ee0feebb6fd5687714" name="a454027d829b962ee0feebb6fd5687714"></a>
@@ -631,11 +671,12 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d9/daa/structboss__twinemperors_a_i.html#acdccdde2ee573f51e1783ea493577258">boss_twinemperorsAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  301</span>{ <span class="keywordflow">return</span> <span class="keyword">false</span>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Kalimdor/TempleOfAhnQiraj/<a class="el" href="../../dd/d58/boss__twinemperors_8cpp.html">boss_twinemperors.cpp</a></li>
+<li><a class="el" href="../../">boss_twinemperors.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -643,7 +684,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d6/d41/structboss__veknilash.html">boss_veknilash</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:43 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:56 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

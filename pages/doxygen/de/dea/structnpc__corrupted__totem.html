@@ -495,7 +495,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a7cd0b6bf7ee616d4d4e98045f7b808c0 inherit pro_methods_class_creature_a_i"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d68/class_creature_a_i.html#a7cd0b6bf7ee616d4d4e98045f7b808c0">_EnterEvadeMode</a> (<a class="el" href="../../d2/d68/class_creature_a_i.html#a48b996440be01f98686cd088857a5dbb">EvadeReason</a> why=<a class="el" href="../../d2/d68/class_creature_a_i.html#a48b996440be01f98686cd088857a5dbba0a93738d4e35efeb13a3ce07963de027">EVADE_REASON_OTHER</a>)</td></tr>
 <tr class="separator:a7cd0b6bf7ee616d4d4e98045f7b808c0 inherit pro_methods_class_creature_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a5e0c58b341fe25a5d682b68e9eee207f" name="a5e0c58b341fe25a5d682b68e9eee207f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5e0c58b341fe25a5d682b68e9eee207f">&#9670;&#160;</a></span>npc_corrupted_totem()</h2>
 
@@ -519,7 +520,23 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  780</span>                                            : <a class="code hl_struct" href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a>(creature)</div>
+<div class="line"><span class="lineno">  781</span>    {</div>
+<div class="line"><span class="lineno">  782</span>        <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> hp = <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(200, 2000);</div>
+<div class="line"><span class="lineno">  783</span>        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ad5ce7d1b68b09a0394bcf60129b4b4f1">SetMaxHealth</a>(hp);</div>
+<div class="line"><span class="lineno">  784</span>        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a6548d4bfff73fad6df63a0bd0d806e2e">SetHealth</a>(hp);</div>
+<div class="line"><span class="lineno">  785</span>        <a class="code hl_variable" href="../../de/dea/structnpc__corrupted__totem.html#a953cf5af625b9b5a4ab6704d5b1b664c">_auraAdded</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  786</span>        <a class="code hl_function" href="../../de/dea/structnpc__corrupted__totem.html#a0bc8df2b8266b7b3a5f40f1ede0e10b4">Reset</a>();</div>
+<div class="line"><span class="lineno">  787</span>    }</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="a_random_8cpp_html_ab17def34ccbbd868dc87a16bf35acdbd"><div class="ttname"><a href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a></div><div class="ttdeci">uint32 urand(uint32 min, uint32 max)</div><div class="ttdef"><b>Definition:</b> Random.cpp:44</div></div>
+<div class="ttc" id="aclass_unit_html_a6548d4bfff73fad6df63a0bd0d806e2e"><div class="ttname"><a href="../../da/db7/class_unit.html#a6548d4bfff73fad6df63a0bd0d806e2e">Unit::SetHealth</a></div><div class="ttdeci">void SetHealth(uint32 val)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:15335</div></div>
+<div class="ttc" id="aclass_unit_html_ad5ce7d1b68b09a0394bcf60129b4b4f1"><div class="ttname"><a href="../../da/db7/class_unit.html#ad5ce7d1b68b09a0394bcf60129b4b4f1">Unit::SetMaxHealth</a></div><div class="ttdeci">void SetMaxHealth(uint32 val)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:15385</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+<div class="ttc" id="astructnpc__corrupted__totem_html_a0bc8df2b8266b7b3a5f40f1ede0e10b4"><div class="ttname"><a href="../../de/dea/structnpc__corrupted__totem.html#a0bc8df2b8266b7b3a5f40f1ede0e10b4">npc_corrupted_totem::Reset</a></div><div class="ttdeci">void Reset() override</div><div class="ttdef"><b>Definition:</b> boss_nefarian.cpp:789</div></div>
+<div class="ttc" id="astructnpc__corrupted__totem_html_a953cf5af625b9b5a4ab6704d5b1b664c"><div class="ttname"><a href="../../de/dea/structnpc__corrupted__totem.html#a953cf5af625b9b5a4ab6704d5b1b664c">npc_corrupted_totem::_auraAdded</a></div><div class="ttdeci">bool _auraAdded</div><div class="ttdef"><b>Definition:</b> boss_nefarian.cpp:929</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -548,7 +565,48 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d2/d68/class_creature_a_i.html#a717b3431bd49e191fc77afe0fa50d827">CreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  875</span>    {</div>
+<div class="line"><span class="lineno">  876</span>        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a01ccacf28df6336a774bf1672caf3571">SetInCombatWithZone</a>();</div>
+<div class="line"><span class="lineno">  877</span> </div>
+<div class="line"><span class="lineno">  878</span>        <a class="code hl_variable" href="../../de/dea/structnpc__corrupted__totem.html#a4f3d47478cc41b24999d0051d1a7a624">_scheduler</a></div>
+<div class="line"><span class="lineno">  879</span>            .<a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#a0e0579d2a2397de5a79c756d5e59a830">Schedule</a>(1ms, [<span class="keyword">this</span>](<a class="code hl_class" href="../../d2/dd9/class_task_context.html">TaskContext</a> context)</div>
+<div class="line"><span class="lineno">  880</span>            {</div>
+<div class="line"><span class="lineno">  881</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>() == <a class="code hl_enumvalue" href="../../d4/d7b/boss__nefarian_8cpp.html#a25a619e6b66096a4f05d048e4a96df08a64531c9cfde512e6f4a7790115dee373">NPC_TOTEM_C_FIRE_NOVA</a>)</div>
+<div class="line"><span class="lineno">  882</span>                {</div>
+<div class="line"><span class="lineno">  883</span>                    if (!_auraAdded)</div>
+<div class="line"><span class="lineno">  884</span>                    {</div>
+<div class="line"><span class="lineno">  885</span>                        context.Schedule(4s, [this](TaskContext <span class="comment">/*context*/</span>)</div>
+<div class="line"><span class="lineno">  886</span>                            {</div>
+<div class="line"><span class="lineno">  887</span>                                if (me-&gt;IsAlive())</div>
+<div class="line"><span class="lineno">  888</span>                                {</div>
+<div class="line"><span class="lineno">  889</span>                                    DoCastAOE(SPELL_FIRE_NOVA_EFFECT, true);</div>
+<div class="line"><span class="lineno">  890</span>                                }</div>
+<div class="line"><span class="lineno">  891</span>                            });</div>
+<div class="line"><span class="lineno">  892</span>                        _auraAdded = true;</div>
+<div class="line"><span class="lineno">  893</span>                        return;</div>
+<div class="line"><span class="lineno">  894</span>                    }</div>
+<div class="line"><span class="lineno">  895</span>                }</div>
+<div class="line"><span class="lineno">  896</span> </div>
+<div class="line"><span class="lineno">  897</span>                <a class="code hl_function" href="../../de/dea/structnpc__corrupted__totem.html#a509688befda49f789f77ee0e4170a74e">SetAura</a>(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  898</span>                context.<a class="code hl_function" href="../../d2/dd9/class_task_context.html#a380c596857dd0030414db5e8d28a3dda">Repeat</a>(1s);</div>
+<div class="line"><span class="lineno">  899</span>            })</div>
+<div class="line"><span class="lineno">  900</span>            .Schedule(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>() == <a class="code hl_enumvalue" href="../../d4/d7b/boss__nefarian_8cpp.html#a25a619e6b66096a4f05d048e4a96df08a86660aaa7a4a93cb5c545976fef5ea40">NPC_TOTEM_C_WINDFURY</a> ? 89s : 59s, [<span class="keyword">this</span>](<a class="code hl_class" href="../../d2/dd9/class_task_context.html">TaskContext</a> <span class="comment">/*context*/</span>)</div>
+<div class="line"><span class="lineno">  901</span>            {</div>
+<div class="line"><span class="lineno">  902</span>                <a class="code hl_function" href="../../de/dea/structnpc__corrupted__totem.html#a509688befda49f789f77ee0e4170a74e">SetAura</a>(<span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  903</span>                <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#abce66404f36b926cf403555911bcb9f7">DespawnOrUnsummon</a>();</div>
+<div class="line"><span class="lineno">  904</span>            });</div>
+<div class="line"><span class="lineno">  905</span>    }</div>
+<div class="ttc" id="aboss__nefarian_8cpp_html_a25a619e6b66096a4f05d048e4a96df08a64531c9cfde512e6f4a7790115dee373"><div class="ttname"><a href="../../d4/d7b/boss__nefarian_8cpp.html#a25a619e6b66096a4f05d048e4a96df08a64531c9cfde512e6f4a7790115dee373">NPC_TOTEM_C_FIRE_NOVA</a></div><div class="ttdeci">@ NPC_TOTEM_C_FIRE_NOVA</div><div class="ttdef"><b>Definition:</b> boss_nefarian.cpp:116</div></div>
+<div class="ttc" id="aboss__nefarian_8cpp_html_a25a619e6b66096a4f05d048e4a96df08a86660aaa7a4a93cb5c545976fef5ea40"><div class="ttname"><a href="../../d4/d7b/boss__nefarian_8cpp.html#a25a619e6b66096a4f05d048e4a96df08a86660aaa7a4a93cb5c545976fef5ea40">NPC_TOTEM_C_WINDFURY</a></div><div class="ttdeci">@ NPC_TOTEM_C_WINDFURY</div><div class="ttdef"><b>Definition:</b> boss_nefarian.cpp:119</div></div>
+<div class="ttc" id="aclass_creature_html_a01ccacf28df6336a774bf1672caf3571"><div class="ttname"><a href="../../d1/dac/class_creature.html#a01ccacf28df6336a774bf1672caf3571">Creature::SetInCombatWithZone</a></div><div class="ttdeci">void SetInCombatWithZone()</div><div class="ttdef"><b>Definition:</b> Creature.cpp:2705</div></div>
+<div class="ttc" id="aclass_creature_html_abce66404f36b926cf403555911bcb9f7"><div class="ttname"><a href="../../d1/dac/class_creature.html#abce66404f36b926cf403555911bcb9f7">Creature::DespawnOrUnsummon</a></div><div class="ttdeci">void DespawnOrUnsummon(Milliseconds msTimeToDespawn, Seconds forcedRespawnTimer)</div><div class="ttdef"><b>Definition:</b> Creature.cpp:2092</div></div>
+<div class="ttc" id="aclass_object_html_aa627fe2967ed0e0ed1d8aeeb4365a961"><div class="ttname"><a href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">Object::GetEntry</a></div><div class="ttdeci">uint32 GetEntry() const</div><div class="ttdef"><b>Definition:</b> Object.h:109</div></div>
+<div class="ttc" id="aclass_task_context_html"><div class="ttname"><a href="../../d2/dd9/class_task_context.html">TaskContext</a></div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:400</div></div>
+<div class="ttc" id="aclass_task_context_html_a380c596857dd0030414db5e8d28a3dda"><div class="ttname"><a href="../../d2/dd9/class_task_context.html#a380c596857dd0030414db5e8d28a3dda">TaskContext::Repeat</a></div><div class="ttdeci">TaskContext &amp; Repeat(std::chrono::duration&lt; _Rep, _Period &gt; const &amp;duration)</div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:470</div></div>
+<div class="ttc" id="aclass_task_scheduler_html_a0e0579d2a2397de5a79c756d5e59a830"><div class="ttname"><a href="../../d7/dc4/class_task_scheduler.html#a0e0579d2a2397de5a79c756d5e59a830">TaskScheduler::Schedule</a></div><div class="ttdeci">TaskScheduler &amp; Schedule(std::chrono::duration&lt; _Rep, _Period &gt; const &amp;time, task_handler_t const &amp;task)</div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:217</div></div>
+<div class="ttc" id="astructnpc__corrupted__totem_html_a4f3d47478cc41b24999d0051d1a7a624"><div class="ttname"><a href="../../de/dea/structnpc__corrupted__totem.html#a4f3d47478cc41b24999d0051d1a7a624">npc_corrupted_totem::_scheduler</a></div><div class="ttdeci">TaskScheduler _scheduler</div><div class="ttdef"><b>Definition:</b> boss_nefarian.cpp:928</div></div>
+<div class="ttc" id="astructnpc__corrupted__totem_html_a509688befda49f789f77ee0e4170a74e"><div class="ttname"><a href="../../de/dea/structnpc__corrupted__totem.html#a509688befda49f789f77ee0e4170a74e">npc_corrupted_totem::SetAura</a></div><div class="ttdeci">void SetAura(bool apply) const</div><div class="ttdef"><b>Definition:</b> boss_nefarian.cpp:801</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aa3c6b1a3df61c9e98c62efadff637578" name="aa3c6b1a3df61c9e98c62efadff637578"></a>
@@ -576,7 +634,16 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a4cc209e047dcbd29cf57e689e3945ff7">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  908</span>    {</div>
+<div class="line"><span class="lineno">  909</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>() != <a class="code hl_enumvalue" href="../../d4/d7b/boss__nefarian_8cpp.html#a25a619e6b66096a4f05d048e4a96df08a64531c9cfde512e6f4a7790115dee373">NPC_TOTEM_C_FIRE_NOVA</a>)</div>
+<div class="line"><span class="lineno">  910</span>        {</div>
+<div class="line"><span class="lineno">  911</span>            <a class="code hl_function" href="../../de/dea/structnpc__corrupted__totem.html#a509688befda49f789f77ee0e4170a74e">SetAura</a>(<span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  912</span>        }</div>
+<div class="line"><span class="lineno">  913</span> </div>
+<div class="line"><span class="lineno">  914</span>        <a class="code hl_variable" href="../../de/dea/structnpc__corrupted__totem.html#a4f3d47478cc41b24999d0051d1a7a624">_scheduler</a>.<a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#a05da7a474b80d725c991dde9d24df4a4">CancelAll</a>();</div>
+<div class="line"><span class="lineno">  915</span>    }</div>
+<div class="ttc" id="aclass_task_scheduler_html_a05da7a474b80d725c991dde9d24df4a4"><div class="ttname"><a href="../../d7/dc4/class_task_scheduler.html#a05da7a474b80d725c991dde9d24df4a4">TaskScheduler::CancelAll</a></div><div class="ttdeci">TaskScheduler &amp; CancelAll()</div><div class="ttdef"><b>Definition:</b> TaskScheduler.cpp:33</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a0bc8df2b8266b7b3a5f40f1ede0e10b4" name="a0bc8df2b8266b7b3a5f40f1ede0e10b4"></a>
@@ -603,7 +670,23 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a26600c116d20a33461fc884bdb82eda9">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  790</span>    {</div>
+<div class="line"><span class="lineno">  791</span>        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a752f5f516257bfdf139098c29a55c466">AddUnitState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544a50d4f70d273dc4674d4f56fcab462a14">UNIT_STATE_ROOT</a>);</div>
+<div class="line"><span class="lineno">  792</span>        <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a69c5ac45b65cf0dede6e0ee837361f61">HasAura</a>(<a class="code hl_enumvalue" href="../../d4/d7b/boss__nefarian_8cpp.html#a5bd342133be8c2137b831460acc9298ca85a709d6db4db1d7de162bab489085dc">SPELL_ROOT_SELF</a>))</div>
+<div class="line"><span class="lineno">  793</span>        {</div>
+<div class="line"><span class="lineno">  794</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a51d433dde350cd94d7c3c43e30ca997f">AddAura</a>(<a class="code hl_enumvalue" href="../../d4/d7b/boss__nefarian_8cpp.html#a5bd342133be8c2137b831460acc9298ca85a709d6db4db1d7de162bab489085dc">SPELL_ROOT_SELF</a>, <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>);</div>
+<div class="line"><span class="lineno">  795</span>        }</div>
+<div class="line"><span class="lineno">  796</span> </div>
+<div class="line"><span class="lineno">  797</span>        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a51d433dde350cd94d7c3c43e30ca997f">AddAura</a>(<a class="code hl_enumvalue" href="../../d4/d7b/boss__nefarian_8cpp.html#a0d696900f60382bdf795480925732f04a73943fa657da0a16b91fbad8dba7fde8">AURA_AVOIDANCE</a>, <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>);</div>
+<div class="line"><span class="lineno">  798</span>        <a class="code hl_variable" href="../../de/dea/structnpc__corrupted__totem.html#a4f3d47478cc41b24999d0051d1a7a624">_scheduler</a>.<a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#a05da7a474b80d725c991dde9d24df4a4">CancelAll</a>();</div>
+<div class="line"><span class="lineno">  799</span>    }</div>
+<div class="ttc" id="a_unit_8h_html_ae51d2ecb71f7a5cb3882982a622c9544a50d4f70d273dc4674d4f56fcab462a14"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544a50d4f70d273dc4674d4f56fcab462a14">UNIT_STATE_ROOT</a></div><div class="ttdeci">@ UNIT_STATE_ROOT</div><div class="ttdef"><b>Definition:</b> Unit.h:335</div></div>
+<div class="ttc" id="aboss__nefarian_8cpp_html_a0d696900f60382bdf795480925732f04a73943fa657da0a16b91fbad8dba7fde8"><div class="ttname"><a href="../../d4/d7b/boss__nefarian_8cpp.html#a0d696900f60382bdf795480925732f04a73943fa657da0a16b91fbad8dba7fde8">AURA_AVOIDANCE</a></div><div class="ttdeci">@ AURA_AVOIDANCE</div><div class="ttdef"><b>Definition:</b> boss_nefarian.cpp:770</div></div>
+<div class="ttc" id="aboss__nefarian_8cpp_html_a5bd342133be8c2137b831460acc9298ca85a709d6db4db1d7de162bab489085dc"><div class="ttname"><a href="../../d4/d7b/boss__nefarian_8cpp.html#a5bd342133be8c2137b831460acc9298ca85a709d6db4db1d7de162bab489085dc">SPELL_ROOT_SELF</a></div><div class="ttdeci">@ SPELL_ROOT_SELF</div><div class="ttdef"><b>Definition:</b> boss_nefarian.cpp:167</div></div>
+<div class="ttc" id="aclass_unit_html_a51d433dde350cd94d7c3c43e30ca997f"><div class="ttname"><a href="../../da/db7/class_unit.html#a51d433dde350cd94d7c3c43e30ca997f">Unit::AddAura</a></div><div class="ttdeci">Aura * AddAura(uint32 spellId, Unit *target)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:18895</div></div>
+<div class="ttc" id="aclass_unit_html_a69c5ac45b65cf0dede6e0ee837361f61"><div class="ttname"><a href="../../da/db7/class_unit.html#a69c5ac45b65cf0dede6e0ee837361f61">Unit::HasAura</a></div><div class="ttdeci">bool HasAura(uint32 spellId, ObjectGuid casterGUID=ObjectGuid::Empty, ObjectGuid itemCasterGUID=ObjectGuid::Empty, uint8 reqEffMask=0) const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:5598</div></div>
+<div class="ttc" id="aclass_unit_html_a752f5f516257bfdf139098c29a55c466"><div class="ttname"><a href="../../da/db7/class_unit.html#a752f5f516257bfdf139098c29a55c466">Unit::AddUnitState</a></div><div class="ttdeci">void AddUnitState(uint32 f)</div><div class="ttdef"><b>Definition:</b> Unit.h:1397</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a509688befda49f789f77ee0e4170a74e" name="a509688befda49f789f77ee0e4170a74e"></a>
@@ -629,7 +712,96 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  802</span>    {</div>
+<div class="line"><span class="lineno">  803</span>        <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> spellId = 0;</div>
+<div class="line"><span class="lineno">  804</span> </div>
+<div class="line"><span class="lineno">  805</span>        <span class="keywordflow">switch</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>())</div>
+<div class="line"><span class="lineno">  806</span>        {</div>
+<div class="line"><span class="lineno">  807</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/d7b/boss__nefarian_8cpp.html#a25a619e6b66096a4f05d048e4a96df08a4899f5cc1fb71db5cd0b9d2ece708f42">NPC_TOTEM_C_STONESKIN</a>:</div>
+<div class="line"><span class="lineno">  808</span>                spellId = <a class="code hl_enumvalue" href="../../d4/d7b/boss__nefarian_8cpp.html#a0d696900f60382bdf795480925732f04ac50799ac16103a0a8e0483596a445973">SPELL_STONESKIN_EFFECT</a>;</div>
+<div class="line"><span class="lineno">  809</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  810</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/d7b/boss__nefarian_8cpp.html#a25a619e6b66096a4f05d048e4a96df08a040fb5ad538821cc555344e4a0fd53e4">NPC_TOTEM_C_HEALING</a>:</div>
+<div class="line"><span class="lineno">  811</span>                spellId = <a class="code hl_enumvalue" href="../../d4/d7b/boss__nefarian_8cpp.html#a0d696900f60382bdf795480925732f04a07b72413c925b72cb4d036300455b1fb">SPELL_HEALING_EFFECT</a>;</div>
+<div class="line"><span class="lineno">  812</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  813</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/d7b/boss__nefarian_8cpp.html#a25a619e6b66096a4f05d048e4a96df08a86660aaa7a4a93cb5c545976fef5ea40">NPC_TOTEM_C_WINDFURY</a>:</div>
+<div class="line"><span class="lineno">  814</span>                spellId = <a class="code hl_enumvalue" href="../../d4/d7b/boss__nefarian_8cpp.html#a0d696900f60382bdf795480925732f04a92f97c4c8b7e554efe94a1f8ece1f39a">SPELL_WINDFURY_EFFECT</a>;</div>
+<div class="line"><span class="lineno">  815</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  816</span>        }</div>
+<div class="line"><span class="lineno">  817</span> </div>
+<div class="line"><span class="lineno">  818</span>        <span class="keywordflow">if</span> (!spellId)</div>
+<div class="line"><span class="lineno">  819</span>        {</div>
+<div class="line"><span class="lineno">  820</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  821</span>        }</div>
+<div class="line"><span class="lineno">  822</span> </div>
+<div class="line"><span class="lineno">  823</span>        std::vector&lt;uint32&gt; mobsEntries =</div>
+<div class="line"><span class="lineno">  824</span>        {</div>
+<div class="line"><span class="lineno">  825</span>            <a class="code hl_enumvalue" href="../../d8/d83/blackwing__lair_8h.html#ac02f9e34b4a5d720bc51fa7198d9ef4fae8830226aeb4002944c0375d61a14e3b">NPC_NEFARIAN</a>,</div>
+<div class="line"><span class="lineno">  826</span>            <a class="code hl_enumvalue" href="../../d8/d83/blackwing__lair_8h.html#ac02f9e34b4a5d720bc51fa7198d9ef4fa22402b3c881e3f3dd16c43393faa7067">NPC_BONE_CONSTRUCT</a>,</div>
+<div class="line"><span class="lineno">  827</span>            <a class="code hl_enumvalue" href="../../d8/d83/blackwing__lair_8h.html#ac02f9e34b4a5d720bc51fa7198d9ef4faacb1238073f579d267219b3bf0cd61df">NPC_BRONZE_DRAKONID</a>,</div>
+<div class="line"><span class="lineno">  828</span>            <a class="code hl_enumvalue" href="../../d8/d83/blackwing__lair_8h.html#ac02f9e34b4a5d720bc51fa7198d9ef4fa450a08f96946d6faf1c9610e3fa6adfe">NPC_BLUE_DRAKONID</a>,</div>
+<div class="line"><span class="lineno">  829</span>            <a class="code hl_enumvalue" href="../../d8/d83/blackwing__lair_8h.html#ac02f9e34b4a5d720bc51fa7198d9ef4fa29cb889cb42ed3e4fbeedfbee132b25f">NPC_RED_DRAKONID</a>,</div>
+<div class="line"><span class="lineno">  830</span>            <a class="code hl_enumvalue" href="../../d8/d83/blackwing__lair_8h.html#ac02f9e34b4a5d720bc51fa7198d9ef4fa8724da46a6ef5ac2a0b6c939b3cd2bd0">NPC_GREEN_DRAKONID</a>,</div>
+<div class="line"><span class="lineno">  831</span>            <a class="code hl_enumvalue" href="../../d8/d83/blackwing__lair_8h.html#ac02f9e34b4a5d720bc51fa7198d9ef4fab81fa55501d6dbc25ed1adf0330787ef">NPC_BLACK_DRAKONID</a>,</div>
+<div class="line"><span class="lineno">  832</span>            <a class="code hl_enumvalue" href="../../d8/d83/blackwing__lair_8h.html#ac02f9e34b4a5d720bc51fa7198d9ef4fa3da34df86f187ff4714dcd155df0bcbd">NPC_CHROMATIC_DRAKONID</a></div>
+<div class="line"><span class="lineno">  833</span>        };</div>
+<div class="line"><span class="lineno">  834</span> </div>
+<div class="line"><span class="lineno">  835</span>        <span class="keywordflow">for</span> (<span class="keyword">auto</span> <span class="keyword">const</span>&amp; entry : mobsEntries)</div>
+<div class="line"><span class="lineno">  836</span>        {</div>
+<div class="line"><span class="lineno">  837</span>            std::list&lt;Creature*&gt; tmpMobList;</div>
+<div class="line"><span class="lineno">  838</span>            <a class="code hl_function" href="../../d4/d43/_scripted_creature_8cpp.html#ab6a8246d473139627106be4651f6329d">GetCreatureListWithEntryInGrid</a>(tmpMobList, <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, entry, 100.f);</div>
+<div class="line"><span class="lineno">  839</span>            <span class="keywordflow">while</span> (!tmpMobList.empty())</div>
+<div class="line"><span class="lineno">  840</span>            {</div>
+<div class="line"><span class="lineno">  841</span>                <a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* curr = tmpMobList.front();</div>
+<div class="line"><span class="lineno">  842</span>                tmpMobList.pop_front();</div>
+<div class="line"><span class="lineno">  843</span> </div>
+<div class="line"><span class="lineno">  844</span>                <span class="keywordflow">if</span> (!curr-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a5ea3f54af571493f7889220724667189">IsAlive</a>())</div>
+<div class="line"><span class="lineno">  845</span>                {</div>
+<div class="line"><span class="lineno">  846</span>                    <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  847</span>                }</div>
+<div class="line"><span class="lineno">  848</span> </div>
+<div class="line"><span class="lineno">  849</span>                <span class="keywordflow">if</span> (apply &amp;&amp; <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a5ea3f54af571493f7889220724667189">IsAlive</a>())</div>
+<div class="line"><span class="lineno">  850</span>                {</div>
+<div class="line"><span class="lineno">  851</span>                    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#ab73407bcdf13a30519a953d24773ed02">IsWithinDistInMap</a>(curr, 40.f))</div>
+<div class="line"><span class="lineno">  852</span>                    {</div>
+<div class="line"><span class="lineno">  853</span>                        <span class="keywordflow">if</span> (!curr-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a69c5ac45b65cf0dede6e0ee837361f61">HasAura</a>(spellId))</div>
+<div class="line"><span class="lineno">  854</span>                        {</div>
+<div class="line"><span class="lineno">  855</span>                            curr-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a51d433dde350cd94d7c3c43e30ca997f">AddAura</a>(spellId, curr);</div>
+<div class="line"><span class="lineno">  856</span>                        }</div>
+<div class="line"><span class="lineno">  857</span>                    }</div>
+<div class="line"><span class="lineno">  858</span>                    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  859</span>                    {</div>
+<div class="line"><span class="lineno">  860</span>                        <span class="keywordflow">if</span> (curr-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a69c5ac45b65cf0dede6e0ee837361f61">HasAura</a>(spellId))</div>
+<div class="line"><span class="lineno">  861</span>                        {</div>
+<div class="line"><span class="lineno">  862</span>                            curr-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aac612f06e84142d92dcfc432b5feb4ac">RemoveAurasDueToSpell</a>(spellId);</div>
+<div class="line"><span class="lineno">  863</span>                        }</div>
+<div class="line"><span class="lineno">  864</span>                    }</div>
+<div class="line"><span class="lineno">  865</span>                }</div>
+<div class="line"><span class="lineno">  866</span>                <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  867</span>                {</div>
+<div class="line"><span class="lineno">  868</span>                    curr-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aac612f06e84142d92dcfc432b5feb4ac">RemoveAurasDueToSpell</a>(spellId);</div>
+<div class="line"><span class="lineno">  869</span>                }</div>
+<div class="line"><span class="lineno">  870</span>            }</div>
+<div class="line"><span class="lineno">  871</span>        }</div>
+<div class="line"><span class="lineno">  872</span>    }</div>
+<div class="ttc" id="a_scripted_creature_8cpp_html_ab6a8246d473139627106be4651f6329d"><div class="ttname"><a href="../../d4/d43/_scripted_creature_8cpp.html#ab6a8246d473139627106be4651f6329d">GetCreatureListWithEntryInGrid</a></div><div class="ttdeci">void GetCreatureListWithEntryInGrid(std::list&lt; Creature * &gt; &amp;list, WorldObject *source, uint32 entry, float maxSearchRange)</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.cpp:703</div></div>
+<div class="ttc" id="ablackwing__lair_8h_html_ac02f9e34b4a5d720bc51fa7198d9ef4fa22402b3c881e3f3dd16c43393faa7067"><div class="ttname"><a href="../../d8/d83/blackwing__lair_8h.html#ac02f9e34b4a5d720bc51fa7198d9ef4fa22402b3c881e3f3dd16c43393faa7067">NPC_BONE_CONSTRUCT</a></div><div class="ttdeci">@ NPC_BONE_CONSTRUCT</div><div class="ttdef"><b>Definition:</b> blackwing_lair.h:83</div></div>
+<div class="ttc" id="ablackwing__lair_8h_html_ac02f9e34b4a5d720bc51fa7198d9ef4fa29cb889cb42ed3e4fbeedfbee132b25f"><div class="ttname"><a href="../../d8/d83/blackwing__lair_8h.html#ac02f9e34b4a5d720bc51fa7198d9ef4fa29cb889cb42ed3e4fbeedfbee132b25f">NPC_RED_DRAKONID</a></div><div class="ttdeci">@ NPC_RED_DRAKONID</div><div class="ttdef"><b>Definition:</b> blackwing_lair.h:79</div></div>
+<div class="ttc" id="ablackwing__lair_8h_html_ac02f9e34b4a5d720bc51fa7198d9ef4fa3da34df86f187ff4714dcd155df0bcbd"><div class="ttname"><a href="../../d8/d83/blackwing__lair_8h.html#ac02f9e34b4a5d720bc51fa7198d9ef4fa3da34df86f187ff4714dcd155df0bcbd">NPC_CHROMATIC_DRAKONID</a></div><div class="ttdeci">@ NPC_CHROMATIC_DRAKONID</div><div class="ttdef"><b>Definition:</b> blackwing_lair.h:82</div></div>
+<div class="ttc" id="ablackwing__lair_8h_html_ac02f9e34b4a5d720bc51fa7198d9ef4fa450a08f96946d6faf1c9610e3fa6adfe"><div class="ttname"><a href="../../d8/d83/blackwing__lair_8h.html#ac02f9e34b4a5d720bc51fa7198d9ef4fa450a08f96946d6faf1c9610e3fa6adfe">NPC_BLUE_DRAKONID</a></div><div class="ttdeci">@ NPC_BLUE_DRAKONID</div><div class="ttdef"><b>Definition:</b> blackwing_lair.h:78</div></div>
+<div class="ttc" id="ablackwing__lair_8h_html_ac02f9e34b4a5d720bc51fa7198d9ef4fa8724da46a6ef5ac2a0b6c939b3cd2bd0"><div class="ttname"><a href="../../d8/d83/blackwing__lair_8h.html#ac02f9e34b4a5d720bc51fa7198d9ef4fa8724da46a6ef5ac2a0b6c939b3cd2bd0">NPC_GREEN_DRAKONID</a></div><div class="ttdeci">@ NPC_GREEN_DRAKONID</div><div class="ttdef"><b>Definition:</b> blackwing_lair.h:80</div></div>
+<div class="ttc" id="ablackwing__lair_8h_html_ac02f9e34b4a5d720bc51fa7198d9ef4faacb1238073f579d267219b3bf0cd61df"><div class="ttname"><a href="../../d8/d83/blackwing__lair_8h.html#ac02f9e34b4a5d720bc51fa7198d9ef4faacb1238073f579d267219b3bf0cd61df">NPC_BRONZE_DRAKONID</a></div><div class="ttdeci">@ NPC_BRONZE_DRAKONID</div><div class="ttdef"><b>Definition:</b> blackwing_lair.h:77</div></div>
+<div class="ttc" id="ablackwing__lair_8h_html_ac02f9e34b4a5d720bc51fa7198d9ef4fab81fa55501d6dbc25ed1adf0330787ef"><div class="ttname"><a href="../../d8/d83/blackwing__lair_8h.html#ac02f9e34b4a5d720bc51fa7198d9ef4fab81fa55501d6dbc25ed1adf0330787ef">NPC_BLACK_DRAKONID</a></div><div class="ttdeci">@ NPC_BLACK_DRAKONID</div><div class="ttdef"><b>Definition:</b> blackwing_lair.h:81</div></div>
+<div class="ttc" id="ablackwing__lair_8h_html_ac02f9e34b4a5d720bc51fa7198d9ef4fae8830226aeb4002944c0375d61a14e3b"><div class="ttname"><a href="../../d8/d83/blackwing__lair_8h.html#ac02f9e34b4a5d720bc51fa7198d9ef4fae8830226aeb4002944c0375d61a14e3b">NPC_NEFARIAN</a></div><div class="ttdeci">@ NPC_NEFARIAN</div><div class="ttdef"><b>Definition:</b> blackwing_lair.h:68</div></div>
+<div class="ttc" id="aboss__nefarian_8cpp_html_a0d696900f60382bdf795480925732f04a07b72413c925b72cb4d036300455b1fb"><div class="ttname"><a href="../../d4/d7b/boss__nefarian_8cpp.html#a0d696900f60382bdf795480925732f04a07b72413c925b72cb4d036300455b1fb">SPELL_HEALING_EFFECT</a></div><div class="ttdeci">@ SPELL_HEALING_EFFECT</div><div class="ttdef"><b>Definition:</b> boss_nefarian.cpp:773</div></div>
+<div class="ttc" id="aboss__nefarian_8cpp_html_a0d696900f60382bdf795480925732f04a92f97c4c8b7e554efe94a1f8ece1f39a"><div class="ttname"><a href="../../d4/d7b/boss__nefarian_8cpp.html#a0d696900f60382bdf795480925732f04a92f97c4c8b7e554efe94a1f8ece1f39a">SPELL_WINDFURY_EFFECT</a></div><div class="ttdeci">@ SPELL_WINDFURY_EFFECT</div><div class="ttdef"><b>Definition:</b> boss_nefarian.cpp:774</div></div>
+<div class="ttc" id="aboss__nefarian_8cpp_html_a0d696900f60382bdf795480925732f04ac50799ac16103a0a8e0483596a445973"><div class="ttname"><a href="../../d4/d7b/boss__nefarian_8cpp.html#a0d696900f60382bdf795480925732f04ac50799ac16103a0a8e0483596a445973">SPELL_STONESKIN_EFFECT</a></div><div class="ttdeci">@ SPELL_STONESKIN_EFFECT</div><div class="ttdef"><b>Definition:</b> boss_nefarian.cpp:772</div></div>
+<div class="ttc" id="aboss__nefarian_8cpp_html_a25a619e6b66096a4f05d048e4a96df08a040fb5ad538821cc555344e4a0fd53e4"><div class="ttname"><a href="../../d4/d7b/boss__nefarian_8cpp.html#a25a619e6b66096a4f05d048e4a96df08a040fb5ad538821cc555344e4a0fd53e4">NPC_TOTEM_C_HEALING</a></div><div class="ttdeci">@ NPC_TOTEM_C_HEALING</div><div class="ttdef"><b>Definition:</b> boss_nefarian.cpp:118</div></div>
+<div class="ttc" id="aboss__nefarian_8cpp_html_a25a619e6b66096a4f05d048e4a96df08a4899f5cc1fb71db5cd0b9d2ece708f42"><div class="ttname"><a href="../../d4/d7b/boss__nefarian_8cpp.html#a25a619e6b66096a4f05d048e4a96df08a4899f5cc1fb71db5cd0b9d2ece708f42">NPC_TOTEM_C_STONESKIN</a></div><div class="ttdeci">@ NPC_TOTEM_C_STONESKIN</div><div class="ttdef"><b>Definition:</b> boss_nefarian.cpp:117</div></div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_unit_html_a5ea3f54af571493f7889220724667189"><div class="ttname"><a href="../../da/db7/class_unit.html#a5ea3f54af571493f7889220724667189">Unit::IsAlive</a></div><div class="ttdeci">bool IsAlive() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1805</div></div>
+<div class="ttc" id="aclass_unit_html_aac612f06e84142d92dcfc432b5feb4ac"><div class="ttname"><a href="../../da/db7/class_unit.html#aac612f06e84142d92dcfc432b5feb4ac">Unit::RemoveAurasDueToSpell</a></div><div class="ttdeci">void RemoveAurasDueToSpell(uint32 spellId, ObjectGuid casterGUID=ObjectGuid::Empty, uint8 reqEffMask=0, AuraRemoveMode removeMode=AURA_REMOVE_BY_DEFAULT)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:4823</div></div>
+<div class="ttc" id="aclass_world_object_html_ab73407bcdf13a30519a953d24773ed02"><div class="ttname"><a href="../../db/df7/class_world_object.html#ab73407bcdf13a30519a953d24773ed02">WorldObject::IsWithinDistInMap</a></div><div class="ttdeci">bool IsWithinDistInMap(WorldObject const *obj, float dist2compare, bool is3D=true, bool useBoundingRadius=true) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1321</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac128625268820d2e9b1f0ef5ead975e9" name="ac128625268820d2e9b1f0ef5ead975e9"></a>
@@ -657,7 +829,17 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#aff5fd4e142a5cf930ffacbfc7259cce5">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  918</span>    {</div>
+<div class="line"><span class="lineno">  919</span>        <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">UpdateVictim</a>())</div>
+<div class="line"><span class="lineno">  920</span>        {</div>
+<div class="line"><span class="lineno">  921</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  922</span>        }</div>
+<div class="line"><span class="lineno">  923</span> </div>
+<div class="line"><span class="lineno">  924</span>        <a class="code hl_variable" href="../../de/dea/structnpc__corrupted__totem.html#a4f3d47478cc41b24999d0051d1a7a624">_scheduler</a>.<a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#a35c0891c7aded13c6ae7ecd2e6d480a9">Update</a>(diff);</div>
+<div class="line"><span class="lineno">  925</span>    }</div>
+<div class="ttc" id="aclass_creature_a_i_html_ae03ccfe1e27501ed9ccbfecdbd3c4e39"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">CreatureAI::UpdateVictim</a></div><div class="ttdeci">bool UpdateVictim()</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:268</div></div>
+<div class="ttc" id="aclass_task_scheduler_html_a35c0891c7aded13c6ae7ecd2e6d480a9"><div class="ttname"><a href="../../d7/dc4/class_task_scheduler.html#a35c0891c7aded13c6ae7ecd2e6d480a9">TaskScheduler::Update</a></div><div class="ttdeci">TaskScheduler &amp; Update(success_t const &amp;callback=EmptyCallback)</div><div class="ttdef"><b>Definition:</b> TaskScheduler.cpp:15</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -706,7 +888,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/EasternKingdoms/BlackrockMountain/BlackwingLair/<a class="el" href="../../d4/d7b/boss__nefarian_8cpp.html">boss_nefarian.cpp</a></li>
+<li><a class="el" href="../../">boss_nefarian.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -714,7 +896,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../de/dea/structnpc__corrupted__totem.html">npc_corrupted_totem</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:49 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:04 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

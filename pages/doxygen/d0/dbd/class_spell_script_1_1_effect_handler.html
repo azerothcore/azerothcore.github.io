@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('d0/dbd/class_spell_script_1_1_effect_h
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d1/df6/_spell_script_8h_source.html">SpellScript.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">SpellScript.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for SpellScript::EffectHandler:</div>
 <div class="dyncontent">
@@ -167,7 +167,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ab5eb48ef7ac903938f92db0e856e0295 inherit pro_attribs_class___spell_script_1_1_effect_hook"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dbc/class___spell_script_1_1_effect_hook.html#ab5eb48ef7ac903938f92db0e856e0295">effIndex</a></td></tr>
 <tr class="separator:ab5eb48ef7ac903938f92db0e856e0295 inherit pro_attribs_class___spell_script_1_1_effect_hook"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aebdff9758b3ec51a75220be43b0d7b44" name="aebdff9758b3ec51a75220be43b0d7b44"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aebdff9758b3ec51a75220be43b0d7b44">&#9670;&#160;</a></span>EffectHandler()</h2>
 
@@ -199,7 +200,14 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  187</span>    : <a class="code hl_class" href="../../d7/d02/class___spell_script_1_1_effect_name_check.html">_SpellScript::EffectNameCheck</a>(_effName), <a class="code hl_class" href="../../db/dbc/class___spell_script_1_1_effect_hook.html">_SpellScript::EffectHook</a>(_effIndex)</div>
+<div class="line"><span class="lineno">  188</span>{</div>
+<div class="line"><span class="lineno">  189</span>    <a class="code hl_variable" href="../../d0/dbd/class_spell_script_1_1_effect_handler.html#a88fbf00b2e35c462423ddeff55ac3dee">pEffectHandlerScript</a> = _pEffectHandlerScript;</div>
+<div class="line"><span class="lineno">  190</span>}</div>
+<div class="ttc" id="aclass___spell_script_1_1_effect_hook_html"><div class="ttname"><a href="../../db/dbc/class___spell_script_1_1_effect_hook.html">_SpellScript::EffectHook</a></div><div class="ttdef"><b>Definition:</b> SpellScript.h:72</div></div>
+<div class="ttc" id="aclass___spell_script_1_1_effect_name_check_html"><div class="ttname"><a href="../../d7/d02/class___spell_script_1_1_effect_name_check.html">_SpellScript::EffectNameCheck</a></div><div class="ttdef"><b>Definition:</b> SpellScript.h:86</div></div>
+<div class="ttc" id="aclass_spell_script_1_1_effect_handler_html_a88fbf00b2e35c462423ddeff55ac3dee"><div class="ttname"><a href="../../d0/dbd/class_spell_script_1_1_effect_handler.html#a88fbf00b2e35c462423ddeff55ac3dee">SpellScript::EffectHandler::pEffectHandlerScript</a></div><div class="ttdeci">SpellEffectFnType pEffectHandlerScript</div><div class="ttdef"><b>Definition:</b> SpellScript.h:224</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -228,7 +236,11 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  203</span>{</div>
+<div class="line"><span class="lineno">  204</span>    (spellScript-&gt;*<a class="code hl_variable" href="../../d0/dbd/class_spell_script_1_1_effect_handler.html#a88fbf00b2e35c462423ddeff55ac3dee">pEffectHandlerScript</a>)(<a class="code hl_variable" href="../../db/dbc/class___spell_script_1_1_effect_hook.html#ab5eb48ef7ac903938f92db0e856e0295">effIndex</a>);</div>
+<div class="line"><span class="lineno">  205</span>}</div>
+<div class="ttc" id="aclass___spell_script_1_1_effect_hook_html_ab5eb48ef7ac903938f92db0e856e0295"><div class="ttname"><a href="../../db/dbc/class___spell_script_1_1_effect_hook.html#ab5eb48ef7ac903938f92db0e856e0295">_SpellScript::EffectHook::effIndex</a></div><div class="ttdeci">uint8 effIndex</div><div class="ttdef"><b>Definition:</b> SpellScript.h:82</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2f93314e0a88e7da68fb668a6be80f85" name="a2f93314e0a88e7da68fb668a6be80f85"></a>
@@ -266,7 +278,11 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../db/dbc/class___spell_script_1_1_effect_hook.html#a01ab6726fb1c6ac3d8e0982d0639b34a">_SpellScript::EffectHook</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  198</span>{</div>
+<div class="line"><span class="lineno">  199</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="../../d7/d02/class___spell_script_1_1_effect_name_check.html#a8601fbbc6108d20f80379b1f227d9fbb">_SpellScript::EffectNameCheck::Check</a>(spellEntry, <a class="code hl_variable" href="../../db/dbc/class___spell_script_1_1_effect_hook.html#ab5eb48ef7ac903938f92db0e856e0295">effIndex</a>);</div>
+<div class="line"><span class="lineno">  200</span>}</div>
+<div class="ttc" id="aclass___spell_script_1_1_effect_name_check_html_a8601fbbc6108d20f80379b1f227d9fbb"><div class="ttname"><a href="../../d7/d02/class___spell_script_1_1_effect_name_check.html#a8601fbbc6108d20f80379b1f227d9fbb">_SpellScript::EffectNameCheck::Check</a></div><div class="ttdeci">bool Check(SpellInfo const *spellEntry, uint8 effIndex)</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:122</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a5b583dc87f0146f06c9a38a5db92f4fb" name="a5b583dc87f0146f06c9a38a5db92f4fb"></a>
@@ -283,7 +299,12 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  193</span>{</div>
+<div class="line"><span class="lineno">  194</span>    <span class="keywordflow">return</span> <span class="stringliteral">&quot;Index: &quot;</span> + <a class="code hl_function" href="../../db/dbc/class___spell_script_1_1_effect_hook.html#ab818ed274cfd66ecc565b8535b751517">EffIndexToString</a>() + <span class="stringliteral">&quot; Name: &quot;</span> + <a class="code hl_function" href="../../d7/d02/class___spell_script_1_1_effect_name_check.html#a31e545b0ae22cad4be815ea9e3b44377">_SpellScript::EffectNameCheck::ToString</a>();</div>
+<div class="line"><span class="lineno">  195</span>}</div>
+<div class="ttc" id="aclass___spell_script_1_1_effect_hook_html_ab818ed274cfd66ecc565b8535b751517"><div class="ttname"><a href="../../db/dbc/class___spell_script_1_1_effect_hook.html#ab818ed274cfd66ecc565b8535b751517">_SpellScript::EffectHook::EffIndexToString</a></div><div class="ttdeci">std::string EffIndexToString()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:104</div></div>
+<div class="ttc" id="aclass___spell_script_1_1_effect_name_check_html_a31e545b0ae22cad4be815ea9e3b44377"><div class="ttname"><a href="../../d7/d02/class___spell_script_1_1_effect_name_check.html#a31e545b0ae22cad4be815ea9e3b44377">_SpellScript::EffectNameCheck::ToString</a></div><div class="ttdeci">std::string ToString()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:131</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -310,8 +331,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Spells/<a class="el" href="../../d1/df6/_spell_script_8h_source.html">SpellScript.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/Spells/<a class="el" href="../../d8/db9/_spell_script_8cpp.html">SpellScript.cpp</a></li>
+<li><a class="el" href="../../">SpellScript.h</a></li>
+<li><a class="el" href="../../">SpellScript.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -319,7 +340,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/d62/class_spell_script.html">SpellScript</a></li><li class="navelem"><a class="el" href="../../d0/dbd/class_spell_script_1_1_effect_handler.html">EffectHandler</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:11 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:28 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

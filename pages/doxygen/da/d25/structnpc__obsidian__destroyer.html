@@ -491,7 +491,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="abd8b1614a9da9fbe9c9898246b0822b8" name="abd8b1614a9da9fbe9c9898246b0822b8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abd8b1614a9da9fbe9c9898246b0822b8">&#9670;&#160;</a></span>npc_obsidian_destroyer()</h2>
 
@@ -515,7 +516,11 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   93</span>                                               : <a class="code hl_struct" href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a>(creature)</div>
+<div class="line"><span class="lineno">   94</span>    {</div>
+<div class="line"><span class="lineno">   95</span>    }</div>
+<div class="ttc" id="astruct_scripted_a_i_html"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -544,7 +549,44 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a35a9ca7c140474598325b0f2073f9bcd">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  104</span>    {</div>
+<div class="line"><span class="lineno">  105</span>        <a class="code hl_variable" href="../../da/d25/structnpc__obsidian__destroyer.html#a8f8fafff078c551530f49d8df1bb5204">_scheduler</a>.<a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#a0e0579d2a2397de5a79c756d5e59a830">Schedule</a>(6s, [<span class="keyword">this</span>](<a class="code hl_class" href="../../d2/dd9/class_task_context.html">TaskContext</a> context)</div>
+<div class="line"><span class="lineno">  106</span>        {</div>
+<div class="line"><span class="lineno">  107</span>            std::list&lt;Unit*&gt; targets;</div>
+<div class="line"><span class="lineno">  108</span>            <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeeb2b083d4745c518e59b1632feb1f3d">SelectTargetList</a>(targets, [&amp;](<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target)</div>
+<div class="line"><span class="lineno">  109</span>            {</div>
+<div class="line"><span class="lineno">  110</span>                <span class="keywordflow">return</span> target &amp;&amp; target-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a1b9ed00e8d7ac5fed698ef6431905296">IsPlayer</a>() &amp;&amp; target-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ad7e475d80b9af430cc076d7c01f967e9">GetPower</a>(<a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a17e15fab4b89f4840e745f31ca76a414ab3e4f73d6494c917b99431bae75a4d5f">POWER_MANA</a>) &gt; 0;</div>
+<div class="line"><span class="lineno">  111</span>            }, 6, SelectTargetMethod::Random);</div>
+<div class="line"><span class="lineno">  112</span> </div>
+<div class="line"><span class="lineno">  113</span>            <span class="keywordflow">for</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target : targets)</div>
+<div class="line"><span class="lineno">  114</span>            {</div>
+<div class="line"><span class="lineno">  115</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(target, <a class="code hl_enumvalue" href="../../d4/d03/ruins__of__ahnqiraj_8cpp.html#a5bd342133be8c2137b831460acc9298cab264c0dc05e683c62ec00e8aa1794b88">SPELL_DRAIN_MANA</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  116</span>            }</div>
+<div class="line"><span class="lineno">  117</span> </div>
+<div class="line"><span class="lineno">  118</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#abd079ea137baabe4ac7ad9182026f967">GetPowerPct</a>(<a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a17e15fab4b89f4840e745f31ca76a414ab3e4f73d6494c917b99431bae75a4d5f">POWER_MANA</a>) &gt;= 100.f)</div>
+<div class="line"><span class="lineno">  119</span>            {</div>
+<div class="line"><span class="lineno">  120</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a1e37cbb75f91c247b04131afc7ce35f5">DoCastAOE</a>(<a class="code hl_enumvalue" href="../../d4/d03/ruins__of__ahnqiraj_8cpp.html#a5bd342133be8c2137b831460acc9298caf7874436e39c4730d80ac16bafd6feb8">SPELL_PURGE</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  121</span>            }</div>
+<div class="line"><span class="lineno">  122</span> </div>
+<div class="line"><span class="lineno">  123</span>            context.<a class="code hl_function" href="../../d2/dd9/class_task_context.html#a380c596857dd0030414db5e8d28a3dda">Repeat</a>(6s);</div>
+<div class="line"><span class="lineno">  124</span>        });</div>
+<div class="line"><span class="lineno">  125</span>    }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a17e15fab4b89f4840e745f31ca76a414ab3e4f73d6494c917b99431bae75a4d5f"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a17e15fab4b89f4840e745f31ca76a414ab3e4f73d6494c917b99431bae75a4d5f">POWER_MANA</a></div><div class="ttdeci">@ POWER_MANA</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:241</div></div>
+<div class="ttc" id="aclass_object_html_a1b9ed00e8d7ac5fed698ef6431905296"><div class="ttname"><a href="../../d8/d83/class_object.html#a1b9ed00e8d7ac5fed698ef6431905296">Object::IsPlayer</a></div><div class="ttdeci">bool IsPlayer() const</div><div class="ttdef"><b>Definition:</b> Object.h:194</div></div>
+<div class="ttc" id="aclass_task_context_html"><div class="ttname"><a href="../../d2/dd9/class_task_context.html">TaskContext</a></div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:400</div></div>
+<div class="ttc" id="aclass_task_context_html_a380c596857dd0030414db5e8d28a3dda"><div class="ttname"><a href="../../d2/dd9/class_task_context.html#a380c596857dd0030414db5e8d28a3dda">TaskContext::Repeat</a></div><div class="ttdeci">TaskContext &amp; Repeat(std::chrono::duration&lt; _Rep, _Period &gt; const &amp;duration)</div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:470</div></div>
+<div class="ttc" id="aclass_task_scheduler_html_a0e0579d2a2397de5a79c756d5e59a830"><div class="ttname"><a href="../../d7/dc4/class_task_scheduler.html#a0e0579d2a2397de5a79c756d5e59a830">TaskScheduler::Schedule</a></div><div class="ttdeci">TaskScheduler &amp; Schedule(std::chrono::duration&lt; _Rep, _Period &gt; const &amp;time, task_handler_t const &amp;task)</div><div class="ttdef"><b>Definition:</b> TaskScheduler.h:217</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a1e37cbb75f91c247b04131afc7ce35f5"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a1e37cbb75f91c247b04131afc7ce35f5">UnitAI::DoCastAOE</a></div><div class="ttdeci">SpellCastResult DoCastAOE(uint32 spellId, bool triggered=false)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:249</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_aeeb2b083d4745c518e59b1632feb1f3d"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#aeeb2b083d4745c518e59b1632feb1f3d">UnitAI::SelectTargetList</a></div><div class="ttdeci">void SelectTargetList(std::list&lt; Unit * &gt; &amp;targetList, uint32 num, SelectTargetMethod targetType, float dist=0.0f, bool playerOnly=false, int32 aura=0)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:116</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_aeebcad9b6effa45145c50f06af60b23d"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">UnitAI::DoCast</a></div><div class="ttdeci">SpellCastResult DoCast(uint32 spellId)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:178</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_abd079ea137baabe4ac7ad9182026f967"><div class="ttname"><a href="../../da/db7/class_unit.html#abd079ea137baabe4ac7ad9182026f967">Unit::GetPowerPct</a></div><div class="ttdeci">float GetPowerPct(Powers power) const</div><div class="ttdef"><b>Definition:</b> Unit.h:1449</div></div>
+<div class="ttc" id="aclass_unit_html_ad7e475d80b9af430cc076d7c01f967e9"><div class="ttname"><a href="../../da/db7/class_unit.html#ad7e475d80b9af430cc076d7c01f967e9">Unit::GetPower</a></div><div class="ttdeci">uint32 GetPower(Powers power) const</div><div class="ttdef"><b>Definition:</b> Unit.h:1459</div></div>
+<div class="ttc" id="aruins__of__ahnqiraj_8cpp_html_a5bd342133be8c2137b831460acc9298cab264c0dc05e683c62ec00e8aa1794b88"><div class="ttname"><a href="../../d4/d03/ruins__of__ahnqiraj_8cpp.html#a5bd342133be8c2137b831460acc9298cab264c0dc05e683c62ec00e8aa1794b88">SPELL_DRAIN_MANA</a></div><div class="ttdeci">@ SPELL_DRAIN_MANA</div><div class="ttdef"><b>Definition:</b> ruins_of_ahnqiraj.cpp:33</div></div>
+<div class="ttc" id="aruins__of__ahnqiraj_8cpp_html_a5bd342133be8c2137b831460acc9298caf7874436e39c4730d80ac16bafd6feb8"><div class="ttname"><a href="../../d4/d03/ruins__of__ahnqiraj_8cpp.html#a5bd342133be8c2137b831460acc9298caf7874436e39c4730d80ac16bafd6feb8">SPELL_PURGE</a></div><div class="ttdeci">@ SPELL_PURGE</div><div class="ttdef"><b>Definition:</b> ruins_of_ahnqiraj.cpp:32</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+<div class="ttc" id="astructnpc__obsidian__destroyer_html_a8f8fafff078c551530f49d8df1bb5204"><div class="ttname"><a href="../../da/d25/structnpc__obsidian__destroyer.html#a8f8fafff078c551530f49d8df1bb5204">npc_obsidian_destroyer::_scheduler</a></div><div class="ttdeci">TaskScheduler _scheduler</div><div class="ttdef"><b>Definition:</b> ruins_of_ahnqiraj.cpp:144</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="adc54ac02383f5e5bf6af980f5ba301e8" name="adc54ac02383f5e5bf6af980f5ba301e8"></a>
@@ -572,7 +614,12 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a4cc209e047dcbd29cf57e689e3945ff7">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  128</span>    {</div>
+<div class="line"><span class="lineno">  129</span>        <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6ae5c7d15b747433f4d94f80bcebd215">DoCastSelf</a>(<a class="code hl_enumvalue" href="../../d4/d03/ruins__of__ahnqiraj_8cpp.html#a5bd342133be8c2137b831460acc9298ca6a45310b58847615860efd30b51df72b">SPELL_SUMMON_SMALL_OBSIDIAN_CHUNK</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  130</span>    }</div>
+<div class="ttc" id="aclass_unit_a_i_html_a6ae5c7d15b747433f4d94f80bcebd215"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a6ae5c7d15b747433f4d94f80bcebd215">UnitAI::DoCastSelf</a></div><div class="ttdeci">SpellCastResult DoCastSelf(uint32 spellId, bool triggered=false)</div><div class="ttdef"><b>Definition:</b> UnitAI.h:323</div></div>
+<div class="ttc" id="aruins__of__ahnqiraj_8cpp_html_a5bd342133be8c2137b831460acc9298ca6a45310b58847615860efd30b51df72b"><div class="ttname"><a href="../../d4/d03/ruins__of__ahnqiraj_8cpp.html#a5bd342133be8c2137b831460acc9298ca6a45310b58847615860efd30b51df72b">SPELL_SUMMON_SMALL_OBSIDIAN_CHUNK</a></div><div class="ttdeci">@ SPELL_SUMMON_SMALL_OBSIDIAN_CHUNK</div><div class="ttdef"><b>Definition:</b> ruins_of_ahnqiraj.cpp:35</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a08c6b9ec0e2f4207d48f95eedf2c26ab" name="a08c6b9ec0e2f4207d48f95eedf2c26ab"></a>
@@ -599,7 +646,13 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a26600c116d20a33461fc884bdb82eda9">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   98</span>    {</div>
+<div class="line"><span class="lineno">   99</span>        <a class="code hl_variable" href="../../da/d25/structnpc__obsidian__destroyer.html#a8f8fafff078c551530f49d8df1bb5204">_scheduler</a>.<a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#a05da7a474b80d725c991dde9d24df4a4">CancelAll</a>();</div>
+<div class="line"><span class="lineno">  100</span>        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#afcc2a2d47162fc8c4792eac575025086">SetPower</a>(<a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a17e15fab4b89f4840e745f31ca76a414ab3e4f73d6494c917b99431bae75a4d5f">POWER_MANA</a>, 0);</div>
+<div class="line"><span class="lineno">  101</span>    }</div>
+<div class="ttc" id="aclass_task_scheduler_html_a05da7a474b80d725c991dde9d24df4a4"><div class="ttname"><a href="../../d7/dc4/class_task_scheduler.html#a05da7a474b80d725c991dde9d24df4a4">TaskScheduler::CancelAll</a></div><div class="ttdeci">TaskScheduler &amp; CancelAll()</div><div class="ttdef"><b>Definition:</b> TaskScheduler.cpp:33</div></div>
+<div class="ttc" id="aclass_unit_html_afcc2a2d47162fc8c4792eac575025086"><div class="ttname"><a href="../../da/db7/class_unit.html#afcc2a2d47162fc8c4792eac575025086">Unit::SetPower</a></div><div class="ttdeci">void SetPower(Powers power, uint32 val, bool withPowerUpdate=true)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:15423</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a79ba48d421a636f99ea65c0e34d084e1" name="a79ba48d421a636f99ea65c0e34d084e1"></a>
@@ -627,7 +680,19 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#aff5fd4e142a5cf930ffacbfc7259cce5">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  133</span>    {</div>
+<div class="line"><span class="lineno">  134</span>        <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">UpdateVictim</a>())</div>
+<div class="line"><span class="lineno">  135</span>        {</div>
+<div class="line"><span class="lineno">  136</span>            <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  137</span>        }</div>
+<div class="line"><span class="lineno">  138</span> </div>
+<div class="line"><span class="lineno">  139</span>        <a class="code hl_variable" href="../../da/d25/structnpc__obsidian__destroyer.html#a8f8fafff078c551530f49d8df1bb5204">_scheduler</a>.<a class="code hl_function" href="../../d7/dc4/class_task_scheduler.html#a35c0891c7aded13c6ae7ecd2e6d480a9">Update</a>(diff,</div>
+<div class="line"><span class="lineno">  140</span>            std::bind(&amp;<a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">ScriptedAI::DoMeleeAttackIfReady</a>, <span class="keyword">this</span>));</div>
+<div class="line"><span class="lineno">  141</span>    }</div>
+<div class="ttc" id="aclass_creature_a_i_html_ae03ccfe1e27501ed9ccbfecdbd3c4e39"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">CreatureAI::UpdateVictim</a></div><div class="ttdeci">bool UpdateVictim()</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:268</div></div>
+<div class="ttc" id="aclass_task_scheduler_html_a35c0891c7aded13c6ae7ecd2e6d480a9"><div class="ttname"><a href="../../d7/dc4/class_task_scheduler.html#a35c0891c7aded13c6ae7ecd2e6d480a9">TaskScheduler::Update</a></div><div class="ttdeci">TaskScheduler &amp; Update(success_t const &amp;callback=EmptyCallback)</div><div class="ttdef"><b>Definition:</b> TaskScheduler.cpp:15</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a348a472089a9be6210b58aace8fafa9f"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">UnitAI::DoMeleeAttackIfReady</a></div><div class="ttdeci">void DoMeleeAttackIfReady()</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:40</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -654,7 +719,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Kalimdor/RuinsOfAhnQiraj/<a class="el" href="../../d4/d03/ruins__of__ahnqiraj_8cpp.html">ruins_of_ahnqiraj.cpp</a></li>
+<li><a class="el" href="../../">ruins_of_ahnqiraj.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -662,7 +727,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../da/d25/structnpc__obsidian__destroyer.html">npc_obsidian_destroyer</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:52 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:08 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

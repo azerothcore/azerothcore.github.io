@@ -147,7 +147,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a61ecb44828c6e4c868def8899791feb3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/d53/class_player.html">Player</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/deb/class_party_time_emote_event.html#a61ecb44828c6e4c868def8899791feb3">_player</a></td></tr>
 <tr class="separator:a61ecb44828c6e4c868def8899791feb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a525efd58fc8465658208058e6dc5d31c" name="a525efd58fc8465658208058e6dc5d31c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a525efd58fc8465658208058e6dc5d31c">&#9670;&#160;</a></span>PartyTimeEmoteEvent()</h2>
 
@@ -171,7 +172,9 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1576</span>: <a class="code hl_variable" href="../../d4/deb/class_party_time_emote_event.html#a61ecb44828c6e4c868def8899791feb3">_player</a>(player) { }</div>
+<div class="ttc" id="aclass_party_time_emote_event_html_a61ecb44828c6e4c868def8899791feb3"><div class="ttname"><a href="../../d4/deb/class_party_time_emote_event.html#a61ecb44828c6e4c868def8899791feb3">PartyTimeEmoteEvent::_player</a></div><div class="ttdeci">Player * _player</div><div class="ttdef"><b>Definition:</b> spell_item.cpp:1600</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -210,7 +213,39 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d0/df3/class_basic_event.html#a89297a10b64d01895332655122ed8ccb">BasicEvent</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1579</span>    {</div>
+<div class="line"><span class="lineno"> 1580</span>        <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d4/deb/class_party_time_emote_event.html#a61ecb44828c6e4c868def8899791feb3">_player</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a69c5ac45b65cf0dede6e0ee837361f61">HasAura</a>(<a class="code hl_enumvalue" href="../../db/d6e/spell__item_8cpp.html#a8f2b49bc7734599954c1be2273462bfba22aa014dbddc9e42d31d6fbb92b0aeb8">SPELL_PARTY_TIME</a>))</div>
+<div class="line"><span class="lineno"> 1581</span>        {</div>
+<div class="line"><span class="lineno"> 1582</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 1583</span>        }</div>
+<div class="line"><span class="lineno"> 1584</span> </div>
+<div class="line"><span class="lineno"> 1585</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d4/deb/class_party_time_emote_event.html#a61ecb44828c6e4c868def8899791feb3">_player</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a9e2fb8e42363a9f0ae2ede9f2c0b7760">isMoving</a>())</div>
+<div class="line"><span class="lineno"> 1586</span>        {</div>
+<div class="line"><span class="lineno"> 1587</span>            <a class="code hl_variable" href="../../d4/deb/class_party_time_emote_event.html#a61ecb44828c6e4c868def8899791feb3">_player</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#adeebdc78f840a40e89361e5c792b0e53">HandleEmoteCommand</a>(<a class="code hl_function" href="../../d3/d01/_creature_a_i_impl_8h.html#a95d9a0c5ba0d54645670ba51c16ed33c">RAND</a>(<a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0e527855c554e31654c9beb340145574a3d69018b3427332ee09e8ad3ee742a35">EMOTE_ONESHOT_APPLAUD</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0e527855c554e31654c9beb340145574a8a589e75aed60416f143d57c82a40873">EMOTE_ONESHOT_LAUGH</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0e527855c554e31654c9beb340145574a93532395e75452796fc8cfdf586c6d38">EMOTE_ONESHOT_CHEER</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0e527855c554e31654c9beb340145574aa125fc4c1e1b4fa629540aa88037f1ba">EMOTE_ONESHOT_CHICKEN</a>));</div>
+<div class="line"><span class="lineno"> 1588</span>        }</div>
+<div class="line"><span class="lineno"> 1589</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 1590</span>        {</div>
+<div class="line"><span class="lineno"> 1591</span>            <a class="code hl_variable" href="../../d4/deb/class_party_time_emote_event.html#a61ecb44828c6e4c868def8899791feb3">_player</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#adeebdc78f840a40e89361e5c792b0e53">HandleEmoteCommand</a>(<a class="code hl_function" href="../../d3/d01/_creature_a_i_impl_8h.html#a95d9a0c5ba0d54645670ba51c16ed33c">RAND</a>(<a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0e527855c554e31654c9beb340145574a3d69018b3427332ee09e8ad3ee742a35">EMOTE_ONESHOT_APPLAUD</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0e527855c554e31654c9beb340145574af8d2c87a978400bc97e5077b4902b225">EMOTE_ONESHOT_DANCESPECIAL</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0e527855c554e31654c9beb340145574a8a589e75aed60416f143d57c82a40873">EMOTE_ONESHOT_LAUGH</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0e527855c554e31654c9beb340145574a93532395e75452796fc8cfdf586c6d38">EMOTE_ONESHOT_CHEER</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0e527855c554e31654c9beb340145574aa125fc4c1e1b4fa629540aa88037f1ba">EMOTE_ONESHOT_CHICKEN</a>));</div>
+<div class="line"><span class="lineno"> 1592</span>        }</div>
+<div class="line"><span class="lineno"> 1593</span> </div>
+<div class="line"><span class="lineno"> 1594</span>        <a class="code hl_variable" href="../../d4/deb/class_party_time_emote_event.html#a61ecb44828c6e4c868def8899791feb3">_player</a>-&gt;<a class="code hl_variable" href="../../da/db7/class_unit.html#a8ca8fcc886a2cea2c235514644e7e2a0">m_Events</a>.<a class="code hl_function" href="../../d6/d65/class_event_processor.html#a0ecdf822624a632b7b3fad1e66228cfb">AddEvent</a>(<span class="keyword">this</span>, <a class="code hl_function" href="../../d3/d01/_creature_a_i_impl_8h.html#a95d9a0c5ba0d54645670ba51c16ed33c">RAND</a>(<a class="code hl_variable" href="../../d4/deb/class_party_time_emote_event.html#a61ecb44828c6e4c868def8899791feb3">_player</a>-&gt;<a class="code hl_variable" href="../../da/db7/class_unit.html#a8ca8fcc886a2cea2c235514644e7e2a0">m_Events</a>.<a class="code hl_function" href="../../d6/d65/class_event_processor.html#a1a92f983f1dd415146c2875f80cba433">CalculateTime</a>(5000), <a class="code hl_variable" href="../../d4/deb/class_party_time_emote_event.html#a61ecb44828c6e4c868def8899791feb3">_player</a>-&gt;<a class="code hl_variable" href="../../da/db7/class_unit.html#a8ca8fcc886a2cea2c235514644e7e2a0">m_Events</a>.<a class="code hl_function" href="../../d6/d65/class_event_processor.html#a1a92f983f1dd415146c2875f80cba433">CalculateTime</a>(10000), <a class="code hl_variable" href="../../d4/deb/class_party_time_emote_event.html#a61ecb44828c6e4c868def8899791feb3">_player</a>-&gt;<a class="code hl_variable" href="../../da/db7/class_unit.html#a8ca8fcc886a2cea2c235514644e7e2a0">m_Events</a>.<a class="code hl_function" href="../../d6/d65/class_event_processor.html#a1a92f983f1dd415146c2875f80cba433">CalculateTime</a>(15000)));</div>
+<div class="line"><span class="lineno"> 1595</span> </div>
+<div class="line"><span class="lineno"> 1596</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>; <span class="comment">// do not delete re-added event in EventProcessor::Update</span></div>
+<div class="line"><span class="lineno"> 1597</span>    }</div>
+<div class="ttc" id="a_creature_a_i_impl_8h_html_a95d9a0c5ba0d54645670ba51c16ed33c"><div class="ttname"><a href="../../d3/d01/_creature_a_i_impl_8h.html#a95d9a0c5ba0d54645670ba51c16ed33c">RAND</a></div><div class="ttdeci">static First const &amp; RAND(First const &amp;first, Second const &amp;second, Rest const &amp;... rest)</div><div class="ttdef"><b>Definition:</b> CreatureAIImpl.h:30</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a0e527855c554e31654c9beb340145574a3d69018b3427332ee09e8ad3ee742a35"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0e527855c554e31654c9beb340145574a3d69018b3427332ee09e8ad3ee742a35">EMOTE_ONESHOT_APPLAUD</a></div><div class="ttdeci">@ EMOTE_ONESHOT_APPLAUD</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1885</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a0e527855c554e31654c9beb340145574a8a589e75aed60416f143d57c82a40873"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0e527855c554e31654c9beb340145574a8a589e75aed60416f143d57c82a40873">EMOTE_ONESHOT_LAUGH</a></div><div class="ttdeci">@ EMOTE_ONESHOT_LAUGH</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1875</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a0e527855c554e31654c9beb340145574a93532395e75452796fc8cfdf586c6d38"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0e527855c554e31654c9beb340145574a93532395e75452796fc8cfdf586c6d38">EMOTE_ONESHOT_CHEER</a></div><div class="ttdeci">@ EMOTE_ONESHOT_CHEER</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1870</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a0e527855c554e31654c9beb340145574aa125fc4c1e1b4fa629540aa88037f1ba"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0e527855c554e31654c9beb340145574aa125fc4c1e1b4fa629540aa88037f1ba">EMOTE_ONESHOT_CHICKEN</a></div><div class="ttdeci">@ EMOTE_ONESHOT_CHICKEN</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1883</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a0e527855c554e31654c9beb340145574af8d2c87a978400bc97e5077b4902b225"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0e527855c554e31654c9beb340145574af8d2c87a978400bc97e5077b4902b225">EMOTE_ONESHOT_DANCESPECIAL</a></div><div class="ttdeci">@ EMOTE_ONESHOT_DANCESPECIAL</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1968</div></div>
+<div class="ttc" id="aclass_event_processor_html_a0ecdf822624a632b7b3fad1e66228cfb"><div class="ttname"><a href="../../d6/d65/class_event_processor.html#a0ecdf822624a632b7b3fad1e66228cfb">EventProcessor::AddEvent</a></div><div class="ttdeci">void AddEvent(BasicEvent *Event, uint64 e_time, bool set_addtime=true)</div><div class="ttdef"><b>Definition:</b> EventProcessor.cpp:114</div></div>
+<div class="ttc" id="aclass_event_processor_html_a1a92f983f1dd415146c2875f80cba433"><div class="ttname"><a href="../../d6/d65/class_event_processor.html#a1a92f983f1dd415146c2875f80cba433">EventProcessor::CalculateTime</a></div><div class="ttdeci">uint64 CalculateTime(uint64 t_offset) const</div><div class="ttdef"><b>Definition:</b> EventProcessor.cpp:136</div></div>
+<div class="ttc" id="aclass_unit_html_a69c5ac45b65cf0dede6e0ee837361f61"><div class="ttname"><a href="../../da/db7/class_unit.html#a69c5ac45b65cf0dede6e0ee837361f61">Unit::HasAura</a></div><div class="ttdeci">bool HasAura(uint32 spellId, ObjectGuid casterGUID=ObjectGuid::Empty, ObjectGuid itemCasterGUID=ObjectGuid::Empty, uint8 reqEffMask=0) const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:5598</div></div>
+<div class="ttc" id="aclass_unit_html_a8ca8fcc886a2cea2c235514644e7e2a0"><div class="ttname"><a href="../../da/db7/class_unit.html#a8ca8fcc886a2cea2c235514644e7e2a0">Unit::m_Events</a></div><div class="ttdeci">EventProcessor m_Events</div><div class="ttdef"><b>Definition:</b> Unit.h:2091</div></div>
+<div class="ttc" id="aclass_unit_html_a9e2fb8e42363a9f0ae2ede9f2c0b7760"><div class="ttname"><a href="../../da/db7/class_unit.html#a9e2fb8e42363a9f0ae2ede9f2c0b7760">Unit::isMoving</a></div><div class="ttdeci">bool isMoving() const</div><div class="ttdef"><b>Definition:</b> Unit.h:2375</div></div>
+<div class="ttc" id="aclass_unit_html_adeebdc78f840a40e89361e5c792b0e53"><div class="ttname"><a href="../../da/db7/class_unit.html#adeebdc78f840a40e89361e5c792b0e53">Unit::HandleEmoteCommand</a></div><div class="ttdeci">void HandleEmoteCommand(uint32 emoteId)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1958</div></div>
+<div class="ttc" id="aspell__item_8cpp_html_a8f2b49bc7734599954c1be2273462bfba22aa014dbddc9e42d31d6fbb92b0aeb8"><div class="ttname"><a href="../../db/d6e/spell__item_8cpp.html#a8f2b49bc7734599954c1be2273462bfba22aa014dbddc9e42d31d6fbb92b0aeb8">SPELL_PARTY_TIME</a></div><div class="ttdeci">@ SPELL_PARTY_TIME</div><div class="ttdef"><b>Definition:</b> spell_item.cpp:1541</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -237,7 +272,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Spells/<a class="el" href="../../db/d6e/spell__item_8cpp.html">spell_item.cpp</a></li>
+<li><a class="el" href="../../">spell_item.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -245,7 +280,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d4/deb/class_party_time_emote_event.html">PartyTimeEmoteEvent</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:57 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:13 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

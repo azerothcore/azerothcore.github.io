@@ -537,7 +537,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a7c5c6a9484aa035a5bda6a6d4a4cc0bc" name="a7c5c6a9484aa035a5bda6a6d4a4cc0bc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7c5c6a9484aa035a5bda6a6d4a4cc0bc">&#9670;&#160;</a></span>boss_ysondreAI()</h2>
 
@@ -561,7 +562,11 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  299</span>                                           : <a class="code hl_struct" href="../../dc/d39/structemerald__dragon_a_i.html">emerald_dragonAI</a>(creature)</div>
+<div class="line"><span class="lineno">  300</span>        {</div>
+<div class="line"><span class="lineno">  301</span>        }</div>
+<div class="ttc" id="astructemerald__dragon_a_i_html"><div class="ttname"><a href="../../dc/d39/structemerald__dragon_a_i.html">emerald_dragonAI</a></div><div class="ttdef"><b>Definition:</b> boss_emerald_dragons.cpp:96</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -612,7 +617,39 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a0d572a234f887646543620c847bd61cd">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  318</span>        {</div>
+<div class="line"><span class="lineno">  319</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ad08665e79b8df4fd5339b05ae1538dd9">HealthBelowPctDamaged</a>(100 - (25 * <a class="code hl_variable" href="../../df/d3c/structboss__ysondre_1_1boss__ysondre_a_i.html#a5c96faa6b5e6cc350e9c53f34fe17eb1">_stage</a>), damage))</div>
+<div class="line"><span class="lineno">  320</span>            {</div>
+<div class="line"><span class="lineno">  321</span>                <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d2/d8e/boss__emerald__dragons_8cpp.html#a86b709bc23467f0c802ee5bc7f768173a90e16a275eea36cef0e874c59eff43d8">SAY_YSONDRE_SUMMON_DRUIDS</a>);</div>
+<div class="line"><span class="lineno">  322</span> </div>
+<div class="line"><span class="lineno">  323</span>                <span class="keyword">auto</span> <span class="keyword">const</span>&amp; attackers = <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ad56089c61bf09419bedbb4edd2d94aeb">GetThreatMgr</a>().<a class="code hl_function" href="../../d0/db1/class_threat_mgr.html#aab795d716613d46818c7d65d9f49b1d4">GetThreatList</a>();</div>
+<div class="line"><span class="lineno">  324</span>                <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> attackersCount = 0;</div>
+<div class="line"><span class="lineno">  325</span> </div>
+<div class="line"><span class="lineno">  326</span>                <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> attacker : attackers)</div>
+<div class="line"><span class="lineno">  327</span>                {</div>
+<div class="line"><span class="lineno">  328</span>                    <span class="keywordflow">if</span> ((*attacker)-&gt;ToPlayer() &amp;&amp; (*attacker)-&gt;IsAlive())</div>
+<div class="line"><span class="lineno">  329</span>                        ++attackersCount;</div>
+<div class="line"><span class="lineno">  330</span>                }</div>
+<div class="line"><span class="lineno">  331</span> </div>
+<div class="line"><span class="lineno">  332</span>                <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> amount = attackersCount &lt; 30 ? attackersCount * 0.5f : 15;</div>
+<div class="line"><span class="lineno">  333</span>                amount = amount &lt; 1 ? 1 : amount;</div>
+<div class="line"><span class="lineno">  334</span> </div>
+<div class="line"><span class="lineno">  335</span>                <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> i = 0; i &lt; amount; ++i)</div>
+<div class="line"><span class="lineno">  336</span>                    <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_enumvalue" href="../../d2/d8e/boss__emerald__dragons_8cpp.html#a6737c15f2eda4a41312e2ca1366fe0e6a529a83b6506bc0567da3876e73b811e6">SPELL_SUMMON_DRUID_SPIRITS</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  337</span>                ++<a class="code hl_variable" href="../../df/d3c/structboss__ysondre_1_1boss__ysondre_a_i.html#a5c96faa6b5e6cc350e9c53f34fe17eb1">_stage</a>;</div>
+<div class="line"><span class="lineno">  338</span>            }</div>
+<div class="line"><span class="lineno">  339</span>        }</div>
+<div class="ttc" id="a_define_8h_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:110</div></div>
+<div class="ttc" id="aboss__emerald__dragons_8cpp_html_a6737c15f2eda4a41312e2ca1366fe0e6a529a83b6506bc0567da3876e73b811e6"><div class="ttname"><a href="../../d2/d8e/boss__emerald__dragons_8cpp.html#a6737c15f2eda4a41312e2ca1366fe0e6a529a83b6506bc0567da3876e73b811e6">SPELL_SUMMON_DRUID_SPIRITS</a></div><div class="ttdeci">@ SPELL_SUMMON_DRUID_SPIRITS</div><div class="ttdef"><b>Definition:</b> boss_emerald_dragons.cpp:289</div></div>
+<div class="ttc" id="aboss__emerald__dragons_8cpp_html_a86b709bc23467f0c802ee5bc7f768173a90e16a275eea36cef0e874c59eff43d8"><div class="ttname"><a href="../../d2/d8e/boss__emerald__dragons_8cpp.html#a86b709bc23467f0c802ee5bc7f768173a90e16a275eea36cef0e874c59eff43d8">SAY_YSONDRE_SUMMON_DRUIDS</a></div><div class="ttdeci">@ SAY_YSONDRE_SUMMON_DRUIDS</div><div class="ttdef"><b>Definition:</b> boss_emerald_dragons.cpp:283</div></div>
+<div class="ttc" id="aboss__fathomlord__karathress_8cpp_html_a747a224b6b3195f9a33c56ddc6c7e268"><div class="ttname"><a href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a></div><div class="ttdeci">Talk</div><div class="ttdef"><b>Definition:</b> boss_fathomlord_karathress.cpp:23</div></div>
+<div class="ttc" id="aclass_threat_mgr_html_aab795d716613d46818c7d65d9f49b1d4"><div class="ttname"><a href="../../d0/db1/class_threat_mgr.html#aab795d716613d46818c7d65d9f49b1d4">ThreatMgr::GetThreatList</a></div><div class="ttdeci">ThreatContainer::StorageType const &amp; GetThreatList() const</div><div class="ttdef"><b>Definition:</b> ThreatMgr.h:271</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_aeebcad9b6effa45145c50f06af60b23d"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">UnitAI::DoCast</a></div><div class="ttdeci">SpellCastResult DoCast(uint32 spellId)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:178</div></div>
+<div class="ttc" id="aclass_unit_html_ad08665e79b8df4fd5339b05ae1538dd9"><div class="ttname"><a href="../../da/db7/class_unit.html#ad08665e79b8df4fd5339b05ae1538dd9">Unit::HealthBelowPctDamaged</a></div><div class="ttdeci">bool HealthBelowPctDamaged(int32 pct, uint32 damage) const</div><div class="ttdef"><b>Definition:</b> Unit.h:1443</div></div>
+<div class="ttc" id="aclass_unit_html_ad56089c61bf09419bedbb4edd2d94aeb"><div class="ttname"><a href="../../da/db7/class_unit.html#ad56089c61bf09419bedbb4edd2d94aeb">Unit::GetThreatMgr</a></div><div class="ttdeci">ThreatMgr &amp; GetThreatMgr()</div><div class="ttdef"><b>Definition:</b> Unit.h:2142</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+<div class="ttc" id="astructboss__ysondre_1_1boss__ysondre_a_i_html_a5c96faa6b5e6cc350e9c53f34fe17eb1"><div class="ttname"><a href="../../df/d3c/structboss__ysondre_1_1boss__ysondre_a_i.html#a5c96faa6b5e6cc350e9c53f34fe17eb1">boss_ysondre::boss_ysondreAI::_stage</a></div><div class="ttdeci">uint8 _stage</div><div class="ttdef"><b>Definition:</b> boss_emerald_dragons.cpp:356</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a7f01962cd6a78fbe608cfbacf5bf989f" name="a7f01962cd6a78fbe608cfbacf5bf989f"></a>
@@ -640,7 +677,13 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d7/d84/class_world_boss_a_i.html#a2cb7b852c57088804011b2d445b811b9">WorldBossAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  311</span>        {</div>
+<div class="line"><span class="lineno">  312</span>            <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d2/d8e/boss__emerald__dragons_8cpp.html#a86b709bc23467f0c802ee5bc7f768173ac6b6d9e58e442d430c4e5c8453cb7348">SAY_YSONDRE_AGGRO</a>);</div>
+<div class="line"><span class="lineno">  313</span>            <a class="code hl_function" href="../../d7/d84/class_world_boss_a_i.html#a2cb7b852c57088804011b2d445b811b9">WorldBossAI::EnterCombat</a>(who);</div>
+<div class="line"><span class="lineno">  314</span>        }</div>
+<div class="ttc" id="aboss__emerald__dragons_8cpp_html_a86b709bc23467f0c802ee5bc7f768173ac6b6d9e58e442d430c4e5c8453cb7348"><div class="ttname"><a href="../../d2/d8e/boss__emerald__dragons_8cpp.html#a86b709bc23467f0c802ee5bc7f768173ac6b6d9e58e442d430c4e5c8453cb7348">SAY_YSONDRE_AGGRO</a></div><div class="ttdeci">@ SAY_YSONDRE_AGGRO</div><div class="ttdef"><b>Definition:</b> boss_emerald_dragons.cpp:282</div></div>
+<div class="ttc" id="aclass_world_boss_a_i_html_a2cb7b852c57088804011b2d445b811b9"><div class="ttname"><a href="../../d7/d84/class_world_boss_a_i.html#a2cb7b852c57088804011b2d445b811b9">WorldBossAI::EnterCombat</a></div><div class="ttdeci">void EnterCombat(Unit *) override</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:481</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a88e3caa536a71730c757590be1bd3de1" name="a88e3caa536a71730c757590be1bd3de1"></a>
@@ -668,7 +711,25 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dc/d39/structemerald__dragon_a_i.html#a6e60f146c7b86a119f269bf755831ac6">emerald_dragonAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  342</span>        {</div>
+<div class="line"><span class="lineno">  343</span>            <span class="keywordflow">switch</span> (eventId)</div>
+<div class="line"><span class="lineno">  344</span>            {</div>
+<div class="line"><span class="lineno">  345</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d2/d8e/boss__emerald__dragons_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a983a998f7dbb4497fc9d8bcabe201e19">EVENT_LIGHTNING_WAVE</a>:</div>
+<div class="line"><span class="lineno">  346</span>                    <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a361b6f4e71e9c74595bdf3d7e3b29a82">DoCastVictim</a>(<a class="code hl_enumvalue" href="../../d2/d8e/boss__emerald__dragons_8cpp.html#a6737c15f2eda4a41312e2ca1366fe0e6a3c94bdb6a74b968ac5d9625a9d7bc6b9">SPELL_LIGHTNING_WAVE</a>);</div>
+<div class="line"><span class="lineno">  347</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d2/d8e/boss__emerald__dragons_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a983a998f7dbb4497fc9d8bcabe201e19">EVENT_LIGHTNING_WAVE</a>, <a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(10000, 20000));</div>
+<div class="line"><span class="lineno">  348</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  349</span>                <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  350</span>                    <a class="code hl_function" href="../../dc/d39/structemerald__dragon_a_i.html#a6e60f146c7b86a119f269bf755831ac6">emerald_dragonAI::ExecuteEvent</a>(eventId);</div>
+<div class="line"><span class="lineno">  351</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  352</span>            }</div>
+<div class="line"><span class="lineno">  353</span>        }</div>
+<div class="ttc" id="a_random_8cpp_html_ab17def34ccbbd868dc87a16bf35acdbd"><div class="ttname"><a href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a></div><div class="ttdeci">uint32 urand(uint32 min, uint32 max)</div><div class="ttdef"><b>Definition:</b> Random.cpp:44</div></div>
+<div class="ttc" id="aboss__emerald__dragons_8cpp_html_a6737c15f2eda4a41312e2ca1366fe0e6a3c94bdb6a74b968ac5d9625a9d7bc6b9"><div class="ttname"><a href="../../d2/d8e/boss__emerald__dragons_8cpp.html#a6737c15f2eda4a41312e2ca1366fe0e6a3c94bdb6a74b968ac5d9625a9d7bc6b9">SPELL_LIGHTNING_WAVE</a></div><div class="ttdeci">@ SPELL_LIGHTNING_WAVE</div><div class="ttdef"><b>Definition:</b> boss_emerald_dragons.cpp:288</div></div>
+<div class="ttc" id="aboss__emerald__dragons_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a983a998f7dbb4497fc9d8bcabe201e19"><div class="ttname"><a href="../../d2/d8e/boss__emerald__dragons_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a983a998f7dbb4497fc9d8bcabe201e19">EVENT_LIGHTNING_WAVE</a></div><div class="ttdeci">@ EVENT_LIGHTNING_WAVE</div><div class="ttdef"><b>Definition:</b> boss_emerald_dragons.cpp:74</div></div>
+<div class="ttc" id="aboss__sartura_8cpp_html_ad29858f6d8ab73f2970f41cb21a76b84"><div class="ttname"><a href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a></div><div class="ttdeci">events</div><div class="ttdef"><b>Definition:</b> boss_sartura.cpp:43</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a361b6f4e71e9c74595bdf3d7e3b29a82"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a361b6f4e71e9c74595bdf3d7e3b29a82">UnitAI::DoCastVictim</a></div><div class="ttdeci">SpellCastResult DoCastVictim(uint32 spellId, bool triggered=false)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:241</div></div>
+<div class="ttc" id="astructemerald__dragon_a_i_html_a6e60f146c7b86a119f269bf755831ac6"><div class="ttname"><a href="../../dc/d39/structemerald__dragon_a_i.html#a6e60f146c7b86a119f269bf755831ac6">emerald_dragonAI::ExecuteEvent</a></div><div class="ttdeci">void ExecuteEvent(uint32 eventId) override</div><div class="ttdef"><b>Definition:</b> boss_emerald_dragons.cpp:121</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac2ea95a5f8c032d7d9166d92bce51ba1" name="ac2ea95a5f8c032d7d9166d92bce51ba1"></a>
@@ -695,7 +756,13 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dc/d39/structemerald__dragon_a_i.html#aff24939b53a7d74b41ac9170a8a71e9c">emerald_dragonAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  304</span>        {</div>
+<div class="line"><span class="lineno">  305</span>            <a class="code hl_variable" href="../../df/d3c/structboss__ysondre_1_1boss__ysondre_a_i.html#a5c96faa6b5e6cc350e9c53f34fe17eb1">_stage</a> = 1;</div>
+<div class="line"><span class="lineno">  306</span>            <a class="code hl_function" href="../../dc/d39/structemerald__dragon_a_i.html#aff24939b53a7d74b41ac9170a8a71e9c">emerald_dragonAI::Reset</a>();</div>
+<div class="line"><span class="lineno">  307</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d2/d8e/boss__emerald__dragons_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a983a998f7dbb4497fc9d8bcabe201e19">EVENT_LIGHTNING_WAVE</a>, 12000);</div>
+<div class="line"><span class="lineno">  308</span>        }</div>
+<div class="ttc" id="astructemerald__dragon_a_i_html_aff24939b53a7d74b41ac9170a8a71e9c"><div class="ttname"><a href="../../dc/d39/structemerald__dragon_a_i.html#aff24939b53a7d74b41ac9170a8a71e9c">emerald_dragonAI::Reset</a></div><div class="ttdeci">void Reset() override</div><div class="ttdef"><b>Definition:</b> boss_emerald_dragons.cpp:101</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -722,7 +789,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/World/<a class="el" href="../../d2/d8e/boss__emerald__dragons_8cpp.html">boss_emerald_dragons.cpp</a></li>
+<li><a class="el" href="../../">boss_emerald_dragons.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -730,7 +797,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d7/d96/classboss__ysondre.html">boss_ysondre</a></li><li class="navelem"><a class="el" href="../../df/d3c/structboss__ysondre_1_1boss__ysondre_a_i.html">boss_ysondreAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:43 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:57 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

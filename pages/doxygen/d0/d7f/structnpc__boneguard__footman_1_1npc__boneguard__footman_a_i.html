@@ -485,7 +485,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a04eff1976824724b321f0c0d95e0940a" name="a04eff1976824724b321f0c0d95e0940a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a04eff1976824724b321f0c0d95e0940a">&#9670;&#160;</a></span>npc_boneguard_footmanAI()</h2>
 
@@ -509,7 +510,13 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  619</span>                                                    : <a class="code hl_struct" href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a>(creature)</div>
+<div class="line"><span class="lineno">  620</span>        {</div>
+<div class="line"><span class="lineno">  621</span>            <a class="code hl_variable" href="../../d0/d7f/structnpc__boneguard__footman_1_1npc__boneguard__footman_a_i.html#a46dd1fa8d111dca0584a8e6fb7a6a566">checkTimer</a> = 0;</div>
+<div class="line"><span class="lineno">  622</span>        }</div>
+<div class="ttc" id="astruct_scripted_a_i_html"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
+<div class="ttc" id="astructnpc__boneguard__footman_1_1npc__boneguard__footman_a_i_html_a46dd1fa8d111dca0584a8e6fb7a6a566"><div class="ttname"><a href="../../d0/d7f/structnpc__boneguard__footman_1_1npc__boneguard__footman_a_i.html#a46dd1fa8d111dca0584a8e6fb7a6a566">npc_boneguard_footman::npc_boneguard_footmanAI::checkTimer</a></div><div class="ttdeci">uint32 checkTimer</div><div class="ttdef"><b>Definition:</b> zone_icecrown.cpp:624</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -538,7 +545,37 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#aff5fd4e142a5cf930ffacbfc7259cce5">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  627</span>        {</div>
+<div class="line"><span class="lineno">  628</span>            <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#af5e75d013dfa8a8b888d7714992e3f2a">IsInCombat</a>())</div>
+<div class="line"><span class="lineno">  629</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  630</span> </div>
+<div class="line"><span class="lineno">  631</span>            <a class="code hl_variable" href="../../d0/d7f/structnpc__boneguard__footman_1_1npc__boneguard__footman_a_i.html#a46dd1fa8d111dca0584a8e6fb7a6a566">checkTimer</a> += diff;</div>
+<div class="line"><span class="lineno">  632</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d0/d7f/structnpc__boneguard__footman_1_1npc__boneguard__footman_a_i.html#a46dd1fa8d111dca0584a8e6fb7a6a566">checkTimer</a> &gt;= 500)</div>
+<div class="line"><span class="lineno">  633</span>            {</div>
+<div class="line"><span class="lineno">  634</span>                <a class="code hl_variable" href="../../d0/d7f/structnpc__boneguard__footman_1_1npc__boneguard__footman_a_i.html#a46dd1fa8d111dca0584a8e6fb7a6a566">checkTimer</a> = 0;</div>
+<div class="line"><span class="lineno">  635</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* victim = <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">GetVictim</a>())</div>
+<div class="line"><span class="lineno">  636</span>                {</div>
+<div class="line"><span class="lineno">  637</span>                    <span class="keywordflow">if</span> (victim-&gt;GetEntry() == 33531 <span class="comment">/*NPC_CAMPAIGN_WARHORSE*/</span> &amp;&amp; <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a73f3c7fa817faebff6b2752ba3bb1a50">GetDistance2d</a>(victim) &lt; 3.0f &amp;&amp; victim-&gt;isMoving())</div>
+<div class="line"><span class="lineno">  638</span>                    {</div>
+<div class="line"><span class="lineno">  639</span>                        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#ade3dddee0d9a81b1357473a1cdf7016c">LowerPlayerDamageReq</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a5173c1774b09b42c409bf31280c37d36">GetMaxHealth</a>());</div>
+<div class="line"><span class="lineno">  640</span>                        <a class="code hl_function" href="../../da/db7/class_unit.html#a413f3a85a1e57ce8c13b8870347830f5">Unit::Kill</a>(victim, <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>);</div>
+<div class="line"><span class="lineno">  641</span>                        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  642</span>                    }</div>
+<div class="line"><span class="lineno">  643</span>                }</div>
+<div class="line"><span class="lineno">  644</span>            }</div>
+<div class="line"><span class="lineno">  645</span> </div>
+<div class="line"><span class="lineno">  646</span>            <a class="code hl_function" href="../../de/d83/struct_scripted_a_i.html#aff5fd4e142a5cf930ffacbfc7259cce5">ScriptedAI::UpdateAI</a>(diff);</div>
+<div class="line"><span class="lineno">  647</span>        }</div>
+<div class="ttc" id="aclass_creature_html_ade3dddee0d9a81b1357473a1cdf7016c"><div class="ttname"><a href="../../d1/dac/class_creature.html#ade3dddee0d9a81b1357473a1cdf7016c">Creature::LowerPlayerDamageReq</a></div><div class="ttdeci">void LowerPlayerDamageReq(uint32 unDamage, bool damagedByPlayer=true)</div><div class="ttdef"><b>Definition:</b> Creature.cpp:3656</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_a413f3a85a1e57ce8c13b8870347830f5"><div class="ttname"><a href="../../da/db7/class_unit.html#a413f3a85a1e57ce8c13b8870347830f5">Unit::Kill</a></div><div class="ttdeci">static void Kill(Unit *killer, Unit *victim, bool durabilityLoss=true, WeaponAttackType attackType=BASE_ATTACK, SpellInfo const *spellProto=nullptr, Spell const *spell=nullptr)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:17752</div></div>
+<div class="ttc" id="aclass_unit_html_a5173c1774b09b42c409bf31280c37d36"><div class="ttname"><a href="../../da/db7/class_unit.html#a5173c1774b09b42c409bf31280c37d36">Unit::GetMaxHealth</a></div><div class="ttdeci">uint32 GetMaxHealth() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1439</div></div>
+<div class="ttc" id="aclass_unit_html_aae09d03a474ea5517d671e64dc393739"><div class="ttname"><a href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">Unit::GetVictim</a></div><div class="ttdeci">Unit * GetVictim() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1386</div></div>
+<div class="ttc" id="aclass_unit_html_af5e75d013dfa8a8b888d7714992e3f2a"><div class="ttname"><a href="../../da/db7/class_unit.html#af5e75d013dfa8a8b888d7714992e3f2a">Unit::IsInCombat</a></div><div class="ttdeci">bool IsInCombat() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1685</div></div>
+<div class="ttc" id="aclass_world_object_html_a73f3c7fa817faebff6b2752ba3bb1a50"><div class="ttname"><a href="../../db/df7/class_world_object.html#a73f3c7fa817faebff6b2752ba3bb1a50">WorldObject::GetDistance2d</a></div><div class="ttdeci">float GetDistance2d(WorldObject const *obj) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1263</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_aff5fd4e142a5cf930ffacbfc7259cce5"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#aff5fd4e142a5cf930ffacbfc7259cce5">ScriptedAI::UpdateAI</a></div><div class="ttdeci">void UpdateAI(uint32 diff) override</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.cpp:214</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -557,7 +594,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/<a class="el" href="../../d6/d81/zone__icecrown_8cpp.html">zone_icecrown.cpp</a></li>
+<li><a class="el" href="../../">zone_icecrown.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -565,7 +602,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../db/d9d/classnpc__boneguard__footman.html">npc_boneguard_footman</a></li><li class="navelem"><a class="el" href="../../d0/d7f/structnpc__boneguard__footman_1_1npc__boneguard__footman_a_i.html">npc_boneguard_footmanAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:48 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:03 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

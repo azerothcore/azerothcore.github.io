@@ -306,7 +306,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a08e84f2b2ff25ed7e260e61251f9cdb9" name="a08e84f2b2ff25ed7e260e61251f9cdb9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a08e84f2b2ff25ed7e260e61251f9cdb9">&#9670;&#160;</a></span>CheckProc()</h2>
 
@@ -330,7 +331,28 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  197</span>    {</div>
+<div class="line"><span class="lineno">  198</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d4/d7d/class_spell_info.html">SpellInfo</a> <span class="keyword">const</span>* spellInfo = eventInfo.<a class="code hl_function" href="../../df/def/class_proc_event_info.html#a759add2c89e786125196eb6bd3b20c6d">GetSpellInfo</a>())</div>
+<div class="line"><span class="lineno">  199</span>        {</div>
+<div class="line"><span class="lineno">  200</span>            <span class="keywordflow">switch</span> (spellInfo-&gt;Id)</div>
+<div class="line"><span class="lineno">  201</span>            {</div>
+<div class="line"><span class="lineno">  202</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../da/df2/boss__gyth_8cpp.html#a5bd342133be8c2137b831460acc9298cafe1d05bb1cb31d670f894f0b7c04c6b4">SPELL_CORROSIVE_ACID</a>:</div>
+<div class="line"><span class="lineno">  203</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../da/df2/boss__gyth_8cpp.html#a5bd342133be8c2137b831460acc9298ca6258f28c34841ae8c348b51f0a6c5786">SPELL_FLAMEBREATH</a>:</div>
+<div class="line"><span class="lineno">  204</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../da/df2/boss__gyth_8cpp.html#a5bd342133be8c2137b831460acc9298ca511bf5a0d2736e59816a8fdc5975dd9a">SPELL_FREEZE</a>:</div>
+<div class="line"><span class="lineno">  205</span>                    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  206</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  207</span>                <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  208</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  209</span>            }</div>
+<div class="line"><span class="lineno">  210</span>        }</div>
+<div class="line"><span class="lineno">  211</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  212</span>    }</div>
+<div class="ttc" id="aboss__gyth_8cpp_html_a5bd342133be8c2137b831460acc9298ca511bf5a0d2736e59816a8fdc5975dd9a"><div class="ttname"><a href="../../da/df2/boss__gyth_8cpp.html#a5bd342133be8c2137b831460acc9298ca511bf5a0d2736e59816a8fdc5975dd9a">SPELL_FREEZE</a></div><div class="ttdeci">@ SPELL_FREEZE</div><div class="ttdef"><b>Definition:</b> boss_gyth.cpp:28</div></div>
+<div class="ttc" id="aboss__gyth_8cpp_html_a5bd342133be8c2137b831460acc9298ca6258f28c34841ae8c348b51f0a6c5786"><div class="ttname"><a href="../../da/df2/boss__gyth_8cpp.html#a5bd342133be8c2137b831460acc9298ca6258f28c34841ae8c348b51f0a6c5786">SPELL_FLAMEBREATH</a></div><div class="ttdeci">@ SPELL_FLAMEBREATH</div><div class="ttdef"><b>Definition:</b> boss_gyth.cpp:27</div></div>
+<div class="ttc" id="aboss__gyth_8cpp_html_a5bd342133be8c2137b831460acc9298cafe1d05bb1cb31d670f894f0b7c04c6b4"><div class="ttname"><a href="../../da/df2/boss__gyth_8cpp.html#a5bd342133be8c2137b831460acc9298cafe1d05bb1cb31d670f894f0b7c04c6b4">SPELL_CORROSIVE_ACID</a></div><div class="ttdeci">@ SPELL_CORROSIVE_ACID</div><div class="ttdef"><b>Definition:</b> boss_gyth.cpp:26</div></div>
+<div class="ttc" id="aclass_proc_event_info_html_a759add2c89e786125196eb6bd3b20c6d"><div class="ttname"><a href="../../df/def/class_proc_event_info.html#a759add2c89e786125196eb6bd3b20c6d">ProcEventInfo::GetSpellInfo</a></div><div class="ttdeci">SpellInfo const * GetSpellInfo() const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:186</div></div>
+<div class="ttc" id="aclass_spell_info_html"><div class="ttname"><a href="../../d4/d7d/class_spell_info.html">SpellInfo</a></div><div class="ttdef"><b>Definition:</b> SpellInfo.h:314</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="afd3d4786f739566056b69390553d9c71" name="afd3d4786f739566056b69390553d9c71"></a>
@@ -366,7 +388,33 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  215</span>    {</div>
+<div class="line"><span class="lineno">  216</span>        <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a19e0ed231d33245849ef31acb0f2bca3">PreventDefaultAction</a>();</div>
+<div class="line"><span class="lineno">  217</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d4/d7d/class_spell_info.html">SpellInfo</a> <span class="keyword">const</span>* spellInfo = eventInfo.<a class="code hl_function" href="../../df/def/class_proc_event_info.html#a759add2c89e786125196eb6bd3b20c6d">GetSpellInfo</a>())</div>
+<div class="line"><span class="lineno">  218</span>        {</div>
+<div class="line"><span class="lineno">  219</span>            <span class="keywordflow">switch</span> (spellInfo-&gt;Id)</div>
+<div class="line"><span class="lineno">  220</span>            {</div>
+<div class="line"><span class="lineno">  221</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../da/df2/boss__gyth_8cpp.html#a5bd342133be8c2137b831460acc9298cafe1d05bb1cb31d670f894f0b7c04c6b4">SPELL_CORROSIVE_ACID</a>:</div>
+<div class="line"><span class="lineno">  222</span>                    <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">GetTarget</a>()-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_function" href="../../d4/d72/class_aura_script.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">GetTarget</a>(), <a class="code hl_enumvalue" href="../../da/df2/boss__gyth_8cpp.html#a5bd342133be8c2137b831460acc9298ca0f605c07889bc9b86bcd55356fb2f40c">SPELL_CHROMATIC_PROTECTION_NATURE</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  223</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  224</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../da/df2/boss__gyth_8cpp.html#a5bd342133be8c2137b831460acc9298ca6258f28c34841ae8c348b51f0a6c5786">SPELL_FLAMEBREATH</a>:</div>
+<div class="line"><span class="lineno">  225</span>                    <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">GetTarget</a>()-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_function" href="../../d4/d72/class_aura_script.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">GetTarget</a>(), <a class="code hl_enumvalue" href="../../da/df2/boss__gyth_8cpp.html#a5bd342133be8c2137b831460acc9298ca1859540c81c56dd501aebf93a402999d">SPELL_CHROMATIC_PROTECTION_FIRE</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  226</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  227</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../da/df2/boss__gyth_8cpp.html#a5bd342133be8c2137b831460acc9298ca511bf5a0d2736e59816a8fdc5975dd9a">SPELL_FREEZE</a>:</div>
+<div class="line"><span class="lineno">  228</span>                    <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">GetTarget</a>()-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_function" href="../../d4/d72/class_aura_script.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">GetTarget</a>(), <a class="code hl_enumvalue" href="../../da/df2/boss__gyth_8cpp.html#a5bd342133be8c2137b831460acc9298cad65dc3cbe848ba056623736805b0589e">SPELL_CHROMATIC_PROTECTION_FROST</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  229</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  230</span>                <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  231</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  232</span>            }</div>
+<div class="line"><span class="lineno">  233</span>        }</div>
+<div class="line"><span class="lineno">  234</span>    }</div>
+<div class="ttc" id="aboss__gyth_8cpp_html_a5bd342133be8c2137b831460acc9298ca0f605c07889bc9b86bcd55356fb2f40c"><div class="ttname"><a href="../../da/df2/boss__gyth_8cpp.html#a5bd342133be8c2137b831460acc9298ca0f605c07889bc9b86bcd55356fb2f40c">SPELL_CHROMATIC_PROTECTION_NATURE</a></div><div class="ttdeci">@ SPELL_CHROMATIC_PROTECTION_NATURE</div><div class="ttdef"><b>Definition:</b> boss_gyth.cpp:33</div></div>
+<div class="ttc" id="aboss__gyth_8cpp_html_a5bd342133be8c2137b831460acc9298ca1859540c81c56dd501aebf93a402999d"><div class="ttname"><a href="../../da/df2/boss__gyth_8cpp.html#a5bd342133be8c2137b831460acc9298ca1859540c81c56dd501aebf93a402999d">SPELL_CHROMATIC_PROTECTION_FIRE</a></div><div class="ttdeci">@ SPELL_CHROMATIC_PROTECTION_FIRE</div><div class="ttdef"><b>Definition:</b> boss_gyth.cpp:31</div></div>
+<div class="ttc" id="aboss__gyth_8cpp_html_a5bd342133be8c2137b831460acc9298cad65dc3cbe848ba056623736805b0589e"><div class="ttname"><a href="../../da/df2/boss__gyth_8cpp.html#a5bd342133be8c2137b831460acc9298cad65dc3cbe848ba056623736805b0589e">SPELL_CHROMATIC_PROTECTION_FROST</a></div><div class="ttdeci">@ SPELL_CHROMATIC_PROTECTION_FROST</div><div class="ttdef"><b>Definition:</b> boss_gyth.cpp:32</div></div>
+<div class="ttc" id="aclass_aura_script_html_a19e0ed231d33245849ef31acb0f2bca3"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a19e0ed231d33245849ef31acb0f2bca3">AuraScript::PreventDefaultAction</a></div><div class="ttdeci">void PreventDefaultAction()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:975</div></div>
+<div class="ttc" id="aclass_aura_script_html_a9b2ee1254bdbef7f6ee93f6fae6eb912"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">AuraScript::GetTarget</a></div><div class="ttdeci">Unit * GetTarget() const</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:1155</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a3ba84d4fd311a91efa685980ffec8d77" name="a3ba84d4fd311a91efa685980ffec8d77"></a>
@@ -419,7 +467,15 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  237</span>    {</div>
+<div class="line"><span class="lineno">  238</span>        <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#ae01a6d3f559913b72bd67a145c668457">OnEffectProc</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a477ed5ca0e8da0b293428f4596802c0b">AuraEffectProcFn</a>(<a class="code hl_function" href="../../d3/d9b/classspell__gyth__chromatic__protection.html#afd3d4786f739566056b69390553d9c71">spell_gyth_chromatic_protection::HandleProc</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799a66cca11731d68512cb0bb652cb1e7caf">SPELL_AURA_DUMMY</a>);</div>
+<div class="line"><span class="lineno">  239</span>    }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a></div><div class="ttdeci">@ EFFECT_0</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:30</div></div>
+<div class="ttc" id="a_spell_aura_defines_8h_html_a538cdc259460b365f406fe0b3a981799a66cca11731d68512cb0bb652cb1e7caf"><div class="ttname"><a href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799a66cca11731d68512cb0bb652cb1e7caf">SPELL_AURA_DUMMY</a></div><div class="ttdeci">@ SPELL_AURA_DUMMY</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:67</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a477ed5ca0e8da0b293428f4596802c0b"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a477ed5ca0e8da0b293428f4596802c0b">AuraEffectProcFn</a></div><div class="ttdeci">#define AuraEffectProcFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:836</div></div>
+<div class="ttc" id="aclass_aura_script_html_ae01a6d3f559913b72bd67a145c668457"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#ae01a6d3f559913b72bd67a145c668457">AuraScript::OnEffectProc</a></div><div class="ttdeci">HookList&lt; EffectProcHandler &gt; OnEffectProc</div><div class="ttdef"><b>Definition:</b> SpellScript.h:831</div></div>
+<div class="ttc" id="aclassspell__gyth__chromatic__protection_html_afd3d4786f739566056b69390553d9c71"><div class="ttname"><a href="../../d3/d9b/classspell__gyth__chromatic__protection.html#afd3d4786f739566056b69390553d9c71">spell_gyth_chromatic_protection::HandleProc</a></div><div class="ttdeci">void HandleProc(AuraEffect const *, ProcEventInfo &amp;eventInfo)</div><div class="ttdef"><b>Definition:</b> boss_gyth.cpp:214</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aeff8b89300bb5d3589a46a4f66cfd77d" name="aeff8b89300bb5d3589a46a4f66cfd77d"></a>
@@ -447,11 +503,15 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d7/d13/class___spell_script.html#a95e7862a5807bff409f13aea8306077e">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  192</span>    {</div>
+<div class="line"><span class="lineno">  193</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../d7/d13/class___spell_script.html#a9f7c76ac56838fbe61bf67d534979159">ValidateSpellInfo</a>({ <a class="code hl_enumvalue" href="../../da/df2/boss__gyth_8cpp.html#a5bd342133be8c2137b831460acc9298cafe1d05bb1cb31d670f894f0b7c04c6b4">SPELL_CORROSIVE_ACID</a>, <a class="code hl_enumvalue" href="../../da/df2/boss__gyth_8cpp.html#a5bd342133be8c2137b831460acc9298ca6258f28c34841ae8c348b51f0a6c5786">SPELL_FLAMEBREATH</a>, <a class="code hl_enumvalue" href="../../da/df2/boss__gyth_8cpp.html#a5bd342133be8c2137b831460acc9298ca511bf5a0d2736e59816a8fdc5975dd9a">SPELL_FREEZE</a> });</div>
+<div class="line"><span class="lineno">  194</span>    }</div>
+<div class="ttc" id="aclass___spell_script_html_a9f7c76ac56838fbe61bf67d534979159"><div class="ttname"><a href="../../d7/d13/class___spell_script.html#a9f7c76ac56838fbe61bf67d534979159">_SpellScript::ValidateSpellInfo</a></div><div class="ttdeci">static bool ValidateSpellInfo(std::initializer_list&lt; uint32 &gt; spellIds)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:125</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/<a class="el" href="../../da/df2/boss__gyth_8cpp.html">boss_gyth.cpp</a></li>
+<li><a class="el" href="../../">boss_gyth.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -459,7 +519,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d3/d9b/classspell__gyth__chromatic__protection.html">spell_gyth_chromatic_protection</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:01 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:18 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

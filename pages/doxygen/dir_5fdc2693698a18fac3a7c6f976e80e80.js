@@ -1,11 +1,11 @@
 var dir_5fdc2693698a18fac3a7c6f976e80e80 =
 [
-    [ "boss_anubarak_trial.cpp", "d4/d78/boss__anubarak__trial_8cpp.html", "d4/d78/boss__anubarak__trial_8cpp" ],
-    [ "boss_faction_champions.cpp", "d4/d81/boss__faction__champions_8cpp.html", "d4/d81/boss__faction__champions_8cpp" ],
-    [ "boss_lord_jaraxxus.cpp", "d1/da7/boss__lord__jaraxxus_8cpp.html", "d1/da7/boss__lord__jaraxxus_8cpp" ],
-    [ "boss_northrend_beasts.cpp", "d4/d9c/boss__northrend__beasts_8cpp.html", "d4/d9c/boss__northrend__beasts_8cpp" ],
-    [ "boss_twin_valkyr.cpp", "d7/dc0/boss__twin__valkyr_8cpp.html", "d7/dc0/boss__twin__valkyr_8cpp" ],
-    [ "instance_trial_of_the_crusader.cpp", "dd/d8d/instance__trial__of__the__crusader_8cpp.html", "dd/d8d/instance__trial__of__the__crusader_8cpp" ],
-    [ "trial_of_the_crusader.cpp", "d0/d7b/trial__of__the__crusader_8cpp.html", "d0/d7b/trial__of__the__crusader_8cpp" ],
-    [ "trial_of_the_crusader.h", "da/de8/trial__of__the__crusader_8h.html", "da/de8/trial__of__the__crusader_8h" ]
+    [ "boss_anubarak_trial.cpp", "d9/d7f/a03278.html", "d9/d7f/a03278" ],
+    [ "boss_faction_champions.cpp", "d0/d84/a03281.html", "d0/d84/a03281" ],
+    [ "boss_lord_jaraxxus.cpp", "d6/d25/a03284.html", "d6/d25/a03284" ],
+    [ "boss_northrend_beasts.cpp", "d8/dcc/a03287.html", "d8/dcc/a03287" ],
+    [ "boss_twin_valkyr.cpp", "d6/d85/a03290.html", "d6/d85/a03290" ],
+    [ "instance_trial_of_the_crusader.cpp", "d2/d74/a03293.html", "d2/d74/a03293" ],
+    [ "trial_of_the_crusader.cpp", "d2/d76/a03296.html", "d2/d76/a03296" ],
+    [ "trial_of_the_crusader.h", "d8/de2/a03299.html", "d8/de2/a03299" ]
 ];

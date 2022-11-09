@@ -302,7 +302,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="af75c6240a51e7a612a0b8d8ff953e54d" name="af75c6240a51e7a612a0b8d8ff953e54d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af75c6240a51e7a612a0b8d8ff953e54d">&#9670;&#160;</a></span>CheckProc()</h2>
 
@@ -326,7 +327,13 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  992</span>        {</div>
+<div class="line"><span class="lineno">  993</span>            <span class="keywordflow">return</span> eventInfo.<a class="code hl_function" href="../../df/def/class_proc_event_info.html#ae57fa4c37ca2a3fedb00079f4160bcc7">GetProcTarget</a>() &amp;&amp; eventInfo.<a class="code hl_function" href="../../df/def/class_proc_event_info.html#ae57fa4c37ca2a3fedb00079f4160bcc7">GetProcTarget</a>()-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>() == <a class="code hl_enumvalue" href="../../dd/dac/pit__of__saron_8h.html#a92f6fd626e1834a4cc509efc1186963ea687144bbd8cf840094e4823cd87b9d8f">NPC_SINDRAGOSA</a>;</div>
+<div class="line"><span class="lineno">  994</span>        }</div>
+<div class="ttc" id="aclass_object_html_aa627fe2967ed0e0ed1d8aeeb4365a961"><div class="ttname"><a href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">Object::GetEntry</a></div><div class="ttdeci">uint32 GetEntry() const</div><div class="ttdef"><b>Definition:</b> Object.h:109</div></div>
+<div class="ttc" id="aclass_proc_event_info_html_ae57fa4c37ca2a3fedb00079f4160bcc7"><div class="ttname"><a href="../../df/def/class_proc_event_info.html#ae57fa4c37ca2a3fedb00079f4160bcc7">ProcEventInfo::GetProcTarget</a></div><div class="ttdeci">Unit * GetProcTarget() const</div><div class="ttdef"><b>Definition:</b> Unit.h:860</div></div>
+<div class="ttc" id="apit__of__saron_8h_html_a92f6fd626e1834a4cc509efc1186963ea687144bbd8cf840094e4823cd87b9d8f"><div class="ttname"><a href="../../dd/dac/pit__of__saron_8h.html#a92f6fd626e1834a4cc509efc1186963ea687144bbd8cf840094e4823cd87b9d8f">NPC_SINDRAGOSA</a></div><div class="ttdeci">@ NPC_SINDRAGOSA</div><div class="ttdef"><b>Definition:</b> pit_of_saron.h:70</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a12bb0250624bc0753eee2e6400bd1220" name="a12bb0250624bc0753eee2e6400bd1220"></a>
@@ -379,11 +386,17 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  997</span>        {</div>
+<div class="line"><span class="lineno">  998</span>            <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#ab771dd972497502e5202fd48a1d6c17d">DoCheckProc</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#ad25bcd0c3aa73ba267fa87ea50bc1780">AuraCheckProcFn</a>(<a class="code hl_function" href="../../d4/d42/classspell__sindragosa__permeating__chill_1_1spell__sindragosa__permeating__chill___aura_script.html#af75c6240a51e7a612a0b8d8ff953e54d">spell_sindragosa_permeating_chill_AuraScript::CheckProc</a>);</div>
+<div class="line"><span class="lineno">  999</span>        }</div>
+<div class="ttc" id="a_spell_script_8h_html_ad25bcd0c3aa73ba267fa87ea50bc1780"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#ad25bcd0c3aa73ba267fa87ea50bc1780">AuraCheckProcFn</a></div><div class="ttdeci">#define AuraCheckProcFn(F)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:812</div></div>
+<div class="ttc" id="aclass_aura_script_html_ab771dd972497502e5202fd48a1d6c17d"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#ab771dd972497502e5202fd48a1d6c17d">AuraScript::DoCheckProc</a></div><div class="ttdeci">HookList&lt; CheckProcHandler &gt; DoCheckProc</div><div class="ttdef"><b>Definition:</b> SpellScript.h:807</div></div>
+<div class="ttc" id="aclassspell__sindragosa__permeating__chill_1_1spell__sindragosa__permeating__chill___aura_script_html_af75c6240a51e7a612a0b8d8ff953e54d"><div class="ttname"><a href="../../d4/d42/classspell__sindragosa__permeating__chill_1_1spell__sindragosa__permeating__chill___aura_script.html#af75c6240a51e7a612a0b8d8ff953e54d">spell_sindragosa_permeating_chill::spell_sindragosa_permeating_chill_AuraScript::CheckProc</a></div><div class="ttdeci">bool CheckProc(ProcEventInfo &amp;eventInfo)</div><div class="ttdef"><b>Definition:</b> boss_sindragosa.cpp:991</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/IcecrownCitadel/<a class="el" href="../../de/de5/boss__sindragosa_8cpp.html">boss_sindragosa.cpp</a></li>
+<li><a class="el" href="../../">boss_sindragosa.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -391,7 +404,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../db/d01/classspell__sindragosa__permeating__chill.html">spell_sindragosa_permeating_chill</a></li><li class="navelem"><a class="el" href="../../d4/d42/classspell__sindragosa__permeating__chill_1_1spell__sindragosa__permeating__chill___aura_script.html">spell_sindragosa_permeating_chill_AuraScript</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:08 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:25 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

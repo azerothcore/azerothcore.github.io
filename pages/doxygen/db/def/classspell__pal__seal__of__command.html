@@ -292,7 +292,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="aad5d183d0d7ea229cbfc11f751536624" name="aad5d183d0d7ea229cbfc11f751536624"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aad5d183d0d7ea229cbfc11f751536624">&#9670;&#160;</a></span>FilterTargets()</h2>
 
@@ -316,7 +317,14 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  148</span>    {</div>
+<div class="line"><span class="lineno">  149</span>        <span class="keywordflow">if</span> (<a class="code hl_struct" href="../../d7/d67/struct_spell_value.html">SpellValue</a> <span class="keyword">const</span>* spellValue = <a class="code hl_function" href="../../dc/d62/class_spell_script.html#ad3fb0c4ae38db059329d9a7e6d11fc61">GetSpellValue</a>())</div>
+<div class="line"><span class="lineno">  150</span>            <span class="keywordflow">if</span> (spellValue-&gt;MaxAffectedTargets == 1)</div>
+<div class="line"><span class="lineno">  151</span>                targets.clear();</div>
+<div class="line"><span class="lineno">  152</span>    }</div>
+<div class="ttc" id="aclass_spell_script_html_ad3fb0c4ae38db059329d9a7e6d11fc61"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#ad3fb0c4ae38db059329d9a7e6d11fc61">SpellScript::GetSpellValue</a></div><div class="ttdeci">SpellValue const * GetSpellValue()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:657</div></div>
+<div class="ttc" id="astruct_spell_value_html"><div class="ttname"><a href="../../d7/d67/struct_spell_value.html">SpellValue</a></div><div class="ttdef"><b>Definition:</b> Spell.h:211</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a68ba19142ae6eb04a2547495233700df" name="a68ba19142ae6eb04a2547495233700df"></a>
@@ -369,11 +377,21 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  155</span>    {</div>
+<div class="line"><span class="lineno">  156</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a> == 20424)</div>
+<div class="line"><span class="lineno">  157</span>            <a class="code hl_variable" href="../../dc/d62/class_spell_script.html#af74f730c6dacd310a78036be6b7cc6b7">OnObjectAreaTargetSelect</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a623f49512c3d12eceb55ca05cd53c4f2">SpellObjectAreaTargetSelectFn</a>(<a class="code hl_function" href="../../db/def/classspell__pal__seal__of__command.html#aad5d183d0d7ea229cbfc11f751536624">spell_pal_seal_of_command::FilterTargets</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a418aed4e4066eb09ab979b5d78dc9152a8b2344cd954d6b4c61d99cd3ec1599f3">TARGET_UNIT_TARGET_ENEMY</a>);</div>
+<div class="line"><span class="lineno">  158</span>    }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a></div><div class="ttdeci">@ EFFECT_0</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:30</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a418aed4e4066eb09ab979b5d78dc9152a8b2344cd954d6b4c61d99cd3ec1599f3"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a418aed4e4066eb09ab979b5d78dc9152a8b2344cd954d6b4c61d99cd3ec1599f3">TARGET_UNIT_TARGET_ENEMY</a></div><div class="ttdeci">@ TARGET_UNIT_TARGET_ENEMY</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1387</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a623f49512c3d12eceb55ca05cd53c4f2"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a623f49512c3d12eceb55ca05cd53c4f2">SpellObjectAreaTargetSelectFn</a></div><div class="ttdeci">#define SpellObjectAreaTargetSelectFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:354</div></div>
+<div class="ttc" id="aclass___spell_script_html_ae2ab4203d324b2179ad06ffdb5d8626f"><div class="ttname"><a href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">_SpellScript::m_scriptSpellId</a></div><div class="ttdeci">uint32 m_scriptSpellId</div><div class="ttdef"><b>Definition:</b> SpellScript.h:107</div></div>
+<div class="ttc" id="aclass_spell_script_html_af74f730c6dacd310a78036be6b7cc6b7"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#af74f730c6dacd310a78036be6b7cc6b7">SpellScript::OnObjectAreaTargetSelect</a></div><div class="ttdeci">HookList&lt; ObjectAreaTargetSelectHandler &gt; OnObjectAreaTargetSelect</div><div class="ttdef"><b>Definition:</b> SpellScript.h:353</div></div>
+<div class="ttc" id="aclassspell__pal__seal__of__command_html_aad5d183d0d7ea229cbfc11f751536624"><div class="ttname"><a href="../../db/def/classspell__pal__seal__of__command.html#aad5d183d0d7ea229cbfc11f751536624">spell_pal_seal_of_command::FilterTargets</a></div><div class="ttdeci">void FilterTargets(std::list&lt; WorldObject * &gt; &amp;targets)</div><div class="ttdef"><b>Definition:</b> spell_paladin.cpp:147</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Spells/<a class="el" href="../../db/d16/spell__paladin_8cpp.html">spell_paladin.cpp</a></li>
+<li><a class="el" href="../../">spell_paladin.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -381,7 +399,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../db/def/classspell__pal__seal__of__command.html">spell_pal_seal_of_command</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:06 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:22 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

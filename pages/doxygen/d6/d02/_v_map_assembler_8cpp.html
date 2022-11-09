@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzeorthCore: D:/azerothcore-wotlk/src/tools/vmap4_assembler/VMapAssembler.cpp File Reference</title>
+<title>AzeorthCore: VMapAssembler.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -112,8 +112,10 @@ $(document).ready(function(){initNavTree('d6/d02/_v_map_assembler_8cpp.html','..
 <div class="contents">
 <div class="textblock"><code>#include &lt;iostream&gt;</code><br />
 <code>#include &lt;string&gt;</code><br />
-<code>#include &quot;<a class="el" href="../../d0/de4/_tile_assembler_8h_source.html">TileAssembler.h</a>&quot;</code><br />
-</div><table class="memberdecls">
+<code>#include &quot;<a class="el" href="../../">TileAssembler.h</a>&quot;</code><br />
+</div>
+<p><a href="">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a0ddf1224851353fc92bfbff6f499fa97"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d02/_v_map_assembler_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97">main</a> (int argc, char *argv[])</td></tr>
@@ -145,7 +147,41 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   24</span>{</div>
+<div class="line"><span class="lineno">   25</span>    std::string src = <span class="stringliteral">&quot;Buildings&quot;</span>;</div>
+<div class="line"><span class="lineno">   26</span>    std::string dest = <span class="stringliteral">&quot;vmaps&quot;</span>;</div>
+<div class="line"><span class="lineno">   27</span> </div>
+<div class="line"><span class="lineno">   28</span>    <span class="keywordflow">if</span> (argc &gt; 3)</div>
+<div class="line"><span class="lineno">   29</span>    {</div>
+<div class="line"><span class="lineno">   30</span>        std::cout &lt;&lt; <span class="stringliteral">&quot;usage: &quot;</span> &lt;&lt; argv[0] &lt;&lt; <span class="stringliteral">&quot; &lt;raw data dir&gt; &lt;vmap dest dir&gt;&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">   31</span>        <span class="keywordflow">return</span> 1;</div>
+<div class="line"><span class="lineno">   32</span>    }</div>
+<div class="line"><span class="lineno">   33</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">   34</span>    {</div>
+<div class="line"><span class="lineno">   35</span>        <span class="keywordflow">if</span> (argc &gt; 1)</div>
+<div class="line"><span class="lineno">   36</span>            src = argv[1];</div>
+<div class="line"><span class="lineno">   37</span>        <span class="keywordflow">if</span> (argc &gt; 2)</div>
+<div class="line"><span class="lineno">   38</span>            dest = argv[2];</div>
+<div class="line"><span class="lineno">   39</span>    }</div>
+<div class="line"><span class="lineno">   40</span> </div>
+<div class="line"><span class="lineno">   41</span>    std::cout &lt;&lt; <span class="stringliteral">&quot;using &quot;</span> &lt;&lt; src &lt;&lt; <span class="stringliteral">&quot; as source directory and writing output to &quot;</span> &lt;&lt; dest &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">   42</span> </div>
+<div class="line"><span class="lineno">   43</span>    <a class="code hl_class" href="../../d7/d67/class_v_m_a_p_1_1_tile_assembler.html">VMAP::TileAssembler</a>* ta = <span class="keyword">new</span> <a class="code hl_class" href="../../d7/d67/class_v_m_a_p_1_1_tile_assembler.html">VMAP::TileAssembler</a>(src, dest);</div>
+<div class="line"><span class="lineno">   44</span> </div>
+<div class="line"><span class="lineno">   45</span>    <span class="keywordflow">if</span> (!ta-&gt;<a class="code hl_function" href="../../d7/d67/class_v_m_a_p_1_1_tile_assembler.html#adabcb9cefdd3fcab94c5471948dbe0b0">convertWorld2</a>())</div>
+<div class="line"><span class="lineno">   46</span>    {</div>
+<div class="line"><span class="lineno">   47</span>        std::cout &lt;&lt; <span class="stringliteral">&quot;exit with errors&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">   48</span>        <span class="keyword">delete</span> ta;</div>
+<div class="line"><span class="lineno">   49</span>        <span class="keywordflow">return</span> 1;</div>
+<div class="line"><span class="lineno">   50</span>    }</div>
+<div class="line"><span class="lineno">   51</span> </div>
+<div class="line"><span class="lineno">   52</span>    <span class="keyword">delete</span> ta;</div>
+<div class="line"><span class="lineno">   53</span>    std::cout &lt;&lt; <span class="stringliteral">&quot;Ok, all done&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><span class="lineno">   54</span>    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">   55</span>}</div>
+<div class="ttc" id="aclass_v_m_a_p_1_1_tile_assembler_html"><div class="ttname"><a href="../../d7/d67/class_v_m_a_p_1_1_tile_assembler.html">VMAP::TileAssembler</a></div><div class="ttdef"><b>Definition:</b> TileAssembler.h:93</div></div>
+<div class="ttc" id="aclass_v_m_a_p_1_1_tile_assembler_html_adabcb9cefdd3fcab94c5471948dbe0b0"><div class="ttname"><a href="../../d7/d67/class_v_m_a_p_1_1_tile_assembler.html#adabcb9cefdd3fcab94c5471948dbe0b0">VMAP::TileAssembler::convertWorld2</a></div><div class="ttdeci">bool convertWorld2()</div><div class="ttdef"><b>Definition:</b> TileAssembler.cpp:67</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
@@ -154,7 +190,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_ac5beb3152ba3ce8038adbba12e192c7.html">tools</a></li><li class="navelem"><a class="el" href="../../dir_f0a1abf8767dec3b65a65862f1558cd7.html">vmap4_assembler</a></li><li class="navelem"><a class="el" href="../../d6/d02/_v_map_assembler_8cpp.html">VMapAssembler.cpp</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:35 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:47 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

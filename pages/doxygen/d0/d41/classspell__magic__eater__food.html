@@ -302,7 +302,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a2c9f565aec4c42900037dd387549df18" name="a2c9f565aec4c42900037dd387549df18"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2c9f565aec4c42900037dd387549df18">&#9670;&#160;</a></span>HandleTriggerSpell()</h2>
 
@@ -326,7 +327,43 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 2739</span>    {</div>
+<div class="line"><span class="lineno"> 2740</span>        <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a19e0ed231d33245849ef31acb0f2bca3">PreventDefaultAction</a>();</div>
+<div class="line"><span class="lineno"> 2741</span>        <a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target = <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">GetTarget</a>();</div>
+<div class="line"><span class="lineno"> 2742</span>        <span class="keywordflow">switch</span> (<a class="code hl_function" href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(0, 5))</div>
+<div class="line"><span class="lineno"> 2743</span>        {</div>
+<div class="line"><span class="lineno"> 2744</span>            <span class="keywordflow">case</span> 0:</div>
+<div class="line"><span class="lineno"> 2745</span>                target-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(target, <a class="code hl_enumvalue" href="../../db/d6e/spell__item_8cpp.html#a5ea04d5bae0edb5acd7aa4f3cb99698da6af0e440fefb4d97e4f24ba39ac62988">SPELL_WILD_MAGIC</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno"> 2746</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 2747</span>            <span class="keywordflow">case</span> 1:</div>
+<div class="line"><span class="lineno"> 2748</span>                target-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(target, <a class="code hl_enumvalue" href="../../db/d6e/spell__item_8cpp.html#a5ea04d5bae0edb5acd7aa4f3cb99698dae0682cfbd99e9488505046b5ab1541f3">SPELL_WELL_FED_1</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno"> 2749</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 2750</span>            <span class="keywordflow">case</span> 2:</div>
+<div class="line"><span class="lineno"> 2751</span>                target-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(target, <a class="code hl_enumvalue" href="../../db/d6e/spell__item_8cpp.html#a5ea04d5bae0edb5acd7aa4f3cb99698daa38a94291e72741b8a2a37855f5bdd9e">SPELL_WELL_FED_2</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno"> 2752</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 2753</span>            <span class="keywordflow">case</span> 3:</div>
+<div class="line"><span class="lineno"> 2754</span>                target-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(target, <a class="code hl_enumvalue" href="../../db/d6e/spell__item_8cpp.html#a5ea04d5bae0edb5acd7aa4f3cb99698da20aa53f15e2be216e30fd287118fa431">SPELL_WELL_FED_3</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno"> 2755</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 2756</span>            <span class="keywordflow">case</span> 4:</div>
+<div class="line"><span class="lineno"> 2757</span>                target-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(target, <a class="code hl_enumvalue" href="../../db/d6e/spell__item_8cpp.html#a5ea04d5bae0edb5acd7aa4f3cb99698dae90a73338a9ee89a483e16425616f447">SPELL_WELL_FED_4</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno"> 2758</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 2759</span>            <span class="keywordflow">case</span> 5:</div>
+<div class="line"><span class="lineno"> 2760</span>                target-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(target, <a class="code hl_enumvalue" href="../../db/d6e/spell__item_8cpp.html#a5ea04d5bae0edb5acd7aa4f3cb99698da434c84c62935bbba9249bc10c30bfed1">SPELL_WELL_FED_5</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno"> 2761</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 2762</span>        }</div>
+<div class="line"><span class="lineno"> 2763</span>    }</div>
+<div class="ttc" id="a_random_8cpp_html_ab17def34ccbbd868dc87a16bf35acdbd"><div class="ttname"><a href="../../d9/d1e/_random_8cpp.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a></div><div class="ttdeci">uint32 urand(uint32 min, uint32 max)</div><div class="ttdef"><b>Definition:</b> Random.cpp:44</div></div>
+<div class="ttc" id="aclass_aura_script_html_a19e0ed231d33245849ef31acb0f2bca3"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a19e0ed231d33245849ef31acb0f2bca3">AuraScript::PreventDefaultAction</a></div><div class="ttdeci">void PreventDefaultAction()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:975</div></div>
+<div class="ttc" id="aclass_aura_script_html_a9b2ee1254bdbef7f6ee93f6fae6eb912"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">AuraScript::GetTarget</a></div><div class="ttdeci">Unit * GetTarget() const</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:1155</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+<div class="ttc" id="aspell__item_8cpp_html_a5ea04d5bae0edb5acd7aa4f3cb99698da20aa53f15e2be216e30fd287118fa431"><div class="ttname"><a href="../../db/d6e/spell__item_8cpp.html#a5ea04d5bae0edb5acd7aa4f3cb99698da20aa53f15e2be216e30fd287118fa431">SPELL_WELL_FED_3</a></div><div class="ttdeci">@ SPELL_WELL_FED_3</div><div class="ttdef"><b>Definition:</b> spell_item.cpp:2729</div></div>
+<div class="ttc" id="aspell__item_8cpp_html_a5ea04d5bae0edb5acd7aa4f3cb99698da434c84c62935bbba9249bc10c30bfed1"><div class="ttname"><a href="../../db/d6e/spell__item_8cpp.html#a5ea04d5bae0edb5acd7aa4f3cb99698da434c84c62935bbba9249bc10c30bfed1">SPELL_WELL_FED_5</a></div><div class="ttdeci">@ SPELL_WELL_FED_5</div><div class="ttdef"><b>Definition:</b> spell_item.cpp:2731</div></div>
+<div class="ttc" id="aspell__item_8cpp_html_a5ea04d5bae0edb5acd7aa4f3cb99698da6af0e440fefb4d97e4f24ba39ac62988"><div class="ttname"><a href="../../db/d6e/spell__item_8cpp.html#a5ea04d5bae0edb5acd7aa4f3cb99698da6af0e440fefb4d97e4f24ba39ac62988">SPELL_WILD_MAGIC</a></div><div class="ttdeci">@ SPELL_WILD_MAGIC</div><div class="ttdef"><b>Definition:</b> spell_item.cpp:2726</div></div>
+<div class="ttc" id="aspell__item_8cpp_html_a5ea04d5bae0edb5acd7aa4f3cb99698daa38a94291e72741b8a2a37855f5bdd9e"><div class="ttname"><a href="../../db/d6e/spell__item_8cpp.html#a5ea04d5bae0edb5acd7aa4f3cb99698daa38a94291e72741b8a2a37855f5bdd9e">SPELL_WELL_FED_2</a></div><div class="ttdeci">@ SPELL_WELL_FED_2</div><div class="ttdef"><b>Definition:</b> spell_item.cpp:2728</div></div>
+<div class="ttc" id="aspell__item_8cpp_html_a5ea04d5bae0edb5acd7aa4f3cb99698dae0682cfbd99e9488505046b5ab1541f3"><div class="ttname"><a href="../../db/d6e/spell__item_8cpp.html#a5ea04d5bae0edb5acd7aa4f3cb99698dae0682cfbd99e9488505046b5ab1541f3">SPELL_WELL_FED_1</a></div><div class="ttdeci">@ SPELL_WELL_FED_1</div><div class="ttdef"><b>Definition:</b> spell_item.cpp:2727</div></div>
+<div class="ttc" id="aspell__item_8cpp_html_a5ea04d5bae0edb5acd7aa4f3cb99698dae90a73338a9ee89a483e16425616f447"><div class="ttname"><a href="../../db/d6e/spell__item_8cpp.html#a5ea04d5bae0edb5acd7aa4f3cb99698dae90a73338a9ee89a483e16425616f447">SPELL_WELL_FED_4</a></div><div class="ttdeci">@ SPELL_WELL_FED_4</div><div class="ttdef"><b>Definition:</b> spell_item.cpp:2730</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a5864bbba50001cdb84b0015d08134c56" name="a5864bbba50001cdb84b0015d08134c56"></a>
@@ -379,11 +416,19 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 2766</span>    {</div>
+<div class="line"><span class="lineno"> 2767</span>        <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a491e7fc0a1acd202b60fa1aed79a9377">OnEffectPeriodic</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a63dd33eaa91292bfb53b1d9f2b0eba29">AuraEffectPeriodicFn</a>(<a class="code hl_function" href="../../d0/d41/classspell__magic__eater__food.html#a2c9f565aec4c42900037dd387549df18">spell_magic_eater_food::HandleTriggerSpell</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77a8ad5debef66c8aadbaf13f97f522e791">EFFECT_1</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799af51e1877e096bbfd69505e5ab4fc69ad">SPELL_AURA_PERIODIC_TRIGGER_SPELL</a>);</div>
+<div class="line"><span class="lineno"> 2768</span>    }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77a8ad5debef66c8aadbaf13f97f522e791"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77a8ad5debef66c8aadbaf13f97f522e791">EFFECT_1</a></div><div class="ttdeci">@ EFFECT_1</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:31</div></div>
+<div class="ttc" id="a_spell_aura_defines_8h_html_a538cdc259460b365f406fe0b3a981799af51e1877e096bbfd69505e5ab4fc69ad"><div class="ttname"><a href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799af51e1877e096bbfd69505e5ab4fc69ad">SPELL_AURA_PERIODIC_TRIGGER_SPELL</a></div><div class="ttdeci">@ SPELL_AURA_PERIODIC_TRIGGER_SPELL</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:86</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a63dd33eaa91292bfb53b1d9f2b0eba29"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a63dd33eaa91292bfb53b1d9f2b0eba29">AuraEffectPeriodicFn</a></div><div class="ttdeci">#define AuraEffectPeriodicFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:750</div></div>
+<div class="ttc" id="aclass_aura_script_html_a491e7fc0a1acd202b60fa1aed79a9377"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a491e7fc0a1acd202b60fa1aed79a9377">AuraScript::OnEffectPeriodic</a></div><div class="ttdeci">HookList&lt; EffectPeriodicHandler &gt; OnEffectPeriodic</div><div class="ttdef"><b>Definition:</b> SpellScript.h:749</div></div>
+<div class="ttc" id="aclassspell__magic__eater__food_html_a2c9f565aec4c42900037dd387549df18"><div class="ttname"><a href="../../d0/d41/classspell__magic__eater__food.html#a2c9f565aec4c42900037dd387549df18">spell_magic_eater_food::HandleTriggerSpell</a></div><div class="ttdeci">void HandleTriggerSpell(AuraEffect const *)</div><div class="ttdef"><b>Definition:</b> spell_item.cpp:2738</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Spells/<a class="el" href="../../db/d6e/spell__item_8cpp.html">spell_item.cpp</a></li>
+<li><a class="el" href="../../">spell_item.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -391,7 +436,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d0/d41/classspell__magic__eater__food.html">spell_magic_eater_food</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:05 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:21 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

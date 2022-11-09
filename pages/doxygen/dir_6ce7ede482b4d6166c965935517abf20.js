@@ -1,8 +1,8 @@
 var dir_6ce7ede482b4d6166c965935517abf20 =
 [
-    [ "boss_omor_the_unscarred.cpp", "d6/d5e/boss__omor__the__unscarred_8cpp.html", "d6/d5e/boss__omor__the__unscarred_8cpp" ],
-    [ "boss_vazruden_the_herald.cpp", "d4/d3a/boss__vazruden__the__herald_8cpp.html", "d4/d3a/boss__vazruden__the__herald_8cpp" ],
-    [ "boss_watchkeeper_gargolmar.cpp", "d2/d07/boss__watchkeeper__gargolmar_8cpp.html", "d2/d07/boss__watchkeeper__gargolmar_8cpp" ],
-    [ "hellfire_ramparts.h", "df/d3a/hellfire__ramparts_8h.html", "df/d3a/hellfire__ramparts_8h" ],
-    [ "instance_hellfire_ramparts.cpp", "dc/d01/instance__hellfire__ramparts_8cpp.html", "dc/d01/instance__hellfire__ramparts_8cpp" ]
+    [ "boss_omor_the_unscarred.cpp", "d0/dce/a03971.html", "d0/dce/a03971" ],
+    [ "boss_vazruden_the_herald.cpp", "d4/d2e/a03974.html", "d4/d2e/a03974" ],
+    [ "boss_watchkeeper_gargolmar.cpp", "d9/d2b/a03977.html", "d9/d2b/a03977" ],
+    [ "hellfire_ramparts.h", "dd/d78/a03980.html", "dd/d78/a03980" ],
+    [ "instance_hellfire_ramparts.cpp", "d1/de2/a03983.html", "d1/de2/a03983" ]
 ];

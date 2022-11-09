@@ -129,7 +129,8 @@ Static Public Attributes</h2></td></tr>
 <tr class="memitem:a8fccf3d4b22e835fc4dca6b942771a2a"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ded/struct_b64_impl.html#a8fccf3d4b22e835fc4dca6b942771a2a">DECODE_ERROR</a> = 0xff</td></tr>
 <tr class="separator:a8fccf3d4b22e835fc4dca6b942771a2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="aba5ab7c59ce77414bca38bfcde32d1c0" name="aba5ab7c59ce77414bca38bfcde32d1c0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aba5ab7c59ce77414bca38bfcde32d1c0">&#9670;&#160;</a></span>Decode()</h2>
 
@@ -153,7 +154,16 @@ Static Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   27</span>    {</div>
+<div class="line"><span class="lineno">   28</span>        <span class="keywordflow">if</span> ((<span class="charliteral">&#39;A&#39;</span> &lt;= v) &amp;&amp; (v &lt;= <span class="charliteral">&#39;Z&#39;</span>)) { <span class="keywordflow">return</span> (v - <span class="charliteral">&#39;A&#39;</span>); }</div>
+<div class="line"><span class="lineno">   29</span>        <span class="keywordflow">if</span> ((<span class="charliteral">&#39;a&#39;</span> &lt;= v) &amp;&amp; (v &lt;= <span class="charliteral">&#39;z&#39;</span>)) { <span class="keywordflow">return</span> (v - <span class="charliteral">&#39;a&#39;</span>) + 26; }</div>
+<div class="line"><span class="lineno">   30</span>        <span class="keywordflow">if</span> ((<span class="charliteral">&#39;0&#39;</span> &lt;= v) &amp;&amp; (v &lt;= <span class="charliteral">&#39;9&#39;</span>)) { <span class="keywordflow">return</span> (v - <span class="charliteral">&#39;0&#39;</span>) + 52; }</div>
+<div class="line"><span class="lineno">   31</span>        <span class="keywordflow">if</span> (v == <span class="charliteral">&#39;+&#39;</span>) { <span class="keywordflow">return</span> 62; }</div>
+<div class="line"><span class="lineno">   32</span>        <span class="keywordflow">if</span> (v == <span class="charliteral">&#39;/&#39;</span>) { <span class="keywordflow">return</span> 63; }</div>
+<div class="line"><span class="lineno">   33</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/ded/struct_b64_impl.html#a8fccf3d4b22e835fc4dca6b942771a2a">DECODE_ERROR</a>;</div>
+<div class="line"><span class="lineno">   34</span>    }</div>
+<div class="ttc" id="astruct_b64_impl_html_a8fccf3d4b22e835fc4dca6b942771a2a"><div class="ttname"><a href="../../de/ded/struct_b64_impl.html#a8fccf3d4b22e835fc4dca6b942771a2a">B64Impl::DECODE_ERROR</a></div><div class="ttdeci">static constexpr uint8 DECODE_ERROR</div><div class="ttdef"><b>Definition:</b> Base64.cpp:25</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad6cde2310ca52940df1bbf93deff6b91" name="ad6cde2310ca52940df1bbf93deff6b91"></a>
@@ -179,7 +189,16 @@ Static Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   16</span>    {</div>
+<div class="line"><span class="lineno">   17</span>        <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(v &lt; 0x40);</div>
+<div class="line"><span class="lineno">   18</span>        <span class="keywordflow">if</span> (v &lt; 26) { <span class="keywordflow">return</span> <span class="charliteral">&#39;A&#39;</span> + v; }</div>
+<div class="line"><span class="lineno">   19</span>        <span class="keywordflow">if</span> (v &lt; 52) { <span class="keywordflow">return</span> <span class="charliteral">&#39;a&#39;</span> + (v - 26); }</div>
+<div class="line"><span class="lineno">   20</span>        <span class="keywordflow">if</span> (v &lt; 62) { <span class="keywordflow">return</span> <span class="charliteral">&#39;0&#39;</span> + (v - 52); }</div>
+<div class="line"><span class="lineno">   21</span>        <span class="keywordflow">if</span> (v == 62) { <span class="keywordflow">return</span> <span class="charliteral">&#39;+&#39;</span>; }</div>
+<div class="line"><span class="lineno">   22</span>        <span class="keywordflow">else</span> { <span class="keywordflow">return</span> <span class="charliteral">&#39;/&#39;</span>; }</div>
+<div class="line"><span class="lineno">   23</span>    }</div>
+<div class="ttc" id="a_errors_8h_html_af343b20373ba49a92fce523e948f2ab3"><div class="ttname"><a href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a></div><div class="ttdeci">#define ASSERT</div><div class="ttdef"><b>Definition:</b> Errors.h:68</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -250,7 +269,7 @@ Static Public Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/common/Encoding/<a class="el" href="../../d5/db1/_base64_8cpp.html">Base64.cpp</a></li>
+<li><a class="el" href="../../">Base64.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -258,7 +277,7 @@ Static Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../de/ded/struct_b64_impl.html">B64Impl</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:37 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:49 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

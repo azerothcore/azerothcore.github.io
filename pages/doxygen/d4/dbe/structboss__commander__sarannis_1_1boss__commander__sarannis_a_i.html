@@ -530,7 +530,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="afd65734a80cb72e93725953a119d01ce" name="afd65734a80cb72e93725953a119d01ce"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afd65734a80cb72e93725953a119d01ce">&#9670;&#160;</a></span>boss_commander_sarannisAI()</h2>
 
@@ -554,7 +555,10 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   55</span>: <a class="code hl_class" href="../../d4/d0e/class_boss_a_i.html">BossAI</a>(creature, <a class="code hl_enumvalue" href="../../dc/d56/the__botanica_8h.html#afb6eb4f28419b652027fad41104a6d22a7f2ae16d696f6107826ca32da13aa071">DATA_COMMANDER_SARANNIS</a>) { }</div>
+<div class="ttc" id="aclass_boss_a_i_html"><div class="ttname"><a href="../../d4/d0e/class_boss_a_i.html">BossAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:424</div></div>
+<div class="ttc" id="athe__botanica_8h_html_afb6eb4f28419b652027fad41104a6d22a7f2ae16d696f6107826ca32da13aa071"><div class="ttname"><a href="../../dc/d56/the__botanica_8h.html#afb6eb4f28419b652027fad41104a6d22a7f2ae16d696f6107826ca32da13aa071">DATA_COMMANDER_SARANNIS</a></div><div class="ttdeci">@ DATA_COMMANDER_SARANNIS</div><div class="ttdef"><b>Definition:</b> the_botanica.h:28</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -583,7 +587,21 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d4/d0e/class_boss_a_i.html#a2f3d2c15114cff26b92dedd45dff0905">BossAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   63</span>        {</div>
+<div class="line"><span class="lineno">   64</span>            <a class="code hl_function" href="../../d4/d0e/class_boss_a_i.html#adbdded8bea1d5cf779f2aed9bc2a4821">_EnterCombat</a>();</div>
+<div class="line"><span class="lineno">   65</span>            <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d3/d6f/boss__commander__sarannis_8cpp.html#a16774215bba3b38580ea51987d64cff1a47c752fff069f3e55065795eef2a9bfe">SAY_AGGRO</a>);</div>
+<div class="line"><span class="lineno">   66</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d3/d6f/boss__commander__sarannis_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a9ca846ccb51c6569f8c5fdfe2ccef0f4">EVENT_ARCANE_RESONANCE</a>, 20000);</div>
+<div class="line"><span class="lineno">   67</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d3/d6f/boss__commander__sarannis_8cpp.html#af60e00b78607064c5be6aa9397ea49c1ad816c20bf75d2712370db197dd23d1ee">EVENT_ARCANE_DEVASTATION</a>, 10000);</div>
+<div class="line"><span class="lineno">   68</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d3/d6f/boss__commander__sarannis_8cpp.html#af60e00b78607064c5be6aa9397ea49c1ad62a5333d6d279543d0f7550796a44d8">EVENT_HEALTH_CHECK</a>, 500);</div>
+<div class="line"><span class="lineno">   69</span>        }</div>
+<div class="ttc" id="aboss__commander__sarannis_8cpp_html_a16774215bba3b38580ea51987d64cff1a47c752fff069f3e55065795eef2a9bfe"><div class="ttname"><a href="../../d3/d6f/boss__commander__sarannis_8cpp.html#a16774215bba3b38580ea51987d64cff1a47c752fff069f3e55065795eef2a9bfe">SAY_AGGRO</a></div><div class="ttdeci">@ SAY_AGGRO</div><div class="ttdef"><b>Definition:</b> boss_commander_sarannis.cpp:25</div></div>
+<div class="ttc" id="aboss__commander__sarannis_8cpp_html_af60e00b78607064c5be6aa9397ea49c1a9ca846ccb51c6569f8c5fdfe2ccef0f4"><div class="ttname"><a href="../../d3/d6f/boss__commander__sarannis_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a9ca846ccb51c6569f8c5fdfe2ccef0f4">EVENT_ARCANE_RESONANCE</a></div><div class="ttdeci">@ EVENT_ARCANE_RESONANCE</div><div class="ttdef"><b>Definition:</b> boss_commander_sarannis.cpp:43</div></div>
+<div class="ttc" id="aboss__commander__sarannis_8cpp_html_af60e00b78607064c5be6aa9397ea49c1ad62a5333d6d279543d0f7550796a44d8"><div class="ttname"><a href="../../d3/d6f/boss__commander__sarannis_8cpp.html#af60e00b78607064c5be6aa9397ea49c1ad62a5333d6d279543d0f7550796a44d8">EVENT_HEALTH_CHECK</a></div><div class="ttdeci">@ EVENT_HEALTH_CHECK</div><div class="ttdef"><b>Definition:</b> boss_commander_sarannis.cpp:45</div></div>
+<div class="ttc" id="aboss__commander__sarannis_8cpp_html_af60e00b78607064c5be6aa9397ea49c1ad816c20bf75d2712370db197dd23d1ee"><div class="ttname"><a href="../../d3/d6f/boss__commander__sarannis_8cpp.html#af60e00b78607064c5be6aa9397ea49c1ad816c20bf75d2712370db197dd23d1ee">EVENT_ARCANE_DEVASTATION</a></div><div class="ttdeci">@ EVENT_ARCANE_DEVASTATION</div><div class="ttdef"><b>Definition:</b> boss_commander_sarannis.cpp:44</div></div>
+<div class="ttc" id="aboss__fathomlord__karathress_8cpp_html_a747a224b6b3195f9a33c56ddc6c7e268"><div class="ttname"><a href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a></div><div class="ttdeci">Talk</div><div class="ttdef"><b>Definition:</b> boss_fathomlord_karathress.cpp:23</div></div>
+<div class="ttc" id="aboss__sartura_8cpp_html_ad29858f6d8ab73f2970f41cb21a76b84"><div class="ttname"><a href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a></div><div class="ttdeci">events</div><div class="ttdef"><b>Definition:</b> boss_sartura.cpp:43</div></div>
+<div class="ttc" id="aclass_boss_a_i_html_adbdded8bea1d5cf779f2aed9bc2a4821"><div class="ttname"><a href="../../d4/d0e/class_boss_a_i.html#adbdded8bea1d5cf779f2aed9bc2a4821">BossAI::_EnterCombat</a></div><div class="ttdeci">void _EnterCombat()</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.cpp:562</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a7565337b425d14e3d4c0b169d8d722c9" name="a7565337b425d14e3d4c0b169d8d722c9"></a>
@@ -611,7 +629,13 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d4/d0e/class_boss_a_i.html#a3980e3c1e8e9992034c9ec35a8b3e298">BossAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   78</span>        {</div>
+<div class="line"><span class="lineno">   79</span>            <a class="code hl_function" href="../../d4/d0e/class_boss_a_i.html#acb0ee118bdfc7f7aef660e44b5fb18ae">_JustDied</a>();</div>
+<div class="line"><span class="lineno">   80</span>            <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d3/d6f/boss__commander__sarannis_8cpp.html#a16774215bba3b38580ea51987d64cff1a04c962d9b6aaafde54ff92a54369135e">SAY_DEATH</a>);</div>
+<div class="line"><span class="lineno">   81</span>        }</div>
+<div class="ttc" id="aboss__commander__sarannis_8cpp_html_a16774215bba3b38580ea51987d64cff1a04c962d9b6aaafde54ff92a54369135e"><div class="ttname"><a href="../../d3/d6f/boss__commander__sarannis_8cpp.html#a16774215bba3b38580ea51987d64cff1a04c962d9b6aaafde54ff92a54369135e">SAY_DEATH</a></div><div class="ttdeci">@ SAY_DEATH</div><div class="ttdef"><b>Definition:</b> boss_commander_sarannis.cpp:31</div></div>
+<div class="ttc" id="aclass_boss_a_i_html_acb0ee118bdfc7f7aef660e44b5fb18ae"><div class="ttname"><a href="../../d4/d0e/class_boss_a_i.html#acb0ee118bdfc7f7aef660e44b5fb18ae">BossAI::_JustDied</a></div><div class="ttdeci">void _JustDied()</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.cpp:551</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="abcc79194423be7456421553800b795a9" name="abcc79194423be7456421553800b795a9"></a>
@@ -639,7 +663,14 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a8d6c7fd71269453c229326c9785006e8">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   72</span>        {</div>
+<div class="line"><span class="lineno">   73</span>            <span class="keywordflow">if</span> (victim-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">GetTypeId</a>() == <a class="code hl_enumvalue" href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a>)</div>
+<div class="line"><span class="lineno">   74</span>                <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d3/d6f/boss__commander__sarannis_8cpp.html#a16774215bba3b38580ea51987d64cff1a7f4f26c3b97b953fd229ac5d308024d5">SAY_KILL</a>);</div>
+<div class="line"><span class="lineno">   75</span>        }</div>
+<div class="ttc" id="a_object_guid_8h_html_a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c"><div class="ttname"><a href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a></div><div class="ttdeci">@ TYPEID_PLAYER</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:38</div></div>
+<div class="ttc" id="aboss__commander__sarannis_8cpp_html_a16774215bba3b38580ea51987d64cff1a7f4f26c3b97b953fd229ac5d308024d5"><div class="ttname"><a href="../../d3/d6f/boss__commander__sarannis_8cpp.html#a16774215bba3b38580ea51987d64cff1a7f4f26c3b97b953fd229ac5d308024d5">SAY_KILL</a></div><div class="ttdeci">@ SAY_KILL</div><div class="ttdef"><b>Definition:</b> boss_commander_sarannis.cpp:26</div></div>
+<div class="ttc" id="aclass_object_html_a621a345fc34deed6d3a4e1e498a652da"><div class="ttname"><a href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">Object::GetTypeId</a></div><div class="ttdeci">TypeID GetTypeId() const</div><div class="ttdef"><b>Definition:</b> Object.h:121</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a4464afcc3935c8ac72b3f451c8994dfa" name="a4464afcc3935c8ac72b3f451c8994dfa"></a>
@@ -666,7 +697,11 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d4/d0e/class_boss_a_i.html#abe75353ec3f0c86502696b8ccb059cb7">BossAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   58</span>        {</div>
+<div class="line"><span class="lineno">   59</span>            <a class="code hl_function" href="../../d4/d0e/class_boss_a_i.html#acdc89a1df0e62952becf83d9e1bd6299">_Reset</a>();</div>
+<div class="line"><span class="lineno">   60</span>        }</div>
+<div class="ttc" id="aclass_boss_a_i_html_acdc89a1df0e62952becf83d9e1bd6299"><div class="ttname"><a href="../../d4/d0e/class_boss_a_i.html#acdc89a1df0e62952becf83d9e1bd6299">BossAI::_Reset</a></div><div class="ttdeci">void _Reset()</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.cpp:539</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a0cd0f9d1a4ee3cc1d259c4d0cf36aef4" name="a0cd0f9d1a4ee3cc1d259c4d0cf36aef4"></a>
@@ -694,11 +729,63 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d4/d0e/class_boss_a_i.html#a840cc108b3135ee19402e61d591f18d0">BossAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   84</span>        {</div>
+<div class="line"><span class="lineno">   85</span>            <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">UpdateVictim</a>())</div>
+<div class="line"><span class="lineno">   86</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   87</span> </div>
+<div class="line"><span class="lineno">   88</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.Update(diff);</div>
+<div class="line"><span class="lineno">   89</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ab78147cd520d2dac6be709b4c80a7de3">HasUnitState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54">UNIT_STATE_CASTING</a>))</div>
+<div class="line"><span class="lineno">   90</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   91</span> </div>
+<div class="line"><span class="lineno">   92</span>            <span class="keywordflow">switch</span> (<a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ExecuteEvent())</div>
+<div class="line"><span class="lineno">   93</span>            {</div>
+<div class="line"><span class="lineno">   94</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d3/d6f/boss__commander__sarannis_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a9ca846ccb51c6569f8c5fdfe2ccef0f4">EVENT_ARCANE_RESONANCE</a>:</div>
+<div class="line"><span class="lineno">   95</span>                    <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d0/d80/_random_8h.html#a50320d4edff86db31b25138ae72161ad">roll_chance_i</a>(50))</div>
+<div class="line"><span class="lineno">   96</span>                        <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d3/d6f/boss__commander__sarannis_8cpp.html#a16774215bba3b38580ea51987d64cff1aa673e8c4b29ae3417b3968e0eee80e60">SAY_ARCANE_RESONANCE</a>);</div>
+<div class="line"><span class="lineno">   97</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">GetVictim</a>(), <a class="code hl_enumvalue" href="../../d3/d6f/boss__commander__sarannis_8cpp.html#a5bd342133be8c2137b831460acc9298cac8bc255ed3233eb02a9e85865427420b">SPELL_ARCANE_RESONANCE</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">   98</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d3/d6f/boss__commander__sarannis_8cpp.html#af60e00b78607064c5be6aa9397ea49c1a9ca846ccb51c6569f8c5fdfe2ccef0f4">EVENT_ARCANE_RESONANCE</a>, 27000);</div>
+<div class="line"><span class="lineno">   99</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  100</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d3/d6f/boss__commander__sarannis_8cpp.html#af60e00b78607064c5be6aa9397ea49c1ad816c20bf75d2712370db197dd23d1ee">EVENT_ARCANE_DEVASTATION</a>:</div>
+<div class="line"><span class="lineno">  101</span>                    <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d0/d80/_random_8h.html#a50320d4edff86db31b25138ae72161ad">roll_chance_i</a>(50))</div>
+<div class="line"><span class="lineno">  102</span>                        <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d3/d6f/boss__commander__sarannis_8cpp.html#a16774215bba3b38580ea51987d64cff1a29c2b61293d3766594d41ea0fdc804b7">SAY_ARCANE_DEVASTATION</a>);</div>
+<div class="line"><span class="lineno">  103</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">GetVictim</a>(), <a class="code hl_enumvalue" href="../../d3/d6f/boss__commander__sarannis_8cpp.html#a5bd342133be8c2137b831460acc9298cac46a34b6d0b5d9d017c91bdad513a7c9">SPELL_ARCANE_DEVASTATION</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  104</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d3/d6f/boss__commander__sarannis_8cpp.html#af60e00b78607064c5be6aa9397ea49c1ad816c20bf75d2712370db197dd23d1ee">EVENT_ARCANE_DEVASTATION</a>, 17000);</div>
+<div class="line"><span class="lineno">  105</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  106</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d3/d6f/boss__commander__sarannis_8cpp.html#af60e00b78607064c5be6aa9397ea49c1ad62a5333d6d279543d0f7550796a44d8">EVENT_HEALTH_CHECK</a>:</div>
+<div class="line"><span class="lineno">  107</span>                    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a8bcfed25889f307b4849743956ae67fc">HealthBelowPct</a>(50))</div>
+<div class="line"><span class="lineno">  108</span>                    {</div>
+<div class="line"><span class="lineno">  109</span>                        <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d3/d6f/boss__commander__sarannis_8cpp.html#a16774215bba3b38580ea51987d64cff1a75447a07419a84c3382ae5f76095c848">EMOTE_SUMMON</a>);</div>
+<div class="line"><span class="lineno">  110</span>                        <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d3/d6f/boss__commander__sarannis_8cpp.html#a16774215bba3b38580ea51987d64cff1acebbfa1f13b8de4f039f5d550063c7bf">SAY_SUMMON</a>);</div>
+<div class="line"><span class="lineno">  111</span>                        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_enumvalue" href="../../d3/d6f/boss__commander__sarannis_8cpp.html#a5bd342133be8c2137b831460acc9298cab51e1cf7ac8f6b643ed3a8ed1f14805b">SPELL_SUMMON_REINFORCEMENTS</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  112</span>                        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  113</span>                    }</div>
+<div class="line"><span class="lineno">  114</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d3/d6f/boss__commander__sarannis_8cpp.html#af60e00b78607064c5be6aa9397ea49c1ad62a5333d6d279543d0f7550796a44d8">EVENT_HEALTH_CHECK</a>, 500);</div>
+<div class="line"><span class="lineno">  115</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  116</span>            }</div>
+<div class="line"><span class="lineno">  117</span> </div>
+<div class="line"><span class="lineno">  118</span>            <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">DoMeleeAttackIfReady</a>();</div>
+<div class="line"><span class="lineno">  119</span>        }</div>
+<div class="ttc" id="a_random_8h_html_a50320d4edff86db31b25138ae72161ad"><div class="ttname"><a href="../../d0/d80/_random_8h.html#a50320d4edff86db31b25138ae72161ad">roll_chance_i</a></div><div class="ttdeci">bool roll_chance_i(int chance)</div><div class="ttdef"><b>Definition:</b> Random.h:59</div></div>
+<div class="ttc" id="a_unit_8h_html_ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54">UNIT_STATE_CASTING</a></div><div class="ttdeci">@ UNIT_STATE_CASTING</div><div class="ttdef"><b>Definition:</b> Unit.h:340</div></div>
+<div class="ttc" id="aboss__commander__sarannis_8cpp_html_a16774215bba3b38580ea51987d64cff1a29c2b61293d3766594d41ea0fdc804b7"><div class="ttname"><a href="../../d3/d6f/boss__commander__sarannis_8cpp.html#a16774215bba3b38580ea51987d64cff1a29c2b61293d3766594d41ea0fdc804b7">SAY_ARCANE_DEVASTATION</a></div><div class="ttdeci">@ SAY_ARCANE_DEVASTATION</div><div class="ttdef"><b>Definition:</b> boss_commander_sarannis.cpp:28</div></div>
+<div class="ttc" id="aboss__commander__sarannis_8cpp_html_a16774215bba3b38580ea51987d64cff1a75447a07419a84c3382ae5f76095c848"><div class="ttname"><a href="../../d3/d6f/boss__commander__sarannis_8cpp.html#a16774215bba3b38580ea51987d64cff1a75447a07419a84c3382ae5f76095c848">EMOTE_SUMMON</a></div><div class="ttdeci">@ EMOTE_SUMMON</div><div class="ttdef"><b>Definition:</b> boss_commander_sarannis.cpp:29</div></div>
+<div class="ttc" id="aboss__commander__sarannis_8cpp_html_a16774215bba3b38580ea51987d64cff1aa673e8c4b29ae3417b3968e0eee80e60"><div class="ttname"><a href="../../d3/d6f/boss__commander__sarannis_8cpp.html#a16774215bba3b38580ea51987d64cff1aa673e8c4b29ae3417b3968e0eee80e60">SAY_ARCANE_RESONANCE</a></div><div class="ttdeci">@ SAY_ARCANE_RESONANCE</div><div class="ttdef"><b>Definition:</b> boss_commander_sarannis.cpp:27</div></div>
+<div class="ttc" id="aboss__commander__sarannis_8cpp_html_a16774215bba3b38580ea51987d64cff1acebbfa1f13b8de4f039f5d550063c7bf"><div class="ttname"><a href="../../d3/d6f/boss__commander__sarannis_8cpp.html#a16774215bba3b38580ea51987d64cff1acebbfa1f13b8de4f039f5d550063c7bf">SAY_SUMMON</a></div><div class="ttdeci">@ SAY_SUMMON</div><div class="ttdef"><b>Definition:</b> boss_commander_sarannis.cpp:30</div></div>
+<div class="ttc" id="aboss__commander__sarannis_8cpp_html_a5bd342133be8c2137b831460acc9298cab51e1cf7ac8f6b643ed3a8ed1f14805b"><div class="ttname"><a href="../../d3/d6f/boss__commander__sarannis_8cpp.html#a5bd342133be8c2137b831460acc9298cab51e1cf7ac8f6b643ed3a8ed1f14805b">SPELL_SUMMON_REINFORCEMENTS</a></div><div class="ttdeci">@ SPELL_SUMMON_REINFORCEMENTS</div><div class="ttdef"><b>Definition:</b> boss_commander_sarannis.cpp:38</div></div>
+<div class="ttc" id="aboss__commander__sarannis_8cpp_html_a5bd342133be8c2137b831460acc9298cac46a34b6d0b5d9d017c91bdad513a7c9"><div class="ttname"><a href="../../d3/d6f/boss__commander__sarannis_8cpp.html#a5bd342133be8c2137b831460acc9298cac46a34b6d0b5d9d017c91bdad513a7c9">SPELL_ARCANE_DEVASTATION</a></div><div class="ttdeci">@ SPELL_ARCANE_DEVASTATION</div><div class="ttdef"><b>Definition:</b> boss_commander_sarannis.cpp:37</div></div>
+<div class="ttc" id="aboss__commander__sarannis_8cpp_html_a5bd342133be8c2137b831460acc9298cac8bc255ed3233eb02a9e85865427420b"><div class="ttname"><a href="../../d3/d6f/boss__commander__sarannis_8cpp.html#a5bd342133be8c2137b831460acc9298cac8bc255ed3233eb02a9e85865427420b">SPELL_ARCANE_RESONANCE</a></div><div class="ttdeci">@ SPELL_ARCANE_RESONANCE</div><div class="ttdef"><b>Definition:</b> boss_commander_sarannis.cpp:36</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_ae03ccfe1e27501ed9ccbfecdbd3c4e39"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">CreatureAI::UpdateVictim</a></div><div class="ttdeci">bool UpdateVictim()</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:268</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a348a472089a9be6210b58aace8fafa9f"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">UnitAI::DoMeleeAttackIfReady</a></div><div class="ttdeci">void DoMeleeAttackIfReady()</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:40</div></div>
+<div class="ttc" id="aclass_unit_html_a8bcfed25889f307b4849743956ae67fc"><div class="ttname"><a href="../../da/db7/class_unit.html#a8bcfed25889f307b4849743956ae67fc">Unit::HealthBelowPct</a></div><div class="ttdeci">bool HealthBelowPct(int32 pct) const</div><div class="ttdef"><b>Definition:</b> Unit.h:1442</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+<div class="ttc" id="aclass_unit_html_aae09d03a474ea5517d671e64dc393739"><div class="ttname"><a href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">Unit::GetVictim</a></div><div class="ttdeci">Unit * GetVictim() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1386</div></div>
+<div class="ttc" id="aclass_unit_html_ab78147cd520d2dac6be709b4c80a7de3"><div class="ttname"><a href="../../da/db7/class_unit.html#ab78147cd520d2dac6be709b4c80a7de3">Unit::HasUnitState</a></div><div class="ttdeci">bool HasUnitState(const uint32 f) const</div><div class="ttdef"><b>Definition:</b> Unit.h:1398</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Outland/TempestKeep/botanica/<a class="el" href="../../d3/d6f/boss__commander__sarannis_8cpp.html">boss_commander_sarannis.cpp</a></li>
+<li><a class="el" href="../../">boss_commander_sarannis.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -706,7 +793,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../da/d20/classboss__commander__sarannis.html">boss_commander_sarannis</a></li><li class="navelem"><a class="el" href="../../d4/dbe/structboss__commander__sarannis_1_1boss__commander__sarannis_a_i.html">boss_commander_sarannisAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:38 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:50 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

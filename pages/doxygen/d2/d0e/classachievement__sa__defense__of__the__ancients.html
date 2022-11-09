@@ -154,7 +154,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a80c704c939f54eee6655d68509598c42 inherit pro_methods_class_script_object"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d5d/class_script_object.html#a80c704c939f54eee6655d68509598c42">~ScriptObject</a> ()=default</td></tr>
 <tr class="separator:a80c704c939f54eee6655d68509598c42 inherit pro_methods_class_script_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a678cffdece32710a42a92db0c092f3a5" name="a678cffdece32710a42a92db0c092f3a5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a678cffdece32710a42a92db0c092f3a5">&#9670;&#160;</a></span>achievement_sa_defense_of_the_ancients()</h2>
 
@@ -177,7 +178,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  187</span>: <a class="code hl_class" href="../../d6/d44/class_achievement_criteria_script.html">AchievementCriteriaScript</a>(<span class="stringliteral">&quot;achievement_sa_defense_of_the_ancients&quot;</span>) { }</div>
+<div class="ttc" id="aclass_achievement_criteria_script_html"><div class="ttname"><a href="../../d6/d44/class_achievement_criteria_script.html">AchievementCriteriaScript</a></div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:975</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -222,11 +225,21 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d6/d44/class_achievement_criteria_script.html#a9fab6f158219db6d5a65b0b302cf285e">AchievementCriteriaScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  190</span>    {</div>
+<div class="line"><span class="lineno">  191</span>        <a class="code hl_class" href="../../d6/ddc/class_battleground.html">Battleground</a>* bg = source-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a5f17db78f9356bf239b7631ebc38fa2d">GetBattleground</a>();</div>
+<div class="line"><span class="lineno">  192</span>        <span class="keywordflow">return</span> bg &amp;&amp; bg-&gt;<a class="code hl_function" href="../../d6/ddc/class_battleground.html#adfd6af85ad435ecdab7129e810ba2319">GetBgTypeID</a>(<span class="keyword">true</span>) == <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#aaef9ddb244c12d22800aee24c3b637a2ac86b2f76ec73f994a93e5b74eabb75ab">BATTLEGROUND_SA</a> &amp;&amp; bg-&gt;<a class="code hl_function" href="../../d6/ddc/class_battleground.html#a433454b346105d74c55e2be3804ec09a">ToBattlegroundSA</a>()-&gt;<a class="code hl_function" href="../../d7/da7/class_battleground_s_a.html#a223ddb6603b1b526682c4d3f55a1705e">AllowDefenseOfTheAncients</a>(source);</div>
+<div class="line"><span class="lineno">  193</span>    }</div>
+<div class="ttc" id="a_shared_defines_8h_html_aaef9ddb244c12d22800aee24c3b637a2ac86b2f76ec73f994a93e5b74eabb75ab"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#aaef9ddb244c12d22800aee24c3b637a2ac86b2f76ec73f994a93e5b74eabb75ab">BATTLEGROUND_SA</a></div><div class="ttdeci">@ BATTLEGROUND_SA</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3461</div></div>
+<div class="ttc" id="aclass_battleground_html"><div class="ttname"><a href="../../d6/ddc/class_battleground.html">Battleground</a></div><div class="ttdef"><b>Definition:</b> Battleground.h:293</div></div>
+<div class="ttc" id="aclass_battleground_html_a433454b346105d74c55e2be3804ec09a"><div class="ttname"><a href="../../d6/ddc/class_battleground.html#a433454b346105d74c55e2be3804ec09a">Battleground::ToBattlegroundSA</a></div><div class="ttdeci">BattlegroundSA * ToBattlegroundSA()</div><div class="ttdef"><b>Definition:</b> Battleground.h:587</div></div>
+<div class="ttc" id="aclass_battleground_html_adfd6af85ad435ecdab7129e810ba2319"><div class="ttname"><a href="../../d6/ddc/class_battleground.html#adfd6af85ad435ecdab7129e810ba2319">Battleground::GetBgTypeID</a></div><div class="ttdeci">BattlegroundTypeId GetBgTypeID(bool GetRandom=false) const</div><div class="ttdef"><b>Definition:</b> Battleground.h:319</div></div>
+<div class="ttc" id="aclass_battleground_s_a_html_a223ddb6603b1b526682c4d3f55a1705e"><div class="ttname"><a href="../../d7/da7/class_battleground_s_a.html#a223ddb6603b1b526682c4d3f55a1705e">BattlegroundSA::AllowDefenseOfTheAncients</a></div><div class="ttdeci">bool AllowDefenseOfTheAncients(Player *source)</div><div class="ttdef"><b>Definition:</b> BattlegroundSA.cpp:1129</div></div>
+<div class="ttc" id="aclass_player_html_a5f17db78f9356bf239b7631ebc38fa2d"><div class="ttname"><a href="../../d8/d53/class_player.html#a5f17db78f9356bf239b7631ebc38fa2d">Player::GetBattleground</a></div><div class="ttdeci">Battleground * GetBattleground(bool create=false) const</div><div class="ttdef"><b>Definition:</b> Player.cpp:11913</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/World/<a class="el" href="../../d2/d2e/achievement__scripts_8cpp.html">achievement_scripts.cpp</a></li>
+<li><a class="el" href="../../">achievement_scripts.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -234,7 +247,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d2/d0e/classachievement__sa__defense__of__the__ancients.html">achievement_sa_defense_of_the_ancients</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:36 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:48 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

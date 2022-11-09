@@ -319,7 +319,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a5ab9bd10ed8736a816bfaf12c39bde59 inherit pro_methods_class_instance_script"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d83/class_instance_script.html#a5ab9bd10ed8736a816bfaf12c39bde59">GetBossSaveData</a> ()</td></tr>
 <tr class="separator:a5ab9bd10ed8736a816bfaf12c39bde59 inherit pro_methods_class_instance_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a15c6f3f16f9cfa1f9fc1b7a2c62bcc64" name="a15c6f3f16f9cfa1f9fc1b7a2c62bcc64"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a15c6f3f16f9cfa1f9fc1b7a2c62bcc64">&#9670;&#160;</a></span>instance_onyxias_lair_InstanceMapScript()</h2>
 
@@ -343,7 +344,10 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   39</span>: <a class="code hl_class" href="../../d8/d83/class_instance_script.html">InstanceScript</a>(pMap) {<a class="code hl_function" href="../../d9/dca/structinstance__onyxias__lair_1_1instance__onyxias__lair___instance_map_script.html#a5d109b5acfa2e21e3c50e35dcdf119dd">Initialize</a>();};</div>
+<div class="ttc" id="aclass_instance_script_html"><div class="ttname"><a href="../../d8/d83/class_instance_script.html">InstanceScript</a></div><div class="ttdef"><b>Definition:</b> InstanceScript.h:140</div></div>
+<div class="ttc" id="astructinstance__onyxias__lair_1_1instance__onyxias__lair___instance_map_script_html_a5d109b5acfa2e21e3c50e35dcdf119dd"><div class="ttname"><a href="../../d9/dca/structinstance__onyxias__lair_1_1instance__onyxias__lair___instance_map_script.html#a5d109b5acfa2e21e3c50e35dcdf119dd">instance_onyxias_lair::instance_onyxias_lair_InstanceMapScript::Initialize</a></div><div class="ttdeci">void Initialize() override</div><div class="ttdef"><b>Definition:</b> instance_onyxias_lair.cpp:45</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -394,7 +398,25 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d8/d83/class_instance_script.html#a2d682a63bb3099ffdc35517d004fe723">InstanceScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  141</span>        {</div>
+<div class="line"><span class="lineno">  142</span>            <span class="keywordflow">switch</span>(criteria_id)</div>
+<div class="line"><span class="lineno">  143</span>            {</div>
+<div class="line"><span class="lineno">  144</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d3/ddf/onyxias__lair_8h.html#aca087c1cb2fbca0c938185dd321856c4a57918d5eb6d9b6dad01b98eec717c611">ACHIEV_CRITERIA_MANY_WHELPS_10_PLAYER</a>:</div>
+<div class="line"><span class="lineno">  145</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d3/ddf/onyxias__lair_8h.html#aca087c1cb2fbca0c938185dd321856c4ab4cb5a7391642e00f98bf8c4feca4931">ACHIEV_CRITERIA_MANY_WHELPS_25_PLAYER</a>:</div>
+<div class="line"><span class="lineno">  146</span>                    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d9/dca/structinstance__onyxias__lair_1_1instance__onyxias__lair___instance_map_script.html#aea148b562a4f2cd752ac73240f902993">ManyWhelpsCounter</a> &gt;= 50;</div>
+<div class="line"><span class="lineno">  147</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d3/ddf/onyxias__lair_8h.html#aca087c1cb2fbca0c938185dd321856c4a7d5dc918b0b3edc2fc3863242904bb22">ACHIEV_CRITERIA_DEEP_BREATH_10_PLAYER</a>:</div>
+<div class="line"><span class="lineno">  148</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d3/ddf/onyxias__lair_8h.html#aca087c1cb2fbca0c938185dd321856c4a7c0f8695a55dfedf6c942dead4b86bb9">ACHIEV_CRITERIA_DEEP_BREATH_25_PLAYER</a>:</div>
+<div class="line"><span class="lineno">  149</span>                    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d9/dca/structinstance__onyxias__lair_1_1instance__onyxias__lair___instance_map_script.html#a96211e4e0e033e16d4de57b6e40f2023">bDeepBreath</a>;</div>
+<div class="line"><span class="lineno">  150</span>            }</div>
+<div class="line"><span class="lineno">  151</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  152</span>        }</div>
+<div class="ttc" id="aonyxias__lair_8h_html_aca087c1cb2fbca0c938185dd321856c4a57918d5eb6d9b6dad01b98eec717c611"><div class="ttname"><a href="../../d3/ddf/onyxias__lair_8h.html#aca087c1cb2fbca0c938185dd321856c4a57918d5eb6d9b6dad01b98eec717c611">ACHIEV_CRITERIA_MANY_WHELPS_10_PLAYER</a></div><div class="ttdeci">@ ACHIEV_CRITERIA_MANY_WHELPS_10_PLAYER</div><div class="ttdef"><b>Definition:</b> onyxias_lair.h:48</div></div>
+<div class="ttc" id="aonyxias__lair_8h_html_aca087c1cb2fbca0c938185dd321856c4a7c0f8695a55dfedf6c942dead4b86bb9"><div class="ttname"><a href="../../d3/ddf/onyxias__lair_8h.html#aca087c1cb2fbca0c938185dd321856c4a7c0f8695a55dfedf6c942dead4b86bb9">ACHIEV_CRITERIA_DEEP_BREATH_25_PLAYER</a></div><div class="ttdeci">@ ACHIEV_CRITERIA_DEEP_BREATH_25_PLAYER</div><div class="ttdef"><b>Definition:</b> onyxias_lair.h:51</div></div>
+<div class="ttc" id="aonyxias__lair_8h_html_aca087c1cb2fbca0c938185dd321856c4a7d5dc918b0b3edc2fc3863242904bb22"><div class="ttname"><a href="../../d3/ddf/onyxias__lair_8h.html#aca087c1cb2fbca0c938185dd321856c4a7d5dc918b0b3edc2fc3863242904bb22">ACHIEV_CRITERIA_DEEP_BREATH_10_PLAYER</a></div><div class="ttdeci">@ ACHIEV_CRITERIA_DEEP_BREATH_10_PLAYER</div><div class="ttdef"><b>Definition:</b> onyxias_lair.h:50</div></div>
+<div class="ttc" id="aonyxias__lair_8h_html_aca087c1cb2fbca0c938185dd321856c4ab4cb5a7391642e00f98bf8c4feca4931"><div class="ttname"><a href="../../d3/ddf/onyxias__lair_8h.html#aca087c1cb2fbca0c938185dd321856c4ab4cb5a7391642e00f98bf8c4feca4931">ACHIEV_CRITERIA_MANY_WHELPS_25_PLAYER</a></div><div class="ttdeci">@ ACHIEV_CRITERIA_MANY_WHELPS_25_PLAYER</div><div class="ttdef"><b>Definition:</b> onyxias_lair.h:49</div></div>
+<div class="ttc" id="astructinstance__onyxias__lair_1_1instance__onyxias__lair___instance_map_script_html_a96211e4e0e033e16d4de57b6e40f2023"><div class="ttname"><a href="../../d9/dca/structinstance__onyxias__lair_1_1instance__onyxias__lair___instance_map_script.html#a96211e4e0e033e16d4de57b6e40f2023">instance_onyxias_lair::instance_onyxias_lair_InstanceMapScript::bDeepBreath</a></div><div class="ttdeci">bool bDeepBreath</div><div class="ttdef"><b>Definition:</b> instance_onyxias_lair.cpp:43</div></div>
+<div class="ttc" id="astructinstance__onyxias__lair_1_1instance__onyxias__lair___instance_map_script_html_aea148b562a4f2cd752ac73240f902993"><div class="ttname"><a href="../../d9/dca/structinstance__onyxias__lair_1_1instance__onyxias__lair___instance_map_script.html#aea148b562a4f2cd752ac73240f902993">instance_onyxias_lair::instance_onyxias_lair_InstanceMapScript::ManyWhelpsCounter</a></div><div class="ttdeci">uint16 ManyWhelpsCounter</div><div class="ttdef"><b>Definition:</b> instance_onyxias_lair.cpp:42</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a9a1342e6196cf7f42ae1d9def8536e81" name="a9a1342e6196cf7f42ae1d9def8536e81"></a>
@@ -421,7 +443,19 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d8/d83/class_instance_script.html#aa0e2d9bf4d757aad09d4773259ad8583">InstanceScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   97</span>        {</div>
+<div class="line"><span class="lineno">   98</span>            <a class="code hl_define" href="../../da/d42/_instance_script_8h.html#a65ed3183971093dcebed99d1ec6d6d63">OUT_SAVE_INST_DATA</a>;</div>
+<div class="line"><span class="lineno">   99</span>            std::ostringstream saveStream;</div>
+<div class="line"><span class="lineno">  100</span>            saveStream &lt;&lt; <span class="stringliteral">&quot;O L &quot;</span> &lt;&lt; <a class="code hl_function" href="../../d8/d83/class_instance_script.html#a5ab9bd10ed8736a816bfaf12c39bde59">GetBossSaveData</a>();</div>
+<div class="line"><span class="lineno">  101</span>            <a class="code hl_variable" href="../../d9/dca/structinstance__onyxias__lair_1_1instance__onyxias__lair___instance_map_script.html#ad0b65a3cfccdf07d017757751f4e15fa">str_data</a> = saveStream.str();</div>
+<div class="line"><span class="lineno">  102</span>            <a class="code hl_define" href="../../da/d42/_instance_script_8h.html#a3a93295e3500f757163145c03e90db3d">OUT_SAVE_INST_DATA_COMPLETE</a>;</div>
+<div class="line"><span class="lineno">  103</span>            <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d9/dca/structinstance__onyxias__lair_1_1instance__onyxias__lair___instance_map_script.html#ad0b65a3cfccdf07d017757751f4e15fa">str_data</a>;</div>
+<div class="line"><span class="lineno">  104</span>        }</div>
+<div class="ttc" id="a_instance_script_8h_html_a3a93295e3500f757163145c03e90db3d"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a3a93295e3500f757163145c03e90db3d">OUT_SAVE_INST_DATA_COMPLETE</a></div><div class="ttdeci">#define OUT_SAVE_INST_DATA_COMPLETE</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:28</div></div>
+<div class="ttc" id="a_instance_script_8h_html_a65ed3183971093dcebed99d1ec6d6d63"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a65ed3183971093dcebed99d1ec6d6d63">OUT_SAVE_INST_DATA</a></div><div class="ttdeci">#define OUT_SAVE_INST_DATA</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:27</div></div>
+<div class="ttc" id="aclass_instance_script_html_a5ab9bd10ed8736a816bfaf12c39bde59"><div class="ttname"><a href="../../d8/d83/class_instance_script.html#a5ab9bd10ed8736a816bfaf12c39bde59">InstanceScript::GetBossSaveData</a></div><div class="ttdeci">std::string GetBossSaveData()</div><div class="ttdef"><b>Definition:</b> InstanceScript.cpp:357</div></div>
+<div class="ttc" id="astructinstance__onyxias__lair_1_1instance__onyxias__lair___instance_map_script_html_ad0b65a3cfccdf07d017757751f4e15fa"><div class="ttname"><a href="../../d9/dca/structinstance__onyxias__lair_1_1instance__onyxias__lair___instance_map_script.html#ad0b65a3cfccdf07d017757751f4e15fa">instance_onyxias_lair::instance_onyxias_lair_InstanceMapScript::str_data</a></div><div class="ttdeci">std::string str_data</div><div class="ttdef"><b>Definition:</b> instance_onyxias_lair.cpp:41</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a5d109b5acfa2e21e3c50e35dcdf119dd" name="a5d109b5acfa2e21e3c50e35dcdf119dd"></a>
@@ -448,7 +482,17 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d8/d83/class_instance_script.html#ae28a789e519af133bb744c796902294c">InstanceScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   46</span>        {</div>
+<div class="line"><span class="lineno">   47</span>            <a class="code hl_function" href="../../d8/d83/class_instance_script.html#a046e1b0124a2a0df9bc9557133365343">SetBossNumber</a>(<a class="code hl_define" href="../../da/d4c/violet__hold_8h.html#ac6cdc058851f958e83d8104f6ed3efe2">MAX_ENCOUNTER</a>);</div>
+<div class="line"><span class="lineno">   48</span>            <a class="code hl_variable" href="../../d9/dca/structinstance__onyxias__lair_1_1instance__onyxias__lair___instance_map_script.html#aea148b562a4f2cd752ac73240f902993">ManyWhelpsCounter</a> = 0;</div>
+<div class="line"><span class="lineno">   49</span>            <a class="code hl_variable" href="../../d9/dca/structinstance__onyxias__lair_1_1instance__onyxias__lair___instance_map_script.html#a96211e4e0e033e16d4de57b6e40f2023">bDeepBreath</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   50</span>            <a class="code hl_function" href="../../d8/d83/class_instance_script.html#afe1067ff1ff6ea7e6e8c2f34d7fe2d7b">LoadObjectData</a>(<a class="code hl_variable" href="../../dc/dbd/instance__onyxias__lair_8cpp.html#a412286b689bd324fedd65ddd8dde8afb">creatureData</a>, <span class="keyword">nullptr</span>);</div>
+<div class="line"><span class="lineno">   51</span>        }</div>
+<div class="ttc" id="aclass_instance_script_html_a046e1b0124a2a0df9bc9557133365343"><div class="ttname"><a href="../../d8/d83/class_instance_script.html#a046e1b0124a2a0df9bc9557133365343">InstanceScript::SetBossNumber</a></div><div class="ttdeci">void SetBossNumber(uint32 number)</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:258</div></div>
+<div class="ttc" id="aclass_instance_script_html_afe1067ff1ff6ea7e6e8c2f34d7fe2d7b"><div class="ttname"><a href="../../d8/d83/class_instance_script.html#afe1067ff1ff6ea7e6e8c2f34d7fe2d7b">InstanceScript::LoadObjectData</a></div><div class="ttdeci">void LoadObjectData(ObjectData const *creatureData, ObjectData const *gameObjectData)</div><div class="ttdef"><b>Definition:</b> InstanceScript.cpp:160</div></div>
+<div class="ttc" id="ainstance__onyxias__lair_8cpp_html_a412286b689bd324fedd65ddd8dde8afb"><div class="ttname"><a href="../../dc/dbd/instance__onyxias__lair_8cpp.html#a412286b689bd324fedd65ddd8dde8afb">creatureData</a></div><div class="ttdeci">ObjectData const creatureData[]</div><div class="ttdef"><b>Definition:</b> instance_onyxias_lair.cpp:22</div></div>
+<div class="ttc" id="aviolet__hold_8h_html_ac6cdc058851f958e83d8104f6ed3efe2"><div class="ttname"><a href="../../da/d4c/violet__hold_8h.html#ac6cdc058851f958e83d8104f6ed3efe2">MAX_ENCOUNTER</a></div><div class="ttdeci">#define MAX_ENCOUNTER</div><div class="ttdef"><b>Definition:</b> violet_hold.h:21</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac947ffa2005f378c29feb4679df71000" name="ac947ffa2005f378c29feb4679df71000"></a>
@@ -476,7 +520,50 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d8/d83/class_instance_script.html#ad8be0d1c384b505f5b3fa1ab55eb1f61">InstanceScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  107</span>        {</div>
+<div class="line"><span class="lineno">  108</span>            <span class="keywordflow">if</span> (!in)</div>
+<div class="line"><span class="lineno">  109</span>            {</div>
+<div class="line"><span class="lineno">  110</span>                <a class="code hl_define" href="../../da/d42/_instance_script_8h.html#a141fd6fe34ebbd5c3ad507db42f41b4a">OUT_LOAD_INST_DATA_FAIL</a>;</div>
+<div class="line"><span class="lineno">  111</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  112</span>            }</div>
+<div class="line"><span class="lineno">  113</span> </div>
+<div class="line"><span class="lineno">  114</span>            <a class="code hl_define" href="../../da/d42/_instance_script_8h.html#aafbf0073420e9a897ec0f243f4793a0f">OUT_LOAD_INST_DATA</a>(in);</div>
+<div class="line"><span class="lineno">  115</span> </div>
+<div class="line"><span class="lineno">  116</span>            <span class="keywordtype">char</span> dataHead1, dataHead2;</div>
+<div class="line"><span class="lineno">  117</span>            <a class="code hl_typedef" href="../../db/d35/_define_8h.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> data0;</div>
+<div class="line"><span class="lineno">  118</span>            std::istringstream loadStream(in);</div>
+<div class="line"><span class="lineno">  119</span>            loadStream &gt;&gt; dataHead1 &gt;&gt; dataHead2 &gt;&gt; data0;</div>
+<div class="line"><span class="lineno">  120</span> </div>
+<div class="line"><span class="lineno">  121</span>            <span class="keywordflow">if</span> (dataHead1 == <span class="charliteral">&#39;O&#39;</span> &amp;&amp; dataHead2 == <span class="charliteral">&#39;L&#39;</span>)</div>
+<div class="line"><span class="lineno">  122</span>            {</div>
+<div class="line"><span class="lineno">  123</span>                <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> i = 0; i &lt; <a class="code hl_define" href="../../da/d4c/violet__hold_8h.html#ac6cdc058851f958e83d8104f6ed3efe2">MAX_ENCOUNTER</a>; ++i)</div>
+<div class="line"><span class="lineno">  124</span>                {</div>
+<div class="line"><span class="lineno">  125</span>                    <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> tmpState;</div>
+<div class="line"><span class="lineno">  126</span>                    loadStream &gt;&gt; tmpState;</div>
+<div class="line"><span class="lineno">  127</span>                    <span class="keywordflow">if</span> (tmpState == <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012">IN_PROGRESS</a> || tmpState == <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a936c4a5547a9360243178f726f6b2715">FAIL</a> || tmpState &gt; <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694aaa5259d84d06214a7b0503d636790465">SPECIAL</a>)</div>
+<div class="line"><span class="lineno">  128</span>                    {</div>
+<div class="line"><span class="lineno">  129</span>                        tmpState = <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694ae7d82dfe80ea0bd4feea8ee49ea2eab5">NOT_STARTED</a>;</div>
+<div class="line"><span class="lineno">  130</span>                    }</div>
+<div class="line"><span class="lineno">  131</span>                    <a class="code hl_function" href="../../d9/dca/structinstance__onyxias__lair_1_1instance__onyxias__lair___instance_map_script.html#a2a28e42ec49fce2ef47288c1ad4b6e61">SetBossState</a>(i, <a class="code hl_enumeration" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694">EncounterState</a>(tmpState));</div>
+<div class="line"><span class="lineno">  132</span>                }</div>
+<div class="line"><span class="lineno">  133</span>            }</div>
+<div class="line"><span class="lineno">  134</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  135</span>                <a class="code hl_define" href="../../da/d42/_instance_script_8h.html#a141fd6fe34ebbd5c3ad507db42f41b4a">OUT_LOAD_INST_DATA_FAIL</a>;</div>
+<div class="line"><span class="lineno">  136</span> </div>
+<div class="line"><span class="lineno">  137</span>            <a class="code hl_define" href="../../da/d42/_instance_script_8h.html#a490e19560f068912b0e3dbd61c689b44">OUT_LOAD_INST_DATA_COMPLETE</a>;</div>
+<div class="line"><span class="lineno">  138</span>        }</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="a_define_8h_html_ad9c79638db63f1dfe2b085743b5cbf7b"><div class="ttname"><a href="../../db/d35/_define_8h.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a></div><div class="ttdeci">std::uint16_t uint16</div><div class="ttdef"><b>Definition:</b> Define.h:109</div></div>
+<div class="ttc" id="a_instance_script_8h_html_a141fd6fe34ebbd5c3ad507db42f41b4a"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a141fd6fe34ebbd5c3ad507db42f41b4a">OUT_LOAD_INST_DATA_FAIL</a></div><div class="ttdeci">#define OUT_LOAD_INST_DATA_FAIL</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:31</div></div>
+<div class="ttc" id="a_instance_script_8h_html_a1c28341208eeb4bdc8237e8ceac88694"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694">EncounterState</a></div><div class="ttdeci">EncounterState</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:55</div></div>
+<div class="ttc" id="a_instance_script_8h_html_a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a643cea6438bbca00e218a0b1c05e1012">IN_PROGRESS</a></div><div class="ttdeci">@ IN_PROGRESS</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:57</div></div>
+<div class="ttc" id="a_instance_script_8h_html_a1c28341208eeb4bdc8237e8ceac88694a936c4a5547a9360243178f726f6b2715"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a936c4a5547a9360243178f726f6b2715">FAIL</a></div><div class="ttdeci">@ FAIL</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:58</div></div>
+<div class="ttc" id="a_instance_script_8h_html_a1c28341208eeb4bdc8237e8ceac88694aaa5259d84d06214a7b0503d636790465"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694aaa5259d84d06214a7b0503d636790465">SPECIAL</a></div><div class="ttdeci">@ SPECIAL</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:60</div></div>
+<div class="ttc" id="a_instance_script_8h_html_a1c28341208eeb4bdc8237e8ceac88694ae7d82dfe80ea0bd4feea8ee49ea2eab5"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694ae7d82dfe80ea0bd4feea8ee49ea2eab5">NOT_STARTED</a></div><div class="ttdeci">@ NOT_STARTED</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:56</div></div>
+<div class="ttc" id="a_instance_script_8h_html_a490e19560f068912b0e3dbd61c689b44"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a490e19560f068912b0e3dbd61c689b44">OUT_LOAD_INST_DATA_COMPLETE</a></div><div class="ttdeci">#define OUT_LOAD_INST_DATA_COMPLETE</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:30</div></div>
+<div class="ttc" id="a_instance_script_8h_html_aafbf0073420e9a897ec0f243f4793a0f"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#aafbf0073420e9a897ec0f243f4793a0f">OUT_LOAD_INST_DATA</a></div><div class="ttdeci">#define OUT_LOAD_INST_DATA(a)</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:29</div></div>
+<div class="ttc" id="astructinstance__onyxias__lair_1_1instance__onyxias__lair___instance_map_script_html_a2a28e42ec49fce2ef47288c1ad4b6e61"><div class="ttname"><a href="../../d9/dca/structinstance__onyxias__lair_1_1instance__onyxias__lair___instance_map_script.html#a2a28e42ec49fce2ef47288c1ad4b6e61">instance_onyxias_lair::instance_onyxias_lair_InstanceMapScript::SetBossState</a></div><div class="ttdeci">bool SetBossState(uint32 type, EncounterState state) override</div><div class="ttdef"><b>Definition:</b> instance_onyxias_lair.cpp:67</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a1e99600992673d165382d99236e0c59f" name="a1e99600992673d165382d99236e0c59f"></a>
@@ -504,7 +591,26 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d8/d83/class_instance_script.html#a95f23d1bff59799247babdd0d077bb7c">InstanceScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   54</span>        {</div>
+<div class="line"><span class="lineno">   55</span>            <span class="keywordflow">switch</span> (go-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>())</div>
+<div class="line"><span class="lineno">   56</span>            {</div>
+<div class="line"><span class="lineno">   57</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d3/ddf/onyxias__lair_8h.html#a0b356f44d43edb1bff30f404c9469250adf4548283b784850a8154cefa0fd360d">GO_WHELP_SPAWNER</a>:</div>
+<div class="line"><span class="lineno">   58</span>                    go-&gt;<a class="code hl_function" href="../../d0/dd1/class_game_object.html#aca9173ae7fbd46664919d3d1caef4770">CastSpell</a>((<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>*)<span class="keyword">nullptr</span>, 17646);</div>
+<div class="line"><span class="lineno">   59</span>                    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* onyxia = <a class="code hl_function" href="../../d8/d83/class_instance_script.html#a1541c403bcc65b54c0a2c523c8eaf0b1">GetCreature</a>(<a class="code hl_enumvalue" href="../../d3/ddf/onyxias__lair_8h.html#a7395e25d8049b2c60a1c7191d197f5cca8fddf4be448f687691188b276d390817">DATA_ONYXIA</a>))</div>
+<div class="line"><span class="lineno">   60</span>                    {</div>
+<div class="line"><span class="lineno">   61</span>                        onyxia-&gt;AI()-&gt;DoAction(-1);</div>
+<div class="line"><span class="lineno">   62</span>                    }</div>
+<div class="line"><span class="lineno">   63</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   64</span>            }</div>
+<div class="line"><span class="lineno">   65</span>        }</div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_game_object_html_aca9173ae7fbd46664919d3d1caef4770"><div class="ttname"><a href="../../d0/dd1/class_game_object.html#aca9173ae7fbd46664919d3d1caef4770">GameObject::CastSpell</a></div><div class="ttdeci">void CastSpell(Unit *target, uint32 spell)</div><div class="ttdef"><b>Definition:</b> GameObject.cpp:2054</div></div>
+<div class="ttc" id="aclass_instance_script_html_a1541c403bcc65b54c0a2c523c8eaf0b1"><div class="ttname"><a href="../../d8/d83/class_instance_script.html#a1541c403bcc65b54c0a2c523c8eaf0b1">InstanceScript::GetCreature</a></div><div class="ttdeci">Creature * GetCreature(uint32 type)</div><div class="ttdef"><b>Definition:</b> InstanceScript.cpp:98</div></div>
+<div class="ttc" id="aclass_object_html_aa627fe2967ed0e0ed1d8aeeb4365a961"><div class="ttname"><a href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">Object::GetEntry</a></div><div class="ttdeci">uint32 GetEntry() const</div><div class="ttdef"><b>Definition:</b> Object.h:109</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aonyxias__lair_8h_html_a0b356f44d43edb1bff30f404c9469250adf4548283b784850a8154cefa0fd360d"><div class="ttname"><a href="../../d3/ddf/onyxias__lair_8h.html#a0b356f44d43edb1bff30f404c9469250adf4548283b784850a8154cefa0fd360d">GO_WHELP_SPAWNER</a></div><div class="ttdeci">@ GO_WHELP_SPAWNER</div><div class="ttdef"><b>Definition:</b> onyxias_lair.h:42</div></div>
+<div class="ttc" id="aonyxias__lair_8h_html_a7395e25d8049b2c60a1c7191d197f5cca8fddf4be448f687691188b276d390817"><div class="ttname"><a href="../../d3/ddf/onyxias__lair_8h.html#a7395e25d8049b2c60a1c7191d197f5cca8fddf4be448f687691188b276d390817">DATA_ONYXIA</a></div><div class="ttdeci">@ DATA_ONYXIA</div><div class="ttdef"><b>Definition:</b> onyxias_lair.h:27</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2a28e42ec49fce2ef47288c1ad4b6e61" name="a2a28e42ec49fce2ef47288c1ad4b6e61"></a>
@@ -542,7 +648,22 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d8/d83/class_instance_script.html#a04fbee37682f3a3e08a9ad726eb0223c">InstanceScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   68</span>        {</div>
+<div class="line"><span class="lineno">   69</span>            <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d8/d83/class_instance_script.html#a04fbee37682f3a3e08a9ad726eb0223c">InstanceScript::SetBossState</a>(type, state))</div>
+<div class="line"><span class="lineno">   70</span>            {</div>
+<div class="line"><span class="lineno">   71</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   72</span>            }</div>
+<div class="line"><span class="lineno">   73</span> </div>
+<div class="line"><span class="lineno">   74</span>            <span class="keywordflow">if</span> (type == <a class="code hl_enumvalue" href="../../d3/ddf/onyxias__lair_8h.html#a7395e25d8049b2c60a1c7191d197f5cca8fddf4be448f687691188b276d390817">DATA_ONYXIA</a> &amp;&amp; state == <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694ae7d82dfe80ea0bd4feea8ee49ea2eab5">NOT_STARTED</a>)</div>
+<div class="line"><span class="lineno">   75</span>            {</div>
+<div class="line"><span class="lineno">   76</span>                <a class="code hl_variable" href="../../d9/dca/structinstance__onyxias__lair_1_1instance__onyxias__lair___instance_map_script.html#aea148b562a4f2cd752ac73240f902993">ManyWhelpsCounter</a> = 0;</div>
+<div class="line"><span class="lineno">   77</span>                <a class="code hl_variable" href="../../d9/dca/structinstance__onyxias__lair_1_1instance__onyxias__lair___instance_map_script.html#a96211e4e0e033e16d4de57b6e40f2023">bDeepBreath</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   78</span>            }</div>
+<div class="line"><span class="lineno">   79</span> </div>
+<div class="line"><span class="lineno">   80</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   81</span>        }</div>
+<div class="ttc" id="aclass_instance_script_html_a04fbee37682f3a3e08a9ad726eb0223c"><div class="ttname"><a href="../../d8/d83/class_instance_script.html#a04fbee37682f3a3e08a9ad726eb0223c">InstanceScript::SetBossState</a></div><div class="ttdeci">virtual bool SetBossState(uint32 id, EncounterState state)</div><div class="ttdef"><b>Definition:</b> InstanceScript.cpp:305</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ac5df2ecb9f88dbedbb1f59ad2bdc8b96" name="ac5df2ecb9f88dbedbb1f59ad2bdc8b96"></a>
@@ -580,7 +701,20 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../df/dad/class_zone_script.html#a949e67ea24c7e4b70a20806952735576">ZoneScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   84</span>        {</div>
+<div class="line"><span class="lineno">   85</span>            <span class="keywordflow">switch</span> (uiType)</div>
+<div class="line"><span class="lineno">   86</span>            {</div>
+<div class="line"><span class="lineno">   87</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d3/ddf/onyxias__lair_8h.html#a7395e25d8049b2c60a1c7191d197f5cca620ba8d85c596c11f1df0132b0117fbc">DATA_WHELP_SUMMONED</a>:</div>
+<div class="line"><span class="lineno">   88</span>                    ++<a class="code hl_variable" href="../../d9/dca/structinstance__onyxias__lair_1_1instance__onyxias__lair___instance_map_script.html#aea148b562a4f2cd752ac73240f902993">ManyWhelpsCounter</a>;</div>
+<div class="line"><span class="lineno">   89</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   90</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d3/ddf/onyxias__lair_8h.html#a7395e25d8049b2c60a1c7191d197f5cca3678a84e6e3ed1c831e230a816a5475d">DATA_DEEP_BREATH_FAILED</a>:</div>
+<div class="line"><span class="lineno">   91</span>                    <a class="code hl_variable" href="../../d9/dca/structinstance__onyxias__lair_1_1instance__onyxias__lair___instance_map_script.html#a96211e4e0e033e16d4de57b6e40f2023">bDeepBreath</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   92</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   93</span>            }</div>
+<div class="line"><span class="lineno">   94</span>        }</div>
+<div class="ttc" id="aonyxias__lair_8h_html_a7395e25d8049b2c60a1c7191d197f5cca3678a84e6e3ed1c831e230a816a5475d"><div class="ttname"><a href="../../d3/ddf/onyxias__lair_8h.html#a7395e25d8049b2c60a1c7191d197f5cca3678a84e6e3ed1c831e230a816a5475d">DATA_DEEP_BREATH_FAILED</a></div><div class="ttdeci">@ DATA_DEEP_BREATH_FAILED</div><div class="ttdef"><b>Definition:</b> onyxias_lair.h:30</div></div>
+<div class="ttc" id="aonyxias__lair_8h_html_a7395e25d8049b2c60a1c7191d197f5cca620ba8d85c596c11f1df0132b0117fbc"><div class="ttname"><a href="../../d3/ddf/onyxias__lair_8h.html#a7395e25d8049b2c60a1c7191d197f5cca620ba8d85c596c11f1df0132b0117fbc">DATA_WHELP_SUMMONED</a></div><div class="ttdeci">@ DATA_WHELP_SUMMONED</div><div class="ttdef"><b>Definition:</b> onyxias_lair.h:29</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -627,7 +761,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Kalimdor/OnyxiasLair/<a class="el" href="../../dc/dbd/instance__onyxias__lair_8cpp.html">instance_onyxias_lair.cpp</a></li>
+<li><a class="el" href="../../">instance_onyxias_lair.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -635,7 +769,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d6/dec/classinstance__onyxias__lair.html">instance_onyxias_lair</a></li><li class="navelem"><a class="el" href="../../d9/dca/structinstance__onyxias__lair_1_1instance__onyxias__lair___instance_map_script.html">instance_onyxias_lair_InstanceMapScript</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:46 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:00 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

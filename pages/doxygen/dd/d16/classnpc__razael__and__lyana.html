@@ -181,7 +181,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a2d6cf85d1eb98438b5022804296eff11 inherit pro_methods_class_updatable_script"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dff/class_updatable_script.html#a2d6cf85d1eb98438b5022804296eff11">UpdatableScript</a> ()=default</td></tr>
 <tr class="separator:a2d6cf85d1eb98438b5022804296eff11 inherit pro_methods_class_updatable_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aec7257a1136a3580e2b4542e032429d6" name="aec7257a1136a3580e2b4542e032429d6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aec7257a1136a3580e2b4542e032429d6">&#9670;&#160;</a></span>npc_razael_and_lyana()</h2>
 
@@ -204,7 +205,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  361</span>: <a class="code hl_class" href="../../d5/dca/class_creature_script.html">CreatureScript</a>(<span class="stringliteral">&quot;npc_razael_and_lyana&quot;</span>) { }</div>
+<div class="ttc" id="aclass_creature_script_html"><div class="ttname"><a href="../../d5/dca/class_creature_script.html">CreatureScript</a></div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:718</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -243,7 +246,51 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d5/dca/class_creature_script.html#a6268b132444845302ada504f48629a4f">CreatureScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  364</span>    {</div>
+<div class="line"><span class="lineno">  365</span>        <span class="keywordflow">if</span> (creature-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a66aca559340b09926d956b58773398cb">IsQuestGiver</a>())</div>
+<div class="line"><span class="lineno">  366</span>            player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#aa352798726d935f9e76f97137e47ee33">PrepareQuestMenu</a>(creature-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>());</div>
+<div class="line"><span class="lineno">  367</span> </div>
+<div class="line"><span class="lineno">  368</span>        <span class="keywordflow">if</span> (player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#ab98c62b0161d702e4219c8277f8f5349">GetQuestStatus</a>(<a class="code hl_enumvalue" href="../../d1/d77/zone__howling__fjord_8cpp.html#a7fbd4804d568fc6fbf46da35d3c3ffbca7babf6a26e3dc43b61fa6284e07f955a">QUEST_REPORTS_FROM_THE_FIELD</a>) == <a class="code hl_enumvalue" href="../../d2/dc8/_quest_def_8h.html#abfc87d39d69176ad25e800fb4aa6f0d8a9d062f65bead287785d9b540987bb484">QUEST_STATUS_INCOMPLETE</a>)</div>
+<div class="line"><span class="lineno">  369</span>            <span class="keywordflow">switch</span> (creature-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>())</div>
+<div class="line"><span class="lineno">  370</span>            {</div>
+<div class="line"><span class="lineno">  371</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/d77/zone__howling__fjord_8cpp.html#a7fbd4804d568fc6fbf46da35d3c3ffbcae04ab9caff2861d2f49da40755b84e1c">NPC_RAZAEL</a>:</div>
+<div class="line"><span class="lineno">  372</span>                    <span class="keywordflow">if</span> (!player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a6313d888ff224476aa988bd1f0f2ea3c">GetReqKillOrCastCurrentCount</a>(<a class="code hl_enumvalue" href="../../d1/d77/zone__howling__fjord_8cpp.html#a7fbd4804d568fc6fbf46da35d3c3ffbca7babf6a26e3dc43b61fa6284e07f955a">QUEST_REPORTS_FROM_THE_FIELD</a>, <a class="code hl_enumvalue" href="../../d1/d77/zone__howling__fjord_8cpp.html#a7fbd4804d568fc6fbf46da35d3c3ffbcae04ab9caff2861d2f49da40755b84e1c">NPC_RAZAEL</a>))</div>
+<div class="line"><span class="lineno">  373</span>                    {</div>
+<div class="line"><span class="lineno">  374</span>                        <a class="code hl_function" href="../../d6/df2/_scripted_gossip_8cpp.html#a1d54254ae4ddb1bb0e9e2c74dffe5bf5">AddGossipItemFor</a>(player, 8870, 0, <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da650f01832933ccb3735a38413b779452">GOSSIP_SENDER_MAIN</a>, <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36daf5e2b26c787b79ef696a69604bb85fd8">GOSSIP_ACTION_INFO_DEF</a> + 1);</div>
+<div class="line"><span class="lineno">  375</span>                        <a class="code hl_function" href="../../d6/df2/_scripted_gossip_8cpp.html#a18599cfc6649557de0d505ed4d4a0210">SendGossipMenuFor</a>(player, <a class="code hl_enumvalue" href="../../d1/d77/zone__howling__fjord_8cpp.html#a7fbd4804d568fc6fbf46da35d3c3ffbca65b20fa216028b36c1a98b0af4e4239a">GOSSIP_TEXTID_RAZAEL1</a>, creature-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>());</div>
+<div class="line"><span class="lineno">  376</span>                        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  377</span>                    }</div>
+<div class="line"><span class="lineno">  378</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  379</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/d77/zone__howling__fjord_8cpp.html#a7fbd4804d568fc6fbf46da35d3c3ffbca5efa419daacf74521ba680f68bed979e">NPC_LYANA</a>:</div>
+<div class="line"><span class="lineno">  380</span>                    <span class="keywordflow">if</span> (!player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a6313d888ff224476aa988bd1f0f2ea3c">GetReqKillOrCastCurrentCount</a>(<a class="code hl_enumvalue" href="../../d1/d77/zone__howling__fjord_8cpp.html#a7fbd4804d568fc6fbf46da35d3c3ffbca7babf6a26e3dc43b61fa6284e07f955a">QUEST_REPORTS_FROM_THE_FIELD</a>, <a class="code hl_enumvalue" href="../../d1/d77/zone__howling__fjord_8cpp.html#a7fbd4804d568fc6fbf46da35d3c3ffbca5efa419daacf74521ba680f68bed979e">NPC_LYANA</a>))</div>
+<div class="line"><span class="lineno">  381</span>                    {</div>
+<div class="line"><span class="lineno">  382</span>                        <a class="code hl_function" href="../../d6/df2/_scripted_gossip_8cpp.html#a1d54254ae4ddb1bb0e9e2c74dffe5bf5">AddGossipItemFor</a>(player, 8879, 0, <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da650f01832933ccb3735a38413b779452">GOSSIP_SENDER_MAIN</a>, <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36daf5e2b26c787b79ef696a69604bb85fd8">GOSSIP_ACTION_INFO_DEF</a> + 2);</div>
+<div class="line"><span class="lineno">  383</span>                        <a class="code hl_function" href="../../d6/df2/_scripted_gossip_8cpp.html#a18599cfc6649557de0d505ed4d4a0210">SendGossipMenuFor</a>(player, <a class="code hl_enumvalue" href="../../d1/d77/zone__howling__fjord_8cpp.html#a7fbd4804d568fc6fbf46da35d3c3ffbca141f525bef4cf496e2f8aaf8cfa2799b">GOSSIP_TEXTID_LYANA1</a>, creature-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>());</div>
+<div class="line"><span class="lineno">  384</span>                        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  385</span>                    }</div>
+<div class="line"><span class="lineno">  386</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  387</span>            }</div>
+<div class="line"><span class="lineno">  388</span>        <a class="code hl_function" href="../../d6/df2/_scripted_gossip_8cpp.html#a18599cfc6649557de0d505ed4d4a0210">SendGossipMenuFor</a>(player, player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#ae22a64659346d2a5017d4b47e796146c">GetGossipTextId</a>(creature), creature-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>());</div>
+<div class="line"><span class="lineno">  389</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  390</span>    }</div>
+<div class="ttc" id="a_quest_def_8h_html_abfc87d39d69176ad25e800fb4aa6f0d8a9d062f65bead287785d9b540987bb484"><div class="ttname"><a href="../../d2/dc8/_quest_def_8h.html#abfc87d39d69176ad25e800fb4aa6f0d8a9d062f65bead287785d9b540987bb484">QUEST_STATUS_INCOMPLETE</a></div><div class="ttdeci">@ QUEST_STATUS_INCOMPLETE</div><div class="ttdef"><b>Definition:</b> QuestDef.h:103</div></div>
+<div class="ttc" id="a_scripted_gossip_8cpp_html_a18599cfc6649557de0d505ed4d4a0210"><div class="ttname"><a href="../../d6/df2/_scripted_gossip_8cpp.html#a18599cfc6649557de0d505ed4d4a0210">SendGossipMenuFor</a></div><div class="ttdeci">void SendGossipMenuFor(Player *player, uint32 npcTextID, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.cpp:45</div></div>
+<div class="ttc" id="a_scripted_gossip_8cpp_html_a1d54254ae4ddb1bb0e9e2c74dffe5bf5"><div class="ttname"><a href="../../d6/df2/_scripted_gossip_8cpp.html#a1d54254ae4ddb1bb0e9e2c74dffe5bf5">AddGossipItemFor</a></div><div class="ttdeci">void AddGossipItemFor(Player *player, uint32 icon, std::string const &amp;text, uint32 sender, uint32 action)</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.cpp:28</div></div>
+<div class="ttc" id="a_scripted_gossip_8h_html_ac61a667541c1c7c94a9aeb407e34d36da650f01832933ccb3735a38413b779452"><div class="ttname"><a href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36da650f01832933ccb3735a38413b779452">GOSSIP_SENDER_MAIN</a></div><div class="ttdeci">@ GOSSIP_SENDER_MAIN</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.h:70</div></div>
+<div class="ttc" id="a_scripted_gossip_8h_html_ac61a667541c1c7c94a9aeb407e34d36daf5e2b26c787b79ef696a69604bb85fd8"><div class="ttname"><a href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36daf5e2b26c787b79ef696a69604bb85fd8">GOSSIP_ACTION_INFO_DEF</a></div><div class="ttdeci">@ GOSSIP_ACTION_INFO_DEF</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.h:68</div></div>
+<div class="ttc" id="aclass_object_html_aa627fe2967ed0e0ed1d8aeeb4365a961"><div class="ttname"><a href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">Object::GetEntry</a></div><div class="ttdeci">uint32 GetEntry() const</div><div class="ttdef"><b>Definition:</b> Object.h:109</div></div>
+<div class="ttc" id="aclass_object_html_ad23b997e2442fa6a6228ba73a7ecc138"><div class="ttname"><a href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">Object::GetGUID</a></div><div class="ttdeci">static ObjectGuid GetGUID(Object const *o)</div><div class="ttdef"><b>Definition:</b> Object.h:106</div></div>
+<div class="ttc" id="aclass_player_html_a6313d888ff224476aa988bd1f0f2ea3c"><div class="ttname"><a href="../../d8/d53/class_player.html#a6313d888ff224476aa988bd1f0f2ea3c">Player::GetReqKillOrCastCurrentCount</a></div><div class="ttdeci">uint16 GetReqKillOrCastCurrentCount(uint32 quest_id, int32 entry)</div><div class="ttdef"><b>Definition:</b> PlayerQuest.cpp:1728</div></div>
+<div class="ttc" id="aclass_player_html_aa352798726d935f9e76f97137e47ee33"><div class="ttname"><a href="../../d8/d53/class_player.html#aa352798726d935f9e76f97137e47ee33">Player::PrepareQuestMenu</a></div><div class="ttdeci">void PrepareQuestMenu(ObjectGuid guid)</div><div class="ttdef"><b>Definition:</b> PlayerQuest.cpp:38</div></div>
+<div class="ttc" id="aclass_player_html_ab98c62b0161d702e4219c8277f8f5349"><div class="ttname"><a href="../../d8/d53/class_player.html#ab98c62b0161d702e4219c8277f8f5349">Player::GetQuestStatus</a></div><div class="ttdeci">QuestStatus GetQuestStatus(uint32 quest_id) const</div><div class="ttdef"><b>Definition:</b> PlayerQuest.cpp:1407</div></div>
+<div class="ttc" id="aclass_player_html_ae22a64659346d2a5017d4b47e796146c"><div class="ttname"><a href="../../d8/d53/class_player.html#ae22a64659346d2a5017d4b47e796146c">Player::GetGossipTextId</a></div><div class="ttdeci">uint32 GetGossipTextId(uint32 menuId, WorldObject *source)</div><div class="ttdef"><b>Definition:</b> PlayerGossip.cpp:405</div></div>
+<div class="ttc" id="aclass_unit_html_a66aca559340b09926d956b58773398cb"><div class="ttname"><a href="../../da/db7/class_unit.html#a66aca559340b09926d956b58773398cb">Unit::IsQuestGiver</a></div><div class="ttdeci">bool IsQuestGiver() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1650</div></div>
+<div class="ttc" id="azone__howling__fjord_8cpp_html_a7fbd4804d568fc6fbf46da35d3c3ffbca141f525bef4cf496e2f8aaf8cfa2799b"><div class="ttname"><a href="../../d1/d77/zone__howling__fjord_8cpp.html#a7fbd4804d568fc6fbf46da35d3c3ffbca141f525bef4cf496e2f8aaf8cfa2799b">GOSSIP_TEXTID_LYANA1</a></div><div class="ttdeci">@ GOSSIP_TEXTID_LYANA1</div><div class="ttdef"><b>Definition:</b> zone_howling_fjord.cpp:354</div></div>
+<div class="ttc" id="azone__howling__fjord_8cpp_html_a7fbd4804d568fc6fbf46da35d3c3ffbca5efa419daacf74521ba680f68bed979e"><div class="ttname"><a href="../../d1/d77/zone__howling__fjord_8cpp.html#a7fbd4804d568fc6fbf46da35d3c3ffbca5efa419daacf74521ba680f68bed979e">NPC_LYANA</a></div><div class="ttdeci">@ NPC_LYANA</div><div class="ttdef"><b>Definition:</b> zone_howling_fjord.cpp:351</div></div>
+<div class="ttc" id="azone__howling__fjord_8cpp_html_a7fbd4804d568fc6fbf46da35d3c3ffbca65b20fa216028b36c1a98b0af4e4239a"><div class="ttname"><a href="../../d1/d77/zone__howling__fjord_8cpp.html#a7fbd4804d568fc6fbf46da35d3c3ffbca65b20fa216028b36c1a98b0af4e4239a">GOSSIP_TEXTID_RAZAEL1</a></div><div class="ttdeci">@ GOSSIP_TEXTID_RAZAEL1</div><div class="ttdef"><b>Definition:</b> zone_howling_fjord.cpp:352</div></div>
+<div class="ttc" id="azone__howling__fjord_8cpp_html_a7fbd4804d568fc6fbf46da35d3c3ffbca7babf6a26e3dc43b61fa6284e07f955a"><div class="ttname"><a href="../../d1/d77/zone__howling__fjord_8cpp.html#a7fbd4804d568fc6fbf46da35d3c3ffbca7babf6a26e3dc43b61fa6284e07f955a">QUEST_REPORTS_FROM_THE_FIELD</a></div><div class="ttdeci">@ QUEST_REPORTS_FROM_THE_FIELD</div><div class="ttdef"><b>Definition:</b> zone_howling_fjord.cpp:349</div></div>
+<div class="ttc" id="azone__howling__fjord_8cpp_html_a7fbd4804d568fc6fbf46da35d3c3ffbcae04ab9caff2861d2f49da40755b84e1c"><div class="ttname"><a href="../../d1/d77/zone__howling__fjord_8cpp.html#a7fbd4804d568fc6fbf46da35d3c3ffbcae04ab9caff2861d2f49da40755b84e1c">NPC_RAZAEL</a></div><div class="ttdeci">@ NPC_RAZAEL</div><div class="ttdef"><b>Definition:</b> zone_howling_fjord.cpp:350</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a407d8344280e8e38efb3991fda1d52cd" name="a407d8344280e8e38efb3991fda1d52cd"></a>
@@ -293,11 +340,30 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d5/dca/class_creature_script.html#a30f160576b4cb97d940ecf3468834667">CreatureScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  393</span>    {</div>
+<div class="line"><span class="lineno">  394</span>        <a class="code hl_function" href="../../d6/df2/_scripted_gossip_8cpp.html#af077a82741577a63a075c7d40b3b3dc5">ClearGossipMenuFor</a>(player);</div>
+<div class="line"><span class="lineno">  395</span>        <span class="keywordflow">switch</span> (action)</div>
+<div class="line"><span class="lineno">  396</span>        {</div>
+<div class="line"><span class="lineno">  397</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36daf5e2b26c787b79ef696a69604bb85fd8">GOSSIP_ACTION_INFO_DEF</a> + 1:</div>
+<div class="line"><span class="lineno">  398</span>                <a class="code hl_function" href="../../d6/df2/_scripted_gossip_8cpp.html#a18599cfc6649557de0d505ed4d4a0210">SendGossipMenuFor</a>(player, <a class="code hl_enumvalue" href="../../d1/d77/zone__howling__fjord_8cpp.html#a7fbd4804d568fc6fbf46da35d3c3ffbca313a7629a69c0bf528e79730249c4d51">GOSSIP_TEXTID_RAZAEL2</a>, creature-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>());</div>
+<div class="line"><span class="lineno">  399</span>                player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a4c174e400f1b0df0ec02141d92ab87b2">TalkedToCreature</a>(<a class="code hl_enumvalue" href="../../d1/d77/zone__howling__fjord_8cpp.html#a7fbd4804d568fc6fbf46da35d3c3ffbcae04ab9caff2861d2f49da40755b84e1c">NPC_RAZAEL</a>, creature-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>());</div>
+<div class="line"><span class="lineno">  400</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  401</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/d28/_scripted_gossip_8h.html#ac61a667541c1c7c94a9aeb407e34d36daf5e2b26c787b79ef696a69604bb85fd8">GOSSIP_ACTION_INFO_DEF</a> + 2:</div>
+<div class="line"><span class="lineno">  402</span>                <a class="code hl_function" href="../../d6/df2/_scripted_gossip_8cpp.html#a18599cfc6649557de0d505ed4d4a0210">SendGossipMenuFor</a>(player, <a class="code hl_enumvalue" href="../../d1/d77/zone__howling__fjord_8cpp.html#a7fbd4804d568fc6fbf46da35d3c3ffbca43caf287e871cac2d4a7d2e821727377">GOSSIP_TEXTID_LYANA2</a>, creature-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>());</div>
+<div class="line"><span class="lineno">  403</span>                player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a4c174e400f1b0df0ec02141d92ab87b2">TalkedToCreature</a>(<a class="code hl_enumvalue" href="../../d1/d77/zone__howling__fjord_8cpp.html#a7fbd4804d568fc6fbf46da35d3c3ffbca5efa419daacf74521ba680f68bed979e">NPC_LYANA</a>, creature-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>());</div>
+<div class="line"><span class="lineno">  404</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  405</span>        }</div>
+<div class="line"><span class="lineno">  406</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  407</span>    }</div>
+<div class="ttc" id="a_scripted_gossip_8cpp_html_af077a82741577a63a075c7d40b3b3dc5"><div class="ttname"><a href="../../d6/df2/_scripted_gossip_8cpp.html#af077a82741577a63a075c7d40b3b3dc5">ClearGossipMenuFor</a></div><div class="ttdeci">void ClearGossipMenuFor(Player *player)</div><div class="ttdef"><b>Definition:</b> ScriptedGossip.cpp:22</div></div>
+<div class="ttc" id="aclass_player_html_a4c174e400f1b0df0ec02141d92ab87b2"><div class="ttname"><a href="../../d8/d53/class_player.html#a4c174e400f1b0df0ec02141d92ab87b2">Player::TalkedToCreature</a></div><div class="ttdeci">void TalkedToCreature(uint32 entry, ObjectGuid guid)</div><div class="ttdef"><b>Definition:</b> PlayerQuest.cpp:2089</div></div>
+<div class="ttc" id="azone__howling__fjord_8cpp_html_a7fbd4804d568fc6fbf46da35d3c3ffbca313a7629a69c0bf528e79730249c4d51"><div class="ttname"><a href="../../d1/d77/zone__howling__fjord_8cpp.html#a7fbd4804d568fc6fbf46da35d3c3ffbca313a7629a69c0bf528e79730249c4d51">GOSSIP_TEXTID_RAZAEL2</a></div><div class="ttdeci">@ GOSSIP_TEXTID_RAZAEL2</div><div class="ttdef"><b>Definition:</b> zone_howling_fjord.cpp:353</div></div>
+<div class="ttc" id="azone__howling__fjord_8cpp_html_a7fbd4804d568fc6fbf46da35d3c3ffbca43caf287e871cac2d4a7d2e821727377"><div class="ttname"><a href="../../d1/d77/zone__howling__fjord_8cpp.html#a7fbd4804d568fc6fbf46da35d3c3ffbca43caf287e871cac2d4a7d2e821727377">GOSSIP_TEXTID_LYANA2</a></div><div class="ttdeci">@ GOSSIP_TEXTID_LYANA2</div><div class="ttdef"><b>Definition:</b> zone_howling_fjord.cpp:355</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/<a class="el" href="../../d1/d77/zone__howling__fjord_8cpp.html">zone_howling_fjord.cpp</a></li>
+<li><a class="el" href="../../">zone_howling_fjord.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -305,7 +371,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dd/d16/classnpc__razael__and__lyana.html">npc_razael_and_lyana</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:53 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:09 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

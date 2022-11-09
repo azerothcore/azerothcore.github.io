@@ -292,7 +292,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a4b88f44cb647d0051e5037827a6976eb" name="a4b88f44cb647d0051e5037827a6976eb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4b88f44cb647d0051e5037827a6976eb">&#9670;&#160;</a></span>HandleDummy()</h2>
 
@@ -316,7 +317,37 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1096</span>        {</div>
+<div class="line"><span class="lineno"> 1097</span>            <a class="code hl_function" href="../../dc/d62/class_spell_script.html#a56ed3ad5cf4ebc848946a9d8f1c35d5f">PreventHitDefaultEffect</a>(effIndex);</div>
+<div class="line"><span class="lineno"> 1098</span>            <a class="code hl_class" href="../../dd/df6/class_vehicle.html">Vehicle</a>* kit = <a class="code hl_function" href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>()-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a0839378167049038c2857252d3b14738">GetVehicle</a>();</div>
+<div class="line"><span class="lineno"> 1099</span>            <a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* charmer = <a class="code hl_function" href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>()-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a3e41c41854a54e38fbdff48ed8ce5062">GetCharmer</a>(); <span class="comment">// Player controlling station</span></div>
+<div class="line"><span class="lineno"> 1100</span>            <span class="keywordflow">if</span> (!kit || !charmer)</div>
+<div class="line"><span class="lineno"> 1101</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 1102</span> </div>
+<div class="line"><span class="lineno"> 1103</span>            <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> seatNumber = GetSeatNumber(<a class="code hl_function" href="../../dc/d62/class_spell_script.html#a3fa31d3b29c52993d3561fad3cd12af3">GetSpellInfo</a>()-&gt;Id);</div>
+<div class="line"><span class="lineno"> 1104</span>            SeatMap::iterator itr = kit-&gt;<a class="code hl_function" href="../../dd/df6/class_vehicle.html#a38dd2b30d9d5da70bca0a4f9844d3e6c">GetSeatIteratorForPassenger</a>(<a class="code hl_function" href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>());</div>
+<div class="line"><span class="lineno"> 1105</span>            <span class="keywordflow">if</span> (itr == kit-&gt;<a class="code hl_variable" href="../../dd/df6/class_vehicle.html#ab37daaf199009e8d9bd5eacee76b5932">Seats</a>.end())</div>
+<div class="line"><span class="lineno"> 1106</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 1107</span> </div>
+<div class="line"><span class="lineno"> 1108</span>            <span class="comment">// Xinef: Same seat, no change required</span></div>
+<div class="line"><span class="lineno"> 1109</span>            <span class="keywordflow">if</span> (seatNumber == itr-&gt;first)</div>
+<div class="line"><span class="lineno"> 1110</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 1111</span> </div>
+<div class="line"><span class="lineno"> 1112</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* station = kit-&gt;<a class="code hl_function" href="../../dd/df6/class_vehicle.html#a250a3ae75407ecbf79d3235a9c56679f">GetPassenger</a>(seatNumber))</div>
+<div class="line"><span class="lineno"> 1113</span>                station-&gt;HandleSpellClick(charmer, 0);</div>
+<div class="line"><span class="lineno"> 1114</span>        }</div>
+<div class="ttc" id="a_define_8h_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:110</div></div>
+<div class="ttc" id="aclass_spell_script_html_a3fa31d3b29c52993d3561fad3cd12af3"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a3fa31d3b29c52993d3561fad3cd12af3">SpellScript::GetSpellInfo</a></div><div class="ttdeci">SpellInfo const * GetSpellInfo()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:411</div></div>
+<div class="ttc" id="aclass_spell_script_html_a56ed3ad5cf4ebc848946a9d8f1c35d5f"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a56ed3ad5cf4ebc848946a9d8f1c35d5f">SpellScript::PreventHitDefaultEffect</a></div><div class="ttdeci">void PreventHitDefaultEffect(SpellEffIndex effIndex)</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:590</div></div>
+<div class="ttc" id="aclass_spell_script_html_ae630e2d388177707e28cecd5fa5a2b48"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">SpellScript::GetCaster</a></div><div class="ttdeci">Unit * GetCaster()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:401</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_a0839378167049038c2857252d3b14738"><div class="ttname"><a href="../../da/db7/class_unit.html#a0839378167049038c2857252d3b14738">Unit::GetVehicle</a></div><div class="ttdeci">Vehicle * GetVehicle() const</div><div class="ttdef"><b>Definition:</b> Unit.h:2349</div></div>
+<div class="ttc" id="aclass_unit_html_a3e41c41854a54e38fbdff48ed8ce5062"><div class="ttname"><a href="../../da/db7/class_unit.html#a3e41c41854a54e38fbdff48ed8ce5062">Unit::GetCharmer</a></div><div class="ttdeci">Unit * GetCharmer() const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:10556</div></div>
+<div class="ttc" id="aclass_vehicle_html"><div class="ttname"><a href="../../dd/df6/class_vehicle.html">Vehicle</a></div><div class="ttdef"><b>Definition:</b> Vehicle.h:30</div></div>
+<div class="ttc" id="aclass_vehicle_html_a250a3ae75407ecbf79d3235a9c56679f"><div class="ttname"><a href="../../dd/df6/class_vehicle.html#a250a3ae75407ecbf79d3235a9c56679f">Vehicle::GetPassenger</a></div><div class="ttdeci">Unit * GetPassenger(int8 seatId) const</div><div class="ttdef"><b>Definition:</b> Vehicle.cpp:226</div></div>
+<div class="ttc" id="aclass_vehicle_html_a38dd2b30d9d5da70bca0a4f9844d3e6c"><div class="ttname"><a href="../../dd/df6/class_vehicle.html#a38dd2b30d9d5da70bca0a4f9844d3e6c">Vehicle::GetSeatIteratorForPassenger</a></div><div class="ttdeci">SeatMap::iterator GetSeatIteratorForPassenger(Unit *passenger)</div><div class="ttdef"><b>Definition:</b> Vehicle.cpp:595</div></div>
+<div class="ttc" id="aclass_vehicle_html_ab37daaf199009e8d9bd5eacee76b5932"><div class="ttname"><a href="../../dd/df6/class_vehicle.html#ab37daaf199009e8d9bd5eacee76b5932">Vehicle::Seats</a></div><div class="ttdeci">SeatMap Seats</div><div class="ttdef"><b>Definition:</b> Vehicle.h:57</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ae2ff723014eaac94bd00a1f36469cbd6" name="ae2ff723014eaac94bd00a1f36469cbd6"></a>
@@ -342,7 +373,17 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1086</span>        {</div>
+<div class="line"><span class="lineno"> 1087</span>            <span class="keywordflow">if</span> (spellId == <a class="code hl_enumvalue" href="../../d6/d81/zone__icecrown_8cpp.html#adb47ccee11b7adba160adeac2db87c6da23d94f6f25141776abf2907f67558509">SPELL_ENGINEERING</a>)</div>
+<div class="line"><span class="lineno"> 1088</span>                <span class="keywordflow">return</span> 2;</div>
+<div class="line"><span class="lineno"> 1089</span>            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (spellId == <a class="code hl_enumvalue" href="../../d6/d81/zone__icecrown_8cpp.html#adb47ccee11b7adba160adeac2db87c6daf201f43f3751a6af8383df87538e6288">SPELL_ANTI_AIR_TURRET</a>)</div>
+<div class="line"><span class="lineno"> 1090</span>                <span class="keywordflow">return</span> 1;</div>
+<div class="line"><span class="lineno"> 1091</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 1092</span>                <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno"> 1093</span>        }</div>
+<div class="ttc" id="azone__icecrown_8cpp_html_adb47ccee11b7adba160adeac2db87c6da23d94f6f25141776abf2907f67558509"><div class="ttname"><a href="../../d6/d81/zone__icecrown_8cpp.html#adb47ccee11b7adba160adeac2db87c6da23d94f6f25141776abf2907f67558509">SPELL_ENGINEERING</a></div><div class="ttdeci">@ SPELL_ENGINEERING</div><div class="ttdef"><b>Definition:</b> zone_icecrown.cpp:1051</div></div>
+<div class="ttc" id="azone__icecrown_8cpp_html_adb47ccee11b7adba160adeac2db87c6daf201f43f3751a6af8383df87538e6288"><div class="ttname"><a href="../../d6/d81/zone__icecrown_8cpp.html#adb47ccee11b7adba160adeac2db87c6daf201f43f3751a6af8383df87538e6288">SPELL_ANTI_AIR_TURRET</a></div><div class="ttdeci">@ SPELL_ANTI_AIR_TURRET</div><div class="ttdef"><b>Definition:</b> zone_icecrown.cpp:1053</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a145d160bbf0bc5b50d395c096147d9f3" name="a145d160bbf0bc5b50d395c096147d9f3"></a>
@@ -369,11 +410,19 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1117</span>        {</div>
+<div class="line"><span class="lineno"> 1118</span>            <a class="code hl_variable" href="../../dc/d62/class_spell_script.html#a6f11356f7a28793e6053bfbc4e2dacf3">OnEffectHitTarget</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a551b0adb8eaf82985a7e55cef0695dcb">SpellEffectFn</a>(<a class="code hl_function" href="../../d9/d39/classspell__switch__infragreen__bomber__station_1_1spell__switch__infragreen__bomber__station___spell_script.html#a4b88f44cb647d0051e5037827a6976eb">spell_switch_infragreen_bomber_station_SpellScript::HandleDummy</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97a027bcdf3b42e90e7374802fe61fd776d">SPELL_EFFECT_DUMMY</a>);</div>
+<div class="line"><span class="lineno"> 1119</span>        }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a></div><div class="ttdeci">@ EFFECT_0</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:30</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a292c893150c454dd75628b719db1fe97a027bcdf3b42e90e7374802fe61fd776d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97a027bcdf3b42e90e7374802fe61fd776d">SPELL_EFFECT_DUMMY</a></div><div class="ttdeci">@ SPELL_EFFECT_DUMMY</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:753</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a551b0adb8eaf82985a7e55cef0695dcb"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a551b0adb8eaf82985a7e55cef0695dcb">SpellEffectFn</a></div><div class="ttdeci">#define SpellEffectFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:337</div></div>
+<div class="ttc" id="aclass_spell_script_html_a6f11356f7a28793e6053bfbc4e2dacf3"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a6f11356f7a28793e6053bfbc4e2dacf3">SpellScript::OnEffectHitTarget</a></div><div class="ttdeci">HookList&lt; EffectHandler &gt; OnEffectHitTarget</div><div class="ttdef"><b>Definition:</b> SpellScript.h:336</div></div>
+<div class="ttc" id="aclassspell__switch__infragreen__bomber__station_1_1spell__switch__infragreen__bomber__station___spell_script_html_a4b88f44cb647d0051e5037827a6976eb"><div class="ttname"><a href="../../d9/d39/classspell__switch__infragreen__bomber__station_1_1spell__switch__infragreen__bomber__station___spell_script.html#a4b88f44cb647d0051e5037827a6976eb">spell_switch_infragreen_bomber_station::spell_switch_infragreen_bomber_station_SpellScript::HandleDummy</a></div><div class="ttdeci">void HandleDummy(SpellEffIndex effIndex)</div><div class="ttdef"><b>Definition:</b> zone_icecrown.cpp:1095</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/<a class="el" href="../../d6/d81/zone__icecrown_8cpp.html">zone_icecrown.cpp</a></li>
+<li><a class="el" href="../../">zone_icecrown.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -381,7 +430,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d4/d93/classspell__switch__infragreen__bomber__station.html">spell_switch_infragreen_bomber_station</a></li><li class="navelem"><a class="el" href="../../d9/d39/classspell__switch__infragreen__bomber__station_1_1spell__switch__infragreen__bomber__station___spell_script.html">spell_switch_infragreen_bomber_station_SpellScript</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:08 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:25 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

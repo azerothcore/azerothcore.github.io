@@ -392,7 +392,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a031c1941f177a18af58efcf4a1270654" name="a031c1941f177a18af58efcf4a1270654"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a031c1941f177a18af58efcf4a1270654">&#9670;&#160;</a></span>npc_storm_beacon_spawnAI()</h2>
 
@@ -416,7 +417,15 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1300</span>                                              : <a class="code hl_class" href="../../d6/df7/class_null_creature_a_i.html">NullCreatureAI</a>(c)</div>
+<div class="line"><span class="lineno"> 1301</span>        {</div>
+<div class="line"><span class="lineno"> 1302</span>            <a class="code hl_variable" href="../../db/da4/structnpc__storm__beacon__spawn_1_1npc__storm__beacon__spawn_a_i.html#a3d2286247853cb04b9cc23cd8c0bfdd6">_amount</a> = 0;</div>
+<div class="line"><span class="lineno"> 1303</span>            <a class="code hl_variable" href="../../db/da4/structnpc__storm__beacon__spawn_1_1npc__storm__beacon__spawn_a_i.html#a7fd6d449b6a20ba9463896244c513a67">_checkTimer</a> = 0;</div>
+<div class="line"><span class="lineno"> 1304</span>        }</div>
+<div class="ttc" id="aclass_null_creature_a_i_html"><div class="ttname"><a href="../../d6/df7/class_null_creature_a_i.html">NullCreatureAI</a></div><div class="ttdef"><b>Definition:</b> PassiveAI.h:53</div></div>
+<div class="ttc" id="astructnpc__storm__beacon__spawn_1_1npc__storm__beacon__spawn_a_i_html_a3d2286247853cb04b9cc23cd8c0bfdd6"><div class="ttname"><a href="../../db/da4/structnpc__storm__beacon__spawn_1_1npc__storm__beacon__spawn_a_i.html#a3d2286247853cb04b9cc23cd8c0bfdd6">npc_storm_beacon_spawn::npc_storm_beacon_spawnAI::_amount</a></div><div class="ttdeci">uint8 _amount</div><div class="ttdef"><b>Definition:</b> boss_flame_leviathan.cpp:1306</div></div>
+<div class="ttc" id="astructnpc__storm__beacon__spawn_1_1npc__storm__beacon__spawn_a_i_html_a7fd6d449b6a20ba9463896244c513a67"><div class="ttname"><a href="../../db/da4/structnpc__storm__beacon__spawn_1_1npc__storm__beacon__spawn_a_i.html#a7fd6d449b6a20ba9463896244c513a67">npc_storm_beacon_spawn::npc_storm_beacon_spawnAI::_checkTimer</a></div><div class="ttdeci">uint32 _checkTimer</div><div class="ttdef"><b>Definition:</b> boss_flame_leviathan.cpp:1307</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -445,7 +454,34 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d6/df7/class_null_creature_a_i.html#ab200fcf78dee74a2ec808c01f5855236">NullCreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1310</span>        {</div>
+<div class="line"><span class="lineno"> 1311</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../db/da4/structnpc__storm__beacon__spawn_1_1npc__storm__beacon__spawn_a_i.html#a3d2286247853cb04b9cc23cd8c0bfdd6">_amount</a> &lt; 40)</div>
+<div class="line"><span class="lineno"> 1312</span>            {</div>
+<div class="line"><span class="lineno"> 1313</span>                <a class="code hl_variable" href="../../db/da4/structnpc__storm__beacon__spawn_1_1npc__storm__beacon__spawn_a_i.html#a7fd6d449b6a20ba9463896244c513a67">_checkTimer</a> += diff;</div>
+<div class="line"><span class="lineno"> 1314</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../db/da4/structnpc__storm__beacon__spawn_1_1npc__storm__beacon__spawn_a_i.html#a7fd6d449b6a20ba9463896244c513a67">_checkTimer</a> &gt;= 4000)</div>
+<div class="line"><span class="lineno"> 1315</span>                {</div>
+<div class="line"><span class="lineno"> 1316</span>                    <a class="code hl_variable" href="../../db/da4/structnpc__storm__beacon__spawn_1_1npc__storm__beacon__spawn_a_i.html#a7fd6d449b6a20ba9463896244c513a67">_checkTimer</a> = 0;</div>
+<div class="line"><span class="lineno"> 1317</span>                    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target = <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a37a962c6e3cf6106d547d733290740e1">SelectNearbyTarget</a>(<span class="keyword">nullptr</span>, 80.0f))</div>
+<div class="line"><span class="lineno"> 1318</span>                    {</div>
+<div class="line"><span class="lineno"> 1319</span>                        ++<a class="code hl_variable" href="../../db/da4/structnpc__storm__beacon__spawn_1_1npc__storm__beacon__spawn_a_i.html#a3d2286247853cb04b9cc23cd8c0bfdd6">_amount</a>;</div>
+<div class="line"><span class="lineno"> 1320</span>                        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* cr = <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#aaf7058bd6b40bbfd38cbcd4f740c0344">SummonCreature</a>(<a class="code hl_enumvalue" href="../../d1/d88/boss__flame__leviathan_8cpp.html#a640f990db89b5748398cd4fd8eb97550aa0b46ff752d8fa0f7c85a54c37cefd83">NPC_DEFENDER_GENERATED</a>, <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#ad5577c934d9e845b44759b67c534c3e8">GetPositionX</a>(), <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">GetPositionY</a>(), <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#a4e813a59345a6275e8b87b96be03e60b">GetPositionZ</a>() + 4, <a class="code hl_variable" href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#a74cabfb8f441acb38e1abd5bf6ecdc84">GetOrientation</a>(), <a class="code hl_enumvalue" href="../../df/d30/_object_8h.html#a38c6d8d01cbe0c49b035f348f7724148a7fcc17b9aac93c81619414e6af366e39">TEMPSUMMON_TIMED_OR_DEAD_DESPAWN</a>, 900000))</div>
+<div class="line"><span class="lineno"> 1321</span>                            cr-&gt;AI()-&gt;AttackStart(target);</div>
+<div class="line"><span class="lineno"> 1322</span>                    }</div>
+<div class="line"><span class="lineno"> 1323</span>                }</div>
+<div class="line"><span class="lineno"> 1324</span>            }</div>
+<div class="line"><span class="lineno"> 1325</span>        }</div>
+<div class="ttc" id="a_object_8h_html_a38c6d8d01cbe0c49b035f348f7724148a7fcc17b9aac93c81619414e6af366e39"><div class="ttname"><a href="../../df/d30/_object_8h.html#a38c6d8d01cbe0c49b035f348f7724148a7fcc17b9aac93c81619414e6af366e39">TEMPSUMMON_TIMED_OR_DEAD_DESPAWN</a></div><div class="ttdeci">@ TEMPSUMMON_TIMED_OR_DEAD_DESPAWN</div><div class="ttdef"><b>Definition:</b> Object.h:42</div></div>
+<div class="ttc" id="aboss__flame__leviathan_8cpp_html_a640f990db89b5748398cd4fd8eb97550aa0b46ff752d8fa0f7c85a54c37cefd83"><div class="ttname"><a href="../../d1/d88/boss__flame__leviathan_8cpp.html#a640f990db89b5748398cd4fd8eb97550aa0b46ff752d8fa0f7c85a54c37cefd83">NPC_DEFENDER_GENERATED</a></div><div class="ttdeci">@ NPC_DEFENDER_GENERATED</div><div class="ttdef"><b>Definition:</b> boss_flame_leviathan.cpp:91</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_aee5bf3d421199445de241a34798ae819"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#aee5bf3d421199445de241a34798ae819">CreatureAI::me</a></div><div class="ttdeci">Creature *const me</div><div class="ttdef"><b>Definition:</b> CreatureAI.h:72</div></div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_a37a962c6e3cf6106d547d733290740e1"><div class="ttname"><a href="../../da/db7/class_unit.html#a37a962c6e3cf6106d547d733290740e1">Unit::SelectNearbyTarget</a></div><div class="ttdeci">Unit * SelectNearbyTarget(Unit *exclude=nullptr, float dist=NOMINAL_MELEE_RANGE) const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:17045</div></div>
+<div class="ttc" id="aclass_world_object_html_aaf7058bd6b40bbfd38cbcd4f740c0344"><div class="ttname"><a href="../../db/df7/class_world_object.html#aaf7058bd6b40bbfd38cbcd4f740c0344">WorldObject::SummonCreature</a></div><div class="ttdeci">TempSummon * SummonCreature(uint32 id, const Position &amp;pos, TempSummonType spwtype=TEMPSUMMON_MANUAL_DESPAWN, uint32 despwtime=0, uint32 vehId=0, SummonPropertiesEntry const *properties=nullptr) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:2301</div></div>
+<div class="ttc" id="astruct_position_html_a4e813a59345a6275e8b87b96be03e60b"><div class="ttname"><a href="../../d1/d26/struct_position.html#a4e813a59345a6275e8b87b96be03e60b">Position::GetPositionZ</a></div><div class="ttdeci">float GetPositionZ() const</div><div class="ttdef"><b>Definition:</b> Position.h:119</div></div>
+<div class="ttc" id="astruct_position_html_a74cabfb8f441acb38e1abd5bf6ecdc84"><div class="ttname"><a href="../../d1/d26/struct_position.html#a74cabfb8f441acb38e1abd5bf6ecdc84">Position::GetOrientation</a></div><div class="ttdeci">float GetOrientation() const</div><div class="ttdef"><b>Definition:</b> Position.h:120</div></div>
+<div class="ttc" id="astruct_position_html_ad5577c934d9e845b44759b67c534c3e8"><div class="ttname"><a href="../../d1/d26/struct_position.html#ad5577c934d9e845b44759b67c534c3e8">Position::GetPositionX</a></div><div class="ttdeci">float GetPositionX() const</div><div class="ttdef"><b>Definition:</b> Position.h:117</div></div>
+<div class="ttc" id="astruct_position_html_ae79fc664f6cd027f5d49f6c7df8e4c9e"><div class="ttname"><a href="../../d1/d26/struct_position.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">Position::GetPositionY</a></div><div class="ttdeci">float GetPositionY() const</div><div class="ttdef"><b>Definition:</b> Position.h:118</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -478,7 +514,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/Ulduar/Ulduar/<a class="el" href="../../d1/d88/boss__flame__leviathan_8cpp.html">boss_flame_leviathan.cpp</a></li>
+<li><a class="el" href="../../">boss_flame_leviathan.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -486,7 +522,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d7/df5/classnpc__storm__beacon__spawn.html">npc_storm_beacon_spawn</a></li><li class="navelem"><a class="el" href="../../db/da4/structnpc__storm__beacon__spawn_1_1npc__storm__beacon__spawn_a_i.html">npc_storm_beacon_spawnAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:54 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:10 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

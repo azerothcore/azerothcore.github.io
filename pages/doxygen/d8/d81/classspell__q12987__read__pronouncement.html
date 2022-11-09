@@ -302,7 +302,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a50ced6d5a475ccad9429dfbb05130394" name="a50ced6d5a475ccad9429dfbb05130394"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a50ced6d5a475ccad9429dfbb05130394">&#9670;&#160;</a></span>OnApply()</h2>
 
@@ -336,7 +337,32 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1711</span>    {</div>
+<div class="line"><span class="lineno"> 1712</span>        <span class="comment">// player must cast kill credit and do emote text, according to sniff</span></div>
+<div class="line"><span class="lineno"> 1713</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* target = <a class="code hl_function" href="../../d4/d72/class_aura_script.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">GetTarget</a>()-&gt;ToPlayer())</div>
+<div class="line"><span class="lineno"> 1714</span>        {</div>
+<div class="line"><span class="lineno"> 1715</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* trigger = target-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#aa7cc61d571dbc39ca8ac6ac10ffd18ab">FindNearestCreature</a>(<a class="code hl_enumvalue" href="../../db/dfb/spell__quest_8cpp.html#aa061c447d4bed1f11acc31746f3521b0ada26d1888bcddbd74e311cd4efbbf676">NPC_ICE_SPIKE_BUNNY</a>, 25.0f))</div>
+<div class="line"><span class="lineno"> 1716</span>            {</div>
+<div class="line"><span class="lineno"> 1717</span>                <a class="code hl_define" href="../../d0/d99/_creature_text_mgr_8h.html#a2dc428da007cefe454220dcb355a1cde">sCreatureTextMgr</a>-&gt;SendChat(trigger, <a class="code hl_enumvalue" href="../../db/dfb/spell__quest_8cpp.html#aa061c447d4bed1f11acc31746f3521b0a307d891e05530d70a32ad2047cfe6dab">SAY_1</a>, target, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16ab5fa93973ae4d800ba9030a3cf15a7c1">CHAT_MSG_ADDON</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a315ca917ad583797f709ea477dd28705aa85e31bb25e43732ec93feb7e5355e18">LANG_ADDON</a>, <a class="code hl_enumvalue" href="../../d0/d99/_creature_text_mgr_8h.html#adf847039afbebeda9e21210c1f4eb052a649e811a5e8853fa24088dbb708ce9ab">TEXT_RANGE_NORMAL</a>, 0, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a7513eda5ac39f7f649b82c80de7c324da1d009932a5dde84d818f627cfcfe3fe5">TEAM_NEUTRAL</a>, <span class="keyword">false</span>, target);</div>
+<div class="line"><span class="lineno"> 1718</span>                target-&gt;KilledMonsterCredit(<a class="code hl_enumvalue" href="../../db/dfb/spell__quest_8cpp.html#aa061c447d4bed1f11acc31746f3521b0ac08f868029f6c0c348ca1a8130361792">NPC_KILLCREDIT</a>);</div>
+<div class="line"><span class="lineno"> 1719</span>                <a class="code hl_define" href="../../d0/d99/_creature_text_mgr_8h.html#a2dc428da007cefe454220dcb355a1cde">sCreatureTextMgr</a>-&gt;SendChat(trigger, <a class="code hl_enumvalue" href="../../db/dfb/spell__quest_8cpp.html#aa061c447d4bed1f11acc31746f3521b0a73b0208d974ac93026e31ca8864dd390">SAY_2</a>, target, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16ab5fa93973ae4d800ba9030a3cf15a7c1">CHAT_MSG_ADDON</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a315ca917ad583797f709ea477dd28705aa85e31bb25e43732ec93feb7e5355e18">LANG_ADDON</a>, <a class="code hl_enumvalue" href="../../d0/d99/_creature_text_mgr_8h.html#adf847039afbebeda9e21210c1f4eb052a649e811a5e8853fa24088dbb708ce9ab">TEXT_RANGE_NORMAL</a>, 0, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a7513eda5ac39f7f649b82c80de7c324da1d009932a5dde84d818f627cfcfe3fe5">TEAM_NEUTRAL</a>, <span class="keyword">false</span>, target);</div>
+<div class="line"><span class="lineno"> 1720</span>            }</div>
+<div class="line"><span class="lineno"> 1721</span>        }</div>
+<div class="line"><span class="lineno"> 1722</span>    }</div>
+<div class="ttc" id="a_creature_text_mgr_8h_html_a2dc428da007cefe454220dcb355a1cde"><div class="ttname"><a href="../../d0/d99/_creature_text_mgr_8h.html#a2dc428da007cefe454220dcb355a1cde">sCreatureTextMgr</a></div><div class="ttdeci">#define sCreatureTextMgr</div><div class="ttdef"><b>Definition:</b> CreatureTextMgr.h:119</div></div>
+<div class="ttc" id="a_creature_text_mgr_8h_html_adf847039afbebeda9e21210c1f4eb052a649e811a5e8853fa24088dbb708ce9ab"><div class="ttname"><a href="../../d0/d99/_creature_text_mgr_8h.html#adf847039afbebeda9e21210c1f4eb052a649e811a5e8853fa24088dbb708ce9ab">TEXT_RANGE_NORMAL</a></div><div class="ttdeci">@ TEXT_RANGE_NORMAL</div><div class="ttdef"><b>Definition:</b> CreatureTextMgr.h:30</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a249e68b260c9857b5d0d4cf4697fae16ab5fa93973ae4d800ba9030a3cf15a7c1"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a249e68b260c9857b5d0d4cf4697fae16ab5fa93973ae4d800ba9030a3cf15a7c1">CHAT_MSG_ADDON</a></div><div class="ttdeci">@ CHAT_MSG_ADDON</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3123</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a315ca917ad583797f709ea477dd28705aa85e31bb25e43732ec93feb7e5355e18"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a315ca917ad583797f709ea477dd28705aa85e31bb25e43732ec93feb7e5355e18">LANG_ADDON</a></div><div class="ttdeci">@ LANG_ADDON</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:725</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a7513eda5ac39f7f649b82c80de7c324da1d009932a5dde84d818f627cfcfe3fe5"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a7513eda5ac39f7f649b82c80de7c324da1d009932a5dde84d818f627cfcfe3fe5">TEAM_NEUTRAL</a></div><div class="ttdeci">@ TEAM_NEUTRAL</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:734</div></div>
+<div class="ttc" id="aclass_aura_script_html_a9b2ee1254bdbef7f6ee93f6fae6eb912"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a9b2ee1254bdbef7f6ee93f6fae6eb912">AuraScript::GetTarget</a></div><div class="ttdeci">Unit * GetTarget() const</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:1155</div></div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_player_html"><div class="ttname"><a href="../../d8/d53/class_player.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1046</div></div>
+<div class="ttc" id="aclass_world_object_html_aa7cc61d571dbc39ca8ac6ac10ffd18ab"><div class="ttname"><a href="../../db/df7/class_world_object.html#aa7cc61d571dbc39ca8ac6ac10ffd18ab">WorldObject::FindNearestCreature</a></div><div class="ttdeci">Creature * FindNearestCreature(uint32 entry, float range, bool alive=true) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:2392</div></div>
+<div class="ttc" id="aspell__quest_8cpp_html_aa061c447d4bed1f11acc31746f3521b0a307d891e05530d70a32ad2047cfe6dab"><div class="ttname"><a href="../../db/dfb/spell__quest_8cpp.html#aa061c447d4bed1f11acc31746f3521b0a307d891e05530d70a32ad2047cfe6dab">SAY_1</a></div><div class="ttdeci">@ SAY_1</div><div class="ttdef"><b>Definition:</b> spell_quest.cpp:1700</div></div>
+<div class="ttc" id="aspell__quest_8cpp_html_aa061c447d4bed1f11acc31746f3521b0a73b0208d974ac93026e31ca8864dd390"><div class="ttname"><a href="../../db/dfb/spell__quest_8cpp.html#aa061c447d4bed1f11acc31746f3521b0a73b0208d974ac93026e31ca8864dd390">SAY_2</a></div><div class="ttdeci">@ SAY_2</div><div class="ttdef"><b>Definition:</b> spell_quest.cpp:1701</div></div>
+<div class="ttc" id="aspell__quest_8cpp_html_aa061c447d4bed1f11acc31746f3521b0ac08f868029f6c0c348ca1a8130361792"><div class="ttname"><a href="../../db/dfb/spell__quest_8cpp.html#aa061c447d4bed1f11acc31746f3521b0ac08f868029f6c0c348ca1a8130361792">NPC_KILLCREDIT</a></div><div class="ttdeci">@ NPC_KILLCREDIT</div><div class="ttdef"><b>Definition:</b> spell_quest.cpp:1702</div></div>
+<div class="ttc" id="aspell__quest_8cpp_html_aa061c447d4bed1f11acc31746f3521b0ada26d1888bcddbd74e311cd4efbbf676"><div class="ttname"><a href="../../db/dfb/spell__quest_8cpp.html#aa061c447d4bed1f11acc31746f3521b0ada26d1888bcddbd74e311cd4efbbf676">NPC_ICE_SPIKE_BUNNY</a></div><div class="ttdeci">@ NPC_ICE_SPIKE_BUNNY</div><div class="ttdef"><b>Definition:</b> spell_quest.cpp:1703</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="abd02e129b1201449d473a66aea77d569" name="abd02e129b1201449d473a66aea77d569"></a>
@@ -389,11 +415,20 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1725</span>    {</div>
+<div class="line"><span class="lineno"> 1726</span>        <a class="code hl_variable" href="../../d4/d72/class_aura_script.html#a509262d9721d83783e19142eee1645df">AfterEffectApply</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#ac47070c5a13a5436cc5d204a1445c993">AuraEffectApplyFn</a>(<a class="code hl_function" href="../../d8/d81/classspell__q12987__read__pronouncement.html#a50ced6d5a475ccad9429dfbb05130394">spell_q12987_read_pronouncement::OnApply</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799aed038a236cfbd568f8684cd1e35def27">SPELL_AURA_NONE</a>, <a class="code hl_enumvalue" href="../../d7/d5a/_spell_aura_defines_8h.html#a82ebee9e3cf7eaf2ab892a6eb7796288a9db592566b0111486336c591e7a06e2b">AURA_EFFECT_HANDLE_REAL</a>);</div>
+<div class="line"><span class="lineno"> 1727</span>    }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a></div><div class="ttdeci">@ EFFECT_0</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:30</div></div>
+<div class="ttc" id="a_spell_aura_defines_8h_html_a538cdc259460b365f406fe0b3a981799aed038a236cfbd568f8684cd1e35def27"><div class="ttname"><a href="../../d7/d5a/_spell_aura_defines_8h.html#a538cdc259460b365f406fe0b3a981799aed038a236cfbd568f8684cd1e35def27">SPELL_AURA_NONE</a></div><div class="ttdeci">@ SPELL_AURA_NONE</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:63</div></div>
+<div class="ttc" id="a_spell_aura_defines_8h_html_a82ebee9e3cf7eaf2ab892a6eb7796288a9db592566b0111486336c591e7a06e2b"><div class="ttname"><a href="../../d7/d5a/_spell_aura_defines_8h.html#a82ebee9e3cf7eaf2ab892a6eb7796288a9db592566b0111486336c591e7a06e2b">AURA_EFFECT_HANDLE_REAL</a></div><div class="ttdeci">@ AURA_EFFECT_HANDLE_REAL</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:42</div></div>
+<div class="ttc" id="a_spell_script_8h_html_ac47070c5a13a5436cc5d204a1445c993"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#ac47070c5a13a5436cc5d204a1445c993">AuraEffectApplyFn</a></div><div class="ttdeci">#define AuraEffectApplyFn(F, I, N, M)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:733</div></div>
+<div class="ttc" id="aclass_aura_script_html_a509262d9721d83783e19142eee1645df"><div class="ttname"><a href="../../d4/d72/class_aura_script.html#a509262d9721d83783e19142eee1645df">AuraScript::AfterEffectApply</a></div><div class="ttdeci">HookList&lt; EffectApplyHandler &gt; AfterEffectApply</div><div class="ttdef"><b>Definition:</b> SpellScript.h:732</div></div>
+<div class="ttc" id="aclassspell__q12987__read__pronouncement_html_a50ced6d5a475ccad9429dfbb05130394"><div class="ttname"><a href="../../d8/d81/classspell__q12987__read__pronouncement.html#a50ced6d5a475ccad9429dfbb05130394">spell_q12987_read_pronouncement::OnApply</a></div><div class="ttdeci">void OnApply(AuraEffect const *, AuraEffectHandleModes)</div><div class="ttdef"><b>Definition:</b> spell_quest.cpp:1710</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Spells/<a class="el" href="../../db/dfb/spell__quest_8cpp.html">spell_quest.cpp</a></li>
+<li><a class="el" href="../../">spell_quest.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -401,7 +436,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d8/d81/classspell__q12987__read__pronouncement.html">spell_q12987_read_pronouncement</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:07 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:24 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

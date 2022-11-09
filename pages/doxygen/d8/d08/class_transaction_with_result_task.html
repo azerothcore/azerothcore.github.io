@@ -114,7 +114,7 @@ $(document).ready(function(){initNavTree('d8/d08/class_transaction_with_result_t
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d8/d99/_transaction_8h_source.html">Transaction.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">Transaction.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for TransactionWithResultTask:</div>
 <div class="dyncontent">
@@ -178,7 +178,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a84b48dbb670dd884e9b44ea53c8b0008 inherit pro_static_attribs_class_transaction_task"><td class="memItemLeft" align="right" valign="top">static std::mutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dac/class_transaction_task.html#a84b48dbb670dd884e9b44ea53c8b0008">_deadlockLock</a></td></tr>
 <tr class="separator:a84b48dbb670dd884e9b44ea53c8b0008 inherit pro_static_attribs_class_transaction_task"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a98dfb255e7be9d5cf9ed9215b0d5e0e4" name="a98dfb255e7be9d5cf9ed9215b0d5e0e4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a98dfb255e7be9d5cf9ed9215b0d5e0e4">&#9670;&#160;</a></span>TransactionWithResultTask()</h2>
 
@@ -202,7 +203,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   99</span>: <a class="code hl_class" href="../../d0/dac/class_transaction_task.html">TransactionTask</a>(trans) { }</div>
+<div class="ttc" id="aclass_transaction_task_html"><div class="ttname"><a href="../../d0/dac/class_transaction_task.html">TransactionTask</a></div><div class="ttdef"><b>Definition:</b> Transaction.h:76</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -230,7 +233,56 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d0/dac/class_transaction_task.html#aa1c1df059d15fe2077ceea5cfb51ba22">TransactionTask</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  142</span>{</div>
+<div class="line"><span class="lineno">  143</span>    <span class="keywordtype">int</span> errorCode = <a class="code hl_function" href="../../d0/dac/class_transaction_task.html#a28c9ca1d9d3fdc6a722dcec68e46a38f">TryExecute</a>();</div>
+<div class="line"><span class="lineno">  144</span>    <span class="keywordflow">if</span> (!errorCode)</div>
+<div class="line"><span class="lineno">  145</span>    {</div>
+<div class="line"><span class="lineno">  146</span>        <a class="code hl_variable" href="../../d8/d08/class_transaction_with_result_task.html#aaf4d587b83977e65089bdbf92fa09ae1">m_result</a>.set_value(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  147</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  148</span>    }</div>
+<div class="line"><span class="lineno">  149</span> </div>
+<div class="line"><span class="lineno">  150</span>    <span class="keywordflow">if</span> (errorCode == ER_LOCK_DEADLOCK)</div>
+<div class="line"><span class="lineno">  151</span>    {</div>
+<div class="line"><span class="lineno">  152</span>        std::ostringstream threadIdStream;</div>
+<div class="line"><span class="lineno">  153</span>        threadIdStream &lt;&lt; std::this_thread::get_id();</div>
+<div class="line"><span class="lineno">  154</span>        std::string threadId = threadIdStream.str();</div>
+<div class="line"><span class="lineno">  155</span> </div>
+<div class="line"><span class="lineno">  156</span>        {</div>
+<div class="line"><span class="lineno">  157</span>            <span class="comment">// Make sure only 1 async thread retries a transaction so they don&#39;t keep dead-locking each other</span></div>
+<div class="line"><span class="lineno">  158</span>            std::lock_guard&lt;std::mutex&gt; lock(<a class="code hl_variable" href="../../d0/dac/class_transaction_task.html#a84b48dbb670dd884e9b44ea53c8b0008">_deadlockLock</a>);</div>
+<div class="line"><span class="lineno">  159</span> </div>
+<div class="line"><span class="lineno">  160</span>            <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../da/dfd/_duration_8h.html#a1c3834b9e3853535027d58bf21bec81f">Milliseconds</a> loopDuration = 0s, startMSTime = <a class="code hl_function" href="../../d5/d29/_timer_8h.html#a002742f64e7fe0b13f08d610eca4d672">GetTimeMS</a>(); loopDuration &lt;= <a class="code hl_variable" href="../../df/d11/_transaction_8cpp.html#ac0b52915e8b31344cafb9042ab92e830">DEADLOCK_MAX_RETRY_TIME_MS</a>; loopDuration = <a class="code hl_function" href="../../d5/d29/_timer_8h.html#a23a2c8663a05f2b03a6f85501972e8c0">GetMSTimeDiffToNow</a>(startMSTime))</div>
+<div class="line"><span class="lineno">  161</span>            {</div>
+<div class="line"><span class="lineno">  162</span>                <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d0/dac/class_transaction_task.html#a28c9ca1d9d3fdc6a722dcec68e46a38f">TryExecute</a>())</div>
+<div class="line"><span class="lineno">  163</span>                {</div>
+<div class="line"><span class="lineno">  164</span>                    <a class="code hl_variable" href="../../d8/d08/class_transaction_with_result_task.html#aaf4d587b83977e65089bdbf92fa09ae1">m_result</a>.set_value(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  165</span>                    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  166</span>                }</div>
+<div class="line"><span class="lineno">  167</span> </div>
+<div class="line"><span class="lineno">  168</span>                <a class="code hl_define" href="../../da/df4/_log_8h.html#adf09840a666e1d86bcd3439105db6edc">LOG_WARN</a>(<span class="stringliteral">&quot;sql.sql&quot;</span>, <span class="stringliteral">&quot;Deadlocked SQL Transaction, retrying. Loop timer: {} ms, Thread Id: {}&quot;</span>, loopDuration.count(), threadId);</div>
+<div class="line"><span class="lineno">  169</span>            }</div>
+<div class="line"><span class="lineno">  170</span>        }</div>
+<div class="line"><span class="lineno">  171</span> </div>
+<div class="line"><span class="lineno">  172</span>        <a class="code hl_define" href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;sql.sql&quot;</span>, <span class="stringliteral">&quot;Fatal deadlocked SQL Transaction, it will not be retried anymore. Thread Id: {}&quot;</span>, threadId);</div>
+<div class="line"><span class="lineno">  173</span>    }</div>
+<div class="line"><span class="lineno">  174</span> </div>
+<div class="line"><span class="lineno">  175</span>    <span class="comment">// Clean up now.</span></div>
+<div class="line"><span class="lineno">  176</span>    <a class="code hl_function" href="../../d0/dac/class_transaction_task.html#adc2f1534bce5a7ce198eeeb510fcb533">CleanupOnFailure</a>();</div>
+<div class="line"><span class="lineno">  177</span>    <a class="code hl_variable" href="../../d8/d08/class_transaction_with_result_task.html#aaf4d587b83977e65089bdbf92fa09ae1">m_result</a>.set_value(<span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  178</span> </div>
+<div class="line"><span class="lineno">  179</span>    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  180</span>}</div>
+<div class="ttc" id="a_duration_8h_html_a1c3834b9e3853535027d58bf21bec81f"><div class="ttname"><a href="../../da/dfd/_duration_8h.html#a1c3834b9e3853535027d58bf21bec81f">Milliseconds</a></div><div class="ttdeci">std::chrono::milliseconds Milliseconds</div><div class="ttdoc">Milliseconds shorthand typedef.</div><div class="ttdef"><b>Definition:</b> Duration.h:27</div></div>
+<div class="ttc" id="a_log_8h_html_a43832e3fa8508deb4ce43e520005fcd9"><div class="ttname"><a href="../../da/df4/_log_8h.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a></div><div class="ttdeci">#define LOG_ERROR(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:159</div></div>
+<div class="ttc" id="a_log_8h_html_adf09840a666e1d86bcd3439105db6edc"><div class="ttname"><a href="../../da/df4/_log_8h.html#adf09840a666e1d86bcd3439105db6edc">LOG_WARN</a></div><div class="ttdeci">#define LOG_WARN(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:163</div></div>
+<div class="ttc" id="a_timer_8h_html_a002742f64e7fe0b13f08d610eca4d672"><div class="ttname"><a href="../../d5/d29/_timer_8h.html#a002742f64e7fe0b13f08d610eca4d672">GetTimeMS</a></div><div class="ttdeci">Milliseconds GetTimeMS()</div><div class="ttdef"><b>Definition:</b> Timer.h:84</div></div>
+<div class="ttc" id="a_timer_8h_html_a23a2c8663a05f2b03a6f85501972e8c0"><div class="ttname"><a href="../../d5/d29/_timer_8h.html#a23a2c8663a05f2b03a6f85501972e8c0">GetMSTimeDiffToNow</a></div><div class="ttdeci">uint32 GetMSTimeDiffToNow(uint32 oldMSTime)</div><div class="ttdef"><b>Definition:</b> Timer.h:131</div></div>
+<div class="ttc" id="a_transaction_8cpp_html_ac0b52915e8b31344cafb9042ab92e830"><div class="ttname"><a href="../../df/d11/_transaction_8cpp.html#ac0b52915e8b31344cafb9042ab92e830">DEADLOCK_MAX_RETRY_TIME_MS</a></div><div class="ttdeci">constexpr Milliseconds DEADLOCK_MAX_RETRY_TIME_MS</div><div class="ttdef"><b>Definition:</b> Transaction.cpp:30</div></div>
+<div class="ttc" id="aclass_transaction_task_html_a28c9ca1d9d3fdc6a722dcec68e46a38f"><div class="ttname"><a href="../../d0/dac/class_transaction_task.html#a28c9ca1d9d3fdc6a722dcec68e46a38f">TransactionTask::TryExecute</a></div><div class="ttdeci">int TryExecute()</div><div class="ttdef"><b>Definition:</b> Transaction.cpp:131</div></div>
+<div class="ttc" id="aclass_transaction_task_html_a84b48dbb670dd884e9b44ea53c8b0008"><div class="ttname"><a href="../../d0/dac/class_transaction_task.html#a84b48dbb670dd884e9b44ea53c8b0008">TransactionTask::_deadlockLock</a></div><div class="ttdeci">static std::mutex _deadlockLock</div><div class="ttdef"><b>Definition:</b> Transaction.h:93</div></div>
+<div class="ttc" id="aclass_transaction_task_html_adc2f1534bce5a7ce198eeeb510fcb533"><div class="ttname"><a href="../../d0/dac/class_transaction_task.html#adc2f1534bce5a7ce198eeeb510fcb533">TransactionTask::CleanupOnFailure</a></div><div class="ttdeci">void CleanupOnFailure()</div><div class="ttdef"><b>Definition:</b> Transaction.cpp:136</div></div>
+<div class="ttc" id="aclass_transaction_with_result_task_html_aaf4d587b83977e65089bdbf92fa09ae1"><div class="ttname"><a href="../../d8/d08/class_transaction_with_result_task.html#aaf4d587b83977e65089bdbf92fa09ae1">TransactionWithResultTask::m_result</a></div><div class="ttdeci">TransactionPromise m_result</div><div class="ttdef"><b>Definition:</b> Transaction.h:106</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a5bc976207b1d695c8e8c052b0eacc7a6" name="a5bc976207b1d695c8e8c052b0eacc7a6"></a>
@@ -255,7 +307,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  101</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d8/d08/class_transaction_with_result_task.html#aaf4d587b83977e65089bdbf92fa09ae1">m_result</a>.get_future(); }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -282,8 +335,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/database/Database/<a class="el" href="../../d8/d99/_transaction_8h_source.html">Transaction.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/database/Database/<a class="el" href="../../df/d11/_transaction_8cpp.html">Transaction.cpp</a></li>
+<li><a class="el" href="../../">Transaction.h</a></li>
+<li><a class="el" href="../../">Transaction.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -291,7 +344,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d8/d08/class_transaction_with_result_task.html">TransactionWithResultTask</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:12 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:29 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -181,7 +181,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a2d6cf85d1eb98438b5022804296eff11 inherit pro_methods_class_updatable_script"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dff/class_updatable_script.html#a2d6cf85d1eb98438b5022804296eff11">UpdatableScript</a> ()=default</td></tr>
 <tr class="separator:a2d6cf85d1eb98438b5022804296eff11 inherit pro_methods_class_updatable_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a9f36ba678a1e3954f21b96b227fb999e" name="a9f36ba678a1e3954f21b96b227fb999e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9f36ba678a1e3954f21b96b227fb999e">&#9670;&#160;</a></span>go_dragonflayer_cage()</h2>
 
@@ -204,7 +205,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 1553</span>: <a class="code hl_class" href="../../d9/dc2/class_game_object_script.html">GameObjectScript</a>(<span class="stringliteral">&quot;go_dragonflayer_cage&quot;</span>) { }</div>
+<div class="ttc" id="aclass_game_object_script_html"><div class="ttname"><a href="../../d9/dc2/class_game_object_script.html">GameObjectScript</a></div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:758</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -244,11 +247,55 @@ Additional Inherited Members</h2></td></tr>
 <dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000046">Todo:</a></b></dt><dd>prisoner should help player for a short period of time </dd></dl>
 
 <p>Reimplemented from <a class="el" href="../../d9/dc2/class_game_object_script.html#a58b56fc92ae87aea0530eceba1f3088d">GameObjectScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 1556</span>    {</div>
+<div class="line"><span class="lineno"> 1557</span>        go-&gt;<a class="code hl_function" href="../../d0/dd1/class_game_object.html#a12000cdd8344e082611a6dafc6d283fa">UseDoorOrButton</a>();</div>
+<div class="line"><span class="lineno"> 1558</span>        <span class="keywordflow">if</span> (player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#ab98c62b0161d702e4219c8277f8f5349">GetQuestStatus</a>(<a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#a4d6f25f7ca33d24de63375fd80f65464a62f108ce2306c4739dfa8dd750aeac78">QUEST_PRISONERS_OF_WYRMSKULL</a>) != <a class="code hl_enumvalue" href="../../d2/dc8/_quest_def_8h.html#abfc87d39d69176ad25e800fb4aa6f0d8a9d062f65bead287785d9b540987bb484">QUEST_STATUS_INCOMPLETE</a>)</div>
+<div class="line"><span class="lineno"> 1559</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 1560</span> </div>
+<div class="line"><span class="lineno"> 1561</span>        <a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* pPrisoner = go-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#aa7cc61d571dbc39ca8ac6ac10ffd18ab">FindNearestCreature</a>(<a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#a4d6f25f7ca33d24de63375fd80f65464aa22418d4ecffba02287c2e32913bb81d">NPC_PRISONER_PRIEST</a>, 2.0f);</div>
+<div class="line"><span class="lineno"> 1562</span>        <span class="keywordflow">if</span> (!pPrisoner)</div>
+<div class="line"><span class="lineno"> 1563</span>        {</div>
+<div class="line"><span class="lineno"> 1564</span>            pPrisoner = go-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#aa7cc61d571dbc39ca8ac6ac10ffd18ab">FindNearestCreature</a>(<a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#a4d6f25f7ca33d24de63375fd80f65464a50000c03d26a85aa7a0a29e5a6702537">NPC_PRISONER_MAGE</a>, 2.0f);</div>
+<div class="line"><span class="lineno"> 1565</span>            <span class="keywordflow">if</span> (!pPrisoner)</div>
+<div class="line"><span class="lineno"> 1566</span>            {</div>
+<div class="line"><span class="lineno"> 1567</span>                pPrisoner = go-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#aa7cc61d571dbc39ca8ac6ac10ffd18ab">FindNearestCreature</a>(<a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#a4d6f25f7ca33d24de63375fd80f65464a68d3afb31a92f0c6667512c1dcbf1e46">NPC_PRISONER_WARRIOR</a>, 2.0f);</div>
+<div class="line"><span class="lineno"> 1568</span>                <span class="keywordflow">if</span> (!pPrisoner)</div>
+<div class="line"><span class="lineno"> 1569</span>                    pPrisoner = go-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#aa7cc61d571dbc39ca8ac6ac10ffd18ab">FindNearestCreature</a>(<a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#a4d6f25f7ca33d24de63375fd80f65464a061231939c8de775b288710eca21bf40">NPC_PRISONER_PALADIN</a>, 2.0f);</div>
+<div class="line"><span class="lineno"> 1570</span>            }</div>
+<div class="line"><span class="lineno"> 1571</span>        }</div>
+<div class="line"><span class="lineno"> 1572</span> </div>
+<div class="line"><span class="lineno"> 1573</span>        <span class="keywordflow">if</span> (!pPrisoner || !pPrisoner-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a5ea3f54af571493f7889220724667189">IsAlive</a>())</div>
+<div class="line"><span class="lineno"> 1574</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 1575</span> </div>
+<div class="line"><span class="lineno"> 1576</span>        <a class="code hl_class" href="../../d8/d63/class_quest.html">Quest</a> <span class="keyword">const</span>* qInfo = <a class="code hl_define" href="../../d9/d77/_object_mgr_8h.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetQuestTemplate(<a class="code hl_enumvalue" href="../../d6/d0c/go__scripts_8cpp.html#a4d6f25f7ca33d24de63375fd80f65464a62f108ce2306c4739dfa8dd750aeac78">QUEST_PRISONERS_OF_WYRMSKULL</a>);</div>
+<div class="line"><span class="lineno"> 1577</span>        <span class="keywordflow">if</span> (qInfo)</div>
+<div class="line"><span class="lineno"> 1578</span>        {</div>
+<div class="line"><span class="lineno"> 1580</span>            player-&gt;<a class="code hl_function" href="../../d8/d53/class_player.html#a05924f5e9df8d5f06ba422e159a4fd8a">KilledMonsterCredit</a>(qInfo-&gt;<a class="code hl_variable" href="../../d8/d63/class_quest.html#a136c35d22865c4d7a8199f754977c768">RequiredNpcOrGo</a>[0]);</div>
+<div class="line"><span class="lineno"> 1581</span>            pPrisoner-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#afb2c9a581a6cb7f5e4ad66e3f5086002">DisappearAndDie</a>();</div>
+<div class="line"><span class="lineno"> 1582</span>        }</div>
+<div class="line"><span class="lineno"> 1583</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 1584</span>    }</div>
+<div class="ttc" id="a_object_mgr_8h_html_a736e30da2b5261060ac6cdbb5de3b787"><div class="ttname"><a href="../../d9/d77/_object_mgr_8h.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a></div><div class="ttdeci">#define sObjectMgr</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:1606</div></div>
+<div class="ttc" id="a_quest_def_8h_html_abfc87d39d69176ad25e800fb4aa6f0d8a9d062f65bead287785d9b540987bb484"><div class="ttname"><a href="../../d2/dc8/_quest_def_8h.html#abfc87d39d69176ad25e800fb4aa6f0d8a9d062f65bead287785d9b540987bb484">QUEST_STATUS_INCOMPLETE</a></div><div class="ttdeci">@ QUEST_STATUS_INCOMPLETE</div><div class="ttdef"><b>Definition:</b> QuestDef.h:103</div></div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_creature_html_afb2c9a581a6cb7f5e4ad66e3f5086002"><div class="ttname"><a href="../../d1/dac/class_creature.html#afb2c9a581a6cb7f5e4ad66e3f5086002">Creature::DisappearAndDie</a></div><div class="ttdeci">void DisappearAndDie()</div><div class="ttdef"><b>Definition:</b> Creature.cpp:317</div></div>
+<div class="ttc" id="aclass_game_object_html_a12000cdd8344e082611a6dafc6d283fa"><div class="ttname"><a href="../../d0/dd1/class_game_object.html#a12000cdd8344e082611a6dafc6d283fa">GameObject::UseDoorOrButton</a></div><div class="ttdeci">void UseDoorOrButton(uint32 time_to_restore=0, bool alternative=false, Unit *user=nullptr)</div><div class="ttdef"><b>Definition:</b> GameObject.cpp:1400</div></div>
+<div class="ttc" id="aclass_player_html_a05924f5e9df8d5f06ba422e159a4fd8a"><div class="ttname"><a href="../../d8/d53/class_player.html#a05924f5e9df8d5f06ba422e159a4fd8a">Player::KilledMonsterCredit</a></div><div class="ttdeci">void KilledMonsterCredit(uint32 entry, ObjectGuid guid=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> PlayerQuest.cpp:1904</div></div>
+<div class="ttc" id="aclass_player_html_ab98c62b0161d702e4219c8277f8f5349"><div class="ttname"><a href="../../d8/d53/class_player.html#ab98c62b0161d702e4219c8277f8f5349">Player::GetQuestStatus</a></div><div class="ttdeci">QuestStatus GetQuestStatus(uint32 quest_id) const</div><div class="ttdef"><b>Definition:</b> PlayerQuest.cpp:1407</div></div>
+<div class="ttc" id="aclass_quest_html"><div class="ttname"><a href="../../d8/d63/class_quest.html">Quest</a></div><div class="ttdef"><b>Definition:</b> QuestDef.h:207</div></div>
+<div class="ttc" id="aclass_quest_html_a136c35d22865c4d7a8199f754977c768"><div class="ttname"><a href="../../d8/d63/class_quest.html#a136c35d22865c4d7a8199f754977c768">Quest::RequiredNpcOrGo</a></div><div class="ttdeci">int32 RequiredNpcOrGo[QUEST_OBJECTIVES_COUNT]</div><div class="ttdef"><b>Definition:</b> QuestDef.h:301</div></div>
+<div class="ttc" id="aclass_unit_html_a5ea3f54af571493f7889220724667189"><div class="ttname"><a href="../../da/db7/class_unit.html#a5ea3f54af571493f7889220724667189">Unit::IsAlive</a></div><div class="ttdeci">bool IsAlive() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1805</div></div>
+<div class="ttc" id="aclass_world_object_html_aa7cc61d571dbc39ca8ac6ac10ffd18ab"><div class="ttname"><a href="../../db/df7/class_world_object.html#aa7cc61d571dbc39ca8ac6ac10ffd18ab">WorldObject::FindNearestCreature</a></div><div class="ttdeci">Creature * FindNearestCreature(uint32 entry, float range, bool alive=true) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:2392</div></div>
+<div class="ttc" id="ago__scripts_8cpp_html_a4d6f25f7ca33d24de63375fd80f65464a061231939c8de775b288710eca21bf40"><div class="ttname"><a href="../../d6/d0c/go__scripts_8cpp.html#a4d6f25f7ca33d24de63375fd80f65464a061231939c8de775b288710eca21bf40">NPC_PRISONER_PALADIN</a></div><div class="ttdeci">@ NPC_PRISONER_PALADIN</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1547</div></div>
+<div class="ttc" id="ago__scripts_8cpp_html_a4d6f25f7ca33d24de63375fd80f65464a50000c03d26a85aa7a0a29e5a6702537"><div class="ttname"><a href="../../d6/d0c/go__scripts_8cpp.html#a4d6f25f7ca33d24de63375fd80f65464a50000c03d26a85aa7a0a29e5a6702537">NPC_PRISONER_MAGE</a></div><div class="ttdeci">@ NPC_PRISONER_MAGE</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1545</div></div>
+<div class="ttc" id="ago__scripts_8cpp_html_a4d6f25f7ca33d24de63375fd80f65464a62f108ce2306c4739dfa8dd750aeac78"><div class="ttname"><a href="../../d6/d0c/go__scripts_8cpp.html#a4d6f25f7ca33d24de63375fd80f65464a62f108ce2306c4739dfa8dd750aeac78">QUEST_PRISONERS_OF_WYRMSKULL</a></div><div class="ttdeci">@ QUEST_PRISONERS_OF_WYRMSKULL</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1543</div></div>
+<div class="ttc" id="ago__scripts_8cpp_html_a4d6f25f7ca33d24de63375fd80f65464a68d3afb31a92f0c6667512c1dcbf1e46"><div class="ttname"><a href="../../d6/d0c/go__scripts_8cpp.html#a4d6f25f7ca33d24de63375fd80f65464a68d3afb31a92f0c6667512c1dcbf1e46">NPC_PRISONER_WARRIOR</a></div><div class="ttdeci">@ NPC_PRISONER_WARRIOR</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1546</div></div>
+<div class="ttc" id="ago__scripts_8cpp_html_a4d6f25f7ca33d24de63375fd80f65464aa22418d4ecffba02287c2e32913bb81d"><div class="ttname"><a href="../../d6/d0c/go__scripts_8cpp.html#a4d6f25f7ca33d24de63375fd80f65464aa22418d4ecffba02287c2e32913bb81d">NPC_PRISONER_PRIEST</a></div><div class="ttdeci">@ NPC_PRISONER_PRIEST</div><div class="ttdef"><b>Definition:</b> go_scripts.cpp:1544</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/World/<a class="el" href="../../d6/d0c/go__scripts_8cpp.html">go_scripts.cpp</a></li>
+<li><a class="el" href="../../">go_scripts.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -256,7 +303,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d1b/classgo__dragonflayer__cage.html">go_dragonflayer_cage</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:45 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:59 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

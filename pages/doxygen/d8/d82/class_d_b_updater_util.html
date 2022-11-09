@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('d8/d82/class_d_b_updater_util.html','.
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../dc/dca/_d_b_updater_8h_source.html">DBUpdater.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">DBUpdater.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -127,7 +127,8 @@ Static Private Member Functions</h2></td></tr>
 <tr class="memitem:a31499b458f0ff0ec518980f51d6a242a"><td class="memItemLeft" align="right" valign="top">static std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d82/class_d_b_updater_util.html#a31499b458f0ff0ec518980f51d6a242a">corrected_path</a> ()</td></tr>
 <tr class="separator:a31499b458f0ff0ec518980f51d6a242a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a65cf44a18a72ba92f91a667e41f9da80" name="a65cf44a18a72ba92f91a667e41f9da80"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a65cf44a18a72ba92f91a667e41f9da80">&#9670;&#160;</a></span>CheckExecutable()</h2>
 
@@ -150,7 +151,30 @@ Static Private Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   41</span>{</div>
+<div class="line"><span class="lineno">   42</span>    std::filesystem::path exe(<a class="code hl_function" href="../../d8/d82/class_d_b_updater_util.html#a8ab8efffe5408f97f438e06766f65ec9">GetCorrectedMySQLExecutable</a>());</div>
+<div class="line"><span class="lineno">   43</span>    <span class="keywordflow">if</span> (!is_regular_file(exe))</div>
+<div class="line"><span class="lineno">   44</span>    {</div>
+<div class="line"><span class="lineno">   45</span>        exe = <a class="code hl_function" href="../../d1/d7d/namespace_acore.html#a9de098dac5e38f8c2cdbeb1d4d706881">Acore::SearchExecutableInPath</a>(<span class="stringliteral">&quot;mysql&quot;</span>);</div>
+<div class="line"><span class="lineno">   46</span>        <span class="keywordflow">if</span> (!exe.empty() &amp;&amp; is_regular_file(exe))</div>
+<div class="line"><span class="lineno">   47</span>        {</div>
+<div class="line"><span class="lineno">   48</span>            <span class="comment">// Correct the path to the cli</span></div>
+<div class="line"><span class="lineno">   49</span>            <a class="code hl_function" href="../../d8/d82/class_d_b_updater_util.html#a31499b458f0ff0ec518980f51d6a242a">corrected_path</a>() = absolute(exe).generic_string();</div>
+<div class="line"><span class="lineno">   50</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   51</span>        }</div>
+<div class="line"><span class="lineno">   52</span> </div>
+<div class="line"><span class="lineno">   53</span>        <a class="code hl_define" href="../../da/df4/_log_8h.html#a0e09b50c268dc6897a1c70aa46de936e">LOG_FATAL</a>(<span class="stringliteral">&quot;sql.updates&quot;</span>, <span class="stringliteral">&quot;Didn&#39;t find any executable MySQL binary at \&#39;{}\&#39; or in path, correct the path in the *.conf (\&quot;MySQLExecutable\&quot;).&quot;</span>,</div>
+<div class="line"><span class="lineno">   54</span>            absolute(exe).generic_string());</div>
+<div class="line"><span class="lineno">   55</span> </div>
+<div class="line"><span class="lineno">   56</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   57</span>    }</div>
+<div class="line"><span class="lineno">   58</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   59</span>}</div>
+<div class="ttc" id="a_log_8h_html_a0e09b50c268dc6897a1c70aa46de936e"><div class="ttname"><a href="../../da/df4/_log_8h.html#a0e09b50c268dc6897a1c70aa46de936e">LOG_FATAL</a></div><div class="ttdeci">#define LOG_FATAL(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:155</div></div>
+<div class="ttc" id="aclass_d_b_updater_util_html_a31499b458f0ff0ec518980f51d6a242a"><div class="ttname"><a href="../../d8/d82/class_d_b_updater_util.html#a31499b458f0ff0ec518980f51d6a242a">DBUpdaterUtil::corrected_path</a></div><div class="ttdeci">static std::string &amp; corrected_path()</div><div class="ttdef"><b>Definition:</b> DBUpdater.cpp:61</div></div>
+<div class="ttc" id="aclass_d_b_updater_util_html_a8ab8efffe5408f97f438e06766f65ec9"><div class="ttname"><a href="../../d8/d82/class_d_b_updater_util.html#a8ab8efffe5408f97f438e06766f65ec9">DBUpdaterUtil::GetCorrectedMySQLExecutable</a></div><div class="ttdeci">static std::string GetCorrectedMySQLExecutable()</div><div class="ttdef"><b>Definition:</b> DBUpdater.cpp:32</div></div>
+<div class="ttc" id="anamespace_acore_html_a9de098dac5e38f8c2cdbeb1d4d706881"><div class="ttname"><a href="../../d1/d7d/namespace_acore.html#a9de098dac5e38f8c2cdbeb1d4d706881">Acore::SearchExecutableInPath</a></div><div class="ttdeci">std::string SearchExecutableInPath(std::string const &amp;filename)</div><div class="ttdef"><b>Definition:</b> StartProcess.cpp:257</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a31499b458f0ff0ec518980f51d6a242a" name="a31499b458f0ff0ec518980f51d6a242a"></a>
@@ -175,7 +199,11 @@ Static Private Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   62</span>{</div>
+<div class="line"><span class="lineno">   63</span>    <span class="keyword">static</span> std::string path;</div>
+<div class="line"><span class="lineno">   64</span>    <span class="keywordflow">return</span> path;</div>
+<div class="line"><span class="lineno">   65</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a8ab8efffe5408f97f438e06766f65ec9" name="a8ab8efffe5408f97f438e06766f65ec9"></a>
@@ -200,12 +228,19 @@ Static Private Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   33</span>{</div>
+<div class="line"><span class="lineno">   34</span>    <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d8/d82/class_d_b_updater_util.html#a31499b458f0ff0ec518980f51d6a242a">corrected_path</a>().empty())</div>
+<div class="line"><span class="lineno">   35</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../d8/d82/class_d_b_updater_util.html#a31499b458f0ff0ec518980f51d6a242a">corrected_path</a>();</div>
+<div class="line"><span class="lineno">   36</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">   37</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../d2/dbc/namespace_built_in_config.html#abdfee61576e0a7c64d7bb6a516ab69b7">BuiltInConfig::GetMySQLExecutable</a>();</div>
+<div class="line"><span class="lineno">   38</span>}</div>
+<div class="ttc" id="anamespace_built_in_config_html_abdfee61576e0a7c64d7bb6a516ab69b7"><div class="ttname"><a href="../../d2/dbc/namespace_built_in_config.html#abdfee61576e0a7c64d7bb6a516ab69b7">BuiltInConfig::GetMySQLExecutable</a></div><div class="ttdeci">AC_COMMON_API std::string GetMySQLExecutable()</div><div class="ttdef"><b>Definition:</b> BuiltInConfig.cpp:48</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/database/Updater/<a class="el" href="../../dc/dca/_d_b_updater_8h_source.html">DBUpdater.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/database/Updater/<a class="el" href="../../db/d70/_d_b_updater_8cpp.html">DBUpdater.cpp</a></li>
+<li><a class="el" href="../../">DBUpdater.h</a></li>
+<li><a class="el" href="../../">DBUpdater.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -213,7 +248,7 @@ Static Private Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d8/d82/class_d_b_updater_util.html">DBUpdaterUtil</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:44 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:58 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

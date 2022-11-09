@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('df/d79/class_world_packets_1_1_guild_1
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d3/d9c/_guild_packets_8h_source.html">GuildPackets.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">GuildPackets.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for WorldPackets::Guild::GuildEventLogQueryResults:</div>
 <div class="dyncontent">
@@ -173,7 +173,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ab85f1c9f20117bc5015180165c7b458a inherit pro_attribs_class_world_packets_1_1_packet"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d1a/class_world_packet.html">WorldPacket</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d4e/class_world_packets_1_1_packet.html#ab85f1c9f20117bc5015180165c7b458a">_worldPacket</a></td></tr>
 <tr class="separator:ab85f1c9f20117bc5015180165c7b458a inherit pro_attribs_class_world_packets_1_1_packet"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="af12c732cd5c81792c6f0cb5cacc096f9" name="af12c732cd5c81792c6f0cb5cacc096f9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af12c732cd5c81792c6f0cb5cacc096f9">&#9670;&#160;</a></span>GuildEventLogQueryResults()</h2>
 
@@ -196,7 +197,10 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  234</span>: <a class="code hl_function" href="../../d6/d50/class_world_packets_1_1_server_packet.html#ad2222011e1251791799f97b149cef8b9">ServerPacket</a>(<a class="code hl_enumvalue" href="../../d2/dec/group__u2w.html#gga1073b6abb3a749f18bf1633020879e9badb718a61f487e4bbc53eb82aa44731b1">MSG_GUILD_EVENT_LOG_QUERY</a>, 4) { }</div>
+<div class="ttc" id="aclass_world_packets_1_1_server_packet_html_ad2222011e1251791799f97b149cef8b9"><div class="ttname"><a href="../../d6/d50/class_world_packets_1_1_server_packet.html#ad2222011e1251791799f97b149cef8b9">WorldPackets::ServerPacket::ServerPacket</a></div><div class="ttdeci">ServerPacket(OpcodeServer opcode, size_t initialSize=200)</div><div class="ttdef"><b>Definition:</b> Packet.cpp:25</div></div>
+<div class="ttc" id="agroup__u2w_html_gga1073b6abb3a749f18bf1633020879e9badb718a61f487e4bbc53eb82aa44731b1"><div class="ttname"><a href="../../d2/dec/group__u2w.html#gga1073b6abb3a749f18bf1633020879e9badb718a61f487e4bbc53eb82aa44731b1">MSG_GUILD_EVENT_LOG_QUERY</a></div><div class="ttdeci">@ MSG_GUILD_EVENT_LOG_QUERY</div><div class="ttdef"><b>Definition:</b> Opcodes.h:1053</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -224,7 +228,34 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d4e/class_world_packets_1_1_packet.html#af7c79156d7b6cfe3142fc530f9ed262a">WorldPackets::Packet</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  145</span>{</div>
+<div class="line"><span class="lineno">  146</span>    <a class="code hl_variable" href="../../d7/d4e/class_world_packets_1_1_packet.html#ab85f1c9f20117bc5015180165c7b458a">_worldPacket</a>.<a class="code hl_function" href="../../dd/d44/class_byte_buffer.html#a2561da6a9423880162eaf47c60284dbe">reserve</a>(1 + <a class="code hl_variable" href="../../df/d79/class_world_packets_1_1_guild_1_1_guild_event_log_query_results.html#a227ab5555fccf5c8c78ca10fa229d3d4">Entry</a>.size() * <span class="keyword">sizeof</span>(GuildEventEntry));</div>
+<div class="line"><span class="lineno">  147</span> </div>
+<div class="line"><span class="lineno">  148</span>    <a class="code hl_variable" href="../../d7/d4e/class_world_packets_1_1_packet.html#ab85f1c9f20117bc5015180165c7b458a">_worldPacket</a> &lt;&lt; <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>(<a class="code hl_variable" href="../../df/d79/class_world_packets_1_1_guild_1_1_guild_event_log_query_results.html#a227ab5555fccf5c8c78ca10fa229d3d4">Entry</a>.size());</div>
+<div class="line"><span class="lineno">  149</span> </div>
+<div class="line"><span class="lineno">  150</span>    <span class="keywordflow">for</span> (GuildEventEntry <span class="keyword">const</span>&amp; entry : <a class="code hl_variable" href="../../df/d79/class_world_packets_1_1_guild_1_1_guild_event_log_query_results.html#a227ab5555fccf5c8c78ca10fa229d3d4">Entry</a>)</div>
+<div class="line"><span class="lineno">  151</span>    {</div>
+<div class="line"><span class="lineno">  152</span>        <a class="code hl_variable" href="../../d7/d4e/class_world_packets_1_1_packet.html#ab85f1c9f20117bc5015180165c7b458a">_worldPacket</a> &lt;&lt; <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>(entry.TransactionType);</div>
+<div class="line"><span class="lineno">  153</span>        <a class="code hl_variable" href="../../d7/d4e/class_world_packets_1_1_packet.html#ab85f1c9f20117bc5015180165c7b458a">_worldPacket</a> &lt;&lt; entry.PlayerGUID;</div>
+<div class="line"><span class="lineno">  154</span>        <span class="keywordflow">if</span> (entry.TransactionType != <a class="code hl_enumvalue" href="../../df/da3/_guild_8h.html#aff19569a84ef44eea2acf4d6bcb86690ae5477237a42236638c4c00f45b99ad8c">GUILD_EVENT_LOG_JOIN_GUILD</a> &amp;&amp; entry.TransactionType != <a class="code hl_enumvalue" href="../../df/da3/_guild_8h.html#aff19569a84ef44eea2acf4d6bcb86690a0ec79d8832cc2bf0c1a715d8f702faff">GUILD_EVENT_LOG_LEAVE_GUILD</a>)</div>
+<div class="line"><span class="lineno">  155</span>            <a class="code hl_variable" href="../../d7/d4e/class_world_packets_1_1_packet.html#ab85f1c9f20117bc5015180165c7b458a">_worldPacket</a> &lt;&lt; entry.OtherGUID;</div>
+<div class="line"><span class="lineno">  156</span>        <span class="keywordflow">if</span> (entry.TransactionType == <a class="code hl_enumvalue" href="../../df/da3/_guild_8h.html#aff19569a84ef44eea2acf4d6bcb86690a76587e8e52ae2fb7918f62b5542fe7d4">GUILD_EVENT_LOG_PROMOTE_PLAYER</a> || entry.TransactionType == <a class="code hl_enumvalue" href="../../df/da3/_guild_8h.html#aff19569a84ef44eea2acf4d6bcb86690abe7cbc394621d334e2933aa98d103434">GUILD_EVENT_LOG_DEMOTE_PLAYER</a>)</div>
+<div class="line"><span class="lineno">  157</span>            <a class="code hl_variable" href="../../d7/d4e/class_world_packets_1_1_packet.html#ab85f1c9f20117bc5015180165c7b458a">_worldPacket</a> &lt;&lt; <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>(entry.RankID);</div>
+<div class="line"><span class="lineno">  158</span>        <a class="code hl_variable" href="../../d7/d4e/class_world_packets_1_1_packet.html#ab85f1c9f20117bc5015180165c7b458a">_worldPacket</a> &lt;&lt; <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(entry.TransactionDate);</div>
+<div class="line"><span class="lineno">  159</span>    }</div>
+<div class="line"><span class="lineno">  160</span> </div>
+<div class="line"><span class="lineno">  161</span>    <span class="keywordflow">return</span> &amp;<a class="code hl_variable" href="../../d7/d4e/class_world_packets_1_1_packet.html#ab85f1c9f20117bc5015180165c7b458a">_worldPacket</a>;</div>
+<div class="line"><span class="lineno">  162</span>}</div>
+<div class="ttc" id="a_define_8h_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:110</div></div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="a_guild_8h_html_aff19569a84ef44eea2acf4d6bcb86690a0ec79d8832cc2bf0c1a715d8f702faff"><div class="ttname"><a href="../../df/da3/_guild_8h.html#aff19569a84ef44eea2acf4d6bcb86690a0ec79d8832cc2bf0c1a715d8f702faff">GUILD_EVENT_LOG_LEAVE_GUILD</a></div><div class="ttdeci">@ GUILD_EVENT_LOG_LEAVE_GUILD</div><div class="ttdef"><b>Definition:</b> Guild.h:218</div></div>
+<div class="ttc" id="a_guild_8h_html_aff19569a84ef44eea2acf4d6bcb86690a76587e8e52ae2fb7918f62b5542fe7d4"><div class="ttname"><a href="../../df/da3/_guild_8h.html#aff19569a84ef44eea2acf4d6bcb86690a76587e8e52ae2fb7918f62b5542fe7d4">GUILD_EVENT_LOG_PROMOTE_PLAYER</a></div><div class="ttdeci">@ GUILD_EVENT_LOG_PROMOTE_PLAYER</div><div class="ttdef"><b>Definition:</b> Guild.h:215</div></div>
+<div class="ttc" id="a_guild_8h_html_aff19569a84ef44eea2acf4d6bcb86690abe7cbc394621d334e2933aa98d103434"><div class="ttname"><a href="../../df/da3/_guild_8h.html#aff19569a84ef44eea2acf4d6bcb86690abe7cbc394621d334e2933aa98d103434">GUILD_EVENT_LOG_DEMOTE_PLAYER</a></div><div class="ttdeci">@ GUILD_EVENT_LOG_DEMOTE_PLAYER</div><div class="ttdef"><b>Definition:</b> Guild.h:216</div></div>
+<div class="ttc" id="a_guild_8h_html_aff19569a84ef44eea2acf4d6bcb86690ae5477237a42236638c4c00f45b99ad8c"><div class="ttname"><a href="../../df/da3/_guild_8h.html#aff19569a84ef44eea2acf4d6bcb86690ae5477237a42236638c4c00f45b99ad8c">GUILD_EVENT_LOG_JOIN_GUILD</a></div><div class="ttdeci">@ GUILD_EVENT_LOG_JOIN_GUILD</div><div class="ttdef"><b>Definition:</b> Guild.h:214</div></div>
+<div class="ttc" id="aclass_byte_buffer_html_a2561da6a9423880162eaf47c60284dbe"><div class="ttname"><a href="../../dd/d44/class_byte_buffer.html#a2561da6a9423880162eaf47c60284dbe">ByteBuffer::reserve</a></div><div class="ttdeci">void reserve(size_t ressize)</div><div class="ttdef"><b>Definition:</b> ByteBuffer.h:454</div></div>
+<div class="ttc" id="aclass_world_packets_1_1_guild_1_1_guild_event_log_query_results_html_a227ab5555fccf5c8c78ca10fa229d3d4"><div class="ttname"><a href="../../df/d79/class_world_packets_1_1_guild_1_1_guild_event_log_query_results.html#a227ab5555fccf5c8c78ca10fa229d3d4">WorldPackets::Guild::GuildEventLogQueryResults::Entry</a></div><div class="ttdeci">std::vector&lt; GuildEventEntry &gt; Entry</div><div class="ttdef"><b>Definition:</b> GuildPackets.h:238</div></div>
+<div class="ttc" id="aclass_world_packets_1_1_packet_html_ab85f1c9f20117bc5015180165c7b458a"><div class="ttname"><a href="../../d7/d4e/class_world_packets_1_1_packet.html#ab85f1c9f20117bc5015180165c7b458a">WorldPackets::Packet::_worldPacket</a></div><div class="ttdeci">WorldPacket _worldPacket</div><div class="ttdef"><b>Definition:</b> Packet.h:42</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -243,8 +274,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Server/Packets/<a class="el" href="../../d3/d9c/_guild_packets_8h_source.html">GuildPackets.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/Server/Packets/<a class="el" href="../../d6/d21/_guild_packets_8cpp.html">GuildPackets.cpp</a></li>
+<li><a class="el" href="../../">GuildPackets.h</a></li>
+<li><a class="el" href="../../">GuildPackets.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -252,7 +283,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d3/d87/namespace_world_packets.html">WorldPackets</a></li><li class="navelem"><a class="el" href="../../da/d28/namespace_world_packets_1_1_guild.html">Guild</a></li><li class="navelem"><a class="el" href="../../df/d79/class_world_packets_1_1_guild_1_1_guild_event_log_query_results.html">GuildEventLogQueryResults</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:14 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:32 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

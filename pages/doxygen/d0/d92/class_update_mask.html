@@ -114,7 +114,7 @@ $(document).ready(function(){initNavTree('d0/d92/class_update_mask.html','../../
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../da/d03/_update_mask_8h_source.html">UpdateMask.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">UpdateMask.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
@@ -167,7 +167,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:ab34e66bf840ac230da0cfa35ef332145"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d92/class_update_mask.html#ab34e66bf840ac230da0cfa35ef332145">_bits</a> {nullptr}</td></tr>
 <tr class="separator:ab34e66bf840ac230da0cfa35ef332145"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Typedef Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a7638c508cfb0f5480eec2f9d650b0eb4" name="a7638c508cfb0f5480eec2f9d650b0eb4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7638c508cfb0f5480eec2f9d650b0eb4">&#9670;&#160;</a></span>ClientUpdateMaskType</h2>
 
@@ -199,7 +200,12 @@ Private Attributes</h2></td></tr>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a667c2f210ee4a2417a2a3ba486d1332fac06e5fd027ae17cd4eaf7faa2580098b" name="a667c2f210ee4a2417a2a3ba486d1332fac06e5fd027ae17cd4eaf7faa2580098b"></a>CLIENT_UPDATE_MASK_BITS&#160;</td><td class="fielddoc"></td></tr>
 </table>
-
+<div class="fragment"><div class="line"><span class="lineno">   32</span>    {</div>
+<div class="line"><span class="lineno">   33</span>        <a class="code hl_enumvalue" href="../../d0/d92/class_update_mask.html#a667c2f210ee4a2417a2a3ba486d1332fac06e5fd027ae17cd4eaf7faa2580098b">CLIENT_UPDATE_MASK_BITS</a> = <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../d0/d92/class_update_mask.html#a7638c508cfb0f5480eec2f9d650b0eb4">ClientUpdateMaskType</a>) * 8,</div>
+<div class="line"><span class="lineno">   34</span>    };</div>
+<div class="ttc" id="aclass_update_mask_html_a667c2f210ee4a2417a2a3ba486d1332fac06e5fd027ae17cd4eaf7faa2580098b"><div class="ttname"><a href="../../d0/d92/class_update_mask.html#a667c2f210ee4a2417a2a3ba486d1332fac06e5fd027ae17cd4eaf7faa2580098b">UpdateMask::CLIENT_UPDATE_MASK_BITS</a></div><div class="ttdeci">@ CLIENT_UPDATE_MASK_BITS</div><div class="ttdef"><b>Definition:</b> UpdateMask.h:33</div></div>
+<div class="ttc" id="aclass_update_mask_html_a7638c508cfb0f5480eec2f9d650b0eb4"><div class="ttname"><a href="../../d0/d92/class_update_mask.html#a7638c508cfb0f5480eec2f9d650b0eb4">UpdateMask::ClientUpdateMaskType</a></div><div class="ttdeci">uint32 ClientUpdateMaskType</div><div class="ttdoc">Type representing how client reads update mask.</div><div class="ttdef"><b>Definition:</b> UpdateMask.h:29</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -251,7 +257,15 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   39</span>    {</div>
+<div class="line"><span class="lineno">   40</span>        <a class="code hl_function" href="../../d0/d92/class_update_mask.html#ad6ec4d5a2b6a85a2ec72b559efbdeb35">SetCount</a>(right.GetCount());</div>
+<div class="line"><span class="lineno">   41</span>        memcpy(<a class="code hl_variable" href="../../d0/d92/class_update_mask.html#ab34e66bf840ac230da0cfa35ef332145">_bits</a>, right._bits, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>) * <a class="code hl_variable" href="../../d0/d92/class_update_mask.html#ad58cc5d2dbf8854f36ef4a19f5b6f51b">_blockCount</a> * 32);</div>
+<div class="line"><span class="lineno">   42</span>    }</div>
+<div class="ttc" id="a_define_8h_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:110</div></div>
+<div class="ttc" id="aclass_update_mask_html_ab34e66bf840ac230da0cfa35ef332145"><div class="ttname"><a href="../../d0/d92/class_update_mask.html#ab34e66bf840ac230da0cfa35ef332145">UpdateMask::_bits</a></div><div class="ttdeci">uint8 * _bits</div><div class="ttdef"><b>Definition:</b> UpdateMask.h:121</div></div>
+<div class="ttc" id="aclass_update_mask_html_ad58cc5d2dbf8854f36ef4a19f5b6f51b"><div class="ttname"><a href="../../d0/d92/class_update_mask.html#ad58cc5d2dbf8854f36ef4a19f5b6f51b">UpdateMask::_blockCount</a></div><div class="ttdeci">uint32 _blockCount</div><div class="ttdef"><b>Definition:</b> UpdateMask.h:120</div></div>
+<div class="ttc" id="aclass_update_mask_html_ad6ec4d5a2b6a85a2ec72b559efbdeb35"><div class="ttname"><a href="../../d0/d92/class_update_mask.html#ad6ec4d5a2b6a85a2ec72b559efbdeb35">UpdateMask::SetCount</a></div><div class="ttdeci">void SetCount(uint32 valuesCount)</div><div class="ttdef"><b>Definition:</b> UpdateMask.h:66</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a986a2b81e0b4f86486ccc455ff6ad79a" name="a986a2b81e0b4f86486ccc455ff6ad79a"></a>
@@ -276,7 +290,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   44</span>{ <span class="keyword">delete</span>[] <a class="code hl_variable" href="../../d0/d92/class_update_mask.html#ab34e66bf840ac230da0cfa35ef332145">_bits</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -303,7 +318,20 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   51</span>    {</div>
+<div class="line"><span class="lineno">   52</span>        <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> i = 0; i &lt; <a class="code hl_function" href="../../d0/d92/class_update_mask.html#a5c0d2086346e4522e422add9622e1117">GetBlockCount</a>(); ++i)</div>
+<div class="line"><span class="lineno">   53</span>        {</div>
+<div class="line"><span class="lineno">   54</span>            <a class="code hl_typedef" href="../../d0/d92/class_update_mask.html#a7638c508cfb0f5480eec2f9d650b0eb4">ClientUpdateMaskType</a> maskPart = 0;</div>
+<div class="line"><span class="lineno">   55</span>            <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> j = 0; j &lt; <a class="code hl_enumvalue" href="../../d0/d92/class_update_mask.html#a667c2f210ee4a2417a2a3ba486d1332fac06e5fd027ae17cd4eaf7faa2580098b">CLIENT_UPDATE_MASK_BITS</a>; ++j)</div>
+<div class="line"><span class="lineno">   56</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d0/d92/class_update_mask.html#ab34e66bf840ac230da0cfa35ef332145">_bits</a>[<a class="code hl_enumvalue" href="../../d0/d92/class_update_mask.html#a667c2f210ee4a2417a2a3ba486d1332fac06e5fd027ae17cd4eaf7faa2580098b">CLIENT_UPDATE_MASK_BITS</a> * i + j])</div>
+<div class="line"><span class="lineno">   57</span>                    maskPart |= 1 &lt;&lt; j;</div>
+<div class="line"><span class="lineno">   58</span> </div>
+<div class="line"><span class="lineno">   59</span>            *data &lt;&lt; maskPart;</div>
+<div class="line"><span class="lineno">   60</span>        }</div>
+<div class="line"><span class="lineno">   61</span>    }</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="aclass_update_mask_html_a5c0d2086346e4522e422add9622e1117"><div class="ttname"><a href="../../d0/d92/class_update_mask.html#a5c0d2086346e4522e422add9622e1117">UpdateMask::GetBlockCount</a></div><div class="ttdeci">uint32 GetBlockCount() const</div><div class="ttdef"><b>Definition:</b> UpdateMask.h:63</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a39cffd3822966011d83d7241ee3c5548" name="a39cffd3822966011d83d7241ee3c5548"></a>
@@ -328,7 +356,11 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   78</span>    {</div>
+<div class="line"><span class="lineno">   79</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d0/d92/class_update_mask.html#ab34e66bf840ac230da0cfa35ef332145">_bits</a>)</div>
+<div class="line"><span class="lineno">   80</span>            memset(<a class="code hl_variable" href="../../d0/d92/class_update_mask.html#ab34e66bf840ac230da0cfa35ef332145">_bits</a>, 0, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>) * <a class="code hl_variable" href="../../d0/d92/class_update_mask.html#ad58cc5d2dbf8854f36ef4a19f5b6f51b">_blockCount</a> * <a class="code hl_enumvalue" href="../../d0/d92/class_update_mask.html#a667c2f210ee4a2417a2a3ba486d1332fac06e5fd027ae17cd4eaf7faa2580098b">CLIENT_UPDATE_MASK_BITS</a>);</div>
+<div class="line"><span class="lineno">   81</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a69f7c72de49699d5730f3a10d55f30e2" name="a69f7c72de49699d5730f3a10d55f30e2"></a>
@@ -354,7 +386,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   48</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d0/d92/class_update_mask.html#ab34e66bf840ac230da0cfa35ef332145">_bits</a>[index] != 0; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a5c0d2086346e4522e422add9622e1117" name="a5c0d2086346e4522e422add9622e1117"></a>
@@ -379,7 +412,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   63</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d0/d92/class_update_mask.html#ad58cc5d2dbf8854f36ef4a19f5b6f51b">_blockCount</a>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a1f6e2b930533b303c173166bf3588613" name="a1f6e2b930533b303c173166bf3588613"></a>
@@ -404,7 +438,9 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   64</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d0/d92/class_update_mask.html#a6c7ed53833620c2754b1e0db85a96ece">_fieldCount</a>; }</div>
+<div class="ttc" id="aclass_update_mask_html_a6c7ed53833620c2754b1e0db85a96ece"><div class="ttname"><a href="../../d0/d92/class_update_mask.html#a6c7ed53833620c2754b1e0db85a96ece">UpdateMask::_fieldCount</a></div><div class="ttdeci">uint32 _fieldCount</div><div class="ttdef"><b>Definition:</b> UpdateMask.h:119</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="af15db8c732b94437fd1323a911eab5ce" name="af15db8c732b94437fd1323a911eab5ce"></a>
@@ -430,7 +466,16 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   94</span>    {</div>
+<div class="line"><span class="lineno">   95</span>        <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(right.GetCount() &lt;= <a class="code hl_function" href="../../d0/d92/class_update_mask.html#a1f6e2b930533b303c173166bf3588613">GetCount</a>());</div>
+<div class="line"><span class="lineno">   96</span>        <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> i = 0; i &lt; <a class="code hl_variable" href="../../d0/d92/class_update_mask.html#a6c7ed53833620c2754b1e0db85a96ece">_fieldCount</a>; ++i)</div>
+<div class="line"><span class="lineno">   97</span>            <a class="code hl_variable" href="../../d0/d92/class_update_mask.html#ab34e66bf840ac230da0cfa35ef332145">_bits</a>[i] &amp;= right._bits[i];</div>
+<div class="line"><span class="lineno">   98</span> </div>
+<div class="line"><span class="lineno">   99</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">  100</span>    }</div>
+<div class="ttc" id="a_errors_8h_html_af343b20373ba49a92fce523e948f2ab3"><div class="ttname"><a href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a></div><div class="ttdeci">#define ASSERT</div><div class="ttdef"><b>Definition:</b> Errors.h:68</div></div>
+<div class="ttc" id="aclass_update_mask_html_a1f6e2b930533b303c173166bf3588613"><div class="ttname"><a href="../../d0/d92/class_update_mask.html#a1f6e2b930533b303c173166bf3588613">UpdateMask::GetCount</a></div><div class="ttdeci">uint32 GetCount() const</div><div class="ttdef"><b>Definition:</b> UpdateMask.h:64</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a3c94144194d52a00888b8bb0760e2d5a" name="a3c94144194d52a00888b8bb0760e2d5a"></a>
@@ -456,7 +501,15 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   84</span>    {</div>
+<div class="line"><span class="lineno">   85</span>        <span class="keywordflow">if</span> (<span class="keyword">this</span> == &amp;right)</div>
+<div class="line"><span class="lineno">   86</span>            <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">   87</span> </div>
+<div class="line"><span class="lineno">   88</span>        <a class="code hl_function" href="../../d0/d92/class_update_mask.html#ad6ec4d5a2b6a85a2ec72b559efbdeb35">SetCount</a>(right.GetCount());</div>
+<div class="line"><span class="lineno">   89</span>        memcpy(<a class="code hl_variable" href="../../d0/d92/class_update_mask.html#ab34e66bf840ac230da0cfa35ef332145">_bits</a>, right._bits, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>) * <a class="code hl_variable" href="../../d0/d92/class_update_mask.html#ad58cc5d2dbf8854f36ef4a19f5b6f51b">_blockCount</a> * <a class="code hl_enumvalue" href="../../d0/d92/class_update_mask.html#a667c2f210ee4a2417a2a3ba486d1332fac06e5fd027ae17cd4eaf7faa2580098b">CLIENT_UPDATE_MASK_BITS</a>);</div>
+<div class="line"><span class="lineno">   90</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">   91</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a487d62a6a039803da615d265a176f138" name="a487d62a6a039803da615d265a176f138"></a>
@@ -482,7 +535,13 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  112</span>    {</div>
+<div class="line"><span class="lineno">  113</span>        <a class="code hl_class" href="../../d0/d92/class_update_mask.html">UpdateMask</a> ret(*<span class="keyword">this</span>);</div>
+<div class="line"><span class="lineno">  114</span>        ret |= right;</div>
+<div class="line"><span class="lineno">  115</span>        <span class="keywordflow">return</span> ret;</div>
+<div class="line"><span class="lineno">  116</span>    }</div>
+<div class="ttc" id="aclass_update_mask_html"><div class="ttname"><a href="../../d0/d92/class_update_mask.html">UpdateMask</a></div><div class="ttdef"><b>Definition:</b> UpdateMask.h:26</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a81b64e6574c61533b07491920eddf413" name="a81b64e6574c61533b07491920eddf413"></a>
@@ -508,7 +567,14 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  103</span>    {</div>
+<div class="line"><span class="lineno">  104</span>        <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(right.GetCount() &lt;= <a class="code hl_function" href="../../d0/d92/class_update_mask.html#a1f6e2b930533b303c173166bf3588613">GetCount</a>());</div>
+<div class="line"><span class="lineno">  105</span>        <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> i = 0; i &lt; <a class="code hl_variable" href="../../d0/d92/class_update_mask.html#a6c7ed53833620c2754b1e0db85a96ece">_fieldCount</a>; ++i)</div>
+<div class="line"><span class="lineno">  106</span>            <a class="code hl_variable" href="../../d0/d92/class_update_mask.html#ab34e66bf840ac230da0cfa35ef332145">_bits</a>[i] |= right._bits[i];</div>
+<div class="line"><span class="lineno">  107</span> </div>
+<div class="line"><span class="lineno">  108</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">  109</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="af3390cfa31c39629968a871be2c763fc" name="af3390cfa31c39629968a871be2c763fc"></a>
@@ -534,7 +600,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   46</span>{ <a class="code hl_variable" href="../../d0/d92/class_update_mask.html#ab34e66bf840ac230da0cfa35ef332145">_bits</a>[index] = 1; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad6ec4d5a2b6a85a2ec72b559efbdeb35" name="ad6ec4d5a2b6a85a2ec72b559efbdeb35"></a>
@@ -560,7 +627,16 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   67</span>    {</div>
+<div class="line"><span class="lineno">   68</span>        <span class="keyword">delete</span>[] <a class="code hl_variable" href="../../d0/d92/class_update_mask.html#ab34e66bf840ac230da0cfa35ef332145">_bits</a>;</div>
+<div class="line"><span class="lineno">   69</span> </div>
+<div class="line"><span class="lineno">   70</span>        <a class="code hl_variable" href="../../d0/d92/class_update_mask.html#a6c7ed53833620c2754b1e0db85a96ece">_fieldCount</a> = valuesCount;</div>
+<div class="line"><span class="lineno">   71</span>        <a class="code hl_variable" href="../../d0/d92/class_update_mask.html#ad58cc5d2dbf8854f36ef4a19f5b6f51b">_blockCount</a> = (valuesCount + <a class="code hl_enumvalue" href="../../d0/d92/class_update_mask.html#a667c2f210ee4a2417a2a3ba486d1332fac06e5fd027ae17cd4eaf7faa2580098b">CLIENT_UPDATE_MASK_BITS</a> - 1) / <a class="code hl_enumvalue" href="../../d0/d92/class_update_mask.html#a667c2f210ee4a2417a2a3ba486d1332fac06e5fd027ae17cd4eaf7faa2580098b">CLIENT_UPDATE_MASK_BITS</a>;</div>
+<div class="line"><span class="lineno">   72</span> </div>
+<div class="line"><span class="lineno">   73</span>        <a class="code hl_variable" href="../../d0/d92/class_update_mask.html#ab34e66bf840ac230da0cfa35ef332145">_bits</a> = <span class="keyword">new</span> <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>[<a class="code hl_variable" href="../../d0/d92/class_update_mask.html#ad58cc5d2dbf8854f36ef4a19f5b6f51b">_blockCount</a> * <a class="code hl_enumvalue" href="../../d0/d92/class_update_mask.html#a667c2f210ee4a2417a2a3ba486d1332fac06e5fd027ae17cd4eaf7faa2580098b">CLIENT_UPDATE_MASK_BITS</a>];</div>
+<div class="line"><span class="lineno">   74</span>        memset(<a class="code hl_variable" href="../../d0/d92/class_update_mask.html#ab34e66bf840ac230da0cfa35ef332145">_bits</a>, 0, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>) * <a class="code hl_variable" href="../../d0/d92/class_update_mask.html#ad58cc5d2dbf8854f36ef4a19f5b6f51b">_blockCount</a> * <a class="code hl_enumvalue" href="../../d0/d92/class_update_mask.html#a667c2f210ee4a2417a2a3ba486d1332fac06e5fd027ae17cd4eaf7faa2580098b">CLIENT_UPDATE_MASK_BITS</a>);</div>
+<div class="line"><span class="lineno">   75</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aaac0596975c08d04736996c608eff29f" name="aaac0596975c08d04736996c608eff29f"></a>
@@ -586,7 +662,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   47</span>{ <a class="code hl_variable" href="../../d0/d92/class_update_mask.html#ab34e66bf840ac230da0cfa35ef332145">_bits</a>[index] = 0; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -657,7 +734,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Entities/Object/Updates/<a class="el" href="../../da/d03/_update_mask_8h_source.html">UpdateMask.h</a></li>
+<li><a class="el" href="../../">UpdateMask.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -665,7 +742,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d0/d92/class_update_mask.html">UpdateMask</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:12 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:30 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

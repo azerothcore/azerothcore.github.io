@@ -292,7 +292,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="ac23e7a062ad7568de47341bce95352ab" name="ac23e7a062ad7568de47341bce95352ab"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac23e7a062ad7568de47341bce95352ab">&#9670;&#160;</a></span>HandleSpikes()</h2>
 
@@ -316,7 +317,58 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  536</span>        {</div>
+<div class="line"><span class="lineno">  537</span>            <a class="code hl_function" href="../../dc/d62/class_spell_script.html#a56ed3ad5cf4ebc848946a9d8f1c35d5f">PreventHitDefaultEffect</a>(effIndex);</div>
+<div class="line"><span class="lineno">  538</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* marrowgar = <a class="code hl_function" href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>()-&gt;ToCreature())</div>
+<div class="line"><span class="lineno">  539</span>            {</div>
+<div class="line"><span class="lineno">  540</span>                <span class="keywordtype">bool</span> didHit = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  541</span>                <a class="code hl_class" href="../../d2/d68/class_creature_a_i.html">CreatureAI</a>* marrowgarAI = marrowgar-&gt;AI();</div>
+<div class="line"><span class="lineno">  542</span>                <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> boneSpikeCount = <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>(<a class="code hl_function" href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>()-&gt;GetMap()-&gt;GetSpawnMode() &amp; 1 ? 3 : 1);</div>
+<div class="line"><span class="lineno">  543</span> </div>
+<div class="line"><span class="lineno">  544</span>                std::vector&lt;Player*&gt; validPlayers;</div>
+<div class="line"><span class="lineno">  545</span>                <a class="code hl_class" href="../../db/d87/class_map_ref_mgr.html">Map::PlayerList</a> <span class="keyword">const</span>&amp; pList = marrowgar-&gt;GetMap()-&gt;GetPlayers();</div>
+<div class="line"><span class="lineno">  546</span>                <span class="keywordflow">for</span> (<a class="code hl_class" href="../../db/dfe/class_linked_list_head_1_1_iterator.html">Map::PlayerList::const_iterator</a> itr = pList.<a class="code hl_function" href="../../db/d87/class_map_ref_mgr.html#a6774b551f0d64628e33594c7b486a872">begin</a>(); itr != pList.<a class="code hl_function" href="../../db/d87/class_map_ref_mgr.html#af488c0096775085791b5fbc89e5851a0">end</a>(); ++itr)</div>
+<div class="line"><span class="lineno">  547</span>                    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* plr = itr-&gt;GetSource())</div>
+<div class="line"><span class="lineno">  548</span>                        <span class="keywordflow">if</span> (plr-&gt;IsAlive() &amp;&amp; !plr-&gt;IsGameMaster() &amp;&amp; plr-&gt;GetExactDist2dSq(marrowgar) &lt; (150.0f * 150.0f) &amp;&amp; !plr-&gt;HasAura(<a class="code hl_enumvalue" href="../../d4/dac/boss__lord__marrowgar_8cpp.html#a5bd342133be8c2137b831460acc9298cab7e03756d6e92addf82c91c4333c69dc">SPELL_IMPALED</a>))</div>
+<div class="line"><span class="lineno">  549</span>                            <span class="keywordflow">if</span> (!marrowgar-&gt;GetVictim() || marrowgar-&gt;GetVictim()-&gt;GetGUID() != plr-&gt;GetGUID())</div>
+<div class="line"><span class="lineno">  550</span>                                <span class="keywordflow">if</span> (plr-&gt;GetGUID() != marrowgarAI-&gt;<a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a88b3f14630803365aeb7952d765a7cf1">GetGUID</a>(0) &amp;&amp; plr-&gt;GetGUID() != marrowgarAI-&gt;<a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a88b3f14630803365aeb7952d765a7cf1">GetGUID</a>(1) &amp;&amp; plr-&gt;GetGUID() != marrowgarAI-&gt;<a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a88b3f14630803365aeb7952d765a7cf1">GetGUID</a>(2)) <span class="comment">// not a bone slice target</span></div>
+<div class="line"><span class="lineno">  551</span>                                    validPlayers.push_back(plr);</div>
+<div class="line"><span class="lineno">  552</span> </div>
+<div class="line"><span class="lineno">  553</span>                std::vector&lt;Player*&gt;::iterator begin = validPlayers.<a class="code hl_function" href="../../db/d87/class_map_ref_mgr.html#a6774b551f0d64628e33594c7b486a872">begin</a>(), end = validPlayers.end();</div>
+<div class="line"><span class="lineno">  554</span> </div>
+<div class="line"><span class="lineno">  555</span>                std::random_device rd;</div>
+<div class="line"><span class="lineno">  556</span>                std::shuffle(begin, end, std::default_random_engine{rd()});</div>
+<div class="line"><span class="lineno">  557</span> </div>
+<div class="line"><span class="lineno">  558</span>                <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> i = 0; i &lt; boneSpikeCount &amp;&amp; i &lt; validPlayers.size(); ++i)</div>
+<div class="line"><span class="lineno">  559</span>                {</div>
+<div class="line"><span class="lineno">  560</span>                    <a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target = validPlayers[i];</div>
+<div class="line"><span class="lineno">  561</span>                    didHit = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  562</span>                    <span class="comment">//target-&gt;CastCustomSpell(boneSpikeSummonId[i], SPELLVALUE_BASE_POINT0, 0, target, true);</span></div>
+<div class="line"><span class="lineno">  563</span>                    target-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(target, <a class="code hl_variable" href="../../d4/dac/boss__lord__marrowgar_8cpp.html#a889a17180b2e88e384a7e5368399bffe">boneSpikeSummonId</a>[i], <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  564</span>                }</div>
+<div class="line"><span class="lineno">  565</span> </div>
+<div class="line"><span class="lineno">  566</span>                <span class="keywordflow">if</span> (didHit)</div>
+<div class="line"><span class="lineno">  567</span>                    marrowgarAI-&gt;<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#a96b82ee318c4d46f16b94192de654bed">Talk</a>(<a class="code hl_enumvalue" href="../../d4/dac/boss__lord__marrowgar_8cpp.html#ac1bcc1bab902038a2a8b365328833cbaa71ba21ddcefc8fb19f04951e8f07b671">SAY_BONESPIKE</a>);</div>
+<div class="line"><span class="lineno">  568</span>            }</div>
+<div class="line"><span class="lineno">  569</span>        }</div>
+<div class="ttc" id="a_define_8h_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:110</div></div>
+<div class="ttc" id="aboss__lord__marrowgar_8cpp_html_a5bd342133be8c2137b831460acc9298cab7e03756d6e92addf82c91c4333c69dc"><div class="ttname"><a href="../../d4/dac/boss__lord__marrowgar_8cpp.html#a5bd342133be8c2137b831460acc9298cab7e03756d6e92addf82c91c4333c69dc">SPELL_IMPALED</a></div><div class="ttdeci">@ SPELL_IMPALED</div><div class="ttdef"><b>Definition:</b> boss_lord_marrowgar.cpp:51</div></div>
+<div class="ttc" id="aboss__lord__marrowgar_8cpp_html_a889a17180b2e88e384a7e5368399bffe"><div class="ttname"><a href="../../d4/dac/boss__lord__marrowgar_8cpp.html#a889a17180b2e88e384a7e5368399bffe">boneSpikeSummonId</a></div><div class="ttdeci">uint32 const boneSpikeSummonId[3]</div><div class="ttdef"><b>Definition:</b> boss_lord_marrowgar.cpp:72</div></div>
+<div class="ttc" id="aboss__lord__marrowgar_8cpp_html_ac1bcc1bab902038a2a8b365328833cbaa71ba21ddcefc8fb19f04951e8f07b671"><div class="ttname"><a href="../../d4/dac/boss__lord__marrowgar_8cpp.html#ac1bcc1bab902038a2a8b365328833cbaa71ba21ddcefc8fb19f04951e8f07b671">SAY_BONESPIKE</a></div><div class="ttdeci">@ SAY_BONESPIKE</div><div class="ttdef"><b>Definition:</b> boss_lord_marrowgar.cpp:34</div></div>
+<div class="ttc" id="aclass_creature_a_i_html"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html">CreatureAI</a></div><div class="ttdef"><b>Definition:</b> CreatureAI.h:70</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_a96b82ee318c4d46f16b94192de654bed"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#a96b82ee318c4d46f16b94192de654bed">CreatureAI::Talk</a></div><div class="ttdeci">void Talk(uint8 id, WorldObject const *whisperTarget=nullptr)</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:58</div></div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_linked_list_head_1_1_iterator_html"><div class="ttname"><a href="../../db/dfe/class_linked_list_head_1_1_iterator.html">LinkedListHead::Iterator</a></div><div class="ttdef"><b>Definition:</b> LinkedList.h:139</div></div>
+<div class="ttc" id="aclass_map_ref_mgr_html"><div class="ttname"><a href="../../db/d87/class_map_ref_mgr.html">MapRefMgr</a></div><div class="ttdef"><b>Definition:</b> MapRefMgr.h:26</div></div>
+<div class="ttc" id="aclass_map_ref_mgr_html_a6774b551f0d64628e33594c7b486a872"><div class="ttname"><a href="../../db/d87/class_map_ref_mgr.html#a6774b551f0d64628e33594c7b486a872">MapRefMgr::begin</a></div><div class="ttdeci">iterator begin()</div><div class="ttdef"><b>Definition:</b> MapRefMgr.h:36</div></div>
+<div class="ttc" id="aclass_map_ref_mgr_html_af488c0096775085791b5fbc89e5851a0"><div class="ttname"><a href="../../db/d87/class_map_ref_mgr.html#af488c0096775085791b5fbc89e5851a0">MapRefMgr::end</a></div><div class="ttdeci">iterator end()</div><div class="ttdef"><b>Definition:</b> MapRefMgr.h:37</div></div>
+<div class="ttc" id="aclass_player_html"><div class="ttname"><a href="../../d8/d53/class_player.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1046</div></div>
+<div class="ttc" id="aclass_spell_script_html_a56ed3ad5cf4ebc848946a9d8f1c35d5f"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a56ed3ad5cf4ebc848946a9d8f1c35d5f">SpellScript::PreventHitDefaultEffect</a></div><div class="ttdeci">void PreventHitDefaultEffect(SpellEffIndex effIndex)</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:590</div></div>
+<div class="ttc" id="aclass_spell_script_html_ae630e2d388177707e28cecd5fa5a2b48"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">SpellScript::GetCaster</a></div><div class="ttdeci">Unit * GetCaster()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:401</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a88b3f14630803365aeb7952d765a7cf1"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a88b3f14630803365aeb7952d765a7cf1">UnitAI::GetGUID</a></div><div class="ttdeci">virtual ObjectGuid GetGUID(int32=0) const</div><div class="ttdef"><b>Definition:</b> UnitAI.h:200</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a5bceabb840234c01bbff7ef8cc58b071" name="a5bceabb840234c01bbff7ef8cc58b071"></a>
@@ -369,11 +421,19 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  572</span>        {</div>
+<div class="line"><span class="lineno">  573</span>            <a class="code hl_variable" href="../../dc/d62/class_spell_script.html#a6f11356f7a28793e6053bfbc4e2dacf3">OnEffectHitTarget</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a551b0adb8eaf82985a7e55cef0695dcb">SpellEffectFn</a>(<a class="code hl_function" href="../../d0/d81/classspell__marrowgar__bone__spike__graveyard_1_1spell__marrowgar__bone__spike__graveyard___spell_script.html#ac23e7a062ad7568de47341bce95352ab">spell_marrowgar_bone_spike_graveyard_SpellScript::HandleSpikes</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77a8ad5debef66c8aadbaf13f97f522e791">EFFECT_1</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97af737ae1ce32d016e21279dfed355d63d">SPELL_EFFECT_APPLY_AURA</a>);</div>
+<div class="line"><span class="lineno">  574</span>        }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77a8ad5debef66c8aadbaf13f97f522e791"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77a8ad5debef66c8aadbaf13f97f522e791">EFFECT_1</a></div><div class="ttdeci">@ EFFECT_1</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:31</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a292c893150c454dd75628b719db1fe97af737ae1ce32d016e21279dfed355d63d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97af737ae1ce32d016e21279dfed355d63d">SPELL_EFFECT_APPLY_AURA</a></div><div class="ttdeci">@ SPELL_EFFECT_APPLY_AURA</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:756</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a551b0adb8eaf82985a7e55cef0695dcb"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a551b0adb8eaf82985a7e55cef0695dcb">SpellEffectFn</a></div><div class="ttdeci">#define SpellEffectFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:337</div></div>
+<div class="ttc" id="aclass_spell_script_html_a6f11356f7a28793e6053bfbc4e2dacf3"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a6f11356f7a28793e6053bfbc4e2dacf3">SpellScript::OnEffectHitTarget</a></div><div class="ttdeci">HookList&lt; EffectHandler &gt; OnEffectHitTarget</div><div class="ttdef"><b>Definition:</b> SpellScript.h:336</div></div>
+<div class="ttc" id="aclassspell__marrowgar__bone__spike__graveyard_1_1spell__marrowgar__bone__spike__graveyard___spell_script_html_ac23e7a062ad7568de47341bce95352ab"><div class="ttname"><a href="../../d0/d81/classspell__marrowgar__bone__spike__graveyard_1_1spell__marrowgar__bone__spike__graveyard___spell_script.html#ac23e7a062ad7568de47341bce95352ab">spell_marrowgar_bone_spike_graveyard::spell_marrowgar_bone_spike_graveyard_SpellScript::HandleSpikes</a></div><div class="ttdeci">void HandleSpikes(SpellEffIndex effIndex)</div><div class="ttdef"><b>Definition:</b> boss_lord_marrowgar.cpp:535</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Northrend/IcecrownCitadel/<a class="el" href="../../d4/dac/boss__lord__marrowgar_8cpp.html">boss_lord_marrowgar.cpp</a></li>
+<li><a class="el" href="../../">boss_lord_marrowgar.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -381,7 +441,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d8/d5a/classspell__marrowgar__bone__spike__graveyard.html">spell_marrowgar_bone_spike_graveyard</a></li><li class="navelem"><a class="el" href="../../d0/d81/classspell__marrowgar__bone__spike__graveyard_1_1spell__marrowgar__bone__spike__graveyard___spell_script.html">spell_marrowgar_bone_spike_graveyard_SpellScript</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:05 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:21 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

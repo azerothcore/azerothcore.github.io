@@ -493,7 +493,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a3c5125e0a10043f6181c10ba749fa579" name="a3c5125e0a10043f6181c10ba749fa579"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3c5125e0a10043f6181c10ba749fa579">&#9670;&#160;</a></span>npc_core_ragerAI()</h2>
 
@@ -517,7 +518,18 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  137</span>                                             : <a class="code hl_struct" href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a>(creature),</div>
+<div class="line"><span class="lineno">  138</span>            <a class="code hl_variable" href="../../d8/d69/structnpc__core__rager_1_1npc__core__rager_a_i.html#a7cfddba62f737214b8cfc7fbffa8c2e2">instance</a>(creature-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">GetInstanceScript</a>()),</div>
+<div class="line"><span class="lineno">  139</span>            <a class="code hl_variable" href="../../d8/d69/structnpc__core__rager_1_1npc__core__rager_a_i.html#a081333b967abb3812b9ddae2f933a324">mangleTimer</a>(7000),</div>
+<div class="line"><span class="lineno">  140</span>            <a class="code hl_variable" href="../../d8/d69/structnpc__core__rager_1_1npc__core__rager_a_i.html#ade427bdd9ec99807b6f190c890136414">rangeCheckTimer</a>(1000)</div>
+<div class="line"><span class="lineno">  141</span>        {</div>
+<div class="line"><span class="lineno">  142</span>        }</div>
+<div class="ttc" id="aclass_world_object_html_a29762f86d0726e4d229df51281b9d710"><div class="ttname"><a href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">WorldObject::GetInstanceScript</a></div><div class="ttdeci">InstanceScript * GetInstanceScript() const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1192</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
+<div class="ttc" id="astructnpc__core__rager_1_1npc__core__rager_a_i_html_a081333b967abb3812b9ddae2f933a324"><div class="ttname"><a href="../../d8/d69/structnpc__core__rager_1_1npc__core__rager_a_i.html#a081333b967abb3812b9ddae2f933a324">npc_core_rager::npc_core_ragerAI::mangleTimer</a></div><div class="ttdeci">uint32 mangleTimer</div><div class="ttdef"><b>Definition:</b> boss_golemagg.cpp:216</div></div>
+<div class="ttc" id="astructnpc__core__rager_1_1npc__core__rager_a_i_html_a7cfddba62f737214b8cfc7fbffa8c2e2"><div class="ttname"><a href="../../d8/d69/structnpc__core__rager_1_1npc__core__rager_a_i.html#a7cfddba62f737214b8cfc7fbffa8c2e2">npc_core_rager::npc_core_ragerAI::instance</a></div><div class="ttdeci">InstanceScript * instance</div><div class="ttdef"><b>Definition:</b> boss_golemagg.cpp:215</div></div>
+<div class="ttc" id="astructnpc__core__rager_1_1npc__core__rager_a_i_html_ade427bdd9ec99807b6f190c890136414"><div class="ttname"><a href="../../d8/d69/structnpc__core__rager_1_1npc__core__rager_a_i.html#ade427bdd9ec99807b6f190c890136414">npc_core_rager::npc_core_ragerAI::rangeCheckTimer</a></div><div class="ttdeci">uint32 rangeCheckTimer</div><div class="ttdef"><b>Definition:</b> boss_golemagg.cpp:217</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -568,7 +580,30 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a0d572a234f887646543620c847bd61cd">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  156</span>        {</div>
+<div class="line"><span class="lineno">  157</span>            <span class="comment">// Just in case if something will go bad, let players to kill this creature</span></div>
+<div class="line"><span class="lineno">  158</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d8/d69/structnpc__core__rager_1_1npc__core__rager_a_i.html#a7cfddba62f737214b8cfc7fbffa8c2e2">instance</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_instance_script.html#a776dbfd3b5c48f29ea0ccf8f3cf659e2">GetBossState</a>(<a class="code hl_enumvalue" href="../../d0/dad/molten__core_8h.html#a7c5374c5c88b8d5b5f91cf4ba0b06cfea28103dbc7622175b1208f507aacb57da">DATA_GOLEMAGG</a>) == <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749">DONE</a>)</div>
+<div class="line"><span class="lineno">  159</span>            {</div>
+<div class="line"><span class="lineno">  160</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  161</span>            }</div>
+<div class="line"><span class="lineno">  162</span> </div>
+<div class="line"><span class="lineno">  163</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ad08665e79b8df4fd5339b05ae1538dd9">HealthBelowPctDamaged</a>(50, damage))</div>
+<div class="line"><span class="lineno">  164</span>            {</div>
+<div class="line"><span class="lineno">  165</span>                damage = 0;</div>
+<div class="line"><span class="lineno">  166</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6ae5c7d15b747433f4d94f80bcebd215">DoCastSelf</a>(<a class="code hl_enumvalue" href="../../d3/dae/boss__golemagg_8cpp.html#a5bd342133be8c2137b831460acc9298cac5cb10c3d24688bd7cbd6fb2ba4c9ad5">SPELL_FULL_HEAL</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  167</span>                <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d3/dae/boss__golemagg_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31a3690bd8ceec93ccbaa7000a424a4bef1">EMOTE_LOWHP</a>);</div>
+<div class="line"><span class="lineno">  168</span>            }</div>
+<div class="line"><span class="lineno">  169</span>        }</div>
+<div class="ttc" id="a_instance_script_8h_html_a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749"><div class="ttname"><a href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749">DONE</a></div><div class="ttdeci">@ DONE</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:59</div></div>
+<div class="ttc" id="aboss__fathomlord__karathress_8cpp_html_a747a224b6b3195f9a33c56ddc6c7e268"><div class="ttname"><a href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a></div><div class="ttdeci">Talk</div><div class="ttdef"><b>Definition:</b> boss_fathomlord_karathress.cpp:23</div></div>
+<div class="ttc" id="aboss__golemagg_8cpp_html_a5bd342133be8c2137b831460acc9298cac5cb10c3d24688bd7cbd6fb2ba4c9ad5"><div class="ttname"><a href="../../d3/dae/boss__golemagg_8cpp.html#a5bd342133be8c2137b831460acc9298cac5cb10c3d24688bd7cbd6fb2ba4c9ad5">SPELL_FULL_HEAL</a></div><div class="ttdeci">@ SPELL_FULL_HEAL</div><div class="ttdef"><b>Definition:</b> boss_golemagg.cpp:40</div></div>
+<div class="ttc" id="aboss__golemagg_8cpp_html_aa80bce1d0ea05213c0d6c327126caf31a3690bd8ceec93ccbaa7000a424a4bef1"><div class="ttname"><a href="../../d3/dae/boss__golemagg_8cpp.html#aa80bce1d0ea05213c0d6c327126caf31a3690bd8ceec93ccbaa7000a424a4bef1">EMOTE_LOWHP</a></div><div class="ttdeci">@ EMOTE_LOWHP</div><div class="ttdef"><b>Definition:</b> boss_golemagg.cpp:25</div></div>
+<div class="ttc" id="aclass_instance_script_html_a776dbfd3b5c48f29ea0ccf8f3cf659e2"><div class="ttname"><a href="../../d8/d83/class_instance_script.html#a776dbfd3b5c48f29ea0ccf8f3cf659e2">InstanceScript::GetBossState</a></div><div class="ttdeci">EncounterState GetBossState(uint32 id) const</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:227</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a6ae5c7d15b747433f4d94f80bcebd215"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a6ae5c7d15b747433f4d94f80bcebd215">UnitAI::DoCastSelf</a></div><div class="ttdeci">SpellCastResult DoCastSelf(uint32 spellId, bool triggered=false)</div><div class="ttdef"><b>Definition:</b> UnitAI.h:323</div></div>
+<div class="ttc" id="aclass_unit_html_ad08665e79b8df4fd5339b05ae1538dd9"><div class="ttname"><a href="../../da/db7/class_unit.html#ad08665e79b8df4fd5339b05ae1538dd9">Unit::HealthBelowPctDamaged</a></div><div class="ttdeci">bool HealthBelowPctDamaged(int32 pct, uint32 damage) const</div><div class="ttdef"><b>Definition:</b> Unit.h:1443</div></div>
+<div class="ttc" id="amolten__core_8h_html_a7c5374c5c88b8d5b5f91cf4ba0b06cfea28103dbc7622175b1208f507aacb57da"><div class="ttname"><a href="../../d0/dad/molten__core_8h.html#a7c5374c5c88b8d5b5f91cf4ba0b06cfea28103dbc7622175b1208f507aacb57da">DATA_GOLEMAGG</a></div><div class="ttdeci">@ DATA_GOLEMAGG</div><div class="ttdef"><b>Definition:</b> molten_core.h:37</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="acf83e469d3d8108276227a942fda28b3" name="acf83e469d3d8108276227a942fda28b3"></a>
@@ -595,7 +630,17 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a26600c116d20a33461fc884bdb82eda9">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  145</span>        {</div>
+<div class="line"><span class="lineno">  146</span>            <a class="code hl_variable" href="../../d8/d69/structnpc__core__rager_1_1npc__core__rager_a_i.html#a081333b967abb3812b9ddae2f933a324">mangleTimer</a> = 7000;               <span class="comment">// These times are probably wrong</span></div>
+<div class="line"><span class="lineno">  147</span>            <a class="code hl_variable" href="../../d8/d69/structnpc__core__rager_1_1npc__core__rager_a_i.html#ade427bdd9ec99807b6f190c890136414">rangeCheckTimer</a> = 1000;</div>
+<div class="line"><span class="lineno">  148</span> </div>
+<div class="line"><span class="lineno">  149</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d8/d69/structnpc__core__rager_1_1npc__core__rager_a_i.html#a7cfddba62f737214b8cfc7fbffa8c2e2">instance</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_instance_script.html#a776dbfd3b5c48f29ea0ccf8f3cf659e2">GetBossState</a>(<a class="code hl_enumvalue" href="../../d0/dad/molten__core_8h.html#a7c5374c5c88b8d5b5f91cf4ba0b06cfea28103dbc7622175b1208f507aacb57da">DATA_GOLEMAGG</a>) == <a class="code hl_enumvalue" href="../../da/d42/_instance_script_8h.html#a1c28341208eeb4bdc8237e8ceac88694a9c954bcf443428c80b0f107b3bc48749">DONE</a>)</div>
+<div class="line"><span class="lineno">  150</span>            {</div>
+<div class="line"><span class="lineno">  151</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6ae5c7d15b747433f4d94f80bcebd215">DoCastSelf</a>(<a class="code hl_enumvalue" href="../../d0/dad/molten__core_8h.html#aa76fba906db49052d8411f60d42ae5c4a74ce4560d134cfd9c5a3e3c430a4015d">SPELL_CORE_RAGER_QUIET_SUICIDE</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  152</span>            }</div>
+<div class="line"><span class="lineno">  153</span>        }</div>
+<div class="ttc" id="amolten__core_8h_html_aa76fba906db49052d8411f60d42ae5c4a74ce4560d134cfd9c5a3e3c430a4015d"><div class="ttname"><a href="../../d0/dad/molten__core_8h.html#aa76fba906db49052d8411f60d42ae5c4a74ce4560d134cfd9c5a3e3c430a4015d">SPELL_CORE_RAGER_QUIET_SUICIDE</a></div><div class="ttdeci">@ SPELL_CORE_RAGER_QUIET_SUICIDE</div><div class="ttdef"><b>Definition:</b> molten_core.h:117</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2183cf5ab22b737413b86a657fde6d3c" name="a2183cf5ab22b737413b86a657fde6d3c"></a>
@@ -623,7 +668,60 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#aff5fd4e142a5cf930ffacbfc7259cce5">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  172</span>        {</div>
+<div class="line"><span class="lineno">  173</span>            <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">UpdateVictim</a>())</div>
+<div class="line"><span class="lineno">  174</span>            {</div>
+<div class="line"><span class="lineno">  175</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  176</span>            }</div>
+<div class="line"><span class="lineno">  177</span> </div>
+<div class="line"><span class="lineno">  178</span>            <span class="comment">// Should have no impact from unit state</span></div>
+<div class="line"><span class="lineno">  179</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d8/d69/structnpc__core__rager_1_1npc__core__rager_a_i.html#ade427bdd9ec99807b6f190c890136414">rangeCheckTimer</a> &lt;= diff)</div>
+<div class="line"><span class="lineno">  180</span>            {</div>
+<div class="line"><span class="lineno">  181</span>                <a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a> <span class="keyword">const</span>* golemagg = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a>(*<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_variable" href="../../d8/d69/structnpc__core__rager_1_1npc__core__rager_a_i.html#a7cfddba62f737214b8cfc7fbffa8c2e2">instance</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_instance_script.html#a3be7f24ca31c9433aca546e1087109b4">GetGuidData</a>(<a class="code hl_enumvalue" href="../../d0/dad/molten__core_8h.html#a7c5374c5c88b8d5b5f91cf4ba0b06cfea28103dbc7622175b1208f507aacb57da">DATA_GOLEMAGG</a>));</div>
+<div class="line"><span class="lineno">  182</span>                <span class="keywordflow">if</span> (golemagg &amp;&amp; <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#acaa0cccbbb9cac74080c8279a571a68c">GetDistance</a>(golemagg) &gt; 100.0f)</div>
+<div class="line"><span class="lineno">  183</span>                {</div>
+<div class="line"><span class="lineno">  184</span>                    <a class="code hl_variable" href="../../d8/d69/structnpc__core__rager_1_1npc__core__rager_a_i.html#a7cfddba62f737214b8cfc7fbffa8c2e2">instance</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_instance_script.html#a866e5d076bf7f5283033eb261172ceb3">DoAction</a>(<a class="code hl_enumvalue" href="../../d0/dad/molten__core_8h.html#acc1dd05eec888d523a252c36c0cb8ee5a03dc856f794c5d7cdf0589e56f6570e7">ACTION_RESET_GOLEMAGG_ENCOUNTER</a>);</div>
+<div class="line"><span class="lineno">  185</span>                    <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  186</span>                }</div>
+<div class="line"><span class="lineno">  187</span> </div>
+<div class="line"><span class="lineno">  188</span>                <a class="code hl_variable" href="../../d8/d69/structnpc__core__rager_1_1npc__core__rager_a_i.html#ade427bdd9ec99807b6f190c890136414">rangeCheckTimer</a> = 1000;</div>
+<div class="line"><span class="lineno">  189</span>            }</div>
+<div class="line"><span class="lineno">  190</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  191</span>            {</div>
+<div class="line"><span class="lineno">  192</span>                <a class="code hl_variable" href="../../d8/d69/structnpc__core__rager_1_1npc__core__rager_a_i.html#ade427bdd9ec99807b6f190c890136414">rangeCheckTimer</a> -= diff;</div>
+<div class="line"><span class="lineno">  193</span>            }</div>
+<div class="line"><span class="lineno">  194</span> </div>
+<div class="line"><span class="lineno">  195</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ab78147cd520d2dac6be709b4c80a7de3">HasUnitState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54">UNIT_STATE_CASTING</a>))</div>
+<div class="line"><span class="lineno">  196</span>            {</div>
+<div class="line"><span class="lineno">  197</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  198</span>            }</div>
+<div class="line"><span class="lineno">  199</span> </div>
+<div class="line"><span class="lineno">  200</span>            <span class="comment">// Mangle</span></div>
+<div class="line"><span class="lineno">  201</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d8/d69/structnpc__core__rager_1_1npc__core__rager_a_i.html#a081333b967abb3812b9ddae2f933a324">mangleTimer</a> &lt;= diff)</div>
+<div class="line"><span class="lineno">  202</span>            {</div>
+<div class="line"><span class="lineno">  203</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a361b6f4e71e9c74595bdf3d7e3b29a82">DoCastVictim</a>(<a class="code hl_enumvalue" href="../../d3/dae/boss__golemagg_8cpp.html#a5bd342133be8c2137b831460acc9298ca41cca4c21173b2616bfca0b0759d7e21">SPELL_MANGLE</a>);</div>
+<div class="line"><span class="lineno">  204</span>                <a class="code hl_variable" href="../../d8/d69/structnpc__core__rager_1_1npc__core__rager_a_i.html#a081333b967abb3812b9ddae2f933a324">mangleTimer</a> = 10000;</div>
+<div class="line"><span class="lineno">  205</span>            }</div>
+<div class="line"><span class="lineno">  206</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  207</span>            {</div>
+<div class="line"><span class="lineno">  208</span>                <a class="code hl_variable" href="../../d8/d69/structnpc__core__rager_1_1npc__core__rager_a_i.html#a081333b967abb3812b9ddae2f933a324">mangleTimer</a> -= diff;</div>
+<div class="line"><span class="lineno">  209</span>            }</div>
+<div class="line"><span class="lineno">  210</span> </div>
+<div class="line"><span class="lineno">  211</span>            <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">DoMeleeAttackIfReady</a>();</div>
+<div class="line"><span class="lineno">  212</span>        }</div>
+<div class="ttc" id="a_unit_8h_html_ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54">UNIT_STATE_CASTING</a></div><div class="ttdeci">@ UNIT_STATE_CASTING</div><div class="ttdef"><b>Definition:</b> Unit.h:340</div></div>
+<div class="ttc" id="aboss__golemagg_8cpp_html_a5bd342133be8c2137b831460acc9298ca41cca4c21173b2616bfca0b0759d7e21"><div class="ttname"><a href="../../d3/dae/boss__golemagg_8cpp.html#a5bd342133be8c2137b831460acc9298ca41cca4c21173b2616bfca0b0759d7e21">SPELL_MANGLE</a></div><div class="ttdeci">@ SPELL_MANGLE</div><div class="ttdef"><b>Definition:</b> boss_golemagg.cpp:39</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_ae03ccfe1e27501ed9ccbfecdbd3c4e39"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">CreatureAI::UpdateVictim</a></div><div class="ttdeci">bool UpdateVictim()</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:268</div></div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_instance_script_html_a3be7f24ca31c9433aca546e1087109b4"><div class="ttname"><a href="../../d8/d83/class_instance_script.html#a3be7f24ca31c9433aca546e1087109b4">InstanceScript::GetGuidData</a></div><div class="ttdeci">ObjectGuid GetGuidData(uint32 type) const override</div><div class="ttdef"><b>Definition:</b> InstanceScript.cpp:93</div></div>
+<div class="ttc" id="aclass_instance_script_html_a866e5d076bf7f5283033eb261172ceb3"><div class="ttname"><a href="../../d8/d83/class_instance_script.html#a866e5d076bf7f5283033eb261172ceb3">InstanceScript::DoAction</a></div><div class="ttdeci">virtual void DoAction(int32)</div><div class="ttdef"><b>Definition:</b> InstanceScript.h:256</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a348a472089a9be6210b58aace8fafa9f"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">UnitAI::DoMeleeAttackIfReady</a></div><div class="ttdeci">void DoMeleeAttackIfReady()</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:40</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a361b6f4e71e9c74595bdf3d7e3b29a82"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a361b6f4e71e9c74595bdf3d7e3b29a82">UnitAI::DoCastVictim</a></div><div class="ttdeci">SpellCastResult DoCastVictim(uint32 spellId, bool triggered=false)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:241</div></div>
+<div class="ttc" id="aclass_unit_html_ab78147cd520d2dac6be709b4c80a7de3"><div class="ttname"><a href="../../da/db7/class_unit.html#ab78147cd520d2dac6be709b4c80a7de3">Unit::HasUnitState</a></div><div class="ttdeci">bool HasUnitState(const uint32 f) const</div><div class="ttdef"><b>Definition:</b> Unit.h:1398</div></div>
+<div class="ttc" id="aclass_world_object_html_acaa0cccbbb9cac74080c8279a571a68c"><div class="ttname"><a href="../../db/df7/class_world_object.html#acaa0cccbbb9cac74080c8279a571a68c">WorldObject::GetDistance</a></div><div class="ttdeci">float GetDistance(WorldObject const *obj) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1245</div></div>
+<div class="ttc" id="amolten__core_8h_html_acc1dd05eec888d523a252c36c0cb8ee5a03dc856f794c5d7cdf0589e56f6570e7"><div class="ttname"><a href="../../d0/dad/molten__core_8h.html#acc1dd05eec888d523a252c36c0cb8ee5a03dc856f794c5d7cdf0589e56f6570e7">ACTION_RESET_GOLEMAGG_ENCOUNTER</a></div><div class="ttdeci">@ ACTION_RESET_GOLEMAGG_ENCOUNTER</div><div class="ttdef"><b>Definition:</b> molten_core.h:50</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_ae42e503fe79bbeaea1aaa665418c43f8"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a></div><div class="ttdeci">Creature * GetCreature(WorldObject const &amp;u, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:215</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -694,7 +792,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/EasternKingdoms/BlackrockMountain/MoltenCore/<a class="el" href="../../d3/dae/boss__golemagg_8cpp.html">boss_golemagg.cpp</a></li>
+<li><a class="el" href="../../">boss_golemagg.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -702,7 +800,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d2/d56/classnpc__core__rager.html">npc_core_rager</a></li><li class="navelem"><a class="el" href="../../d8/d69/structnpc__core__rager_1_1npc__core__rager_a_i.html">npc_core_ragerAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:49 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:04 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

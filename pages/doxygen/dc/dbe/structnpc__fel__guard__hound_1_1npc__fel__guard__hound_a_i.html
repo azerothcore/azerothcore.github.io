@@ -491,7 +491,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="af8b3a9b56e4bdf8d8b654ecccd096651" name="af8b3a9b56e4bdf8d8b654ecccd096651"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af8b3a9b56e4bdf8d8b654ecccd096651">&#9670;&#160;</a></span>npc_fel_guard_houndAI()</h2>
 
@@ -515,7 +516,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  342</span>: <a class="code hl_struct" href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a>(creature) { }</div>
+<div class="ttc" id="astruct_scripted_a_i_html"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -554,7 +557,31 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#ac737070ba7a8645d0e0ccf6bd6107004">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  351</span>        {</div>
+<div class="line"><span class="lineno">  352</span>            <span class="keywordflow">if</span> (type != <a class="code hl_enumvalue" href="../../d8/dea/_motion_master_8h.html#a4f12806b915efea564eae942207002f9ad05105e19ca15912eceb8a1d856c7467">POINT_MOTION_TYPE</a> || <span class="keywordtype">id</span> != 1)</div>
+<div class="line"><span class="lineno">  353</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  354</span> </div>
+<div class="line"><span class="lineno">  355</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* helboar = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a>(*<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_variable" href="../../dc/dbe/structnpc__fel__guard__hound_1_1npc__fel__guard__hound_a_i.html#aadcf9b51dbcaa1e62b6619b89d865814">helboarGUID</a>))</div>
+<div class="line"><span class="lineno">  356</span>            {</div>
+<div class="line"><span class="lineno">  357</span>                helboar-&gt;RemoveCorpse();</div>
+<div class="line"><span class="lineno">  358</span>                <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">DoCast</a>(<a class="code hl_enumvalue" href="../../d0/d80/zone__hellfire__peninsula_8cpp.html#af0944e670cdc4872cb4e1de78159ef88acaf3b07d165603ce6a87d5e137c8bc6c">SPELL_SUMMON_POO</a>);</div>
+<div class="line"><span class="lineno">  359</span> </div>
+<div class="line"><span class="lineno">  360</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* owner = <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a3bd4bddb1a2ef1b1aaf427576b78a683">GetCharmerOrOwnerPlayerOrPlayerItself</a>())</div>
+<div class="line"><span class="lineno">  361</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../df/d4d/class_motion_master.html#a5c4f6d1163174b909c83901d7f770d72">MoveFollow</a>(owner, 0.0f, 0.0f);</div>
+<div class="line"><span class="lineno">  362</span>            }</div>
+<div class="line"><span class="lineno">  363</span>        }</div>
+<div class="ttc" id="a_motion_master_8h_html_a4f12806b915efea564eae942207002f9ad05105e19ca15912eceb8a1d856c7467"><div class="ttname"><a href="../../d8/dea/_motion_master_8h.html#a4f12806b915efea564eae942207002f9ad05105e19ca15912eceb8a1d856c7467">POINT_MOTION_TYPE</a></div><div class="ttdeci">@ POINT_MOTION_TYPE</div><div class="ttdef"><b>Definition:</b> MotionMaster.h:46</div></div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_motion_master_html_a5c4f6d1163174b909c83901d7f770d72"><div class="ttname"><a href="../../df/d4d/class_motion_master.html#a5c4f6d1163174b909c83901d7f770d72">MotionMaster::MoveFollow</a></div><div class="ttdeci">void MoveFollow(Unit *target, float dist, float angle, MovementSlot slot=MOTION_SLOT_ACTIVE)</div><div class="ttdef"><b>Definition:</b> MotionMaster.cpp:367</div></div>
+<div class="ttc" id="aclass_player_html"><div class="ttname"><a href="../../d8/d53/class_player.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1046</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_aeebcad9b6effa45145c50f06af60b23d"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#aeebcad9b6effa45145c50f06af60b23d">UnitAI::DoCast</a></div><div class="ttdeci">SpellCastResult DoCast(uint32 spellId)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:178</div></div>
+<div class="ttc" id="aclass_unit_html_a3bd4bddb1a2ef1b1aaf427576b78a683"><div class="ttname"><a href="../../da/db7/class_unit.html#a3bd4bddb1a2ef1b1aaf427576b78a683">Unit::GetCharmerOrOwnerPlayerOrPlayerItself</a></div><div class="ttdeci">Player * GetCharmerOrOwnerPlayerOrPlayerItself() const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:10564</div></div>
+<div class="ttc" id="aclass_unit_html_a4a04a3f22c3b0d6f4933993ac0cc7aa4"><div class="ttname"><a href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">Unit::GetMotionMaster</a></div><div class="ttdeci">MotionMaster * GetMotionMaster()</div><div class="ttdef"><b>Definition:</b> Unit.h:2257</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_ae42e503fe79bbeaea1aaa665418c43f8"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#ae42e503fe79bbeaea1aaa665418c43f8">ObjectAccessor::GetCreature</a></div><div class="ttdeci">Creature * GetCreature(WorldObject const &amp;u, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:215</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+<div class="ttc" id="astructnpc__fel__guard__hound_1_1npc__fel__guard__hound_a_i_html_aadcf9b51dbcaa1e62b6619b89d865814"><div class="ttname"><a href="../../dc/dbe/structnpc__fel__guard__hound_1_1npc__fel__guard__hound_a_i.html#aadcf9b51dbcaa1e62b6619b89d865814">npc_fel_guard_hound::npc_fel_guard_houndAI::helboarGUID</a></div><div class="ttdeci">ObjectGuid helboarGUID</div><div class="ttdef"><b>Definition:</b> zone_hellfire_peninsula.cpp:389</div></div>
+<div class="ttc" id="azone__hellfire__peninsula_8cpp_html_af0944e670cdc4872cb4e1de78159ef88acaf3b07d165603ce6a87d5e137c8bc6c"><div class="ttname"><a href="../../d0/d80/zone__hellfire__peninsula_8cpp.html#af0944e670cdc4872cb4e1de78159ef88acaf3b07d165603ce6a87d5e137c8bc6c">SPELL_SUMMON_POO</a></div><div class="ttdeci">@ SPELL_SUMMON_POO</div><div class="ttdef"><b>Definition:</b> zone_hellfire_peninsula.cpp:331</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ab979c3602897b1148ffd5d4a81941197" name="ab979c3602897b1148ffd5d4a81941197"></a>
@@ -581,7 +608,13 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a26600c116d20a33461fc884bdb82eda9">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  345</span>        {</div>
+<div class="line"><span class="lineno">  346</span>            <a class="code hl_variable" href="../../dc/dbe/structnpc__fel__guard__hound_1_1npc__fel__guard__hound_a_i.html#ad22bb6efafb4396cd0137c1384240029">checkTimer</a> = 5000; <span class="comment">//check for creature every 5 sec</span></div>
+<div class="line"><span class="lineno">  347</span>            <a class="code hl_variable" href="../../dc/dbe/structnpc__fel__guard__hound_1_1npc__fel__guard__hound_a_i.html#aadcf9b51dbcaa1e62b6619b89d865814">helboarGUID</a>.<a class="code hl_function" href="../../d8/d03/class_object_guid.html#af6aafb4610723c7f14523fef243b1b65">Clear</a>();</div>
+<div class="line"><span class="lineno">  348</span>        }</div>
+<div class="ttc" id="aclass_object_guid_html_af6aafb4610723c7f14523fef243b1b65"><div class="ttname"><a href="../../d8/d03/class_object_guid.html#af6aafb4610723c7f14523fef243b1b65">ObjectGuid::Clear</a></div><div class="ttdeci">void Clear()</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:140</div></div>
+<div class="ttc" id="astructnpc__fel__guard__hound_1_1npc__fel__guard__hound_a_i_html_ad22bb6efafb4396cd0137c1384240029"><div class="ttname"><a href="../../dc/dbe/structnpc__fel__guard__hound_1_1npc__fel__guard__hound_a_i.html#ad22bb6efafb4396cd0137c1384240029">npc_fel_guard_hound::npc_fel_guard_houndAI::checkTimer</a></div><div class="ttdeci">uint32 checkTimer</div><div class="ttdef"><b>Definition:</b> zone_hellfire_peninsula.cpp:388</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a97a59eec672d7dfe36264d34b922d0c8" name="a97a59eec672d7dfe36264d34b922d0c8"></a>
@@ -609,7 +642,34 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#aff5fd4e142a5cf930ffacbfc7259cce5">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  366</span>        {</div>
+<div class="line"><span class="lineno">  367</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dc/dbe/structnpc__fel__guard__hound_1_1npc__fel__guard__hound_a_i.html#ad22bb6efafb4396cd0137c1384240029">checkTimer</a> &lt;= diff)</div>
+<div class="line"><span class="lineno">  368</span>            {</div>
+<div class="line"><span class="lineno">  369</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* helboar = <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#aa7cc61d571dbc39ca8ac6ac10ffd18ab">FindNearestCreature</a>(<a class="code hl_enumvalue" href="../../d0/d80/zone__hellfire__peninsula_8cpp.html#af0944e670cdc4872cb4e1de78159ef88a74a22ffd9e172700137c4a85ec978333">NPC_DERANGED_HELBOAR</a>, 10.0f, <span class="keyword">false</span>))</div>
+<div class="line"><span class="lineno">  370</span>                {</div>
+<div class="line"><span class="lineno">  371</span>                    <span class="keywordflow">if</span> (helboar-&gt;GetGUID() != <a class="code hl_variable" href="../../dc/dbe/structnpc__fel__guard__hound_1_1npc__fel__guard__hound_a_i.html#aadcf9b51dbcaa1e62b6619b89d865814">helboarGUID</a> &amp;&amp; <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../df/d4d/class_motion_master.html#a41e9fbf11fd1a17752bf68a4a14cc8e5">GetCurrentMovementGeneratorType</a>() != <a class="code hl_enumvalue" href="../../d8/dea/_motion_master_8h.html#a4f12806b915efea564eae942207002f9ad05105e19ca15912eceb8a1d856c7467">POINT_MOTION_TYPE</a> &amp;&amp; !<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a2e9a4c70bb5a75e546c63acf5242b6f0">FindCurrentSpellBySpellId</a>(<a class="code hl_enumvalue" href="../../d0/d80/zone__hellfire__peninsula_8cpp.html#af0944e670cdc4872cb4e1de78159ef88acaf3b07d165603ce6a87d5e137c8bc6c">SPELL_SUMMON_POO</a>))</div>
+<div class="line"><span class="lineno">  372</span>                    {</div>
+<div class="line"><span class="lineno">  373</span>                        <a class="code hl_variable" href="../../dc/dbe/structnpc__fel__guard__hound_1_1npc__fel__guard__hound_a_i.html#aadcf9b51dbcaa1e62b6619b89d865814">helboarGUID</a> = helboar-&gt;GetGUID();</div>
+<div class="line"><span class="lineno">  374</span>                        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../df/d4d/class_motion_master.html#a903a48c63482ebbd45d63272b218df7f">MovePoint</a>(1, helboar-&gt;GetPositionX(), helboar-&gt;GetPositionY(), helboar-&gt;GetPositionZ());</div>
+<div class="line"><span class="lineno">  375</span>                    }</div>
+<div class="line"><span class="lineno">  376</span>                }</div>
+<div class="line"><span class="lineno">  377</span>                <a class="code hl_variable" href="../../dc/dbe/structnpc__fel__guard__hound_1_1npc__fel__guard__hound_a_i.html#ad22bb6efafb4396cd0137c1384240029">checkTimer</a> = 5000;</div>
+<div class="line"><span class="lineno">  378</span>            }</div>
+<div class="line"><span class="lineno">  379</span>            <span class="keywordflow">else</span> <a class="code hl_variable" href="../../dc/dbe/structnpc__fel__guard__hound_1_1npc__fel__guard__hound_a_i.html#ad22bb6efafb4396cd0137c1384240029">checkTimer</a> -= diff;</div>
+<div class="line"><span class="lineno">  380</span> </div>
+<div class="line"><span class="lineno">  381</span>            <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">UpdateVictim</a>())</div>
+<div class="line"><span class="lineno">  382</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  383</span> </div>
+<div class="line"><span class="lineno">  384</span>            <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">DoMeleeAttackIfReady</a>();</div>
+<div class="line"><span class="lineno">  385</span>        }</div>
+<div class="ttc" id="aclass_creature_a_i_html_ae03ccfe1e27501ed9ccbfecdbd3c4e39"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">CreatureAI::UpdateVictim</a></div><div class="ttdeci">bool UpdateVictim()</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:268</div></div>
+<div class="ttc" id="aclass_motion_master_html_a41e9fbf11fd1a17752bf68a4a14cc8e5"><div class="ttname"><a href="../../df/d4d/class_motion_master.html#a41e9fbf11fd1a17752bf68a4a14cc8e5">MotionMaster::GetCurrentMovementGeneratorType</a></div><div class="ttdeci">MovementGeneratorType GetCurrentMovementGeneratorType() const</div><div class="ttdef"><b>Definition:</b> MotionMaster.cpp:817</div></div>
+<div class="ttc" id="aclass_motion_master_html_a903a48c63482ebbd45d63272b218df7f"><div class="ttname"><a href="../../df/d4d/class_motion_master.html#a903a48c63482ebbd45d63272b218df7f">MotionMaster::MovePoint</a></div><div class="ttdeci">void MovePoint(uint32 id, const Position &amp;pos, bool generatePath=true, bool forceDestination=true)</div><div class="ttdef"><b>Definition:</b> MotionMaster.h:210</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a348a472089a9be6210b58aace8fafa9f"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">UnitAI::DoMeleeAttackIfReady</a></div><div class="ttdeci">void DoMeleeAttackIfReady()</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:40</div></div>
+<div class="ttc" id="aclass_unit_html_a2e9a4c70bb5a75e546c63acf5242b6f0"><div class="ttname"><a href="../../da/db7/class_unit.html#a2e9a4c70bb5a75e546c63acf5242b6f0">Unit::FindCurrentSpellBySpellId</a></div><div class="ttdeci">Spell * FindCurrentSpellBySpellId(uint32 spell_id) const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:4072</div></div>
+<div class="ttc" id="aclass_world_object_html_aa7cc61d571dbc39ca8ac6ac10ffd18ab"><div class="ttname"><a href="../../db/df7/class_world_object.html#aa7cc61d571dbc39ca8ac6ac10ffd18ab">WorldObject::FindNearestCreature</a></div><div class="ttdeci">Creature * FindNearestCreature(uint32 entry, float range, bool alive=true) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:2392</div></div>
+<div class="ttc" id="azone__hellfire__peninsula_8cpp_html_af0944e670cdc4872cb4e1de78159ef88a74a22ffd9e172700137c4a85ec978333"><div class="ttname"><a href="../../d0/d80/zone__hellfire__peninsula_8cpp.html#af0944e670cdc4872cb4e1de78159ef88a74a22ffd9e172700137c4a85ec978333">NPC_DERANGED_HELBOAR</a></div><div class="ttdeci">@ NPC_DERANGED_HELBOAR</div><div class="ttdef"><b>Definition:</b> zone_hellfire_peninsula.cpp:332</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -658,7 +718,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Outland/<a class="el" href="../../d0/d80/zone__hellfire__peninsula_8cpp.html">zone_hellfire_peninsula.cpp</a></li>
+<li><a class="el" href="../../">zone_hellfire_peninsula.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -666,7 +726,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../da/dfa/classnpc__fel__guard__hound.html">npc_fel_guard_hound</a></li><li class="navelem"><a class="el" href="../../dc/dbe/structnpc__fel__guard__hound_1_1npc__fel__guard__hound_a_i.html">npc_fel_guard_houndAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:49 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:05 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

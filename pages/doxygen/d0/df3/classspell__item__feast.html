@@ -294,7 +294,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a3ad488a1b6115bb1ec8cfe6717d3b4cf" name="a3ad488a1b6115bb1ec8cfe6717d3b4cf"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3ad488a1b6115bb1ec8cfe6717d3b4cf">&#9670;&#160;</a></span>HandleScriptEffect()</h2>
 
@@ -318,7 +319,53 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  614</span>    {</div>
+<div class="line"><span class="lineno">  615</span>        <a class="code hl_function" href="../../dc/d62/class_spell_script.html#a56ed3ad5cf4ebc848946a9d8f1c35d5f">PreventHitDefaultEffect</a>(effIndex);</div>
+<div class="line"><span class="lineno">  616</span> </div>
+<div class="line"><span class="lineno">  617</span>        <a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* caster = <a class="code hl_function" href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>();</div>
+<div class="line"><span class="lineno">  618</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d53/class_player.html">Player</a>* player = caster-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a328d5f752cc33ed398b3d9861ef6929d">ToPlayer</a>())</div>
+<div class="line"><span class="lineno">  619</span>        {</div>
+<div class="line"><span class="lineno">  620</span>            <a class="code hl_enumeration" href="../../db/d1f/_common_8h.html#a54c9b637be7283ba1a04fb5215594332">LocaleConstant</a> loc_idx = player-&gt;GetSession()-&gt;GetSessionDbLocaleIndex();</div>
+<div class="line"><span class="lineno">  621</span> </div>
+<div class="line"><span class="lineno">  622</span>            <span class="keywordflow">switch</span>(<a class="code hl_function" href="../../dc/d62/class_spell_script.html#a3fa31d3b29c52993d3561fad3cd12af3">GetSpellInfo</a>()-&gt;Id)</div>
+<div class="line"><span class="lineno">  623</span>            {</div>
+<div class="line"><span class="lineno">  624</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../db/d6e/spell__item_8cpp.html#a44cfd667d3cbb152c29dfc732506a40ca1a9a0635902f32201df670bae3f8382d">SPELL_GREAT_FEAST</a>:</div>
+<div class="line"><span class="lineno">  625</span>                    <span class="keywordflow">if</span> (<a class="code hl_struct" href="../../d0/d3b/struct_broadcast_text.html">BroadcastText</a> <span class="keyword">const</span>* bct = <a class="code hl_define" href="../../d9/d77/_object_mgr_8h.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetBroadcastText(<a class="code hl_enumvalue" href="../../db/d6e/spell__item_8cpp.html#a44cfd667d3cbb152c29dfc732506a40ca4b5c0a76aba527f596429310faddf59b">GREAT_FEAST_BROADCAST_TEXT_ID_PREPARE</a>))</div>
+<div class="line"><span class="lineno">  626</span>                        player-&gt;TextEmote(bct-&gt;GetText(loc_idx, player-&gt;getGender()).c_str(), player);</div>
+<div class="line"><span class="lineno">  627</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  628</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../db/d6e/spell__item_8cpp.html#a44cfd667d3cbb152c29dfc732506a40caff0c5f3cba4dbfa64c6c8631a6371f0f">SPELL_FISH_FEAST</a>:</div>
+<div class="line"><span class="lineno">  629</span>                    <span class="keywordflow">if</span> (<a class="code hl_struct" href="../../d0/d3b/struct_broadcast_text.html">BroadcastText</a> <span class="keyword">const</span>* bct = <a class="code hl_define" href="../../d9/d77/_object_mgr_8h.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetBroadcastText(<a class="code hl_enumvalue" href="../../db/d6e/spell__item_8cpp.html#a44cfd667d3cbb152c29dfc732506a40caeb1264fcc0c88b80ac2412d1c5e29496">FISH_FEAST_BROADCAST_TEXT_ID_PREPARE</a>))</div>
+<div class="line"><span class="lineno">  630</span>                        player-&gt;TextEmote(bct-&gt;GetText(loc_idx, player-&gt;getGender()).c_str(), player);</div>
+<div class="line"><span class="lineno">  631</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  632</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../db/d6e/spell__item_8cpp.html#a44cfd667d3cbb152c29dfc732506a40ca1c827d3a5d26942f0414b9261076611d">SPELL_SMALL_FEAST</a>:</div>
+<div class="line"><span class="lineno">  633</span>                    <span class="keywordflow">if</span> (<a class="code hl_struct" href="../../d0/d3b/struct_broadcast_text.html">BroadcastText</a> <span class="keyword">const</span>* bct = <a class="code hl_define" href="../../d9/d77/_object_mgr_8h.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetBroadcastText(<a class="code hl_enumvalue" href="../../db/d6e/spell__item_8cpp.html#a44cfd667d3cbb152c29dfc732506a40caff88d7ddd5dd0caa9fa6aa28c5059bfa">SMALL_FEAST_BROADCAST_TEXT_ID_PREPARE</a>))</div>
+<div class="line"><span class="lineno">  634</span>                        player-&gt;TextEmote(bct-&gt;GetText(loc_idx, player-&gt;getGender()).c_str(), player);</div>
+<div class="line"><span class="lineno">  635</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  636</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../db/d6e/spell__item_8cpp.html#a44cfd667d3cbb152c29dfc732506a40ca8986c6b621b9762c925b69d2cc1c2251">SPELL_GIGANTIC_FEAST</a>:</div>
+<div class="line"><span class="lineno">  637</span>                    <span class="keywordflow">if</span> (<a class="code hl_struct" href="../../d0/d3b/struct_broadcast_text.html">BroadcastText</a> <span class="keyword">const</span>* bct = <a class="code hl_define" href="../../d9/d77/_object_mgr_8h.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetBroadcastText(<a class="code hl_enumvalue" href="../../db/d6e/spell__item_8cpp.html#a44cfd667d3cbb152c29dfc732506a40ca376286c3601032c3d6e02c0c5a28f929">GIGANTIC_FEAST_BROADCAST_TEXT_ID_PREPARE</a>))</div>
+<div class="line"><span class="lineno">  638</span>                        player-&gt;TextEmote(bct-&gt;GetText(loc_idx, player-&gt;getGender()).c_str(), player);</div>
+<div class="line"><span class="lineno">  639</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  640</span>            }</div>
+<div class="line"><span class="lineno">  641</span>        }</div>
+<div class="line"><span class="lineno">  642</span>    }</div>
+<div class="ttc" id="a_common_8h_html_a54c9b637be7283ba1a04fb5215594332"><div class="ttname"><a href="../../db/d1f/_common_8h.html#a54c9b637be7283ba1a04fb5215594332">LocaleConstant</a></div><div class="ttdeci">LocaleConstant</div><div class="ttdef"><b>Definition:</b> Common.h:74</div></div>
+<div class="ttc" id="a_object_mgr_8h_html_a736e30da2b5261060ac6cdbb5de3b787"><div class="ttname"><a href="../../d9/d77/_object_mgr_8h.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a></div><div class="ttdeci">#define sObjectMgr</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:1606</div></div>
+<div class="ttc" id="aclass_object_html_a328d5f752cc33ed398b3d9861ef6929d"><div class="ttname"><a href="../../d8/d83/class_object.html#a328d5f752cc33ed398b3d9861ef6929d">Object::ToPlayer</a></div><div class="ttdeci">Player * ToPlayer()</div><div class="ttdef"><b>Definition:</b> Object.h:195</div></div>
+<div class="ttc" id="aclass_player_html"><div class="ttname"><a href="../../d8/d53/class_player.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1046</div></div>
+<div class="ttc" id="aclass_spell_script_html_a3fa31d3b29c52993d3561fad3cd12af3"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a3fa31d3b29c52993d3561fad3cd12af3">SpellScript::GetSpellInfo</a></div><div class="ttdeci">SpellInfo const * GetSpellInfo()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:411</div></div>
+<div class="ttc" id="aclass_spell_script_html_a56ed3ad5cf4ebc848946a9d8f1c35d5f"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a56ed3ad5cf4ebc848946a9d8f1c35d5f">SpellScript::PreventHitDefaultEffect</a></div><div class="ttdeci">void PreventHitDefaultEffect(SpellEffIndex effIndex)</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:590</div></div>
+<div class="ttc" id="aclass_spell_script_html_ae630e2d388177707e28cecd5fa5a2b48"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">SpellScript::GetCaster</a></div><div class="ttdeci">Unit * GetCaster()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:401</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aspell__item_8cpp_html_a44cfd667d3cbb152c29dfc732506a40ca1a9a0635902f32201df670bae3f8382d"><div class="ttname"><a href="../../db/d6e/spell__item_8cpp.html#a44cfd667d3cbb152c29dfc732506a40ca1a9a0635902f32201df670bae3f8382d">SPELL_GREAT_FEAST</a></div><div class="ttdeci">@ SPELL_GREAT_FEAST</div><div class="ttdef"><b>Definition:</b> spell_item.cpp:593</div></div>
+<div class="ttc" id="aspell__item_8cpp_html_a44cfd667d3cbb152c29dfc732506a40ca1c827d3a5d26942f0414b9261076611d"><div class="ttname"><a href="../../db/d6e/spell__item_8cpp.html#a44cfd667d3cbb152c29dfc732506a40ca1c827d3a5d26942f0414b9261076611d">SPELL_SMALL_FEAST</a></div><div class="ttdeci">@ SPELL_SMALL_FEAST</div><div class="ttdef"><b>Definition:</b> spell_item.cpp:595</div></div>
+<div class="ttc" id="aspell__item_8cpp_html_a44cfd667d3cbb152c29dfc732506a40ca376286c3601032c3d6e02c0c5a28f929"><div class="ttname"><a href="../../db/d6e/spell__item_8cpp.html#a44cfd667d3cbb152c29dfc732506a40ca376286c3601032c3d6e02c0c5a28f929">GIGANTIC_FEAST_BROADCAST_TEXT_ID_PREPARE</a></div><div class="ttdeci">@ GIGANTIC_FEAST_BROADCAST_TEXT_ID_PREPARE</div><div class="ttdef"><b>Definition:</b> spell_item.cpp:601</div></div>
+<div class="ttc" id="aspell__item_8cpp_html_a44cfd667d3cbb152c29dfc732506a40ca4b5c0a76aba527f596429310faddf59b"><div class="ttname"><a href="../../db/d6e/spell__item_8cpp.html#a44cfd667d3cbb152c29dfc732506a40ca4b5c0a76aba527f596429310faddf59b">GREAT_FEAST_BROADCAST_TEXT_ID_PREPARE</a></div><div class="ttdeci">@ GREAT_FEAST_BROADCAST_TEXT_ID_PREPARE</div><div class="ttdef"><b>Definition:</b> spell_item.cpp:598</div></div>
+<div class="ttc" id="aspell__item_8cpp_html_a44cfd667d3cbb152c29dfc732506a40ca8986c6b621b9762c925b69d2cc1c2251"><div class="ttname"><a href="../../db/d6e/spell__item_8cpp.html#a44cfd667d3cbb152c29dfc732506a40ca8986c6b621b9762c925b69d2cc1c2251">SPELL_GIGANTIC_FEAST</a></div><div class="ttdeci">@ SPELL_GIGANTIC_FEAST</div><div class="ttdef"><b>Definition:</b> spell_item.cpp:596</div></div>
+<div class="ttc" id="aspell__item_8cpp_html_a44cfd667d3cbb152c29dfc732506a40caeb1264fcc0c88b80ac2412d1c5e29496"><div class="ttname"><a href="../../db/d6e/spell__item_8cpp.html#a44cfd667d3cbb152c29dfc732506a40caeb1264fcc0c88b80ac2412d1c5e29496">FISH_FEAST_BROADCAST_TEXT_ID_PREPARE</a></div><div class="ttdeci">@ FISH_FEAST_BROADCAST_TEXT_ID_PREPARE</div><div class="ttdef"><b>Definition:</b> spell_item.cpp:599</div></div>
+<div class="ttc" id="aspell__item_8cpp_html_a44cfd667d3cbb152c29dfc732506a40caff0c5f3cba4dbfa64c6c8631a6371f0f"><div class="ttname"><a href="../../db/d6e/spell__item_8cpp.html#a44cfd667d3cbb152c29dfc732506a40caff0c5f3cba4dbfa64c6c8631a6371f0f">SPELL_FISH_FEAST</a></div><div class="ttdeci">@ SPELL_FISH_FEAST</div><div class="ttdef"><b>Definition:</b> spell_item.cpp:594</div></div>
+<div class="ttc" id="aspell__item_8cpp_html_a44cfd667d3cbb152c29dfc732506a40caff88d7ddd5dd0caa9fa6aa28c5059bfa"><div class="ttname"><a href="../../db/d6e/spell__item_8cpp.html#a44cfd667d3cbb152c29dfc732506a40caff88d7ddd5dd0caa9fa6aa28c5059bfa">SMALL_FEAST_BROADCAST_TEXT_ID_PREPARE</a></div><div class="ttdeci">@ SMALL_FEAST_BROADCAST_TEXT_ID_PREPARE</div><div class="ttdef"><b>Definition:</b> spell_item.cpp:600</div></div>
+<div class="ttc" id="astruct_broadcast_text_html"><div class="ttname"><a href="../../d0/d3b/struct_broadcast_text.html">BroadcastText</a></div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:435</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="af89783564da25769be15e22291717f6a" name="af89783564da25769be15e22291717f6a"></a>
@@ -345,7 +392,12 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d7/d13/class___spell_script.html#ad3b8fb5dd2bc5ca4dd34da5a98a76443">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  609</span>    {</div>
+<div class="line"><span class="lineno">  610</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>()-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">GetTypeId</a>() == <a class="code hl_enumvalue" href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a>;</div>
+<div class="line"><span class="lineno">  611</span>    }</div>
+<div class="ttc" id="a_object_guid_8h_html_a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c"><div class="ttname"><a href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a></div><div class="ttdeci">@ TYPEID_PLAYER</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:38</div></div>
+<div class="ttc" id="aclass_object_html_a621a345fc34deed6d3a4e1e498a652da"><div class="ttname"><a href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">Object::GetTypeId</a></div><div class="ttdeci">TypeID GetTypeId() const</div><div class="ttdef"><b>Definition:</b> Object.h:121</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a1e7e4137712fcaa378d1ac7ff1b0a6c7" name="a1e7e4137712fcaa378d1ac7ff1b0a6c7"></a>
@@ -398,11 +450,19 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  645</span>    {</div>
+<div class="line"><span class="lineno">  646</span>        <a class="code hl_variable" href="../../dc/d62/class_spell_script.html#a6f11356f7a28793e6053bfbc4e2dacf3">OnEffectHitTarget</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a551b0adb8eaf82985a7e55cef0695dcb">SpellEffectFn</a>(<a class="code hl_function" href="../../d0/df3/classspell__item__feast.html#a3ad488a1b6115bb1ec8cfe6717d3b4cf">spell_item_feast::HandleScriptEffect</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97a078f855df3793531cf8efdef80967cba">SPELL_EFFECT_SCRIPT_EFFECT</a>);</div>
+<div class="line"><span class="lineno">  647</span>    }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a></div><div class="ttdeci">@ EFFECT_0</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:30</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a292c893150c454dd75628b719db1fe97a078f855df3793531cf8efdef80967cba"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97a078f855df3793531cf8efdef80967cba">SPELL_EFFECT_SCRIPT_EFFECT</a></div><div class="ttdeci">@ SPELL_EFFECT_SCRIPT_EFFECT</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:827</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a551b0adb8eaf82985a7e55cef0695dcb"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a551b0adb8eaf82985a7e55cef0695dcb">SpellEffectFn</a></div><div class="ttdeci">#define SpellEffectFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:337</div></div>
+<div class="ttc" id="aclass_spell_script_html_a6f11356f7a28793e6053bfbc4e2dacf3"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a6f11356f7a28793e6053bfbc4e2dacf3">SpellScript::OnEffectHitTarget</a></div><div class="ttdeci">HookList&lt; EffectHandler &gt; OnEffectHitTarget</div><div class="ttdef"><b>Definition:</b> SpellScript.h:336</div></div>
+<div class="ttc" id="aclassspell__item__feast_html_a3ad488a1b6115bb1ec8cfe6717d3b4cf"><div class="ttname"><a href="../../d0/df3/classspell__item__feast.html#a3ad488a1b6115bb1ec8cfe6717d3b4cf">spell_item_feast::HandleScriptEffect</a></div><div class="ttdeci">void HandleScriptEffect(SpellEffIndex effIndex)</div><div class="ttdef"><b>Definition:</b> spell_item.cpp:613</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Spells/<a class="el" href="../../db/d6e/spell__item_8cpp.html">spell_item.cpp</a></li>
+<li><a class="el" href="../../">spell_item.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -410,7 +470,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d0/df3/classspell__item__feast.html">spell_item_feast</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:03 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:20 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

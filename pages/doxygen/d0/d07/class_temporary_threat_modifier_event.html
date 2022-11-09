@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('d0/d07/class_temporary_threat_modifier
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d8/d93/_creature_8h_source.html">Creature.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">Creature.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for TemporaryThreatModifierEvent:</div>
 <div class="dyncontent">
@@ -153,7 +153,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:aacb0f6e66d22a93ff074b4cbcf12b788"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d07/class_temporary_threat_modifier_event.html#aacb0f6e66d22a93ff074b4cbcf12b788">m_threatValue</a></td></tr>
 <tr class="separator:aacb0f6e66d22a93ff074b4cbcf12b788"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="afd58a1128ac6629d7541ba1bfd4ef886" name="afd58a1128ac6629d7541ba1bfd4ef886"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afd58a1128ac6629d7541ba1bfd4ef886">&#9670;&#160;</a></span>TemporaryThreatModifierEvent()</h2>
 
@@ -193,7 +194,12 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">  505</span>: <a class="code hl_function" href="../../d0/df3/class_basic_event.html#a9c3cd17edab7fc410f88bb680d756975">BasicEvent</a>(), <a class="code hl_variable" href="../../d0/d07/class_temporary_threat_modifier_event.html#ab786c99d73f0048a993ce7cee8c3b875">m_owner</a>(owner), <a class="code hl_variable" href="../../d0/d07/class_temporary_threat_modifier_event.html#aeae82bd80c9b8b08573c6e3baf359f55">m_threatVictimGUID</a>(threatVictimGUID), <a class="code hl_variable" href="../../d0/d07/class_temporary_threat_modifier_event.html#aacb0f6e66d22a93ff074b4cbcf12b788">m_threatValue</a>(threatValue) { }</div>
+<div class="ttc" id="aclass_basic_event_html_a9c3cd17edab7fc410f88bb680d756975"><div class="ttname"><a href="../../d0/df3/class_basic_event.html#a9c3cd17edab7fc410f88bb680d756975">BasicEvent::BasicEvent</a></div><div class="ttdeci">BasicEvent()=default</div></div>
+<div class="ttc" id="aclass_temporary_threat_modifier_event_html_aacb0f6e66d22a93ff074b4cbcf12b788"><div class="ttname"><a href="../../d0/d07/class_temporary_threat_modifier_event.html#aacb0f6e66d22a93ff074b4cbcf12b788">TemporaryThreatModifierEvent::m_threatValue</a></div><div class="ttdeci">float m_threatValue</div><div class="ttdef"><b>Definition:</b> Creature.h:511</div></div>
+<div class="ttc" id="aclass_temporary_threat_modifier_event_html_ab786c99d73f0048a993ce7cee8c3b875"><div class="ttname"><a href="../../d0/d07/class_temporary_threat_modifier_event.html#ab786c99d73f0048a993ce7cee8c3b875">TemporaryThreatModifierEvent::m_owner</a></div><div class="ttdeci">Creature &amp; m_owner</div><div class="ttdef"><b>Definition:</b> Creature.h:509</div></div>
+<div class="ttc" id="aclass_temporary_threat_modifier_event_html_aeae82bd80c9b8b08573c6e3baf359f55"><div class="ttname"><a href="../../d0/d07/class_temporary_threat_modifier_event.html#aeae82bd80c9b8b08573c6e3baf359f55">TemporaryThreatModifierEvent::m_threatVictimGUID</a></div><div class="ttdeci">ObjectGuid m_threatVictimGUID</div><div class="ttdef"><b>Definition:</b> Creature.h:510</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -232,7 +238,25 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d0/df3/class_basic_event.html#a89297a10b64d01895332655122ed8ccb">BasicEvent</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  205</span>{</div>
+<div class="line"><span class="lineno">  206</span>    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* victim = <a class="code hl_function" href="../../d4/d27/namespace_object_accessor.html#a02c2dfb59db7d7e2501dcc9a4f9baf07">ObjectAccessor::GetUnit</a>(<a class="code hl_variable" href="../../d0/d07/class_temporary_threat_modifier_event.html#ab786c99d73f0048a993ce7cee8c3b875">m_owner</a>, <a class="code hl_variable" href="../../d0/d07/class_temporary_threat_modifier_event.html#aeae82bd80c9b8b08573c6e3baf359f55">m_threatVictimGUID</a>))</div>
+<div class="line"><span class="lineno">  207</span>    {</div>
+<div class="line"><span class="lineno">  208</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d0/d07/class_temporary_threat_modifier_event.html#ab786c99d73f0048a993ce7cee8c3b875">m_owner</a>.<a class="code hl_function" href="../../da/db7/class_unit.html#a68a9e0165b55b9958eb1a91c44b436b0">IsInCombatWith</a>(victim))</div>
+<div class="line"><span class="lineno">  209</span>        {</div>
+<div class="line"><span class="lineno">  210</span>            <a class="code hl_variable" href="../../d0/d07/class_temporary_threat_modifier_event.html#ab786c99d73f0048a993ce7cee8c3b875">m_owner</a>.<a class="code hl_function" href="../../da/db7/class_unit.html#ad56089c61bf09419bedbb4edd2d94aeb">GetThreatMgr</a>().<a class="code hl_function" href="../../d0/db1/class_threat_mgr.html#a96d81c92595064eee010ae40a7311e99">ModifyThreatByPercent</a>(victim, -100); <span class="comment">// Reset threat to zero.</span></div>
+<div class="line"><span class="lineno">  211</span>            <a class="code hl_variable" href="../../d0/d07/class_temporary_threat_modifier_event.html#ab786c99d73f0048a993ce7cee8c3b875">m_owner</a>.<a class="code hl_function" href="../../da/db7/class_unit.html#ad56089c61bf09419bedbb4edd2d94aeb">GetThreatMgr</a>().<a class="code hl_function" href="../../d0/db1/class_threat_mgr.html#ad43b1f88531b816cf107a2197e94027b">AddThreat</a>(victim, <a class="code hl_variable" href="../../d0/d07/class_temporary_threat_modifier_event.html#aacb0f6e66d22a93ff074b4cbcf12b788">m_threatValue</a>);  <span class="comment">// Set to the previous value it had, first before modification.</span></div>
+<div class="line"><span class="lineno">  212</span>        }</div>
+<div class="line"><span class="lineno">  213</span>    }</div>
+<div class="line"><span class="lineno">  214</span> </div>
+<div class="line"><span class="lineno">  215</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  216</span>}</div>
+<div class="ttc" id="aclass_threat_mgr_html_a96d81c92595064eee010ae40a7311e99"><div class="ttname"><a href="../../d0/db1/class_threat_mgr.html#a96d81c92595064eee010ae40a7311e99">ThreatMgr::ModifyThreatByPercent</a></div><div class="ttdeci">void ModifyThreatByPercent(Unit *victim, int32 percent)</div><div class="ttdef"><b>Definition:</b> ThreatMgr.cpp:493</div></div>
+<div class="ttc" id="aclass_threat_mgr_html_ad43b1f88531b816cf107a2197e94027b"><div class="ttname"><a href="../../d0/db1/class_threat_mgr.html#ad43b1f88531b816cf107a2197e94027b">ThreatMgr::AddThreat</a></div><div class="ttdeci">void AddThreat(Unit *victim, float threat, SpellSchoolMask schoolMask=SPELL_SCHOOL_MASK_NORMAL, SpellInfo const *threatSpell=nullptr)</div><div class="ttdef"><b>Definition:</b> ThreatMgr.cpp:437</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_a68a9e0165b55b9958eb1a91c44b436b0"><div class="ttname"><a href="../../da/db7/class_unit.html#a68a9e0165b55b9958eb1a91c44b436b0">Unit::IsInCombatWith</a></div><div class="ttdeci">bool IsInCombatWith(Unit const *who) const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:21042</div></div>
+<div class="ttc" id="aclass_unit_html_ad56089c61bf09419bedbb4edd2d94aeb"><div class="ttname"><a href="../../da/db7/class_unit.html#ad56089c61bf09419bedbb4edd2d94aeb">Unit::GetThreatMgr</a></div><div class="ttdeci">ThreatMgr &amp; GetThreatMgr()</div><div class="ttdef"><b>Definition:</b> Unit.h:2142</div></div>
+<div class="ttc" id="anamespace_object_accessor_html_a02c2dfb59db7d7e2501dcc9a4f9baf07"><div class="ttname"><a href="../../d4/d27/namespace_object_accessor.html#a02c2dfb59db7d7e2501dcc9a4f9baf07">ObjectAccessor::GetUnit</a></div><div class="ttdeci">Unit * GetUnit(WorldObject const &amp;, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:204</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -303,8 +327,8 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Entities/Creature/<a class="el" href="../../d8/d93/_creature_8h_source.html">Creature.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/Entities/Creature/<a class="el" href="../../d3/d9d/_creature_8cpp.html">Creature.cpp</a></li>
+<li><a class="el" href="../../">Creature.h</a></li>
+<li><a class="el" href="../../">Creature.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -312,7 +336,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d0/d07/class_temporary_threat_modifier_event.html">TemporaryThreatModifierEvent</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:12 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:28 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -499,7 +499,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/db7/class_unit.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9c/class_unit_a_i.html#ac2af548c72570d8a48295fdfa334278e">me</a></td></tr>
 <tr class="separator:ac2af548c72570d8a48295fdfa334278e inherit pro_attribs_class_unit_a_i"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a211597b3bf1812f1d0e1da44f39528d8" name="a211597b3bf1812f1d0e1da44f39528d8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a211597b3bf1812f1d0e1da44f39528d8">&#9670;&#160;</a></span>boss_lieutenant_drakeAI()</h2>
 
@@ -523,7 +524,38 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   58</span>                                                    : <a class="code hl_struct" href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a>(creature)</div>
+<div class="line"><span class="lineno">   59</span>        {</div>
+<div class="line"><span class="lineno">   60</span>            <a class="code hl_variable" href="../../df/da3/structboss__lieutenant__drake_1_1boss__lieutenant__drake_a_i.html#a985c954f45989ed2755031931b2bbeff">pathPoints</a>.clear();</div>
+<div class="line"><span class="lineno">   61</span>            <a class="code hl_typedef" href="../../d7/d48/_smart_script_mgr_8h.html#abc98143d1084e552d293ab743fd5a56b">WPPath</a>* path = <a class="code hl_define" href="../../d7/d48/_smart_script_mgr_8h.html#a2f98805bdaae76c9a1c2b6ce9e815d84">sSmartWaypointMgr</a>-&gt;GetPath(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>());</div>
+<div class="line"><span class="lineno">   62</span>            <span class="keywordflow">if</span> (!path || path-&gt;empty())</div>
+<div class="line"><span class="lineno">   63</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   64</span> </div>
+<div class="line"><span class="lineno">   65</span>            <a class="code hl_variable" href="../../df/da3/structboss__lieutenant__drake_1_1boss__lieutenant__drake_a_i.html#a985c954f45989ed2755031931b2bbeff">pathPoints</a>.push_back(G3D::Vector3(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#ad5577c934d9e845b44759b67c534c3e8">GetPositionX</a>(), <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">GetPositionY</a>(), <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/d26/struct_position.html#a4e813a59345a6275e8b87b96be03e60b">GetPositionZ</a>()));</div>
+<div class="line"><span class="lineno">   66</span> </div>
+<div class="line"><span class="lineno">   67</span>            <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> wpCounter = 1;</div>
+<div class="line"><span class="lineno">   68</span>            WPPath::const_iterator itr;</div>
+<div class="line"><span class="lineno">   69</span>            <span class="keywordflow">while</span> ((itr = path-&gt;find(wpCounter++)) != path-&gt;end())</div>
+<div class="line"><span class="lineno">   70</span>            {</div>
+<div class="line"><span class="lineno">   71</span>                <a class="code hl_struct" href="../../d7/d9b/struct_way_point.html">WayPoint</a>* wp = itr-&gt;second;</div>
+<div class="line"><span class="lineno">   72</span>                <a class="code hl_variable" href="../../df/da3/structboss__lieutenant__drake_1_1boss__lieutenant__drake_a_i.html#a985c954f45989ed2755031931b2bbeff">pathPoints</a>.push_back(G3D::Vector3(wp-&gt;<a class="code hl_variable" href="../../d7/d9b/struct_way_point.html#aff5ba831af9f5f01b7ebb5f784d085f7">x</a>, wp-&gt;<a class="code hl_variable" href="../../d7/d9b/struct_way_point.html#adfe474d3c93a63fbe78935c1b2873cae">y</a>, wp-&gt;<a class="code hl_variable" href="../../d7/d9b/struct_way_point.html#a4b0160c4f8941aa20772baf06c6a7286">z</a>));</div>
+<div class="line"><span class="lineno">   73</span>            }</div>
+<div class="line"><span class="lineno">   74</span>        }</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="a_smart_script_mgr_8h_html_a2f98805bdaae76c9a1c2b6ce9e815d84"><div class="ttname"><a href="../../d7/d48/_smart_script_mgr_8h.html#a2f98805bdaae76c9a1c2b6ce9e815d84">sSmartWaypointMgr</a></div><div class="ttdeci">#define sSmartWaypointMgr</div><div class="ttdef"><b>Definition:</b> SmartScriptMgr.h:2026</div></div>
+<div class="ttc" id="a_smart_script_mgr_8h_html_abc98143d1084e552d293ab743fd5a56b"><div class="ttname"><a href="../../d7/d48/_smart_script_mgr_8h.html#abc98143d1084e552d293ab743fd5a56b">WPPath</a></div><div class="ttdeci">std::unordered_map&lt; uint32, WayPoint * &gt; WPPath</div><div class="ttdef"><b>Definition:</b> SmartScriptMgr.h:1790</div></div>
+<div class="ttc" id="aclass_object_html_aa627fe2967ed0e0ed1d8aeeb4365a961"><div class="ttname"><a href="../../d8/d83/class_object.html#aa627fe2967ed0e0ed1d8aeeb4365a961">Object::GetEntry</a></div><div class="ttdeci">uint32 GetEntry() const</div><div class="ttdef"><b>Definition:</b> Object.h:109</div></div>
+<div class="ttc" id="astruct_position_html_a4e813a59345a6275e8b87b96be03e60b"><div class="ttname"><a href="../../d1/d26/struct_position.html#a4e813a59345a6275e8b87b96be03e60b">Position::GetPositionZ</a></div><div class="ttdeci">float GetPositionZ() const</div><div class="ttdef"><b>Definition:</b> Position.h:119</div></div>
+<div class="ttc" id="astruct_position_html_ad5577c934d9e845b44759b67c534c3e8"><div class="ttname"><a href="../../d1/d26/struct_position.html#ad5577c934d9e845b44759b67c534c3e8">Position::GetPositionX</a></div><div class="ttdeci">float GetPositionX() const</div><div class="ttdef"><b>Definition:</b> Position.h:117</div></div>
+<div class="ttc" id="astruct_position_html_ae79fc664f6cd027f5d49f6c7df8e4c9e"><div class="ttname"><a href="../../d1/d26/struct_position.html#ae79fc664f6cd027f5d49f6c7df8e4c9e">Position::GetPositionY</a></div><div class="ttdeci">float GetPositionY() const</div><div class="ttdef"><b>Definition:</b> Position.h:118</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html">ScriptedAI</a></div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:177</div></div>
+<div class="ttc" id="astruct_scripted_a_i_html_a5da7193f0a8713b8fa5e7ff2f19ac3bb"><div class="ttname"><a href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">ScriptedAI::me</a></div><div class="ttdeci">Creature * me</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.h:267</div></div>
+<div class="ttc" id="astruct_way_point_html"><div class="ttname"><a href="../../d7/d9b/struct_way_point.html">WayPoint</a></div><div class="ttdef"><b>Definition:</b> SmartScriptMgr.h:33</div></div>
+<div class="ttc" id="astruct_way_point_html_a4b0160c4f8941aa20772baf06c6a7286"><div class="ttname"><a href="../../d7/d9b/struct_way_point.html#a4b0160c4f8941aa20772baf06c6a7286">WayPoint::z</a></div><div class="ttdeci">float z</div><div class="ttdef"><b>Definition:</b> SmartScriptMgr.h:47</div></div>
+<div class="ttc" id="astruct_way_point_html_adfe474d3c93a63fbe78935c1b2873cae"><div class="ttname"><a href="../../d7/d9b/struct_way_point.html#adfe474d3c93a63fbe78935c1b2873cae">WayPoint::y</a></div><div class="ttdeci">float y</div><div class="ttdef"><b>Definition:</b> SmartScriptMgr.h:46</div></div>
+<div class="ttc" id="astruct_way_point_html_aff5ba831af9f5f01b7ebb5f784d085f7"><div class="ttname"><a href="../../d7/d9b/struct_way_point.html#aff5ba831af9f5f01b7ebb5f784d085f7">WayPoint::x</a></div><div class="ttdeci">float x</div><div class="ttdef"><b>Definition:</b> SmartScriptMgr.h:45</div></div>
+<div class="ttc" id="astructboss__lieutenant__drake_1_1boss__lieutenant__drake_a_i_html_a985c954f45989ed2755031931b2bbeff"><div class="ttname"><a href="../../df/da3/structboss__lieutenant__drake_1_1boss__lieutenant__drake_a_i.html#a985c954f45989ed2755031931b2bbeff">boss_lieutenant_drake::boss_lieutenant_drakeAI::pathPoints</a></div><div class="ttdeci">Movement::PointsArray pathPoints</div><div class="ttdef"><b>Definition:</b> boss_lieutenant_drake.cpp:164</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -552,7 +584,24 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a35a9ca7c140474598325b0f2073f9bcd">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   98</span>        {</div>
+<div class="line"><span class="lineno">   99</span>            <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18a47c752fff069f3e55065795eef2a9bfe">SAY_AGGRO</a>);</div>
+<div class="line"><span class="lineno">  100</span> </div>
+<div class="line"><span class="lineno">  101</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18a4e49fde4fe8ce8fa992cf9a3a4584afc">EVENT_WHIRLWIND</a>, 4000);</div>
+<div class="line"><span class="lineno">  102</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18a514a4e3ec4111bd86552e0a733f4e018">EVENT_FRIGHTENING_SHOUT</a>, 14000);</div>
+<div class="line"><span class="lineno">  103</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18adbcdc7932b4e3141c4e5fb1a807bc236">EVENT_MORTAL_STRIKE</a>, 9000);</div>
+<div class="line"><span class="lineno">  104</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18a555c0f944c1b69b930b96c21c2f0b3ff">EVENT_HAMSTRING</a>, 18000);</div>
+<div class="line"><span class="lineno">  105</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18a16226c58824d0d8a6ed3245b19757883">EVENT_EXPLODING_SHOT</a>, 1000);</div>
+<div class="line"><span class="lineno">  106</span>        }</div>
+<div class="ttc" id="aboss__fathomlord__karathress_8cpp_html_a747a224b6b3195f9a33c56ddc6c7e268"><div class="ttname"><a href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a></div><div class="ttdeci">Talk</div><div class="ttdef"><b>Definition:</b> boss_fathomlord_karathress.cpp:23</div></div>
+<div class="ttc" id="aboss__lieutenant__drake_8cpp_html_a033aa2310e9320f7f70eebde8bad3f18a16226c58824d0d8a6ed3245b19757883"><div class="ttname"><a href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18a16226c58824d0d8a6ed3245b19757883">EVENT_EXPLODING_SHOT</a></div><div class="ttdeci">@ EVENT_EXPLODING_SHOT</div><div class="ttdef"><b>Definition:</b> boss_lieutenant_drake.cpp:43</div></div>
+<div class="ttc" id="aboss__lieutenant__drake_8cpp_html_a033aa2310e9320f7f70eebde8bad3f18a47c752fff069f3e55065795eef2a9bfe"><div class="ttname"><a href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18a47c752fff069f3e55065795eef2a9bfe">SAY_AGGRO</a></div><div class="ttdeci">@ SAY_AGGRO</div><div class="ttdef"><b>Definition:</b> boss_lieutenant_drake.cpp:27</div></div>
+<div class="ttc" id="aboss__lieutenant__drake_8cpp_html_a033aa2310e9320f7f70eebde8bad3f18a4e49fde4fe8ce8fa992cf9a3a4584afc"><div class="ttname"><a href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18a4e49fde4fe8ce8fa992cf9a3a4584afc">EVENT_WHIRLWIND</a></div><div class="ttdeci">@ EVENT_WHIRLWIND</div><div class="ttdef"><b>Definition:</b> boss_lieutenant_drake.cpp:39</div></div>
+<div class="ttc" id="aboss__lieutenant__drake_8cpp_html_a033aa2310e9320f7f70eebde8bad3f18a514a4e3ec4111bd86552e0a733f4e018"><div class="ttname"><a href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18a514a4e3ec4111bd86552e0a733f4e018">EVENT_FRIGHTENING_SHOUT</a></div><div class="ttdeci">@ EVENT_FRIGHTENING_SHOUT</div><div class="ttdef"><b>Definition:</b> boss_lieutenant_drake.cpp:40</div></div>
+<div class="ttc" id="aboss__lieutenant__drake_8cpp_html_a033aa2310e9320f7f70eebde8bad3f18a555c0f944c1b69b930b96c21c2f0b3ff"><div class="ttname"><a href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18a555c0f944c1b69b930b96c21c2f0b3ff">EVENT_HAMSTRING</a></div><div class="ttdeci">@ EVENT_HAMSTRING</div><div class="ttdef"><b>Definition:</b> boss_lieutenant_drake.cpp:42</div></div>
+<div class="ttc" id="aboss__lieutenant__drake_8cpp_html_a033aa2310e9320f7f70eebde8bad3f18adbcdc7932b4e3141c4e5fb1a807bc236"><div class="ttname"><a href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18adbcdc7932b4e3141c4e5fb1a807bc236">EVENT_MORTAL_STRIKE</a></div><div class="ttdeci">@ EVENT_MORTAL_STRIKE</div><div class="ttdef"><b>Definition:</b> boss_lieutenant_drake.cpp:41</div></div>
+<div class="ttc" id="aboss__sartura_8cpp_html_ad29858f6d8ab73f2970f41cb21a76b84"><div class="ttname"><a href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a></div><div class="ttdeci">events</div><div class="ttdef"><b>Definition:</b> boss_sartura.cpp:43</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a9e052898be01436165398ed7254a0845" name="a9e052898be01436165398ed7254a0845"></a>
@@ -579,7 +628,14 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../dd/d9c/class_unit_a_i.html#aa88ecdf57b44fb013c3fed4ff59aec0d">UnitAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   77</span>        {</div>
+<div class="line"><span class="lineno">   78</span>            <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#aa88ecdf57b44fb013c3fed4ff59aec0d">ScriptedAI::InitializeAI</a>();</div>
+<div class="line"><span class="lineno">   79</span>            <span class="comment">//Talk(SAY_ENTER);</span></div>
+<div class="line"><span class="lineno">   80</span>            <a class="code hl_function" href="../../df/da3/structboss__lieutenant__drake_1_1boss__lieutenant__drake_a_i.html#a50c9de95d139ec835a1dc9b1012e30f3">JustReachedHome</a>();</div>
+<div class="line"><span class="lineno">   81</span>        }</div>
+<div class="ttc" id="aclass_unit_a_i_html_aa88ecdf57b44fb013c3fed4ff59aec0d"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#aa88ecdf57b44fb013c3fed4ff59aec0d">UnitAI::InitializeAI</a></div><div class="ttdeci">virtual void InitializeAI()</div><div class="ttdef"><b>Definition:</b> UnitAI.h:188</div></div>
+<div class="ttc" id="astructboss__lieutenant__drake_1_1boss__lieutenant__drake_a_i_html_a50c9de95d139ec835a1dc9b1012e30f3"><div class="ttname"><a href="../../df/da3/structboss__lieutenant__drake_1_1boss__lieutenant__drake_a_i.html#a50c9de95d139ec835a1dc9b1012e30f3">boss_lieutenant_drake::boss_lieutenant_drakeAI::JustReachedHome</a></div><div class="ttdeci">void JustReachedHome() override</div><div class="ttdef"><b>Definition:</b> boss_lieutenant_drake.cpp:83</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a29c4b7196fdac145536a0af05998aa1f" name="a29c4b7196fdac145536a0af05998aa1f"></a>
@@ -607,7 +663,17 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a4cc209e047dcbd29cf57e689e3945ff7">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  115</span>        {</div>
+<div class="line"><span class="lineno">  116</span>            <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18a04c962d9b6aaafde54ff92a54369135e">SAY_DEATH</a>);</div>
+<div class="line"><span class="lineno">  117</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d83/class_instance_script.html">InstanceScript</a>* instance = <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">GetInstanceScript</a>())</div>
+<div class="line"><span class="lineno">  118</span>                instance-&gt;SetData(<a class="code hl_enumvalue" href="../../d3/dfb/old__hillsbrad_8h.html#a0b356522c34d8bb8a36a3d77d5c8f2c5aa626279ec68bc579fc435f38f7d5457e">DATA_ESCORT_PROGRESS</a>, <a class="code hl_enumvalue" href="../../d3/dfb/old__hillsbrad_8h.html#a0b64fe674ad16039fc11cab49bc4ef87acd868a732c52233c8475bd7d39261952">ENCOUNTER_PROGRESS_DRAKE_KILLED</a>);</div>
+<div class="line"><span class="lineno">  119</span>        }</div>
+<div class="ttc" id="aboss__lieutenant__drake_8cpp_html_a033aa2310e9320f7f70eebde8bad3f18a04c962d9b6aaafde54ff92a54369135e"><div class="ttname"><a href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18a04c962d9b6aaafde54ff92a54369135e">SAY_DEATH</a></div><div class="ttdeci">@ SAY_DEATH</div><div class="ttdef"><b>Definition:</b> boss_lieutenant_drake.cpp:31</div></div>
+<div class="ttc" id="aclass_instance_script_html"><div class="ttname"><a href="../../d8/d83/class_instance_script.html">InstanceScript</a></div><div class="ttdef"><b>Definition:</b> InstanceScript.h:140</div></div>
+<div class="ttc" id="aclass_world_object_html_a29762f86d0726e4d229df51281b9d710"><div class="ttname"><a href="../../db/df7/class_world_object.html#a29762f86d0726e4d229df51281b9d710">WorldObject::GetInstanceScript</a></div><div class="ttdeci">InstanceScript * GetInstanceScript() const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1192</div></div>
+<div class="ttc" id="aold__hillsbrad_8h_html_a0b356522c34d8bb8a36a3d77d5c8f2c5aa626279ec68bc579fc435f38f7d5457e"><div class="ttname"><a href="../../d3/dfb/old__hillsbrad_8h.html#a0b356522c34d8bb8a36a3d77d5c8f2c5aa626279ec68bc579fc435f38f7d5457e">DATA_ESCORT_PROGRESS</a></div><div class="ttdeci">@ DATA_ESCORT_PROGRESS</div><div class="ttdef"><b>Definition:</b> old_hillsbrad.h:27</div></div>
+<div class="ttc" id="aold__hillsbrad_8h_html_a0b64fe674ad16039fc11cab49bc4ef87acd868a732c52233c8475bd7d39261952"><div class="ttname"><a href="../../d3/dfb/old__hillsbrad_8h.html#a0b64fe674ad16039fc11cab49bc4ef87acd868a732c52233c8475bd7d39261952">ENCOUNTER_PROGRESS_DRAKE_KILLED</a></div><div class="ttdeci">@ ENCOUNTER_PROGRESS_DRAKE_KILLED</div><div class="ttdef"><b>Definition:</b> old_hillsbrad.h:72</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a50c9de95d139ec835a1dc9b1012e30f3" name="a50c9de95d139ec835a1dc9b1012e30f3"></a>
@@ -634,7 +700,16 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d2/d68/class_creature_a_i.html#a85468652a394c5f2b3b14d822ac2d222">CreatureAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   84</span>        {</div>
+<div class="line"><span class="lineno">   85</span>            <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#acb4a26180cdcb2266736f6aea4a695d8">SetWalk</a>(<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">   86</span>            <a class="code hl_class" href="../../d6/d88/class_movement_1_1_move_spline_init.html">Movement::MoveSplineInit</a> init(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>);</div>
+<div class="line"><span class="lineno">   87</span>            init.MovebyPath(<a class="code hl_variable" href="../../df/da3/structboss__lieutenant__drake_1_1boss__lieutenant__drake_a_i.html#a985c954f45989ed2755031931b2bbeff">pathPoints</a>);</div>
+<div class="line"><span class="lineno">   88</span>            init.SetCyclic();</div>
+<div class="line"><span class="lineno">   89</span>            init.Launch();</div>
+<div class="line"><span class="lineno">   90</span>        }</div>
+<div class="ttc" id="aclass_creature_html_acb4a26180cdcb2266736f6aea4a695d8"><div class="ttname"><a href="../../d1/dac/class_creature.html#acb4a26180cdcb2266736f6aea4a695d8">Creature::SetWalk</a></div><div class="ttdeci">bool SetWalk(bool enable) override</div><div class="ttdef"><b>Definition:</b> Creature.cpp:3053</div></div>
+<div class="ttc" id="aclass_movement_1_1_move_spline_init_html"><div class="ttname"><a href="../../d6/d88/class_movement_1_1_move_spline_init.html">Movement::MoveSplineInit</a></div><div class="ttdef"><b>Definition:</b> MoveSplineInit.h:71</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a9aaca5baa5fc8b476dd9830340bff197" name="a9aaca5baa5fc8b476dd9830340bff197"></a>
@@ -662,7 +737,14 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a8d6c7fd71269453c229326c9785006e8">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  109</span>        {</div>
+<div class="line"><span class="lineno">  110</span>            <span class="keywordflow">if</span> (victim-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">GetTypeId</a>() == <a class="code hl_enumvalue" href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a>)</div>
+<div class="line"><span class="lineno">  111</span>                <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18a9e64f6e600dd42567d18006912811f75">SAY_SLAY</a>);</div>
+<div class="line"><span class="lineno">  112</span>        }</div>
+<div class="ttc" id="a_object_guid_8h_html_a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c"><div class="ttname"><a href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2aca37d750899c40a5743285ccda2bba9c">TYPEID_PLAYER</a></div><div class="ttdeci">@ TYPEID_PLAYER</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:38</div></div>
+<div class="ttc" id="aboss__lieutenant__drake_8cpp_html_a033aa2310e9320f7f70eebde8bad3f18a9e64f6e600dd42567d18006912811f75"><div class="ttname"><a href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18a9e64f6e600dd42567d18006912811f75">SAY_SLAY</a></div><div class="ttdeci">@ SAY_SLAY</div><div class="ttdef"><b>Definition:</b> boss_lieutenant_drake.cpp:28</div></div>
+<div class="ttc" id="aclass_object_html_a621a345fc34deed6d3a4e1e498a652da"><div class="ttname"><a href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">Object::GetTypeId</a></div><div class="ttdeci">TypeID GetTypeId() const</div><div class="ttdef"><b>Definition:</b> Object.h:121</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="abb8bece80a6d1777b2f02349b924b843" name="abb8bece80a6d1777b2f02349b924b843"></a>
@@ -689,7 +771,10 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#a26600c116d20a33461fc884bdb82eda9">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   93</span>        {</div>
+<div class="line"><span class="lineno">   94</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.Reset();</div>
+<div class="line"><span class="lineno">   95</span>        }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a32cc08780021ee6b49f8495b79ccaae2" name="a32cc08780021ee6b49f8495b79ccaae2"></a>
@@ -717,7 +802,62 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../de/d83/struct_scripted_a_i.html#aff5fd4e142a5cf930ffacbfc7259cce5">ScriptedAI</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  122</span>        {</div>
+<div class="line"><span class="lineno">  123</span>            <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">UpdateVictim</a>())</div>
+<div class="line"><span class="lineno">  124</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  125</span> </div>
+<div class="line"><span class="lineno">  126</span>            <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.Update(diff);</div>
+<div class="line"><span class="lineno">  127</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#ab78147cd520d2dac6be709b4c80a7de3">HasUnitState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54">UNIT_STATE_CASTING</a>))</div>
+<div class="line"><span class="lineno">  128</span>                <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  129</span> </div>
+<div class="line"><span class="lineno">  130</span>            <span class="keywordflow">switch</span> (<a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ExecuteEvent())</div>
+<div class="line"><span class="lineno">  131</span>            {</div>
+<div class="line"><span class="lineno">  132</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18a4e49fde4fe8ce8fa992cf9a3a4584afc">EVENT_WHIRLWIND</a>:</div>
+<div class="line"><span class="lineno">  133</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_enumvalue" href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18aed3f27157e41ec7644a53b6f9a827801">SPELL_WHIRLWIND</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  134</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18a4e49fde4fe8ce8fa992cf9a3a4584afc">EVENT_WHIRLWIND</a>, 25000);</div>
+<div class="line"><span class="lineno">  135</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  136</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18a16226c58824d0d8a6ed3245b19757883">EVENT_EXPLODING_SHOT</a>:</div>
+<div class="line"><span class="lineno">  137</span>                    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target = <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a6daed910a7666394bcbf8abd2f20096e">SelectTarget</a>(SelectTargetMethod::Random, 1, 40.0f))</div>
+<div class="line"><span class="lineno">  138</span>                        <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(target, <a class="code hl_enumvalue" href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18aefb7632b415102184ad53e85801175d5">SPELL_EXPLODING_SHOT</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  139</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18a16226c58824d0d8a6ed3245b19757883">EVENT_EXPLODING_SHOT</a>, 25000);</div>
+<div class="line"><span class="lineno">  140</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  141</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18adbcdc7932b4e3141c4e5fb1a807bc236">EVENT_MORTAL_STRIKE</a>:</div>
+<div class="line"><span class="lineno">  142</span>                    <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d0/d80/_random_8h.html#a50320d4edff86db31b25138ae72161ad">roll_chance_i</a>(40))</div>
+<div class="line"><span class="lineno">  143</span>                        <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18acf31848e308314a00240ce3ef60f0cac">SAY_MORTAL</a>);</div>
+<div class="line"><span class="lineno">  144</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">GetVictim</a>(), <a class="code hl_enumvalue" href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18a7794ace87705e2898f8b60f1f5228110">SPELL_MORTAL_STRIKE</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  145</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18adbcdc7932b4e3141c4e5fb1a807bc236">EVENT_MORTAL_STRIKE</a>, 10000);</div>
+<div class="line"><span class="lineno">  146</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  147</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18a514a4e3ec4111bd86552e0a733f4e018">EVENT_FRIGHTENING_SHOUT</a>:</div>
+<div class="line"><span class="lineno">  148</span>                    <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d0/d80/_random_8h.html#a50320d4edff86db31b25138ae72161ad">roll_chance_i</a>(40))</div>
+<div class="line"><span class="lineno">  149</span>                        <a class="code hl_enumeration" href="../../d5/df2/boss__fathomlord__karathress_8cpp.html#a747a224b6b3195f9a33c56ddc6c7e268">Talk</a>(<a class="code hl_enumvalue" href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18ac8586005f7f9c20d2a347bde8583cefd">SAY_SHOUT</a>);</div>
+<div class="line"><span class="lineno">  150</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>, <a class="code hl_enumvalue" href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18a99346d181da7e06bc6c08427a2b39880">SPELL_FRIGHTENING_SHOUT</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  151</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18a514a4e3ec4111bd86552e0a733f4e018">EVENT_FRIGHTENING_SHOUT</a>, 25000);</div>
+<div class="line"><span class="lineno">  152</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  153</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18a555c0f944c1b69b930b96c21c2f0b3ff">EVENT_HAMSTRING</a>:</div>
+<div class="line"><span class="lineno">  154</span>                    <a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">CastSpell</a>(<a class="code hl_variable" href="../../de/d83/struct_scripted_a_i.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">GetVictim</a>(), <a class="code hl_enumvalue" href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18a079fdbedeb449ce76d26fa93301be553">SPELL_HAMSTRING</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  155</span>                    <a class="code hl_enumeration" href="../../df/d9a/boss__sartura_8cpp.html#ad29858f6d8ab73f2970f41cb21a76b84">events</a>.ScheduleEvent(<a class="code hl_enumvalue" href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18a555c0f944c1b69b930b96c21c2f0b3ff">EVENT_HAMSTRING</a>, 25000);</div>
+<div class="line"><span class="lineno">  156</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  157</span>            }</div>
+<div class="line"><span class="lineno">  158</span> </div>
+<div class="line"><span class="lineno">  159</span>            <a class="code hl_function" href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">DoMeleeAttackIfReady</a>();</div>
+<div class="line"><span class="lineno">  160</span>        }</div>
+<div class="ttc" id="a_random_8h_html_a50320d4edff86db31b25138ae72161ad"><div class="ttname"><a href="../../d0/d80/_random_8h.html#a50320d4edff86db31b25138ae72161ad">roll_chance_i</a></div><div class="ttdeci">bool roll_chance_i(int chance)</div><div class="ttdef"><b>Definition:</b> Random.h:59</div></div>
+<div class="ttc" id="a_unit_8h_html_ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544addeb46481f5261653c159d6f0db9cd54">UNIT_STATE_CASTING</a></div><div class="ttdeci">@ UNIT_STATE_CASTING</div><div class="ttdef"><b>Definition:</b> Unit.h:340</div></div>
+<div class="ttc" id="aboss__lieutenant__drake_8cpp_html_a033aa2310e9320f7f70eebde8bad3f18a079fdbedeb449ce76d26fa93301be553"><div class="ttname"><a href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18a079fdbedeb449ce76d26fa93301be553">SPELL_HAMSTRING</a></div><div class="ttdeci">@ SPELL_HAMSTRING</div><div class="ttdef"><b>Definition:</b> boss_lieutenant_drake.cpp:35</div></div>
+<div class="ttc" id="aboss__lieutenant__drake_8cpp_html_a033aa2310e9320f7f70eebde8bad3f18a7794ace87705e2898f8b60f1f5228110"><div class="ttname"><a href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18a7794ace87705e2898f8b60f1f5228110">SPELL_MORTAL_STRIKE</a></div><div class="ttdeci">@ SPELL_MORTAL_STRIKE</div><div class="ttdef"><b>Definition:</b> boss_lieutenant_drake.cpp:36</div></div>
+<div class="ttc" id="aboss__lieutenant__drake_8cpp_html_a033aa2310e9320f7f70eebde8bad3f18a99346d181da7e06bc6c08427a2b39880"><div class="ttname"><a href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18a99346d181da7e06bc6c08427a2b39880">SPELL_FRIGHTENING_SHOUT</a></div><div class="ttdeci">@ SPELL_FRIGHTENING_SHOUT</div><div class="ttdef"><b>Definition:</b> boss_lieutenant_drake.cpp:37</div></div>
+<div class="ttc" id="aboss__lieutenant__drake_8cpp_html_a033aa2310e9320f7f70eebde8bad3f18ac8586005f7f9c20d2a347bde8583cefd"><div class="ttname"><a href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18ac8586005f7f9c20d2a347bde8583cefd">SAY_SHOUT</a></div><div class="ttdeci">@ SAY_SHOUT</div><div class="ttdef"><b>Definition:</b> boss_lieutenant_drake.cpp:30</div></div>
+<div class="ttc" id="aboss__lieutenant__drake_8cpp_html_a033aa2310e9320f7f70eebde8bad3f18acf31848e308314a00240ce3ef60f0cac"><div class="ttname"><a href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18acf31848e308314a00240ce3ef60f0cac">SAY_MORTAL</a></div><div class="ttdeci">@ SAY_MORTAL</div><div class="ttdef"><b>Definition:</b> boss_lieutenant_drake.cpp:29</div></div>
+<div class="ttc" id="aboss__lieutenant__drake_8cpp_html_a033aa2310e9320f7f70eebde8bad3f18aed3f27157e41ec7644a53b6f9a827801"><div class="ttname"><a href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18aed3f27157e41ec7644a53b6f9a827801">SPELL_WHIRLWIND</a></div><div class="ttdeci">@ SPELL_WHIRLWIND</div><div class="ttdef"><b>Definition:</b> boss_lieutenant_drake.cpp:33</div></div>
+<div class="ttc" id="aboss__lieutenant__drake_8cpp_html_a033aa2310e9320f7f70eebde8bad3f18aefb7632b415102184ad53e85801175d5"><div class="ttname"><a href="../../d8/db6/boss__lieutenant__drake_8cpp.html#a033aa2310e9320f7f70eebde8bad3f18aefb7632b415102184ad53e85801175d5">SPELL_EXPLODING_SHOT</a></div><div class="ttdeci">@ SPELL_EXPLODING_SHOT</div><div class="ttdef"><b>Definition:</b> boss_lieutenant_drake.cpp:34</div></div>
+<div class="ttc" id="aclass_creature_a_i_html_ae03ccfe1e27501ed9ccbfecdbd3c4e39"><div class="ttname"><a href="../../d2/d68/class_creature_a_i.html#ae03ccfe1e27501ed9ccbfecdbd3c4e39">CreatureAI::UpdateVictim</a></div><div class="ttdeci">bool UpdateVictim()</div><div class="ttdef"><b>Definition:</b> CreatureAI.cpp:268</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a348a472089a9be6210b58aace8fafa9f"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a348a472089a9be6210b58aace8fafa9f">UnitAI::DoMeleeAttackIfReady</a></div><div class="ttdeci">void DoMeleeAttackIfReady()</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:40</div></div>
+<div class="ttc" id="aclass_unit_a_i_html_a6daed910a7666394bcbf8abd2f20096e"><div class="ttname"><a href="../../dd/d9c/class_unit_a_i.html#a6daed910a7666394bcbf8abd2f20096e">UnitAI::SelectTarget</a></div><div class="ttdeci">Unit * SelectTarget(SelectTargetMethod targetType, uint32 position=0, float dist=0.0f, bool playerOnly=false, int32 aura=0)</div><div class="ttdef"><b>Definition:</b> UnitAI.cpp:111</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_aa3ca95f7a14041f562ed69c3994afdfc"><div class="ttname"><a href="../../da/db7/class_unit.html#aa3ca95f7a14041f562ed69c3994afdfc">Unit::CastSpell</a></div><div class="ttdeci">SpellCastResult CastSpell(SpellCastTargets const &amp;targets, SpellInfo const *spellInfo, CustomSpellValues const *value, TriggerCastFlags triggerFlags=TRIGGERED_NONE, Item *castItem=nullptr, AuraEffect const *triggeredByAura=nullptr, ObjectGuid originalCaster=ObjectGuid::Empty)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:1168</div></div>
+<div class="ttc" id="aclass_unit_html_aae09d03a474ea5517d671e64dc393739"><div class="ttname"><a href="../../da/db7/class_unit.html#aae09d03a474ea5517d671e64dc393739">Unit::GetVictim</a></div><div class="ttdeci">Unit * GetVictim() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1386</div></div>
+<div class="ttc" id="aclass_unit_html_ab78147cd520d2dac6be709b4c80a7de3"><div class="ttname"><a href="../../da/db7/class_unit.html#ab78147cd520d2dac6be709b4c80a7de3">Unit::HasUnitState</a></div><div class="ttdeci">bool HasUnitState(const uint32 f) const</div><div class="ttdef"><b>Definition:</b> Unit.h:1398</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -766,7 +906,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Kalimdor/CavernsOfTime/EscapeFromDurnholdeKeep/<a class="el" href="../../d8/db6/boss__lieutenant__drake_8cpp.html">boss_lieutenant_drake.cpp</a></li>
+<li><a class="el" href="../../">boss_lieutenant_drake.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -774,7 +914,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../df/dcd/classboss__lieutenant__drake.html">boss_lieutenant_drake</a></li><li class="navelem"><a class="el" href="../../df/da3/structboss__lieutenant__drake_1_1boss__lieutenant__drake_a_i.html">boss_lieutenant_drakeAI</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:41 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:53 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

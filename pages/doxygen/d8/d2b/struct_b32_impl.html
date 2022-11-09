@@ -129,7 +129,8 @@ Static Public Attributes</h2></td></tr>
 <tr class="memitem:ace6b211be8a36043942f0a1aaee063b1"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d2b/struct_b32_impl.html#ace6b211be8a36043942f0a1aaee063b1">DECODE_ERROR</a> = 0xff</td></tr>
 <tr class="separator:ace6b211be8a36043942f0a1aaee063b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="aacf2a55e180aa5ee475ac76c6af4d47a" name="aacf2a55e180aa5ee475ac76c6af4d47a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aacf2a55e180aa5ee475ac76c6af4d47a">&#9670;&#160;</a></span>Decode()</h2>
 
@@ -153,7 +154,18 @@ Static Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   24</span>    {</div>
+<div class="line"><span class="lineno">   25</span>        <span class="keywordflow">if</span> (v == <span class="charliteral">&#39;0&#39;</span>) { <span class="keywordflow">return</span> <a class="code hl_function" href="../../d8/d2b/struct_b32_impl.html#aacf2a55e180aa5ee475ac76c6af4d47a">Decode</a>(<span class="charliteral">&#39;O&#39;</span>); }</div>
+<div class="line"><span class="lineno">   26</span>        <span class="keywordflow">if</span> (v == <span class="charliteral">&#39;1&#39;</span>) { <span class="keywordflow">return</span> <a class="code hl_function" href="../../d8/d2b/struct_b32_impl.html#aacf2a55e180aa5ee475ac76c6af4d47a">Decode</a>(<span class="charliteral">&#39;l&#39;</span>); }</div>
+<div class="line"><span class="lineno">   27</span>        <span class="keywordflow">if</span> (v == <span class="charliteral">&#39;8&#39;</span>) { <span class="keywordflow">return</span> <a class="code hl_function" href="../../d8/d2b/struct_b32_impl.html#aacf2a55e180aa5ee475ac76c6af4d47a">Decode</a>(<span class="charliteral">&#39;B&#39;</span>); }</div>
+<div class="line"><span class="lineno">   28</span>        <span class="keywordflow">if</span> ((<span class="charliteral">&#39;A&#39;</span> &lt;= v) &amp;&amp; (v &lt;= <span class="charliteral">&#39;Z&#39;</span>)) { <span class="keywordflow">return</span> (v - <span class="charliteral">&#39;A&#39;</span>); }</div>
+<div class="line"><span class="lineno">   29</span>        <span class="keywordflow">if</span> ((<span class="charliteral">&#39;a&#39;</span> &lt;= v) &amp;&amp; (v &lt;= <span class="charliteral">&#39;z&#39;</span>)) { <span class="keywordflow">return</span> (v - <span class="charliteral">&#39;a&#39;</span>); }</div>
+<div class="line"><span class="lineno">   30</span>        <span class="keywordflow">if</span> ((<span class="charliteral">&#39;2&#39;</span> &lt;= v) &amp;&amp; (v &lt;= <span class="charliteral">&#39;7&#39;</span>)) { <span class="keywordflow">return</span> (v - <span class="charliteral">&#39;2&#39;</span>) + 26; }</div>
+<div class="line"><span class="lineno">   31</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d8/d2b/struct_b32_impl.html#ace6b211be8a36043942f0a1aaee063b1">DECODE_ERROR</a>;</div>
+<div class="line"><span class="lineno">   32</span>    }</div>
+<div class="ttc" id="astruct_b32_impl_html_aacf2a55e180aa5ee475ac76c6af4d47a"><div class="ttname"><a href="../../d8/d2b/struct_b32_impl.html#aacf2a55e180aa5ee475ac76c6af4d47a">B32Impl::Decode</a></div><div class="ttdeci">static constexpr uint8 Decode(uint8 v)</div><div class="ttdef"><b>Definition:</b> Base32.cpp:23</div></div>
+<div class="ttc" id="astruct_b32_impl_html_ace6b211be8a36043942f0a1aaee063b1"><div class="ttname"><a href="../../d8/d2b/struct_b32_impl.html#ace6b211be8a36043942f0a1aaee063b1">B32Impl::DECODE_ERROR</a></div><div class="ttdeci">static constexpr uint8 DECODE_ERROR</div><div class="ttdef"><b>Definition:</b> Base32.cpp:22</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a51c8847dc9b75161f4d2d366324dc50f" name="a51c8847dc9b75161f4d2d366324dc50f"></a>
@@ -179,7 +191,13 @@ Static Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   16</span>    {</div>
+<div class="line"><span class="lineno">   17</span>        <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(v &lt; 0x20);</div>
+<div class="line"><span class="lineno">   18</span>        <span class="keywordflow">if</span> (v &lt; 26) { <span class="keywordflow">return</span> <span class="charliteral">&#39;A&#39;</span> + v; }</div>
+<div class="line"><span class="lineno">   19</span>        <span class="keywordflow">else</span> { <span class="keywordflow">return</span> <span class="charliteral">&#39;2&#39;</span> + (v - 26); }</div>
+<div class="line"><span class="lineno">   20</span>    }</div>
+<div class="ttc" id="a_errors_8h_html_af343b20373ba49a92fce523e948f2ab3"><div class="ttname"><a href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a></div><div class="ttdeci">#define ASSERT</div><div class="ttdef"><b>Definition:</b> Errors.h:68</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -250,7 +268,7 @@ Static Public Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/common/Encoding/<a class="el" href="../../d3/d02/_base32_8cpp.html">Base32.cpp</a></li>
+<li><a class="el" href="../../">Base32.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -258,7 +276,7 @@ Static Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d8/d2b/struct_b32_impl.html">B32Impl</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:37 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:49 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

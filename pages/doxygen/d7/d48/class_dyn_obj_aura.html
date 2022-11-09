@@ -114,7 +114,7 @@ $(document).ready(function(){initNavTree('d7/d48/class_dyn_obj_aura.html','../..
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d5/dcf/_spell_auras_8h_source.html">SpellAuras.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">SpellAuras.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for DynObjAura:</div>
 <div class="dyncontent">
@@ -426,7 +426,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ad8811634ba5d82b9581e94e8a0fd6097 inherit pro_attribs_class_aura"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dde/class_aura.html#ad8811634ba5d82b9581e94e8a0fd6097">m_isUsingCharges</a>: 1</td></tr>
 <tr class="separator:ad8811634ba5d82b9581e94e8a0fd6097 inherit pro_attribs_class_aura"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aef75bb5d60c10ac63821b0e9baf6eb7a" name="aef75bb5d60c10ac63821b0e9baf6eb7a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aef75bb5d60c10ac63821b0e9baf6eb7a">&#9670;&#160;</a></span>DynObjAura()</h2>
 
@@ -496,7 +497,23 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 2874</span>    : <a class="code hl_class" href="../../d2/dde/class_aura.html">Aura</a>(spellproto, owner, caster, castItem, casterGUID, itemGUID)</div>
+<div class="line"><span class="lineno"> 2875</span>{</div>
+<div class="line"><span class="lineno"> 2876</span>    <a class="code hl_function" href="../../d2/dde/class_aura.html#a9ed84a2b95a1cb898a682c809dd25d2b">LoadScripts</a>();</div>
+<div class="line"><span class="lineno"> 2877</span>    <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(<a class="code hl_function" href="../../d2/dde/class_aura.html#a34626ddba98ab48275cfa6be44ed8390">GetDynobjOwner</a>());</div>
+<div class="line"><span class="lineno"> 2878</span>    <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(<a class="code hl_function" href="../../d2/dde/class_aura.html#a34626ddba98ab48275cfa6be44ed8390">GetDynobjOwner</a>()-&gt;IsInWorld());</div>
+<div class="line"><span class="lineno"> 2879</span>    <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(<a class="code hl_function" href="../../d2/dde/class_aura.html#a34626ddba98ab48275cfa6be44ed8390">GetDynobjOwner</a>()-&gt;GetMap() == caster-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a1013c27be4347a1b1a4a986a07456deb">GetMap</a>());</div>
+<div class="line"><span class="lineno"> 2880</span>    <a class="code hl_function" href="../../d2/dde/class_aura.html#ab477124f94af36e9be706451dce791f7">_InitEffects</a>(effMask, caster, baseAmount);</div>
+<div class="line"><span class="lineno"> 2881</span>    <a class="code hl_function" href="../../d2/dde/class_aura.html#a34626ddba98ab48275cfa6be44ed8390">GetDynobjOwner</a>()-&gt;<a class="code hl_function" href="../../d4/ddd/class_dynamic_object.html#a0e21e54eec1092b7ed05d1bacd0f8ed6">SetAura</a>(<span class="keyword">this</span>);</div>
+<div class="line"><span class="lineno"> 2882</span>}</div>
+<div class="ttc" id="a_errors_8h_html_af343b20373ba49a92fce523e948f2ab3"><div class="ttname"><a href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a></div><div class="ttdeci">#define ASSERT</div><div class="ttdef"><b>Definition:</b> Errors.h:68</div></div>
+<div class="ttc" id="aclass_aura_html"><div class="ttname"><a href="../../d2/dde/class_aura.html">Aura</a></div><div class="ttdef"><b>Definition:</b> SpellAuras.h:87</div></div>
+<div class="ttc" id="aclass_aura_html_a34626ddba98ab48275cfa6be44ed8390"><div class="ttname"><a href="../../d2/dde/class_aura.html#a34626ddba98ab48275cfa6be44ed8390">Aura::GetDynobjOwner</a></div><div class="ttdeci">DynamicObject * GetDynobjOwner() const</div><div class="ttdef"><b>Definition:</b> SpellAuras.h:109</div></div>
+<div class="ttc" id="aclass_aura_html_a9ed84a2b95a1cb898a682c809dd25d2b"><div class="ttname"><a href="../../d2/dde/class_aura.html#a9ed84a2b95a1cb898a682c809dd25d2b">Aura::LoadScripts</a></div><div class="ttdeci">void LoadScripts()</div><div class="ttdef"><b>Definition:</b> SpellAuras.cpp:2360</div></div>
+<div class="ttc" id="aclass_aura_html_ab477124f94af36e9be706451dce791f7"><div class="ttname"><a href="../../d2/dde/class_aura.html#ab477124f94af36e9be706451dce791f7">Aura::_InitEffects</a></div><div class="ttdeci">void _InitEffects(uint8 effMask, Unit *caster, int32 *baseAmount)</div><div class="ttdef"><b>Definition:</b> SpellAuras.cpp:435</div></div>
+<div class="ttc" id="aclass_dynamic_object_html_a0e21e54eec1092b7ed05d1bacd0f8ed6"><div class="ttname"><a href="../../d4/ddd/class_dynamic_object.html#a0e21e54eec1092b7ed05d1bacd0f8ed6">DynamicObject::SetAura</a></div><div class="ttdeci">void SetAura(Aura *aura)</div><div class="ttdef"><b>Definition:</b> DynamicObject.cpp:220</div></div>
+<div class="ttc" id="aclass_world_object_html_a1013c27be4347a1b1a4a986a07456deb"><div class="ttname"><a href="../../db/df7/class_world_object.html#a1013c27be4347a1b1a4a986a07456deb">WorldObject::GetMap</a></div><div class="ttdeci">Map * GetMap() const</div><div class="ttdef"><b>Definition:</b> Object.h:517</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -535,7 +552,90 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d2/dde/class_aura.html#a304404f284fba0b6d8dc046140e309ae">Aura</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 2892</span>{</div>
+<div class="line"><span class="lineno"> 2893</span>    <a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* dynObjOwnerCaster = <a class="code hl_function" href="../../d2/dde/class_aura.html#a34626ddba98ab48275cfa6be44ed8390">GetDynobjOwner</a>()-&gt;<a class="code hl_function" href="../../d4/ddd/class_dynamic_object.html#a1cf2186ab2a5f306d2a46db354767fdc">GetCaster</a>();</div>
+<div class="line"><span class="lineno"> 2894</span>    <span class="keywordtype">float</span> radius = <a class="code hl_function" href="../../d2/dde/class_aura.html#a34626ddba98ab48275cfa6be44ed8390">GetDynobjOwner</a>()-&gt;<a class="code hl_function" href="../../d4/ddd/class_dynamic_object.html#afb0de652437ede9d70a06b3c110b5ae9">GetRadius</a>();</div>
+<div class="line"><span class="lineno"> 2895</span> </div>
+<div class="line"><span class="lineno"> 2896</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> effIndex = 0; effIndex &lt; <a class="code hl_define" href="../../d1/d22/_d_b_c_structure_8h.html#ac5733f5b58bf8a23a1919a005b5ec895">MAX_SPELL_EFFECTS</a>; ++effIndex)</div>
+<div class="line"><span class="lineno"> 2897</span>    {</div>
+<div class="line"><span class="lineno"> 2898</span>        <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d2/dde/class_aura.html#a3d22c519ba658770e61a1616be667a09">HasEffect</a>(effIndex))</div>
+<div class="line"><span class="lineno"> 2899</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno"> 2900</span> </div>
+<div class="line"><span class="lineno"> 2901</span>        <a class="code hl_class" href="../../d4/d7d/class_spell_info.html">SpellInfo</a> <span class="keyword">const</span>* spellInfo = <a class="code hl_function" href="../../d2/dde/class_aura.html#ab4abe60bbc09777bab95a0a0ec66af25">GetSpellInfo</a>();</div>
+<div class="line"><span class="lineno"> 2902</span>        <a class="code hl_typedef" href="../../d5/d32/_unit_8h.html#abbe331960980fa852a0be15ccebef947">UnitList</a> targetList;</div>
+<div class="line"><span class="lineno"> 2903</span>        <span class="keywordflow">if</span> (spellInfo-&gt;<a class="code hl_variable" href="../../d4/d7d/class_spell_info.html#aa5bb0d7d6df03526d011d9cbfa3734e0">Effects</a>[effIndex].TargetB.GetTarget() == <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a418aed4e4066eb09ab979b5d78dc9152a89060caf79b628127f72c89a4ba73046">TARGET_DEST_DYNOBJ_ALLY</a> || spellInfo-&gt;<a class="code hl_variable" href="../../d4/d7d/class_spell_info.html#aa5bb0d7d6df03526d011d9cbfa3734e0">Effects</a>[effIndex].TargetB.GetTarget() == <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a418aed4e4066eb09ab979b5d78dc9152a1a24c010eb0d4314412fee23c67a98b4">TARGET_UNIT_DEST_AREA_ALLY</a>)</div>
+<div class="line"><span class="lineno"> 2904</span>        {</div>
+<div class="line"><span class="lineno"> 2905</span>            <a class="code hl_class" href="../../d6/dc1/class_acore_1_1_any_friendly_unit_in_object_range_check.html">Acore::AnyFriendlyUnitInObjectRangeCheck</a> u_check(<a class="code hl_function" href="../../d2/dde/class_aura.html#a34626ddba98ab48275cfa6be44ed8390">GetDynobjOwner</a>(), dynObjOwnerCaster, radius);</div>
+<div class="line"><span class="lineno"> 2906</span>            <a class="code hl_struct" href="../../da/d76/struct_acore_1_1_unit_list_searcher.html">Acore::UnitListSearcher&lt;Acore::AnyFriendlyUnitInObjectRangeCheck&gt;</a> searcher(<a class="code hl_function" href="../../d2/dde/class_aura.html#a34626ddba98ab48275cfa6be44ed8390">GetDynobjOwner</a>(), targetList, u_check);</div>
+<div class="line"><span class="lineno"> 2907</span>            <a class="code hl_function" href="../../dc/d9f/struct_cell.html#a15697efba7478b6e227b5f3c7aafc961">Cell::VisitAllObjects</a>(<a class="code hl_function" href="../../d2/dde/class_aura.html#a34626ddba98ab48275cfa6be44ed8390">GetDynobjOwner</a>(), searcher, radius);</div>
+<div class="line"><span class="lineno"> 2908</span>        }</div>
+<div class="line"><span class="lineno"> 2909</span>        <span class="comment">// pussywizard: TARGET_DEST_DYNOBJ_NONE is supposed to search for both friendly and unfriendly targets, so for any unit</span></div>
+<div class="line"><span class="lineno"> 2910</span>        <span class="comment">// what about EffectImplicitTargetA?</span></div>
+<div class="line"><span class="lineno"> 2911</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (spellInfo-&gt;<a class="code hl_variable" href="../../d4/d7d/class_spell_info.html#aa5bb0d7d6df03526d011d9cbfa3734e0">Effects</a>[effIndex].TargetB.GetTarget() == <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a418aed4e4066eb09ab979b5d78dc9152a86bfc5644ebafe704834da6ecb5a0ac8">TARGET_DEST_DYNOBJ_NONE</a>)</div>
+<div class="line"><span class="lineno"> 2912</span>        {</div>
+<div class="line"><span class="lineno"> 2913</span>            <a class="code hl_class" href="../../d6/d09/class_acore_1_1_any_attackable_unit_except_for_original_caster_in_object_range_check.html">Acore::AnyAttackableUnitExceptForOriginalCasterInObjectRangeCheck</a> u_check(<a class="code hl_function" href="../../d2/dde/class_aura.html#a34626ddba98ab48275cfa6be44ed8390">GetDynobjOwner</a>(), dynObjOwnerCaster, radius);</div>
+<div class="line"><span class="lineno"> 2914</span>            <a class="code hl_struct" href="../../da/d76/struct_acore_1_1_unit_list_searcher.html">Acore::UnitListSearcher&lt;Acore::AnyAttackableUnitExceptForOriginalCasterInObjectRangeCheck&gt;</a> searcher(<a class="code hl_function" href="../../d2/dde/class_aura.html#a34626ddba98ab48275cfa6be44ed8390">GetDynobjOwner</a>(), targetList, u_check);</div>
+<div class="line"><span class="lineno"> 2915</span>            <a class="code hl_function" href="../../dc/d9f/struct_cell.html#a15697efba7478b6e227b5f3c7aafc961">Cell::VisitAllObjects</a>(<a class="code hl_function" href="../../d2/dde/class_aura.html#a34626ddba98ab48275cfa6be44ed8390">GetDynobjOwner</a>(), searcher, radius);</div>
+<div class="line"><span class="lineno"> 2916</span>        }</div>
+<div class="line"><span class="lineno"> 2917</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 2918</span>        {</div>
+<div class="line"><span class="lineno"> 2919</span>            <a class="code hl_class" href="../../df/db4/class_acore_1_1_any_ao_e_target_unit_in_object_range_check.html">Acore::AnyAoETargetUnitInObjectRangeCheck</a> u_check(<a class="code hl_function" href="../../d2/dde/class_aura.html#a34626ddba98ab48275cfa6be44ed8390">GetDynobjOwner</a>(), dynObjOwnerCaster, radius);</div>
+<div class="line"><span class="lineno"> 2920</span>            <a class="code hl_struct" href="../../da/d76/struct_acore_1_1_unit_list_searcher.html">Acore::UnitListSearcher&lt;Acore::AnyAoETargetUnitInObjectRangeCheck&gt;</a> searcher(<a class="code hl_function" href="../../d2/dde/class_aura.html#a34626ddba98ab48275cfa6be44ed8390">GetDynobjOwner</a>(), targetList, u_check);</div>
+<div class="line"><span class="lineno"> 2921</span>            <a class="code hl_function" href="../../dc/d9f/struct_cell.html#a15697efba7478b6e227b5f3c7aafc961">Cell::VisitAllObjects</a>(<a class="code hl_function" href="../../d2/dde/class_aura.html#a34626ddba98ab48275cfa6be44ed8390">GetDynobjOwner</a>(), searcher, radius);</div>
+<div class="line"><span class="lineno"> 2922</span>        }</div>
+<div class="line"><span class="lineno"> 2923</span> </div>
+<div class="line"><span class="lineno"> 2924</span>        <span class="keywordflow">for</span> (UnitList::iterator itr = targetList.begin(); itr != targetList.end(); ++itr)</div>
+<div class="line"><span class="lineno"> 2925</span>        {</div>
+<div class="line"><span class="lineno"> 2926</span>            <a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* target = *itr;</div>
+<div class="line"><span class="lineno"> 2927</span> </div>
+<div class="line"><span class="lineno"> 2928</span>            <a class="code hl_typedef" href="../../d5/dcf/_optional_8h.html#aaf8f4d77efd311ec7818ab421294ef82">Optional&lt;float&gt;</a> collisionHeight = { };</div>
+<div class="line"><span class="lineno"> 2929</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/db7/class_unit.html">Unit</a>* dynObjCaster = <a class="code hl_function" href="../../d2/dde/class_aura.html#a34626ddba98ab48275cfa6be44ed8390">GetDynobjOwner</a>()-&gt;<a class="code hl_function" href="../../d2/dde/class_aura.html#a6fc52109b7711606f15d9880fda8f815">GetCaster</a>())</div>
+<div class="line"><span class="lineno"> 2930</span>            {</div>
+<div class="line"><span class="lineno"> 2931</span>                collisionHeight = dynObjCaster-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a30903f223f0668c6beae4a350d49a43a">GetCollisionHeight</a>();</div>
+<div class="line"><span class="lineno"> 2932</span>            }</div>
+<div class="line"><span class="lineno"> 2933</span> </div>
+<div class="line"><span class="lineno"> 2934</span>            <span class="keywordflow">if</span> (!spellInfo-&gt;<a class="code hl_function" href="../../d4/d7d/class_spell_info.html#a975746d6b737abb063ea037327abfc5a">HasAttribute</a>(<a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a583cc1b9a8909370e4d51a890d897668ae6f285b2042f990335ebcc501c5f2c82">SPELL_ATTR2_IGNORE_LINE_OF_SIGHT</a>) &amp;&amp; !spellInfo-&gt;<a class="code hl_function" href="../../d4/d7d/class_spell_info.html#a975746d6b737abb063ea037327abfc5a">HasAttribute</a>(<a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a376aa62261a98289589839b821786adaab0527496eccfcafc34a8a49f74d9afbd">SPELL_ATTR5_ALWAYS_AOE_LINE_OF_SIGHT</a>) &amp;&amp;</div>
+<div class="line"><span class="lineno"> 2935</span>                !target-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#a3b4bf64ce1648c214c4f049cfff8eb93">IsWithinLOSInMap</a>(<a class="code hl_function" href="../../d2/dde/class_aura.html#a34626ddba98ab48275cfa6be44ed8390">GetDynobjOwner</a>(), <a class="code hl_enumvalue" href="../../d6/d39/namespace_v_m_a_p.html#a6996c44f3ac72cd9dc04515186d2da28af80a4ad87fee7c9fdc19b7769495fdb5">VMAP::ModelIgnoreFlags::Nothing</a>, <a class="code hl_enumvalue" href="../../d3/d63/_map_8h.html#abc95f0a7147fb553d023f994f003a1c6ac012f06f7e6897d0c7532b6eb155d19f">LINEOFSIGHT_ALL_CHECKS</a>, collisionHeight))</div>
+<div class="line"><span class="lineno"> 2936</span>            {</div>
+<div class="line"><span class="lineno"> 2937</span>                <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno"> 2938</span>            }</div>
+<div class="line"><span class="lineno"> 2939</span> </div>
+<div class="line"><span class="lineno"> 2940</span>            std::map&lt;Unit*, uint8&gt;::iterator existing = targets.find(*itr);</div>
+<div class="line"><span class="lineno"> 2941</span>            <span class="keywordflow">if</span> (existing != targets.end())</div>
+<div class="line"><span class="lineno"> 2942</span>                existing-&gt;second |= 1 &lt;&lt; effIndex;</div>
+<div class="line"><span class="lineno"> 2943</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 2944</span>                targets[*itr] = 1 &lt;&lt; effIndex;</div>
+<div class="line"><span class="lineno"> 2945</span>        }</div>
+<div class="line"><span class="lineno"> 2946</span>    }</div>
+<div class="line"><span class="lineno"> 2947</span>}</div>
+<div class="ttc" id="a_d_b_c_structure_8h_html_ac5733f5b58bf8a23a1919a005b5ec895"><div class="ttname"><a href="../../d1/d22/_d_b_c_structure_8h.html#ac5733f5b58bf8a23a1919a005b5ec895">MAX_SPELL_EFFECTS</a></div><div class="ttdeci">#define MAX_SPELL_EFFECTS</div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1596</div></div>
+<div class="ttc" id="a_define_8h_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../db/d35/_define_8h.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:110</div></div>
+<div class="ttc" id="a_map_8h_html_abc95f0a7147fb553d023f994f003a1c6ac012f06f7e6897d0c7532b6eb155d19f"><div class="ttname"><a href="../../d3/d63/_map_8h.html#abc95f0a7147fb553d023f994f003a1c6ac012f06f7e6897d0c7532b6eb155d19f">LINEOFSIGHT_ALL_CHECKS</a></div><div class="ttdeci">@ LINEOFSIGHT_ALL_CHECKS</div><div class="ttdef"><b>Definition:</b> Map.h:197</div></div>
+<div class="ttc" id="a_optional_8h_html_aaf8f4d77efd311ec7818ab421294ef82"><div class="ttname"><a href="../../d5/dcf/_optional_8h.html#aaf8f4d77efd311ec7818ab421294ef82">Optional</a></div><div class="ttdeci">std::optional&lt; T &gt; Optional</div><div class="ttdoc">Optional helper class to wrap optional values within.</div><div class="ttdef"><b>Definition:</b> Optional.h:24</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a376aa62261a98289589839b821786adaab0527496eccfcafc34a8a49f74d9afbd"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a376aa62261a98289589839b821786adaab0527496eccfcafc34a8a49f74d9afbd">SPELL_ATTR5_ALWAYS_AOE_LINE_OF_SIGHT</a></div><div class="ttdeci">@ SPELL_ATTR5_ALWAYS_AOE_LINE_OF_SIGHT</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:565</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a418aed4e4066eb09ab979b5d78dc9152a1a24c010eb0d4314412fee23c67a98b4"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a418aed4e4066eb09ab979b5d78dc9152a1a24c010eb0d4314412fee23c67a98b4">TARGET_UNIT_DEST_AREA_ALLY</a></div><div class="ttdeci">@ TARGET_UNIT_DEST_AREA_ALLY</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1407</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a418aed4e4066eb09ab979b5d78dc9152a86bfc5644ebafe704834da6ecb5a0ac8"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a418aed4e4066eb09ab979b5d78dc9152a86bfc5644ebafe704834da6ecb5a0ac8">TARGET_DEST_DYNOBJ_NONE</a></div><div class="ttdeci">@ TARGET_DEST_DYNOBJ_NONE</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1464</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a418aed4e4066eb09ab979b5d78dc9152a89060caf79b628127f72c89a4ba73046"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a418aed4e4066eb09ab979b5d78dc9152a89060caf79b628127f72c89a4ba73046">TARGET_DEST_DYNOBJ_ALLY</a></div><div class="ttdeci">@ TARGET_DEST_DYNOBJ_ALLY</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1405</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a583cc1b9a8909370e4d51a890d897668ae6f285b2042f990335ebcc501c5f2c82"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a583cc1b9a8909370e4d51a890d897668ae6f285b2042f990335ebcc501c5f2c82">SPELL_ATTR2_IGNORE_LINE_OF_SIGHT</a></div><div class="ttdeci">@ SPELL_ATTR2_IGNORE_LINE_OF_SIGHT</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:430</div></div>
+<div class="ttc" id="a_unit_8h_html_abbe331960980fa852a0be15ccebef947"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#abbe331960980fa852a0be15ccebef947">UnitList</a></div><div class="ttdeci">std::list&lt; Unit * &gt; UnitList</div><div class="ttdef"><b>Definition:</b> Unit.h:240</div></div>
+<div class="ttc" id="aclass_acore_1_1_any_ao_e_target_unit_in_object_range_check_html"><div class="ttname"><a href="../../df/db4/class_acore_1_1_any_ao_e_target_unit_in_object_range_check.html">Acore::AnyAoETargetUnitInObjectRangeCheck</a></div><div class="ttdef"><b>Definition:</b> GridNotifiers.h:1077</div></div>
+<div class="ttc" id="aclass_acore_1_1_any_attackable_unit_except_for_original_caster_in_object_range_check_html"><div class="ttname"><a href="../../d6/d09/class_acore_1_1_any_attackable_unit_except_for_original_caster_in_object_range_check.html">Acore::AnyAttackableUnitExceptForOriginalCasterInObjectRangeCheck</a></div><div class="ttdef"><b>Definition:</b> GridNotifiers.h:1121</div></div>
+<div class="ttc" id="aclass_acore_1_1_any_friendly_unit_in_object_range_check_html"><div class="ttname"><a href="../../d6/dc1/class_acore_1_1_any_friendly_unit_in_object_range_check.html">Acore::AnyFriendlyUnitInObjectRangeCheck</a></div><div class="ttdef"><b>Definition:</b> GridNotifiers.h:976</div></div>
+<div class="ttc" id="aclass_aura_html_a3d22c519ba658770e61a1616be667a09"><div class="ttname"><a href="../../d2/dde/class_aura.html#a3d22c519ba658770e61a1616be667a09">Aura::HasEffect</a></div><div class="ttdeci">bool HasEffect(uint8 effIndex) const</div><div class="ttdef"><b>Definition:</b> SpellAuras.h:173</div></div>
+<div class="ttc" id="aclass_aura_html_a6fc52109b7711606f15d9880fda8f815"><div class="ttname"><a href="../../d2/dde/class_aura.html#a6fc52109b7711606f15d9880fda8f815">Aura::GetCaster</a></div><div class="ttdeci">Unit * GetCaster() const</div><div class="ttdef"><b>Definition:</b> SpellAuras.cpp:471</div></div>
+<div class="ttc" id="aclass_aura_html_ab4abe60bbc09777bab95a0a0ec66af25"><div class="ttname"><a href="../../d2/dde/class_aura.html#ab4abe60bbc09777bab95a0a0ec66af25">Aura::GetSpellInfo</a></div><div class="ttdeci">SpellInfo const * GetSpellInfo() const</div><div class="ttdef"><b>Definition:</b> SpellAuras.h:100</div></div>
+<div class="ttc" id="aclass_dynamic_object_html_a1cf2186ab2a5f306d2a46db354767fdc"><div class="ttname"><a href="../../d4/ddd/class_dynamic_object.html#a1cf2186ab2a5f306d2a46db354767fdc">DynamicObject::GetCaster</a></div><div class="ttdeci">Unit * GetCaster() const</div><div class="ttdef"><b>Definition:</b> DynamicObject.h:55</div></div>
+<div class="ttc" id="aclass_dynamic_object_html_afb0de652437ede9d70a06b3c110b5ae9"><div class="ttname"><a href="../../d4/ddd/class_dynamic_object.html#afb0de652437ede9d70a06b3c110b5ae9">DynamicObject::GetRadius</a></div><div class="ttdeci">float GetRadius() const</div><div class="ttdef"><b>Definition:</b> DynamicObject.h:60</div></div>
+<div class="ttc" id="aclass_spell_info_html"><div class="ttname"><a href="../../d4/d7d/class_spell_info.html">SpellInfo</a></div><div class="ttdef"><b>Definition:</b> SpellInfo.h:314</div></div>
+<div class="ttc" id="aclass_spell_info_html_a975746d6b737abb063ea037327abfc5a"><div class="ttname"><a href="../../d4/d7d/class_spell_info.html#a975746d6b737abb063ea037327abfc5a">SpellInfo::HasAttribute</a></div><div class="ttdeci">bool HasAttribute(SpellAttr0 attribute) const</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:412</div></div>
+<div class="ttc" id="aclass_spell_info_html_aa5bb0d7d6df03526d011d9cbfa3734e0"><div class="ttname"><a href="../../d4/d7d/class_spell_info.html#aa5bb0d7d6df03526d011d9cbfa3734e0">SpellInfo::Effects</a></div><div class="ttdeci">std::array&lt; SpellEffectInfo, MAX_SPELL_EFFECTS &gt; Effects</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:391</div></div>
+<div class="ttc" id="aclass_unit_html"><div class="ttname"><a href="../../da/db7/class_unit.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:1290</div></div>
+<div class="ttc" id="aclass_unit_html_a30903f223f0668c6beae4a350d49a43a"><div class="ttname"><a href="../../da/db7/class_unit.html#a30903f223f0668c6beae4a350d49a43a">Unit::GetCollisionHeight</a></div><div class="ttdeci">float GetCollisionHeight() const override</div><div class="ttdoc">Return collision height sent to client.</div><div class="ttdef"><b>Definition:</b> Unit.cpp:21110</div></div>
+<div class="ttc" id="aclass_world_object_html_a3b4bf64ce1648c214c4f049cfff8eb93"><div class="ttname"><a href="../../db/df7/class_world_object.html#a3b4bf64ce1648c214c4f049cfff8eb93">WorldObject::IsWithinLOSInMap</a></div><div class="ttdeci">bool IsWithinLOSInMap(WorldObject const *obj, VMAP::ModelIgnoreFlags ignoreFlags=VMAP::ModelIgnoreFlags::Nothing, LineOfSightChecks checks=LINEOFSIGHT_ALL_CHECKS, Optional&lt; float &gt; collisionHeight={ }) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1347</div></div>
+<div class="ttc" id="anamespace_v_m_a_p_html_a6996c44f3ac72cd9dc04515186d2da28af80a4ad87fee7c9fdc19b7769495fdb5"><div class="ttname"><a href="../../d6/d39/namespace_v_m_a_p.html#a6996c44f3ac72cd9dc04515186d2da28af80a4ad87fee7c9fdc19b7769495fdb5">VMAP::ModelIgnoreFlags::Nothing</a></div><div class="ttdeci">@ Nothing</div></div>
+<div class="ttc" id="astruct_acore_1_1_unit_list_searcher_html"><div class="ttname"><a href="../../da/d76/struct_acore_1_1_unit_list_searcher.html">Acore::UnitListSearcher</a></div><div class="ttdef"><b>Definition:</b> GridNotifiers.h:420</div></div>
+<div class="ttc" id="astruct_cell_html_a15697efba7478b6e227b5f3c7aafc961"><div class="ttname"><a href="../../dc/d9f/struct_cell.html#a15697efba7478b6e227b5f3c7aafc961">Cell::VisitAllObjects</a></div><div class="ttdeci">static void VisitAllObjects(WorldObject const *obj, T &amp;visitor, float radius, bool dont_load=true)</div><div class="ttdef"><b>Definition:</b> CellImpl.h:207</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ada3f65b4a817e2337da43da437b93a3b" name="ada3f65b4a817e2337da43da437b93a3b"></a>
@@ -563,7 +663,14 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d2/dde/class_aura.html#af9799e5670c2bc3899e3430aa793ca20">Aura</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 2885</span>{</div>
+<div class="line"><span class="lineno"> 2886</span>    <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d2/dde/class_aura.html#a462457cadd52ba8a0edd5609c71ebbc0">IsRemoved</a>())</div>
+<div class="line"><span class="lineno"> 2887</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno"> 2888</span>    <a class="code hl_function" href="../../d2/dde/class_aura.html#afb6874ab08b221b2f1f9d7582c1c93be">_Remove</a>(removeMode);</div>
+<div class="line"><span class="lineno"> 2889</span>}</div>
+<div class="ttc" id="aclass_aura_html_a462457cadd52ba8a0edd5609c71ebbc0"><div class="ttname"><a href="../../d2/dde/class_aura.html#a462457cadd52ba8a0edd5609c71ebbc0">Aura::IsRemoved</a></div><div class="ttdeci">bool IsRemoved() const</div><div class="ttdef"><b>Definition:</b> SpellAuras.h:161</div></div>
+<div class="ttc" id="aclass_aura_html_afb6874ab08b221b2f1f9d7582c1c93be"><div class="ttname"><a href="../../d2/dde/class_aura.html#afb6874ab08b221b2f1f9d7582c1c93be">Aura::_Remove</a></div><div class="ttdeci">void _Remove(AuraRemoveMode removeMode)</div><div class="ttdef"><b>Definition:</b> SpellAuras.cpp:574</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Friends And Related Function Documentation</h2>
@@ -640,8 +747,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Spells/Auras/<a class="el" href="../../d5/dcf/_spell_auras_8h_source.html">SpellAuras.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/Spells/Auras/<a class="el" href="../../d7/db3/_spell_auras_8cpp.html">SpellAuras.cpp</a></li>
+<li><a class="el" href="../../">SpellAuras.h</a></li>
+<li><a class="el" href="../../">SpellAuras.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -649,7 +756,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d7/d48/class_dyn_obj_aura.html">DynObjAura</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:44 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:58 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

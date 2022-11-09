@@ -114,7 +114,7 @@ $(document).ready(function(){initNavTree('da/d74/class_grid.html','../../'); ini
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d8/dea/_grid_8h_source.html">Grid.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">Grid.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -146,7 +146,9 @@ Friends</h2></td></tr>
 <tr class="memitem:a06e47216bdac43edea86c507c93a6ed4"><td class="memTemplItemLeft" align="right" valign="top">class&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../da/d74/class_grid.html#a06e47216bdac43edea86c507c93a6ed4">GridLoader</a></td></tr>
 <tr class="separator:a06e47216bdac43edea86c507c93a6ed4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;class ACTIVE_OBJECT, class WORLD_OBJECT_TYPES, class GRID_OBJECT_TYPES&gt;<br />
+class Grid&lt; ACTIVE_OBJECT, WORLD_OBJECT_TYPES, GRID_OBJECT_TYPES &gt;</div></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a86be65dc86f104566acd41078429e4c4" name="a86be65dc86f104566acd41078429e4c4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a86be65dc86f104566acd41078429e4c4">&#9670;&#160;</a></span>~Grid()</h2>
 
@@ -204,7 +206,13 @@ template&lt;class SPECIFIC_OBJECT &gt; </div>
 </table>
 </div><div class="memdoc">
 <p >Inserts a container type object into the grid. </p>
-
+<div class="fragment"><div class="line"><span class="lineno">  102</span>    {</div>
+<div class="line"><span class="lineno">  103</span>        <a class="code hl_variable" href="../../da/d74/class_grid.html#a510723553d7206edb25792856c6c369b">i_container</a>.template insert&lt;SPECIFIC_OBJECT&gt;(obj);</div>
+<div class="line"><span class="lineno">  104</span>        <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(obj-&gt;IsInGrid());</div>
+<div class="line"><span class="lineno">  105</span>    }</div>
+<div class="ttc" id="a_errors_8h_html_af343b20373ba49a92fce523e948f2ab3"><div class="ttname"><a href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a></div><div class="ttdeci">#define ASSERT</div><div class="ttdef"><b>Definition:</b> Errors.h:68</div></div>
+<div class="ttc" id="aclass_grid_html_a510723553d7206edb25792856c6c369b"><div class="ttname"><a href="../../da/d74/class_grid.html#a510723553d7206edb25792856c6c369b">Grid::i_container</a></div><div class="ttdeci">TypeMapContainer&lt; GRID_OBJECT_TYPES &gt; i_container</div><div class="ttdef"><b>Definition:</b> Grid.h:126</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aac7dc4f1c3024b2286fed2ae51688a99" name="aac7dc4f1c3024b2286fed2ae51688a99"></a>
@@ -235,7 +243,12 @@ template&lt;class SPECIFIC_OBJECT &gt; </div>
 </table>
 </div><div class="memdoc">
 <p >an object of interested enters the grid </p>
-
+<div class="fragment"><div class="line"><span class="lineno">   58</span>    {</div>
+<div class="line"><span class="lineno">   59</span>        <a class="code hl_variable" href="../../da/d74/class_grid.html#a3bf441ec395e8e4cecdb8d63b6600bef">i_objects</a>.template insert&lt;SPECIFIC_OBJECT&gt;(obj);</div>
+<div class="line"><span class="lineno">   60</span>        <a class="code hl_define" href="../../db/d16/_errors_8h.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(obj-&gt;IsInGrid());</div>
+<div class="line"><span class="lineno">   61</span>    }</div>
+<div class="ttc" id="aclass_grid_html_a3bf441ec395e8e4cecdb8d63b6600bef"><div class="ttname"><a href="../../da/d74/class_grid.html#a3bf441ec395e8e4cecdb8d63b6600bef">Grid::i_objects</a></div><div class="ttdeci">TypeMapContainer&lt; WORLD_OBJECT_TYPES &gt; i_objects</div><div class="ttdef"><b>Definition:</b> Grid.h:127</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aa69a55ee52da73b9ec3c62406cb4a595" name="aa69a55ee52da73b9ec3c62406cb4a595"></a>
@@ -266,7 +279,11 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 <p >an object of interested exits the grid Refreshes/update the grid. This required for remote grids. Locks a grid. Any object enters must wait until the grid is unlock. Unlocks the grid. </p>
-
+<div class="fragment"><div class="line"><span class="lineno">   88</span>    {</div>
+<div class="line"><span class="lineno">   89</span>        visitor.<a class="code hl_function" href="../../df/d26/class_type_container_visitor.html#af8110dd70655223f06fb08b552420a6d">Visit</a>(<a class="code hl_variable" href="../../da/d74/class_grid.html#a510723553d7206edb25792856c6c369b">i_container</a>);</div>
+<div class="line"><span class="lineno">   90</span>    }</div>
+<div class="ttc" id="aclass_type_container_visitor_html_af8110dd70655223f06fb08b552420a6d"><div class="ttname"><a href="../../df/d26/class_type_container_visitor.html#af8110dd70655223f06fb08b552420a6d">TypeContainerVisitor::Visit</a></div><div class="ttdeci">void Visit(TYPE_CONTAINER &amp;c)</div><div class="ttdef"><b>Definition:</b> TypeContainerVisitor.h:89</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="aebdcac90d763779775dbc0f0492e5279" name="aebdcac90d763779775dbc0f0492e5279"></a>
@@ -296,7 +313,10 @@ template&lt;class T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   95</span>    {</div>
+<div class="line"><span class="lineno">   96</span>        visitor.<a class="code hl_function" href="../../df/d26/class_type_container_visitor.html#af8110dd70655223f06fb08b552420a6d">Visit</a>(<a class="code hl_variable" href="../../da/d74/class_grid.html#a3bf441ec395e8e4cecdb8d63b6600bef">i_objects</a>);</div>
+<div class="line"><span class="lineno">   97</span>    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Friends And Related Function Documentation</h2>
@@ -377,7 +397,7 @@ template&lt;class ACTIVE_OBJECT , class WORLD_OBJECT_TYPES , class GRID_OBJECT_T
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Grids/<a class="el" href="../../d8/dea/_grid_8h_source.html">Grid.h</a></li>
+<li><a class="el" href="../../">Grid.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -385,7 +405,7 @@ template&lt;class ACTIVE_OBJECT , class WORLD_OBJECT_TYPES , class GRID_OBJECT_T
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../da/d74/class_grid.html">Grid</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:45 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:59 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

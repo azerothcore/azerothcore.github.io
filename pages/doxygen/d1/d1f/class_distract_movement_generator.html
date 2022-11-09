@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('d1/d1f/class_distract_movement_generat
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d5/d65/_idle_movement_generator_8h_source.html">IdleMovementGenerator.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../">IdleMovementGenerator.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for DistractMovementGenerator:</div>
 <div class="dyncontent">
@@ -168,7 +168,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a8b520d8e97704ac39ce28c2256557b42"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d1f/class_distract_movement_generator.html#a8b520d8e97704ac39ce28c2256557b42">m_timer</a></td></tr>
 <tr class="separator:a8b520d8e97704ac39ce28c2256557b42"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a55879290b06f4fc86a1da791c07b7afb" name="a55879290b06f4fc86a1da791c07b7afb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a55879290b06f4fc86a1da791c07b7afb">&#9670;&#160;</a></span>DistractMovementGenerator()</h2>
 
@@ -192,7 +193,9 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   52</span>: <a class="code hl_variable" href="../../d1/d1f/class_distract_movement_generator.html#a8b520d8e97704ac39ce28c2256557b42">m_timer</a>(timer) {}</div>
+<div class="ttc" id="aclass_distract_movement_generator_html_a8b520d8e97704ac39ce28c2256557b42"><div class="ttname"><a href="../../d1/d1f/class_distract_movement_generator.html#a8b520d8e97704ac39ce28c2256557b42">DistractMovementGenerator::m_timer</a></div><div class="ttdeci">uint32 m_timer</div><div class="ttdef"><b>Definition:</b> IdleMovementGenerator.h:61</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -223,7 +226,24 @@ Private Attributes</h2></td></tr>
 <p>Implements <a class="el" href="../../d9/d70/class_movement_generator.html#aef4cf800aa06dddac4efd36e3c058d2b">MovementGenerator</a>.</p>
 
 <p>Reimplemented in <a class="el" href="../../d0/de0/class_assistance_distract_movement_generator.html#a1511f74a52e5ad92471e554eb77c235a">AssistanceDistractMovementGenerator</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   89</span>{</div>
+<div class="line"><span class="lineno">   90</span>    owner-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a0234fee1df2999bda3ca22449164f7b5">ClearUnitState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544a076b3690797658278727cb725ffaee36">UNIT_STATE_DISTRACTED</a>);</div>
+<div class="line"><span class="lineno">   91</span> </div>
+<div class="line"><span class="lineno">   92</span>    <span class="comment">// If this is a creature, then return orientation to original position (for idle movement creatures)</span></div>
+<div class="line"><span class="lineno">   93</span>    <span class="keywordflow">if</span> (owner-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">GetTypeId</a>() == <a class="code hl_enumvalue" href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2a93dfa528ffc48db4993fb7ac62696db9">TYPEID_UNIT</a> &amp;&amp; owner-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ab0e2ef1ac1daa91476f749e0ec6ad3c6">ToCreature</a>())</div>
+<div class="line"><span class="lineno">   94</span>    {</div>
+<div class="line"><span class="lineno">   95</span>        <span class="keywordtype">float</span> angle = owner-&gt;<a class="code hl_function" href="../../d8/d83/class_object.html#ab0e2ef1ac1daa91476f749e0ec6ad3c6">ToCreature</a>()-&gt;<a class="code hl_function" href="../../d1/dac/class_creature.html#a406ff2cf337ffe4dde864ecf85a6f54b">GetHomePosition</a>().GetOrientation();</div>
+<div class="line"><span class="lineno">   96</span>        owner-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a15935c3f574e8b3e72952561c75e6faf">SetFacingTo</a>(angle);</div>
+<div class="line"><span class="lineno">   97</span>    }</div>
+<div class="line"><span class="lineno">   98</span>}</div>
+<div class="ttc" id="a_object_guid_8h_html_a183c40b2ba67065929d70b3987da4cc2a93dfa528ffc48db4993fb7ac62696db9"><div class="ttname"><a href="../../d9/d83/_object_guid_8h.html#a183c40b2ba67065929d70b3987da4cc2a93dfa528ffc48db4993fb7ac62696db9">TYPEID_UNIT</a></div><div class="ttdeci">@ TYPEID_UNIT</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:37</div></div>
+<div class="ttc" id="a_unit_8h_html_ae51d2ecb71f7a5cb3882982a622c9544a076b3690797658278727cb725ffaee36"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544a076b3690797658278727cb725ffaee36">UNIT_STATE_DISTRACTED</a></div><div class="ttdeci">@ UNIT_STATE_DISTRACTED</div><div class="ttdef"><b>Definition:</b> Unit.h:337</div></div>
+<div class="ttc" id="aclass_creature_html_a406ff2cf337ffe4dde864ecf85a6f54b"><div class="ttname"><a href="../../d1/dac/class_creature.html#a406ff2cf337ffe4dde864ecf85a6f54b">Creature::GetHomePosition</a></div><div class="ttdeci">void GetHomePosition(float &amp;x, float &amp;y, float &amp;z, float &amp;ori) const</div><div class="ttdef"><b>Definition:</b> Creature.h:322</div></div>
+<div class="ttc" id="aclass_object_html_a621a345fc34deed6d3a4e1e498a652da"><div class="ttname"><a href="../../d8/d83/class_object.html#a621a345fc34deed6d3a4e1e498a652da">Object::GetTypeId</a></div><div class="ttdeci">TypeID GetTypeId() const</div><div class="ttdef"><b>Definition:</b> Object.h:121</div></div>
+<div class="ttc" id="aclass_object_html_ab0e2ef1ac1daa91476f749e0ec6ad3c6"><div class="ttname"><a href="../../d8/d83/class_object.html#ab0e2ef1ac1daa91476f749e0ec6ad3c6">Object::ToCreature</a></div><div class="ttdeci">Creature * ToCreature()</div><div class="ttdef"><b>Definition:</b> Object.h:197</div></div>
+<div class="ttc" id="aclass_unit_html_a0234fee1df2999bda3ca22449164f7b5"><div class="ttname"><a href="../../da/db7/class_unit.html#a0234fee1df2999bda3ca22449164f7b5">Unit::ClearUnitState</a></div><div class="ttdeci">void ClearUnitState(uint32 f)</div><div class="ttdef"><b>Definition:</b> Unit.h:1399</div></div>
+<div class="ttc" id="aclass_unit_html_a15935c3f574e8b3e72952561c75e6faf"><div class="ttname"><a href="../../da/db7/class_unit.html#a15935c3f574e8b3e72952561c75e6faf">Unit::SetFacingTo</a></div><div class="ttdeci">void SetFacingTo(float ori)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:20619</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a0b30745bf1cd7b5a264e970273595592" name="a0b30745bf1cd7b5a264e970273595592"></a>
@@ -252,7 +272,9 @@ Private Attributes</h2></td></tr>
 <p>Implements <a class="el" href="../../d9/d70/class_movement_generator.html#a60bac341b438ea7258986f234a952324">MovementGenerator</a>.</p>
 
 <p>Reimplemented in <a class="el" href="../../d0/de0/class_assistance_distract_movement_generator.html#a233eb9333ea365955589932ddbd18d8a">AssistanceDistractMovementGenerator</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   58</span>{ <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d8/dea/_motion_master_8h.html#a4f12806b915efea564eae942207002f9a35aa056191b760ab18515a11f00f1759">DISTRACT_MOTION_TYPE</a>; }</div>
+<div class="ttc" id="a_motion_master_8h_html_a4f12806b915efea564eae942207002f9a35aa056191b760ab18515a11f00f1759"><div class="ttname"><a href="../../d8/dea/_motion_master_8h.html#a4f12806b915efea564eae942207002f9a35aa056191b760ab18515a11f00f1759">DISTRACT_MOTION_TYPE</a></div><div class="ttdeci">@ DISTRACT_MOTION_TYPE</div><div class="ttdef"><b>Definition:</b> MotionMaster.h:48</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a71410ddbda2be6b34bb2276a83fea5c9" name="a71410ddbda2be6b34bb2276a83fea5c9"></a>
@@ -280,7 +302,18 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d9/d70/class_movement_generator.html#a0040e427ac4a09273641a96a13fd4c1f">MovementGenerator</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   80</span>{</div>
+<div class="line"><span class="lineno">   81</span>    <span class="comment">// Distracted creatures stand up if not standing</span></div>
+<div class="line"><span class="lineno">   82</span>    <span class="keywordflow">if</span> (!owner-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a66120644adf09a45c139d48d4e4dce5b">IsStandState</a>())</div>
+<div class="line"><span class="lineno">   83</span>        owner-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#aeae261b4b6d3ccacc8819ca19b4ef0cc">SetStandState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#a809d475cf0ffeaa1ddad86f73e24a7c1ae36b6864d89399e04b14123d3194e224">UNIT_STAND_STATE_STAND</a>);</div>
+<div class="line"><span class="lineno">   84</span> </div>
+<div class="line"><span class="lineno">   85</span>    owner-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#a752f5f516257bfdf139098c29a55c466">AddUnitState</a>(<a class="code hl_enumvalue" href="../../d5/d32/_unit_8h.html#ae51d2ecb71f7a5cb3882982a622c9544a076b3690797658278727cb725ffaee36">UNIT_STATE_DISTRACTED</a>);</div>
+<div class="line"><span class="lineno">   86</span>}</div>
+<div class="ttc" id="a_unit_8h_html_a809d475cf0ffeaa1ddad86f73e24a7c1ae36b6864d89399e04b14123d3194e224"><div class="ttname"><a href="../../d5/d32/_unit_8h.html#a809d475cf0ffeaa1ddad86f73e24a7c1ae36b6864d89399e04b14123d3194e224">UNIT_STAND_STATE_STAND</a></div><div class="ttdeci">@ UNIT_STAND_STATE_STAND</div><div class="ttdef"><b>Definition:</b> Unit.h:53</div></div>
+<div class="ttc" id="aclass_unit_html_a66120644adf09a45c139d48d4e4dce5b"><div class="ttname"><a href="../../da/db7/class_unit.html#a66120644adf09a45c139d48d4e4dce5b">Unit::IsStandState</a></div><div class="ttdeci">bool IsStandState() const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:16806</div></div>
+<div class="ttc" id="aclass_unit_html_a752f5f516257bfdf139098c29a55c466"><div class="ttname"><a href="../../da/db7/class_unit.html#a752f5f516257bfdf139098c29a55c466">Unit::AddUnitState</a></div><div class="ttdeci">void AddUnitState(uint32 f)</div><div class="ttdef"><b>Definition:</b> Unit.h:1397</div></div>
+<div class="ttc" id="aclass_unit_html_aeae261b4b6d3ccacc8819ca19b4ef0cc"><div class="ttname"><a href="../../da/db7/class_unit.html#aeae261b4b6d3ccacc8819ca19b4ef0cc">Unit::SetStandState</a></div><div class="ttdeci">void SetStandState(uint8 state)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:16812</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad544709b2873b63b28d27ab414c280ba" name="ad544709b2873b63b28d27ab414c280ba"></a>
@@ -308,7 +341,9 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d9/d70/class_movement_generator.html#aa6641fa1182551421fc8572afad8e083">MovementGenerator</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">   56</span>{ <a class="code hl_function" href="../../d1/d1f/class_distract_movement_generator.html#a71410ddbda2be6b34bb2276a83fea5c9">Initialize</a>(owner); }</div>
+<div class="ttc" id="aclass_distract_movement_generator_html_a71410ddbda2be6b34bb2276a83fea5c9"><div class="ttname"><a href="../../d1/d1f/class_distract_movement_generator.html#a71410ddbda2be6b34bb2276a83fea5c9">DistractMovementGenerator::Initialize</a></div><div class="ttdeci">void Initialize(Unit *) override</div><div class="ttdef"><b>Definition:</b> IdleMovementGenerator.cpp:79</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad5a15c1507b8ab315b658351077629b3" name="ad5a15c1507b8ab315b658351077629b3"></a>
@@ -346,7 +381,15 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d9/d70/class_movement_generator.html#ae3014d8c6e728799c86134ef64737ed5">MovementGenerator</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno">  101</span>{</div>
+<div class="line"><span class="lineno">  102</span>    <span class="keywordflow">if</span> (owner-&gt;<a class="code hl_function" href="../../da/db7/class_unit.html#af5e75d013dfa8a8b888d7714992e3f2a">IsInCombat</a>() || time_diff &gt; <a class="code hl_variable" href="../../d1/d1f/class_distract_movement_generator.html#a8b520d8e97704ac39ce28c2256557b42">m_timer</a>)</div>
+<div class="line"><span class="lineno">  103</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  104</span> </div>
+<div class="line"><span class="lineno">  105</span>    <a class="code hl_variable" href="../../d1/d1f/class_distract_movement_generator.html#a8b520d8e97704ac39ce28c2256557b42">m_timer</a> -= time_diff;</div>
+<div class="line"><span class="lineno">  106</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  107</span>}</div>
+<div class="ttc" id="aclass_unit_html_af5e75d013dfa8a8b888d7714992e3f2a"><div class="ttname"><a href="../../da/db7/class_unit.html#af5e75d013dfa8a8b888d7714992e3f2a">Unit::IsInCombat</a></div><div class="ttdeci">bool IsInCombat() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1685</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -373,8 +416,8 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/azerothcore-wotlk/src/server/game/Movement/MovementGenerators/<a class="el" href="../../d5/d65/_idle_movement_generator_8h_source.html">IdleMovementGenerator.h</a></li>
-<li>D:/azerothcore-wotlk/src/server/game/Movement/MovementGenerators/<a class="el" href="../../d2/d09/_idle_movement_generator_8cpp.html">IdleMovementGenerator.cpp</a></li>
+<li><a class="el" href="../../">IdleMovementGenerator.h</a></li>
+<li><a class="el" href="../../">IdleMovementGenerator.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -382,7 +425,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d1f/class_distract_movement_generator.html">DistractMovementGenerator</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:04:44 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:49:58 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

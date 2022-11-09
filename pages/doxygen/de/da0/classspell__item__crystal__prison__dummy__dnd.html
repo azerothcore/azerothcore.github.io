@@ -294,7 +294,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d13/class___spell_script.html#ae2ab4203d324b2179ad06ffdb5d8626f">m_scriptSpellId</a></td></tr>
 <tr class="separator:ae2ab4203d324b2179ad06ffdb5d8626f inherit pro_attribs_class___spell_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a074d9bf0a4522da25d6c3bb146ee62db" name="a074d9bf0a4522da25d6c3bb146ee62db"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a074d9bf0a4522da25d6c3bb146ee62db">&#9670;&#160;</a></span>HandleDummy()</h2>
 
@@ -318,7 +319,25 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno"> 2836</span>    {</div>
+<div class="line"><span class="lineno"> 2837</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/dac/class_creature.html">Creature</a>* target = <a class="code hl_function" href="../../dc/d62/class_spell_script.html#a043ed22727560e0cb812009a30f0a37a">GetHitCreature</a>())</div>
+<div class="line"><span class="lineno"> 2838</span>        {</div>
+<div class="line"><span class="lineno"> 2839</span>            <span class="keywordflow">if</span> (target-&gt;isDead() &amp;&amp; !target-&gt;IsPet())</div>
+<div class="line"><span class="lineno"> 2840</span>            {</div>
+<div class="line"><span class="lineno"> 2841</span>                <a class="code hl_function" href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">GetCaster</a>()-&gt;<a class="code hl_function" href="../../db/df7/class_world_object.html#ae5570989260234d213323c44ab5fb44c">SummonGameObject</a>(<a class="code hl_enumvalue" href="../../db/d6e/spell__item_8cpp.html#aefc6ea3dd72fc572a31cc8026d0354a6a9ba1f453a3b400a4c24f01dbf6c26452">OBJECT_IMPRISONED_DOOMGUARD</a>, target-&gt;GetPositionX(), target-&gt;GetPositionY(), target-&gt;GetPositionZ(), target-&gt;GetOrientation(), 0, 0, 0, 0, <a class="code hl_typedef" href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(target-&gt;GetRespawnTime() - <a class="code hl_function" href="../../d4/d1c/namespace_game_time.html#adbe1785d1327dedf2ac403b7cc8e99c2">GameTime::GetGameTime</a>().count()));</div>
+<div class="line"><span class="lineno"> 2842</span>                target-&gt;<a class="code hl_function" href="../../d0/dd1/class_game_object.html#aa42104cda151bf8c6c33cc98fa716f36">DespawnOrUnsummon</a>();</div>
+<div class="line"><span class="lineno"> 2843</span>            }</div>
+<div class="line"><span class="lineno"> 2844</span>        }</div>
+<div class="line"><span class="lineno"> 2845</span>    }</div>
+<div class="ttc" id="a_define_8h_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../db/d35/_define_8h.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="aclass_creature_html"><div class="ttname"><a href="../../d1/dac/class_creature.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:46</div></div>
+<div class="ttc" id="aclass_game_object_html_aa42104cda151bf8c6c33cc98fa716f36"><div class="ttname"><a href="../../d0/dd1/class_game_object.html#aa42104cda151bf8c6c33cc98fa716f36">GameObject::DespawnOrUnsummon</a></div><div class="ttdeci">void DespawnOrUnsummon(Milliseconds delay=0ms, Seconds forcedRespawnTime=0s)</div><div class="ttdef"><b>Definition:</b> GameObject.cpp:903</div></div>
+<div class="ttc" id="aclass_spell_script_html_a043ed22727560e0cb812009a30f0a37a"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a043ed22727560e0cb812009a30f0a37a">SpellScript::GetHitCreature</a></div><div class="ttdeci">Creature * GetHitCreature()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:458</div></div>
+<div class="ttc" id="aclass_spell_script_html_ae630e2d388177707e28cecd5fa5a2b48"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#ae630e2d388177707e28cecd5fa5a2b48">SpellScript::GetCaster</a></div><div class="ttdeci">Unit * GetCaster()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:401</div></div>
+<div class="ttc" id="aclass_world_object_html_ae5570989260234d213323c44ab5fb44c"><div class="ttname"><a href="../../db/df7/class_world_object.html#ae5570989260234d213323c44ab5fb44c">WorldObject::SummonGameObject</a></div><div class="ttdeci">GameObject * SummonGameObject(uint32 entry, float x, float y, float z, float ang, float rotation0, float rotation1, float rotation2, float rotation3, uint32 respawnTime, bool checkTransport=true, GOSummonType summonType=GO_SUMMON_TIMED_OR_CORPSE_DESPAWN)</div><div class="ttdef"><b>Definition:</b> Object.cpp:2315</div></div>
+<div class="ttc" id="anamespace_game_time_html_adbe1785d1327dedf2ac403b7cc8e99c2"><div class="ttname"><a href="../../d4/d1c/namespace_game_time.html#adbe1785d1327dedf2ac403b7cc8e99c2">GameTime::GetGameTime</a></div><div class="ttdeci">Seconds GetGameTime()</div><div class="ttdef"><b>Definition:</b> GameTime.cpp:38</div></div>
+<div class="ttc" id="aspell__item_8cpp_html_aefc6ea3dd72fc572a31cc8026d0354a6a9ba1f453a3b400a4c24f01dbf6c26452"><div class="ttname"><a href="../../db/d6e/spell__item_8cpp.html#aefc6ea3dd72fc572a31cc8026d0354a6a9ba1f453a3b400a4c24f01dbf6c26452">OBJECT_IMPRISONED_DOOMGUARD</a></div><div class="ttdeci">@ OBJECT_IMPRISONED_DOOMGUARD</div><div class="ttdef"><b>Definition:</b> spell_item.cpp:2821</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a3d2e0d522e49a278b7dd98150dd32808" name="a3d2e0d522e49a278b7dd98150dd32808"></a>
@@ -371,7 +390,15 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implements <a class="el" href="../../d7/d13/class___spell_script.html#ab6fed9e44aa0c11342abffd74ee5bfe1">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 2848</span>    {</div>
+<div class="line"><span class="lineno"> 2849</span>        <a class="code hl_variable" href="../../dc/d62/class_spell_script.html#a6f11356f7a28793e6053bfbc4e2dacf3">OnEffectHitTarget</a> += <a class="code hl_define" href="../../d1/df6/_spell_script_8h.html#a551b0adb8eaf82985a7e55cef0695dcb">SpellEffectFn</a>(<a class="code hl_function" href="../../de/da0/classspell__item__crystal__prison__dummy__dnd.html#a074d9bf0a4522da25d6c3bb146ee62db">spell_item_crystal_prison_dummy_dnd::HandleDummy</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a>, <a class="code hl_enumvalue" href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97a027bcdf3b42e90e7374802fe61fd776d">SPELL_EFFECT_DUMMY</a>);</div>
+<div class="line"><span class="lineno"> 2850</span>    }</div>
+<div class="ttc" id="a_shared_defines_8h_html_a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a0b4a3c2c7210e88f82b3dc3abb6e6f77ae36fda04a2c1fff26525d0c57f79a36d">EFFECT_0</a></div><div class="ttdeci">@ EFFECT_0</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:30</div></div>
+<div class="ttc" id="a_shared_defines_8h_html_a292c893150c454dd75628b719db1fe97a027bcdf3b42e90e7374802fe61fd776d"><div class="ttname"><a href="../../df/d0b/_shared_defines_8h.html#a292c893150c454dd75628b719db1fe97a027bcdf3b42e90e7374802fe61fd776d">SPELL_EFFECT_DUMMY</a></div><div class="ttdeci">@ SPELL_EFFECT_DUMMY</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:753</div></div>
+<div class="ttc" id="a_spell_script_8h_html_a551b0adb8eaf82985a7e55cef0695dcb"><div class="ttname"><a href="../../d1/df6/_spell_script_8h.html#a551b0adb8eaf82985a7e55cef0695dcb">SpellEffectFn</a></div><div class="ttdeci">#define SpellEffectFn(F, I, N)</div><div class="ttdef"><b>Definition:</b> SpellScript.h:337</div></div>
+<div class="ttc" id="aclass_spell_script_html_a6f11356f7a28793e6053bfbc4e2dacf3"><div class="ttname"><a href="../../dc/d62/class_spell_script.html#a6f11356f7a28793e6053bfbc4e2dacf3">SpellScript::OnEffectHitTarget</a></div><div class="ttdeci">HookList&lt; EffectHandler &gt; OnEffectHitTarget</div><div class="ttdef"><b>Definition:</b> SpellScript.h:336</div></div>
+<div class="ttc" id="aclassspell__item__crystal__prison__dummy__dnd_html_a074d9bf0a4522da25d6c3bb146ee62db"><div class="ttname"><a href="../../de/da0/classspell__item__crystal__prison__dummy__dnd.html#a074d9bf0a4522da25d6c3bb146ee62db">spell_item_crystal_prison_dummy_dnd::HandleDummy</a></div><div class="ttdeci">void HandleDummy(SpellEffIndex)</div><div class="ttdef"><b>Definition:</b> spell_item.cpp:2835</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="afe4b07d89f705947f77cb62d24d9430d" name="afe4b07d89f705947f77cb62d24d9430d"></a>
@@ -399,11 +426,17 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d7/d13/class___spell_script.html#a95e7862a5807bff409f13aea8306077e">_SpellScript</a>.</p>
-
+<div class="fragment"><div class="line"><span class="lineno"> 2829</span>    {</div>
+<div class="line"><span class="lineno"> 2830</span>        <span class="keywordflow">if</span> (!<a class="code hl_define" href="../../d9/d77/_object_mgr_8h.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetGameObjectTemplate(<a class="code hl_enumvalue" href="../../db/d6e/spell__item_8cpp.html#aefc6ea3dd72fc572a31cc8026d0354a6a9ba1f453a3b400a4c24f01dbf6c26452">OBJECT_IMPRISONED_DOOMGUARD</a>))</div>
+<div class="line"><span class="lineno"> 2831</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 2832</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 2833</span>    }</div>
+<div class="ttc" id="a_object_mgr_8h_html_a736e30da2b5261060ac6cdbb5de3b787"><div class="ttname"><a href="../../d9/d77/_object_mgr_8h.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a></div><div class="ttdeci">#define sObjectMgr</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:1606</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/azerothcore-wotlk/src/server/scripts/Spells/<a class="el" href="../../db/d6e/spell__item_8cpp.html">spell_item.cpp</a></li>
+<li><a class="el" href="../../">spell_item.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -411,7 +444,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../de/da0/classspell__item__crystal__prison__dummy__dnd.html">spell_item_crystal_prison_dummy_dnd</a></li>
-    <li class="footer">Generated on Wed Nov 9 2022 01:05:03 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Wed Nov 9 2022 21:50:20 for AzeorthCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>
