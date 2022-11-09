@@ -1,0 +1,28 @@
+var structboss__netherspite_1_1boss__netherspite_a_i =
+[
+    [ "boss_netherspiteAI", "d3/d3f/structboss__netherspite_1_1boss__netherspite_a_i.html#acfd0f49b960ec8cba26fecfdc365dc97", null ],
+    [ "DestroyPortals", "d3/d3f/structboss__netherspite_1_1boss__netherspite_a_i.html#a60d0354d08df584ca87938c1a0f6fd0f", null ],
+    [ "dist", "d3/d3f/structboss__netherspite_1_1boss__netherspite_a_i.html#ae69226a77e780bdf1e32e019a7c0fcbc", null ],
+    [ "EnterCombat", "d3/d3f/structboss__netherspite_1_1boss__netherspite_a_i.html#acb49c15da1519d8df0dbb3a2cf1619c4", null ],
+    [ "HandleDoors", "d3/d3f/structboss__netherspite_1_1boss__netherspite_a_i.html#ac8404071e2ab54df856a32e81d529a72", null ],
+    [ "IsBetween", "d3/d3f/structboss__netherspite_1_1boss__netherspite_a_i.html#af819bb0230cfa2a3dd74392d21517d09", null ],
+    [ "JustDied", "d3/d3f/structboss__netherspite_1_1boss__netherspite_a_i.html#a6a2662bc15d1894e0503eccedb47e09e", null ],
+    [ "Reset", "d3/d3f/structboss__netherspite_1_1boss__netherspite_a_i.html#ada8dc64980e62406befd644b85432757", null ],
+    [ "SummonPortals", "d3/d3f/structboss__netherspite_1_1boss__netherspite_a_i.html#a8ad73931fd5037ac9ba2882a30f5be74", null ],
+    [ "SwitchToBanishPhase", "d3/d3f/structboss__netherspite_1_1boss__netherspite_a_i.html#a42cad24ea0ac749010cb4eb0be3e9a00", null ],
+    [ "SwitchToPortalPhase", "d3/d3f/structboss__netherspite_1_1boss__netherspite_a_i.html#a3ab0868c4ff3e81c57058a7a1f08a42a", null ],
+    [ "UpdateAI", "d3/d3f/structboss__netherspite_1_1boss__netherspite_a_i.html#a348a99a38d9345fafcfc29a93b9aa65e", null ],
+    [ "UpdatePortals", "d3/d3f/structboss__netherspite_1_1boss__netherspite_a_i.html#ae36f467db465ceee6f677efae0fcfb89", null ],
+    [ "BeamerGUID", "d3/d3f/structboss__netherspite_1_1boss__netherspite_a_i.html#a8190a2e11ab7a5efb5f664d418503fae", null ],
+    [ "BeamTarget", "d3/d3f/structboss__netherspite_1_1boss__netherspite_a_i.html#ad43221b44e38e2b0a5a3660f76bae5a8", null ],
+    [ "Berserk", "d3/d3f/structboss__netherspite_1_1boss__netherspite_a_i.html#abcf9cf0377bcd6adb65958a1bfed82de", null ],
+    [ "EmpowermentTimer", "d3/d3f/structboss__netherspite_1_1boss__netherspite_a_i.html#a3207eef627c256a4e92c9ca07c1c5fa1", null ],
+    [ "instance", "d3/d3f/structboss__netherspite_1_1boss__netherspite_a_i.html#ae5dabee78b60098df100e8a25ced4611", null ],
+    [ "NetherbreathTimer", "d3/d3f/structboss__netherspite_1_1boss__netherspite_a_i.html#a34ae6bfb79cc0ceadf7021dd46cda4a2", null ],
+    [ "NetherInfusionTimer", "d3/d3f/structboss__netherspite_1_1boss__netherspite_a_i.html#a2a0e116812444a229b702a409d415bbc", null ],
+    [ "PhaseTimer", "d3/d3f/structboss__netherspite_1_1boss__netherspite_a_i.html#a8279a88832fd9bdb83d309bf6322985c", null ],
+    [ "PortalGUID", "d3/d3f/structboss__netherspite_1_1boss__netherspite_a_i.html#affe7ba7fac5656f00a13ceec8011813d", null ],
+    [ "PortalPhase", "d3/d3f/structboss__netherspite_1_1boss__netherspite_a_i.html#a7bd6100809ac2f2573fd3144903742db", null ],
+    [ "PortalTimer", "d3/d3f/structboss__netherspite_1_1boss__netherspite_a_i.html#a9e4ad15a2d06ddb97101a96929ca0b6a", null ],
+    [ "VoidZoneTimer", "d3/d3f/structboss__netherspite_1_1boss__netherspite_a_i.html#a70c6b2305eb8e03691eb1b2a9b8423a3", null ]
+];

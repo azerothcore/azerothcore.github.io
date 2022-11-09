@@ -1,0 +1,6 @@
+var classspell__blood__queen__presence__of__the__darkfallen_1_1spell__blood__queen__presence__of__the__darkfallen___spell_script =
+[
+    [ "HandleScript", "d2/d5e/classspell__blood__queen__presence__of__the__darkfallen_1_1spell__blood__queen__presence__of__the__darkfallen___spell_script.html#a3ab626967e5e3984225cd7a7f4478468", null ],
+    [ "PrepareSpellScript", "d2/d5e/classspell__blood__queen__presence__of__the__darkfallen_1_1spell__blood__queen__presence__of__the__darkfallen___spell_script.html#aac7a680febc654701d54960f7bbf1699", null ],
+    [ "Register", "d2/d5e/classspell__blood__queen__presence__of__the__darkfallen_1_1spell__blood__queen__presence__of__the__darkfallen___spell_script.html#a298a9c0d0fda14df81a1ec559bab71ad", null ]
+];
