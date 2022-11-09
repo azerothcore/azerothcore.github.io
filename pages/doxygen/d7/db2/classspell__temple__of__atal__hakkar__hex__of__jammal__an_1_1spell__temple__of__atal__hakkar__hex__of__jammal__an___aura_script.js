@@ -1,0 +1,6 @@
+var classspell__temple__of__atal__hakkar__hex__of__jammal__an_1_1spell__temple__of__atal__hakkar__hex__of__jammal__an___aura_script =
+[
+    [ "OnRemove", "d7/db2/classspell__temple__of__atal__hakkar__hex__of__jammal__an_1_1spell__temple__of__atal__hakkar__hex__of__jammal__an___aura_script.html#aa1cf7727c57d5b6a1968bafcdef63113", null ],
+    [ "PrepareAuraScript", "d7/db2/classspell__temple__of__atal__hakkar__hex__of__jammal__an_1_1spell__temple__of__atal__hakkar__hex__of__jammal__an___aura_script.html#a1139466be6e4391d1f488d3f56758b2c", null ],
+    [ "Register", "d7/db2/classspell__temple__of__atal__hakkar__hex__of__jammal__an_1_1spell__temple__of__atal__hakkar__hex__of__jammal__an___aura_script.html#a6ff95222d980c659653116f560ec2b80", null ]
+];

@@ -1,0 +1,28 @@
+var structboss__razorscale_1_1boss__razorscale_a_i =
+[
+    [ "boss_razorscaleAI", "dd/d6b/structboss__razorscale_1_1boss__razorscale_a_i.html#ab7675cd43308d3c8b94eeca6eb89b5cb", null ],
+    [ "AttackStart", "dd/d6b/structboss__razorscale_1_1boss__razorscale_a_i.html#ad281280a12b6643ff0697b8d0b33c3f8", null ],
+    [ "DamageTaken", "dd/d6b/structboss__razorscale_1_1boss__razorscale_a_i.html#a9dcc80f9d2ea5f4775810dc162ac6bc9", null ],
+    [ "EnterCombat", "dd/d6b/structboss__razorscale_1_1boss__razorscale_a_i.html#ad52fd37dac76934ed8d90ef921b2a198", null ],
+    [ "EnterEvadeMode", "dd/d6b/structboss__razorscale_1_1boss__razorscale_a_i.html#a50883ae190fdfd46741aea8a94979410", null ],
+    [ "GetData", "dd/d6b/structboss__razorscale_1_1boss__razorscale_a_i.html#ab84075a936809baf26012a0394800c3f", null ],
+    [ "InitializeAI", "dd/d6b/structboss__razorscale_1_1boss__razorscale_a_i.html#ad4b63a06118ab7e42d24472934ce2ba0", null ],
+    [ "JustDied", "dd/d6b/structboss__razorscale_1_1boss__razorscale_a_i.html#a5a5b44268cbce32fd17fbb6b6a45d831", null ],
+    [ "JustReachedHome", "dd/d6b/structboss__razorscale_1_1boss__razorscale_a_i.html#a7ec2cacb11fae5612370b29abc2fcd21", null ],
+    [ "JustSummoned", "dd/d6b/structboss__razorscale_1_1boss__razorscale_a_i.html#ac93176401f20a403c8531045965ac86c", null ],
+    [ "KilledUnit", "dd/d6b/structboss__razorscale_1_1boss__razorscale_a_i.html#a09e8978f107b0cd96096f9546984cfb2", null ],
+    [ "MoveInLineOfSight", "dd/d6b/structboss__razorscale_1_1boss__razorscale_a_i.html#afd0ae4b42713025f7f87e522249dad85", null ],
+    [ "MovementInform", "dd/d6b/structboss__razorscale_1_1boss__razorscale_a_i.html#a22a2c951ed4cec3c8865c99d837b97be", null ],
+    [ "Reset", "dd/d6b/structboss__razorscale_1_1boss__razorscale_a_i.html#adb797a39e30e8ca75eb6ef4d3e14c814", null ],
+    [ "SpellHit", "dd/d6b/structboss__razorscale_1_1boss__razorscale_a_i.html#a3b41060477d92a06e66446e4d63437c8", null ],
+    [ "UpdateAI", "dd/d6b/structboss__razorscale_1_1boss__razorscale_a_i.html#ab288ade9a17929fa7463721932e41c8d", null ],
+    [ "bGroundPhase", "dd/d6b/structboss__razorscale_1_1boss__razorscale_a_i.html#a150411c707fdd94619ca67db6c428ca3", null ],
+    [ "CommanderGUID", "dd/d6b/structboss__razorscale_1_1boss__razorscale_a_i.html#a38f5e560d24717030e8ee755f10b484b", null ],
+    [ "cords", "dd/d6b/structboss__razorscale_1_1boss__razorscale_a_i.html#a5cf071dc764dff1b710efd72a718454e", null ],
+    [ "events", "dd/d6b/structboss__razorscale_1_1boss__razorscale_a_i.html#ab67bf8ff144f42bd99876ec031288ff3", null ],
+    [ "ExpeditionEngineerGUIDs", "dd/d6b/structboss__razorscale_1_1boss__razorscale_a_i.html#ab5de17b2186e27faa1bd7846f6e75940", null ],
+    [ "flyTimes", "dd/d6b/structboss__razorscale_1_1boss__razorscale_a_i.html#aa66ecf253f3c10f1549c08da5727d710", null ],
+    [ "pInstance", "dd/d6b/structboss__razorscale_1_1boss__razorscale_a_i.html#a1c2b35438f0cc9cfc8b6fe306b7dbbd1", null ],
+    [ "startPath", "dd/d6b/structboss__razorscale_1_1boss__razorscale_a_i.html#a1e07d9184b25fa836c4b17d6626a17fc", null ],
+    [ "summons", "dd/d6b/structboss__razorscale_1_1boss__razorscale_a_i.html#a392e92bec13ba5fcca29a4bcf6119989", null ]
+];

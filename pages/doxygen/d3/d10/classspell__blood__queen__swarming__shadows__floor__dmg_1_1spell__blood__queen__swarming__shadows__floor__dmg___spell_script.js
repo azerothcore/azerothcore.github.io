@@ -1,0 +1,6 @@
+var classspell__blood__queen__swarming__shadows__floor__dmg_1_1spell__blood__queen__swarming__shadows__floor__dmg___spell_script =
+[
+    [ "FilterTargets", "d3/d10/classspell__blood__queen__swarming__shadows__floor__dmg_1_1spell__blood__queen__swarming__shadows__floor__dmg___spell_script.html#acebb31c92ea748388394b10430bceb88", null ],
+    [ "PrepareSpellScript", "d3/d10/classspell__blood__queen__swarming__shadows__floor__dmg_1_1spell__blood__queen__swarming__shadows__floor__dmg___spell_script.html#aef7b9e0aa0b802b22ee638d00bade5e4", null ],
+    [ "Register", "d3/d10/classspell__blood__queen__swarming__shadows__floor__dmg_1_1spell__blood__queen__swarming__shadows__floor__dmg___spell_script.html#a06f2844ef7b8120b0821c15693713aec", null ]
+];

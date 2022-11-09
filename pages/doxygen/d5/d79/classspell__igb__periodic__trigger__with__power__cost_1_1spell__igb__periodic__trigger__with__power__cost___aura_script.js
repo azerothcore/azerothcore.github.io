@@ -1,0 +1,6 @@
+var classspell__igb__periodic__trigger__with__power__cost_1_1spell__igb__periodic__trigger__with__power__cost___aura_script =
+[
+    [ "HandlePeriodicTick", "d5/d79/classspell__igb__periodic__trigger__with__power__cost_1_1spell__igb__periodic__trigger__with__power__cost___aura_script.html#a6604da6d3f20a03d33ed87eb3d1f9d6f", null ],
+    [ "PrepareAuraScript", "d5/d79/classspell__igb__periodic__trigger__with__power__cost_1_1spell__igb__periodic__trigger__with__power__cost___aura_script.html#af8c146d092873169283f6c15510b16d8", null ],
+    [ "Register", "d5/d79/classspell__igb__periodic__trigger__with__power__cost_1_1spell__igb__periodic__trigger__with__power__cost___aura_script.html#adae30afe7c6948fcfbe516c291d08c52", null ]
+];

@@ -1,0 +1,6 @@
+var classspell__the__lich__king__vile__spirit__damage__target__search_1_1spell__the__lich__king__vil4e6f5879488486e8f3e61a9a11d7c8f3 =
+[
+    [ "CheckTargetCount", "de/da2/classspell__the__lich__king__vile__spirit__damage__target__search_1_1spell__the__lich__king__vil4e6f5879488486e8f3e61a9a11d7c8f3.html#aed08a9a157d0f7c7c13ecabf9405475c", null ],
+    [ "PrepareSpellScript", "de/da2/classspell__the__lich__king__vile__spirit__damage__target__search_1_1spell__the__lich__king__vil4e6f5879488486e8f3e61a9a11d7c8f3.html#a91a20a6c1d3403aa695e42df910ca11a", null ],
+    [ "Register", "de/da2/classspell__the__lich__king__vile__spirit__damage__target__search_1_1spell__the__lich__king__vil4e6f5879488486e8f3e61a9a11d7c8f3.html#ac72384e8323280a8e027d2b7ad07d2ec", null ]
+];
