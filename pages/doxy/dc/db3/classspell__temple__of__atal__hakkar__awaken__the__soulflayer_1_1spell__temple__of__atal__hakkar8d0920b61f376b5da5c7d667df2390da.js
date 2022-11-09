@@ -1,6 +1,0 @@
-var classspell__temple__of__atal__hakkar__awaken__the__soulflayer_1_1spell__temple__of__atal__hakkar8d0920b61f376b5da5c7d667df2390da =
-[
-    [ "HandleSendEvent", "dc/db3/classspell__temple__of__atal__hakkar__awaken__the__soulflayer_1_1spell__temple__of__atal__hakkar8d0920b61f376b5da5c7d667df2390da.html#a0bc3c3995f8b66bf2f7ff39713b58cf1", null ],
-    [ "PrepareSpellScript", "dc/db3/classspell__temple__of__atal__hakkar__awaken__the__soulflayer_1_1spell__temple__of__atal__hakkar8d0920b61f376b5da5c7d667df2390da.html#a8535dcbf13fe48e8116258b8a572b692", null ],
-    [ "Register", "dc/db3/classspell__temple__of__atal__hakkar__awaken__the__soulflayer_1_1spell__temple__of__atal__hakkar8d0920b61f376b5da5c7d667df2390da.html#a8a5eef284845d7a4d76994c7a78b8d7d", null ]
-];

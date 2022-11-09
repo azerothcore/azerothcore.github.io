@@ -1,7 +1,0 @@
-var classspell__blood__queen__pact__of__the__darkfallen__dmg_1_1spell__blood__queen__pact__of__the__darkfallen__dmg___aura_script =
-[
-    [ "PeriodicTick", "d0/d53/classspell__blood__queen__pact__of__the__darkfallen__dmg_1_1spell__blood__queen__pact__of__the__darkfallen__dmg___aura_script.html#a298499e2906e5d5510d013bf863151c5", null ],
-    [ "PrepareAuraScript", "d0/d53/classspell__blood__queen__pact__of__the__darkfallen__dmg_1_1spell__blood__queen__pact__of__the__darkfallen__dmg___aura_script.html#abcf85deb3769ec92e0ef863450af0f9f", null ],
-    [ "Register", "d0/d53/classspell__blood__queen__pact__of__the__darkfallen__dmg_1_1spell__blood__queen__pact__of__the__darkfallen__dmg___aura_script.html#a65f8888efc74b2e465270b51e6faea86", null ],
-    [ "Validate", "d0/d53/classspell__blood__queen__pact__of__the__darkfallen__dmg_1_1spell__blood__queen__pact__of__the__darkfallen__dmg___aura_script.html#a9b97495321491d304bda48f4737aedd2", null ]
-];

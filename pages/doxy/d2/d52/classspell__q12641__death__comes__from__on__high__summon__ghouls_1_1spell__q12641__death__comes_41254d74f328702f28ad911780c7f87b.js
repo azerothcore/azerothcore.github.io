@@ -1,6 +1,0 @@
-var classspell__q12641__death__comes__from__on__high__summon__ghouls_1_1spell__q12641__death__comes_41254d74f328702f28ad911780c7f87b =
-[
-    [ "HandleScriptEffect", "d2/d52/classspell__q12641__death__comes__from__on__high__summon__ghouls_1_1spell__q12641__death__comes_41254d74f328702f28ad911780c7f87b.html#a7b8314c8833ba7160a8ee33c5136841c", null ],
-    [ "PrepareSpellScript", "d2/d52/classspell__q12641__death__comes__from__on__high__summon__ghouls_1_1spell__q12641__death__comes_41254d74f328702f28ad911780c7f87b.html#ad75019d30081514a4ab3b6301177bb06", null ],
-    [ "Register", "d2/d52/classspell__q12641__death__comes__from__on__high__summon__ghouls_1_1spell__q12641__death__comes_41254d74f328702f28ad911780c7f87b.html#a8aeba569703c51b96910952db7af2bda", null ]
-];

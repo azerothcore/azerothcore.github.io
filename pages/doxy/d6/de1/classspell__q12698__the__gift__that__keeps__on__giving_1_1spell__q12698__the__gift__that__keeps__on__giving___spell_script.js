@@ -1,6 +1,0 @@
-var classspell__q12698__the__gift__that__keeps__on__giving_1_1spell__q12698__the__gift__that__keeps__on__giving___spell_script =
-[
-    [ "HandleScriptEffect", "d6/de1/classspell__q12698__the__gift__that__keeps__on__giving_1_1spell__q12698__the__gift__that__keeps__on__giving___spell_script.html#a7cf04c61085396f886ff7b9c80ed7c7f", null ],
-    [ "PrepareSpellScript", "d6/de1/classspell__q12698__the__gift__that__keeps__on__giving_1_1spell__q12698__the__gift__that__keeps__on__giving___spell_script.html#a9bf6f10616ef03a70639d2d0d4503c2e", null ],
-    [ "Register", "d6/de1/classspell__q12698__the__gift__that__keeps__on__giving_1_1spell__q12698__the__gift__that__keeps__on__giving___spell_script.html#aa8c07d4d88480b16993ca87d746978e1", null ]
-];

@@ -1,8 +1,0 @@
-var classspell__serpentshrine__cavern__serpentshrine__parasite__trigger =
-[
-    [ "spell_serpentshrine_cavern_serpentshrine_parasite_trigger_AuraScript", "dd/daf/classspell__serpentshrine__cavern__serpentshrine__parasite__trigger_1_1spell__serpentshrine__cava7e70024b1848a8a87c2e497a241717f.html", "dd/daf/classspell__serpentshrine__cavern__serpentshrine__parasite__trigger_1_1spell__serpentshrine__cava7e70024b1848a8a87c2e497a241717f" ],
-    [ "spell_serpentshrine_cavern_serpentshrine_parasite_trigger_SpellScript", "df/d18/classspell__serpentshrine__cavern__serpentshrine__parasite__trigger_1_1spell__serpentshrine__cavc3752e55638d5e143d81f9f4879c3e23.html", "df/d18/classspell__serpentshrine__cavern__serpentshrine__parasite__trigger_1_1spell__serpentshrine__cavc3752e55638d5e143d81f9f4879c3e23" ],
-    [ "spell_serpentshrine_cavern_serpentshrine_parasite_trigger", "db/db2/classspell__serpentshrine__cavern__serpentshrine__parasite__trigger.html#aba3d643edb1c21dd7217328534d6e0c4", null ],
-    [ "GetAuraScript", "db/db2/classspell__serpentshrine__cavern__serpentshrine__parasite__trigger.html#ad2fedc8903b81b2aa5d78be2f4bcb854", null ],
-    [ "GetSpellScript", "db/db2/classspell__serpentshrine__cavern__serpentshrine__parasite__trigger.html#ad2e1735d6d905613c79b6906ffed2b99", null ]
-];

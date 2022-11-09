@@ -1,7 +1,0 @@
-var classspell__faction__champion__warl__unstable__affliction_1_1spell__faction__champion__warl__unstable__affliction___aura_script =
-[
-    [ "HandleDispel", "d7/d0f/classspell__faction__champion__warl__unstable__affliction_1_1spell__faction__champion__warl__unstable__affliction___aura_script.html#ab720416f0497b4ad827208e186afd79a", null ],
-    [ "PrepareAuraScript", "d7/d0f/classspell__faction__champion__warl__unstable__affliction_1_1spell__faction__champion__warl__unstable__affliction___aura_script.html#a2f79b7869018b4a775c64c8d985d4a0c", null ],
-    [ "Register", "d7/d0f/classspell__faction__champion__warl__unstable__affliction_1_1spell__faction__champion__warl__unstable__affliction___aura_script.html#a26c918009fa3a3cf8b0145c2d2812588", null ],
-    [ "Validate", "d7/d0f/classspell__faction__champion__warl__unstable__affliction_1_1spell__faction__champion__warl__unstable__affliction___aura_script.html#a37964b313e11c1e14a7df4a1acb18c10", null ]
-];
