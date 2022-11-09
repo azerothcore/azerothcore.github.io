@@ -1,0 +1,47 @@
+var boss__shade__of__aran_8cpp =
+[
+    [ "boss_shade_of_aran", "d4/d9c/classboss__shade__of__aran.html", "d4/d9c/classboss__shade__of__aran" ],
+    [ "boss_shade_of_aran::boss_aranAI", "d4/d85/structboss__shade__of__aran_1_1boss__aran_a_i.html", "d4/d85/structboss__shade__of__aran_1_1boss__aran_a_i" ],
+    [ "npc_aran_elemental", "df/d6a/classnpc__aran__elemental.html", "df/d6a/classnpc__aran__elemental" ],
+    [ "npc_aran_elemental::water_elementalAI", "d6/d19/structnpc__aran__elemental_1_1water__elemental_a_i.html", "d6/d19/structnpc__aran__elemental_1_1water__elemental_a_i" ],
+    [ "ShadeOfAran", "db/dde/boss__shade__of__aran_8cpp.html#a6e64648088fc7b5a246d79ceeff6cf1f", [
+      [ "SAY_AGGRO", "db/dde/boss__shade__of__aran_8cpp.html#a6e64648088fc7b5a246d79ceeff6cf1fa47c752fff069f3e55065795eef2a9bfe", null ],
+      [ "SAY_FLAMEWREATH", "db/dde/boss__shade__of__aran_8cpp.html#a6e64648088fc7b5a246d79ceeff6cf1faa0460452a242debad050d40b6bfe9f74", null ],
+      [ "SAY_BLIZZARD", "db/dde/boss__shade__of__aran_8cpp.html#a6e64648088fc7b5a246d79ceeff6cf1fac0397b420457a32d95de3577c6b602f6", null ],
+      [ "SAY_EXPLOSION", "db/dde/boss__shade__of__aran_8cpp.html#a6e64648088fc7b5a246d79ceeff6cf1fafd47647585e59de3d6cbd16de23e1520", null ],
+      [ "SAY_DRINK", "db/dde/boss__shade__of__aran_8cpp.html#a6e64648088fc7b5a246d79ceeff6cf1faf1d515f4710cd72eeb0772c278c9a4c9", null ],
+      [ "SAY_ELEMENTALS", "db/dde/boss__shade__of__aran_8cpp.html#a6e64648088fc7b5a246d79ceeff6cf1fa8eadef2b50e03c873c9774037c91cb9e", null ],
+      [ "SAY_KILL", "db/dde/boss__shade__of__aran_8cpp.html#a6e64648088fc7b5a246d79ceeff6cf1fa7f4f26c3b97b953fd229ac5d308024d5", null ],
+      [ "SAY_TIMEOVER", "db/dde/boss__shade__of__aran_8cpp.html#a6e64648088fc7b5a246d79ceeff6cf1fab3cd6d8263738d9533b730581a3c44c8", null ],
+      [ "SAY_DEATH", "db/dde/boss__shade__of__aran_8cpp.html#a6e64648088fc7b5a246d79ceeff6cf1fa04c962d9b6aaafde54ff92a54369135e", null ],
+      [ "SPELL_FROSTBOLT", "db/dde/boss__shade__of__aran_8cpp.html#a6e64648088fc7b5a246d79ceeff6cf1fa1c6a7f86c2818960d6f6f23a4554e39e", null ],
+      [ "SPELL_FIREBALL", "db/dde/boss__shade__of__aran_8cpp.html#a6e64648088fc7b5a246d79ceeff6cf1fa846055c995374082714483a6b39bc963", null ],
+      [ "SPELL_ARCMISSLE", "db/dde/boss__shade__of__aran_8cpp.html#a6e64648088fc7b5a246d79ceeff6cf1fa45263914aaf481fa3a0bfd8fd8bdcafc", null ],
+      [ "SPELL_CHAINSOFICE", "db/dde/boss__shade__of__aran_8cpp.html#a6e64648088fc7b5a246d79ceeff6cf1fa0b33e390228cb1d719203989d0810230", null ],
+      [ "SPELL_DRAGONSBREATH", "db/dde/boss__shade__of__aran_8cpp.html#a6e64648088fc7b5a246d79ceeff6cf1fabe35665c5a9d42b0760566bde7c1a031", null ],
+      [ "SPELL_MASSSLOW", "db/dde/boss__shade__of__aran_8cpp.html#a6e64648088fc7b5a246d79ceeff6cf1fa9138d99bbf0dad56fa1e2acc8c420e60", null ],
+      [ "SPELL_FLAME_WREATH", "db/dde/boss__shade__of__aran_8cpp.html#a6e64648088fc7b5a246d79ceeff6cf1fa82d03a2cc5f42fd2a63d18c931417c7c", null ],
+      [ "SPELL_AOE_CS", "db/dde/boss__shade__of__aran_8cpp.html#a6e64648088fc7b5a246d79ceeff6cf1fa6124ed4ab4e18594cdb528e94aa639ed", null ],
+      [ "SPELL_PLAYERPULL", "db/dde/boss__shade__of__aran_8cpp.html#a6e64648088fc7b5a246d79ceeff6cf1fa50428a1832ed1de935df5eedcf858f6f", null ],
+      [ "SPELL_AEXPLOSION", "db/dde/boss__shade__of__aran_8cpp.html#a6e64648088fc7b5a246d79ceeff6cf1faa98f360071ce1342920e536bae9b19b2", null ],
+      [ "SPELL_MASS_POLY", "db/dde/boss__shade__of__aran_8cpp.html#a6e64648088fc7b5a246d79ceeff6cf1fac2d5c0610e3dfaceada66179753b0313", null ],
+      [ "SPELL_BLINK_CENTER", "db/dde/boss__shade__of__aran_8cpp.html#a6e64648088fc7b5a246d79ceeff6cf1faa73d015d2d06a48402c3f38cd6e4ecba", null ],
+      [ "SPELL_ELEMENTALS", "db/dde/boss__shade__of__aran_8cpp.html#a6e64648088fc7b5a246d79ceeff6cf1fa19cd12ca7f7b4fa098010aede50ef04b", null ],
+      [ "SPELL_CONJURE", "db/dde/boss__shade__of__aran_8cpp.html#a6e64648088fc7b5a246d79ceeff6cf1fa972d9372cae5366593c346b0e19a1d29", null ],
+      [ "SPELL_DRINK", "db/dde/boss__shade__of__aran_8cpp.html#a6e64648088fc7b5a246d79ceeff6cf1fa14d7769fc60a7bb1b489145b8494f966", null ],
+      [ "SPELL_POTION", "db/dde/boss__shade__of__aran_8cpp.html#a6e64648088fc7b5a246d79ceeff6cf1faf8f86645660d2627c607d89cf9f79cc1", null ],
+      [ "SPELL_AOE_PYROBLAST", "db/dde/boss__shade__of__aran_8cpp.html#a6e64648088fc7b5a246d79ceeff6cf1faa011a504869822c7f44bc07ff8947384", null ],
+      [ "SPELL_CIRCULAR_BLIZZARD", "db/dde/boss__shade__of__aran_8cpp.html#a6e64648088fc7b5a246d79ceeff6cf1fafb2977a0c971ef2d8cf59d92278c8cb9", null ],
+      [ "SPELL_WATERBOLT", "db/dde/boss__shade__of__aran_8cpp.html#a6e64648088fc7b5a246d79ceeff6cf1fa1c24a9da48685f3b699190f5d7b68d56", null ],
+      [ "SPELL_SHADOW_PYRO", "db/dde/boss__shade__of__aran_8cpp.html#a6e64648088fc7b5a246d79ceeff6cf1fadf2b71d4639d8d9d3509193aecef9319", null ],
+      [ "CREATURE_WATER_ELEMENTAL", "db/dde/boss__shade__of__aran_8cpp.html#a6e64648088fc7b5a246d79ceeff6cf1faacb4fed89b118c50d591ba8e574bd752", null ],
+      [ "CREATURE_SHADOW_OF_ARAN", "db/dde/boss__shade__of__aran_8cpp.html#a6e64648088fc7b5a246d79ceeff6cf1fa8ab4134634bf6c386eb5c09c04a991c9", null ],
+      [ "CREATURE_ARAN_BLIZZARD", "db/dde/boss__shade__of__aran_8cpp.html#a6e64648088fc7b5a246d79ceeff6cf1fa65b98ae6652e112c5eadee2733f1ff47", null ]
+    ] ],
+    [ "SuperSpell", "db/dde/boss__shade__of__aran_8cpp.html#a13de39ada9b9244fafa537fb0cdba8dd", [
+      [ "SUPER_FLAME", "db/dde/boss__shade__of__aran_8cpp.html#a13de39ada9b9244fafa537fb0cdba8dda731300d55e294f9fc40d8bc5e2bd7a55", null ],
+      [ "SUPER_BLIZZARD", "db/dde/boss__shade__of__aran_8cpp.html#a13de39ada9b9244fafa537fb0cdba8ddad5fe85bcf673fc6b49dca1275a953383", null ],
+      [ "SUPER_AE", "db/dde/boss__shade__of__aran_8cpp.html#a13de39ada9b9244fafa537fb0cdba8dda56e3a3f46b3461af29f9f045686dfe5f", null ]
+    ] ],
+    [ "AddSC_boss_shade_of_aran", "db/dde/boss__shade__of__aran_8cpp.html#a10351afe91f93fd858a2a105bb645a27", null ]
+];
