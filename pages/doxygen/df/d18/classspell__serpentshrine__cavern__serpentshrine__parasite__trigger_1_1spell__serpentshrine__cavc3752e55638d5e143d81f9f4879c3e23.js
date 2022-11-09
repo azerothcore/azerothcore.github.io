@@ -1,0 +1,6 @@
+var classspell__serpentshrine__cavern__serpentshrine__parasite__trigger_1_1spell__serpentshrine__cavc3752e55638d5e143d81f9f4879c3e23 =
+[
+    [ "HandleApplyAura", "df/d18/classspell__serpentshrine__cavern__serpentshrine__parasite__trigger_1_1spell__serpentshrine__cavc3752e55638d5e143d81f9f4879c3e23.html#a030a2147851b74042241b0403f04ffe7", null ],
+    [ "PrepareSpellScript", "df/d18/classspell__serpentshrine__cavern__serpentshrine__parasite__trigger_1_1spell__serpentshrine__cavc3752e55638d5e143d81f9f4879c3e23.html#aed01a25d5e913331f3c76c72e3ed8bef", null ],
+    [ "Register", "df/d18/classspell__serpentshrine__cavern__serpentshrine__parasite__trigger_1_1spell__serpentshrine__cavc3752e55638d5e143d81f9f4879c3e23.html#a7d4abb7cb05aa8253d02a67073423482", null ]
+];

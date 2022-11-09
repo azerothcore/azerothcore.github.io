@@ -1,0 +1,6 @@
+var classspell__the__lich__king__teleport__to__frostmourne__hc_1_1spell__the__lich__king__teleport__dd2379c24d88f4495def6b00a0d7b915 =
+[
+    [ "ModDest", "d7/df0/classspell__the__lich__king__teleport__to__frostmourne__hc_1_1spell__the__lich__king__teleport__dd2379c24d88f4495def6b00a0d7b915.html#abea9a7a54610d72c87d05e2ad1a806ca", null ],
+    [ "PrepareSpellScript", "d7/df0/classspell__the__lich__king__teleport__to__frostmourne__hc_1_1spell__the__lich__king__teleport__dd2379c24d88f4495def6b00a0d7b915.html#a4164b92f03eed302f77bbd51f65df599", null ],
+    [ "Register", "d7/df0/classspell__the__lich__king__teleport__to__frostmourne__hc_1_1spell__the__lich__king__teleport__dd2379c24d88f4495def6b00a0d7b915.html#a16048cb0eacd5486db5fdcd96422d13c", null ]
+];
