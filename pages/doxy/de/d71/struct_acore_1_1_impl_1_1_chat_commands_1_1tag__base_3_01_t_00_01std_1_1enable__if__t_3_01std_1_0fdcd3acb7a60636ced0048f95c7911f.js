@@ -1,0 +1,4 @@
+var struct_acore_1_1_impl_1_1_chat_commands_1_1tag__base_3_01_t_00_01std_1_1enable__if__t_3_01std_1_0fdcd3acb7a60636ced0048f95c7911f =
+[
+    [ "type", "de/d71/struct_acore_1_1_impl_1_1_chat_commands_1_1tag__base_3_01_t_00_01std_1_1enable__if__t_3_01std_1_0fdcd3acb7a60636ced0048f95c7911f.html#a20bf3321a2bb91eead362115f5c9bcc7", null ]
+];
